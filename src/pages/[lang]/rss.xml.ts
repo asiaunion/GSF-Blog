@@ -4,8 +4,16 @@ import { getPath } from "@/utils/getPath";
 import getSortedPosts from "@/utils/getSortedPosts";
 import { SITE } from "@/config";
 
-export async function GET() {
-  const posts = await getCollection("blog");
+export function getStaticPaths() {
+  return [
+    { params: { lang: "en" } },
+    { params: { lang: "ko" } },
+    { params: { lang: "ja" } },
+  ];
+}
+
+export async function GET({ params }: any) {
+  const posts = await getCollection("blog", ({ id }) => id.startsWith(`${params.lang}/`));
   const sortedPosts = getSortedPosts(posts);
   return rss({
     title: SITE.title,

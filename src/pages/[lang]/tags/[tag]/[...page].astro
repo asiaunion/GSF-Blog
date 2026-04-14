@@ -13,15 +13,20 @@ import { SITE } from "@/config";
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   const posts = await getCollection("blog");
-  const tags = getUniqueTags(posts);
+  const locales = ["en", "ko", "ja"];
 
-  return tags.flatMap(({ tag, tagName }) => {
-    const tagPosts = getPostsByTag(posts, tag);
+  return locales.flatMap(lang => {
+    const langPosts = posts.filter(post => post.id.startsWith(`${lang}/`));
+    const tags = getUniqueTags(langPosts);
 
-    return paginate(tagPosts, {
-      params: { tag },
-      props: { tagName },
-      pageSize: SITE.postPerPage,
+    return tags.flatMap(({ tag, tagName }) => {
+      const tagPosts = getPostsByTag(langPosts, tag);
+
+      return paginate(tagPosts, {
+        params: { lang, tag },
+        props: { tagName },
+        pageSize: SITE.postPerPage,
+      });
     });
   });
 }

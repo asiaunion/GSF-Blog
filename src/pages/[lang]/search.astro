@@ -1,4 +1,11 @@
 ---
+export function getStaticPaths() {
+  return [
+    { params: { lang: "en" } },
+    { params: { lang: "ko" } },
+    { params: { lang: "ja" } },
+  ];
+}
 import "@pagefind/default-ui/css/ui.css";
 import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
