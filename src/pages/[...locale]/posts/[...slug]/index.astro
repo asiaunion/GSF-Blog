@@ -27,7 +27,8 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { lang } = Astro.params;
+const { locale } = Astro.params;
+const lang = locale || "en";
 
 const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
 const sortedPosts = getSortedPosts(posts);

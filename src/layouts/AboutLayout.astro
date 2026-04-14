@@ -6,7 +6,11 @@ import Breadcrumb from "@/components/Breadcrumb.astro";
 import Layout from "./Layout.astro";
 import { SITE } from "@/config";
 
-type Props = MarkdownLayoutProps<{ title: string }>;
+export interface Props {
+  frontmatter: {
+    title: string;
+  };
+}
 
 const { frontmatter } = Astro.props;
 ---
