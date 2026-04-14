@@ -19,7 +19,7 @@ export async function getStaticPaths() {
     return langPosts.map(post => ({
       params: { 
         locale: locale === "en" ? undefined : locale, 
-        slug: getPath(post.id, post.filePath, false).split('/').slice(1).join('/') || undefined
+        slug: post.id.substring(lang.length + 1) || undefined
       },
       props: { post },
     }));
