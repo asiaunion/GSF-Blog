@@ -1,14 +1,23 @@
 ---
 import { getCollection } from "astro:content";
-import Main from "@/layouts/Main.astro";
-import Layout from "@/layouts/Layout.astro";
-import Tag from "@/components/Tag.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import Tag from "@/components/Tag.astro";
 import getUniqueTags from "@/utils/getUniqueTags";
 import { SITE } from "@/config";
 
-const posts = await getCollection("blog");
+export function getStaticPaths() {
+  return [
+    { params: { lang: "en" } },
+    { params: { lang: "ko" } },
+    { params: { lang: "ja" } },
+  ];
+}
+
+const { lang } = Astro.params;
+const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
 
 let tags = getUniqueTags(posts);
 ---

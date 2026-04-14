@@ -11,7 +11,10 @@ type Props = {
 export async function getStaticPaths() {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
   const postResult = posts.map(post => ({
-    params: { slug: getPath(post.id, post.filePath, false) },
+    params: { 
+      lang: post.id.split('/')[0], 
+      slug: getPath(post.id, post.filePath, false).split('/').slice(1).join('/') || undefined
+    },
     props: { post },
   }));
 
@@ -19,8 +22,9 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
+const { lang } = Astro.params;
 
-const posts = await getCollection("blog");
+const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
 const sortedPosts = getSortedPosts(posts);
 ---
 

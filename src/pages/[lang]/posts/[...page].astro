@@ -12,7 +12,15 @@ import { SITE } from "@/config";
 
 export const getStaticPaths = (async ({ paginate }) => {
   const posts = await getCollection("blog", ({ data }) => !data.draft);
-  return paginate(getSortedPosts(posts), { pageSize: SITE.postPerPage });
+  const locales = ["en", "ko", "ja"];
+  
+  return locales.flatMap(lang => {
+    const langPosts = posts.filter(post => post.id.startsWith(`${lang}/`));
+    return paginate(getSortedPosts(langPosts), {
+      params: { lang },
+      pageSize: SITE.postPerPage
+    });
+  });
 }) satisfies GetStaticPaths;
 
 const { page } = Astro.props;
