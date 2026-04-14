@@ -12,14 +12,20 @@ export async function getStaticPaths() {
   const posts = await getCollection("blog").then(p =>
     p.filter(({ data }) => !data.draft && !data.ogImage)
   );
+  const locales = ["en", "ko", "ja"];
 
-  return posts.map(post => ({
-    params: { 
-      lang: post.id.split('/')[0], 
-      slug: getPath(post.id, post.filePath, false).split('/').slice(1).join('/') || undefined
-    },
-    props: post,
-  }));
+  return locales.flatMap(locale => {
+    const lang = locale;
+    const langPosts = posts.filter(post => post.id.startsWith(`${lang}/`));
+
+    return langPosts.map(post => ({
+      params: { 
+        locale: locale === "en" ? undefined : locale, 
+        slug: getPath(post.id, post.filePath, false).split('/').slice(1).join('/') || undefined
+      },
+      props: post,
+    }));
+  });
 }
 
 export const GET: APIRoute = async ({ props }) => {

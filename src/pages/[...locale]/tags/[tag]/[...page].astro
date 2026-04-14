@@ -15,7 +15,8 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
   const posts = await getCollection("blog");
   const locales = ["en", "ko", "ja"];
 
-  return locales.flatMap(lang => {
+  return locales.flatMap(locale => {
+    const lang = locale;
     const langPosts = posts.filter(post => post.id.startsWith(`${lang}/`));
     const tags = getUniqueTags(langPosts);
 
@@ -23,7 +24,7 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
       const tagPosts = getPostsByTag(langPosts, tag);
 
       return paginate(tagPosts, {
-        params: { lang, tag },
+        params: { locale: locale === "en" ? undefined : locale, tag },
         props: { tagName },
         pageSize: SITE.postPerPage,
       });

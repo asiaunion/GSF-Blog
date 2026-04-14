@@ -1,18 +1,29 @@
 ---
 const { pathname } = Astro.url;
-const { lang } = Astro.params;
+const { locale } = Astro.params;
 
-const currentLang = lang || "en";
+const currentLang = locale || "en";
 
 // Function to generate the correct URL for a different language
 const getLangUrl = (targetLang: string) => {
-  // If the URL is already localized, replace the locale prefix
-  // pathname is like /ko/posts/my-post
-  if (lang && pathname.startsWith(`/${lang}`)) {
-    return pathname.replace(`/${lang}`, `/${targetLang}`);
+  let relativePath = pathname;
+  
+  // Strip out current locale prefix if we are in a sub-locale
+  if (locale && pathname.startsWith(`/${locale}`)) {
+    relativePath = pathname.replace(`/${locale}`, "");
   }
-  // Otherwise, prepend the locale
-  return `/${targetLang}${pathname === "/" ? "" : pathname}`;
+  
+  // Ensure we don't have double slashes for empty paths
+  relativePath = relativePath || "/";
+  if (!relativePath.startsWith("/")) relativePath = `/${relativePath}`;
+
+  // If targeting english, we just use the relative path without prefix
+  if (targetLang === "en") {
+    return relativePath;
+  }
+  
+  // For other languages, prepend the locale
+  return `/${targetLang}${relativePath === "/" ? "" : relativePath}`;
 };
 ---
 

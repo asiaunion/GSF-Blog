@@ -1,9 +1,9 @@
 ---
 export function getStaticPaths() {
   return [
-    { params: { lang: "en" } },
-    { params: { lang: "ko" } },
-    { params: { lang: "ja" } },
+    { params: { locale: undefined } },
+    { params: { locale: "ko" } },
+    { params: { locale: "ja" } },
   ];
 }
 import "@pagefind/default-ui/css/ui.css";
@@ -50,10 +50,14 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       }
 
       // Init pagefind ui
+      const currentLang = document.documentElement.lang || "en";
       const search = new PagefindUI({
         element: "#pagefind-search",
         showImages: false,
         showSubResults: true,
+        translations: {
+           // Basic string fallbacks if needed, pagefind usually supports it natively
+        },
         processTerm: function (term: string) {
           params.set("q", term); // Update the `q` parameter in the URL
           history.replaceState(history.state, "", "?" + params.toString()); // Push the new URL without reloading
@@ -64,6 +68,11 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
           return term;
         },
       });
+
+      // After initialization, apply the language filter
+      if (search) {
+        search.triggerFilters({ language: currentLang });
+      }
 
       // If search param exists (eg: search?q=astro), trigger search
       const query = params.get("q");

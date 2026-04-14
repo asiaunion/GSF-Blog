@@ -6,14 +6,15 @@ import { SITE } from "@/config";
 
 export function getStaticPaths() {
   return [
-    { params: { lang: "en" } },
-    { params: { lang: "ko" } },
-    { params: { lang: "ja" } },
+    { params: { locale: undefined } },
+    { params: { locale: "ko" } },
+    { params: { locale: "ja" } },
   ];
 }
 
 export async function GET({ params }: any) {
-  const posts = await getCollection("blog", ({ id }) => id.startsWith(`${params.lang}/`));
+  const lang = params.locale || "en";
+  const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
   const sortedPosts = getSortedPosts(posts);
   return rss({
     title: SITE.title,

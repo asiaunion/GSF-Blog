@@ -10,8 +10,8 @@ import LanguageSwitcher from "./LanguageSwitcher.astro";
 import { SITE } from "@/config";
 
 const { pathname } = Astro.url;
-const { lang } = Astro.params;
-const l = lang ? `/${lang}` : "/en";
+const { locale } = Astro.params;
+const l = locale ? `/${locale}` : ""; // root domain for english
 
 // Remove trailing slash from current pathname if exists
 const currentPath =
@@ -46,7 +46,7 @@ const isActive = (path: string) => {
     ]}
   >
     <a
-      href={l}
+      href={l || "/"}
       class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
     >
       {SITE.title}

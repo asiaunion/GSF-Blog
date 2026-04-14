@@ -1,13 +1,14 @@
 ---
 export function getStaticPaths() {
   return [
-    { params: { lang: "en" } },
-    { params: { lang: "ko" } },
-    { params: { lang: "ja" } },
+    { params: { locale: undefined } },
+    { params: { locale: "ko" } },
+    { params: { locale: "ja" } },
   ];
 }
 
-const { lang } = Astro.params;
+const { locale } = Astro.params;
+const lang = locale || "en";
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
@@ -38,7 +39,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </h1>
         <a
           target="_blank"
-          href="/rss.xml"
+          href={`${locale ? `/${locale}` : ""}/rss.xml`}
           class="inline-block"
           aria-label="rss feed"
           title="RSS Feed"
@@ -111,7 +112,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     }
 
     <div class="my-8 text-center">
-      <LinkButton href="/posts/">
+      <LinkButton href={`${locale ? `/${locale}` : ""}/posts/`}>
         All Posts
         <IconArrowRight class="inline-block rtl:-rotate-180" />
       </LinkButton>
@@ -125,7 +126,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     const indexLayout = (document.querySelector("#main-content") as HTMLElement)
       ?.dataset?.layout;
     if (indexLayout) {
-      sessionStorage.setItem("backUrl", "/");
+      // Find the current locale from the html tag to set the backUrl properly
+      const currentLang = document.documentElement.lang;
+      sessionStorage.setItem("backUrl", currentLang === 'en' ? '/' : `/${currentLang}/`);
     }
   });
 </script>

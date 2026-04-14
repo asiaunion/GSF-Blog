@@ -29,6 +29,9 @@ const {
   scrollSmooth = false,
 } = Astro.props;
 
+const { locale } = Astro.params;
+const currentLang = locale || SITE.lang || "en";
+
 const socialImageURL = new URL(ogImage, Astro.url);
 
 const structuredData = {
@@ -51,7 +54,7 @@ const structuredData = {
 <!doctype html>
 <html
   dir={SITE.dir}
-  lang=`${SITE.lang ?? "en"}`
+  lang={currentLang}
   class={`${scrollSmooth && "scroll-smooth"}`}
 >
   <head>
