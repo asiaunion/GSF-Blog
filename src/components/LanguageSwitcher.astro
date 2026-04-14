@@ -27,7 +27,7 @@ const getLangUrl = (targetLang: string) => {
 };
 ---
 
-<div class="relative inline-block text-left group ml-2 sm:ml-4">
+<div class="relative inline-block text-left group ml-2 sm:ml-4" tabindex="0">
   <button
     type="button"
     class="flex items-center space-x-1 focus-outline rounded-md px-2 py-1 hover:text-accent font-medium uppercase transition-colors"
@@ -45,7 +45,7 @@ const getLangUrl = (targetLang: string) => {
   </button>
 
   <div
-    class="absolute right-0 mt-2 w-24 origin-top-right rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden group-hover:block z-50 border border-border"
+    class="absolute right-0 mt-2 w-24 origin-top-right rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden group-hover:block group-focus-within:block z-50 border border-border"
     role="menu"
     aria-orientation="vertical"
     aria-labelledby="lang-menu-button"
