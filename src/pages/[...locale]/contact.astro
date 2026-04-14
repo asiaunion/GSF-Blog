@@ -1,0 +1,23 @@
+---
+import AboutLayout from "@/layouts/AboutLayout.astro";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: undefined } },
+    { params: { locale: "ko" } },
+    { params: { locale: "ja" } },
+  ];
+}
+---
+
+<AboutLayout frontmatter={{ title: "Contact Us" }}>
+  <div>
+    <h2>Get in Touch</h2>
+    <p>If you have any questions about our Japanese Real Estate insights, Missional Business model, or wish to collaborate with GSF Studio, please feel free to reach out.</p>
+    <ul>
+      <li><strong>Email:</strong> admin@gsfark.com</li>
+      <li><strong>Address:</strong> Tokyo, Japan / Seoul, Korea</li>
+    </ul>
+    <p>We typically respond within 2-3 business days. For urgent inquiries regarding global asset pipelines, please add [Urgent] to your email subject.</p>
+  </div>
+</AboutLayout>
