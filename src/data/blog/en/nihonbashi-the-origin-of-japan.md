@@ -1,6 +1,6 @@
 ---
 title: "Nihonbashi, The Starting Point and New Origin of All Things"
-pubDatetime: 2026-04-14T01:05:00Z
+pubDatetime: 2026-04-19T00:00:00Z
 description: "Moving to Nihonbashi, the center of Japan and home to the Kilometre Zero monument. Dreaming of a new vision at this place, the origin of all ideas."
 author: GSF
 tags:
@@ -17,7 +17,7 @@ For me, Nihonbashi is not merely a famous local landmark. I want to highlight th
 
 Just as it has historically been the point from which all roads in Japan begin (the 'Kilometre Zero' monument), it is also the first departure point for the magnificent journey of the famous Ukiyo-e masterpiece, **'The Fifty-Three Stations of the Tōkaidō'**.
 
-At the same time, Nihonbashi does not linger only in the past. It is an area where centuries-old traditional shops face cutting-edge commercial buildings amidst active, large-scale **urban redevelopment**. It is a space where **long-standing tradition and the dynamic present perfectly coexist.**
+At the same time, Nihonbashi does not linger only in the past. Today, this area is the core crucible for mega-scale private redevelopment spearheaded by giant developers such as Mitsui, Mitsubishi, and Mori Building. Their philosophy no longer stops at erecting dense concrete skyscrapers. Instead, they elevate the fundamental added value of the local real estate to an entirely new dimension by creating "user-centric open spaces"—wide pedestrian walkways, healing green parks, and areas where commerce and culture naturally intersect. In this context, Nihonbashi—where centuries-old traditional shops, cutting-edge commercial buildings, and lush greenery face one another—is a space where **long-standing tradition and the dynamic future perfectly coexist.**
 
 When people trace back through all mechanisms and history to grasp the truth, this is the final zero point (0) they reach, the place situated at the very center. I believe this is exactly where any new endeavor starts, and where the purest origin of all events and ideas resides. That is the true gravity that Nihonbashi possesses.
 

@@ -1,6 +1,6 @@
 ---
 title: "5 Things to Know About Investing in Japan REITs (J-REITs)"
-pubDatetime: 2023-10-03T20:24:21Z
+pubDatetime: 2026-03-22T00:00:00Z
 description: "About the 5 essential things to know before investing in J-REITs (Japanese Real Estate Investment Trusts)."
 author: GSF
 tags:
@@ -48,9 +48,11 @@ However, personally, since the Yen exchange rate is currently at a historic low,
 
 ![](/assets/images/legacy/image-7.png)
 
-**4. What are the expected returns for J-REITs?**
+**4. Expected Returns and the Tangible Warmth in the Asset Market**
 
-As of the end of September 2023, the average dividend yield of J-REITs stands at 4.18%. Moving past the "Lost 30 Years" of Japanese real estate, meaningful portions of major cities have already recovered to pre-bubble pricing and are on an upward trajectory. We can expect capital gains alongside stable dividends from REITs.
+While average dividend yields hovered over 4% back in 2023, the explosive surge in prime real estate asset values in central Tokyo has slightly compressed these apparent yields recently. Conversely, this is hard proof that the 'Capital Gains' of the underlying assets are rising fiercely.
+
+Currently in 2026, Japan is experiencing a palpable 'warmth' sweeping across the entire asset market—spanning not just real estate but extending strongly into the Nikkei stock market. Having completely ripped off the "Lost 30 Years" label and entered a virtuous cycle of rising office rents and domestic recovery, I believe we are standing at the perfect moment to dual-target both stable dividends and remarkable capital gains from commercial J-REITs.
 
 According to research conducted by the Nissei Basic Research Institute, as of late August 2021, the REIT return rate over the past 20 years was 416% (annualized at about 8.6%), which is quite respectable. During the same period, the Japanese stock market, represented by TOPIX, rose by only 166%. This is data proving that the true potential of REITs simply cannot be ignored. Over the past 5 years, the return is 43%. While it is lower than TOPIX over the shorter term, considering the robust stability of dividends, its attractiveness has certainly not diminished.
 
