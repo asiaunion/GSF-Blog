@@ -1,7 +1,7 @@
 ---
 title: "日本のJ-REIT投資で知っておくべき5つのポイント"
 pubDatetime: 2023-10-03T20:24:21Z
-description: "日本のJ-REIT投資で知っておくべき5つのポイントに関する以前のWordPressの投稿です。"
+description: "日本のJ-REIT投資で知っておくべき5つのポイント。"
 author: GSF
 tags:
   - Archive

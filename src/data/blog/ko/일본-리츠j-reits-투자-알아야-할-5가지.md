@@ -1,7 +1,7 @@
 ---
 title: "일본 리츠(J REITs) 투자 알아야 할 5가지"
 pubDatetime: 2023-10-03T20:24:21Z
-description: "일본 리츠(J REITs) 투자 알아야 할 5가지 에 대한 기존 워드프레스 포스팅입니다."
+description: "일본 리츠(J REITs) 투자 알아야 할 5가지"
 author: GSF
 tags:
   - Archive

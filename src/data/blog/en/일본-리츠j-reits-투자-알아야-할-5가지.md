@@ -1,7 +1,7 @@
 ---
 title: "5 Things to Know About Investing in Japan REITs (J-REITs)"
 pubDatetime: 2023-10-03T20:24:21Z
-description: "A legacy WordPress post about the 5 essential things to know before investing in J-REITs (Japanese Real Estate Investment Trusts)."
+description: "About the 5 essential things to know before investing in J-REITs (Japanese Real Estate Investment Trusts)."
 author: GSF
 tags:
   - Archive
