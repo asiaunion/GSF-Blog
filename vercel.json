@@ -1,0 +1,94 @@
+{
+  "redirects": [
+    {
+      "source": "/posts/일본-리츠j-reits-투자-알아야-할-5가지",
+      "destination": "/posts/j-reit-five-things-to-know",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/일본-리츠j-reits-투자-알아야-할-5가지",
+      "destination": "/ko/posts/j-reit-five-things-to-know",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/일본-리츠j-reits-투자-알아야-할-5가지",
+      "destination": "/ja/posts/j-reit-five-things-to-know",
+      "permanent": true
+    },
+    {
+      "source": "/posts/일본-부동산-투자-알아야-할-3가지",
+      "destination": "/posts/japan-real-estate-three-things",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/일본-부동산-투자-알아야-할-3가지",
+      "destination": "/ko/posts/japan-real-estate-three-things",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/일본-부동산-투자-알아야-할-3가지",
+      "destination": "/ja/posts/japan-real-estate-three-things",
+      "permanent": true
+    },
+    {
+      "source": "/posts/일본-도쿄-지진에서-취약한-5곳",
+      "destination": "/posts/tokyo-earthquake-vulnerable-five-areas",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/일본-도쿄-지진에서-취약한-5곳",
+      "destination": "/ko/posts/tokyo-earthquake-vulnerable-five-areas",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/일본-도쿄-지진에서-취약한-5곳",
+      "destination": "/ja/posts/tokyo-earthquake-vulnerable-five-areas",
+      "permanent": true
+    },
+    {
+      "source": "/posts/일본-도쿄의-세련된-명소-5곳",
+      "destination": "/posts/tokyo-five-sophisticated-spots",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/일본-도쿄의-세련된-명소-5곳",
+      "destination": "/ko/posts/tokyo-five-sophisticated-spots",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/일본-도쿄의-세련된-명소-5곳",
+      "destination": "/ja/posts/tokyo-five-sophisticated-spots",
+      "permanent": true
+    },
+    {
+      "source": "/posts/도쿄와-요코하마-후지산까지-이용-가능한-교통-패스",
+      "destination": "/posts/tokyo-yokohama-fuji-transport-pass",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/도쿄와-요코하마-후지산까지-이용-가능한-교통-패스",
+      "destination": "/ko/posts/tokyo-yokohama-fuji-transport-pass",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/도쿄와-요코하마-후지산까지-이용-가능한-교통-패스",
+      "destination": "/ja/posts/tokyo-yokohama-fuji-transport-pass",
+      "permanent": true
+    },
+    {
+      "source": "/posts/코레도-니혼바시-무로마치-미쓰이-재개발",
+      "destination": "/posts/coredo-nihonbashi-mitsui-redevelopment",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/코레도-니혼바시-무로마치-미쓰이-재개발",
+      "destination": "/ko/posts/coredo-nihonbashi-mitsui-redevelopment",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/코레도-니혼바시-무로마치-미쓰이-재개발",
+      "destination": "/ja/posts/coredo-nihonbashi-mitsui-redevelopment",
+      "permanent": true
+    }
+  ]
+}
