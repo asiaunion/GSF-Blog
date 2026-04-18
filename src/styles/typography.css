@@ -39,14 +39,17 @@
       @apply my-[0.3rem] text-lg font-bold text-foreground sm:text-xl;
     }
 
-    /* Coredo post only: extra-tight rhythm (half of previous coredo-tight values). */
-    &.app-prose--coredo-tight p {
+    /* Coredo: tight body paras only — section headings are `p.post-section-heading` and need their own rhythm. */
+    &.app-prose--coredo-tight p:not(.post-section-heading) {
       @apply my-[0.05625rem];
     }
 
-    /* Tight gap above; below = ~one line at heading font size (text-lg / sm:text-xl). */
-    &.app-prose--coredo-tight .post-section-heading {
-      @apply mt-[0.075rem] mb-[1em];
+    /*
+      Space after numbered headings: one line box of the heading (not 1em cap-height).
+      Padding avoids margin-collapsing with the next `p`, which was eating the visual gap.
+    */
+    &.app-prose--coredo-tight p.post-section-heading {
+      @apply mt-[0.075rem] mb-0 pb-[1lh];
     }
 
     /* Section dividers in this post are markdown `---` (hr); prose default hr margins are ~2.86em each. */
