@@ -4,6 +4,15 @@ description: "Tokyo's core 6 wards continue to break through the ceiling amidst 
 pubDatetime: 2026-04-15T01:00:00Z
 author: "GSF"
 tags: ["Real Estate", "Tokyo", "Investment Strategy", "Macro", "Insights"]
+sources:
+  - "https://www.globalpropertyguide.com/asia/japan/price-history"
+  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.stat.go.jp/english/"
+  - "https://www.reins.or.jp/"
+references:
+  - "https://www.globalpropertyguide.com/asia/japan/price-history"
+  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.reins.or.jp/"
 ---
 
 A massive wave of capital is being sucked into the center of Tokyo like a black hole. As global geopolitical tensions align with an unfathomably prolonged weak yen, real estate in central Tokyo has evolved far beyond mere 'living space' to become Asia's ultimate 'Safe Haven'.
@@ -64,6 +73,10 @@ The profit-generation formula in this market has completely changed. A position 
    It is now mathematically nearly impossible for a new entrant without leverage to expect a decent return from rental income in the core wards. From the start, you must clearly reset your objective to 'Global Risk Hedging' and 'Safe Asset Parking'.
 
 2. **Obsess Over Scarcity (Flight to Quality)**
-   In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, you must insist on high-end locations where foot traffic is heavily defended and the wealthy desperately desire to reside.
+   In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, it may be more prudent to prioritize high-end locations where demand resilience remains strong.
 
 In truth, due to fatigue from the explosive surge in late 2024, we saw prices in the core wards undergo a slight correction in 2025 for the first time in 37 months, finding a distinct psychological resistance level. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
+
+For international readers, currency risk and financing conditions can materially change final returns.
+
+<small>※ This article is for informational purposes only and does not constitute investment advice.</small>
