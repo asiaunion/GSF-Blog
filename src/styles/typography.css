@@ -30,39 +30,17 @@
       @apply text-foreground;
     }
 
-    /* Paragraph rhythm: ~40% tighter than previous my-1.5 (0.375rem → 0.225rem/side). */
-    p {
-      @apply my-[0.225rem];
-    }
-
-    .post-section-heading {
-      @apply my-[0.3rem] text-lg font-bold text-foreground sm:text-xl;
-    }
-
-    /* Coredo: tight body paras only — section headings are `p.post-section-heading` and need their own rhythm. */
-    &.app-prose--coredo-tight p:not(.post-section-heading) {
+    /* Body paragraphs: tight rhythm (excludes numbered section headings). */
+    p:not(.post-section-heading) {
       @apply my-[0.05625rem];
     }
 
     /*
-      Space after numbered headings: one line box of the heading (not 1em cap-height).
-      Padding avoids margin-collapsing with the next `p`, which was eating the visual gap.
+      Numbered section headings (`<p class="post-section-heading">` in MD).
+      `pb-[1lh]` = one line box below title; padding avoids margin-collapse with the next paragraph.
     */
-    &.app-prose--coredo-tight p.post-section-heading {
-      @apply mt-[0.075rem] mb-0 pb-[1lh];
-    }
-
-    /* Section dividers in this post are markdown `---` (hr); prose default hr margins are ~2.86em each. */
-    &.app-prose--coredo-tight hr {
-      @apply my-[1.4285714286em];
-    }
-
-    &.app-prose--coredo-tight .post-disclaimer p {
-      @apply my-0;
-    }
-
-    &.app-prose--coredo-tight .post-disclaimer p + p {
-      @apply mt-0.5;
+    .post-section-heading {
+      @apply mt-[0.075rem] mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
     }
 
     a {
@@ -77,8 +55,9 @@
       @apply marker:text-accent;
     }
 
+    /* Markdown `---`; prose default hr margins are ~2.86em each side — tighten for section dividers. */
     hr {
-      @apply border-border;
+      @apply border-border my-[1.4285714286em];
     }
 
     img {
@@ -141,7 +120,7 @@
     }
 
     .post-disclaimer p + p {
-      @apply mt-1;
+      @apply mt-0.5;
     }
   }
 
