@@ -30,3 +30,4 @@ public/pagefind
 # blog-agent staging artifacts and preview renders
 .blog-agent-workflows/
 public/previews/
+.vercel
