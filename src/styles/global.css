@@ -59,8 +59,11 @@ html[data-theme="dark"] {
   @apply mx-auto w-full max-w-app px-4;
 }
 
+/** Current section in header nav — solid accent, no wavy (cleaner for Latin + CJK). */
 .active-nav {
-  @apply underline decoration-wavy decoration-2 underline-offset-8;
+  @apply font-semibold text-accent no-underline;
+  box-shadow: inset 0 -2px 0 0 var(--color-accent);
+  padding-bottom: 0.125rem;
 }
 
 /* Source: https://piccalil.li/blog/a-more-modern-css-reset/ */
