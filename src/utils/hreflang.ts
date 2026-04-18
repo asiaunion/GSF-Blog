@@ -15,6 +15,19 @@ function stripTrailingSlashPath(pathname: string): string {
 }
 
 /**
+ * Directory URLs use a trailing slash (see `trailingSlash: "always"`).
+ * Root `/` and obvious file paths (e.g. `.xml`) stay unchanged.
+ */
+export function canonicalizePathname(pathname: string): string {
+  const p = pathname.trim();
+  if (p === "" || p === "/") return "/";
+  if (p.endsWith("/")) return p;
+  const last = p.split("/").pop() ?? "";
+  if (/\.[a-z0-9]+$/i.test(last)) return p;
+  return `${p}/`;
+}
+
+/**
  * Split Astro pathname into locale and path after locale prefix.
  * EN default: `/posts/foo` → locale en, rest `/posts/foo`
  */
@@ -56,7 +69,7 @@ export function buildLocalizedAbsoluteUrl(
     return `${base}${prefix}/`;
   }
 
-  return `${base}${prefix}${pathWithoutLocale}`;
+  return `${base}${prefix}${canonicalizePathname(pathWithoutLocale)}`;
 }
 
 export type HreflangLink = { hreflang: string; href: string };

@@ -16,6 +16,7 @@ import { getLegacyPostRedirects } from "./src/build/legacyPostRedirects";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  trailingSlash: "always",
   adapter: vercel(),
   redirects: getLegacyPostRedirects(),
   i18n: {
@@ -27,7 +28,11 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: page => SITE.showArchives || !page.endsWith("/archives"),
+      filter: page => {
+        if (SITE.showArchives) return true;
+        const pathname = new URL(page).pathname.replace(/\/+$/, "");
+        return !pathname.endsWith("/archives");
+      },
     }),
   ],
   markdown: {

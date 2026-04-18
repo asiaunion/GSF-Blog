@@ -40,7 +40,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         </h1>
         <a
           target="_blank"
-          href={`${locale ? `/${locale}` : ""}/rss.xml`}
+          href={`${locale ? `/${locale}` : ""}/rss.xml/`}
           class="inline-block mt-6 sm:mt-12 bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform"
           aria-label={L.heroRssAria}
           title={L.heroRssTitle}

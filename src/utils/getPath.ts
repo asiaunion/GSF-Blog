@@ -42,9 +42,12 @@ export function getPath(
   const slug = blogId.length > 0 ? blogId.slice(-1) : blogId;
 
   // If not inside the sub-dir, simply return the file path
+  let path: string;
   if (!pathSegments || pathSegments.length < 1) {
-    return [basePath, slug].join("/").replace("//", "/");
+    path = [basePath, slug].join("/").replace("//", "/");
+  } else {
+    path = [basePath, ...pathSegments, slug].join("/").replace("//", "/");
   }
 
-  return [basePath, ...pathSegments, slug].join("/").replace("//", "/");
+  return path.endsWith("/") ? path : `${path}/`;
 }

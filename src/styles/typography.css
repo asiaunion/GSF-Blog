@@ -145,7 +145,7 @@
     }
 
     blockquote {
-      @apply border-s-accent/80 wrap-break-word opacity-80;
+      @apply wrap-break-word border-s-2 border-s-accent/35 bg-muted/30 py-2 ps-4 text-foreground not-italic;
     }
 
     details {

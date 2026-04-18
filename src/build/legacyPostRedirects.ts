@@ -32,10 +32,10 @@ export function getLegacyPostRedirects(): Record<
   const out: Record<string, { status: 308; destination: string }> = {};
   for (const [fromSlug, toSlug] of LEGACY_SLUG_PAIRS) {
     for (const p of PREFIXES) {
-      const dest = `${p}${toSlug}`;
-      const from = `${p}${fromSlug}`;
+      // Single canonical path per slug (trailingSlash: "always") — avoids duplicate Astro routes.
+      const dest = `${p}${toSlug}/`.replace(/\/{2,}/g, "/");
+      const from = `${p}${fromSlug}/`.replace(/\/{2,}/g, "/");
       out[from] = { status: 308, destination: dest };
-      out[`${from}/`] = { status: 308, destination: `${dest}/` };
     }
   }
   return out;

@@ -1,4 +1,6 @@
 ---
+import { canonicalizePathname } from "@/utils/hreflang";
+
 const { pathname } = Astro.url;
 const { locale } = Astro.params;
 
@@ -7,30 +9,33 @@ const currentLang = locale || "en";
 // Function to generate the correct URL for a different language
 const getLangUrl = (targetLang: string) => {
   let relativePath = pathname;
-  
+
   // Strip out current locale prefix if we are in a sub-locale
   if (locale && pathname.startsWith(`/${locale}`)) {
-    relativePath = pathname.replace(`/${locale}`, "");
+    relativePath = pathname.replace(`/${locale}`, "") || "/";
   }
-  
-  // Ensure we don't have double slashes for empty paths
+
   relativePath = relativePath || "/";
   if (!relativePath.startsWith("/")) relativePath = `/${relativePath}`;
 
-  // If targeting english, we just use the relative path without prefix
+  relativePath = canonicalizePathname(relativePath);
+
   if (targetLang === "en") {
     return relativePath;
   }
-  
-  // For other languages, prepend the locale
-  return `/${targetLang}${relativePath === "/" ? "" : relativePath}`;
+
+  if (relativePath === "/") {
+    return `/${targetLang}/`;
+  }
+
+  return `/${targetLang}${relativePath}`;
 };
 ---
 
 <div class="relative inline-block text-left group ml-2 sm:ml-4" tabindex="0">
   <button
     type="button"
-    class="flex items-center space-x-1 focus-outline rounded-md px-2 py-1 hover:text-accent font-medium uppercase transition-colors"
+    class="focus-outline flex items-center space-x-1 rounded-sm px-2 py-1 font-medium uppercase transition-colors hover:text-accent"
     id="lang-menu-button"
     aria-expanded="false"
     aria-haspopup="true"
