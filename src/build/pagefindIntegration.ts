@@ -8,21 +8,28 @@ import type { AstroIntegration } from "astro";
  * Runs last among default integrations: adapter is unshifted first, Vercel injects
  * `astro:copy-vercel-output`, then this is appended from pagefind's config:setup.
  * Ensures `.vercel/output/static/pagefind-aux/` exists after `cpSync(dist/client → static)`.
+ *
+ * Uses `config.root` (set in astro:config:done) — not `process.cwd()` — so monorepos and
+ * Vercel builds resolve `.vercel/output/static` correctly.
  */
-function pagefindVercelAuxIntegration(): AstroIntegration {
+function pagefindVercelAuxIntegration(vercelStaticDir: () => string): AstroIntegration {
   return {
     name: "pagefind-sync-aux-to-vercel-static",
     hooks: {
       "astro:build:done": ({ dir, logger }) => {
         const clientDir = fileURLToPath(dir);
         const auxSrc = path.join(clientDir, "pagefind-aux");
-        const destRoot = path.join(process.cwd(), ".vercel", "output", "static");
+        const destRoot = vercelStaticDir();
         if (!fs.existsSync(auxSrc)) {
-          logger.warn("pagefind-sync-aux: missing dist pagefind-aux; skip");
+          logger.warn(
+            `pagefind-sync-aux: missing ${auxSrc} (no pagefind-aux in client output); skip`,
+          );
           return;
         }
         if (!fs.existsSync(destRoot)) {
-          logger.warn("pagefind-sync-aux: missing .vercel/output/static; skip");
+          logger.warn(
+            `pagefind-sync-aux: missing ${destRoot} (.vercel/output/static); skip`,
+          );
           return;
         }
         const auxDest = path.join(destRoot, "pagefind-aux");
@@ -42,18 +49,29 @@ function pagefindVercelAuxIntegration(): AstroIntegration {
  * static assets, so `/pagefind/*` 404s on the live site.
  */
 export function pagefindIntegration(): AstroIntegration {
+  let projectRoot = process.cwd();
+  let vercelStaticAbs = path.join(projectRoot, ".vercel", "output", "static");
+
+  const syncAux = pagefindVercelAuxIntegration(() => vercelStaticAbs);
+
   return {
     name: "pagefind-build",
     hooks: {
+      "astro:config:done": ({ config }) => {
+        projectRoot = fileURLToPath(config.root);
+        vercelStaticAbs = fileURLToPath(
+          new URL(".vercel/output/static/", config.root),
+        );
+      },
       "astro:config:setup": ({ updateConfig }) => {
         updateConfig({
-          integrations: [pagefindVercelAuxIntegration()],
+          integrations: [syncAux],
         });
       },
       "astro:build:done": ({ dir, logger }) => {
         const outDir = fileURLToPath(dir);
         const cli = path.join(
-          process.cwd(),
+          projectRoot,
           "node_modules",
           "pagefind",
           "lib",
