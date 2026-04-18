@@ -12,9 +12,18 @@
       @apply mb-3 text-foreground;
     }
 
-    /* Same vertical rhythm as `.post-section-heading` (markdown `##` sections). */
+    /*
+      Section titles: Coredo inserts `---` between sections (~1.42857em margin each side of `hr`).
+      Posts without `---` need that combined gap above the heading so rhythm matches Coredo.
+    */
     h2 {
-      @apply mt-[0.075rem] mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
+      @apply mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
+      margin-top: calc(2.8571428572rem + 1px);
+    }
+
+    & hr + h2,
+    & > h2:first-child {
+      margin-top: 0.075rem;
     }
 
     h3 {
@@ -39,9 +48,16 @@
     /*
       Numbered section headings (`<p class="post-section-heading">` in MD).
       `pb-[1lh]` = one line box below title; padding avoids margin-collapse with the next paragraph.
+      Top margin: same as Coredo’s `---` block (see `h2` above). After `hr`, keep a thin offset only.
     */
     .post-section-heading {
-      @apply mt-[0.075rem] mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
+      @apply mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
+      margin-top: calc(2.8571428572rem + 1px);
+    }
+
+    & hr + .post-section-heading,
+    & > .post-section-heading:first-child {
+      margin-top: 0.075rem;
     }
 
     a {
