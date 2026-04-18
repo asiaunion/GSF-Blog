@@ -19,7 +19,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
 <Layout title={`Search | ${SITE.title}`}>
   <Header />
   <Main pageTitle="Search" pageDesc="Search any article ...">
-    <div id="pagefind-search" transition:persist data-backurl={backUrl}></div>
+    <div id="pagefind-search" data-backurl={backUrl}></div>
   </Main>
   <Footer />
 </Layout>
@@ -59,8 +59,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
           `;
       }
 
-      // Init pagefind ui
-      const currentLang = document.documentElement.lang || "en";
+      // Init pagefind ui (index language follows <html lang> automatically)
       const search = new PagefindUI({
         element: "#pagefind-search",
         bundlePath: pagefindBundlePath,
@@ -70,25 +69,35 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
            // Basic string fallbacks if needed, pagefind usually supports it natively
         },
         processTerm: function (term: string) {
-          params.set("q", term); // Update the `q` parameter in the URL
-          history.replaceState(history.state, "", "?" + params.toString()); // Push the new URL without reloading
+          params.set("q", term);
+          const next =
+            window.location.pathname +
+            (params.toString() ? `?${params.toString()}` : "");
+          history.replaceState(history.state, "", next);
 
           const backUrl = pageFindSearch?.dataset?.backurl;
-          sessionStorage.setItem("backUrl", backUrl + "?" + params.toString());
+          if (backUrl) {
+            sessionStorage.setItem(
+              "backUrl",
+              backUrl + (params.toString() ? `?${params.toString()}` : ""),
+            );
+          }
 
           return term;
         },
       });
 
-      // After initialization, apply the language filter
-      if (search) {
-        search.triggerFilters({ language: currentLang });
-      }
+      /*
+       * Do not call triggerFilters({ language }) here. Pagefind 1.x already loads
+       * the per-language index from <html lang> (see multilingual docs). A manual
+       * language filter can yield zero hits because "language" is not exposed as a
+       * regular facet on the indexed pages.
+       */
 
-      // If search param exists (eg: search?q=astro), trigger search
+      // If search param exists (eg: search?q=astro), trigger search after UI mounts
       const query = params.get("q");
       if (query) {
-        search.triggerSearch(query);
+        requestAnimationFrame(() => search.triggerSearch(query));
       }
 
       // Reset search param if search input is cleared
