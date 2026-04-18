@@ -5,6 +5,36 @@ import { fileURLToPath } from "node:url";
 import type { AstroIntegration } from "astro";
 
 /**
+ * Runs last among default integrations: adapter is unshifted first, Vercel injects
+ * `astro:copy-vercel-output`, then this is appended from pagefind's config:setup.
+ * Ensures `.vercel/output/static/pagefind-aux/` exists after `cpSync(dist/client → static)`.
+ */
+function pagefindVercelAuxIntegration(): AstroIntegration {
+  return {
+    name: "pagefind-sync-aux-to-vercel-static",
+    hooks: {
+      "astro:build:done": ({ dir, logger }) => {
+        const clientDir = fileURLToPath(dir);
+        const auxSrc = path.join(clientDir, "pagefind-aux");
+        const destRoot = path.join(process.cwd(), ".vercel", "output", "static");
+        if (!fs.existsSync(auxSrc)) {
+          logger.warn("pagefind-sync-aux: missing dist pagefind-aux; skip");
+          return;
+        }
+        if (!fs.existsSync(destRoot)) {
+          logger.warn("pagefind-sync-aux: missing .vercel/output/static; skip");
+          return;
+        }
+        const auxDest = path.join(destRoot, "pagefind-aux");
+        fs.rmSync(auxDest, { recursive: true, force: true });
+        fs.cpSync(auxSrc, auxDest, { recursive: true });
+        logger.info(`pagefind-sync-aux: synced to ${auxDest}`);
+      },
+    },
+  };
+}
+
+/**
  * Run Pagefind inside the Astro build so the index lands in the same directory
  * the adapters ship to production (e.g. `.vercel/output/static`).
  *
@@ -15,6 +45,11 @@ export function pagefindIntegration(): AstroIntegration {
   return {
     name: "pagefind-build",
     hooks: {
+      "astro:config:setup": ({ updateConfig }) => {
+        updateConfig({
+          integrations: [pagefindVercelAuxIntegration()],
+        });
+      },
       "astro:build:done": ({ dir, logger }) => {
         const outDir = fileURLToPath(dir);
         const cli = path.join(
@@ -44,9 +79,9 @@ export function pagefindIntegration(): AstroIntegration {
          * Pagefind skips mergeIndex when the merge bundle path is the same as (or a
          * prefix of) the primary bundle: primary.basePath.startsWith(indexPath).
          * The UI loads merged languages from `/pagefind-aux/` (see search.astro).
-         * Do not use root `vercel.json` rewrites for this: they can break Astro's
-         * Vercel Build Output API deploy. After `astro build`, `scripts/sync-pagefind-aux.mjs`
-         * ensures `.vercel/output/static/pagefind-aux/` exists on CI.
+         * Do not use root `vercel.json` rewrites: they can break Astro's Vercel
+         * Build Output API. `pagefind-sync-aux-to-vercel-static` runs after Vercel's
+         * copy hook so `.vercel/output/static/pagefind-aux/` is present on deploy.
          * The copy below also supports `astro preview` and non-Vercel static hosts.
          */
         const pagefindDir = path.join(outDir, "pagefind");
