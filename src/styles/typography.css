@@ -12,8 +12,9 @@
       @apply mb-3 text-foreground;
     }
 
+    /* Same vertical rhythm as `.post-section-heading` (markdown `##` sections). */
     h2 {
-      @apply mb-2 mt-6 text-lg font-bold text-foreground sm:text-xl;
+      @apply mt-[0.075rem] mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
     }
 
     h3 {
@@ -47,12 +48,44 @@
       @apply wrap-break-word text-foreground decoration-dashed underline-offset-4 hover:text-accent focus-visible:no-underline;
     }
 
+    /*
+      Prose plugin uses ~1.14em vertical margins on lists and ~0.29em between `li`
+      — reads much looser than our tight `p` rhythm (e.g. manual “목차” `<ol>` blocks).
+    */
+    ol,
+    ul {
+      @apply my-[0.05625rem];
+    }
+
     ul {
       @apply overflow-x-clip;
     }
 
+    ul ul,
+    ul ol,
+    ol ul,
+    ol ol {
+      @apply my-[0.05625rem];
+    }
+
     li {
-      @apply marker:text-accent;
+      @apply marker:text-accent my-[0.05625rem];
+    }
+
+    /* Override prose `> ul/ol > li > p(:first|:last)` (~1.14em) — same as body `p` rhythm. */
+    & > ul > li > p,
+    & > ol > li > p {
+      @apply my-[0.05625rem];
+    }
+
+    & > ul > li > p:first-child,
+    & > ol > li > p:first-child {
+      @apply mt-[0.05625rem];
+    }
+
+    & > ul > li > p:last-child,
+    & > ol > li > p:last-child {
+      @apply mb-[0.05625rem];
     }
 
     /* Markdown `---`; prose default hr margins are ~2.86em each side — tighten for section dividers. */
