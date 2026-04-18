@@ -44,8 +44,9 @@
       @apply my-[0.05625rem];
     }
 
+    /* Tight gap above; below = ~one line at heading font size (text-lg / sm:text-xl). */
     &.app-prose--coredo-tight .post-section-heading {
-      @apply my-[0.075rem];
+      @apply mt-[0.075rem] mb-[1em];
     }
 
     /* Section dividers in this post are markdown `---` (hr); prose default hr margins are ~2.86em each. */
