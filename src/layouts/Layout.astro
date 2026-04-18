@@ -8,8 +8,11 @@ import {
 import { SITE } from "@/config";
 import "@/styles/global.css";
 import HreflangLinks from "@/components/HreflangLinks.astro";
+import type { UiLang } from "@/i18n/ui";
 
 type Props = {
+  /** When set (e.g. 404 /archives), overrides `Astro.params.locale` for `<html lang>`. */
+  htmlLang?: UiLang;
   title?: string;
   author?: string;
   profile?: string;
@@ -23,6 +26,8 @@ type Props = {
   tags?: string[];
   /** Short plain-text excerpt for JSON-LD `articleBody` (e.g. frontmatter description) */
   articleBody?: string;
+  /** When set, replaces default BlogPosting JSON-LD (e.g. About → Person). */
+  overrideJsonLd?: Record<string, unknown>;
 };
 
 const {
@@ -37,11 +42,13 @@ const {
   scrollSmooth = false,
   tags = undefined,
   articleBody = undefined,
+  overrideJsonLd,
+  htmlLang: htmlLangProp,
 } = Astro.props;
 
 const { locale } = Astro.params;
 /** Unprefixed routes = default locale (en), per astro.config i18n */
-const currentLang = locale || "en";
+const currentLang = (htmlLangProp ?? locale ?? "en") as string;
 
 const socialImageURL = new URL(ogImage, Astro.url);
 const canonicalHref =
@@ -51,7 +58,7 @@ const publisherLogoUrl = new URL(
   Astro.url.origin
 ).href;
 
-const structuredData = {
+const structuredData = overrideJsonLd ?? {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   headline: `${title}`,

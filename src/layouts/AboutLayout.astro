@@ -13,11 +13,16 @@ export interface Props {
 }
 
 const { frontmatter } = Astro.props;
+const { locale } = Astro.params;
+const currentLang = (locale as string | undefined) || "en";
+
 const sameAs = frontmatter.sameAs ?? [];
 const authorImageUrl = new URL(
-  "/assets/images/gsf-author.png",
+  "/assets/images/gsf-author.jpg",
   SITE.website
 ).href;
+
+const aboutPageUrl = new URL(Astro.url.pathname, Astro.url).href;
 
 const personLd = {
   "@context": "https://schema.org",
@@ -25,11 +30,19 @@ const personLd = {
   name: "Joseph (GSF)",
   url: SITE.profile,
   image: authorImageUrl,
+  inLanguage: currentLang,
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": aboutPageUrl,
+  },
   ...(sameAs.length > 0 && { sameAs }),
 };
 ---
 
-<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+<Layout
+  title={`${frontmatter.title} | ${SITE.title}`}
+  overrideJsonLd={personLd}
+>
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout">
@@ -40,5 +53,3 @@ const personLd = {
   </main>
   <Footer />
 </Layout>
-
-<script type="application/ld+json" is:inline set:html={JSON.stringify(personLd)} />

@@ -1,19 +1,16 @@
 ---
 lang: ko
 title: "소개"
-sameAs:
-  - "https://www.linkedin.com/in/username/"
-  - "https://x.com/username"
 ---
 
-![Joseph · GSF, 니혼바시 거주](/assets/images/gsf-author.png)
+![Joseph · GSF, 니혼바시 거주](/assets/images/gsf-author.jpg)
 
-### 공적 프로필 (갱신 예정)
+### 공적 프로필
 
-- [LinkedIn](https://www.linkedin.com/in/username/)
-- [X](https://x.com/username)
+- [LinkedIn](https://www.linkedin.com/in/gsfark/)
+- [X](https://x.com/gsfark)
 
-실제 공개 프로필 URL로 곧 교체할 예정입니다. 연락은 [연락 페이지](/ko/contact)도 이용해 주세요.
+프로필 URL은 `src/config.ts`의 `PUBLIC_PROFILES`와 동일하게 유지합니다. 연락은 [연락 페이지](/ko/contact)도 이용해 주세요.
 
 ### 니혼바시, 이 지점에서 출발합니다
 

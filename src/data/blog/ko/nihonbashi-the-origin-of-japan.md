@@ -6,9 +6,7 @@ author: GSF
 lang: ko
 category: essay
 tags:
-  - 인사이트
-  - 일본생활
-  - 비전
+  - 에세이
 sources:
   - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
   - "https://www.jnto.go.jp/eng/"

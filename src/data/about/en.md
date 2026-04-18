@@ -1,19 +1,16 @@
 ---
 lang: en
 title: "About"
-sameAs:
-  - "https://www.linkedin.com/in/username/"
-  - "https://x.com/username"
 ---
 
-![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author.png)
+![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author.jpg)
 
-### Public profiles (update pending)
+### Public profiles
 
-- [LinkedIn](https://www.linkedin.com/in/username/)
-- [X](https://x.com/username)
+- [LinkedIn](https://www.linkedin.com/in/gsfark/)
+- [X](https://x.com/gsfark)
 
-These are placeholders—replace with your live URLs. You can also reach me via the [Contact](/contact) page.
+URLs match `PUBLIC_PROFILES` in `src/config.ts`. You can also reach me via the [Contact](/contact) page.
 
 ---
 

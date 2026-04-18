@@ -1,13 +1,27 @@
 ---
 import { canonicalizePathname } from "@/utils/hreflang";
+import type { UiLang } from "@/i18n/ui";
 
+type Props = { uiLang?: UiLang };
+
+const { uiLang: uiLangProp } = Astro.props as Props;
 const { pathname } = Astro.url;
 const { locale } = Astro.params;
 
-const currentLang = locale || "en";
+const currentLang: UiLang =
+  uiLangProp ??
+  (locale === "ko" || locale === "ja" ? locale : "en");
+
+const normPath = pathname.replace(/\/+$/, "") || "/";
+const onArchivesOnly =
+  normPath === "/archives" || normPath.startsWith("/archives/");
 
 // Function to generate the correct URL for a different language
 const getLangUrl = (targetLang: string) => {
+  if (onArchivesOnly) {
+    return "/archives/";
+  }
+
   let relativePath = pathname;
 
   // Strip out current locale prefix if we are in a sub-locale
@@ -41,11 +55,25 @@ const getLangUrl = (targetLang: string) => {
     aria-haspopup="true"
   >
     <span>
-      {currentLang === 'en' ? '🇺🇸' : currentLang === 'ko' ? '🇰🇷' : '🇯🇵'}
+      {currentLang === "en"
+        ? "🇺🇸"
+        : currentLang === "ko"
+          ? "🇰🇷"
+          : "🇯🇵"}
     </span>
     <span class="text-sm">{currentLang.toUpperCase()}</span>
-    <svg class="h-4 w-4 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+    <svg
+      class="h-4 w-4 opacity-70"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M19 9l-7 7-7-7"></path>
     </svg>
   </button>
 
@@ -57,9 +85,27 @@ const getLangUrl = (targetLang: string) => {
     tabindex="-1"
   >
     <div class="py-1" role="none">
-      <a href={getLangUrl('en')} class:list={["block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800", currentLang === 'en' ? 'font-bold text-accent' : '']} role="menuitem">🇺🇸 EN</a>
-      <a href={getLangUrl('ko')} class:list={["block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800", currentLang === 'ko' ? 'font-bold text-accent' : '']} role="menuitem">🇰🇷 KO</a>
-      <a href={getLangUrl('ja')} class:list={["block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800", currentLang === 'ja' ? 'font-bold text-accent' : '']} role="menuitem">🇯🇵 JA</a>
+      <a
+        href={getLangUrl("en")}
+        class:list={[
+          "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
+          currentLang === "en" ? "font-bold text-accent" : "",
+        ]}
+        role="menuitem">🇺🇸 EN</a>
+      <a
+        href={getLangUrl("ko")}
+        class:list={[
+          "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
+          currentLang === "ko" ? "font-bold text-accent" : "",
+        ]}
+        role="menuitem">🇰🇷 KO</a>
+      <a
+        href={getLangUrl("ja")}
+        class:list={[
+          "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
+          currentLang === "ja" ? "font-bold text-accent" : "",
+        ]}
+        role="menuitem">🇯🇵 JA</a>
     </div>
   </div>
 </div>

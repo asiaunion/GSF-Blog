@@ -67,6 +67,8 @@ Those investing in J-REITs can factor in factors like stable dividends of around
 
 ![Chart illustrating J-REIT dividend and yield context](/assets/images/legacy/j-reit-dividend-yield-trend.png)
 
+*Source: reference chart adapted from public quote data on investing.com.*
+
 <p class="post-section-heading">5. Looking at the Top 3 J-REITs</p>
 
 As of the end of September 2023, the total market capitalization of all J-REITs surpassed 15.7 trillion Yen. Even factoring in the weak Yen, it equates to a scale of roughly 140 trillion KRW. Looking at the top 3 REITs by market capitalization, we have the following. You can look up detailed information using the ticker symbols in the parentheses. I've compiled simple charts and general info from investing.com below. Please refer to them.
@@ -76,12 +78,29 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 3. **Nomura Real Estate Master Fund Inc (3462):** A REIT exceeding a market cap of roughly 788 billion Yen. The dividend yield is 4.01%.
 4. Although its market cap is relatively lower (even so, it's 670 billion Yen, roughly over 6 trillion KRW), Japan Retail Fund Investment Corp (8953), which boasts a solid dividend yield of about 4.7%, also catches the eye.
 
-![Nippon Building Fund (8951) price and facts screenshot](/assets/images/legacy/image.png)
+![Nippon Building Fund (8951) price and facts screenshot](/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.png)
+
+*Source: investing.com ticker 8951 (reference screenshot).*
+
 ![Japan Real Estate Investment (8952) price and facts screenshot](/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png)
+
+*Source: investing.com ticker 8952 (reference screenshot).*
+
 ![Japan Retail Fund (8953) price and facts screenshot](/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png)
+
+*Source: investing.com ticker 8953 (reference screenshot).*
+
 ![Nomura Real Estate Master Fund (3462) price and facts screenshot](/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png)
+
+*Source: investing.com ticker 3462 (reference screenshot).*
+
 ![Additional J-REIT ticker screenshot example 1](/assets/images/legacy/j-reit-ticker-example-1.png)
+
+*Source: investing.com public quote page (J-REIT, reference screenshot).*
+
 ![Additional J-REIT ticker screenshot example 2](/assets/images/legacy/j-reit-ticker-example-2.png)
+
+*Source: investing.com public quote page (J-REIT, reference screenshot).*
 
 <p class="post-section-heading">Conclusion</p>
 

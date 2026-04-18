@@ -12,14 +12,29 @@ import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import { SITE } from "@/config";
+import { getUi, type UiLang } from "@/i18n/ui";
 
+const { locale } = Astro.params;
+const L = getUi((locale || "en") as UiLang);
 const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
 ---
 
-<Layout title={`Search | ${SITE.title}`}>
+<Layout title={`${L.pageTitleSearch} | ${SITE.title}`}>
   <Header />
-  <Main pageTitle="Search" pageDesc="Search any article ...">
-    <div id="pagefind-search" data-backurl={backUrl}></div>
+  <Main pageTitle={L.pageTitleSearch} pageDesc={L.pageDescSearch}>
+    {
+      import.meta.env.DEV && (
+        <div class="bg-muted/75 not-prose mb-4 space-y-4 rounded p-4">
+          <p>
+            <strong>{L.devSearchWarnTitle}</strong> {L.devSearchWarnBody}
+          </p>
+          <code class="block rounded bg-black px-2 py-1 text-white">
+            pnpm run build
+          </code>
+        </div>
+      )
+    }
+    <div id="pagefind-search" data-backurl={backUrl} />
   </Main>
   <Footer />
 </Layout>
@@ -76,16 +91,6 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
           indexWeight: 0.45,
         }));
 
-      // Display warning inn dev mode
-      if (import.meta.env.DEV) {
-        pageFindSearch.innerHTML = `
-            <div class="bg-muted/75 rounded p-4 space-y-4 mb-4">
-              <p><strong>DEV mode Warning! </strong>You need to build the project at least once to see the search results during development.</p>
-              <code class="block bg-black text-white px-2 py-1 rounded">pnpm run build</code>
-            </div>
-          `;
-      }
-
       // Init pagefind ui (primary index = <html lang>; merge siblings for cross-lang queries)
       const search = new PagefindUI({
         element: "#pagefind-search",
@@ -94,9 +99,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
         mergeIndex,
         showImages: false,
         showSubResults: true,
-        translations: {
-           // Basic string fallbacks if needed, pagefind usually supports it natively
-        },
+        translations: {},
         processTerm: function (term: string) {
           params.set("q", term);
           const next =

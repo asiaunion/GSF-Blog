@@ -1,6 +1,7 @@
 ---
 import AboutLayout from "@/layouts/AboutLayout.astro";
 import { getEntry, render } from "astro:content";
+import { PUBLIC_PROFILES } from "@/config";
 
 export function getStaticPaths() {
   return [
@@ -22,7 +23,10 @@ const { Content } = await render(entry);
 ---
 
 <AboutLayout
-  frontmatter={{ title: entry.data.title, sameAs: entry.data.sameAs }}
+  frontmatter={{
+    title: entry.data.title,
+    sameAs: [PUBLIC_PROFILES.linkedIn, PUBLIC_PROFILES.x],
+  }}
 >
   <Content />
 </AboutLayout>

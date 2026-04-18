@@ -6,9 +6,7 @@ author: GSF
 lang: ja
 category: essay
 tags:
-  - インサイト
-  - 日本生活
-  - ビジョン
+  - エッセイ
 sources:
   - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
   - "https://www.jnto.go.jp/eng/"

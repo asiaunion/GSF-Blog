@@ -31,3 +31,5 @@ export const TOPIC_HUB_SLUGS = {
     "one-failure-three-lessons-postmortem",
   ],
 } as const;
+
+export type TopicHubKey = keyof typeof TOPIC_HUB_SLUGS;

@@ -46,7 +46,7 @@ After purchasing real estate in Japan, there are taxes and miscellaneous expense
 
 **Real Estate Income Tax:** When you rent out real estate and earn rental income, income tax is levied on that income. Income tax returns must be filed annually. For example, the tax rate is 5% for incomes of 1.95 million yen or less, and 10% for incomes of 3.3 million yen or less.
 
-These taxes are mandatory items that investors in Japanese real estate must confirm. It is highly advised to consult with tax or legal experts regarding these specifics.
+These taxes are mandatory items that investors in Japanese real estate must confirm. It is highly advised to consult with tax or legal experts regarding these specifics. For rates, special measures, and payment mechanics, cross-check [MLIT](https://www.mlit.go.jp/en/) guidance with macro and regional releases from [Statistics Japan](https://www.stat.go.jp/english/).
 
 <p class="post-section-heading">3. Utilizing Local Real estate Networks</p>
 
@@ -57,6 +57,8 @@ Property maintenance and tenant management (in the case of rentals) are just as 
 **Maintenance:** It is critical to maintain the property well to prevent its value from depreciating over time. This includes routine cleaning, repairs, and renovations as needed.
 
 **Tenant Management:** If you are renting out the property, effective tenant management is paramount. This includes screening tenants prior to move-in, collecting rent on schedule, and resolving any issues that emerge during their residency.
+
+Portal listings are a starting point; pair them with official market context from [MLIT](https://www.mlit.go.jp/en/) and [Statistics Japan](https://www.stat.go.jp/english/) when you form a view.
 
 **Conclusion: Japanese real estate is at the starting point of a new mega-cycle**
 

@@ -10,10 +10,16 @@ import LanguageSwitcher from "./LanguageSwitcher.astro";
 import { SITE } from "@/config";
 import { getUi, type UiLang } from "@/i18n/ui";
 
+type Props = { uiLang?: UiLang };
+
+const { uiLang: uiLangProp } = Astro.props as Props;
 const { pathname } = Astro.url;
 const { locale } = Astro.params;
-const l = locale ? `/${locale}` : ""; // root domain for english
-const lang = (locale || "en") as UiLang;
+const lang = (
+  uiLangProp ??
+  (locale === "ko" || locale === "ja" ? locale : "en")
+) as UiLang;
+const l = lang === "en" ? "" : `/${lang}`;
 const L = getUi(lang);
 
 // Remove trailing slash from current pathname if exists
@@ -183,7 +189,7 @@ const isActive = (path: string) => {
           )
         }
         <li class="col-span-1 flex items-center justify-center border-l border-border pl-2 sm:pl-4 ml-2 max-sm:border-none max-sm:pl-0">
-          <LanguageSwitcher />
+          <LanguageSwitcher uiLang={lang} />
         </li>
       </ul>
     </nav>

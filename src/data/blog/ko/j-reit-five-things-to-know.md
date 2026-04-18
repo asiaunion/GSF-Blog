@@ -67,6 +67,8 @@ tags:
 
 ![J-REIT 배당·수익률 관련 시장 분위기를 보여주는 차트](/assets/images/legacy/j-reit-dividend-yield-trend.png)
 
+*출처: investing.com 등 공개 차트·지표 화면을 인용·재구성한 참고 이미지입니다.*
+
 <p class="post-section-heading">5. 일본 리츠(J REITs) 상위 3개를 살펴보면</p>
 
 2023년 9월말 기준 일본 리츠 전체의 시가 총액은 15조 7천억엔을 넘어서고 있습니다. 엔저를 감안해도 한화로 약 140조가 넘는 규모입니다. 시가총액 기준 상위 3개의 리츠를 살펴보면 다음과 같습니다. 괄호 안의 티커를 통해 자세한 정보 조회가 가능합니다. 아래 investing.com으로부터 간단한 차트와 일반적인 정보를 가져왔습니다. 참조하시기 바랍니다.
@@ -76,12 +78,29 @@ tags:
 3. **Nomura Real Estate Master Fund Inc (3462):** 시총 약 7,880억 엔을 넘어서는 규모의 리츠입니다. 배당수익률은 4.01%입니다.
 4. 기타 시총은 상대적으로 낮지만(낮다고 해도 6,700억엔, 한화로 6조 이상입니다) 배당수익률이 약 4.7%로 준수한 Japan Retail Fund Investment Corp (8953) 도 눈여겨 보게 되네요.
 
-![Nippon Building Fund(8951) 관련 시세·정보 화면](/assets/images/legacy/image.png)
+![Nippon Building Fund(8951) 관련 시세·정보 화면](/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.png)
+
+*출처: investing.com 티커(8951) 조회 화면 인용(참고).*
+
 ![Japan Real Estate Investment(8952) 관련 시세·정보 화면](/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png)
+
+*출처: investing.com 티커(8952) 조회 화면 인용(참고).*
+
 ![Japan Retail Fund(8953) 관련 시세·정보 화면](/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png)
+
+*출처: investing.com 티커(8953) 조회 화면 인용(참고).*
+
 ![Nomura Real Estate Master Fund(3462) 관련 시세·정보 화면](/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png)
+
+*출처: investing.com 티커(3462) 조회 화면 인용(참고).*
+
 ![기타 J-REIT 티커 시세 화면 예시 1](/assets/images/legacy/j-reit-ticker-example-1.png)
+
+*출처: investing.com J-REIT 관련 공개 시세 화면 인용(참고).*
+
 ![기타 J-REIT 티커 시세 화면 예시 2](/assets/images/legacy/j-reit-ticker-example-2.png)
+
+*출처: investing.com J-REIT 관련 공개 시세 화면 인용(참고).*
 
 **결론**
 

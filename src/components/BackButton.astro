@@ -2,6 +2,10 @@
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import LinkButton from "./LinkButton.astro";
 import { SITE } from "@/config";
+import { getUi, type UiLang } from "@/i18n/ui";
+
+const { locale } = Astro.params;
+const L = getUi((locale || "en") as UiLang);
 ---
 
 {
@@ -13,7 +17,7 @@ import { SITE } from "@/config";
         class="focus-outline -ms-2 mt-8 mb-2 hover:text-foreground/75"
       >
         <IconChevronLeft class="inline-block size-6 rtl:rotate-180" />
-        <span>Go back</span>
+        <span>{L.backButton}</span>
       </LinkButton>
     </div>
   )

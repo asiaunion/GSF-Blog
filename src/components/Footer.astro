@@ -7,13 +7,22 @@ const currentYear = new Date().getFullYear();
 
 type Props = {
   noMarginTop?: boolean;
+  uiLang?: UiLang;
 } & HTMLAttributes<"footer">;
 
-const { noMarginTop = false, class: className, ...attrs } = Astro.props;
+const {
+  noMarginTop = false,
+  uiLang: uiLangProp,
+  class: className,
+  ...attrs
+} = Astro.props;
 
 const { locale } = Astro.params;
-const l = locale ? `/${locale}` : ""; // root domain for english
-const lang = (locale || "en") as UiLang;
+const lang = (
+  uiLangProp ??
+  (locale === "ko" || locale === "ja" ? locale : "en")
+) as UiLang;
+const l = lang === "en" ? "" : `/${lang}`;
 const L = getUi(lang);
 ---
 

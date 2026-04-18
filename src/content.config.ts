@@ -24,8 +24,9 @@ const minSourceCount = parsePositiveInt(
   2
 );
 
+/** One file per locale dir only — avoids `**` double-matching the same entry (duplicate id warnings). */
 const blog = defineCollection({
-  loader: glob({ pattern: "**/[^_]*.md", base: `./${BLOG_PATH}` }),
+  loader: glob({ pattern: "{en,ko,ja}/*.md", base: `./${BLOG_PATH}` }),
   schema: ({ image }) =>
     z.object({
       author: z.string().default(SITE.author),

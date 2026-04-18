@@ -1,19 +1,16 @@
 ---
 lang: ja
 title: "紹介"
-sameAs:
-  - "https://www.linkedin.com/in/username/"
-  - "https://x.com/username"
 ---
 
-![Joseph · GSF、日本橋在住](/assets/images/gsf-author.png)
+![Joseph · GSF、日本橋在住](/assets/images/gsf-author.jpg)
 
-### 公的プロフィール（更新予定）
+### 公的プロフィール
 
-- [LinkedIn](https://www.linkedin.com/in/username/)
-- [X](https://x.com/username)
+- [LinkedIn](https://www.linkedin.com/in/gsfark/)
+- [X](https://x.com/gsfark)
 
-プレースホルダーです。公開URLに差し替え予定です。[お問い合わせ](/ja/contact)もご利用ください。
+URLは `src/config.ts` の `PUBLIC_PROFILES` と一致させています。[お問い合わせ](/ja/contact)もご利用ください。
 
 ---
 

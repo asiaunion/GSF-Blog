@@ -6,9 +6,7 @@ author: GSF
 lang: en
 category: essay
 tags:
-  - Insight
-  - Japan Life
-  - Vision
+  - Essay
 sources:
   - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
   - "https://www.jnto.go.jp/eng/"
