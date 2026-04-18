@@ -49,6 +49,29 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
         "/"
       );
 
+      /*
+       * Primary index follows <html lang> (e.g. KO pages only index Korean text).
+       * Merge other language indexes from the same bundle so queries like "tokyo"
+       * on /ko/search/ still find English (and JA) posts. See:
+       * https://pagefind.app/docs/multisite/#merging-a-specific-language-index
+       */
+      const rawLang = (
+        document.documentElement.lang || "en"
+      ).toLowerCase();
+      const primaryLang = rawLang.startsWith("ko")
+        ? "ko"
+        : rawLang.startsWith("ja")
+          ? "ja"
+          : "en";
+      const allLangs = ["en", "ko", "ja"] as const;
+      const mergeIndex = allLangs
+        .filter(l => l !== primaryLang)
+        .map(language => ({
+          bundlePath: pagefindBundlePath,
+          language,
+          indexWeight: 0.45,
+        }));
+
       // Display warning inn dev mode
       if (import.meta.env.DEV) {
         pageFindSearch.innerHTML = `
@@ -59,10 +82,12 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
           `;
       }
 
-      // Init pagefind ui (index language follows <html lang> automatically)
+      // Init pagefind ui (primary index = <html lang>; merge siblings for cross-lang queries)
       const search = new PagefindUI({
         element: "#pagefind-search",
         bundlePath: pagefindBundlePath,
+        indexWeight: 2,
+        mergeIndex,
         showImages: false,
         showSubResults: true,
         translations: {
