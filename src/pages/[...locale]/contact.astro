@@ -1,5 +1,6 @@
 ---
 import AboutLayout from "@/layouts/AboutLayout.astro";
+import { getEntry, render } from "astro:content";
 
 export function getStaticPaths() {
   return [
@@ -8,16 +9,18 @@ export function getStaticPaths() {
     { params: { locale: "ja" } },
   ];
 }
+
+const { locale } = Astro.params;
+const lang = (locale as "ko" | "ja" | undefined) ?? "en";
+
+const entry = await getEntry("contact", lang);
+if (!entry) {
+  throw new Error(`Contact entry not found for locale: ${lang}`);
+}
+
+const { Content } = await render(entry);
 ---
 
-<AboutLayout frontmatter={{ title: "Contact Us" }}>
-  <div>
-    <h2>Get in Touch</h2>
-    <p>If you have any questions about our Japanese Real Estate insights, Missional Business model, or wish to collaborate with GSF Studio, please feel free to reach out.</p>
-    <ul>
-      <li><strong>Email:</strong> asiaunion@gmail.com</li>
-      <li><strong>Address:</strong> 2-24-8 Nihombashihamacho, Chuo-ku, Tokyo-to 103-0007 Japan</li>
-    </ul>
-    <p>We typically respond within 2-3 business days. For urgent inquiries regarding global asset pipelines, please add [Urgent] to your email subject.</p>
-  </div>
+<AboutLayout frontmatter={{ title: entry.data.title }}>
+  <Content />
 </AboutLayout>
