@@ -76,3 +76,9 @@ The profit-generation formula in this market has completely changed. A position 
    In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, you must insist on high-end locations where foot traffic is heavily defended and the wealthy desperately desire to reside.
 
 In truth, due to fatigue from the explosive surge in late 2024, we saw prices in the core wards undergo a slight correction in 2025 for the first time in 37 months, finding a distinct psychological resistance level. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
+
+---
+
+## Disclaimer
+
+This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader.

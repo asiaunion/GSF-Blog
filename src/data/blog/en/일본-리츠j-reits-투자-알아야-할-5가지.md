@@ -79,3 +79,9 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 **Conclusion**
 
 "In 2020, while global REITs struggled to pay out dividends, J-REITs actually increased their total dividend distributions compared to the previous year. The shareholder benefit programs of listed Japanese companies are quite exceptional. Due to such benefit programs, quite a few Japanese citizens purchase stocks. It appears that J-REITs serve as an excellent, stable alternative investment channel for the recovering Japanese real estate market. The J-REIT products introduced today primarily hold commercial buildings in urban Japanese city centers as their primary assets. Therefore, buying these REITs is akin to directly investing in commercial buildings in the heart of Tokyo. If you view the future prospects of commercial facilities in central Tokyo—possessing a uniquely different vibe than Seoul—positively, then investing in J-REITs can be a fantastic approach.
+
+---
+
+## Disclaimer
+
+This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader.
