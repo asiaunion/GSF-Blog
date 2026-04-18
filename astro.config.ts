@@ -64,6 +64,12 @@ export default defineConfig({
         context: "client",
         optional: true,
       }),
+      /** AdSense publisher id, e.g. ca-pub-xxxxxxxxxxxxxxxx (set when applying) */
+      PUBLIC_ADSENSE_PUBLISHER_ID: envField.string({
+        access: "public",
+        context: "client",
+        optional: true,
+      }),
     },
   },
   experimental: {

@@ -1,0 +1,36 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Category = "investment" | "safety";
+type Lang = "en" | "ko" | "ja";
+
+type Props = {
+  category: Category;
+  lang: Lang;
+} & HTMLAttributes<"p">;
+
+const { category, lang, class: className, ...attrs } = Astro.props;
+
+const COPY: Record<Category, Record<Lang, string>> = {
+  investment: {
+    ko: "※ 본 글은 투자·재무 자문이 아니라 정보 공유 목적의 개인적 관찰입니다. 투자·세무·법률 판단은 반드시 공식 자료와 전문가 상담을 거친 뒤 본인 책임으로 내려주세요.",
+    en: "This article is general information and personal observation only—not investment, tax, or legal advice. Verify official sources and consult qualified professionals; you are responsible for your decisions.",
+    ja: "※ 本記事は投資・税務・法務のアドバイスではなく、情報共有を目的とした個人的な観察です。最終判断は公的情報と専門家への相談のうえ、ご自身の責任で行ってください。",
+  },
+  safety: {
+    ko: "※ 본 글은 재해·안전에 관한 일반 소개이며, 긴급 대피 지침이나 공식 경보를 대체하지 않습니다. 재난 시에는 방송·지자체·소방 등 공식 안내를 최우선으로 따르세요.",
+    en: "This article is a general overview of hazards and safety—not a substitute for emergency instructions or official alerts. In an emergency, follow government and local authority guidance first.",
+    ja: "※ 本記事は災害・安全に関する一般的な紹介であり、緊急時の避難指示や公式警報に代わるものではありません。災害時は放送・自治体・消防などの公式情報を最優先してください。",
+  },
+};
+
+const text = COPY[category][lang];
+---
+
+<p
+  class:list={["post-inline-disclaimer not-prose", className]}
+  role="note"
+  {...attrs}
+>
+  {text}
+</p>

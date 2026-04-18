@@ -1,6 +1,20 @@
 ---
 lang: ja
 title: "紹介"
+sameAs:
+  - "https://www.linkedin.com/in/username/"
+  - "https://x.com/username"
+---
+
+![Joseph · GSF、日本橋在住](/assets/images/gsf-author.png)
+
+### 公的プロフィール（更新予定）
+
+- [LinkedIn](https://www.linkedin.com/in/username/)
+- [X](https://x.com/username)
+
+プレースホルダーです。公開URLに差し替え予定です。[お問い合わせ](/ja/contact)もご利用ください。
+
 ---
 
 ### 日本橋、この一点から歩み出します

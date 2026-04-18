@@ -1,6 +1,20 @@
 ---
 lang: en
 title: "About"
+sameAs:
+  - "https://www.linkedin.com/in/username/"
+  - "https://x.com/username"
+---
+
+![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author.png)
+
+### Public profiles (update pending)
+
+- [LinkedIn](https://www.linkedin.com/in/username/)
+- [X](https://x.com/username)
+
+These are placeholders—replace with your live URLs. You can also reach me via the [Contact](/contact) page.
+
 ---
 
 ### Nihonbashi — Starting from This Point

@@ -41,6 +41,10 @@ const blog = defineCollection({
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
       lang: z.enum(["en", "ko", "ja"]).default("en"),
+      /** YMYL routing: triggers short inline disclaimer for investment / safety posts */
+      category: z
+        .enum(["investment", "safety", "life", "local", "essay"])
+        .optional(),
       sources: z.array(z.string().url()).default([]),
       references: z.array(z.string().url()).default([]),
     }).superRefine((data, ctx) => {
@@ -87,6 +91,8 @@ const about = defineCollection({
   schema: z.object({
     lang: z.enum(["en", "ko", "ja"]),
     title: z.string(),
+    /** Public profile URLs for Person JSON-LD (LinkedIn, X, etc.) */
+    sameAs: z.array(z.string().url()).optional().default([]),
   }),
 });
 

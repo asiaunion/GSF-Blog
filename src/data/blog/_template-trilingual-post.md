@@ -23,7 +23,6 @@ references:
 
 실제 경험(니혼바시 관찰) + 객관 데이터(출처 링크 기반) + 실무 인사이트 순서로 작성.
 
----
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">면책 문구</p>

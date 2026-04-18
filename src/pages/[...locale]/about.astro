@@ -21,6 +21,8 @@ if (!entry) {
 const { Content } = await render(entry);
 ---
 
-<AboutLayout frontmatter={{ title: entry.data.title }}>
+<AboutLayout
+  frontmatter={{ title: entry.data.title, sameAs: entry.data.sameAs }}
+>
   <Content />
 </AboutLayout>

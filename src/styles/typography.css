@@ -175,6 +175,11 @@
     .post-disclaimer p + p {
       @apply mt-0.5;
     }
+
+    /* YMYL: short inline notice above article body (investment / safety posts) */
+    .post-inline-disclaimer {
+      @apply mb-4 rounded-md border border-border bg-muted/50 px-3 py-2.5 text-sm leading-snug text-foreground/90;
+    }
   }
 
   /* ===== Code Blocks & Syntax Highlighting ===== */

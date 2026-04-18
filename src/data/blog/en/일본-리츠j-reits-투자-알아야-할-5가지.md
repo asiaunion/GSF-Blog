@@ -3,8 +3,13 @@ title: "5 Things to Know About Investing in Japan REITs (J-REITs)"
 pubDatetime: 2026-03-22T00:00:00Z
 description: "From market structure and BOJ buying support to a 3–4% dividend track record, currency-gain upside, and the top J-REITs by market cap — five checkpoints to run through before putting capital into Japanese real estate investment trusts."
 author: GSF
+lang: en
+category: investment
 tags:
-  - Archive
+  - J-REITs
+  - Japan investing
+  - Real estate
+  - Tokyo
 ---
 
 **Foreword**
@@ -46,7 +51,9 @@ One method is investing in individual REITs. Since REITs are traded on the stock
 
 However, personally, since the Yen exchange rate is currently at a historic low, I recommend considering individual REIT investments, keeping future foreign exchange gains in perspective. The representative REITs are listed below. All these REITs track the TSE (Tokyo Stock Exchange) REIT Index. The data below is taken from <http://www.japan-reit.com>. Although it is in Japanese, the crucial part is the 4-digit code (ticker) at the front, which allows you to check significant information in English on sites like investing.com. Checking key data through that ticker allows you to invest in J-REITs using the same method as trading overseas stocks.
 
-![](/assets/images/legacy/image-7.png)
+![J-REIT market reference table (summary from japan-reit.com)](/assets/images/legacy/j-reit-market-data-table.png)
+
+*Source: reference screenshot adapted from [japan-reit.com](http://www.japan-reit.com).*
 
 <p class="post-section-heading">4. Expected Returns and the Tangible Warmth in the Asset Market</p>
 
@@ -58,7 +65,7 @@ According to research conducted by the Nissei Basic Research Institute, as of la
 
 Those investing in J-REITs can factor in factors like stable dividends of around 3~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
 
-![](/assets/images/legacy/image-6.png)
+![Chart illustrating J-REIT dividend and yield context](/assets/images/legacy/j-reit-dividend-yield-trend.png)
 
 <p class="post-section-heading">5. Looking at the Top 3 J-REITs</p>
 
@@ -69,18 +76,17 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 3. **Nomura Real Estate Master Fund Inc (3462):** A REIT exceeding a market cap of roughly 788 billion Yen. The dividend yield is 4.01%.
 4. Although its market cap is relatively lower (even so, it's 670 billion Yen, roughly over 6 trillion KRW), Japan Retail Fund Investment Corp (8953), which boasts a solid dividend yield of about 4.7%, also catches the eye.
 
-![](/assets/images/legacy/image.png)
-![](/assets/images/legacy/image-1.png)
-![](/assets/images/legacy/image-2.png)
-![](/assets/images/legacy/image-3.png)
-![](/assets/images/legacy/image-4.png)
-![](/assets/images/legacy/image-5.png)
+![Nippon Building Fund (8951) price and facts screenshot](/assets/images/legacy/image.png)
+![Japan Real Estate Investment (8952) price and facts screenshot](/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png)
+![Japan Retail Fund (8953) price and facts screenshot](/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png)
+![Nomura Real Estate Master Fund (3462) price and facts screenshot](/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png)
+![Additional J-REIT ticker screenshot example 1](/assets/images/legacy/j-reit-ticker-example-1.png)
+![Additional J-REIT ticker screenshot example 2](/assets/images/legacy/j-reit-ticker-example-2.png)
 
 <p class="post-section-heading">Conclusion</p>
 
 "In 2020, while global REITs struggled to pay out dividends, J-REITs actually increased their total dividend distributions compared to the previous year. The shareholder benefit programs of listed Japanese companies are quite exceptional. Due to such benefit programs, quite a few Japanese citizens purchase stocks. It appears that J-REITs serve as an excellent, stable alternative investment channel for the recovering Japanese real estate market. The J-REIT products introduced today primarily hold commercial buildings in urban Japanese city centers as their primary assets. Therefore, buying these REITs is akin to directly investing in commercial buildings in the heart of Tokyo. If you view the future prospects of commercial facilities in central Tokyo—possessing a uniquely different vibe than Seoul—positively, then investing in J-REITs can be a fantastic approach.
 
----
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">Disclaimer</p>

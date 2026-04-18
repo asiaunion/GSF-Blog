@@ -3,8 +3,13 @@ title: "일본 리츠(J REITs) 투자 알아야 할 5가지"
 pubDatetime: 2026-03-22T00:00:00Z
 description: "J-REITs 시장 구조와 BOJ 매수 배경, 배당 수익률 3~4% 실적, 환차익 가능성, 시가총액 상위 종목까지 일본 리츠 투자 전 점검할 다섯 가지 포인트를 정리합니다."
 author: GSF
+lang: ko
+category: investment
 tags:
-  - Archive
+  - J-REITs
+  - 일본투자
+  - 부동산
+  - 도쿄
 ---
 
 **머리말**
@@ -46,7 +51,9 @@ tags:
 
 그러나 개인적으로는 현재 엔화 환율이 역사적인 저점에 위치해 있으므로 추후 환차익의 관점에서도 개별 리츠 투자를 고려해보실 것을 추천드립니다. 대표적인 리츠들을 소개하자면 아래 리스트와 같습니다. 이들 리츠들은 모두 TSE(도쿄증권거래소) REIT Index를 추종합니다. 아래 자료는 <http://www.japan-reit.com> 에서 가져왔습니다. 일본어로 되어 있지만 중요한 것은 맨 앞의 숫자 4자리(티커)로 investing.com 등에서 주요한 정보를 영어로 확인할 수 있다는 것입니다. 해당 티커로 주요 정보를 체크하고, 해외주식 매매하는 방식으로 일본 리츠에 투자할 수 있습니다.
 
-![](/assets/images/legacy/image-7.png)
+![J-REIT 시장·티커 참고 표 (japan-reit.com 자료 요약)](/assets/images/legacy/j-reit-market-data-table.png)
+
+*출처: [japan-reit.com](http://www.japan-reit.com) 웹사이트 화면을 인용·재구성한 참고 이미지입니다.*
 
 <p class="post-section-heading">4. 일본 리츠(J REITs) 투자의 예상 수익 및 자산 시장의 온기</p>
 
@@ -58,7 +65,7 @@ tags:
 
 일본 리츠에 투자하시는 분은 3~4% 정도의 안정적인 배당과 향후 환차익의 가능성, 추가적인 시세 상승을 통한 차익 등을 투자 고려 요소에 넣을 수 있겠습니다. 확정적인 수익을 전망하는 것은 어떤 투자이든 불가능합니다. 다만 안정성이라는 측면에서 일본리츠는 장점을 가진 해외투자라고 생각됩니다.
 
-![](/assets/images/legacy/image-6.png)
+![J-REIT 배당·수익률 관련 시장 분위기를 보여주는 차트](/assets/images/legacy/j-reit-dividend-yield-trend.png)
 
 <p class="post-section-heading">5. 일본 리츠(J REITs) 상위 3개를 살펴보면</p>
 
@@ -69,18 +76,17 @@ tags:
 3. **Nomura Real Estate Master Fund Inc (3462):** 시총 약 7,880억 엔을 넘어서는 규모의 리츠입니다. 배당수익률은 4.01%입니다.
 4. 기타 시총은 상대적으로 낮지만(낮다고 해도 6,700억엔, 한화로 6조 이상입니다) 배당수익률이 약 4.7%로 준수한 Japan Retail Fund Investment Corp (8953) 도 눈여겨 보게 되네요.
 
-![](/assets/images/legacy/image.png)
-![](/assets/images/legacy/image-1.png)
-![](/assets/images/legacy/image-2.png)
-![](/assets/images/legacy/image-3.png)
-![](/assets/images/legacy/image-4.png)
-![](/assets/images/legacy/image-5.png)
+![Nippon Building Fund(8951) 관련 시세·정보 화면](/assets/images/legacy/image.png)
+![Japan Real Estate Investment(8952) 관련 시세·정보 화면](/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png)
+![Japan Retail Fund(8953) 관련 시세·정보 화면](/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png)
+![Nomura Real Estate Master Fund(3462) 관련 시세·정보 화면](/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png)
+![기타 J-REIT 티커 시세 화면 예시 1](/assets/images/legacy/j-reit-ticker-example-1.png)
+![기타 J-REIT 티커 시세 화면 예시 2](/assets/images/legacy/j-reit-ticker-example-2.png)
 
 **결론**
 
 “2020년 글로벌 리츠들이 배당금을 지급하지 못할 때 일본 리츠는 오히려 전년 대비 배당 총액을 늘렸습니다. 일본 상장 회사들의 주주 우대 프로그램은 상당히 우수합니다. 이런 우대 프로그램 때문에 주식을 사려는 일본인들도 꽤 많을 정도입니다. 일본 리츠는 회복하는 일본 부동산 시장을 위한 안정적이고 훌륭한 대체 투자가 될 것으로 보입니다.  오늘 소개한 일본 리츠 상품들은 일본 도심의 상업 빌딩들이 주요한 자산입니다.그러므로 해당 리츠를 산다는 것은 일본 도쿄 도심의 상업용 빌딩에 투자하는 것과 같습니다. 서울과는 또 다른 느낌의 도쿄 중심지의 상업 시설의 향후 전망을 긍정적으로 보신다면 일본 리츠 투자가 좋은 방법이 될 수 있겠습니다.
 
----
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">면책 문구</p>

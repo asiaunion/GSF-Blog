@@ -1,9 +1,13 @@
 ---
 import { Font } from "astro:assets";
 import { ClientRouter } from "astro:transitions";
-import { PUBLIC_GOOGLE_SITE_VERIFICATION } from "astro:env/client";
+import {
+  PUBLIC_GOOGLE_SITE_VERIFICATION,
+  PUBLIC_ADSENSE_PUBLISHER_ID,
+} from "astro:env/client";
 import { SITE } from "@/config";
 import "@/styles/global.css";
+import HreflangLinks from "@/components/HreflangLinks.astro";
 
 type Props = {
   title?: string;
@@ -15,6 +19,10 @@ type Props = {
   pubDatetime?: Date;
   modDatetime?: Date | null;
   scrollSmooth?: boolean;
+  /** Post tags → JSON-LD keywords */
+  tags?: string[];
+  /** Short plain-text excerpt for JSON-LD `articleBody` (e.g. frontmatter description) */
+  articleBody?: string;
 };
 
 const {
@@ -27,20 +35,35 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  tags = undefined,
+  articleBody = undefined,
 } = Astro.props;
 
 const { locale } = Astro.params;
-const currentLang = locale || SITE.lang || "en";
+/** Unprefixed routes = default locale (en), per astro.config i18n */
+const currentLang = locale || "en";
 
 const socialImageURL = new URL(ogImage, Astro.url);
+const canonicalHref =
+  typeof canonicalURL === "string" ? canonicalURL : canonicalURL.href;
+const publisherLogoUrl = new URL(
+  SITE.ogImage ? `/${SITE.ogImage}` : "/og.png",
+  Astro.url.origin
+).href;
 
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   headline: `${title}`,
+  description: `${description}`,
   image: `${socialImageURL}`,
-  datePublished: `${pubDatetime?.toISOString()}`,
+  inLanguage: currentLang,
+  ...(pubDatetime && { datePublished: pubDatetime.toISOString() }),
   ...(modDatetime && { dateModified: modDatetime.toISOString() }),
+  ...(articleBody &&
+    articleBody.length > 0 && {
+      articleBody: articleBody.slice(0, 8000),
+    }),
   author: [
     {
       "@type": "Person",
@@ -48,6 +71,23 @@ const structuredData = {
       ...(profile && { url: profile }),
     },
   ],
+  publisher: {
+    "@type": "Organization",
+    name: SITE.title,
+    url: SITE.website.replace(/\/+$/, ""),
+    logo: {
+      "@type": "ImageObject",
+      url: publisherLogoUrl,
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": canonicalHref,
+  },
+  ...(tags &&
+    tags.length > 0 && {
+      keywords: tags.join(", "),
+    }),
 };
 ---
 
@@ -62,6 +102,7 @@ const structuredData = {
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={canonicalURL} />
+    <HreflangLinks pathname={Astro.url.pathname} site={SITE.website} />
     <meta name="generator" content={Astro.generator} />
 
     <!-- Load Font -->
@@ -134,6 +175,15 @@ const structuredData = {
         <meta
           name="google-site-verification"
           content={PUBLIC_GOOGLE_SITE_VERIFICATION}
+        />
+      )
+    }
+
+    {
+      PUBLIC_ADSENSE_PUBLISHER_ID && (
+        <meta
+          name="google-adsense-account"
+          content={PUBLIC_ADSENSE_PUBLISHER_ID}
         />
       )
     }

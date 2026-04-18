@@ -1,0 +1,145 @@
+---
+import { getEntry } from "astro:content";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Layout from "@/layouts/Layout.astro";
+import Card from "@/components/Card.astro";
+import { SITE } from "@/config";
+import { TOPIC_HUB_SLUGS } from "@/data/topicHubs";
+import { getUi, type UiLang } from "@/i18n/ui";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: undefined } },
+    { params: { locale: "ko" } },
+    { params: { locale: "ja" } },
+  ];
+}
+
+const { locale } = Astro.params;
+const lang = (locale || "en") as UiLang;
+const L = getUi(lang);
+
+type HubKey = keyof typeof TOPIC_HUB_SLUGS;
+
+const hubOrder: HubKey[] = [
+  "urbanInvestment",
+  "macroPolicy",
+  "tokyoLife",
+  "essay",
+];
+
+const hubCopy: Record<
+  UiLang,
+  Record<HubKey, { title: string; description: string }>
+> = {
+  en: {
+    urbanInvestment: {
+      title: "Urban investment insight",
+      description:
+        "Tokyo offices, residential pricing, REITs, redevelopment, and rental yield vs capital gains.",
+    },
+    macroPolicy: {
+      title: "Macro & policy (Korea–Japan)",
+      description:
+        "FX, rates, cross-border tax and visa topics, corporate vs personal holding sketches.",
+    },
+    tokyoLife: {
+      title: "Tokyo life & local reports",
+      description:
+        "Neighborhood walks, food markets, street DNA, community notes, and family-friendly picks.",
+    },
+    essay: {
+      title: "Essays & investing philosophy",
+      description:
+        "Personal notes on mindset, moving, volatility, reading two markets, and post-mortems.",
+    },
+  },
+  ko: {
+    urbanInvestment: {
+      title: "도시형 투자 인사이트",
+      description:
+        "도쿄 오피스·주거 단가, 리츠, 재개발, 임대 수익과 시세 차익 등 실물 중심 분석.",
+    },
+    macroPolicy: {
+      title: "한일 거시·정책",
+      description:
+        "환율·금리, 상속·증여, 비자 경로, 법인 vs 개인 보유 등 제도·거시 이슈.",
+    },
+    tokyoLife: {
+      title: "도쿄 라이프·로컬 리포트",
+      description:
+        "동네 산책, 시장 이전 이야기, 거리 비교, 커뮤니티, 가족 코스 등 현장형 글.",
+    },
+    essay: {
+      title: "에세이·투자 철학",
+      description:
+        "마음가짐, 이사와 계약, 환율 변동, 두 시장 읽기, 투자 복기 등 개인적 기록.",
+    },
+  },
+  ja: {
+    urbanInvestment: {
+      title: "都市型投資インサイト",
+      description:
+        "東京オフィス・住宅の単価、リート、再開発、利回りとキャピタルゲインの整理。",
+    },
+    macroPolicy: {
+      title: "日韓マクロ・政策",
+      description:
+        "為替・金利、相続・贈与、在留ルート、法人と個人の保有スケッチなど。",
+    },
+    tokyoLife: {
+      title: "東京ライフ・ローカル",
+      description:
+        "街歩き、市場の移転、通りの比較、コミュニティ、家族向けスポットなど。",
+    },
+    essay: {
+      title: "エッセイ・投資観",
+      description:
+        "姿勢、引越しと契約、為替の揺れ、二市場の読み方、振り返りなど。",
+    },
+  },
+};
+
+const sections = await Promise.all(
+  hubOrder.map(async key => {
+    const slugs = TOPIC_HUB_SLUGS[key];
+    const entries = await Promise.all(
+      slugs.map(slug => getEntry("blog", `${lang}/${slug}` as const))
+    );
+    const posts = entries.filter((e): e is NonNullable<typeof e> => e != null);
+    return { key, ...hubCopy[lang][key], posts };
+  })
+);
+---
+
+<Layout title={`${L.topicsPageTitle} | ${SITE.title}`} description={L.topicsPageDesc}>
+  <Header />
+  <main id="main-content" class="app-layout pb-12">
+    <h1 class="text-2xl font-semibold sm:text-3xl">{L.topicsPageTitle}</h1>
+    <p class="mt-2 mb-10 max-w-3xl text-foreground/80 leading-relaxed">
+      {L.topicsPageDesc}
+    </p>
+
+    {
+      sections.map(({ key, title, description, posts }) => (
+        <section class="mb-14" aria-labelledby={`hub-${key}`}>
+          <h2 id={`hub-${key}`} class="text-xl font-semibold tracking-wide">
+            {title}
+          </h2>
+          <p class="mt-1 mb-6 max-w-3xl text-foreground/70">{description}</p>
+          {posts.length > 0 ? (
+            <ul>
+              {posts.map(post => (
+                <Card variant="h3" {...post} />
+              ))}
+            </ul>
+          ) : (
+            <p class="italic text-foreground/60">{L.topicsEmpty}</p>
+          )}
+        </section>
+      ))
+    }
+  </main>
+  <Footer />
+</Layout>
