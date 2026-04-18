@@ -39,6 +39,16 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       // @ts-expect-error — Missing types for @pagefind/default-ui package.
       const { PagefindUI } = await import("@pagefind/default-ui");
 
+      /*
+       * Dynamic import leaves `document.currentScript` null, so @pagefind/default-ui
+       * cannot infer bundlePath and passes `undefined` → broken `import(\`\${base_path}pagefind.js\`)`
+       * and an infinite wait in Pagefind's init loop ("Searching…" forever).
+       */
+      const pagefindBundlePath = `${import.meta.env.BASE_URL.replace(/\/?$/, "/")}pagefind/`.replace(
+        /\/{2,}/g,
+        "/"
+      );
+
       // Display warning inn dev mode
       if (import.meta.env.DEV) {
         pageFindSearch.innerHTML = `
@@ -53,6 +63,7 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       const currentLang = document.documentElement.lang || "en";
       const search = new PagefindUI({
         element: "#pagefind-search",
+        bundlePath: pagefindBundlePath,
         showImages: false,
         showSubResults: true,
         translations: {
