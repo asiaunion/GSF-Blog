@@ -80,6 +80,10 @@ const currentPostIndex = allPosts.findIndex(a => a.id === post.id);
 const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
 const nextPost =
   currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+
+const isCoredoTightProse = post.id.endsWith(
+  "코레도-니혼바시-무로마치-미쓰이-재개발"
+);
 ---
 
 <Layout {...layoutProps}>
@@ -109,7 +113,10 @@ const nextPost =
     </div>
     <article
       id="article"
-      class="app-prose mt-8 w-full max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
+      class:list={[
+        "app-prose mt-8 w-full max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)",
+        { "app-prose--coredo-tight": isCoredoTightProse },
+      ]}
     >
       <Content />
     </article>

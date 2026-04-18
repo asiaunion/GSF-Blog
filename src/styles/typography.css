@@ -39,6 +39,23 @@
       @apply my-[0.3rem] text-lg font-bold text-foreground sm:text-xl;
     }
 
+    /* Coredo post only: half of site-wide paragraph / section-heading margins */
+    &.app-prose--coredo-tight p {
+      @apply my-[0.1125rem];
+    }
+
+    &.app-prose--coredo-tight .post-section-heading {
+      @apply my-[0.15rem];
+    }
+
+    &.app-prose--coredo-tight .post-disclaimer p {
+      @apply my-0;
+    }
+
+    &.app-prose--coredo-tight .post-disclaimer p + p {
+      @apply mt-1;
+    }
+
     a {
       @apply wrap-break-word text-foreground decoration-dashed underline-offset-4 hover:text-accent focus-visible:no-underline;
     }
