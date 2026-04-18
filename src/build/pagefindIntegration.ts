@@ -39,6 +39,22 @@ export function pagefindIntegration(): AstroIntegration {
         if (result.status !== 0) {
           throw new Error(`pagefind exited with code ${result.status ?? "unknown"}`);
         }
+
+        /*
+         * Pagefind skips mergeIndex when the merge bundle path is the same as (or a
+         * prefix of) the primary bundle: primary.basePath.startsWith(indexPath).
+         * Same-folder multilingual merge therefore does nothing. Duplicate the bundle
+         * to a distinct path so mergeIndex loads en/ja (etc.) from pagefind-aux.
+         */
+        const pagefindDir = path.join(outDir, "pagefind");
+        const auxDir = path.join(outDir, "pagefind-aux");
+        if (!fs.existsSync(pagefindDir)) {
+          logger.warn(`Expected ${pagefindDir} after pagefind; skip pagefind-aux copy.`);
+          return;
+        }
+        fs.rmSync(auxDir, { recursive: true, force: true });
+        fs.cpSync(pagefindDir, auxDir, { recursive: true });
+        logger.info(`Copied Pagefind bundle to ${auxDir} for cross-language mergeIndex.`);
       },
     },
   };
