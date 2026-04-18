@@ -76,89 +76,6 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
           indexWeight: 0.45,
         }));
 
-      // #region agent log
-      {
-        const w = window as Window & { __pagefindDbgInit?: number };
-        w.__pagefindDbgInit = (w.__pagefindDbgInit ?? 0) + 1;
-        const mergeSkipSamePath = mergeIndex.map(m => ({
-          language: m.language,
-          libraryWouldSkip: pagefindBundlePath.startsWith(m.bundlePath),
-        }));
-        fetch("http://127.0.0.1:7768/ingest/f4108bd9-ba4c-4484-82bd-82bc4df19043", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "X-Debug-Session-Id": "c78403",
-          },
-          body: JSON.stringify({
-            sessionId: "c78403",
-            runId: "verify-aux-merge",
-            hypothesisId: "H1",
-            location: "search.astro:onIdle",
-            message: "Pagefind merge paths + same-bundle skip check",
-            data: {
-              initCount: w.__pagefindDbgInit,
-              href: location.href,
-              htmlLang: document.documentElement.lang,
-              primaryLang,
-              pagefindBundlePath,
-              pagefindAuxBundlePath,
-              mergeSkipSamePath,
-            },
-            timestamp: Date.now(),
-          }),
-        }).catch(() => {});
-      }
-      // #endregion
-
-      void fetch(`${pagefindBundlePath}pagefind-entry.json`)
-        .then(r => ({ ok: r.ok, status: r.status }))
-        .then(data => {
-          // #region agent log
-          fetch("http://127.0.0.1:7768/ingest/f4108bd9-ba4c-4484-82bd-82bc4df19043", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "X-Debug-Session-Id": "c78403",
-            },
-            body: JSON.stringify({
-              sessionId: "c78403",
-            runId: "verify-aux-merge",
-            hypothesisId: "H2",
-              location: "search.astro:pagefind-entry",
-              message: "Primary pagefind-entry fetch",
-              data,
-              timestamp: Date.now(),
-            }),
-          }).catch(() => {});
-          // #endregion
-        })
-        .catch(() => {});
-
-      void fetch(`${pagefindAuxBundlePath}pagefind-entry.json`)
-        .then(r => ({ ok: r.ok, status: r.status }))
-        .then(data => {
-          // #region agent log
-          fetch("http://127.0.0.1:7768/ingest/f4108bd9-ba4c-4484-82bd-82bc4df19043", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "X-Debug-Session-Id": "c78403",
-            },
-            body: JSON.stringify({
-              sessionId: "c78403",
-            runId: "verify-aux-merge",
-            hypothesisId: "H2b",
-              location: "search.astro:pagefind-aux-entry",
-              message: "Aux pagefind-entry fetch (merge bundle)",
-              data,
-              timestamp: Date.now(),
-            }),
-          }).catch(() => {});
-          // #endregion
-        })
-        .catch(() => {});
-
       // Display warning inn dev mode
       if (import.meta.env.DEV) {
         pageFindSearch.innerHTML = `
@@ -211,35 +128,6 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       if (query) {
         requestAnimationFrame(() => search.triggerSearch(query));
       }
-
-      window.setTimeout(() => {
-        const nResults = document.querySelectorAll("#pagefind-search .pagefind-ui__result").length;
-        const noHits = document
-          .querySelector("#pagefind-search .pagefind-ui__drawer")
-          ?.textContent?.includes("No results");
-        // #region agent log
-        fetch("http://127.0.0.1:7768/ingest/f4108bd9-ba4c-4484-82bd-82bc4df19043", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "X-Debug-Session-Id": "c78403",
-          },
-          body: JSON.stringify({
-            sessionId: "c78403",
-            runId: "verify-aux-merge",
-            hypothesisId: "H4",
-            location: "search.astro:postSearchDom",
-            message: "Result count after delay",
-            data: {
-              q: query ?? null,
-              nResults,
-              noHits: Boolean(noHits),
-            },
-            timestamp: Date.now(),
-          }),
-        }).catch(() => {});
-        // #endregion
-      }, 3500);
 
       // Reset search param if search input is cleared
       const searchInput = document.querySelector(".pagefind-ui__search-input");
