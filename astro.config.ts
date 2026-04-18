@@ -12,6 +12,7 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 import { getLegacyPostRedirects } from "./src/build/legacyPostRedirects";
+import { pagefindIntegration } from "./src/build/pagefindIntegration";
 
 // https://astro.build/config
 export default defineConfig({
@@ -27,6 +28,7 @@ export default defineConfig({
     },
   },
   integrations: [
+    pagefindIntegration(),
     sitemap({
       filter: page => {
         if (SITE.showArchives) return true;
