@@ -43,8 +43,10 @@ export function pagefindIntegration(): AstroIntegration {
         /*
          * Pagefind skips mergeIndex when the merge bundle path is the same as (or a
          * prefix of) the primary bundle: primary.basePath.startsWith(indexPath).
-         * Same-folder multilingual merge therefore does nothing. Duplicate the bundle
-         * to a distinct path so mergeIndex loads en/ja (etc.) from pagefind-aux.
+         * The UI loads merged languages from `/pagefind-aux/` (see search.astro).
+         * On Vercel, `vercel.json` rewrites `/pagefind-aux/*` → `/pagefind/*` so the
+         * merge URL differs (no skip) while bytes are served from the real index.
+         * The copy below still helps `astro preview` and hosts without that rewrite.
          */
         const pagefindDir = path.join(outDir, "pagefind");
         const auxDir = path.join(outDir, "pagefind-aux");
