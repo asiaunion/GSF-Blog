@@ -28,7 +28,11 @@
     }
 
     p {
-      @apply my-3;
+      @apply my-1.5;
+    }
+
+    .post-section-heading {
+      @apply my-2 text-lg font-bold text-foreground sm:text-xl;
     }
 
     a {
