@@ -136,11 +136,11 @@ const isActive = (path: string) => {
           SITE.showArchives && (
             <li class="col-span-2">
               <LinkButton
-                href={`${l}/archives/`}
+                href="/archives/"
                 class:list={[
                   "focus-outline flex justify-center p-3 sm:p-1 transition-colors hover:text-accent",
                   {
-                    "active-nav [&>svg]:stroke-accent": isActive(`${l}/archives`),
+                    "active-nav [&>svg]:stroke-accent": isActive("/archives"),
                   },
                 ]}
                 title={L.navArchives}

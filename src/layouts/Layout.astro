@@ -190,6 +190,20 @@ const structuredData = {
 
     <ClientRouter />
 
+    <!--
+      View transitions replace body content but keep the live <html> element.
+      Sync lang from the incoming document so Pagefind / i18n match the URL
+      (e.g. /search/ must use lang="en", not a stale "ko" from /ko/...).
+    -->
+    <script is:inline>
+      document.addEventListener("astro:before-swap", function (ev) {
+        if (!ev || !("newDocument" in ev) || !ev.newDocument) return;
+        var lang = ev.newDocument.documentElement &&
+          ev.newDocument.documentElement.getAttribute("lang");
+        if (lang) document.documentElement.setAttribute("lang", lang);
+      });
+    </script>
+
     <!-- Minimal inline script to prevent FOUC - sets theme immediately -->
     <script is:inline>
       (function () {
