@@ -6,11 +6,14 @@
     @apply prose;
 
     h1,
-    h2,
     h3,
     h4,
     th {
       @apply mb-3 text-foreground;
+    }
+
+    h2 {
+      @apply mb-2 mt-6 text-lg font-bold text-foreground sm:text-xl;
     }
 
     h3 {
