@@ -18,8 +18,9 @@ const { title, description, ...props } = data;
     href={getPath(id, filePath)}
     class:list={[
       "inline-block text-lg font-medium text-accent",
-      "decoration-dashed underline-offset-4 hover:underline",
-      "focus-visible:no-underline focus-visible:underline-offset-0",
+      "underline decoration-solid decoration-1 underline-offset-[0.22em] transition-opacity hover:opacity-90",
+      "decoration-accent/45 hover:decoration-accent",
+      "focus-visible:no-underline focus-visible:opacity-100",
     ]}
   >
     <Heading

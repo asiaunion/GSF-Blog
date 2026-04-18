@@ -135,15 +135,22 @@ const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
       color: var(--accent);
       outline-offset: 1px;
       outline-color: var(--accent);
-      text-decoration-style: dashed;
-      text-underline-offset: 4px;
+      text-decoration-line: underline;
+      text-decoration-style: solid;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.22em;
+      text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    }
+
+    .pagefind-ui__result-title a:hover {
+      text-decoration-color: var(--accent);
     }
 
     .pagefind-ui__result-title a:focus-visible,
     .pagefind-ui__search-clear:focus-visible {
       text-decoration-line: none;
       outline-width: 2px;
-      outline-style: dashed;
+      outline-style: solid;
     }
 
     .pagefind-ui__result:last-of-type {

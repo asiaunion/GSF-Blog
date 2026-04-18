@@ -43,7 +43,7 @@ html[data-theme="dark"] {
   }
   a,
   button {
-    @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
+    @apply outline-offset-1 outline-accent focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-solid;
   }
   button:not(:disabled),
   [role="button"]:not(:disabled) {
@@ -59,7 +59,15 @@ html[data-theme="dark"] {
   @apply mx-auto w-full max-w-app px-4;
 }
 
-/** Current section in header nav — solid accent, no wavy (cleaner for Latin + CJK). */
+/**
+ * Default inline links (footer, etc.) — thin solid underline, accent on hover.
+ * Prose uses the same values in typography.css for consistency.
+ */
+@utility link-subtle {
+  @apply underline decoration-solid decoration-1 underline-offset-[0.22em] transition-colors decoration-foreground/30 hover:text-accent hover:decoration-accent;
+}
+
+/** Current section in header nav */
 .active-nav {
   @apply font-semibold text-accent no-underline;
   box-shadow: inset 0 -2px 0 0 var(--color-accent);
