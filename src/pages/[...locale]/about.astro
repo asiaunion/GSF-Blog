@@ -1,5 +1,6 @@
 ---
 import AboutLayout from "@/layouts/AboutLayout.astro";
+import { getEntry, render } from "astro:content";
 
 export function getStaticPaths() {
   return [
@@ -8,11 +9,18 @@ export function getStaticPaths() {
     { params: { locale: "ja" } },
   ];
 }
+
+const { locale } = Astro.params;
+const lang = (locale as "ko" | "ja" | undefined) ?? "en";
+
+const entry = await getEntry("about", lang);
+if (!entry) {
+  throw new Error(`About entry not found for locale: ${lang}`);
+}
+
+const { Content } = await render(entry);
 ---
 
-<AboutLayout frontmatter={{ title: "About" }}>
-  <div>
-    <h2>About GSF-Blog</h2>
-    <p>Good Samaritan Frontier: Investing, Lifestyle, and Missional Business.</p>
-  </div>
+<AboutLayout frontmatter={{ title: entry.data.title }}>
+  <Content />
 </AboutLayout>
