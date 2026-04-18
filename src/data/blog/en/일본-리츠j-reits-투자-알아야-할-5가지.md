@@ -84,4 +84,4 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 
 ## Disclaimer
 
-This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader.
+This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.

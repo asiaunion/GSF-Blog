@@ -27,4 +27,4 @@ Through this relocation, it is my earnest desire that this space becomes the **'
 
 ## Disclaimer
 
-This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader.
+This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.
