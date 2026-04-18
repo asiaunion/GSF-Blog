@@ -11,11 +11,13 @@ import {
 } from "@shikijs/transformers";
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
+import { getLegacyPostRedirects } from "./src/build/legacyPostRedirects";
 
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
   adapter: vercel(),
+  redirects: getLegacyPostRedirects(),
   i18n: {
     defaultLocale: "en",
     locales: ["en", "ko", "ja"],
