@@ -12,7 +12,7 @@ The operator of this Site is:
 
 - **Operator**: GSF (Joseph)
 - **Email**: asiaunion@gmail.com
-- **Address**: 2-24-8 Nihombashihamacho, Chuo-ku, Tokyo-to 103-0007, Japan
+- **Address**: 2-24-8 Nihombashihamacho, Chuo-ku, Tokyo 103-0007, Japan
 
 ---
 
@@ -123,6 +123,6 @@ This Policy may be revised in response to changes in applicable laws, Site servi
 By using this Site, you are deemed to consent to this Privacy Policy. If you have any questions about this Policy or about how your personal information is handled, please reach out using the details below.
 
 - **Email**: asiaunion@gmail.com
-- **Address**: 2-24-8 Nihombashihamacho, Chuo-ku, Tokyo-to 103-0007, Japan
+- **Address**: 2-24-8 Nihombashihamacho, Chuo-ku, Tokyo 103-0007, Japan
 
 I usually reply within 2–3 business days.
