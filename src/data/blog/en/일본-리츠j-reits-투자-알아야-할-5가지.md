@@ -11,7 +11,7 @@ tags:
 
 For a while, there was an investment trend led by retail investors focusing heavily on US overseas stocks. Now, a new term has become trendy: "Ilhak Ants" (retail investors focusing on Japanese stocks). Unlike the expectations of many, the real estate market prices in major Japanese hub cities are trending upward. Just like stocks, you can invest in the Japanese real estate market via J-REITs. In this post, we will explore what J-REITs are, their advantages, and major REIT products.
 
-**1. What is J-REIT Investment?**
+<p class="post-section-heading">1. What is J-REIT Investment?</p>
 
 Japan's Real Estate Investment Trusts (REITs) are similar to those in the US, with major Japanese corporations participating in the market. As of 2023, there are 41 REIT funds in Japan, forming the largest real estate investment trust fund market in Asia. On a global scale, it ranks second only behind the United States.
 
@@ -26,7 +26,7 @@ The major REITs listed on the Tokyo Stock Exchange include:
 
 These REITs encompass various sectors including office buildings, retail, logistics, and residential real estate. The performance of these REITs can be tracked on portals such as JAPAN-REIT.COM and J-REIT.jp.
 
-**2. What are the advantages of investing in J-REITs?**
+<p class="post-section-heading">2. What are the advantages of investing in J-REITs?</p>
 
 Investing in Japanese Real Estate Investment Trusts (REITs) presents several benefits:
 
@@ -40,7 +40,7 @@ The fact that there is a strong ally named the Bank of Japan (BOJ) elevates the 
 
 A characteristic advantage of J-REITs is the system allowing "negative goodwill" to be excluded from distributable profits. For instance, if REIT 'A' acquires REIT 'B' cheaply—say REIT B is worth 60 billion KRW but is acquired for 50 billion KRW—a negative goodwill of 10 billion KRW is generated. While REITs are generally required to distribute their earnings as dividends, that 10 billion KRW can be retained without being paid out. These resources can then be utilized during crisis situations when paying dividends becomes difficult. Ultimately, this equates to providing considerable stability to REITs.
 
-**3. How to invest in J-REITs?**
+<p class="post-section-heading">3. How to invest in J-REITs?</p>
 
 One method is investing in individual REITs. Since REITs are traded on the stock market, just like trading US stocks, investing in J-REITs means investing directly in the Japanese market. The currency used is obviously the Japanese Yen since it is the Japanese market. For stability, one should consider the market's representative individual REITs as investment targets. If you are not familiar with overseas stock investments, choosing a public mutual fund is another viable option.
 
@@ -48,7 +48,7 @@ However, personally, since the Yen exchange rate is currently at a historic low,
 
 ![](/assets/images/legacy/image-7.png)
 
-**4. Expected Returns and the Tangible Warmth in the Asset Market**
+<p class="post-section-heading">4. Expected Returns and the Tangible Warmth in the Asset Market</p>
 
 While average dividend yields hovered over 4% back in 2023, the explosive surge in prime real estate asset values in central Tokyo has slightly compressed these apparent yields recently. Conversely, this is hard proof that the 'Capital Gains' of the underlying assets are rising fiercely.
 
@@ -60,7 +60,7 @@ Those investing in J-REITs can factor in factors like stable dividends of around
 
 ![](/assets/images/legacy/image-6.png)
 
-**5. Looking at the Top 3 J-REITs**
+<p class="post-section-heading">5. Looking at the Top 3 J-REITs</p>
 
 As of the end of September 2023, the total market capitalization of all J-REITs surpassed 15.7 trillion Yen. Even factoring in the weak Yen, it equates to a scale of roughly 140 trillion KRW. Looking at the top 3 REITs by market capitalization, we have the following. You can look up detailed information using the ticker symbols in the parentheses. I've compiled simple charts and general info from investing.com below. Please refer to them.
 
@@ -76,7 +76,7 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 ![](/assets/images/legacy/image-4.png)
 ![](/assets/images/legacy/image-5.png)
 
-**Conclusion**
+<p class="post-section-heading">Conclusion</p>
 
 "In 2020, while global REITs struggled to pay out dividends, J-REITs actually increased their total dividend distributions compared to the previous year. The shareholder benefit programs of listed Japanese companies are quite exceptional. Due to such benefit programs, quite a few Japanese citizens purchase stocks. It appears that J-REITs serve as an excellent, stable alternative investment channel for the recovering Japanese real estate market. The J-REIT products introduced today primarily hold commercial buildings in urban Japanese city centers as their primary assets. Therefore, buying these REITs is akin to directly investing in commercial buildings in the heart of Tokyo. If you view the future prospects of commercial facilities in central Tokyo—possessing a uniquely different vibe than Seoul—positively, then investing in J-REITs can be a fantastic approach.
 
