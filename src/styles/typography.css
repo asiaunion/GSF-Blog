@@ -17,13 +17,15 @@
       Posts without `---` need that combined gap above the heading so rhythm matches Coredo.
     */
     h2 {
-      @apply mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
-      margin-top: calc(2.8571428572rem + 1px);
+      @apply pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
+      /* Beat `.prose :where(h2){ margin-top:2em; margin-bottom:1em }` */
+      margin-block-start: calc(2.8571428572rem + 1px);
+      margin-block-end: 0;
     }
 
     & hr + h2,
     & > h2:first-child {
-      margin-top: 0.075rem;
+      margin-block-start: 0.075rem;
     }
 
     h3 {
@@ -47,17 +49,19 @@
 
     /*
       Numbered section headings (`<p class="post-section-heading">` in MD).
-      `pb-[1lh]` = one line box below title; padding avoids margin-collapse with the next paragraph.
-      Top margin: same as Coredo’s `---` block (see `h2` above). After `hr`, keep a thin offset only.
+      Must use `p.post-section-heading` + `margin-block-*` so we win over Tailwind Typography’s
+      `.prose :where(p){ margin-top:1.25em; margin-bottom:1.25em }`, which was erasing the large
+      `margin-top` we set on `.post-section-heading` alone.
     */
-    .post-section-heading {
-      @apply mb-0 pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
-      margin-top: calc(2.8571428572rem + 1px);
+    & p.post-section-heading {
+      @apply pb-[1lh] text-lg font-bold text-foreground sm:text-xl;
+      margin-block-start: calc(2.8571428572rem + 1px);
+      margin-block-end: 0;
     }
 
-    & hr + .post-section-heading,
-    & > .post-section-heading:first-child {
-      margin-top: 0.075rem;
+    & hr + p.post-section-heading,
+    & > p.post-section-heading:first-child {
+      margin-block-start: 0.075rem;
     }
 
     a {
