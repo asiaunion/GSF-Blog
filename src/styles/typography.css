@@ -39,13 +39,18 @@
       @apply my-[0.3rem] text-lg font-bold text-foreground sm:text-xl;
     }
 
-    /* Coredo post only: half of site-wide paragraph / section-heading margins */
+    /* Coredo post only: extra-tight rhythm (half of previous coredo-tight values). */
     &.app-prose--coredo-tight p {
-      @apply my-[0.1125rem];
+      @apply my-[0.05625rem];
     }
 
     &.app-prose--coredo-tight .post-section-heading {
-      @apply my-[0.15rem];
+      @apply my-[0.075rem];
+    }
+
+    /* Section dividers in this post are markdown `---` (hr); prose default hr margins are ~2.86em each. */
+    &.app-prose--coredo-tight hr {
+      @apply my-[1.4285714286em];
     }
 
     &.app-prose--coredo-tight .post-disclaimer p {
@@ -53,7 +58,7 @@
     }
 
     &.app-prose--coredo-tight .post-disclaimer p + p {
-      @apply mt-1;
+      @apply mt-0.5;
     }
 
     a {
