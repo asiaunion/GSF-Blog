@@ -17,6 +17,9 @@ importers:
       '@astrojs/vercel':
         specifier: ^9.0.5
         version: 9.0.5(astro@5.18.1(@types/node@24.12.2)(@vercel/functions@2.2.13)(jiti@2.6.1)(lightningcss@1.32.0)(rollup@4.60.1)(typescript@5.9.3)(yaml@2.8.3))(rollup@4.60.1)
+      '@pagefind/default-ui':
+        specifier: ^1.4.0
+        version: 1.5.2
       '@resvg/resvg-js':
         specifier: ^2.6.2
         version: 2.6.2
@@ -32,6 +35,9 @@ importers:
       lodash.kebabcase:
         specifier: ^4.1.1
         version: 4.1.1
+      pagefind:
+        specifier: ^1.4.0
+        version: 1.5.2
       remark-collapse:
         specifier: ^0.1.2
         version: 0.1.2
@@ -54,9 +60,6 @@ importers:
       '@astrojs/check':
         specifier: ^0.9.6
         version: 0.9.8(prettier-plugin-astro@0.14.1)(prettier@3.8.3)(typescript@5.9.3)
-      '@pagefind/default-ui':
-        specifier: ^1.4.0
-        version: 1.5.2
       '@shikijs/transformers':
         specifier: ^3.20.0
         version: 3.23.0
@@ -78,9 +81,6 @@ importers:
       globals:
         specifier: ^16.5.0
         version: 16.5.0
-      pagefind:
-        specifier: ^1.4.0
-        version: 1.5.2
       prettier:
         specifier: ^3.7.4
         version: 3.8.3
