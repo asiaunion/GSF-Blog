@@ -3,7 +3,7 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Layout from "./Layout.astro";
-import { SITE, PUBLIC_PROFILES } from "@/config";
+import { SITE } from "@/config";
 
 export interface Props {
   frontmatter: {
@@ -18,9 +18,10 @@ const { locale } = Astro.params;
 const currentLang = (locale as string | undefined) || "en";
 
 const sameAs = frontmatter.sameAs ?? [];
-const linkedInProfileHandle =
-  PUBLIC_PROFILES.linkedIn.split("/").filter(Boolean).at(-1) ?? "gsfark";
-const authorImageUrl = `https://unavatar.io/linkedin/${linkedInProfileHandle}`;
+const authorImageUrl = new URL(
+  "/assets/images/gsf-author-profile.png",
+  SITE.website
+).href;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.url).href;
 

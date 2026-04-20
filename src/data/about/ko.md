@@ -3,7 +3,7 @@ lang: ko
 title: "소개"
 ---
 
-![Joseph · GSF, 니혼바시 거주](https://unavatar.io/linkedin/gsfark)
+![Joseph · GSF, 니혼바시 거주](/assets/images/gsf-author-profile.png)
 
 ### 공적 프로필
 

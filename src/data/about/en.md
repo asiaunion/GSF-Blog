@@ -3,7 +3,7 @@ lang: en
 title: "About"
 ---
 
-![Joseph · GSF, based in Nihonbashi](https://unavatar.io/linkedin/gsfark)
+![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author-profile.png)
 
 ### Public profiles
 

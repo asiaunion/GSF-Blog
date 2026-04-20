@@ -31,9 +31,7 @@ const { locale } = Astro.params;
 const navLang = (locale || "en") as UiLang;
 const L = getUi(navLang);
 const localePrefix = navLang === "en" ? "" : `/${navLang}`;
-const linkedInProfileHandle =
-  PUBLIC_PROFILES.linkedIn.split("/").filter(Boolean).at(-1) ?? "gsfark";
-const linkedInAvatarUrl = `https://unavatar.io/linkedin/${linkedInProfileHandle}`;
+const authorProfileImage = "/assets/images/gsf-author-profile.png";
 const linkedInCtaUrl = new URL(PUBLIC_PROFILES.linkedIn);
 linkedInCtaUrl.searchParams.set("utm_source", "gsf_blog");
 linkedInCtaUrl.searchParams.set("utm_medium", "author_card_cta");
@@ -173,7 +171,7 @@ const nextPost =
       <h2 class="text-lg font-semibold">{L.authorCardTitle}</h2>
       <div class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center">
         <img
-          src={linkedInAvatarUrl}
+          src={authorProfileImage}
           alt="GSF author"
           loading="lazy"
           decoding="async"
