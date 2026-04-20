@@ -3,7 +3,7 @@ lang: ja
 title: "紹介"
 ---
 
-![Joseph · GSF、日本橋在住](/assets/images/gsf-author.jpg)
+![Joseph · GSF、日本橋在住](https://unavatar.io/x/gsfark)
 
 ### 公的プロフィール
 

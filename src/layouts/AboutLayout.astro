@@ -3,7 +3,7 @@ import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Layout from "./Layout.astro";
-import { SITE } from "@/config";
+import { SITE, PUBLIC_PROFILES } from "@/config";
 
 export interface Props {
   frontmatter: {
@@ -18,10 +18,8 @@ const { locale } = Astro.params;
 const currentLang = (locale as string | undefined) || "en";
 
 const sameAs = frontmatter.sameAs ?? [];
-const authorImageUrl = new URL(
-  "/assets/images/gsf-author.jpg",
-  SITE.website
-).href;
+const xProfileHandle = PUBLIC_PROFILES.x.split("/").filter(Boolean).at(-1) ?? "gsfark";
+const authorImageUrl = `https://unavatar.io/x/${xProfileHandle}`;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.url).href;
 
