@@ -7,7 +7,7 @@ title: "소개"
 
 ### 공적 프로필
 
-- [LinkedIn](https://www.linkedin.com/in/gsfark/)
+- [LinkedIn](https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true)
 - [X](https://x.com/asiaunion)
 
 프로필 URL은 `src/config.ts`의 `PUBLIC_PROFILES`와 동일하게 유지합니다. 연락은 [연락 페이지](/ko/contact)도 이용해 주세요.

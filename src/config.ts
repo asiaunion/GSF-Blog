@@ -1,6 +1,6 @@
 /** LinkedIn / X for About, Person JSON-LD `sameAs`, and header social links. Replace with your live URLs. */
 export const PUBLIC_PROFILES = {
-  linkedIn: "https://www.linkedin.com/in/gsfark/",
+  linkedIn: "https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true",
   x: "https://x.com/asiaunion",
 } as const;
 
