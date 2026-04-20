@@ -61,7 +61,10 @@ const pageLd =
   <Header />
   <Breadcrumb />
   <main id="main-content" class="app-layout">
-    <section id="about" class="app-prose mb-28 max-w-app prose-img:border-0">
+    <section
+      id="about"
+      class="app-prose mb-28 max-w-app prose-img:mx-auto prose-img:my-4 prose-img:size-28 sm:prose-img:size-32 prose-img:rounded-full prose-img:object-cover prose-img:border prose-img:border-border"
+    >
       <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
       <slot />
     </section>
