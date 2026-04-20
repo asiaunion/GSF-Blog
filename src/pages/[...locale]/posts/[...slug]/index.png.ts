@@ -3,6 +3,8 @@ import { getCollection, type CollectionEntry } from "astro:content";
 import { generateOgImageForPost } from "@/utils/generateOgImages";
 import { SITE } from "@/config";
 
+export const prerender = true;
+
 export async function getStaticPaths() {
   if (!SITE.dynamicOgImage) {
     return [];

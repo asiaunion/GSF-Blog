@@ -217,7 +217,11 @@ const nextPost =
   /** Update the progress bar
    *  when user scrolls */
   function updateScrollProgress() {
+    let ticking = false;
     document.addEventListener("scroll", () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
       const winScroll =
         document.body.scrollTop || document.documentElement.scrollTop;
       const height =
@@ -230,9 +234,10 @@ const nextPost =
           myBar.style.width = scrolled + "%";
         }
       }
-    });
+        ticking = false;
+      });
+    }, { passive: true });
   }
-  updateScrollProgress();
 
   /** Attaches copy buttons to code blocks in the document,
    * allowing users to copy code easily. */
@@ -286,7 +291,19 @@ const nextPost =
       }, 700);
     }
   }
-  attachCopyButtons();
+  function initEnhancements() {
+    updateScrollProgress();
+    const hasCodeBlocks = document.querySelector("pre code");
+    if (hasCodeBlocks) {
+      attachCopyButtons();
+    }
+  }
+
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(initEnhancements, { timeout: 1200 });
+  } else {
+    window.setTimeout(initEnhancements, 200);
+  }
 
   /* Go to page start after page swap */
   document.addEventListener("astro:after-swap", () =>
