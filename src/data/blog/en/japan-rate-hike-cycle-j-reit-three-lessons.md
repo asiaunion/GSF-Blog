@@ -13,9 +13,12 @@ tags:
 sources:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mof.go.jp/english/"
+  - "https://www.jpx.co.jp/english/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mof.go.jp/english/"
 ---
 
 <p class="post-section-heading">1. Rates are both discount and funding</p>
@@ -32,6 +35,12 @@ Office, logistics, retail, and hotels do not share the same rate beta. Shorter *
 
 <p class="post-section-heading">5. Closing</p>
 History is not prophecy—read filings.
+
+<p class="post-section-heading">Further reading in this series</p>
+
+- [5 Things to Know About Investing in Japan REITs (J-REITs)](/posts/j-reit-five-things-to-know/)
+- [Hotel REITs vs Office REITs: Which Recovered More After COVID?](/posts/hotel-reit-vs-office-reit-post-covid/)
+- [3 Things to Know About Real Estate Investment in Japan](/posts/japan-real-estate-three-things/)
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">Disclaimer</p>

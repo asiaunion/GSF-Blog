@@ -13,9 +13,12 @@ tags:
 sources:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mlit.go.jp/en/"
+  - "https://www.jnto.go.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mlit.go.jp/en/"
 ---
 
 <p class="post-section-heading">1. 回復の定義をそろえる</p>
@@ -39,6 +42,12 @@ references:
 <p class="post-section-heading">5. おわりに</p>
 
 二者は「勝ち負け」ではなく**異なるベット構造**です。開示を読まずにセクターだけで判断するのは危険です。
+
+<p class="post-section-heading">あわせて読みたい記事</p>
+
+- [日本のJ-REIT投資で知っておくべき5つのポイント](/ja/posts/j-reit-five-things-to-know/)
+- [日本の金利上昇サイクルとJ-REIT：過去から学ぶ三つ](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+- [日本の不動産投資で知っておくべき3つのこと](/ja/posts/japan-real-estate-three-things/)
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">免責事項</p>

@@ -13,9 +13,12 @@ tags:
 sources:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mlit.go.jp/en/"
+  - "https://www.jnto.go.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mlit.go.jp/en/"
 ---
 
 <p class="post-section-heading">1. 회복의 정의부터 맞추기</p>
@@ -39,6 +42,12 @@ references:
 <p class="post-section-heading">5. 맺으며</p>
 
 두 자산군은 “승자”가 아니라 **서로 다른 베팅 구조**입니다. 개별 리츠의 공시·適時開示를 확인하지 않은 채 섹터만으로 판단하면 위험합니다.
+
+<p class="post-section-heading">같이 보면 좋은 글</p>
+
+- [일본 리츠(J REITs) 투자 알아야 할 5가지](/ko/posts/j-reit-five-things-to-know/)
+- [일본 금리 인상 사이클과 J-REIT: 과거에서 배우는 세 가지](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+- [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things/)
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">면책 문구</p>

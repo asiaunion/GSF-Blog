@@ -13,9 +13,12 @@ tags:
 sources:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mlit.go.jp/en/"
+  - "https://www.jnto.go.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mlit.go.jp/en/"
 ---
 
 <p class="post-section-heading">1. Align the definition of recovery</p>
@@ -39,6 +42,12 @@ Start with [Bank of Japan statistics](https://www.boj.or.jp/en/statistics/index.
 <p class="post-section-heading">5. Closing</p>
 
 These are different bet structures, not a single “winner.” Read filings before trading.
+
+<p class="post-section-heading">Further reading in this series</p>
+
+- [5 Things to Know About Investing in Japan REITs (J-REITs)](/posts/j-reit-five-things-to-know/)
+- [Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+- [3 Things to Know About Real Estate Investment in Japan](/posts/japan-real-estate-three-things/)
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">Disclaimer</p>

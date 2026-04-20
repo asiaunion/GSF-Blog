@@ -13,9 +13,12 @@ tags:
 sources:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mof.go.jp/english/"
+  - "https://www.jpx.co.jp/english/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
+  - "https://www.mof.go.jp/english/"
 ---
 
 <p class="post-section-heading">1. 금리는 ‘배당 할인율’이자 ‘자금 조달 비용’</p>
@@ -32,6 +35,12 @@ references:
 
 <p class="post-section-heading">5. 맺으며</p>
 과거 패턴은 미래를 보장하지 않습니다. 종목별 공시와 사업보고서를 확인하십시오.
+
+<p class="post-section-heading">같이 보면 좋은 글</p>
+
+- [일본 리츠(J REITs) 투자 알아야 할 5가지](/ko/posts/j-reit-five-things-to-know/)
+- [호텔 리츠 vs 오피스 리츠, 코로나 이후 어느 쪽이 회복했나](/ko/posts/hotel-reit-vs-office-reit-post-covid/)
+- [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things/)
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">면책 문구</p>
