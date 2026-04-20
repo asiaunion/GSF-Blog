@@ -10,9 +10,10 @@ export interface Props {
     title: string;
     sameAs?: string[];
   };
+  schemaType?: "AboutPage" | "ContactPage" | "WebPage";
 }
 
-const { frontmatter } = Astro.props;
+const { frontmatter, schemaType = "AboutPage" } = Astro.props;
 const { locale } = Astro.params;
 const currentLang = (locale as string | undefined) || "en";
 
@@ -22,21 +23,34 @@ const authorImageUrl = new URL(
   SITE.website
 ).href;
 
-const aboutPageUrl = new URL(Astro.url.pathname, Astro.url).href;
+const pageUrl = new URL(Astro.url.pathname, Astro.url).href;
 
-const personLd = {
-  "@context": "https://schema.org",
-  "@type": "Person",
-  name: "Joseph (GSF)",
-  url: SITE.profile,
-  image: authorImageUrl,
-  inLanguage: currentLang,
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": aboutPageUrl,
-  },
-  ...(sameAs.length > 0 && { sameAs }),
-};
+const personLd =
+  schemaType === "AboutPage"
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Joseph (GSF)",
+        url: SITE.profile,
+        image: authorImageUrl,
+        inLanguage: currentLang,
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": pageUrl,
+        },
+        ...(sameAs.length > 0 && { sameAs }),
+      }
+    : {
+        "@context": "https://schema.org",
+        "@type": schemaType,
+        name: frontmatter.title,
+        url: pageUrl,
+        inLanguage: currentLang,
+        mainEntityOfPage: {
+          "@type": "WebPage",
+          "@id": pageUrl,
+        },
+      };
 ---
 
 <Layout

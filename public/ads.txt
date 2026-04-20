@@ -1,0 +1,4 @@
+# Placeholder ads.txt for GSF Blog.
+# Replace with your network line immediately after AdSense approval.
+# Example:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

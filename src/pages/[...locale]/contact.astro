@@ -21,6 +21,6 @@ if (!entry) {
 const { Content } = await render(entry);
 ---
 
-<AboutLayout frontmatter={{ title: entry.data.title }}>
+<AboutLayout frontmatter={{ title: entry.data.title }} schemaType="ContactPage">
   <Content />
 </AboutLayout>

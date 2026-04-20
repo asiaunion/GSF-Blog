@@ -129,6 +129,17 @@ const isActive = (path: string) => {
         </li>
         <li class="col-span-2">
           <a
+            href={`${l}/contact/`}
+            class:list={[
+              "transition-colors hover:text-accent",
+              { "active-nav": isActive(`${l}/contact`) },
+            ]}
+          >
+            {L.navContact}
+          </a>
+        </li>
+        <li class="col-span-2">
+          <a
             href={`${l}/about/`}
             class:list={[
               "transition-colors hover:text-accent",
