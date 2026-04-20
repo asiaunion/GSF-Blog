@@ -7,6 +7,9 @@ lang: ko
 category: essay
 tags:
   - 에세이
+  - 니혼바시
+  - 도쿄라이프
+  - 로컬리포트
 sources:
   - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
   - "https://www.jnto.go.jp/eng/"
@@ -30,6 +33,12 @@ references:
 사람들이 진리를 잡기 위해 모든 기재와 역사를 거슬러 올라가면, 가장 마지막에 도달하게 되는 영점(0)이자 가장 중심에 있는 곳. 어떤 새로운 일의 시작점, 그리고 모든 사건과 사상의 가장 순수한 원점이 바로 이곳이라고 생각합니다. 그것이 바로 니혼바시가 지닌 무게감입니다.
 
 이번 이사를 통해, 이 공간이 저에게, 그리고 우리가 만들어갈 수많은 일들에 있어 **‘일본의 진정한 중심점’**이 되기를 간절히 바라는 마음입니다. 모든 것의 원점이 되는 이곳 니혼바시에서, 앞으로 그려나갈 새로운 시작을 지켜봐 주시기 바랍니다.
+
+<p class="post-section-heading">니혼바시 관련 글 더 보기</p>
+
+- [니혼바시 하마초, 매일 걷는 생활권 가이드](/ko/posts/nihonbashi-hamacho-walking-guide/)
+- [니혼바시 재개발 로드맵: 미쓰이 후속 프로젝트를 읽는 세 가지 축](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)
+- [코레도 니혼바시와 무로마치를 잇는 것: 미쓰이 그룹의 재생축](/ko/posts/coredo-nihonbashi-mitsui-redevelopment/)
 
 
 <div class="post-disclaimer">

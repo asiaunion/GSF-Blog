@@ -7,6 +7,9 @@ lang: ja
 category: essay
 tags:
   - エッセイ
+  - 日本橋
+  - 東京ライフ
+  - ローカルレポート
 sources:
   - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
   - "https://www.jnto.go.jp/eng/"
@@ -30,6 +33,12 @@ references:
 人々が真理を掴むために、あらゆる仕組みや歴史を遡っていったとき、最も最後に辿り着くゼロ地点（0）であり、最も中心にある場所。どんな新しいことの始まりも、そしてすべての出来事と思想の最も純粋な原点が、まさにここだと信じています。それこそが日本橋が持つ重みなのです。
 
 今回の引っ越しを通じて、この空間が私にとって、そして私たちが創り上げていく数多くの事柄において、**「日本の真の中心点」**となることを切に願っています。すべての物事の原点となるここ日本橋から、今後描いていく新たな始まりをどうか見守ってください。
+
+<p class="post-section-heading">日本橋の関連記事</p>
+
+- [日本橋浜町、毎日歩く生活圏ガイド](/ja/posts/nihonbashi-hamacho-walking-guide/)
+- [日本橋再開発ロードマップ：三井系フォローオンを読む三つの軸](/ja/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)
+- [COREDO日本橋と室町をつなぐもの：三井グループの再生軸](/ja/posts/coredo-nihonbashi-mitsui-redevelopment/)
 
 
 <div class="post-disclaimer">

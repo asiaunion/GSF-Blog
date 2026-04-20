@@ -64,11 +64,23 @@ However, personally, since the Yen exchange rate is currently at a historic low,
 
 *Source: reference screenshot adapted from [japan-reit.com](http://www.japan-reit.com).*
 
+_Editorial note: screenshots in this post are archival references and may not match current UI or latest figures. For current numbers, use the linked official pages first._
+
 <p class="post-section-heading">4. Expected Returns and the Tangible Warmth in the Asset Market</p>
 
 While average dividend yields hovered over 4% back in 2023, the explosive surge in prime real estate asset values in central Tokyo has slightly compressed these apparent yields recently. Conversely, this is hard proof that the 'Capital Gains' of the underlying assets are rising fiercely.
 
-Currently in 2026, Japan is experiencing a palpable 'warmth' sweeping across the entire asset market—spanning not just real estate but extending strongly into the Nikkei stock market. Having completely ripped off the "Lost 30 Years" label and entered a virtuous cycle of rising office rents and domestic recovery, I believe we are standing at the perfect moment to dual-target both stable dividends and remarkable capital gains from commercial J-REITs.
+Currently in 2026, risk sentiment around Japanese assets remains constructive across both listed equities and real assets. Rather than assuming a one-way cycle, I treat this as a scenario exercise where cash-flow resilience and refinancing quality matter as much as momentum.
+
+<p class="post-section-heading">4.1 A simple scenario worksheet (illustrative)</p>
+
+| Case | Distribution yield | FX move (JPY vs KRW) | Price move | Back-of-envelope total |
+| --- | --- | --- | --- | --- |
+| Defensive | 3.2% | -3.0% | -2.0% | about -1.8% |
+| Base | 3.6% | 0.0% | +2.0% | about +5.6% |
+| Upside | 3.8% | +4.0% | +6.0% | about +13.8% |
+
+This is not a forecast. It is a transparency template so readers can challenge each assumption before they allocate capital.
 
 According to research conducted by the Nissei Basic Research Institute, as of late August 2021, the REIT return rate over the past 20 years was 416% (annualized at about 8.6%), which is quite respectable. During the same period, the Japanese stock market, represented by TOPIX, rose by only 166%. This is data proving that the true potential of REITs simply cannot be ignored. Over the past 5 years, the return is 43%. While it is lower than TOPIX over the shorter term, considering the robust stability of dividends, its attractiveness has certainly not diminished.
 
@@ -82,10 +94,14 @@ Those investing in J-REITs can factor in factors like stable dividends of around
 
 As of the end of September 2023, the total market capitalization of all J-REITs surpassed 15.7 trillion Yen. Even factoring in the weak Yen, it equates to a scale of roughly 140 trillion KRW. Looking at the top 3 REITs by market capitalization, we have the following. You can look up detailed information using the ticker symbols in the parentheses. I've compiled simple charts and general info from investing.com below. Please refer to them.
 
-1. **Nippon Building Fund Inc (8951):** A REIT exceeding a market cap of roughly 1 trillion Yen. The dividend yield is 3.87%.
-2. **Japan Real Estate Investment Corp (8952):** A REIT exceeding a market cap of roughly 820 billion Yen. The dividend yield is 4.00%.
-3. **Nomura Real Estate Master Fund Inc (3462):** A REIT exceeding a market cap of roughly 788 billion Yen. The dividend yield is 4.01%.
-4. Although its market cap is relatively lower (even so, it's 670 billion Yen, roughly over 6 trillion KRW), Japan Retail Fund Investment Corp (8953), which boasts a solid dividend yield of about 4.7%, also catches the eye.
+1. **Nippon Building Fund Inc (8951):** Historically one of the largest J-REIT names by market value.
+2. **Japan Real Estate Investment Corp (8952):** A core office-heavy vehicle often used as a market bellwether.
+3. **Nomura Real Estate Master Fund Inc (3462):** A diversified platform with recurring institutional attention.
+4. **Japan Retail Fund Investment Corp (8953):** Smaller than the largest two, but frequently discussed for income sensitivity.
+
+<p class="post-section-heading">Data freshness note</p>
+
+Several numeric examples in this article are historical snapshots (mainly 2023 references) preserved for context. Before making any decision, verify the latest monthly disclosures on [J-REIT.jp](https://j-reit.jp/en/) and [Japan REIT](https://www.japan-reit.com/), then cross-check policy context with [BOJ statistics](https://www.boj.or.jp/en/statistics/index.htm/).
 
 ![Nippon Building Fund (8951) price and facts screenshot](/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.png)
 

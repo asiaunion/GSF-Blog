@@ -7,6 +7,9 @@ lang: en
 category: essay
 tags:
   - Essay
+  - Nihonbashi
+  - Tokyo life
+  - Local report
 sources:
   - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
   - "https://www.jnto.go.jp/eng/"
@@ -30,6 +33,12 @@ At the same time, Nihonbashi does not linger only in the past. Today, this area 
 When people trace back through all mechanisms and history to grasp the truth, this is the final zero point (0) they reach, the place situated at the very center. I believe this is exactly where any new endeavor starts, and where the purest origin of all events and ideas resides. That is the true gravity that Nihonbashi possesses.
 
 Through this relocation, it is my earnest desire that this space becomes the **'True Center of Japan'** for me, and for the countless initiatives we will create. From here in Nihonbashi, the origin of all things, please look forward to the new beginnings we will chart moving forward.
+
+<p class="post-section-heading">Further reading from Nihonbashi</p>
+
+- [Nihonbashi Hamacho Walking Guide](/posts/nihonbashi-hamacho-walking-guide/)
+- [Nihonbashi Redevelopment Roadmap: Three Axes to Read Mitsui-Led Follow-On Projects](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)
+- [What COREDO Nihonbashi and Muromachi Connect](/posts/coredo-nihonbashi-mitsui-redevelopment/)
 
 
 <div class="post-disclaimer">

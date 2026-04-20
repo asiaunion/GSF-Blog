@@ -13,9 +13,11 @@ tags:
 sources:
   - "https://www.mlit.go.jp/en/"
   - "https://www.stat.go.jp/english/"
+  - "https://www.jnto.go.jp/eng/"
 references:
   - "https://www.mlit.go.jp/en/"
   - "https://www.stat.go.jp/english/"
+  - "https://www.jnto.go.jp/eng/"
 ---
 
 <p class="post-section-heading">1. What are the advantages of investing in Japanese real estate?</p>
@@ -26,7 +28,7 @@ references:
 
 **Safe Haven:** The Japanese real estate market is evaluated as one of the safest markets in Asia. It is highly reputed as an attractive place to invest due to its reliability.
 
-**Tourism Boom:** Japan is recently experiencing a tourism boom, attracting tourists from all over the world. This increase in tourism directly bolsters the demand for real estate, making it an excellent time to invest. As of 2019, before the COVID-19 pandemic, the number of foreign visitors to Japan hit a record high of 31.88 million. Moving past the pandemic, the number of inbound visitors recovered to 67% in April 2023, largely overcoming the blow caused by the pandemic.
+**Tourism demand:** Cross-border travel has recovered meaningfully from the pandemic trough, and that can support selected rental and retail corridors. The 2019 peak and early-recovery 2023 figures in this article should be read as historical reference points; always confirm current monthly direction with [JNTO](https://www.jnto.go.jp/eng/).
 
 When you sanity-check numbers and policy trends, pair this article with primary materials from the [Ministry of Land, Infrastructure, Transport and Tourism (MLIT)](https://www.mlit.go.jp/en/) and macro releases from [Statistics Japan](https://www.stat.go.jp/english/). Nothing here is tax or legal advice—rates and registration practice change, so verify the latest rules with qualified professionals.
 
@@ -62,7 +64,7 @@ Portal listings are a starting point; pair them with official market context fro
 
 **Conclusion: Japanese real estate is at the starting point of a new mega-cycle**
 
-Many people remain anchored to the trauma of Japan's "Lost 30 Years" and the collapse of its past real estate bubble. However, the current backdrop is materially different from that era. Alongside the Nikkei rally, the physical real estate market has also shifted into an inflation-era repricing phase, with core districts in central Tokyo often leading observed transaction momentum.
+Many investors still anchor on the long post-bubble period. However, the present backdrop differs in financing conditions, inflation behavior, and tenant demand mix. Alongside equity repricing, selected physical real estate segments in Tokyo have also shown renewed transaction momentum.
 
 After purchasing, Japan's highly developed professional maintenance and meticulous tenant management services allow investors to comfortably generate stable cash flows. Moving beyond simply securing conservative rental yields like years past, a genuine window of opportunity has opened where I can now actively expect Capital Gains. Of course, thorough review of primary tax and legal regulations remains absolutely indispensable. Moving forward, I will consistently share my sharp and in-depth analytical reports to help seize opportunities amidst this massive paradigm shift in assets.
 
