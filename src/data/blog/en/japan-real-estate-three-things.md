@@ -62,9 +62,15 @@ Portal listings are a starting point; pair them with official market context fro
 
 **Conclusion: Japanese real estate is at the starting point of a new mega-cycle**
 
-Many people remain anchored to the trauma of Japan's "Lost 30 Years" and the collapse of its past real estate bubble. However, the current reality is completely different. Coupled with the recent historic rally of the Nikkei (Japanese stock market), the tangible real estate asset market has also awakened from its 30-year slumber and clearly entered an Upward Cycle. Unprecedented liquidity and global capital are pouring in, spearheaded by core properties in downtown Tokyo.
+Many people remain anchored to the trauma of Japan's "Lost 30 Years" and the collapse of its past real estate bubble. However, the current backdrop is materially different from that era. Alongside the Nikkei rally, the physical real estate market has also shifted into an inflation-era repricing phase, with core districts in central Tokyo often leading observed transaction momentum.
 
 After purchasing, Japan's highly developed professional maintenance and meticulous tenant management services allow investors to comfortably generate stable cash flows. Moving beyond simply securing conservative rental yields like years past, a genuine window of opportunity has opened where I can now actively expect Capital Gains. Of course, thorough review of primary tax and legal regulations remains absolutely indispensable. Moving forward, I will consistently share my sharp and in-depth analytical reports to help seize opportunities amidst this massive paradigm shift in assets.
+
+<p class="post-section-heading">Further reading in this series</p>
+
+- [5 Things to Know About Investing in Japan REITs (J-REITs)](/posts/j-reit-five-things-to-know/)
+- [Hotel REITs vs Office REITs: Which Recovered More After COVID?](/posts/hotel-reit-vs-office-reit-post-covid/)
+- [Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 
 <div class="post-disclaimer">

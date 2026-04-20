@@ -10,6 +10,15 @@ tags:
   - Japan investing
   - Real estate
   - Tokyo
+sources:
+  - "https://www.japan-reit.com/"
+  - "https://j-reit.jp/en/"
+  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/tokyo-stock-exchange"
+references:
+  - "https://www.japan-reit.com/"
+  - "https://j-reit.jp/en/"
+  - "https://www.boj.or.jp/en/statistics/index.htm/"
 ---
 
 **Foreword**
@@ -104,7 +113,13 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 
 <p class="post-section-heading">Conclusion</p>
 
-"In 2020, while global REITs struggled to pay out dividends, J-REITs actually increased their total dividend distributions compared to the previous year. The shareholder benefit programs of listed Japanese companies are quite exceptional. Due to such benefit programs, quite a few Japanese citizens purchase stocks. It appears that J-REITs serve as an excellent, stable alternative investment channel for the recovering Japanese real estate market. The J-REIT products introduced today primarily hold commercial buildings in urban Japanese city centers as their primary assets. Therefore, buying these REITs is akin to directly investing in commercial buildings in the heart of Tokyo. If you view the future prospects of commercial facilities in central Tokyo—possessing a uniquely different vibe than Seoul—positively, then investing in J-REITs can be a fantastic approach.
+"In 2020, while many global REITs struggled to maintain distributions, several J-REITs proved more resilient than expected. That does not guarantee future returns, but it shows why income-focused investors keep this market on the watchlist. The J-REITs introduced here are largely backed by commercial assets in major Japanese urban centers. If you hold a constructive long-term view on central Tokyo leasing and redevelopment, J-REITs can be a practical way to gain listed exposure to that thesis.
+
+<p class="post-section-heading">Further reading in this series</p>
+
+- [3 Things to Know About Real Estate Investment in Japan](/posts/japan-real-estate-three-things/)
+- [Hotel REITs vs Office REITs: Which Recovered More After COVID?](/posts/hotel-reit-vs-office-reit-post-covid/)
+- [Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 
 <div class="post-disclaimer">

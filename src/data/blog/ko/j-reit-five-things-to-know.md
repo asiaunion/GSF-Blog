@@ -10,6 +10,15 @@ tags:
   - 일본투자
   - 부동산
   - 도쿄
+sources:
+  - "https://www.japan-reit.com/"
+  - "https://j-reit.jp/"
+  - "https://www.boj.or.jp/"
+  - "https://www.jpx.co.jp/"
+references:
+  - "https://www.japan-reit.com/"
+  - "https://j-reit.jp/"
+  - "https://www.boj.or.jp/"
 ---
 
 **머리말**
@@ -105,6 +114,12 @@ tags:
 **결론**
 
 “2020년 글로벌 리츠들이 배당금을 지급하지 못할 때 일본 리츠는 오히려 전년 대비 배당 총액을 늘렸습니다. 일본 상장 회사들의 주주 우대 프로그램은 상당히 우수합니다. 이런 우대 프로그램 때문에 주식을 사려는 일본인들도 꽤 많을 정도입니다. 일본 리츠는 회복하는 일본 부동산 시장을 위한 안정적이고 훌륭한 대체 투자가 될 것으로 보입니다.  오늘 소개한 일본 리츠 상품들은 일본 도심의 상업 빌딩들이 주요한 자산입니다.그러므로 해당 리츠를 산다는 것은 일본 도쿄 도심의 상업용 빌딩에 투자하는 것과 같습니다. 서울과는 또 다른 느낌의 도쿄 중심지의 상업 시설의 향후 전망을 긍정적으로 보신다면 일본 리츠 투자가 좋은 방법이 될 수 있겠습니다.
+
+<p class="post-section-heading">같이 보면 좋은 글</p>
+
+- [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things/)
+- [포스트 코로나 일본 호텔 리츠 vs 오피스 리츠, 어느 쪽이 더 회복했나](/ko/posts/hotel-reit-vs-office-reit-post-covid/)
+- [일본 금리 인상 사이클과 J-REIT: 과거 3번의 역사적 교훈](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 
 <div class="post-disclaimer">
