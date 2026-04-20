@@ -33,4 +33,17 @@ Account, mind, and calendar all need **limits**.
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+<!-- content-depth-v1 -->
 
+
+## Reflection prompts
+
+- Which single assumption in your current plan could fail first?
+- What evidence would make you change your mind quickly?
+- What is one small action you can complete this week to reduce uncertainty?
+
+## Companion essays
+
+- [Why warm investing still holds](/posts/why-warm-investing-holds/)
+- [One failure, three lessons (postmortem)](/posts/one-failure-three-lessons-postmortem/)
+- [Reading Korea and Japan markets together](/posts/reading-korea-japan-markets-together/)

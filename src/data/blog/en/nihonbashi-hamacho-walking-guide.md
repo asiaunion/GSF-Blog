@@ -37,4 +37,17 @@ Personal notes—verify hours locally.
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+<!-- content-depth-v1 -->
 
+
+## Practical next-step checklist
+
+- Convert the key points into a one-page personal memo (what to do / what to avoid / by when).
+- Pick one metric to track weekly so this post becomes actionable, not just inspirational.
+- Revisit the same checklist after 30 days and compare what actually changed.
+
+## Related reads
+
+- [One failure, three lessons (postmortem)](/posts/one-failure-three-lessons-postmortem/)
+- [Reading Korea and Japan markets together](/posts/reading-korea-japan-markets-together/)
+- [Three things to check when FX shakes](/posts/three-things-when-fx-shakes/)

@@ -46,4 +46,18 @@ History is not prophecy—read filings.
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+<!-- content-depth-v1 -->
 
+
+## Practical decision checklist
+
+- Re-check the latest monthly releases from official sources before acting; numeric snapshots in this post can age quickly.
+- Write your own base / upside / downside assumptions on one sheet (rate, FX, vacancy, holding period).
+- Define a maximum-loss rule first, then size the position after risk is visible.
+- Compare this idea with at least one alternative allocation so opportunity cost is explicit.
+
+## Further reading in this series
+
+- [Tokyo office vacancy: five wards, 2026 view](/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Small rental yield vs capital gain breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
+- [Japan rate-hike cycle: three J-REIT lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)

@@ -37,4 +37,17 @@ references:
 <p class="post-disclaimer__title">면책 문구</p>
 <p>※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 투자 상품의 매수·매도를 권유하지 않습니다. 투자 판단과 책임은 독자 본인에게 있습니다. 글의 작성 시점 이후 내용이 변경될 수도 있습니다.</p>
 </div>
+<!-- content-depth-v1 -->
 
+
+## 실행 전환 체크리스트
+
+- 읽은 내용을 1페이지 메모(할 일/피할 일/기한)로 바꿔 실제 행동으로 연결하세요.
+- 주간 단위로 추적할 지표 1개를 정해 글의 메시지를 수치화하세요.
+- 30일 후 같은 체크리스트를 다시 열어 실제 변화와 차이를 기록하세요.
+
+## 관련 글
+
+- [한 번의 실패, 세 가지 교훈](/ko/posts/one-failure-three-lessons-postmortem/)
+- [한일 시장을 함께 읽는 법](/ko/posts/reading-korea-japan-markets-together/)
+- [환율이 흔들릴 때 점검 3가지](/ko/posts/three-things-when-fx-shakes/)

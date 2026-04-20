@@ -46,4 +46,18 @@ references:
 <p class="post-disclaimer__title">면책 문구</p>
 <p>※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 투자 상품의 매수·매도를 권유하지 않습니다. 투자 판단과 책임은 독자 본인에게 있습니다. 글의 작성 시점 이후 내용이 변경될 수도 있습니다.</p>
 </div>
+<!-- content-depth-v1 -->
 
+
+## 실전 점검 체크리스트
+
+- 실행 전, 본문 수치가 최신 월간 공시와 일치하는지 1차 출처로 다시 확인하세요.
+- 금리·환율·공실·보유기간 기준으로 기본/낙관/보수 3가지 시나리오를 직접 써보세요.
+- 기대수익보다 먼저 최대손실 기준을 정하고, 그다음 포지션 크기를 결정하세요.
+- 같은 자금으로 가능한 대안을 1개 이상 비교해 기회비용을 명시하세요.
+
+## 함께 보면 좋은 시리즈
+
+- [도쿄 오피스 공실률: 5구 2026 뷰](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
+- [소형 임대수익률 vs 시세차익 손익분기](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
+- [일본 금리 인상 사이클: J-REIT 3가지 교훈](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
