@@ -78,6 +78,7 @@ const ui = {
       "Joseph (GSF) writes on Tokyo real estate, J-REIT, and Korea-Japan macro trends from Nihonbashi, Tokyo.",
     authorCardAboutCta: "Read author profile",
     authorCardContactCta: "Contact",
+    authorCardLinkedInCta: "Connect on LinkedIn",
     authorCardXFollowCta: "Follow on X",
     postFollowTitle: "Follow updates",
     postFollowBody:
@@ -182,6 +183,7 @@ const ui = {
       "Joseph(GSF)은 도쿄 니혼바시 현지에서 도쿄 부동산, J-REIT, 한일 거시 흐름을 기록합니다.",
     authorCardAboutCta: "작성자 프로필 보기",
     authorCardContactCta: "문의하기",
+    authorCardLinkedInCta: "LinkedIn 연결",
     authorCardXFollowCta: "X에서 팔로우",
     postFollowTitle: "업데이트 받기",
     postFollowBody:
@@ -286,6 +288,7 @@ const ui = {
       "Joseph (GSF) は東京・日本橋から、東京不動産、J-REIT、日韓マクロ動向を発信しています。",
     authorCardAboutCta: "著者プロフィールを見る",
     authorCardContactCta: "お問い合わせ",
+    authorCardLinkedInCta: "LinkedInでつながる",
     authorCardXFollowCta: "Xでフォロー",
     postFollowTitle: "更新を受け取る",
     postFollowBody:

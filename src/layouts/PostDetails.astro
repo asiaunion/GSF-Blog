@@ -31,8 +31,9 @@ const { locale } = Astro.params;
 const navLang = (locale || "en") as UiLang;
 const L = getUi(navLang);
 const localePrefix = navLang === "en" ? "" : `/${navLang}`;
-const xProfileHandle = PUBLIC_PROFILES.x.split("/").filter(Boolean).at(-1) ?? "gsfark";
-const xAvatarUrl = `https://unavatar.io/x/${xProfileHandle}`;
+const linkedInProfileHandle =
+  PUBLIC_PROFILES.linkedIn.split("/").filter(Boolean).at(-1) ?? "gsfark";
+const linkedInAvatarUrl = `https://unavatar.io/linkedin/${linkedInProfileHandle}`;
 const copyCodeLabel = L.copyCodeButton;
 const copyDoneLabel = L.copyCodeDone;
 
@@ -164,7 +165,7 @@ const nextPost =
       <h2 class="text-lg font-semibold">{L.authorCardTitle}</h2>
       <div class="mt-4 flex flex-col gap-4 sm:flex-row sm:items-center">
         <img
-          src={xAvatarUrl}
+          src={linkedInAvatarUrl}
           alt="GSF author"
           loading="lazy"
           decoding="async"
@@ -188,6 +189,17 @@ const nextPost =
               data-cta-location="post-author-card"
             >
               {L.authorCardContactCta}
+            </a>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href={PUBLIC_PROFILES.linkedIn}
+              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
+              data-cta="author-linkedin-connect"
+              data-cta-location="post-author-card"
+              data-cta-name="LinkedIn"
+            >
+              {L.authorCardLinkedInCta}
             </a>
             <a
               target="_blank"

@@ -18,8 +18,9 @@ const { locale } = Astro.params;
 const currentLang = (locale as string | undefined) || "en";
 
 const sameAs = frontmatter.sameAs ?? [];
-const xProfileHandle = PUBLIC_PROFILES.x.split("/").filter(Boolean).at(-1) ?? "gsfark";
-const authorImageUrl = `https://unavatar.io/x/${xProfileHandle}`;
+const linkedInProfileHandle =
+  PUBLIC_PROFILES.linkedIn.split("/").filter(Boolean).at(-1) ?? "gsfark";
+const authorImageUrl = `https://unavatar.io/linkedin/${linkedInProfileHandle}`;
 
 const pageUrl = new URL(Astro.url.pathname, Astro.url).href;
 
