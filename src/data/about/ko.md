@@ -8,7 +8,7 @@ title: "소개"
 ### 공적 프로필
 
 - [LinkedIn](https://www.linkedin.com/in/gsfark/)
-- [X](https://x.com/gsfark)
+- [X](https://x.com/asiaunion)
 
 프로필 URL은 `src/config.ts`의 `PUBLIC_PROFILES`와 동일하게 유지합니다. 연락은 [연락 페이지](/ko/contact)도 이용해 주세요.
 
