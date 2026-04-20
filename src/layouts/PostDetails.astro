@@ -34,6 +34,14 @@ const localePrefix = navLang === "en" ? "" : `/${navLang}`;
 const linkedInProfileHandle =
   PUBLIC_PROFILES.linkedIn.split("/").filter(Boolean).at(-1) ?? "gsfark";
 const linkedInAvatarUrl = `https://unavatar.io/linkedin/${linkedInProfileHandle}`;
+const linkedInCtaUrl = new URL(PUBLIC_PROFILES.linkedIn);
+linkedInCtaUrl.searchParams.set("utm_source", "gsf_blog");
+linkedInCtaUrl.searchParams.set("utm_medium", "author_card_cta");
+linkedInCtaUrl.searchParams.set("utm_campaign", "post-author-linkedin");
+const xCtaUrl = new URL(PUBLIC_PROFILES.x);
+xCtaUrl.searchParams.set("utm_source", "gsf_blog");
+xCtaUrl.searchParams.set("utm_medium", "author_card_cta");
+xCtaUrl.searchParams.set("utm_campaign", "post-author-x");
 const copyCodeLabel = L.copyCodeButton;
 const copyDoneLabel = L.copyCodeDone;
 
@@ -193,7 +201,7 @@ const nextPost =
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={PUBLIC_PROFILES.linkedIn}
+              href={linkedInCtaUrl.toString()}
               class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
               data-cta="author-linkedin-connect"
               data-cta-location="post-author-card"
@@ -204,7 +212,7 @@ const nextPost =
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href={PUBLIC_PROFILES.x}
+              href={xCtaUrl.toString()}
               class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
               data-cta="author-x-follow"
               data-cta-location="post-author-card"
