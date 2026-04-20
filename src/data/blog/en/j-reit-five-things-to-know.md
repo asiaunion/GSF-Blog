@@ -60,7 +60,11 @@ One method is investing in individual REITs. Since REITs are traded on the stock
 
 However, personally, since the Yen exchange rate is currently at a historic low, I recommend considering individual REIT investments, keeping future foreign exchange gains in perspective. The representative REITs are listed below. All these REITs track the TSE (Tokyo Stock Exchange) REIT Index. The data below is taken from <http://www.japan-reit.com>. Although it is in Japanese, the crucial part is the 4-digit code (ticker) at the front, which allows you to check significant information in English on sites like investing.com. Checking key data through that ticker allows you to invest in J-REITs using the same method as trading overseas stocks.
 
-![J-REIT market reference table (summary from japan-reit.com)](/assets/images/legacy/j-reit-market-data-table.webp)
+<picture>
+  <source srcset="/assets/images/legacy/j-reit-market-data-table.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-market-data-table.webp" type="image/webp" />
+  <img src="/assets/images/legacy/j-reit-market-data-table.png" alt="J-REIT market reference table (summary from japan-reit.com)" loading="lazy" decoding="async" />
+</picture>
 
 *Source: reference screenshot adapted from [japan-reit.com](http://www.japan-reit.com).*
 
@@ -107,7 +111,11 @@ According to research conducted by the Nissei Basic Research Institute, as of la
 
 Those investing in J-REITs can factor in factors like stable dividends of around 3~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
 
-![Chart illustrating J-REIT dividend and yield context](/assets/images/legacy/j-reit-dividend-yield-trend.webp)
+<picture>
+  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend.webp" type="image/webp" />
+  <img src="/assets/images/legacy/j-reit-dividend-yield-trend.png" alt="Chart illustrating J-REIT dividend and yield context" loading="lazy" decoding="async" />
+</picture>
 
 *Source: reference chart adapted from public quote data on investing.com.*
 
@@ -124,19 +132,35 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 
 Several numeric examples in this article are historical snapshots (mainly 2023 references) preserved for context. Before making any decision, verify the latest monthly disclosures on [J-REIT.jp](https://j-reit.jp/en/) and [Japan REIT](https://www.japan-reit.com/), then cross-check policy context with [BOJ statistics](https://www.boj.or.jp/en/statistics/index.htm/).
 
-![Nippon Building Fund (8951) price and facts screenshot](/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.webp)
+<picture>
+  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.webp" type="image/webp" />
+  <img src="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.png" alt="Nippon Building Fund (8951) price and facts screenshot" loading="lazy" decoding="async" />
+</picture>
 
 *Source: investing.com ticker 8951 (reference screenshot).*
 
-![Japan Real Estate Investment (8952) price and facts screenshot](/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.webp)
+<picture>
+  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.webp" type="image/webp" />
+  <img src="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png" alt="Japan Real Estate Investment (8952) price and facts screenshot" loading="lazy" decoding="async" />
+</picture>
 
 *Source: investing.com ticker 8952 (reference screenshot).*
 
-![Japan Retail Fund (8953) price and facts screenshot](/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp)
+<picture>
+  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp" type="image/webp" />
+  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Retail Fund (8953) price and facts screenshot" loading="lazy" decoding="async" />
+</picture>
 
 *Source: investing.com ticker 8953 (reference screenshot).*
 
-![Nomura Real Estate Master Fund (3462) price and facts screenshot](/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.webp)
+<picture>
+  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.webp" type="image/webp" />
+  <img src="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png" alt="Nomura Real Estate Master Fund (3462) price and facts screenshot" loading="lazy" decoding="async" />
+</picture>
 
 *Source: investing.com ticker 3462 (reference screenshot).*
 

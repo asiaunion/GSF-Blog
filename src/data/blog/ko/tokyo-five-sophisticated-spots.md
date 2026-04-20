@@ -18,7 +18,11 @@ tags:
 
 <p class="post-section-heading">1. 세련된 사람들에게 사랑받는 다이칸야마</p>
 
-![도쿄 다이칸야마 일대의 가로수와 거리 풍경](/assets/images/legacy/tokyo-daikanyama-scenery.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="도쿄 다이칸야마 일대의 가로수와 거리 풍경" loading="lazy" decoding="async" />
+</picture>
 
 다이칸야마는 도쿄의 세련된 마치(동네)로 인정받고 있습니다. 많은 유명인이 거주하는 고급 주거 지역으로도 알려져 있으며 전체적인 분위기는 우아하고 차분합니다. 도로를 따라 가로수가 심어 져 있으며 동네의 경관이 무성하고 아름답습니다. 잡지에 게재되는 의류 편집 샵이나 에스테틱 살롱 등 패션 관련 샵이 많이 있으며, 여성들에게 특히 인기가 많습니다.
 
@@ -26,7 +30,11 @@ tags:
 
 <p class="post-section-heading">2. 여성에게 사랑받는 지유가오카</p>
 
-![지유가오카 동네의 녹지와 산책로가 어우러진 풍경](/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.png" alt="지유가오카 동네의 녹지와 산책로가 어우러진 풍경" loading="lazy" decoding="async" />
+</picture>
 
 지유가오카는 여성을 위한 동네라고해도 과언이 아니며, 귀엽고 세련된 것들이 많이 있습니다. ‘과자의 성지’라고도 불리며, 유명 페이스트리 셰프가 취급하는 제과점부터 노포 일본 과자점까지 다양한 가게가 있습니다. “Sunset Alley Street”와 “Marie Claire Street (Kushinbutsu River Green Road)”와 같은 세련된 자갈 길도 있습니다. 녹지가 많고 동네 경관은 매우 우아하고 여유로운 분위기입니다.
 
@@ -34,7 +42,11 @@ tags:
 
 <p class="post-section-heading">3. 관광도 데이트도 단골 명소인 오모테산도</p>
 
-![오모테산도 일대의 상점가와 녹지](/assets/images/legacy/tokyo-omotesando-retail-green.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-omotesando-retail-green.png" alt="오모테산도 일대의 상점가와 녹지" loading="lazy" decoding="async" />
+</picture>
 
 역 앞에서 바라보는 아름다운 녹지 풍경이 돋보이는 오모테산도는 패션부터 음식까지 최첨단 트렌드가 집결된 곳입니다. 아오야마 거리에는 명품 브랜드 매장이 줄지어 있어 윈도우 쇼핑만으로도 즐겁습니다. 파칭코 가게와 소비자 금융 관련 매장은 거의 없습니다. 동네 전체를 아우르는 우아한 분위기는 오모테산도를 돋보이게 합니다. 겨울에는 오모테산도 힐즈 주변이 일루미네이션으로 밝혀져 많은 관광객과 커플들이 방문합니다. 참고로 오모테산도 힐즈는 유명 건축가 ‘안도 타다오’가 설계한 곳으로, 외관과 인테리어가 세련된 명소입니다.
 
@@ -42,7 +54,11 @@ tags:
 
 <p class="post-section-heading">4. 세련된 명소가 많은 전통의 긴자</p>
 
-![긴자의 백화점·명품 거리 풍경](/assets/images/legacy/tokyo-ginza-department-streetscape.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-ginza-department-streetscape.png" alt="긴자의 백화점·명품 거리 풍경" loading="lazy" decoding="async" />
+</picture>
 
 “와코 시계탑”으로 상징되는 긴자는 아주 영한 이미지라기 보다는 성숙함으로 다가오는 동네입니다. 20대 보다는 30-40을 넘어선 세대 들에게 더 어필되는 동네로 인기가 있습니다. 고급 노점과 노포 백화점이 늘어서 있으며 항상 많은 쇼핑객으로 붐빕니다. 쇼핑 이외에도 노포 ‘가부키자’에서 연극을 감상하거나 ‘아트 아쿠아리움 뮤지엄 긴자’에서 촬영을 즐기는 등 매력적인 명소가 많이 있습니다. 구석 구석을 둘러보면 매우 세련된 매장이 많다는 것을 알 수 있습니다. 구매력이 있는 세대들에게 사랑 받는 동네이므로 그 만큼 독보적인 매력을 가지고 있다고 생각합니다.
 
@@ -50,7 +66,11 @@ tags:
 
 <p class="post-section-heading">5. 항상 트렌드의 최첨단에 서있는 시부야</p>
 
-![시부야 재개발과 스크램블 교차로 인근의 도시 풍경](/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.png" alt="시부야 재개발과 스크램블 교차로 인근의 도시 풍경" loading="lazy" decoding="async" />
+</picture>
 
 시부야 지역은 100년에 한 번 일어난다고 하는 대규모 재개발이 진행되고 있으며, ‘시부야 후쿠라스’, ‘시부야 스트림’ 등의 새로운 상업 및 오피스 빌딩이 속속 준공되고 있습니다. 최신 트렌드와 문화가 전달되는 곳으로 항상 새로운 것을 발견할 수 있습니다. 지역 전체가 새롭게 탈바꿈되고 있어서 앞으로가 더욱 기대되는 곳입니다.
 

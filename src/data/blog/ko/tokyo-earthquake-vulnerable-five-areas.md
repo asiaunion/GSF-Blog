@@ -48,7 +48,11 @@ references:
 
 건물 붕괴 위험 및 화재 위험 순위를 기준으로 평가된 도쿄 23구 중에서 위험 상위 5개 지역은 아래 표와 같습니다.
 
-![도쿄 23구 건물 붕괴·화재 위험 상위 지역 요약 표](/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="도쿄 23구 건물 붕괴·화재 위험 상위 지역 요약 표" loading="lazy" decoding="async" />
+</picture>
 
 1위는 아라카와구의 마치야4쵸메, 2위는 아다치구 센주야나기초, 3위는 스미다구 쿄지마 3초메, 4위는 같은 스미다구 스미다3초메, 마지막 5위는 아다치구 야나기하라2초메 입니다. 참고로 초메는 우리로 치면 종로 2가, 3가 같은 의미라고 보시면 됩니다. 하나의 블록 단위라고 이해하셔도 무방하리라 봅니다.
 
@@ -58,7 +62,11 @@ references:
 
 이들 지역은 아래 지도의 오른쪽의 붉은 지역으로 표시된 곳들입니다. 도쿄 중심부를 제외하고 나머지 지역은 상대적으로 지진 피해에 취약함을 볼 수 있습니다. 단기적인 거주는 모르겠지만, 중장기 부동산 투자를 고려한다면 이러한 지도 참고는 필수라고 생각됩니다.
 
-![도쿄 권역 지진 취약도를 나타내는 지도(도쿄도 조사 자료 기반)](/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-seismic-relative-hazard-map.png" alt="도쿄 권역 지진 취약도를 나타내는 지도(도쿄도 조사 자료 기반)" loading="lazy" decoding="async" />
+</picture>
 
 <p class="post-section-heading">4. 나가며(시사점)</p>
 

@@ -18,7 +18,11 @@ tags:
 
 <p class="post-section-heading">1. おしゃれな人たちに愛される「代官山」</p>
 
-![東京・代官山エリアの街路樹と街並み](/assets/images/legacy/tokyo-daikanyama-scenery.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="東京・代官山エリアの街路樹と街並み" loading="lazy" decoding="async" />
+</picture>
 
 代官山は、東京のおしゃれな街として広く認知されています。多くの有名人が居住する高級住宅街としても知られており、全体的な雰囲気は上品で落ち着いています。通り沿いには街路樹が植えられており、街の景観が緑豊かで非常に美しいです。雑誌に掲載されるようなアパレルのセレクトショップやエステサロンなど、ファッション関連の店舗が多く、特に女性に高い人気を誇ります。
 
@@ -26,7 +30,11 @@ tags:
 
 <p class="post-section-heading">2. 女性に愛される「自由が丘」</p>
 
-![自由が丘の緑と遊歩道が調和した風景](/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.png" alt="自由が丘の緑と遊歩道が調和した風景" loading="lazy" decoding="async" />
+</picture>
 
 自由が丘は、女性のための街だと言っても過言ではないほど、可愛くておしゃれなものがたくさんあります。「スイーツの聖地」とも呼ばれ、有名なパティシエが手がける洋菓子店から老舗の和菓子店まで、多彩な店舗が揃っています。「サンセットアレイ通り」や「マリ・クレール通り（九品仏川緑道）」のようなおしゃれな石畳の道もあります。緑が多く、街の景観は非常に優雅でゆったりとした雰囲気です。
 
@@ -34,7 +42,11 @@ tags:
 
 <p class="post-section-heading">3. 観光もデートも定番の名所「表参道」</p>
 
-![表参道エリアの商業通りと緑](/assets/images/legacy/tokyo-omotesando-retail-green.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-omotesando-retail-green.png" alt="表参道エリアの商業通りと緑" loading="lazy" decoding="async" />
+</picture>
 
 駅前から広がる美しい緑の風景が際立つ表参道は、ファッションからグルメまで、最先端のトレンドが集結する場所です。青山通りには高級ブランドショップが立ち並び、ウィンドウショッピングだけでも十分に楽しめます。パチンコ店や消費者金融の店舗はほとんどありません。街全体を包み込む上品な雰囲気が、表参道を際立たせています。冬には表参道ヒルズ周辺がイルミネーションで照らされ、多くの観光客やカップルが訪れます。ちなみに「表参道ヒルズ」は、有名な建築家である安藤忠雄氏が設計したもので、外観も内装もおしゃれな名所です。
 
@@ -42,7 +54,11 @@ tags:
 
 <p class="post-section-heading">4. おしゃれな名所が多い伝統の「銀座」</p>
 
-![銀座の百貨店・高級店舗街の風景](/assets/images/legacy/tokyo-ginza-department-streetscape.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-ginza-department-streetscape.png" alt="銀座の百貨店・高級店舗街の風景" loading="lazy" decoding="async" />
+</picture>
 
 「和光の時計塔」に象徴される銀座は、若々しいイメージというよりは、成熟した大人の街として迫ってくるエリアです。20代よりも、30代・40代以上の世代にアピールする街として人気があります。高級路面店や老舗百貨店が立ち並び、常に多くの買い物客で賑わっています。ショッピング以外にも、老舗の「歌舞伎座」で観劇を楽しんだり、「アートアクアリウム美術館 GINZA」で写真撮影を満喫したりと、魅力的な名所がたくさんあります。街の隅々を見渡せば、非常に洗練された店舗が多いことに気づくでしょう。購買力のある世代に愛される街である分、それだけ独自の魅力を持っていると考えられます。
 
@@ -50,7 +66,11 @@ tags:
 
 <p class="post-section-heading">5. 常にトレンドの最先端に立つ「渋谷」</p>
 
-![渋谷の再開発とスクランブル交差点周辺の街並み](/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp)
+<picture>
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp" type="image/webp" />
+  <img src="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.png" alt="渋谷の再開発とスクランブル交差点周辺の街並み" loading="lazy" decoding="async" />
+</picture>
 
 渋谷エリアは「100年に一度」と言われる大規模な再開発が進行中であり、「渋谷フクラス」や「渋谷ストリーム」といった新しい商業・オフィスビルが続々と竣工しています。最新のトレンドと文化が発信される場所として、常に新しい発見があります。地域全体が新しく生まれ変わっており、今後がさらに楽しみな場所です。
 
