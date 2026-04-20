@@ -19,8 +19,8 @@ tags:
 <p class="post-section-heading">1. 세련된 사람들에게 사랑받는 다이칸야마</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery-768.avif 768w, /assets/images/legacy/tokyo-daikanyama-scenery-1280.avif 1280w, /assets/images/legacy/tokyo-daikanyama-scenery.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery-768.webp 768w, /assets/images/legacy/tokyo-daikanyama-scenery-1280.webp 1280w, /assets/images/legacy/tokyo-daikanyama-scenery.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="도쿄 다이칸야마 일대의 가로수와 거리 풍경" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -31,8 +31,8 @@ tags:
 <p class="post-section-heading">2. 여성에게 사랑받는 지유가오카</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-768.avif 768w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-1280.avif 1280w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-768.webp 768w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-1280.webp 1280w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.png" alt="지유가오카 동네의 녹지와 산책로가 어우러진 풍경" loading="lazy" decoding="async" />
 </picture>
 
@@ -43,8 +43,8 @@ tags:
 <p class="post-section-heading">3. 관광도 데이트도 단골 명소인 오모테산도</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green-768.avif 768w, /assets/images/legacy/tokyo-omotesando-retail-green-1280.avif 1280w, /assets/images/legacy/tokyo-omotesando-retail-green.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green-768.webp 768w, /assets/images/legacy/tokyo-omotesando-retail-green-1280.webp 1280w, /assets/images/legacy/tokyo-omotesando-retail-green.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-omotesando-retail-green.png" alt="오모테산도 일대의 상점가와 녹지" loading="lazy" decoding="async" />
 </picture>
 
@@ -55,8 +55,8 @@ tags:
 <p class="post-section-heading">4. 세련된 명소가 많은 전통의 긴자</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape-768.avif 768w, /assets/images/legacy/tokyo-ginza-department-streetscape-1280.avif 1280w, /assets/images/legacy/tokyo-ginza-department-streetscape.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape-768.webp 768w, /assets/images/legacy/tokyo-ginza-department-streetscape-1280.webp 1280w, /assets/images/legacy/tokyo-ginza-department-streetscape.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-ginza-department-streetscape.png" alt="긴자의 백화점·명품 거리 풍경" loading="lazy" decoding="async" />
 </picture>
 
@@ -67,8 +67,8 @@ tags:
 <p class="post-section-heading">5. 항상 트렌드의 최첨단에 서있는 시부야</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-768.avif 768w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-1280.avif 1280w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-768.webp 768w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-1280.webp 1280w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.png" alt="시부야 재개발과 스크램블 교차로 인근의 도시 풍경" loading="lazy" decoding="async" />
 </picture>
 

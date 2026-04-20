@@ -61,8 +61,8 @@ One method is investing in individual REITs. Since REITs are traded on the stock
 However, personally, since the Yen exchange rate is currently at a historic low, I recommend considering individual REIT investments, keeping future foreign exchange gains in perspective. The representative REITs are listed below. All these REITs track the TSE (Tokyo Stock Exchange) REIT Index. The data below is taken from <http://www.japan-reit.com>. Although it is in Japanese, the crucial part is the 4-digit code (ticker) at the front, which allows you to check significant information in English on sites like investing.com. Checking key data through that ticker allows you to invest in J-REITs using the same method as trading overseas stocks.
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-market-data-table.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-market-data-table.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-market-data-table-768.avif 768w, /assets/images/legacy/j-reit-market-data-table-1280.avif 1280w, /assets/images/legacy/j-reit-market-data-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-market-data-table-768.webp 768w, /assets/images/legacy/j-reit-market-data-table-1280.webp 1280w, /assets/images/legacy/j-reit-market-data-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-market-data-table.png" alt="J-REIT market reference table (summary from japan-reit.com)" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -112,8 +112,8 @@ According to research conducted by the Nissei Basic Research Institute, as of la
 Those investing in J-REITs can factor in factors like stable dividends of around 3~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend-768.avif 768w, /assets/images/legacy/j-reit-dividend-yield-trend-1280.avif 1280w, /assets/images/legacy/j-reit-dividend-yield-trend.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend-768.webp 768w, /assets/images/legacy/j-reit-dividend-yield-trend-1280.webp 1280w, /assets/images/legacy/j-reit-dividend-yield-trend.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-dividend-yield-trend.png" alt="Chart illustrating J-REIT dividend and yield context" loading="lazy" decoding="async" />
 </picture>
 
@@ -133,32 +133,32 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 Several numeric examples in this article are historical snapshots (mainly 2023 references) preserved for context. Before making any decision, verify the latest monthly disclosures on [J-REIT.jp](https://j-reit.jp/en/) and [Japan REIT](https://www.japan-reit.com/), then cross-check policy context with [BOJ statistics](https://www.boj.or.jp/en/statistics/index.htm/).
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen-768.avif 768w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen-1280.avif 1280w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen-768.webp 768w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen-1280.webp 1280w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.png" alt="Nippon Building Fund (8951) price and facts screenshot" loading="lazy" decoding="async" />
 </picture>
 
 *Source: investing.com ticker 8951 (reference screenshot).*
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png" alt="Japan Real Estate Investment (8952) price and facts screenshot" loading="lazy" decoding="async" />
 </picture>
 
 *Source: investing.com ticker 8952 (reference screenshot).*
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Retail Fund (8953) price and facts screenshot" loading="lazy" decoding="async" />
 </picture>
 
 *Source: investing.com ticker 8953 (reference screenshot).*
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen-768.avif 768w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen-1280.avif 1280w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen-768.webp 768w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen-1280.webp 1280w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png" alt="Nomura Real Estate Master Fund (3462) price and facts screenshot" loading="lazy" decoding="async" />
 </picture>
 

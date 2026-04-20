@@ -25,20 +25,21 @@ const authorImageUrl = new URL(
 
 const pageUrl = new URL(Astro.url.pathname, Astro.url).href;
 
-const personLd =
+const pageLd =
   schemaType === "AboutPage"
     ? {
         "@context": "https://schema.org",
-        "@type": "Person",
-        name: "Joseph (GSF)",
-        url: SITE.profile,
-        image: authorImageUrl,
+        "@type": "AboutPage",
+        name: frontmatter.title,
+        url: pageUrl,
         inLanguage: currentLang,
-        mainEntityOfPage: {
-          "@type": "WebPage",
-          "@id": pageUrl,
+        mainEntity: {
+          "@type": "Person",
+          name: "Joseph (GSF)",
+          url: SITE.profile,
+          image: authorImageUrl,
+          ...(sameAs.length > 0 && { sameAs }),
         },
-        ...(sameAs.length > 0 && { sameAs }),
       }
     : {
         "@context": "https://schema.org",
@@ -55,7 +56,7 @@ const personLd =
 
 <Layout
   title={`${frontmatter.title} | ${SITE.title}`}
-  overrideJsonLd={personLd}
+  overrideJsonLd={pageLd}
 >
   <Header />
   <Breadcrumb />

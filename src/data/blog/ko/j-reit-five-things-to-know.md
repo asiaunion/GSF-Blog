@@ -61,8 +61,8 @@ references:
 그러나 개인적으로는 현재 엔화 환율이 역사적인 저점에 위치해 있으므로 추후 환차익의 관점에서도 개별 리츠 투자를 고려해보실 것을 추천드립니다. 대표적인 리츠들을 소개하자면 아래 리스트와 같습니다. 이들 리츠들은 모두 TSE(도쿄증권거래소) REIT Index를 추종합니다. 아래 자료는 <http://www.japan-reit.com> 에서 가져왔습니다. 일본어로 되어 있지만 중요한 것은 맨 앞의 숫자 4자리(티커)로 investing.com 등에서 주요한 정보를 영어로 확인할 수 있다는 것입니다. 해당 티커로 주요 정보를 체크하고, 해외주식 매매하는 방식으로 일본 리츠에 투자할 수 있습니다.
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-market-data-table.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-market-data-table.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-market-data-table-768.avif 768w, /assets/images/legacy/j-reit-market-data-table-1280.avif 1280w, /assets/images/legacy/j-reit-market-data-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-market-data-table-768.webp 768w, /assets/images/legacy/j-reit-market-data-table-1280.webp 1280w, /assets/images/legacy/j-reit-market-data-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-market-data-table.png" alt="J-REIT 시장·티커 참고 표 (japan-reit.com 자료 요약)" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -110,8 +110,8 @@ _계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익
 일본 리츠에 투자하시는 분은 3~4% 정도의 안정적인 배당과 향후 환차익의 가능성, 추가적인 시세 상승을 통한 차익 등을 투자 고려 요소에 넣을 수 있겠습니다. 확정적인 수익을 전망하는 것은 어떤 투자이든 불가능합니다. 다만 안정성이라는 측면에서 일본리츠는 장점을 가진 해외투자라고 생각됩니다.
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend-768.avif 768w, /assets/images/legacy/j-reit-dividend-yield-trend-1280.avif 1280w, /assets/images/legacy/j-reit-dividend-yield-trend.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend-768.webp 768w, /assets/images/legacy/j-reit-dividend-yield-trend-1280.webp 1280w, /assets/images/legacy/j-reit-dividend-yield-trend.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-dividend-yield-trend.png" alt="J-REIT 배당·수익률 관련 시장 분위기를 보여주는 차트" loading="lazy" decoding="async" />
 </picture>
 
@@ -131,32 +131,32 @@ _계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익
 이 글의 일부 수치는 2023년 기준 스냅샷(맥락 설명용)입니다. 실제 의사결정 전에는 [J-REIT.jp](https://j-reit.jp/)·[japan-reit.com](https://www.japan-reit.com/)의 최신 월간 공시를 먼저 확인하고, [BOJ 통계](https://www.boj.or.jp/)로 금리·유동성 환경을 교차 점검하시길 권합니다.
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen-768.avif 768w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen-1280.avif 1280w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen-768.webp 768w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen-1280.webp 1280w, /assets/images/legacy/j-reit-nippon-building-fund-8951-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-nippon-building-fund-8951-screen.png" alt="Nippon Building Fund(8951) 관련 시세·정보 화면" loading="lazy" decoding="async" />
 </picture>
 
 *출처: investing.com 티커(8951) 조회 화면 인용(참고).*
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-japan-real-estate-investment-8952-screen.png" alt="Japan Real Estate Investment(8952) 관련 시세·정보 화면" loading="lazy" decoding="async" />
 </picture>
 
 *출처: investing.com 티커(8952) 조회 화면 인용(참고).*
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Retail Fund(8953) 관련 시세·정보 화면" loading="lazy" decoding="async" />
 </picture>
 
 *출처: investing.com 티커(8953) 조회 화면 인용(참고).*
 
 <picture>
-  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen-768.avif 768w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen-1280.avif 1280w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen-768.webp 768w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen-1280.webp 1280w, /assets/images/legacy/j-reit-nomura-master-fund-3462-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/j-reit-nomura-master-fund-3462-screen.png" alt="Nomura Real Estate Master Fund(3462) 관련 시세·정보 화면" loading="lazy" decoding="async" />
 </picture>
 

@@ -46,8 +46,8 @@ references:
 建物倒壊の危険度お呼び火災危険度のランキングを基準に評価された、東京23区で最も危険な上位5地域は下表の通りです。
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.avif 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.webp 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="東京都23区の建物倒壊・火災リスク上位エリアの整理表" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -60,8 +60,8 @@ references:
 これらの地域は、下の地図の右側に赤く示された箇所に該当します。東京の中心部を除き、周辺の地域は相対的に地震被害に対して脆弱であることがわかります。短期的な居住ならまだしも、中長期的な不動産投資を検討するのであれば、このような地図の参照は必須だと思われます。
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.avif 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.webp 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-relative-hazard-map.png" alt="東京周辺の地震に対する相対的な脆弱度を示す地図（東京都の調査資料に基づく）" loading="lazy" decoding="async" />
 </picture>
 

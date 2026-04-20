@@ -46,8 +46,8 @@ For up-to-date preparedness information, use the [Tokyo Metropolitan Government 
 Evaluated based on the risk of building collapse and the risk of fire among the 23 wards of Tokyo, the top 5 most hazardous areas are listed in the table below.
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.avif 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.webp 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="Table summarizing top Tokyo 23-ward areas by building collapse and fire risk" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -60,8 +60,8 @@ The 1st place, "Machiya 4-chome, Arakawa Ward," ranked 7th in building collapse 
 These areas correspond to the locations marked in red on the right side of the map below. Excluding the central core of Tokyo, it can be seen that the surrounding eastern areas are relatively more vulnerable to earthquake damage. While short-term residency might be less concerning, referencing such maps is considered absolutely essential for anyone contemplating mid-to-long-term real estate investments.
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.avif 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.webp 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-relative-hazard-map.png" alt="Map highlighting relative seismic vulnerability zones in the Tokyo area (based on Tokyo Metro survey materials)" loading="lazy" decoding="async" />
 </picture>
 

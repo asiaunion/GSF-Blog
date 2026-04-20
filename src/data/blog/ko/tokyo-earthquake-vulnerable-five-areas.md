@@ -49,8 +49,8 @@ references:
 건물 붕괴 위험 및 화재 위험 순위를 기준으로 평가된 도쿄 23구 중에서 위험 상위 5개 지역은 아래 표와 같습니다.
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.avif 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.webp 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="도쿄 23구 건물 붕괴·화재 위험 상위 지역 요약 표" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -63,8 +63,8 @@ references:
 이들 지역은 아래 지도의 오른쪽의 붉은 지역으로 표시된 곳들입니다. 도쿄 중심부를 제외하고 나머지 지역은 상대적으로 지진 피해에 취약함을 볼 수 있습니다. 단기적인 거주는 모르겠지만, 중장기 부동산 투자를 고려한다면 이러한 지도 참고는 필수라고 생각됩니다.
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.avif 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.webp 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-relative-hazard-map.png" alt="도쿄 권역 지진 취약도를 나타내는 지도(도쿄도 조사 자료 기반)" loading="lazy" decoding="async" />
 </picture>
 

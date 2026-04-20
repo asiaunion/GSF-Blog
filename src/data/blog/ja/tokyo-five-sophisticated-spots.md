@@ -19,8 +19,8 @@ tags:
 <p class="post-section-heading">1. おしゃれな人たちに愛される「代官山」</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery-768.avif 768w, /assets/images/legacy/tokyo-daikanyama-scenery-1280.avif 1280w, /assets/images/legacy/tokyo-daikanyama-scenery.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery-768.webp 768w, /assets/images/legacy/tokyo-daikanyama-scenery-1280.webp 1280w, /assets/images/legacy/tokyo-daikanyama-scenery.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="東京・代官山エリアの街路樹と街並み" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -31,8 +31,8 @@ tags:
 <p class="post-section-heading">2. 女性に愛される「自由が丘」</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-768.avif 768w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-1280.avif 1280w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-768.webp 768w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-1280.webp 1280w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.png" alt="自由が丘の緑と遊歩道が調和した風景" loading="lazy" decoding="async" />
 </picture>
 
@@ -43,8 +43,8 @@ tags:
 <p class="post-section-heading">3. 観光もデートも定番の名所「表参道」</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green-768.avif 768w, /assets/images/legacy/tokyo-omotesando-retail-green-1280.avif 1280w, /assets/images/legacy/tokyo-omotesando-retail-green.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green-768.webp 768w, /assets/images/legacy/tokyo-omotesando-retail-green-1280.webp 1280w, /assets/images/legacy/tokyo-omotesando-retail-green.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-omotesando-retail-green.png" alt="表参道エリアの商業通りと緑" loading="lazy" decoding="async" />
 </picture>
 
@@ -55,8 +55,8 @@ tags:
 <p class="post-section-heading">4. おしゃれな名所が多い伝統の「銀座」</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape-768.avif 768w, /assets/images/legacy/tokyo-ginza-department-streetscape-1280.avif 1280w, /assets/images/legacy/tokyo-ginza-department-streetscape.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape-768.webp 768w, /assets/images/legacy/tokyo-ginza-department-streetscape-1280.webp 1280w, /assets/images/legacy/tokyo-ginza-department-streetscape.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-ginza-department-streetscape.png" alt="銀座の百貨店・高級店舗街の風景" loading="lazy" decoding="async" />
 </picture>
 
@@ -67,8 +67,8 @@ tags:
 <p class="post-section-heading">5. 常にトレンドの最先端に立つ「渋谷」</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-768.avif 768w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-1280.avif 1280w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-768.webp 768w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-1280.webp 1280w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.png" alt="渋谷の再開発とスクランブル交差点周辺の街並み" loading="lazy" decoding="async" />
 </picture>
 

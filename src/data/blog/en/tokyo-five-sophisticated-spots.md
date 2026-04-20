@@ -19,8 +19,8 @@ A Japanese blog called "Eipura Column" features posts that answer these kinds of
 <p class="post-section-heading">1. Daikanyama: Loved by Stylish People</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery-768.avif 768w, /assets/images/legacy/tokyo-daikanyama-scenery-1280.avif 1280w, /assets/images/legacy/tokyo-daikanyama-scenery.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery-768.webp 768w, /assets/images/legacy/tokyo-daikanyama-scenery-1280.webp 1280w, /assets/images/legacy/tokyo-daikanyama-scenery.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="Tree-lined streets and neighborhood scenery in Daikanyama, Tokyo" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
@@ -31,8 +31,8 @@ Because it is a high-end residential area, the streetscape is beautiful and safe
 <p class="post-section-heading">2. Jiyugaoka: Loved by Women</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-768.avif 768w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-1280.avif 1280w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-768.webp 768w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway-1280.webp 1280w, /assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.png" alt="Greenery and walkways in the Jiyugaoka area" loading="lazy" decoding="async" />
 </picture>
 
@@ -43,8 +43,8 @@ Boasting a beautiful streetscape, Jiyugaoka is reputed to be a very safe neighbo
 <p class="post-section-heading">3. Omotesando: A Regular Spot for Sightseeing and Dates</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green-768.avif 768w, /assets/images/legacy/tokyo-omotesando-retail-green-1280.avif 1280w, /assets/images/legacy/tokyo-omotesando-retail-green.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-omotesando-retail-green-768.webp 768w, /assets/images/legacy/tokyo-omotesando-retail-green-1280.webp 1280w, /assets/images/legacy/tokyo-omotesando-retail-green.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-omotesando-retail-green.png" alt="Omotesando shopping street with green surroundings" loading="lazy" decoding="async" />
 </picture>
 
@@ -55,8 +55,8 @@ Omotesando Station is serviced by the Metro Ginza Line, Chiyoda Line, and Hanzom
 <p class="post-section-heading">4. Ginza: Tradition with Many Stylish Spots</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape-768.avif 768w, /assets/images/legacy/tokyo-ginza-department-streetscape-1280.avif 1280w, /assets/images/legacy/tokyo-ginza-department-streetscape.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-ginza-department-streetscape-768.webp 768w, /assets/images/legacy/tokyo-ginza-department-streetscape-1280.webp 1280w, /assets/images/legacy/tokyo-ginza-department-streetscape.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-ginza-department-streetscape.png" alt="Ginza department stores and upscale retail streets" loading="lazy" decoding="async" />
 </picture>
 
@@ -67,8 +67,8 @@ In the Ginza area, you have access to five lines including Ginza Station, Ginza-
 <p class="post-section-heading">5. Shibuya: Always at the Forefront of Trends</p>
 
 <picture>
-  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif" type="image/avif" />
-  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp" type="image/webp" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-768.avif 768w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-1280.avif 1280w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
+  <source srcset="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-768.webp 768w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline-1280.webp 1280w, /assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.png" alt="Shibuya redevelopment and cityscape near Scramble Crossing" loading="lazy" decoding="async" />
 </picture>
 
