@@ -292,7 +292,7 @@ export function getUi(lang: UiLang): (typeof ui)[UiLang] {
 
 /** For routes without `[...locale]` (404, archives): follow `SITE.lang` when it is a UI locale. */
 export function defaultUiLang(): UiLang {
-  const l = SITE.lang;
+  const l: string = SITE.lang;
   if (l === "ko" || l === "ja" || l === "en") return l;
   return "en";
 }
