@@ -48,7 +48,7 @@ references:
 <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
-  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="東京都23区の建物倒壊・火災リスク上位エリアの整理表" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="東京都23区の建物倒壊・火災リスク上位エリアの整理表" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 第1位は荒川区の町屋4丁目、第2位は足立区の千住柳町、第3位は墨田区の京島3丁目、第4位は同じく墨田区の墨田3丁目、そして第5位は足立区の柳原2丁目です。参考までに、「丁目」とは一つのブロック（街区）単位であると理解していただければ差し支えありません。

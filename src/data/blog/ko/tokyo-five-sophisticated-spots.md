@@ -21,7 +21,7 @@ tags:
 <picture>
   <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
-  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="도쿄 다이칸야마 일대의 가로수와 거리 풍경" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="도쿄 다이칸야마 일대의 가로수와 거리 풍경" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 다이칸야마는 도쿄의 세련된 마치(동네)로 인정받고 있습니다. 많은 유명인이 거주하는 고급 주거 지역으로도 알려져 있으며 전체적인 분위기는 우아하고 차분합니다. 도로를 따라 가로수가 심어 져 있으며 동네의 경관이 무성하고 아름답습니다. 잡지에 게재되는 의류 편집 샵이나 에스테틱 살롱 등 패션 관련 샵이 많이 있으며, 여성들에게 특히 인기가 많습니다.

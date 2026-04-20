@@ -63,7 +63,7 @@ references:
 <picture>
   <source srcset="/assets/images/legacy/j-reit-market-data-table.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/j-reit-market-data-table.webp" type="image/webp" />
-  <img src="/assets/images/legacy/j-reit-market-data-table.png" alt="J-REIT 시장·티커 참고 표 (japan-reit.com 자료 요약)" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/j-reit-market-data-table.png" alt="J-REIT 시장·티커 참고 표 (japan-reit.com 자료 요약)" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 *출처: [japan-reit.com](http://www.japan-reit.com) 웹사이트 화면을 인용·재구성한 참고 이미지입니다.*

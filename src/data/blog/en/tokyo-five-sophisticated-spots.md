@@ -21,7 +21,7 @@ A Japanese blog called "Eipura Column" features posts that answer these kinds of
 <picture>
   <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
-  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="Tree-lined streets and neighborhood scenery in Daikanyama, Tokyo" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="Tree-lined streets and neighborhood scenery in Daikanyama, Tokyo" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 Daikanyama is widely recognized as a stylish "Machi" (neighborhood) in Tokyo. Known as a high-end residential area where many celebrities reside, the overall atmosphere is elegant and calm. Trees are planted along the roads, and the neighborhood's landscape is lush and beautiful. There are many fashion-related stores, such as clothing boutiques and aesthetic salons often featured in magazines, making it especially popular among women.

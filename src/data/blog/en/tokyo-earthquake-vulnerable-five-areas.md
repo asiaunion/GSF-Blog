@@ -48,7 +48,7 @@ Evaluated based on the risk of building collapse and the risk of fire among the 
 <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
-  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="Table summarizing top Tokyo 23-ward areas by building collapse and fire risk" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="Table summarizing top Tokyo 23-ward areas by building collapse and fire risk" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 1st place is Machiya 4-chome in Arakawa Ward, 2nd is Senjuyanagi-cho in Adachi Ward, 3rd is Kyojima 3-chome in Sumida Ward, 4th is Sumida 3-chome in Sumida Ward, and finally, 5th place goes to Yanagihara 2-chome in Adachi Ward. For reference, "chome" is a geographic division similar to specific numbered streets or blocks in other countries. You can safely understand it as a single block unit.

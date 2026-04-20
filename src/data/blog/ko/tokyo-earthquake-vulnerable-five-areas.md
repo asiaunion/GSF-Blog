@@ -51,7 +51,7 @@ references:
 <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp" type="image/webp" />
-  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="도쿄 23구 건물 붕괴·화재 위험 상위 지역 요약 표" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="도쿄 23구 건물 붕괴·화재 위험 상위 지역 요약 표" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 1위는 아라카와구의 마치야4쵸메, 2위는 아다치구 센주야나기초, 3위는 스미다구 쿄지마 3초메, 4위는 같은 스미다구 스미다3초메, 마지막 5위는 아다치구 야나기하라2초메 입니다. 참고로 초메는 우리로 치면 종로 2가, 3가 같은 의미라고 보시면 됩니다. 하나의 블록 단위라고 이해하셔도 무방하리라 봅니다.

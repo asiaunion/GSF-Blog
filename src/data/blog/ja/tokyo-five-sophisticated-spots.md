@@ -21,7 +21,7 @@ tags:
 <picture>
   <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.avif" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-daikanyama-scenery.webp" type="image/webp" />
-  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="東京・代官山エリアの街路樹と街並み" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/tokyo-daikanyama-scenery.png" alt="東京・代官山エリアの街路樹と街並み" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
 
 代官山は、東京のおしゃれな街として広く認知されています。多くの有名人が居住する高級住宅街としても知られており、全体的な雰囲気は上品で落ち着いています。通り沿いには街路樹が植えられており、街の景観が緑豊かで非常に美しいです。雑誌に掲載されるようなアパレルのセレクトショップやエステサロンなど、ファッション関連の店舗が多く、特に女性に高い人気を誇ります。
