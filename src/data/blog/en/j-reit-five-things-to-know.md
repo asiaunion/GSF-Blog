@@ -140,14 +140,6 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 
 *Source: investing.com ticker 3462 (reference screenshot).*
 
-![Additional J-REIT ticker screenshot example 1](/assets/images/legacy/j-reit-ticker-example-1.png)
-
-*Source: investing.com public quote page (J-REIT, reference screenshot).*
-
-![Additional J-REIT ticker screenshot example 2](/assets/images/legacy/j-reit-ticker-example-2.png)
-
-*Source: investing.com public quote page (J-REIT, reference screenshot).*
-
 <p class="post-section-heading">Conclusion</p>
 
 "In 2020, while many global REITs struggled to maintain distributions, several J-REITs proved more resilient than expected. That does not guarantee future returns, but it shows why income-focused investors keep this market on the watchlist. The J-REITs introduced here are largely backed by commercial assets in major Japanese urban centers. If you hold a constructive long-term view on central Tokyo leasing and redevelopment, J-REITs can be a practical way to gain listed exposure to that thesis.

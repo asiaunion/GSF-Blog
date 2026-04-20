@@ -10,6 +10,21 @@ const normalized =
 const { locale } = parseLocalizedPath(normalized);
 const L = getUi(locale as UiLang);
 const items = buildBreadcrumbItems(Astro.url.pathname);
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: items.map((item, index) => {
+    const href = item.href
+      ? new URL(item.href, Astro.url.origin).href
+      : Astro.url.href;
+    return {
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.label,
+      item: href,
+    };
+  }),
+};
 ---
 
 <nav class="app-layout mt-8 mb-1" aria-label={L.breadcrumbAriaLabel}>
@@ -44,3 +59,9 @@ const items = buildBreadcrumbItems(Astro.url.pathname);
     }
   </ul>
 </nav>
+
+<script
+  type="application/ld+json"
+  is:inline
+  set:html={JSON.stringify(breadcrumbJsonLd)}
+/>
