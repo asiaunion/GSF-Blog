@@ -50,6 +50,27 @@ references:
 
 이들 세금은 일본 부동산 투자자들이라면 반드시 확인해야 하는 사항이며, 이와 관련해서 세무 전문가 또는 법률 전문가와 상의하는 것이 필요합니다. 세율·특례·납부 절차는 [국토교통성(MLIT)](https://www.mlit.go.jp/en/)의 제도 안내와 [총무성 통계국](https://www.stat.go.jp/english/)의 거시·지역 지표로 교차 확인하는 편이 안전합니다.
 
+<p class="post-section-heading">2.1 직접 계산 비용 구조 차트(SVG 예시)</p>
+
+<svg viewBox="0 0 780 300" role="img" aria-label="도쿄 소형 임대 물건 연간 비용 구조 예시 차트" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">연간 비용 구조(임대수입 100 가정)</text>
+  <text x="24" y="52" font-size="12" fill="#6b7280">예시 항목: 관리비, 공실, 수선적립, 세금, 금융비용</text>
+  <rect x="120" y="70" width="180" height="190" fill="#e5e7eb" rx="6"/>
+  <rect x="120" y="230" width="180" height="30" fill="#60a5fa" rx="0"/>
+  <rect x="120" y="195" width="180" height="35" fill="#f59e0b" rx="0"/>
+  <rect x="120" y="165" width="180" height="30" fill="#34d399" rx="0"/>
+  <rect x="120" y="130" width="180" height="35" fill="#f87171" rx="0"/>
+  <rect x="120" y="70" width="180" height="60" fill="#a78bfa" rx="6"/>
+  <text x="320" y="88" font-size="12" fill="#374151">금융비용: 24</text>
+  <text x="320" y="145" font-size="12" fill="#374151">세금: 14</text>
+  <text x="320" y="182" font-size="12" fill="#374151">수선적립: 12</text>
+  <text x="320" y="212" font-size="12" fill="#374151">공실/교체: 10</text>
+  <text x="320" y="247" font-size="12" fill="#374151">관리/운영: 10</text>
+  <text x="120" y="282" font-size="12" fill="#111827">소득세 전 순현금흐름: 약 30</text>
+</svg>
+
+_계산 메모: 이 차트는 평균값이 아니라 사전 시뮬레이션 템플릿입니다. 실제 물건에 맞게 항목별 가정을 바꿔서 사용하세요._
+
 <p class="post-section-heading">3. 일본 부동산 투자 현지 네트워크 활용에 대해서 알아보자</p>
 
 요즘에는 투자에 있어서도 발품보다 손품이 중요해지고 있습니다. 다행히 우리가 일본 부동산 투자를 위해 참조할 수 있는 사이트들이 있습니다. 일본에는 S**uumo, Homes, At Home 및 Real Estate Yahoo**와 같은 사이트들이 인기가 있습니다. 이러한 웹사이트는 매매 또는 임대용 부동산 정보를 제공하며, 나아가 일본 부동산 시장을 탐색하는 데 도움이 되는 현지 부동산 에이전트와 연결될 수 있습니다.

@@ -50,6 +50,27 @@ After purchasing real estate in Japan, there are taxes and miscellaneous expense
 
 These taxes are mandatory items that investors in Japanese real estate must confirm. It is highly advised to consult with tax or legal experts regarding these specifics. For rates, special measures, and payment mechanics, cross-check [MLIT](https://www.mlit.go.jp/en/) guidance with macro and regional releases from [Statistics Japan](https://www.stat.go.jp/english/).
 
+<p class="post-section-heading">2.1 My own cost-stack worksheet (illustrative SVG)</p>
+
+<svg viewBox="0 0 780 300" role="img" aria-label="Illustrative annual cost stack for a small Tokyo rental unit" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">Annual cost stack (sample 100 rent units)</text>
+  <text x="24" y="52" font-size="12" fill="#6b7280">Illustrative mix: management, vacancy, repair reserve, tax, financing</text>
+  <rect x="120" y="70" width="180" height="190" fill="#e5e7eb" rx="6"/>
+  <rect x="120" y="230" width="180" height="30" fill="#60a5fa" rx="0"/>
+  <rect x="120" y="195" width="180" height="35" fill="#f59e0b" rx="0"/>
+  <rect x="120" y="165" width="180" height="30" fill="#34d399" rx="0"/>
+  <rect x="120" y="130" width="180" height="35" fill="#f87171" rx="0"/>
+  <rect x="120" y="70" width="180" height="60" fill="#a78bfa" rx="6"/>
+  <text x="320" y="88" font-size="12" fill="#374151">Financing: 24</text>
+  <text x="320" y="145" font-size="12" fill="#374151">Tax: 14</text>
+  <text x="320" y="182" font-size="12" fill="#374151">Repair reserve: 12</text>
+  <text x="320" y="212" font-size="12" fill="#374151">Vacancy/turnover: 10</text>
+  <text x="320" y="247" font-size="12" fill="#374151">Management/admin: 10</text>
+  <text x="120" y="282" font-size="12" fill="#111827">Net before income tax: about 30</text>
+</svg>
+
+_Method note: this chart is a planning worksheet (not a market average). Replace each block with your own property assumptions before using it._
+
 <p class="post-section-heading">3. Utilizing Local Real estate Networks</p>
 
 Nowadays in investing, digital research is becoming just as crucial as physical scouting. Fortunately, there are reliable platforms we can reference for Japanese real estate investments. In Japan, websites such as **Suumo, Homes, At Home, and Real Estate Yahoo** are very popular. These websites provide information on properties for sale or rent, and can connect you with local real estate agents who can assist in navigating the market.

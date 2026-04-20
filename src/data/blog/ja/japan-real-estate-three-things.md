@@ -50,6 +50,27 @@ references:
 
 これらの税金は、日本の不動産投資家であれば必ず確認しなければならない事項であり、これに関連して税務専門家または法律の専門家に相談することが推奨されます。税率・特例・納付手続きは、[国土交通省（英語）](https://www.mlit.go.jp/en/)の制度情報と[総務省統計局（英語）](https://www.stat.go.jp/english/)のマクロ・地域統計をあわせて照合すると安全です。
 
+<p class="post-section-heading">2.1 自作コスト構造チャート（SVG例）</p>
+
+<svg viewBox="0 0 780 300" role="img" aria-label="東京小型賃貸の年間コスト構造の例" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">年間コスト構造（賃料100想定）</text>
+  <text x="24" y="52" font-size="12" fill="#6b7280">例示項目: 管理、空室、修繕積立、税、金融コスト</text>
+  <rect x="120" y="70" width="180" height="190" fill="#e5e7eb" rx="6"/>
+  <rect x="120" y="230" width="180" height="30" fill="#60a5fa" rx="0"/>
+  <rect x="120" y="195" width="180" height="35" fill="#f59e0b" rx="0"/>
+  <rect x="120" y="165" width="180" height="30" fill="#34d399" rx="0"/>
+  <rect x="120" y="130" width="180" height="35" fill="#f87171" rx="0"/>
+  <rect x="120" y="70" width="180" height="60" fill="#a78bfa" rx="6"/>
+  <text x="320" y="88" font-size="12" fill="#374151">金融コスト: 24</text>
+  <text x="320" y="145" font-size="12" fill="#374151">税金: 14</text>
+  <text x="320" y="182" font-size="12" fill="#374151">修繕積立: 12</text>
+  <text x="320" y="212" font-size="12" fill="#374151">空室/入替: 10</text>
+  <text x="320" y="247" font-size="12" fill="#374151">管理/運営: 10</text>
+  <text x="120" y="282" font-size="12" fill="#111827">所得税前キャッシュフロー: 約30</text>
+</svg>
+
+_計算メモ: この図は平均値ではなく、事前シミュレーション用テンプレートです。実案件では各前提を差し替えてください。_
+
 <p class="post-section-heading">3. 日本の不動産投資における現地ネットワークの活用について</p>
 
 最近の投資においては、実際に足を運ぶこと以上に、ネットでの情報収集（手品）が重要になってきています。幸いなことに、私たちが日本の不動産投資のために参考にできるサイトがあります。日本では、**SUUMO（スーモ）、HOME'S（ホームズ）、アットホーム、Yahoo!不動産**といったサイトが人気です。これらのウェブサイトは売買用または賃貸用の不動産情報を提供し、さらには日本の不動産市場をナビゲートする助けとなる現地の不動産エージェントと繋がることができます。
