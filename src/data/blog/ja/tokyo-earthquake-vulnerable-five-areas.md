@@ -45,7 +45,7 @@ references:
 
 建物倒壊の危険度お呼び火災危険度のランキングを基準に評価された、東京23区で最も危険な上位5地域は下表の通りです。
 
-![東京都23区の建物倒壊・火災リスク上位エリアの整理表](/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png)
+![東京都23区の建物倒壊・火災リスク上位エリアの整理表](/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp)
 
 第1位は荒川区の町屋4丁目、第2位は足立区の千住柳町、第3位は墨田区の京島3丁目、第4位は同じく墨田区の墨田3丁目、そして第5位は足立区の柳原2丁目です。参考までに、「丁目」とは一つのブロック（街区）単位であると理解していただければ差し支えありません。
 
@@ -55,7 +55,7 @@ references:
 
 これらの地域は、下の地図の右側に赤く示された箇所に該当します。東京の中心部を除き、周辺の地域は相対的に地震被害に対して脆弱であることがわかります。短期的な居住ならまだしも、中長期的な不動産投資を検討するのであれば、このような地図の参照は必須だと思われます。
 
-![東京周辺の地震に対する相対的な脆弱度を示す地図（東京都の調査資料に基づく）](/assets/images/legacy/tokyo-seismic-relative-hazard-map.png)
+![東京周辺の地震に対する相対的な脆弱度を示す地図（東京都の調査資料に基づく）](/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp)
 
 <p class="post-section-heading">4. おわりに（示唆点）</p>
 

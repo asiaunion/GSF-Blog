@@ -45,7 +45,7 @@ For up-to-date preparedness information, use the [Tokyo Metropolitan Government 
 
 Evaluated based on the risk of building collapse and the risk of fire among the 23 wards of Tokyo, the top 5 most hazardous areas are listed in the table below.
 
-![Table summarizing top Tokyo 23-ward areas by building collapse and fire risk](/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png)
+![Table summarizing top Tokyo 23-ward areas by building collapse and fire risk](/assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp)
 
 1st place is Machiya 4-chome in Arakawa Ward, 2nd is Senjuyanagi-cho in Adachi Ward, 3rd is Kyojima 3-chome in Sumida Ward, 4th is Sumida 3-chome in Sumida Ward, and finally, 5th place goes to Yanagihara 2-chome in Adachi Ward. For reference, "chome" is a geographic division similar to specific numbered streets or blocks in other countries. You can safely understand it as a single block unit.
 
@@ -55,7 +55,7 @@ The 1st place, "Machiya 4-chome, Arakawa Ward," ranked 7th in building collapse 
 
 These areas correspond to the locations marked in red on the right side of the map below. Excluding the central core of Tokyo, it can be seen that the surrounding eastern areas are relatively more vulnerable to earthquake damage. While short-term residency might be less concerning, referencing such maps is considered absolutely essential for anyone contemplating mid-to-long-term real estate investments.
 
-![Map highlighting relative seismic vulnerability zones in the Tokyo area (based on Tokyo Metro survey materials)](/assets/images/legacy/tokyo-seismic-relative-hazard-map.png)
+![Map highlighting relative seismic vulnerability zones in the Tokyo area (based on Tokyo Metro survey materials)](/assets/images/legacy/tokyo-seismic-relative-hazard-map.webp)
 
 <p class="post-section-heading">4. Conclusion (Implications)</p>
 

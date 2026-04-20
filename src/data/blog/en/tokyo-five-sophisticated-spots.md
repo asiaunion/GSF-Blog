@@ -18,7 +18,7 @@ A Japanese blog called "Eipura Column" features posts that answer these kinds of
 
 <p class="post-section-heading">1. Daikanyama: Loved by Stylish People</p>
 
-![Tree-lined streets and neighborhood scenery in Daikanyama, Tokyo](/assets/images/legacy/tokyo-daikanyama-scenery.png)
+![Tree-lined streets and neighborhood scenery in Daikanyama, Tokyo](/assets/images/legacy/tokyo-daikanyama-scenery.webp)
 
 Daikanyama is widely recognized as a stylish "Machi" (neighborhood) in Tokyo. Known as a high-end residential area where many celebrities reside, the overall atmosphere is elegant and calm. Trees are planted along the roads, and the neighborhood's landscape is lush and beautiful. There are many fashion-related stores, such as clothing boutiques and aesthetic salons often featured in magazines, making it especially popular among women.
 
@@ -26,7 +26,7 @@ Because it is a high-end residential area, the streetscape is beautiful and safe
 
 <p class="post-section-heading">2. Jiyugaoka: Loved by Women</p>
 
-![Greenery and walkways in the Jiyugaoka area](/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.png)
+![Greenery and walkways in the Jiyugaoka area](/assets/images/legacy/tokyo-jiyugaoka-greenery-walkway.webp)
 
 It is no exaggeration to say that Jiyugaoka is a neighborhood made for women, filled with many cute and stylish things. Also known as the 'Holy Land of Sweets,' it hosts a variety of shops ranging from bakeries managed by famous pastry chefs to long-established traditional Japanese confectioneries. There are also stylish cobblestone streets like "Sunset Alley Street" and "Marie Claire Street (Kuhombutsu River Green Road)." With abundant greenery, the neighborhood landscape exudes a very elegant and relaxed atmosphere.
 
@@ -34,7 +34,7 @@ Boasting a beautiful streetscape, Jiyugaoka is reputed to be a very safe neighbo
 
 <p class="post-section-heading">3. Omotesando: A Regular Spot for Sightseeing and Dates</p>
 
-![Omotesando shopping street with green surroundings](/assets/images/legacy/tokyo-omotesando-retail-green.png)
+![Omotesando shopping street with green surroundings](/assets/images/legacy/tokyo-omotesando-retail-green.webp)
 
 Characterized by the beautiful green scenery viewed from in front of the station, Omotesando is a place where cutting-edge trends gather, from fashion to food. Luxury brand stores line Aoyama Street, making even window shopping a delight. Pachinko parlors and consumer finance shops are virtually non-existent. The elegant atmosphere that encompasses the entire neighborhood makes Omotesando truly stand out. In winter, the area around Omotesando Hills is lit up with illuminations, drawing many tourists and couples. For reference, Omotesando Hills was designed by the famous architect 'Tadao Ando' and is a stylish landmark in both its exterior and interior.
 
@@ -42,7 +42,7 @@ Omotesando Station is serviced by the Metro Ginza Line, Chiyoda Line, and Hanzom
 
 <p class="post-section-heading">4. Ginza: Tradition with Many Stylish Spots</p>
 
-![Ginza department stores and upscale retail streets](/assets/images/legacy/tokyo-ginza-department-streetscape.png)
+![Ginza department stores and upscale retail streets](/assets/images/legacy/tokyo-ginza-department-streetscape.webp)
 
 Symbolized by the "Wako Clock Tower," Ginza presents a neighborhood that approaches you with maturity rather than a purely young image. It appeals more to the generations in their 30s, 40s, and beyond than to those in their 20s. High-end street shops and long-established department stores line the streets, constantly bustling with shoppers. Beyond shopping, there are many charming attractions, such as enjoying a play at the long-standing 'Kabuki-za' or taking photos at the 'Art Aquarium Museum Ginza.' If you look closely around every corner, you will realize there are many exceptionally stylish shops. Because it is a neighborhood loved by generations with purchasing power, I believe it possesses an unrivaled charm.
 
@@ -50,7 +50,7 @@ In the Ginza area, you have access to five lines including Ginza Station, Ginza-
 
 <p class="post-section-heading">5. Shibuya: Always at the Forefront of Trends</p>
 
-![Shibuya redevelopment and cityscape near Scramble Crossing](/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.png)
+![Shibuya redevelopment and cityscape near Scramble Crossing](/assets/images/legacy/tokyo-shibuya-scramble-redevelopment-skyline.webp)
 
 The Shibuya area is currently undergoing a massive redevelopment said to happen only once in a century. New commercial and office buildings such as 'Shibuya Fukuras' and 'Shibuya Stream' are being completed one after another. As a place where the latest trends and culture are transmitted, you can always discover something new. The entire area is undergoing a complete transformation, making it a place to look forward to even more in the future.
 
