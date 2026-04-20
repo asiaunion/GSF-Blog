@@ -74,11 +74,32 @@ _편집자 주: 본문 스크린샷은 아카이브 참고용으로, 현재 UI·
 
 <p class="post-section-heading">4.1 간단한 시나리오 계산 틀(예시)</p>
 
-- 보수 시나리오: 배당 3%대 초반 + 환율/가격 역풍
-- 기준 시나리오: 배당 3%대 중반 + 가격 완만 회복
-- 상방 시나리오: 배당 유지 + 환율/가격 동시 우호
+- 보수 시나리오: 배당 3.2% + 환율 -3.0% + 가격 -2.0% ≈ **-1.8%**
+- 기준 시나리오: 배당 3.6% + 환율 0.0% + 가격 +2.0% ≈ **+5.6%**
+- 상방 시나리오: 배당 3.8% + 환율 +4.0% + 가격 +6.0% ≈ **+13.8%**
 
 핵심은 “정답 숫자”가 아니라, 각 가정값을 공개해 스스로 검증 가능한 투자 메모를 만드는 것입니다.
+
+<p class="post-section-heading">4.2 직접 계산 시나리오 차트(SVG 예시)</p>
+
+<svg viewBox="0 0 760 260" role="img" aria-label="J-REIT 시나리오별 기대수익률 막대 차트 예시" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">가정 기반 총수익 시나리오 (직접 계산 메모)</text>
+  <text x="24" y="52" font-size="12" fill="#6b7280">가정: 배당수익률 + 환율 변화 + 가격 변화</text>
+  <line x1="80" y1="200" x2="700" y2="200" stroke="#9ca3af" stroke-width="1" />
+  <line x1="80" y1="80" x2="80" y2="200" stroke="#9ca3af" stroke-width="1" />
+  <text x="40" y="204" font-size="11" fill="#6b7280">0%</text>
+  <rect x="150" y="205" width="120" height="16" fill="#ef4444" rx="4" />
+  <rect x="330" y="133" width="120" height="67" fill="#3b82f6" rx="4" />
+  <rect x="510" y="33" width="120" height="167" fill="#10b981" rx="4" />
+  <text x="170" y="240" font-size="12" fill="#111827">보수</text>
+  <text x="360" y="240" font-size="12" fill="#111827">기준</text>
+  <text x="550" y="240" font-size="12" fill="#111827">상방</text>
+  <text x="185" y="196" font-size="12" fill="#b91c1c">-1.8%</text>
+  <text x="372" y="126" font-size="12" fill="#1d4ed8">+5.6%</text>
+  <text x="548" y="26" font-size="12" fill="#047857">+13.8%</text>
+</svg>
+
+_계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익 보장을 의미하지 않습니다._
 
 닛세이 기초연구소가 조사한 바에 따르면, 2021년 8월말 기준으로 과거 20년 리츠 수익율은 416%(연율 약 8.6%)로 상당히 준수한 편입니다. 이 기간 TOPIX로 대표되는 일본 주식시장은 166% 상승에 그쳤습니다. 리츠가 가진 잠재력을 결코 무시할 수 없는 데이터입니다. 과거 5년 기준으로는 43%네요. TOPIX보다 낮기는 하지만 안정적인 배당을 감안한다면 매력도가 떨어지지 않는다고 보여집니다.
 

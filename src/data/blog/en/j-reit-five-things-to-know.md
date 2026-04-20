@@ -82,6 +82,27 @@ Currently in 2026, risk sentiment around Japanese assets remains constructive ac
 
 This is not a forecast. It is a transparency template so readers can challenge each assumption before they allocate capital.
 
+<p class="post-section-heading">4.2 My own scenario chart (illustrative SVG)</p>
+
+<svg viewBox="0 0 760 260" role="img" aria-label="Illustrative J-REIT scenario return bars from defensive to upside" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
+  <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">Illustrative total-return scenarios (own worksheet)</text>
+  <text x="24" y="52" font-size="12" fill="#6b7280">Assumptions: distribution yield + FX move + price move</text>
+  <line x1="80" y1="200" x2="700" y2="200" stroke="#9ca3af" stroke-width="1" />
+  <line x1="80" y1="80" x2="80" y2="200" stroke="#9ca3af" stroke-width="1" />
+  <text x="40" y="204" font-size="11" fill="#6b7280">0%</text>
+  <rect x="150" y="205" width="120" height="16" fill="#ef4444" rx="4" />
+  <rect x="330" y="133" width="120" height="67" fill="#3b82f6" rx="4" />
+  <rect x="510" y="33" width="120" height="167" fill="#10b981" rx="4" />
+  <text x="170" y="240" font-size="12" fill="#111827">Defensive</text>
+  <text x="360" y="240" font-size="12" fill="#111827">Base</text>
+  <text x="550" y="240" font-size="12" fill="#111827">Upside</text>
+  <text x="185" y="196" font-size="12" fill="#b91c1c">-1.8%</text>
+  <text x="372" y="126" font-size="12" fill="#1d4ed8">+5.6%</text>
+  <text x="548" y="26" font-size="12" fill="#047857">+13.8%</text>
+</svg>
+
+_Method note: each bar is the arithmetic sum of the scenario inputs shown above. This chart is an educational worksheet, not a performance promise._
+
 According to research conducted by the Nissei Basic Research Institute, as of late August 2021, the REIT return rate over the past 20 years was 416% (annualized at about 8.6%), which is quite respectable. During the same period, the Japanese stock market, represented by TOPIX, rose by only 166%. This is data proving that the true potential of REITs simply cannot be ignored. Over the past 5 years, the return is 43%. While it is lower than TOPIX over the shorter term, considering the robust stability of dividends, its attractiveness has certainly not diminished.
 
 Those investing in J-REITs can factor in factors like stable dividends of around 3~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
