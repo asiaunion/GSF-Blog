@@ -21,6 +21,7 @@ import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import { getUi, type UiLang } from "@/i18n/ui";
+import { TOPIC_HUB_SLUGS, type TopicHubKey } from "@/data/topicHubs";
 
 const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
 const L = getUi(lang as UiLang);
@@ -28,6 +29,13 @@ const L = getUi(lang as UiLang);
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
 const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
+const recentHomeLimit = Math.max(SITE.postPerIndex, 6);
+const hubOrder: TopicHubKey[] = [
+  "urbanInvestment",
+  "macroPolicy",
+  "tokyoLife",
+  "essay",
+];
 ---
 
 <Layout>
@@ -102,12 +110,34 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           <ul>
             {recentPosts.map(
               (data, index) =>
-                index < SITE.postPerIndex && <Card variant="h3" {...data} />
+                index < recentHomeLimit && <Card variant="h3" {...data} />
             )}
           </ul>
         </section>
       )
     }
+
+    <section id="topic-cards" class="pt-4 pb-6">
+      <h2 class="text-2xl font-semibold tracking-wide">{L.sectionExploreTopics}</h2>
+      <div class="mt-4 grid gap-4 sm:grid-cols-2">
+        {
+          hubOrder.map(key => (
+            <a
+              href={`${locale ? `/${locale}` : ""}/topics/#hub-${key}`}
+              class="rounded-xl border border-border bg-card p-4 transition-colors hover:border-accent"
+            >
+              <h3 class="text-base font-semibold text-foreground">{L.topicHubs[key].title}</h3>
+              <p class="mt-2 text-sm leading-relaxed text-foreground/75">
+                {L.topicHubs[key].description}
+              </p>
+              <p class="mt-3 text-xs text-foreground/60">
+                {TOPIC_HUB_SLUGS[key].length} {L.topicHubPostsLabel}
+              </p>
+            </a>
+          ))
+        }
+      </div>
+    </section>
 
     <div class="my-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
       <LinkButton href={`${locale ? `/${locale}` : ""}/posts/`}>

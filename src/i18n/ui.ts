@@ -35,9 +35,12 @@ const ui = {
     heroRssTitle: "RSS Feed",
     heroTagline: "Bridging profit and purpose.",
     heroDescription:
-      "A convergence of investments and business, people and technology, restoration and reinvention — shaping a new lifestyle.",
+      "Tokyo real estate, J-REIT, and Korea-Japan macro reports for practical cross-border decision-making.",
     sectionFeatured: "Featured",
     sectionRecentPosts: "Recent Posts",
+    sectionExploreTopics: "Explore by topic",
+    sectionMoreRecent: "More latest posts",
+    topicHubPostsLabel: "core posts",
     allPosts: "All Posts",
     topicsPageTitle: "Topic hubs",
     topicsPageDesc:
@@ -70,6 +73,15 @@ const ui = {
     notFoundHeading: "Page Not Found",
     notFoundBackHome: "Go back home",
     sharePostLead: "Share this post:",
+    authorCardTitle: "About the author",
+    authorCardBody:
+      "Joseph (GSF) writes on Tokyo real estate, J-REIT, and Korea-Japan macro trends from Nihonbashi, Tokyo.",
+    authorCardAboutCta: "Read author profile",
+    authorCardContactCta: "Contact",
+    postFollowTitle: "Follow updates",
+    postFollowBody:
+      "Get new reports via RSS or follow on X/LinkedIn for cross-border market notes.",
+    postFollowRssCta: "Subscribe RSS",
     copyCodeButton: "Copy",
     copyCodeDone: "Copied",
     devSearchWarnTitle: "Development mode",
@@ -126,9 +138,12 @@ const ui = {
     heroRssTitle: "RSS 피드",
     heroTagline: "이윤과 목적을 잇습니다.",
     heroDescription:
-      "투자와 비즈니스, 사람과 기술, 복원과 재창조가 만나 새로운 라이프스타일을 빚어 냅니다.",
+      "도쿄 부동산·J-REIT·한일 거시경제 리포트를 바탕으로 실전 의사결정을 돕습니다.",
     sectionFeatured: "추천 글",
     sectionRecentPosts: "최근 글",
+    sectionExploreTopics: "주제별 바로가기",
+    sectionMoreRecent: "최신 글 더 보기",
+    topicHubPostsLabel: "핵심 글",
     allPosts: "전체 글",
     topicsPageTitle: "주제 허브",
     topicsPageDesc:
@@ -161,6 +176,15 @@ const ui = {
     notFoundHeading: "페이지를 찾을 수 없습니다",
     notFoundBackHome: "홈으로 돌아가기",
     sharePostLead: "이 글 공유:",
+    authorCardTitle: "작성자 소개",
+    authorCardBody:
+      "Joseph(GSF)은 도쿄 니혼바시 현지에서 도쿄 부동산, J-REIT, 한일 거시 흐름을 기록합니다.",
+    authorCardAboutCta: "작성자 프로필 보기",
+    authorCardContactCta: "문의하기",
+    postFollowTitle: "업데이트 받기",
+    postFollowBody:
+      "신규 리포트는 RSS로 받고, 한일 시장 메모는 X/LinkedIn에서 확인하세요.",
+    postFollowRssCta: "RSS 구독",
     copyCodeButton: "복사",
     copyCodeDone: "복사됨",
     devSearchWarnTitle: "개발 모드",
@@ -217,9 +241,12 @@ const ui = {
     heroRssTitle: "RSSフィード",
     heroTagline: "利益と目的のはざまを橋渡しする。",
     heroDescription:
-      "投資とビジネス、人とテクノロジー、復元と再創造が交わり、新しいライフスタイルを形作ります。",
+      "東京不動産・J-REIT・日韓マクロ経済レポートを軸に、実務的な意思決定を支援します。",
     sectionFeatured: "おすすめ",
     sectionRecentPosts: "最近の記事",
+    sectionExploreTopics: "トピック別に探す",
+    sectionMoreRecent: "最新記事をもっと見る",
+    topicHubPostsLabel: "主要記事",
     allPosts: "すべての記事",
     topicsPageTitle: "トピックハブ",
     topicsPageDesc:
@@ -252,6 +279,15 @@ const ui = {
     notFoundHeading: "ページが見つかりません",
     notFoundBackHome: "ホームに戻る",
     sharePostLead: "この記事を共有:",
+    authorCardTitle: "著者について",
+    authorCardBody:
+      "Joseph (GSF) は東京・日本橋から、東京不動産、J-REIT、日韓マクロ動向を発信しています。",
+    authorCardAboutCta: "著者プロフィールを見る",
+    authorCardContactCta: "お問い合わせ",
+    postFollowTitle: "更新を受け取る",
+    postFollowBody:
+      "新着レポートはRSSで、日韓マーケットのメモはX/LinkedInでフォローできます。",
+    postFollowRssCta: "RSSを購読",
     copyCodeButton: "コピー",
     copyCodeDone: "コピーしました",
     devSearchWarnTitle: "開発モード",
