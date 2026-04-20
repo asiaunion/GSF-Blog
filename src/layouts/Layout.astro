@@ -240,6 +240,46 @@ const structuredData = overrideJsonLd ?? {
         };
       })();
     </script>
+    <script is:inline>
+      // CTA click instrumentation: works with or without analytics providers.
+      document.addEventListener("click", function (event) {
+        var target = event.target;
+        if (!(target instanceof Element)) return;
+        var anchor = target.closest("a[data-cta]");
+        if (!(anchor instanceof HTMLAnchorElement)) return;
+
+        var payload = {
+          name: anchor.dataset.cta || "unknown",
+          location: anchor.dataset.ctaLocation || "unknown",
+          label: anchor.dataset.ctaName || anchor.textContent?.trim() || "",
+          href: anchor.href,
+          path: window.location.pathname,
+        };
+
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "cta_click", {
+            event_category: "engagement",
+            event_label: payload.label || payload.name,
+            cta_name: payload.name,
+            cta_location: payload.location,
+            destination: payload.href,
+            page_path: payload.path,
+          });
+        }
+
+        if (typeof window.plausible === "function") {
+          window.plausible("CTA Click", {
+            props: {
+              cta_name: payload.name,
+              cta_location: payload.location,
+              destination: payload.href,
+            },
+          });
+        }
+
+        window.dispatchEvent(new CustomEvent("gsf:cta_click", { detail: payload }));
+      });
+    </script>
   </head>
   <body>
     <slot />

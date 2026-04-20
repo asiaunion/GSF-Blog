@@ -173,12 +173,16 @@ const nextPost =
             <a
               href={`${localePrefix}/about/`}
               class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
+              data-cta="author-about"
+              data-cta-location="post-author-card"
             >
               {L.authorCardAboutCta}
             </a>
             <a
               href={`${localePrefix}/contact/`}
               class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
+              data-cta="author-contact"
+              data-cta-location="post-author-card"
             >
               {L.authorCardContactCta}
             </a>
@@ -195,10 +199,12 @@ const nextPost =
           target="_blank"
           href={`${localePrefix}/rss.xml/`}
           class="rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
+          data-cta="rss-subscribe"
+          data-cta-location="post-follow-card"
         >
           {L.postFollowRssCta}
         </a>
-        <Socials />
+        <Socials trackingContext="post-follow" />
       </div>
     </section>
 

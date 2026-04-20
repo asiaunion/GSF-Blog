@@ -52,6 +52,8 @@ const hubOrder: TopicHubKey[] = [
           class="inline-block mt-6 sm:mt-12 bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform"
           aria-label={L.heroRssAria}
           title={L.heroRssTitle}
+          data-cta="rss-subscribe"
+          data-cta-location="home-hero"
         >
           {L.heroSubscribeRss}
         </a>
@@ -70,7 +72,7 @@ const hubOrder: TopicHubKey[] = [
         SOCIALS.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center mb-10">
             <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">{L.socialLinksLabel}</div>
-            <Socials />
+            <Socials trackingContext="home-hero" />
           </div>
         )
       }
