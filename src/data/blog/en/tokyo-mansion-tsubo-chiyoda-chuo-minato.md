@@ -13,38 +13,80 @@ tags:
 sources:
   - "https://www.reins.or.jp/"
   - "https://www.stat.go.jp/english/"
+  - "https://www.mlit.go.jp/en/"
+  - "https://www.fudousankeizai.co.jp/"
 references:
   - "https://www.reins.or.jp/"
   - "https://www.stat.go.jp/english/"
+  - "https://www.mlit.go.jp/en/"
 ---
 
-<p class="post-section-heading">1. Why price per tsubo is not enough</p>
+<p class="post-section-heading">1. Tsubo price is an entry point, not an answer</p>
 
-Even inside the “urban core,” **station access, FAR, building age, and fee structures** change what a headline tsubo price means. Prime new supply can look expensive yet be supported by **liquidity and rent depth**, while older inventory can look cheap yet hide **repair reserves**.
+When buyers compare condominiums across Tokyo's central wards, price per tsubo (approximately 3.3 square meters) is almost always the first metric cited. It is a useful screening tool, but treating it as the decision variable is where many investors—especially cross-border buyers encountering the Japanese market for the first time—go wrong.
 
-<p class="post-section-heading">2. What separates the three wards</p>
+In fiscal 2025 (ending March 2026), the average price of a new condominium in Tokyo's 23 wards reached a record ¥137.84 million, an 18.5 percent year-on-year increase according to the Real Estate Economic Institute. For the six core wards—Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo—the average climbed to approximately ¥195 million, with prime new construction in the top three wards regularly exceeding ¥10–20 million per tsubo depending on location, floor, and building grade.
 
-**Chiyoda** leans administrative and office-dense; **Chuo** anchors eastern retail and finance walkability; **Minato** layers bayfront, diplomatic, and multinational demand. Neighbors and train lines often explain gaps more than square meters.
+But two units showing identical headline tsubo pricing can have materially different net returns once you layer in what actually drives ownership economics:
 
-<p class="post-section-heading">3. Start from REINS and official statistics</p>
+- **Building age and structural quality.** A 2024-built RC tower with seismic isolation and a 40-year long-term repair plan has a fundamentally different depreciation curve than a 1985-vintage SRC mid-rise facing its second major repair cycle. The tsubo price comparison between these assets is misleading without adjusting for remaining economic life and capital expenditure risk.
+- **Management fee and reserve fund burden.** Monthly management fees (管理費) and repair reserve contributions (修繕積立金) vary dramatically by building scale, facilities, and management company quality. A luxury tower with concierge service, swimming pool, and private lounge may carry ¥800–1,200 per square meter monthly in combined fees—a drag that can consume 20–30 percent of gross rental income for a compact unit.
+- **Exit liquidity layers.** Not all tsubo-equivalent properties trade with equal market depth. Buildings with fewer total units, unusual layouts, or commercial-zone restrictions face thinner transaction markets, which means exit timing risk compounds over holding periods.
 
-Use [REINS](https://www.reins.or.jp/)-style case data alongside macro releases from [Statistics Japan](https://www.stat.go.jp/english/). This article is interpretive commentary, not appraisal or tax advice.
+<p class="post-section-heading">2. Why Chiyoda, Chuo, and Minato diverge</p>
 
-<p class="post-section-heading">4. Checklist</p>
+These three wards form Tokyo's urban core, but each carries a distinct demand signature that drives pricing behavior differently under stress:
 
-- Whether management fees, reserves, and common charges are clearly split.
-- How local zoning and disaster rules shaped **FAR and unit counts**.
-- At least two **rate/FX stress** paths for mortgage affordability.
+**Chiyoda Ward** is the administrative and institutional heart of Tokyo. Government ministries, the Imperial Palace grounds, and major corporate headquarters define the demand base. Residential supply is limited by zoning and FAR constraints, creating scarcity premiums that persist through cycles. Properties near Otemachi and Marunouchi stations benefit from office-adjacency premiums—walkability to workplace supports rental demand from corporate tenants and executive housing budgets. However, the residential population is small (approximately 67,000), which means transaction volume is thin and price discovery less efficient than in larger residential markets.
 
-<p class="post-section-heading">5. Closing</p>
+**Chuo Ward** anchors eastern retail-finance walkability, centered on the Nihonbashi-Ginza-Tsukiji axis. The ward benefits from a dual demand engine: commercial footfall from tourism and retail (particularly Ginza), and residential convenience from station density along the JR and Metro networks. Chuo has also seen active redevelopment—the Nihonbashi revitalization and Harumi Flag (2024 Olympic Village conversion) have added significant new supply. This supply injection creates a temporary pricing paradox: new premium stock lifts the ward average, while older inventory faces competitive pressure from the new-build premium. As of late 2025, Chuo maintains its position in the top three wards by price level, though inventory of unsold high-priced units has been growing—a signal that seller expectations may be running ahead of clearing-price levels for non-prime stock.
 
-Comparing three wards is less about “cheaper” and more about **which risks and options you buy**.
+**Minato Ward** consistently ranks as the most expensive ward overall, driven by a unique demand cocktail: embassy-district prestige (Azabu, Roppongi), bayfront redevelopment (Shibaura, Takeshiba), multinational corporate demand, and strong international-school adjacency effects. Minato carries the highest sensitivity to foreign capital flows—when the weak yen attracts Asian and Middle Eastern buyers, Minato properties (especially towers in Azabu-Juban and Mita) see the sharpest price acceleration. The flip side is that a yen appreciation episode, combined with a pullback in foreign demand, can expose Minato's premium as partially currency-driven rather than purely fundamentals-based.
+
+The divergence matters most during **regime shifts**: when rates rise, FX volatility spikes, or foreign demand rotates. Chiyoda's institutional scarcity provides more downside protection. Chuo's retail-density play is more exposed to consumer spending cycles. Minato's foreign-demand sensitivity creates the widest range of outcomes.
+
+<p class="post-section-heading">3. Underwrite with layered costs, not headline yield</p>
+
+A realistic investment sheet must separate purchase price from the full spectrum of recurring friction. I use the following framework for any central-ward unit I evaluate:
+
+| Cost Layer | Typical Range (Central Ward) | Notes |
+|-----------|------------------------------|-------|
+| Acquisition costs | 6–8% of purchase price | Registration tax, stamp duty, agent commission, judicial scrivener |
+| Monthly management fee | ¥15,000–45,000 | Higher for towers with premium amenities |
+| Monthly repair reserve | ¥8,000–25,000 | Rises with building age; review the long-term repair plan |
+| Fixed asset tax + city planning tax | ~1.4% + 0.3% of assessed value | Assessed value typically 50–70% of market value |
+| Vacancy allowance | 5–10% of gross rent | Higher for compact 1R/1K formats with tenant churn |
+| Property management fee | 3–5% of gross rent | If using a management company for leasing/operations |
+| Annual insurance | ¥15,000–40,000 | Fire, earthquake, liability |
+| Disposal costs at exit | 3–5% of sale price | Agent commission, capital gains tax (varies by holding period) |
+
+Surface yield without this layer is marketing math. I have seen properties marketed at "4.5% gross yield" that deliver under 2% net after full cost layering and realistic vacancy assumptions. The gap is worse for small units (under 25 square meters) where fee-to-rent ratios are structurally unfavorable.
+
+<p class="post-section-heading">4. Data discipline: what to reference, what to verify</p>
+
+For price context, [REINS](https://www.reins.or.jp/) transaction data provides the closest approximation to actual deal prices (as opposed to asking prices, which carry 5–15 percent optimism bias in the current market). [Statistics Japan](https://www.stat.go.jp/english/) publishes macro series including the Consumer Price Index, housing starts, and population flow data that inform demand-side assumptions.
+
+[MLIT](https://www.mlit.go.jp/en/) releases land price surveys (公示地価 and 基準地価) twice annually, which anchor the assessed-value layer of the cost framework. Property-level transaction records are available through the MLIT Real Estate Transaction Price Information system, though there is a reporting lag of 3–6 months.
+
+I keep my underwriting assumptions explicit: financing rate assumption (currently I use 1.0–1.5 percent for variable-rate yen mortgages, with a stress test at 2.5 percent), hold period assumption (I default to 7–10 years to capture at least one full rate cycle), and exit cap-rate band (I assume 10–30 basis points of compression in the base case and 50 basis points of expansion in the stress case). Consistency beats precision theater—what matters is that the same framework applies to every property being compared.
+
+One additional data point foreign buyers often miss: **new condominium supply in the Greater Tokyo Area hit its lowest level since 1973** in the most recent fiscal year. This supply constraint is structural—driven by construction labor shortages, material cost inflation, and land acquisition difficulty in central wards—and places a replacement-cost floor under existing inventory pricing. It does not guarantee appreciation, but it does reduce the risk of supply-driven price collapse.
+
+<p class="post-section-heading">5. The real question: which risk bundle are you buying?</p>
+
+Comparing Chiyoda, Chuo, and Minato is not about finding the "cheapest" ward. Each ward represents a distinct bundle of risks and options:
+
+- **Chiyoda** = institutional scarcity + thin liquidity + low volatility. You buy downside protection and pay for it with limited upside optionality and exit-timing sensitivity.
+- **Chuo** = redevelopment optionality + supply risk + retail-cycle exposure. You buy the upside of active transformation and accept the risk that new supply temporarily dilutes returns.
+- **Minato** = foreign-demand leverage + FX sensitivity + widest outcome range. You buy the option on continued cross-border capital flows and accept that currency regime changes can reprice the premium band.
+
+The core question is: can you hold through one adverse cycle—rates up 100 basis points, yen strengthening 15 percent, vacancy doubling on your specific unit type—without being forced to sell at distressed pricing? If the answer requires the base case being correct, the position is too large.
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
-<!-- content-depth-v1 -->
+<!-- content-depth-v2 -->
 
 
 ## Practical decision checklist
