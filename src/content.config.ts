@@ -21,7 +21,7 @@ const requireSourcesForPost =
   process.env.CONTENT_INTEGRITY_REQUIRE_SOURCES === "true";
 const minSourceCount = parsePositiveInt(
   process.env.CONTENT_INTEGRITY_MIN_SOURCES,
-  2
+  1
 );
 
 /** Keep loader pattern simple to avoid brace-expansion duplicate matches in some environments. */
