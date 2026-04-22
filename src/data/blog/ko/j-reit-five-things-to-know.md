@@ -1,7 +1,7 @@
 ---
 title: "일본 리츠(J REITs) 투자 알아야 할 5가지"
 pubDatetime: 2026-03-22T00:00:00Z
-description: "J-REITs 시장 구조와 BOJ 매수 배경, 배당 수익률 3\~4% 실적, 환차익 가능성, 시가총액 상위 종목까지 일본 리츠 투자 전 점검할 다섯 가지 포인트를 정리합니다."
+description: "J-REITs 시장 구조와 BOJ 매수 배경, 배당 수익률 3~4% 실적, 환차익 가능성, 시가총액 상위 종목까지 일본 리츠 투자 전 점검할 다섯 가지 포인트를 정리합니다."
 author: GSF
 lang: ko
 category: investment
@@ -58,7 +58,7 @@ references:
 
 개별 리츠 투자를 하는 방법이 있습니다. 리츠는 증권시장에서 거래되므로 미국 주식과 마찬가지로 일본 리츠 역시 일본 시장에 투자하는 셈입니다. 여기에 사용되는 통화는 일본 시장이므로 당연히 엔화가 됩니다. 안정성을 위해서 시장의 대표적인 개별 리츠들을 투자 대상으로 고려해야겠지요. 만약 해외 주식투자에 익숙하지 않으신 분들이라면 공모펀드를 선택하는 것도 방법입니다. 삼성Japan Property펀드, 삼성J-REITs펀드, 한화JapanREITs펀드 등이 대표적인 펀드들입니다.
 
-그러나 개인적으로는 현재 엔화 환율이 역사적인 저점에 위치해 있으므로 추후 환차익의 관점에서도 개별 리츠 투자를 고려해보실 것을 추천드립니다. 대표적인 리츠들을 소개하자면 아래 리스트와 같습니다. 이들 리츠들은 모두 TSE(도쿄증권거래소) REIT Index를 추종합니다. 아래 자료는 http://www.japan-reit.com 에서 가져왔습니다. 일본어로 되어 있지만 중요한 것은 맨 앞의 숫자 4자리(티커)로 investing.com 등에서 주요한 정보를 영어로 확인할 수 있다는 것입니다. 해당 티커로 주요 정보를 체크하고, 해외주식 매매하는 방식으로 일본 리츠에 투자할 수 있습니다.
+그러나 개인적으로는 현재 엔화 환율이 역사적인 저점에 위치해 있으므로 추후 환차익의 관점에서도 개별 리츠 투자를 고려해보실 것을 추천드립니다. 대표적인 리츠들을 소개하자면 아래 리스트와 같습니다. 이들 리츠들은 모두 TSE(도쿄증권거래소) REIT Index를 추종합니다. 아래 자료는 <http://www.japan-reit.com> 에서 가져왔습니다. 일본어로 되어 있지만 중요한 것은 맨 앞의 숫자 4자리(티커)로 investing.com 등에서 주요한 정보를 영어로 확인할 수 있다는 것입니다. 해당 티커로 주요 정보를 체크하고, 해외주식 매매하는 방식으로 일본 리츠에 투자할 수 있습니다.
 
 <picture>
   <source srcset="/assets/images/legacy/j-reit-market-data-table-768.avif 768w, /assets/images/legacy/j-reit-market-data-table-1280.avif 1280w, /assets/images/legacy/j-reit-market-data-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
