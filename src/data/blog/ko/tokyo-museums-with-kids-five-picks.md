@@ -18,17 +18,25 @@ references:
   - "https://www.bunka.nii.ac.jp/heritage"
 ---
 
-<p class="post-section-heading">1. 선정 기준</p>
-학술 완성도보다 **이동·휴식·식사 접근**이 목록을 지배합니다.
+<p class="post-section-heading">1. 가족 뮤지엄 선택의 핵심은 운영 품질</p>
 
-<p class="post-section-heading">2. 다섯 가지 유형</p>
-과학·미술·역사·산업·디지털 체험형을 한 곳씩 섞어 **주말 반나절** 단위로 계획하기 쉽게 했습니다.
+아이 동반 관람에서는 명성보다 체력 관리가 중요합니다. 대기열, 휴식 포인트, 식사 접근성, 유모차 동선, 전시 간 이동 난도가 만족도를 좌우합니다.
 
-<p class="post-section-heading">3. 참고</p>
-관광 개요는 [JNTO](https://www.jnto.go.jp/eng/), 문화 유산 맥락은 [文化遺産オンライン](https://www.bunka.nii.ac.jp/heritage)이 도움이 됩니다.
+<p class="post-section-heading">2. 유형을 섞어야 재방문 피로가 줄어든다</p>
 
-<p class="post-section-heading">4. 맺으며</p>
-영업 정보는 변동됩니다. 방문 전에 각관 사이트를 확인하십시오.
+과학·미술·역사·디지털 체험을 월 단위로 섞으면 호기심 유지가 쉽고, 특정 유형 피로 누적을 줄일 수 있습니다. 한 가지 유형만 반복하면 금방 소진됩니다.
+
+<p class="post-section-heading">3. 운영시간보다 에너지 사이클을 먼저 본다</p>
+
+같은 장소도 도착 슬롯에 따라 체감이 크게 다릅니다. 오픈 직후는 대기 스트레스가 낮고, 점심 이후는 속도 조절이 쉬운 경우가 많습니다.
+
+<p class="post-section-heading">4. 정보 수집은 2단계로</p>
+
+[JNTO](https://www.jnto.go.jp/eng/)와 [문화유산 레퍼런스](https://www.bunka.nii.ac.jp/heritage)로 후보를 고른 뒤, 출발 직전에 각 기관 공식 사이트에서 예약·휴관·동선 제한을 재확인하세요.
+
+<p class="post-section-heading">5. 실행 메모</p>
+
+방문 후 피로도·몰입도·이동난이도 3점만 기록해도 3\~4회 뒤에는 외부 랭킹보다 가족 맞춤 의사결정 데이터가 쌓입니다.
 
 <div class="post-disclaimer">
 <p class="post-disclaimer__title">면책 문구</p>
