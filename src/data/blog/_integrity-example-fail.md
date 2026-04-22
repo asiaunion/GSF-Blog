@@ -9,6 +9,7 @@ tags:
 draft: true
 sources:
   - "https://www.molit.go.kr/"
+  - "https://www.yna.co.kr/"
 references:
   - "https://www.yna.co.kr/"
 ---

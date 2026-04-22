@@ -14,6 +14,7 @@ tags:
 sources:
   - "https://www.juutakuseisaku.metro.tokyo.lg.jp/"
   - "https://www.mlit.go.jp/"
+  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
 references:
   - "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
 ---
