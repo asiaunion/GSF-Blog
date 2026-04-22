@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## v5.6.0 (2026-04-22)
+
+### Feat
+
+- **content**: major overhaul of 42 blog posts across KO/EN/JA locales
+- **checklists**: replaced repetitive generic checklists with topic-specific high-value 'Action' sections
+- **i18n**: synchronized investor/walking/family action items across all supported languages
+
+### Fix
+
+- **content**: removed duplicate and misplaced action sections across multiple posts
+- **formatting**: resolved markdown rendering issues in numeric ranges
+
 ## v5.5.1 (2026-01-08)
 
 ### Fix

@@ -45,3 +45,9 @@ Through this relocation, it is my earnest desire that this space becomes the **'
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+
+## Walking Action: Session Summary & Check
+
+- [ ] **History**: Visit the former site of Echigoya (now Mitsukoshi) to feel the energy where Japanese retail and capitalism were born.
+- [ ] **Symbol**: Reflect on the meaning of prosperity and protection embodied by the winged lions (Kirin) of Nihonbashi Bridge.
+- [ ] **Change**: Experience the unique atmosphere where department store tradition meets the financial innovation of Kabutocho.

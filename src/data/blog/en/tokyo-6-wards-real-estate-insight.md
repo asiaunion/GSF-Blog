@@ -27,7 +27,7 @@ Specifically, the "Core 6 Wards" (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and 
 
 Throughout the past two years (2023–2024), the defining keywords piercing through Tokyo's core mansion (condominium) market have undeniably been **'extreme supply shortage'** and **'all-time highs'**.
 
-The data is chillingly clear. According to the latest 2024 metrics from real estate research institutions like Tokyo Kantei, the average price for a standard 70㎡ (approx. 750 sq ft) mansion in the Core 6 Wards has surpassed **140 million JPY (over 1.3 billion KRW / \~900k USD)**. In just one year, it recorded a staggering **surge of nearly 30% YoY**, leaving the limits of ordinary labor income far behind in the dust.
+The data is chillingly clear. According to the latest 2024 metrics from real estate research institutions like Tokyo Kantei, the average price for a standard 70㎡ (approx. 750 sq ft) mansion in the Core 6 Wards has surpassed **140 million JPY (over 1.3 billion KRW / ~900k USD)**. In just one year, it recorded a staggering **surge of nearly 30% YoY**, leaving the limits of ordinary labor income far behind in the dust.
 
 **In fact, having recently moved to Nihonbashi (Chuo Ward), I feel this rapidly rising real estate inflation firsthand every single day. I was genuinely shocked to see a flyer at a local brokerage showing that even an older, non-newly built apartment near my home was selling for well over 300 million JPY. And I am not talking about a massive luxury complex, but a rather ordinary standalone multi-family building.**
 
@@ -84,3 +84,9 @@ In truth, due to fatigue from the explosive surge in late 2024, we saw prices in
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+
+## Investor Action: Session Summary & Check
+
+- [ ] **Gap**: Analyze the tsubo-price gap trend between the Core 3 wards (Chiyoda, Minato, Chuo) and the secondary 3 (Shinjuku, Shibuya, Bunkyo).
+- [ ] **Redevelopment**: Verify future supply schedules in areas where major private redevelopment drives land prices, like Shibuya or Toranomon.
+- [ ] **Preference**: Check market liquidity in Bunkyo or Setagaya wards where end-user demand is strong.

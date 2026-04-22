@@ -61,3 +61,9 @@ For detailed instructions on where to purchase it and how to use it, please refe
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+
+## Walking Action: Session Summary & Check
+
+- [ ] **Optimization**: Compare the cost-effectiveness of Tokyo Metro Passes vs. JR Passes based on your itinerary (City focus vs. Outskirts).
+- [ ] **Booking**: Complete advance reservations for popular trains like the 'Fuji Excursion' at least one week before weekend travel.
+- [ ] **Digital**: Register Suica or PASMO on your mobile device to skip the ticket machine and speed up transfers.

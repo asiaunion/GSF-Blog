@@ -108,13 +108,11 @@ Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate an
 </div>
 <!-- content-depth-v2 -->
 
+## Investor Action: Session Summary & Check
 
-## Practical decision checklist
-
-- Re-check the latest monthly releases from official sources before acting; numeric snapshots in this post can age quickly.
-- Write your own base / upside / downside assumptions on one sheet (rate, FX, vacancy, holding period).
-- Define a maximum-loss rule first, then size the position after risk is visible.
-- Compare this idea with at least one alternative allocation so opportunity cost is explicit.
+- [ ] **Duration**: Check the debt maturity structure (duration) of the REIT to predict the jump in financing costs when rates rise.
+- [ ] **Spread**: Verify if the spread between 10Y JGB yields and REIT dividend yields maintains its historical average (~2-3%).
+- [ ] **Selection**: Consolidate into high-quality office/hotel REITs that can offset rising borrowing costs with rent hikes.
 
 ## Further reading in this series
 

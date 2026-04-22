@@ -93,13 +93,11 @@ The execution discipline I follow: define maximum acceptable drawdown per sector
 </div>
 <!-- content-depth-v2 -->
 
+## Investor Action: Session Summary & Check
 
-## Practical decision checklist
-
-- Re-check the latest monthly releases from official sources before acting; numeric snapshots in this post can age quickly.
-- Write your own base / upside / downside assumptions on one sheet (rate, FX, vacancy, holding period).
-- Define a maximum-loss rule first, then size the position after risk is visible.
-- Compare this idea with at least one alternative allocation so opportunity cost is explicit.
+- [ ] **Hotels**: Verify if RevPAR growth is driven by ADR (rate) or Occupancy through [JNTO](https://www.jnto.go.jp/) data.
+- [ ] **Offices**: Audit your asset's tenant mix and assess whether the renewal exposure over the next 24 months is a risk or an opportunity.
+- [ ] **Allocation**: Rebalance your portfolio to ensure stable Office cash flows offset potential Hotel revenue dips in a strong Yen scenario.
 
 ## Further reading in this series
 

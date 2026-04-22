@@ -103,13 +103,11 @@ Use [BOJ](https://www.boj.or.jp/en/statistics/index.htm/) for rate and monetary 
 </div>
 <!-- content-depth-v2 -->
 
+## Investor Action: Session Summary & Check
 
-## Practical decision checklist
-
-- Re-check the latest monthly releases from official sources before acting; numeric snapshots in this post can age quickly.
-- Write your own base / upside / downside assumptions on one sheet (rate, FX, vacancy, holding period).
-- Define a maximum-loss rule first, then size the position after risk is visible.
-- Compare this idea with at least one alternative allocation so opportunity cost is explicit.
+- [ ] **FX Rate**: Check your average purchase price and the KRW-denominated asset value to prepare for prolonged Yen weakness.
+- [ ] **Allocation**: Manage liquidity risk by balancing real estate (physical) and REITs (financial) within your JPY holdings.
+- [ ] **Exit**: Simulate the timing of remittances and exit strategies to lock in profits during a sharp Yen rebound.
 
 ## Further reading in this series
 

@@ -85,3 +85,9 @@ I have introduced 5 trendy areas in Tokyo, Japan. It might also be meaningful to
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+
+## Walking Action: Session Summary & Check
+
+- [ ] **Vibe**: Observe the lifestyle trajectory of Tokyo's high-end consumers at Azabudai Hills or Daikanyama T-SITE.
+- [ ] **Business**: Analyze how sophisticated spatial planning creates positive 'externalities' for surrounding rents and land prices.
+- [ ] **Inspiration**: Beyond commercial utility, check the landscaping and architectural details that create 'sticky' spaces where people want to linger.

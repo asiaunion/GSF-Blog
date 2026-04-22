@@ -101,13 +101,11 @@ Small-unit investing in Tokyo can be a sensible component of a diversified portf
 </div>
 <!-- content-depth-v2 -->
 
+## Investor Action: Session Summary & Check
 
-## Practical decision checklist
-
-- Re-check the latest monthly releases from official sources before acting; numeric snapshots in this post can age quickly.
-- Write your own base / upside / downside assumptions on one sheet (rate, FX, vacancy, holding period).
-- Define a maximum-loss rule first, then size the position after risk is visible.
-- Compare this idea with at least one alternative allocation so opportunity cost is explicit.
+- [ ] **Breakeven**: Calculate the point where 'net profit' (including annual maintenance and taxes) is outweighed by asset appreciation.
+- [ ] **Taxation**: Simulate the optimal exit timing by comparing long-term hold tax benefits vs. short-term capital gains penalties.
+- [ ] **Alternatives**: Compare after-tax effective yields between direct small-mansion investment and J-REITs to suit your capital scale.
 
 ## Further reading in this series
 

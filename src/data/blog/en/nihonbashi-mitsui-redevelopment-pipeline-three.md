@@ -99,13 +99,11 @@ The beauty of this theme is its durability—Nihonbashi has been Japan's commerc
 </div>
 <!-- content-depth-v2 -->
 
+## Investor Action: Session Summary & Check
 
-## Practical decision checklist
-
-- Re-check the latest monthly releases from official sources before acting; numeric snapshots in this post can age quickly.
-- Write your own base / upside / downside assumptions on one sheet (rate, FX, vacancy, holding period).
-- Define a maximum-loss rule first, then size the position after risk is visible.
-- Compare this idea with at least one alternative allocation so opportunity cost is explicit.
+- [ ] **Pipeline**: Monitor the tenant status and rental spillover effects of the 'Nihonbashi 1-Chome Central' project due for completion in 2026.
+- [ ] **Synergy**: Analyze the potential asset value appreciation in the 'Tokyo Finance Belt' connecting Kabutocho and Nihonbashi.
+- [ ] **Holding**: If you own small mansions or REITs near Nihonbashi, review your long-term holding strategy until the 2030 completion of the underground expressway.
 
 ## Further reading in this series
 

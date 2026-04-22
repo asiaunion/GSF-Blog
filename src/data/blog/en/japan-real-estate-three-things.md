@@ -100,3 +100,9 @@ After purchasing, Japan's highly developed professional maintenance and meticulo
 <p class="post-disclaimer__title">Disclaimer</p>
 <p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
 </div>
+
+## Investor Action: Session Summary & Check
+
+- [ ] **Site**: Visit the property at least twice at different times to check 'management state' and 'neighbor quality' beyond the data.
+- [ ] **Interest**: Compare variable vs. fixed rate spreads and simulate interest rate hike scenarios over the next 10 years.
+- [ ] **Partner**: Remember that the response speed and reporting quality of your local Property Manager (PM) are key to protecting your yield.
