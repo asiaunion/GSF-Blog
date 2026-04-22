@@ -12,8 +12,10 @@ tags:
   - CrossBorderBusiness
 sources:
   - "https://www.gsfark.com/"
+  - "https://www.nikkei.com/news/category/economy/"
 references:
   - "https://www.gsfark.com/"
+  - "https://www.nikkei.com/news/category/economy/"
 ---
 
 Talking about 'warmth' at the heart of capitalism can sometimes seem naive or inefficient. There is no room for emotion in the cells of an Excel sheet, as yields and exchange rates are driven solely by cold logic.

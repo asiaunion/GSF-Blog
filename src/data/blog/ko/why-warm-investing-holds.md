@@ -12,8 +12,10 @@ tags:
   - 한일비즈니스
 sources:
   - "https://www.gsfark.com/"
+  - "https://www.nikkei.com/news/category/economy/"
 references:
   - "https://www.gsfark.com/"
+  - "https://www.nikkei.com/news/category/economy/"
 ---
 
 자본주의의 심장부에서 '따뜻함'을 이야기하는 것은 때로 순진하거나 비효율적으로 보일 수 있습니다. 엑셀 시트의 셀 안에는 감정이 들어갈 자리가 없으며, 수익률(Yield)과 환율은 차가운 논리에 의해서만 움직이기 때문입니다.

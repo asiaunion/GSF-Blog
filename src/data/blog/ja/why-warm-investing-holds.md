@@ -12,8 +12,10 @@ tags:
   - クロスボーダービジネス
 sources:
   - "https://www.gsfark.com/"
+  - "https://www.nikkei.com/news/category/economy/"
 references:
   - "https://www.gsfark.com/"
+  - "https://www.nikkei.com/news/category/economy/"
 ---
 
 資本主義の中心で「温かさ」を語ることは、時に世間知らずで非効率に見えるかもしれません。エクセルシートのセルの中には感情が入る余地はなく、利回りや為替は冷徹なロジックによってのみ動くからです。
