@@ -54,7 +54,7 @@ A realistic investment sheet must separate purchase price from the full spectrum
 | Acquisition costs | 6–8% of purchase price | Registration tax, stamp duty, agent commission, judicial scrivener |
 | Monthly management fee | ¥15,000–45,000 | Higher for towers with premium amenities |
 | Monthly repair reserve | ¥8,000–25,000 | Rises with building age; review the long-term repair plan |
-| Fixed asset tax + city planning tax | ~1.4% + 0.3% of assessed value | Assessed value typically 50–70% of market value |
+| Fixed asset tax + city planning tax | \~1.4% + 0.3% of assessed value | Assessed value typically 50–70% of market value |
 | Vacancy allowance | 5–10% of gross rent | Higher for compact 1R/1K formats with tenant churn |
 | Property management fee | 3–5% of gross rent | If using a management company for leasing/operations |
 | Annual insurance | ¥15,000–40,000 | Fire, earthquake, liability |
@@ -66,7 +66,7 @@ Surface yield without this layer is marketing math. I have seen properties marke
 
 For price context, [REINS](https://www.reins.or.jp/) transaction data provides the closest approximation to actual deal prices (as opposed to asking prices, which carry 5–15 percent optimism bias in the current market). [Statistics Japan](https://www.stat.go.jp/english/) publishes macro series including the Consumer Price Index, housing starts, and population flow data that inform demand-side assumptions.
 
-[MLIT](https://www.mlit.go.jp/en/) releases land price surveys (公示地価 and 基準地価) twice annually, which anchor the assessed-value layer of the cost framework. Property-level transaction records are available through the MLIT Real Estate Transaction Price Information system, though there is a reporting lag of 3–6 months.
+[MLIT](https://www.mlit.go.jp/en/) releases land price surveys (公示지価 and 基準地価) twice annually, which anchor the assessed-value layer of the cost framework. Property-level transaction records are available through the MLIT Real Estate Transaction Price Information system, though there is a reporting lag of 3–6 months.
 
 I keep my underwriting assumptions explicit: financing rate assumption (currently I use 1.0–1.5 percent for variable-rate yen mortgages, with a stress test at 2.5 percent), hold period assumption (I default to 7–10 years to capture at least one full rate cycle), and exit cap-rate band (I assume 10–30 basis points of compression in the base case and 50 basis points of expansion in the stress case). Consistency beats precision theater—what matters is that the same framework applies to every property being compared.
 
