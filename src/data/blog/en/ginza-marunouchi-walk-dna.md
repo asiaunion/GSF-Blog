@@ -39,7 +39,7 @@ Ginza demonstrates the power of 'classic' over 'trendy.'
 Stretching west of Tokyo Station, Marunouchi is the command center of the Japanese economy.
 
 *   **Historic Red Brick meets Modern Towers**: The classical exterior of Tokyo Station surrounded by sleek office towers visualizes the unique Japanese philosophy of 'innovation through tradition.'
-*   **The Tokyo Torch Project**: The ongoing construction of the ~390m 'Torch Tower' (aiming for 2028 completion) showcases how the Marunouchi-Otemachi district is evolving beyond a simple office zone into a global pinnacle for business and tourism.
+*   **The Tokyo Torch Project**: The ongoing construction of the \~390m 'Torch Tower' (aiming for 2028 completion) showcases how the Marunouchi-Otemachi district is evolving beyond a simple office zone into a global pinnacle for business and tourism.
 
 ---
 

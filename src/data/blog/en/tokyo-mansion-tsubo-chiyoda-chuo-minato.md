@@ -54,7 +54,7 @@ A realistic investment sheet must separate purchase price from the full spectrum
 | Acquisition costs | 6–8% of purchase price | Registration tax, stamp duty, agent commission, judicial scrivener |
 | Monthly management fee | ¥15,000–45,000 | Higher for towers with premium amenities |
 | Monthly repair reserve | ¥8,000–25,000 | Rises with building age; review the long-term repair plan |
-| Fixed asset tax + city planning tax | ~1.4% + 0.3% of assessed value | Assessed value typically 50–70% of market value |
+| Fixed asset tax + city planning tax | \~1.4% + 0.3% of assessed value | Assessed value typically 50–70% of market value |
 | Vacancy allowance | 5–10% of gross rent | Higher for compact 1R/1K formats with tenant churn |
 | Property management fee | 3–5% of gross rent | If using a management company for leasing/operations |
 | Annual insurance | ¥15,000–40,000 | Fire, earthquake, liability |

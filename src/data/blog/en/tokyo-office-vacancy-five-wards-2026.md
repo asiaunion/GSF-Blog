@@ -34,7 +34,7 @@ However, I view this number as a "warning" rather than a "celebration." Vacancy 
 
 <svg viewBox="0 0 760 280" role="img" aria-label="Tokyo 5 Wards Office Vacancy Trend Chart (2023-2026)" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji)</text>
-  <text x="24" y="57" font-size="12" fill="#6b7280">Unit: % (Jan 2023 ~ Mar 2026)</text>
+  <text x="24" y="57" font-size="12" fill="#6b7280">Unit: % (Jan 2023 \~ Mar 2026)</text>
   
   <!-- Grid Lines -->
   <line x1="60" y1="220" x2="720" y2="220" stroke="#e5e7eb" stroke-width="1" />

@@ -34,7 +34,7 @@ Japan determines your tax liability based on your residency status.
 
 ---
 
-<p class="post-section-heading">2. South Korea's Tax Reform (2025~2028)</p>
+<p class="post-section-heading">2. South Korea's Tax Reform (2025\~2028)</p>
 
 South Korea is currently undergoing a massive shift in its inheritance tax philosophy.
 

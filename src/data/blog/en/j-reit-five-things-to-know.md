@@ -109,7 +109,7 @@ _Method note: each bar is the arithmetic sum of the scenario inputs shown above.
 
 According to research conducted by the Nissei Basic Research Institute, as of late August 2021, the REIT return rate over the past 20 years was 416% (annualized at about 8.6%), which is quite respectable. During the same period, the Japanese stock market, represented by TOPIX, rose by only 166%. This is data proving that the true potential of REITs simply cannot be ignored. Over the past 5 years, the return is 43%. While it is lower than TOPIX over the shorter term, considering the robust stability of dividends, its attractiveness has certainly not diminished.
 
-Those investing in J-REITs can factor in factors like stable dividends of around 3~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
+Those investing in J-REITs can factor in factors like stable dividends of around 3\~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
 
 <picture>
   <source srcset="/assets/images/legacy/j-reit-dividend-yield-trend-768.avif 768w, /assets/images/legacy/j-reit-dividend-yield-trend-1280.avif 1280w, /assets/images/legacy/j-reit-dividend-yield-trend.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />

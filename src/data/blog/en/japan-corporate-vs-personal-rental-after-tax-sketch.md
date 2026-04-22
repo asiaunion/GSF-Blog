@@ -56,7 +56,7 @@ Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more s
   <!-- Personal Side -->
   <rect x="60" y="70" width="300" height="160" fill="#fef2f2" stroke="#f87171" stroke-width="1" rx="8" />
   <text x="145" y="95" font-size="14" font-weight="700" fill="#991b1b">Personal (Individual)</text>
-  <text x="80" y="130" font-size="12" fill="#b91c1c">● Rate: 5% ~ 55% (Progressive)</text>
+  <text x="80" y="130" font-size="12" fill="#b91c1c">● Rate: 5% \~ 55% (Progressive)</text>
   <text x="80" y="155" font-size="12" fill="#b91c1c">● Exit: 39% (<5yr) / 20% (>5yr)</text>
   <text x="80" y="180" font-size="12" fill="#b91c1c">● Simple Setup, No Corp Maint.</text>
   <text x="80" y="205" font-size="12" fill="#b91c1c" font-weight="700">Best for: Single small unit / Long-term hold</text>
@@ -64,7 +64,7 @@ Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more s
   <!-- Corporate Side -->
   <rect x="400" y="70" width="300" height="160" fill="#eff6ff" stroke="#60a5fa" stroke-width="1" rx="8" />
   <text x="480" y="95" font-size="14" font-weight="700" fill="#1e40af">Corporate (GK / KK)</text>
-  <text x="420" y="130" font-size="12" fill="#1d4ed8">● Rate: ~30% (Stable/Flat-ish)</text>
+  <text x="420" y="130" font-size="12" fill="#1d4ed8">● Rate: \~30% (Stable/Flat-ish)</text>
   <text x="420" y="155" font-size="12" fill="#1d4ed8">● Exit: Ordinary Corporate Income</text>
   <text x="420" y="180" font-size="12" fill="#1d4ed8">● 10-yr Loss Carryforward</text>
   <text x="420" y="205" font-size="12" fill="#1d4ed8" font-weight="700">Best for: Multi-units / Short-term flips</text>

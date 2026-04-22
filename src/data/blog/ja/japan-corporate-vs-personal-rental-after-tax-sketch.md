@@ -56,7 +56,7 @@ references:
   <!-- Personal Side -->
   <rect x="60" y="70" width="300" height="160" fill="#fef2f2" stroke="#f87171" stroke-width="1" rx="8" />
   <text x="145" y="95" font-size="14" font-weight="700" fill="#991b1b">個人所有</text>
-  <text x="80" y="130" font-size="12" fill="#b91c1c">● 税率: 5% ~ 55% (累進)</text>
+  <text x="80" y="130" font-size="12" fill="#b91c1c">● 税率: 5% \~ 55% (累進)</text>
   <text x="80" y="155" font-size="12" fill="#b91c1c">● 売却: 5年以下39% / 5年超20%</text>
   <text x="80" y="180" font-size="12" fill="#b91c1c">● 設立コスト低、維持費低</text>
   <text x="80" y="205" font-size="12" fill="#b91c1c" font-weight="700">推奨: 1戸所有 / 長期保有</text>

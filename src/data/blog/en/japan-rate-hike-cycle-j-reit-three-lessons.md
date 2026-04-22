@@ -111,7 +111,7 @@ Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate an
 ## Investor Action: Session Summary & Check
 
 - [ ] **Duration**: Check the debt maturity structure (duration) of the REIT to predict the jump in financing costs when rates rise.
-- [ ] **Spread**: Verify if the spread between 10Y JGB yields and REIT dividend yields maintains its historical average (~2-3%).
+- [ ] **Spread**: Verify if the spread between 10Y JGB yields and REIT dividend yields maintains its historical average (\~2-3%).
 - [ ] **Selection**: Consolidate into high-quality office/hotel REITs that can offset rising borrowing costs with rent hikes.
 
 ## Further reading in this series
