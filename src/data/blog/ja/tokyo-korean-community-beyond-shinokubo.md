@@ -4,7 +4,7 @@ description: "東京の韓国人コミュニティは、今や新大久保とい
 pubDatetime: 2026-04-23T08:00:00Z
 author: GSF
 lang: ja
-category: living
+category: life
 tags:
   - 東京生活
   - 韓国人コミュニティ

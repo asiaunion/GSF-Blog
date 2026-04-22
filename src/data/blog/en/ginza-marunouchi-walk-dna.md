@@ -4,7 +4,7 @@ description: "From Ginza, boasting the highest land prices in Japan, to Marunouc
 pubDatetime: 2026-04-24T02:00:00Z
 author: GSF
 lang: en
-category: travel
+category: local
 tags:
   - TokyoTravel
   - Ginza

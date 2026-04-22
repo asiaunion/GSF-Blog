@@ -4,7 +4,7 @@ description: "도쿄는 아이들에게 거대한 실험실이자 놀이터입�
 pubDatetime: 2026-04-24T08:00:00Z
 author: GSF
 lang: ko
-category: travel
+category: local
 tags:
   - 도쿄여행
   - 아이와도쿄

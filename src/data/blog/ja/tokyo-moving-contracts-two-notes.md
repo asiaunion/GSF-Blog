@@ -4,7 +4,7 @@ description: "日本の賃貸借契約は、海外の習慣とは大きく異な
 pubDatetime: 2026-04-23T02:00:00Z
 author: GSF
 lang: ja
-category: living
+category: life
 tags:
   - 東京生活
   - 賃貸借契約

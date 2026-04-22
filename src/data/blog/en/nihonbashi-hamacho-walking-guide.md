@@ -4,7 +4,7 @@ description: "From the starting point of Japan’s highways at Nihonbashi to the
 pubDatetime: 2026-04-24T06:00:00Z
 author: GSF
 lang: en
-category: travel
+category: local
 tags:
   - TokyoTravel
   - Nihonbashi

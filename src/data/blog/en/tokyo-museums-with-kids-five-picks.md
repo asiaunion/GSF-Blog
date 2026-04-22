@@ -4,7 +4,7 @@ description: "Tokyo is a massive laboratory and playground for children. From cu
 pubDatetime: 2026-04-24T08:00:00Z
 author: GSF
 lang: en
-category: travel
+category: local
 tags:
   - TokyoTravel
   - TokyoWithKids

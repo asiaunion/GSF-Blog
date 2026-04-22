@@ -4,7 +4,7 @@ description: "Rental contracts in Japan are very different from those in many ot
 pubDatetime: 2026-04-23T02:00:00Z
 author: GSF
 lang: en
-category: living
+category: life
 tags:
   - LivingInTokyo
   - JapanRentalContracts

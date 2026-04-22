@@ -4,7 +4,7 @@ description: "日本最高地点の地価を誇る銀座と、日本の金融・
 pubDatetime: 2026-04-24T02:00:00Z
 author: GSF
 lang: ja
-category: travel
+category: local
 tags:
   - 東京旅行
   - 銀座

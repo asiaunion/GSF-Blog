@@ -4,7 +4,7 @@ description: "東京は子供たちにとって巨大な実験室であり、遊
 pubDatetime: 2026-04-24T08:00:00Z
 author: GSF
 lang: ja
-category: travel
+category: local
 tags:
   - 東京旅行
   - 子連れ東京

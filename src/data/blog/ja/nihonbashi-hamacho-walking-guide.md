@@ -4,7 +4,7 @@ description: "日本道路の起点・日本橋から「職人の街」浜町ま
 pubDatetime: 2026-04-24T06:00:00Z
 author: GSF
 lang: ja
-category: travel
+category: local
 tags:
   - 東京旅行
   - 日本橋

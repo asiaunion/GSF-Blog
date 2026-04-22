@@ -4,7 +4,7 @@ description: "Tokyo’s Korean community has expanded beyond the geographical bo
 pubDatetime: 2026-04-23T08:00:00Z
 author: GSF
 lang: en
-category: living
+category: life
 tags:
   - LivingInTokyo
   - KoreanCommunity

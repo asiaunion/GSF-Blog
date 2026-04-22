@@ -4,7 +4,7 @@ description: "From the 80-year history of the Tsukiji Outer Market to the modern
 pubDatetime: 2026-04-23T06:00:00Z
 author: GSF
 lang: en
-category: travel
+category: local
 tags:
   - TokyoTravel
   - TsukijiMarket

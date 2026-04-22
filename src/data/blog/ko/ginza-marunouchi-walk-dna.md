@@ -4,7 +4,7 @@ description: "일본에서 가장 비싼 땅값을 자랑하는 긴자와 일본
 pubDatetime: 2026-04-24T02:00:00Z
 author: GSF
 lang: ko
-category: travel
+category: local
 tags:
   - 도쿄여행
   - 긴자
