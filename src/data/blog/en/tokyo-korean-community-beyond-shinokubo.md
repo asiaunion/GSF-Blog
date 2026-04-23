@@ -90,12 +90,6 @@ As investors, we must pay attention to how these community shifts impact real es
 - [ ] **Lifestyle**: Beyond just residing, check the accessibility of Minato-ku, where professional infrastructure (tax, legal, medical) run by Koreans is well-established.
 - [ ] **Trend**: Experience firsthand how Shin-Okubo's K-culture and Minato-ku's K-business create synergy.
 
-## Community Insight: Session Summary & Check
-
-- [ ] **Business**: Participate in Korean tech networking events near Toranomon or Azabudai Hills.
-- [ ] **Lifestyle**: Beyond just residing, check the accessibility of Minato-ku, where professional infrastructure (tax, legal, medical) run by Koreans is well-established.
-- [ ] **Trend**: Experience firsthand how Shin-Okubo's K-culture and Minato-ku's K-business create synergy.
-
 ## Recommended Series
 
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/en/posts/tokyo-moving-contracts-two-notes/)
