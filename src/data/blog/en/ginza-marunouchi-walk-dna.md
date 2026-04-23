@@ -25,7 +25,7 @@ As of early 2026, from the Yamano Music site in Ginza—which has held the title
 
 ---
 
-<p class="post-section-heading">1. Ginza: Immutable Value, the Pinnacle of Luxury</p>
+## 1. Ginza: Immutable Value, the Pinnacle of Luxury
 
 Ginza demonstrates the power of 'classic' over 'trendy.'
 
@@ -34,7 +34,7 @@ Ginza demonstrates the power of 'classic' over 'trendy.'
 
 ---
 
-<p class="post-section-heading">2. Marunouchi & Otemachi: The Skyline Building Japan's Future</p>
+## 2. Marunouchi & Otemachi: The Skyline Building Japan's Future
 
 Stretching west of Tokyo Station, Marunouchi is the command center of the Japanese economy.
 
@@ -43,7 +43,7 @@ Stretching west of Tokyo Station, Marunouchi is the command center of the Japane
 
 ---
 
-<p class="post-section-heading">3. The DNA Walking Route: A 1.5km Asset Exploration</p>
+## 3. The DNA Walking Route: A 1.5km Asset Exploration
 
 <svg viewBox="0 0 760 220" role="img" aria-label="Ginza-Marunouchi Walking Route Guide" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Ginza -> Marunouchi -> Otemachi Walking Guide (2026)</text>
@@ -78,7 +78,7 @@ Stretching west of Tokyo Station, Marunouchi is the command center of the Japane
 
 ---
 
-<p class="post-section-heading">4. Conclusion: "Walking Becomes Investment Insight"</p>
+## 4. Conclusion: "Walking Becomes Investment Insight"
 
 Passing through Ginza’s Chuo-dori and walking along the tree-lined Marunouchi Naka-dori, you can personally feel why Tokyo is evaluated as one of the world's premier safe-haven asset locations. In 2026, this path is not just a beautiful scenery but a profound demonstration of the Japanese economy's resilience and confidence in the future.
 

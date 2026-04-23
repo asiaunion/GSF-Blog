@@ -34,7 +34,7 @@ When people trace back through all mechanisms and history to grasp the truth, th
 
 Through this relocation, it is my earnest desire that this space becomes the **'True Center of Japan'** for me, and for the countless initiatives we will create. From here in Nihonbashi, the origin of all things, please look forward to the new beginnings we will chart moving forward.
 
-<p class="post-section-heading">Further reading from Nihonbashi</p>
+## Further reading from Nihonbashi
 
 - [Nihonbashi Hamacho Walking Guide](/posts/nihonbashi-hamacho-walking-guide/)
 - [Nihonbashi Redevelopment Roadmap: Three Axes to Read Mitsui-Led Follow-On Projects](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)

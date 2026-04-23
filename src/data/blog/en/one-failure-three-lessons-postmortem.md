@@ -24,7 +24,7 @@ Today, we examine a case study of a failed investment to highlight three critica
 
 ---
 
-<p class="post-section-heading">1. The Betrayal of Subleasing: Who is the 'Guaranteed Return' Really For?</p>
+## 1. The Betrayal of Subleasing: Who is the 'Guaranteed Return' Really For?
 
 Novice investors are often drawn to the phrase 'Guaranteed Rent.' Japanese management companies offer 'sublease' contracts where they take on the vacancy risk in exchange for a margin of the profit.
 
@@ -33,7 +33,7 @@ Novice investors are often drawn to the phrase 'Guaranteed Rent.' Japanese manag
 
 ---
 
-<p class="post-section-heading">2. The Ambush of Hidden Costs: The Tip of the Iceberg</p>
+## 2. The Ambush of Hidden Costs: The Tip of the Iceberg
 
 Investment yield is not simply a calculation of the purchase price and the monthly rent.
 
@@ -61,7 +61,7 @@ Investment yield is not simply a calculation of the purchase price and the month
 
 ---
 
-<p class="post-section-heading">3. The Blade of Tax Audits: Borders Are Not a Shield</p>
+## 3. The Blade of Tax Audits: Borders Are Not a Shield
 
 Thinking "the Japanese tax office won't know about my overseas assets" is a dangerous arrogance.
 
@@ -70,7 +70,7 @@ Thinking "the Japanese tax office won't know about my overseas assets" is a dang
 
 ---
 
-<p class="post-section-heading">4. Conclusion: Learn Not to Lose First</p>
+## 4. Conclusion: Learn Not to Lose First
 
 In the world of investment, 'not losing' is more important than 'how much you make.' The Japanese market is stable, but its rules are strict and conservative.
 

@@ -24,7 +24,7 @@ references:
 
 ---
 
-<p class="post-section-heading">1. 「経営管理」ビザ：2025/2026年の現代化</p>
+## 1. 「経営管理」ビザ：2025/2026年の現代化
 
 不動産管理会社の設立やスタートアップの立ち上げを目指す方に最も一般的なルートです。
 
@@ -34,7 +34,7 @@ references:
 
 ---
 
-<p class="post-section-heading">2. 高度専門職 (HSP) と最短1年の永住権ルート</p>
+## 2. 高度専門職 (HSP) と最短1年の永住権ルート
 
 日本の「ポイント制」は、世界でも有数のスピードで永住権（PR）を取得できる仕組みです。
 
@@ -44,7 +44,7 @@ references:
 
 ---
 
-<p class="post-section-heading">3. 永住権取得タイムラインの可視化</p>
+## 3. 永住権取得タイムラインの可視化
 
 <svg viewBox="0 0 760 260" role="img" aria-label="日本永住権取得タイムライン" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">日本永주権取得の主なルート (2026)</text>
@@ -73,14 +73,14 @@ references:
 
 ---
 
-<p class="post-section-heading">4. J-FindとJ-Skip：グローバルエリートの獲得</p>
+## 4. J-FindとJ-Skip：グローバルエリートの獲得
 
 *   **J-Find**: 世界のトップ100大学を卒業した優秀な若者が、就職活動や起業準備のために最長**2年間**滞在できる制度です。
 *   **J-Skip**: 高年収（2,000万円以上）の経営者や、高度な学位と実務経験を持つプロフェッショナルが、ポイント制を経由せずに最短1年で永住権を目指せる新しい制度です。
 
 ---
 
-<p class="post-section-heading">5. 投資家向け戦略：不動産をビザの基盤にする</p>
+## 5. 投資家向け戦略：不動産をビザの基盤にする
 
 不動産を購入するだけでビザが得られる、いわゆる「ゴールデンビザ」は日本には存在しません。
 

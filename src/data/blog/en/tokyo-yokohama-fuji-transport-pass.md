@@ -16,7 +16,7 @@ tags:
 * Japan Travel Pass – Advantages of the JR Tokyo Wide Pass (beyond just price merits).
 * Destinations centered around Tokyo – Go beyond Tokyo and Yokohama to see Mount Fuji and enjoy hot springs.
 
-<p class="post-section-heading">1. This will be helpful for those who...</p>
+## 1. This will be helpful for those who...
 
 **The Era of 40 Million Inbound Tourists: Keeping Travel Expenses Reasonable**
 
@@ -28,7 +28,7 @@ Nevertheless, transportation costs in Japan are quite expensive. The basic base 
 
 Tokyo Metropolis, along with Kanagawa, Saitama, and Chiba prefectures that make up the Greater Tokyo Area, form the largest metropolitan area in the world. The population exceeds 40 million, with a GDP of over 2 trillion dollars. In terms of area, it corresponds to about one-third of South Korea. Though some compare it to the Seoul metropolitan area, the scale of Japan's metropolitan region far exceeds it. To travel around Japan's large metropolitan areas, including Tokyo, within a limited time, utilizing the Shinkansen (bullet train) is necessary. The issue here is the cost. As explained earlier, regular train fares in Japan are quite steep, and the Shinkansen is undoubtedly much more so. For those wanting to expand their travel routes beyond the metropolitan area to experience the feel of a quiet countryside and Mount Fuji, the JR Tokyo Wide Pass is highly recommended to discover a new facet of the Greater Tokyo Area.
 
-<p class="post-section-heading">2. Japan Travel Pass – Advantages of the Tokyo Wide Pass</p>
+## 2. Japan Travel Pass – Advantages of the Tokyo Wide Pass
 
 **Which routes are available?**
 
@@ -42,13 +42,13 @@ It costs 10,180 yen for adults (12 years and older) and 5,090 yen for children (
 
 As mentioned above, the JR Tokyo Wide Pass offers unlimited use for 3 days (note: it must be used on 3 consecutive days). Considering this, it is undeniably an attractive pass for travelers who prefer expansive itineraries that cover Tokyo and its neighboring cities (such as Yokohama and Kamakura) alongside nature spots like Mount Fuji. By staying overnight at a favored tourist destination (such as a hot spring resort) to relieve fatigue before continuing your journey the next day, the satisfaction of the trip will surely skyrocket.
 
-<p class="post-section-heading">3. Destinations centered around Tokyo</p>
+## 3. Destinations centered around Tokyo
 
 On the official JR Tokyo Wide Pass website, nearby tourist destinations centered around Tokyo are summarized and well-introduced. While there are indeed many places to visit in every corner of Tokyo, the Kanto region of Japan has its own unique charm. Working through the day-trip ideas and area guides they publish will significantly deepen your understanding of the Kanto region. Naturally, centering around Tokyo, you can enjoy the ocean to the south, Mount Fuji to the southwest, and inland ski resorts and quiet hot spring baths in mountain villages to the north. Essentially, you get the opportunity to witness and enjoy the scenery within the world's largest metropolitan center while also experiencing nearby mountains, seas, hot springs, and Japan's representative Mount Fuji up close.
 
 In Korea, a 2-hour KTX train ride from Seoul lets you enjoy the beautiful mountains of Gangwon-do and the East Sea. However, as previously mentioned, the scale of Japan's Greater Tokyo Area is entirely different. If compared in terms of large cities, it's as if Busan were located somewhere along the route between Seoul and Gangneung. This is because Yokohama serves as Japan's second-largest city. Places north of Tokyo, where the Shinkansen is available, such as Omiya and Utsunomiya, are also very much worth visiting. Ah, there's also Kamakura in the direction of Yokohama. While it cannot be compared to Kyoto or Gyeongju in scale, it is a city with a surprisingly great classical atmosphere similar to Gyeongju.
 
-<p class="post-section-heading">4. Conclusion – The JR Tokyo Wide Pass is the answer for traveling Kanto around Tokyo!</p>
+## 4. Conclusion – The JR Tokyo Wide Pass is the answer for traveling Kanto around Tokyo!
 
 Some people casually say that Tokyo isn't much different from Seoul, but Tokyo is undoubtedly a city with a unique charm. This applies to any travel destination, but it's especially true when you take the time to casually explore every nook and cranny. Personally, I highly recommend going beyond Tokyo limits and fully enjoying Japan's metropolitan region. The Kanto region, which constitutes the Greater Tokyo Area, is a fascinating place. To navigate this expansive area—equivalent to one-third the size of South Korea—the JR Tokyo Wide Pass is an absolute necessity. I believe it is a highly cost-effective travel pass that allows you to enjoy the broader Kanto region with just about 2 hours of travel time radiating from Tokyo.
 

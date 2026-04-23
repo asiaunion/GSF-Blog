@@ -5,7 +5,7 @@ import {
   PUBLIC_GOOGLE_SITE_VERIFICATION,
   PUBLIC_ADSENSE_PUBLISHER_ID,
 } from "astro:env/client";
-import { SITE } from "@/config";
+import { SITE, PUBLIC_PROFILES } from "@/config";
 import "@/styles/global.css";
 import HreflangLinks from "@/components/HreflangLinks.astro";
 import type { UiLang } from "@/i18n/ui";
@@ -76,6 +76,7 @@ const structuredData = overrideJsonLd ?? {
       "@type": "Person",
       name: `${author}`,
       ...(profile && { url: profile }),
+      sameAs: [PUBLIC_PROFILES.linkedIn, PUBLIC_PROFILES.x],
     },
   ],
   publisher: {

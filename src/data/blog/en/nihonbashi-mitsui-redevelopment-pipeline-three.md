@@ -20,7 +20,7 @@ references:
   - "https://www.mitsuifudosan.co.jp/english/"
 ---
 
-<p class="post-section-heading">1. Nihonbashi is a network thesis, not a parcel thesis</p>
+## 1. Nihonbashi is a network thesis, not a parcel thesis
 
 I live in the Nihonbashi area, so I watch this redevelopment story not from research reports but from street-level observation—construction fences moving, pedestrian routes shifting, retail tenants rotating. What becomes obvious from this vantage is that Nihonbashi's value creation is cumulative and networked, not parcel-by-parcel.
 
@@ -30,7 +30,7 @@ The scale is significant. The Nihonbashi 1-Chome Central District project—a 52
 
 Beyond the flagship, the Nihonbashi Honcho M-SQUARE targeted completion in November 2025, and the Nihonbashi Honcho 1-chome District 5 project broke ground in November 2025. The "Nihonbashi River Walk Area Management" organization was established in April 2025 to coordinate cohesive development across five major redevelopment zones along the Nihonbashi River—a signal that the project has moved from individual-tower execution to integrated district management.
 
-<p class="post-section-heading">2. Three practical axes: flow, resilience, dwell time</p>
+## 2. Three practical axes: flow, resilience, dwell time
 
 I read Nihonbashi pipeline updates through three lenses that together determine whether the district story converts from developer narrative to investable reality:
 
@@ -57,7 +57,7 @@ The third axis measures whether Nihonbashi is becoming a place people stay longe
 
 When all three axes move together—circulation improves, resilience certifications expand, dwell-time activities deepen—the combined effect on rents and property values is non-linear. Individual improvements are incremental; the network is multiplicative.
 
-<p class="post-section-heading">3. Distinguish narrative decks from operating evidence</p>
+## 3. Distinguish narrative decks from operating evidence
 
 Developer presentations for Nihonbashi are polished, data-rich, and directionally useful—but they are not investment evidence. I have seen enough urban redevelopment cycles to know that timeline slippage, cost overruns, and tenant-mix pivots are the norm, not the exception.
 
@@ -67,7 +67,7 @@ What I cross-check against:
 - **Actual leasing and retail behavior.** I walk the COREDO Muromachi complex regularly and note tenant turnover, vacancy signs, and foot-traffic density. Retail vacancy in completed phases is the ground truth; pre-lease announcements for future phases are forecasts.
 - **Construction progress versus disclosed schedules.** The magnitude of the Metropolitan Expressway underground relocation—targeted for the 2030s, which will eventually open riverfront views and eliminate highway noise for the entire district—is a multi-decade catalyst. But "targeted for the 2030s" means significant timeline uncertainty, and pricing that catalyst today requires explicit assumptions about delay probability and interim rent trajectories.
 
-<p class="post-section-heading">4. Investment translation: from story to spreadsheet</p>
+## 4. Investment translation: from story to spreadsheet
 
 For the Nihonbashi thesis to move from narrative to actionable, I translate redevelopment stories into measurable assumptions:
 
@@ -81,7 +81,7 @@ For the Nihonbashi thesis to move from narrative to actionable, I translate rede
 
 If these variables are not explicit in your thesis, the investment case is still at marketing level. I require at least two of the five variables to show positive evidence from observable data (not projections) before treating the theme as actionable rather than aspirational.
 
-<p class="post-section-heading">5. Position sizing for long-cycle themes</p>
+## 5. Position sizing for long-cycle themes
 
 Nihonbashi is inherently a long-cycle compounding theme. The district has been under active redevelopment since the early 2000s—the original COREDO Nihonbashi opened in 2004—and the master plan extends through the 2030s and beyond. This means that the payoff is not a binary event but a gradual accretion of value as network effects strengthen.
 

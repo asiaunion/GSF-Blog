@@ -24,7 +24,7 @@ references:
 
 ---
 
-<p class="post-section-heading">1. 個人所有：高所得者には厳しい累進課税の壁</p>
+## 1. 個人所有：高所得者には厳しい累進課税の壁
 
 個人所有は設立コストがかからずシンプルですが、日本の強力な**累進課税**の対象となります。
 
@@ -37,7 +37,7 @@ references:
 
 ---
 
-<p class="post-section-heading">2. 法人所有：安定した税率と幅広い経費算入</p>
+## 2. 法人所有：安定した税率と幅広い経費算入
 
 日本法人（GKやKK）を設立して物件を所有する場合、より事業的な安定性が得られます。
 
@@ -48,7 +48,7 @@ references:
 
 ---
 
-<p class="post-section-heading">3. 構造比較：税務効率のマッピング</p>
+## 3. 構造比較：税務効率のマッピング
 
 <svg viewBox="0 0 760 280" role="img" aria-label="個人 vs 法人 税務構造比較" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">所有構造と税務効率の比較</text>
@@ -72,7 +72,7 @@ references:
 
 ---
 
-<p class="post-section-heading">4. どちらを選ぶべきか？</p>
+## 4. どちらを選ぶべきか？
 
 法人化の損益分岐点は、一般的に課税対象となる賃貸利益が**年間900万円**を超える場合、または3戸以上の物件を保有する計画がある場合と言われています。
 
@@ -88,7 +88,7 @@ references:
 
 ---
 
-<p class="post-section-heading">5. 結論：契約前の「器」づくり</p>
+## 5. 結論：契約前の「器」づくり
 
 購入後に名義を変更する場合、登録免許税や不動産取得税が再度発生するため、非常にコストがかかります。GSFでは、投資家の方々に対し、**売買契約に署名する前に、税務構造を確定させること**を強くお勧めしています。
 

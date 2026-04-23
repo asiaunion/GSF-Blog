@@ -25,7 +25,7 @@ Today, we analyze two key points of a Tokyo rental contract that determine the b
 
 ---
 
-<p class="post-section-heading">1. Ordinary Lease (Futsu) vs. Fixed-Term Lease (Teiki)</p>
+## 1. Ordinary Lease (Futsu) vs. Fixed-Term Lease (Teiki)
 
 The first thing to verify is the 'type' of contract.
 
@@ -50,7 +50,7 @@ The first thing to verify is the 'type' of contract.
 
 ---
 
-<p class="post-section-heading">2. Restoration (Genjo Kaifuku): The Golden Rule for Move-Outs</p>
+## 2. Restoration (Genjo Kaifuku): The Golden Rule for Move-Outs
 
 The biggest source of conflict in Japan is the refund of the security deposit (*Shikikin*).
 
@@ -60,7 +60,7 @@ The biggest source of conflict in Japan is the refund of the security deposit (*
 
 ---
 
-<p class="post-section-heading">3. Guarantors and Services for Foreigners</p>
+## 3. Guarantors and Services for Foreigners
 
 A major hurdle for foreigners is the requirement for a 'Joint Guarantor.' Today, using a **Guarantor Company (Hoshō Gaisha)** is the standard.
 
@@ -69,7 +69,7 @@ A major hurdle for foreigners is the requirement for a 'Joint Guarantor.' Today,
 
 ---
 
-<p class="post-section-heading">4. Conclusion: "Documentation Saves You"</p>
+## 4. Conclusion: "Documentation Saves You"
 
 The most important step on move-in day is to **take photos and videos of every scratch and mark in the apartment**. Emailing these to the management company creates a timestamped record that protects you from being wrongly charged for repairs when you leave. A smooth life in Tokyo starts with a meticulous contract review.
 

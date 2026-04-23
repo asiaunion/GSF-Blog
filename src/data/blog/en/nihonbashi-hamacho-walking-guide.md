@@ -25,7 +25,7 @@ Walking through the glamorous Muromachi, witnessing the transformation of Japan�
 
 ---
 
-<p class="post-section-heading">1. Nihonbashi Muromachi: Harmony of 284m Skyline and Tradition</p>
+## 1. Nihonbashi Muromachi: Harmony of 284m Skyline and Tradition
 
 The 'Nihonbashi 1-chome Central District Redevelopment,' completed in early 2026, is the area's new landmark.
 
@@ -34,7 +34,7 @@ The 'Nihonbashi 1-chome Central District Redevelopment,' completed in early 2026
 
 ---
 
-<p class="post-section-heading">2. Kabutocho: From 'Financial Street' to 'Culture District'</p>
+## 2. Kabutocho: From 'Financial Street' to 'Culture District'
 
 Once a stiff financial district, Kabutocho has transformed into one of Tokyo’s 'hippest' neighborhoods.
 
@@ -43,7 +43,7 @@ Once a stiff financial district, Kabutocho has transformed into one of Tokyo’s
 
 ---
 
-<p class="post-section-heading">3. Ningyocho & Hamacho: Where Craftsman Pride Flows</p>
+## 3. Ningyocho & Hamacho: Where Craftsman Pride Flows
 
 Moving east away from the skyscrapers, you encounter the warm, human-scaled landscape of the 'Shitamachi' (downtown).
 
@@ -83,7 +83,7 @@ Moving east away from the skyscrapers, you encounter the warm, human-scaled land
 
 ---
 
-<p class="post-section-heading">4. Conclusion: "The Essence of Tokyo Lies in Accumulation"</p>
+## 4. Conclusion: "The Essence of Tokyo Lies in Accumulation"
 
 Behind Nihonbashi’s glamorous skyline lie centuries of merchant promises and artisan persistence. In 2026, this walking path is a 'path of insight' that compactly shows how Tokyo preserves past values while designing for the future.
 

@@ -25,7 +25,7 @@ As of early 2026, we have curated five of the best museums in Tokyo for families
 
 ---
 
-<p class="post-section-heading">1. teamLab Borderless (Azabudai Hills): A World of Art without Boundaries</p>
+## 1. teamLab Borderless (Azabudai Hills): A World of Art without Boundaries
 
 Now reopened in Azabudai Hills, **teamLab Borderless** is an essential stop on any Tokyo itinerary.
 
@@ -34,7 +34,7 @@ Now reopened in Azabudai Hills, **teamLab Borderless** is an essential stop on a
 
 ---
 
-<p class="post-section-heading">2. National Museum of Nature and Science (Ueno): A Grand Chronicle of Nature</p>
+## 2. National Museum of Nature and Science (Ueno): A Grand Chronicle of Nature
 
 Located in Ueno Park, this museum offers incredible depth and value.
 
@@ -43,7 +43,7 @@ Located in Ueno Park, this museum offers incredible depth and value.
 
 ---
 
-<p class="post-section-heading">3. Miraikan (Odaiba): Meeting Robots and the Future</p>
+## 3. Miraikan (Odaiba): Meeting Robots and the Future
 
 **Miraikan** is where children can get up close with the latest in science and technology.
 
@@ -52,7 +52,7 @@ Located in Ueno Park, this museum offers incredible depth and value.
 
 ---
 
-<p class="post-section-heading">4. KidZania Tokyo (Toyosu): A Mini-City for Social Learning</p>
+## 4. KidZania Tokyo (Toyosu): A Mini-City for Social Learning
 
 Located in LaLaport Toyosu, **KidZania** allows children to learn about social systems through role-playing.
 
@@ -61,7 +61,7 @@ Located in LaLaport Toyosu, **KidZania** allows children to learn about social s
 
 ---
 
-<p class="post-section-heading">5. Ghibli Museum (Mitaka): Where Childhood Dreams Reside</p>
+## 5. Ghibli Museum (Mitaka): Where Childhood Dreams Reside
 
 Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination for animation lovers.
 
@@ -70,7 +70,7 @@ Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination fo
 
 ---
 
-<p class="post-section-heading">Tokyo Kids Museum Map 2026</p>
+## Tokyo Kids Museum Map 2026
 
 <svg viewBox="0 0 760 300" role="img" aria-label="Map of Recommended Kids Museums in Tokyo" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Tokyo Edutainment Hubs (2026)</text>
@@ -103,7 +103,7 @@ Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination fo
 
 ---
 
-<p class="post-section-heading">6. Conclusion: "A Trip to Raise Curious Children"</p>
+## 6. Conclusion: "A Trip to Raise Curious Children"
 
 Tokyo’s museums are not places that provide correct answers; they are places that invite children to ask **"Why?"** In 2026, we hope these intellectual playgrounds broaden your child's perspective and provide meaningful growth for the whole family.
 

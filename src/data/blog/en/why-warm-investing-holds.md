@@ -24,7 +24,7 @@ However, after observing the success and failure of numerous investments, the co
 
 ---
 
-<p class="post-section-heading">1. The 'Relational Value-Add' That Excel Misses</p>
+## 1. The 'Relational Value-Add' That Excel Misses
 
 Investment models compress reality into variables like interest rates, vacancy, and FX. But when markets shake and unexpected variables explode, it is 'people,' not models, who control those variables.
 
@@ -33,7 +33,7 @@ Investment models compress reality into variables like interest rates, vacancy, 
 
 ---
 
-<p class="post-section-heading">2. The 3 Pillars of the Warm Investing Risk Scorecard</p>
+## 2. The 3 Pillars of the Warm Investing Risk Scorecard
 
 GSF always places a 'Trust Equilibrium' alongside expected yields. The indicators of 'warmth' we measure are as follows:
 
@@ -62,7 +62,7 @@ GSF always places a 'Trust Equilibrium' alongside expected yields. The indicator
 
 ---
 
-<p class="post-section-heading">3. Practical Application: 'Diligence' the People First</p>
+## 3. Practical Application: 'Diligence' the People First
 
 Before deciding on an investment, GSF conducts 'Reputation and Philosophy Due Diligence' on partners even before looking at the numbers.
 
@@ -72,7 +72,7 @@ Before deciding on an investment, GSF conducts 'Reputation and Philosophy Due Di
 
 ---
 
-<p class="post-section-heading">4. Conclusion: "Analyze Coldly, Own Warmly"</p>
+## 4. Conclusion: "Analyze Coldly, Own Warmly"
 
 'Warm Investing' is not a symbol of weakness. Rather, it is the **'toughest attitude of an investor'** who survives all market noise to eventually secure returns. While numbers don't lie, it is the human heart that ultimately moves those numbers.
 

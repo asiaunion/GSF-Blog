@@ -25,7 +25,7 @@ However, as of 2026, the Korean community in Tokyo has evolved into a much more 
 
 ---
 
-<p class="post-section-heading">1. The Evolution of Shin-Okubo: From Tourist Spot to Multi-Cultural Business Zone</p>
+## 1. The Evolution of Shin-Okubo: From Tourist Spot to Multi-Cultural Business Zone
 
 Shin-Okubo in 2026 is no longer just an old Koreatown.
 
@@ -34,7 +34,7 @@ Shin-Okubo in 2026 is no longer just an old Koreatown.
 
 ---
 
-<p class="post-section-heading">2. Azabu and Hiroo: The Base for Global Elites and Investors</p>
+## 2. Azabu and Hiroo: The Base for Global Elites and Investors
 
 The Azabu-Juban and Hiroo areas in Minato-ku are preferred residential and social spaces for 'New-comers,' expatriates, and global professional Koreans.
 
@@ -43,7 +43,7 @@ The Azabu-Juban and Hiroo areas in Minato-ku are preferred residential and socia
 
 ---
 
-<p class="post-section-heading">3. Toranomon and Roppongi: The New Hub for K-Startups</p>
+## 3. Toranomon and Roppongi: The New Hub for K-Startups
 
 The most notable change recently is the surge of Korean startups in Japan.
 
@@ -75,7 +75,7 @@ The most notable change recently is the surge of Korean startups in Japan.
 
 ---
 
-<p class="post-section-heading">4. Conclusion: "Connected Investors, Expanding Assets"</p>
+## 4. Conclusion: "Connected Investors, Expanding Assets"
 
 The expansion of the Korean community in Tokyo signifies the growing influence of Koreans in the city. The vibrant energy of Shin-Okubo, the refined network of Azabu, and the challenging entrepreneurial spirit of Toranomon represent the diverse faces of Koreans living in this megacity.
 

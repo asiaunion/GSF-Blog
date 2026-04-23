@@ -24,7 +24,7 @@ references:
   - "https://www.jnto.go.jp/"
 ---
 
-<p class="post-section-heading">1. Define recovery in cash-flow terms first</p>
+## 1. Define recovery in cash-flow terms first
 
 Post-COVID comparisons between hotel and office REITs often confuse price rebound with fundamental normalization. When I first started tracking both sectors side by side in early 2023, the gap between unit-price recovery and underlying cash-flow quality was striking—hotel REIT prices were already bouncing while many properties were still running below 60 percent occupancy.
 
@@ -32,7 +32,7 @@ The distinction matters because hotels reprice revenue daily through Average Dai
 
 A useful starting framework is to separate three channels: (a) top-line revenue normalization, (b) operating-margin restoration, and (c) balance-sheet health measured by refinancing capacity and leverage ratios. Hotels can show dramatic top-line snaps while margins lag due to labor and energy costs. Offices can maintain stable margins through long leases while quietly losing pricing power at renewal cliffs.
 
-<p class="post-section-heading">2. Hotels: high torque, high variance</p>
+## 2. Hotels: high torque, high variance
 
 The hotel J-REIT segment has delivered the more dramatic recovery arc. Japan's inbound tourist arrivals surged to approximately 42.7 million in 2025, eclipsing the pre-pandemic record of 31.9 million set in 2019. This tsunami of demand translated into record RevPAR for hotel operators, with Japan Hotel REIT Investment Corporation (JHR) reporting a 14.3 percent year-on-year increase in full-year RevPAR across its variable-rent portfolio during fiscal 2025.
 
@@ -45,7 +45,7 @@ However, the headline numbers obscure important structural nuances that I watch 
 
 For hotel REIT investors, the core question is not "has RevPAR recovered" but "can current ADR levels sustain through the next demand shock without forcing rate cuts that trigger operating-loss spirals."
 
-<p class="post-section-heading">3. Offices: slower mark-to-market, different resilience</p>
+## 3. Offices: slower mark-to-market, different resilience
 
 The office J-REIT sector tells a fundamentally different recovery story—less dramatic in headlines, but arguably more structurally resilient for income-focused portfolios.
 
@@ -60,7 +60,7 @@ Key dynamics I track in the office segment:
 
 For office REIT investors, the question is "what is the renewal-cliff profile over the next 24 months, and does the tenant-credit mix support stable occupancy at improving effective rents."
 
-<p class="post-section-heading">4. Monitoring framework: what I watch together</p>
+## 4. Monitoring framework: what I watch together
 
 Neither sector exists in isolation. I monitor four macro-level variables simultaneously, because they interact in ways that single-variable analysis misses:
 
@@ -75,7 +75,7 @@ The cross-reading matters. For example, a BOJ rate hike that strengthens the yen
 
 I also pay attention to the **NAV discount puzzle**: despite strong underlying fundamentals in both sectors, many J-REITs have been trading at significant discounts to Net Asset Value—sometimes 15–25 percent. This reflects macro uncertainty around BOJ policy normalization and global risk appetite rather than property-level weakness. Several J-REITs have responded with unit buybacks and non-core asset disposals, which is a capital-allocation signal worth tracking alongside operational metrics.
 
-<p class="post-section-heading">5. Portfolio construction, not a winner-takes-all trade</p>
+## 5. Portfolio construction, not a winner-takes-all trade
 
 This is not a question of which sector "won" the recovery race. It is a portfolio construction decision that depends on your specific risk budget, income requirements, and view on macro regime shifts.
 

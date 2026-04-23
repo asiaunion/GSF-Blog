@@ -25,7 +25,7 @@ references:
 
 ---
 
-<p class="post-section-heading">1. 팀랩 보더리스 (Azabudai Hills): 경계 없는 예술의 세계</p>
+## 1. 팀랩 보더리스 (Azabudai Hills): 경계 없는 예술의 세계
 
 아자부다이 힐즈로 이전 오픈한 **팀랩 보더리스(teamLab Borderless)**는 이제 도쿄 여행의 필수 코스입니다.
 
@@ -34,7 +34,7 @@ references:
 
 ---
 
-<p class="post-section-heading">2. 국립과학박물관 (Ueno): 자연과 인류의 거대한 연대기</p>
+## 2. 국립과학박물관 (Ueno): 자연과 인류의 거대한 연대기
 
 우에노 공원에 위치한 이곳은 가성비와 교육적 깊이 면에서 압도적입니다.
 
@@ -43,7 +43,7 @@ references:
 
 ---
 
-<p class="post-section-heading">3. 일본 과학 미래관 (Miraikan): 로봇과 미래를 만나다</p>
+## 3. 일본 과학 미래관 (Miraikan): 로봇과 미래를 만나다
 
 오다이바에 위치한 **미라이칸**은 최첨단 과학 기술을 가장 가깝게 느낄 수 있는 곳입니다.
 
@@ -52,7 +52,7 @@ references:
 
 ---
 
-<p class="post-section-heading">4. 키자니아 도쿄 (Toyosu): 사회를 배우는 작은 도시</p>
+## 4. 키자니아 도쿄 (Toyosu): 사회를 배우는 작은 도시
 
 토요스 라라포트에 위치한 **키자니아**는 직업 체험을 통해 사회 시스템을 배우는 곳입니다.
 
@@ -61,7 +61,7 @@ references:
 
 ---
 
-<p class="post-section-heading">5. 지브리 미술관 (Mitaka): 동심이 숨 쉬는 숲</p>
+## 5. 지브리 미술관 (Mitaka): 동심이 숨 쉬는 숲
 
 미타카 숲에 숨겨진 **지브리 미술관**은 설명이 필요 없는 명소입니다.
 
@@ -70,7 +70,7 @@ references:
 
 ---
 
-<p class="post-section-heading">도쿄 키즈 뮤지엄 지도 2026</p>
+## 도쿄 키즈 뮤지엄 지도 2026
 
 <svg viewBox="0 0 760 300" role="img" aria-label="도쿄 어린이 추천 뮤지엄 지도" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">도쿄 에듀테인먼트 뮤지엄 분포 (2026)</text>
@@ -103,7 +103,7 @@ references:
 
 ---
 
-<p class="post-section-heading">6. 결론: "질문하는 아이로 키우는 여행"</p>
+## 6. 결론: "질문하는 아이로 키우는 여행"
 
 도쿄의 뮤지엄들은 정답을 가르쳐주는 곳이 아니라, **"왜?"**라는 질문을 던지게 만드는 곳입니다. 2026년 현재 도쿄가 제안하는 이 지적 놀이터들을 통해, 아이들의 시야가 넓어지고 부모와 아이가 함께 성장하는 소중한 시간을 경험하시길 바랍니다.
 

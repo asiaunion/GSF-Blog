@@ -20,7 +20,7 @@ references:
   - "https://www.nta.go.jp/english/"
 ---
 
-<p class="post-section-heading">1. Why headline yield often overstates reality</p>
+## 1. Why headline yield often overstates reality
 
 Small-unit investment condominiums—typically 18–25 square meter 1R or 1K formats in central Tokyo—are the entry point for many individual investors. They are marketed aggressively by developers and brokerage firms, almost always with a "surface yield" figure (表面利回り) prominently displayed: 4.0 percent, 4.5 percent, sometimes 5.0 percent or higher in secondary locations.
 
@@ -33,7 +33,7 @@ I have underwritten enough of these deals to know that the gap between surface y
 
 A realistic full-cycle analysis often shows that a property marketed at "4.5 percent surface yield" delivers **1.5–2.5 percent net** after all frictions. If mortgage debt service is layered on top, the levered cash yield can approach zero in the early years—meaning the entire return thesis rests on price appreciation.
 
-<p class="post-section-heading">2. Breakeven is a scenario range, not one number</p>
+## 2. Breakeven is a scenario range, not one number
 
 I model breakeven with three explicit paths, because a single-point estimate gives false confidence:
 
@@ -63,7 +63,7 @@ This scenario is not extreme—a 100 basis point rate increase over three years 
 
 The breakeven framework is not about predicting which scenario will occur—it is about knowing in advance how much you lose in each one and whether you can absorb that loss without disrupting your broader financial position.
 
-<p class="post-section-heading">3. Link rates, FX, and liquidity explicitly</p>
+## 3. Link rates, FX, and liquidity explicitly
 
 Small-unit investment economics sit at the intersection of three macro variables that most property-level analyses treat in isolation:
 
@@ -73,7 +73,7 @@ Small-unit investment economics sit at the intersection of three macro variables
 
 **Domestic liquidity conditions.** The compact investor unit market is heavily intermediated by specialized Japan brokerages that target domestic salaried workers (サラリーマン大家). When financing conditions tighten or stock market volatility spikes, this buyer pool contracts—and since compact units have fewer potential owner-occupier buyers than family apartments, exit liquidity is disproportionately sensitive to investor sentiment cycles.
 
-<p class="post-section-heading">4. Structural context: supply, demographics, and regulatory rails</p>
+## 4. Structural context: supply, demographics, and regulatory rails
 
 Beyond property-level underwriting, several structural factors frame the small-unit investment thesis:
 
@@ -83,7 +83,7 @@ Beyond property-level underwriting, several structural factors frame the small-u
 
 **Regulatory context.** [MLIT](https://www.mlit.go.jp/en/) sets the regulatory framework for building standards, leasing rules, and transaction disclosure requirements. The [National Tax Agency](https://www.nta.go.jp/english/) administers income and capital gains taxation for both residents and non-residents. Understanding depreciation schedules (RC buildings: 47-year statutory life, with accelerated depreciation available for certain investor structures) is critical for after-tax return modeling—depreciation deductions can significantly improve near-term cash-flow economics even when headline yields are thin.
 
-<p class="post-section-heading">5. If it only works in one scenario, it's speculation</p>
+## 5. If it only works in one scenario, it's speculation
 
 The discipline I apply to any small-unit deal: if the investment requires the base case (moderate appreciation, stable rates, full occupancy) to be correct in order to generate acceptable returns, it is a speculation, not a robust income strategy.
 

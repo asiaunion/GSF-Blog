@@ -25,7 +25,7 @@ However, as of 2026, the two markets are not mere carbon copies but are in a sta
 
 ---
 
-<p class="post-section-heading">1. The Numbers of 2026: Seoul’s Momentum vs. Tokyo’s Acceleration</p>
+## 1. The Numbers of 2026: Seoul’s Momentum vs. Tokyo’s Acceleration
 
 These two markets are currently powered by different engines.
 
@@ -34,7 +34,7 @@ These two markets are currently powered by different engines.
 
 ---
 
-<p class="post-section-heading">2. Strategic Synergy Beyond the 'Japanification' Fear</p>
+## 2. Strategic Synergy Beyond the 'Japanification' Fear
 
 Paradoxically, the fear of Korea's Japanification has driven Korean investors toward Japan. 'Investment Nomads' seeking to avoid domestic regulatory risks and diversify their currency exposure are flocking to Tokyo.
 
@@ -43,7 +43,7 @@ Paradoxically, the fear of Korea's Japanification has driven Korean investors to
 
 ---
 
-<p class="post-section-heading">3. The Seoul-Tokyo Asset Allocation Matrix</p>
+## 3. The Seoul-Tokyo Asset Allocation Matrix
 
 How should an investor balance their holdings between these two hubs?
 
@@ -76,7 +76,7 @@ How should an investor balance their holdings between these two hubs?
 
 ---
 
-<p class="post-section-heading">4. Execution Framework: Integrated Monitoring</p>
+## 4. Execution Framework: Integrated Monitoring
 
 Investors should now place both markets on a single dashboard:
 
@@ -86,7 +86,7 @@ Investors should now place both markets on a single dashboard:
 
 ---
 
-<p class="post-section-heading">5. Conclusion: The Era of the Borderless Investor</p>
+## 5. Conclusion: The Era of the Borderless Investor
 
 There was a time when Seoul real estate was the only game in town. But the investor of 2026 is not trapped by borders. You need the flexibility to grow capital in a Seoul apartment, collect monthly rent from a Tokyo office, buy when the Yen is cheap, and realize profits when it strengthens.
 

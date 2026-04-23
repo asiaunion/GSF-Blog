@@ -24,7 +24,7 @@ Today, we analyze the three primary routes for investors and professionals looki
 
 ---
 
-<p class="post-section-heading">1. The 'Business Manager' Visa: 2025/2026 Modernization</p>
+## 1. The 'Business Manager' Visa: 2025/2026 Modernization
 
 This is the traditional route for those setting up a real estate management company or a startup.
 
@@ -34,7 +34,7 @@ This is the traditional route for those setting up a real estate management comp
 
 ---
 
-<p class="post-section-heading">2. Highly Skilled Professional (HSP) & The 1-Year PR Track</p>
+## 2. Highly Skilled Professional (HSP) & The 1-Year PR Track
 
 Japan's "Point System" is one of the fastest routes to Permanent Residency (PR) in the world.
 
@@ -44,7 +44,7 @@ Japan's "Point System" is one of the fastest routes to Permanent Residency (PR) 
 
 ---
 
-<p class="post-section-heading">3. PR Timeline Visualization</p>
+## 3. PR Timeline Visualization
 
 <svg viewBox="0 0 760 260" role="img" aria-label="Japan Permanent Residency Timeline Chart" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Routes to Japan Permanent Residency (2026)</text>
@@ -73,14 +73,14 @@ Japan's "Point System" is one of the fastest routes to Permanent Residency (PR) 
 
 ---
 
-<p class="post-section-heading">4. J-Find and J-Skip: Targeting the Global Elite</p>
+## 4. J-Find and J-Skip: Targeting the Global Elite
 
 *   **J-Find**: Graduates from the world’s top 100 universities (based on major rankings) can stay in Japan for up to **2 years** to look for a job or start a business, with minimal initial requirements.
 *   **J-Skip**: High-income earners (20M JPY+ per year) or those with advanced degrees and 5+ years of experience can bypass the complex point system and secure an HSP visa directly, qualifying for the 1-year PR track.
 
 ---
 
-<p class="post-section-heading">5. Strategy for Investors: Leveraging Real Estate</p>
+## 5. Strategy for Investors: Leveraging Real Estate
 
 Can you get a visa just by buying real estate? **No.** Japan does not have a direct "Golden Visa" for property purchases.
 

@@ -24,7 +24,7 @@ For foreign investors and non-residents, the choice between **Personal Ownership
 
 ---
 
-<p class="post-section-heading">1. Personal Ownership: Simple but Punitive for High Earners</p>
+## 1. Personal Ownership: Simple but Punitive for High Earners
 
 Personal ownership is easy to set up but subject to Japan's steep **Progressive Tax Rates**.
 
@@ -37,7 +37,7 @@ Personal ownership is easy to set up but subject to Japan's steep **Progressive 
 
 ---
 
-<p class="post-section-heading">2. Corporate Ownership: Predictable Rates and Diverse Deductions</p>
+## 2. Corporate Ownership: Predictable Rates and Diverse Deductions
 
 Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more stable tax environment for serious investors.
 
@@ -48,7 +48,7 @@ Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more s
 
 ---
 
-<p class="post-section-heading">3. Visual Comparison: Tax Liability Mapping</p>
+## 3. Visual Comparison: Tax Liability Mapping
 
 <svg viewBox="0 0 760 280" role="img" aria-label="Personal vs Corporate Tax Structure Comparison" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Ownership Structure & Tax Efficiency</text>
@@ -72,7 +72,7 @@ Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more s
 
 ---
 
-<p class="post-section-heading">4. Which One Should You Choose?</p>
+## 4. Which One Should You Choose?
 
 The "Break-even Point" for switching to a corporate structure usually occurs when your taxable rental income exceeds **9 million JPY** per year, or when you plan to build a portfolio of 3+ units.
 
@@ -88,7 +88,7 @@ The "Break-even Point" for switching to a corporate structure usually occurs whe
 
 ---
 
-<p class="post-section-heading">5. Conclusion: Strategy Before Signature</p>
+## 5. Conclusion: Strategy Before Signature
 
 Changing ownership after the purchase is expensive (re-paying registration taxes and real estate acquisition taxes). At GSF, we always advise clients to **finalize the tax structure before signing the sales contract.**
 

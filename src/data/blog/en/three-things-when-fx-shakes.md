@@ -24,7 +24,7 @@ As of 2026, the Yen is experiencing increased volatility near its historical low
 
 ---
 
-<p class="post-section-heading">1. Don't 'Predict' FX; Build a 'Response' Structure</p>
+## 1. Don't 'Predict' FX; Build a 'Response' Structure
 
 Exchange rates are notoriously difficult even for experts to predict. A simple approach like "I'll buy when the Yen is cheap and sell when it's expensive" is closer to speculation than investment. A true investor builds a structure that can defend returns regardless of FX movements.
 
@@ -33,7 +33,7 @@ Exchange rates are notoriously difficult even for experts to predict. A simple a
 
 ---
 
-<p class="post-section-heading">2. Look at the 'Rate Hike' Speed Rather Than the 'Yen Discount'</p>
+## 2. Look at the 'Rate Hike' Speed Rather Than the 'Yen Discount'
 
 Many investors say, "Now is the chance because the Yen is cheap." However, the backdrop of Yen weakness is the interest rate gap between Japan and other major economies. If the Bank of Japan (BOJ) starts raising rates, the Yen will likely strengthen, but property mortgage rates will also rise.
 
@@ -42,7 +42,7 @@ Many investors say, "Now is the chance because the Yen is cheap." However, the b
 
 ---
 
-<p class="post-section-heading">3. Focus on 'Currency Neutral' Value</p>
+## 3. Focus on 'Currency Neutral' Value
 
 It is essential to train yourself to base investment decisions on the Yen itself, rather than your home currency.
 
@@ -73,7 +73,7 @@ It is essential to train yourself to base investment decisions on the Yen itself
 
 ---
 
-<p class="post-section-heading">4. Conclusion: "FX is a Bonus; the Core is the Asset"</p>
+## 4. Conclusion: "FX is a Bonus; the Core is the Asset"
 
 Thinking that you will make money from FX should be treated as just a potential bonus. The essence of investment is owning a **'Space'** whose value is preserved or appreciates over time. If what you buy while the Yen is cheap is not just 'cheap currency' but 'real estate in an excellent location,' your asset will remain steady regardless of where the exchange rate goes in the future.
 

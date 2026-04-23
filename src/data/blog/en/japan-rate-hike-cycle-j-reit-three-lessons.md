@@ -23,7 +23,7 @@ references:
   - "https://www.jpx.co.jp/english/"
 ---
 
-<p class="post-section-heading">1. Rate hikes affect both valuation and financing channels</p>
+## 1. Rate hikes affect both valuation and financing channels
 
 The reflexive market narrative—"rates up, REITs down"—is a dangerous oversimplification. I have studied J-REIT behavior across multiple BOJ policy regime changes, and the relationship between rates and REIT performance is far more nuanced than a single inverse correlation suggests.
 
@@ -35,7 +35,7 @@ J-REITs sit at the intersection of two rate-sensitive channels:
 
 The net effect of a rate hike on any specific J-REIT depends on the contest between these two channels, modulated by the third variable: **rent growth.** If rents are rising faster than financing costs increase, the REIT can absorb rate pressure without distribution cuts. If rents are stagnant while costs rise, the squeeze is immediate.
 
-<p class="post-section-heading">2. Lesson one: curve shape beats policy headline</p>
+## 2. Lesson one: curve shape beats policy headline
 
 The most important lesson from historical rate cycles is that the **slope and behavior of the yield curve** matters far more than the policy rate level itself.
 
@@ -54,7 +54,7 @@ For practical monitoring, I track three curve metrics from [BOJ Statistics](http
 - **10-year JGB volatility** — elevated move-index readings precede REIT repricing events
 - **Corporate credit spread** (AA-rated bonds vs. JGB) — widening above 30–40 basis points signals funding stress for leveraged vehicles
 
-<p class="post-section-heading">3. Lesson two: leverage quality separates outcomes</p>
+## 3. Lesson two: leverage quality separates outcomes
 
 Not all REIT leverage is created equal, and the dispersion in balance-sheet quality across the J-REIT universe is dramatic enough to produce fundamentally different outcomes from the same rate environment.
 
@@ -72,7 +72,7 @@ I evaluate leverage quality across five dimensions:
 
 During the 2007–2008 downturn, the J-REITs that experienced the deepest drawdowns and in some cases required restructuring were those with concentrated floating-rate exposure, near-term maturity walls, and weak sponsor support. The highest-quality names—despite experiencing significant unit-price declines—maintained distributions and refinanced successfully.
 
-<p class="post-section-heading">4. Lesson three: sector lease mechanics matter</p>
+## 4. Lesson three: sector lease mechanics matter
 
 J-REITs span multiple property sectors, each with different cash-flow dynamics under rate stress. The key variable is **lease duration and reset mechanism**, which determines how quickly property-level income adjusts to changing conditions:
 
@@ -87,7 +87,7 @@ J-REITs span multiple property sectors, each with different cash-flow dynamics u
 
 The implication is that sector selection within a J-REIT portfolio is a hidden **duration bet**. Logistics and fixed-rent hotel REITs carry long effective duration—they are more vulnerable to sustained rate increases because their income adjusts slowly while discount rates and financing costs adjust immediately. Office and variable-rent hotel REITs carry shorter effective duration—they can pass through rate-driven inflation more quickly, but with higher earnings volatility.
 
-<p class="post-section-heading">5. Execution framework: build scenarios before treating yield as "cheap"</p>
+## 5. Execution framework: build scenarios before treating yield as "cheap"
 
 The most common investment mistake I see in the current J-REIT environment is treating public-market yield spreads as a buy signal without stress-testing the sustainability of distributions under rate stress.
 

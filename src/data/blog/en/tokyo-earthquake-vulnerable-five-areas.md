@@ -25,13 +25,13 @@ references:
 3. Top 5 Most Vulnerable Areas to Earthquakes in Tokyo
 4. Conclusion (Implications)
 
-<p class="post-section-heading">1. Introduction: The Shock of the First Tatami Room</p>
+## 1. Introduction: The Shock of the First Tatami Room
 
 I still vividly remember the time when I first moved to Japan and lived in a tatami room of an old wooden house. One night, I experienced an earthquake for the very first time in my life. Looking back now, it was a relatively minor tremor of seismic intensity 3 or 4, but the experience of the 'solid ground beneath my feet' literally shaking side-to-side was a massive, unprecedented culture shock. It went far beyond a simple natural disaster; it instilled in me an entirely new worldview—one where a haunting 'fear lies dormant within everyday life.'
 
 As everyone knows, Japan is a highly earthquake-prone country. Because of this existential dread of earthquakes that seeps into one's bones, thorough preparation for seismic risks is an absolute necessity, not just for short-term living, but critically from a mid-to-long-term real estate investment perspective. It goes without saying that a careful approach is crucial to protecting precious lives and property. Among the many regions in Japan, today we will specifically examine these highly vulnerable areas that could prove fatal in a worst-case scenario, focusing on the capital, Tokyo.
 
-<p class="post-section-heading">2. About the Seismic Risk Assessment in Japan</p>
+## 2. About the Seismic Risk Assessment in Japan
 
 As an earthquake-prone country, Japan regularly investigates and announces regional risk levels related to earthquakes. This post introduces the findings based on the "Regional Risk Measurement Survey Regarding Earthquakes (7th Edition)" published in 2013. This survey measures hazards based on building structures such as wooden and reinforced concrete buildings, the age of the buildings, the number of floors, the total number of structures, the use of hazardous materials based on building purpose, and the current maintenance status of roads and parks.
 
@@ -41,15 +41,18 @@ The risk level ranking follows a relative evaluation method that measures how hi
 
 For up-to-date preparedness information, use the [Tokyo Metropolitan Government disaster portal](https://www.bousai.metro.tokyo.lg.jp/english/) and the national [J-SHIS hazard map](https://www.j-shis.bousai.go.jp/map/). This article is only a lay reading of a past survey—it is **not** an emergency guide. In a real event, follow official alerts and instructions first.
 
-<p class="post-section-heading">3. Top 5 Most Vulnerable Areas to Earthquakes in Tokyo</p>
+## 3. Top 5 Most Vulnerable Areas to Earthquakes in Tokyo
 
 Evaluated based on the risk of building collapse and the risk of fire among the 23 wards of Tokyo, the top 5 most hazardous areas are listed in the table below.
 
-<picture>
+<figure class="my-6">
+  <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.avif 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.webp 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="Table summarizing top Tokyo 23-ward areas by building collapse and fire risk" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">Table summarizing top Tokyo 23-ward areas by building collapse and fire risk</figcaption>
+</figure>
 
 1st place is Machiya 4-chome in Arakawa Ward, 2nd is Senjuyanagi-cho in Adachi Ward, 3rd is Kyojima 3-chome in Sumida Ward, 4th is Sumida 3-chome in Sumida Ward, and finally, 5th place goes to Yanagihara 2-chome in Adachi Ward. For reference, "chome" is a geographic division similar to specific numbered streets or blocks in other countries. You can safely understand it as a single block unit.
 
@@ -59,13 +62,16 @@ The 1st place, "Machiya 4-chome, Arakawa Ward," ranked 7th in building collapse 
 
 These areas correspond to the locations marked in red on the right side of the map below. Excluding the central core of Tokyo, it can be seen that the surrounding eastern areas are relatively more vulnerable to earthquake damage. While short-term residency might be less concerning, referencing such maps is considered absolutely essential for anyone contemplating mid-to-long-term real estate investments.
 
-<picture>
+<figure class="my-6">
+  <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.avif 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.webp 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-relative-hazard-map.png" alt="Map highlighting relative seismic vulnerability zones in the Tokyo area (based on Tokyo Metro survey materials)" loading="lazy" decoding="async" />
 </picture>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">Map highlighting relative seismic vulnerability zones in the Tokyo area (based on Tokyo Metro survey materials)</figcaption>
+</figure>
 
-<p class="post-section-heading">4. Conclusion (Implications)</p>
+## 4. Conclusion (Implications)
 
 It has been revealed that areas with high risk ratings in Tokyo are primarily concentrated in bustling downtown districts along the Arakawa and Sumida rivers. Of course, these results are simply indicators meant to present hazard levels clearly and are not intended to model a specific impending earthquake. Nevertheless, regarding earthquake hazards represented by building collapses and fires, there is a clear necessity to be informed in advance and to make optimal efforts in preparation.
 

@@ -21,7 +21,7 @@ references:
   - "https://www.mlit.go.jp/en/"
 ---
 
-<p class="post-section-heading">1. Tsubo price is an entry point, not an answer</p>
+## 1. Tsubo price is an entry point, not an answer
 
 When buyers compare condominiums across Tokyo's central wards, price per tsubo (approximately 3.3 square meters) is almost always the first metric cited. It is a useful screening tool, but treating it as the decision variable is where many investors—especially cross-border buyers encountering the Japanese market for the first time—go wrong.
 
@@ -33,7 +33,7 @@ But two units showing identical headline tsubo pricing can have materially diffe
 - **Management fee and reserve fund burden.** Monthly management fees (管理費) and repair reserve contributions (修繕積立金) vary dramatically by building scale, facilities, and management company quality. A luxury tower with concierge service, swimming pool, and private lounge may carry ¥800–1,200 per square meter monthly in combined fees—a drag that can consume 20–30 percent of gross rental income for a compact unit.
 - **Exit liquidity layers.** Not all tsubo-equivalent properties trade with equal market depth. Buildings with fewer total units, unusual layouts, or commercial-zone restrictions face thinner transaction markets, which means exit timing risk compounds over holding periods.
 
-<p class="post-section-heading">2. Why Chiyoda, Chuo, and Minato diverge</p>
+## 2. Why Chiyoda, Chuo, and Minato diverge
 
 These three wards form Tokyo's urban core, but each carries a distinct demand signature that drives pricing behavior differently under stress:
 
@@ -45,7 +45,7 @@ These three wards form Tokyo's urban core, but each carries a distinct demand si
 
 The divergence matters most during **regime shifts**: when rates rise, FX volatility spikes, or foreign demand rotates. Chiyoda's institutional scarcity provides more downside protection. Chuo's retail-density play is more exposed to consumer spending cycles. Minato's foreign-demand sensitivity creates the widest range of outcomes.
 
-<p class="post-section-heading">3. Underwrite with layered costs, not headline yield</p>
+## 3. Underwrite with layered costs, not headline yield
 
 A realistic investment sheet must separate purchase price from the full spectrum of recurring friction. I use the following framework for any central-ward unit I evaluate:
 
@@ -62,7 +62,7 @@ A realistic investment sheet must separate purchase price from the full spectrum
 
 Surface yield without this layer is marketing math. I have seen properties marketed at "4.5% gross yield" that deliver under 2% net after full cost layering and realistic vacancy assumptions. The gap is worse for small units (under 25 square meters) where fee-to-rent ratios are structurally unfavorable.
 
-<p class="post-section-heading">4. Data discipline: what to reference, what to verify</p>
+## 4. Data discipline: what to reference, what to verify
 
 For price context, [REINS](https://www.reins.or.jp/) transaction data provides the closest approximation to actual deal prices (as opposed to asking prices, which carry 5–15 percent optimism bias in the current market). [Statistics Japan](https://www.stat.go.jp/english/) publishes macro series including the Consumer Price Index, housing starts, and population flow data that inform demand-side assumptions.
 
@@ -72,7 +72,7 @@ I keep my underwriting assumptions explicit: financing rate assumption (currentl
 
 One additional data point foreign buyers often miss: **new condominium supply in the Greater Tokyo Area hit its lowest level since 1973** in the most recent fiscal year. This supply constraint is structural—driven by construction labor shortages, material cost inflation, and land acquisition difficulty in central wards—and places a replacement-cost floor under existing inventory pricing. It does not guarantee appreciation, but it does reduce the risk of supply-driven price collapse.
 
-<p class="post-section-heading">5. The real question: which risk bundle are you buying?</p>
+## 5. The real question: which risk bundle are you buying?
 
 Comparing Chiyoda, Chuo, and Minato is not about finding the "cheapest" ward. Each ward represents a distinct bundle of risks and options:
 

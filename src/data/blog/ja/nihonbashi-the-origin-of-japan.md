@@ -34,7 +34,7 @@ references:
 
 今回の引っ越しを通じて、この空間が私にとって、そして私たちが創り上げていく数多くの事柄において、**「日本の真の中心点」**となることを切に願っています。すべての物事の原点となるここ日本橋から、今後描いていく新たな始まりをどうか見守ってください。
 
-<p class="post-section-heading">日本橋の関連記事</p>
+## 日本橋の関連記事
 
 - [日本橋浜町、毎日歩く生活圏ガイド](/ja/posts/nihonbashi-hamacho-walking-guide/)
 - [日本橋再開発ロードマップ：三井系フォローオンを読む三つの軸](/ja/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)

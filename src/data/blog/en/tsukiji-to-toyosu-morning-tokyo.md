@@ -24,7 +24,7 @@ With the massive redevelopment plan for the former Tsukiji Inner Market site (le
 
 ---
 
-<p class="post-section-heading">1. Tsukiji Outer Market: The Soul of Tokyo’s Kitchen</p>
+## 1. Tsukiji Outer Market: The Soul of Tokyo’s Kitchen
 
 The wholesale market may have left, but the **Outer Market**, with its 400+ shops, remains as vibrant as ever.
 
@@ -34,7 +34,7 @@ The wholesale market may have left, but the **Outer Market**, with its 400+ shop
 
 ---
 
-<p class="post-section-heading">2. Toyosu Senkyaku Banrai: Edo Charm Meets Modern Relaxation</p>
+## 2. Toyosu Senkyaku Banrai: Edo Charm Meets Modern Relaxation
 
 Opened in February 2024, 'Senkyaku Banrai' has become the primary anchor for the Toyosu waterfront area.
 
@@ -43,7 +43,7 @@ Opened in February 2024, 'Senkyaku Banrai' has become the primary anchor for the
 
 ---
 
-<p class="post-section-heading">3. Connecting the Two: Suggested Morning Itinerary</p>
+## 3. Connecting the Two: Suggested Morning Itinerary
 
 <svg viewBox="0 0 760 220" role="img" aria-label="Tsukiji-Toyosu Itinerary Guide" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Tsukiji & Toyosu Morning Tour (2026)</text>
@@ -80,7 +80,7 @@ Opened in February 2024, 'Senkyaku Banrai' has become the primary anchor for the
 
 ---
 
-<p class="post-section-heading">4. An Investor’s Perspective: Waterfront Future Value</p>
+## 4. An Investor’s Perspective: Waterfront Future Value
 
 The Bay Area corridor stretching from Tsukiji to Toyosu is the most dynamic zone in Tokyo.
 
@@ -89,7 +89,7 @@ The Bay Area corridor stretching from Tsukiji to Toyosu is the most dynamic zone
 
 ---
 
-<p class="post-section-heading">5. Conclusion: "Eating History, Seeing the Future"</p>
+## 5. Conclusion: "Eating History, Seeing the Future"
 
 Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market, then look out at the future night view of Tokyo Bay from the modern spas of Toyosu. These two hearts of Tokyo offer travelers unforgettable memories and provide investors with strong evidence of the city's growth.
 

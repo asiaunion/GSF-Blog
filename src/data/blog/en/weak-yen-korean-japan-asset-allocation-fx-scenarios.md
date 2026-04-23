@@ -21,7 +21,7 @@ references:
   - "https://www.bok.or.kr/eng/"
 ---
 
-<p class="post-section-heading">1. Treat FX as risk transfer, not alpha by default</p>
+## 1. Treat FX as risk transfer, not alpha by default
 
 For Korea-based investors allocating capital to Japan, the yen is not just a translation variable—it fundamentally reshapes which risks you are paid for and which risks you absorb without compensation. I have watched too many investors treat the weak yen as a "discount" on Japanese assets without building an explicit framework for what happens when that discount reverses.
 
@@ -35,7 +35,7 @@ The structural dynamics underlying JPY/KRW are complex:
 
 The core principle: define your currency objective **before** product selection. Are you seeking yen-denominated income (accepting FX risk on repatriation), KRW-denominated total return (requiring hedging or active FX management), or a structural yen asset allocation (treating the FX exposure as a deliberate portfolio diversifier)?
 
-<p class="post-section-heading">2. Scenario A: persistent yen weakness (USD/JPY 150–165)</p>
+## 2. Scenario A: persistent yen weakness (USD/JPY 150–165)
 
 In a sustained weak-yen environment, Korean investors benefit from favorable entry pricing but face uncertain repatriation value. This scenario assumes BOJ normalization proceeds gradually, while the Fed maintains relatively higher rates and global risk appetite remains intact.
 
@@ -51,7 +51,7 @@ In a sustained weak-yen environment, Korean investors benefit from favorable ent
 
 **Positioning implications:** Maintain moderate unhedged exposure, with position sizing that can tolerate an adverse 15–20 percent yen appreciation without triggering forced selling. Use yen income for yen-denominated costs (property management, maintenance, debt service) to create a natural hedge.
 
-<p class="post-section-heading">3. Scenario B: sharp yen rebound (USD/JPY 125–140)</p>
+## 3. Scenario B: sharp yen rebound (USD/JPY 125–140)
 
 Risk-off episodes, geopolitical escalation, or a faster-than-expected BOJ tightening cycle can reprice yen significantly. In this scenario, I model a 15–20 percent yen appreciation against both USD and KRW within 12–18 months.
 
@@ -66,7 +66,7 @@ Risk-off episodes, geopolitical escalation, or a faster-than-expected BOJ tighte
 
 **Positioning implications:** Investors who entered with deliberate yen exposure as a portfolio diversifier benefit most in this scenario. The discipline is not to add aggressively during a weak-yen period and then sell into a strong-yen panic, but to maintain stable allocation weights and harvest the translation improvement through regular rebalancing.
 
-<p class="post-section-heading">4. Scenario C: range-bound FX (USD/JPY 140–155)</p>
+## 4. Scenario C: range-bound FX (USD/JPY 140–155)
 
 The most likely scenario over multi-year horizons is neither persistent weakness nor dramatic strength, but an oscillating range driven by shifting policy expectations, trade flows, and risk-appetite cycles. In this environment, FX becomes noise rather than signal, and investment quality dominates returns.
 
@@ -80,7 +80,7 @@ The most likely scenario over multi-year horizons is neither persistent weakness
 
 **Positioning implications:** Maintain moderate allocation with a systematic hedge component (e.g., 30–50 percent rolling 3-month forwards) that reduces but does not eliminate FX exposure. Focus analytical energy on property-level and REIT-level fundamentals rather than currency forecasting.
 
-<p class="post-section-heading">5. Execution framework: three paths on one sheet</p>
+## 5. Execution framework: three paths on one sheet
 
 I consolidate the scenarios into a single decision sheet that I update quarterly:
 

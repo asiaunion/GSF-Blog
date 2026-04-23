@@ -25,13 +25,13 @@ references:
 3. 東京の地震危険度ランキング上位5地域
 4. おわりに（示唆点）
 
-<p class="post-section-heading">1. はじめに：初めての畳部屋での衝撃</p>
+## 1. はじめに：初めての畳部屋での衝撃
 
 私が日本へ渡り、古い木造家屋の畳部屋で生活を始めたばかりの頃の出来事です。ある夜、私は生まれて初めて地震を経験しました。今振り返ってみれば、震度3から4程度のそれほど大きくない規模でしたが、強固だと信じて疑わなかった「自分の足元の地面」が文字通り左右に揺れるという体験は、それまで味わったことのない巨大なカルチャーショックでした。それは単なる自然災害という枠を超え、「日常の中に常に恐怖が潜んでいる」という、全く新しい世界観を私に植え付けたのです。
 
 皆さんもご存知の通り、日本は地震大国です。このように骨の髄まで染み込むような実存的な地震への恐怖があるからこそ、短期的な居住目的だけでなく、中長期的な不動産投資の観点からも、地震リスクに対する備えは絶対的な必須要素となります。大切な命と財産を守るため、慎重なアプローチが極めて重要であることは言うまでもありません。今回は日本のさまざまな地域の中でも、特に首都である東京を中心に、万が一の事態に最も致命的となり得る「地震被害に脆弱な地域」に改めて焦点を当ててみたいと思います。
 
-<p class="post-section-heading">2. 日本の地震危険度調査について</p>
+## 2. 日本の地震危険度調査について
 
 地震大国である日本は、定期的に地震に関する地域の危険度を調査し、発表しています。本記事では、2013年に発表された「地震に関する地域危険度測定調査（第7回）」の結果をもとにしてご紹介します。この調査は、木造や鉄筋コンクリート造などの建物の構造、建築年数、階数、建物数、建物の用途別の火気および危険物の使用状況、そして道路や公園の維持管理状況を基準に、危険性を測定しています。
 
@@ -41,15 +41,18 @@ references:
 
 最新の地震・津波対策情報は、[東京都防災ポータル（英語）](https://www.bousai.metro.tokyo.lg.jp/english/)や政府の[J-SHISマップ](https://www.j-shis.bousai.go.jp/map/)で随時更新されます。本記事は過去の調査結果を読み解く補助であり、緊急時は必ず公式の警報・自治体の指示に従ってください。
 
-<p class="post-section-heading">3. 東京の地震危険度ランキング上位5地域</p>
+## 3. 東京の地震危険度ランキング上位5地域
 
 建物倒壊の危険度お呼び火災危険度のランキングを基準に評価された、東京23区で最も危険な上位5地域は下表の通りです。
 
-<picture>
+<figure class="my-6">
+  <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.avif 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-building-fire-risk-table-768.webp 768w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-building-fire-risk-table.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-building-fire-risk-table.png" alt="東京都23区の建物倒壊・火災リスク上位エリアの整理表" loading="eager" fetchpriority="high" decoding="async" />
 </picture>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">東京都23区の建物倒壊・火災リスク上位エリアの整理表</figcaption>
+</figure>
 
 第1位は荒川区の町屋4丁目、第2位は足立区の千住柳町、第3位は墨田区の京島3丁目、第4位は同じく墨田区の墨田3丁目、そして第5位は足立区の柳原2丁目です。参考までに、「丁目」とは一つのブロック（街区）単位であると理解していただければ差し支えありません。
 
@@ -59,13 +62,16 @@ references:
 
 これらの地域は、下の地図の右側に赤く示された箇所に該当します。東京の中心部を除き、周辺の地域は相対的に地震被害に対して脆弱であることがわかります。短期的な居住ならまだしも、中長期的な不動産投資を検討するのであれば、このような地図の参照は必須だと思われます。
 
-<picture>
+<figure class="my-6">
+  <picture>
   <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.avif 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.avif 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/tokyo-seismic-relative-hazard-map-768.webp 768w, /assets/images/legacy/tokyo-seismic-relative-hazard-map-1280.webp 1280w, /assets/images/legacy/tokyo-seismic-relative-hazard-map.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
   <img src="/assets/images/legacy/tokyo-seismic-relative-hazard-map.png" alt="東京周辺の地震に対する相対的な脆弱度を示す地図（東京都の調査資料に基づく）" loading="lazy" decoding="async" />
 </picture>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">東京周辺の地震に対する相対的な脆弱度を示す地図（東京都の調査資料に基づく）</figcaption>
+</figure>
 
-<p class="post-section-heading">4. おわりに（示唆点）</p>
+## 4. おわりに（示唆点）
 
 東京において危険度が高い地域は、荒川や隅田川沿いの繁華街周辺に集中していることがわかりました。もちろん、この結果は危険度をわかりやすく示すための指標にすぎず、特定の地震を仮定したものではありません。それでも、建物倒壊や火災といった形で現れる地震リスクについては、事前に把握し、最大限の備えをしておく努力が必要です。
 

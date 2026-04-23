@@ -24,7 +24,7 @@ The most critical—and often overlooked—element is Japan's **'10-Year Rule' (
 
 ---
 
-<p class="post-section-heading">1. Japan's 'Unlimited Taxpayer' and the 10-Year Rule</p>
+## 1. Japan's 'Unlimited Taxpayer' and the 10-Year Rule
 
 Japan determines your tax liability based on your residency status.
 
@@ -34,7 +34,7 @@ Japan determines your tax liability based on your residency status.
 
 ---
 
-<p class="post-section-heading">2. South Korea's Tax Reform (2025\~2028)</p>
+## 2. South Korea's Tax Reform (2025\~2028)
 
 South Korea is currently undergoing a massive shift in its inheritance tax philosophy.
 
@@ -43,7 +43,7 @@ South Korea is currently undergoing a massive shift in its inheritance tax philo
 
 ---
 
-<p class="post-section-heading">3. Visualizing the Asset Nexus</p>
+## 3. Visualizing the Asset Nexus
 
 <svg viewBox="0 0 760 260" role="img" aria-label="Japan Cross-Border Tax Liability Map" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Japan Inheritance Tax Scope by Residency</text>
@@ -72,7 +72,7 @@ South Korea is currently undergoing a massive shift in its inheritance tax philo
 
 ---
 
-<p class="post-section-heading">4. Three Key Strategies for Cross-Border Families</p>
+## 4. Three Key Strategies for Cross-Border Families
 
 1.  **Foreign Tax Credit Optimization**: Taxes paid in Japan can generally be credited against Korean tax liability (and vice versa). However, due to differing deduction limits and calculation methods, it is rarely a 100% offset. A "Tax Simulation" is mandatory before any major transfer.
 2.  **Corporate 'Vessel' Gifting**: Instead of gifting physical real estate, gifting shares of a Japanese holding company can provide more control over valuation and timing, especially for business succession.
@@ -80,7 +80,7 @@ South Korea is currently undergoing a massive shift in its inheritance tax philo
 
 ---
 
-<p class="post-section-heading">5. Conclusion: Wealth Preservation is a Science</p>
+## 5. Conclusion: Wealth Preservation is a Science
 
 At GSF, we believe that investment yield is only half of the equation; **Asset Preservation** is the other. In the Korea-Japan corridor, the tax authorities are highly integrated and share information actively. There are no "loopholes," only "structures." Building the right structure at the acquisition phase is the only way to protect your legacy.
 

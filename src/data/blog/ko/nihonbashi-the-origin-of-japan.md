@@ -34,7 +34,7 @@ references:
 
 이번 이사를 통해, 이 공간이 저에게, 그리고 우리가 만들어갈 수많은 일들에 있어 **‘일본의 진정한 중심점’**이 되기를 간절히 바라는 마음입니다. 모든 것의 원점이 되는 이곳 니혼바시에서, 앞으로 그려나갈 새로운 시작을 지켜봐 주시기 바랍니다.
 
-<p class="post-section-heading">니혼바시 관련 글 더 보기</p>
+## 니혼바시 관련 글 더 보기
 
 - [니혼바시 하마초, 매일 걷는 생활권 가이드](/ko/posts/nihonbashi-hamacho-walking-guide/)
 - [니혼바시 재개발 로드맵: 미쓰이 후속 프로젝트를 읽는 세 가지 축](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)

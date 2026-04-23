@@ -25,7 +25,7 @@ references:
 
 ---
 
-<p class="post-section-heading">1. 긴자: 변하지 않는 가치, 럭셔리의 정점</p>
+## 1. 긴자: 변하지 않는 가치, 럭셔리의 정점
 
 긴자는 유행을 타지 않는 '클래식'의 힘을 보여주는 곳입니다.
 
@@ -34,7 +34,7 @@ references:
 
 ---
 
-<p class="post-section-heading">2. 마루노우치·오테마치: 일본의 미래를 짓는 스카이라인</p>
+## 2. 마루노우치·오테마치: 일본의 미래를 짓는 스카이라인
 
 도쿄역 서쪽으로 펼쳐진 마루노우치는 일본 경제의 사령부입니다.
 
@@ -43,7 +43,7 @@ references:
 
 ---
 
-<p class="post-section-heading">3. DNA 워킹 루트: 1.5km의 자산 가치 탐방</p>
+## 3. DNA 워킹 루트: 1.5km의 자산 가치 탐방
 
 <svg viewBox="0 0 760 220" role="img" aria-label="긴자-마루노우치 워킹 루트" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">긴자 -> 마루노우치 -> 오테마치 워킹 가이드 (2026)</text>
@@ -78,7 +78,7 @@ references:
 
 ---
 
-<p class="post-section-heading">4. 결론: "걷는 것이 투자의 통찰이 된다"</p>
+## 4. 결론: "걷는 것이 투자의 통찰이 된다"
 
 긴자의 츄오도리를 지나 마루노우치 나카도리의 가로수길을 걷다 보면, 도쿄가 어떻게 세계 최고의 안전 자산으로 평가받는지 몸소 느낄 수 있습니다. 2026년 현재 이 길은 단순히 아름다운 풍경을 넘어, 일본 경제의 강력한 회복 탄력성과 미래에 대한 확신을 보여주고 있습니다.
 

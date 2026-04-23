@@ -20,7 +20,7 @@ references:
   - "https://www.jnto.go.jp/eng/"
 ---
 
-<p class="post-section-heading">1. What are the advantages of investing in Japanese real estate?</p>
+## 1. What are the advantages of investing in Japanese real estate?
 
 **Explosive Growth and Asset Cycle Transition:** Moving beyond simple "stability," the market has now clearly entered a phase of **growth**. Although Japan's economic growth rate remained below 2% over the past 30 years, recently, following the COVID-19 pandemic, mansion (apartment) prices in Tokyo's core districts have been skyrocketing, breaking historical highs almost every day. Escaping the long swamp of deflation and riding a full-fledged inflationary upward cycle, I firmly believe the Japanese real estate market has transformed into one of the most dynamically re-evaluated asset classes by global capital.
 
@@ -32,7 +32,7 @@ references:
 
 When you sanity-check numbers and policy trends, pair this article with primary materials from the [Ministry of Land, Infrastructure, Transport and Tourism (MLIT)](https://www.mlit.go.jp/en/) and macro releases from [Statistics Japan](https://www.stat.go.jp/english/). Nothing here is tax or legal advice—rates and registration practice change, so verify the latest rules with qualified professionals.
 
-<p class="post-section-heading">2. What are the key legal and tax knowledge you should know?</p>
+## 2. What are the key legal and tax knowledge you should know?
 
 When investing in real estate in Japan, it is important to equip yourself with knowledge about **market trends, legal regulations, and Japanese communication skills**, while also understanding real estate-related taxes. Taxes borne by real estate investors in Japan include stamp duty, registration and real estate acquisition taxes, and consumption tax. Excluding the marginal stamp duty, the primary taxes are as follows:
 
@@ -50,7 +50,7 @@ After purchasing real estate in Japan, there are taxes and miscellaneous expense
 
 These taxes are mandatory items that investors in Japanese real estate must confirm. It is highly advised to consult with tax or legal experts regarding these specifics. For rates, special measures, and payment mechanics, cross-check [MLIT](https://www.mlit.go.jp/en/) guidance with macro and regional releases from [Statistics Japan](https://www.stat.go.jp/english/).
 
-<p class="post-section-heading">2.1 My own cost-stack worksheet (illustrative SVG)</p>
+## 2.1 My own cost-stack worksheet (illustrative SVG)
 
 <svg viewBox="0 0 780 300" role="img" aria-label="Illustrative annual cost stack for a small Tokyo rental unit" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
   <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">Annual cost stack (sample 100 rent units)</text>
@@ -71,7 +71,7 @@ These taxes are mandatory items that investors in Japanese real estate must conf
 
 _Method note: this chart is a planning worksheet (not a market average). Replace each block with your own property assumptions before using it._
 
-<p class="post-section-heading">3. Utilizing Local Real estate Networks</p>
+## 3. Utilizing Local Real estate Networks
 
 Nowadays in investing, digital research is becoming just as crucial as physical scouting. Fortunately, there are reliable platforms we can reference for Japanese real estate investments. In Japan, websites such as **Suumo, Homes, At Home, and Real Estate Yahoo** are very popular. These websites provide information on properties for sale or rent, and can connect you with local real estate agents who can assist in navigating the market.
 
@@ -89,7 +89,7 @@ Many investors still anchor on the long post-bubble period. However, the present
 
 After purchasing, Japan's highly developed professional maintenance and meticulous tenant management services allow investors to comfortably generate stable cash flows. Moving beyond simply securing conservative rental yields like years past, a genuine window of opportunity has opened where I can now actively expect Capital Gains. Of course, thorough review of primary tax and legal regulations remains absolutely indispensable. Moving forward, I will consistently share my sharp and in-depth analytical reports to help seize opportunities amidst this massive paradigm shift in assets.
 
-<p class="post-section-heading">Further reading in this series</p>
+## Further reading in this series
 
 - [5 Things to Know About Investing in Japan REITs (J-REITs)](/posts/j-reit-five-things-to-know/)
 - [Hotel REITs vs Office REITs: Which Recovered More After COVID?](/posts/hotel-reit-vs-office-reit-post-covid/)

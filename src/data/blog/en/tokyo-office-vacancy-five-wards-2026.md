@@ -26,7 +26,7 @@ Concluding that the market is universally booming simply because vacancy is low 
 
 ---
 
-<p class="post-section-heading">1. Return to the 2% Range: Interpreting Lagging Signals</p>
+## 1. Return to the 2% Range: Interpreting Lagging Signals
 
 As of Q1 2026, the average vacancy rate in Tokyo’s 5 central wards (Chiyoda, Chuo, Minato, Shinjuku, and Shibuya) has dropped to **2.22%**. This is near pre-pandemic levels and follows a consistent downward trend observed throughout 2025.
 
@@ -70,7 +70,7 @@ However, I view this number as a "warning" rather than a "celebration." Vacancy 
 
 ---
 
-<p class="post-section-heading">2. Comparing the 5 Wards: Different Engines for Different Markets</p>
+## 2. Comparing the 5 Wards: Different Engines for Different Markets
 
 The central 5 wards are not a monolithic market. Each ward is driven by unique demand profiles and supply pipelines.
 
@@ -88,7 +88,7 @@ Chuo, the financial hub, and Shinjuku, the transportation node, see steady deman
 
 ---
 
-<p class="post-section-heading">3. Critical Pivots for Investors in 2026</p>
+## 3. Critical Pivots for Investors in 2026
 
 What are the common traps when looking at Tokyo office data today?
 
@@ -98,7 +98,7 @@ What are the common traps when looking at Tokyo office data today?
 
 ---
 
-<p class="post-section-heading">4. Execution Memo: How to Read the Data</p>
+## 4. Execution Memo: How to Read the Data
 
 I recommend the following routine for monitoring the Tokyo office market:
 

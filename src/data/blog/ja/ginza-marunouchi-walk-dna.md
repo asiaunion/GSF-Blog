@@ -25,7 +25,7 @@ references:
 
 ---
 
-<p class="post-section-heading">1. 銀座：不変の価値、ラグジュアリーの頂点</p>
+## 1. 銀座：不変の価値、ラグジュアリーの頂点
 
 銀座は、流行に左右されない「クラシック」の力を証明し続けている場所です。
 
@@ -34,7 +34,7 @@ references:
 
 ---
 
-<p class="post-section-heading">2. 丸の内・大手町：日本の未来を築くスカイライン</p>
+## 2. 丸の内・大手町：日本の未来を築くスカイライン
 
 東京駅の西側に広がる丸の内は、日本経済の司令塔です。
 
@@ -43,7 +43,7 @@ references:
 
 ---
 
-<p class="post-section-heading">3. DNAウォーキングルート：1.5kmの資産価値探訪</p>
+## 3. DNAウォーキングルート：1.5kmの資産価値探訪
 
 <svg viewBox="0 0 760 220" role="img" aria-label="銀座・丸の内 ウォーキングルートガイド" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">銀座 -> 丸の内 -> 大手町 ウォーキングガイド (2026)</text>
@@ -78,7 +78,7 @@ references:
 
 ---
 
-<p class="post-section-heading">4. 結論：「歩くことが投資のインサイトになる」</p>
+## 4. 結論：「歩くことが投資のインサイトになる」
 
 銀座の中央通りを抜け、丸の内仲通りの並木道を歩いていると、東京がいかにして世界最高峰の安全資産と評価されているかを肌で感じることができます。2026年現在、この道は単なる美しい風景を超え、日本経済の力強いレジリエンスと未来への確信を物語っています。
 

@@ -27,37 +27,37 @@ Today, in a calm, resident’s voice, I want to outline Mitsui Group’s long-ru
 
 ---
 
-<p class="post-section-heading">1. Why this district reads as a “symbol”</p>
+## 1. Why this district reads as a “symbol”
 
 In the Edo period, Nihonbashi was the starting point of the Gokaidō highways and a hub where water routes and people converged. In 1673, Echigoya—often cited as a forerunner of Mitsui—opened its doors in this neighborhood, and Mitsui’s roots have overlapped with the city center ever since. I understand Mitsui Fudosan’s “Nihonbashi regeneration” as a long project that tries to reconnect a once-flourishing prosperity with today’s street-level experience. According to the official timeline, COREDO Nihonbashi opened in 2004 with the Nihonbashi 1-chōme Mitsui Building; COREDO Muromachi 1 followed in 2010 with the Muromachi Higashi Mitsui Building; then COREDO Muromachi 2 and 3 in 2014, and COREDO Muromachi Terrace in 2019—filling the district in stages rather than all at once. “Mixed-use development” can sound heavy, but walking the ground, it feels less like a one-off event and more like layers of accumulated decisions.
 
 ---
 
-<p class="post-section-heading">2. What the name says: CORE + EDO</p>
+## 2. What the name says: CORE + EDO
 
 COREDO is widely explained as a blend of “core” and “Edo.” One need not overload a mall name with meaning, but the self-image of Nihonbashi as the commercial heart of Tokyo comes through clearly. Facility materials describe COREDO Nihonbashi’s theme as 「時を越えて」—crossing time. I read that less as copying the past than as rearranging what has long been loved in a contemporary editorial idiom.
 
 ---
 
-<p class="post-section-heading">3. COREDO Nihonbashi: an “editor of everyday life” steps from the mile zero marker</p>
+## 3. COREDO Nihonbashi: an “editor of everyday life” steps from the mile zero marker
 
 COREDO Nihonbashi connects directly to Nihonbashi Station, so even on rainy days there is little to worry about. My wife and I go often not only to “shop.” It has become familiar to drop in as one node on a walking route and choose food, small goods, and a place to sit in one pass. “Refinement” here is not only surface gloss—it is also the steadiness that comes from circulation that does not feel careless.
 
 ---
 
-<p class="post-section-heading">4. COREDO Muromachi: the line “Bringing vitality to Japan—from Nihonbashi”</p>
+## 4. COREDO Muromachi: the line “Bringing vitality to Japan—from Nihonbashi”
 
 The official concept copy for COREDO Muromachi 1 is 「日本をにぎわす、日本橋」. Introductory text says the mix runs from Nihonbashi *shinise* rooted in history to new retail formats. For 2 and 3 as well, copy for the “2nd hall” side stresses long-running shops founded more than a century ago alongside stores that compete in new flavors and techniques. What felt “good” on site lined up with those lines for me—not tradition embalmed and moved indoors, but tradition breathing inside today’s store operations and circulation.
 
 ---
 
-<p class="post-section-heading">5. Through an investor’s lens: when “the street” becomes the asset</p>
+## 5. Through an investor’s lens: when “the street” becomes the asset
 
 Seen only as real estate, this district first appears as a stacked hub of office, retail, and cultural uses. But I do not want this piece to stop at “commercial success and higher asset values.” People stay for reasons that price alone cannot explain. Hosting *shinise* is not merely sentimental—it is also the density of retail where brand and trust have accumulated. That density feeds the lived texture of the back streets, and that texture feeds back into how often people live nearby or visit. Of course none of this lets us claim a direct line to the price of any given asset. Still, for anyone trying to read a street over the long horizon, Nihonbashi’s regeneration is a case worth studying.
 
 ---
 
-<p class="post-section-heading">6. Closing</p>
+## 6. Closing
 
 COREDO Nihonbashi and COREDO Muromachi looked to me like bridges between tradition and the present—not only glamour, but a path where old names and craft can continue across new floors. Walking with my wife, that became something we could actually feel. This neighborhood will keep being repaired and layered. Each time, I want to keep asking quietly, as a neighbor, what must not be lost.
 

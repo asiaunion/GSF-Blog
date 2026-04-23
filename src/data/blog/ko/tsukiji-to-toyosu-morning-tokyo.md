@@ -24,7 +24,7 @@ references:
 
 ---
 
-<p class="post-section-heading">1. 츠키지 장외시장: 여전히 뜨거운 도쿄의 주방</p>
+## 1. 츠키지 장외시장: 여전히 뜨거운 도쿄의 주방
 
 도매시장은 떠났지만, 400여 개의 상점이 밀집한 **장외시장(Outer Market)**은 여전히 건재합니다.
 
@@ -34,7 +34,7 @@ references:
 
 ---
 
-<p class="post-section-heading">2. 토요스 천객만래(千客万来): 에도 정취와 현대적 휴식</p>
+## 2. 토요스 천객만래(千客万来): 에도 정취와 현대적 휴식
 
 2024년 2월 오픈한 '천객만래'는 이제 도쿄 동부의 확실한 앵커 시설로 자리 잡았습니다.
 
@@ -43,7 +43,7 @@ references:
 
 ---
 
-<p class="post-section-heading">3. 두 시장의 연결과 동선 제안</p>
+## 3. 두 시장의 연결과 동선 제안
 
 <svg viewBox="0 0 760 220" role="img" aria-label="츠키지-토요스 연계 동선 가이드" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">츠키지 & 토요스 오전 투어 동선 (2026)</text>
@@ -80,7 +80,7 @@ references:
 
 ---
 
-<p class="post-section-heading">4. 투자자의 시선: 워터프론트의 미래 가치</p>
+## 4. 투자자의 시선: 워터프론트의 미래 가치
 
 츠키지에서 토요스로 이어지는 베이 에어리어(Bay Area)는 도쿄에서 가장 역동적인 지각 변동이 일어나는 곳입니다.
 
@@ -89,7 +89,7 @@ references:
 
 ---
 
-<p class="post-section-heading">5. 결론: "과거를 먹고 미래를 본다"</p>
+## 5. 결론: "과거를 먹고 미래를 본다"
 
 츠키지 장외시장에서 참치 스시 한 점을 먹으며 80년의 역사를 느끼고, 토요스의 세련된 온천 시설에서 도쿄만의 미래 야경을 조망해 보십시오. 도쿄의 아침을 여는 이 두 심장은, 여행자에게는 잊지 못할 미식의 추억을, 투자자에게는 도시 성장의 강력한 증거를 제시합니다.
 
