@@ -1,4 +1,7 @@
 ---
+sources:
+  - "https://www.jreast.co.jp/e/"
+  - "https://www.tokyometro.jp/en/"
 title: "Japan Travel Pass: Cover Tokyo, Yokohama, and Mount Fuji all at once"
 pubDatetime: 2026-04-12T00:00:00Z
 description: "A Tokyo resident's look at the JR Tokyo Wide Pass — the 3-day unlimited routes, the Tokyo-Yokohama-Nikko-Mt.Fuji coverage, and where the fare math actually pays off."
@@ -11,6 +14,9 @@ tags:
   - Tokyo
   - Yokohama
 ---
+sources:
+  - "https://www.jreast.co.jp/e/"
+  - "https://www.tokyometro.jp/en/"
 
 * This will be helpful for those – planning a 3-day trip centering around Tokyo and nearby tourist destinations.
 * Japan Travel Pass – Advantages of the JR Tokyo Wide Pass (beyond just price merits).

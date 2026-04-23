@@ -100,3 +100,7 @@ references:
 - [日本不動産投資：法人 vs 個人名義の決定ガイド](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [日本ビザ取得：経営管理・永住権への最短ルート分析](/ja/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [東京都心5区オフィス市場：空室率と供給の最新予測](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
+
+---
+
+*免責事項：本記事は情報提供および教育目的のみで作成されたものであり、投資助言、法的助言、税務指導を構成するものではありません。いかなる財務上の決定を行う前にも、必ず資格を有する専門家にご相談ください。過去の実績は将来の成果を保証するものではありません。*

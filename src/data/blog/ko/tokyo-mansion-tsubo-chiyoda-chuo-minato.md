@@ -89,3 +89,7 @@ references:
 - [도쿄 오피스 공실률: 도심 5구 2026년 전망](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
 - [소형 임대수익률 vs 시세차익 손익분기 분석](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
 - [일본 금리 인상 사이클: J-REIT 투자의 3가지 교훈](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+
+---
+
+*면책 조항: 이 글은 정보 제공 및 교육 목적으로만 작성되었으며, 투자 권유, 법률 자문, 세무 상담을 구성하지 않습니다. 모든 재무적 결정을 내리기 전에 반드시 자격을 갖춘 전문가와 상담하시기 바랍니다. 과거의 수익률이 미래의 결과를 보장하지 않습니다.*

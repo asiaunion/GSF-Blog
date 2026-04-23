@@ -122,3 +122,7 @@ I recommend the following routine for monitoring the Tokyo office market:
 - [Tokyo Mansion Price Comparison: Chiyoda, Chuo, Minato](/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
 - [Small Rental Yield vs Capital Gain Breakeven Analysis](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
 - [Japan Rate Hike Cycle: 3 Lessons for J-REIT Investing](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*

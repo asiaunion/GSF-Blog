@@ -109,3 +109,7 @@ Small-unit investing in Tokyo can be a sensible component of a diversified portf
 - [Tokyo office vacancy: five wards, 2026 view](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Small rental yield vs capital gain breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
 - [Japan rate-hike cycle: three J-REIT lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*

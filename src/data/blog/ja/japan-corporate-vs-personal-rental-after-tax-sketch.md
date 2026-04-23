@@ -108,3 +108,7 @@ references:
 - [日韓相続・贈与税の罠：「10年ルール」のリスク](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
 - [日本ビザ取得ルート：経営管理・高度専門職の要件](/ja/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [2026年東京オフィス市場分析：空室率と供給予測](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
+
+---
+
+*免責事項：本記事は情報提供および教育目的のみで作成されたものであり、投資助言、法的助言、税務指導を構成するものではありません。いかなる財務上の決定を行う前にも、必ず資格を有する専門家にご相談ください。過去の実績は将来の成果を保証するものではありません。*

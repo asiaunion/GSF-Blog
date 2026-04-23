@@ -102,3 +102,7 @@ At GSF, we help investors build the business substance required to turn a proper
 - [Cross-Border Inheritance Tax: The 10-Year Rule](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
 - [Corporate vs Personal Ownership: Tax Comparison](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [Tokyo 5 Wards Office Market Analysis 2026](/posts/tokyo-office-vacancy-five-wards-2026/)
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*

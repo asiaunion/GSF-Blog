@@ -200,3 +200,7 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 - [ ] **NAV**: Check if the current price is at a discount to Net Asset Value (P/NAV < 1) to ensure a margin of safety.
 - [ ] **LTV**: Audit individual REIT financial statements to ensure LTV is stable at the 40-50% level.
 - [ ] **Sectors**: Review the weight of logistics or hotel sectors that can pass on inflation through rent increases.
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*

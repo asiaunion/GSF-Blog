@@ -121,3 +121,7 @@ references:
 - [東京マンション価格比較：千代田・中央・港区の坪単価分析](/ja/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
 - [小型賃貸利回り vs 売却益の損益分岐点分析](/ja/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
 - [日本の金利上昇サイクル：J-REIT投資への3つの教訓](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+
+---
+
+*免責事項：本記事は情報提供および教育目的のみで作成されたものであり、投資助言、法的助言、税務指導を構成するものではありません。いかなる財務上の決定を行う前にも、必ず資格を有する専門家にご相談ください。過去の実績は将来の成果を保証するものではありません。*

@@ -100,3 +100,7 @@ references:
 - [일본 부동산 투자: 법인 vs 개인 명의 결정 가이드](/ko/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [일본 영주권/경영관리 비자 취득 경로 분석](/ko/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [도쿄 5구 오피스 공실률 2%대 진입 분석](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
+
+---
+
+*면책 조항: 이 글은 정보 제공 및 교육 목적으로만 작성되었으며, 투자 권유, 법률 자문, 세무 상담을 구성하지 않습니다. 모든 재무적 결정을 내리기 전에 반드시 자격을 갖춘 전문가와 상담하시기 바랍니다. 과거의 수익률이 미래의 결과를 보장하지 않습니다.*

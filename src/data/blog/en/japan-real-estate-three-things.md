@@ -103,3 +103,7 @@ After purchasing, Japan's highly developed professional maintenance and meticulo
 - [ ] **Site**: Visit the property at least twice at different times to check 'management state' and 'neighbor quality' beyond the data.
 - [ ] **Interest**: Compare variable vs. fixed rate spreads and simulate interest rate hike scenarios over the next 10 years.
 - [ ] **Partner**: Remember that the response speed and reporting quality of your local Property Manager (PM) are key to protecting your yield.
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*

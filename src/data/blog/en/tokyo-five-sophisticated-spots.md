@@ -10,6 +10,11 @@ tags:
   - Travel
   - Lifestyle
   - Daikanyama
+sources:
+  - "https://www.gotokyo.org/en/"
+  - "https://www.fashion-press.net/"
+references:
+  - "https://www.gotokyo.org/en/"
 ---
 
 Having finally emerged from the long tunnel of the pandemic, Japan is presently riding a massive inbound wave, aiming for an astounding 40 million tourists a year, and has completely reclaimed its reputation as a true tourism superpower. Amidst this overwhelming recovery in foot traffic, Tokyo is brimming with immense vitality every single day, both as the nation's capital and a city situated at the absolute forefront of global trends. You might frequently wonder, "Where is the most stylish street in Tokyo?" or "Where are the best cafes and shopping spots?" In reality, there are so many stylish places you'll want to visit, such as cute general stores and trendy cafes, that people often become bewildered about where they should actually go.

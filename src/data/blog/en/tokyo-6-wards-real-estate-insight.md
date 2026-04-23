@@ -87,3 +87,7 @@ In truth, due to fatigue from the explosive surge in late 2024, we saw prices in
 - [ ] **Gap**: Analyze the tsubo-price gap trend between the Core 3 wards (Chiyoda, Minato, Chuo) and the secondary 3 (Shinjuku, Shibuya, Bunkyo).
 - [ ] **Redevelopment**: Verify future supply schedules in areas where major private redevelopment drives land prices, like Shibuya or Toranomon.
 - [ ] **Preference**: Check market liquidity in Bunkyo or Setagaya wards where end-user demand is strong.
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*

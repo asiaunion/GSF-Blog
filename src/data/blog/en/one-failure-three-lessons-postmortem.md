@@ -94,3 +94,7 @@ At GSF, we listen to potential failure stories as closely as we do success stori
 - [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
 - [Managing FX Risks: Principles for the Weak Yen Era](/posts/three-things-when-fx-shakes/)
 - [Corporate vs Personal Ownership: Decision Guide](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+
+---
+
+*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
