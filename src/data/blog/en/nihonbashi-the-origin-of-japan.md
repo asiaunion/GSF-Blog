@@ -26,6 +26,8 @@ references:
 
 I have recently relocated to **Nihonbashi (日本橋)**, which will serve as my new home and the central hub for my activities.
 
+*This essay opens the Nihonbashi Series — a four-part exploration of the district through distinct lenses. Here we examine the **symbolic and historical gravity** of Japan's kilometre zero. The companion posts offer a [street-level walking guide](/posts/nihonbashi-hamacho-walking-guide/), a [retail-heritage study of COREDO](/posts/coredo-nihonbashi-mitsui-redevelopment/), and an [investment-grade pipeline analysis](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/).*
+
 For me, Nihonbashi is not merely a famous local landmark. I want to highlight the profound meaning that Nihonbashi holds. It is an incredibly important and special place that embodies the symbolism of being the **Starting Point of Everything** and the **Origin**.
 
 ---

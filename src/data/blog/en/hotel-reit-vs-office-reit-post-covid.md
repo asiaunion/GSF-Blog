@@ -34,7 +34,7 @@ A useful starting framework is to separate three channels: (a) top-line revenue 
 
 ## 2. Hotels: high torque, high variance
 
-The hotel J-REIT segment has delivered the more dramatic recovery arc. Japan's inbound tourist arrivals surged to approximately 42.7 million in 2025, eclipsing the pre-pandemic record of 31.9 million set in 2019. This tsunami of demand translated into record RevPAR for hotel operators, with Japan Hotel REIT Investment Corporation (JHR) reporting a 14.3 percent year-on-year increase in full-year RevPAR across its variable-rent portfolio during fiscal 2025.
+The hotel J-REIT segment has delivered the more dramatic recovery arc. Japan's inbound tourist arrivals surged to approximately 42.7 million in 2025, eclipsing the pre-pandemic record of 31.9 million set in 2019—and Q1 2026 has already set new monthly records with **10.68 million visitors** in three months alone (JNTO). This tsunami of demand translated into record RevPAR for hotel operators, with Japan Hotel REIT Investment Corporation (JHR) reporting a 14.3 percent year-on-year increase in full-year RevPAR across its variable-rent portfolio during fiscal 2025.
 
 However, the headline numbers obscure important structural nuances that I watch closely:
 
@@ -66,7 +66,7 @@ Neither sector exists in isolation. I monitor four macro-level variables simulta
 
 | Variable | Hotel Impact | Office Impact | Primary Source |
 |----------|-------------|---------------|----------------|
-| BOJ policy rate path | Refinancing cost, cap-rate pressure | Refinancing cost, tenant affordability | [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) |
+| BOJ policy rate path (currently **0.75%**) | Refinancing cost, cap-rate pressure | Refinancing cost, tenant affordability | [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) |
 | Inbound tourism trend | Direct RevPAR driver | Indirect via F&B/retail adjacency | [JNTO](https://www.jnto.go.jp/) |
 | Tenant/consumer credit cycle | Occupancy quality, ADR elasticity | Lease renewal risk, vacancy | [FSA](https://www.fsa.go.jp/en/) |
 | Construction/supply pipeline | New competition, replacement cost floor | Vacancy absorption, rent ceiling | [MLIT](https://www.mlit.go.jp/en/) |
@@ -89,6 +89,8 @@ The execution discipline I follow: define maximum acceptable drawdown per sector
 
 
 <!-- content-depth-v2 -->
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 
 ## Investor Action: Session Summary & Check
 

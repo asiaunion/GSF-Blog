@@ -47,7 +47,9 @@ What mattered was not the rate hike itself but the curve dynamics:
 
 The lesson: a gradual, well-telegraphed rate path with a stable curve is digestible. An abrupt repricing accompanied by curve instability and credit-spread widening is destructive. The source of the stress matters as much as the magnitude.
 
-**The 2024–2025 normalization.** The BOJ's current cycle—exiting YCC (Yield Curve Control) in March 2024, raising rates to 0.25 percent in July 2024, and to 0.50 percent in early 2025—has followed a more measured path. The TSE REIT Index has underperformed equities but avoided a crisis-level drawdown, partly because the curve has steepened modestly rather than inverting or becoming unstable.
+**The 2024–2026 normalization.** The BOJ's current cycle—exiting YCC (Yield Curve Control) in March 2024, raising rates to 0.25 percent in July 2024, to 0.50 percent in early 2025, and further to **0.75 percent** by early 2026—has followed a more measured but persistent path. The TSE REIT Index stood at approximately **1,916 points** as of mid-April 2026, underperforming equities but avoiding a crisis-level drawdown. The 10-year JGB yield has climbed to approximately **2.43 percent** as of April 2026—a level not seen in over a decade—which has meaningfully compressed the yield spread between J-REITs and government bonds.
+
+The curve has steepened modestly rather than inverting, which is the key reason the REIT market has absorbed these hikes without systemic stress. However, the speed of the long-end repricing (10Y JGB rising from ~1.0% in mid-2024 to ~2.43% in April 2026) deserves close attention—this is precisely the kind of curve movement that preceded stress in previous cycles.
 
 For practical monitoring, I track three curve metrics from [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/):
 - **2-year/10-year JGB spread** — positive and widening is supportive; narrowing signals curve flattening stress
@@ -91,16 +93,20 @@ The implication is that sector selection within a J-REIT portfolio is a hidden *
 
 The most common investment mistake I see in the current J-REIT environment is treating public-market yield spreads as a buy signal without stress-testing the sustainability of distributions under rate stress.
 
-As of early 2026, the average J-REIT distribution yield is approximately 4.5–5.0 percent, trading at a spread of 350–400 basis points over the 10-year JGB yield. By historical standards, this spread is above the long-run average of approximately 250–300 basis points. The reflexive conclusion—"J-REITs are cheap relative to bonds"—ignores the possibility that distributions may be cut if refinancing costs rise or if property fundamentals deteriorate.
+As of April 2026, the average J-REIT distribution yield is approximately 4.5–5.0 percent, but the 10-year JGB yield has surged to approximately **2.43 percent**—compressing the effective spread to roughly **200–250 basis points**. This is now **below** the long-run average of approximately 250–300 basis points. The narrative has flipped: what looked like a wide spread cushion at the start of the normalization cycle has been eroded by the speed of the long-end repricing. The reflexive conclusion—"J-REITs are cheap relative to bonds"—is now even more dangerous than before, because the spread cushion that justified that view has largely evaporated.
+
+The TSE REIT Index at ~1,916 (April 2026) reflects this compression. Several REITs are now trading at NAV discounts of 15–25 percent, which creates a bifurcated market: strong fundamentals in the underlying real estate versus weak listed-market pricing driven by rate anxiety.
 
 My execution framework:
 
-1. **Map the debt wall.** Use [JPX](https://www.jpx.co.jp/english/) filings and REIT IR pages to identify what percentage of each REIT's debt matures within 12, 24, and 36 months. Calculate the refinancing cost increase under a +50bp and +100bp scenario.
+1. **Map the debt wall.** Use [JPX](https://www.jpx.co.jp/english/) filings and REIT IR pages to identify what percentage of each REIT's debt matures within 12, 24, and 36 months. With the policy rate now at 0.75% and potentially heading higher, calculate the refinancing cost increase under a +25bp and +50bp scenario from the current base.
 2. **Model distribution sustainability.** For each REIT, build a simplified income model: rental revenue → operating expenses → financing cost (current and stressed) → distributable income. If the stressed scenario requires a distribution cut of more than 15 percent, the current yield is illusory as a buy signal.
-3. **Cross-reference with property fundamentals.** A REIT trading at a wide yield spread but facing rising vacancy, negative rent reversion, and concentrated maturities is cheap for a reason. A REIT trading at a moderate yield spread with strong occupancy, positive rent reversion, and well-laddered debt is the higher-quality entry point.
+3. **Cross-reference with property fundamentals.** Tokyo's 5-ward office vacancy fell to **2.22 percent** in Q1 2026 (Miki Shoji data), and inbound tourism hit a record **10.68 million visitors** in Q1 2026 (JNTO). These are strong underlying fundamentals—but they must be weighed against the financing headwind. A REIT with strong occupancy, positive rent reversion, and well-laddered debt is a genuine value opportunity at a compressed spread; a REIT with stagnant rents and concentrated maturities is a value trap.
 4. **Size for the curve scenario.** If the JGB curve steepens further (short rates rise faster than long rates), floating-rate REITs face disproportionate pressure. If the curve flattens (long rates rise or short rates are cut), fixed-rate REITs face NAV compression but maintain distribution power. Match position sizing to your curve view, or diversify across duration profiles if you have no strong view.
 
 Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate and curve data, [MOF](https://www.mof.go.jp/english/) for government bond issuance and fiscal-policy context, [FSA](https://www.fsa.go.jp/en/) for financial stability reports, and [JPX](https://www.jpx.co.jp/english/) for individual REIT filings and the TSE REIT Index composition.
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 
 
 <!-- content-depth-v2 -->

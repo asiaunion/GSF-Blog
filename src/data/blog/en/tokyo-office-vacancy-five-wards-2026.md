@@ -111,6 +111,8 @@ I recommend the following routine for monitoring the Tokyo office market:
 
 <!-- content-depth-v2 -->
 
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
 
 - [ ] **Supply/Demand**: Check [Miki Shoji](https://www.e-miki.com/market/) data to see if the vacancy rate in your target ward is below 2%.

@@ -80,6 +80,9 @@ For example, if you already know an area has a high fire risk, selecting a prope
 
 
 
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
+
 ## Investor Action: Session Summary & Check
 
 - [ ] **Hazard Map**: Check the ranking of your target area on the [Tokyo Earthquake Risk Map](https://www.kensetsu.metro.tokyo.lg.jp/).

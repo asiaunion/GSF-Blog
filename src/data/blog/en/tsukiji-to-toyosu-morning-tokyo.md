@@ -29,8 +29,19 @@ With the massive redevelopment plan for the former Tsukiji Inner Market site (le
 The wholesale market may have left, but the **Outer Market**, with its 400+ shops, remains as vibrant as ever.
 
 *   **Best Time to Visit**: Between 8:00 AM and 10:00 AM. This is when the market is at its liveliest, and you can avoid the overwhelming lunch crowds. (Note: Most shops close by 2:00 PM.)
-*   **Gastronomic Highlights**: Enjoying a freshly made *Tamagoyaki* (rolled omelet) skewer or standing-only sushi provides a nostalgic taste of old Tokyo.
+*   **Gastronomic Highlights**: Enjoying a freshly made *Tamagoyaki* (rolled omelet) skewer (¥100–200) or standing-only sushi (¥1,500–3,000 per set) provides a nostalgic taste of old Tokyo. For a local favorite, try the *Atsuyaki Tamago Sandwich* at **Shouro** — a crowd-free alternative to the main strip.
 *   **The 2026 Change**: Construction has begun on the 19-hectare former inner market site. The project features a 50,000-seat multi-purpose stadium, high-end hotels, and international convention facilities. Watching this prime real estate—just 15 minutes from Ginza—transform is a fascinating perspective for any investor.
+
+### Tsukiji practical tips
+
+| Item | Detail |
+|------|--------|
+| Nearest station | Tsukijishijo Station (Toei Oedo Line), Exit A1 — 1 min walk |
+| Alternative access | Tsukiji Station (Metro Hibiya Line), Exit 1 — 5 min walk |
+| Opening hours | Most shops 5:00 AM–2:00 PM; closed Sundays + some Wednesdays |
+| Average budget | ¥1,500–3,000 for a full morning snack tour |
+| Restrooms | Public restrooms inside the Outer Market information center |
+| Luggage | Coin lockers at Tsukijishijo Station (¥300–600) |
 
 ---
 
@@ -38,8 +49,19 @@ The wholesale market may have left, but the **Outer Market**, with its 400+ shop
 
 Opened in February 2024, 'Senkyaku Banrai' has become the primary anchor for the Toyosu waterfront area.
 
-*   **Edo-style Food Hall**: This area recreates the atmosphere of the Edo period, offering fresh seafood delivered directly from the adjacent Toyosu Market. While Tsukiji offers a 'raw, authentic' vibe, Toyosu provides a more polished, 'tourist-friendly' experience.
-*   **Manyo Club Onsen**: This hot spring facility brings water from Hakone and Yugawara to the heart of Tokyo. The footbath area overlooking the Rainbow Bridge is the perfect place to unwind.
+*   **Edo-style Food Hall**: This area recreates the atmosphere of the Edo period, offering fresh seafood delivered directly from the adjacent Toyosu Market. While Tsukiji offers a 'raw, authentic' vibe, Toyosu provides a more polished, 'tourist-friendly' experience. Average meal: ¥2,000–5,000.
+*   **Manyo Club Onsen**: This hot spring facility brings water from Hakone and Yugawara to the heart of Tokyo. The footbath area overlooking the Rainbow Bridge is the perfect place to unwind. Entry: ¥3,500 adults (weekday), ¥4,200 (weekend). Towels included.
+*   **Pro-tip: Toyosu Market Gallery** (free entry, 5F of Block 6): Watch tuna auction from the viewing deck starting 5:30 AM. Reservation not required but arrive by 5:00 AM for best seats.
+
+### Toyosu practical tips
+
+| Item | Detail |
+|------|--------|
+| Nearest station | Shijomae Station (Yurikamome Line), Exit 1 — direct connection |
+| Alternative access | Toyosu Station (Metro Yurakucho Line), 10 min walk or free shuttle bus |
+| Opening hours | Senkyaku Banrai: 10:00 AM–9:00 PM; Toyosu Market: closed Sundays + holidays |
+| Average budget | ¥3,000–8,000 (dining + onsen) |
+| Family friendly | Stroller-accessible, kids' menu available at most restaurants |
 
 ---
 

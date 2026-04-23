@@ -22,6 +22,8 @@ references:
 
 ## 1. Nihonbashi is a network thesis, not a parcel thesis
 
+*This is the **investment analysis** post in the Nihonbashi Series. While the [Origin essay](/posts/nihonbashi-the-origin-of-japan/) covers the district's symbolic gravity and the [Walking Guide](/posts/nihonbashi-hamacho-walking-guide/) maps the street-level experience, this piece translates the redevelopment story into a measurable investment framework: flow, resilience, and dwell time.*
+
 I live in the Nihonbashi area, so I watch this redevelopment story not from research reports but from street-level observation—construction fences moving, pedestrian routes shifting, retail tenants rotating. What becomes obvious from this vantage is that Nihonbashi's value creation is cumulative and networked, not parcel-by-parcel.
 
 The district comprises over a dozen separate redevelopment zones orchestrated primarily by Mitsui Fudosan, each designed to connect with the others through underground passages, pedestrian decks, and riverside promenades. Evaluating any single building without its pedestrian and transport context underestimates both the upside potential and the execution risk. The thesis is that interconnected mixed-use clusters generate higher aggregate footfall, longer dwell time, and stronger rent power than isolated towers—but only if the linkages are completed and maintained.
@@ -96,6 +98,8 @@ The beauty of this theme is its durability—Nihonbashi has been Japan's commerc
 
 <!-- content-depth-v2 -->
 
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
 
 - [ ] **Pipeline**: Monitor the tenant status and rental spillover effects of the 'Nihonbashi 1-Chome Central' project due for completion in 2026.

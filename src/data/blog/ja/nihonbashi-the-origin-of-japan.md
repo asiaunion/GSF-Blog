@@ -26,6 +26,8 @@ references:
 
 新たな住まいであり活動の拠点として、**日本橋**へ引っ越してまいりました。
 
+*このエッセイは日本橋シリーズの第一弾です — 四つのレンズでこの街を探求します。ここでは日本のキロメートル・ゼロが持つ**象徴的・歴史的な重力**を考察します。関連記事：[街歩きガイド](/ja/posts/nihonbashi-hamacho-walking-guide/)、[コレドのリテール・老舗研究](/ja/posts/coredo-nihonbashi-mitsui-redevelopment/)、[投資パイプライン分析](/ja/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)。*
+
 ここ日本橋は、私にとって単なる地域の名称ではありません。私は日本橋が持つ深い意味に注目したいと思います。ここは**すべての物事の始まり**であり、**原点（Origin）**であるという象徴性を内包した、非常に重要で特別な場所です。
 
 ---

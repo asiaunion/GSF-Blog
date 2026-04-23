@@ -31,6 +31,9 @@ Now reopened in Azabudai Hills, **teamLab Borderless** is an essential stop on a
 
 *   **Educational Value**: Children learn the concept of 'interaction' by physically engaging with digital art that responds to their movements. Navigating through a maze-like space without a fixed route stimulates creative problem-solving.
 *   **Pro-Tip**: The environment is highly immersive but can be dark or visually intense; keep a close eye on younger toddlers.
+*   **Tickets**: Adults ¥3,800, children (4–12) ¥1,300. Purchase online at [teamlab.art](https://www.teamlab.art/e/borderless-azabudai/) — walk-in slots sell out by 10 AM on weekends.
+*   **Access**: Azabudai Hills, 3 min from Kamiyacho Station (Hibiya Line) or Roppongi-itchome Station (Namboku Line).
+*   **Time needed**: 90–120 minutes. Best for ages 4+.
 
 ---
 
@@ -40,6 +43,9 @@ Located in Ueno Park, this museum offers incredible depth and value.
 
 *   **Highlights**: The massive collection of dinosaur skeletons and the 'Theater 36◯'—a 360-degree spherical dome theater—provide an unforgettable visual experience.
 *   **ComPass**: A dedicated interactive play space for children aged 4 to 6 is available, making it a favorite for families with younger children. (Advance booking highly recommended.)
+*   **Tickets**: Adults ¥630, under 18 free. Special exhibition surcharge: ¥500–1,600.
+*   **Access**: JR Ueno Station Park Exit, 5 min walk. Combine with a visit to Ueno Zoo (¥600) next door.
+*   **Time needed**: 2–3 hours minimum. Best for ages 3+.
 
 ---
 
@@ -49,6 +55,9 @@ Located in Ueno Park, this museum offers incredible depth and value.
 
 *   **Key Exhibit**: The 'Geo-Cosmos,' a giant globe displaying real-time Earth data, and demonstrations of the latest humanoid robots provide inspiration for the future of society.
 *   **Global Access**: All exhibits are labeled in English, making it very accessible for international travelers.
+*   **Tickets**: Adults ¥630, under 18 ¥210, under 6 free.
+*   **Access**: Telecom Center Station (Yurikamome Line), 4 min walk. Combine with a visit to teamLab Planets in nearby Toyosu.
+*   **Time needed**: 2–3 hours. Best for ages 5+.
 
 ---
 
@@ -58,6 +67,9 @@ Located in LaLaport Toyosu, **KidZania** allows children to learn about social s
 
 *   **Job Experience**: Children can try out over 100 professions—from firefighter to pilot—in a realistic environment, earning local currency (*kidZos*) to learn basic economic principles.
 *   **English Programs**: Every Wednesday features many programs conducted in English, making it popular for international visitors.
+*   **Tickets**: Weekday ¥4,000–5,000 (child), ¥2,500 (adult companion). Weekend premium applies. Book at [kidzania.jp](https://www.kidzania.jp/tokyo/).
+*   **Access**: LaLaport Toyosu, 2 min from Toyosu Station (Yurakucho Line). Same complex as UNIQLO and food courts.
+*   **Time needed**: 4–5 hours (half-day recommended). Best for ages 3–15.
 
 ---
 
@@ -65,8 +77,11 @@ Located in LaLaport Toyosu, **KidZania** allows children to learn about social s
 
 Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination for animation lovers.
 
-*   **Experience**: Visitors can see the process of animation creation and watch exclusive short films, gaining insight into the imagination of Studio Ghibli’s masters.
-*   **Booking Required**: Tickets must be booked one month in advance. Even in 2026, they remain extremely difficult to obtain, so plan well ahead.
+*   **Experience**: Visitors can see the process of animation creation and watch exclusive short films, gaining insight into the imagination of Studio Ghibli's masters.
+*   **Booking Required**: Tickets must be booked one month in advance via Lawson Ticket. Even in 2026, they remain extremely difficult to obtain, so plan well ahead. Tickets go on sale on the 10th of each month at 10:00 AM JST.
+*   **Tickets**: Adults ¥1,000, children (4–12) ¥400. Photography prohibited inside.
+*   **Access**: JR Mitaka Station South Exit → Ghibli Museum shuttle bus (¥230, every 20 min) or 15 min walk through Inokashira Park.
+*   **Time needed**: 2–3 hours. Best for all ages.
 
 ---
 
@@ -129,4 +144,4 @@ Tokyo’s museums are not places that provide correct answers; they are places t
 
 - [Tsukiji and Toyosu: The Two Hearts of Tokyo’s Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [Nihonbashi to Hamacho: A Walking Guide of Tradition and Modernity](/posts/nihonbashi-hamacho-walking-guide/)
-- [Beyond Shin-Okubo: The New Map of Tokyo’s Korean Community](/posts/tokyo-korean-community-beyond-shin-okubo/)
+- [Beyond Shin-Okubo: The New Map of Tokyo’s Korean Community](/posts/tokyo-korean-community-beyond-shinokubo/)

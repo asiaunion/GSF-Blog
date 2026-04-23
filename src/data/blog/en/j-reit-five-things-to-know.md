@@ -77,7 +77,7 @@ _Editorial note: screenshots in this post are archival references and may not ma
 
 While average dividend yields hovered over 4% back in 2023, the explosive surge in prime real estate asset values in central Tokyo has slightly compressed these apparent yields recently. Conversely, this is hard proof that the 'Capital Gains' of the underlying assets are rising fiercely.
 
-Currently in 2026, risk sentiment around Japanese assets remains constructive across both listed equities and real assets. Rather than assuming a one-way cycle, I treat this as a scenario exercise where cash-flow resilience and refinancing quality matter as much as momentum.
+Currently in 2026, the BOJ has raised the policy rate to **0.75 percent** and the 10-year JGB yield has risen to approximately **2.43 percent**—compressing the yield spread between J-REITs and government bonds to roughly 200–250 basis points. Risk sentiment around Japanese assets remains constructive on the real-estate fundamental side (vacancy at multi-year lows, record inbound tourism), but the financing environment is the tightest it has been since before the ZIRP era. Rather than assuming a one-way cycle, I treat this as a scenario exercise where cash-flow resilience and refinancing quality matter as much as momentum.
 
 ## 4.1 A simple scenario worksheet (illustrative)
 
@@ -136,7 +136,7 @@ As of the end of September 2023, the total market capitalization of all J-REITs 
 
 ## Data freshness note
 
-Several numeric examples in this article are historical snapshots (mainly 2023 references) preserved for context. Before making any decision, verify the latest monthly disclosures on [J-REIT.jp](https://j-reit.jp/en/) and [Japan REIT](https://www.japan-reit.com/), then cross-check policy context with [BOJ statistics](https://www.boj.or.jp/en/statistics/index.htm/).
+Several numeric examples in this article are historical snapshots (mainly 2023 references) preserved for context. As of **April 2026**, the BOJ policy rate stands at **0.75 %**, the 10-year JGB yield is approximately **2.43 %**, and the TSE REIT Index is at roughly **1,916 points**. Before making any decision, verify the latest monthly disclosures on [J-REIT.jp](https://j-reit.jp/en/) and [Japan REIT](https://www.japan-reit.com/), then cross-check policy context with [BOJ statistics](https://www.boj.or.jp/en/statistics/index.htm/).
 
 <figure class="my-6">
   <picture>

@@ -23,6 +23,8 @@ references:
 
 While the Imperial Palace is the geometric center of Tokyo, Nihonbashi is where the city's 'dynamism' truly began. A commercial hub since the Edo period, Nihonbashi in 2026 has evolved into a unique district where heritage and an ultra-modern skyline coexist through massive redevelopment led by [Mitsui Fudosan](https://www.mitsuifudosan.co.jp/english/).
 
+*Part of the Nihonbashi Series. This post is the **fieldwork piece** — a 2.5km walking route with prices, timetables, and per-sqm data you can verify on foot. For the historical and symbolic backstory, see [Nihonbashi: The Origin of Japan](/posts/nihonbashi-the-origin-of-japan/). For the investment pipeline framework, see [Nihonbashi Redevelopment Roadmap](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/).*
+
 Walking through the glamorous Muromachi, witnessing the transformation of Japan's Wall Street in Kabutocho, and reaching the artisan-filled streets of Hamacho, we learn how Tokyo manages its assets and inherits its culture.
 
 ---
@@ -143,7 +145,7 @@ For both investors and travelers, we recommend walking from Nihonbashi to Hamach
 
 <!-- content-depth-v2 -->
 
-## Walking Action: Session Summary and Check
+## Walking Action: Session Summary & Check
 
 - [ ] **Tradition**: Find the 'Kilometer Zero' marker at the center of Nihonbashi Bridge, the starting point of all roads in Japan.
 - [ ] **Innovation**: Feel the new rhythm of Tokyo finance in front of the giant stock ticker at Kabutocho 'KABUTO ONE'.

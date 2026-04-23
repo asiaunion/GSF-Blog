@@ -111,6 +111,8 @@ references:
 
 <!-- content-depth-v2 -->
 
+
+> **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (三鬼商事 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 반드시 확인하세요.
 ## Investor Action: 핵심 요약 및 점검
 
 - [ ] **수급**: [Miki Shoji](https://www.e-miki.com/market/) 데이터에서 타겟 지역의 공실률이 2% 이하로 떨어졌는지, 임대료 상승세가 실효(Effective) 기준인지 확인하세요.

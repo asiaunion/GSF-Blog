@@ -95,6 +95,8 @@ GSF serves as the bridge between Seoul and Tokyo, ensuring your assets achieve m
 
 <!-- content-depth-v2 -->
 
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
 
 - [ ] **Allocation**: Hedge currency risk naturally by setting your KRW:JPY asset ratio to roughly 7:3.

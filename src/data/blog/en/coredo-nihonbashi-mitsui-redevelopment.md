@@ -17,6 +17,8 @@ references:
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
 ---
 
+*This is the third post in the [Nihonbashi Series](/posts/nihonbashi-the-origin-of-japan/). While the Origin post traces 400 years of commercial DNA and the [Hamacho Walking Guide](/posts/nihonbashi-hamacho-walking-guide/) maps a street-level route, this piece zooms into a single question: how does a modern retail complex keep century-old craft alive — and what does the answer look like from a resident's daily routine?*
+
 Living in Nihonbashi, you start to feel that “history” is not only a story in books. The same goes for the COREDO Nihonbashi and COREDO Muromachi areas my wife and I visit often. Even as you move through polished floors, glass, and lighting, older shops and craft still wait in the alleys and corners of the retail floors. What I liked most was not simply the impression of tall, new buildings, but that long-established shops—what Japan often calls *shinise* (老舗)—are deliberately part of the tenant mix. Commercial success is surely a premise, yet I could also read an attempt to let local color and the value of tradition seep into the space itself.
 
 Today, in a calm, resident’s voice, I want to outline Mitsui Group’s long-running Nihonbashi regeneration and the role COREDO Nihonbashi and Muromachi play within it.

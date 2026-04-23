@@ -82,6 +82,9 @@ In truth, due to fatigue from the explosive surge in late 2024, we saw prices in
 
 
 
+
+> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
+
 ## Investor Action: Session Summary & Check
 
 - [ ] **Gap**: Analyze the tsubo-price gap trend between the Core 3 wards (Chiyoda, Minato, Chuo) and the secondary 3 (Shinjuku, Shibuya, Bunkyo).

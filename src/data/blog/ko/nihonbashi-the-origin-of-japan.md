@@ -26,6 +26,8 @@ references:
 
 새로운 보금자리이자 활동의 거점으로서 **니혼바시(日本橋)**로 이사를 오게 되었습니다.
 
+*이 에세이는 니혼바시 시리즈의 첫 번째 글입니다 — 네 가지 렌즈로 이 지역을 탐구합니다. 이 글에서는 일본의 킬로미터 제로가 지닌 **상징적·역사적 무게**를 살펴봅니다. 함께 읽으면 좋은 글: [거리 레벨 워킹 가이드](/ko/posts/nihonbashi-hamacho-walking-guide/), [코레도의 리테일·헤리티지 연구](/ko/posts/coredo-nihonbashi-mitsui-redevelopment/), [투자 파이프라인 분석](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three/).*
+
 이곳 니혼바시는 저에게 단순한 지역 명소가 아닙니다. 저는 니혼바시가 가진 깊은 의미에 주목하고 싶습니다. 이곳은 **모든 것의 시작점**이자, **원점(Origin)**이라는 상징성을 내포한 굉장히 중요하고 특별한 장소입니다.
 
 ---
