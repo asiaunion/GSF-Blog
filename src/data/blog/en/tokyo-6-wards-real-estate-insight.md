@@ -80,10 +80,7 @@ The profit-generation formula in this market has completely changed. A position 
 In truth, due to fatigue from the explosive surge in late 2024, we saw prices in the core wards undergo a slight correction in 2025 for the first time in 37 months, finding a distinct psychological resistance level. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
 
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 
 ## Investor Action: Session Summary & Check
 

@@ -13,13 +13,13 @@ const { category, lang, class: className, ...attrs } = Astro.props;
 
 const COPY: Record<Category, Record<Lang, string>> = {
   investment: {
-    ko: "※ 본 글은 투자·재무 자문이 아니라 정보 공유 목적의 개인적 관찰입니다. 투자·세무·법률 판단은 반드시 공식 자료와 전문가 상담을 거친 뒤 본인 책임으로 내려주세요.",
-    en: "This article is general information and personal observation only—not investment, tax, or legal advice. Verify official sources and consult qualified professionals; you are responsible for your decisions.",
-    ja: "※ 本記事は投資・税務・法務のアドバイスではなく、情報共有を目的とした個人的な観察です。最終判断は公的情報と専門家への相談のうえ、ご自身の責任で行ってください。",
+    ko: "※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 투자 상품의 매수·매도를 권유하지 않습니다. 투자·세무·법률 판단은 반드시 공식 자료와 전문가 상담을 거친 뒤 본인 책임하에 내려주시기 바랍니다. 글의 작성 시점 이후 시장 상황이 변경될 수 있습니다.",
+    en: "※ This article is for informational purposes and personal analysis only, not a recommendation to buy or sell any specific investment products. Please verify with official sources and consult qualified professionals for investment, tax, or legal advice; you are solely responsible for your decisions. Market conditions may change after the time of writing.",
+    ja: "※ 本記事は情報提供を目的とした個人的な分析であり、特定の投資商品の売買を推奨するものではありません。投資・税務・法務の判断は、公的資料の確認と専門家への相談の上、ご自身の責任で行ってください。記事の執筆時点以降、市場状況が変更される場合があります。",
   },
   safety: {
     ko: "※ 본 글은 재해·안전에 관한 일반 소개이며, 긴급 대피 지침이나 공식 경보를 대체하지 않습니다. 재난 시에는 방송·지자체·소방 등 공식 안내를 최우선으로 따르세요.",
-    en: "This article is a general overview of hazards and safety—not a substitute for emergency instructions or official alerts. In an emergency, follow government and local authority guidance first.",
+    en: "※ This article is a general overview of hazards and safety—not a substitute for emergency instructions or official alerts. In an emergency, follow government and local authority guidance first.",
     ja: "※ 本記事は災害・安全に関する一般的な紹介であり、緊急時の避難指示や公式警報に代わるものではありません。災害時は放送・自治体・消防などの公式情報を最優先してください。",
   },
 };

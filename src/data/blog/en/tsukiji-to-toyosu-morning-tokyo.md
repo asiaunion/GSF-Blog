@@ -93,10 +93,7 @@ The Bay Area corridor stretching from Tsukiji to Toyosu is the most dynamic zone
 
 Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market, then look out at the future night view of Tokyo Bay from the modern spas of Toyosu. These two hearts of Tokyo offer travelers unforgettable memories and provide investors with strong evidence of the city's growth.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content is for general guidance. Shop operations and redevelopment schedules are subject to change. Note that many shops in the Tsukiji Outer Market are closed on Sundays and select Wednesdays.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Tour Action: Session Summary & Check

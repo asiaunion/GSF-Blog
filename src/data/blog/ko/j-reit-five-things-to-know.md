@@ -191,10 +191,7 @@ _계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익
 - [일본 금리 인상 사이클과 J-REIT: 과거 3번의 역사적 교훈](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">면책 문구</p>
-<p>※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 투자 상품의 매수·매도를 권유하지 않습니다. 투자 판단과 책임은 독자 본인에게 있습니다. 글의 작성 시점 이후 내용이 변경될 수도 있습니다.</p>
-</div>
+
 
 ## Investor Action: 핵심 요약 및 점검
 

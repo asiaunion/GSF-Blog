@@ -79,10 +79,7 @@ Thinking that you will make money from FX should be treated as just a potential 
 
 At GSF, we look past the noise of FX to the intrinsic value of the asset. Use the current Yen weakness as a 'strategic window' to diversify your asset portfolio.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content is for general information purposes only and does not constitute a recommendation to buy or sell any currency or investment product. Foreign exchange and overseas real estate investments carry significant risks due to FX fluctuations. Please make decisions carefully at your own risk.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

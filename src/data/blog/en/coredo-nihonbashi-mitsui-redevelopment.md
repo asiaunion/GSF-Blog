@@ -65,15 +65,10 @@ COREDO Nihonbashi and COREDO Muromachi looked to me like bridges between traditi
 
 *From Nihonbashi, Tokyo—notes through an investor’s eye.*
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 
 ## Walking Action: Session Summary & Check
 
 - [ ] **Experience**: Feel the new 'work-live-play' lifestyle proposed by Mitsui Fudosan at the outdoor terrace of 'COREDO Muromachi Terrace'.
 - [ ] **History**: Check the 'Underground Expressway' construction site at Nihonbashi Bridge and imagine the future waterfront landscape.
 - [ ] **Business**: Monitor the pace of Tokyo's new landmark rising behind the fences of the Nihonbashi 1-Chome redevelopment area.
-
-

@@ -80,10 +80,7 @@ In the world of investment, 'not losing' is more important than 'how much you ma
 
 At GSF, we listen to potential failure stories as closely as we do success stories. Removing the thorns behind the flashy yields is the start of what we call **'Warm but Rational Investing.'**
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content is an analysis for educational purposes based on real-world cases. Every investment decision should be made at your own risk. Always consult with legal and tax professionals before committing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

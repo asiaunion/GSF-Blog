@@ -78,10 +78,7 @@ Before deciding on an investment, GSF conducts 'Reputation and Philosophy Due Di
 
 GSF will continue to integrate human warmth into cold data analysis. We believe this is the surest way to protect and grow assets in an era of extreme volatility.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This is an essay sharing GSF's investment philosophy and does not include recommendations or guarantees for any specific product. Final investment decisions should be made carefully based on your own values and analysis.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 

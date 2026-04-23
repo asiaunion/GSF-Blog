@@ -78,10 +78,7 @@ It has been revealed that areas with high risk ratings in Tokyo are primarily co
 For example, if you already know an area has a high fire risk, selecting a property within that region that has relatively lower building density could serve as a means to mitigate that risk. Regarding the risk of building collapse, one must comprehensively consider factors such as the age of the building and whether it meets strict earthquake-resistant architectural standards. Approaching investments armed with this minimum checklist will help safeguard your valuable assets.
 
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 
 ## Investor Action: Session Summary & Check
 

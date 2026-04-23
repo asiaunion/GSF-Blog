@@ -108,10 +108,7 @@ I recommend the following routine for monitoring the Tokyo office market:
 
 **In conclusion, Tokyo office in 2026 is a period of 'Qualitative Restructuring' rather than just 'Numerical Recovery.'** If you are adjusting your asset allocation, prioritize "Hardware that attracts talent" over simply relying on the prestige of the "5 Wards" name.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This post is a personal analysis for informational purposes only and does not constitute investment advice. Investors are responsible for their own decisions. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

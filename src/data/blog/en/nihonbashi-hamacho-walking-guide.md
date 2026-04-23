@@ -89,10 +89,7 @@ Behind Nihonbashi’s glamorous skyline lie centuries of merchant promises and a
 
 For both investors and travelers, we recommend walking from Nihonbashi to Hamacho to experience Tokyo's deepest DNA for yourself.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This guide was written based on local information as of early 2026. Actual schedules for redevelopment and shop operations may vary.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Walking Action: Session Summary & Check

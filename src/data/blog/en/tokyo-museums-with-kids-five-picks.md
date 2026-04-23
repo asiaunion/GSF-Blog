@@ -107,10 +107,7 @@ Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination fo
 
 Tokyo’s museums are not places that provide correct answers; they are places that invite children to ask **"Why?"** In 2026, we hope these intellectual playgrounds broaden your child's perspective and provide meaningful growth for the whole family.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This guide is based on information from early 2026. Booking policies and hours for facilities like teamLab, Ghibli, and KidZania are subject to change; please verify on official websites before visiting.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 

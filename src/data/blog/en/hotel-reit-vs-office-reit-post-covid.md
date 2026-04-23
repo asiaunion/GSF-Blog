@@ -87,10 +87,7 @@ My own framework treats offset-pair allocation: hotel and office REITs as partia
 
 The execution discipline I follow: define maximum acceptable drawdown per sector, size positions to survive the adverse scenario without forced selling, and rebalance based on observable fundamentals (vacancy, RevPAR trend, debt maturity wall) rather than narrative momentum.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

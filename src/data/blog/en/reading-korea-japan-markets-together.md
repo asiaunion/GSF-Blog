@@ -92,10 +92,7 @@ There was a time when Seoul real estate was the only game in town. But the inves
 
 GSF serves as the bridge between Seoul and Tokyo, ensuring your assets achieve maximum efficiency across the East Asian corridor. When you read these two markets as one, your investment opportunities don't just double—they multiply.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content reflects personal views based on general market information and does not recommend the purchase or sale of real estate in any specific country or region. Overseas investments involve country-specific laws and FX risks; always consult with a professional.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

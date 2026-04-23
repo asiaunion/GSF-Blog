@@ -81,10 +81,7 @@ The expansion of the Korean community in Tokyo signifies the growing influence o
 
 As investors, we must pay attention to how these community shifts impact real estate values and business opportunities. GSF will be your reliable partner at the junction of all these networks, ensuring your assets align with the growth of Tokyo.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content is for general information. The status of specific organizations or regions may vary based on local circumstances. For business networking, please verify through official channels.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Community Insight: Session Summary & Check

@@ -97,10 +97,7 @@ The rule I follow: if the thesis fails under two of three scenarios, reduce posi
 
 Use [BOJ](https://www.boj.or.jp/en/statistics/index.htm/) for rate and monetary base context, [Bank of Korea](https://www.bok.or.kr/eng/) for KRW interest rate and capital flow data, and [IMF](https://www.imf.org/en/Home) for multilateral FX and macro frameworks. Cross-reference commercial research (CBRE, JLL, Savills Japan) for real estate-specific FX impact analysis.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

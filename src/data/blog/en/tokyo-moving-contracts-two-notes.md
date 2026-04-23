@@ -73,10 +73,7 @@ A major hurdle for foreigners is the requirement for a 'Joint Guarantor.' Today,
 
 The most important step on move-in day is to **take photos and videos of every scratch and mark in the apartment**. Emailing these to the management company creates a timestamped record that protects you from being wrongly charged for repairs when you leave. A smooth life in Tokyo starts with a meticulous contract review.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This guide provides general information. Always carefully review the 'Important Matters Explanation' (Juyo Jiko Setsumeisho) provided by your agent, as local customs may vary.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

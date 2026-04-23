@@ -57,10 +57,7 @@ For detailed instructions on where to purchase it and how to use it, please refe
 [JR Tokyo Wide Pass | Fares & Passes | JR-EAST (jreast.co.jp)](https://www.jreast.co.jp/multi/en/pass/tokyowidepass.html)
 
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 
 ## Walking Action: Session Summary & Check
 

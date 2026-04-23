@@ -95,10 +95,7 @@ A properly structured small-unit investment should meet three criteria:
 
 Small-unit investing in Tokyo can be a sensible component of a diversified portfolio, especially for investors with yen-denominated income, long time horizons, and the ability to manage properties directly or through trusted management companies. But the entry point for disciplined analysis is the breakeven spreadsheet, not the sales brochure.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

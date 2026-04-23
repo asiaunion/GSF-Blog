@@ -57,10 +57,7 @@ JR東京ワイドパスの公式サイトには、東京を中心とした近郊
 [JR TOKYO Wide Pass | Fares & Passes | JR-EAST (jreast.co.jp)](https://www.jreast.co.jp/multi/ja/pass/tokyowidepass.html)
 
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">免責事項</p>
-<p>※ 本記事は情報提供を目的とした個人的な分析であり、特定の投資商品の売買を推奨するものではありません。投資判断と責任は読者ご本人にあります。内容は執筆時点以降に変更される可能性があります。</p>
-</div>
+
 
 ## Walking Action: セッション要約と点検
 

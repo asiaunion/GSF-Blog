@@ -84,10 +84,7 @@ Passing through Ginza’s Chuo-dori and walking along the tree-lined Marunouchi 
 
 Investors, when you visit Tokyo, take this 1.5km walk. The future of Japanese real estate and business lies at the end of your footsteps.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This guide is for general information and does not constitute investment advice. Land values and development schedules are subject to change based on official data and local circumstances.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Walking Action: Session Summary & Check

@@ -102,10 +102,7 @@ My execution framework:
 
 Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate and curve data, [MOF](https://www.mof.go.jp/english/) for government bond issuance and fiscal-policy context, [FSA](https://www.fsa.go.jp/en/) for financial stability reports, and [JPX](https://www.jpx.co.jp/english/) for individual REIT filings and the TSE REIT Index composition.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

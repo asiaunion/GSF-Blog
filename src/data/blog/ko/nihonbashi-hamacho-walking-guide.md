@@ -89,10 +89,7 @@ references:
 
 투자자와 여행자 모두에게 권합니다. 니혼바시에서 하마초까지, 도쿄의 가장 깊은 DNA를 직접 걸으며 느껴보시기 바랍니다.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">면책 문구</p>
-<p>※ 본 가이드는 2026년 초 현지 정보를 바탕으로 작성되었습니다. 재개발 완공 시점 및 매장 운영 현황은 실제 방문 시 차이가 있을 수 있습니다.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 

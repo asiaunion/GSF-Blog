@@ -93,10 +93,7 @@ Position sizing should reflect timeline uncertainty, not just conviction in the 
 
 The beauty of this theme is its durability—Nihonbashi has been Japan's commercial heart for four centuries, and the current redevelopment is extending rather than inventing that identity. But durability of theme does not guarantee durability of returns. The discipline is in distinguishing between the story (which is compelling) and the math (which must be tested against adversity before capital is committed).
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

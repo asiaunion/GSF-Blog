@@ -94,10 +94,7 @@ Changing ownership after the purchase is expensive (re-paying registration taxes
 
 Investing in Japan is not just about the property; it's about the "Vessel" you use to hold it. Make sure your vessel is built for the long haul.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content is for general information purposes only and does not constitute professional tax or legal advice. Tax laws in Japan are complex and subject to change. Always consult with a licensed Japanese tax accountant (Zeirishi) before making structural decisions.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

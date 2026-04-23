@@ -82,10 +82,7 @@ Comparing Chiyoda, Chuo, and Minato is not about finding the "cheapest" ward. Ea
 
 The core question is: can you hold through one adverse cycle—rates up 100 basis points, yen strengthening 15 percent, vacancy doubling on your specific unit type—without being forced to sell at distressed pricing? If the answer requires the base case being correct, the position is too large.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>This article is for informational purposes only and reflects personal analysis. It does not recommend buying or selling any specific investment product. Investment decisions and responsibility rest solely with the reader. Content may change after the time of writing.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

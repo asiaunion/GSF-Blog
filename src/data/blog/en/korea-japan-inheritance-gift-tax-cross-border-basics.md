@@ -84,10 +84,7 @@ South Korea is currently undergoing a massive shift in its inheritance tax philo
 
 At GSF, we believe that investment yield is only half of the equation; **Asset Preservation** is the other. In the Korea-Japan corridor, the tax authorities are highly integrated and share information actively. There are no "loopholes," only "structures." Building the right structure at the acquisition phase is the only way to protect your legacy.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This content is for general information purposes only and does not constitute professional tax or legal advice. Cross-border tax laws are extremely complex. Always consult with specialized tax accountants (Zeirishi in Japan, Semusa in Korea) who understand both jurisdictions.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check

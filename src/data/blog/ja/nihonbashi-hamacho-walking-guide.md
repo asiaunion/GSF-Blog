@@ -89,10 +89,7 @@ references:
 
 投資家にとっても旅行者にとっても、日本橋から浜町まで、東京の最も深いDNAを自ら歩いて感じてみてください。
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">免責事項</p>
-<p>※ 本ガイドは2026年初頭の現地情報を基に作成されました。再開発の竣工時期や店舗の営業状況は、実際の訪問時に異なる場合があります。</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Walking Action: セッション要約と点検

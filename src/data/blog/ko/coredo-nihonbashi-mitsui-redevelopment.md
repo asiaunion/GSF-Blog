@@ -66,10 +66,7 @@ references:
 
 *도쿄 니혼바시에서, 투자자의 눈으로 기록합니다.*
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">면책 문구</p>
-<p>※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 투자 상품의 매수·매도를 권유하지 않습니다. 투자 판단과 책임은 독자 본인에게 있습니다. 글의 작성 시점 이후 내용이 변경될 수도 있습니다.</p>
-</div>
+
 
 ## Walking Action: 핵심 요약 및 점검
 

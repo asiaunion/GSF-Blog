@@ -88,10 +88,7 @@ However, if you establish a **Real Estate Management Company**, hire necessary s
 
 At GSF, we help investors build the business substance required to turn a property portfolio into a legitimate visa path.
 
-<div class="post-disclaimer">
-<p class="post-disclaimer__title">Disclaimer</p>
-<p>※ This post provides general information and does not guarantee visa approval. Immigration policies are subject to individual circumstances and frequent changes by the Immigration Services Agency of Japan. Always consult with a licensed Administrative Scrivener (Gyoseishoshi) for legal procedures.</p>
-</div>
+
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check
