@@ -126,7 +126,7 @@ const hubOrder: TopicHubKey[] = [
           hubOrder.map(key => (
             <a
               href={`${locale ? `/${locale}` : ""}/topics/#hub-${key}`}
-              class="rounded-xl border border-border bg-card p-4 transition-colors hover:border-accent"
+              class="group rounded-xl border border-border bg-card p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:border-accent"
             >
               <h3 class="text-base font-semibold text-foreground">{L.topicHubs[key].title}</h3>
               <p class="mt-2 text-sm leading-relaxed text-foreground/75">
@@ -148,7 +148,7 @@ const hubOrder: TopicHubKey[] = [
       </LinkButton>
       <LinkButton
         href={`${locale ? `/${locale}` : ""}/topics/`}
-        class="rounded-full border border-border px-4 py-2 text-sm font-medium hover:border-accent"
+        class="rounded-full border border-border px-4 py-2 text-sm font-medium transition-all duration-300 hover:-translate-y-1 hover:shadow-sm hover:border-accent"
       >
         {L.topicsFromHome}
         <IconArrowRight class="inline-block rtl:-rotate-180" />

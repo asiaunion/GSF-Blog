@@ -16,19 +16,17 @@ const { title, description, ...props } = data;
 <li class="my-6">
   <a
     href={getPath(id, filePath)}
-    class:list={[
-      "inline-block text-lg font-medium text-accent",
-      "underline decoration-solid decoration-1 underline-offset-[0.22em] transition-opacity hover:opacity-90",
-      "decoration-accent/45 hover:decoration-accent",
-      "focus-visible:no-underline focus-visible:opacity-100",
-    ]}
+    class="group block rounded-lg transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
   >
     <Heading
+      class="inline-block text-lg font-medium text-accent underline decoration-solid decoration-1 underline-offset-[0.22em] decoration-accent/45 transition-colors group-hover:decoration-accent"
       style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
     >
       {title}
     </Heading>
+    <div class="mt-1 transition-opacity duration-300 group-hover:opacity-80">
+      <Datetime {...props} />
+    </div>
+    <p class="mt-1 transition-opacity duration-300 group-hover:opacity-80">{description}</p>
   </a>
-  <Datetime {...props} />
-  <p>{description}</p>
 </li>
