@@ -41,15 +41,34 @@ const hubOrder: TopicHubKey[] = [
 <Layout>
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
-    <section id="hero" class:list={["pt-16 pb-12", "border-b border-border"]}>
-      <div class="flex items-start justify-between mb-8">
-        <h1 class="my-4 text-4xl font-extrabold sm:my-8 sm:text-6xl tracking-tight leading-tight">
+    <section id="hero" class="relative pt-24 pb-20 border-b border-border overflow-hidden">
+      <!-- Ambient Background (Aurora) -->
+      <div class="absolute inset-0 z-0 pointer-events-none">
+        <div class="absolute -top-[20%] -left-[10%] w-[60%] h-[60%] rounded-full bg-accent/20 blur-[100px] animate-blob mix-blend-normal dark:mix-blend-screen"></div>
+        <div class="absolute top-[10%] -right-[10%] w-[50%] h-[70%] rounded-full bg-blue-500/15 blur-[100px] animate-blob animation-delay-2000 mix-blend-normal dark:mix-blend-screen"></div>
+        <div class="absolute -bottom-[20%] left-[20%] w-[60%] h-[60%] rounded-full bg-purple-500/15 blur-[120px] animate-blob animation-delay-4000 mix-blend-normal dark:mix-blend-screen"></div>
+      </div>
+
+      <style is:inline>
+        @keyframes blob {
+          0% { transform: translate(0px, 0px) scale(1); }
+          33% { transform: translate(30px, -50px) scale(1.1); }
+          66% { transform: translate(-20px, 20px) scale(0.9); }
+          100% { transform: translate(0px, 0px) scale(1); }
+        }
+        .animate-blob { animation: blob 15s infinite alternate ease-in-out; }
+        .animation-delay-2000 { animation-delay: 2s; }
+        .animation-delay-4000 { animation-delay: 4s; }
+      </style>
+
+      <div class="relative z-10 flex flex-col items-start justify-between mb-10 sm:flex-row">
+        <h1 class="my-4 text-5xl font-extrabold sm:my-8 sm:text-7xl lg:text-8xl tracking-tight leading-tight">
           {L.heroTitleLine1}<br />{L.heroTitleLine2}
         </h1>
         <a
           target="_blank"
           href={`${locale ? `/${locale}` : ""}/rss.xml/`}
-          class="inline-block mt-6 sm:mt-12 bg-foreground text-background px-4 py-2 rounded-full text-sm font-medium hover:scale-105 transition-transform"
+          class="inline-block mt-6 sm:mt-12 bg-foreground text-background px-6 py-3 rounded-full text-sm font-semibold shadow-lg hover:scale-105 hover:shadow-xl transition-all"
           aria-label={L.heroRssAria}
           title={L.heroRssTitle}
           data-cta="rss-subscribe"
@@ -59,31 +78,24 @@ const hubOrder: TopicHubKey[] = [
         </a>
       </div>
 
-      <div class="w-full max-w-2xl mb-8">
-        <p class="text-xl sm:text-2xl font-medium text-foreground/80 leading-relaxed tracking-wide">
+      <div class="relative z-10 w-full max-w-2xl mb-8 backdrop-blur-[2px] bg-background/30 p-2 -ml-2 rounded-lg">
+        <p class="text-xl sm:text-2xl font-medium text-foreground/90 leading-relaxed tracking-wide">
           {L.heroTagline}
         </p>
-        <p class="mt-4 text-lg text-foreground/60 leading-loose">
+        <p class="mt-4 text-lg text-foreground/70 leading-loose">
           {L.heroDescription}
         </p>
       </div>
+
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
-          <div class="mt-4 flex max-sm:flex-col sm:items-center mb-10">
-            <div class="me-2 mb-1 whitespace-nowrap sm:mb-0">{L.socialLinksLabel}</div>
+          <div class="relative z-10 mt-6 flex max-sm:flex-col sm:items-center mb-4">
+            <div class="me-3 mb-1 whitespace-nowrap sm:mb-0 font-medium text-foreground/80">{L.socialLinksLabel}</div>
             <Socials trackingContext="home-hero" />
           </div>
         )
       }
-
-      <div class="w-full h-24 sm:h-36 overflow-hidden rounded shadow-sm opacity-90 transition-opacity hover:opacity-100">
-        <img
-          src="/assets/images/gsf-business-hero.png"
-          alt={L.heroImageAlt}
-          class="w-full h-full object-cover object-[center_25%]"
-        />
-      </div>
     </section>
 
     {
