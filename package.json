@@ -10,25 +10,28 @@
     "astro": "astro",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "cleanup:strikethrough": "python3 scripts/fix_strikethrough.py",
+    "cleanup:integrity": "python3 scripts/fix_integrity.py",
+    "scan:md": "node scripts/detect_duplicate_markdown_sections.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/vercel": "^9.0.5",
+    "@pagefind/default-ui": "^1.4.0",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.6",
     "dayjs": "^1.11.19",
     "lodash.kebabcase": "^4.1.1",
+    "pagefind": "^1.4.0",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.18.3",
     "sharp": "^0.34.5",
     "slugify": "^1.6.6",
-    "tailwindcss": "^4.1.18",
-    "@pagefind/default-ui": "^1.4.0",
-    "pagefind": "^1.4.0"
+    "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
