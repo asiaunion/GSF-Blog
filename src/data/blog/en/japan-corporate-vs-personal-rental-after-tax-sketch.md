@@ -105,6 +105,6 @@ Investing in Japan is not just about the property; it's about the "Vessel" you u
 
 ## Recommended Series
 
-- [Korea-Japan Inheritance Tax: The 10-Year Rule Pitfall](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-- [Japan Visa Paths: Business Manager & Highly Skilled Professionals](/en/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
-- [Tokyo Office Vacancy 2026: Supply and Demand Shifts](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Korea-Japan Inheritance Tax: The 10-Year Rule Pitfall](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+- [Japan Visa Paths: Business Manager & Highly Skilled Professionals](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
+- [Tokyo Office Vacancy 2026: Supply and Demand Shifts](/posts/tokyo-office-vacancy-five-wards-2026/)

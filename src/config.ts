@@ -8,9 +8,9 @@ export const SITE = {
   website: "https://gsfark.com/", // replace this with your deployed domain
   author: "GSF",
   profile: "https://gsfark.com/",
-  desc: "GSF Personal Blog and Portfolio.",
+  desc: "Cross-border investment insights on Tokyo real estate, J-REIT, and Korea-Japan macro — weekly deep dives from Nihonbashi, Tokyo.",
   title: "GSF Blog",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "gsf-og-default.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,

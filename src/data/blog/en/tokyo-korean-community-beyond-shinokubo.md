@@ -92,6 +92,6 @@ As investors, we must pay attention to how these community shifts impact real es
 
 ## Recommended Series
 
-- [Finding a Home in Tokyo: Key Lease Contract Insights](/en/posts/tokyo-moving-contracts-two-notes/)
-- [Japan Visa Paths: Business Manager & Permanent Residency](/en/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
-- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+- [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
+- [Japan Visa Paths: Business Manager & Permanent Residency](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
+- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)

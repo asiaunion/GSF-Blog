@@ -7,6 +7,7 @@ import {
 import { SITE, PUBLIC_PROFILES } from "@/config";
 import "@/styles/global.css";
 import HreflangLinks from "@/components/HreflangLinks.astro";
+import CookieConsent from "@/components/CookieConsent.astro";
 import type { UiLang } from "@/i18n/ui";
 
 type Props = {
@@ -321,7 +322,15 @@ const structuredData = overrideJsonLd ?? {
   <body>
     <slot />
 
+    <CookieConsent lang={currentLang as UiLang} />
+
     <!-- Load full theme logic -->
     <script src="../scripts/theme.ts"></script>
+
+    <!-- Vercel Web Analytics -->
+    <script>
+      import { inject } from "@vercel/analytics";
+      inject();
+    </script>
   </body>
 </html>

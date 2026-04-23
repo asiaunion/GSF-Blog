@@ -95,6 +95,6 @@ At GSF, we believe that investment yield is only half of the equation; **Asset P
 
 ## Recommended Series
 
-- [Corporate vs Personal Ownership: Tax Comparison](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
-- [Japan Visa Routes: PR and Business Manager Fast-Tracks](/en/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
-- [Tokyo Office Market 2026: Vacancy and Rent Trends](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Corporate vs Personal Ownership: Tax Comparison](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+- [Japan Visa Routes: PR and Business Manager Fast-Tracks](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
+- [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)

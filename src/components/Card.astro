@@ -8,9 +8,23 @@ type Props = {
   variant?: "h2" | "h3";
 } & CollectionEntry<"blog">;
 
-const { variant: Heading = "h2", id, data, filePath } = Astro.props;
+const { variant: Heading = "h2", id, data, filePath, body } = Astro.props;
 
-const { title, description, ...props } = data;
+const { title, description, category, ...props } = data;
+
+// Estimate reading time (~200 words/min for dense investment content)
+const wordCount = body?.split(/\s+/).length ?? 0;
+const readingTime = Math.max(1, Math.round(wordCount / 200));
+
+const categoryLabels: Record<string, { label: string; color: string }> = {
+  investment: { label: "Investment", color: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" },
+  safety: { label: "Safety", color: "bg-amber-500/15 text-amber-400 border-amber-500/25" },
+  life: { label: "Life", color: "bg-sky-500/15 text-sky-400 border-sky-500/25" },
+  local: { label: "Local", color: "bg-violet-500/15 text-violet-400 border-violet-500/25" },
+  essay: { label: "Essay", color: "bg-rose-500/15 text-rose-400 border-rose-500/25" },
+};
+
+const cat = category ? categoryLabels[category] : null;
 ---
 
 <li class="my-6">
@@ -18,6 +32,14 @@ const { title, description, ...props } = data;
     href={getPath(id, filePath)}
     class="group block rounded-lg transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
   >
+    <div class="flex items-center gap-2 mb-1">
+      {cat && (
+        <span class={`inline-flex items-center px-2 py-0.5 rounded-md text-[0.7rem] font-medium border ${cat.color}`}>
+          {cat.label}
+        </span>
+      )}
+      <span class="text-[0.7rem] text-foreground/50">{readingTime} min read</span>
+    </div>
     <Heading
       class="inline-block text-lg font-medium text-accent underline decoration-solid decoration-1 underline-offset-[0.22em] decoration-accent/45 transition-colors group-hover:decoration-accent"
       style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}

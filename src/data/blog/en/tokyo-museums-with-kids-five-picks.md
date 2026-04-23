@@ -127,6 +127,6 @@ Tokyo’s museums are not places that provide correct answers; they are places t
 
 ## Recommended Series
 
-- [Tsukiji and Toyosu: The Two Hearts of Tokyo’s Morning](/en/posts/tsukiji-to-toyosu-morning-tokyo/)
-- [Nihonbashi to Hamacho: A Walking Guide of Tradition and Modernity](/en/posts/nihonbashi-hamacho-walking-guide/)
-- [Beyond Shin-Okubo: The New Map of Tokyo’s Korean Community](/en/posts/tokyo-korean-community-beyond-shin-okubo/)
+- [Tsukiji and Toyosu: The Two Hearts of Tokyo’s Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
+- [Nihonbashi to Hamacho: A Walking Guide of Tradition and Modernity](/posts/nihonbashi-hamacho-walking-guide/)
+- [Beyond Shin-Okubo: The New Map of Tokyo’s Korean Community](/posts/tokyo-korean-community-beyond-shin-okubo/)

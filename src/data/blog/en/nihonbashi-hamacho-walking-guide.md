@@ -100,6 +100,6 @@ For both investors and travelers, we recommend walking from Nihonbashi to Hamach
 
 ## Recommended Series
 
-- [Ginza to Marunouchi: A DNA Walking Guide](/en/posts/ginza-marunouchi-walk-dna/)
-- [Tokyo Office Market 2026: Vacancy and Rent Trends](/en/posts/tokyo-office-vacancy-five-wards-2026/)
-- [Japan Real Estate Failures: 3 Lessons Learned](/en/posts/one-failure-three-lessons-postmortem/)
+- [Ginza to Marunouchi: A DNA Walking Guide](/posts/ginza-marunouchi-walk-dna/)
+- [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Japan Real Estate Failures: 3 Lessons Learned](/posts/one-failure-three-lessons-postmortem/)

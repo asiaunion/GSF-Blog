@@ -99,6 +99,6 @@ At GSF, we help investors build the business substance required to turn a proper
 
 ## Recommended Series
 
-- [Cross-Border Inheritance Tax: The 10-Year Rule](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-- [Corporate vs Personal Ownership: Tax Comparison](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
-- [Tokyo 5 Wards Office Market Analysis 2026](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Cross-Border Inheritance Tax: The 10-Year Rule](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+- [Corporate vs Personal Ownership: Tax Comparison](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+- [Tokyo 5 Wards Office Market Analysis 2026](/posts/tokyo-office-vacancy-five-wards-2026/)

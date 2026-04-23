@@ -95,6 +95,6 @@ Investors, when you visit Tokyo, take this 1.5km walk. The future of Japanese re
 
 ## Recommended Series
 
-- [Tokyo Office Market 2026: Vacancy and Rent Analysis](/en/posts/tokyo-office-vacancy-five-wards-2026/)
-- [Tsukiji and Toyosu: The Two Hearts of Tokyo’s Morning](/en/posts/tsukiji-to-toyosu-morning-tokyo/)
-- [Finding a Home in Tokyo: Key Lease Contract Insights](/en/posts/tokyo-moving-contracts-two-notes/)
+- [Tokyo Office Market 2026: Vacancy and Rent Analysis](/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Tsukiji and Toyosu: The Two Hearts of Tokyo’s Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
+- [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)

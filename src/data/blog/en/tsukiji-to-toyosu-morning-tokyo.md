@@ -104,6 +104,6 @@ Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market
 
 ## Recommended Series
 
-- [Tokyo Office Market 2026: Vacancy and Rent Trends](/en/posts/tokyo-office-vacancy-five-wards-2026/)
-- [Post-Mortem: 3 Lessons from Japan Real Estate Failures](/en/posts/one-failure-three-lessons-postmortem/)
-- [Ginza-Marunouchi Walking Guide](/en/posts/ginza-marunouchi-walk-dna/)
+- [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Post-Mortem: 3 Lessons from Japan Real Estate Failures](/posts/one-failure-three-lessons-postmortem/)
+- [Ginza-Marunouchi Walking Guide](/posts/ginza-marunouchi-walk-dna/)

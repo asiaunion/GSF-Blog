@@ -84,6 +84,6 @@ The most important step on move-in day is to **take photos and videos of every s
 
 ## Recommended Series
 
-- [Tokyo Office Market 2026: Vacancy and Rent Analysis](/en/posts/tokyo-office-vacancy-five-wards-2026/)
-- [Japan Real Estate: Corporate vs Personal Ownership](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
-- [Managing FX Risks in a Weak Yen Era](/en/posts/three-things-when-fx-shakes/)
+- [Tokyo Office Market 2026: Vacancy and Rent Analysis](/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Japan Real Estate: Corporate vs Personal Ownership](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+- [Managing FX Risks in a Weak Yen Era](/posts/three-things-when-fx-shakes/)

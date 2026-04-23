@@ -90,9 +90,9 @@ GSF will continue to integrate human warmth into cold data analysis. We believe 
 
 ## Recommended Essays
 
-- [Post-Mortem of a Failure: 3 Lessons](/en/posts/one-failure-three-lessons-postmortem/)
-- [Seoul and Tokyo: Reading Two Markets as One](/en/posts/reading-korea-japan-markets-together/)
-- [FX Volatility and Investment Principles](/en/posts/three-things-when-fx-shakes/)
+- [Post-Mortem of a Failure: 3 Lessons](/posts/one-failure-three-lessons-postmortem/)
+- [Seoul and Tokyo: Reading Two Markets as One](/posts/reading-korea-japan-markets-together/)
+- [FX Volatility and Investment Principles](/posts/three-things-when-fx-shakes/)
 
 ## Investor Action: Session Summary & Check
 

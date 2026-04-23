@@ -103,6 +103,6 @@ GSF serves as the bridge between Seoul and Tokyo, ensuring your assets achieve m
 
 ## Recommended Series
 
-- [3 Principles for FX Volatility: Managing Yen Risk](/en/posts/three-things-when-fx-shakes/)
-- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-- [Tokyo Office Market 2026: Vacancy and Supply Forecast](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+- [3 Principles for FX Volatility: Managing Yen Risk](/posts/three-things-when-fx-shakes/)
+- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+- [Tokyo Office Market 2026: Vacancy and Supply Forecast](/posts/tokyo-office-vacancy-five-wards-2026/)

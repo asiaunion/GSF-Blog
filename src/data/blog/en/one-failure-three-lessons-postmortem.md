@@ -91,6 +91,6 @@ At GSF, we listen to potential failure stories as closely as we do success stori
 
 ## Recommended Series
 
-- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-- [Managing FX Risks: Principles for the Weak Yen Era](/en/posts/three-things-when-fx-shakes/)
-- [Corporate vs Personal Ownership: Decision Guide](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+- [Managing FX Risks: Principles for the Weak Yen Era](/posts/three-things-when-fx-shakes/)
+- [Corporate vs Personal Ownership: Decision Guide](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)

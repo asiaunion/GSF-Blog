@@ -31,3 +31,4 @@ public/pagefind
 .blog-agent-workflows/
 public/previews/
 .vercel
+artifacts/

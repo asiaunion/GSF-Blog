@@ -90,6 +90,6 @@ At GSF, we look past the noise of FX to the intrinsic value of the asset. Use th
 
 ## Recommended Series
 
-- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-- [Corporate vs Personal Ownership: Tax Comparison](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
-- [Tokyo Office Market 2026: Vacancy and Rent Trends](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+- [Corporate vs Personal Ownership: Tax Comparison](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+- [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
