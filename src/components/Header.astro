@@ -63,9 +63,15 @@ const isActive = (path: string) => {
   >
     <a
       href={l || "/"}
-      class="py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:my-auto sm:text-2xl sm:leading-none"
+      class="py-1 flex items-baseline gap-[1px] whitespace-nowrap sm:my-auto transition-transform duration-300 hover:scale-[1.02] active:scale-95"
+      aria-label={SITE.title}
     >
-      {SITE.title}
+      <span class="text-2xl sm:text-3xl font-extrabold tracking-tighter text-accent" style="font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;">
+        G
+      </span>
+      <span class="text-2xl sm:text-3xl font-bold tracking-tight text-foreground" style="font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;">
+        SF
+      </span>
     </a>
     <nav
       id="nav-menu"

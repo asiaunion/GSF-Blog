@@ -6,18 +6,18 @@
 :root,
 html[data-theme="light"] {
   --background: #fdfdfd;
-  --foreground: #282728;
-  --accent: #006cac;
+  --foreground: #1a1a1a;
+  --accent: #0f4d22;
   --muted: #e6e6e6;
   --border: #ece9e9;
 }
 
 html[data-theme="dark"] {
-  --background: #212737;
-  --foreground: #eaedf3;
-  --accent: #ff6b01;
-  --muted: #343f60;
-  --border: #ab4b08;
+  --background: #111111;
+  --foreground: #f4f4f5;
+  --accent: #34d399;
+  --muted: #2a2a2a;
+  --border: #333333;
 }
 
 @theme inline {
