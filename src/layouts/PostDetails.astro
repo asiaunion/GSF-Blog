@@ -18,6 +18,8 @@ import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
 import { PUBLIC_PROFILES } from "@/config";
 import PostDisclaimer from "@/components/PostDisclaimer.astro";
+import NewsletterForm from "@/components/NewsletterForm.astro";
+import GiscusComments from "@/components/GiscusComments.astro";
 import { getUi, type UiLang } from "@/i18n/ui";
 
 type Props = {
@@ -239,6 +241,10 @@ const nextPost =
         <Socials trackingContext="post-follow" />
       </div>
     </section>
+
+    <NewsletterForm variant="card" lang={navLang} />
+
+    <GiscusComments lang={navLang} />
 
     <hr class="my-6 border-border border-solid" />
 
