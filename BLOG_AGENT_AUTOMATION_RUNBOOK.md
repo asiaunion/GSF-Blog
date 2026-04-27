@@ -35,7 +35,7 @@
   - 제목-본문 핵심 토큰 정합성 점검
   - 하드 게이트 미충족 시 즉시 발행 차단
 
-## Telegram commands (GSF_Research_Agent)
+## Telegram commands (GSF-Research)
 - `/blog_help`
 - `/blog_start <키워드>`
 - `/blog_memo <메모>`
@@ -52,7 +52,7 @@
 - 구버전 별칭도 당분간 동작: `/blog_start_docs`, `/blog_sync_docs`, `/blog_translate_docs`, `/blog_publish_docs`
 
 ## Docs session mapping
-- 파일: `GSF_Research_Agent/.blog_workflow_sessions.json`
+- 파일: `GSF-Research/.blog_workflow_sessions.json`
 - 저장 구조(채팅 단위):
   - `workflow_id`
   - `docs.ko_doc_id`, `docs.ko_doc_url`
@@ -140,5 +140,5 @@
 - Public tunnel:
   - `cloudflared tunnel --url http://localhost:4343 --no-autoupdate`
 - Save tunnel URL to:
-  - `/Users/gsf/.gemini/antigravity/scratch/GSF_Research_Agent/.preview_public_url`
+  - `/Users/gsf/.gemini/antigravity/scratch/GSF-Research/.preview_public_url`
 - `/blog_preview` reads this URL file and sends external preview link.
