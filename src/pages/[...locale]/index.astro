@@ -22,6 +22,7 @@ import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import { getUi, type UiLang } from "@/i18n/ui";
 import { TOPIC_HUB_SLUGS, type TopicHubKey } from "@/data/topicHubs";
+import NewsletterForm from "@/components/NewsletterForm.astro";
 
 const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
 const L = getUi(lang as UiLang);
@@ -96,6 +97,10 @@ const hubOrder: TopicHubKey[] = [
           </div>
         )
       }
+
+      <div class="relative z-10">
+        <NewsletterForm variant="inline" lang={lang as UiLang} />
+      </div>
     </section>
 
     {
