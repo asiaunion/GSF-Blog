@@ -69,7 +69,7 @@ sources:
 
 非居住者の方は、パスポート＋公証済みのAffidavit of Identityで印鑑証明を代替できます。
 
-> 📖 [日本不動産 知っておくべき3つのこと](/ja/posts/japan-real-estate-three-things) | [東京の契約で注意すべき2点](/ja/posts/tokyo-moving-contracts-two-notes)
+> 📖 [購入手続き完全攻略 — 8ステップ実践ガイド](/ja/posts/tokyo-buying-process-step-by-step) | [日本不動産 知っておくべき3つのこと](/ja/posts/japan-real-estate-three-things) | [東京の契約で注意すべき2点](/ja/posts/tokyo-moving-contracts-two-notes)
 
 ---
 
