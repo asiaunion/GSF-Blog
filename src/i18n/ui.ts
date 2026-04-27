@@ -91,6 +91,17 @@ const ui = {
       "Build the project at least once to load Pagefind search locally.",
     backButton: "Go back",
     dateUpdatedLabel: "Updated:",
+    newsletterTitle: "Stay informed",
+    newsletterBody:
+      "Get weekly Tokyo real estate insights, J-REIT analysis, and Korea-Japan macro updates delivered to your inbox.",
+    newsletterEmailLabel: "Email address",
+    newsletterPlaceholder: "your@email.com",
+    newsletterCta: "Subscribe",
+    newsletterDisclaimer:
+      "No spam. Unsubscribe anytime. Your email stays private.",
+    commentsTitle: "Discussion",
+    commentsDescription:
+      "Share your thoughts — powered by GitHub Discussions.",
     topicHubs: {
       urbanInvestment: {
         title: "Urban investment insight",
@@ -196,6 +207,17 @@ const ui = {
       "Pagefind 검색을 보려면 최소 한 번은 프로젝트를 빌드하세요.",
     backButton: "뒤로",
     dateUpdatedLabel: "수정:",
+    newsletterTitle: "인사이트 받아보기",
+    newsletterBody:
+      "도쿄 부동산 분석, J-REIT, 한일 거시 동향을 매주 이메일로 보내드립니다.",
+    newsletterEmailLabel: "이메일 주소",
+    newsletterPlaceholder: "your@email.com",
+    newsletterCta: "구독하기",
+    newsletterDisclaimer:
+      "스팸 없음. 언제든 구독 해지 가능. 이메일은 안전하게 보호됩니다.",
+    commentsTitle: "댓글",
+    commentsDescription:
+      "의견을 남겨주세요 — GitHub Discussions 기반입니다.",
     topicHubs: {
       urbanInvestment: {
         title: "도시형 투자 인사이트",
@@ -301,6 +323,17 @@ const ui = {
       "Pagefind の検索を表示するには、一度プロジェクトをビルドしてください。",
     backButton: "戻る",
     dateUpdatedLabel: "更新:",
+    newsletterTitle: "インサイトを受け取る",
+    newsletterBody:
+      "東京不動産分析、J-REIT、日韓マクロ動向を毎週メールでお届けします。",
+    newsletterEmailLabel: "メールアドレス",
+    newsletterPlaceholder: "your@email.com",
+    newsletterCta: "購読する",
+    newsletterDisclaimer:
+      "スパムなし。いつでも解除可能。メールは安全に保護されます。",
+    commentsTitle: "ディスカッション",
+    commentsDescription:
+      "ご意見をお聞かせください — GitHub Discussionsベースです。",
     topicHubs: {
       urbanInvestment: {
         title: "都市型投資インサイト",
