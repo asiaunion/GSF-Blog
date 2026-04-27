@@ -81,7 +81,7 @@ sources:
 - **주민표 불가** → 본국 공증 서류로 대체
 - 은행 계좌 개설이 까다로우므로 **에스크로 또는 사법서사 예치금** 활용
 
-> 📖 **심층 읽기**: [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things) | [도쿄 이사·계약 시 주의할 2가지](/ko/posts/tokyo-moving-contracts-two-notes)
+> 📖 **심층 읽기**: [구매 절차 완전 정복 — 8단계 실전 가이드](/ko/posts/tokyo-buying-process-step-by-step) | [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things) | [도쿄 이사·계약 시 주의할 2가지](/ko/posts/tokyo-moving-contracts-two-notes)
 
 ---
 

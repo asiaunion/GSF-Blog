@@ -69,7 +69,7 @@ The key is the **tsubo × yield × liquidity** triangle.
 
 Non-residents: passport + notarized affidavit replaces *inkan*. No *jūminhyō* — use home-country notarized docs. Use escrow or scrivener trust accounts.
 
-> 📖 [3 Things About Japan RE](/en/posts/japan-real-estate-three-things) | [Contract Traps in Tokyo](/en/posts/tokyo-moving-contracts-two-notes)
+> 📖 [Buying Process Deep-Dive: 8-Step Guide](/en/posts/tokyo-buying-process-step-by-step) | [3 Things About Japan RE](/en/posts/japan-real-estate-three-things) | [Contract Traps in Tokyo](/en/posts/tokyo-moving-contracts-two-notes)
 
 ---
 
