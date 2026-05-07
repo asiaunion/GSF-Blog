@@ -5,7 +5,7 @@ pubDatetime: 2026-04-08T10:00:00Z
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-small-rental-yield-vs-capital-gain-breakeven-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-small-rental-yield-vs-capital-gain-breakeven-hero.webp"
 tags:
   - 利回り
   - キャピタルゲイン

@@ -5,7 +5,7 @@ pubDatetime: 2026-04-10T11:00:00Z
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-corporate-vs-personal-rental-after-tax-sketch-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/japan-corporate-vs-personal-rental-after-tax-sketch-hero.webp"
 tags:
   - 日本不動産
   - 税務戦略

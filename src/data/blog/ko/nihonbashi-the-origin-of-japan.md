@@ -5,7 +5,7 @@ description: "일본의 중심점, 도로원표가 있는 니혼바시로 새롭
 author: GSF
 lang: ko
 category: essay
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-the-origin-of-japan-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-the-origin-of-japan-hero.webp"
 tags:
   - 에세이
   - 니혼바시

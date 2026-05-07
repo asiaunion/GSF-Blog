@@ -5,7 +5,7 @@ pubDatetime: 2026-05-01T08:00:00Z
 author: GSF
 lang: ja
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-korean-community-beyond-shinokubo-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-korean-community-beyond-shinokubo-hero.webp"
 tags:
   - 東京生活
   - 韓国人コミュニティ

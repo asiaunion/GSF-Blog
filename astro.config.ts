@@ -79,6 +79,12 @@ export default defineConfig({
         context: "client",
         optional: true,
       }),
+      /** GA4 Measurement ID, e.g. G-XXXXXXXXXX */
+      PUBLIC_GA4_MEASUREMENT_ID: envField.string({
+        access: "public",
+        context: "client",
+        optional: true,
+      }),
     },
   },
   experimental: {

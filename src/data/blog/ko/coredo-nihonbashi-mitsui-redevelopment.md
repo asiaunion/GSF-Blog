@@ -7,7 +7,7 @@ tags: ["도쿄", "니혼바시", "코레도", "재개발", "도쿄라이프"]
 lang: ko
 category: local
 draft: false
-ogImage: "https://gsfark.com/assets/images/coredo-nihonbashi-post-visual-mood.png"
+ogImage: "https://gsfark.com/assets/images/coredo-nihonbashi-post-visual-mood.webp"
 sources:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"

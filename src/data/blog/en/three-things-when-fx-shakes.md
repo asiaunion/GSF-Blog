@@ -5,7 +5,7 @@ pubDatetime: 2026-04-17T10:00:00Z
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/three-things-when-fx-shakes-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/three-things-when-fx-shakes-hero.webp"
 tags:
   - JapanRealEstate
   - YenStrategy

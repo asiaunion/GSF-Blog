@@ -5,7 +5,7 @@ pubDatetime: 2026-03-30T10:00:00Z
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-office-vacancy-five-wards-2026-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-office-vacancy-five-wards-2026-hero.webp"
 tags:
   - 東京不動産
   - オフィス市場

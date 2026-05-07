@@ -7,7 +7,7 @@ tags: ["東京", "日本橋", "コレド", "再開発", "東京ライフ"]
 lang: ja
 category: local
 draft: false
-ogImage: "https://gsfark.com/assets/images/coredo-nihonbashi-post-visual-mood.png"
+ogImage: "https://gsfark.com/assets/images/coredo-nihonbashi-post-visual-mood.webp"
 sources:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
