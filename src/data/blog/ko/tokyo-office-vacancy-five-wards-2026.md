@@ -1,7 +1,7 @@
 ---
 title: "도쿄 오피스 공실률 2%대 진입: 도심 5구 수급 지도와 2026년 반격의 조건"
 description: "2020년 이후 최저치를 기록 중인 도쿄 도심 5구 오피스 시장. Miki Shoji 최신 데이터와 하이엔드 오피스 쏠림 현상을 바탕으로, 치요다·주오·미나토·신주쿠·시부야의 수급 지도와 투자자가 주목해야 할 변곡점을 분석합니다."
-pubDatetime: 2026-04-19T02:00:00Z
+pubDatetime: 2026-03-30T10:00:00Z
 author: GSF
 lang: ko
 category: investment

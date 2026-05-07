@@ -1,7 +1,7 @@
 ---
 title: "日本不動産投資の税務戦略：個人所有 vs 法人所有の徹底比較"
 description: "物件選びの次に重要なのが「所有構造」の決定です。最高55%の個人累進課税と、実効税率約30-34%の法人税を比較し、売却時の「5年ルール」が投資収益に与える影響を分析します。"
-pubDatetime: 2026-04-20T03:00:00Z
+pubDatetime: 2026-04-10T11:00:00Z
 author: GSF
 lang: ja
 category: investment

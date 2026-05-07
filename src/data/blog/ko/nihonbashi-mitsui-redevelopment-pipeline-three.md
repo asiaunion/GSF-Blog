@@ -1,7 +1,7 @@
 ---
 title: "니혼바시 재개발 로드맵: 미츠이 주도 프로젝트를 읽는 3가지 축"
-description: "미츠이부동산이 주도하는 니혼바시 파이프라인을 상업 아케이드, 역 연결, 방재, 녹지의 관점에서 읽어내는 프레임워크입니다."
-pubDatetime: 2026-04-20T01:00:00Z
+description: "미츠이부동산이 주도하는 니혼바시 파이프라인을 상업 아케이드·역사 연결·방재 인프라·녹지 조성의 관점에서 읽어내고, 동선(Flow)·방재(Resilience)·체류 시간(Dwell Time) 3가지 축으로 투자 기회를 평가하는 프레임워크를 제시합니다."
+pubDatetime: 2026-04-06T09:00:00Z
 author: GSF
 lang: ko
 category: investment

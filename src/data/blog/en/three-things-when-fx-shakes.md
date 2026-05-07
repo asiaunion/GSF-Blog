@@ -1,7 +1,7 @@
 ---
 title: "3 Principles for Japan Real Estate Investors Amidst FX Volatility"
 description: "Is the yen weakness ending, or is it the new normal? In 2026, with the USD/JPY fluctuating between 150-160 and the Bank of Japan shifting its policy, we present a strategic framework for managing currency risk and securing returns."
-pubDatetime: 2026-04-22T04:00:00Z
+pubDatetime: 2026-04-17T10:00:00Z
 author: GSF
 lang: en
 category: investment

@@ -1,7 +1,7 @@
 ---
 title: "2024–2025 Tokyo Core 6 Wards Real Estate Report: The Safe Haven Paradox and the Reality of 2% Yields"
 description: "Tokyo's core 6 wards continue to break through the ceiling amidst a weak yen and massive capital inflow. I explore exactly why global capital keeps pouring in despite rental yields plunging to 2-3%, backed by both institutional data and firsthand market experience."
-pubDatetime: 2026-04-15T01:00:00Z
+pubDatetime: 2026-03-27T08:00:00Z
 author: "GSF"
 lang: en
 category: investment

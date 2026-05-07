@@ -3,7 +3,7 @@ sources:
   - "https://www.jreast.co.jp/e/"
   - "https://www.tokyometro.jp/en/"
 title: "日本の交通パス、東京・横浜から富士山までこれ一枚で"
-pubDatetime: 2026-04-12T00:00:00Z
+pubDatetime: 2026-03-23T11:00:00Z
 description: "東京在住者の視点から、JR東京ワイドパスで3日間乗り放題となる路線、東京・横浜・日光・富士山までのカバー範囲、そして料金面で本当にお得になる動線を整理します。"
 author: GSF
 lang: ja

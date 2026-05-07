@@ -1,7 +1,7 @@
 ---
 title: "What COREDO Nihonbashi and Muromachi Connect: Mitsui Group as a Bridge for Nihonbashi Regeneration"
 description: "From a Nihonbashi resident’s perspective—how COREDO Nihonbashi and COREDO Muromachi align long-established shops (老舗) with modern mixed-use development, and what walking the district reveals about local identity."
-pubDatetime: 2026-04-18T06:00:00Z
+pubDatetime: 2026-03-28T09:00:00Z
 author: "GSF"
 tags: ["Tokyo", "Nihonbashi", "COREDO", "Redevelopment", "Tokyo life"]
 lang: en

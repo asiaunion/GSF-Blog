@@ -1,7 +1,7 @@
 ---
 title: "円安と韓国投資家の日本資産配分：3つのFXシナリオ"
-description: "JPY/KRW/USDパスを単純化し、日本実物資産・J-REIT・現金に対する韓国投資家のストレステストを整理します。"
-pubDatetime: 2026-04-21T01:00:00Z
+description: "歴史的円安環境におけるJPY/KRW/USDの3つの為替経路シナリオを設定し、日本実物不動産・J-REIT・現金に対する韓国投資家の資産配分ストレステストと最適化戦略を整理します。"
+pubDatetime: 2026-04-04T08:00:00Z
 author: GSF
 lang: ja
 category: investment

@@ -1,7 +1,7 @@
 ---
 title: "ホテルREIT vs オフィスREIT：コロナ後、どちらが回復したのか"
-description: "ADR・稼働率とオフィスリーシングの回復速度をJ-REITの視点で比較し、金利・観光・業績がもたらすタイムラグを整理します。"
-pubDatetime: 2026-04-19T05:00:00Z
+description: "コロナ後のホテルJ-REITとオフィスJ-REITの回復速度をADR・稼働率・空室率データで比較し、BOJ金利経路とインバウンド観光トレンドが各アセットクラスに与える時差と投資インプリケーションを整理します。"
+pubDatetime: 2026-04-03T07:00:00Z
 author: GSF
 lang: ja
 category: investment

@@ -3,7 +3,7 @@ sources:
   - "https://www.jreast.co.jp/e/"
   - "https://www.tokyometro.jp/en/"
 title: "일본 교통 패스, 도쿄와 요코하마, 후지산까지 한번에"
-pubDatetime: 2026-04-12T00:00:00Z
+pubDatetime: 2026-03-23T11:00:00Z
 description: "JR도쿄와이드패스로 도쿄·요코하마·닛코·후지산 권역까지 3일 무제한으로 이동하는 동선과 가격 메리트를, 도쿄 거주자의 실사용 감각으로 정리합니다."
 author: GSF
 lang: ko

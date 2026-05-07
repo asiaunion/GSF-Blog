@@ -1,7 +1,7 @@
 ---
 title: "日本ビザ取得ルート徹底解説：永住権・経営管理・J-Findの最新動向"
 description: "日本はグローバル人材や投資家に対して門戸を広げています。2025/2026年の法改正、経営管理ビザの資本金要件、そして「高度専門職」による最短1年の永住権取得ルートを詳しく分析します。"
-pubDatetime: 2026-04-20T02:00:00Z
+pubDatetime: 2026-04-11T07:00:00Z
 author: GSF
 lang: ja
 category: investment

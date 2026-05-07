@@ -1,7 +1,7 @@
 ---
 title: "일본 금리 인상 사이클과 J-REIT: 우리가 역사에서 배워야 할 3가지"
 description: "정책금리, JGB 커브, 신용스프레드가 J-REIT 가치에 어떤 영향을 주었는지 정리하고, 단순한 낙관이나 공포를 넘어서는 법을 제시해 드립니다."
-pubDatetime: 2026-04-21T02:30:00Z
+pubDatetime: 2026-04-13T08:00:00Z
 author: GSF
 lang: ko
 category: investment

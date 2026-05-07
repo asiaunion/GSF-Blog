@@ -1,6 +1,6 @@
 ---
 title: "日本のJ-REIT投資で知っておくべき5つのポイント"
-pubDatetime: 2026-03-22T00:00:00Z
+pubDatetime: 2026-03-18T08:00:00Z
 description: "J-REITの市場構造とBOJによる買い支え、3〜4%の配当実績、為替差益の可能性、そして時価総額上位銘柄まで、日本のREIT投資に踏み出す前に確認しておきたい5つのポイントを整理します。"
 author: GSF
 lang: ja

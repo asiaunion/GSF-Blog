@@ -1,7 +1,7 @@
 ---
 title: "호텔 리츠 vs 오피스 리츠, 코로나 이후 어느 쪽이 회복했나요?"
-description: "ADR·객실 점유와 오피스 임대의 회복 속도를 리츠 관점에서 비교하고, 금리·관광·기업 실적이 각 자산군에 주는 시차를 정리합니다."
-pubDatetime: 2026-04-19T05:00:00Z
+description: "코로나 이후 호텔 J-REIT와 오피스 J-REIT의 회복 속도를 ADR·객실 점유율·공실률 데이터로 비교하고, BOJ 금리 경로와 인바운드 관광 트렌드가 각 자산군에 주는 시차와 투자 시사점을 정리합니다."
+pubDatetime: 2026-04-03T07:00:00Z
 author: GSF
 lang: ko
 category: investment
@@ -92,7 +92,7 @@ references:
 - [도쿄 오피스 공실률: 도심 5구 2026년 전망](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
 - [소형 임대수익률 vs 시세차익 손익분기 분석](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
 - [일본 금리 인상 사이클: J-REIT 투자의 3가지 교훈](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
-https://vercel.com/asiaunions-projects/gsf-blog/5ZWbGRh24SkyzHShNqgv7HkUAK3s
+
 
 ---
 

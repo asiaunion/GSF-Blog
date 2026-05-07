@@ -1,7 +1,7 @@
 ---
 title: "Rental Yield vs Capital Gain: Breakeven Thinking for Small Tokyo Investment Units"
 description: "Lay surface yield, holding costs, tax, and rates on one sheet to separate cash-flow bets from price-appreciation bets on small Tokyo units."
-pubDatetime: 2026-04-20T02:30:00Z
+pubDatetime: 2026-04-08T10:00:00Z
 author: GSF
 lang: en
 category: investment

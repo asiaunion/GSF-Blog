@@ -1,6 +1,6 @@
 ---
 title: "5 Things to Know About Investing in Japan REITs (J-REITs)"
-pubDatetime: 2026-03-22T00:00:00Z
+pubDatetime: 2026-03-18T08:00:00Z
 description: "From market structure and BOJ buying support to a 3–4% dividend track record, currency-gain upside, and the top J-REITs by market cap — five checkpoints to run through before putting capital into Japanese real estate investment trusts."
 author: GSF
 lang: en
