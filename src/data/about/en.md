@@ -28,17 +28,25 @@ I believe every endeavor begins from a single point. So the perspective of this 
   <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-      <span class="timeline-period">2010 – 2018</span>
-      <h4 class="timeline-role">P&C Insurance · ~8 Years</h4>
-      <p>After studying economics in Korea, I spent roughly eight years at a property & casualty insurance company. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.</p>
+      <span class="timeline-period">2005 – 2013</span>
+      <h4 class="timeline-role">Hanwha General Insurance · ~8 Years</h4>
+      <p>After studying economics in Korea, I spent roughly eight years at Hanwha General Insurance. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.</p>
     </div>
   </div>
   <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-      <span class="timeline-period">2019 – 2022</span>
-      <h4 class="timeline-role">Real Estate Auction · Seoul Multi-family</h4>
-      <p>After leaving the corporate world, I won a multi-family house in Seoul through a court auction. I oversaw a full interior and exterior renovation, recruited tenants, operated the property, and eventually sold it at a profit. I currently hold a redevelopment / reconstruction property in a legacy district of Incheon, actively evaluating the optimal timing for an exit.</p>
+      <span class="timeline-period">2013 – 2018</span>
+      <h4 class="timeline-role">Real Estate Investment · Seoul Auction & Incheon Redevelopment</h4>
+      <p>After leaving the corporate world, I began investing in real estate in earnest. I won a multi-family house in Seoul through a court auction, oversaw a full renovation, operated it as a rental property, and eventually sold it at a profit. I also pursued land investments and redevelopment / reconstruction projects in Incheon in parallel. During this period I spent two years in Chiang Mai, Thailand (2016–2018), which gave me an indirect window into the Southeast Asian property market as well.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2018 – 2024</span>
+      <h4 class="timeline-role">Living in Japan · Remote Asset Management & Graduate School</h4>
+      <p>I relocated to Japan and lived there for roughly four years, remotely managing and selling my Seoul real-estate holdings during this time. In 2021 I enrolled in a Master of Divinity program at Ajin University in Korea; I completed the remaining coursework on campus from 2022 and graduated in 2024. It was a phase of running two parallel tracks — investment operations and academic study.</p>
     </div>
   </div>
   <div class="timeline-item timeline-item--current">
@@ -46,7 +54,7 @@ I believe every endeavor begins from a single point. So the perspective of this 
     <div class="timeline-content">
       <span class="timeline-period">2026 – Present</span>
       <h4 class="timeline-role">Tokyo Nihonbashi · Condo Purchase & Relocation</h4>
-      <p>In 2026 I purchased a pre-owned condominium (中古マンション) in Nihonbashi, Tokyo and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level.</p>
+      <p>In 2026 I purchased a pre-owned condominium (中古マンション) in Nihonbashi, Tokyo and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level. I am charting a path as both an investor and an entrepreneur, and this blog is a record of that journey.</p>
     </div>
   </div>
 </div>
