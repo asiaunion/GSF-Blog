@@ -5,6 +5,7 @@ pubDatetime: 2026-04-22T08:00:00Z
 author: GSF
 lang: ko
 category: essay
+ogImage: "https://gsfark.com/assets/images/blog/why-warm-investing-holds-hero.png"
 tags:
   - 투자철학
   - 리스크관리

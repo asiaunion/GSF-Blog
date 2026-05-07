@@ -5,6 +5,7 @@ pubDatetime: 2026-04-01T11:00:00Z
 author: GSF
 lang: ko
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-mansion-tsubo-chiyoda-chuo-minato-hero.png"
 tags:
   - 도쿄
   - 맨션

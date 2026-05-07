@@ -5,6 +5,7 @@ description: "東京都が公表している地域危険度測定調査をもと
 author: GSF
 lang: ja
 category: safety
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-earthquake-vulnerable-five-areas-hero.png"
 tags:
   - 地震
   - 東京

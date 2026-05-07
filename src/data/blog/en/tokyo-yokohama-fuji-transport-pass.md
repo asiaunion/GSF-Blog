@@ -8,6 +8,7 @@ description: "A Tokyo resident's look at the JR Tokyo Wide Pass — the 3-day un
 author: GSF
 lang: en
 category: life
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-yokohama-fuji-transport-pass-hero.png"
 tags:
   - Travel
   - JR Pass

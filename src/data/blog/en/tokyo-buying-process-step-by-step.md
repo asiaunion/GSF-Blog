@@ -5,6 +5,7 @@ pubDatetime: 2026-05-06T11:00:00Z
 author: GSF
 lang: en
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-buying-process-step-by-step-hero.png"
 tags:
   - tokyo-real-estate
   - buying-process

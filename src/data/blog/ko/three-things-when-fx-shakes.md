@@ -5,6 +5,7 @@ pubDatetime: 2026-04-17T10:00:00Z
 author: GSF
 lang: ko
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/three-things-when-fx-shakes-hero.png"
 tags:
   - 일본부동산
   - 엔저전략

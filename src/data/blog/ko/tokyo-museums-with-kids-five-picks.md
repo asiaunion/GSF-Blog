@@ -5,6 +5,7 @@ pubDatetime: 2026-05-02T09:00:00Z
 author: GSF
 lang: ko
 category: local
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-museums-with-kids-five-picks-hero.png"
 tags:
   - 도쿄여행
   - 아이와도쿄

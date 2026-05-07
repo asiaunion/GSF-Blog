@@ -5,6 +5,7 @@ pubDatetime: 2026-03-27T08:00:00Z
 author: "GSF"
 lang: ja
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insight-hero.png"
 tags: ["不動産", "都心6区", "投資戦略", "マクロ経済", "インサイト"]
 sources:
   - "https://www.globalpropertyguide.com/asia/japan/price-history"
