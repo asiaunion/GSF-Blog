@@ -5,6 +5,7 @@ pubDatetime: 2026-04-11T07:00:00Z
 author: GSF
 lang: ja
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/japan-visa-paths-permanent-business-manager-asset-holders-hero.png"
 tags:
   - 日本ビザ
   - 永住権

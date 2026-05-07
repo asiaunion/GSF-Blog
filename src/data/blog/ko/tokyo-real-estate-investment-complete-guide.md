@@ -5,6 +5,7 @@ pubDatetime: 2026-05-04T10:00:00Z
 author: GSF
 lang: ko
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-real-estate-investment-complete-guide-hero.png"
 featured: true
 tags:
   - 도쿄부동산

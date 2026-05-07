@@ -5,6 +5,7 @@ pubDatetime: 2026-04-03T07:00:00Z
 author: GSF
 lang: en
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/hotel-reit-vs-office-reit-post-covid-hero.png"
 tags:
   - J-REIT
   - Hotel

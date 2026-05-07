@@ -5,6 +5,7 @@ pubDatetime: 2026-04-20T07:00:00Z
 author: GSF
 lang: ja
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/one-failure-three-lessons-postmortem-hero.png"
 tags:
   - 日本不動産
   - 投資失敗

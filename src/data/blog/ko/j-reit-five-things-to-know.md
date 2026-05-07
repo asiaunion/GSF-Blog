@@ -5,6 +5,7 @@ description: "J-REITs 시장 구조와 BOJ 매수 배경, 배당 수익률 3~4% 
 author: GSF
 lang: ko
 category: investment
+ogImage: "https://gsfark.com/assets/images/blog/j-reit-five-things-to-know-hero.png"
 tags:
   - J-REITs
   - 일본투자

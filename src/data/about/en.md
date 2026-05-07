@@ -24,7 +24,11 @@ I believe every endeavor begins from a single point. So the perspective of this 
 
 ### The Path I've Walked
 
-I studied economics in Korea and spent a chapter of my life in finance. Curious about the reality beyond the numbers, I left to make real estate and investing my daily work. Reading markets with one foot in each of two countries turns out, more often than I had expected, to be work directed toward people.
+After studying economics in Korea, I spent roughly **eight years at a property & casualty insurance company**. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.
+
+After leaving the corporate world, I won a **multi-family house in Seoul through a court auction**. I oversaw a full interior and exterior renovation, recruited tenants, operated the property, and eventually sold it at a profit. I currently hold a **redevelopment / reconstruction property in a legacy district of Incheon**, actively evaluating the optimal timing for an exit.
+
+In 2026 I purchased a **pre-owned condominium (中古マンション) in Nihonbashi, Tokyo** and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level.
 
 I often return to the phrase **"human-centered investing."** Investing is ultimately a matter of numbers, but what fills those numbers, I believe, is the texture of people, places, and time. Living on the stage of Tokyo — seeing it with the eye of a Korean and walking it with the daily rhythm of Japan — has made that texture a little richer for me.
 
@@ -39,7 +43,7 @@ I record along four axes.
 - **Tokyo Life** — life in Nihonbashi and the inner city, the daily rhythm of a Korean–Japanese family, and local reports
 - **Personal Essays** — notes on experience, failure, and the values I try to live by
 
-I write with an eye toward holding profit and purpose together, and I hope to leave behind writing that carries lasting value.
+I write with an eye toward holding profit and purpose together. Every article on this blog is essentially a **research-style report** — synthesizing primary sources, data, and comparative analysis. The starting point is my own study and learning process; I believe that if a piece is genuinely useful and trustworthy to me, it will serve others with the same interests just as well.
 
 ---
 
