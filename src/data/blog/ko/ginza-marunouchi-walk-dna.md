@@ -1,7 +1,7 @@
 ---
 title: "긴자에서 마루노우치까지: 도쿄의 부(富)와 전통이 흐르는 DNA 워킹 가이드 2026"
 description: "일본에서 가장 비싼 땅값을 20년째 자랑하는 긴자와 일본 금융·비즈니스의 심장 마루노우치. 교통비, 추천 동선, 투자 시그널까지 포함한 실전 워킹 가이드."
-pubDatetime: 2026-04-23T02:00:00Z
+pubDatetime: 2026-04-24T09:00:00Z
 author: GSF
 lang: ko
 category: local

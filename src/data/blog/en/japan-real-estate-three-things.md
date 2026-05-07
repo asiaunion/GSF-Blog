@@ -1,6 +1,6 @@
 ---
 title: "3 Things to Know About Real Estate Investment in Japan"
-pubDatetime: 2026-03-15T00:00:00Z
+pubDatetime: 2026-03-16T07:00:00Z
 description: "Three angles on Japanese real estate for foreign investors: why Tokyo has stepped out of its thirty-year deflation into an upward cycle, the acquisition/registration/property tax structure to know before you buy, and the local brokerage and management network worth leaning on."
 author: GSF
 lang: en

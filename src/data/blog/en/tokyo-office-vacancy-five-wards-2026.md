@@ -1,7 +1,7 @@
 ---
 title: "Tokyo Office Vacancy Enters 2% Range: Supply Map and Pivots for 2026"
 description: "Tokyo's central 5 wards are seeing the lowest vacancy rates since 2020. Based on the latest Miki Shoji data and the 'Flight to Quality' trend, we analyze the supply map of Chiyoda, Chuo, Minato, Shinjuku, and Shibuya."
-pubDatetime: 2026-04-19T02:00:00Z
+pubDatetime: 2026-03-30T10:00:00Z
 author: GSF
 lang: en
 category: investment

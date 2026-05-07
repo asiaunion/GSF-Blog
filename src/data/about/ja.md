@@ -10,7 +10,7 @@ title: "紹介"
 - [LinkedIn](https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true)
 - [X](https://x.com/asiaunion)
 
-URLは `src/config.ts` の `PUBLIC_PROFILES` と一致させています。[お問い合わせ](/ja/contact)もご利用ください。
+[お問い合わせ](/ja/contact/)もご利用ください。
 
 ---
 

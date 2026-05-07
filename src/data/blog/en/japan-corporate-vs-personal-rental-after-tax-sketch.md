@@ -1,7 +1,7 @@
 ---
 title: "Japan Real Estate Tax Strategy: Corporate vs. Personal Ownership"
 description: "Choosing the right ownership structure is the most critical decision after selecting the property. We compare progressive personal tax rates (up to 55%) vs. effective corporate tax rates (approx. 30-34%) and analyze the '5-year rule' for capital gains."
-pubDatetime: 2026-04-20T03:00:00Z
+pubDatetime: 2026-04-10T11:00:00Z
 author: GSF
 lang: en
 category: investment

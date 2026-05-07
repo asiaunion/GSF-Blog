@@ -1,7 +1,7 @@
 ---
 title: "Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons"
 description: "Generalize how policy rates, JGB curves, and credit spreads interacted with J-REIT valuations—avoiding single-line optimism or fear."
-pubDatetime: 2026-04-21T02:30:00Z
+pubDatetime: 2026-04-13T08:00:00Z
 author: GSF
 lang: en
 category: investment

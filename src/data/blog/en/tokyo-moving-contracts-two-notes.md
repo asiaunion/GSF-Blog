@@ -1,7 +1,7 @@
 ---
 title: "Finding a Home in Tokyo: 2 Keys to Lease Contracts That Protect Your Rights"
 description: "Rental contracts in Japan are very different from those in many other countries. From the distinction between 'Ordinary' and 'Fixed-term' leases to the strict rules on 'Restoration,' we provide a practical guide for foreign residents and investors."
-pubDatetime: 2026-04-23T02:00:00Z
+pubDatetime: 2026-04-25T10:00:00Z
 author: GSF
 lang: en
 category: life

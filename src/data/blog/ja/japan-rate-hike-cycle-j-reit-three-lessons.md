@@ -1,7 +1,7 @@
 ---
 title: "日本の利上げサイクルとJ-REIT：3つの歴史的教訓"
-description: "政策金利・JGBカーブ・クレジットスプレッドがJ-REITバリュエーションとどう相互作用したかを一般化し、単線的な楽観・恐怖を避けます。"
-pubDatetime: 2026-04-21T02:30:00Z
+description: "BOJ政策金利引き上げサイクルにおいて政策金利・JGBイールドカーブ・クレジットスプレッドがJ-REITバリュエーションとどう相互作用したかを歴史的事例から一般化し、投資家が避けるべき3つの判断ミスを整理します。"
+pubDatetime: 2026-04-13T08:00:00Z
 author: GSF
 lang: ja
 category: investment

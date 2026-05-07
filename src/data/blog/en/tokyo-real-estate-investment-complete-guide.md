@@ -1,7 +1,7 @@
 ---
 title: "The Complete Guide to Tokyo Real Estate Investment 2026: A Roadmap for International Buyers"
 description: "Everything about Tokyo real estate — area analysis, tsubo pricing, buying process, taxes, financing, yields, and risks — in seven chapters. Written from first-hand experience as a resident investor."
-pubDatetime: 2026-04-27T06:00:00Z
+pubDatetime: 2026-05-04T10:00:00Z
 author: GSF
 lang: en
 category: investment
@@ -50,7 +50,7 @@ Japan has **virtually no restrictions on foreign property ownership**. No visa, 
 
 The key is the **tsubo × yield × liquidity** triangle.
 
-> 📖 [Tsubo Analysis: Chiyoda·Chuo·Minato](/en/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato) | [6-Ward Insight](/en/posts/tokyo-6-wards-real-estate-insight)
+> 📖 [Tsubo Analysis: Chiyoda·Chuo·Minato](/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato) | [6-Ward Insight](/posts/tokyo-6-wards-real-estate-insight)
 
 ---
 
@@ -69,7 +69,7 @@ The key is the **tsubo × yield × liquidity** triangle.
 
 Non-residents: passport + notarized affidavit replaces *inkan*. No *jūminhyō* — use home-country notarized docs. Use escrow or scrivener trust accounts.
 
-> 📖 [Buying Process Deep-Dive: 8-Step Guide](/en/posts/tokyo-buying-process-step-by-step) | [3 Things About Japan RE](/en/posts/japan-real-estate-three-things) | [Contract Traps in Tokyo](/en/posts/tokyo-moving-contracts-two-notes)
+> 📖 [Buying Process Deep-Dive: 8-Step Guide](/posts/tokyo-buying-process-step-by-step) | [3 Things About Japan RE](/posts/japan-real-estate-three-things) | [Contract Traps in Tokyo](/posts/tokyo-moving-contracts-two-notes)
 
 ---
 
@@ -85,7 +85,7 @@ Net yield = (Annual rent − Costs) ÷ (Price + Transaction costs) × 100
 
 J-REITs offer 3–4% distributions, BOJ backstop history, and FX upside.
 
-> 📖 [Yield vs Capital Gain Breakeven](/en/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5 Things](/en/posts/j-reit-five-things-to-know) | [Hotel vs Office REITs](/en/posts/hotel-reit-vs-office-reit-post-covid) | [Rate Hikes & J-REIT](/en/posts/japan-rate-hike-cycle-j-reit-three-lessons)
+> 📖 [Yield vs Capital Gain Breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5 Things](/posts/j-reit-five-things-to-know) | [Hotel vs Office REITs](/posts/hotel-reit-vs-office-reit-post-covid) | [Rate Hikes & J-REIT](/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
 ---
 
@@ -95,7 +95,7 @@ Tokyo is mid-cycle in a "once-in-a-century" redevelopment wave. Nihonbashi, Yaes
 
 Principles: buy **before groundbreaking**, target **existing renovations within 5-min walk** from stations, understand rights-conversion structures.
 
-> 📖 [Coredo Nihonbashi Redevelopment](/en/posts/coredo-nihonbashi-mitsui-redevelopment) | [Mitsui Pipeline Pt.3](/en/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [Office Vacancy 2% — 5-Ward Map](/en/posts/tokyo-office-vacancy-five-wards-2026)
+> 📖 [Coredo Nihonbashi Redevelopment](/posts/coredo-nihonbashi-mitsui-redevelopment) | [Mitsui Pipeline Pt.3](/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [Office Vacancy 2% — 5-Ward Map](/posts/tokyo-office-vacancy-five-wards-2026)
 
 ---
 
@@ -119,7 +119,7 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 | NR withholding | 20.42% | Avoidable |
 | Inheritance | Up to 55% | Share transfer route |
 
-> 📖 [Corporate vs Personal Tax](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [Inheritance Tax Trap](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
+> 📖 [Corporate vs Personal Tax](/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [Inheritance Tax Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
 
 ---
 
@@ -129,7 +129,7 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 - **FX**: JPY/KRW 800–900 demands dual-scenario planning. I play both sides.
 - **Interest rates**: BOJ tightening cycle underway, but glacial by global standards.
 
-> 📖 [Earthquake-Vulnerable 5 Areas](/en/posts/tokyo-earthquake-vulnerable-five-areas) | [Weak Yen Allocation](/en/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios) | [When FX Shakes](/en/posts/three-things-when-fx-shakes)
+> 📖 [Earthquake-Vulnerable 5 Areas](/posts/tokyo-earthquake-vulnerable-five-areas) | [Weak Yen Allocation](/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios) | [When FX Shakes](/posts/three-things-when-fx-shakes)
 
 ---
 
@@ -137,7 +137,7 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 
 No visa needed to *own*. To **live and manage**: Business Manager Visa (¥30M capital post-2025 reform), HSP (80+ points = PR in 1 year), or 10-year residence path.
 
-> 📖 [Visa & PR Paths 2025](/en/posts/japan-visa-paths-permanent-business-manager-asset-holders) | [Seoul & Tokyo as One Market](/en/posts/reading-korea-japan-markets-together)
+> 📖 [Visa & PR Paths 2025](/posts/japan-visa-paths-permanent-business-manager-asset-holders) | [Seoul & Tokyo as One Market](/posts/reading-korea-japan-markets-together)
 
 ---
 

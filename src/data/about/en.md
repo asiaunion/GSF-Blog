@@ -10,7 +10,7 @@ title: "About"
 - [LinkedIn](https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true)
 - [X](https://x.com/asiaunion)
 
-URLs match `PUBLIC_PROFILES` in `src/config.ts`. You can also reach me via the [Contact](/contact) page.
+You can also reach me via the [Contact](/contact/) page.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Weak Yen and Korean Allocations to Japan: Three FX Scenarios"
 description: "Simplify JPY/KRW/USD paths to stress-test Japan real assets, J-REITs, and cash for Korean investors."
-pubDatetime: 2026-04-21T01:00:00Z
+pubDatetime: 2026-04-04T08:00:00Z
 author: GSF
 lang: en
 category: investment

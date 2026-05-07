@@ -1,7 +1,7 @@
 ---
 title: "Tokyo Real Estate Buying Process Demystified: An 8-Step Field Guide from Search to Title Registration"
 description: "A comprehensive 8-step walkthrough for first-time foreign buyers acquiring property in Tokyo. Covers the 2026 nationality disclosure mandate, non-resident documentation, brokerage fee caps, and the critical role of the judicial scrivener."
-pubDatetime: 2026-05-03T06:00:00Z
+pubDatetime: 2026-05-06T11:00:00Z
 author: GSF
 lang: en
 category: investment
@@ -22,7 +22,7 @@ references:
   - "https://www.nta.go.jp/english/index.htm"
 ---
 
-> **This article is a Chapter 2 deep-dive companion to the [Complete Guide to Tokyo Real Estate Investment](/en/posts/tokyo-real-estate-investment-complete-guide/).** I recommend reading the pillar page first for the full investment roadmap, then returning here for the procedural details.
+> **This article is a Chapter 2 deep-dive companion to the [Complete Guide to Tokyo Real Estate Investment](/posts/tokyo-real-estate-investment-complete-guide/).** I recommend reading the pillar page first for the full investment roadmap, then returning here for the procedural details.
 
 ---
 
@@ -219,10 +219,10 @@ Week 8-10 : Registration complete, title identification received
 
 ## Read Next in This Series
 
-- [Complete Guide to Tokyo Real Estate Investment (Pillar Page)](/en/posts/tokyo-real-estate-investment-complete-guide/)
-- [Three Things to Know About Japanese Real Estate Investment](/en/posts/japan-real-estate-three-things/)
-- [Two Key Points About Tokyo Lease Contracts](/en/posts/tokyo-moving-contracts-two-notes/)
-- [Corporate vs. Personal Ownership — Tax Optimization](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
+- [Complete Guide to Tokyo Real Estate Investment (Pillar Page)](/posts/tokyo-real-estate-investment-complete-guide/)
+- [Three Things to Know About Japanese Real Estate Investment](/posts/japan-real-estate-three-things/)
+- [Two Key Points About Tokyo Lease Contracts](/posts/tokyo-moving-contracts-two-notes/)
+- [Corporate vs. Personal Ownership — Tax Optimization](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 
 ---
 

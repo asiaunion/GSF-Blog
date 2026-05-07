@@ -1,7 +1,7 @@
 ---
 title: "Japan Visa Routes: Permanent Residency, Business Manager, and J-Find"
 description: "Japan is aggressively opening its doors to global talent and investors. We analyze the 2025/2026 immigration reforms, including the 30M JPY capital requirement for Business Managers and the 1-year fast-track PR route for Highly Skilled Professionals (HSP)."
-pubDatetime: 2026-04-20T02:00:00Z
+pubDatetime: 2026-04-11T07:00:00Z
 author: GSF
 lang: en
 category: investment

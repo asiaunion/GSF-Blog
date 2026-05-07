@@ -1,7 +1,7 @@
 ---
 title: "Nihonbashi Redevelopment Roadmap: Three Axes to Read Mitsui-Led Follow-On Projects"
 description: "A reader's framework for Mitsui-aligned Nihonbashi pipelines—retail arcades, stations, resilience, and green space using public disclosures."
-pubDatetime: 2026-04-20T01:00:00Z
+pubDatetime: 2026-04-06T09:00:00Z
 author: GSF
 lang: en
 category: investment

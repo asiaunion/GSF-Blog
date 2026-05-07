@@ -1,6 +1,6 @@
 ---
 title: "일본 리츠(J REITs) 투자 알아야 할 5가지"
-pubDatetime: 2026-03-22T00:00:00Z
+pubDatetime: 2026-03-18T08:00:00Z
 description: "J-REITs 시장 구조와 BOJ 매수 배경, 배당 수익률 3~4% 실적, 환차익 가능성, 시가총액 상위 종목까지 일본 리츠 투자 전 점검할 다섯 가지 포인트를 정리합니다."
 author: GSF
 lang: ko
