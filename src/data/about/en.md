@@ -24,11 +24,32 @@ I believe every endeavor begins from a single point. So the perspective of this 
 
 ### The Path I've Walked
 
-After studying economics in Korea, I spent roughly **eight years at a property & casualty insurance company**. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.
-
-After leaving the corporate world, I won a **multi-family house in Seoul through a court auction**. I oversaw a full interior and exterior renovation, recruited tenants, operated the property, and eventually sold it at a profit. I currently hold a **redevelopment / reconstruction property in a legacy district of Incheon**, actively evaluating the optimal timing for an exit.
-
-In 2026 I purchased a **pre-owned condominium (中古マンション) in Nihonbashi, Tokyo** and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level.
+<div class="career-timeline">
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2010 – 2018</span>
+      <h4 class="timeline-role">P&C Insurance · ~8 Years</h4>
+      <p>After studying economics in Korea, I spent roughly eight years at a property & casualty insurance company. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2019 – 2022</span>
+      <h4 class="timeline-role">Real Estate Auction · Seoul Multi-family</h4>
+      <p>After leaving the corporate world, I won a multi-family house in Seoul through a court auction. I oversaw a full interior and exterior renovation, recruited tenants, operated the property, and eventually sold it at a profit. I currently hold a redevelopment / reconstruction property in a legacy district of Incheon, actively evaluating the optimal timing for an exit.</p>
+    </div>
+  </div>
+  <div class="timeline-item timeline-item--current">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2026 – Present</span>
+      <h4 class="timeline-role">Tokyo Nihonbashi · Condo Purchase & Relocation</h4>
+      <p>In 2026 I purchased a pre-owned condominium (中古マンション) in Nihonbashi, Tokyo and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level.</p>
+    </div>
+  </div>
+</div>
 
 I often return to the phrase **"human-centered investing."** Investing is ultimately a matter of numbers, but what fills those numbers, I believe, is the texture of people, places, and time. Living on the stage of Tokyo — seeing it with the eye of a Korean and walking it with the daily rhythm of Japan — has made that texture a little richer for me.
 
@@ -36,12 +57,28 @@ I often return to the phrase **"human-centered investing."** Investing is ultima
 
 ### What This Blog Covers
 
-I record along four axes.
-
-- **Urban Investment Insights** — possibilities and perspectives on asset growth, centered on Tokyo and Nihonbashi
-- **Korea–Japan Macro Issues** — exchange rates, interest rates, and the economic and business currents running between the two countries
-- **Tokyo Life** — life in Nihonbashi and the inner city, the daily rhythm of a Korean–Japanese family, and local reports
-- **Personal Essays** — notes on experience, failure, and the values I try to live by
+<div class="about-pillars">
+  <div class="pillar-card">
+    <span class="pillar-icon">🏙️</span>
+    <h4>Urban Investment Insights</h4>
+    <p>Possibilities and perspectives on asset growth, centered on Tokyo and Nihonbashi</p>
+  </div>
+  <div class="pillar-card">
+    <span class="pillar-icon">📊</span>
+    <h4>Korea–Japan Macro Issues</h4>
+    <p>Exchange rates, interest rates, and economic & business currents between the two countries</p>
+  </div>
+  <div class="pillar-card">
+    <span class="pillar-icon">🗼</span>
+    <h4>Tokyo Life</h4>
+    <p>Life in Nihonbashi and the inner city, a Korean–Japanese family's daily rhythm, and local reports</p>
+  </div>
+  <div class="pillar-card">
+    <span class="pillar-icon">✍️</span>
+    <h4>Personal Essays</h4>
+    <p>Notes on experience, failure, and the values I try to live by</p>
+  </div>
+</div>
 
 I write with an eye toward holding profit and purpose together. Every article on this blog is essentially a **research-style report** — synthesizing primary sources, data, and comparative analysis. The starting point is my own study and learning process; I believe that if a piece is genuinely useful and trustworthy to me, it will serve others with the same interests just as well.
 
