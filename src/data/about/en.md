@@ -29,8 +29,8 @@ I believe every endeavor begins from a single point. So the perspective of this 
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-period">2005 – 2013</span>
-      <h4 class="timeline-role">Hanwha General Insurance · ~8 Years</h4>
-      <p>After studying economics in Korea, I spent roughly eight years at Hanwha General Insurance. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.</p>
+      <h4 class="timeline-role">P&C Insurance · ~8 Years</h4>
+      <p>After studying economics in Korea, I spent roughly eight years at a property & casualty insurance company. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.</p>
     </div>
   </div>
   <div class="timeline-item">
@@ -46,7 +46,7 @@ I believe every endeavor begins from a single point. So the perspective of this 
     <div class="timeline-content">
       <span class="timeline-period">2018 – 2024</span>
       <h4 class="timeline-role">Living in Japan · Remote Asset Management & Graduate School</h4>
-      <p>I relocated to Japan and lived there for roughly four years, remotely managing and selling my Seoul real-estate holdings during this time. In 2021 I enrolled in a Master of Divinity program at Ajin University in Korea; I completed the remaining coursework on campus from 2022 and graduated in 2024. It was a phase of running two parallel tracks — investment operations and academic study.</p>
+      <p>I relocated to Japan and lived there for roughly four years, remotely managing and selling my Seoul real-estate holdings during this time. In 2021 I enrolled in a Master of Divinity program at a seminary in Korea; I completed the remaining coursework on campus from 2022 and graduated in 2024. It was a phase of running two parallel tracks — investment operations and academic study.</p>
     </div>
   </div>
   <div class="timeline-item timeline-item--current">
