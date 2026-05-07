@@ -3,6 +3,7 @@ import { ClientRouter } from "astro:transitions";
 import {
   PUBLIC_GOOGLE_SITE_VERIFICATION,
   PUBLIC_ADSENSE_PUBLISHER_ID,
+  PUBLIC_GA4_MEASUREMENT_ID,
 } from "astro:env/client";
 import { SITE, PUBLIC_PROFILES } from "@/config";
 import "@/styles/global.css";
@@ -230,6 +231,29 @@ const structuredData = overrideJsonLd ?? {
           name="google-adsense-account"
           content={PUBLIC_ADSENSE_PUBLISHER_ID}
         />
+      )
+    }
+
+    {/* Google Analytics 4 */}
+    {
+      PUBLIC_GA4_MEASUREMENT_ID && (
+        <>
+          <script
+            is:inline
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GA4_MEASUREMENT_ID}`}
+          />
+          <script
+            is:inline
+            define:vars={{ gaId: PUBLIC_GA4_MEASUREMENT_ID }}
+          >
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { window.dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', gaId, { send_page_view: true });
+          </script>
+        </>
       )
     }
 

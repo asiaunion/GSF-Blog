@@ -5,7 +5,7 @@ pubDatetime: 2026-04-15T09:00:00Z
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/korea-japan-inheritance-gift-tax-cross-border-basics-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/korea-japan-inheritance-gift-tax-cross-border-basics-hero.webp"
 tags:
   - JapanRealEstate
   - InheritanceTax

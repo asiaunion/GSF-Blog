@@ -8,7 +8,7 @@ description: "JR도쿄와이드패스로 도쿄·요코하마·닛코·후지산
 author: GSF
 lang: ko
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-yokohama-fuji-transport-pass-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-yokohama-fuji-transport-pass-hero.webp"
 tags:
   - 여행
   - JR패스

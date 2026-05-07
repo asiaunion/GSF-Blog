@@ -5,7 +5,7 @@ pubDatetime: 2026-04-27T11:00:00Z
 author: GSF
 lang: ja
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-hamacho-walking-guide-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-hamacho-walking-guide-hero.webp"
 tags:
   - 東京旅行
   - 日本橋

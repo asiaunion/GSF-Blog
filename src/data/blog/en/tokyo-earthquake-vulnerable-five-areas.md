@@ -5,7 +5,7 @@ description: "Drawing on the Tokyo Metropolitan Government's regional earthquake
 author: GSF
 lang: en
 category: safety
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-earthquake-vulnerable-five-areas-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-earthquake-vulnerable-five-areas-hero.webp"
 tags:
   - Earthquake
   - Tokyo

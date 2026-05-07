@@ -1,0 +1,63 @@
+---
+/**
+ * SourcesList — renders frontmatter `sources` as a structured references section.
+ * Only shown when the post has sources defined.
+ */
+import type { UiLang } from "@/i18n/ui";
+
+type Props = {
+  sources: string[];
+  lang?: UiLang | string;
+};
+
+const { sources, lang = "en" } = Astro.props;
+
+const labels: Record<string, { title: string; note: string }> = {
+  en: {
+    title: "Sources & References",
+    note: "URLs verified at the time of writing. Archived copies available on request.",
+  },
+  ko: {
+    title: "출처 및 참고 자료",
+    note: "URL은 작성 시점 기준으로 확인되었습니다. 아카이브 사본은 요청 시 제공됩니다.",
+  },
+  ja: {
+    title: "出典・参考資料",
+    note: "URLは執筆時点で確認済みです。アーカイブのコピーはリクエストに応じて提供いたします。",
+  },
+};
+
+const L = labels[lang as string] ?? labels.en;
+
+/** Extract a readable domain from a URL for display. */
+function toDomain(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return url;
+  }
+}
+---
+
+{
+  sources.length > 0 && (
+    <section class="mt-10 rounded-xl border border-border bg-card p-5">
+      <h2 class="text-base font-semibold">{L.title}</h2>
+      <ol class="mt-3 list-decimal space-y-1.5 pl-5 text-sm leading-relaxed text-foreground/75">
+        {sources.map(url => (
+          <li>
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              class="break-all underline decoration-foreground/25 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent"
+            >
+              {toDomain(url)}
+            </a>
+          </li>
+        ))}
+      </ol>
+      <p class="mt-3 text-xs italic text-foreground/50">{L.note}</p>
+    </section>
+  )
+}

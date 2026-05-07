@@ -20,6 +20,8 @@ import { PUBLIC_PROFILES } from "@/config";
 import PostDisclaimer from "@/components/PostDisclaimer.astro";
 import NewsletterForm from "@/components/NewsletterForm.astro";
 import GiscusComments from "@/components/GiscusComments.astro";
+import RelatedPosts from "@/components/RelatedPosts.astro";
+import SourcesList from "@/components/SourcesList.astro";
 import { getUi, type UiLang } from "@/i18n/ui";
 
 type Props = {
@@ -58,6 +60,7 @@ const {
   hideEditPost,
   category,
   lang: postLang,
+  sources,
 } = post.data;
 
 const showInlineDisclaimer =
@@ -86,6 +89,11 @@ if (!ogImageUrl && SITE.dynamicOgImage) {
 // Resolve OG image URL (or fallback to SITE.ogImage / default `og.png`)
 const ogImage = ogImageUrl
   ? new URL(ogImageUrl, Astro.url.origin).href
+  : undefined;
+
+// Extract path-only src for in-page hero rendering (works on both localhost and production)
+const heroSrc = ogImageUrl
+  ? (() => { try { return new URL(ogImageUrl).pathname; } catch { return ogImageUrl; } })()
   : undefined;
 
 const layoutProps = {
@@ -134,6 +142,17 @@ const nextPost =
     >
       {title}
     </h1>
+    {heroSrc && (
+      <img
+        src={heroSrc}
+        alt={title}
+        class="mt-4 mb-2 w-full rounded-lg"
+        width="1200"
+        height="630"
+        loading="eager"
+        decoding="async"
+      />
+    )}
     <div class="my-2 flex items-center gap-2">
       <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
       <span
@@ -156,6 +175,10 @@ const nextPost =
       }
       <Content />
     </article>
+
+    {sources && sources.length > 0 && (
+      <SourcesList sources={sources} lang={disclaimerLang} />
+    )}
 
     <hr class="my-8 border-border border-solid" />
 
@@ -243,6 +266,8 @@ const nextPost =
     </section>
 
     <NewsletterForm variant="card" lang={navLang} />
+
+    <RelatedPosts currentPost={post} allPosts={posts} lang={navLang} />
 
     <GiscusComments lang={navLang} />
 

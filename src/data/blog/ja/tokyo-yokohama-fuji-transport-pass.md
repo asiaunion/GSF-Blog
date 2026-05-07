@@ -8,7 +8,7 @@ description: "東京在住者の視点から、JR東京ワイドパスで3日間
 author: GSF
 lang: ja
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-yokohama-fuji-transport-pass-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-yokohama-fuji-transport-pass-hero.webp"
 tags:
   - 旅行
   - JRパス

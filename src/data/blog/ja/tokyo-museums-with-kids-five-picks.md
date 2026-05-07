@@ -5,7 +5,7 @@ pubDatetime: 2026-05-02T09:00:00Z
 author: GSF
 lang: ja
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-museums-with-kids-five-picks-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-museums-with-kids-five-picks-hero.webp"
 tags:
   - 東京旅行
   - 子連れ東京

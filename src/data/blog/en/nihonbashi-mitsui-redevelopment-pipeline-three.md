@@ -5,7 +5,7 @@ pubDatetime: 2026-04-06T09:00:00Z
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-mitsui-redevelopment-pipeline-three-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-mitsui-redevelopment-pipeline-three-hero.webp"
 tags:
   - Nihonbashi
   - Mitsui

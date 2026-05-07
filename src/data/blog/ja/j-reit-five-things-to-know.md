@@ -5,7 +5,7 @@ description: "J-REITの市場構造とBOJによる買い支え、3〜4%の配当
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/j-reit-five-things-to-know-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/j-reit-five-things-to-know-hero.webp"
 tags:
   - J-REIT
   - 日本投資

@@ -5,7 +5,7 @@ pubDatetime: 2026-04-29T07:00:00Z
 author: GSF
 lang: ja
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/tsukiji-to-toyosu-morning-tokyo-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tsukiji-to-toyosu-morning-tokyo-hero.webp"
 tags:
   - 東京旅行
   - 築地市場

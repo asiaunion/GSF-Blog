@@ -5,7 +5,7 @@ description: "From market structure and BOJ buying support to a 3–4% dividend 
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/j-reit-five-things-to-know-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/j-reit-five-things-to-know-hero.webp"
 tags:
   - J-REITs
   - Japan investing

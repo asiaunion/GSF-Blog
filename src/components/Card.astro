@@ -10,21 +10,39 @@ type Props = {
 
 const { variant: Heading = "h2", id, data, filePath, body } = Astro.props;
 
-const { title, description, category, ...props } = data;
+const { title, description, category, lang: postLang, ogImage: initOgImage, ...props } = data;
+
+// Resolve ogImage to a displayable path string (works on both localhost and production)
+let thumbUrl: string | undefined;
+if (typeof initOgImage === "string") {
+  try { thumbUrl = new URL(initOgImage).pathname; } catch { thumbUrl = initOgImage; }
+} else if (initOgImage?.src) {
+  thumbUrl = initOgImage.src;
+}
 
 // Estimate reading time (~200 words/min for dense investment content)
 const wordCount = body?.split(/\s+/).length ?? 0;
 const readingTime = Math.max(1, Math.round(wordCount / 200));
 
-const categoryLabels: Record<string, { label: string; color: string }> = {
-  investment: { label: "Investment", color: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25" },
-  safety: { label: "Safety", color: "bg-amber-500/15 text-amber-400 border-amber-500/25" },
-  life: { label: "Life", color: "bg-sky-500/15 text-sky-400 border-sky-500/25" },
-  local: { label: "Local", color: "bg-violet-500/15 text-violet-400 border-violet-500/25" },
-  essay: { label: "Essay", color: "bg-rose-500/15 text-rose-400 border-rose-500/25" },
+const categoryI18n: Record<string, Record<string, string>> = {
+  investment: { en: "Investment", ko: "투자", ja: "投資" },
+  safety: { en: "Safety", ko: "안전", ja: "安全" },
+  life: { en: "Life", ko: "생활", ja: "ライフ" },
+  local: { en: "Local", ko: "로컬", ja: "ローカル" },
+  essay: { en: "Essay", ko: "에세이", ja: "エッセイ" },
 };
 
-const cat = category ? categoryLabels[category] : null;
+const categoryColors: Record<string, string> = {
+  investment: "bg-emerald-500/15 text-emerald-400 border-emerald-500/25",
+  safety: "bg-amber-500/15 text-amber-400 border-amber-500/25",
+  life: "bg-sky-500/15 text-sky-400 border-sky-500/25",
+  local: "bg-violet-500/15 text-violet-400 border-violet-500/25",
+  essay: "bg-rose-500/15 text-rose-400 border-rose-500/25",
+};
+
+const lang = postLang ?? "en";
+const catLabel = category ? (categoryI18n[category]?.[lang] ?? category) : null;
+const catColor = category ? categoryColors[category] : null;
 ---
 
 <li class="my-6">
@@ -32,23 +50,38 @@ const cat = category ? categoryLabels[category] : null;
     href={getPath(id, filePath)}
     class="group block rounded-lg transition-all duration-300 hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent"
   >
-    <div class="flex items-center gap-2 mb-1">
-      {cat && (
-        <span class={`inline-flex items-center px-2 py-0.5 rounded-md text-[0.7rem] font-medium border ${cat.color}`}>
-          {cat.label}
-        </span>
+    <div class="flex gap-4">
+      <div class="flex-1 min-w-0">
+        <div class="flex items-center gap-2 mb-1">
+          {catLabel && catColor && (
+            <span class={`inline-flex items-center px-2 py-0.5 rounded-md text-[0.7rem] font-medium border ${catColor}`}>
+              {catLabel}
+            </span>
+          )}
+          <span class="text-[0.7rem] text-foreground/50">{readingTime} min read</span>
+        </div>
+        <Heading
+          class="inline-block text-lg font-medium text-accent underline decoration-solid decoration-1 underline-offset-[0.22em] decoration-accent/45 transition-colors group-hover:decoration-accent"
+          style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
+        >
+          {title}
+        </Heading>
+        <div class="mt-1 transition-opacity duration-300 group-hover:opacity-80">
+          <Datetime {...props} />
+        </div>
+        <p class="mt-1 transition-opacity duration-300 group-hover:opacity-80">{description}</p>
+      </div>
+      {thumbUrl && (
+        <div class="hidden sm:block flex-shrink-0 self-center">
+          <img
+            src={thumbUrl}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            class="w-28 h-20 rounded-md object-cover border border-border/50 transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
       )}
-      <span class="text-[0.7rem] text-foreground/50">{readingTime} min read</span>
     </div>
-    <Heading
-      class="inline-block text-lg font-medium text-accent underline decoration-solid decoration-1 underline-offset-[0.22em] decoration-accent/45 transition-colors group-hover:decoration-accent"
-      style={{ viewTransitionName: slugifyStr(title.replaceAll(".", "-")) }}
-    >
-      {title}
-    </Heading>
-    <div class="mt-1 transition-opacity duration-300 group-hover:opacity-80">
-      <Datetime {...props} />
-    </div>
-    <p class="mt-1 transition-opacity duration-300 group-hover:opacity-80">{description}</p>
   </a>
 </li>

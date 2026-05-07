@@ -5,7 +5,7 @@ pubDatetime: 2026-05-02T09:00:00Z
 author: GSF
 lang: en
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-museums-with-kids-five-picks-hero.png"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-museums-with-kids-five-picks-hero.webp"
 tags:
   - TokyoTravel
   - TokyoWithKids
