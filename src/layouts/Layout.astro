@@ -192,17 +192,60 @@ const structuredData = overrideJsonLd ?? {
       )
     }
 
-    <!-- Apply native typography based on language -->
+    <!-- Critical CSS: inline above-the-fold styles to eliminate FOUC and reduce FCP -->
     <style is:inline>
-      html[lang="en"] {
-        --font-app: "Inter", sans-serif;
+      /* === CSS Variables (Light theme default) === */
+      :root, html[data-theme="light"] {
+        --background: #fdfdfd;
+        --foreground: #1a1a1a;
+        --accent: #0f4d22;
+        --muted: #e6e6e6;
+        --border: #ece9e9;
       }
+      html[data-theme="dark"] {
+        --background: #111111;
+        --foreground: #f4f4f5;
+        --accent: #34d399;
+        --muted: #2a2a2a;
+        --border: #333333;
+      }
+
+      /* === Critical Layout === */
+      *, *::before, *::after { box-sizing: border-box; }
+      html {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        min-height: 100svh;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--background);
+        color: var(--foreground);
+        font-family: var(--font-app, system-ui, -apple-system, sans-serif);
+        font-size: 16px;
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /* Prevent layout shift from scrollbar appearing */
+      body { scrollbar-gutter: stable; }
+
+      /* === Font family per language (applied immediately, before external font loads) === */
+      html[lang="en"] { --font-app: "Inter", system-ui, sans-serif; }
       html[lang="ko"] {
-        --font-app: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+        --font-app: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont,
+          system-ui, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
       }
-      html[lang="ja"] {
-        --font-app: "Noto Sans JP", sans-serif;
-      }
+      html[lang="ja"] { --font-app: "Noto Sans JP", system-ui, sans-serif; }
+
+      /* === Above-the-fold: header & nav placeholder to avoid reflow === */
+      header { display: block; }
+      main { flex: 1 1 auto; }
+      img { max-width: 100%; height: auto; }
+      a { color: inherit; }
     </style>
 
     <!-- General Meta Tags -->
