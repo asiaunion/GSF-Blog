@@ -399,10 +399,11 @@ const structuredData = overrideJsonLd ?? {
     <!-- Load full theme logic -->
     <script src="../scripts/theme.ts"></script>
 
-    <!-- Vercel Web Analytics -->
+    <!-- Vercel Web Analytics (non-blocking) -->
     <script>
-      import { inject } from "@vercel/analytics";
-      inject();
+      window.addEventListener("load", function () {
+        import("@vercel/analytics").then(function (m) { m.inject(); });
+      });
     </script>
   </body>
 </html>
