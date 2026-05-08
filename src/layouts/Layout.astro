@@ -282,7 +282,28 @@ const structuredData = overrideJsonLd ?? {
       )
     }
 
-    {/* Google Analytics 4 — moved to body end to prevent FCP blocking */}
+    {/* Google Analytics 4 */}
+    {
+      PUBLIC_GA4_MEASUREMENT_ID && (
+        <>
+          <script
+            is:inline
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GA4_MEASUREMENT_ID}`}
+          />
+          <script
+            is:inline
+            define:vars={{ gaId: PUBLIC_GA4_MEASUREMENT_ID }}
+          >
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { window.dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', gaId, { send_page_view: true });
+          </script>
+        </>
+      )
+    }
 
     <ClientRouter />
 
@@ -383,28 +404,5 @@ const structuredData = overrideJsonLd ?? {
       import { inject } from "@vercel/analytics";
       inject();
     </script>
-
-    {/* Google Analytics 4 — deferred to body end for FCP optimization */}
-    {
-      PUBLIC_GA4_MEASUREMENT_ID && (
-        <>
-          <script
-            is:inline
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${PUBLIC_GA4_MEASUREMENT_ID}`}
-          />
-          <script
-            is:inline
-            define:vars={{ gaId: PUBLIC_GA4_MEASUREMENT_ID }}
-          >
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { window.dataLayer.push(arguments); }
-            window.gtag = gtag;
-            gtag('js', new Date());
-            gtag('config', gaId, { send_page_view: true });
-          </script>
-        </>
-      )
-    }
   </body>
 </html>
