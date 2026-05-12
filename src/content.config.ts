@@ -24,9 +24,9 @@ const minSourceCount = parsePositiveInt(
   1
 );
 
-/** Keep loader pattern simple to avoid brace-expansion duplicate matches in some environments. */
+/** Supports both .md and .mdx files. MDX required for components in frontmatter. */
 const blog = defineCollection({
-  loader: glob({ pattern: "*/*.md", base: `./${BLOG_PATH}` }),
+  loader: glob({ pattern: "*/*.{md,mdx}", base: `./${BLOG_PATH}` }),
   schema: ({ image }) =>
     z.object({
       author: z.string().default(SITE.author),
