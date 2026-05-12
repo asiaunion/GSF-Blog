@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "./typography.css";
+@import "./infographic-tokens.css";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
@@ -226,4 +227,25 @@ html[data-theme="dark"] {
   line-height: 1.5;
   color: color-mix(in srgb, var(--color-foreground) 70%, transparent);
   margin: 0;
+}
+
+/**
+ * Infographic Card — Dark editorial style (JLL/CBRE aesthetic)
+ * Always renders dark regardless of light/dark mode toggle.
+ * SVG internal colors are self-contained (no CSS var dependency).
+ */
+.infographic-card {
+  background: #0f1729;
+  border-radius: 14px;
+  margin: 28px 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.4),
+    0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.infographic-card svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
