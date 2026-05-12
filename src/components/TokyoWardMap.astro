@@ -1,85 +1,80 @@
 ---
-title: "도쿄 어디에 살 것인가 — 23구 + 多摩 완전 가이드 [시리즈 프롤로그]"
-description: "도쿄 23구와 多摩 지역을 이미지·브랜드 기준으로 나눈 12편 시리즈의 시작. 이주·투자·여행 목적별로 어떤 동네가 맞는지, 핵심 6구 개념부터 지역별 포지셔닝 지도까지 한눈에 정리합니다."
-pubDatetime: 2026-05-12T09:00:00Z
-author: GSF
-lang: ko
-category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-ward-guide-series-prologue-hero.webp"
-tags:
-  - 도쿄
-  - 23구
-  - 多摩
-  - 이주
-  - 부동산
-  - 투자
-  - 지역가이드
-sources:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
-references:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
+// TokyoWardMap.astro — 도쿄 23구 브랜드 그루핑 지도
+// GeoJSON 실좌표 기반 인터랙티브 SVG 지도
+// E0 프롤로그 포스트에서 사용
 ---
 
-도쿄로 이주를 고민하고 있거나, 부동산 투자처로 도쿄를 바라보고 있다면 반드시 한 번은 맞닥뜨리는 질문이 있습니다.
-
-**"도쿄의 어느 구에 살아야 하는가?"**
-
-23개 특별구와 그 서쪽으로 펼쳐진 多摩 지역의 수십 개 시(市)까지. 행정구역 지도만 보면 도쿄는 그저 거대한 덩어리처럼 보입니다. 하지만 현지에서 살아보거나 투자를 실행해본 사람이라면 알 수 있습니다. 각 구는 마치 다른 도시처럼 전혀 다른 얼굴을 가지고 있다는 것을.
-
-이 시리즈는 바로 그 질문에 답하기 위해 기획했습니다. 단순한 관광 안내가 아닌, **이주자와 투자자의 시각**으로 도쿄의 각 지역을 해부합니다. 매매가, 임대 시세, 소득 수준, 외국인 생활 환경, 그리고 동네의 브랜드 이미지까지 — 결정에 필요한 정보를 한 편에 모아 드립니다.
-
----
-
-## 이 시리즈를 읽어야 하는 독자
-
-**도쿄 이주 검토자라면** — 예산과 라이프스타일에 맞는 동네를 좁히는 데 이 시리즈만한 나침반이 없을 것입니다. 각 편에서 임대 시세와 외국인 생활 편의성을 중심으로 정리했습니다.
-
-**부동산 투자자라면** — 구별 맨션 매매가 추이, 세대 소득 수준, 재개발 포텐셜을 데이터 중심으로 다룹니다. 단순 평균이 아닌, 역세권과 서브지역 단위의 편차까지 짚어냅니다.
-
-**도쿄 여행자라면** — 관광 명소와 동네 분위기 스케치를 보조 레이어로 함께 담았습니다. 숙소를 어느 구에 잡을지, 어떤 동네를 걸어볼지에 대한 힌트가 될 것입니다.
-
----
-
-## 핵심 6구(Core 6)라는 개념
-
-도쿄 부동산 시장과 행정에서 자주 쓰이는 분류가 있습니다. **핵심 6구(都心6区)**, 즉 千代田区(치요다)·中央区(주오)·港区(미나토)·新宿区(신주쿠)·渋谷区(시부야)·文京区(분쿄)입니다.
-
-이 여섯 구는 도쿄의 지리적, 경제적, 문화적 중심부로, 맨션 가격과 임대료 모두 나머지 구와 확연히 다른 레벨에서 형성됩니다. 이 시리즈에서는 이 6구를 두 편으로 나누어 각각 심층적으로 다룹니다. 전반 3구(치요다·주오·미나토)와 후반 3구(신주쿠·시부야·분쿄)는 모두 프리미엄 지역이지만, 그 성격은 전혀 다릅니다.
-
----
-
-## 브랜드 기준 그루핑 — 왜 이 방식인가
-
-수많은 도쿄 지역 분류 방법 중 이 시리즈는 **이미지·브랜드 기준**을 택했습니다.
-
-가격대 기준으로 나누면 지역의 '성격'이 사라집니다. 노선 기준으로 나누면 지리적으로는 맞지만, 실제 주거 선택 시 독자가 느끼는 감각과 괴리가 생깁니다. 반면 "나는 조용한 고급 주거지가 좋다", "직장 접근성과 트렌디한 분위기를 원한다", "가성비가 먼저다" 같은 라이프스타일 언어로 동네를 묶으면 — 독자 스스로 자신의 위치를 빠르게 찾을 수 있습니다.
-
-물론 가격대 기준 시리즈와 노선 기준 시리즈도 별도로 기획 중입니다. 이 시리즈는 그 세 가지 중 첫 번째입니다.
-
----
-
-## 시리즈 전체 구성 — 12편 로드맵
-
-<div class="series-map">
-
-| 편 | 지역 | 구성 구/시 |
-|----|------|-----------|
-| **Ep.0** | 프롤로그 (현재 글) | 전체 개요 |
-| **Ep.1** | 핵심 3구 — 도쿄의 심장 | 千代田·中央·港 |
-| **Ep.2** | 핵심 6구 — 도쿄의 얼굴 | 新宿·渋谷·文京 |
-| **Ep.3** | 서쪽 프리미엄 주거 벨트 | 目黒·世田谷 |
-| **Ep.4** | 비즈니스 게이트웨이 | 品川·大田 |
-| **Ep.5** | 힙스터 이너링 | 豊島·中野·杉並 |
-| **Ep.6** | 시타마치 르네상스 | 台東·墨田·江東 |
-| **Ep.7** | 노스 도쿄 가성비 벨트 | 北·荒川·板橋·練馬 |
-| **Ep.8** | 이스트 사이드 스토리 | 足立·葛飾·江戸川 |
-| **Ep.9** | 다마 프리미엄 클러스터 | 武蔵野·三鷹·調布 |
-| **Ep.10** | 다마 교육·문화 벨트 | 国分寺·国立·府中·立川 |
-| **Ep.11** | 다마 외곽 가성비 존 | 八王子·町田·多摩·稲城 등 |
-
-</div>
+<style>
+  .tokyo-ward-map {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  #e0-tooltip {
+    position: fixed;
+    background: rgba(13, 27, 62, 0.96);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 12px;
+    color: #f1f5f9;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    white-space: nowrap;
+  }
+  #e0-tooltip.show { opacity: 1; }
+  .ep-badge {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .ward { cursor: pointer; transition: fill-opacity 0.15s; }
+  .ward[data-ep="ep1"] { fill: #3b82f6; fill-opacity: 0.7; }
+  .ward[data-ep="ep1"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep2"] { fill: #8b5cf6; fill-opacity: 0.7; }
+  .ward[data-ep="ep2"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep3"] { fill: #f59e0b; fill-opacity: 0.7; }
+  .ward[data-ep="ep3"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep4"] { fill: #ea580c; fill-opacity: 0.7; }
+  .ward[data-ep="ep4"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep5"] { fill: #ec4899; fill-opacity: 0.7; }
+  .ward[data-ep="ep5"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep6"] { fill: #10b981; fill-opacity: 0.7; }
+  .ward[data-ep="ep6"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep7"] { fill: #06b6d4; fill-opacity: 0.7; }
+  .ward[data-ep="ep7"]:hover { fill-opacity: 1; }
+  .ward[data-ep="ep8"] { fill: #84cc16; fill-opacity: 0.7; }
+  .ward[data-ep="ep8"]:hover { fill-opacity: 1; }
+  .ward-label {
+    font-family: 'Inter', 'Noto Sans JP', sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    fill: rgba(255,255,255,0.75);
+    pointer-events: none;
+    user-select: none;
+  }
+  .infographic-card.tokyo-ward-map {
+    background: var(--ig-bg-primary, #0d1b3e);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 0;
+    overflow: hidden;
+  }
+  .infographic-card.tokyo-ward-map svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+</style>
 
 <!-- 도쿄 23구 브랜드 그루핑 지도 — GeoJSON 실좌표 기반 -->
 <div id="e0-tooltip"></div>
@@ -189,110 +184,32 @@ font-family="Inter,sans-serif" opacity="0.9">皇居</text>
 <div class="ig-legend__item"><span class="ig-legend__dot" style="background:#3b82f6"></span>Ep1 핵심3구</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#8b5cf6"></span>Ep2 핵심6구</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#f59e0b"></span>Ep3 서쪽고급</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#ea580c"></span>Ep4 비즈니스</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#ec4899"></span>Ep5 힙스터</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#10b981"></span>Ep6 시타마치</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#06b6d4"></span>Ep7 노스</div><div class="ig-legend__item"><span class="ig-legend__dot" style="background:#84cc16"></span>Ep8 이스트</div>
 </div>
 </div>
-<script is:inline>
 
-const EP_NAMES = {"ep1": "Ep1 핵심3구", "ep2": "Ep2 핵심6구", "ep3": "Ep3 서쪽고급", "ep4": "Ep4 비즈니스", "ep5": "Ep5 힙스터", "ep6": "Ep6 시타마치", "ep7": "Ep7 노스", "ep8": "Ep8 이스트"};
-const EP_COLORS = {"ep1": "#3b82f6", "ep2": "#8b5cf6", "ep3": "#f59e0b", "ep4": "#ea580c", "ep5": "#ec4899", "ep6": "#10b981", "ep7": "#06b6d4", "ep8": "#84cc16"};
+<script>
+const EP_NAMES: Record<string, string> = {"ep1": "Ep1 핵심3구", "ep2": "Ep2 핵심6구", "ep3": "Ep3 서쪽고급", "ep4": "Ep4 비즈니스", "ep5": "Ep5 힙스터", "ep6": "Ep6 시타마치", "ep7": "Ep7 노스", "ep8": "Ep8 이스트"};
+const EP_COLORS: Record<string, string> = {"ep1": "#3b82f6", "ep2": "#8b5cf6", "ep3": "#f59e0b", "ep4": "#ea580c", "ep5": "#ec4899", "ep6": "#10b981", "ep7": "#06b6d4", "ep8": "#84cc16"};
 const tooltip = document.getElementById('e0-tooltip');
-const wards = document.querySelectorAll('.ward');
-
-wards.forEach(w => {
-w.addEventListener('mousemove', e => {
-const ep = w.dataset.ep;
-const name = w.dataset.ep ? w.closest('svg').querySelector(
-`.ward-label[data-ep="${ep}"]`) : null;
-const wardName = w.getAttribute('data-name') || '';
-tooltip.innerHTML = `<span class="ep-badge" style="background:${EP_COLORS[ep]}"></span>${EP_NAMES[ep] || ep} — ${wardName}`;
-tooltip.classList.add('show');
-tooltip.style.left = (e.clientX + 14) + 'px';
-tooltip.style.top  = (e.clientY - 10) + 'px';
+const labelMap: Record<string, string[]> = {};
+document.querySelectorAll('.ward-label').forEach(lbl => {
+  const ep = (lbl as HTMLElement).dataset['ep'] ?? '';
+  if (!labelMap[ep]) labelMap[ep] = [];
+  labelMap[ep].push(lbl.textContent ?? '');
 });
-w.addEventListener('mouseleave', () => tooltip.classList.remove('show'));
+document.querySelectorAll('.ward').forEach(w => {
+  const el = w as HTMLElement;
+  const ep = el.dataset['ep'] ?? '';
+  el.setAttribute('data-name', (labelMap[ep] || [])[0] || ep);
+  el.addEventListener('mousemove', (e) => {
+    const me = e as MouseEvent;
+    if (tooltip) {
+      tooltip.innerHTML = `<span class="ep-badge" style="background:${EP_COLORS[ep]}"></span>${EP_NAMES[ep] || ep} — ${el.getAttribute('data-name')}`;
+      (tooltip as HTMLElement).style.opacity = '1';
+      (tooltip as HTMLElement).style.left = (me.clientX + 14) + 'px';
+      (tooltip as HTMLElement).style.top  = (me.clientY - 10) + 'px';
+    }
+  });
+  el.addEventListener('mouseleave', () => { if(tooltip) (tooltip as HTMLElement).style.opacity = '0'; });
 });
-
-// 다크 초기화
 const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
-const toggleBtn = document.getElementById('themeToggle');
-if (toggleBtn) {
-toggleBtn.textContent = isDark ? '☀️' : '🌙';
-toggleBtn.addEventListener('click', () => {
-const cur = document.documentElement.getAttribute('data-theme');
-const next = cur === 'dark' ? 'light' : 'dark';
-document.documentElement.setAttribute('data-theme', next);
-toggleBtn.textContent = next === 'dark' ? '☀️' : '🌙';
-});
-}
-
-// 구 이름 → 툴팁 매핑 (라벨 text 내용 읽기)
-const labelMap = {};
-document.querySelectorAll('.ward-label').forEach(lbl => {
-labelMap[lbl.dataset.ep] = labelMap[lbl.dataset.ep] || [];
-labelMap[lbl.dataset.ep].push(lbl.textContent);
-});
-const wardEls = document.querySelectorAll('.ward');
-wardEls.forEach((w, i) => {
-const ep = w.dataset.ep;
-const names = labelMap[ep] || [];
-const idx = Array.from(document.querySelectorAll(`.ward[data-ep="${ep}"]`)).indexOf(w);
-w.setAttribute('data-name', names[0] || ep);
-});
-
 </script>
-
-
-매주 1편씩 발행합니다.
-
-
----
-
-## 23구 가격대·성격 한눈에 보기
-
-아래 표는 각 구의 대략적인 포지션을 정리한 것입니다. 편당 상세 데이터는 해당 편에서 다룹니다.
-
-| 구분 | 해당 구 | 맨션 가격대 | 핵심 이미지 |
-|------|---------|------------|------------|
-| 핵심 3구 | 千代田·中央·港 | ㎡당 150만엔↑ | 최고 프리미엄, 외국인 투자 선호 |
-| 핵심 6구 나머지 | 新宿·渋谷·文京 | ㎡당 100~150만엔 | 상업·트렌드·학문, 젊은 전문직 |
-| 서쪽 고급 주거 | 目黒·世田谷 | ㎡당 80~120만엔 | 가족형 고급 주거, 넓은 주택 문화 |
-| 비즈니스 거점 | 品川·大田 | ㎡당 70~100만엔 | 신칸센·하네다, 기업 인력 수요 |
-| 힙스터 이너링 | 豊島·中野·杉並 | ㎡당 60~85만엔 | 트렌디, 한국인 커뮤니티, 상대적 저가 |
-| 시타마치 | 台東·墨田·江東 | ㎡당 55~80만엔 | 전통+재개발, 신흥 투자처 |
-| 북부 가성비 | 北·荒川·板橋·練馬 | ㎡당 45~65만엔 | 한인촌, 실속, 재개발 진행 중 |
-| 동부 실속 | 足立·葛飾·江戸川 | ㎡당 40~55만엔 | 넓은 주거, 최저가, 장기 잠재력 |
-| 다마 프리미엄 | 武蔵野·三鷹·調布 | ㎡당 55~80만엔 | 기치조지 브랜드, 도심 접근성 |
-| 다마 문화·교육 | 国分寺·国立·府中·立川 | ㎡당 40~60만엔 | 학원도시, 역세권 재개발 |
-| 다마 외곽 | 八王子·町田·多摩 등 | ㎡당 25~45만엔 | 광역 광역, 넓은 면적, 저가 |
-
-> **주의**: 위 가격대는 2025~2026년 기준 대략적인 범위입니다. 역세권, 건축연도, 층수, 전용면적에 따라 편차가 큽니다. 각 편에서 더 정확한 데이터를 제공합니다.
-
----
-
-## 외국인이 도쿄 부동산을 살 수 있는가?
-
-이 시리즈를 읽는 분들 중 상당수가 가장 먼저 궁금해하는 질문입니다. 결론부터: **일본은 외국인의 부동산 취득에 법적 제한이 없습니다.** 국적과 무관하게 맨션(아파트)과 토지를 매입할 수 있으며, 비거주자 상태에서도 가능합니다.
-
-다만 실무적인 허들이 몇 가지 있습니다. 대출(모기지)은 일본 내 주소지 및 소득 증명이 없으면 어렵고, 관리조합 가입 절차나 서류가 일본어로만 진행되는 경우가 많습니다. 각 편의 마지막 섹션에서 해당 지역의 외국인 매입 환경을 별도로 정리했습니다.
-
----
-
-## 이 시리즈에서 사용하는 데이터 출처
-
-수치의 신뢰도가 중요한 콘텐츠인 만큼, 사용하는 데이터 출처를 미리 밝힙니다.
-
-- **매매가·임대가**: LIFULL HOME'S, SUUMO 실거래·매물 집계 데이터
-- **인구·외국인 비율**: 東京都統計 포털 (각 구 주민기본대장 기준)
-- **세대 소득**: 国税庁 민간급여실태통계, 각 구청 공개 자료
-- **데이터 기준 시점**: 각 편에 명기. 부동산 시세는 분기별로 변동하므로 최신 데이터는 링크 출처에서 확인하세요.
-
----
-
-## Ep.1 예고 — 핵심 3구: 도쿄의 심장
-
-다음 편은 이 시리즈의 하이라이트, **千代田·中央·港 3구**입니다.
-
-황궁이 있는 치요다, 긴자와 니혼바시의 주오, 롯폰기와 아자부의 미나토. 이 세 구는 도쿄에서 가장 비싸고, 가장 상징적이며, 외국인 투자자가 가장 많이 찾는 곳입니다. 坪(평)당 가격이 다른 구의 2~3배에 달하는 이유, 각 구 내에서도 역세권별로 어떤 편차가 있는지, 장기 보유 vs 임대 수익 관점에서의 분석까지 — 다음 주 발행 예정입니다.
-
----
-
-*면책 조항: 이 글은 정보 제공 및 교육 목적으로만 작성되었으며, 투자 권유, 법률 자문, 세무 상담을 구성하지 않습니다. 모든 재무적 결정을 내리기 전에 반드시 자격을 갖춘 전문가와 상담하시기 바랍니다. 부동산 시세는 시장 상황에 따라 수시로 변동됩니다.*
