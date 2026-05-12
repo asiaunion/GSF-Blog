@@ -89,6 +89,196 @@
       "source": "/ja/tags/hotel/",
       "destination": "/tags/hotel/",
       "permanent": true
+    },
+    {
+      "source": "/ko/tags/travel/",
+      "destination": "/tags/travel/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/travel/",
+      "destination": "/tags/travel/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/nihonbashi/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/nihonbashi/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/marketcorrelation/",
+      "destination": "/tags/marketcorrelation/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/marketcorrelation/",
+      "destination": "/tags/marketcorrelation/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/tokyotravel/",
+      "destination": "/tags/tokyotravel/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/tokyotravel/",
+      "destination": "/tags/tokyotravel/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/tokyo/",
+      "destination": "/tags/tokyo/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/tokyo/",
+      "destination": "/tags/tokyo/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/japan/",
+      "destination": "/tags/japan/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/japan/",
+      "destination": "/tags/japan/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/realestate/",
+      "destination": "/tags/realestate/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/realestate/",
+      "destination": "/tags/realestate/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/jreit/",
+      "destination": "/tags/jreit/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/jreit/",
+      "destination": "/tags/jreit/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/j-reit/",
+      "destination": "/tags/j-reit/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/j-reit/",
+      "destination": "/tags/j-reit/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/macro/",
+      "destination": "/tags/macro/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/macro/",
+      "destination": "/tags/macro/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/fx/",
+      "destination": "/tags/fx/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/fx/",
+      "destination": "/tags/fx/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/essay/",
+      "destination": "/tags/essay/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/essay/",
+      "destination": "/tags/essay/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/earthquake/",
+      "destination": "/tags/earthquake/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/earthquake/",
+      "destination": "/tags/earthquake/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/lifestyle/",
+      "destination": "/tags/lifestyle/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/lifestyle/",
+      "destination": "/tags/lifestyle/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/investing/",
+      "destination": "/tags/investing/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/investing/",
+      "destination": "/tags/investing/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/seoulrealestate/",
+      "destination": "/tags/seoulrealestate/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/seoulrealestate/",
+      "destination": "/tags/seoulrealestate/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/yen/",
+      "destination": "/tags/yen/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/yen/",
+      "destination": "/tags/yen/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/tax/",
+      "destination": "/tags/tax/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/tax/",
+      "destination": "/tags/tax/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/tokyorealestate/",
+      "destination": "/tags/tokyorealestate/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/tokyorealestate/",
+      "destination": "/tags/tokyorealestate/",
+      "permanent": true
     }
   ]
 }
