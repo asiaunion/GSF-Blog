@@ -12,6 +12,7 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 import { getLegacyPostRedirects } from "./src/build/legacyPostRedirects";
+import { getCrossLocaleTagRedirects } from "./src/build/crossLocaleTagRedirects";
 import { pagefindIntegration } from "./src/build/pagefindIntegration";
 
 // https://astro.build/config
@@ -19,7 +20,10 @@ export default defineConfig({
   site: SITE.website,
   trailingSlash: "always",
   adapter: vercel(),
-  redirects: getLegacyPostRedirects(),
+  redirects: {
+    ...getLegacyPostRedirects(),
+    ...getCrossLocaleTagRedirects(),
+  },
   i18n: {
     defaultLocale: "en",
     locales: ["en", "ko", "ja"],
