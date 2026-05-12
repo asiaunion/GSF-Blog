@@ -4,6 +4,91 @@
       "source": "/en/:path(.*)",
       "destination": "/:path",
       "permanent": true
+    },
+    {
+      "source": "/%EC%9D%BC%EB%B3%B8-%EB%8F%84%EC%BF%84-%EC%A7%80%EC%A7%84%EC%97%90%EC%84%9C-%EC%B7%A8%EC%95%BD%ED%95%9C-5%EA%B3%B3/",
+      "destination": "/ko/posts/tokyo-earthquake-vulnerable-five-areas/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%9D%BC%EB%B3%B8-%EB%A6%AC%EC%B8%A0j-reits-%ED%88%AC%EC%9E%90-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80/",
+      "destination": "/ko/posts/j-reit-five-things-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/%EC%9D%BC%EB%B3%B8-%EB%8F%84%EC%BF%84%EC%9D%98-%EC%84%B8%EB%A0%A8%EB%90%9C-%EB%AA%85%EC%86%8C-5%EA%B3%B3/",
+      "destination": "/ko/posts/tokyo-five-sophisticated-spots/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EC%8B%9C%EC%9E%A5%EB%B9%84%EA%B5%90/",
+      "destination": "/ko/tags/%EC%8B%9C%EC%9E%A5%EB%B9%84%EA%B5%90/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EB%8F%84%EC%BF%84-6-%EA%B5%AC/",
+      "destination": "/ko/tags/%EB%8F%84%EC%BF%84-6-%EA%B5%AC/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%ED%98%B8%ED%85%94/",
+      "destination": "/tags/hotel/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EC%99%84%EC%A0%84%EA%B0%80%EC%9D%B4%EB%93%9C/",
+      "destination": "/ko/tags/%EC%99%84%EC%A0%84%EA%B0%80%EC%9D%B4%EB%93%9C/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%ED%86%A0%EC%BF%84%ED%86%A0%EC%B9%98/",
+      "destination": "/ko/tags/%ED%86%A0%EC%BF%84%ED%86%A0%EC%B9%98/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/archive/",
+      "destination": "/tags/archive/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/",
+      "destination": "/ko/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/%EC%8B%9C%EC%9E%A5%EB%B9%84%EA%B5%90/",
+      "destination": "/ko/tags/%EC%8B%9C%EC%9E%A5%EB%B9%84%EA%B5%90/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/%EC%99%84%EC%A0%84%EA%B0%80%EC%9D%B4%EB%93%9C/",
+      "destination": "/ko/tags/%EC%99%84%EC%A0%84%EA%B0%80%EC%9D%B4%EB%93%9C/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/tokyowithkids/",
+      "destination": "/tags/tokyowithkids/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/realestate/",
+      "destination": "/tags/realestate/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/gifttax/",
+      "destination": "/tags/gifttax/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/hotel/",
+      "destination": "/tags/hotel/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/hotel/",
+      "destination": "/tags/hotel/",
+      "permanent": true
     }
   ]
 }
