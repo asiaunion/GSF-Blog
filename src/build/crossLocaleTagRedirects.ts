@@ -173,40 +173,41 @@ export function getCrossLocaleTagRedirects(): Record<
 > {
   const out: Record<string, { status: 308; destination: string }> = {};
 
-  // Rule 1: /ko/tags/<EN-tag>/ → /tags/<EN-tag>/
+  // Rule 1: /ko/tags/<EN-tag> → /tags/<EN-tag>/
+  // NOTE: Keys must NOT have trailing slash — Astro converts to Vercel ^/path$ regex
   for (const tag of EN_TAGS) {
-    const from = `/ko/tags/${tag}/`;
+    const from = `/ko/tags/${tag}`;
     const dest = `/tags/${tag}/`;
     out[from] = { status: 308, destination: dest };
   }
 
-  // Rule 2: /ja/tags/<EN-tag>/ → /tags/<EN-tag>/
+  // Rule 2: /ja/tags/<EN-tag> → /tags/<EN-tag>/
   for (const tag of EN_TAGS) {
-    const from = `/ja/tags/${tag}/`;
+    const from = `/ja/tags/${tag}`;
     const dest = `/tags/${tag}/`;
     out[from] = { status: 308, destination: dest };
   }
 
-  // Rule 3: /ja/tags/<KO-tag>/ → /ko/tags/<KO-tag>/
+  // Rule 3: /ja/tags/<KO-tag> → /ko/tags/<KO-tag>/
   for (const tag of KO_TAGS_LITERAL) {
     const encoded = encodeURIComponent(tag);
-    const from = `/ja/tags/${encoded}/`;
+    const from = `/ja/tags/${encoded}`;
     const dest = `/ko/tags/${encoded}/`;
     out[from] = { status: 308, destination: dest };
   }
 
-  // Rule 4: /tags/<KO-tag>/ → /ko/tags/<KO-tag>/ (root level KO tags)
+  // Rule 4: /tags/<KO-tag> → /ko/tags/<KO-tag>/ (root level KO tags)
   for (const tag of KO_TAGS_LITERAL) {
     const encoded = encodeURIComponent(tag);
-    const from = `/tags/${encoded}/`;
+    const from = `/tags/${encoded}`;
     const dest = `/ko/tags/${encoded}/`;
     out[from] = { status: 308, destination: dest };
   }
 
-  // Rule 5: /ko/tags/<JA-tag>/ → /ja/tags/<JA-tag>/
+  // Rule 5: /ko/tags/<JA-tag> → /ja/tags/<JA-tag>/
   for (const tag of JA_TAGS_LITERAL) {
     const encoded = encodeURIComponent(tag);
-    const from = `/ko/tags/${encoded}/`;
+    const from = `/ko/tags/${encoded}`;
     const dest = `/ja/tags/${encoded}/`;
     out[from] = { status: 308, destination: dest };
   }
