@@ -38,24 +38,7 @@ references:
 
 GSFは期待利回りの横に、常に「信頼の平衡点」を並べて置きます。私たちが測定する温かさの指標は以下の通りです。
 
-<svg viewBox="0 0 760 260" role="img" aria-label="温かい投資 リ스크フレームワーク" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">信頼-収益平衡モデル (Trust-Return Equilibrium Model)</text>
-  
-  <!-- Trust Axis -->
-  <line x1="100" y1="200" x2="660" y2="200" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)" />
-  <line x1="100" y1="200" x2="100" y2="60" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)" />
-  <text x="660" y="220" font-size="12" fill="#64748b" text-anchor="end">関係の信頼度 (Trust)</text>
-  <text x="90" y="60" font-size="12" fill="#64748b" text-anchor="end" transform="rotate(-90 90,60)">期待利回り (Yield)</text>
-  
-  <!-- Sweet Spot -->
-  <circle cx="450" cy="120" r="40" fill="#fef2f2" stroke="#f87171" stroke-dasharray="4,4" />
-  <text x="450" y="125" font-size="12" font-weight="700" fill="#b91c1c" text-anchor="middle">Warm Investing</text>
-  <text x="450" y="145" font-size="10" fill="#ef4444" text-anchor="middle">Sweet Spot</text>
-  
-  <!-- Path -->
-  <path d="M150 180 Q300 160 450 120 T600 70" fill="none" stroke="#3b82f6" stroke-width="3" />
-  <text x="610" y="85" font-size="11" fill="#1d4ed8">高リスク・高リターン (Cold Speculation)</text>
-</svg>
+![温かい投資 リ스크フレームワーク](/assets/images/blog/svg/ja-why-warm-investing-holds.svg)
 
 *   **透明性 (Transparency)**: 情報が非対称ではなく、失敗の兆候まで正直に共有されているか。
 *   **持続性 (Sustainability)**: 短期的な利益のために関係を消耗させず、次世代まで続く構造であるか。

@@ -33,21 +33,7 @@ The first thing to verify is the 'type' of contract.
 *   **Ordinary Lease (Futsu Chakuya)**: The most common type in Japan. It typically lasts for 2 years and **automatically renews unless the tenant chooses to leave**. For a landlord to refuse renewal, they must provide 'justifiable grounds,' which are very difficult to prove in court. This provides high security for the tenant. (Note: A renewal fee of \~1 month's rent is common.)
 *   **Fixed-Term Lease (Teiki Chakuya)**: This contract **terminates definitively at the end of the term**. There is no right to renew. If you wish to stay longer, you must negotiate a new contract with the landlord, who has no legal obligation to agree. These are often used for high-end properties or temporary rentals.
 
-<svg viewBox="0 0 760 220" role="img" aria-label="Comparison of Ordinary vs Fixed-Term Leases" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Types of Residential Leases in Japan</text>
-  
-  <!-- Futsu -->
-  <rect x="60" y="70" width="300" height="120" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="8" />
-  <text x="160" y="95" font-size="14" font-weight="700" fill="#15803d">Ordinary Lease (Standard)</text>
-  <text x="80" y="130" font-size="12" fill="#166534">● Right to automatic renewal</text>
-  <text x="80" y="155" font-size="12" fill="#166534">● Renewal fee every 2 years</text>
-  
-  <!-- Teiki -->
-  <rect x="400" y="70" width="300" height="120" fill="#fef2f2" stroke="#ef4444" stroke-width="1" rx="8" />
-  <text x="500" y="95" font-size="14" font-weight="700" fill="#b91c1c">Fixed-Term Lease (Temporary)</text>
-  <text x="420" y="130" font-size="12" fill="#991b1b">● Terminates on a specific date</text>
-  <text x="420" y="155" font-size="12" fill="#991b1b">● Re-negotiation required to stay</text>
-</svg>
+![Comparison of Ordinary vs Fixed-Term Leases](/assets/images/blog/svg/en-tokyo-moving-contracts-two-notes.svg)
 
 ---
 

@@ -229,29 +229,7 @@ Week 8-10 : 등기 완료·등기식별정보(権利証) 수령
 
 ## 비용 총정리: 한눈에 보는 매입 부대비용 체크표
 
-<svg viewBox="0 0 800 380" role="img" aria-label="도쿄 부동산 매입 부대비용 구성비 차트" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff">
-  <text x="24" y="30" font-size="16" font-weight="700" fill="#111827">매입 부대비용 구성비 (매매가 5,000만 엔 기준)</text>
-  <text x="24" y="52" font-size="12" fill="#6b7280">총 부대비용: 약 430~580만 엔 (8.6~11.6%)</text>
-  
-  <!-- Bar Chart -->
-  <rect x="180" y="80" width="360" height="36" fill="#60a5fa" rx="4"/>
-  <text x="550" y="103" font-size="12" fill="#374151">중개 수수료: 약 172만 엔 (3.36%)</text>
-  
-  <rect x="180" y="126" width="200" height="36" fill="#34d399" rx="4"/>
-  <text x="550" y="149" font-size="12" fill="#374151">등록면허세: 약 100만 엔 (2.0%)</text>
-  
-  <rect x="180" y="172" width="150" height="36" fill="#f59e0b" rx="4"/>
-  <text x="550" y="195" font-size="12" fill="#374151">부동산취득세: 약 75~150만 엔</text>
-  
-  <rect x="180" y="218" width="60" height="36" fill="#f87171" rx="4"/>
-  <text x="550" y="241" font-size="12" fill="#374151">인지세: 3만 엔</text>
-  
-  <rect x="180" y="264" width="80" height="36" fill="#a78bfa" rx="4"/>
-  <text x="550" y="287" font-size="12" fill="#374151">사법서사 보수: 10~20만 엔</text>
-  
-  <rect x="180" y="310" width="100" height="36" fill="#fb923c" rx="4"/>
-  <text x="550" y="333" font-size="12" fill="#374151">화재·지진보험 + 정산금: ~50만 엔</text>
-</svg>
+![도쿄 부동산 매입 부대비용 구성비 차트](/assets/images/blog/svg/ko-tokyo-buying-process-step-by-step.svg)
 
 _이 차트는 시뮬레이션 기준이며, 경감 특례 적용 여부에 따라 실제 금액은 변동됩니다._
 

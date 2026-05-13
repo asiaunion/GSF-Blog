@@ -38,24 +38,7 @@ references:
 
 不動産の利回り（Yield）は、購入価格と賃料だけで計算できるものではありません。
 
-<svg viewBox="0 0 760 300" role="img" aria-label="日本不動産 隠れたコストの氷山" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <!-- Water Line -->
-  <rect x="0" y="100" width="760" height="200" fill="#eff6ff" />
-  <line x1="0" y1="100" x2="760" y2="100" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,5" />
-  
-  <!-- Iceberg Top -->
-  <path d="M380 30 L450 100 L310 100 Z" fill="#fff" stroke="#94a3b8" />
-  <text x="380" y="85" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">表面利回り (Gross Yield)</text>
-  
-  <!-- Iceberg Bottom -->
-  <path d="M310 100 L250 250 L510 250 L450 100 Z" fill="#d1d5db" stroke="#94a3b8" />
-  <text x="380" y="140" font-size="12" fill="#475569" text-anchor="middle">● 修繕積立金の増額リスク (15年周期)</text>
-  <text x="380" y="170" font-size="12" fill="#475569" text-anchor="middle">● 原状回復費用 (退去時コスト)</text>
-  <text x="380" y="200" font-size="12" fill="#475569" text-anchor="middle">● 納税管理・建物管理手数料</text>
-  <text x="380" y="230" font-size="12" fill="#475569" text-anchor="middle">● 非居住者源泉徴収 (20.42%)</text>
-  
-  <text x="380" y="280" font-size="14" font-weight="700" fill="#ef4444" text-anchor="middle">現実的な実質利回り (Net Yield) = 表面の60〜70%程度</text>
-</svg>
+![日本不動産 隠れたコストの氷山](/assets/images/blog/svg/ja-one-failure-three-lessons-postmortem.svg)
 
 *   **失敗事例**: B氏は表面利回り6%の中古マンションを購入しました。しかし購入直後、管理組合で「大規模修繕」が決まり、毎月の積立金が3倍に跳ね上がりました。さらに退去時の原状回復（壁紙の張り替え等）費用を負担した結果、その年の収益は赤字に転落しました。
 *   **教訓**: 日本の建物は「老いる資産」です。重要事項説明書を通じて、修繕計画と積立金の残高を必ず確認しなければなりません。表面利回りから1.5〜2%程度差し引いたものが、あなたの手に残る真の現金です。

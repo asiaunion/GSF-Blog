@@ -51,28 +51,7 @@ references:
 
 최근 가장 눈에 띄는 변화는 일본 내 한국 스타트업의 약진입니다.
 
-<svg viewBox="0 0 760 280" role="img" aria-label="도쿄 한국인 커뮤니티 지형도 2026" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">도쿄 내 한국인 거점별 성격 (2026)</text>
-  
-  <!-- Shin-Okubo -->
-  <circle cx="150" cy="150" r="60" fill="#fef2f2" stroke="#f87171" stroke-width="2" />
-  <text x="150" y="145" font-size="14" font-weight="700" fill="#991b1b" text-anchor="middle">신오쿠보</text>
-  <text x="150" y="165" font-size="11" fill="#b91c1c" text-anchor="middle">문화·미식·관광</text>
-  
-  <!-- Azabu -->
-  <circle cx="380" cy="150" r="70" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2" />
-  <text x="380" y="145" font-size="14" font-weight="700" fill="#0369a1" text-anchor="middle">아자부·히로오</text>
-  <text x="380" y="165" font-size="11" fill="#075985" text-anchor="middle">글로벌 비즈니스·자산가</text>
-  
-  <!-- Toranomon -->
-  <circle cx="610" cy="150" r="60" fill="#f0fdf4" stroke="#22c55e" stroke-width="2" />
-  <text x="610" y="145" font-size="14" font-weight="700" fill="#166534" text-anchor="middle">토라노몬·롯폰기</text>
-  <text x="610" y="165" font-size="11" fill="#15803d" text-anchor="middle">IT·스타트업·핀테크</text>
-  
-  <!-- Connections -->
-  <path d="M210 150 L310 150" stroke="#94a3b8" stroke-dasharray="4,4" />
-  <path d="M450 150 L550 150" stroke="#94a3b8" stroke-dasharray="4,4" />
-</svg>
+![도쿄 한국인 커뮤니티 지형도 2026](/assets/images/blog/svg/ko-tokyo-korean-community-beyond-shinokubo.svg)
 
 *   **K-Startup Center (KSC)**: 토라노몬 힐즈에 위치한 K-스타트업 센터는 일본 시장에 도전하는 한국 기업들의 베이스캠프입니다.
 *   **테크 커뮤니티**: 롯폰기를 중심으로 한 IT 기업 주재원들과 엔지니어들은 슬랙(Slack)이나 오프라인 모임을 통해 일본 내 테크 트렌드와 이직, 창업 정보를 활발히 교환합니다.

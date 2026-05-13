@@ -33,32 +33,7 @@ references:
 *   **개인 명의의 함정**: 비거주자가 일본 부동산을 임대할 때, 임차인이 법인이거나 사업용으로 사용하는 경우 **20.42%의 원천징수**가 발생합니다. 이는 나중에 확정신고를 통해 돌려받을 수 있지만, 초기 현금흐름(Cash Flow)을 압박하는 요인이 됩니다.
 *   **법인 명의의 강점**: 법인은 원천징수 대상이 아니며, 모든 비용(관리비, 수선비, 차입금 이자 등)을 필요경비로 폭넓게 인정받을 수 있습니다. 또한, 이익이 800만 엔 이하인 구간에 대해서는 약 15%의 경감세율이 적용되어 소규모 투자 시 매우 유리합니다.
 
-<svg viewBox="0 0 760 300" role="img" aria-label="개인 vs 법인 소득세율 비교 차트" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">과세표준별 세율 비교 (개인 vs 법인)</text>
-  <text x="24" y="57" font-size="12" fill="#6b7280">단위: % (2025년 기준 실효세율 추정)</text>
-  
-  <!-- Y-Axis -->
-  <line x1="80" y1="240" x2="80" y2="80" stroke="#9ca3af" stroke-width="1" />
-  <line x1="80" y1="240" x2="700" y2="240" stroke="#9ca3af" stroke-width="1" />
-  
-  <!-- Personal Line (Progressive) -->
-  <path d="M80 230 L200 210 L350 180 L500 140 L650 90" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="5,5" />
-  <text x="660" y="95" font-size="11" fill="#ef4444">개인 (최고 45%)</text>
-  
-  <!-- Corporate Line (Step-wise) -->
-  <path d="M80 200 L300 200 L300 170 L700 170" fill="none" stroke="#3b82f6" stroke-width="3" />
-  <text x="600" y="160" font-size="11" fill="#3b82f6">법인 (실효 30-35%)</text>
-  
-  <!-- Labels -->
-  <text x="80" y="260" font-size="11" fill="#6b7280">100만엔</text>
-  <text x="280" y="260" font-size="11" fill="#6b7280">800만엔</text>
-  <text x="480" y="260" font-size="11" fill="#6b7280">1,800만엔</text>
-  <text x="650" y="260" font-size="11" fill="#6b7280">과세표준</text>
-  
-  <text x="35" y="100" font-size="11" fill="#9ca3af">50%</text>
-  <text x="35" y="170" font-size="11" fill="#9ca3af">30%</text>
-  <text x="35" y="235" font-size="11" fill="#9ca3af">0%</text>
-</svg>
+![개인 vs 법인 소득세율 비교 차트](/assets/images/blog/svg/ko-japan-corporate-vs-personal-rental-after-tax-sketch.svg)
 
 ---
 

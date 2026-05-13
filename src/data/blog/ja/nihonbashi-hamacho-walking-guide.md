@@ -50,36 +50,7 @@ references:
 
 高層ビル群を抜け、東へと歩を進めると「下町（Shitamachi）」特有の温かい風景が広がります。
 
-<svg viewBox="0 0 760 220" role="img" aria-label="日本橋・浜町 ウォーキングルートガイド" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">日本橋 -> 兜町 -> 浜町 散策路 (2026)</text>
-  
-  <!-- Nihonbashi -->
-  <rect x="50" y="80" width="160" height="80" fill="#f8fafc" stroke="#64748b" rx="8" />
-  <text x="130" y="115" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">日本橋</text>
-  <text x="130" y="135" font-size="11" fill="#475569" text-anchor="middle">伝統商業 / ラグジュアリー</text>
-  
-  <!-- Connection -->
-  <path d="M210 120 L270 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)" />
-  
-  <!-- Kabutocho -->
-  <rect x="270" y="80" width="180" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="8" />
-  <text x="360" y="115" font-size="14" font-weight="700" fill="#0369a1" text-anchor="middle">兜町</text>
-  <text x="360" y="135" font-size="11" fill="#075985" text-anchor="middle">金融革新 / ライフスタイル</text>
-
-  <!-- Connection -->
-  <path d="M450 120 L510 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)" />
-  
-  <!-- Hamacho -->
-  <rect x="510" y="80" width="200" height="80" fill="#fef2f2" stroke="#f87171" rx="8" />
-  <text x="610" y="115" font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">人形町・浜町</text>
-  <text x="610" y="135" font-size="11" fill="#991b1b" text-anchor="middle">職人精神 / 上質な日常</text>
-
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8" />
-    </marker>
-  </defs>
-</svg>
+![日本橋・浜町 ウォーキングルートガイド](/assets/images/blog/svg/ja-nihonbashi-hamacho-walking-guide.svg)
 
 *   **甘酒横丁**: 人形町の400m商店街。人形焼（1個¥100〜200）、煎餅、伊勢辰（1864年創業）和紙工芸品など。大半10:00〜17:00営業、日曜休み多数。
 *   **浜町リバーサイド**: 隅田川へと続く浜町は、都心でありながら落ち着いた住環境を誇る洗練されたエリアです。新築タワーマンション¥500,000〜700,000/㎡ — 隣接する日本橋より約25%割安で、隠れたバリュー投資先です。

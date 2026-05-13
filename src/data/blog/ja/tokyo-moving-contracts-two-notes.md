@@ -33,21 +33,7 @@ references:
 *   **普通借家契約 (Futsu Chakuya)**: 日本で最も一般的な形態です。通常は2年契約で、借主が希望すれば**正当な理由がない限り原則として更新**されます。貸主が更新を拒否するには「正当事由」が必要ですが、これは裁判所で非常に厳しく判断されます。つまり、借主にとって非常に有利な契約です。（更新時に約1ヶ月分の更新料が発生することが一般的です。）
 *   **定期借家契約 (Teiki Chakuya)**: 契約期間が満了すると**更新されず、確定的に終了**する契約です。住み続けたい場合は貸主と「再契約」を合意する必要がありますが、貸主が拒否すれば退去しなければなりません。高級マンションや、貸主が一時的に家を空ける場合などに利用されます。
 
-<svg viewBox="0 0 760 220" role="img" aria-label="普通借家 vs 定期借家の比較" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">日本の賃貸借契約タイプの比較</text>
-  
-  <!-- Futsu -->
-  <rect x="60" y="70" width="300" height="120" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="8" />
-  <text x="160" y="95" font-size="14" font-weight="700" fill="#15803d">普通借家 (一般的)</text>
-  <text x="80" y="130" font-size="12" fill="#166534">● 契約更新の権利 (強力な借主保護)</text>
-  <text x="80" y="155" font-size="12" fill="#166534">● 2年ごとの更新料が発生</text>
-  
-  <!-- Teiki -->
-  <rect x="400" y="70" width="300" height="120" fill="#fef2f2" stroke="#ef4444" stroke-width="1" rx="8" />
-  <text x="500" y="95" font-size="14" font-weight="700" fill="#b91c1c">定期借家 (期間限定)</text>
-  <text x="420" y="130" font-size="12" fill="#991b1b">● 期間満了で契約終了</text>
-  <text x="420" y="155" font-size="12" fill="#991b1b">● 再契約には貸主の合意が必要</text>
-</svg>
+![普通借家 vs 定期借家の比較](/assets/images/blog/svg/ja-tokyo-moving-contracts-two-notes.svg)
 
 ---
 
