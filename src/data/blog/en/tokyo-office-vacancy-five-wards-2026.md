@@ -33,41 +33,7 @@ As of Q1 2026, the average vacancy rate in Tokyo’s 5 central wards (Chiyoda, C
 
 However, I view this number as a "warning" rather than a "celebration." Vacancy is the most lagging indicator in the market. The demand for expansion and the robust absorption of high-spec new buildings moved first; the numbers are only now proving it. Particularly noteworthy is the **rise in 'Effective Rents.'** As rent-free periods shrink, landlord bargaining power is at its highest post-pandemic peak.
 
-<svg viewBox="0 0 760 280" role="img" aria-label="Tokyo 5 Wards Office Vacancy Trend Chart (2023-2026)" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji)</text>
-  <text x="24" y="57" font-size="12" fill="#6b7280">Unit: % (Jan 2023 \~ Mar 2026)</text>
-  
-  <!-- Grid Lines -->
-  <line x1="60" y1="220" x2="720" y2="220" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="170" x2="720" y2="170" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="120" x2="720" y2="120" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="70" x2="720" y2="70" stroke="#e5e7eb" stroke-width="1" />
-  
-  <!-- Y-Axis Labels -->
-  <text x="35" y="225" font-size="11" fill="#9ca3af">0%</text>
-  <text x="35" y="175" font-size="11" fill="#9ca3af">2%</text>
-  <text x="35" y="125" font-size="11" fill="#9ca3af">4%</text>
-  <text x="35" y="75" font-size="11" fill="#9ca3af">6%</text>
-  
-  <!-- Data Line (Path) -->
-  <path d="M60 80 L180 95 L300 130 L420 150 L540 170 L660 173 L720 171" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" />
-  
-  <!-- Points -->
-  <circle cx="60" cy="80" r="4" fill="#3b82f6" />
-  <circle cx="300" cy="130" r="4" fill="#3b82f6" />
-  <circle cx="540" cy="170" r="4" fill="#3b82f6" />
-  <circle cx="720" cy="171" r="4" fill="#1d4ed8" />
-  
-  <!-- Time Labels -->
-  <text x="50" y="240" font-size="11" fill="#6b7280">2023.01</text>
-  <text x="280" y="240" font-size="11" fill="#6b7280">2024.01</text>
-  <text x="520" y="240" font-size="11" fill="#6b7280">2025.01</text>
-  <text x="680" y="240" font-size="11" fill="#6b7280">2026.03</text>
-  
-  <!-- Current Value Callout -->
-  <rect x="650" y="140" width="60" height="25" fill="#1d4ed8" rx="4" />
-  <text x="662" y="157" font-size="12" font-weight="700" fill="#fff">2.22%</text>
-</svg>
+![Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji, Jan 2023–Mar 2026)](/assets/images/blog/tokyo-office-vacancy-chart-en.png)
 
 ---
 

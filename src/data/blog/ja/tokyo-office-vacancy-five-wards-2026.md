@@ -32,41 +32,7 @@ references:
 
 しかし、私はこの数字を「祝辞」ではなく「警告」として捉えています。空室率は市場における最も遅い指標です。拡張需要や高スペック新築ビルへの吸収は既に動いており、数字がそれを後追いしているに過ぎません。特に注目すべきは、**「成約賃料（実質賃料）」の上昇**です。フリーレント期間が短縮され、オーナー側の交渉力はポストパンデミックで最大のピークに達しています。
 
-<svg viewBox="0 0 760 280" role="img" aria-label="都心5区オフィス空室率推移チャート (2023-2026)" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">東京都心5区 オフィス空室率の推移（三鬼商事データ）</text>
-  <text x="24" y="57" font-size="12" fill="#6b7280">単位: % (2023年1月 \~ 2026年3月)</text>
-  
-  <!-- Grid Lines -->
-  <line x1="60" y1="220" x2="720" y2="220" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="170" x2="720" y2="170" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="120" x2="720" y2="120" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="70" x2="720" y2="70" stroke="#e5e7eb" stroke-width="1" />
-  
-  <!-- Y-Axis Labels -->
-  <text x="35" y="225" font-size="11" fill="#9ca3af">0%</text>
-  <text x="35" y="175" font-size="11" fill="#9ca3af">2%</text>
-  <text x="35" y="125" font-size="11" fill="#9ca3af">4%</text>
-  <text x="35" y="75" font-size="11" fill="#9ca3af">6%</text>
-  
-  <!-- Data Line -->
-  <path d="M60 80 L180 95 L300 130 L420 150 L540 170 L660 173 L720 171" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" />
-  
-  <!-- Points -->
-  <circle cx="60" cy="80" r="4" fill="#3b82f6" />
-  <circle cx="300" cy="130" r="4" fill="#3b82f6" />
-  <circle cx="540" cy="170" r="4" fill="#3b82f6" />
-  <circle cx="720" cy="171" r="4" fill="#1d4ed8" />
-  
-  <!-- Time Labels -->
-  <text x="50" y="240" font-size="11" fill="#6b7280">2023.01</text>
-  <text x="280" y="240" font-size="11" fill="#6b7280">2024.01</text>
-  <text x="520" y="240" font-size="11" fill="#6b7280">2025.01</text>
-  <text x="680" y="240" font-size="11" fill="#6b7280">2026.03</text>
-  
-  <!-- Current Value -->
-  <rect x="650" y="140" width="60" height="25" fill="#1d4ed8" rx="4" />
-  <text x="662" y="157" font-size="12" font-weight="700" fill="#fff">2.22%</text>
-</svg>
+![東京都心5区オフィス空室率推移（三鬼商事、2023年1月–2026年3月）](/assets/images/blog/tokyo-office-vacancy-chart-en.png)
 
 ---
 
