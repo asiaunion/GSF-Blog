@@ -7,8 +7,8 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/reading-korea-japan-markets-together-hero.webp"
 tags:
-  - SeoulRealEstate
-  - TokyoRealEstate
+  - Seoul Real Estate
+  - Tokyo Real Estate
   - MarketCorrelation
   - AssetAllocation
   - Japanification

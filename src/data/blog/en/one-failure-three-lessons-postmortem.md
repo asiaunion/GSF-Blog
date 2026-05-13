@@ -7,7 +7,7 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/one-failure-three-lessons-postmortem-hero.webp"
 tags:
-  - JapanRealEstate
+  - Japan Real Estate
   - InvestmentFailure
   - Sublease
   - MaintenanceFees

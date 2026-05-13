@@ -35,9 +35,12 @@ export default defineConfig({
     pagefindIntegration(),
     sitemap({
       filter: page => {
-        if (SITE.showArchives) return true;
         const pathname = new URL(page).pathname.replace(/\/+$/, "");
-        return !pathname.endsWith("/archives");
+        // Exclude tag pages — these are noindex and mostly thin content (0-1 posts)
+        if (pathname.includes("/tags")) return false;
+        // Exclude archives if disabled
+        if (!SITE.showArchives && pathname.endsWith("/archives")) return false;
+        return true;
       },
     }),
   ],

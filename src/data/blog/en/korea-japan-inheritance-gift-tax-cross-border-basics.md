@@ -7,7 +7,7 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/korea-japan-inheritance-gift-tax-cross-border-basics-hero.webp"
 tags:
-  - JapanRealEstate
+  - Japan Real Estate
   - InheritanceTax
   - GiftTax
   - CrossBorder

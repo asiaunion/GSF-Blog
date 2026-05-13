@@ -9,7 +9,7 @@ ogImage: "https://gsfark.com/assets/images/blog/tokyo-office-vacancy-five-wards-
 tags:
   - Tokyo
   - Office
-  - RealEstate
+  - Real Estate
   - VacancyRate
   - MikiShoji
 sources:

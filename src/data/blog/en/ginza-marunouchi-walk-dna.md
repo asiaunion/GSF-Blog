@@ -11,7 +11,7 @@ tags:
   - Ginza
   - Marunouchi
   - Otemachi
-  - JapanRealEstate
+  - Japan Real Estate
   - TokyoTorch
 sources:
   - "https://www.ginza.jp/en/"

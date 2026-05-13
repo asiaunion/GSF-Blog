@@ -10,7 +10,7 @@ tags:
   - Earthquake
   - Tokyo
   - Safety
-  - Real estate
+  - Real Estate
 sources:
   - "https://www.bousai.metro.tokyo.lg.jp/english/"
   - "https://www.j-shis.bousai.go.jp/map/"

@@ -7,11 +7,11 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/japan-corporate-vs-personal-rental-after-tax-sketch-hero.webp"
 tags:
-  - JapanRealEstate
+  - Japan Real Estate
   - TaxStrategy
   - CorporateOwnership
-  - CapitalGains
-  - NonResident
+  - Capital Gains
+  - Non-Resident
 sources:
   - "https://www.nta.go.jp/english/index.htm"
   - "https://www.pwc.com/jp/en/tax-services/tax-summary.html"
