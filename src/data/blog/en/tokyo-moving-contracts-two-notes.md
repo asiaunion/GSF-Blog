@@ -77,6 +77,39 @@ The most important step on move-in day is to **take photos and videos of every s
 
 <!-- content-depth-v2 -->
 
+## 5. Negotiating the Contract: What Is Actually Flexible
+
+Most first-timers in Tokyo assume rental contracts are non-negotiable. In reality, several terms can be softened—especially in slower rental seasons (January–February and July–August) or when a unit has been vacant for more than four weeks.
+
+### Terms That Are Often Negotiable
+- **Reikin (Key Money)**: This "gift money" of 1–2 months' rent to the landlord is increasingly uncommon in newer properties built post-2010. When it appears, it is worth asking directly through the agent whether the landlord will waive or halve it. Acceptance rates in outer wards like Suginami or Nerima run higher than Minato-ku.
+- **Free Rent Period**: For Teiki (fixed-term) leases on higher-priced units, a 2–4 week rent-free period upon move-in is sometimes granted in lieu of a price reduction. This is particularly common when a landlord is motivated to fill a unit before fiscal year-end (March 31).
+- **Special Restoration Clauses**: Contracts often contain rider clauses such as "room cleaning fee of ¥50,000 upon departure" or "full tatami replacement regardless of condition." These are legally enforceable if you sign them, but they are often removed when tenants push back politely and in writing before signing. Reference the Tokyo Metropolitan Government's tenant guidelines (issued in Japanese and English) as supporting documentation.
+
+### What You Cannot Change
+Under the Borrower Protection Clause of Japan's Land and Building Lease Law, tenants always retain the right to withhold a renewal decision until the final notice period. Landlords cannot insert language stripping this right away. If a contract ever states that the landlord may terminate at will without cause, flag it immediately—such clauses are void under Japanese law.
+
+---
+
+## 6. The Foreigner-Specific Checklist: Before You Sign
+
+Beyond the standard due diligence, foreign residents face an additional layer of risk due to language gaps, cultural assumptions, and the fact that many disputes only surface at move-out. Work through this list before signing any Tokyo lease.
+
+**Document Verification**
+- [ ] Obtain the full lease document in both Japanese and English (or Korean/other language). If the agency cannot provide a bilingual version, request a professional translation before signing—never rely on machine translation for legal documents.
+- [ ] Verify the landlord's identity through the registered property deed (*Tōki Jikō Shōmeisho*), available at any Legal Affairs Bureau (*Hōmukyoku*) for ¥480 per document. This confirms the person you are contracting with actually owns the property.
+
+**Financial Verification**
+- [ ] Calculate your total move-in cost in writing: Shikikin + Reikin + agent fee (1 month, including tax) + renters' insurance (typically ¥15,000–¥20,000/year) + lock replacement (¥10,000–¥30,000 optional) = typically **4.5–6.5 months of rent as upfront cash**.
+- [ ] Confirm whether the guarantor company (*Hoshō Gaisha*) requires a Japanese co-signer or accepts foreign residents independently. GTN, ORIX Rentec, and CASA are commonly foreigner-friendly. Avoid agencies that insist on a Japanese guarantor with no alternative.
+
+**Move-In Day Protocol**
+- [ ] Walk the entire apartment with the key handover form (*Kagi Uketori Shō*) and photograph every surface before unpacking. Include wide shots and close-ups. Send the files to your own email immediately to create a timestamped record.
+- [ ] Test all appliances (air conditioning, hot water, ventilation fans). If anything is defective, report it in writing to the management company *on the same day*. Verbal reports are not binding.
+- [ ] Confirm the trash collection points, rules (sorted recycling is mandatory), and your building's designated collection days. Violations can create friction with neighbors and, in rare cases, lead to property management complaints.
+
+---
+
 ## Investor Action: Session Summary & Check
 
 - [ ] **Contract Type**: Confirm if your lease is 'Ordinary' or 'Fixed-term' (Teiki) to understand the risk of non-renewal.
@@ -88,3 +121,4 @@ The most important step on move-in day is to **take photos and videos of every s
 - [Tokyo Office Market 2026: Vacancy and Rent Analysis](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Japan Real Estate: Corporate vs Personal Ownership](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [Managing FX Risks in a Weak Yen Era](/posts/three-things-when-fx-shakes/)
+
