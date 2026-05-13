@@ -91,6 +91,8 @@ The infographic and table below map each ward cluster's rough positioning. The h
 
 ![Tokyo 23 Wards Real Estate Value Heatmap](/assets/images/tokyo_map_v1.png)
 
+![Tokyo Real Estate Price Hierarchy](/assets/images/tokyo_price_dark_en.png)
+
 | Tier | Wards | Price Range (per ㎡) | Character |
 |------|-------|---------------------|-----------|
 | Core 3 | Chiyoda · Chuo · Minato | ¥1.5M+ | Max premium, top foreign investor preference |
