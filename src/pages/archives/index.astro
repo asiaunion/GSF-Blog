@@ -26,7 +26,7 @@ const monthName = (monthOneBased: number) =>
 const posts = await getCollection("blog", ({ data }) => !data.draft);
 ---
 
-<Layout title={`${L.pageTitleArchives} | ${SITE.title}`} htmlLang={uiLang}>
+<Layout title={`${L.pageTitleArchives} | ${SITE.title}`} htmlLang={uiLang} robotsMeta="noindex, follow">
   <Header uiLang={uiLang} />
   <Main pageTitle={L.pageTitleArchives} pageDesc={L.pageDescArchives}>
     {

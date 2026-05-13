@@ -23,7 +23,7 @@
     {
       "source": "/debug/",
       "destination": "/",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/ko/posts/%EC%9D%BC%EB%B3%B8-%EB%A6%AC%EC%B8%A0j-reits-%ED%88%AC%EC%9E%90-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80/",
