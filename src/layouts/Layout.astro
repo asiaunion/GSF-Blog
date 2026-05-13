@@ -29,6 +29,8 @@ type Props = {
   articleBody?: string;
   /** When set, replaces default BlogPosting JSON-LD (e.g. About → Person). */
   overrideJsonLd?: Record<string, unknown>;
+  /** When set, renders <meta name="robots"> and suppresses canonical/hreflang/JSON-LD. */
+  robotsMeta?: string;
 };
 
 const {
@@ -45,7 +47,10 @@ const {
   articleBody = undefined,
   overrideJsonLd,
   htmlLang: htmlLangProp,
+  robotsMeta,
 } = Astro.props;
+
+const isErrorPage = !!robotsMeta;
 
 const { locale } = Astro.params;
 /** Unprefixed routes = default locale (en), per astro.config i18n */
@@ -110,8 +115,9 @@ const structuredData = overrideJsonLd ?? {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="canonical" href={canonicalURL} />
-    <HreflangLinks pathname={Astro.url.pathname} site={SITE.website} />
+    {robotsMeta && <meta name="robots" content={robotsMeta} />}
+    {!isErrorPage && <link rel="canonical" href={canonicalURL} />}
+    {!isErrorPage && <HreflangLinks pathname={Astro.url.pathname} site={SITE.website} />}
     <meta name="generator" content={Astro.generator} />
 
     <!-- Preconnect hints (shared, de-duplicated) -->
@@ -243,12 +249,14 @@ const structuredData = overrideJsonLd ?? {
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={socialImageURL} />
 
-    <!-- Google JSON-LD Structured data -->
-    <script
-      type="application/ld+json"
-      is:inline
-      set:html={JSON.stringify(structuredData)}
-    />
+    {/* Google JSON-LD Structured data — suppressed on error pages */}
+    {!isErrorPage && (
+      <script
+        type="application/ld+json"
+        is:inline
+        set:html={JSON.stringify(structuredData)}
+      />
+    )}
 
     <!-- Enable RSS feed auto-discovery  -->
     <!-- https://docs.astro.build/en/recipes/rss/#enabling-rss-feed-auto-discovery -->
