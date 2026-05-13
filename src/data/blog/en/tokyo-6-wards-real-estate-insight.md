@@ -8,11 +8,13 @@ category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insight-hero.webp"
 tags: ["Real Estate", "Tokyo", "Investment Strategy", "Macro", "Insights"]
 sources:
+  - "https://www.kantei.ne.jp/"
   - "https://www.globalpropertyguide.com/asia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.stat.go.jp/english/"
   - "https://www.reins.or.jp/"
 references:
+  - "https://www.kantei.ne.jp/"
   - "https://www.globalpropertyguide.com/asia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.reins.or.jp/"
@@ -28,7 +30,7 @@ Specifically, the "Core 6 Wards" (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and 
 
 Throughout the past two years (2023–2024), the defining keywords piercing through Tokyo's core mansion (condominium) market have undeniably been **'extreme supply shortage'** and **'all-time highs'**.
 
-The data is chillingly clear. According to the latest 2024 metrics from real estate research institutions like Tokyo Kantei, the average price for a standard 70㎡ (approx. 750 sq ft) mansion in the Core 6 Wards has surpassed **140 million JPY (over 1.3 billion KRW / \~900k USD)**. In just one year, it recorded a staggering **surge of nearly 30% YoY**, leaving the limits of ordinary labor income far behind in the dust.
+The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY** throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**, while the central 6 wards alone posted **+38.6% in April 2025** versus the prior year. ([東京カンテイ, 2025](https://www.kantei.ne.jp/)) This trajectory left the limits of ordinary labor income far behind in the dust.
 
 **In fact, having recently moved to Nihonbashi (Chuo Ward), I feel this rapidly rising real estate inflation firsthand every single day. I was genuinely shocked to see a flyer at a local brokerage showing that even an older, non-newly built apartment near my home was selling for well over 300 million JPY. And I am not talking about a massive luxury complex, but a rather ordinary standalone multi-family building.**
 
@@ -78,7 +80,7 @@ The profit-generation formula in this market has completely changed. A position 
 2. **Obsess Over Scarcity (Flight to Quality)**
    In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, you must insist on high-end locations where foot traffic is heavily defended and the wealthy desperately desire to reside.
 
-In truth, due to fatigue from the explosive surge in late 2024, we saw prices in the core wards undergo a slight correction in 2025 for the first time in 37 months, finding a distinct psychological resistance level. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
+In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024 after the explosive surge—followed by another sharp leg upward in 2025. By Q1 2026, data from Tokyo Kantei and the Real Estate Economic Institute pointed to the first mild price correction in multiple months, as rising interest costs began weighing on leveraged buyers at the margin. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
 
 
 
