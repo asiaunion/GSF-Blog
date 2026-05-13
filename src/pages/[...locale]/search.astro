@@ -19,7 +19,7 @@ const L = getUi((locale || "en") as UiLang);
 const backUrl = SITE.showBackButton ? `${Astro.url.pathname}` : "/";
 ---
 
-<Layout title={`${L.pageTitleSearch} | ${SITE.title}`}>
+<Layout title={`${L.pageTitleSearch} | ${SITE.title}`} robotsMeta="noindex, follow">
   <Header />
   <Main pageTitle={L.pageTitleSearch} pageDesc={L.pageDescSearch}>
     {
