@@ -279,6 +279,61 @@
       "source": "/ja/tags/tokyorealestate/",
       "destination": "/tags/tokyorealestate/",
       "permanent": true
+    },
+    {
+      "source": "/debug/",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/ja/tags/tokyowithkids/",
+      "destination": "/tags/tokyowithkids/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/%E6%97%85%E8%A1%8C/",
+      "destination": "/ko/tags/%EC%97%AC%ED%96%89/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/%ED%98%B8%ED%85%94/",
+      "destination": "/ko/tags/%ED%98%B8%ED%85%94/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/%EC%9D%BC%EB%B3%B8-%EB%A6%AC%EC%B8%A0j-reits-%ED%88%AC%EC%9E%90-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-5%EA%B0%80%EC%A7%80/",
+      "destination": "/ko/posts/j-reit-five-things-to-know/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/%EB%8F%84%EC%BF%84-6-%EA%B5%AC/",
+      "destination": "/ko/tags/%EB%8F%84%EC%BF%84-6-%EA%B5%AC/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/%E8%B4%88%E4%B8%8E%E7%A8%8E/",
+      "destination": "/ko/tags/%EC%84%B8%EA%B8%88/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/k%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/",
+      "destination": "/tags/kstartup/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/tags/k%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97/",
+      "destination": "/tags/kstartup/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/%ED%86%A0%EC%BF%84%ED%86%A0%EC%B9%98/",
+      "destination": "/ko/tags/%ED%86%A0%EC%BF%84%ED%86%A0%EC%B9%98/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%E6%97%85%E8%A1%8C/",
+      "destination": "/ja/tags/%E6%97%85%E8%A1%8C/",
+      "permanent": true
     }
   ]
 }
