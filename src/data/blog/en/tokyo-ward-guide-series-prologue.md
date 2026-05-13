@@ -87,7 +87,9 @@ One episode per week. Bookmark this page — the table above will be updated wit
 
 ## Tokyo's 23 Wards at a Glance — Price and Character Matrix
 
-The table below maps each ward cluster's rough positioning. Detailed data appears in each dedicated episode.
+The infographic and table below map each ward cluster's rough positioning. The heatmap visually highlights the stark price divide between the central Core 6 and outer zones. Detailed data appears in each dedicated episode.
+
+![Tokyo 23 Wards Real Estate Value Heatmap](/assets/images/tokyo_map_v1.png)
 
 | Tier | Wards | Price Range (per ㎡) | Character |
 |------|-------|---------------------|-----------|
