@@ -31,7 +31,7 @@ The current environment is seductive. With USD/JPY having traded in the 145–16
 The structural dynamics underlying JPY/KRW are complex:
 
 - **Interest rate differentials.** The Bank of Japan has been gradually normalizing policy (raising rates to 0.50 percent as of early 2025), while the Bank of Korea has maintained rates in the 3.0–3.5 percent range. This differential supports yen weakness through carry-trade mechanics—but any surprise narrowing of the gap (BOJ hawkish acceleration or BOK easing) can trigger sharp yen appreciation.
-- **Trade balance and capital flows.** Japan runs persistent merchandise trade surpluses with Korea across automotive, machinery, and materials sectors. Capital account flows—direct investment, portfolio allocation, and real estate acquisition—have tilted toward Japan, with Korean investors acquiring approximately ¥800 billion in Japanese real estate during 2024 alone according to industry estimates.
+- **Trade balance and capital flows.** Japan runs persistent merchandise trade surpluses with Korea across automotive, machinery, and materials sectors. Capital account flows—direct investment, portfolio allocation, and real estate acquisition—have tilted toward Japan, with Korean investors expanding their Japanese real estate footprint substantially in 2024 (cross-border transaction volumes tracked by [CBRE](https://www.cbre.co.jp/en/research-and-reports) and [JLL](https://www.jll.co.jp/en/research) confirm a structurally active acquisition phase, though aggregate figures should be verified against the latest reports).
 - **Geopolitical risk premium.** Korean investors increasingly view Japanese real estate as a geopolitical hedge—a hard asset denominated in a stable-currency nation with rule-of-law protections. This structural demand provides a floor under cross-border flows even when FX conditions are unfavorable.
 
 The core principle: define your currency objective **before** product selection. Are you seeking yen-denominated income (accepting FX risk on repatriation), KRW-denominated total return (requiring hedging or active FX management), or a structural yen asset allocation (treating the FX exposure as a deliberate portfolio diversifier)?
@@ -42,7 +42,7 @@ In a sustained weak-yen environment, Korean investors benefit from favorable ent
 
 **What works:**
 - Real asset acquisition at advantageous entry pricing. A ¥100 million Tokyo apartment costs approximately KRW 900–950 million at current rates versus KRW 1,100–1,200 million a decade ago. This purchasing-power advantage is significant for assets where income is generated and consumed in yen.
-- J-REIT positions offer elevated yen-denominated distribution yields (currently 4.0–5.5 percent for diversified J-REITs), which can partially offset FX translation losses if the yen weakens further during the hold period.
+- J-REIT positions offer elevated yen-denominated distribution yields (currently 4.0–5.5 percent for diversified J-REITs, per [JPX J-REIT Index](https://www.jpx.co.jp/markets/indices/real-estate/)), which can partially offset FX translation losses if the yen weakens further during the hold period.
 - Yen-financed positions carry lower nominal debt-service costs, improving operating cash flow in yen terms.
 
 **What to watch:**

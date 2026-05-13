@@ -30,8 +30,8 @@ However, as of 2026, the two markets are not mere carbon copies but are in a sta
 
 These two markets are currently powered by different engines.
 
-*   **Seoul (Forecasted Growth 6\~7.9%)**: Rising Jeonse (rental) prices and a "supply cliff" for new apartments provide a strong floor for prices. Despite sustained high interest rates, the "flight to quality" toward core districts is accelerating, leading to a qualitative inflation of asset values.
-*   **Tokyo (Forecasted Growth 4\~5.9%)**: The market is taking a breather after the rapid surge of 2025 (approx. 30% growth). However, the Yen's weakness and relatively low interest rates compared to other global cities keep it attractive as the "most affordable global megacity" for international investors.
+*   **Seoul (Forecasted Growth 6\~7.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: Rising Jeonse (rental) prices and a "supply cliff" for new apartments provide a strong floor for prices. Despite sustained high interest rates, the "flight to quality" toward core districts is accelerating, leading to a qualitative inflation of asset values.
+*   **Tokyo (Forecasted Growth 4\~5.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: The market is taking a breather after the rapid surge of 2025 ([Tokyo Kantei](https://www.kantei.ne.jp/) recorded approx. +34.6% YoY for 23 wards). However, the Yen's weakness and relatively low interest rates compared to other global cities keep it attractive as the "most affordable global megacity" for international investors.
 
 ---
 
