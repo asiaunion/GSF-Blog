@@ -25,7 +25,7 @@ references:
 
 ---
 
-![日本橋エリア、伝統と現代が混ざる街並み（エディトリアル参考）](/assets/images/coredo-nihonbashi-post-visual-mood.png)
+![日本橋エリア、伝統と現代が混ざる街並み（エディトリアル参考）](/assets/images/coredo-nihonbashi-post-visual-mood.webp)
 
 ---
 

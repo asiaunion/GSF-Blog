@@ -3,7 +3,7 @@ lang: en
 title: "About"
 ---
 
-![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author-profile.png)
+![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author-profile.webp)
 
 ### Public profiles
 

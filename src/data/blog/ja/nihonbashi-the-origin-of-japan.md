@@ -23,7 +23,7 @@ references:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
 ---
 
-![日本橋の日の出と道路元標](/assets/images/nihonbashi-hero.png)
+![日本橋の日の出と道路元標](/assets/images/nihonbashi-hero.webp)
 
 新たな住まいであり活動の拠点として、**日本橋**へ引っ越してまいりました。
 

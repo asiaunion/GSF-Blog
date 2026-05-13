@@ -23,7 +23,7 @@ references:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
 ---
 
-![Nihonbashi Sunrise and Kilometre Zero Monument](/assets/images/nihonbashi-hero.png)
+![Nihonbashi Sunrise and Kilometre Zero Monument](/assets/images/nihonbashi-hero.webp)
 
 I have recently relocated to **Nihonbashi (日本橋)**, which will serve as my new home and the central hub for my activities.
 

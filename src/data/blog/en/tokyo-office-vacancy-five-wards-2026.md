@@ -33,7 +33,7 @@ As of Q1 2026, the average vacancy rate in Tokyo’s 5 central wards (Chiyoda, C
 
 However, I view this number as a "warning" rather than a "celebration." Vacancy is the most lagging indicator in the market. The demand for expansion and the robust absorption of high-spec new buildings moved first; the numbers are only now proving it. Particularly noteworthy is the **rise in 'Effective Rents.'** As rent-free periods shrink, landlord bargaining power is at its highest post-pandemic peak.
 
-![Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji, Jan 2023–Mar 2026)](/assets/images/blog/tokyo-office-vacancy-chart-en.png)
+![Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji, Jan 2023–Mar 2026)](/assets/images/blog/tokyo-office-vacancy-chart-en.webp)
 
 ---
 

@@ -25,7 +25,7 @@ references:
 
 ---
 
-![니혼바시 일대, 전통과 현대가 어우러진 거리의 풍경(에디토리얼 참고)](/assets/images/coredo-nihonbashi-post-visual-mood.png)
+![니혼바시 일대, 전통과 현대가 어우러진 거리의 풍경(에디토리얼 참고)](/assets/images/coredo-nihonbashi-post-visual-mood.webp)
 
 ---
 

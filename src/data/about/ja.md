@@ -3,7 +3,7 @@ lang: ja
 title: "紹介"
 ---
 
-![Joseph · GSF、日本橋在住](/assets/images/gsf-author-profile.png)
+![Joseph · GSF、日本橋在住](/assets/images/gsf-author-profile.webp)
 
 ### 公的プロフィール
 
