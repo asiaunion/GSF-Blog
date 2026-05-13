@@ -1,215 +1,161 @@
 /**
- * Generates 308 redirects for cross-locale tag URLs that 404.
+ * Generates 308 redirects for ALL cross-locale tag URLs at build time.
  *
- * Problem: Google crawled /ko/tags/<EN-tag>/ and /ja/tags/<KO-or-EN-tag>/
- * which are 404 because Astro only builds locale-specific tag pages.
+ * Problem: Google crawls /ko/tags/<EN-tag>/, /ja/tags/<KO-tag>/,
+ * /tags/<KO-tag>/, /ko/tags/<JA-tag>/ etc. — all 404 because Astro
+ * only builds locale-specific tag pages.
  *
- * Solution: Programmatically generate redirect rules at build time from
- * the actual blog post frontmatter, so no manual list is needed.
+ * Solution: Read ALL tags from ALL locale posts at build time,
+ * detect language via Unicode ranges, and generate exhaustive
+ * redirect rules. No hardcoded tag lists needed.
+ *
+ * V7 rewrite: fully dynamic, reads from src/data/blog/{en,ko,ja}/*.md
  */
 
-import { globSync } from "node:fs";
-import { readFileSync } from "node:fs";
+import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
-// Korean tag names used in KO posts (these exist at /ko/tags/<encoded>/)
-// Any of these appearing in /ja/tags/ or /tags/ must redirect to /ko/tags/
-const KO_TAGS_LITERAL = [
-  "도쿄",
-  "니혼바시",
-  "코레도",
-  "재개발",
-  "도쿄라이프",
-  "부동산",
-  "도쿄6구",
-  "투자전략",
-  "매크로",
-  "인사이트",
-];
+// ── Language detection (same logic as middleware.ts) ──
 
-// Japanese tag names used in JA posts (exist at /ja/tags/<encoded>/)
-const JA_TAGS_LITERAL = [
-  "東京",
-  "日本橋",
-  "コレド",
-  "再開発",
-  "東京ライフ",
-  "不動産",
-  "都心6区",
-  "投資戦略",
-  "マクロ経済",
-  "インサイト",
-];
+function hasKorean(str: string): boolean {
+  return /[\uAC00-\uD7AF\u1100-\u11FF\u3130-\u318F]/.test(str);
+}
 
-// EN tags that must only exist at /tags/ (not /ko/tags/ or /ja/tags/)
-// Sourced from current EN posts tag list
-const EN_TAGS = [
-  "23-wards",
-  "allocation",
-  "assetallocation",
-  "azabujuban",
-  "businessmanagervisa",
-  "buying-process",
-  "capital-gains",
-  "capitalgains",
-  "city-life",
-  "complete-guide",
-  "condo",
-  "coredo",
-  "corporateownership",
-  "crossborder",
-  "crossborderbusiness",
-  "daikanyama",
-  "earthquake",
-  "entrepreneurship",
-  "essay",
-  "foreign-investor",
-  "futsuchakuya",
-  "fx",
-  "fxrisk",
-  "gifttax",
-  "ginza",
-  "hamacho",
-  "hotel",
-  "immigrationreform",
-  "inheritancetax",
-  "insights",
-  "investing",
-  "investment-strategy",
-  "investment",
-  "investmentfailure",
-  "investmentphilosophy",
-  "j-reit",
-  "j-reits",
-  "japan-investing",
-  "japan-investment",
-  "japan-lifestyle",
-  "japan-real-estate",
-  "japan",
-  "japanification",
-  "japanrealestate",
-  "japanredevelopment",
-  "japanrentalcontracts",
-  "japanvisa",
-  "jfind",
-  "jr-pass",
-  "jreit",
-  "judicial-scrivener",
-  "kabutocho",
-  "kidzania",
-  "korea-japan",
-  "koreancommunity",
-  "kstartup",
-  "lifestyle",
-  "livingsintokyo",
-  "livintokyo",
-  "local-report",
-  "macro",
-  "maintenancefees",
-  "mansion",
-  "marketcorrelation",
-  "marunouchi",
-  "mikishoji",
-  "miraikan",
-  "mitsui",
-  "monetarypolicy",
-  "neighborhood-guide",
-  "nihonbashi",
-  "ningyocho",
-  "non-resident",
-  "nonresident",
-  "office",
-  "otemachi",
-  "permanentresidency",
-  "pillar-page",
-  "price",
-  "rates",
-  "real-estate",
-  "realestate",
-  "redevelopment",
-  "relocation",
-  "restorationcosts",
-  "riskmanagement",
-  "safety",
-  "senkyakubanrai",
-  "seoulrealestate",
-  "shinokubo",
-  "sublease",
-  "tama",
-  "tax",
-  "taxaudit",
-  "taxplanning",
-  "taxstrategy",
-  "teamlab",
-  "teikichakuya",
-  "title-registration",
-  "tokyo-life",
-  "tokyo-living",
-  "tokyo-real-estate",
-  "tokyo",
-  "tokyomuseums",
-  "tokyorealestate",
-  "tokyotorch",
-  "tokyotravel",
-  "tokyowithkids",
-  "toranomon",
-  "toyosumarket",
-  "travel",
-  "tsukijimarket",
-  "tsukijiredevelopment",
-  "vacancyrate",
-  "yen",
-  "yenstrategy",
-  "yield",
-  "yokohama",
-  "archive",
-  "livintokyo",
-  "livingintokyo",
-];
+function hasJapanese(str: string): boolean {
+  return /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF]/.test(str);
+}
+
+type TagLang = "en" | "ko" | "ja";
+
+function detectTagLang(tag: string): TagLang {
+  if (hasKorean(tag)) return "ko";
+  if (hasJapanese(tag)) return "ja";
+  return "en";
+}
+
+// ── Extract tags from markdown frontmatter ──
+
+function extractTagsFromFile(filePath: string): string[] {
+  const content = readFileSync(filePath, "utf-8");
+  const fmMatch = content.match(/^---\n([\s\S]*?)\n---/);
+  if (!fmMatch) return [];
+
+  const fm = fmMatch[1];
+
+  // Format 1: tags: ["tag1", "tag2", "tag3"]
+  const inlineMatch = fm.match(
+    /^tags:\s*\[([^\]]*)\]/m
+  );
+  if (inlineMatch) {
+    return inlineMatch[1]
+      .split(",")
+      .map(t => t.trim().replace(/^["']|["']$/g, ""))
+      .filter(Boolean);
+  }
+
+  // Format 2: tags:\n  - tag1\n  - tag2
+  const listMatch = fm.match(/^tags:\s*\n((?:\s+-\s+.+\n?)*)/m);
+  if (listMatch) {
+    return listMatch[1]
+      .split("\n")
+      .map(line => line.replace(/^\s+-\s+/, "").trim())
+      .filter(Boolean);
+  }
+
+  return [];
+}
+
+function collectTagsByLocale(
+  blogDir: string
+): Record<TagLang, Set<string>> {
+  const result: Record<TagLang, Set<string>> = {
+    en: new Set(),
+    ko: new Set(),
+    ja: new Set(),
+  };
+
+  for (const locale of ["en", "ko", "ja"] as const) {
+    const dir = join(blogDir, locale);
+    let files: string[];
+    try {
+      files = readdirSync(dir).filter(f => f.endsWith(".md"));
+    } catch {
+      continue;
+    }
+    for (const file of files) {
+      const tags = extractTagsFromFile(join(dir, file));
+      for (const tag of tags) {
+        result[locale].add(tag);
+      }
+    }
+  }
+
+  return result;
+}
+
+// ── Generate redirect rules ──
 
 export function getCrossLocaleTagRedirects(): Record<
   string,
   { status: 308; destination: string }
 > {
+  // Resolve blog data directory relative to this file
+  const blogDir = join(
+    import.meta.dirname ?? __dirname,
+    "..",
+    "data",
+    "blog"
+  );
+
+  const tagsByLocale = collectTagsByLocale(blogDir);
   const out: Record<string, { status: 308; destination: string }> = {};
 
-  // Rule 1: /ko/tags/<EN-tag> → /tags/<EN-tag>/
-  // NOTE: Keys must NOT have trailing slash — Astro converts to Vercel ^/path$ regex
-  for (const tag of EN_TAGS) {
-    const from = `/ko/tags/${tag}`;
-    const dest = `/tags/${tag}/`;
-    out[from] = { status: 308, destination: dest };
-  }
+  // For each locale's tags, generate redirects from wrong locales
+  // Key must NOT have trailing slash (Astro → Vercel ^/path$ regex)
 
-  // Rule 2: /ja/tags/<EN-tag> → /tags/<EN-tag>/
-  for (const tag of EN_TAGS) {
-    const from = `/ja/tags/${tag}`;
-    const dest = `/tags/${tag}/`;
-    out[from] = { status: 308, destination: dest };
-  }
-
-  // Rule 3: /ja/tags/<KO-tag> → /ko/tags/<KO-tag>/
-  for (const tag of KO_TAGS_LITERAL) {
+  // ── EN tags: should only exist at /tags/<tag>/ ──
+  for (const tag of tagsByLocale.en) {
     const encoded = encodeURIComponent(tag);
-    const from = `/ja/tags/${encoded}`;
-    const dest = `/ko/tags/${encoded}/`;
-    out[from] = { status: 308, destination: dest };
+    // /ko/tags/<EN-tag> → /tags/<EN-tag>/
+    out[`/ko/tags/${encoded}`] = {
+      status: 308,
+      destination: `/tags/${encoded}/`,
+    };
+    // /ja/tags/<EN-tag> → /tags/<EN-tag>/
+    out[`/ja/tags/${encoded}`] = {
+      status: 308,
+      destination: `/tags/${encoded}/`,
+    };
   }
 
-  // Rule 4: /tags/<KO-tag> → /ko/tags/<KO-tag>/ (root level KO tags)
-  for (const tag of KO_TAGS_LITERAL) {
+  // ── KO tags: should only exist at /ko/tags/<tag>/ ──
+  for (const tag of tagsByLocale.ko) {
     const encoded = encodeURIComponent(tag);
-    const from = `/tags/${encoded}`;
-    const dest = `/ko/tags/${encoded}/`;
-    out[from] = { status: 308, destination: dest };
+    // /tags/<KO-tag> → /ko/tags/<KO-tag>/
+    out[`/tags/${encoded}`] = {
+      status: 308,
+      destination: `/ko/tags/${encoded}/`,
+    };
+    // /ja/tags/<KO-tag> → /ko/tags/<KO-tag>/
+    out[`/ja/tags/${encoded}`] = {
+      status: 308,
+      destination: `/ko/tags/${encoded}/`,
+    };
   }
 
-  // Rule 5: /ko/tags/<JA-tag> → /ja/tags/<JA-tag>/
-  for (const tag of JA_TAGS_LITERAL) {
+  // ── JA tags: should only exist at /ja/tags/<tag>/ ──
+  for (const tag of tagsByLocale.ja) {
     const encoded = encodeURIComponent(tag);
-    const from = `/ko/tags/${encoded}`;
-    const dest = `/ja/tags/${encoded}/`;
-    out[from] = { status: 308, destination: dest };
+    // /tags/<JA-tag> → /ja/tags/<JA-tag>/
+    out[`/tags/${encoded}`] = {
+      status: 308,
+      destination: `/ja/tags/${encoded}/`,
+    };
+    // /ko/tags/<JA-tag> → /ja/tags/<JA-tag>/
+    out[`/ko/tags/${encoded}`] = {
+      status: 308,
+      destination: `/ja/tags/${encoded}/`,
+    };
   }
 
   return out;
