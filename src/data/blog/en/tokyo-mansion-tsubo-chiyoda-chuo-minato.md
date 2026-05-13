@@ -26,7 +26,7 @@ references:
 
 When buyers compare condominiums across Tokyo's central wards, price per tsubo (approximately 3.3 square meters) is almost always the first metric cited. It is a useful screening tool, but treating it as the decision variable is where many investors—especially cross-border buyers encountering the Japanese market for the first time—go wrong.
 
-In fiscal 2025 (ending March 2026), the average price of a new condominium in Tokyo's 23 wards reached a record ¥137.84 million, an 18.5 percent year-on-year increase according to the Real Estate Economic Institute. For the six core wards—Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo—the average climbed to approximately ¥195 million, with prime new construction in the top three wards regularly exceeding ¥10–20 million per tsubo depending on location, floor, and building grade.
+In fiscal 2025 (ending March 2026), the average price of a new condominium in Tokyo's 23 wards reached a record ¥137.84 million, an 18.5 percent year-on-year increase ([Real Estate Economic Institute, 2026](https://www.fudousankeizai.co.jp/)). For the six core wards—Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo—the average climbed to approximately ¥195 million, with prime new construction in the top three wards regularly exceeding ¥10–20 million per tsubo depending on location, floor, and building grade.
 
 But two units showing identical headline tsubo pricing can have materially different net returns once you layer in what actually drives ownership economics:
 
