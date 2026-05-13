@@ -38,7 +38,7 @@ const { page, tagName } = Astro.props;
 const L = getUi((locale || "en") as UiLang);
 ---
 
-<Layout title={`${L.tagPageTitlePrefix} ${tagName} | ${SITE.title}`}>
+<Layout title={`${L.tagPageTitlePrefix} ${tagName} | ${SITE.title}`} robotsMeta="noindex, follow">
   <Header />
   <Main
     pageTitle={[L.tagPageTitlePrefix, `${tagName}`]}

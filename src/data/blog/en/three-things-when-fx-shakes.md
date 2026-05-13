@@ -7,10 +7,10 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/three-things-when-fx-shakes-hero.webp"
 tags:
-  - JapanRealEstate
+  - Japan Real Estate
   - YenStrategy
   - FXRisk
-  - JREIT
+  - J-REIT
   - MonetaryPolicy
 sources:
   - "https://www.boj.or.jp/en/"

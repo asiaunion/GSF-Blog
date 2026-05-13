@@ -8,7 +8,7 @@ category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-small-rental-yield-vs-capital-gain-breakeven-hero.webp"
 tags:
   - Yield
-  - Capital gains
+  - Capital Gains
   - Tokyo
   - Investing
 sources:

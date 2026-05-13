@@ -8,12 +8,12 @@ category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-real-estate-investment-complete-guide-hero.webp"
 featured: true
 tags:
-  - tokyo-real-estate
+  - Tokyo Real Estate
   - japan-investment
   - pillar-page
   - complete-guide
   - mansion
-  - tax
+  - Tax
   - J-REIT
 sources:
   - "https://www.mlit.go.jp/en/"

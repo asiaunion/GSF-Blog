@@ -7,9 +7,9 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/j-reit-five-things-to-know-hero.webp"
 tags:
-  - J-REITs
+  - J-REIT
   - Japan investing
-  - Real estate
+  - Real Estate
   - Tokyo
 sources:
   - "https://www.japan-reit.com/"

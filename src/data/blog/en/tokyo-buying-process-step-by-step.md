@@ -7,12 +7,12 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-buying-process-step-by-step-hero.webp"
 tags:
-  - tokyo-real-estate
+  - Tokyo Real Estate
   - buying-process
   - title-registration
   - foreign-investor
   - judicial-scrivener
-  - non-resident
+  - Non-Resident
 sources:
   - "https://www.mlit.go.jp/en/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"

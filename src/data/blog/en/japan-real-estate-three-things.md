@@ -7,7 +7,7 @@ lang: en
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero.webp"
 tags:
-  - Japan real estate
+  - Japan Real Estate
   - Investment
   - Tax
   - Tokyo

@@ -25,7 +25,7 @@ const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`))
 let tags = getUniqueTags(posts);
 ---
 
-<Layout title={`${L.pageTitleTags} | ${SITE.title}`}>
+<Layout title={`${L.pageTitleTags} | ${SITE.title}`} robotsMeta="noindex, follow">
   <Header />
   <Main pageTitle={L.pageTitleTags} pageDesc={L.pageDescTags}>
     <ul class="flex flex-wrap gap-6">
