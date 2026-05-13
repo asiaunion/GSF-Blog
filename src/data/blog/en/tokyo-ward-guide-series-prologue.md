@@ -67,7 +67,7 @@ I'm also planning separate series using price-band and transit-line frameworks. 
 | Ep | Zone | Wards / Cities |
 |----|------|---------------|
 | **Ep.0** | Prologue (this post) | Full overview |
-| **Ep.1** | Core 3 Wards — The Heart of Tokyo | Chiyoda · Chuo · Minato |
+| **[Ep.1](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)** | Core 3 Wards — The Heart of Tokyo | Chiyoda · Chuo · Minato |
 | **Ep.2** | Core 6 Wards — The Face of Tokyo | Shinjuku · Shibuya · Bunkyo |
 | **Ep.3** | West Premium Residential Belt | Meguro · Setagaya |
 | **Ep.4** | Business Gateway | Shinagawa · Ota |
@@ -130,11 +130,11 @@ Accuracy matters here. I'm transparent about where the numbers come from.
 
 ---
 
-## Next Up: Ep.1 — Core 3 Wards: The Heart of Tokyo
+## ▶ Ep.1 — Core 3 Wards: The Heart of Tokyo
 
-The next episode is the series highlight: **Chiyoda, Chuo, and Minato**.
+**[Tokyo Core 3 Wards: Chiyoda, Chuo & Minato — Relocation & Investment Data Guide](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)** — Published
 
-The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonbashi. The ward of Roppongi and Azabu. These three wards are Tokyo's most expensive, most iconic, and most in-demand among foreign investors. I'll walk through why per-tsubo prices here are two to three times those of other wards, what the variance looks like within each ward by station, and how to think about long-term hold versus yield play. Publishing next week.
+The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonbashi. The ward of Roppongi and Azabu. These three wards are Tokyo's most expensive, most iconic, and most in-demand among foreign investors. Why per-tsubo prices here are two to three times those of other wards, what the variance looks like within each ward by station, and how to think about long-term hold versus yield play — all covered.
 
 ---
 
