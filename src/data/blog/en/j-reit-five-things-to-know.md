@@ -15,11 +15,14 @@ sources:
   - "https://www.japan-reit.com/"
   - "https://j-reit.jp/en/"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
-  - "https://www.japan-experience.com/plan-your-trip/to-know/traveling-japan/tokyo-stock-exchange"
+  - "https://www.nli-research.co.jp/"
+  - "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
 references:
   - "https://www.japan-reit.com/"
   - "https://j-reit.jp/en/"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.nli-research.co.jp/"
+  - "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
 ---
 
 **Foreword**
@@ -111,7 +114,11 @@ This is not a forecast. It is a transparency template so readers can challenge e
 
 _Method note: each bar is the arithmetic sum of the scenario inputs shown above. This chart is an educational worksheet, not a performance promise._
 
-According to research conducted by the Nissei Basic Research Institute, as of late August 2021, the REIT return rate over the past 20 years was 416% (annualized at about 8.6%), which is quite respectable. During the same period, the Japanese stock market, represented by TOPIX, rose by only 166%. This is data proving that the true potential of REITs simply cannot be ignored. Over the past 5 years, the return is 43%. While it is lower than TOPIX over the shorter term, considering the robust stability of dividends, its attractiveness has certainly not diminished.
+According to research conducted by the [Nissei Basic Research Institute](https://www.nli-research.co.jp/) (NLI Research), as of late August **2021**, the J-REIT cumulative return over the prior 20 years was **416%** (annualized at approximately **8.6%**). During the same period, TOPIX rose by only 166%—a data point that illustrates the long-run income compounding power of J-REITs.
+
+> **Important context (2022–2025):** The 2021 figures reflect a period of near-zero interest rates and BOJ REIT purchases. Since then, BOJ rate normalization has materially changed the environment. In 2023–2024, J-REITs significantly underperformed TOPIX; the H1 2024 total return (dividends included) was approximately **−2.4%** amid rate-hike anxiety. As of April 2026, the TSE REIT Index stands at roughly **1,916 points**, and the spread over the 10-year JGB (~2.43%) has compressed to ~200–250 bps—below the historical average of 250–300 bps. For current index data, refer to [JPX J-REIT Index](https://www.jpx.co.jp/markets/indices/real-estate/index.html).
+
+Over the 5 years ending August 2021, the return was 43%—lower than TOPIX over that shorter horizon but supported by consistent dividend distributions. The key takeaway is that long-run J-REIT performance has historically been driven by income compounding rather than capital appreciation alone—a structural advantage that remains, but must now be weighed against a tighter financing environment.
 
 Those investing in J-REITs can factor in factors like stable dividends of around 3\~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
 

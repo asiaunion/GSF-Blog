@@ -15,10 +15,16 @@ sources:
   - "https://www.mlit.go.jp/en/"
   - "https://www.metro.tokyo.lg.jp/english/"
   - "https://www.mitsuifudosan.co.jp/english/"
+  - "https://www.cbre.co.jp/en/research-and-reports"
+  - "https://www.jll.co.jp/en/research"
+  - "https://www.reins.or.jp/"
 references:
   - "https://www.mlit.go.jp/en/"
   - "https://www.metro.tokyo.lg.jp/english/"
   - "https://www.mitsuifudosan.co.jp/english/"
+  - "https://www.cbre.co.jp/en/research-and-reports"
+  - "https://www.jll.co.jp/en/research"
+  - "https://www.reins.or.jp/"
 ---
 
 ## 1. Nihonbashi is a network thesis, not a parcel thesis
