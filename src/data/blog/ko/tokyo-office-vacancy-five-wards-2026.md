@@ -33,41 +33,7 @@ references:
 
 하지만 저는 이 숫자를 '축제'가 아닌 '경고'로 읽습니다. 공실률은 시장의 가장 후행적인 지표입니다. 기업들의 확장 이전 수요와 하이엔드급 신축 빌딩에 대한 강력한 흡수 여력이 먼저 움직였고, 이제야 숫자로 증명되고 있는 것입니다. 특히 주목할 점은 **'실효 임대료(Effective Rent)'의 상승**입니다. 렌트 프리미엄(무상 임대 기간)이 축소되면서 임대인의 협상력이 팬데믹 이후 최고조에 달해 있습니다.
 
-<svg viewBox="0 0 760 280" role="img" aria-label="도쿄 도심 5구 오피스 공실률 추이 차트 (2023-2026)" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">도심 5구 오피스 평균 공실률 추이 (Miki Shoji 기준)</text>
-  <text x="24" y="57" font-size="12" fill="#6b7280">단위: % (2023년 1월 \~ 2026년 3월)</text>
-  
-  <!-- Grid Lines -->
-  <line x1="60" y1="220" x2="720" y2="220" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="170" x2="720" y2="170" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="120" x2="720" y2="120" stroke="#e5e7eb" stroke-width="1" />
-  <line x1="60" y1="70" x2="720" y2="70" stroke="#e5e7eb" stroke-width="1" />
-  
-  <!-- Y-Axis Labels -->
-  <text x="35" y="225" font-size="11" fill="#9ca3af">0%</text>
-  <text x="35" y="175" font-size="11" fill="#9ca3af">2%</text>
-  <text x="35" y="125" font-size="11" fill="#9ca3af">4%</text>
-  <text x="35" y="75" font-size="11" fill="#9ca3af">6%</text>
-  
-  <!-- Data Line (Path) -->
-  <path d="M60 80 L180 95 L300 130 L420 150 L540 170 L660 173 L720 171" fill="none" stroke="#3b82f6" stroke-width="3" stroke-linecap="round" />
-  
-  <!-- Points -->
-  <circle cx="60" cy="80" r="4" fill="#3b82f6" />
-  <circle cx="300" cy="130" r="4" fill="#3b82f6" />
-  <circle cx="540" cy="170" r="4" fill="#3b82f6" />
-  <circle cx="720" cy="171" r="4" fill="#1d4ed8" />
-  
-  <!-- Time Labels -->
-  <text x="50" y="240" font-size="11" fill="#6b7280">2023.01</text>
-  <text x="280" y="240" font-size="11" fill="#6b7280">2024.01</text>
-  <text x="520" y="240" font-size="11" fill="#6b7280">2025.01</text>
-  <text x="680" y="240" font-size="11" fill="#6b7280">2026.03</text>
-  
-  <!-- Current Value Callout -->
-  <rect x="650" y="140" width="60" height="25" fill="#1d4ed8" rx="4" />
-  <text x="662" y="157" font-size="12" font-weight="700" fill="#fff">2.22%</text>
-</svg>
+![도쿄 도심 5구 오피스 공실률 추이 (미키 쇼지, 2023.01–2026.03)](/assets/images/blog/tokyo-office-vacancy-chart-en.png)
 
 ---
 
