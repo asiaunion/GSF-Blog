@@ -42,7 +42,7 @@ Personal ownership is easy to set up but subject to Japan's steep **Progressive 
 
 Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more stable tax environment for serious investors.
 
-*   **Effective Tax Rate**: For small to medium-sized corporations, the effective tax rate (including enterprise and inhabitant taxes) is generally capped around **30% to 34%**.
+*   **Effective Tax Rate**: For small to medium-sized corporations, the effective tax rate (including enterprise and inhabitant taxes) is generally capped around **30% to 34%** ([National Tax Agency, 2025](https://www.nta.go.jp/english/index.htm)).
 *   **Loss Carryforward**: Corporations can carry forward tax losses for up to **10 years**, which is vital for offsetting initial acquisition costs and depreciation.
 *   **Expense Flexibility**: A wider range of expenses, including travel for property inspections, management fees, and even salaries for family members (under certain conditions), can be deducted.
 *   **No "5-Year Rule"**: Corporations do not have a separate "long-term" vs "short-term" capital gains rate. All gains are treated as ordinary corporate income and taxed at the effective rate, providing more flexibility for timing your exit.

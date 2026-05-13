@@ -82,8 +82,8 @@ For the Nihonbashi thesis to move from narrative to actionable, I translate rede
 
 | Variable | Base Case | Stress Case | How to Track |
 |----------|-----------|-------------|-------------|
-| Absorption pace (new office space) | 85–90% pre-leased at opening | 70% at opening, 18-month stabilization | CBRE/JLL quarterly vacancy reports |
-| Rent uplift (completed vs. pre-redevelopment) | +15–25% for Grade A in-network | +5–10% if macro headwinds dominate | MLIT rent survey, REINS comps |
+| Absorption pace (new office space) | 85–90% pre-leased at opening | 70% at opening, 18-month stabilization | [CBRE](https://www.cbre.co.jp/en/research-and-reports) / [JLL](https://www.jll.co.jp/en/research) quarterly vacancy reports |
+| Rent uplift (completed vs. pre-redevelopment) | +15–25% for Grade A in-network | +5–10% if macro headwinds dominate | [MLIT rent survey](https://www.mlit.go.jp/en/), [REINS comps](https://www.reins.or.jp/) |
 | Cost overrun buffer | 10–15% above disclosed budget | 25%+ if materials/labor spike | Construction cost index (建設物価) |
 | Timeline execution | On schedule (±6 months) | 12–24 month delay | Developer IR filings, MLIT progress reports |
 | Expressway relocation catalyst | 2032–2035 partial benefit | Post-2035, limited near-term impact | Tokyo Metro Government infrastructure timeline |
