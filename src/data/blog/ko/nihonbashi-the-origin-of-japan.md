@@ -23,7 +23,7 @@ references:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
 ---
 
-![니혼바시 일출과 도로원표](/assets/images/nihonbashi-hero.png)
+![니혼바시 일출과 도로원표](/assets/images/nihonbashi-hero.webp)
 
 새로운 보금자리이자 활동의 거점으로서 **니혼바시(日本橋)**로 이사를 오게 되었습니다.
 

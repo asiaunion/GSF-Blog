@@ -25,7 +25,7 @@ Today, in a calm, resident’s voice, I want to outline Mitsui Group’s long-ru
 
 ---
 
-![Nihonbashi area—streetscape blending tradition and modernity (editorial reference)](/assets/images/coredo-nihonbashi-post-visual-mood.png)
+![Nihonbashi area—streetscape blending tradition and modernity (editorial reference)](/assets/images/coredo-nihonbashi-post-visual-mood.webp)
 
 ---
 
