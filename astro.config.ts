@@ -38,6 +38,8 @@ export default defineConfig({
         const pathname = new URL(page).pathname.replace(/\/+$/, "");
         // Exclude tag pages — these are noindex and mostly thin content (0-1 posts)
         if (pathname.includes("/tags")) return false;
+        // Exclude pagination pages — these are duplicate list content (/posts/2/, /posts/3/, etc.)
+        if (/\/posts\/\d+$/.test(pathname)) return false;
         // Exclude archives if disabled
         if (!SITE.showArchives && pathname.endsWith("/archives")) return false;
         return true;
