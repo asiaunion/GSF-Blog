@@ -73,36 +73,7 @@ Once a stiff financial district synonymous with the Tokyo Stock Exchange (reloca
 
 Moving east away from the skyscrapers, you encounter the warm, human-scaled landscape of the 'Shitamachi' (downtown).
 
-<svg viewBox="0 0 760 220" role="img" aria-label="Nihonbashi to Hamacho Walking Route" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Nihonbashi -> Kabutocho -> Hamacho Route (2026)</text>
-  
-  <!-- Nihonbashi -->
-  <rect x="50" y="80" width="160" height="80" fill="#f8fafc" stroke="#64748b" rx="8" />
-  <text x="130" y="115" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">Nihonbashi</text>
-  <text x="130" y="135" font-size="11" fill="#475569" text-anchor="middle">Trade / Luxury</text>
-  
-  <!-- Connection -->
-  <path d="M210 120 L270 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead-hama)" />
-  
-  <!-- Kabutocho -->
-  <rect x="270" y="80" width="180" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="8" />
-  <text x="360" y="115" font-size="14" font-weight="700" fill="#0369a1" text-anchor="middle">Kabutocho</text>
-  <text x="360" y="135" font-size="11" fill="#075985" text-anchor="middle">FinTech / Hip Cafes</text>
-
-  <!-- Connection -->
-  <path d="M450 120 L510 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead-hama)" />
-  
-  <!-- Hamacho -->
-  <rect x="510" y="80" width="200" height="80" fill="#fef2f2" stroke="#f87171" rx="8" />
-  <text x="610" y="115" font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">Ningyocho/Hamacho</text>
-  <text x="610" y="135" font-size="11" fill="#991b1b" text-anchor="middle">Craftsmanship / Living</text>
-
-  <defs>
-    <marker id="arrowhead-hama" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8" />
-    </marker>
-  </defs>
-</svg>
+![Nihonbashi to Hamacho Walking Route](/assets/images/blog/svg/en-nihonbashi-hamacho-walking-guide.svg)
 
 *   **Amazake Yokocho**: This 400-meter shopping street in Ningyocho is named after the sweet rice drink traditionally served at its entrance. Artisans make *Ningyoyaki* (¥100-200 per piece), hand-pressed rice crackers, and traditional washi paper crafts at Isetatsu (est. 1864). Most shops open 10:00-17:00; many close on Sundays.
 *   **Hamacho Park and Riverside**: Leading to the Sumida River, Hamacho is one of central Tokyo's most sophisticated residential areas. New residential towers here sell at ¥500,000-700,000 per sqm — a 25% discount to adjacent Nihonbashi, making it an under-the-radar value play for residential investors.

@@ -71,36 +71,7 @@ references:
 
 화려한 빌딩 숲을 지나 동쪽으로 걷다 보면 '시타마치(Shitamachi)' 특유의 따뜻한 풍경이 나타납니다.
 
-<svg viewBox="0 0 760 220" role="img" aria-label="니혼바시-하마초 워킹 루트" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">니혼바시 -> 카부토초 -> 하마초 산책로 (2026)</text>
-  
-  <!-- Nihonbashi -->
-  <rect x="50" y="80" width="160" height="80" fill="#f8fafc" stroke="#64748b" rx="8" />
-  <text x="130" y="115" font-size="14" font-weight="700" fill="#334155" text-anchor="middle">니혼바시</text>
-  <text x="130" y="135" font-size="11" fill="#475569" text-anchor="middle">전통 상업 / 럭셔리</text>
-  
-  <!-- Connection -->
-  <path d="M210 120 L270 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)" />
-  
-  <!-- Kabutocho -->
-  <rect x="270" y="80" width="180" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="8" />
-  <text x="360" y="115" font-size="14" font-weight="700" fill="#0369a1" text-anchor="middle">카부토초</text>
-  <text x="360" y="135" font-size="11" fill="#075985" text-anchor="middle">금융 혁신 / 힙한 카페</text>
-
-  <!-- Connection -->
-  <path d="M450 120 L510 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)" />
-  
-  <!-- Hamacho -->
-  <rect x="510" y="80" width="200" height="80" fill="#fef2f2" stroke="#f87171" rx="8" />
-  <text x="610" y="115" font-size="14" font-weight="700" fill="#b91c1c" text-anchor="middle">닌교초·하마초</text>
-  <text x="610" y="135" font-size="11" fill="#991b1b" text-anchor="middle">장인 정신 / 주거 안락함</text>
-
-  <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8" />
-    </marker>
-  </defs>
-</svg>
+![니혼바시-하마초 워킹 루트](/assets/images/blog/svg/ko-nihonbashi-hamacho-walking-guide.svg)
 
 *   **아마자케 요코초**: 닌교초의 400m 상점가. 닌교야키(개당 ¥100~200), 전병, 이세타쓰(1864년 창업) 와시 종이 공예품 등을 만나볼 수 있습니다. 대부분 10:00~17:00 영업, 일요일 휴무 다수.
 *   **하마초 파크·리버사이드**: 스미다강으로 이어지는 하마초는 도쿄 도심 최고의 세련된 주거 지역. 신축 타워맨션 ¥500,000~700,000/㎡ — 인접 니혼바시 대비 약 25% 할인으로 숨은 가치 투자처.

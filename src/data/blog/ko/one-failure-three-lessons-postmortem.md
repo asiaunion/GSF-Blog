@@ -38,24 +38,7 @@ references:
 
 부동산의 수익률(Yield)은 매수 가격과 월세만으로 계산되지 않습니다.
 
-<svg viewBox="0 0 760 300" role="img" aria-label="일본 부동산 숨은 비용의 빙산" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <!-- Water Line -->
-  <rect x="0" y="100" width="760" height="200" fill="#eff6ff" />
-  <line x1="0" y1="100" x2="760" y2="100" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,5" />
-  
-  <!-- Iceberg Top -->
-  <path d="M380 30 L450 100 L310 100 Z" fill="#fff" stroke="#94a3b8" />
-  <text x="380" y="85" font-size="14" font-weight="700" fill="#1e293b" text-anchor="middle">보이는 수익률 (Gross Yield)</text>
-  
-  <!-- Iceberg Bottom -->
-  <path d="M310 100 L250 250 L510 250 L450 100 Z" fill="#d1d5db" stroke="#94a3b8" />
-  <text x="380" y="140" font-size="12" fill="#475569" text-anchor="middle">● 수선적립금 인상 리스크 (15년차 주기)</text>
-  <text x="380" y="170" font-size="12" fill="#475569" text-anchor="middle">● 원상회복비용 (Tenant Exit Cost)</text>
-  <text x="380" y="200" font-size="12" fill="#475569" text-anchor="middle">● 세무대리인 및 관리 수수료</text>
-  <text x="380" y="230" font-size="12" fill="#475569" text-anchor="middle">● 비거주자 원천징수 (20.42%)</text>
-  
-  <text x="380" y="280" font-size="14" font-weight="700" fill="#ef4444" text-anchor="middle">현실적인 순수익 (Net Yield) = 표기 수익률의 60\~70% 수준</text>
-</svg>
+![일본 부동산 숨은 비용의 빙산](/assets/images/blog/svg/ko-one-failure-three-lessons-postmortem.svg)
 
 *   **실패 사례**: B씨는 수익률 6%의 중고 맨션을 매수했습니다. 하지만 매수 직후 건물 관리조합에서 '대규모 수선공사'를 결정하며 매달 내는 수선적립금을 3배 인상했습니다. 여기에 세입자가 나가며 발생한 원상회복비용(크로스 교체 등)을 부담하고 나니, 그해 수익률은 마이너스로 돌아섰습니다.
 *   **교훈**: 일본 부동산은 '늙어가는 자산'입니다. 관리 규약(중요사항 설명서)을 통해 향후 수선 계획과 적립금 잔액을 반드시 확인해야 합니다. 표면 수익률에서 1.5\~2%p를 뺀 것이 실제 당신의 손에 쥐어지는 돈입니다.
