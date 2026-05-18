@@ -76,12 +76,12 @@
       "permanent": true
     },
     {
-      "source": "/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/",
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
-      "source": "/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B",
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
@@ -286,32 +286,42 @@
       "permanent": true
     },
     {
-      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(%5Cd+)/",
+      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)/",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
-      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(%5Cd+)",
+      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
-      "source": "/ja/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(%5Cd+)/",
+      "source": "/ja/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)/",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
-      "source": "/ja/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(%5Cd+)",
+      "source": "/ja/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
-      "source": "/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/:page(%5Cd+)/",
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/:page(\\d+)/",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
-      "source": "/tags/日本橋/:page(\\d+)",
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/:page(\\d+)",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/:page(\\d+)/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/:page(\\d+)",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
@@ -343,6 +353,46 @@
     {
       "source": "/tags/투자/:page(\\d+)",
       "destination": "/ko/tags/투자/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%eb%8b%88%ed%98%bc%eb%b0%94%ec%8b%9c/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%eb%8b%88%ed%98%bc%eb%b0%94%ec%8b%9c",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%eb%8b%88%ed%98%bc%eb%b0%94%ec%8b%9c/:page(\\d+)/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%eb%8b%88%ed%98%bc%eb%b0%94%ec%8b%9c/:page(\\d+)",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)/",
+      "destination": "/tags/nihonbashi/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)",
+      "destination": "/tags/nihonbashi/",
       "permanent": true
     },
     {
@@ -2671,13 +2721,13 @@
       "permanent": true
     },
     {
-      "source": "/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/",
-      "destination": "/ja/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/",
+      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/",
+      "destination": "/ja/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/",
       "permanent": true
     },
     {
-      "source": "/ko/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/",
-      "destination": "/ja/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/",
+      "source": "/ko/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/",
+      "destination": "/ja/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/",
       "permanent": true
     },
     {
