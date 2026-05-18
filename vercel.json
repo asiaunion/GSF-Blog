@@ -315,16 +315,7 @@
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
-    {
-      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/:page(\\d+)/",
-      "destination": "/tags/nihonbashi/",
-      "permanent": true
-    },
-    {
-      "source": "/tags/%e6%97%a5%e6%9c%ac%e6%a9%8b/:page(\\d+)",
-      "destination": "/tags/nihonbashi/",
-      "permanent": true
-    },
+
     {
       "source": "/tags/부동산/:page(\\d+)/",
       "destination": "/ko/tags/부동산/",
@@ -372,26 +363,6 @@
     },
     {
       "source": "/tags/%eb%8b%88%ed%98%bc%eb%b0%94%ec%8b%9c/:page(\\d+)",
-      "destination": "/tags/nihonbashi/",
-      "permanent": true
-    },
-    {
-      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/",
-      "destination": "/tags/nihonbashi/",
-      "permanent": true
-    },
-    {
-      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C",
-      "destination": "/tags/nihonbashi/",
-      "permanent": true
-    },
-    {
-      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)/",
-      "destination": "/tags/nihonbashi/",
-      "permanent": true
-    },
-    {
-      "source": "/tags/%EB%8B%88%ED%98%BC%EB%B0%94%EC%8B%9C/:page(\\d+)",
       "destination": "/tags/nihonbashi/",
       "permanent": true
     },
