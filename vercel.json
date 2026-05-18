@@ -1,5 +1,6 @@
 {
   "redirects": [
+       {"source":"/wp-includes/:path*","destination":"/","permanent":true},{"source":"/wp-content/:path*","destination":"/","permanent":true},{"source":"/wp-admin/:path*","destination":"/","permanent":true},{"source":"/wp-login.php","destination":"/","permanent":true},{"source":"/wp-json/:path*","destination":"/","permanent":true},{"source":"/author/:path*","destination":"/about/","permanent":true},{"source":"/:path*/feed/","destination":"/","permanent":true},{"source":"/feed/","destination":"/rss.xml","permanent":true},
     {
       "source": "/en/:path(.*)",
       "destination": "/:path",
