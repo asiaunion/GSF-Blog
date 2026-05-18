@@ -7,12 +7,27 @@
       "permanent": true
     },
     {
+      "source": "/tags/:tag/:page(\\d+)/",
+      "destination": "/tags/:tag/",
+      "permanent": true
+    },
+    {
       "source": "/ko/tags/:tag/:page(\\d+)",
       "destination": "/ko/tags/:tag/",
       "permanent": true
     },
     {
+      "source": "/ko/tags/:tag/:page(\\d+)/",
+      "destination": "/ko/tags/:tag/",
+      "permanent": true
+    },
+    {
       "source": "/ja/tags/:tag/:page(\\d+)",
+      "destination": "/ja/tags/:tag/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/tags/:tag/:page(\\d+)/",
       "destination": "/ja/tags/:tag/",
       "permanent": true
     },
