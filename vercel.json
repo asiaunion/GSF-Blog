@@ -7,6 +7,31 @@
       "permanent": true
     },
     {
+      "source": "/author/:path(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)/feed/?",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-includes/:path(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wp-content/:path(.*)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/tags/:tag/:page(\\d+)/?",
+      "destination": "/tags/:tag/",
+      "permanent": true
+    },
+    {
       "source": "/%EC%9D%BC%EB%B3%B8-%EB%8F%84%EC%BF%84-%EC%A7%80%EC%A7%84%EC%97%90%EC%84%9C-%EC%B7%A8%EC%95%BD%ED%95%9C-5%EA%B3%B3/",
       "destination": "/ko/posts/tokyo-earthquake-vulnerable-five-areas/",
       "permanent": true

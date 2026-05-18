@@ -3,6 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel";
 import remarkToc from "remark-toc";
+import remarkGfm from "remark-gfm";
 import remarkCollapse from "remark-collapse";
 import {
   transformerNotationDiff,
@@ -49,7 +50,12 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
+    gfm: false,
+    remarkPlugins: [
+      [remarkGfm, { singleTilde: false }],
+      remarkToc,
+      [remarkCollapse, { test: "Table of contents" }]
+    ],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
