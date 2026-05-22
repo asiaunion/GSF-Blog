@@ -30,6 +30,15 @@ references:
   - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
   - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
   - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
+macroMicroMatrix:
+  leftTitle: "MACRO BARRIER (거시 악재)"
+  leftItems:
+    - "• <strong>한국</strong>: 스트레스 DSR 2단계 강행(2024년 9월 1일 시행) ➔ 수도권 외곽 거래량 <strong>-24.4% 급감</strong> (전월비)"
+    - "• <strong>일본</strong>: BOJ 금리인상(2024년 7월 31일 연 0.25% 결정) ➔ 수도권 중고 맨션 평균가 <strong>+2.2% 상승 (23구는 +3.9%로 사상 최고가)</strong> (2024년 9월 기준)"
+  rightTitle: "ULTRA SCARCITY (초희소 미시 호조)"
+  rightItems:
+    - "• <strong>서울</strong>: 반포·서초 국평 래미안 원베일리 <strong>50억 돌파</strong> (2024년 8월 2일 신고가)"
+    - "• <strong>도쿄</strong>: 미나토·시부야 랜드마크 맨션 <strong>하방 경직 & 상승 유지</strong> (2024년 9월 기준)"
 ---
 
 글로벌 자산 시장이 거대한 금융 장벽을 마주하며 뚜렷한 혼조세를 나타내고 있습니다. 한국은 가계부채 억제를 위해 2024년 9월 1일부터 스트레스 DSR 2단계를 전격 도입[출처: 금융위원회, '9월 1일부터 스트레스 DSR 2단계 시행' 보도자료, 2024-08-20]하며 대출 한도를 강력히 조였고, 일본 역시 2024년 7월 31일 역사적인 제로금리를 종식하고 정책금리를 0.25% 수준으로 올리며[출처: 일본은행, '금융정책결정회합의 결과에 대하여' 공표자료, 2024-07-31] 긴축 기조로 돌아섰습니다. 
@@ -48,8 +57,10 @@ references:
 
 그러나 미나토구, 시부야구, 니혼바시 등 도심 초핵심지역(도심 3구 등)의 랜드마크 맨션들은 여전히 강력한 하방 경직성을 유지하고 있습니다[출처: 부동산경제연구소, '수도권 맨션 시장 동향(2024년 9월)' 보고서, 2024-10-17]. 엔저 메리트를 누리는 글로벌 자산가들의 매수 자금이 이들 초우량 자산으로 꾸준히 유입되는 덕분입니다. 여기에 자재비와 인건비 급등에 따른 원가 밀어올리기(Cost-push) 효과까지 겹쳐, 도심 하이엔드 신축 분양가는 금리 악재를 비웃듯 강력한 방어력을 증명하고 있습니다.
 
-<div class="macro-chart-container" style="margin: 32px 0; padding: 20px; background: var(--card-bg, rgba(128, 128, 128, 0.02)); border: 1px solid var(--card-border, rgba(128, 128, 128, 0.1)); border-radius: 16px; backdrop-filter: blur(10px);">
-  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-label="한국 서울 vs 수도권 외곽 거래량 YoY 변화율 (2024년 1분기 ~ 2026년 1분기) 시계열 라인 차트. 서울은 견조하게 급증한 반면 외곽은 대출 규제 이후 급격한 마이너스 성장을 보이고 있습니다." style="font-family: var(--font-app), sans-serif; overflow: visible;">
+<div class="macro-chart-container">
+  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-labelledby="chart-title chart-desc">
+    <title id="chart-title">한국 서울 vs 수도권 외곽 거래량 YoY 변화율</title>
+    <desc id="chart-desc">2024년 1분기부터 2026년 1분기까지 한국 서울과 수도권 외곽(경기·인천)의 전년 동기 대비(YoY) 주택 거래량 변화율을 나타내는 시계열 라인 차트입니다. 서울은 대출 규제 속에서도 강력한 상승 흐름을 보였으나, 수도권 외곽은 규제 도입(24년 9월) 이후 급격한 거래 침체 및 마이너스 성장을 겪고 있습니다.</desc>
     <!-- Gradients -->
     <defs>
       <linearGradient id="seoulGrad" x1="0" y1="0" x2="0" y2="1">
@@ -148,29 +159,13 @@ references:
       <text x="45" y="44" font-size="12" font-weight="600" fill="currentColor">수도권 외곽 (경기·인천)</text>
     </g>
   </svg>
-  <figcaption style="margin-top: 12px; font-size: 13px; text-align: center; color: var(--color-text-muted); opacity: 0.85; line-height: 1.5;">
+  <figcaption class="macro-chart-figcaption">
     <strong>[그림 1] 서울 vs 경기·인천 거래량 전년 동기 대비(YoY) 변화율 추이 (2024~2026)</strong><br>
     스트레스 DSR 2단계 도입(24년 9월)을 기점으로, 금융 레버리지를 필요로 하는 수도권 외곽 거래량은 심각한 침체(-28.4%)를 겪는 반면, 대출 면역 자본이 집중되는 서울 중심부는 견조한 흐름을 보여 극심한 양극화를 증명합니다.<br>
-    <span style="font-size: 11px; opacity: 0.7;">출처: 한국부동산원 부동산통계정보시스템 (저자 가공 데이터)</span>
+    <span class="source">출처: 한국부동산원 부동산통계정보시스템 (저자 가공 데이터)</span>
   </figcaption>
 </div>
 
-<div class="macro-micro-matrix">
-  <div class="matrix-card left-card">
-    <h4>MACRO BARRIER (거시 악재)</h4>
-    <div class="card-content">
-      <p>• <strong>한국</strong>: 스트레스 DSR 2단계 강행(2024년 9월 1일 시행) ➔ 수도권 외곽 거래량 <strong>-24.4% 급감</strong> (전월비)</p>
-      <p>• <strong>일본</strong>: BOJ 금리인상(2024년 7월 31일 연 0.25% 결정) ➔ 수도권 중고 맨션 평균가 <strong>+2.2% 상승 (23구는 +3.9%로 사상 최고가)</strong> (2024년 9월 기준)</p>
-    </div>
-  </div>
-  <div class="matrix-card right-card">
-    <h4>ULTRA SCARCITY (초희소 미시 호조)</h4>
-    <div class="card-content">
-      <p>• <strong>서울</strong>: 반포·서초 국평 래미안 원베일리 <strong>50억 돌파</strong> (2024년 8월 2일 신고가)</p>
-      <p>• <strong>도쿄</strong>: 미나토·시부야 랜드마크 맨션 <strong>하방 경직 & 상승 유지</strong> (2024년 9월 기준)</p>
-    </div>
-  </div>
-</div>
 
 ---
 

@@ -30,6 +30,15 @@ references:
   - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
   - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
   - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
+macroMicroMatrix:
+  leftTitle: "MACRO BARRIER (マクロ悪材料)"
+  leftItems:
+    - "• <strong>韓国</strong>: ストレスDSR第2段階強行(2024年9月1日施行) ➔ 首都圏郊外の取引量 <strong>-24.4%急減</strong> (前月比)"
+    - "• <strong>日本</strong>: 日銀の利上げ(2024年7月31日に年0.25%決定) ➔ 首都圏中古マンション平均価格 <strong>+2.2%上昇（23区は+3.9%上昇で史上最高値）</strong> (2024年9月基準)"
+  rightTitle: "ULTRA SCARCITY (超希少ミクロ好材料)"
+  rightItems:
+    - "• <strong>ソウル</strong>: 盤浦・瑞草の専유84㎡(レ미안원베일리など)가 融資なしで<strong>50億ウォン突破</strong> (2024년 8월 2일 신고가)"
+    - "• <strong>東京</strong>: 港区・渋谷区のランドマークマンションが<strong>強い下値支持線と上昇を維持</strong> (2024년 9월 기준)"
 ---
 
 グローバルな資産市場が巨大な金融障壁に直面し、明らかな混調の様相を見せています。韓国は家計債務を抑制するため、2024年9月1日より「ストレスDSR(Stress DSR — 借入人の所得に応じた返済能力を金利上昇リスクを加味してより厳格に評価する融資規制)」第2段階を電撃的に導入[出典: 金融委員会、'9月1日からストレスDSR第2段階施行' 報道発表資料、2024-08-20]し、融資限度を強力に引き締めました。一方、日本も2024年7月31日に歴史的なマイナス金利政策に終止符を打ち、政策金利を0.25%程度に引き上げ[出典: 日本銀行、'金融政策決定会合の結果について' 公表資料、2024-07-31]、緊縮的な金融政策へとかじを切りました。
@@ -48,8 +57,10 @@ references:
 
 しかし、港区、渋谷区、日本橋といった都心の超中核エリア（都心3区など）に位置するランドマークマンションは、依然として極めて強い「下値支持線（ダウンサイドレジリエンス）」を維持しています[出典: 不動産経済研究所、'首都圏マンション市場動向(2024年9月)' レポート、2024-10-17]。円安のメリットを享受するグローバル資産家の買い資金が、これらの超優良資産へ絶えず流入しているためです。ここに建築資材費や人件費の高騰に伴う「コストプッシュ（Cost-push）」効果も重なり、都心の新築ハイエンド分譲マンションの価格は、金利上昇という逆風を嘲笑うかのように、強固な防衛力を証明し続けています。
 
-<div class="macro-chart-container" style="margin: 32px 0; padding: 20px; background: var(--card-bg, rgba(128, 128, 128, 0.02)); border: 1px solid var(--card-border, rgba(128, 128, 128, 0.1)); border-radius: 16px; backdrop-filter: blur(10px);">
-  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-label="韓国ソウル vs 首都圏郊外 取引量 YoY変化率 (2024年第1四半期 〜 2026年第1四半期) 時系列ラインチャート。ソウルは堅調に急増した一方、郊外は融資規制以後に急激なマイナス成長を見せています。" style="font-family: var(--font-app), sans-serif; overflow: visible;">
+<div class="macro-chart-container">
+  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-labelledby="chart-title chart-desc">
+    <title id="chart-title">韓国：ソウル vs 首都圏郊外 取引量 YoY変化率</title>
+    <desc id="chart-desc">2024年第1四半期から2026年第1四半期までの韓国ソウルと首都圏郊外（京畿・仁川）の前年同期比（YoY）住宅取引量変化率を示す時系列ラインチャートです。ソウルは融資規制のなかでも強力な上昇推移を示した一方、首都圏郊外は規制導入（24年9月）以後に急激な取引沈滞およびマイナス成長を記録し、二極化を裏付けています。</desc>
     <!-- Gradients -->
     <defs>
       <linearGradient id="seoulGrad" x1="0" y1="0" x2="0" y2="1">
@@ -148,29 +159,14 @@ references:
       <text x="45" y="44" font-size="12" font-weight="600" fill="currentColor">首都圏郊外 (京畿・仁川)</text>
     </g>
   </svg>
-  <figcaption style="margin-top: 12px; font-size: 13px; text-align: center; color: var(--color-text-muted); opacity: 0.85; line-height: 1.5;">
+  <figcaption class="macro-chart-figcaption">
     <strong>[図 1] ソウル vs 京畿・仁川の住宅取引量 前年同期比(YoY) 変化率推移 (2024～2026)</strong><br>
     2024年9月のストレスDSR第2段階導入を契機に、金融レバレッジを必要とする首都圏郊外の取引量は大幅な縮小（-28.4%）を記録した一方、融資規制の影響を受けない自己資金が集中するソウル中心部は堅調な推移を示し、極端な二極化を裏付けています。<br>
-    <span style="font-size: 11px; opacity: 0.7;">出典：韓国不動産院 不動産統計情報システム（著者加工データ）</span>
+    <span class="source">出典：韓国不動産院 不動産統計情報システム（著者加工データ）</span>
   </figcaption>
 </div>
 
-<div class="macro-micro-matrix">
-  <div class="matrix-card left-card">
-    <h4>MACRO BARRIER (マクロ悪材料)</h4>
-    <div class="card-content">
-      <p>• <strong>韓国</strong>: ストレスDSR第2段階強行(2024年9月1日施行) ➔ 首都圏郊外の取引量 <strong>-24.4%急減</strong> (前月比)</p>
-      <p>• <strong>日本</strong>: 日銀の利上げ(2024年7月31日に年0.25%決定) ➔ 首都圏中古マンション平均価格 <strong>+2.2%上昇（23区は+3.9%上昇で史上最高値）</strong> (2024年9月基準)</p>
-    </div>
-  </div>
-  <div class="matrix-card right-card">
-    <h4>ULTRA SCARCITY (超希少ミクロ好材料)</h4>
-    <div class="card-content">
-      <p>• <strong>ソウル</strong>: 盤浦・瑞草の専有84㎡(レミアンワンベイリーなど)が融資なしで<strong>50億ウォン突破</strong> (2024年8月2日新高値)</p>
-      <p>• <strong>東京</strong>: 港区・渋谷区のランドマークマンションが<strong>強い下値支持線と上昇を維持</strong> (2024年9月基準)</p>
-    </div>
-  </div>
-</div>
+
 
 ---
 

@@ -46,6 +46,14 @@ const blog = defineCollection({
       category: z
         .enum(["investment", "safety", "life", "local", "essay"])
         .optional(),
+      macroMicroMatrix: z
+        .object({
+          leftTitle: z.string(),
+          leftItems: z.array(z.string()),
+          rightTitle: z.string(),
+          rightItems: z.array(z.string()),
+        })
+        .optional(),
       sources: z.array(z.string().url()).default([]),
       references: z.array(z.string().url()).default([]),
     }).superRefine((data, ctx) => {
