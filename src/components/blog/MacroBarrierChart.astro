@@ -67,7 +67,7 @@ const COPY: Record<
 const t = COPY[lang];
 ---
 
-<div class="macro-chart-container">
+<div class="macro-chart-container macro-chart-container--compact">
   <svg
     viewBox="0 0 800 450"
     width="100%"
@@ -252,27 +252,3 @@ const t = COPY[lang];
   </figcaption>
 </div>
 
-<style>
-  .macro-chart-container {
-    margin: 2rem 0;
-    padding: 1rem;
-    border-radius: 0.75rem;
-    border: 1px solid var(--card-border, rgba(128, 128, 128, 0.15));
-    background: var(--card-bg, rgba(128, 128, 128, 0.05));
-  }
-
-  .macro-chart-figcaption {
-    margin-top: 0.75rem;
-    font-size: 0.875rem;
-    line-height: 1.6;
-    color: var(--foreground);
-    opacity: 0.9;
-  }
-
-  .macro-chart-figcaption .source {
-    display: block;
-    margin-top: 0.5rem;
-    font-size: 0.75rem;
-    opacity: 0.65;
-  }
-</style>
