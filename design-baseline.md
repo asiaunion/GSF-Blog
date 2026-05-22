@@ -2,6 +2,9 @@
 
 ## Approved States
 
+- **2026-05-22**: A+ verification (Lighthouse + §3 checklist) - Tag: `v-approved-20260522-aplus-91`
+  - Mobile Lighthouse: macro-barrier KO 95/90/100/100; `/en/*` legacy 308 → unprefixed EN.
+  - 체크리스트: `docs/APLUS_VERIFICATION_CHECKLIST_20260522.md` (Overall **91**).
 - **2026-05-22**: Data charts pipeline (macro-barrier) — CSV → Python WebP → MDX figure - Tag: `v-approved-20260522-charts-webp`
   - 인라인 MDX SVG 및 `MacroBarrierChart.astro` 제거; Shiki 코드 블록 렌더링 이슈 해소.
   - 보조 차트: Economist 레이아웃 + GSF 그린 팔레트(Seoul `#047857`, Outskirts `#a7f3d0`), 직접 라벨(Seoul '25 Q2 피크 / Outskirts '25 Q2–Q3 사이).
