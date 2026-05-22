@@ -19,9 +19,10 @@ ROOT = Path(__file__).resolve().parents[2]
 CSV_PATH = ROOT / "public/data/macro-barrier-chart-source.csv"
 OUT_WEBP = ROOT / "public/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp"
 
-# Economist layout + GSF greens (strong vs light for contrast)
-BRAND_ACCENT = "#10b981"  # emerald-500 — primary series
-BRAND_ACCENT_LIGHT = "#6ee7b7"  # emerald-300 — lighter second series
+# Economist layout + GSF greens (dark primary vs pale second series)
+BRAND_ACCENT = "#047857"  # emerald-700 — Seoul (deeper green)
+BRAND_ACCENT_LIGHT = "#a7f3d0"  # emerald-200 — Outskirts (lighter)
+OUTSKIRTS_LABEL_COLOR = "#059669"  # emerald-600 — label legibility on pale line
 SEOUL_COLOR = BRAND_ACCENT
 OUTSKIRTS_COLOR = BRAND_ACCENT_LIGHT
 TEXT_DARK = "#1A1A1A"
@@ -62,17 +63,17 @@ def add_direct_labels(ax, seoul: list[float], outskirts: list[float]) -> None:
         ha="left",
         va="bottom",
     )
-    # Outskirts — lower right near trough
+    # Outskirts — early gap between series (mirror Seoul: anchor on line, label in whitespace)
     ax.annotate(
         "Outskirts",
-        xy=(n, outskirts[-1]),
-        xytext=(10, -14),
+        xy=(1, outskirts[1]),
+        xytext=(12, 18),
         textcoords="offset points",
-        color="#34d399",  # slightly deeper than line for label legibility
+        color=OUTSKIRTS_LABEL_COLOR,
         fontsize=12,
         fontweight="bold",
         ha="left",
-        va="top",
+        va="bottom",
     )
 
 
