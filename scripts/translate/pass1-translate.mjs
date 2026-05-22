@@ -42,7 +42,11 @@ CRITICAL INSTRUCTIONS:
 
   console.log(`[Pass 1] Requesting draft translation to ${personaConfig.languageName} using model '${modelName}'...`);
 
-  const response = await fetch("http://localhost:11434/api/chat", {
+  const ollamaBaseUrl = process.env.OLLAMA_HOST || "http://localhost:11434";
+  const normalizedBase = ollamaBaseUrl.startsWith("http") ? ollamaBaseUrl : `http://${ollamaBaseUrl}`;
+  const endpoint = `${normalizedBase}/api/chat`;
+
+  const response = await fetch(endpoint, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
