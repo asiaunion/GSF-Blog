@@ -1,0 +1,278 @@
+---
+type Lang = "en" | "ko" | "ja";
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const COPY: Record<
+  Lang,
+  {
+    chartTitle: string;
+    chartDesc: string;
+    titleLine: string;
+    legendSeoul: string;
+    legendOutskirts: string;
+    figCaptionTitle: string;
+    figCaptionBody: string;
+    figCaptionSource: string;
+  }
+> = {
+  en: {
+    chartTitle: "South Korea: Seoul vs. Metropolitan Outskirts Transaction Volume YoY",
+    chartDesc:
+      "Line chart showing South Korea's Seoul versus metropolitan outskirts (Gyeonggi and Incheon) YoY housing transaction volume changes from 2024 Q1 to 2026 Q1. Seoul remained resilient with strong growth, whereas outskirts experienced a severe downturn after the introduction of tighter mortgage rules (Stage 2 Stress DSR) in September 2024, proving extreme polarization.",
+    titleLine:
+      "South Korea: Seoul vs. Metropolitan Outskirts Transaction Volume YoY (%)",
+    legendSeoul: "Seoul Volume (YoY)",
+    legendOutskirts: "Outskirts (Gyeonggi/Incheon)",
+    figCaptionTitle:
+      "[Figure 1] Seoul vs. Gyeonggi/Incheon Housing Transaction Volume YoY Growth Trends (2024–2026)",
+    figCaptionBody:
+      "Following the launch of Stage 2 Stress DSR in September 2024, transaction volumes in metropolitan outskirts—highly dependent on financial leverage—suffered a severe contraction (-28.4%). Conversely, downtown Seoul, backed by leverage-free capital, showed strong resilience, highlighting extreme polarization.",
+    figCaptionSource:
+      "Source: Korea Real Estate Board (REB) Statistics (Author's processing)",
+  },
+  ko: {
+    chartTitle: "한국 서울 vs 수도권 외곽 거래량 YoY 변화율",
+    chartDesc:
+      "2024년 1분기부터 2026년 1분기까지 한국 서울과 수도권 외곽(경기·인천)의 전년 동기 대비(YoY) 주택 거래량 변화율을 나타내는 시계열 라인 차트입니다. 서울은 대출 규제 속에서도 강력한 상승 흐름을 보였으나, 수도권 외곽은 규제 도입(24년 9월) 이후 급격한 거래 침체 및 마이너스 성장을 겪고 있습니다.",
+    titleLine: "한국 서울 vs 수도권 외곽 거래량 YoY 변화율 (%)",
+    legendSeoul: "서울 거래량 (YoY)",
+    legendOutskirts: "수도권 외곽 (경기·인천)",
+    figCaptionTitle:
+      "[그림 1] 서울 vs 경기·인천 거래량 전년 동기 대비(YoY) 변화율 추이 (2024~2026)",
+    figCaptionBody:
+      "스트레스 DSR 2단계 도입(24년 9월)을 기점으로, 금융 레버리지를 필요로 하는 수도권 외곽 거래량은 심각한 침체(-28.4%)를 겪는 반면, 대출 면역 자본이 집중되는 서울 중심부는 견조한 흐름을 보여 극심한 양극화를 증명합니다.",
+    figCaptionSource: "출처: 한국부동산원 부동산통계정보시스템 (저자 가공 데이터)",
+  },
+  ja: {
+    chartTitle: "韓国・ソウル vs 首都圏郊外の取引量 YoY変化率",
+    chartDesc:
+      "2024年第1四半期から2026年第1四半期まで、韓国のソウルと首都圏郊外（京畿・仁川）の前年同期比（YoY）住宅取引量の変化率を示す時系列ラインチャートです。ソウルは融資規制下でも堅調な上昇を維持した一方、郊外は2024年9月の規制導入後に急激な取引縮小とマイナス成長に転じました。",
+    titleLine: "韓国・ソウル vs 首都圏郊外 取引量 YoY変化率 (%)",
+    legendSeoul: "ソウル取引量 (YoY)",
+    legendOutskirts: "首都圏郊外 (京畿・仁川)",
+    figCaptionTitle:
+      "[図 1] ソウル vs 京畿・仁川の住宅取引量 前年同期比(YoY) 変化率推移 (2024～2026)",
+    figCaptionBody:
+      "2024年9月のストレスDSR第2段階導入を契機に、金融レバレッジを必要とする首都圏郊外の取引量は大幅な縮小（-28.4%）を記録した一方、融資規制の影響を受けない自己資金が集中するソウル中心部は堅調な推移を示し、極端な二極化を裏付けています。",
+    figCaptionSource:
+      "出典：韓国不動産院 不動産統計情報システム（著者加工データ）",
+  },
+};
+
+const t = COPY[lang];
+---
+
+<div class="macro-chart-container">
+  <svg
+    viewBox="0 0 800 450"
+    width="100%"
+    height="auto"
+    role="img"
+    aria-labelledby="chart-title chart-desc"
+  >
+    <title id="chart-title">{t.chartTitle}</title>
+    <desc id="chart-desc">{t.chartDesc}</desc>
+    <defs>
+      <linearGradient id="seoulGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="var(--accent, #10b981)" stop-opacity="0.2"></stop>
+        <stop offset="100%" stop-color="var(--accent, #10b981)" stop-opacity="0.0"></stop>
+      </linearGradient>
+      <linearGradient id="outskirtsGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ef4444" stop-opacity="0.1"></stop>
+        <stop offset="100%" stop-color="#ef4444" stop-opacity="0.0"></stop>
+      </linearGradient>
+    </defs>
+    <text
+      x="400"
+      y="30"
+      text-anchor="middle"
+      font-size="18"
+      font-weight="700"
+      fill="currentColor"
+      opacity="0.95">{t.titleLine}</text>
+    <line
+      x1="60"
+      y1="347.5"
+      x2="760"
+      y2="347.5"
+      stroke="var(--card-border, rgba(128, 128, 128, 0.15))"
+      stroke-dasharray="4,4"></line>
+    <text x="50" y="352.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.6"
+      >-20%</text
+    >
+    <line
+      x1="60"
+      y1="262.5"
+      x2="760"
+      y2="262.5"
+      stroke="var(--card-border, rgba(128, 128, 128, 0.3))"
+      stroke-width="1.5"></line>
+    <text
+      x="50"
+      y="267.5"
+      text-anchor="end"
+      font-size="12"
+      fill="currentColor"
+      opacity="0.8"
+      font-weight="600">0%</text>
+    <line
+      x1="60"
+      y1="177.5"
+      x2="760"
+      y2="177.5"
+      stroke="var(--card-border, rgba(128, 128, 128, 0.15))"
+      stroke-dasharray="4,4"></line>
+    <text x="50" y="182.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.6"
+      >20%</text
+    >
+    <line
+      x1="60"
+      y1="92.5"
+      x2="760"
+      y2="92.5"
+      stroke="var(--card-border, rgba(128, 128, 128, 0.15))"
+      stroke-dasharray="4,4"></line>
+    <text x="50" y="97.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.6"
+      >40%</text
+    >
+    <text x="60" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >24 Q1</text>
+    <text x="147.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >Q2</text>
+    <text x="235" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >Q3</text>
+    <text x="322.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >Q4</text>
+    <text x="410" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >25 Q1</text>
+    <text x="497.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >Q2</text>
+    <text x="585" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >Q3</text>
+    <text x="672.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >Q4</text>
+    <text x="760" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7"
+      >26 Q1</text>
+    <path
+      d="M 60,271.425 L 147.5,256.125 L 235,282.9 L 322.5,316.05 L 410,339.85 L 497.5,357.7 L 585,371.3 L 672.5,367.9 L 760,383.2 L 760,262.5 L 60,262.5 Z"
+      fill="url(#outskirtsGrad)"></path>
+    <path
+      d="M 60,240.4 L 147.5,209.8 L 235,140.95 L 322.5,185.15 L 410,167.3 L 497.5,110.35 L 585,83.575 L 672.5,132.875 L 760,197.9 L 760,262.5 L 60,262.5 Z"
+      fill="url(#seoulGrad)"></path>
+    <path
+      d="M 60,271.425 L 147.5,256.125 L 235,282.9 L 322.5,316.05 L 410,339.85 L 497.5,357.7 L 585,371.3 L 672.5,367.9 L 760,383.2"
+      fill="none"
+      stroke="#ef4444"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      opacity="0.85"></path>
+    <path
+      d="M 60,240.4 L 147.5,209.8 L 235,140.95 L 322.5,185.15 L 410,167.3 L 497.5,110.35 L 585,83.575 L 672.5,132.875 L 760,197.9"
+      fill="none"
+      stroke="var(--accent, #10b981)"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"></path>
+    <circle cx="60" cy="271.425" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="147.5" cy="256.125" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="235" cy="282.9" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="322.5" cy="316.05" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="410" cy="339.85" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="497.5" cy="357.7" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="585" cy="371.3" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="672.5" cy="367.9" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="760" cy="383.2" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="60" cy="240.4" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="147.5" cy="209.8" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="235" cy="140.95" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="322.5" cy="185.15" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="410" cy="167.3" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="497.5" cy="110.35" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="585" cy="83.575" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="672.5" cy="132.875" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <circle cx="760" cy="197.9" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+    ></circle>
+    <text
+      x="585"
+      y="65"
+      text-anchor="middle"
+      font-size="11"
+      font-weight="700"
+      fill="var(--accent, #10b981)">+42.1%</text>
+    <text x="760" y="403" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444"
+      >-28.4%</text>
+    <g transform="translate(60, 60)">
+      <rect
+        x="0"
+        y="0"
+        width="220"
+        height="60"
+        rx="8"
+        fill="var(--card-bg, rgba(128,128,128,0.05))"
+        stroke="var(--card-border, rgba(128,128,128,0.1))"
+        stroke-width="1"></rect>
+      <line x1="15" y1="20" x2="35" y2="20" stroke="var(--accent, #10b981)" stroke-width="3"
+      ></line>
+      <circle cx="25" cy="20" r="4" fill="var(--accent, #10b981)"></circle>
+      <text x="45" y="24" font-size="12" font-weight="600" fill="currentColor">{t.legendSeoul}</text>
+      <line x1="15" y1="40" x2="35" y2="40" stroke="#ef4444" stroke-width="3" opacity="0.85"
+      ></line>
+      <circle cx="25" cy="40" r="4" fill="#ef4444"></circle>
+      <text x="45" y="44" font-size="12" font-weight="600" fill="currentColor"
+        >{t.legendOutskirts}</text>
+    </g>
+  </svg>
+  <figcaption class="macro-chart-figcaption">
+    <strong>{t.figCaptionTitle}</strong><br />
+    {t.figCaptionBody}<br />
+    <span class="source">{t.figCaptionSource}</span>
+  </figcaption>
+</div>
+
+<style>
+  .macro-chart-container {
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--card-border, rgba(128, 128, 128, 0.15));
+    background: var(--card-bg, rgba(128, 128, 128, 0.05));
+  }
+
+  .macro-chart-figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: var(--foreground);
+    opacity: 0.9;
+  }
+
+  .macro-chart-figcaption .source {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.65;
+  }
+</style>

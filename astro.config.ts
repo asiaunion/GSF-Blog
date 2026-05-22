@@ -2,6 +2,7 @@ import { defineConfig, envField, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel";
+import mdx from "@astrojs/mdx";
 import remarkToc from "remark-toc";
 import remarkGfm from "remark-gfm";
 import remarkCollapse from "remark-collapse";
@@ -33,6 +34,7 @@ export default defineConfig({
     },
   },
   integrations: [
+    mdx(),
     pagefindIntegration(),
     sitemap({
       filter: page => {
