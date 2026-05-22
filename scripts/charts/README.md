@@ -20,4 +20,6 @@ python3 scripts/charts/generate-macro-barrier-chart.py
 
 Output: `public/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp`
 
+**Style:** Economist-inspired — red accent bar, Y-axis on the right, direct line labels (`Seoul` / `Outskirts` only). Gyeonggi/Incheon and DSR context stay in MDX `<figcaption>`.
+
 Posts reference it via `<figure class="supplemental-chart">` in MDX (captions are per language in the post).
