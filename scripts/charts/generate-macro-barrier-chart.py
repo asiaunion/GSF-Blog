@@ -50,7 +50,6 @@ def load_series() -> tuple[list[str], list[float], list[float]]:
 
 def add_direct_labels(ax, seoul: list[float], outskirts: list[float]) -> None:
     """Economist-style direct labels in empty chart space (no legend box)."""
-    n = len(seoul) - 1
     # Seoul — upper area near peak ('25 Q2)
     ax.annotate(
         "Seoul",
@@ -63,10 +62,12 @@ def add_direct_labels(ax, seoul: list[float], outskirts: list[float]) -> None:
         ha="left",
         va="bottom",
     )
-    # Outskirts — early gap between series (mirror Seoul: anchor on line, label in whitespace)
+    # Outskirts — between '25 Q2 and '25 Q3 (mid-segment anchor, label in whitespace)
+    mid_x = 5.5
+    mid_y = (outskirts[5] + outskirts[6]) / 2
     ax.annotate(
         "Outskirts",
-        xy=(1, outskirts[1]),
+        xy=(mid_x, mid_y),
         xytext=(12, 18),
         textcoords="offset points",
         color=OUTSKIRTS_LABEL_COLOR,
