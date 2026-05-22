@@ -15,6 +15,7 @@ import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 import { getLegacyPostRedirects } from "./src/build/legacyPostRedirects";
 import { getCrossLocaleTagRedirects } from "./src/build/crossLocaleTagRedirects";
+import { getTagPaginationRedirects } from "./src/build/tagPaginationRedirects";
 import { pagefindIntegration } from "./src/build/pagefindIntegration";
 
 // https://astro.build/config
@@ -27,6 +28,7 @@ export default defineConfig({
     "/sitemap.xml": { status: 308, destination: "/sitemap-index.xml" },
     ...getLegacyPostRedirects(),
     ...getCrossLocaleTagRedirects(),
+    ...getTagPaginationRedirects(),
   },
   i18n: {
     defaultLocale: "en",
