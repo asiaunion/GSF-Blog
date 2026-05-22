@@ -34,7 +34,7 @@ ${personaConfig.structuralRules.map((rule, idx) => `${idx + 1}. ${rule}`).join("
 CRITICAL INSTRUCTIONS:
 1. Translate the entire post body and specified frontmatter values ('title' and 'description').
 2. Keep all Markdown formatting intact.
-3. Keep all HTML tags (like <div class="macro-chart-container">, <svg>, <figcaption>, <strong>) completely intact. Only translate the translatable text nodes inside them.
+3. Keep Astro components (e.g. <MacroBarrierChart />) and HTML tags (<strong>, etc.) intact. Do not inline large SVG charts in markdown—use components instead.
 4. Do NOT output any preamble, commentary, explanations, or notes. ONLY output the translated markdown file starting with "---" and ending with "---" or the conclusion.
 5. In the frontmatter, you MUST set 'lang: ${targetLang}' and preserve all other keys and arrays ('sources', 'references', 'category', 'pubDatetime', etc.) exactly as is.
 6. Translate the 'macroMicroMatrix' content inside frontmatter values if present, but DO NOT translate its keys ('leftTitle', 'leftItems', 'rightTitle', 'rightItems').

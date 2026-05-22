@@ -16,6 +16,7 @@
     "scan:md": "node scripts/detect_duplicate_markdown_sections.mjs"
   },
   "dependencies": {
+    "@astrojs/mdx": "^5.0.6",
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "@astrojs/vercel": "^9.0.5",
