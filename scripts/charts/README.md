@@ -20,6 +20,6 @@ python3 scripts/charts/generate-macro-barrier-chart.py
 
 Output: `public/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp`
 
-**Style:** Economist-inspired layout — GSF green accent bar (`#10b981`), Y-axis on the right, labels stacked **bottom-right only** (`Seoul` / `Outskirts`). Details stay in MDX `<figcaption>`.
+**Style:** Economist-inspired layout — GSF green accent bar, Y-axis on the right, **direct labels** near peak/trough (`Seoul` / `Outskirts`). Seoul `#10b981`, Outskirts lighter `#6ee7b7`. Details stay in MDX `<figcaption>`.
 
 Posts reference it via `<figure class="supplemental-chart">` in MDX (captions are per language in the post).
