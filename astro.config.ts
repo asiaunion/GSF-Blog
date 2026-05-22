@@ -36,16 +36,20 @@ export default defineConfig({
     pagefindIntegration(),
     sitemap({
       filter: page => {
-        const pathname = new URL(page).pathname.replace(/\/+$/, "");
-        // Exclude tag pages — these are noindex and mostly thin content (0-1 posts)
-        if (pathname.includes("/tags")) return false;
-        // Exclude pagination pages — these are duplicate list content (/posts/2/, /posts/3/, etc.)
-        if (/\/posts\/\d+$/.test(pathname)) return false;
-        // Exclude search pages — empty UI shell until user input (thin content)
-        if (pathname.includes("/search")) return false;
-        // Exclude archives — date-based index, thin content for AdSense
-        if (pathname.endsWith("/archives")) return false;
-        return true;
+        try {
+          const pathname = new URL(page, SITE.website).pathname.replace(/\/+$/, "");
+          // Exclude tag pages — these are noindex and mostly thin content (0-1 posts)
+          if (pathname.includes("/tags")) return false;
+          // Exclude pagination pages — these are duplicate list content (/posts/2/, /posts/3/, etc.)
+          if (/\/posts\/\d+$/.test(pathname)) return false;
+          // Exclude search pages — empty UI shell until user input (thin content)
+          if (pathname.includes("/search")) return false;
+          // Exclude archives — date-based index, thin content for AdSense
+          if (pathname.endsWith("/archives")) return false;
+          return true;
+        } catch (e) {
+          return false;
+        }
       },
     }),
   ],

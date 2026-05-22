@@ -11,6 +11,9 @@ html[data-theme="light"] {
   --accent: #0f4d22;
   --muted: #e6e6e6;
   --border: #ece9e9;
+  --card-bg: rgba(128, 128, 128, 0.05);
+  --card-border: rgba(128, 128, 128, 0.15);
+  --card-accent: var(--accent);
 }
 
 html[data-theme="dark"] {
@@ -19,6 +22,9 @@ html[data-theme="dark"] {
   --accent: #34d399;
   --muted: #2a2a2a;
   --border: #333333;
+  --card-bg: rgba(128, 128, 128, 0.05);
+  --card-border: rgba(128, 128, 128, 0.15);
+  --card-accent: var(--accent);
 }
 
 @theme inline {
@@ -28,6 +34,9 @@ html[data-theme="dark"] {
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-border: var(--border);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-card-accent: var(--card-accent);
 }
 
 @layer base {
@@ -249,3 +258,58 @@ html[data-theme="dark"] {
   max-width: 100%;
   height: auto;
 }
+
+/**
+ * Macro/Micro Matrix card styling.
+ * Renders beautifully across all viewport sizes using global theme CSS variables.
+ */
+.macro-micro-matrix {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+@media (max-width: 640px) {
+  .macro-micro-matrix {
+    grid-template-columns: 1fr;
+  }
+}
+
+.matrix-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-left: 4px solid var(--card-accent);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  transition: all 0.2s ease-in-out;
+}
+
+.matrix-card h4 {
+  margin: 0 0 10px 0 !important;
+  color: var(--card-accent) !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  line-height: 1.2 !important;
+}
+
+.matrix-card .card-content {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.9;
+  line-height: 1.6;
+}
+
+.matrix-card .card-content p {
+  margin: 0 0 8px 0 !important;
+}
+
+.matrix-card .card-content p:last-child {
+  margin-bottom: 0 !important;
+}
+
+.matrix-card .card-content strong {
+  font-weight: 700;
+}
+

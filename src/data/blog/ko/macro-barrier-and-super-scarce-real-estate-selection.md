@@ -48,20 +48,20 @@ references:
 
 그러나 미나토구, 시부야구, 니혼바시 등 도심 초핵심지역(도심 3구 등)의 랜드마크 맨션들은 여전히 강력한 하방 경직성을 유지하고 있습니다[출처: 부동산경제연구소, '수도권 맨션 시장 동향(2024년 9월)' 보고서, 2024-10-17]. 엔저 메리트를 누리는 글로벌 자산가들의 매수 자금이 이들 초우량 자산으로 꾸준히 유입되는 덕분입니다. 여기에 자재비와 인건비 급등에 따른 원가 밀어올리기(Cost-push) 효과까지 겹쳐, 도심 하이엔드 신축 분양가는 금리 악재를 비웃듯 강력한 방어력을 증명하고 있습니다.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; font-family: sans-serif;">
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">MACRO BARRIER (거시 악재)</h4>
-    <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>한국</strong>: 스트레스 DSR 2단계 강행(2024년 9월 1일 시행) ➔ 수도권 외곽 거래량 <strong>-24.4% 급감</strong> (전월비)<br>
-      • <strong>일본</strong>: BOJ 금리인상(2024년 7월 31일 연 0.25% 결정) ➔ 수도권 중고 맨션 평균가 <strong>+2.2% 상승 (23구는 +3.9%로 사상 최고가)</strong> (2024년 9월 기준)
-    </p>
+<div class="macro-micro-matrix">
+  <div class="matrix-card left-card">
+    <h4>MACRO BARRIER (거시 악재)</h4>
+    <div class="card-content">
+      <p>• <strong>한국</strong>: 스트레스 DSR 2단계 강행(2024년 9월 1일 시행) ➔ 수도권 외곽 거래량 <strong>-24.4% 급감</strong> (전월비)</p>
+      <p>• <strong>일본</strong>: BOJ 금리인상(2024년 7월 31일 연 0.25% 결정) ➔ 수도권 중고 맨션 평균가 <strong>+2.2% 상승 (23구는 +3.9%로 사상 최고가)</strong> (2024년 9월 기준)</p>
+    </div>
   </div>
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">ULTRA SCARCITY (초희소 미시 호조)</h4>
-    <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>서울</strong>: 반포·서초 국평 래미안 원베일리 <strong>50억 돌파</strong> (2024년 8월 2일 신고가)<br>
-      • <strong>도쿄</strong>: 미나토·시부야 랜드마크 맨션 <strong>하방 경직 & 상승 유지</strong> (2024년 9월 기준)
-    </p>
+  <div class="matrix-card right-card">
+    <h4>ULTRA SCARCITY (초희소 미시 호조)</h4>
+    <div class="card-content">
+      <p>• <strong>서울</strong>: 반포·서초 국평 래미안 원베일리 <strong>50억 돌파</strong> (2024년 8월 2일 신고가)</p>
+      <p>• <strong>도쿄</strong>: 미나토·시부야 랜드마크 맨션 <strong>하방 경직 & 상승 유지</strong> (2024년 9월 기준)</p>
+    </div>
   </div>
 </div>
 

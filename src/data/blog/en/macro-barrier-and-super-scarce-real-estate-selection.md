@@ -48,20 +48,20 @@ This polarization is observed with a strong sense of déjà vu across the sea in
 
 Yet, landmark mansions in ultra-core downtown areas (the central 3 wards) like Minato, Shibuya, and Nihonbashi maintain ironclad downside resilience [Source: Real Estate Economic Institute, report 'Metropolitan Area Mansion Market Trends (September 2024)', 2024-10-17]. Capital from global investors lured by the weak yen continues to flow steadily into these prime assets. Combined with the cost-push effect of skyrocketing materials and labor costs, new high-end downtown developments are proving their robust defensive strength, laughing off the headwind of rising interest rates.
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; font-family: sans-serif;">
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">MACRO BARRIER</h4>
-    <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>Korea</strong>: Stage 2 Stress DSR (implemented Sept 1, 2024) ➔ Outskirt transaction volume <strong>plummets by 24.4%</strong> (MoM)<br>
-      • <strong>Japan</strong>: BOJ rate hike (0.25% on July 31, 2024) ➔ Pre-owned mansions <strong>rise +2.2% MoM (23 wards surge +3.9% to record high)</strong> (as of Sept 2024)
-    </p>
+<div class="macro-micro-matrix">
+  <div class="matrix-card left-card">
+    <h4>MACRO BARRIER</h4>
+    <div class="card-content">
+      <p>• <strong>Korea</strong>: Stage 2 Stress DSR (implemented Sept 1, 2024) ➔ Outskirt transaction volume <strong>plummets by 24.4%</strong> (MoM)</p>
+      <p>• <strong>Japan</strong>: BOJ rate hike (0.25% on July 31, 2024) ➔ Pre-owned mansions <strong>rise +2.2% MoM (23 wards surge +3.9% to record high)</strong> (as of Sept 2024)</p>
+    </div>
   </div>
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">ULTRA SCARCITY</h4>
-    <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>Seoul</strong>: Banpo/Seocho standard apartments Raemian One Bailey <strong>exceed 5 billion KRW without loans</strong> (Aug 2, 2024 record high)<br>
-      • <strong>Tokyo</strong>: Minato/Shibuya landmark mansions maintain <strong>strong downside resilience & upward trends</strong> (as of Sept 2024)
-    </p>
+  <div class="matrix-card right-card">
+    <h4>ULTRA SCARCITY</h4>
+    <div class="card-content">
+      <p>• <strong>Seoul</strong>: Banpo/Seocho standard apartments Raemian One Bailey <strong>exceed 5 billion KRW without loans</strong> (Aug 2, 2024 record high)</p>
+      <p>• <strong>Tokyo</strong>: Minato/Shibuya landmark mansions maintain <strong>strong downside resilience & upward trends</strong> (as of Sept 2024)</p>
+    </div>
   </div>
 </div>
 
