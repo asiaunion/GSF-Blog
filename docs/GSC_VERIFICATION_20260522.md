@@ -81,22 +81,46 @@ curl -sL https://gsfark.com/sitemap-0.xml | grep '/en/' && echo FAIL || echo OK_
 
 ---
 
-## 4. GSC “페이지 색인” 표 해석 (2026-05-22 스크린샷)
+## 4. 배포 반영 확인 (2026-05-22 — 배포 전/후)
+
+| 검사 | 배포 전 (21:43 KST) | 배포 후 (에이전트 기록) |
+|------|---------------------|-------------------------|
+| `curl -sI …/ko/tags/Investment/` | **404** (middleware가 `/tags/Investment/`로 보냄 → 실제 페이지는 `/tags/investment/`) | **308** → `Location: /tags/investment/` |
+| `curl -sI …/tags/Investment/` | **404** | **308** → `/tags/investment/` |
+| `curl -sL sitemap-0.xml \| grep /en/` | **FAIL** — `https://gsfark.com/en/` 1건 | **OK** — `/en/` 없음 (`240d082` sitemap filter) |
+| `curl -sI …/en/posts/macro-barrier…/` | **308** → `/posts/…/` | 동일 유지 |
+| `curl -sI …/tags/real-estate/` | **200** | 동일 유지 |
+
+**원인 요약:** main에 `0e89eac`·`240d082`가 있었으나 프로덕션 빌드가 뒤처져 sitemap·정적 redirect가 미반영. 추가로 **middleware**가 cross-locale 태그 redirect 시 slugify 없이 대소문자를 유지해 GSC 404·리디렉션 오류 유발 → `canonicalTagSegment()` 적용 커밋.
+
+---
+
+## 5. GSC “페이지 색인” 표 해석 (2026-05-22 스크린샷)
 
 | GSC 사유 | 페이지 수 | 해석 | 조치 |
 |----------|-----------|------|------|
 | **noindex** | 62 | **의도적** — `/tags/`, `/search`, `/archives` (`robotsMeta="noindex, follow"`) | 본문 글은 noindex **없음**. 태그 허브를 색인할 계획이 없으면 **정상** |
 | **리디렉션** | 3 | legacy `/en/*` 등 | sitemap에서 `/en` 제거·308 라우트 유지 |
 | **크롤링됨–미색인** | 5 | 품질/우선순위 | URL 검사 → 색인 요청 |
-| **리디렉션 오류** | 1 | 잘못된 목적지(태그 대소문자 등) | `crossLocaleTagRedirects` **slugify** 수정 (`240d082` 이후) |
-| **404** | 53 | 옛 WP URL·잘못된 `/ko/tags/Investment/` → `/tags/Investment/` (실제는 `/tags/investment/`) | 슬러그 기준 308 재생성 + 배포 |
+| **리디렉션 오류** | 1 | `/ko/tags/Investment/` → `/tags/Investment/` (404) | middleware + `crossLocaleTagRedirects` slugify, 배포 |
+| **404** | 53 | WP legacy·태그 대소문자·공백 slug (`Real%20Estate` vs `real-estate`)·한글 옛 post slug | `legacyPostRedirects` + vercel.json WP rules + middleware slugify 배포 후 **유효성 검사** |
 | **발견–미색인** | 61 | 신규·무볼륨 사이트 흔함 | sitemap 제출 + 핵심 6 URL 색인 요청 |
 
 **목표 지표:** “색인 생성됨” **본문 포스트·허브(`/`, `/topics/`, `/about`)** — 태그/검색 62건은 제외해도 됨.
 
+### 404 유형 (코드 대조, 예시 URL)
+
+| 유형 | 예시 (프로덕션 점검) | 처리 레이어 |
+|------|----------------------|-------------|
+| EN 태그가 `/ko/tags/`·`/ja/tags/` | `/ko/tags/Investment/` | middleware 308 → `/tags/investment/` |
+| 태그 대소문자·공백 | `/tags/Investment/`, `/tags/Real%20Estate/` | middleware → slugify canonical |
+| legacy `/en/*` | `/en/posts/…` | middleware + `vercel.json` + `en/[...path].astro` |
+| WP | `/wp-admin/`, `/author/…`, `/feed/` | `vercel.json` (배포 시 config 병합) |
+| 한글 옛 post slug | `/ko/posts/일본-리츠j-reits-…/` | `astro.config` `getLegacyPostRedirects()` |
+
 ---
 
-## 5. 흔한 실패 원인 (이 사이트 기준)
+## 6. 흔한 실패 원인 (이 사이트 기준)
 
 | 원인 | 현재 상태 |
 |------|-----------|
@@ -108,14 +132,14 @@ curl -sL https://gsfark.com/sitemap-0.xml | grep '/en/' && echo FAIL || echo OK_
 
 ---
 
-## 5. AdSense와 분리
+## 7. AdSense와 분리
 
 - GSC 통과 ≠ AdSense 승인. 지금 단계에서는 **색인·Coverage·소유권**만 보면 됨.
 - `ads.txt` / GA4는 GSC 이후 또는 병행 가능하나 **GSC 블로커는 아님**.
 
 ---
 
-## 6. 관련 파일
+## 8. 관련 파일
 
 - [`GSC_MANUAL_STEPS_20260522.md`](./GSC_MANUAL_STEPS_20260522.md) — 짧은 체크리스트
 - [`ADSENSE_AND_GSC_CHECKLIST.md`](./ADSENSE_AND_GSC_CHECKLIST.md) — Phase 4-11 GSC 섹션
@@ -123,4 +147,4 @@ curl -sL https://gsfark.com/sitemap-0.xml | grep '/en/' && echo FAIL || echo OK_
 
 ---
 
-*다음: sitemap `/en/` 제거 배포 후 GSC에서 sitemap 재크롤 + URL 검사 6건 기록.*
+*다음: 배포 후 GSC — sitemap 재제출, 404·리디렉션 **유효성 검사 시작**, URL 검사 6건 (`GSC_MANUAL_STEPS_20260522.md`).*

@@ -1,4 +1,10 @@
 import { defineMiddleware } from "astro:middleware";
+import { slugifyStr } from "./utils/slugify";
+
+/** Canonical URL segment for a tag (matches tag page static paths + build redirects). */
+function canonicalTagSegment(segment: string): string {
+  return encodeURIComponent(slugifyStr(decodeURIComponent(segment)));
+}
 
 /**
  * Cross-locale tag redirect middleware.
@@ -41,13 +47,15 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const koTagMatch = pathname.match(/^\/ko\/tags\/([^/]+)\/?$/);
   if (koTagMatch) {
     const tag = koTagMatch[1];
+    const slug = canonicalTagSegment(tag);
     if (hasJapanese(tag)) {
-      // JA tag ended up in KO route → redirect to /ja/tags/<tag>/
-      return context.redirect(`/ja/tags/${tag}/`, 308);
+      return context.redirect(`/ja/tags/${slug}/`, 308);
     }
     if (!hasKorean(tag)) {
-      // EN tag ended up in KO route → redirect to /tags/<tag>/
-      return context.redirect(`/tags/${tag}/`, 308);
+      return context.redirect(`/tags/${slug}/`, 308);
+    }
+    if (tag !== slug) {
+      return context.redirect(`/ko/tags/${slug}/`, 308);
     }
   }
 
@@ -57,13 +65,15 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const jaTagMatch = pathname.match(/^\/ja\/tags\/([^/]+)\/?$/);
   if (jaTagMatch) {
     const tag = jaTagMatch[1];
+    const slug = canonicalTagSegment(tag);
     if (hasKorean(tag)) {
-      // KO tag ended up in JA route → redirect to /ko/tags/<tag>/
-      return context.redirect(`/ko/tags/${tag}/`, 308);
+      return context.redirect(`/ko/tags/${slug}/`, 308);
     }
     if (!hasJapanese(tag)) {
-      // EN tag ended up in JA route → redirect to /tags/<tag>/
-      return context.redirect(`/tags/${tag}/`, 308);
+      return context.redirect(`/tags/${slug}/`, 308);
+    }
+    if (tag !== slug) {
+      return context.redirect(`/ja/tags/${slug}/`, 308);
     }
   }
 
@@ -73,11 +83,15 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const rootTagMatch = pathname.match(/^\/tags\/([^/]+)\/?$/);
   if (rootTagMatch) {
     const tag = rootTagMatch[1];
+    const slug = canonicalTagSegment(tag);
     if (hasKorean(tag)) {
-      return context.redirect(`/ko/tags/${tag}/`, 308);
+      return context.redirect(`/ko/tags/${slug}/`, 308);
     }
     if (hasJapanese(tag)) {
-      return context.redirect(`/ja/tags/${tag}/`, 308);
+      return context.redirect(`/ja/tags/${slug}/`, 308);
+    }
+    if (tag !== slug) {
+      return context.redirect(`/tags/${slug}/`, 308);
     }
   }
 
