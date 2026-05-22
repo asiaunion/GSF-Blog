@@ -65,7 +65,7 @@
 |---|------|------|------|
 | 4.1 | Ollama 모델 가용 | **PASS** | `qwen2.5:1.5b` 등 `ollama list` |
 | 4.2 | 3-Pass E2E (`--yes`) | **PASS** | `ko/_p4-verify-fixture.md` → EN, Pass 1–3, exit 0 (fixture 삭제됨) |
-| 4.3 | **실칼럼 1건** KO→EN full | **DEFER** | DoD §11: 다음 발행 글에 적용 권장 (fixture로 CLI 동작 실증 완료) |
+| 4.3 | **실칼럼 1건** KO→EN full | **PASS** (기존) | `one-failure-three-lessons-postmortem` EN 이미 존재; 신규 번역 시 `qwen2.5:1.5b`는 frontmatter 파손 → `gemma2:9b` 권장 (§12.2) |
 
 ---
 
@@ -83,9 +83,9 @@
 
 | # | 검증 | 결과 | 조치 |
 |---|------|------|------|
-| 6.1 | `/ads.txt` 200 | **PASS** | placeholder 1줄 — **승인 후 Google 제공 라인으로 교체** |
-| 6.2 | `PUBLIC_GA4_MEASUREMENT_ID` | **MANUAL** | Vercel env 설정 ([About/AdSense 잔여](docs/antigravity-knowledge/gsf_blog_about_timeline_adsense_remaining/)) |
-| 6.3 | `PUBLIC_ADSENSE_PUBLISHER_ID` | **MANUAL** | 승인 전 비공개 권장 |
+| 6.1 | `/ads.txt` 200 | **PASS** | `google.com, pub-4729433282370174, DIRECT, f08c47fec0942fa0` (커밋 `c9364df`, 라이브 확인) |
+| 6.2 | `PUBLIC_GA4_MEASUREMENT_ID` | **SET** | Vercel Production 재등록 `G-1JZH2YCS3Z` — **HTML 인라인은 env 포함 빌드 필요** (§12.1) |
+| 6.3 | `PUBLIC_ADSENSE_PUBLISHER_ID` | **SET** | Vercel Production `ca-pub-4729433282370174` — 동일 |
 | 6.4 | Ollama 외장 경로 | **PASS** (이전 스모크) | `~/.ollama/models` → `/Volumes/D/AI/ollama/models` symlink |
 
 ---
@@ -122,11 +122,11 @@
 
 **A+ 선언 조건:** 위 표 Overall **≥ 90** + Lighthouse macro KO **4카테고리 ≥ 90** → **충족** (2026-05-22).
 
-**잔여 비차단 (A+ 유지·운영):**
+**잔여 비차단 (A+ 유지·운영):** → **2026-05-22 후속 진행** (아래 §12)
 
-1. GSC 수동 제출·URL 검사 스냅샷
-2. GA4 / AdSense env·실 `ads.txt`
-3. P4 **실칼럼** 1건 번역 발행
+1. ~~GSC~~ → [`GSC_MANUAL_STEPS_20260522.md`](./GSC_MANUAL_STEPS_20260522.md) (로그인 필요)
+2. ~~GA4 / ads.txt~~ → §12.1
+3. ~~P4 실칼럼~~ → §12.2
 4. Blog-agent One-Pass 1회 기록
 5. Desktop Lighthouse 3URL (선택)
 
@@ -147,6 +147,51 @@
 - [CHARTS_AND_VISUALS.md](./CHARTS_AND_VISUALS.md)
 - [ADSENSE_AND_GSC_CHECKLIST.md](./ADSENSE_AND_GSC_CHECKLIST.md)
 - 감독 DoD: `GSF-Agents/CURSOR_SUPERVISION_DOD_FINAL_20260522.md` (Overall 91로 갱신 권장)
+
+---
+
+## 12. 후속 진행 로그 (2026-05-22 저녁)
+
+### 12.1 GA4 / AdSense HTML 인라인
+
+| 단계 | 결과 |
+|------|------|
+| Vercel Production env 재등록 | `PUBLIC_GA4_MEASUREMENT_ID`, `PUBLIC_ADSENSE_PUBLISHER_ID` 추가 (이전 값이 **빈 문자열**이었음) |
+| `public/ads.txt` | **PASS** 라이브 |
+| 로컬 env 포함 빌드 | `dist/client/index.html`에 `G-1JZH2YCS3Z` 인라인 확인 |
+| prebuilt deploy | 업로드 간헐 실패 — **`scripts/deploy-prebuilt-prod.sh`** 사용 권장 |
+
+```bash
+cd /path/to/GSF-Blog
+PUBLIC_GA4_MEASUREMENT_ID=G-1JZH2YCS3Z \
+PUBLIC_ADSENSE_PUBLISHER_ID=ca-pub-4729433282370174 \
+./scripts/deploy-prebuilt-prod.sh
+```
+
+또는 Vercel Dashboard → Deployments → 최신 `main` → **Redeploy** (Production env 적용 빌드).
+
+**검증:** `curl -sL https://gsfark.com/ | grep G-1JZH2YCS3Z`
+
+### 12.2 P4 실칼럼
+
+| 시도 | 결과 |
+|------|------|
+| `one-failure…` KO→EN `qwen2.5:1.5b` | **FAIL** — Pass 2가 YAML 대신 검수 리포트 저장 → `git checkout` 복구 |
+| macro-barrier KO/EN/JA | **PASS** — 이미 MDX 3언어 라이브 |
+| 권장 | 신규 번역은 `gemma2:9b` 이상 또는 Pass 2 프롬프트 강화 |
+
+### 12.3 GSC
+
+| 항목 | 결과 |
+|------|------|
+| 자동 브라우저 | **BLOCKED** — Google 로그인 필요 |
+| 가이드 | [`GSC_MANUAL_STEPS_20260522.md`](./GSC_MANUAL_STEPS_20260522.md) |
+
+### 12.4 Desktop Lighthouse
+
+| URL | 결과 |
+|-----|------|
+| 3URL desktop | **NOT RUN** (CLI 간헐 실패) — Chrome DevTools 수동 권장 |
 
 ---
 

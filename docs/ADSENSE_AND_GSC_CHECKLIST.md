@@ -35,6 +35,18 @@ Use this after deploying to production (e.g. Vercel). Phase 4 of the AdSense roa
 3. Complete AdSense signup in the Google UI.
 4. **After approval**: create `public/ads.txt` with the exact lines Google provides (one line per instruction), deploy, and verify `https://your-domain/ads.txt`.
 
+## Deploy with analytics env (required for GA4/AdSense meta)
+
+Astro inlines `PUBLIC_*` at **build time**. Prebuilt deploys must use:
+
+```bash
+PUBLIC_GA4_MEASUREMENT_ID=G-XXXXXXXXXX \
+PUBLIC_ADSENSE_PUBLISHER_ID=ca-pub-xxxxxxxxxxxxxxxx \
+./scripts/deploy-prebuilt-prod.sh
+```
+
+Or redeploy from the Vercel dashboard so the remote build picks up Production env vars.
+
 ## Optional maintenance
 
 - Re-run `pnpm exec astro check && pnpm run build` before each release.
