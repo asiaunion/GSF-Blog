@@ -17,13 +17,22 @@ sources:
   - "https://www.bok.or.kr/"
   - "https://www.boj.or.jp/"
   - "https://www.kantei.ne.jp/"
+  - "https://www.fsc.go.kr/no010101/82882"
+  - "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95090333"
+  - "https://rt.molit.go.kr/"
+  - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
+  - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
+  - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
 references:
-  - "https://www.bok.or.kr/"
-  - "https://www.boj.or.jp/"
-  - "https://www.kantei.ne.jp/"
+  - "https://www.fsc.go.kr/no010101/82882"
+  - "https://www.molit.go.kr/USR/NEWS/m_71/dtl.jsp?id=95090333"
+  - "https://rt.molit.go.kr/"
+  - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
+  - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
+  - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
 ---
 
-The global asset market is facing a massive financial barrier, exhibiting a distinct mix of trends. Korea aggressively implemented Stage 2 Stress DSR — Debt Service Ratio, which limits borrowing capacity based on income and potential rate hikes — to curb household debt. Meanwhile, Japan ended its historic negative interest rate policy, raising interest rates and pivoting to a tighter monetary stance.
+The global asset market is facing a massive financial barrier, exhibiting a distinct mix of trends. Korea aggressively implemented Stage 2 Stress DSR — Debt Service Ratio, which limits borrowing capacity based on income and potential rate hikes — on September 1, 2024 [Source: Financial Services Commission, press release 'Stage 2 Stress DSR Implementation from September 1', 2024-08-20] to curb household debt. Meanwhile, Japan ended its historic negative interest rate policy and raised its policy rate to around 0.25% on July 31, 2024 [Source: Bank of Japan, public statement 'Decisions on the Monetary Policy Meeting', 2024-07-31], pivoting to a tighter monetary stance.
 
 What strikes me as critical here is that despite credit tightening and interest rate hikes, a highly precise line is being drawn in the sand of asset market polarization. The old formula, where entire regions rose in unison, is completely broken. In the end, we must identify the intrinsic scarcity that remains undamaged by adversity. I believe this sharp eye will be the defining key to survival in the unfolding asset market.
 
@@ -31,30 +40,38 @@ What strikes me as critical here is that despite credit tightening and interest 
 
 ## 1. Fact Check: How Capital Navigates Around Regulation and Rate Barriers
 
-Recently, the Korean real estate market has revealed a league of affluent investors who are completely insulated from credit restrictions. As strict loan regulations apply across the metropolitan area, transaction volumes in outlying regions reliant on financial leverage are slowing down rapidly.
+Recently, the Korean real estate market has revealed a league of affluent investors who are completely insulated from credit restrictions. As strict loan regulations apply across the metropolitan area, housing transaction volumes in outlying regions (Gyeonggi and Incheon) for September 2024 plummeted by 24.4% compared to the previous month [Source: Ministry of Land, Infrastructure and Transport, press release 'September 2024 Housing Statistics Announcement', 2024-10-31], reflecting a rapid slowdown.
 
-On the other hand, the flagship complexes in Banpo-dong, Seocho-gu, tell a completely different story. Standard 84㎡ apartments have crossed the 5 billion KRW threshold, funded entirely by equity without a single loan. New records approaching 150 million KRW per pyeong — a Korean unit of area, roughly 3.3 square meters — are consistently being set. It is a striking anomaly: credit restrictions act as a protective barrier for the high-end market, compacting capital into prime locations where leverage is irrelevant.
+On the other hand, the flagship complexes in Banpo-dong, Seocho-gu, tell a completely different story. As of August 2024, standard 84㎡ apartments (such as Raemian One Bailey) crossed the 5 billion KRW threshold, funded entirely by equity without a single loan [Source: Ministry of Land, Infrastructure and Transport, Real Estate Transaction Disclosure System, transaction date 2024-08-02]. New records approaching 150 million KRW per pyeong — a Korean unit of area, roughly 3.3 square meters — are consistently being set. It is a striking anomaly: credit restrictions act as a protective barrier for the high-end market, compacting capital into prime locations where leverage is irrelevant.
 
-This polarization is observed with a strong sense of déjà vu across the sea in Tokyo. As floating mortgage rates began to react to the Bank of Japan's — BOJ, the central bank of Japan — gradual rate hikes, Tokyo's pre-owned mansion market halted its long, post-pandemic surge, entering a stagnation phase for the first time in three years. The chase-buying by end-users burdened by rate hikes has ground to a halt.
+This polarization is observed with a strong sense of déjà vu across the sea in Tokyo. As floating mortgage rates began to react to the Bank of Japan's — BOJ, the central bank of Japan — gradual rate hikes, Tokyo's pre-owned mansion market halted its long, post-pandemic surge, entering a stagnation phase for the first time in three years as of September 2024 (average price per tsubo flattened at 0.0% month-on-month) [Source: Tokyo Kantei, report 'Tokyo Metropolitan Area Pre-owned Mansion 70㎡ Price Trends', 2024-10-24]. The chase-buying by end-users burdened by rate hikes has ground to a halt.
 
-Yet, landmark mansions in ultra-core downtown areas like Minato, Shibuya, and Nihonbashi maintain ironclad downside resilience. Capital from global investors lured by the weak yen continues to flow steadily into these prime assets. Combined with the cost-push effect of skyrocketing materials and labor costs, new high-end downtown developments are proving their robust defensive strength, laughing off the headwind of rising interest rates.
+Yet, landmark mansions in ultra-core downtown areas (the central 3 wards) like Minato, Shibuya, and Nihonbashi maintain ironclad downside resilience [Source: Real Estate Economic Institute, report 'Metropolitan Area Mansion Market Trends (September 2024)', 2024-10-17]. Capital from global investors lured by the weak yen continues to flow steadily into these prime assets. Combined with the cost-push effect of skyrocketing materials and labor costs, new high-end downtown developments are proving their robust defensive strength, laughing off the headwind of rising interest rates.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; font-family: sans-serif;">
   <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
     <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">MACRO BARRIER</h4>
     <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>Korea</strong>: Strict implementation of Stage 2 Stress DSR ➔ Transaction volume in outskirts <strong>plummets by 24%</strong><br>
-      • <strong>Japan</strong>: BOJ interest rate hike signals ➔ Average price of pre-owned mansions <strong>flattens for the first time in 3 years</strong>
+      • <strong>Korea</strong>: Stage 2 Stress DSR (implemented Sept 1, 2024) ➔ Outskirt transaction volume <strong>plummets by 24.4%</strong> (MoM)<br>
+      • <strong>Japan</strong>: BOJ rate hike (0.25% on July 31, 2024) ➔ Pre-owned mansions <strong>flatten for the first time in 3 years</strong> (as of Sept 2024)
     </p>
   </div>
   <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
     <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">ULTRA SCARCITY</h4>
     <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>Seoul</strong>: Banpo/Seocho standard-size apartments exceed <strong>5 billion KRW without loans</strong> (new record highs)<br>
-      • <strong>Tokyo</strong>: Landmark mansions in Minato/Shibuya maintain <strong>strong downside resilience & upward trends</strong>
+      • <strong>Seoul</strong>: Banpo/Seocho standard apartments Raemian One Bailey <strong>exceed 5 billion KRW without loans</strong> (Aug 2, 2024 record high)<br>
+      • <strong>Tokyo</strong>: Minato/Shibuya landmark mansions maintain <strong>strong downside resilience & upward trends</strong> (as of Sept 2024)
     </p>
   </div>
 </div>
+
+---
+
+## 2-1) The Counter-Hypothesis and Its Limits (Bear Case)
+
+The fundamental premise of downside resilience for ultra-scarce assets could also crack under specific macroeconomic stress scenarios. If the global macroeconomy moves beyond a prolonged period of high interest rates (Higher for Longer) into a systemic default crisis or severe stagflation, causing a credit crunch that freezes the cash flows of both domestic and international investors, high-end real estate will also find it difficult to avoid a steep liquidity discount.
+
+However, even under such an extreme Bear Case scenario, the relative value of ultra-scarce assets is preserved. When asset prices across the entire market face downward pressure, outlying assets heavily reliant on financial leverage may plummet below their liquidation value. In contrast, ultra-scarce assets backed by strong intrinsic costs and cash reserves will undergo a relatively mild decline and demonstrate the quickest rebound once the economy recovers. In other words, while they cannot completely avoid absolute declines, their marginal advantages—relative superiority and long-term recovery resilience—will remain intact.
 
 ---
 
