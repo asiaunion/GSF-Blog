@@ -2,6 +2,11 @@
 
 ## Approved States
 
+- **2026-05-22**: Data charts pipeline (macro-barrier) — CSV → Python WebP → MDX figure - Tag: `v-approved-20260522-charts-webp`
+  - 인라인 MDX SVG 및 `MacroBarrierChart.astro` 제거; Shiki 코드 블록 렌더링 이슈 해소.
+  - 보조 차트: Economist 레이아웃 + GSF 그린 팔레트(Seoul `#047857`, Outskirts `#a7f3d0`), 직접 라벨(Seoul '25 Q2 피크 / Outskirts '25 Q2–Q3 사이).
+  - `MacroMicroMatrix`는 MDX 본문(서론 직후)에만 배치; `PostDetails` 자동 삽입 없음.
+  - 문서: `docs/CHARTS_AND_VISUALS.md`, `scripts/charts/README.md`, `docs/antigravity-knowledge/gsf_blog_data_charts_pipeline/`.
 - **2026-05-22**: GSF-Blog P3 최종 보완 및 P4 3-Pass 번역 CLI 구현 완료 - Tag: `v-approved-20260522-p0-p5-complete`
   - 일본어(JA) 마크다운 번역본들의 frontmatter 및 본문 내 잔존 한글(자모, 한국어 조사, 미세 오타 등) 전수 교정 및 일본어 현지화 정제 완료.
   - 마크다운 본문 내에 Lighthouse 95+ 웹 접근성(a11y) 기준을 준수하는 다크/라이트 테마 자동 호환 인라인 SVG 차트 보강 및 정량 데이터 CSV(`public/data/macro-barrier-chart-source.csv`) 동봉.
