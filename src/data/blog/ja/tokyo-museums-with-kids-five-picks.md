@@ -94,4 +94,4 @@ references:
 
 - [築地と豊洲：東京の朝を開く二つの鼓動](/ja/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [日本橋から浜町へ：伝統とモダンが交差する散策路](/ja/posts/nihonbashi-hamacho-walking-guide/)
-- [新大久보を越えて：東京の新しい韓国人コミュニ티](/ja/posts/tokyo-korean-community-beyond-shinokubo/)
+- [新大久保を越えて：東京の新しい韓国人コミュニティ](/ja/posts/tokyo-korean-community-beyond-shinokubo/)

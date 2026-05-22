@@ -75,5 +75,5 @@ references:
 ## 関連シリーズ
 
 - [東京都心5区オフィス空室率分析](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
-- [日本不動産投資 失敗の記録：3つの教훈](/ja/posts/one-failure-three-lessons-postmortem/)
+- [日本不動産投資 失敗の記録：3つの教訓](/ja/posts/one-failure-three-lessons-postmortem/)
 - [銀座・丸の内ウォーキングガイド](/ja/posts/ginza-marunouchi-walk-dna/)
