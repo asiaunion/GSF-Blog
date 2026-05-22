@@ -19,11 +19,11 @@ ROOT = Path(__file__).resolve().parents[2]
 CSV_PATH = ROOT / "public/data/macro-barrier-chart-source.csv"
 OUT_WEBP = ROOT / "public/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp"
 
-# GSF Blog brand (matches --color-accent / design-baseline green)
-BRAND_ACCENT = "#10b981"
-BRAND_ACCENT_DARK = "#047857"  # darker green for second series
+# Economist layout + GSF greens (strong vs light for contrast)
+BRAND_ACCENT = "#10b981"  # emerald-500 — primary series
+BRAND_ACCENT_LIGHT = "#6ee7b7"  # emerald-300 — lighter second series
 SEOUL_COLOR = BRAND_ACCENT
-OUTSKIRTS_COLOR = BRAND_ACCENT_DARK
+OUTSKIRTS_COLOR = BRAND_ACCENT_LIGHT
 TEXT_DARK = "#1A1A1A"
 TEXT_MUTED = "#6B6B6B"
 GRID_COLOR = "#D8D8D8"
@@ -47,15 +47,33 @@ def load_series() -> tuple[list[str], list[float], list[float]]:
     return quarters, seoul, outskirts
 
 
-def add_labels_bottom_right(ax) -> None:
-    """Compact labels in bottom-right only (no legend box over the plot)."""
-    line_kw = dict(transform=ax.transAxes, fontsize=10.5, fontweight="bold", clip_on=False)
-
-    ax.plot([0.84, 0.89], [0.14, 0.14], color=SEOUL_COLOR, linewidth=2.8, transform=ax.transAxes, clip_on=False)
-    ax.text(0.91, 0.14, "Seoul", color=SEOUL_COLOR, ha="left", va="center", **line_kw)
-
-    ax.plot([0.84, 0.89], [0.06, 0.06], color=OUTSKIRTS_COLOR, linewidth=2.8, transform=ax.transAxes, clip_on=False)
-    ax.text(0.91, 0.06, "Outskirts", color=OUTSKIRTS_COLOR, ha="left", va="center", **line_kw)
+def add_direct_labels(ax, seoul: list[float], outskirts: list[float]) -> None:
+    """Economist-style direct labels in empty chart space (no legend box)."""
+    n = len(seoul) - 1
+    # Seoul — upper area near peak ('25 Q2)
+    ax.annotate(
+        "Seoul",
+        xy=(5, seoul[5]),
+        xytext=(12, 18),
+        textcoords="offset points",
+        color=SEOUL_COLOR,
+        fontsize=12,
+        fontweight="bold",
+        ha="left",
+        va="bottom",
+    )
+    # Outskirts — lower right near trough
+    ax.annotate(
+        "Outskirts",
+        xy=(n, outskirts[-1]),
+        xytext=(10, -14),
+        textcoords="offset points",
+        color="#34d399",  # slightly deeper than line for label legibility
+        fontsize=12,
+        fontweight="bold",
+        ha="left",
+        va="top",
+    )
 
 
 def main() -> None:
@@ -106,7 +124,7 @@ def main() -> None:
 
     x = range(len(quarters))
     ax.plot(x, seoul, color=SEOUL_COLOR, linewidth=2.8, solid_capstyle="round", zorder=3)
-    ax.plot(x, outskirts, color=OUTSKIRTS_COLOR, linewidth=2.8, solid_capstyle="round", zorder=3)
+    ax.plot(x, outskirts, color=OUTSKIRTS_COLOR, linewidth=3.0, solid_capstyle="round", zorder=2)
 
     ax.axhline(0, color=TEXT_MUTED, linewidth=0.9, linestyle=(0, (4, 4)), alpha=0.7, zorder=1)
     ax.set_xticks(list(x))
@@ -124,7 +142,7 @@ def main() -> None:
         spine.set_visible(False)
     ax.plot([min(x), max(x)], [0, 0], transform=ax.get_xaxis_transform(), color=GRID_COLOR, linewidth=0.8, clip_on=False)
 
-    add_labels_bottom_right(ax)
+    add_direct_labels(ax, seoul, outskirts)
 
     # Subtle plot frame
     bbox = FancyBboxPatch(
