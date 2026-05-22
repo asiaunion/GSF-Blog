@@ -117,43 +117,67 @@ export function getCrossLocaleTagRedirects(): Record<
   const tagSegment = (tag: string) => encodeURIComponent(slugifyStr(tag));
   const rawTagSegment = (tag: string) => encodeURIComponent(tag);
 
+  /** GSC crawls Title Case / spaced URLs; skip when raw already equals slug */
+  const needsRawAlias = (tag: string) => {
+    const slug = slugifyStr(tag);
+    return tag !== slug || /[A-Z]|\s/.test(tag);
+  };
+
   const addCrossLocale = (
     fromPrefix: string,
     slug: string,
     dest: string,
-    raw?: string
+    tag: string
   ) => {
     out[`${fromPrefix}/tags/${slug}`] = { status: 308, destination: dest };
-    if (raw && raw !== slug) {
-      out[`${fromPrefix}/tags/${raw}`] = { status: 308, destination: dest };
+    if (needsRawAlias(tag)) {
+      const raw = rawTagSegment(tag);
+      if (raw !== slug) {
+        out[`${fromPrefix}/tags/${raw}`] = { status: 308, destination: dest };
+      }
     }
   };
 
   // ── EN tags: should only exist at /tags/<slug>/ ──
   for (const tag of tagsByLocale.en) {
     const slug = tagSegment(tag);
-    const raw = rawTagSegment(tag);
     const dest = `/tags/${slug}/`;
-    addCrossLocale("/ko", slug, dest, raw);
-    addCrossLocale("/ja", slug, dest, raw);
+    addCrossLocale("/ko", slug, dest, tag);
+    addCrossLocale("/ja", slug, dest, tag);
+    if (needsRawAlias(tag)) {
+      const raw = rawTagSegment(tag);
+      if (raw !== slug) {
+        out[`/tags/${raw}`] = { status: 308, destination: dest };
+      }
+    }
   }
 
   // ── KO tags: should only exist at /ko/tags/<slug>/ ──
   for (const tag of tagsByLocale.ko) {
     const slug = tagSegment(tag);
-    const raw = rawTagSegment(tag);
     const dest = `/ko/tags/${slug}/`;
-    addCrossLocale("", slug, dest, raw);
-    addCrossLocale("/ja", slug, dest, raw);
+    addCrossLocale("", slug, dest, tag);
+    addCrossLocale("/ja", slug, dest, tag);
+    if (needsRawAlias(tag)) {
+      const raw = rawTagSegment(tag);
+      if (raw !== slug) {
+        out[`/ko/tags/${raw}`] = { status: 308, destination: dest };
+      }
+    }
   }
 
   // ── JA tags: should only exist at /ja/tags/<slug>/ ──
   for (const tag of tagsByLocale.ja) {
     const slug = tagSegment(tag);
-    const raw = rawTagSegment(tag);
     const dest = `/ja/tags/${slug}/`;
-    addCrossLocale("", slug, dest, raw);
-    addCrossLocale("/ko", slug, dest, raw);
+    addCrossLocale("", slug, dest, tag);
+    addCrossLocale("/ko", slug, dest, tag);
+    if (needsRawAlias(tag)) {
+      const raw = rawTagSegment(tag);
+      if (raw !== slug) {
+        out[`/ja/tags/${raw}`] = { status: 308, destination: dest };
+      }
+    }
   }
 
   return out;

@@ -29,11 +29,15 @@ function sourceToSrc(source) {
   return `^${pattern}$`;
 }
 
+function vercelDestination(dest) {
+  return dest.replace(/:path\*/g, "$1").replace(/:path/g, "$1");
+}
+
 function vercelRedirectToRoute({ source, destination, permanent }) {
   return {
     src: sourceToSrc(source),
     status: permanent === false ? 307 : 308,
-    headers: { Location: destination },
+    headers: { Location: vercelDestination(destination) },
   };
 }
 
@@ -52,6 +56,27 @@ const fromVercel = (vercelJson.redirects ?? [])
   .filter(r => !isTagRedirect(r.source))
   .map(vercelRedirectToRoute);
 
+const existing = config.routes ?? [];
+
+/** Astro adapter trailing-slash normalizers — must run after explicit 308 rules */
+function isFrameworkSlashRule(route) {
+  const src = route.src ?? "";
+  return (
+    src.includes("(?:[^/]+/)*[^/") ||
+    src.includes("[^/]+\\.\\w+")
+  );
+}
+
+const redirects = existing.filter(
+  r =>
+    (r.status === 308 || r.status === 307) && !isFrameworkSlashRule(r)
+);
+const frameworkSlash = existing.filter(
+  r =>
+    (r.status === 308 || r.status === 307) && isFrameworkSlashRule(r)
+);
+const other = existing.filter(r => r.status !== 308 && r.status !== 307);
+
 const seen = new Set();
 const merged = [];
 
@@ -62,17 +87,17 @@ function push(route) {
   merged.push(route);
 }
 
-for (const r of fromVercel) {
-  push(r);
-  const slash = trailingSlashVariant(r);
-  if (slash) push(slash);
+/** Site uses trailingSlash: "always" — only emit /path/ patterns to save route budget */
+function pushTrailingSlashOnly(route) {
+  const slash = trailingSlashVariant(route);
+  push(slash ?? route);
 }
 
-for (const r of config.routes ?? []) {
-  push(r);
-  const slash = trailingSlashVariant(r);
-  if (slash) push(slash);
-}
+// Explicit 308 rules first (tag cross-locale, legacy slugs, WP).
+for (const r of fromVercel) pushTrailingSlashOnly(r);
+for (const r of redirects) pushTrailingSlashOnly(r);
+for (const r of other) push(r);
+for (const r of frameworkSlash) push(r);
 
 config.routes = merged;
 fs.writeFileSync(configPath, JSON.stringify(config));
