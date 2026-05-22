@@ -40,13 +40,120 @@ references:
 
 ## 1. ファクトデータ：規制と金利の障壁を突破する資本の動線
 
-最近の韓国不動産市場は、融資規制の影響を完全にシャットアウトされた資産家たちのリーグ（独自の市場）を浮き彫りにしています。首都圏全域に強力な融資規制が適用されたことで、金融機関からの調達に依存せざるを得ない郊外エリア(京畿・仁川など)の2024年9月住宅取引量は、前月比で-24.4%急減[出典: 国土交通部、'2024年9月住宅統計発表' 報道発表資料、2024-10-31]するなど、取引量は急速に冷え込んでいます。
+最近の韓国不動産市場は、融資規制の影響を完全にシャットアウトされた資産家たちのリーグ（独自の市場）を浮き彫りにしています。首都圏全域に強力な融資規制が適用されたことで、金融機関からの調達に依存せざるを得ない郊外エリア(京畿・仁川など)的の2024年9月住宅取引量は、前月比で-24.4%急減[出典: 国土交通部、'2024年9月住宅統計発表' 報道発表資料、2024-10-31]するなど、取引量は急速に冷え込んでいます。
 
 その間、ソウル瑞草区盤浦洞（パンポドン）一帯の主導的マンション（ランドマーク物件）は全く別の動きを見せています。2024年8月基準で、専有面積84㎡の住宅(アクロリバーパーク、レミアンワンベイリーなど)が融資を一切使わず、自己資金のみで50億ウォン（約5.5億円）の実取引突破[出典: 国土交通部、実取引価格開示システム、取引日 2024-08-02]を記録し、坪単価1億5,000万ウォン(3.3㎡あたり約1,650万円)に迫る新高値の更新が今もなお続いています。融資規制という壁が高価格帯市場を保護する仕切り壁（コンパートメント）の役割を果たし、融資を必要としない都心の超一等地へと資本が凝縮されるという、一見すると矛盾した現象が起きているのです。
 
 このような二極化現象は、海を渡った日本・東京でも既視感（デジャブ）をもって観察されます。日本銀行（BOJ — 日本の中央銀行）の段階的な利上げの影響で住宅ローンの変動金利が上昇する兆しを見せ始めると、東京首都圏の中古マンション市場は、コロナ禍以降の強力な上昇ラリーの中で、2024年9月基準で前月比+2.2%上昇（坪単価は東京23区基準で前月比+3.9%上昇し、史上初めて8,000万円の大台を突破）して強含みを維持したものの、郊外エリアでの買い手の鈍化や金利上昇圧力により、実需層の追随買いが慎重になる様相を見せました[出典: 東京カンテイ、'首都圏中古マンション70㎡価格推移' レポート、2024-10-24]。金利負担を自覚した実需層の選別的な購入が始まった結果です。
 
 しかし、港区、渋谷区、日本橋といった都心の超中核エリア（都心3区など）に位置するランドマークマンションは、依然として極めて強い「下値支持線（ダウンサイドレジリエンス）」を維持しています[出典: 不動産経済研究所、'首都圏マンション市場動向(2024年9月)' レポート、2024-10-17]。円安のメリットを享受するグローバル資産家の買い資金が、これらの超優良資産へ絶えず流入しているためです。ここに建築資材費や人件費の高騰に伴う「コストプッシュ（Cost-push）」効果も重なり、都心の新築ハイエンド分譲マンションの価格は、金利上昇という逆風を嘲笑うかのように、強固な防衛力を証明し続けています。
+
+<div class="macro-chart-container" style="margin: 32px 0; padding: 20px; background: var(--card-bg, rgba(128, 128, 128, 0.02)); border: 1px solid var(--card-border, rgba(128, 128, 128, 0.1)); border-radius: 16px; backdrop-filter: blur(10px);">
+  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-label="韓国ソウル vs 首都圏郊外 取引量 YoY変化率 (2024年第1四半期 〜 2026年第1四半期) 時系列ラインチャート。ソウルは堅調に急増した一方、郊外は融資規制以後に急激なマイナス成長を見せています。" style="font-family: var(--font-app), sans-serif; overflow: visible;">
+    <!-- Gradients -->
+    <defs>
+      <linearGradient id="seoulGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="var(--accent, #10b981)" stop-opacity="0.2" />
+        <stop offset="100%" stop-color="var(--accent, #10b981)" stop-opacity="0.0" />
+      </linearGradient>
+      <linearGradient id="outskirtsGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ef4444" stop-opacity="0.1" />
+        <stop offset="100%" stop-color="#ef4444" stop-opacity="0.0" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Title -->
+    <text x="400" y="30" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor" opacity="0.95">
+      韓国：ソウル vs 首都圏郊外 取引量 YoY変化率 (%)
+    </text>
+    
+    <!-- Grid lines -->
+    <!-- -20% Y=347.5 -->
+    <line x1="60" y1="347.5" x2="760" y2="347.5" stroke="var(--card-border, rgba(128, 128, 128, 0.15))" stroke-dasharray="4,4" />
+    <text x="50" y="352.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.6">-20%</text>
+    
+    <!-- 0% Y=262.5 -->
+    <line x1="60" y1="262.5" x2="760" y2="262.5" stroke="var(--card-border, rgba(128, 128, 128, 0.3))" stroke-width="1.5" />
+    <text x="50" y="267.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.8" font-weight="600">0%</text>
+    
+    <!-- 20% Y=177.5 -->
+    <line x1="60" y1="177.5" x2="760" y2="177.5" stroke="var(--card-border, rgba(128, 128, 128, 0.15))" stroke-dasharray="4,4" />
+    <text x="50" y="182.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.6">20%</text>
+    
+    <!-- 40% Y=92.5 -->
+    <line x1="60" y1="92.5" x2="760" y2="92.5" stroke="var(--card-border, rgba(128, 128, 128, 0.15))" stroke-dasharray="4,4" />
+    <text x="50" y="97.5" text-anchor="end" font-size="12" fill="currentColor" opacity="0.6">40%</text>
+
+    <!-- X Axis Labels (Quarter) -->
+    <!-- X Coordinates: 60, 147.5, 235, 322.5, 410, 497.5, 585, 672.5, 760 -->
+    <text x="60" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">24 Q1</text>
+    <text x="147.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Q2</text>
+    <text x="235" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Q3</text>
+    <text x="322.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Q4</text>
+    <text x="410" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">25 Q1</text>
+    <text x="497.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Q2</text>
+    <text x="585" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Q3</text>
+    <text x="672.5" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">Q4</text>
+    <text x="760" y="415" text-anchor="middle" font-size="11" fill="currentColor" opacity="0.7">26 Q1</text>
+
+    <!-- Outskirts Grad Area -->
+    <path d="M 60,271.425 L 147.5,256.125 L 235,282.9 L 322.5,316.05 L 410,339.85 L 497.5,357.7 L 585,371.3 L 672.5,367.9 L 760,383.2 L 760,262.5 L 60,262.5 Z" fill="url(#outskirtsGrad)" />
+    <!-- Seoul Grad Area -->
+    <path d="M 60,240.4 L 147.5,209.8 L 235,140.95 L 322.5,185.15 L 410,167.3 L 497.5,110.35 L 585,83.575 L 672.5,132.875 L 760,197.9 L 760,262.5 L 60,262.5 Z" fill="url(#seoulGrad)" />
+
+    <!-- Lines -->
+    <!-- Outskirts Line -->
+    <path d="M 60,271.425 L 147.5,256.125 L 235,282.9 L 322.5,316.05 L 410,339.85 L 497.5,357.7 L 585,371.3 L 672.5,367.9 L 760,383.2" fill="none" stroke="#ef4444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.85" />
+    <!-- Seoul Line -->
+    <path d="M 60,240.4 L 147.5,209.8 L 235,140.95 L 322.5,185.15 L 410,167.3 L 497.5,110.35 L 585,83.575 L 672.5,132.875 L 760,197.9" fill="none" stroke="var(--accent, #10b981)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Outskirts Dots -->
+    <circle cx="60" cy="271.425" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="147.5" cy="256.125" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="235" cy="282.9" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="322.5" cy="316.05" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="410" cy="339.85" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="497.5" cy="357.7" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="585" cy="371.3" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="672.5" cy="367.9" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="760" cy="383.2" r="4" fill="#ef4444" stroke="currentColor" stroke-width="1.5" />
+
+    <!-- Seoul Dots -->
+    <circle cx="60" cy="240.4" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="147.5" cy="209.8" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="235" cy="140.95" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="322.5" cy="185.15" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="410" cy="167.3" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="497.5" cy="110.35" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="585" cy="83.575" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="672.5" cy="132.875" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+    <circle cx="760" cy="197.9" r="4" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5" />
+
+    <!-- Values for high points / critical points -->
+    <text x="585" y="65" text-anchor="middle" font-size="11" font-weight="700" fill="var(--accent, #10b981)">+42.1%</text>
+    <text x="760" y="403" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444">-28.4%</text>
+    
+    <!-- Legend -->
+    <g transform="translate(60, 60)">
+      <rect x="0" y="0" width="220" height="60" rx="8" fill="var(--card-bg, rgba(128,128,128,0.05))" stroke="var(--card-border, rgba(128,128,128,0.1))" stroke-width="1" />
+      
+      <!-- Seoul -->
+      <line x1="15" y1="20" x2="35" y2="20" stroke="var(--accent, #10b981)" stroke-width="3" />
+      <circle cx="25" cy="20" r="4" fill="var(--accent, #10b981)" />
+      <text x="45" y="24" font-size="12" font-weight="600" fill="currentColor">ソウル 取引量 (YoY)</text>
+      
+      <!-- Outskirts -->
+      <line x1="15" y1="40" x2="35" y2="40" stroke="#ef4444" stroke-width="3" opacity="0.85" />
+      <circle cx="25" cy="40" r="4" fill="#ef4444" />
+      <text x="45" y="44" font-size="12" font-weight="600" fill="currentColor">首都圏郊外 (京畿・仁川)</text>
+    </g>
+  </svg>
+  <figcaption style="margin-top: 12px; font-size: 13px; text-align: center; color: var(--color-text-muted); opacity: 0.85; line-height: 1.5;">
+    <strong>[図 1] ソウル vs 京畿・仁川の住宅取引量 前年同期比(YoY) 変化率推移 (2024～2026)</strong><br>
+    2024年9月のストレスDSR第2段階導入を契機に、金融レバレッジを必要とする首都圏郊外の取引量は大幅な縮小（-28.4%）を記録した一方、融資規制の影響を受けない自己資金が集中するソウル中心部は堅調な推移を示し、極端な二極化を裏付けています。<br>
+    <span style="font-size: 11px; opacity: 0.7;">出典：韓国不動産院 不動産統計情報システム（著者加工データ）</span>
+  </figcaption>
+</div>
 
 <div class="macro-micro-matrix">
   <div class="matrix-card left-card">
