@@ -67,6 +67,12 @@ node scripts/translate/translate.mjs src/data/blog/ko/macro-barrier-and-super-sc
 
 ---
 
+### 인라인 SVG 차트 (마크다운)
+
+`.md` 본문에 여러 줄 `<svg>`를 넣으면 CommonMark가 HTML 블록을 조기 종료해 **코드 블록**으로 렌더링됩니다. 차트는 `MacroBarrierChart.astro`처럼 **Astro 컴포넌트 + `.mdx`** 로 삽입하세요.
+
+---
+
 ### Ollama 모델 경로 (`ollama list`가 비어 있을 때)
 
 macOS Ollama 앱은 기본적으로 `~/.ollama/models`를 봅니다. 모델을 외장 경로(예: `/Volumes/D/AI/ollama/models`)에 두었다면 다음 중 하나를 적용하세요.
