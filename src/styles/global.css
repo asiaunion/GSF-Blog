@@ -313,3 +313,35 @@ html[data-theme="dark"] {
   font-weight: 700;
 }
 
+/**
+ * Macro Chart Container & Figcaption for Markdown Blog Posts
+ */
+.macro-chart-container {
+  margin: 32px 0;
+  padding: 20px;
+  background: var(--card-bg, rgba(128, 128, 128, 0.02));
+  border: 1px solid var(--card-border, rgba(128, 128, 128, 0.1));
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+}
+
+.macro-chart-container svg {
+  font-family: var(--font-app), sans-serif;
+  overflow: visible;
+}
+
+.macro-chart-figcaption {
+  margin-top: 12px;
+  font-size: 13px;
+  text-align: center;
+  color: var(--color-text-muted, #888888);
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+.macro-chart-figcaption span.source {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+

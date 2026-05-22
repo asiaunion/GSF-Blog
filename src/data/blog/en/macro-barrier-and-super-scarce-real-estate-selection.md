@@ -30,6 +30,15 @@ references:
   - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
   - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
   - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
+macroMicroMatrix:
+  leftTitle: "MACRO BARRIER"
+  leftItems:
+    - "• <strong>Korea</strong>: Stage 2 Stress DSR (implemented Sept 1, 2024) ➔ Outskirt transaction volume <strong>plummets by 24.4%</strong> (MoM)"
+    - "• <strong>Japan</strong>: BOJ rate hike (0.25% on July 31, 2024) ➔ Pre-owned mansions <strong>rise +2.2% MoM (23 wards surge +3.9% to record high)</strong> (as of Sept 2024)"
+  rightTitle: "ULTRA SCARCITY"
+  rightItems:
+    - "• <strong>Seoul</strong>: Banpo/Seocho standard apartments Raemian One Bailey <strong>exceed 5 billion KRW without loans</strong> (Aug 2, 2024 record high)"
+    - "• <strong>Tokyo</strong>: Minato/Shibuya landmark mansions maintain <strong>strong downside resilience & upward trends</strong> (as of Sept 2024)"
 ---
 
 The global asset market is facing a massive financial barrier, exhibiting a distinct mix of trends. Korea aggressively implemented Stage 2 Stress DSR — Debt Service Ratio, which limits borrowing capacity based on income and potential rate hikes — on September 1, 2024 [Source: Financial Services Commission, press release 'Stage 2 Stress DSR Implementation from September 1', 2024-08-20] to curb household debt. Meanwhile, Japan ended its historic negative interest rate policy and raised its policy rate to around 0.25% on July 31, 2024 [Source: Bank of Japan, public statement 'Decisions on the Monetary Policy Meeting', 2024-07-31], pivoting to a tighter monetary stance.
@@ -48,8 +57,10 @@ This polarization is observed with a strong sense of déjà vu across the sea in
 
 Yet, landmark mansions in ultra-core downtown areas (the central 3 wards) like Minato, Shibuya, and Nihonbashi maintain ironclad downside resilience [Source: Real Estate Economic Institute, report 'Metropolitan Area Mansion Market Trends (September 2024)', 2024-10-17]. Capital from global investors lured by the weak yen continues to flow steadily into these prime assets. Combined with the cost-push effect of skyrocketing materials and labor costs, new high-end downtown developments are proving their robust defensive strength, laughing off the headwind of rising interest rates.
 
-<div class="macro-chart-container" style="margin: 32px 0; padding: 20px; background: var(--card-bg, rgba(128, 128, 128, 0.02)); border: 1px solid var(--card-border, rgba(128, 128, 128, 0.1)); border-radius: 16px; backdrop-filter: blur(10px);">
-  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-label="Line chart showing South Korea's Seoul versus metropolitan outskirts YoY housing transaction volume change from 2024 Q1 to 2026 Q1. Seoul remained resilient with strong growth, whereas outskirts experienced a severe downturn after tighter mortgage rules." style="font-family: var(--font-app), sans-serif; overflow: visible;">
+<div class="macro-chart-container">
+  <svg viewBox="0 0 800 450" width="100%" height="auto" role="img" aria-labelledby="chart-title chart-desc">
+    <title id="chart-title">South Korea: Seoul vs. Metropolitan Outskirts Transaction Volume YoY</title>
+    <desc id="chart-desc">Line chart showing South Korea's Seoul versus metropolitan outskirts (Gyeonggi and Incheon) YoY housing transaction volume changes from 2024 Q1 to 2026 Q1. Seoul remained resilient with strong growth, whereas outskirts experienced a severe downturn after the introduction of tighter mortgage rules (Stage 2 Stress DSR) in September 2024, proving extreme polarization.</desc>
     <!-- Gradients -->
     <defs>
       <linearGradient id="seoulGrad" x1="0" y1="0" x2="0" y2="1">
@@ -147,29 +158,13 @@ Yet, landmark mansions in ultra-core downtown areas (the central 3 wards) like M
       <text x="45" y="44" font-size="12" font-weight="600" fill="currentColor">Outskirts (Gyeonggi/Incheon)</text>
     </g>
   </svg>
-  <figcaption style="margin-top: 12px; font-size: 13px; text-align: center; color: var(--color-text-muted); opacity: 0.85; line-height: 1.5;">
+  <figcaption class="macro-chart-figcaption">
     <strong>[Figure 1] Seoul vs. Gyeonggi/Incheon Housing Transaction Volume YoY Growth Trends (2024–2026)</strong><br>
     Following the launch of Stage 2 Stress DSR in September 2024, transaction volumes in metropolitan outskirts—highly dependent on financial leverage—suffered a severe contraction (-28.4%). Conversely, downtown Seoul, backed by leverage-free capital, showed strong resilience, highlighting extreme polarization.<br>
-    <span style="font-size: 11px; opacity: 0.7;">Source: Korea Real Estate Board (REB) Statistics (Author's processing)</span>
+    <span class="source">Source: Korea Real Estate Board (REB) Statistics (Author's processing)</span>
   </figcaption>
 </div>
 
-<div class="macro-micro-matrix">
-  <div class="matrix-card left-card">
-    <h4>MACRO BARRIER</h4>
-    <div class="card-content">
-      <p>• <strong>Korea</strong>: Stage 2 Stress DSR (implemented Sept 1, 2024) ➔ Outskirt transaction volume <strong>plummets by 24.4%</strong> (MoM)</p>
-      <p>• <strong>Japan</strong>: BOJ rate hike (0.25% on July 31, 2024) ➔ Pre-owned mansions <strong>rise +2.2% MoM (23 wards surge +3.9% to record high)</strong> (as of Sept 2024)</p>
-    </div>
-  </div>
-  <div class="matrix-card right-card">
-    <h4>ULTRA SCARCITY</h4>
-    <div class="card-content">
-      <p>• <strong>Seoul</strong>: Banpo/Seocho standard apartments Raemian One Bailey <strong>exceed 5 billion KRW without loans</strong> (Aug 2, 2024 record high)</p>
-      <p>• <strong>Tokyo</strong>: Minato/Shibuya landmark mansions maintain <strong>strong downside resilience & upward trends</strong> (as of Sept 2024)</p>
-    </div>
-  </div>
-</div>
 
 ---
 
