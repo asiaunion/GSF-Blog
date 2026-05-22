@@ -10,6 +10,7 @@ export PUBLIC_GA4_MEASUREMENT_ID
 export PUBLIC_ADSENSE_PUBLISHER_ID
 
 pnpm run build
+node scripts/merge-vercel-json-into-output.mjs
 if ! grep -q "$PUBLIC_GA4_MEASUREMENT_ID" dist/client/index.html 2>/dev/null; then
   echo "error: GA4 id not found in dist/client/index.html — env not inlined" >&2
   exit 1
