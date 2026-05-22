@@ -2,6 +2,10 @@
 
 ## Approved States
 
+- **2026-05-22**: Macro-Micro Matrix card componentization & AdSense P0 layout recovery - Tag: `v-approved-20260522-p1-p2-complete`
+  - 인라인 스타일이 선언되어 유지보수가 어려웠던 3개 국어 매트릭스 카드 블록을 `.macro-micro-matrix` 스타일과 `<div class="macro-micro-matrix">` 구조로 정리하고, 스타일을 `global.css` 에 정의된 CSS 변수(--card-bg, --card-border, --card-accent) 및 Tailwind `@theme inline` 구조와 매핑하여 단일 컴포넌트 수준의 CSS 바인딩 구현.
+  - 모바일(640px 이하) 환경에서 1열로 자동 stack되는 반응형 레이아웃 구현 및 다크/라이트 테마 자동 대응 확인.
+  - Sitemap 500 에러 해결을 위해 `astro.config.ts` 에 sitemap 절대 경로 안전 파싱 적용 및 `ads.txt` 플레이스홀더 배포 완료.
 - **2026-05-22**: Improved visual quality, CSS card legibility and alert layout on macro-barrier post - Tag: `v-approved-20260522-improved-ui`
   - 서울-도쿄 랜드마크(남산타워, 도쿄타워)가 양립하는 부동산 투자 저널 격조의 통합 3D WebP 이미지로 교체 (`macro-barrier-and-super-scarce-real-estate-selection-hero.webp`).
   - CSS 카드 내 하드코딩 글씨색 제거 및 테마 상속 텍스트 스타일 적용, 카드 배경/테두리를 범용 중성 톤(`rgba(128, 128, 128, 0.05)` / `0.15`)으로 교체하고, 왼쪽 테두리와 제목 색상을 블로그의 고유 그린 정체성 색(`var(--color-accent)`)으로 통일하여 완성도 증대.
