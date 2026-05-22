@@ -69,7 +69,11 @@ node scripts/translate/translate.mjs src/data/blog/ko/macro-barrier-and-super-sc
 
 ### 차트 에셋
 
-데이터 차트는 `scripts/charts/generate-macro-barrier-chart.py`로 **WebP**를 생성하고, MDX에 `<figure class="supplemental-chart">`로 삽입합니다. 인라인 `<svg>`/Astro 차트 컴포넌트는 사용하지 않습니다.
+**전체 가이드:** [`docs/CHARTS_AND_VISUALS.md`](../../docs/CHARTS_AND_VISUALS.md)
+
+- 데이터 차트: CSV → `scripts/charts/generate-*.py` → **WebP** → MDX `<figure class="supplemental-chart">`
+- 인라인 `<svg>` / `MacroBarrierChart`류 Astro 차트 / AI 생성 차트 이미지 **금지**
+- 번역 시 `figure`/`figcaption`/`alt`만 현지화; 수치 변경 시 CSV 재생성 후 WebP 커밋
 
 ---
 

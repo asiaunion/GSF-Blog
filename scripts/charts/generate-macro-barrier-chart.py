@@ -3,7 +3,8 @@
 
   python3 scripts/charts/generate-macro-barrier-chart.py
 
-Legend: direct line labels (Seoul / Outskirts) — details live in MDX captions.
+Spec & lessons: docs/CHARTS_AND_VISUALS.md
+Legend: direct labels in whitespace — detail in MDX figcaption per language.
 """
 
 from __future__ import annotations
