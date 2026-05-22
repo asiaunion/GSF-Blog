@@ -19,10 +19,11 @@ ROOT = Path(__file__).resolve().parents[2]
 CSV_PATH = ROOT / "public/data/macro-barrier-chart-source.csv"
 OUT_WEBP = ROOT / "public/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp"
 
-# Economist-inspired palette
-ECONOMIST_RED = "#E3120B"
-SEOUL_COLOR = "#009FBD"  # cyan blue (positive series)
-OUTSKIRTS_COLOR = "#E3120B"  # accent red (declining series)
+# GSF Blog brand (matches --color-accent / design-baseline green)
+BRAND_ACCENT = "#10b981"
+BRAND_ACCENT_DARK = "#047857"  # darker green for second series
+SEOUL_COLOR = BRAND_ACCENT
+OUTSKIRTS_COLOR = BRAND_ACCENT_DARK
 TEXT_DARK = "#1A1A1A"
 TEXT_MUTED = "#6B6B6B"
 GRID_COLOR = "#D8D8D8"
@@ -46,33 +47,15 @@ def load_series() -> tuple[list[str], list[float], list[float]]:
     return quarters, seoul, outskirts
 
 
-def add_direct_labels(ax, x_labels: list[str], seoul: list[float], outskirts: list[float]) -> None:
-    """Place short labels in empty chart space (no legend box)."""
-    n = len(x_labels) - 1
-    # Seoul — upper area near peak ('25 Q2)
-    ax.annotate(
-        "Seoul",
-        xy=(5, seoul[5]),
-        xytext=(12, 18),
-        textcoords="offset points",
-        color=SEOUL_COLOR,
-        fontsize=12,
-        fontweight="bold",
-        ha="left",
-        va="bottom",
-    )
-    # Outskirts — lower right near trough
-    ax.annotate(
-        "Outskirts",
-        xy=(n, outskirts[-1]),
-        xytext=(10, -14),
-        textcoords="offset points",
-        color=OUTSKIRTS_COLOR,
-        fontsize=12,
-        fontweight="bold",
-        ha="left",
-        va="top",
-    )
+def add_labels_bottom_right(ax) -> None:
+    """Compact labels in bottom-right only (no legend box over the plot)."""
+    line_kw = dict(transform=ax.transAxes, fontsize=10.5, fontweight="bold", clip_on=False)
+
+    ax.plot([0.84, 0.89], [0.14, 0.14], color=SEOUL_COLOR, linewidth=2.8, transform=ax.transAxes, clip_on=False)
+    ax.text(0.91, 0.14, "Seoul", color=SEOUL_COLOR, ha="left", va="center", **line_kw)
+
+    ax.plot([0.84, 0.89], [0.06, 0.06], color=OUTSKIRTS_COLOR, linewidth=2.8, transform=ax.transAxes, clip_on=False)
+    ax.text(0.91, 0.06, "Outskirts", color=OUTSKIRTS_COLOR, ha="left", va="center", **line_kw)
 
 
 def main() -> None:
@@ -88,9 +71,9 @@ def main() -> None:
     fig = plt.figure(figsize=(8, 4.2), dpi=132, facecolor=BG_COLOR)
     gs = GridSpec(2, 2, figure=fig, height_ratios=[0.14, 1], width_ratios=[0.018, 1], hspace=0.08, wspace=0.02)
 
-    # Economist-style red accent bar (left of title)
+    # Brand accent bar (left of title)
     ax_stripe = fig.add_subplot(gs[0, 0])
-    ax_stripe.set_facecolor(ECONOMIST_RED)
+    ax_stripe.set_facecolor(BRAND_ACCENT)
     ax_stripe.axis("off")
 
     ax_head = fig.add_subplot(gs[0, 1])
@@ -141,7 +124,7 @@ def main() -> None:
         spine.set_visible(False)
     ax.plot([min(x), max(x)], [0, 0], transform=ax.get_xaxis_transform(), color=GRID_COLOR, linewidth=0.8, clip_on=False)
 
-    add_direct_labels(ax, quarters, seoul, outskirts)
+    add_labels_bottom_right(ax)
 
     # Subtle plot frame
     bbox = FancyBboxPatch(
