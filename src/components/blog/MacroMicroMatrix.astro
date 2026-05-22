@@ -11,7 +11,7 @@ const { leftTitle, leftItems, rightTitle, rightItems } = Astro.props;
 
 <div class="macro-micro-matrix">
   <div class="matrix-card left-card">
-    <h3>{leftTitle}</h3>
+    <p class="matrix-heading">{leftTitle}</p>
     <div class="card-content">
       {leftItems.map((item) => (
         <p set:html={item}></p>
@@ -19,7 +19,7 @@ const { leftTitle, leftItems, rightTitle, rightItems } = Astro.props;
     </div>
   </div>
   <div class="matrix-card right-card">
-    <h3>{rightTitle}</h3>
+    <p class="matrix-heading">{rightTitle}</p>
     <div class="card-content">
       {rightItems.map((item) => (
         <p set:html={item}></p>
@@ -45,11 +45,11 @@ const { leftTitle, leftItems, rightTitle, rightItems } = Astro.props;
     backdrop-filter: blur(10px);
     transition: all 0.2s ease-in-out;
   }
-  .matrix-card h3 {
+  .matrix-card .matrix-heading {
     margin: 0 0 10px 0;
     color: var(--card-accent, var(--color-accent));
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.2;
   }
   .card-content {
