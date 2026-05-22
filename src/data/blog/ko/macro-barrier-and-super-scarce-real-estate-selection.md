@@ -40,15 +40,15 @@ references:
 그러나 미나토구, 시부야구, 니혼바시 등 도심 초핵심지역의 랜드마크 맨션들은 여전히 강력한 하방 경직성을 유지하고 있습니다. 엔저 메리트를 누리는 글로벌 자산가들의 매수 자금이 이들 초우량 자산으로 꾸준히 유입되는 덕분입니다. 여기에 자재비와 인건비 급등에 따른 원가 밀어올리기(Cost-push) 효과까지 겹쳐, 도심 하이엔드 신축 분양가는 금리 악재를 비웃듯 강력한 방어력을 증명하고 있습니다.
 
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; font-family: sans-serif;">
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid #ef4444; padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: #ef4444; font-size: 16px; font-weight: bold;">⚠️ MACRO BARRIER (거시 악재)</h4>
+  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">MACRO BARRIER (거시 악재)</h4>
     <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
       • <strong>한국</strong>: 스트레스 DSR 2단계 강행 ➔ 외곽 거래량 <strong>-24% 급감</strong><br>
       • <strong>일본</strong>: BOJ 금리인상 시그널 ➔ 중고 맨션 평균가 <strong>3년 만에 보합</strong>
     </p>
   </div>
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid #d97706; padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: #d97706; font-size: 16px; font-weight: bold;">👑 ULTRA SCARCITY (초희소 미시 호조)</h4>
+  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">ULTRA SCARCITY (초희소 미시 호조)</h4>
     <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
       • <strong>서울</strong>: 반포·서초 국평 대출 없이 <strong>50억 돌파</strong> (신고가)<br>
       • <strong>도쿄</strong>: 미나토·시부야 랜드마크 맨션 <strong>하방 경직 & 상승 유지</strong>
@@ -63,7 +63,7 @@ references:
 
 이 두 개의 모순적 현상은 우리에게 매우 묵직한 통찰을 던집니다. 정부의 대출 규제와 일본은행의 금리 인상은 자산 시장의 유동성을 메마르게 하는 매크로 악재가 분명합니다. 하지만 시장 전체의 돈줄이 마를 때 자본은 공평하게 흩어지지 않고, 역설적으로 가장 확실하고 대체 불가능한 극소수의 안전자산으로 모여듭니다. 
 
-> 👑 **[IMPORTANT] 자본의 집진기(Dust Collector) 효과 :** 유동성 축소라는 강력한 압력이 가해질수록, 상위 1%의 초희소 자산으로 자본이 더욱 단단하게 밀착되는 현상입니다. 거시 악재가 오히려 핵심지의 안전자산 지위를 방어해 주는 방패가 됩니다.
+> **[IMPORTANT] 자본의 집진기(Dust Collector) 효과 :** 유동성 축소라는 강력한 압력이 가해질수록, 상위 1%의 초희소 자산으로 자본이 더욱 단단하게 밀착되는 현상입니다. 거시 악재가 오히려 핵심지의 안전자산 지위를 방어해 주는 방패가 됩니다.
 
 이 지점에서 우리는 '강남이니까', '도쿄 도심이니까' 무조건 안전할 것이라는 넓은 범주의 불패 신화를 해체해야 합니다. 자산 정체 국면일수록 같은 강남, 같은 도쿄 23구 내부에서도 극단적인 차별화가 진행됩니다. 입지 조건과 단지 규모, 인프라의 희소성에 따라 가격 흐름이 예리하게 갈라지기 때문입니다. 
 
