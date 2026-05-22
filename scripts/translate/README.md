@@ -67,6 +67,21 @@ node scripts/translate/translate.mjs src/data/blog/ko/macro-barrier-and-super-sc
 
 ---
 
+### Ollama 모델 경로 (`ollama list`가 비어 있을 때)
+
+macOS Ollama 앱은 기본적으로 `~/.ollama/models`를 봅니다. 모델을 외장 경로(예: `/Volumes/D/AI/ollama/models`)에 두었다면 다음 중 하나를 적용하세요.
+
+```bash
+# 권장: 홈 경로를 실제 라이브러리로 심볼릭 링크
+mv ~/.ollama/models ~/.ollama/models.empty-backup   # 기존 빈 폴더 백업
+ln -s /Volumes/D/AI/ollama/models ~/.ollama/models
+# Ollama 앱 완전 종료 후 재실행 → ollama list 에 모델 표시 확인
+```
+
+또는 앱 재시작 전에 `export OLLAMA_MODELS=/Volumes/D/AI/ollama/models` (LaunchAgent/셸 프로필에 영구 설정).
+
+---
+
 ### 승인 거부 시 동작 (CI/CD 대응)
 
 인터랙티브 승인 대기 상태에서 `n` 또는 `no`를 입력하면 번역 저장을 취소하며, **exit code `1`**을 반환하며 비정상 종료합니다. 이는 스크립트 빌드 파이프라인에서 오류를 감지하여 원치 않는 데이터 유실이나 미완성 파일의 배포를 자동 차단하는 역할을 합니다.
