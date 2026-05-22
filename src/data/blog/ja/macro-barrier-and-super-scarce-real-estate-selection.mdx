@@ -34,7 +34,6 @@ references:
 
 import MacroMicroMatrix from "@/components/blog/MacroMicroMatrix.astro";
 import { macroBarrierMatrixJa as macroBarrierMatrix } from "@/data/blog/macro-barrier-matrix";
-import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
 
 
 
@@ -59,7 +58,12 @@ import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
 
 
 
-<MacroBarrierChart lang="ja" />
+
+
+<figure class="supplemental-chart">
+  <img src="/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp" alt="ソウルと首都圏郊外の住宅取引量YoY推移" width="800" height="380" loading="lazy" decoding="async" />
+  <figcaption>[図1] ソウル vs 首都圏郊外 取引量YoY — ’24年9月DSR第2段階後、郊外−28.4%・ソウル堅調（韓国市場の参考）。<em>出典：韓国不動産院（著者加工）</em></figcaption>
+</figure>
 
 ---
 

@@ -314,54 +314,28 @@ html[data-theme="dark"] {
 }
 
 /**
- * Macro chart — supplemental Korea context (Japan-focused blog: keep compact)
+ * Supplemental chart figure (static WebP) — Korea reference on Japan-focused posts
  */
-.macro-chart-container {
+.supplemental-chart {
   margin: 1.25rem auto;
-  padding: 0.75rem 1rem;
-  max-width: 32rem;
-  background: var(--card-bg, rgba(128, 128, 128, 0.02));
-  border: 1px solid var(--card-border, rgba(128, 128, 128, 0.1));
-  border-radius: 0.75rem;
+  max-width: 36rem;
+  padding: 0;
 }
 
-.macro-chart-container svg {
+.supplemental-chart img {
   display: block;
-  max-height: 14.5rem;
   width: 100%;
   height: auto;
-  font-family: var(--font-app), sans-serif;
-  overflow: visible;
+  border-radius: 0.75rem;
+  border: 1px solid var(--card-border, rgba(128, 128, 128, 0.12));
 }
 
-/* Legend stays readable when the plot is scaled down */
-.macro-chart-container svg .chart-legend text {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.macro-chart-figcaption {
+.supplemental-chart figcaption {
   margin-top: 0.5rem;
   font-size: 0.75rem;
-  text-align: left;
-  color: var(--color-text-muted, #888888);
-  opacity: 0.85;
   line-height: 1.45;
-}
-
-.macro-chart-figcaption span.source {
-  font-size: 0.6875rem;
-  opacity: 0.7;
-}
-
-@media (max-width: 640px) {
-  .macro-chart-container {
-    max-width: 100%;
-  }
-
-  .macro-chart-container svg {
-    max-height: 12.5rem;
-  }
+  color: var(--color-text-muted, #888888);
+  opacity: 0.9;
 }
 
 

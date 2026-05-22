@@ -34,7 +34,6 @@ references:
 
 import MacroMicroMatrix from "@/components/blog/MacroMicroMatrix.astro";
 import { macroBarrierMatrixKo as macroBarrierMatrix } from "@/data/blog/macro-barrier-matrix";
-import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
 
 
 
@@ -59,7 +58,12 @@ import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
 
 
 
-<MacroBarrierChart lang="ko" />
+
+
+<figure class="supplemental-chart">
+  <img src="/assets/images/blog/macro-barrier-seoul-outskirts-yoy.webp" alt="서울·수도권 외곽 거래량 전년 동기 대비(YoY) 추이" width="800" height="380" loading="lazy" decoding="async" />
+  <figcaption>[그림 1] 서울·수도권 외곽 거래량 YoY — DSR 2단계(’24.9) 이후 외곽 −28.4%, 서울 견조. <em>출처: 한국부동산원 (저자 가공)</em></figcaption>
+</figure>
 
 ---
 

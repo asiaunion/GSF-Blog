@@ -67,9 +67,9 @@ node scripts/translate/translate.mjs src/data/blog/ko/macro-barrier-and-super-sc
 
 ---
 
-### 인라인 SVG 차트 (마크다운)
+### 차트 에셋
 
-`.md` 본문에 여러 줄 `<svg>`를 넣으면 CommonMark가 HTML 블록을 조기 종료해 **코드 블록**으로 렌더링됩니다. 차트는 `MacroBarrierChart.astro`처럼 **Astro 컴포넌트 + `.mdx`** 로 삽입하세요.
+데이터 차트는 `scripts/charts/generate-macro-barrier-chart.py`로 **WebP**를 생성하고, MDX에 `<figure class="supplemental-chart">`로 삽입합니다. 인라인 `<svg>`/Astro 차트 컴포넌트는 사용하지 않습니다.
 
 ---
 
