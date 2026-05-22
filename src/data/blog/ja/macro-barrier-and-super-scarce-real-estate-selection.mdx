@@ -30,20 +30,19 @@ references:
   - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
   - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
   - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
-macroMicroMatrix:
-  leftTitle: "MACRO BARRIER (マクロ悪材料)"
-  leftItems:
-    - "• <strong>韓国</strong>: ストレスDSR第2段階強行(2024年9月1日施行) ➔ 首都圏郊外の取引量 <strong>-24.4%急減</strong> (前月比)"
-    - "• <strong>日本</strong>: 日銀の利上げ(2024年7月31日に年0.25%決定) ➔ 首都圏中古マンション平均価格 <strong>+2.2%上昇（23区は+3.9%上昇で史上最高値）</strong> (2024年9月基準)"
-  rightTitle: "ULTRA SCARCITY (超希少ミクロ好材料)"
-  rightItems:
-    - "• <strong>ソウル</strong>: 盤浦・瑞草の専有84㎡（レミアンワンベイリーなど）が融資なしで<strong>50億ウォン突破</strong> (2024年8月2日新高値)"
-    - "• <strong>東京</strong>: 港区・渋谷区のランドマークマンションが<strong>強い下値支持線と上昇を維持</strong> (2024年9月基準)"
 ---
+
+import MacroMicroMatrix from "@/components/blog/MacroMicroMatrix.astro";
+import { macroBarrierMatrixJa as macroBarrierMatrix } from "@/data/blog/macro-barrier-matrix";
+import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
+
+
 
 グローバルな資産市場が巨大な金融障壁に直面し、明らかな混調の様相を見せています。韓国は家計債務を抑制するため、2024年9月1日より「ストレスDSR(Stress DSR — 借入人の所得に応じた返済能力を金利上昇リスクを加味してより厳格に評価する融資規制)」第2段階を電撃的に導入[出典: 金融委員会、'9月1日からストレスDSR第2段階施行' 報道発表資料、2024-08-20]し、融資限度を強力に引き締めました。一方、日本も2024年7月31日に歴史的なマイナス金利政策に終止符を打ち、政策金利を0.25%程度に引き上げ[出典: 日本銀行、'金融政策決定会合の結果について' 公表資料、2024-07-31]、緊縮的な金融政策へとかじを切りました。
 
 この局面において私が重要だと考えるのは、資金調達が厳しくなる規制や金利上昇の中でも、資産市場の二極化において「さらに精緻な線引き」が行われているという事実です。特定の地域全体が無差別に右肩上がりを続けていた過去の公式は、もはや完全に崩れ去りました。結局のところ、悪材料の中でも毀損されない本質的な希少性を見極める必要があり、この鋭い眼識こそが、これからの資産市場で生き残るための決定的な鍵となるでしょう。
+
+<MacroMicroMatrix {...macroBarrierMatrix} />
 
 ---
 
@@ -57,7 +56,8 @@ macroMicroMatrix:
 
 しかし、港区、渋谷区、日本橋といった都心の超中核エリア（都心3区など）に位置するランドマークマンションは、依然として極めて強い「下値支持線（ダウンサイドレジリエンス）」を維持しています[出典: 不動産経済研究所、'首都圏マンション市場動向(2024年9月)' レポート、2024-10-17]。円安のメリットを享受するグローバル資産家の買い資金が、これらの超優良資産へ絶えず流入しているためです。ここに建築資材費や人件費の高騰に伴う「コストプッシュ（Cost-push）」効果も重なり、都心の新築ハイエンド分譲マンションの価格は、金利上昇という逆風を嘲笑うかのように、強固な防衛力を証明し続けています。
 
-import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
+
+
 
 <MacroBarrierChart lang="ja" />
 

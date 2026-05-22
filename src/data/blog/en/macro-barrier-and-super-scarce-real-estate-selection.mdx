@@ -30,20 +30,19 @@ references:
   - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
   - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
   - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
-macroMicroMatrix:
-  leftTitle: "MACRO BARRIER"
-  leftItems:
-    - "• <strong>Korea</strong>: Stage 2 Stress DSR (implemented Sept 1, 2024) ➔ Outskirt transaction volume <strong>plummets by 24.4%</strong> (MoM)"
-    - "• <strong>Japan</strong>: BOJ rate hike (0.25% on July 31, 2024) ➔ Pre-owned mansions <strong>rise +2.2% MoM (23 wards surge +3.9% to record high)</strong> (as of Sept 2024)"
-  rightTitle: "ULTRA SCARCITY"
-  rightItems:
-    - "• <strong>Seoul</strong>: Banpo/Seocho standard apartments Raemian One Bailey <strong>exceed 5 billion KRW without loans</strong> (Aug 2, 2024 record high)"
-    - "• <strong>Tokyo</strong>: Minato/Shibuya landmark mansions maintain <strong>strong downside resilience & upward trends</strong> (as of Sept 2024)"
 ---
+
+import MacroMicroMatrix from "@/components/blog/MacroMicroMatrix.astro";
+import { macroBarrierMatrixEn as macroBarrierMatrix } from "@/data/blog/macro-barrier-matrix";
+import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
+
+
 
 The global asset market is facing a massive financial barrier, exhibiting a distinct mix of trends. Korea aggressively implemented Stage 2 Stress DSR — Debt Service Ratio, which limits borrowing capacity based on income and potential rate hikes — on September 1, 2024 [Source: Financial Services Commission, press release 'Stage 2 Stress DSR Implementation from September 1', 2024-08-20] to curb household debt. Meanwhile, Japan ended its historic negative interest rate policy and raised its policy rate to around 0.25% on July 31, 2024 [Source: Bank of Japan, public statement 'Decisions on the Monetary Policy Meeting', 2024-07-31], pivoting to a tighter monetary stance.
 
 What strikes me as critical here is that despite credit tightening and interest rate hikes, a highly precise line is being drawn in the sand of asset market polarization. The old formula, where entire regions rose in unison, is completely broken. In the end, we must identify the intrinsic scarcity that remains undamaged by adversity. I believe this sharp eye will be the defining key to survival in the unfolding asset market.
+
+<MacroMicroMatrix {...macroBarrierMatrix} />
 
 ---
 
@@ -57,7 +56,8 @@ This polarization is observed with a strong sense of déjà vu across the sea in
 
 Yet, landmark mansions in ultra-core downtown areas (the central 3 wards) like Minato, Shibuya, and Nihonbashi maintain ironclad downside resilience [Source: Real Estate Economic Institute, report 'Metropolitan Area Mansion Market Trends (September 2024)', 2024-10-17]. Capital from global investors lured by the weak yen continues to flow steadily into these prime assets. Combined with the cost-push effect of skyrocketing materials and labor costs, new high-end downtown developments are proving their robust defensive strength, laughing off the headwind of rising interest rates.
 
-import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
+
+
 
 <MacroBarrierChart lang="en" />
 
