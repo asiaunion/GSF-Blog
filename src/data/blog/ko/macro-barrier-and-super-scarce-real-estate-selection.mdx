@@ -30,20 +30,19 @@ references:
   - "https://www.boj.or.jp/mops/mpmdeci/mdec_2024/k240731a.pdf"
   - "https://www.kantei.ne.jp/report/70/70m202409.pdf"
   - "https://www.reiki.co.jp/wp-content/uploads/2024/10/mansion202409.pdf"
-macroMicroMatrix:
-  leftTitle: "MACRO BARRIER (거시 악재)"
-  leftItems:
-    - "• <strong>한국</strong>: 스트레스 DSR 2단계 강행(2024년 9월 1일 시행) ➔ 수도권 외곽 거래량 <strong>-24.4% 급감</strong> (전월비)"
-    - "• <strong>일본</strong>: BOJ 금리인상(2024년 7월 31일 연 0.25% 결정) ➔ 수도권 중고 맨션 평균가 <strong>+2.2% 상승 (23구는 +3.9%로 사상 최고가)</strong> (2024년 9월 기준)"
-  rightTitle: "ULTRA SCARCITY (초희소 미시 호조)"
-  rightItems:
-    - "• <strong>서울</strong>: 반포·서초 국평 래미안 원베일리 <strong>50억 돌파</strong> (2024년 8월 2일 신고가)"
-    - "• <strong>도쿄</strong>: 미나토·시부야 랜드마크 맨션 <strong>하방 경직 & 상승 유지</strong> (2024년 9월 기준)"
 ---
+
+import MacroMicroMatrix from "@/components/blog/MacroMicroMatrix.astro";
+import { macroBarrierMatrixKo as macroBarrierMatrix } from "@/data/blog/macro-barrier-matrix";
+import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
+
+
 
 글로벌 자산 시장이 거대한 금융 장벽을 마주하며 뚜렷한 혼조세를 나타내고 있습니다. 한국은 가계부채 억제를 위해 2024년 9월 1일부터 스트레스 DSR 2단계를 전격 도입[출처: 금융위원회, '9월 1일부터 스트레스 DSR 2단계 시행' 보도자료, 2024-08-20]하며 대출 한도를 강력히 조였고, 일본 역시 2024년 7월 31일 역사적인 제로금리를 종식하고 정책금리를 0.25% 수준으로 올리며[출처: 일본은행, '금융정책결정회합의 결과에 대하여' 공표자료, 2024-07-31] 긴축 기조로 돌아섰습니다. 
 
 이 지점에서 중요한 것은, 돈줄을 죄는 규제와 금리 인상 속에서도 **자산 시장의 양극화에 한층 정교한 선긋기가 이뤄지고 있다는 사실**입니다. 특정 지역 전체가 무차별적으로 우상향하던 과거의 공식은 이제 완전히 깨졌습니다. 결국 악재 속에서도 훼손되지 않는 본질적 희소성을 가려내야 하며, 이 예리한 안목이 다가오는 자산 시장에서 생존을 결정짓는 핵심 열쇠가 될 것입니다.
+
+<MacroMicroMatrix {...macroBarrierMatrix} />
 
 ---
 
@@ -57,7 +56,8 @@ macroMicroMatrix:
 
 그러나 미나토구, 시부야구, 니혼바시 등 도심 초핵심지역(도심 3구 등)의 랜드마크 맨션들은 여전히 강력한 하방 경직성을 유지하고 있습니다[출처: 부동산경제연구소, '수도권 맨션 시장 동향(2024년 9월)' 보고서, 2024-10-17]. 엔저 메리트를 누리는 글로벌 자산가들의 매수 자금이 이들 초우량 자산으로 꾸준히 유입되는 덕분입니다. 여기에 자재비와 인건비 급등에 따른 원가 밀어올리기(Cost-push) 효과까지 겹쳐, 도심 하이엔드 신축 분양가는 금리 악재를 비웃듯 강력한 방어력을 증명하고 있습니다.
 
-import MacroBarrierChart from "@/components/blog/MacroBarrierChart.astro";
+
+
 
 <MacroBarrierChart lang="ko" />
 
