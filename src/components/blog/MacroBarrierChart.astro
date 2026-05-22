@@ -218,25 +218,38 @@ const t = COPY[lang];
       fill="var(--accent, #10b981)">+42.1%</text>
     <text x="760" y="403" text-anchor="middle" font-size="11" font-weight="700" fill="#ef4444"
       >-28.4%</text>
-    <g transform="translate(60, 60)">
+    <g class="chart-legend" transform="translate(455, 38)">
       <rect
         x="0"
         y="0"
-        width="220"
-        height="60"
-        rx="8"
-        fill="var(--card-bg, rgba(128,128,128,0.05))"
-        stroke="var(--card-border, rgba(128,128,128,0.1))"
-        stroke-width="1"></rect>
-      <line x1="15" y1="20" x2="35" y2="20" stroke="var(--accent, #10b981)" stroke-width="3"
-      ></line>
-      <circle cx="25" cy="20" r="4" fill="var(--accent, #10b981)"></circle>
-      <text x="45" y="24" font-size="12" font-weight="600" fill="currentColor">{t.legendSeoul}</text>
-      <line x1="15" y1="40" x2="35" y2="40" stroke="#ef4444" stroke-width="3" opacity="0.85"
-      ></line>
-      <circle cx="25" cy="40" r="4" fill="#ef4444"></circle>
-      <text x="45" y="44" font-size="12" font-weight="600" fill="currentColor"
-        >{t.legendOutskirts}</text>
+        width="325"
+        height="96"
+        rx="10"
+        fill="var(--card-bg, rgba(128,128,128,0.08))"
+        stroke="var(--card-border, rgba(128,128,128,0.2))"
+        stroke-width="1.5"></rect>
+      <line
+        x1="22"
+        y1="32"
+        x2="58"
+        y2="32"
+        stroke="var(--accent, #10b981)"
+        stroke-width="5"
+        stroke-linecap="round"></line>
+      <circle cx="40" cy="32" r="6" fill="var(--accent, #10b981)" stroke="currentColor" stroke-width="1.5"
+      ></circle>
+      <text x="72" y="37" font-size="16" font-weight="700" fill="currentColor">{t.legendSeoul}</text>
+      <line
+        x1="22"
+        y1="68"
+        x2="58"
+        y2="68"
+        stroke="#ef4444"
+        stroke-width="5"
+        stroke-linecap="round"
+        opacity="0.9"></line>
+      <circle cx="40" cy="68" r="6" fill="#ef4444" stroke="currentColor" stroke-width="1.5"></circle>
+      <text x="72" y="73" font-size="16" font-weight="700" fill="currentColor">{t.legendOutskirts}</text>
     </g>
   </svg>
   <figcaption class="macro-chart-figcaption">
