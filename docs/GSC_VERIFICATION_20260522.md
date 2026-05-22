@@ -60,6 +60,7 @@ curl -sL https://gsfark.com/sitemap-0.xml | grep '/en/' && echo FAIL || echo OK_
 1. 왼쪽 **Sitemaps**
 2. 새 사이트맵: `sitemap-index.xml` (전체 URL 붙이지 말 것)
 3. 상태가 **성공**인지, 발견된 URL 수가 120+ 인지 확인
+4. **`/sitemap.xml` 제출 항목 삭제** — 이 사이트는 Astro `@astrojs/sitemap`이 `sitemap-index.xml`만 생성함. `/sitemap.xml`은 **404** → GSC “가져올 수 없음” (robots.txt는 이미 `sitemap-index.xml` 가리킴)
 
 ### Step C — URL 검사 (6건)
 

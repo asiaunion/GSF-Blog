@@ -19,14 +19,41 @@
 
 ## 3. URL 검사 (6건)
 
-각 URL에 대해 **URL 검사** → **색인 생성 요청** (필요 시):
+**사전 확인 (2026-05-22):** 아래 6 URL 모두 **HTTP 200**, `noindex` 없음, canonical 일치, sitemap 포함 → 색인 요청 가능.
 
-1. https://gsfark.com/
-2. https://gsfark.com/topics/
-3. https://gsfark.com/ko/posts/macro-barrier-and-super-scarce-real-estate-selection/
-4. https://gsfark.com/posts/macro-barrier-and-super-scarce-real-estate-selection/
-5. https://gsfark.com/ja/posts/macro-barrier-and-super-scarce-real-estate-selection/
-6. https://gsfark.com/ko/about/
+### 조작 순서 (Search Console)
+
+1. https://search.google.com/search-console → 속성 `https://gsfark.com/`
+2. 상단 검색창 **「URL 검사」** (왼쪽 메뉴 맨 위와 동일)
+3. 아래 URL을 **한 줄씩 붙여넣기** → Enter
+4. 검사가 끝날 때까지 대기 (수십 초)
+5. 확인할 것:
+   - **「URL이 Google에 등록되어 있음」** 또는 **「Google에 등록 가능」**
+   - **「페이지 색인 생성」** → **「색인 생성 허용됨」** (noindex 아님)
+   - **「페이지 가져오기」** → **「성공」** (404·리디렉션 오류 아님)
+6. **「색인 생성 요청」** 클릭 → **「요청됨」** 표시되면 다음 URL
+7. 하루 할당량(보통 10~12건/속성)이면 당일은 6건만 요청해도 됨
+
+**권장 순서:** 본문 3언어 → 허브 2건 → About (중요 글 우선)
+
+| # | 붙여넣을 URL | 메모 |
+|---|----------------|------|
+| 1 | `https://gsfark.com/ko/posts/macro-barrier-and-super-scarce-real-estate-selection/` | KO 본문 |
+| 2 | `https://gsfark.com/posts/macro-barrier-and-super-scarce-real-estate-selection/` | EN 본문 |
+| 3 | `https://gsfark.com/ja/posts/macro-barrier-and-super-scarce-real-estate-selection/` | JA 본문 |
+| 4 | `https://gsfark.com/` | 홈 |
+| 5 | `https://gsfark.com/topics/` | EN 토픽 허브 |
+| 6 | `https://gsfark.com/ko/about/` | KO About |
+
+### 자주 나오는 메시지
+
+| 화면 문구 | 의미 | 조치 |
+|-----------|------|------|
+| 색인 생성 허용됨 | 정상 | **색인 생성 요청** 클릭 |
+| 색인 생성됨 | 이미 색인됨 | 요청 생략 가능 |
+| 크롤링됨 – 현재 색인 생성 안 됨 | 품질·우선순위 | 요청은 해도 됨, 며칠 후 재확인 |
+| 색인생성 excluded by noindex | noindex | 이 사이트 6건에는 해당 없음 |
+| 리디렉션 오류 / 404 | URL 문제 | URL 오타·배포 확인 후 재검사 |
 
 ## 4. 기록 템플릿 (완료 후 `APLUS_VERIFICATION_CHECKLIST` §3.4에 반영)
 
