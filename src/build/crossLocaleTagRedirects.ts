@@ -14,6 +14,7 @@
 
 import { readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { slugifyStr } from "../utils/slugify";
 
 // ── Language detection (same logic as middleware.ts) ──
 
@@ -78,7 +79,7 @@ function collectTagsByLocale(
     const dir = join(blogDir, locale);
     let files: string[];
     try {
-      files = readdirSync(dir).filter(f => f.endsWith(".md"));
+      files = readdirSync(dir).filter(f => f.endsWith(".md") || f.endsWith(".mdx"));
     } catch {
       continue;
     }
@@ -113,49 +114,27 @@ export function getCrossLocaleTagRedirects(): Record<
   // For each locale's tags, generate redirects from wrong locales
   // Key must NOT have trailing slash (Astro → Vercel ^/path$ regex)
 
-  // ── EN tags: should only exist at /tags/<tag>/ ──
+  const tagSegment = (tag: string) => encodeURIComponent(slugifyStr(tag));
+
+  // ── EN tags: should only exist at /tags/<slug>/ ──
   for (const tag of tagsByLocale.en) {
-    const encoded = encodeURIComponent(tag);
-    // /ko/tags/<EN-tag> → /tags/<EN-tag>/
-    out[`/ko/tags/${encoded}`] = {
-      status: 308,
-      destination: `/tags/${encoded}/`,
-    };
-    // /ja/tags/<EN-tag> → /tags/<EN-tag>/
-    out[`/ja/tags/${encoded}`] = {
-      status: 308,
-      destination: `/tags/${encoded}/`,
-    };
+    const slug = tagSegment(tag);
+    out[`/ko/tags/${slug}`] = { status: 308, destination: `/tags/${slug}/` };
+    out[`/ja/tags/${slug}`] = { status: 308, destination: `/tags/${slug}/` };
   }
 
-  // ── KO tags: should only exist at /ko/tags/<tag>/ ──
+  // ── KO tags: should only exist at /ko/tags/<slug>/ ──
   for (const tag of tagsByLocale.ko) {
-    const encoded = encodeURIComponent(tag);
-    // /tags/<KO-tag> → /ko/tags/<KO-tag>/
-    out[`/tags/${encoded}`] = {
-      status: 308,
-      destination: `/ko/tags/${encoded}/`,
-    };
-    // /ja/tags/<KO-tag> → /ko/tags/<KO-tag>/
-    out[`/ja/tags/${encoded}`] = {
-      status: 308,
-      destination: `/ko/tags/${encoded}/`,
-    };
+    const slug = tagSegment(tag);
+    out[`/tags/${slug}`] = { status: 308, destination: `/ko/tags/${slug}/` };
+    out[`/ja/tags/${slug}`] = { status: 308, destination: `/ko/tags/${slug}/` };
   }
 
-  // ── JA tags: should only exist at /ja/tags/<tag>/ ──
+  // ── JA tags: should only exist at /ja/tags/<slug>/ ──
   for (const tag of tagsByLocale.ja) {
-    const encoded = encodeURIComponent(tag);
-    // /tags/<JA-tag> → /ja/tags/<JA-tag>/
-    out[`/tags/${encoded}`] = {
-      status: 308,
-      destination: `/ja/tags/${encoded}/`,
-    };
-    // /ko/tags/<JA-tag> → /ja/tags/<JA-tag>/
-    out[`/ko/tags/${encoded}`] = {
-      status: 308,
-      destination: `/ja/tags/${encoded}/`,
-    };
+    const slug = tagSegment(tag);
+    out[`/tags/${slug}`] = { status: 308, destination: `/ja/tags/${slug}/` };
+    out[`/ko/tags/${slug}`] = { status: 308, destination: `/ja/tags/${slug}/` };
   }
 
   return out;
