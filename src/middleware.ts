@@ -53,7 +53,13 @@ export const onRequest = defineMiddleware(async (context, next) => {
   // ── Pattern A: /ko/tags/<tag>/ where <tag> is NOT Korean ──
   // KO route with EN tag → /tags/<tag>/ (EN canonical)
   // KO route with JA tag → /ja/tags/<tag>/
-  const koTagMatch = pathname.match(/^\/ko\/tags\/([^/]+)\/?$/);
+  // Optional /2/ segment: static redirects use encodeURIComponent keys; GSC often
+  // crawls literal UTF-8 (e.g. /tags/日本橋/2/) which does not match ^/tags/%E6%97%A5…/2$
+  const tagPageSuffix = "(?:/(\\d+))?";
+
+  const koTagMatch = pathname.match(
+    new RegExp(`^/ko/tags/([^/]+)${tagPageSuffix}/?$`)
+  );
   if (koTagMatch) {
     const tag = koTagMatch[1];
     const slug = canonicalTagSegment(tag);
@@ -69,9 +75,9 @@ export const onRequest = defineMiddleware(async (context, next) => {
   }
 
   // ── Pattern B: /ja/tags/<tag>/ where <tag> is NOT Japanese ──
-  // JA route with KO tag → /ko/tags/<tag>/
-  // JA route with EN tag → /tags/<tag>/
-  const jaTagMatch = pathname.match(/^\/ja\/tags\/([^/]+)\/?$/);
+  const jaTagMatch = pathname.match(
+    new RegExp(`^/ja/tags/([^/]+)${tagPageSuffix}/?$`)
+  );
   if (jaTagMatch) {
     const tag = jaTagMatch[1];
     const slug = canonicalTagSegment(tag);
@@ -87,9 +93,9 @@ export const onRequest = defineMiddleware(async (context, next) => {
   }
 
   // ── Pattern C: /tags/<tag>/ where <tag> is NOT English ──
-  // Root (EN) route with KO tag → /ko/tags/<tag>/
-  // Root (EN) route with JA tag → /ja/tags/<tag>/
-  const rootTagMatch = pathname.match(/^\/tags\/([^/]+)\/?$/);
+  const rootTagMatch = pathname.match(
+    new RegExp(`^/tags/([^/]+)${tagPageSuffix}/?$`)
+  );
   if (rootTagMatch) {
     const tag = rootTagMatch[1];
     const slug = canonicalTagSegment(tag);
