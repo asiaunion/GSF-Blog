@@ -66,7 +66,7 @@ function extractTagsFromFile(filePath: string): string[] {
   return [];
 }
 
-function collectTagsByLocale(
+export function collectTagsByLocale(
   blogDir: string
 ): Record<TagLang, Set<string>> {
   const result: Record<TagLang, Set<string>> = {
@@ -94,6 +94,20 @@ function collectTagsByLocale(
   return result;
 }
 
+/** Slug → canonical locale (detectTagLang on tag label; breaks EN/KO slug collisions like FX→fx) */
+export function getTagSlugPrimaryLocaleMap(
+  tagsByLocale: Record<TagLang, Set<string>>
+): Map<string, TagLang> {
+  const map = new Map<string, TagLang>();
+  for (const locale of ["en", "ko", "ja"] as const) {
+    for (const tag of tagsByLocale[locale]) {
+      const slug = slugifyStr(tag);
+      if (!map.has(slug)) map.set(slug, detectTagLang(tag));
+    }
+  }
+  return map;
+}
+
 // ── Generate redirect rules ──
 
 export function getCrossLocaleTagRedirects(): Record<
@@ -109,6 +123,7 @@ export function getCrossLocaleTagRedirects(): Record<
   );
 
   const tagsByLocale = collectTagsByLocale(blogDir);
+  const slugPrimary = getTagSlugPrimaryLocaleMap(tagsByLocale);
   const out: Record<string, { status: 308; destination: string }> = {};
 
   // For each locale's tags, generate redirects from wrong locales
@@ -155,6 +170,7 @@ export function getCrossLocaleTagRedirects(): Record<
   // ── KO tags: should only exist at /ko/tags/<slug>/ ──
   for (const tag of tagsByLocale.ko) {
     const slug = tagSegment(tag);
+    if (slugPrimary.get(slugifyStr(tag)) !== "ko") continue;
     const dest = `/ko/tags/${slug}/`;
     addCrossLocale("", slug, dest, tag);
     addCrossLocale("/ja", slug, dest, tag);
@@ -169,6 +185,7 @@ export function getCrossLocaleTagRedirects(): Record<
   // ── JA tags: should only exist at /ja/tags/<slug>/ ──
   for (const tag of tagsByLocale.ja) {
     const slug = tagSegment(tag);
+    if (slugPrimary.get(slugifyStr(tag)) !== "ja") continue;
     const dest = `/ja/tags/${slug}/`;
     addCrossLocale("", slug, dest, tag);
     addCrossLocale("/ko", slug, dest, tag);

@@ -1,5 +1,14 @@
 import { defineMiddleware } from "astro:middleware";
+import {
+  collectTagsByLocale,
+  getTagSlugPrimaryLocaleMap,
+} from "./build/crossLocaleTagRedirects";
 import { slugifyStr } from "./utils/slugify";
+import { join } from "node:path";
+
+const tagSlugPrimary = getTagSlugPrimaryLocaleMap(
+  collectTagsByLocale(join(import.meta.dirname ?? "", "data", "blog"))
+);
 
 /** Canonical URL segment for a tag (matches tag page static paths + build redirects). */
 function canonicalTagSegment(segment: string): string {
@@ -51,7 +60,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     if (hasJapanese(tag)) {
       return context.redirect(`/ja/tags/${slug}/`, 308);
     }
-    if (!hasKorean(tag)) {
+    if (!hasKorean(tag) && tagSlugPrimary.get(slugifyStr(decodeURIComponent(tag))) === "en") {
       return context.redirect(`/tags/${slug}/`, 308);
     }
     if (tag !== slug) {
@@ -69,7 +78,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
     if (hasKorean(tag)) {
       return context.redirect(`/ko/tags/${slug}/`, 308);
     }
-    if (!hasJapanese(tag)) {
+    if (!hasJapanese(tag) && tagSlugPrimary.get(slugifyStr(decodeURIComponent(tag))) === "en") {
       return context.redirect(`/tags/${slug}/`, 308);
     }
     if (tag !== slug) {

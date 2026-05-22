@@ -23,6 +23,8 @@ export default defineConfig({
   trailingSlash: "always",
   adapter: vercel(),
   redirects: {
+    // Astro emits sitemap-index.xml, not sitemap.xml (GSC may submit the wrong path)
+    "/sitemap.xml": { status: 308, destination: "/sitemap-index.xml" },
     ...getLegacyPostRedirects(),
     ...getCrossLocaleTagRedirects(),
   },
