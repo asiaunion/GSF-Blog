@@ -33,3 +33,7 @@ public/previews/
 .vercel
 artifacts/
 sns-drafts/
+
+# Ollama local models
+ollama_models/
+**/ollama_models/
