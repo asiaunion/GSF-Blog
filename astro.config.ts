@@ -48,6 +48,8 @@ export default defineConfig({
           if (pathname.includes("/search")) return false;
           // Exclude archives — date-based index, thin content for AdSense
           if (pathname.endsWith("/archives")) return false;
+          // Legacy /en/* redirect routes — not canonical EN URLs (GSC: avoid redirect URLs in sitemap)
+          if (pathname === "/en" || pathname.startsWith("/en/")) return false;
           return true;
         } catch (e) {
           return false;
