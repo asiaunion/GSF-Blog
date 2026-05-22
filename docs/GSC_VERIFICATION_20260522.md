@@ -83,13 +83,16 @@ curl -sL https://gsfark.com/sitemap-0.xml | grep '/en/' && echo FAIL || echo OK_
 
 ## 4. 배포 반영 확인 (2026-05-22 — 배포 전/후)
 
-| 검사 | 배포 전 (21:43 KST) | 배포 후 (에이전트 기록) |
-|------|---------------------|-------------------------|
-| `curl -sI …/ko/tags/Investment/` | **404** (middleware가 `/tags/Investment/`로 보냄 → 실제 페이지는 `/tags/investment/`) | **308** → `Location: /tags/investment/` |
-| `curl -sI …/tags/Investment/` | **404** | **308** → `/tags/investment/` |
-| `curl -sL sitemap-0.xml \| grep /en/` | **FAIL** — `https://gsfark.com/en/` 1건 | **OK** — `/en/` 없음 (`240d082` sitemap filter) |
-| `curl -sI …/en/posts/macro-barrier…/` | **308** → `/posts/…/` | 동일 유지 |
-| `curl -sI …/tags/real-estate/` | **200** | 동일 유지 |
+| 검사 | 배포 전 (21:43 KST) | 배포 후 (21:55 KST) |
+|------|---------------------|---------------------|
+| `curl -sI …/ko/tags/Investment/` | **404** (middleware·slash 규칙 충돌) | **308** → `/tags/investment/` |
+| `curl -sI …/tags/Investment/` | **404** | **308** → `/tags/investment/` (2차 배포 후) |
+| `curl -sL sitemap-0.xml \| grep /en/` | **FAIL** — `https://gsfark.com/en/` 1건 | **OK** — `/en/` 없음 |
+| `curl -sI …/en/posts/macro-barrier…/` | **308** → `/:path*` (버그) | **308** → `/posts/macro-barrier…/` |
+| `curl -sI …/author/gsf/` | **404** | **308** → `/about/` |
+| `curl -sI …/feed/` | **404** | **308** → `/rss.xml` |
+| `curl -sI …/ko/posts/(한글 slug, URL-encoded)/` | **404** (비인코딩 URL) | **308** → `j-reit-five-things-to-know` |
+| `curl -sI …/tags/real-estate/` | **200** | **200** |
 
 **원인 요약:** main에 `0e89eac`·`240d082`가 있었으나 프로덕션 빌드가 뒤처져 sitemap·정적 redirect가 미반영. 추가로 **middleware**가 cross-locale 태그 redirect 시 slugify 없이 대소문자를 유지해 GSC 404·리디렉션 오류 유발 → `canonicalTagSegment()` 적용 커밋.
 
