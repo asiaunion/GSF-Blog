@@ -115,26 +115,45 @@ export function getCrossLocaleTagRedirects(): Record<
   // Key must NOT have trailing slash (Astro → Vercel ^/path$ regex)
 
   const tagSegment = (tag: string) => encodeURIComponent(slugifyStr(tag));
+  const rawTagSegment = (tag: string) => encodeURIComponent(tag);
+
+  const addCrossLocale = (
+    fromPrefix: string,
+    slug: string,
+    dest: string,
+    raw?: string
+  ) => {
+    out[`${fromPrefix}/tags/${slug}`] = { status: 308, destination: dest };
+    if (raw && raw !== slug) {
+      out[`${fromPrefix}/tags/${raw}`] = { status: 308, destination: dest };
+    }
+  };
 
   // ── EN tags: should only exist at /tags/<slug>/ ──
   for (const tag of tagsByLocale.en) {
     const slug = tagSegment(tag);
-    out[`/ko/tags/${slug}`] = { status: 308, destination: `/tags/${slug}/` };
-    out[`/ja/tags/${slug}`] = { status: 308, destination: `/tags/${slug}/` };
+    const raw = rawTagSegment(tag);
+    const dest = `/tags/${slug}/`;
+    addCrossLocale("/ko", slug, dest, raw);
+    addCrossLocale("/ja", slug, dest, raw);
   }
 
   // ── KO tags: should only exist at /ko/tags/<slug>/ ──
   for (const tag of tagsByLocale.ko) {
     const slug = tagSegment(tag);
-    out[`/tags/${slug}`] = { status: 308, destination: `/ko/tags/${slug}/` };
-    out[`/ja/tags/${slug}`] = { status: 308, destination: `/ko/tags/${slug}/` };
+    const raw = rawTagSegment(tag);
+    const dest = `/ko/tags/${slug}/`;
+    addCrossLocale("", slug, dest, raw);
+    addCrossLocale("/ja", slug, dest, raw);
   }
 
   // ── JA tags: should only exist at /ja/tags/<slug>/ ──
   for (const tag of tagsByLocale.ja) {
     const slug = tagSegment(tag);
-    out[`/tags/${slug}`] = { status: 308, destination: `/ja/tags/${slug}/` };
-    out[`/ko/tags/${slug}`] = { status: 308, destination: `/ja/tags/${slug}/` };
+    const raw = rawTagSegment(tag);
+    const dest = `/ja/tags/${slug}/`;
+    addCrossLocale("", slug, dest, raw);
+    addCrossLocale("/ko", slug, dest, raw);
   }
 
   return out;
