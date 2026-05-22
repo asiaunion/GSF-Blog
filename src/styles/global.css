@@ -336,8 +336,11 @@ html[data-theme="dark"] {
   margin-top: 0.5rem;
   font-size: 0.75rem;
   line-height: 1.45;
-  color: var(--color-text-muted, #888888);
-  opacity: 0.9;
+  color: #4b5563;
+}
+
+html[data-theme="dark"] .supplemental-chart figcaption {
+  color: #a1a1aa;
 }
 
 

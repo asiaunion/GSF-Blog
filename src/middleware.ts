@@ -27,6 +27,14 @@ function hasJapanese(str: string): boolean {
 export const onRequest = defineMiddleware(async (context, next) => {
   const pathname = context.url.pathname;
 
+  // ── Legacy /en/* URLs → unprefixed EN canonical (vercel.json rule may not apply on all deployments)
+  if (pathname === "/en" || pathname === "/en/") {
+    return context.redirect("/", 308);
+  }
+  if (pathname.startsWith("/en/")) {
+    return context.redirect(`${pathname.slice(3) || "/"}`, 308);
+  }
+
   // ── Pattern A: /ko/tags/<tag>/ where <tag> is NOT Korean ──
   // KO route with EN tag → /tags/<tag>/ (EN canonical)
   // KO route with JA tag → /ja/tags/<tag>/
