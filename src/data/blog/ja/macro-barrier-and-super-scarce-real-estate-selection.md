@@ -48,20 +48,20 @@ references:
 
 しかし、港区、渋谷区、日本橋といった都心の超中核エリア（都心3区など）に位置するランドマークマンションは、依然として極めて強い「下値支持線（ダウンサイドレジリエンス）」を維持しています[出典: 不動産経済研究所、'首都圏マンション市場動向(2024年9月)' レポート、2024-10-17]。円安のメリットを享受するグローバル資産家の買い資金が、これらの超優良資産へ絶えず流入しているためです。ここに建築資材費や人件費の高騰に伴う「コストプッシュ（Cost-push）」効果も重なり、都心の新築ハイエンド分譲マンションの価格は、金利上昇という逆風を嘲笑うかのように、強固な防衛力を証明し続けています。
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; font-family: sans-serif;">
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">MACRO BARRIER (マクロ悪材料)</h4>
-    <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>韓国</strong>: ストレスDSR第2段階強行(2024年9月1日施行) ➔ 首都圏郊外の取引量 <strong>-24.4%急減</strong> (前月比)<br>
-      • <strong>日本</strong>: 日銀の利上げ(2024年7月31日に年0.25%決定) ➔ 中古マンション平均価格が<strong>3年ぶりに横ばい</strong> (2024年9月基準)
-    </p>
+<div class="macro-micro-matrix">
+  <div class="matrix-card left-card">
+    <h4>MACRO BARRIER (マクロ悪材料)</h4>
+    <div class="card-content">
+      <p>• <strong>韓国</strong>: ストレスDSR第2段階強行(2024年9月1日施行) ➔ 首都圏郊外の取引量 <strong>-24.4%急減</strong> (前月比)</p>
+      <p>• <strong>日本</strong>: 日銀の利上げ(2024年7月31日に年0.25%決定) ➔ 首都圏中古マンション平均価格 <strong>+2.2%上昇（23区は+3.9%上昇で史上最高値）</strong> (2024年9月基準)</p>
+    </div>
   </div>
-  <div style="background: rgba(128, 128, 128, 0.05); border: 1px solid rgba(128, 128, 128, 0.15); border-left: 4px solid var(--color-accent); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
-    <h4 style="margin: 0 0 10px 0; color: var(--color-accent); font-size: 16px; font-weight: bold;">ULTRA SCARCITY (超希少ミクロ好材料)</h4>
-    <p style="margin: 0; font-size: 14px; opacity: 0.9; line-height: 1.6;">
-      • <strong>ソウル</strong>: 盤浦・瑞草の専有84㎡(レミアンワンベイリーなど)が融資なしで<strong>50億ウォン突破</strong> (2024年8月2日新高値)<br>
-      • <strong>東京</strong>: 港区・渋谷区のランドマークマンションが<strong>強い下値支持線と上昇を維持</strong> (2024年9月基準)
-    </p>
+  <div class="matrix-card right-card">
+    <h4>ULTRA SCARCITY (超希少ミクロ好材料)</h4>
+    <div class="card-content">
+      <p>• <strong>ソウル</strong>: 盤浦・瑞草の専有84㎡(レミアンワンベイリーなど)が融資なしで<strong>50億ウォン突破</strong> (2024年8月2日新高値)</p>
+      <p>• <strong>東京</strong>: 港区・渋谷区のランドマークマンションが<strong>強い下値支持線と上昇を維持</strong> (2024年9月基準)</p>
+    </div>
   </div>
 </div>
 
