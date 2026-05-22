@@ -102,8 +102,13 @@ export function getTagPaginationRedirects(): Record<
       for (const wrong of ["en", "ko", "ja"] as const) {
         if (wrong === primary) continue;
         const wrongPrefix = prefixFor(wrong);
-        if (wrong === "en" && slug !== slugEnc) {
-          setRedirect(`/tags/${slug}/2`, canonBase);
+        if (wrong === "en") {
+          // Non-ASCII: GSC uses literal path; %XX key alone misses /tags/日本橋/2/
+          if (slug !== slugEnc) {
+            setRedirect(`/tags/${slug}/2`, canonBase);
+          } else {
+            setRedirect(`/tags/${slugEnc}/2`, canonBase);
+          }
         } else {
           setRedirect(`${wrongPrefix}/tags/${slugEnc}/2`, canonBase);
         }
