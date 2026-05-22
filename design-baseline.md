@@ -2,6 +2,11 @@
 
 ## Approved States
 
+- **2026-05-22**: GSF-Blog P3 최종 보완 및 P4 3-Pass 번역 CLI 구현 완료 - Tag: `v-approved-20260522-p0-p5-complete`
+  - 일본어(JA) 마크다운 번역본들의 frontmatter 및 본문 내 잔존 한글(자모, 한국어 조사, 미세 오타 등) 전수 교정 및 일본어 현지화 정제 완료.
+  - 마크다운 본문 내에 Lighthouse 95+ 웹 접근성(a11y) 기준을 준수하는 다크/라이트 테마 자동 호환 인라인 SVG 차트 보강 및 정량 데이터 CSV(`public/data/macro-barrier-chart-source.csv`) 동봉.
+  - Zero-Dependency 기반의 3-Pass 번역 CLI 오케스트레이터 구현 (`scripts/translate/` 내 CLI 스크립트군) 및 명령어 가이드 README.md 작성 완료. `--yes` 자동 저장 플래그, 미승인 시 `exit 1` 프로세스 에러 전파 및 `OLLAMA_HOST` 동적 주소 터널링 지원.
+  - 로컬 `pnpm run build` 최종 무결성 테스트 100% 성공 확인 (Pagefind 인덱싱 및 Sitemap 정상 빌드).
 - **2026-05-22**: Macro-Micro Matrix card componentization & AdSense P0 layout recovery - Tag: `v-approved-20260522-p1-p2-complete`
   - 인라인 스타일이 선언되어 유지보수가 어려웠던 3개 국어 매트릭스 카드 블록을 `.macro-micro-matrix` 스타일과 `<div class="macro-micro-matrix">` 구조로 정리하고, 스타일을 `global.css` 에 정의된 CSS 변수(--card-bg, --card-border, --card-accent) 및 Tailwind `@theme inline` 구조와 매핑하여 단일 컴포넌트 수준의 CSS 바인딩 구현.
   - 모바일(640px 이하) 환경에서 1열로 자동 stack되는 반응형 레이아웃 구현 및 다크/라이트 테마 자동 대응 확인.
