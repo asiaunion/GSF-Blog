@@ -99,10 +99,14 @@ export function getTagPaginationRedirects(): Record<
       const primary = slugPrimary.get(slug) ?? locale;
       const canonBase = tagPath(primary, slugEnc);
 
-      // Wrong locale + /2/ only (GSC pattern); page 1 cross-locale is in crossLocaleTagRedirects
       for (const wrong of ["en", "ko", "ja"] as const) {
         if (wrong === primary) continue;
-        setRedirect(`${prefixFor(wrong)}/tags/${slugEnc}/2`, canonBase);
+        const wrongPrefix = prefixFor(wrong);
+        if (wrong === "en" && slug !== slugEnc) {
+          setRedirect(`/tags/${slug}/2`, canonBase);
+        } else {
+          setRedirect(`${wrongPrefix}/tags/${slugEnc}/2`, canonBase);
+        }
       }
     }
   }
