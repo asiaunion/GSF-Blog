@@ -2,6 +2,10 @@
 
 ## Approved States
 
+- **2026-05-23**: Redesign Tokyo Real Estate Cost Stack SVG charts & fix missing xmlns namespaces - Tag: `v-approved-20260523-fix-tokyo-cost-stack-chart`
+  - `japan-real-estate-three-things` 포스트에 삽입된 비용 구조 SVG 차트를 고품격 100% 수직 스택형 바 차트로 전면 재디자인 및 다국어(ko/en/ja) 동기화 완료.
+  - `public/assets/images/blog/svg/` 아래에 있는 전체 SVG 도표 파일(총 43개)의 네임스페이스 선언 누락 오류(`xmlns="http://www.w3.org/2000/svg"`)를 파이썬 스크립트로 일괄 치료하여 엑스박스 렌더링 에러를 완벽하게 차단.
+  - 프리뷰 파일 생성: `ko-japan-real-estate-three-things.png`, `en-japan-real-estate-three-things.png`, `ja-japan-real-estate-three-things.png` (artifacts 디렉토리 보존).
 - **2026-05-22**: A+ verification (Lighthouse + §3 checklist) - Tag: `v-approved-20260522-aplus-91`
   - Mobile Lighthouse: macro-barrier KO 95/90/100/100; `/en/*` legacy 308 → unprefixed EN.
   - 체크리스트: `docs/APLUS_VERIFICATION_CHECKLIST_20260522.md` (Overall **91**).
