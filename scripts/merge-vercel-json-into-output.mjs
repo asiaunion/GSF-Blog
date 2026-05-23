@@ -12,6 +12,7 @@ import { fileURLToPath } from "node:url";
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const configPath = path.join(root, ".vercel", "output", "config.json");
 const vercelJsonPath = path.join(root, "vercel.json");
+const goneRoutesPath = path.join(root, "scripts/vercel-gone-routes.json");
 
 /** Tag slug redirects come from astro.config; skip duplicate vercel.json rows */
 function isTagRedirect(source) {
@@ -56,6 +57,12 @@ const fromVercel = (vercelJson.redirects ?? [])
   .filter(r => !isTagRedirect(r.source))
   .map(vercelRedirectToRoute);
 
+const goneSources = JSON.parse(fs.readFileSync(goneRoutesPath, "utf-8"));
+const fromGone = goneSources.map(source => ({
+  src: sourceToSrc(source),
+  status: 410,
+}));
+
 const existing = config.routes ?? [];
 
 /** Astro adapter trailing-slash normalizers — must run after explicit 308 rules */
@@ -99,7 +106,8 @@ function pushTrailingSlashOnly(route) {
 // Explicit 308 rules first (tag cross-locale, legacy slugs, author, feed).
 for (const r of fromVercel) pushTrailingSlashOnly(r);
 for (const r of redirects) pushTrailingSlashOnly(r);
-// WP legacy 410 (injected at build) before static filesystem.
+// WP legacy 410 before static filesystem.
+for (const r of fromGone) push(r);
 for (const r of gone) push(r);
 for (const r of other) push(r);
 for (const r of frameworkSlash) push(r);
@@ -107,5 +115,5 @@ for (const r of frameworkSlash) push(r);
 config.routes = merged;
 fs.writeFileSync(configPath, JSON.stringify(config));
 console.log(
-  `merge-vercel-json: ${fromVercel.length} essential redirects, ${merged.length} total routes`,
+  `merge-vercel-json: ${fromVercel.length} redirects, ${fromGone.length} gone, ${merged.length} total routes`,
 );
