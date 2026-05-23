@@ -1,4 +1,4 @@
-<svg viewBox="0 0 760 300" role="img" aria-label="일본 부동산 숨은 비용의 빙산" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="일본 부동산 숨은 비용의 빙산" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
   <!-- Water Line -->
   <rect x="0" y="100" width="760" height="200" fill="#eff6ff" />
   <line x1="0" y1="100" x2="760" y2="100" stroke="#3b82f6" stroke-width="2" stroke-dasharray="5,5" />
