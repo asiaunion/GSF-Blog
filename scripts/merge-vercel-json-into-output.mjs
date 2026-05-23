@@ -75,13 +75,16 @@ const frameworkSlash = existing.filter(
   r =>
     (r.status === 308 || r.status === 307) && isFrameworkSlashRule(r)
 );
-const other = existing.filter(r => r.status !== 308 && r.status !== 307);
+const gone = existing.filter(r => r.status === 410);
+const other = existing.filter(
+  r => r.status !== 308 && r.status !== 307 && r.status !== 410
+);
 
 const seen = new Set();
 const merged = [];
 
 function push(route) {
-  const key = `${route.src}|${route.headers?.Location ?? route.dest}`;
+  const key = `${route.src}|${route.status ?? ""}|${route.headers?.Location ?? route.dest ?? ""}`;
   if (seen.has(key)) return;
   seen.add(key);
   merged.push(route);
@@ -93,9 +96,11 @@ function pushTrailingSlashOnly(route) {
   push(slash ?? route);
 }
 
-// Explicit 308 rules first (tag cross-locale, legacy slugs, WP).
+// Explicit 308 rules first (tag cross-locale, legacy slugs, author, feed).
 for (const r of fromVercel) pushTrailingSlashOnly(r);
 for (const r of redirects) pushTrailingSlashOnly(r);
+// WP legacy 410 (injected at build) before static filesystem.
+for (const r of gone) push(r);
 for (const r of other) push(r);
 for (const r of frameworkSlash) push(r);
 
