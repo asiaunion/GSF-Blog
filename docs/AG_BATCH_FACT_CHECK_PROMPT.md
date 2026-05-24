@@ -1,7 +1,7 @@
-# AG 배치 지시: 기발행 전체 포스트 팩트·신뢰성 1차 감사
+# AG 배치 지시: 기발행 전체 포스트 팩트·번역 품질 1차 감사
 
 > **용도:** 아래 `## AG에 붙여넣기` 블록을 Antigravity에 **그대로 복사**해 실행한다.  
-> **역할:** 1차 조사·팩트 시트 **초안**만. **Cursor가 2차 재검증·md 수정·배포.**  
+> **역할:** 1차 조사·팩트 시트 + **번역 감사 초안**만. **Cursor가 2차 재검증·md 수정·배포.**  
 > **정본 레포:** `/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog`
 
 ---
@@ -9,107 +9,120 @@
 ## AG에 붙여넣기 (시작)
 
 ```markdown
-# [GSF-Blog] 기발행 전체 포스트 — 팩트·신뢰성 1차 감사 (초안만)
+# [GSF-Blog] 기발행 전체 포스트 — 팩트·번역 품질 1차 감사 (초안만)
 
 ## 역할
-GSF-Blog Track 1 담당. **이미 발행된** ko/en/ja 마크다운 전체에 대해 **팩트 시트 초안**과 **의심 구간 목록**을 만든다.
+GSF-Blog Track 1 담당. **이미 발행된** ko/en/ja 마크다운 **35 slug 전체**에 대해:
+1. **팩트 시트 초안** (수치·출처·사실 드리프트)
+2. **번역 품질 감사 초안** (EN/JA 톤·가독성·locale 오염)
+
 **2차 검증·본문 수정·validate 통과·git commit/push/Vercel 배포는 Cursor·사용자** — 너는 **조사·초안·보고만**.
 
 ## Knowledge / 정책 (반드시 준수)
-- Knowledge `gsf_blog_content_source_integrity` — **출처 없는 수치·통계 금지**, Source-Gated Claim
+- Knowledge `gsf_blog_content_source_integrity` — 출처 없는 수치 금지
 - `docs/BLOG_FACT_CHECK_WORKFLOW.md`
-- `docs/templates/blog-fact-sheet.md` — 글마다 이 형식
+- `docs/templates/blog-fact-sheet.md` — 팩트
+- `docs/templates/blog-translation-audit.md` — **번역 (신규)**
+- `Blog_Agent/spec-blog-agent.md` — EN `I` / JA です・ます 톤
 - `BLOG_AGENT_AUTOMATION_RUNBOOK.md` § Gate failure remediation
 
 ## 프로젝트 경로
 - Repo: `/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog`
 - 포스트: `src/data/blog/{ko,en,ja}/<slug>.md`
-- **제외:** `_integrity-example-*`, `_template-*`, `ko/` `en/` `ja/` **밖** 파일
+- **제외:** `_integrity-example-*`, `_template-*`
 
 ## 절대 금지
-1. **md 본문·frontmatter 수정** (오타·숫자·sources 포함) — Cursor 전까지
-2. `git commit` / `git push` / `apply_publish` / 배포
-3. 출처 URL **없이** 수치·법적 기준·%·엔·원 **확정** 또는 “검증 완료” 보고
-4. tier-1이 아닌 URL만으로 숫자 **정당화**
-5. `pnpm validate:post` 실패를 네가 **직접 고쳤다**고 주장 (게이트 수정은 Cursor)
+1. **ko/en/ja md 수정** — Cursor 전까지
+2. `git commit` / `git push` / 배포
+3. 출처 없이 수치 **확정** 또는 “검증·번역 완료” 보고
+4. validate FAIL을 네가 **고쳤다**고 주장
 
-## 해야 할 일 (슬러그당)
+---
 
-### A. 기계 스캔 기록 (읽기만)
-각 slug에 대해 (가능하면):
+## 슬러그당 작업
+
+### A. 기계 스캔 (읽기만)
 ```bash
 cd /Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog
 pnpm validate:post <slug>
 ```
-- exit 0 / 1, `failed` 배열 **그대로** 보고서에 복사
-- **FAIL이어도** 팩트 시트 작업은 계속 (게이트 ≠ 사실 검증)
+`failed` / `scoreChecks` 중 아래 **번역·톤 관련**을 fact-audit에 복사:
+- `ko-formal-tone`, `ja-formal-tone`
+- `translation-duplication-feel` (en-ja similarity 수치)
+- `disclaimer-present`
+- `title-body-alignment` (KO 제목-본문)
+- `reference-subset-*`
 
 ### B. 팩트 시트 초안
-경로: `docs/fact-audit/<slug>.md`  
-템플릿: `docs/templates/blog-fact-sheet.md`
-
-**Claims 표** — KO 본문에서 아래 **전부** 추출:
-- 숫자·%·배수·금액(엔·원·달러)
-- 날짜·연도·기간·“N년 연속”
-- 법적 요건·비자·세율·면적·공실률·지가·수익률 등 **검증 가능한 주장**
-
-각 claim에:
-| 필드 | 규칙 |
-|------|------|
-| KO 인용 | 본문 그대로 짧게 |
-| tier-1 URL 후보 | `.go.jp` `.go.kr` `.gov` `.or.jp` `boj.or.jp` `reins.or.jp` 등 — **없으면** `[검토 필요]` |
-| Verified ✓ | **체크하지 말 것** — Cursor용 빈칸 |
-| 비고 | 출처 불일치·구식·환각 의심 |
+- 경로: `docs/fact-audit/<slug>.md` (템플릿: `docs/templates/blog-fact-sheet.md`)
+- KO 본문의 **모든 수치·날짜·법적 주장** + tier-1 URL 또는 `[검토 필요]`
 
 ### C. sources / references 감사
-- `references ⊆ sources` 여부 (코드 기준)
-- `sources`에 있으나 본문 주장과 **무관한 URL** 표시
-- 본문 수치를 뒷받침하지 못하는 `sources` 표시
+- `references ⊆ sources`, 무관 URL, 본문 미지원 URL
 
-### D. ko / en / ja 사실 드리프트
-**숫자·고유명사·날짜·법 조항**만. 문체·번역 품질은 제외.
-불일치 시: `docs/fact-audit/<slug>.md` 하단 `## Locale drift` 표
+### D. 사실 드리프트 (ko ↔ en ↔ ja)
+**숫자·날짜·고유명사·법 조항·장소명**만 표로 정리 (`## Factual drift`).
 
-### E. 위험 등급 (슬러그당 1개)
+### E. 번역 품질 감사 초안 (필수)
+- 같은 파일 하단에 `## Translation audit` 섹션 추가  
+  또는 `docs/fact-audit/translations/<slug>.md` (템플릿: `docs/templates/blog-translation-audit.md`)
+
+**반드시 ko·en·ja 세 파일을 나란히 읽고** 아래를 점검:
+
+#### E-1. 사실 정합 (번역이 사실을 바꾸는지)
+- KO의 수치·연도·고유명사가 EN/JA에서 **동일**한지
+- 다르면 D와 중복 표시하되, **번역 오류인지 의도인지** 구분
+
+#### E-2. EN 품질 (`src/data/blog/en/<slug>.md`)
+| 점검 | 기준 |
+|------|------|
+| 주어 | **I** 일관 (We/our/corporate 피함) |
+| 톤 | 개인 투자·산책 인사이트, 기관 보고서체 아님 |
+| 직역 | 어색한 한국식 직역·장황한 문장 → `calque`로 표기 |
+| 구조 | KO와 **동일한 ## 섹션** (누락·순서 뒤바뀜) |
+| 이미지 | `![]()` 경로 동일, 캡션·alt **사실·블러 설명** KO와 맞음 |
+| 면책 | `informational purposes` 류 문구 존재 |
+
+#### E-3. JA 품질 (`src/data/blog/ja/<slug>.md`)
+| 점검 | 기준 |
+|------|------|
+| 종결 | **です・ます** (だ・である 체 **금지**) |
+| 문자 | JA 본문·표에 **한글·영문 단락 혼입** 없음 |
+| 오역 | 잘못된 외래 (예: イニシアチブ) → 자연스러운 일본어 후보 제시 |
+| 표·시간 | `10月` not `10월`, `土・日・祝` 등 locale 표기 |
+| 구조·이미지·면책 | EN과 동일 원칙 (`情報提供` 등) |
+
+#### E-4. EN–JA 관계
+- `translation-duplication-feel` similarity **≥ 0.92** 이면 “거의 복붙” 의심 → T1
+- EN/JA가 KO보다 **짧게 크게 누락**된 절 있는지
+
+#### E-5. 번역 심각도 (슬러그당 1개)
+| 코드 | 의미 |
+|------|------|
+| **T0** | 잘못된 수치·사실 번역 |
+| **T1** | 톤 게이트·대량 직역·locale 오염 |
+| **T2** | 캡션·표·단락 누락·경미한 calque |
+| **T3** | 양호 |
+
+### F. 종합 위험 등급 (슬러그당)
 | 등급 | 기준 |
 |------|------|
-| **P0** | 출처 없는 금융·부동산·세금·비자 수치, 허위 가능, YMYL |
-| **P1** | 구식 통계·연도 불일치·sources 불충분 |
-| **P2** | 게이트만 FAIL, 산책·체험담·이미지·면책 |
-| **P3** | 경미·스타일 |
+| **P0** | 무출처 YMYL 수치 또는 **T0** |
+| **P1** | 구식 팩트·**T1** 번역 |
+| **P2** | 게이트 FAIL·**T2** |
+| **P3** | 경미 |
 
-## 우선순위 (처리 순서)
+---
 
-**Wave 1 — P0 후보 (먼저)**  
-- `tokyo-korean-community-beyond-shinokubo` (과거 무출처 Section 6 이슈 — Knowledge 참고)
-- `korea-japan-inheritance-gift-tax-cross-border-basics`
-- `japan-visa-paths-permanent-business-manager-asset-holders`
-- `japan-corporate-vs-personal-rental-after-tax-sketch`
-- `tokyo-real-estate-investment-complete-guide`
-- `tokyo-6-wards-real-estate-insight`
-- `tokyo-office-vacancy-five-wards-2026`
-- `tokyo-mansion-tsubo-chiyoda-chuo-minato`
-- `tokyo-small-rental-yield-vs-capital-gain-breakeven`
-- `weak-yen-korean-japan-asset-allocation-fx-scenarios`
-- `three-things-when-fx-shakes`
-- `reading-korea-japan-markets-together`
-- `j-reit-five-things-to-know`
-- `hotel-reit-vs-office-reit-post-covid`
-- `japan-rate-hike-cycle-j-reit-three-lessons`
-- `japan-real-estate-three-things`
+## 우선순위
 
-**Wave 2 — 지역·재개발·산책 (수치 적은 글 우선 스캔)**  
-- `ginza-weekend-walking-guide`, `ginza-marunouchi-walk-dna`
-- `nihonbashi-*`, `coredo-nihonbashi-mitsui-redevelopment`
-- `tokyo-ward-guide-series-prologue`, `tokyo-core-3-wards-chiyoda-chuo-minato`
-- `tokyo-shinjuku-shibuya-bunkyo`, `tokyo-five-sophisticated-spots`
-- `tokyo-earthquake-vulnerable-five-areas`
-- `tokyo-buying-process-step-by-step`, `tokyo-moving-contracts-two-notes`
-- `tokyo-museums-with-kids-five-picks`, `tokyo-yokohama-fuji-transport-pass`
-- `tsukiji-to-toyosu-morning-tokyo`
-- `one-failure-three-lessons-postmortem`, `why-warm-investing-holds`
+**Wave 1 — 팩트+번역 모두 중요**  
+`tokyo-korean-community-beyond-shinokubo`, `korea-japan-inheritance-gift-tax-cross-border-basics`, `japan-visa-paths-*`, `japan-corporate-vs-personal-rental-*`, `tokyo-real-estate-investment-complete-guide`, `tokyo-6-wards-*`, `tokyo-office-vacancy-*`, `weak-yen-*`, `three-things-when-fx-shakes`, `reading-korea-japan-markets-together`, `j-reit-*`, `hotel-reit-*`, `japan-rate-hike-*`, `japan-real-estate-three-things`
 
-## 전체 slug 목록 (35)
+**Wave 2 — 산책·가이드 (번역·캡션·장소명 중요)**  
+`ginza-weekend-walking-guide`, `ginza-marunouchi-walk-dna`, `nihonbashi-*`, `coredo-*`, `tokyo-ward-guide-*`, `tokyo-five-sophisticated-spots`, `tsukiji-*`, `tokyo-museums-*`, `why-warm-investing-holds`, 기타
+
+## 전체 slug (35)
 
 ```
 coredo-nihonbashi-mitsui-redevelopment
@@ -149,63 +162,61 @@ weak-yen-korean-japan-asset-allocation-fx-scenarios
 why-warm-investing-holds
 ```
 
-## 산출물 (필수)
+---
 
-### 1) 마스터 인덱스 (1파일)
-`docs/fact-audit/INDEX.md`
+## 산출물
 
-| slug | P0/P1/P2/P3 | validate:post | claims 수 | [검토 필요] 수 | drift | fact sheet |
-|------|-------------|---------------|-----------|--------------|-------|------------|
-| ... | | PASS/FAIL | | | Y/N | link |
+### 1) `docs/fact-audit/INDEX.md`
 
-### 2) 슬러그별 팩트 시트
-`docs/fact-audit/<slug>.md` × 35 (없는 글은 행에 “파일 없음”)
+| slug | P | validate | claims | review-needed | fact drift | **T0–T3** | **trans issues** | sheet |
+|------|---|----------|--------|---------------|------------|-----------|------------------|-------|
 
-### 3) 최종 보고 (채팅 + `docs/fact-audit/AG_PHASE1_REPORT.md`)
+### 2) 슬러그별 `docs/fact-audit/<slug>.md`
+- 팩트 시트 + `## Translation audit` (또는 `translations/<slug>.md`)
+
+### 3) `docs/fact-audit/AG_PHASE1_REPORT.md`
 
 ```markdown
 ## 요약
-- 처리 slug: N/35
-- P0: n건 (목록)
-- [검토 필요] claim 총 m건
-- validate:post PASS: x / FAIL: y (FAIL 상위 5개 gate 이름)
+- slug: N/35
+- P0: … | T0 번역: … | T1: …
+- validate PASS/FAIL, 번역 관련 FAIL 상위 목록
 
-## Cursor에 넘길 작업
-1. P0 slug부터 URL 대조·md 수정
-2. …
+## Cursor 2차
+1. P0 + T0 slug
+2. ja-formal-tone / disclaimer / ko-formal-tone 일괄
+3. EN I-voice, JA ですます, 한글 혼입 제거
 
-## AG가 수정하지 않은 것 (확인)
+## AG 미수정 확인
 - [ ] ko/en/ja md 미변경
 - [ ] git push 없음
 ```
 
 ## 작업 방식
-- **한 번에 5~7 slug**씩 Wave 순서대로. 35개 끝날 때까지 반복.
-- 막히면 slug 건너뛰고 INDEX에 `blocked: 이유` 기록.
+- **5~7 slug/회**, Wave 순서
+- 번역은 **세 locale 파일 동시 오픈** 후 비교
 
-## 완료 정의 (AG 기준)
-- 35 slug 전부 INDEX 행 존재
-- P0/P1 slug는 fact sheet에 **모든 수치** 행 존재
-- `AG_PHASE1_REPORT.md` 저장
-- **“발행 가능/검증 완료” 문구 사용 금지** — 반드시 **「1차 초안 완료, Cursor 재검증 대기」**
+## 완료 정의
+- 35 slug INDEX + fact sheet + **translation audit 초안**
+- 보고 말미: **「팩트·번역 1차 초안 완료, Cursor 재검증 대기」** (발행 가능 금지)
 
-작업 시작 시 먼저 `docs/fact-audit/` 폴더를 만들고 Wave 1 첫 slug부터 진행해줘.
+`docs/fact-audit/` 폴더 만들고 Wave 1 첫 slug부터 시작해줘.
 ```
 
 ---
 
-## Cursor 2차 지시 (AG 완료 후 사용자가 Cursor에 붙여넣기)
+## Cursor 2차 지시 (AG 완료 후)
 
 ```markdown
-AG 1차 팩트 감사가 끝났어. `docs/fact-audit/INDEX.md`와 P0 slug부터 재검증해줘.
-- tier-1 URL 직접 확인 후 md 최소 수정
-- `pnpm validate:post <slug>` exit 0
-- 커밋은 슬러그 묶음별로 내가 요청할 때만
+AG 1차 팩트·번역 감사 완료. `docs/fact-audit/INDEX.md` 기준으로:
+1. P0·T0 slug — URL·수치·번역 사실 오류 수정
+2. T1 — EN I-voice, JA ですます, 한글 혼입, disclaimer
+3. slug마다 `pnpm validate:post` exit 0
+커밋은 내가 요청할 때만.
 ```
 
 ---
 
-## 참고 (2026-05-25 스캔)
+## 참고 (validate 스캔 2026-05-25)
 
-전체 35 slug `pnpm validate:post` 일괄 실행 시 **당시 전부 FAIL** (예: `ko-formal-tone`, `disclaimer-present` 등 게이트).  
-→ AG는 FAIL **기록**만 하고, 게이트 수정은 Cursor 단계에서 처리.
+35/35 slug 당시 `validate:post` **FAIL** 다수 (`ko-formal-tone`, `ja-formal-tone`, `disclaimer-present` 등). AG는 기록만, 수정은 Cursor.
