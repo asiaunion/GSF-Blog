@@ -19,6 +19,13 @@
 `docs/antigravity-context/` — 스크래치·브레인에서 가져온 스펙·진단 문서  
 `docs/antigravity-knowledge/` — 안티그래비티 knowledge (`gsf_blog_*`) 스냅샷
 
+## AG 이미지 규칙 (자동)
+
+- 전역: `~/.gemini/config/rules/agent_rules.md`
+- Knowledge: `gsf_blog_image_option_a`
+- 레포: `BLOG_IMAGE_RULES_1PAGE.md`, `BLOG_IMAGE_INTENT_RULES.md`, `.cursor/rules/blog-images-option-a.mdc`
+- 요약: `AGENTS.md`
+
 ## 로컬 실행
 
 ```bash
