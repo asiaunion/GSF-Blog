@@ -1,7 +1,7 @@
 ---
 title: "A Weekend Stroll in Ginza: Art Bookstores, Hidden Observatories, and the Serenity of Pedestrian Paradise"
 description: "A serene and artistic weekend scene behind the glamorous luxury streets of Ginza. A sentimental walking guide covering Tsutaya Books curation, the rooftop garden with Tokyo Tower views, and Pedestrian Paradise."
-pubDatetime: 2026-05-24T13:35:00Z
+pubDatetime: 2026-05-24T01:00:00Z
 author: GSF
 lang: en
 category: local

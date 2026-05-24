@@ -14,8 +14,6 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 import { getLegacyPostRedirects } from "./src/build/legacyPostRedirects";
-import { getCrossLocaleTagRedirects } from "./src/build/crossLocaleTagRedirects";
-import { getTagPaginationRedirects } from "./src/build/tagPaginationRedirects";
 import { pagefindIntegration } from "./src/build/pagefindIntegration";
 
 // https://astro.build/config
@@ -26,9 +24,11 @@ export default defineConfig({
   redirects: {
     // Astro emits sitemap-index.xml, not sitemap.xml (GSC may submit the wrong path)
     "/sitemap.xml": { status: 308, destination: "/sitemap-index.xml" },
+    // Korean legacy post slugs — explicit 1:1 mapping (18 rules)
     ...getLegacyPostRedirects(),
-    ...getCrossLocaleTagRedirects(),
-    ...getTagPaginationRedirects(),
+    // Tag URL normalization (locale × encoding × case × pagination × slash) and
+    // WP legacy redirects are injected by patchVercelConfig() into
+    // .vercel/output/config.json post-build — see src/build/patchVercelRedirectsTrailingSlash.ts
   },
   i18n: {
     defaultLocale: "en",

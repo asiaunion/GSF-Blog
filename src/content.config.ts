@@ -121,4 +121,17 @@ const contact = defineCollection({
   }),
 });
 
-export const collections = { blog, about, privacy, contact };
+const resources = defineCollection({
+  loader: glob({
+    pattern: "tokyo-relocation-d90/*.md",
+    base: "./src/data/resources",
+  }),
+  schema: z.object({
+    lang: z.enum(["en", "ko", "ja"]),
+    title: z.string(),
+    description: z.string(),
+    downloadBasename: z.string(),
+  }),
+});
+
+export const collections = { blog, about, privacy, contact, resources };

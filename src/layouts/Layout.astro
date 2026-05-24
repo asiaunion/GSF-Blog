@@ -283,10 +283,24 @@ const structuredData = overrideJsonLd ?? {
 
     {
       PUBLIC_ADSENSE_PUBLISHER_ID && (
-        <meta
-          name="google-adsense-account"
-          content={PUBLIC_ADSENSE_PUBLISHER_ID}
-        />
+        <>
+          <meta
+            name="google-adsense-account"
+            content={PUBLIC_ADSENSE_PUBLISHER_ID}
+          />
+          {/*
+            AdSense auto-ads loader. Required by AdSense "Connect site" verification
+            and for actual ad rendering after approval. The script tag itself doesn't
+            display ads until AdSense approves the account and pushes ad units; it
+            simply lets `Mediapartners-Google` confirm site ownership during review.
+          */}
+          <script
+            is:inline
+            async
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${PUBLIC_ADSENSE_PUBLISHER_ID}`}
+            crossorigin="anonymous"
+          />
+        </>
       )
     }
 

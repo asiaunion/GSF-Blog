@@ -7,6 +7,8 @@
 ### Primary Goal
 GSF-Blog 포스트를 SNS(X, LinkedIn, Threads)에 반자동으로 발신하여 organic social traffic을 확보하고, E-E-A-T 신호를 강화한다.
 
+**Pilot cadence (Phase 1)**: 주 **1–2건** — 상세는 [`docs/SNS_PILOT_CADENCE.md`](docs/SNS_PILOT_CADENCE.md).
+
 ### Success Definition
 - 포스트 slug 입력 → 플랫폼별·언어별 초안이 아티팩트로 생성됨
 - YMYL 가드레일 통과: 구체적 수치·투자 권유 표현이 초안에 포함되지 않음
