@@ -14,7 +14,8 @@
     "cleanup:strikethrough": "python3 scripts/fix_strikethrough.py",
     "cleanup:integrity": "python3 scripts/fix_integrity.py",
     "scan:md": "node scripts/detect_duplicate_markdown_sections.mjs",
-    "verify:svg-posts": "node scripts/verify-svg-posts.mjs"
+    "verify:svg-posts": "node scripts/verify-svg-posts.mjs",
+    "validate:post": "npx --yes tsx scripts/validate-blog-post.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",

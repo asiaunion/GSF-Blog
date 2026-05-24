@@ -22,6 +22,8 @@ import NewsletterForm from "@/components/NewsletterForm.astro";
 import GiscusComments from "@/components/GiscusComments.astro";
 import RelatedPosts from "@/components/RelatedPosts.astro";
 import SourcesList from "@/components/SourcesList.astro";
+import HighIntentPostCta from "@/components/HighIntentPostCta.astro";
+import { postSlugFromId } from "@/data/highIntentCta";
 import { getUi, type UiLang } from "@/i18n/ui";
 
 type Props = {
@@ -65,6 +67,8 @@ const {
 
 const showInlineDisclaimer =
   category === "investment" || category === "safety";
+
+const postSlug = postSlugFromId(post.id);
 
 const disclaimerLang =
   postLang ?? (post.id.startsWith("ko/") ? "ko" : post.id.startsWith("ja/") ? "ja" : "en");
@@ -180,6 +184,13 @@ const nextPost =
     {sources && sources.length > 0 && (
       <SourcesList sources={sources} lang={disclaimerLang} />
     )}
+
+    <HighIntentPostCta
+      lang={navLang}
+      localePrefix={localePrefix}
+      category={category}
+      slug={postSlug}
+    />
 
     <hr class="my-8 border-border border-solid" />
 

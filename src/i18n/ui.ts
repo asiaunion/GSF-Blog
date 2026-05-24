@@ -99,6 +99,15 @@ const ui = {
     newsletterCta: "Subscribe",
     newsletterDisclaimer:
       "No spam. Unsubscribe anytime. Your email stays private.",
+    leadMagnetCta: "Free: Tokyo relocation D-90 checklist →",
+    highIntentCtaTitle: "Need help with your Japan project?",
+    highIntentCtaBodyFreelance:
+      "I build AI workflow automation and multilingual Astro/Vercel sites from Tokyo (KR/EN/JA). Small setups from ~¥50k — ask via contact or LinkedIn.",
+    highIntentCtaBodyMagnetOnly:
+      "Planning a move or cross-border setup? Start with the free checklist below.",
+    highIntentCtaMagnetLink: "Tokyo relocation D-90 checklist (free) →",
+    highIntentCtaContact: "Contact",
+    highIntentCtaLinkedIn: "LinkedIn",
     commentsTitle: "Discussion",
     commentsDescription:
       "Share your thoughts — powered by GitHub Discussions.",
@@ -215,6 +224,15 @@ const ui = {
     newsletterCta: "구독하기",
     newsletterDisclaimer:
       "스팸 없음. 언제든 구독 해지 가능. 이메일은 안전하게 보호됩니다.",
+    leadMagnetCta: "무료: 도쿄 이주 D-90 체크리스트 →",
+    highIntentCtaTitle: "일본 관련 프로젝트가 필요하신가요?",
+    highIntentCtaBodyFreelance:
+      "도쿄 거주 개발자(GSF)입니다. AI 업무 자동화·Astro/Vercel 다국어 사이트 구축을 합니다. 소규모 세팅 ¥5만円〜 — 문의 또는 LinkedIn으로 연락 주세요.",
+    highIntentCtaBodyMagnetOnly:
+      "이주·크로스보더 준비 중이시라면 아래 무료 체크리스트부터 보세요.",
+    highIntentCtaMagnetLink: "도쿄 이주 D-90 체크리스트 (무료) →",
+    highIntentCtaContact: "문의하기",
+    highIntentCtaLinkedIn: "LinkedIn",
     commentsTitle: "댓글",
     commentsDescription:
       "의견을 남겨주세요 — GitHub Discussions 기반입니다.",
@@ -331,6 +349,15 @@ const ui = {
     newsletterCta: "購読する",
     newsletterDisclaimer:
       "スパムなし。いつでも解除可能。メールは安全に保護されます。",
+    leadMagnetCta: "無料：東京移住 D-90 チェックリスト →",
+    highIntentCtaTitle: "日本関連のプロジェクトでお困りですか？",
+    highIntentCtaBodyFreelance:
+      "東京在住の開発者（GSF）です。AI業務自動化・Astro/Vercelの多言語サイト構築が専門です。小規模なら5万円〜 — お問い合わせまたはLinkedInでご連絡ください。",
+    highIntentCtaBodyMagnetOnly:
+      "移住・クロスボーダーの準備中なら、まず無料チェックリストをご覧ください。",
+    highIntentCtaMagnetLink: "東京移住 D-90 チェックリスト（無料）→",
+    highIntentCtaContact: "お問い合わせ",
+    highIntentCtaLinkedIn: "LinkedIn",
     commentsTitle: "ディスカッション",
     commentsDescription:
       "ご意見をお聞かせください — GitHub Discussionsベースです。",

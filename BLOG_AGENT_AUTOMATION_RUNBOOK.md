@@ -1,5 +1,9 @@
 # Blog Agent Automation Runbook
 
+> **Hybrid workflow (default)**: **AG** writes; **Cursor** runs `pnpm validate:post` before git/deploy.  
+> Handoff: tell Cursor 「slug … 검증 부탁」 after ko/en/ja md are in repo (same slug, three folders).  
+> See [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) § Quick reference. Telegram is **optional (legacy)**.
+
 ## Endpoint
 - `POST /api/blog-agent/workflow`
 
@@ -35,7 +39,11 @@
   - 제목-본문 핵심 토큰 정합성 점검
   - 하드 게이트 미충족 시 즉시 발행 차단
 
-## Telegram commands (GSF-Research)
+## Telegram commands (GSF-Research) — legacy, optional
+
+> **Current ops**: Blog work does **not** require Telegram. Use AG + repo md files + Cursor `validate:post` + git deploy.  
+> Below commands remain for GSF-Research bot if you re-enable it. `/blog_publish` ≈ API `apply_publish` (writes md after validation).
+
 - `/blog_help`
 - `/blog_start <키워드>`
 - `/blog_memo <메모>`
@@ -59,10 +67,15 @@
   - `docs.en_doc_id`, `docs.en_doc_url`
   - `docs.ja_doc_id`, `docs.ja_doc_url`
 
-## Weekly operations (Balanced: 3 posts/week)
-- 월요일: `/blog_start_flow` -> Docs 편집 시작(원문 KO)
-- 수요일: `/blog_sync` -> `/blog_translate` 실행
-- 금요일: EN/JA 최종 검수 후 `/blog_publish`
+## Per-post operations (cadence: ~3 posts/week, no fixed weekdays)
+
+Each post, in order:
+
+1. **AG**: research → KO (→ EN/JA) → save to `src/data/blog/{ko,en,ja}/<slug>.md` (or Docs then export)
+2. **Cursor**: fact sheet → `pnpm validate:post <slug>` → exit 0
+3. **You**: git commit + deploy
+
+Cross-cutting (any time): [`SEO_JA_CLUSTER_FOCUS.md`](docs/SEO_JA_CLUSTER_FOCUS.md), [`EDITORIAL_TOPIC_POLICY.md`](docs/EDITORIAL_TOPIC_POLICY.md), [`WEEKLY_KPI_REVIEW.md`](docs/WEEKLY_KPI_REVIEW.md) when convenient.
 
 ## Pilot metrics (3 posts/week)
 - 목표 운영량: 주 3편(월/수/금)
@@ -80,7 +93,7 @@
   - `notes`: 다음 주 개선 액션
 
 ## Gate failure remediation
-- 발행 실패 시 텔레그램이 항목별 보완 지시문을 자동 출력합니다.
+- `pnpm validate:post` 또는 API `apply_publish` 실패 시 JSON `failed` 배열 확인.
 - 우선 조치 순서:
   1) references/sources 무결성
   2) 분량(1800~2300) 및 제목 정합성
@@ -110,11 +123,10 @@
    - `BLOG_KO_WRITER_MODEL=claude-3-5-sonnet-latest`
    - `ANTHROPIC_API_KEY` 설정
    - 봇/앱 재시작
-2. 테스트 입력(텔레그램)
-   - `블로그 시작 도쿄 니혼바시 코레도 무로마치 재개발`
-   - Docs에서 본문 확인 후 필요한 경우 최소 편집
-   - `블로그 동기화`
-   - `블로그 발행`
+2. 테스트 입력 (AG or legacy Telegram)
+   - Start workflow / write KO in Docs or repo
+   - `pnpm validate:post <slug>` in Cursor
+   - git commit + deploy (or Telegram `블로그 발행` if bot enabled)
 3. 합격 기준
    - `llmMeta.used=true` 또는 fallback이어도 품질 점수 기준 통과
    - Joseph 점수 `>= BLOG_SCORE_THRESHOLD` (기본 80)
@@ -127,12 +139,17 @@
 5. 테스트 종료 기록(권장)
    - `keyword`, `score`, `llmMeta.used`, `fallbackReason`, `published 여부`, `actual_cost_usd`를 로그에 남김
 
-## Pre-publish approval checklist
-- KO 본문이 Docs에서 최종 확정되었는지 확인
-- `sources`/`references` 누락 및 포함관계(`references ⊆ sources`) 확인
-- 정부/공공/언론 출처가 최소 1개 이상 포함되었는지 확인
-- 과도한 외부 링크/단정형 표현/번역 중복감 게이트 통과 확인
-- 최종 승인자와 승인 시간(텔레그램 승인 로그) 보존 확인
+## Pre-publish approval checklist (Cursor)
+
+Full flow: [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) · Fact-check: [`docs/BLOG_FACT_CHECK_WORKFLOW.md`](docs/BLOG_FACT_CHECK_WORKFLOW.md)
+
+- [ ] KO 본문이 Docs에서 최종 확정되었는지 확인 (AG)
+- [ ] `src/data/blog/{ko,en,ja}/<slug>.md` repo에 반영
+- [ ] Fact sheet completed — all numbers/legal claims verified
+- [ ] `pnpm validate:post <slug>` exit **0** (hard gates + score + build)
+- [ ] Human skim: title, disclaimer, JA tone (5–10 min)
+- [ ] Git commit + deploy (or legacy API `apply_publish` if using workflow API)
+- [ ] Validate JSON 요약을 주간 KPI `notes`에 기록 (optional)
 
 ## Public preview link (mobile/external)
 - Static preview server:
