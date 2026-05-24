@@ -62,9 +62,6 @@ Pedestrian Paradise — a system that completely blocks vehicle traffic on Satur
 
 Chuo-dori, which is normally filled with luxury sedans and honking horns, is completely occupied by the footsteps of people during Saturdays, Sundays, and public holidays (midday hours only).
 
-![Ginza Chuo-dori Pedestrian Paradise](/assets/images/blog/ginza-weekend-walking-guide-1.jpg)
-*Ginza Chuo-dori during the weekend 'Pedestrian Paradise' hours. On the left, you can see Yamano Music, representing the highest land value in Japan for 20 consecutive years.*
-
 Standing in the middle of this wide avenue and looking up at the surrounding skyscrapers is a remarkably unique experience. In the photo I captured today, the sheer sense of weekend liberation is clearly visible in the expressions of the people strolling freely across the asphalt.
 
 Specifically, the building on the left side of the photo, **Yamano Music Ginza Flagship Store (山野楽器 銀座本店)**, holds the legendary status of having the **most expensive land in Japan for 20 consecutive years** according to the 2026 Land Price Appraisal. Walking freely on this world-class asphalt, valued at approximately **67.1 million yen** per square meter, without paying a single cent and snapping commemorative photos is perhaps the most delightful gift that weekend Ginza offers.
