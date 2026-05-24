@@ -63,11 +63,11 @@ Pedestrian Paradise — a system that completely blocks vehicle traffic on Satur
 Chuo-dori, which is normally filled with luxury sedans and honking horns, is completely occupied by the footsteps of people during Saturdays, Sundays, and public holidays (midday hours only).
 
 ![Ginza Chuo-dori Pedestrian Paradise](/assets/images/blog/ginza-weekend-walking-guide-1.webp)
-*Ginza Chuo-dori during the weekend Pedestrian Paradise hours, where vehicle traffic is completely blocked. On the left side of the street stands the historic Yamano Music. (Faces in the foreground have been mosaic-processed to protect privacy.)*
+*Ginza Chuo-dori during the weekend Pedestrian Paradise hours, where vehicle traffic is completely blocked. On the left side of the street stands the historic Yamano Music. (Foreground faces have been softly blurred to protect privacy.)*
 
-Standing in the middle of this wide avenue and looking up at the surrounding skyscrapers is a remarkably unique experience. In the photo I captured today, the sheer sense of weekend liberation is clearly visible in the expressions of the people strolling freely across the asphalt.
+Standing in the middle of this wide avenue and looking up at the surrounding skyscrapers is a remarkably unique experience. The crowd flowing across the open asphalt and the skyline on both sides alone convey the relaxed weekend rhythm of Ginza.
 
-Specifically, the building on the left side of the photo, **Yamano Music Ginza Flagship Store (山野楽器 銀座本店)**, holds the legendary status of having the **most expensive land in Japan for 20 consecutive years** according to the 2026 Land Price Appraisal. Walking freely on this world-class asphalt, valued at approximately **67.1 million yen** per square meter, without paying a single cent and snapping commemorative photos is perhaps the most delightful gift that weekend Ginza offers.
+On the left side of the street, **Yamano Music Ginza Flagship Store (山野楽器 銀座本店)**, holds the legendary status of having the **most expensive land in Japan for 20 consecutive years** according to the 2026 Land Price Appraisal. Walking freely on this world-class asphalt, valued at approximately **67.1 million yen** per square meter, without paying a single cent and snapping commemorative photos is perhaps the most delightful gift that weekend Ginza offers.
 
 Right next to Yamano Music stands the **Kyobunkand (教文館)** building, a historic bookstore founded in 1885 and opened in Ginza in 1891, which has weathered all the storms of the district. On the right, the traditional **Ginza Mitsukoshi (MITSUKOSHI)** department store stands firm, visually showcasing the unique historical layers where Ginza's past and present coexist.
 
