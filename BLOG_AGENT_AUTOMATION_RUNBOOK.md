@@ -141,12 +141,12 @@ Cross-cutting (any time): [`SEO_JA_CLUSTER_FOCUS.md`](docs/SEO_JA_CLUSTER_FOCUS.
 
 ## Pre-publish approval checklist (Cursor)
 
-Full flow: [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) · Fact-check: [`docs/BLOG_FACT_CHECK_WORKFLOW.md`](docs/BLOG_FACT_CHECK_WORKFLOW.md) · Image Rules: [`BLOG_IMAGE_INTENT_RULES.md`](BLOG_IMAGE_INTENT_RULES.md)
+Full flow: [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) · Fact-check: [`docs/BLOG_FACT_CHECK_WORKFLOW.md`](docs/BLOG_FACT_CHECK_WORKFLOW.md) · Image Rules: [`BLOG_IMAGE_RULES_1PAGE.md`](BLOG_IMAGE_RULES_1PAGE.md) (상세: [`BLOG_IMAGE_INTENT_RULES.md`](BLOG_IMAGE_INTENT_RULES.md))
 
 - [ ] KO 본문이 Docs에서 최종 확정되었는지 확인 (AG)
 - [ ] `src/data/blog/{ko,en,ja}/<slug>.md` repo에 반영
 - [ ] Fact sheet completed — all numbers/legal claims verified
-- [ ] 이미지/에셋 작업이 [`BLOG_IMAGE_INTENT_RULES.md`](BLOG_IMAGE_INTENT_RULES.md) 규격(Option A 2장 구조, 중복 절대 금지, 약한 가우시안 블러로 실루엣 보존, 셀카/무관한 사진 제외)을 완수했는지 확인
+- [ ] 이미지/에셋 작업이 [`BLOG_IMAGE_RULES_1PAGE.md`](BLOG_IMAGE_RULES_1PAGE.md) 규격(Option A 2장 구조, 중복 절대 금지, 약한 가우시안 블러로 실루엣 보존, 셀카/무관한 사진 제외)을 완수했는지 확인
 - [ ] `pnpm validate:post <slug>` exit **0** (hard gates + score + build)
 - [ ] Human skim: title, disclaimer, JA tone (5–10 min)
 - [ ] Git commit + deploy (or legacy API `apply_publish` if using workflow API)

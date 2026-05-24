@@ -24,7 +24,7 @@
 - [ ] `llmMeta.used=true` 또는 fallback이어도 점수/게이트 통과
 - [ ] Joseph score >= threshold (기본 80)
 - [ ] hard gates 100% 통과
-- [ ] 이미지/에셋 [`BLOG_IMAGE_INTENT_RULES.md`](BLOG_IMAGE_INTENT_RULES.md) 규격(Option A 2장 구조, 중복 절대 금지, 약한 블러링으로 실루엣 보존) 통과
+- [ ] 이미지/에셋 [`BLOG_IMAGE_RULES_1PAGE.md`](BLOG_IMAGE_RULES_1PAGE.md) 규격(Option A 2장 구조, 중복 절대 금지, 약한 블러링으로 실루엣 보존) 통과
 - [ ] 발행 완료(slug/targetPaths 확인)
 
 ## Failure Triage
