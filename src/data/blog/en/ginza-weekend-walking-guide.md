@@ -5,7 +5,7 @@ pubDatetime: 2026-05-24T01:00:00Z
 author: GSF
 lang: en
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.jpg"
+ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.webp"
 tags:
   - TokyoStroll
   - GinzaSix
@@ -61,6 +61,9 @@ Stepping out of GINZA SIX and onto Chuo-dori Street, I encountered the highlight
 Pedestrian Paradise — a system that completely blocks vehicle traffic on Saturdays, Sundays, and public holidays (midday hours only) to open streets exclusively for pedestrians — was first introduced in Ginza on August 2, 1970. This year, in 2026, marks the proud **56th anniversary** of this living tradition of Ginza.
 
 Chuo-dori, which is normally filled with luxury sedans and honking horns, is completely occupied by the footsteps of people during Saturdays, Sundays, and public holidays (midday hours only).
+
+![Ginza Chuo-dori Pedestrian Paradise](/assets/images/blog/ginza-weekend-walking-guide-1.webp)
+*Ginza Chuo-dori during the weekend Pedestrian Paradise hours, where vehicle traffic is completely blocked. On the left side of the street stands the historic Yamano Music. (Faces in the foreground have been mosaic-processed to protect privacy.)*
 
 Standing in the middle of this wide avenue and looking up at the surrounding skyscrapers is a remarkably unique experience. In the photo I captured today, the sheer sense of weekend liberation is clearly visible in the expressions of the people strolling freely across the asphalt.
 
