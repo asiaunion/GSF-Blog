@@ -1,7 +1,7 @@
 # [GSF-Blog · 1페이지] 여행·산책 포스트 이미지 규칙 (Option A)
 
 > **트리거:** 히어로/본문 이미지, ogImage, 프라이버시·블러, `ginza-weekend` 유형 산책 가이드  
-> **상세 사례:** Knowledge `ginza-weekend 이미지 실패·정답 (롱)` ([BLOG_IMAGE_INTENT_RULES.md](BLOG_IMAGE_INTENT_RULES.md)) 참고
+> **상세 사례:** AG Knowledge `gsf_blog_image_option_a` · [BLOG_IMAGE_INTENT_RULES.md](BLOG_IMAGE_INTENT_RULES.md)
 
 ---
 
