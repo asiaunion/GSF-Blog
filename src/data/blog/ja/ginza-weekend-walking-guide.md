@@ -5,7 +5,7 @@ pubDatetime: 2026-05-24T01:00:00Z
 author: GSF
 lang: ja
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.jpg"
+ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.webp"
 tags:
   - 東京散策
   - 銀座シックス
@@ -61,6 +61,9 @@ GINZA SIXを出て中央通りに向かうと、週末の銀座散策のハイ�
 歩行者天国とは、毎週土・日・祝日の日中に中央車線の自動車通行を全面禁止し、歩行者のためだけに開放する制度です。1970年8月2日に銀座で初めて導入され、今年で実に**56年目**を迎える銀座の生き生きとした伝統です。
 
 普段は数多くの高級外車やクラクションの音が溢れる中央通りが、週末には人々の足音だけで満たされます。
+
+![銀座中央通りの歩行者天国の様子](/assets/images/blog/ginza-weekend-walking-guide-1.webp)
+*週末の土・日・祝日の日中、車両通行止めとなった中央通り「歩行者天国」の様子。左側の建物エリアに山野楽器 銀座本店があります。（歩行者のプライバシー保護のため、手前の人物にはモザイク処理を施しています。）*
 
 この道路の真ん中に立ち、両側にそびえ立つビル群を見上げる感覚は新鮮で特別です。本日、私がカメラのフレームに収めた写真を見ても、広々としたアスファルトの車道を自由に闊歩する人々の表情から、週末特有の解放感がはっきりと伝わってきます。
 

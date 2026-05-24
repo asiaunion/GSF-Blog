@@ -5,7 +5,7 @@ pubDatetime: 2026-05-24T01:00:00Z
 author: GSF
 lang: ko
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.jpg"
+ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.webp"
 tags:
   - 도쿄산책
   - 긴자식스
@@ -61,6 +61,9 @@ references:
 보행자 천국이란 매주 토·일·공휴일, 낮 시간대 동안 중앙 차로의 자동차 통행을 전면 금지하고 오직 보행자만을 위해 개방하는 인도화 제도입니다. 1970년 8월 2일 긴자에서 처음 도입되어, 올해로 무려 **56년째** 이어져 내려오는 긴자의 살아있는 전통입니다.
 
 평소 수많은 고급 승용차와 경적이 가득하던 츄오도리의 넓은 아스팔트 도로가 주말에는 오롯이 사람들의 발걸음으로 채워집니다. 
+
+![긴자 츄오도리 보행자 천국 전경](/assets/images/blog/ginza-weekend-walking-guide-1.webp)
+*주말 토·일·공휴 낮 시간, 차량 통행이 금지된 츄오도리 보행자 천국. 왼편 건물 일대에 야마노 악기 긴자 본점이 있습니다. (인물은 프라이버시 보호를 위해 전경을 편집했습니다.)*
 
 이 도로 한가운데 서서 양옆으로 늘어선 빌딩 숲을 올려다보는 느낌은 무척 이색적입니다. 마침 제가 카메라 프레임에 담아본 사진을 보아도, 탁 트인 아스팔트 차도를 자유롭게 활보하는 사람들의 표정에서 주말 고유의 해방감이 고스란히 묻어납니다. 
 
