@@ -1,7 +1,8 @@
 # Next work queue (after trust housekeeping)
 
 > **Trust / T3:** Fixed — [`fact-audit/T3_POLICY.md`](./fact-audit/T3_POLICY.md).  
-> **Do not** reopen full batch T3 unless policy changes.
+> **Do not** reopen full batch T3 unless policy changes.  
+> **Full session context:** [`GSF_BLOG_SESSION_ARCHIVE_20260525.md`](./GSF_BLOG_SESSION_ARCHIVE_20260525.md)
 
 Work in order. Check off in this file or weekly KPI when done.
 

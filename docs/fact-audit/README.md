@@ -1,6 +1,7 @@
 # Fact audit (AG → Cursor)
 
-**Start here for trust ops:** [`../BLOG_TRUST_AND_QUALITY_ROADMAP.md`](../BLOG_TRUST_AND_QUALITY_ROADMAP.md)
+**Start here for trust ops:** [`../BLOG_TRUST_AND_QUALITY_ROADMAP.md`](../BLOG_TRUST_AND_QUALITY_ROADMAP.md)  
+**Session archive (2026-05-25):** [`../GSF_BLOG_SESSION_ARCHIVE_20260525.md`](../GSF_BLOG_SESSION_ARCHIVE_20260525.md)
 
 ## Lifecycle
 
