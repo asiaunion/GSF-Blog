@@ -13,11 +13,13 @@ tags:
   - 三鬼商事
   - 投資戦略
 sources:
-  - "https://www.e-miki.com/market/"
-  - "https://www.reins.or.jp/"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.e-miki.com/rent/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://www.mlit.go.jp/en/"
 references:
-  - "https://www.e-miki.com/market/"
-  - "https://www.reins.or.jp/"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 東京の都心オフィス市場は、2023年の「大量供給」懸念を乗り越え、2026年現在、非常にタイトな局面を迎えています。賃料、空室率、そして大規模開発の竣工が、これまでのサイクルとは異なる**「超・二極化」**のパターンを生み出しています。
 
@@ -67,8 +69,8 @@ references:
 
 投資家は、以下のルーチンを推奨します。
 
-1.  **[三鬼商事](https://www.e-miki.com/market/)の月次レポート**: 空室率と平均賃料のベンチマークを確認。
-2.  **[REINS](https://www.reins.or.jp/)とのクロスチェック**: 実際の取引市場の熱感を把握。
+1.  **[三鬼商事](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 東京月次**（[アーカイブ](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [ポータル](https://www.e-miki.com/rent/)）: 空室率と平均賃料のベンチマーク。
+2.  **[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)**（[アーカイブ](/assets/sources/reins-202604-marketwatch.pdf)）とのクロスチェック。
 3.  **大手ディベロッパーのIR資料**: 今後5年の供給パイプラインをマッピング。
 
 **2026年の東京オフィス市場は、単なる「回復」ではなく「質的な再編」の時期です。** 資産配分を調整する際は、「5区」という名前に頼るのではなく、「人材を引き寄せるハードウェア」かどうかを最優先に評価すべきです。
@@ -78,7 +80,7 @@ references:
 > **データ鮮度（2026年4月）：** BOJ政策金利 0.75%、10年物JGB ≈ 2.43%、TSE REITインデックス ≈ 1,916、東京5区空室率 2.22%（三鬼商事 Q1 2026）、Q1 2026インバウンド観光客 1,068万人（JNTO）。投資判断前にリンク先の最新データを必ずご確認ください。
 ## Investor Action: セッション要約と点検
 
-- [ ] **需給**: [三鬼商事](https://www.e-miki.com/market/)のデータで、ターゲット区の空室率が2%を下回っているか、募集賃料が「実質（Effective）」ベースで上昇しているかを確認してください。
+- [ ] **需給**: [三鬼商事](https://www.e-miki.com/rent/assets/market/tokyo.xlsx)のデータで、ターゲット区の空室率が2%を下回っているか、募集賃料が「実質（Effective）」ベースで上昇しているかを確認してください。
 - [ ] **極化**: 新築ランドマークへテナントが移転した後の、周辺Bクラスビルの「二次空室」リスクを現地で必ずチェックしてください。
 - [ ] **収益**: 表面上の賃料に惑わされず、フリーレント期間を除いた実質収益を算出してください。
 

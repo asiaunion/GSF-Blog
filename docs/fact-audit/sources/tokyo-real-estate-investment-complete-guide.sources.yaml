@@ -1,0 +1,42 @@
+# Source manifest — tokyo-real-estate-investment-complete-guide (pillar)
+# Used by scripts/check-source-urls.mjs and editorial dual-link pattern.
+slug: tokyo-real-estate-investment-complete-guide
+asOfDefault: "2026-04"
+
+claims:
+  - id: reins-tokyo23-median
+    koQuote: "도쿄 23구 기존 맨션 중위 가격은 약 9,200만 엔(㎡당 약 140만 엔)"
+    values: ["9200", "140"]
+    primaryUrl: https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf
+    archivePath: /assets/sources/reins-202604-marketwatch.pdf
+    asOf: "2026-04"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+
+  - id: mlit-foreign-buyer-share
+    koQuote: "해외 주소 보유자 비중 3.5% / 도심 6구 7.5% (2024년 3.2%)"
+    values: ["3.5%", "7.5%", "3.2%"]
+    primaryUrl: https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html
+    primaryPdf: https://www.mlit.go.jp/report/press/content/001970012.pdf
+    archivePath: /assets/sources/mlit-202511-mansion-foreign-buyer.pdf
+    asOf: "2025-H1"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+
+  - id: miki-office-vacancy-five-wards
+    koQuote: "도심 5구 오피스 공실률 2.22%"
+    values: ["2.22%"]
+    primaryUrl: https://www.e-miki.com/rent/assets/market/tokyo.xlsx
+    archivePath: /assets/sources/miki-202603-tokyo-office-market.xlsx
+    portalUrl: https://www.e-miki.com/rent/
+    asOf: "2026-Q1"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+
+  - id: tax-metro-fixed-asset
+    koQuote: "고정자산세 1.4% (표본)"
+    values: ["1.4%"]
+    primaryUrl: https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi
+    asOf: "2026"
+    verifiedAt: "2026-05-25"
+    verifier: Cursor

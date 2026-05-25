@@ -9,15 +9,13 @@ ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insigh
 tags: ["부동산", "도쿄6구", "투자전략", "매크로", "인사이트"]
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.stat.go.jp/english/"
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 references:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 거대한 자본의 물결이 도쿄의 한가운데로 블랙홀처럼 빨려 들어가고 있습니다. 글로벌 지정학적 긴장과 끝을 짐작하기 힘든 엔저 기조가 맞물리면서, 도쿄 도심의 부동산은 더 이상 단순한 '주거 공간'을 넘어 아시아의 '마지막 안전 자산(Safe Haven)'으로 진화했습니다. 
 
@@ -29,7 +27,7 @@ references:
 
 최근 2년간(2023\~2024) 도쿄의 핵심지 맨션(아파트) 시장을 관통하는 키워드는 단연 **'극단적 공급 부족'**과 **'사상 최고치 경신'**이었습니다. 
 
-Tokyo Kantei에 따르면, 핵심 6구의 70㎡ 기준 중고 맨션 평균 호가는 2025년 내내 **1억 4,000만 엔을 상회**하며 2025년 말에는 1억 6,000만\~1억 7,000만 엔대로 올랐고, 2026년 Q1 조정 진입 전에는 1억 8,700만\~1억 9,500만 엔대까지 상승했습니다. 전년 대비로는 도쿄 23구가 **2025년 +34.6%**, 중심 6구만으로는 2025년 4월 **+38.6%** 상승을 기록했습니다.([Tokyo Kantei, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf)) 이 궤적은 일반적인 근로 소득의 한계를 아득히 뛰어넘었습니다.
+Tokyo Kantei에 따르면, 핵심 6구의 70㎡ 기준 중고 맨션 평균 호가는 2025년 내내 **1억 4,000만 엔을 상회**하며 2025년 말에는 1억 6,000만\~1억 7,000만 엔대로 올랐고, 2026년 Q1 조정 진입 전에는 1억 8,700만\~1억 9,500만 엔대까지 상승했습니다. 전년 대비로는 도쿄 23구가 **2025년 +34.6%**, 중심 6구만으로는 2025년 4월 **+38.6%** 상승을 기록했습니다. ([Tokyo Kantei, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf) · [보관본](/assets/sources/kantei-2025-chukomansion.pdf)) 이 궤적은 일반적인 근로 소득의 한계를 아득히 뛰어넘었습니다.
 
 **실제로 내가 새롭게 이사한 니혼바시의 경우도 급격히 상승한 부동산 가격을 피부로 실감할 수 있습니다. 우리 집 근처의 신축이 아닌 맨션의 경우에도 매매가가 3억 엔이 훌쩍 넘어가는 것을 중개 사무소의 안내문을 보고 많이 놀랐습니다. 거창한 대단지 럭셔리 맨션이 아닌, 한국으로 치면 평범한 '나홀로 아파트'와 같은 물건인데도 말입니다.** 
 

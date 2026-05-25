@@ -6,6 +6,20 @@
 | **Title (KO)** | tokyo-real-estate-investment-complete-guide report |
 | **Cursor validate** | `pnpm validate:post tokyo-real-estate-investment-complete-guide` → PASS |
 | **Published** | Live |
+| **Source manifest** | [`sources/tokyo-real-estate-investment-complete-guide.sources.yaml`](./sources/tokyo-real-estate-investment-complete-guide.sources.yaml) |
+
+---
+
+## Primary headline claims (verified — dual-link targets)
+
+| # | Claim in KO (quote) | Value | Tier-1 source URL | Verified ✓ | KO section |
+|---|---------------------|-------|-------------------|------------|------------|
+| H1 | 도쿄 23구 기존 맨션 중위 약 9,200만 엔 / ㎡당 140만 엔 | 9,200만 / 140만 | [REINS Market Watch 2026-04 PDF](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) · archive `/assets/sources/reins-202604-marketwatch.pdf` | [x] | 왜 지금 도쿄인가 |
+| H2 | 해외 주소 3.5% / 도심 6구 7.5% (2024년 3.2%) | 3.5% / 7.5% / 3.2% | [MLIT press 2025-11](https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html) · [PDF](https://www.mlit.go.jp/report/press/content/001970012.pdf) · archive `/assets/sources/mlit-202511-mansion-foreign-buyer.pdf` | [x] | 왜 지금 도쿄인가 |
+| H3 | 도심 5구 오피스 공실률 2.22% | 2.22% | [Miki Tokyo XLS](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) · archive `/assets/sources/miki-202603-tokyo-office-market.xlsx` | [x] | 왜 지금 도쿄인가 |
+| H4 | 고정자산세 표본 | 1.4% | [Tokyo tax metro](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi) | [x] | Body (P0 legacy) |
+
+> Auto-extracted rows below remain for T1 coverage; headline edits use manifest URLs above.
 
 ---
 
@@ -94,11 +108,14 @@
 
 | URL in `sources` | Tier (gov/public/media) | Used in body? |
 |------------------|-------------------------|---------------|
-| [https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi) | public | [ ] |
-| [https://www.mlit.go.jp/en/](https://www.mlit.go.jp/en/](https://www.mlit.go.jp/en/](https://www.mlit.go.jp/en/) | gov | [ ] |
-| [https://www.kantei.ne.jp/](https://www.kantei.ne.jp/](https://www.kantei.ne.jp/](https://www.kantei.ne.jp/) | public | [ ] |
-| [https://www.nta.go.jp/english/index.htm](https://www.nta.go.jp/english/index.htm](https://www.nta.go.jp/english/index.htm](https://www.nta.go.jp/english/index.htm) | gov | [ ] |
-| [https://www.e-miki.com/market/](https://www.e-miki.com/market/](https://www.e-miki.com/market/](https://www.e-miki.com/market/) | public | [ ] |
+| https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi | public | [x] |
+| https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html | gov | [x] |
+| https://www.mlit.go.jp/report/press/content/001970012.pdf | gov | [x] |
+| https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf | public | [x] |
+| https://www.e-miki.com/rent/assets/market/tokyo.xlsx | public | [x] |
+| https://www.e-miki.com/rent/ | public | [x] |
+| https://www.nta.go.jp/english/index.htm | gov | [ ] |
+| https://www.kantei.ne.jp/ | public | [ ] |
 
 **references ⊆ sources**: [x] confirmed
 

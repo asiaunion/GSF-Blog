@@ -12,12 +12,12 @@ tags:
   - Price
   - Investment
 sources:
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
   - "https://www.fudousankeizai.co.jp/topSiteNews?check=1"
 references:
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
 ---
@@ -64,7 +64,7 @@ Surface yield without this layer is marketing math. I have seen properties marke
 
 ## 4. Data discipline: what to reference, what to verify
 
-For price context, [REINS](https://www.reins.or.jp/) transaction data provides the closest approximation to actual deal prices (as opposed to asking prices, which carry 5–15 percent optimism bias in the current market). [Statistics Japan](https://www.stat.go.jp/english/) publishes macro series including the Consumer Price Index, housing starts, and population flow data that inform demand-side assumptions.
+For price context, [REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) ([archive](/assets/sources/reins-202604-marketwatch.pdf)) transaction data provides the closest approximation to actual deal prices (as opposed to asking prices, which carry 5–15 percent optimism bias in the current market). [Statistics Japan](https://www.stat.go.jp/english/) publishes macro series including the Consumer Price Index, housing starts, and population flow data that inform demand-side assumptions.
 
 [MLIT](https://www.mlit.go.jp/en/) releases land price surveys (公示地価 and 基準地価) twice annually, which anchor the assessed-value layer of the cost framework. Property-level transaction records are available through the MLIT Real Estate Transaction Price Information system, though there is a reporting lag of 3–6 months.
 
@@ -87,7 +87,7 @@ The core question is: can you hold through one adverse cycle—rates up 100 basi
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
 
-- [ ] **Comparison**: Verify if the tsubo price in your target area matches actual transaction data on [REINS](https://www.reins.or.jp/).
+- [ ] **Comparison**: Verify if the tsubo price in your target area matches actual transaction data on [REINS](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf).
 - [ ] **LTV**: Confirm the loan-to-value ratio (typically 50-70%) and interest rates for non-resident foreigners with your bank.
 - [ ] **Taxes**: Simulate the impact of high short-term capital gains tax if you plan to exit within 5 years.
 

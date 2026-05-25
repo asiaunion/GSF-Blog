@@ -12,11 +12,12 @@ tags:
   - 가격
   - 투자
 sources:
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
+  - "https://www.fudousankeizai.co.jp/topSiteNews?check=1"
 references:
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
 ---
@@ -61,7 +62,7 @@ references:
 
 ## 4. 무엇을 믿고 무엇을 검증해야 하는가
 
-저는 데이터를 볼 때 [REINS](https://www.reins.or.jp/)의 실거래 데이터와 [MLIT](https://www.mlit.go.jp/en/)의 공시지가를 상호 참조합니다. 하나만 믿기보다는 시장의 시세와 정부의 공인 가치가 어떻게 벌어지는지를 보는 것이 중요하기 때문입니다. 
+저는 데이터를 볼 때 [REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) ([보관본](/assets/sources/reins-202604-marketwatch.pdf))의 실거래 데이터와 [MLIT](https://www.mlit.go.jp/en/)의 공시지가를 상호 참조합니다. 하나만 믿기보다는 시장의 시세와 정부의 공인 가치가 어떻게 벌어지는지를 보는 것이 중요하기 때문입니다. 
 
 또한, 저는 투자 전에 일반적으로 금리 상승 시나리오를 돌려봅니다. 현재 변동 금리가 1.0\~1.5% 수준이라면, 이를 2.5%까지 올린 상태에서도 대출 원리금을 감당할 수 있는지 확인해 보시기 바랍니다. 계산의 정교함도 중요하지만, 무엇보다 중요한 것은 **'가장 안 좋은 시나리오에서도 내가 버틸 수 있는가'**를 확인하는 규율입니다.
 
@@ -80,7 +81,7 @@ references:
 > **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (三鬼商事 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 일반적으로 확인하세요.
 ## Investor Action: 핵심 요약 및 점검
 
-- [ ] **비교**: 타겟 지역의 평당 단가가 인근 '임대수익률'과 역전되지 않았는지 [REINS](https://www.reins.or.jp/) 실거래가로 확인하세요.
+- [ ] **비교**: 타겟 지역의 평당 단가가 인근 '임대수익률'과 역전되지 않았는지 [REINS](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) 실거래가로 확인하세요.
 - [ ] **LTV**: 비거주 외국인 기준 융자 비율(보통 50\~70%)과 금리 조건을 금융권에 선제적으로 확인하세요.
 - [ ] **세금**: 매수 시 취득세뿐만 아니라, 5년 내 매각 시 발생하는 고율의 양도소득세 중과 여부를 시뮬레이션하세요.
 
