@@ -1,6 +1,6 @@
 # GSF-Blog Fact & Translation Audit Index
 
-> **Cursor validate sync (2026-05-25):** Gates batch — trust verify skipped.
+> **Cursor validate sync (2026-05-25):** Gates batch **36/36 PASS** — trust skipped (T3 P0-only policy).
 
 | slug | P | validate | claims | fact drift | **T0–T3** | **trans issues** | sheet |
 |------|------|----------|--------|------------|-----------|------------------|-------|
@@ -11,6 +11,7 @@
 | `j-reit-five-things-to-know` | **P2** | PASS | 47 | N | **T3** | None (disclaimer synced, tone synced) | [view](file:///Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/docs/fact-audit/j-reit-five-things-to-know.md) |
 | `japan-corporate-vs-personal-rental-after-tax-sketch` | **P0** | PASS | 5 | N | **T3** | None (30.63% / 15.315% tax drift fixed, break-even synced) | [view](file:///Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/docs/fact-audit/japan-corporate-vs-personal-rental-after-tax-sketch.md) |
 | `japan-rate-hike-cycle-j-reit-three-lessons` | **P2** | PASS | 40 | N | **T3** | None (disclaimer synced, tone synced) | [view](file:///Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/docs/fact-audit/japan-rate-hike-cycle-j-reit-three-lessons.md) |
+| `macro-barrier-and-super-scarce-real-estate-selection` | **P2** | PASS | — | N | **T3 P0** | MDX + supplemental WebP chart; top PostDisclaimer | [view](./macro-barrier-and-super-scarce-real-estate-selection.md) |
 | `japan-real-estate-three-things` | **P2** | PASS | 25 | N | **T3** | None (disclaimer synced, tone synced) | [view](file:///Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/docs/fact-audit/japan-real-estate-three-things.md) |
 | `japan-visa-paths-permanent-business-manager-asset-holders` | **P0** | PASS | 5 | N | **T3** | None (5M/30M JPY capital drift and checklist contradiction fixed) | [view](file:///Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/docs/fact-audit/japan-visa-paths-permanent-business-manager-asset-holders.md) |
 | `korea-japan-inheritance-gift-tax-cross-border-basics` | **P1** | PASS | 5 | N | **T3** | None (we/our first-person tone fixed, standard disclaimers synced) | [view](file:///Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/docs/fact-audit/korea-japan-inheritance-gift-tax-cross-border-basics.md) |

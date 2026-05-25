@@ -46,6 +46,8 @@ for (const [slug, validate] of statusBySlug) {
   );
   if (rowRe.test(index)) {
     index = index.replace(rowRe, `$1 ${validate} $2`);
+  } else {
+    console.warn(`  INDEX missing row for slug: ${slug} (add manually or extend script)`);
   }
 }
 
