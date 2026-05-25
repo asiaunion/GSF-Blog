@@ -9,15 +9,13 @@ ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insigh
 tags: ["Real Estate", "Tokyo", "Investment Strategy", "Macro", "Insights"]
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.stat.go.jp/english/"
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 references:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 A massive wave of capital is being sucked into the center of Tokyo like a black hole. As global geopolitical tensions align with an unfathomably prolonged weak yen, real estate in central Tokyo has evolved far beyond mere 'living space' to become Asia's ultimate 'Safe Haven'.
 
@@ -29,7 +27,7 @@ Specifically, the "Core 6 Wards" (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and 
 
 Throughout the past two years (2023–2024), the defining keywords piercing through Tokyo's core mansion (condominium) market have undeniably been **'extreme supply shortage'** and **'all-time highs'**.
 
-The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY** throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**, while the central 6 wards alone posted **+38.6% in April 2025** versus the prior year. ([東京カンテイ, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf)) This trajectory left the limits of ordinary labor income far behind in the dust.
+The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY** throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**, while the central 6 wards alone posted **+38.6% in April 2025** versus the prior year. ([Tokyo Kantei, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf) · [archived copy](/assets/sources/kantei-2025-chukomansion.pdf)) This trajectory left the limits of ordinary labor income far behind in the dust.
 
 **In fact, having recently moved to Nihonbashi (Chuo Ward), I feel this rapidly rising real estate inflation firsthand every single day. I was genuinely shocked to see a flyer at a local brokerage showing that even an older, non-newly built apartment near my home was selling for well over 300 million JPY. And I am not talking about a massive luxury complex, but a rather ordinary standalone multi-family building.**
 

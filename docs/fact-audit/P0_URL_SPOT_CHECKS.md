@@ -13,6 +13,9 @@
 | `tokyo-korean-community-beyond-shinokubo` | P0 | 2026년 | https://www.mindan.org/index.php?bid=news&cate=news | [x] | 2026-05-25 | Cursor T3 PASS |
 | `tokyo-mansion-tsubo-chiyoda-chuo-minato` | P0 | 2025년 | https://www.fudousankeizai.co.jp/topSiteNews?check=1 | [x] | 2026-05-25 | Cursor T3 PASS |
 | `tokyo-real-estate-investment-complete-guide` | P0 | 1.4% | https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi | [x] | 2026-05-25 | Cursor T3 PASS |
+| `tokyo-real-estate-investment-complete-guide` | P0 | 9,200만 / 140만 | https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf | [x] | 2026-05-26 | Cursor PDF (mw_202604) |
+| `tokyo-real-estate-investment-complete-guide` | P0 | 7.5% | https://www.mlit.go.jp/report/press/content/001970012.pdf | [x] | 2026-05-26 | Cursor PDF (foreign buyer); press HTML `..._00237.html` |
+| `tokyo-real-estate-investment-complete-guide` | P0 | 2.22% | https://www.e-miki.com/rent/assets/market/tokyo.xlsx | [x] | 2026-05-26 | Cursor XLSX (tokyo market) |
 | `tokyo-shinjuku-shibuya-bunkyo` | P0 | 231,402 | https://www.city.shibuya.tokyo.jp/kusei/tokei_shibuya/jinko/jumin_toroku.html | [x] | 2026-05-25 | Cursor T3 PASS |
 | `tokyo-ward-guide-series-prologue` | P0 | 2025년 | https://www.stat.go.jp/data/idou/rireki/2501/index.html | [x] | 2026-05-25 | Cursor T3 PASS |
 | `weak-yen-korean-japan-asset-allocation-fx-scenarios` | P0 | 2026년 | https://www.boj.or.jp/en/about/release_2026/index.htm | [x] | 2026-05-25 | Cursor T3 PASS |

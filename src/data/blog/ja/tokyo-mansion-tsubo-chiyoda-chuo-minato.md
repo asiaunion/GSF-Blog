@@ -12,11 +12,12 @@ tags:
   - 価格
   - 投資
 sources:
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
+  - "https://www.fudousankeizai.co.jp/topSiteNews?check=1"
 references:
-  - "https://www.reins.or.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
 ---
@@ -63,7 +64,7 @@ references:
 
 ## 4. データ規律：何を参照し、何を検証するか
 
-価格コンテキストには[REINS](https://www.reins.or.jp/)の取引データが実勢価格に最も近い近似値を提供します。[統計局](https://www.stat.go.jp/english/)はCPI、住宅着工、人口移動などの需要側マクロシリーズを公表しています。[MLIT](https://www.mlit.go.jp/en/)は年2回の公示地価・基準地価を公表し、コストフレームワークの評価額レイヤーをアンカリングします。
+価格コンテキストには[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)（[アーカイブ](/assets/sources/reins-202604-marketwatch.pdf)）の取引データが実勢価格に最も近い近似値を提供します。[統計局](https://www.stat.go.jp/english/)はCPI、住宅着工、人口移動などの需要側マクロシリーズを公表しています。[MLIT](https://www.mlit.go.jp/en/)は年2回の公示地価・基準地価を公表し、コストフレームワークの評価額レイヤーをアンカリングします。
 
 アンダーライティングの前提を明示的に保つことが重要です：ファイナンス金利の前提（現在、変動金利1.0～1.5%を基本に2.5%でストレステスト）、保有期間の前提（少なくとも1サイクルをカバーする7～10年）、エグジットキャップレートバンド。整合性がプレシジョンシアターに勝ります。
 
@@ -89,7 +90,7 @@ references:
 
 ## Investor Action: セッション要約と点検
 
-- [ ] **比較**: ターゲットエリアの坪単価が近隣の「賃回り（利回り）」と逆転していないか、[REINS](https://www.reins.or.jp/) の成約データで確認してください。
+- [ ] **比較**: ターゲットエリアの坪単価が近隣の「賃回り（利回り）」と逆転していないか、[REINS](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) の成約データで確認してください。
 - [ ] **LTV**: 非居住者外国人向けの融資比率（通常50〜70%）と金利条件を金融機関に事前確認してください。
 - [ ] **税金**: 購入時の諸費用だけでなく、5年以内の売却時に発生する短期譲渡所得税の重課税を考慮した出口戦略を策定してください。
 

@@ -37,7 +37,11 @@ pnpm trust:verify-sources <slug>
 pnpm validate:post <slug>          # full gates + trust
 SKIP_TRUST_VERIFY=1 pnpm validate:post <slug>
 pnpm trust:update-index
+pnpm trust:check-source-urls [slug]   # manifest + archive files (see SOURCE_ARCHIVE_POLICY)
+node scripts/tokyo-source-url-spot.mjs  # Tokyo headline PDF/XLS spot
 ```
+
+**Source archives (dual-link):** [`../SOURCE_ARCHIVE_POLICY.md`](../SOURCE_ARCHIVE_POLICY.md) · [`../TOKYO_REINS_KANTEI_URL_RULES.md`](../TOKYO_REINS_KANTEI_URL_RULES.md) · manifests in [`sources/`](./sources/)
 
 ## Templates
 

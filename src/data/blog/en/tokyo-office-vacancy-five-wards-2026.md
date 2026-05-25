@@ -13,12 +13,13 @@ tags:
   - VacancyRate
   - MikiShoji
 sources:
-  - "https://www.e-miki.com/market/"
-  - "https://www.reins.or.jp/"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.e-miki.com/rent/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.mlit.go.jp/en/"
 references:
-  - "https://www.e-miki.com/market/"
-  - "https://www.reins.or.jp/"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 The Tokyo central office market has pushed through the "Massive Supply" concerns of 2023 and is currently navigating its hottest phase in 2026. Rents, vacancy rates, and new landmark completions are converging into a new pattern of **'Super-Polarization'** unlike anything seen in previous cycles.
 
@@ -68,8 +69,8 @@ What are the common traps when looking at Tokyo office data today?
 
 I recommend the following routine for monitoring the Tokyo office market:
 
-1.  **Check [Miki Shoji](https://www.e-miki.com/market/) Monthly Reports**: This is the benchmark for vacancy rates and average rent trends across the 5 wards.
-2.  **Cross-verify with [REINS](https://www.reins.or.jp/)**: Understand the actual heat of the transaction market.
+1.  **Check [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) Tokyo monthly data** ([archive](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [portal](https://www.e-miki.com/rent/)): benchmark for vacancy and rent across the 5 wards.
+2.  **Cross-verify with [REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)** ([archive](/assets/sources/reins-202604-marketwatch.pdf)): transaction-market heat.
 3.  **Review IR Materials from Major Developers**: Map out the supply pipeline for the next 5 years using data from Mitsui, Mitsubishi, and Mori.
 
 **In conclusion, Tokyo office in 2026 is a period of 'Qualitative Restructuring' rather than just 'Numerical Recovery.'** If you are adjusting your asset allocation, prioritize "Hardware that attracts talent" over simply relying on the prestige of the "5 Wards" name.
@@ -79,7 +80,7 @@ I recommend the following routine for monitoring the Tokyo office market:
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
 
-- [ ] **Supply/Demand**: Check [Miki Shoji](https://www.e-miki.com/market/) data to see if the vacancy rate in your target ward is below 2%.
+- [ ] **Supply/Demand**: Check [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) data to see if the vacancy rate in your target ward is below 2%.
 - [ ] **Polarization**: Visit the site to assess 'secondary vacancy' risks in Grade B buildings near new landmarks.
 - [ ] **Net Income**: Don't be fooled by nominal rent; calculate the actual yield after accounting for rent-free periods.
 

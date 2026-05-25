@@ -13,12 +13,13 @@ tags:
   - 5구
   - 공실률
 sources:
-  - "https://www.e-miki.com/market/"
-  - "https://www.reins.or.jp/"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.e-miki.com/rent/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.mlit.go.jp/en/"
 references:
-  - "https://www.e-miki.com/market/"
-  - "https://www.reins.or.jp/"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 도쿄 도심 오피스 시장은 2023년의 '대량 공급' 우려를 뚫고 2026년 현재 가장 뜨거운 구간을 지나고 있습니다. 임대료, 공실률, 그리고 대규모 신축 입주라는 세 가지 축이 맞물리며, 과거와는 전혀 다른 **'초양극화(Super-Polarization)'**의 양상을 띠고 있습니다.
 
@@ -68,8 +69,8 @@ references:
 
 저는 도쿄 오피스 시장을 볼 때 다음의 루틴을 추천합니다.
 
-1.  **매월 [Miki Shoji](https://www.e-miki.com/market/) 리포트 확인**: 5구별 공실률과 평균 임대료 추이를 가장 빠르게 확인할 수 있는 기준점입니다.
-2.  **[REINS](https://www.reins.or.jp/) 거래 데이터 교차 검증**: 실제 계약 현장의 열기를 파악합니다.
+1.  **매월 [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 도쿄 월별 데이터** ([보관본](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [포털](https://www.e-miki.com/rent/)): 5구별 공실률과 평균 임대료 추이를 가장 빠르게 확인할 수 있는 기준점입니다.
+2.  **[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)** ([보관본](/assets/sources/reins-202604-marketwatch.pdf)) 거래 데이터 교차 검증: 실제 계약 현장의 열기를 파악합니다.
 3.  **대형 디벨로퍼(미쓰이, 미쓰비시, 모리)의 IR 자료**: 향후 5년 뒤의 공급 파이프라인 지도를 그리세요.
 
 **결론적으로 2026년의 도쿄 오피스는 '숫자의 회복'을 넘어 '질적 재편'의 시기입니다.** 자산 배분 관점에서 오피스 노출도를 조정하고 있다면, 단순히 5구라는 이름에 기대기보다 해당 건물이 '인재를 끌어당길 수 있는 하드웨어'를 갖췄는지를 최우선으로 검토해야 합니다.
@@ -79,7 +80,7 @@ references:
 > **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (三鬼商事 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 일반적으로 확인하세요.
 ## Investor Action: 핵심 요약 및 점검
 
-- [ ] **수급**: [Miki Shoji](https://www.e-miki.com/market/) 데이터에서 타겟 지역의 공실률이 2% 이하로 떨어졌는지, 임대료 상승세가 실효(Effective) 기준인지 확인하세요.
+- [ ] **수급**: [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 데이터에서 타겟 지역의 공실률이 2% 이하로 떨어졌는지, 임대료 상승세가 실효(Effective) 기준인지 확인하세요.
 - [ ] **양극화**: 신축 랜드마크로 임차인이 이동한 후 남겨진 주변 B급 빌딩의 '2차 공실' 리스크를 현장에서 일반적으로 체크하세요.
 - [ ] **방어력**: 금리 인상 시나리오에서도 임대료 인상을 통해 이자 비용 상승분을 전가할 수 있는 우량 임차인 비중을 확인하세요.
 

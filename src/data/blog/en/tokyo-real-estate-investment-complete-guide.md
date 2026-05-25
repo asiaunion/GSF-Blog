@@ -16,11 +16,13 @@ tags:
   - Tax
   - J-REIT
 sources:
-  - "https://www.mlit.go.jp/en/"
-  - "https://www.kantei.ne.jp/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
+  - "https://www.mlit.go.jp/report/press/content/001970012.pdf"
+  - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+  - "https://www.e-miki.com/rent/"
   - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - "https://www.nta.go.jp/english/index.htm"
-  - "https://www.e-miki.com/market/"
 ---
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
@@ -28,13 +30,13 @@ sources:
 
 ## Why Tokyo, Why Now
 
-As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **92 million JPY (9,200만 JPY)** (92,000,000 JPY, ~1.4 million JPY/sqm or 140万 JPY/㎡). In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed 9 million JPY (900만 JPY)**, with Akasaka breaking ¥10M/tsubo.
+As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **92 million JPY (9,200만 JPY)** (92,000,000 JPY, ~1.4 million JPY/sqm or 140万 JPY/㎡). ([REINS Market Watch, Apr 2026](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) · [archived copy](/assets/sources/reins-202604-marketwatch.pdf)) In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed 9 million JPY (900만 JPY)**, with Akasaka breaking ¥10M/tsubo.
 
 Three pillars support this rally:
 
-1. **Rising overseas-address buyers** — According to Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT), overseas-based buyers accounted for **3.5% of new condos** in Tokyo's 23 wards (H1 2025), rising to **7.5% in the core 6 wards** — up from 3.2% in 2024. The weak yen (JPY/KRW 800–900) continues to funnel Korean, Taiwanese, and Singaporean capital. ([MLIT Survey, Nov 2025](https://www.mlit.go.jp/en/))
+1. **Rising overseas-address buyers** — According to Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT), overseas-based buyers accounted for **3.5% of new condos** in Tokyo's 23 wards (H1 2025), rising to **7.5% in the core 6 wards** — up from 3.2% in 2024. The weak yen (JPY/KRW 800–900) continues to funnel Korean, Taiwanese, and Singaporean capital. ([MLIT release, Nov 2025](https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html) · [PDF](https://www.mlit.go.jp/report/press/content/001970012.pdf) · [archive](/assets/sources/mlit-202511-mansion-foreign-buyer.pdf))
 2. **Structural supply shortage** — new condo supply in central Tokyo is chronically tight.
-3. **Tight rental market** — Miki Shoji Q1 2026 data shows office vacancy in the 5 central wards at 2.22%; residential compact units in Minato and Chiyoda exhibit similarly low churn given elite-demand clustering. ([Miki Shoji, 2026](https://www.e-miki.com/market/))
+3. **Tight rental market** — Miki Shoji Q1 2026 data shows office vacancy in the 5 central wards at **2.22%**; residential compact units in Minato and Chiyoda exhibit similarly low churn given elite-demand clustering. ([Miki Tokyo monthly, Mar 2026](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) · [archive](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [portal](https://www.e-miki.com/rent/))
 
 Japan has **virtually no restrictions on foreign property ownership**. No visa, no PR, no government approval. I wrote this guide to answer: "So how do I actually start?"
 

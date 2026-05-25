@@ -26,7 +26,8 @@
     "trust:verify-sources": "npx --yes tsx scripts/verify-claims-against-sources.mjs",
     "trust:update-index": "npx --yes tsx scripts/update-fact-audit-index.mjs",
     "trust:summary": "TRUST_SKIP_SOURCE_FETCH=1 npx --yes tsx scripts/trust-batch-summary.mjs",
-    "check:source-links": "npx --yes tsx scripts/check-source-links.mjs"
+    "check:source-links": "npx --yes tsx scripts/check-source-links.mjs",
+    "trust:check-source-urls": "node scripts/check-source-urls.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
