@@ -23,6 +23,22 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - "https://www.nta.go.jp/english/index.htm"
+citeSources:
+  - label: "REINS Market Watch, 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "国交省 新築マンション海外住所調査, 2025-11"
+    url: "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
+    secondaryUrl: "https://www.mlit.go.jp/report/press/content/001970012.pdf"
+    archive: "/assets/sources/mlit-202511-mansion-foreign-buyer.pdf"
+  - label: "三鬼商事 東京オフィス月次, 2026-03"
+    url: "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+    archive: "/assets/sources/miki-202603-tokyo-office-market.xlsx"
+    portal: "https://www.e-miki.com/rent/"
+  - label: "東京都 固定資産税のご案内"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
+  - label: "国税庁（英語）"
+    url: "https://www.nta.go.jp/english/index.htm"
 ---
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
@@ -30,13 +46,13 @@ sources:
 
 ## なぜ今、東京なのか
 
-2026年4月現在、東京23区の既存マンション中位価格は約**9,200万円**（㎡あたり約140万円）です。（[REINS Market Watch, 2026-04](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) · [検証用アーカイブ](/assets/sources/reins-202604-marketwatch.pdf)）港区・千代田区・渋谷区のプライム3区では、新築坪単価が**900万円を突破**し、赤坂など一部の超高級立地では坪1,000万円を超える事例も出ています。
+2026年4月現在、東京23区の既存マンション中位価格は約**9,200万円**（㎡あたり約140万円）です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 港区・千代田区・渋谷区のプライム3区では、新築坪単価が**900万円を突破**し、赤坂など一部の超高級立地では坪1,000万円を超える事例も出ています。
 
 この上昇を支える3つの柱があります。
 
-1. **海外住所購入者の増加** — 国土交通省の調査によると、2025年上半期における東京23区の新築マンション購入者に占める海外住所者の割合は**3.5%**、都心6区では**7.5%**と、2024年（3.2%）から上昇しています。歴史的な円安（JPY/KRW 800〜900圏）が韓国・台湾・シンガポールからの資金流入を後押しし続けています。（[国交省プレス, 2025-11](https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html) · [PDF](https://www.mlit.go.jp/report/press/content/001970012.pdf) · [アーカイブ](/assets/sources/mlit-202511-mansion-foreign-buyer.pdf)）
+1. **海外住所購入者の増加** — 国土交通省の調査によると、2025年上半期における東京23区の新築マンション購入者に占める海外住所者の割合は**3.5%**、都心6区では**7.5%**と、2024年（3.2%）から上昇しています。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 歴史的な円安（JPY/KRW 800〜900圏）が韓国・台湾・シンガポールからの資金流入を後押しし続けています。
 2. **構造的な供給不足** — 都心部の新築マンション供給が慢性的にタイトで、価格の下支えとなっています。
-3. **賃貸需要の構造的な底堅さ** — 三鬼商事のQ1 2026データでは、都心5区のオフィス空室率は**2.22%**。港区・千代田区の小型住宅ユニットも、エリート需要の集中によって空室転換が構造的に遅い状態にあります。（[三鬼商事 東京月次, 2026-03](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) · [アーカイブ](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [ポータル](https://www.e-miki.com/rent/)）
+3. **賃貸需要の構造的な底堅さ** — 三鬼商事のQ1 2026データでは、都心5区のオフィス空室率は**2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>。港区・千代田区の小型住宅ユニットも、エリート需要の集中によって空室転換が構造的に遅い状態にあります。
 
 日本は先進国の中で**外国人の不動産取得に制限がほぼない**唯一の市場です。ビザも永住権も政府承認も不要です。このガイドは「では、どう始めればよいのか」という問いに体系的にお答えするために書かれました。
 

@@ -1,6 +1,7 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 import { SITE } from "@/config";
+import { urlsFromCiteSources } from "@/lib/sourceCitations";
 
 export const BLOG_PATH = "src/data/blog";
 
@@ -56,7 +57,32 @@ const blog = defineCollection({
         .optional(),
       sources: z.array(z.string().url()).default([]),
       references: z.array(z.string().url()).default([]),
+      /** Numbered footnotes → SourcesList #source-N (optional; pilot on trust-heavy posts) */
+      citeSources: z
+        .array(
+          z.object({
+            label: z.string(),
+            url: z.string().url(),
+            archive: z.string().optional(),
+            portal: z.string().url().optional(),
+            secondaryUrl: z.string().url().optional(),
+          })
+        )
+        .optional(),
     }).superRefine((data, ctx) => {
+      if (data.citeSources?.length) {
+        for (const url of urlsFromCiteSources(data.citeSources)) {
+          if (!data.sources.includes(url)) {
+            ctx.addIssue({
+              code: z.ZodIssueCode.custom,
+              path: ["sources"],
+              message: `citeSources URL must also appear in sources: ${url}`,
+            });
+            break;
+          }
+        }
+      }
+
       const sourceSet = new Set(data.sources);
 
       for (const reference of data.references) {
