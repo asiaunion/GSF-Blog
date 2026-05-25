@@ -23,6 +23,11 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.livable.co.jp/"
+  - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+  - "https://www.livable.co.jp/l-note/question/g12987/"
+  - "https://www.moj.go.jp/MINJI/minji05_00494.html"
 citeSources:
   - label: "REINS Market Watch, Apr 2026"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -39,6 +44,16 @@ citeSources:
     url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - label: "National Tax Agency (EN)"
     url: "https://www.nta.go.jp/english/index.htm"
+  - label: "Tokyo Kantei Tokyo 23-Ward Condo Price Index, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "Tokyu Livable — purchase closing costs (諸費用), 2026"
+    url: "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+    portal: "https://www.livable.co.jp/"
+  - label: "Tokyu Livable L-note — earnest money (手付金) practice"
+    url: "https://www.livable.co.jp/l-note/question/g12987/"
+  - label: "Japan Ministry of Justice: Signature Notarization for Foreign Registration"
+    url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
 ---
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
@@ -67,7 +82,7 @@ Japan has **virtually no restrictions on foreign property ownership**. No visa, 
 | **Residential** | Setagaya, Suginami, Meguro | ¥3.5M–5M | Owner+invest |
 | **Outer** | Adachi, Edogawa, Katsushika | ¥2M–3.5M | High yield |
 
-The key is the **tsubo × yield × liquidity** triangle.
+The key is the **tsubo × yield × liquidity** triangle.<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup> (Note: The tsubo price ranges represent a macroeconomic comparative framework built on 2025-2026 average transaction data.)
 
 > 📖 [Tsubo Analysis: Chiyoda·Chuo·Minato](/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato) | [6-Ward Insight](/posts/tokyo-6-wards-real-estate-insight)
 
@@ -77,16 +92,16 @@ The key is the **tsubo × yield × liquidity** triangle.
 
 | Step | Action | Key Point |
 |------|--------|-----------|
-| 1 | Budget | +12–18% for taxes, brokerage, legal |
+| 1 | Budget | **~7–10%** for taxes, brokerage, registration, etc.<sup class="source-ref"><a href="#source-7" id="cite-7">7</a></sup> |
 | 2 | Broker | Foreign-client experience required |
 | 3 | Search & inspect | Check management minutes, repair reserves |
 | 4 | Offer | *Kaitsuke shomeisho* — negotiate here |
 | 5 | Important matters | *Jūyō jikō setsumei* — get it translated |
-| 6 | Contract & deposit | 5–10% of price |
+| 6 | Contract & deposit | 5–10% of price<sup class="source-ref"><a href="#source-8" id="cite-8">8</a></sup> |
 | 7 | Financing | Non-residents: cash. Residents: Prestia, SBI Shinsei |
 | 8 | Closing & registration | Judicial scrivener files at Legal Affairs Bureau |
 
-Non-residents: passport + notarized affidavit replaces *inkan*. No *jūminhyō* — use home-country notarized docs. Use escrow or scrivener trust accounts.
+Non-residents: passport + notarized affidavit replaces *inkan*.<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup> No *jūminhyō* — use home-country notarized docs. Use escrow or scrivener trust accounts.
 
 > 📖 [Buying Process Deep-Dive: 8-Step Guide](/posts/tokyo-buying-process-step-by-step) | [3 Things About Japan RE](/posts/japan-real-estate-three-things) | [Contract Traps in Tokyo](/posts/tokyo-moving-contracts-two-notes)
 

@@ -23,6 +23,11 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.livable.co.jp/"
+  - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+  - "https://www.livable.co.jp/l-note/question/g12987/"
+  - "https://www.moj.go.jp/MINJI/minji05_00494.html"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -39,6 +44,16 @@ citeSources:
     url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - label: "国税庁（英語）"
     url: "https://www.nta.go.jp/english/index.htm"
+  - label: "東京カンテイ 首都圏中古マンション70㎡価格動向, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "東急リバブル 購入時の諸費用の目安, 2026"
+    url: "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+    portal: "https://www.livable.co.jp/"
+  - label: "東急リバブル L-note — 手付金の相場と慣行"
+    url: "https://www.livable.co.jp/l-note/question/g12987/"
+  - label: "法務省 外国人登記申請における署名証明指針"
+    url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
 ---
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
@@ -67,7 +82,7 @@ citeSources:
 | **生活圏** | 世田谷・杉並・目黒 | 350〜500万 | 実需兼投資 |
 | **外周区** | 足立・江戸川・葛飾 | 200〜350万 | 高利回り |
 
-キーワードは**「坪単価 × 利回り × 流動性」の三角形**です。
+キーワードは**「坪単価 × 利回り × 流動性」の三角形**です。<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup>（注：提示された坪単価レンジは、2025-2026年の平均取引データに基づき構築されたマクロな市場比較フレームワークです。）
 
 > 📖 [坪単価分析：千代田・中央・港](/ja/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato) | [東京6区インサイト](/ja/posts/tokyo-6-wards-real-estate-insight)
 
@@ -77,16 +92,16 @@ citeSources:
 
 | Step | 内容 | ポイント |
 |------|------|---------|
-| 1 | 予算確定 | 諸費用12〜18%を別途確保 |
+| 1 | 予算確定 | 諸費用**7〜10%**前後を別途確保<sup class="source-ref"><a href="#source-7" id="cite-7">7</a></sup> |
 | 2 | 仲介会社選定 | 外国人対応経験必須 |
 | 3 | 物件探し・内見 | 管理組合議事録・修繕積立金残高を確認 |
 | 4 | 買付証明書提出 | 価格交渉はこの段階で |
 | 5 | 重要事項説明 | 日本語原文；翻訳必須 |
-| 6 | 契約・手付金 | 売買代金の5〜10% |
+| 6 | 契約・手付金 | 売買代金の5〜10%<sup class="source-ref"><a href="#source-8" id="cite-8">8</a></sup> |
 | 7 | 融資実行 | 非居住者は現金購入が主流 |
 | 8 | 残金決済・登記 | 司法書士が法務局へ申請 |
 
-非居住者の方は、パスポート＋公証済みのAffidavit of Identityで印鑑証明を代替できます。
+非居住者の方は、パスポート＋公証済みのAffidavit of Identityで印鑑証明を代替できます。<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup>
 
 > 📖 [購入手続き完全攻略 — 8ステップ実践ガイド](/ja/posts/tokyo-buying-process-step-by-step) | [日本不動産 知っておくべき3つのこと](/ja/posts/japan-real-estate-three-things) | [東京の契約で注意すべき2点](/ja/posts/tokyo-moving-contracts-two-notes)
 

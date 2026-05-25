@@ -18,6 +18,10 @@
 | H2 | 해외 주소 3.5% / 도심 6구 7.5% (2024년 3.2%) | 3.5% / 7.5% / 3.2% | [MLIT press 2025-11](https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html) · [PDF](https://www.mlit.go.jp/report/press/content/001970012.pdf) · archive `/assets/sources/mlit-202511-mansion-foreign-buyer.pdf` | [x] | 왜 지금 도쿄인가 |
 | H3 | 도심 5구 오피스 공실률 2.22% | 2.22% | [Miki Tokyo XLS](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) · archive `/assets/sources/miki-202603-tokyo-office-market.xlsx` | [x] | 왜 지금 도쿄인가 |
 | H4 | 고정자산세 표본 | 1.4% | [Tokyo tax metro](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi) | [x] | Body (P0 legacy) |
+| H5 | 치요다/에도가와 坪단가 격차(정성) + 표 레인지 프레임 | 3배+ / 표 구간 | [Tokyo Kantei 2025 PDF](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf) · archive `/assets/sources/kantei-2025-chukomansion.pdf` | [x] | Chapter 1 |
+| H6 | 부대비용 비율 7~10% | 7~10% | [Tokyu Livable money plan (諸費用)](https://cs1.livable.co.jp/kounyu/loan/money_plan.html) — page states 売買価格の約7～10% | [x] | Chapter 2 |
+| H7 | 계약금 비율 5~10% | 5~10% | [Tokyu Livable L-note g12987](https://www.livable.co.jp/l-note/question/g12987/) — 5% / 1割(10%) | [x] | Chapter 2 |
+| H8 | 비거주자 서명공증 Affidavit 대체 | Affidavit | [Japan Ministry of Justice](https://www.moj.go.jp/MINJI/minji05_00494.html) — HEAD OK (trust script) | [x] | Chapter 2 |
 
 > Auto-extracted rows below remain for T1 coverage; headline edits use manifest URLs above.
 
