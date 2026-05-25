@@ -13,15 +13,27 @@ const indexPath = path.join(root, "docs/fact-audit/INDEX.md");
 process.env.SKIP_VALIDATE_BUILD = "1";
 process.env.SKIP_TRUST_VERIFY = process.env.SKIP_TRUST_VERIFY ?? "1";
 
+async function readLocalePost(locale, slug) {
+  const dir = path.join(root, "src/data/blog", locale);
+  for (const ext of [".md", ".mdx"]) {
+    try {
+      return await readFile(path.join(dir, `${slug}${ext}`), "utf8");
+    } catch {
+      /* try next ext */
+    }
+  }
+  return "";
+}
+
 const slugs = (await readdir(koDir))
-  .filter(f => f.endsWith(".md"))
-  .map(f => f.replace(/\.md$/, ""));
+  .filter(f => f.endsWith(".md") || f.endsWith(".mdx"))
+  .map(f => f.replace(/\.mdx?$/, ""));
 
 const statusBySlug = new Map();
 for (const slug of slugs) {
-  const ko = await readFile(path.join(koDir, `${slug}.md`), "utf8");
-  const en = await readFile(path.join(root, "src/data/blog/en", `${slug}.md`), "utf8").catch(() => "");
-  const ja = await readFile(path.join(root, "src/data/blog/ja", `${slug}.md`), "utf8").catch(() => "");
+  const ko = await readLocalePost("ko", slug);
+  const en = await readLocalePost("en", slug);
+  const ja = await readLocalePost("ja", slug);
   const result = await runBlogValidation(root, [ko, en, ja], { slug });
   statusBySlug.set(slug, result.ok ? "PASS" : `FAIL (${result.checks.filter(c => !c.ok).map(c => c.name).join(", ")})`);
 }
@@ -37,7 +49,7 @@ for (const [slug, validate] of statusBySlug) {
   }
 }
 
-const banner = `> **Cursor validate sync (${new Date().toISOString().slice(0, 10)}):** Gates batch — trust verify ${process.env.SKIP_TRUST_VERIFY === "1" ? "skipped" : "on"}.\n\n`;
+const banner = `> **Cursor validate sync (${new Date().toISOString().slice(0, 10)}):** Gates batch — trust ${process.env.SKIP_TRUST_VERIFY === "1" ? "skipped (T3 P0-only policy)" : "fetch ON"}.\n\n`;
 if (!index.includes("Cursor validate sync")) {
   index = index.replace(
     /^(# GSF-Blog Fact[^\n]*\n\n)(>[^\n]*\n\n)?/m,

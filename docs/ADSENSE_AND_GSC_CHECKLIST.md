@@ -19,7 +19,8 @@ Use this after deploying to production (e.g. Vercel). Phase 4 of the AdSense roa
 4. **Lighthouse** (Chrome DevTools → Lighthouse):
    - Run **Mobile** and **Desktop** on `/`, `/topics/`, and one long post.
    - Target **≥ 90** Performance / Accessibility / Best Practices / SEO (adjust images, CLS, and LCP as needed).
-5. **Post footers**: each article should keep the disclaimer + contact pattern used in markdown (`post-disclaimer` block and site contact).
+5. **Disclaimers**: each post shows **`PostDisclaimer`** at the **top** of the article body (`PostDetails.astro`) — not a markdown footer block. Contact via `/contact/` and author card.
+6. **Diagrams**: spot-check posts with charts — images under `/assets/images/blog/diagrams/*.webp` (see [`DIAGRAM_POST_SMOKE_CHECKLIST.md`](./DIAGRAM_POST_SMOKE_CHECKLIST.md)).
 
 ## Phase 4-13 — AdSense application
 

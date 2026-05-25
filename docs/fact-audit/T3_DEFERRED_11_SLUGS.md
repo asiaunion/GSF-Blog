@@ -1,18 +1,19 @@
-# T3 fetch ON — deferred 11 slugs
+# T3 full fetch — historical note (11 slugs)
 
-> **Status:** Intentionally deferred (2026-05-25). CI and merge use fetch-skipped trust gates (**35/35**). P0 spot checks: **12/12 PASS**.
+> **Superseded by:** [`T3_POLICY.md`](./T3_POLICY.md) (**P0-only**, fixed 2026-05-25).  
+> This file is **archive only** — not an open backlog.
 
-## Why deferred
+## Summary
 
-Batch `SKIP_TRUST_VERIFY=0` fails **`trust-source-alignment`** when any **unverified** Claims row does not match its tier-1 URL. These 11 slugs have hundreds of `[ ]` rows sharing one URL per slug; P0 primary claims already pass.
+Batch `SKIP_TRUST_VERIFY=0` once measured **24/35 PASS** because 11 slugs had hundreds of unverified Claims rows (`[ ]`) against shared tier-1 URLs. **P0 spot checks (12/12)** already passed for primary claims on those slugs.
 
-**Not a deployment blocker** — production pipeline matches `SKIP_TRUST_VERIFY=1` / `TRUST_SKIP_SOURCE_FETCH=1`.
+**Decision:** Do not row-by-row T3 for all sheet rows. CI stays `SKIP_TRUST_VERIFY=1`.
 
-## Slugs (24/35 → skip full row-by-row T3)
+## Archived slug list
 
-| slug | Blocking claims (approx.) |
-|------|---------------------------|
-| `ginza-marunouchi-walk-dna` | coverage fixed; alignment rows still `[ ]` if fetch ON |
+| slug | Approx. unverified rows (2026-05-25) |
+|------|-------------------------------------|
+| `ginza-marunouchi-walk-dna` | alignment noise |
 | `japan-corporate-vs-personal-rental-after-tax-sketch` | ~40 |
 | `japan-visa-paths-permanent-business-manager-asset-holders` | ~27 |
 | `nihonbashi-hamacho-walking-guide` | ~51 |
@@ -24,35 +25,6 @@ Batch `SKIP_TRUST_VERIFY=0` fails **`trust-source-alignment`** when any **unveri
 | `tokyo-ward-guide-series-prologue` | ~40 |
 | `weak-yen-korean-japan-asset-allocation-fx-scenarios` | ~32 |
 
-## If you resume later (pick one policy)
+## If policy ever changes
 
-### A. Pragmatic (recommended)
-
-1. Keep CI on fetch-skipped gates.
-2. For each slug, only maintain **P0-style primary claims** + facts cited in KO body prose.
-3. Trim or mark `Present` for auto-extracted noise rows (years duplicated per locale column).
-
-### B. Row-by-row verification
-
-```bash
-pnpm trust:verify-sources <slug>   # inspect FAIL/UNCERTAIN
-# Fix URL per claim OR narrow Claims table
-node scripts/bulk-t3-mark-passing.mjs <slug>   # auto-[x] on PASS only
-```
-
-### C. Gate change (product decision)
-
-- Require T3 only for claims with `section: Body` and a non-generic URL, or
-- Treat `UNCERTAIN` as non-blocking (FAIL only).
-
-Document the chosen policy in `src/lib/validation/trustGates.ts` before enabling fetch ON in CI.
-
-## Commands
-
-```bash
-# Current production check
-SKIP_VALIDATE_BUILD=1 SKIP_TRUST_VERIFY=1 pnpm validate:batch
-
-# Measure fetch ON (expect 24/35 until policy B/C)
-SKIP_VALIDATE_BUILD=1 SKIP_TRUST_VERIFY=0 node scripts/batch-validate-posts.mjs
-```
+See [`T3_POLICY.md`](./T3_POLICY.md) § optional deep T3 or gate change (product decision in `trustGates.ts`).

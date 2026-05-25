@@ -7,8 +7,9 @@
 | Approach | When to use | Page weight |
 |---|---|---|
 | **Static WebP** (`public/assets/images/blog/*.webp`) | Data charts, supplemental context | ~17–35 KB (cached) |
-| **Static SVG** (`public/assets/images/blog/svg/*.svg`) | Simple diagrams (2–3 boxes) | ~1–2 KB |
-| **Inline SVG in MD/MDX** | **Avoid** — Shiki/code-block risk, HTML bloat | — |
+| **Diagram WebP** (`public/assets/images/blog/diagrams/*.webp`) | Simple diagrams (ship in posts) | ~5–15 KB |
+| **SVG source** (`svg/*.svg`) | Edit only — run `pnpm diagrams:render` | — |
+| **Inline SVG in MD/MDX** | **Avoid** — Shiki/code-block risk, broken XML | — |
 | **AI-generated chart images** | **Never** — wrong data/labels | — |
 
 ## macro-barrier Korea YoY chart
@@ -38,4 +39,5 @@ npx vercel deploy --prebuilt --prod --yes
 - **Outskirts** line: `#a7f3d0` — label `#059669` between **'25 Q2 and '25 Q3** (`x=5.5`).
 - Gyeonggi/Incheon, DSR, −28.4%: **figcaption only** (per language in MDX).
 
-Posts use `<figure class="supplemental-chart">` (see `docs/CHARTS_AND_VISUALS.md` §5).
+Posts use `<figure class="supplemental-chart">` (see `docs/CHARTS_AND_VISUALS.md` §5).  
+Diagram smoke: `docs/DIAGRAM_POST_SMOKE_CHECKLIST.md`.
