@@ -37,7 +37,7 @@ references:
 
 GSF는 기대수익률 옆에 항상 '신뢰의 평형점'을 나란히 둡니다. 우리가 측정하는 따뜻함의 지표는 다음과 같습니다.
 
-![따뜻한 투자 리스크 프레임워크](/assets/images/blog/svg/ko-why-warm-investing-holds.svg)
+![따뜻한 투자 리스크 프레임워크](/assets/images/blog/diagrams/ko-why-warm-investing-holds.webp)
 
 *   **투명성(Transparency)**: 정보가 비대칭적이지 않고, 실패의 징후까지 정직하게 공유되는가.
 *   **지속성(Sustainability)**: 단기적인 이익을 위해 관계를 소모하지 않고, 다음 세대까지 이어질 수 있는 구조인가.

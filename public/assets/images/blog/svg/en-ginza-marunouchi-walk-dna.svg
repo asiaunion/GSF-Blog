@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-label="Ginza-Marunouchi Walking Route Guide" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Ginza -> Marunouchi -> Otemachi Walking Guide (2026)</text>
+  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Ginza -&gt; Marunouchi -&gt; Otemachi Walking Guide (2026)</text>
   
   <!-- Ginza -->
   <rect x="50" y="80" width="160" height="80" fill="#fef2f2" stroke="#f87171" rx="8" />
@@ -12,7 +12,7 @@
   <!-- Marunouchi -->
   <rect x="270" y="80" width="180" height="80" fill="#f0f9ff" stroke="#0ea5e9" rx="8" />
   <text x="360" y="115" font-size="14" font-weight="700" fill="#0369a1" text-anchor="middle">Marunouchi</text>
-  <text x="360" y="135" font-size="11" fill="#075985" text-anchor="middle">Finance & Biz / Tokyo Station</text>
+  <text x="360" y="135" font-size="11" fill="#075985" text-anchor="middle">Finance &amp; Biz / Tokyo Station</text>
 
   <!-- Connection -->
   <path d="M450 120 L510 120" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead-ginza)" />

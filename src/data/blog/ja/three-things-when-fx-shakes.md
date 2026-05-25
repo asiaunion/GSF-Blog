@@ -46,7 +46,7 @@ references:
 
 投資判断の基準を「自国通貨」ではなく「日本円」そのものに置く訓練が必要です。
 
-![為替変動と投資収益の相関関係](/assets/images/blog/svg/ja-three-things-when-fx-shakes.svg)
+![為替変動と投資収益の相関関係](/assets/images/blog/diagrams/ja-three-things-when-fx-shakes.webp)
 
 ---
 

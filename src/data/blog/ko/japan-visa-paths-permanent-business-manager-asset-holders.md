@@ -43,7 +43,7 @@ references:
 *   **80점 이상**: **단 1년 거주** 후 영주권 신청 가능.
 *   **특전**: 배우자의 취업 제한 완화, 일정 소득 이상 시 부모 또는 가사 도우미 동반 가능.
 
-![일본 영주권 취득 소요 기간 비교](/assets/images/blog/svg/ko-japan-visa-paths-permanent-business-manager-asset-holders.svg)
+![일본 영주권 취득 소요 기간 비교](/assets/images/blog/diagrams/ko-japan-visa-paths-permanent-business-manager-asset-holders.webp)
 
 ---
 

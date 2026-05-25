@@ -47,7 +47,7 @@ references:
 
 投資家はこれら二つのハブをどのようにバランスさせるべきでしょうか。
 
-![ソウル・東京 投資シナジーマトリックス](/assets/images/blog/svg/ja-reading-korea-japan-markets-together.svg)
+![ソウル・東京 投資シナジーマトリックス](/assets/images/blog/diagrams/ja-reading-korea-japan-markets-together.webp)
 
 ---
 

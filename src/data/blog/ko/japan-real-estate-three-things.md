@@ -52,7 +52,7 @@ references:
 
 ## 2.1 직접 계산 비용 구조 차트(SVG 예시)
 
-![도쿄 소형 임대 물건 연간 비용 구조 예시 차트](/assets/images/blog/svg/ko-japan-real-estate-three-things.svg)
+![도쿄 소형 임대 물건 연간 비용 구조 예시 차트](/assets/images/blog/diagrams/ko-japan-real-estate-three-things.webp)
 
 _계산 메모: 이 차트는 평균값이 아니라 사전 시뮬레이션 템플릿입니다. 실제 물건에 맞게 항목별 가정을 바꿔서 사용하세요._
 

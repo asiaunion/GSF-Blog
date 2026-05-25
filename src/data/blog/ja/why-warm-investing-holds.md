@@ -37,7 +37,7 @@ references:
 
 GSFは期待利回りの横に、常に「信頼の平衡点」を並べて置きます。私たちが測定する温かさの指標は以下の通りです。
 
-![温かい投資 リスクフレームワーク](/assets/images/blog/svg/ja-why-warm-investing-holds.svg)
+![温かい投資 リスクフレームワーク](/assets/images/blog/diagrams/ja-why-warm-investing-holds.webp)
 
 *   **透明性 (Transparency)**: 情報が非対称ではなく、失敗の兆候まで正直に共有されているか。
 *   **持続性 (Sustainability)**: 短期的な利益のために関係を消耗させず、次世代まで続く構造であるか。

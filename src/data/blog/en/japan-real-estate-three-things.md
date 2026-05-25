@@ -52,7 +52,7 @@ These taxes are mandatory items that investors in Japanese real estate must conf
 
 ## 2.1 My own cost-stack worksheet (illustrative SVG)
 
-![Illustrative annual cost stack for a small Tokyo rental unit](/assets/images/blog/svg/en-japan-real-estate-three-things.svg)
+![Illustrative annual cost stack for a small Tokyo rental unit](/assets/images/blog/diagrams/en-japan-real-estate-three-things.webp)
 
 _Method note: this chart is a planning worksheet (not a market average). Replace each block with your own property assumptions before using it._
 

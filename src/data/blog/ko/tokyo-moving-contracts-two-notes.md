@@ -32,7 +32,7 @@ references:
 *   **보통차가계약 (Futsu Chakuya)**: 일본에서 가장 일반적인 형태입니다. 보통 2년 계약이며, 임차인이 원하면 **특별한 사유가 없는 한 항상 갱신**됩니다. 집주인이 갱신을 거절하려면 '정당한 사유'가 있어야 하는데, 이는 법원에서 매우 엄격하게 판단됩니다. 즉, 임차인에게 매우 유리한 계약입니다. (갱신 시 약 1개월 치의 갱신료가 발생할 수 있습니다.)
 *   **정기차가계약 (Teiki Chakuya)**: 계약 기간이 만료되면 **갱신 없이 항상 종료**되는 계약입니다. 재계약을 하려면 집주인과 다시 합의해야 하며, 집주인이 거절하면 나가야 합니다. 주로 고급 맨션이나 집주인이 일시적으로 집을 비울 때 사용됩니다.
 
-![보통차가 vs 정기차가 비교](/assets/images/blog/svg/ko-tokyo-moving-contracts-two-notes.svg)
+![보통차가 vs 정기차가 비교](/assets/images/blog/diagrams/ko-tokyo-moving-contracts-two-notes.webp)
 
 ---
 

@@ -72,7 +72,7 @@ references:
 
 ## 東京キッズミュージアムマップ 2026
 
-![東京おすすめキッズミュージアムマップ](/assets/images/blog/svg/ja-tokyo-museums-with-kids-five-picks.svg)
+![東京おすすめキッズミュージアムマップ](/assets/images/blog/diagrams/ja-tokyo-museums-with-kids-five-picks.webp)
 
 ---
 

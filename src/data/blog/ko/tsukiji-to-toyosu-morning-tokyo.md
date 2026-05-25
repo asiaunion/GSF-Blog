@@ -45,7 +45,7 @@ references:
 
 ## 3. 두 시장의 연결과 동선 제안
 
-![츠키지-토요스 연계 동선 가이드](/assets/images/blog/svg/ko-tsukiji-to-toyosu-morning-tokyo.svg)
+![츠키지-토요스 연계 동선 가이드](/assets/images/blog/diagrams/ko-tsukiji-to-toyosu-morning-tokyo.webp)
 
 ---
 

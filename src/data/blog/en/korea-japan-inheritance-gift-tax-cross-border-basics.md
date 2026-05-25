@@ -45,7 +45,7 @@ South Korea is currently undergoing a massive shift in its inheritance tax philo
 
 ## 3. Visualizing the Asset Nexus
 
-![Japan Cross-Border Tax Liability Map](/assets/images/blog/svg/en-korea-japan-inheritance-gift-tax-cross-border-basics.svg)
+![Japan Cross-Border Tax Liability Map](/assets/images/blog/diagrams/en-korea-japan-inheritance-gift-tax-cross-border-basics.webp)
 
 ---
 

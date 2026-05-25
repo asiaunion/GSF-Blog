@@ -70,7 +70,7 @@ references:
 
 ## 3. DNAウォーキングルート：1.5kmの資産価値探訪
 
-![銀座・丸の内 ウォーキングルートガイド](/assets/images/blog/svg/ja-ginza-marunouchi-walk-dna.svg)
+![銀座・丸の内 ウォーキングルートガイド](/assets/images/blog/diagrams/ja-ginza-marunouchi-walk-dna.webp)
 
 ---
 

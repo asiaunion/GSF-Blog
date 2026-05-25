@@ -87,7 +87,7 @@ Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination fo
 
 ## Tokyo Kids Museum Map 2026
 
-![Map of Recommended Kids Museums in Tokyo](/assets/images/blog/svg/en-tokyo-museums-with-kids-five-picks.svg)
+![Map of Recommended Kids Museums in Tokyo](/assets/images/blog/diagrams/en-tokyo-museums-with-kids-five-picks.webp)
 
 ---
 

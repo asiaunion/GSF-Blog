@@ -72,7 +72,7 @@ references:
 
 ## 도쿄 키즈 뮤지엄 지도 2026
 
-![도쿄 어린이 추천 뮤지엄 지도](/assets/images/blog/svg/ko-tokyo-museums-with-kids-five-picks.svg)
+![도쿄 어린이 추천 뮤지엄 지도](/assets/images/blog/diagrams/ko-tokyo-museums-with-kids-five-picks.webp)
 
 ---
 

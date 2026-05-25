@@ -29,8 +29,9 @@
 ## Copy principles (YMYL)
 
 - 투자·매수 권유 없음. **「구축·자동화·상담」** 프레임.
+- `highIntentCtaDisclosure`: 본문 편집·투자 조언과 **별개**인 작성자 서비스임을 한 줄로 표시 (AdSense·FTC 투명성).
 - Contact = `/contact/` · LinkedIn = UTM `high_intent_cta`
-- GA4: `data-cta` + `data-cta-location="post-high-intent"`
+- GA4: `data-cta` + `data-cta-location="post-high-intent"` · `data-cta-type="author-services"`
 
 ---
 

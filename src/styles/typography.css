@@ -176,9 +176,14 @@
       @apply mt-0.5;
     }
 
-    /* YMYL: short inline notice above article body (investment / safety posts) */
+    /* YMYL: inline notice above article body (all posts via PostDisclaimer) */
     .post-inline-disclaimer {
-      @apply mb-4 rounded-md border border-border bg-muted/50 px-3 py-2.5 text-sm leading-snug text-foreground/90;
+      @apply mb-6 rounded-md border border-border bg-muted/50 px-3 py-3 text-base leading-relaxed text-foreground/90;
+    }
+
+    /* First body block after disclaimer (often a tight `p`, not `h2:first-child`) */
+    .post-inline-disclaimer + :is(p, h2, h3, p.post-section-heading, div, blockquote) {
+      margin-block-start: 1.25rem;
     }
   }
 

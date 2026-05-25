@@ -50,7 +50,7 @@ references:
 
 ## 3. 構造比較：税務効率のマッピング
 
-![個人 vs 法人 税務構造比較](/assets/images/blog/svg/ja-japan-corporate-vs-personal-rental-after-tax-sketch.svg)
+![個人 vs 法人 税務構造比較](/assets/images/blog/diagrams/ja-japan-corporate-vs-personal-rental-after-tax-sketch.webp)
 
 ---
 

@@ -72,7 +72,7 @@ Once a stiff financial district synonymous with the Tokyo Stock Exchange (reloca
 
 Moving east away from the skyscrapers, you encounter the warm, human-scaled landscape of the 'Shitamachi' (downtown).
 
-![Nihonbashi to Hamacho Walking Route](/assets/images/blog/svg/en-nihonbashi-hamacho-walking-guide.svg)
+![Nihonbashi to Hamacho Walking Route](/assets/images/blog/diagrams/en-nihonbashi-hamacho-walking-guide.webp)
 
 *   **Amazake Yokocho**: This 400-meter shopping street in Ningyocho is named after the sweet rice drink traditionally served at its entrance. Artisans make *Ningyoyaki* (¥100-200 per piece), hand-pressed rice crackers, and traditional washi paper crafts at Isetatsu (est. 1864). Most shops open 10:00-17:00; many close on Sundays.
 *   **Hamacho Park and Riverside**: Leading to the Sumida River, Hamacho is one of central Tokyo's most sophisticated residential areas. New residential towers here sell at ¥500,000-700,000 per sqm — a 25% discount to adjacent Nihonbashi, making it an under-the-radar value play for residential investors.

@@ -50,7 +50,7 @@ references:
 
 最近の最も顕著な変化は、日本における韓国スタートアップの躍進です。
 
-![東京韓国人コミュニティマップ 2026](/assets/images/blog/svg/ja-tokyo-korean-community-beyond-shinokubo.svg)
+![東京韓国人コミュニティマップ 2026](/assets/images/blog/diagrams/ja-tokyo-korean-community-beyond-shinokubo.webp)
 
 *   **K-Startup Center (KSC)**: 虎ノ門ヒルズに位置するKSCは、日本市場に挑戦する韓国企業のベースキャンプです。
 *   **テックコミュニティ**: 六本木を中心にIT企業の駐在員やエンジニアたちは、Slackやオフラインの集まりを通じて、日本のテックトレンドやキャリア、起業に関する情報を活発に交換しています。

@@ -50,7 +50,7 @@ references:
 
 최근 가장 눈에 띄는 변화는 일본 내 한국 스타트업의 약진입니다.
 
-![도쿄 한국인 커뮤니티 지형도 2026](/assets/images/blog/svg/ko-tokyo-korean-community-beyond-shinokubo.svg)
+![도쿄 한국인 커뮤니티 지형도 2026](/assets/images/blog/diagrams/ko-tokyo-korean-community-beyond-shinokubo.webp)
 
 *   **K-Startup Center (KSC)**: 토라노몬 힐즈에 위치한 K-스타트업 센터는 일본 시장에 도전하는 한국 기업들의 베이스캠프입니다.
 *   **테크 커뮤니티**: 롯폰기를 중심으로 한 IT 기업 주재원들과 엔지니어들은 슬랙(Slack)이나 오프라인 모임을 통해 일본 내 테크 트렌드와 이직, 창업 정보를 활발히 교환합니다.

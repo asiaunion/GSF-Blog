@@ -45,7 +45,7 @@ references:
 
 ## 3. 二つの市場を結ぶモデルコース
 
-![築地・豊洲 連係動線ガイド](/assets/images/blog/svg/ja-tsukiji-to-toyosu-morning-tokyo.svg)
+![築地・豊洲 連係動線ガイド](/assets/images/blog/diagrams/ja-tsukiji-to-toyosu-morning-tokyo.webp)
 
 ---
 

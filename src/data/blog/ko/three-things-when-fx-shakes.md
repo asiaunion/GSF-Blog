@@ -46,7 +46,7 @@ references:
 
 투자 판단의 기준을 '원화'나 '달러'가 아닌 '엔화' 그 자체로 두는 훈련이 필요합니다.
 
-![환율 변동과 투자 수익 상관관계](/assets/images/blog/svg/ko-three-things-when-fx-shakes.svg)
+![환율 변동과 투자 수익 상관관계](/assets/images/blog/diagrams/ko-three-things-when-fx-shakes.webp)
 
 ---
 

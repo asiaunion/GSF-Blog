@@ -92,7 +92,7 @@ _편집자 주: 본문 스크린샷은 아카이브 참고용으로, 현재 UI·
 
 ## 4.2 직접 계산 시나리오 차트(SVG 예시)
 
-![J-REIT 시나리오별 기대수익률 막대 차트 예시](/assets/images/blog/svg/ko-j-reit-five-things-to-know.svg)
+![J-REIT 시나리오별 기대수익률 막대 차트 예시](/assets/images/blog/diagrams/ko-j-reit-five-things-to-know.webp)
 
 _계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익 보장을 의미하지 않습니다._
 

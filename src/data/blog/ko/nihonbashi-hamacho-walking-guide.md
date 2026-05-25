@@ -71,7 +71,7 @@ references:
 
 화려한 빌딩 숲을 지나 동쪽으로 걷다 보면 '시타마치(Shitamachi)' 특유의 따뜻한 풍경이 나타납니다.
 
-![니혼바시-하마초 워킹 루트](/assets/images/blog/svg/ko-nihonbashi-hamacho-walking-guide.svg)
+![니혼바시-하마초 워킹 루트](/assets/images/blog/diagrams/ko-nihonbashi-hamacho-walking-guide.webp)
 
 *   **아마자케 요코초**: 닌교초의 400m 상점가. 닌교야키(개당 ¥100~200), 전병, 이세타쓰(1864년 창업) 와시 종이 공예품 등을 만나볼 수 있습니다. 대부분 10:00~17:00 영업, 일요일 휴무 다수.
 *   **하마초 파크·리버사이드**: 스미다강으로 이어지는 하마초는 도쿄 도심 최고의 세련된 주거 지역. 신축 타워맨션 ¥500,000~700,000/㎡ — 인접 니혼바시 대비 약 25% 할인으로 숨은 가치 투자처.

@@ -11,7 +11,7 @@
   <rect x="420" y="80" width="300" height="120" fill="#f0fdf4" stroke="#22c55e" stroke-width="1" rx="8" />
   <text x="505" y="110" font-size="14" font-weight="700" fill="#166534">Shift to Yen Strength</text>
   <text x="440" y="145" font-size="12" fill="#15803d">● Remit accumulated profits (Secure FX gain)</text>
-  <text x="440" y="170" font-size="12" fill="#15803d">● Selective divestment & portfolio rebalancing</text>
+  <text x="440" y="170" font-size="12" fill="#15803d">● Selective divestment &amp; portfolio rebalancing</text>
   
   <!-- Center Logic -->
   <path d="M360 140 L420 140" stroke="#9ca3af" stroke-width="2" marker-end="url(#arrowhead)" />
