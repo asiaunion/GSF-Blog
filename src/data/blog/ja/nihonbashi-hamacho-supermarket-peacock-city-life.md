@@ -73,7 +73,3 @@ references:
 - [日本橋浜町散策ガイド：江戸情緒とリバーサイドライフ](/ja/posts/nihonbashi-hamacho-walking-guide/)
 - [日本橋：日本のすべての道が始まる場所](/ja/posts/nihonbashi-the-origin-of-japan/)
 - [東京5区オフィス空室率2%台突入の分析](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
-
-## 免責・ご利用上の注意
-
-本記事は**情報提供**を目的としており、投資・法務・税務・入国管理等の個別助言や勧誘ではありません。数値・制度・運営情報は掲載時点のものです。確認なく意思決定に用いないでください。

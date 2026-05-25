@@ -83,7 +83,3 @@ GSF serves as the bridge between Seoul and Tokyo, ensuring your assets achieve m
 - [Tokyo Office Market 2026: Vacancy and Supply Forecast](/posts/tokyo-office-vacancy-five-wards-2026/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

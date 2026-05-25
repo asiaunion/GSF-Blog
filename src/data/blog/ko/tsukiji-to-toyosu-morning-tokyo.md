@@ -77,7 +77,3 @@ references:
 - [도쿄 5구 오피스 공실률 2%대 진입 분석](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
 - [2026년 일본 부동산 투자 실패의 기록: 교훈](/ko/posts/one-failure-three-lessons-postmortem/)
 - [도쿄 긴자-마루노우치 워킹 가이드](/ko/posts/ginza-marunouchi-walk-dna/)
-
-## 면책 및 이용 안내
-
-본 글은 **정보 제공 목적**으로 작성되었으며, 투자·법무·세무·이민 등에 대한 개별 조언이나 권유가 아닙니다. 수치·제도·운영 정보는 게시 시점 기준이며, 확인 없이 의사결정에 사용하지 마십시오.

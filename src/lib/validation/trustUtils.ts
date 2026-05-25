@@ -13,7 +13,12 @@ export function stripHtmlComments(markdown: string) {
 }
 
 export function stripBoilerplateSections(markdown: string) {
-  const markers = ["## 면책 및 이용 안내", "## Disclaimer", "## 免責"];
+  const markers = [
+    "## 면책 및 이용 안내",
+    "## Disclaimer",
+    "## 免責・ご利用上の注意",
+    "## 免責",
+  ];
   let body = stripHtmlComments(markdown);
   for (const marker of markers) {
     const idx = body.indexOf(marker);

@@ -107,7 +107,3 @@ references:
 - [도쿄에서 집 구하기: 임대차 계약의 핵심](/ko/posts/tokyo-moving-contracts-two-notes/)
 - [일본 비자 취득 루트: 경영관리 및 영주권](/ko/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [한일 상속·증여세: 10년 무한책임의 함정](/ko/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-
-## 면책 및 이용 안내
-
-본 글은 **정보 제공 목적**으로 작성되었으며, 투자·법무·세무·이민 등에 대한 개별 조언이나 권유가 아닙니다. 수치·제도·운영 정보는 게시 시점 기준이며, 확인 없이 의사결정에 사용하지 마십시오.

@@ -73,4 +73,3 @@ GSFはあなたの成功だけでなく、失敗の可能性にも真摯に向�
 - [法人所有 vs 個人所有：税務メリットの比較](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 
 ---
-

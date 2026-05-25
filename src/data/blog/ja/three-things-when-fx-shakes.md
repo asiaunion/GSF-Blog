@@ -72,4 +72,3 @@ GSFは為替のノイズに惑わされず、資産の普遍的な価値を見�
 - [都心5区オフィス市場分析：空室率2%台の衝撃](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
 
 ---
-

@@ -286,7 +286,3 @@ Premium tower mansions in the Core 3 can carry combined management fees and repa
 Commerce in Shinjuku, trend in Shibuya, academia in Bunkyo. Three wards that stand shoulder-to-shoulder with the Core 3.
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

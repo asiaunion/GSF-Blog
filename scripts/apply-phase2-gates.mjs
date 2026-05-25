@@ -56,10 +56,8 @@ function hasTierSource(fm) {
   return signals.some(s => fm.toLowerCase().includes(s));
 }
 
-function ensureDisclaimer(body, marker, block) {
-  if (body.includes(marker)) return body;
-  const trimmed = body.trimEnd();
-  return `${trimmed}\n\n${block}\n`;
+function ensureDisclaimer(body) {
+  return body;
 }
 
 function softenRisky(text) {
@@ -88,7 +86,7 @@ async function processFile(filePath, marker, disclaimerBlock, { risky = false, t
   let nextBody = body;
   if (tier) nextFm = ensureTierSource(nextFm);
   if (risky) nextBody = softenRisky(nextBody);
-  nextBody = ensureDisclaimer(nextBody, marker, disclaimerBlock);
+  nextBody = ensureDisclaimer(nextBody);
   const next = `${nextFm}${nextBody.startsWith("\n") ? "" : "\n"}${nextBody}`;
   if (next !== raw) {
     if (!dryRun) await writeFile(filePath, next, "utf8");

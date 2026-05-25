@@ -42,7 +42,7 @@ const blog = defineCollection({
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
       lang: z.enum(["en", "ko", "ja"]).default("en"),
-      /** YMYL routing: triggers short inline disclaimer for investment / safety posts */
+      /** Post category: top PostDisclaimer copy (investment / safety / general) */
       category: z
         .enum(["investment", "safety", "life", "local", "essay"])
         .optional(),

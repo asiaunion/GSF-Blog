@@ -97,7 +97,3 @@ I highly recommend reading the [Ginza–Marunouchi DNA Walking Guide](/en/posts/
 - [ ] Take a look through a contemporary art or design photography book at Tsutaya Books on the 6th floor of GINZA SIX.
 - [ ] Sit on a lawn bench in GINZA SIX Garden and spot and compare Tokyo Tower and Tokyo Skytree.
 - [ ] Stand in the middle of the wide avenue during Pedestrian Paradise and capture the weekend air of Ginza with your camera.
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -98,7 +98,3 @@ The core question is: can you hold through one adverse cycle—rates up 100 basi
 - [Japan rate-hike cycle: three J-REIT lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

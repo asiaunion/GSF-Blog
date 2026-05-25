@@ -90,7 +90,3 @@ In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024
 - [ ] **Preference**: Check market liquidity in Bunkyo or Setagaya wards where end-user demand is strong.
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

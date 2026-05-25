@@ -152,9 +152,3 @@ No visa needed to *own*. To **live and manage**: Business Manager Visa (¥30M ca
 - [ ] Local team — broker, scrivener, tax accountant, manager
 - [ ] FX scenarios — entry rate vs. 3–5yr exit
 - [ ] Review repair reserves — request *chōki shūzen keikaku*
-
-> **Disclaimer**: Informational only. Not a recommendation. Consult local professionals. Data as of April 2026.
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

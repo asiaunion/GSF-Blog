@@ -107,7 +107,3 @@ Beyond lifestyle, the evolving Korean community map in Tokyo has measurable inve
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
 - [Japan Visa Paths: Business Manager & Permanent Residency](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

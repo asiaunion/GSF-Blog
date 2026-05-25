@@ -136,7 +136,3 @@ Accuracy matters here. I'm transparent about where the numbers come from.
 The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonbashi. The ward of Roppongi and Azabu. These three wards are Tokyo's most expensive, most iconic, and most in-demand among foreign investors. Why per-tsubo prices here are two to three times those of other wards, what the variance looks like within each ward by station, and how to think about long-term hold versus yield play — all covered.
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

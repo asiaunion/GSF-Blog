@@ -81,7 +81,3 @@ At GSF, we help investors build the business substance required to turn a proper
 - [Tokyo 5 Wards Office Market Analysis 2026](/posts/tokyo-office-vacancy-five-wards-2026/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

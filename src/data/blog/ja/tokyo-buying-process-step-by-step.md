@@ -225,4 +225,3 @@ Week 8-10 : 登記完了・登記識別情報（権利証）受領
 - [法人 vs 個人名義 — 節税とアフターケア](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 
 ---
-

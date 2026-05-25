@@ -84,7 +84,3 @@ For example, if you already know an area has a high fire risk, selecting a prope
 - [ ] **Hazard Map**: Check the ranking of your target area on the [Tokyo Earthquake Risk Map](https://www.kensetsu.metro.tokyo.lg.jp/).
 - [ ] **Standards**: Verify if the building meets 'New Anti-seismic Standards' (post-1981) or has superior vibration damping/isolation tech.
 - [ ] **Insurance**: Ensure your earthquake insurance rider's coverage limit is sufficient to cover actual asset value replacement.
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -1,5 +1,5 @@
 import type { ParsedAuthorNotes } from "@/lib/author-notes/types";
-import { disclaimerFor, softenHardClaims } from "@/lib/content-engine/rules";
+import { softenHardClaims } from "@/lib/content-engine/rules";
 import { polishKoBody } from "@/lib/content-engine/generator";
 import type { ResearchPack } from "@/lib/research-adapter/types";
 
@@ -44,7 +44,7 @@ function sectionPrompt(pack: ResearchPack, notes: ParsedAuthorNotes, revisionMem
 - 제목/주제 이탈 금지
 - 부동산/투자/라이프스타일 맥락 유지
 - 결론에서 제목 키워드 재연결
-- 마지막 줄에 면책문구를 그대로 삽입: ${disclaimerFor("ko")}
+- 본문 끝에 면책·Disclaimer 섹션을 넣지 마세요 (사이트 상단 PostDisclaimer로 표시됨)
 
 주제 키워드: ${pack.keyword}
 반영할 요소: ${mustInclude}
