@@ -13,6 +13,7 @@
 | 면책 | 상단 `PostDisclaimer` only |
 | 다이어그램 | WebP in `diagrams/` — [`CHARTS_AND_VISUALS.md`](./CHARTS_AND_VISUALS.md) |
 | **다음 작업** | [`NEXT_WORK_QUEUE.md`](./NEXT_WORK_QUEUE.md) (GSC → AdSense → monetization) |
+| **세션 갈무리** | [`GSF_BLOG_SESSION_ARCHIVE_20260525.md`](./GSF_BLOG_SESSION_ARCHIVE_20260525.md) |
 
 ## Phase history
 
