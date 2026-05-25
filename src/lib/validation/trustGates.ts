@@ -1,3 +1,9 @@
+/**
+ * Trust gates (T1 coverage, T2 parity, optional T3 source fetch).
+ *
+ * Production policy: CI sets TRUST_SKIP_SOURCE_FETCH=1 and SKIP_TRUST_VERIFY=1.
+ * Network T3 is P0-only (p0-spot-verify.mjs), not batch row-by-row — see docs/fact-audit/T3_POLICY.md.
+ */
 import {
   claimsNeedingSourceCheck,
   loadFactSheet,

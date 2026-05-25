@@ -1,5 +1,8 @@
 # Cursor 지시: AG Phase 2.5 이후 3차 재검증
 
+> **Status (2026-05-25):** Phase 3 **완료**. 운영 정책: [`fact-audit/T3_POLICY.md`](./fact-audit/T3_POLICY.md). 다음: [`NEXT_WORK_QUEUE.md`](./NEXT_WORK_QUEUE.md).  
+> 아래 프롬프트는 **역사 보관** — 새 배치 T3 35/35 목표로 쓰지 말 것.
+
 > **용도:** AG가 fact-audit 시트 기준으로 md를 수정한 뒤, Cursor에 **붙여넣기**할 재검증 프롬프트.  
 > **선행:** [`AG_PHASE2_CONTENT_FIX_PROMPT.md`](./AG_PHASE2_CONTENT_FIX_PROMPT.md) 완료 + `AG_PHASE2_FIX_REPORT.md`  
 > **정본 레포:** `/Users/gsf/dev/Cursor/gsf-blog`

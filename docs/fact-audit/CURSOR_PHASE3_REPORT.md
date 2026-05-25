@@ -91,13 +91,12 @@ node scripts/p0-spot-verify.mjs
 
 ---
 
-## 남은 작업 (T3 fetch ON → 35/35)
+## 정책 고정 (2026-05-25 housekeeping)
 
-1. **11 slug** — blocking 525 claim: 행별 URL·값 재매핑 또는 Claims 테이블 축소 → `pnpm trust:verify-sources <slug>`.
-2. **ginza** — `trust-fact-sheet-coverage`: KO `4,440만` / legacy `6,710` 토큰 시트 반영.
-3. (선택) JA ginza 본문 6,710 → 4,440万円 정합.
-4. 사용자 요청 시 **git commit/push**.
+- **T3:** [**P0-only**](./T3_POLICY.md) — batch fetch ON 35/35 **비목표**.
+- 11 slug 전수 T3: [`T3_DEFERRED_11_SLUGS.md`](./T3_DEFERRED_11_SLUGS.md) (archive).
+- 다음 운영: [`../NEXT_WORK_QUEUE.md`](../NEXT_WORK_QUEUE.md).
 
 ---
 
-> **완료 문구 (2026-05-25):** 「Phase3 parity 34/35 · T3 fetch 24/35 · P0 12/12 · bulk [x] 122 · INDEX 갱신」
+> **완료 문구:** 「Phase3 parity 35/35 · CI 35/35 · P0 T3 12/12 · T3 policy P0-only · main deployed」

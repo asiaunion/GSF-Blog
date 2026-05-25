@@ -1,6 +1,9 @@
 /**
  * Network T3 for all unverified fact-sheet claims; mark [x] on PASS.
  * Usage: node scripts/bulk-t3-mark-passing.mjs [slug...]
+ *
+ * Not part of CI publish bar. Default trust policy is P0-only T3 — docs/fact-audit/T3_POLICY.md.
+ * Do not use bulk [x] to imply full-sheet verification.
  */
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";

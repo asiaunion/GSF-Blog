@@ -9,7 +9,7 @@
 | 1 | **AG** | `INDEX.md`, `<slug>.md`, `AG_PHASE1_REPORT.md` |
 | 2 | **Cursor** | gates 35/35, content fixes — [`CURSOR_PHASE2_REPORT.md`](./CURSOR_PHASE2_REPORT.md) |
 | 2.5b | **AG** | Deep/Standard/Light 전체 35 — [`../AG_PHASE2_CONTENT_FIX_PROMPT.md`](../AG_PHASE2_CONTENT_FIX_PROMPT.md) |
-| 3 | **Cursor** | tier-1 URL 검증, INDEX sync — [`../CURSOR_PHASE3_REVERIFY_PROMPT.md`](../CURSOR_PHASE3_REVERIFY_PROMPT.md) |
+| 3 | **Cursor** | **완료** — P0 T3, INDEX — [`T3_POLICY.md`](./T3_POLICY.md) · [`CURSOR_PHASE3_REPORT.md`](./CURSOR_PHASE3_REPORT.md) |
 
 ## INDEX authority
 
@@ -45,14 +45,16 @@ pnpm trust:update-index
 
 **AG batch prompt:** [`../AG_BATCH_FACT_CHECK_PROMPT.md`](../AG_BATCH_FACT_CHECK_PROMPT.md)
 
-## Sign-off (Cursor Phase 3)
+## Sign-off (publish bar)
 
-Per slug, after `pnpm validate:post <slug>` exit 0 **with trust on** (no `SKIP_TRUST_VERIFY`):
+Per [`T3_POLICY.md`](./T3_POLICY.md):
 
-1. Claims table: every extracted numeric has a row; **specific** tier-1 URL (not homepage-only).
-2. P0/P1 slugs: open ≥1 tier-1 URL and confirm value on page (record in Claims: `Verified ✓ (Cursor, YYYY-MM-DD, snippet)`).
-3. Update `docs/fact-audit/<slug>.md` → Sign-off section `[x]`.
-4. Run `pnpm trust:update-index` to refresh INDEX `validate` column.
+1. Claims: **body + P0** rows with **specific** tier-1 URLs (homepage-only `[x]` forbidden).
+2. P0 slugs: primary claim verified — P0 spot table or `Verified ✓ (Cursor, date, snippet)`.
+3. `SKIP_TRUST_VERIFY=1 pnpm validate:post <slug>` exit 0.
+4. `pnpm trust:update-index` after sheet edits.
+
+Full-sheet network T3 on every row is **not** required.
 
 ## UNCERTAIN queue (T3 hard block)
 
