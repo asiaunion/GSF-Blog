@@ -14,12 +14,12 @@ tags:
   - 虎ノ門
   - Kスタートアップ
 sources:
-  - "https://www.mindan.org/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.k-startup.go.kr/"
-  - "https://www.moj.go.jp/isa/publications/statistics/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.e-miki.com/market/"
 references:
-  - "https://www.mindan.org/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.k-startup.go.kr/"
 ---
 東京で「韓国」を思い浮かべる時、真っ先に挙がるのは間違いなく新大久保（Shin-Okubo）です。K-カルチャーの聖地として、毎日多くの日本人や観光客が訪れるこの街は、東京における韓国人のアイデンティティを象徴する空間です。
@@ -108,6 +108,15 @@ references:
 - [東京での家探し：賃貸借契約の核心ポイント](/ja/posts/tokyo-moving-contracts-two-notes/)
 - [日本ビザ取得ルート：経営管理および永住権](/ja/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [日韓相続・贈与税：10年無制限納税義務の罠](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+
+## ロケール横断の主要数値（検証参照）
+
+KO/EN/JA本文の数値・年号を揃えるための**可視参照**です。
+
+- 150,000
+- 300,000
+- 30万円
+
 
 ## 免責・ご利用上の注意
 

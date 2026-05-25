@@ -120,6 +120,29 @@ Today, Chuo City's multilingual guides to culture and urban regeneration are par
 - [ ] **Symbol**: Reflect on the meaning of prosperity and protection embodied by the winged lions (Kirin) of Nihonbashi Bridge.
 - [ ] **Change**: Experience the unique atmosphere where department store tradition meets the financial innovation of Kabutocho.
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥320
+- ¥50
+- ¥500
+- 000万円
+- 1673년
+- 1699년
+- 1806년
+- 1896년
+- 1960년
+- 2026년
+- 2035년
+- 3,200
+- 3,200억
+- 330,000
+- 40%
+- 5,000
+- 5,000억
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

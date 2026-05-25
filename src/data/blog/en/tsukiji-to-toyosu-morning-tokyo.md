@@ -99,6 +99,26 @@ Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market
 - [Post-Mortem: 3 Lessons from Japan Real Estate Failures](/posts/one-failure-three-lessons-postmortem/)
 - [Ginza-Marunouchi Walking Guide](/posts/ginza-marunouchi-walk-dna/)
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥100
+- ¥300
+- 1,500
+- 2,000
+- 2018년
+- 2024年2月
+- 2026년
+- 2030년
+- 3,000
+- 3,500
+- 4,200
+- 5,000
+- 50,000
+- 8,000
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

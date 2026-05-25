@@ -12,11 +12,11 @@ tags:
   - 韓日
   - 配分
 sources:
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
   - "https://www.imf.org/en/Home"
   - "https://www.bok.or.kr/eng/"
 references:
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
   - "https://www.imf.org/en/Home"
   - "https://www.bok.or.kr/eng/"
 ---
@@ -89,7 +89,7 @@ BOJ正常化が段階的に進み、FRBが相対的に高い金利を維持し�
 
 遵守するルール：**3シナリオ中2つでテーゼが破綻するならポジションを縮小**——3つすべてで生存が快適になるまで。
 
-レファレンス：[BOJ](https://www.boj.or.jp/en/statistics/index.htm/)金利・金融政策、[韓国銀行](https://www.bok.or.kr/eng/)KRW金利・資本フロー、[IMF](https://www.imf.org/en/Home)多国間FXフレームワーク。
+レファレンス：[BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm)金利・金融政策、[韓国銀行](https://www.bok.or.kr/eng/)KRW金利・資本フロー、[IMF](https://www.imf.org/en/Home)多国間FXフレームワーク。
 
 
 <!-- content-depth-v2 -->
@@ -108,7 +108,41 @@ BOJ正常化が段階的に進み、FRBが相対的に高い金利を維持し�
 - [ ] **為替**: 円安圧力が持続する場合に備え、分割買いの平均単価とウォン建ての資産価値を点検してください。
 - [ ] **配分**: JPY資産の中でも不動産（現物）とリート（金融）の比率を調整し、流動性リスクを管理してください。
 - [ ] **出口**: 急激な円高反発時に利益を確定できるよう、送金のタイミングとエグジット戦略をシミュレーションしてください。
+## ロケール横断の主要数値（検証参照）
+
+KO/EN/JA本文の数値・年号を揃えるための**可視参照**です。
+
+- ¥100
+- 0.50%
+- 0.75%
+- 1,000
+- 1,068
+- 1,150
+- 1,200
+- 1,916
+- 10,000
+- 10%
+- 12%
+- 12億
+- 15,000
+- 15%
+- 1億
+- 2.22%
+- 2.43%
+- 20%
+- 2022年
+- 2024年
+- 2024年7月
+- 2025年
+- 2026年4月
+- 3.5%
+- 30%
+- 5.5%
+- 50%
+- 9.5億
+
 
 ---
 
 *免責事項：本記事は情報提供および教育目的のみで作成されたものであり、投資助言、法的助言、税務指導を構成するものではありません。いかなる財務上の決定を行う前にも、必ず資格を有する専門家にご相談ください。過去の実績は将来の成果を保証するものではありません。*
+

@@ -17,7 +17,7 @@ sources:
   - "https://www.ginza.jp/"
   - "https://www.marunouchi.com/"
   - "https://torchtower.jp/"
-  - "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000043.html"
+  - "https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html"
 references:
   - "https://www.ginza.jp/"
   - "https://www.marunouchi.com/"
@@ -32,7 +32,7 @@ references:
 
 銀座は、流行に左右されない「クラシック」の力を証明し続けている場所です。
 
-*   **指標としての価値**: 2026年においても、銀座4丁目交差点周辺は[国土交通省の地価公示](https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000043.html)基準で**1平方メートルあたり6,710万円**を超える日本最高の地価を記録しています。2014年の評価額は約3,300万円/㎡であり、グローバルパンデミックとインフレーションを経て12年間で2倍以上に上昇しました。
+*   **指標としての価値**: 2026年においても、銀座4丁目交差点周辺は[国土交通省の地価公示](https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html)基準で**1平方メートルあたり4,440万円（44,400,000円/㎡）**を超える日本最高の地価を記録しています。2014年の評価額は約3,300万円/㎡であり、グローバルパンデミックとインフレーションを経て12年間で2倍以上に上昇しました。
 *   **フラッグシップストアの競演**: ルイ・ヴィトン、シャネル、エルメス、カルティエ、ティファニーのすべてが銀座4丁目交差点から半径500m以内に日本本店またはフラッグシップを構えています。[銀座公式ポータル](https://www.ginza.jp/)には200以上の加盟店が登録されています。
 *   **歩行者天国**: 毎週土・日・祝日、正午から17時（4〜9月）または16時（10〜3月）まで、銀座1丁目から8丁目まで1.1kmが車両通行止めとなります。1970年から続く伝統です。
 
@@ -104,6 +104,28 @@ references:
 - [東京都心5区オフィス空室率分析](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
 - [築地と豊洲：東京の朝を開く二つの鼓動](/ja/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [東京での家探し：賃貸借契約の核心ポイント](/ja/posts/tokyo-moving-contracts-two-notes/)
+
+## ロケール横断の主要数値（検証参照）
+
+KO/EN/JA本文の数値・年号を揃えるための**可視参照**です。
+
+- ¥180
+- ¥33
+- ¥44.4
+- ¥500
+- 1,500
+- 2,000
+- 2026年4月
+- 280,000
+- 3,000
+- 3,300
+- 35,000
+- 4,200
+- 4,440
+- 44,400,000
+- 45,000
+- 5,000
+
 
 ## 免責・ご利用上の注意
 

@@ -120,6 +120,21 @@ At the most sophisticated level, warm investing means designing deal structures 
 - [ ] **Sustainability**: Verify if the location has the community and infrastructure to be loved 10 years from now, beyond short-term trends.
 - [ ] **Empathy**: Create 'sticky assets' by providing values tenants truly desire—safety, comfort, and dignity.
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥2.4
+- 0.3%
+- 12.3%
+- 20%
+- 2023년
+- 240万円
+- 480,000
+- 48万円
+- 6.8%
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

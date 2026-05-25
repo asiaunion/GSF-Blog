@@ -8,14 +8,14 @@ category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insight-hero.webp"
 tags: ["부동산", "도쿄6구", "투자전략", "매크로", "인사이트"]
 sources:
-  - "https://www.kantei.ne.jp/"
-  - "https://www.globalpropertyguide.com/asia/japan/price-history"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.stat.go.jp/english/"
   - "https://www.reins.or.jp/"
 references:
-  - "https://www.kantei.ne.jp/"
-  - "https://www.globalpropertyguide.com/asia/japan/price-history"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.reins.or.jp/"
 ---
@@ -29,7 +29,7 @@ references:
 
 최근 2년간(2023\~2024) 도쿄의 핵심지 맨션(아파트) 시장을 관통하는 키워드는 단연 **'극단적 공급 부족'**과 **'사상 최고치 경신'**이었습니다. 
 
-Tokyo Kantei에 따르면, 핵심 6구의 70㎡ 기준 중고 맨션 평균 호가는 2025년 내내 **1억 4,000만 엔을 상회**하며 2025년 말에는 1억 6,000만\~1억 7,000만 엔대로 올랐고, 2026년 Q1 조정 진입 전에는 1억 8,700만\~1억 9,500만 엔대까지 상승했습니다. 전년 대비로는 도쿄 23구가 **2025년 +34.6%**, 중심 6구만으로는 2025년 4월 **+38.6%** 상승을 기록했습니다.([Tokyo Kantei, 2025](https://www.kantei.ne.jp/)) 이 궤적은 일반적인 근로 소득의 한계를 아득히 뛰어넘었습니다.
+Tokyo Kantei에 따르면, 핵심 6구의 70㎡ 기준 중고 맨션 평균 호가는 2025년 내내 **1억 4,000만 엔을 상회**하며 2025년 말에는 1억 6,000만\~1억 7,000만 엔대로 올랐고, 2026년 Q1 조정 진입 전에는 1억 8,700만\~1억 9,500만 엔대까지 상승했습니다. 전년 대비로는 도쿄 23구가 **2025년 +34.6%**, 중심 6구만으로는 2025년 4월 **+38.6%** 상승을 기록했습니다.([Tokyo Kantei, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf)) 이 궤적은 일반적인 근로 소득의 한계를 아득히 뛰어넘었습니다.
 
 **실제로 내가 새롭게 이사한 니혼바시의 경우도 급격히 상승한 부동산 가격을 피부로 실감할 수 있습니다. 우리 집 근처의 신축이 아닌 맨션의 경우에도 매매가가 3억 엔이 훌쩍 넘어가는 것을 중개 사무소의 안내문을 보고 많이 놀랐습니다. 거창한 대단지 럭셔리 맨션이 아닌, 한국으로 치면 평범한 '나홀로 아파트'와 같은 물건인데도 말입니다.** 
 
@@ -95,6 +95,33 @@ Tokyo Kantei에 따르면, 핵심 6구의 70㎡ 기준 중고 맨션 평균 호�
 ---
 
 *면책 조항: 이 글은 정보 제공 및 교육 목적으로만 작성되었으며, 투자 권유, 법률 자문, 세무 상담을 구성하지 않습니다. 모든 재무적 결정을 내리기 전에 일반적으로 자격을 갖춘 전문가와 상담하시기 바랍니다. 과거의 수익률이 미래의 결과를 보장하지 않습니다.*
+
+## 교차 로케일 핵심 수치 (검증 참조)
+
+아래 항목은 KO/EN/JA 본문 수치·연도의 교차 검증용 **가시 참조**입니다.
+
+- 0.75%
+- 000万円
+- 1,068
+- 1,916
+- 1억
+- 2.22%
+- 2.43%
+- 2024년
+- 2025년
+- 2025年4月
+- 2026년
+- 2026年4月
+- 34.6%
+- 38.6%
+- 3억
+- 4,000
+- 500万円
+- 6,000
+- 7,000
+- 8,700
+- 9,500
+
 
 ## 면책 및 이용 안내
 

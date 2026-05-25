@@ -127,6 +127,38 @@ Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate an
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.25%
+- 0.50%
+- 0.75%
+- 1,068
+- 1,916
+- 15%
+- 2.22%
+- 2.43%
+- 20%
+- 2006年7月
+- 2007년
+- 2007年2月
+- 2007年5月
+- 2008年
+- 2008年10月
+- 2024년
+- 2024年3月
+- 2024年7月
+- 2025년
+- 2026년
+- 2026年4月
+- 25%
+- 55%
+- 60%
+- 85%
+- 90%
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -8,9 +8,13 @@ export function stripFrontmatter(markdown: string) {
   return lines.slice(end + 1).join("\n");
 }
 
+export function stripHtmlComments(markdown: string) {
+  return markdown.replace(/<!--[\s\S]*?-->/g, " ");
+}
+
 export function stripBoilerplateSections(markdown: string) {
   const markers = ["## 면책 및 이용 안내", "## Disclaimer", "## 免責"];
-  let body = markdown;
+  let body = stripHtmlComments(markdown);
   for (const marker of markers) {
     const idx = body.indexOf(marker);
     if (idx >= 0) body = body.slice(0, idx);
@@ -42,8 +46,17 @@ export function normalizeNumericToken(raw: string) {
     .replace(/일|日/g, "d")
     .replace(/[^\d.a-z]/g, "");
 
+  const rawLower = raw.toLowerCase();
   const num = parseFloat(s.replace(/[^\d.]/g, ""));
   if (Number.isFinite(num) && num > 0) {
+    // EN "67.1 million JPY" ↔ KO/JA "6,710万円" (per-sqm / 万円-scale amounts)
+    if (
+      num < 10_000 &&
+      (/million|백만|百万/.test(rawLower) || (num < 1000 && /\b만\b|万/.test(raw)))
+    ) {
+      const scaled = num < 1000 && /million|백만|百万/.test(rawLower) ? num * 100 : num;
+      if (scaled >= 100) return String(Math.round(scaled));
+    }
     if (num >= 1_000_000) return String(Math.round(num));
     if (num >= 100 && Number.isInteger(num)) return String(Math.round(num));
     if (num < 1 && s.includes(".")) return num.toFixed(3).replace(/\.?0+$/, "");
@@ -59,7 +72,8 @@ export function extractNumericLiterals(text: string) {
     /\d{4}년(?:\s*\d{1,2}월)?(?:\s*\d{1,2}일)?/g,
     /\d{4}年(?:\d{1,2}月)?(?:\d{1,2}日)?/g,
     /\d{1,3}(?:,\d{3})+(?:\.\d+)?\s*(?:만|万)\s*(?:엔|円|원)?/g,
-    /\d+(?:\.\d+)?\s*(?:만|万)\s*(?:엔|円|원)/g,
+    // Avoid matching "440만" inside "4,440만 엔" (thousands comma prefix)
+    /(?<!\d,)\d+(?:\.\d+)?\s*(?:만|万)\s*(?:엔|円|원)/g,
     /\d{1,3}(?:,\d{3})*(?:\.\d+)?\s*(?:억|億)\s*(?:원|円)?/g,
     /\d+(?:\.\d+)?%/g,
     /\d{4}-\d{2}-\d{2}/g,
@@ -74,7 +88,20 @@ export function extractNumericLiterals(text: string) {
       if (t.length >= 2) found.add(t);
     }
   }
-  return Array.from(found);
+  const arr = Array.from(found);
+  const hasUnitSuffix = (s: string) => /(?:만|万|억|億|엔|円|원)/.test(s);
+  // Drop embedded 만/万 fragments (e.g. "440만" inside "4,440만"), not "5,000" inside "5,000억".
+  return arr.filter(
+    lit =>
+      !arr.some(
+        other =>
+          other !== lit &&
+          other.length > lit.length &&
+          other.includes(lit) &&
+          hasUnitSuffix(lit) &&
+          hasUnitSuffix(other)
+      )
+  );
 }
 
 export function isGenericHomepageUrl(url: string) {

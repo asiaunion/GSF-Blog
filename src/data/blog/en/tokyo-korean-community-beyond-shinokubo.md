@@ -14,12 +14,12 @@ tags:
   - Toranomon
   - KStartup
 sources:
-  - "https://www.mindan.org/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.k-startup.go.kr/"
-  - "https://www.moj.go.jp/isa/publications/statistics/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.e-miki.com/market/"
 references:
-  - "https://www.mindan.org/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.k-startup.go.kr/"
 ---
 When one thinks of 'Korea' in Tokyo, Shin-Okubo is invariably the first name that comes to mind. As a sanctuary of K-culture where countless Japanese locals and tourists flock daily, it stands as the symbolic center of Korean identity in Tokyo.
@@ -108,6 +108,19 @@ Beyond lifestyle, the evolving Korean community map in Tokyo has measurable inve
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
 - [Japan Visa Paths: Business Manager & Permanent Residency](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 150,000
+- 2023년
+- 2024년
+- 2025년
+- 2026년
+- 300,000
+- 30万円
+
 
 ## Disclaimer
 

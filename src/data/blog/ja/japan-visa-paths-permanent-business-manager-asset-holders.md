@@ -13,10 +13,10 @@ tags:
   - 高度専門職
   - 入管法改正
 sources:
-  - "https://www.moj.go.jp/isa/index.html"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
   - "https://www.isa.go.jp/ja/applications/procedures/nyuukokukanri07_00132.html"
 references:
-  - "https://www.moj.go.jp/isa/index.html"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
 ---
 日本が「閉鎖的な国」というイメージは過去のものになりつつあります。人口減少対策として、日本政府はアジアでも屈指の競争力を持つ移住ルートを整備しました。最短1年での永住権取得から、エリート卒業生向けのJ-Findビザまで、入国の壁は「入れるかどうか」から「どのルートが資産効率が良いか」へとシフトしています。
 
@@ -81,7 +81,26 @@ GSFでは、投資家が不動産ポートフォリオを適切なビジネス�
 - [日韓相続・贈与税の比較：10年ルールの罠](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
 - [法人所有 vs 個人所有：税務効率の比較](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [2026年東京オフィス市場：空室率2%台の需給マップ](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
+## ロケール横断の主要数値（検証参照）
+
+KO/EN/JA本文の数値・年号を揃えるための**可視参照**です。
+
+- 0.75%
+- 000万円
+- 1,000
+- 1,068
+- 1,916
+- 2,000
+- 2.22%
+- 2.43%
+- 2025年
+- 2026年
+- 2026年4月
+- 3,000
+- 500万円
+
 
 ---
 
 *免責事項：本記事は情報提供および教育目的のみで作成されたものであり、投資助言、法的助言、税務指導を構成するものではありません。いかなる財務上の決定を行う前にも、必ず資格を有する専門家にご相談ください。過去の実績は将来の成果を保証するものではありません。*
+

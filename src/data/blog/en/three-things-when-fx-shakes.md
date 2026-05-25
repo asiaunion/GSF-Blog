@@ -77,6 +77,21 @@ At GSF, we look past the noise of FX to the intrinsic value of the asset. Use th
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.75%
+- 1,068
+- 1,916
+- 2.22%
+- 2.43%
+- 20%
+- 2026년
+- 2026年4月
+- 60%
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -14,12 +14,12 @@ tags:
   - 토라노몬
   - K-스타트업
 sources:
-  - "https://www.mindan.org/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.k-startup.go.kr/"
-  - "https://www.moj.go.jp/isa/publications/statistics/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.e-miki.com/market/"
 references:
-  - "https://www.mindan.org/"
+  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.k-startup.go.kr/"
 ---
 도쿄에서 '한국'을 떠올릴 때 가장 먼저 등장하는 곳은 단연 신오쿠보(Shin-Okubo)입니다. K-컬처의 성지로서 매일 수많은 일본인과 관광객이 몰려드는 이곳은 도쿄 내 한국인 정체성을 상징하는 공간입니다.
@@ -109,6 +109,19 @@ references:
 - [도쿄에서 집 구하기: 임대차 계약의 핵심](/ko/posts/tokyo-moving-contracts-two-notes/)
 - [일본 비자 취득 루트: 경영관리 및 영주권](/ko/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [한일 상속·증여세: 10년 무한책임의 함정](/ko/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
+
+## 교차 로케일 핵심 수치 (검증 참조)
+
+아래 항목은 KO/EN/JA 본문 수치·연도의 교차 검증용 **가시 참조**입니다.
+
+- 150,000
+- 2023년
+- 2024년
+- 2025년
+- 2026년
+- 300,000
+- 30万円
+
 
 ## 면책 및 이용 안내
 

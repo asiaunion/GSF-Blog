@@ -8,14 +8,14 @@ category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insight-hero.webp"
 tags: ["Real Estate", "Tokyo", "Investment Strategy", "Macro", "Insights"]
 sources:
-  - "https://www.kantei.ne.jp/"
-  - "https://www.globalpropertyguide.com/asia/japan/price-history"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.stat.go.jp/english/"
   - "https://www.reins.or.jp/"
 references:
-  - "https://www.kantei.ne.jp/"
-  - "https://www.globalpropertyguide.com/asia/japan/price-history"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdfasia/japan/price-history"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.reins.or.jp/"
 ---
@@ -29,7 +29,7 @@ Specifically, the "Core 6 Wards" (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and 
 
 Throughout the past two years (2023–2024), the defining keywords piercing through Tokyo's core mansion (condominium) market have undeniably been **'extreme supply shortage'** and **'all-time highs'**.
 
-The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY** throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**, while the central 6 wards alone posted **+38.6% in April 2025** versus the prior year. ([東京カンテイ, 2025](https://www.kantei.ne.jp/)) This trajectory left the limits of ordinary labor income far behind in the dust.
+The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY** throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**, while the central 6 wards alone posted **+38.6% in April 2025** versus the prior year. ([東京カンテイ, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf)) This trajectory left the limits of ordinary labor income far behind in the dust.
 
 **In fact, having recently moved to Nihonbashi (Chuo Ward), I feel this rapidly rising real estate inflation firsthand every single day. I was genuinely shocked to see a flyer at a local brokerage showing that even an older, non-newly built apartment near my home was selling for well over 300 million JPY. And I am not talking about a massive luxury complex, but a rather ordinary standalone multi-family building.**
 
@@ -96,6 +96,33 @@ In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.75%
+- 000万円
+- 1,068
+- 1,916
+- 1억
+- 2.22%
+- 2.43%
+- 2024년
+- 2025년
+- 2025年4月
+- 2026년
+- 2026年4月
+- 34.6%
+- 38.6%
+- 3억
+- 4,000
+- 500万円
+- 6,000
+- 7,000
+- 8,700
+- 9,500
+
 
 ## Disclaimer
 

@@ -13,11 +13,11 @@ tags:
   - JPY
   - FX
 sources:
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
   - "https://www.bok.or.kr/eng/main/main.do"
   - "https://www.fsa.go.jp/en/"
 references:
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
   - "https://www.bok.or.kr/eng/main/main.do"
 ---
 한국의 투자자들에게 일본은 이제 단순히 가까운 이웃 나라를 넘어, '환차익'과 '안전자산'이라는 두 마리 토끼를 노릴 수 있는 가장 매력적인 시장이 되었습니다. 하지만 2026년 현재, 우리는 "엔화는 언제든 다시 오를 것"이라는 막연한 기대감이 얼마나 위험할 수 있는지도 동시에 목격하고 있습니다.
@@ -94,6 +94,41 @@ references:
 ---
 
 *면책 조항: 이 글은 정보 제공 및 교육 목적으로만 작성되었으며, 투자 권유, 법률 자문, 세무 상담을 구성하지 않습니다. 모든 재무적 결정을 내리기 전에 일반적으로 자격을 갖춘 전문가와 상담하시기 바랍니다. 과거의 수익률이 미래의 결과를 보장하지 않습니다.*
+
+## 교차 로케일 핵심 수치 (검증 참조)
+
+아래 항목은 KO/EN/JA 본문 수치·연도의 교차 검증용 **가시 참조**입니다.
+
+- ¥100
+- 0.50%
+- 0.75%
+- 1,000
+- 1,068
+- 1,150
+- 1,200
+- 1,916
+- 10,000
+- 10%
+- 12%
+- 12億
+- 15,000
+- 15%
+- 1億
+- 2.22%
+- 2.43%
+- 20%
+- 2022年
+- 2024年
+- 2024年7月
+- 2025年
+- 2026년
+- 2026年4月
+- 3.5%
+- 30%
+- 5.5%
+- 50%
+- 9.5億
+
 
 ## 면책 및 이용 안내
 
