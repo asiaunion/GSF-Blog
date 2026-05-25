@@ -1,7 +1,8 @@
 # Antigravity (AG) 컨텍스트 부트스트랩 — 2026-05-25
 
 > **용도:** AG 새 세션·블로그 작업 시작 시 **아래 「AG에 붙여넣기」 블록 전체**를 첫 메시지로 전달.  
-> **정본:** Cursor가 정리한 [`GSF_BLOG_SESSION_ARCHIVE_20260525.md`](./GSF_BLOG_SESSION_ARCHIVE_20260525.md)
+> **루트 SSOT (자동):** [`../AGENTS.md`](../AGENTS.md) — AG Tier 2.5 영구 고정 (2026-05-25)  
+> **정본:** [`GSF_BLOG_SESSION_ARCHIVE_20260525.md`](./GSF_BLOG_SESSION_ARCHIVE_20260525.md)
 
 ---
 
@@ -151,7 +152,7 @@ src/data/blog/ja/<slug>.md
 
 역할: AG=ko/en/ja 원고·시트·repo / Cursor=validate / commit·deploy=사용자만.
 
-필수 읽기(순): `docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md` → `docs/fact-audit/T3_POLICY.md` → `docs/BLOG_AG_CURSOR_WORKFLOW.md`
+필수 읽기(순): `AGENTS.md` → `docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md` → `docs/fact-audit/T3_POLICY.md`
 
 고정:
 - T3 **P0-only** (12 slug 스팟). fetch ON 35/35·시트 전행 [x] **목표 아님**. `T3_DEFERRED`≠백로그.

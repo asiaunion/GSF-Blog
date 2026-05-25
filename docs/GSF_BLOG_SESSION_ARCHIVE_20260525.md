@@ -168,6 +168,7 @@ svg/ (편집) → pnpm diagrams:sanitize → pnpm diagrams:render → diagrams/*
 
 ## 9. 에이전트·AG 핸드오프
 
+- **루트 SSOT (AG 고정):** [`../AGENTS.md`](../AGENTS.md) — Tier 2.5 `AGENTS.md`에 3대 규칙 영구 주입 (2026-05-25)
 - **Trust 완료:** 「CI 36/36 · T3 P0-only · 상단 면책 · diagram WebP · main deployed」
 - **다음:** 「[`NEXT_WORK_QUEUE.md`](./NEXT_WORK_QUEUE.md) §1 GSC부터」
 - **하지 말 것:** `SKIP_TRUST_VERIFY=0` 배치 실패를 회귀로 해석 · 포스트에 `.svg` 링크 · markdown footer 면책 재삽입
