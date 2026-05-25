@@ -1,6 +1,7 @@
 # Blog workflow: Antigravity (write) + Cursor (pre-publish verify)
 
-> **Start here (trust · phases · CI):** [`BLOG_TRUST_AND_QUALITY_ROADMAP.md`](./BLOG_TRUST_AND_QUALITY_ROADMAP.md)
+> **Start here (trust · phases · CI):** [`BLOG_TRUST_AND_QUALITY_ROADMAP.md`](./BLOG_TRUST_AND_QUALITY_ROADMAP.md)  
+> **AG 새 세션 컨텍스트 로드:** [`AG_CONTEXT_BOOTSTRAP_20260525.md`](./AG_CONTEXT_BOOTSTRAP_20260525.md) — 첫 메시지로 붙여넣기
 
 > **원칙**: 글 **작성·초안**은 **Antigravity (AG)**. **발행 직전 검증**은 **Cursor**에서 통과한 뒤 repo에 반영·배포.  
 > **요일 고정 없음** · **Telegram 불필요** — 포스트 1편마다 아래 순서만 지키면 됨.
