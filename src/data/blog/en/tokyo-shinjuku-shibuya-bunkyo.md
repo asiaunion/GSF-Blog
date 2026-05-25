@@ -283,9 +283,6 @@ The two wards just outside the Core 6 that have become the default choice for hi
 
 ---
 
-*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Real estate prices fluctuate with market conditions. Please consult a qualified professional before making any financial decision.*
-
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

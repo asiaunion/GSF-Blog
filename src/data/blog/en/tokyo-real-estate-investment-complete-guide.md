@@ -155,7 +155,6 @@ No visa needed to *own*. To **live and manage**: Business Manager Visa (¥30M ca
 
 > **Disclaimer**: Informational only. Not a recommendation. Consult local professionals. Data as of April 2026.
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -72,7 +72,6 @@ COREDO Nihonbashi and COREDO Muromachi looked to me like bridges between traditi
 - [ ] **History**: Check the 'Underground Expressway' construction site at Nihonbashi Bridge and imagine the future waterfront landscape.
 - [ ] **Business**: Monitor the pace of Tokyo's new landmark rising behind the fences of the Nihonbashi 1-Chome redevelopment area.
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

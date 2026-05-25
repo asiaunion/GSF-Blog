@@ -116,7 +116,6 @@ Tokyo’s museums are not places that provide correct answers; they are places t
 - [Nihonbashi to Hamacho: A Walking Guide of Tradition and Modernity](/posts/nihonbashi-hamacho-walking-guide/)
 - [Beyond Shin-Okubo: The New Map of Tokyo’s Korean Community](/posts/tokyo-korean-community-beyond-shinokubo/)
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

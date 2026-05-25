@@ -69,7 +69,6 @@ For detailed instructions on where to purchase it and how to use it, please refe
 - [ ] **Booking**: Complete advance reservations for popular trains like the 'Fuji Excursion' at least one week before weekend travel.
 - [ ] **Digital**: Register Suica or PASMO on your mobile device to skip the ticket machine and speed up transfers.
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

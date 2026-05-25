@@ -94,7 +94,6 @@ references:
 - [니혼바시에서 하마초까지: 전통과 현대의 산책로](/ko/posts/nihonbashi-hamacho-walking-guide/)
 - [신오쿠보를 넘어: 도쿄의 새로운 한국인 커뮤니티](/ko/posts/tokyo-korean-community-beyond-shinokubo/)
 
-
 ## 면책 및 이용 안내
 
 본 글은 **정보 제공 목적**으로 작성되었으며, 투자·법무·세무·이민 등에 대한 개별 조언이나 권유가 아닙니다. 수치·제도·운영 정보는 게시 시점 기준이며, 확인 없이 의사결정에 사용하지 마십시오.

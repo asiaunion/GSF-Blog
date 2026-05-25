@@ -226,9 +226,6 @@ Week 8-10 : Registration complete, title identification received
 
 ---
 
-*Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax consultation. Always consult qualified professionals before making any financial decisions. Past returns do not guarantee future results.*
-
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.
