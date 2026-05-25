@@ -47,7 +47,7 @@ Paradoxically, the fear of Korea's Japanification has driven Korean investors to
 
 How should an investor balance their holdings between these two hubs?
 
-![Seoul-Tokyo Investment Synergy Matrix](/assets/images/blog/svg/en-reading-korea-japan-markets-together.svg)
+![Seoul-Tokyo Investment Synergy Matrix](/assets/images/blog/diagrams/en-reading-korea-japan-markets-together.webp)
 
 ---
 

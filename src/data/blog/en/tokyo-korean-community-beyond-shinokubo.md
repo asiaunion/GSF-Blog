@@ -50,7 +50,7 @@ The Azabu-Juban and Hiroo areas in Minato-ku are preferred residential and socia
 
 The most notable change recently is the surge of Korean startups in Japan.
 
-![Tokyo Korean Community Map 2026](/assets/images/blog/svg/en-tokyo-korean-community-beyond-shinokubo.svg)
+![Tokyo Korean Community Map 2026](/assets/images/blog/diagrams/en-tokyo-korean-community-beyond-shinokubo.webp)
 
 *   **K-Startup Center (KSC)**: Located in Toranomon Hills, the KSC serves as a base camp for Korean companies challenging the Japanese market.
 *   **Tech Community**: Expatriates and engineers in IT companies based around Roppongi actively exchange information on Japanese tech trends, career moves, and entrepreneurship through Slack and offline gatherings.

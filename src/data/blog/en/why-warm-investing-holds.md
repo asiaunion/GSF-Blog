@@ -37,7 +37,7 @@ Investment models compress reality into variables like interest rates, vacancy, 
 
 GSF always places a 'Trust Equilibrium' alongside expected yields. The indicators of 'warmth' we measure are as follows:
 
-![Warm Investing Risk Framework](/assets/images/blog/svg/en-why-warm-investing-holds.svg)
+![Warm Investing Risk Framework](/assets/images/blog/diagrams/en-why-warm-investing-holds.webp)
 
 *   **Transparency**: Is information symmetric, and are signs of failure shared honestly?
 *   **Sustainability**: Is the structure designed to last for generations without exhausting relationships for short-term gain?

@@ -37,7 +37,7 @@ Novice investors are often drawn to the phrase 'assured Rent.' Japanese manageme
 
 Investment yield is not simply a calculation of the purchase price and the monthly rent.
 
-![The Iceberg of Hidden Costs in Japan Real Estate](/assets/images/blog/svg/en-one-failure-three-lessons-postmortem.svg)
+![The Iceberg of Hidden Costs in Japan Real Estate](/assets/images/blog/diagrams/en-one-failure-three-lessons-postmortem.webp)
 
 *   **Failure Case**: Investor 'B' bought a second-hand condo with a 6% gross yield. Shortly after the purchase, the building management association decided on a 'Large-Scale Repair,' tripling the monthly maintenance contribution. After paying for restoration costs when the tenant moved out, the annual yield turned negative.
 *   **Lesson**: Japanese real estate is an 'aging asset.' You must review the 'Important Matters Explanation' (Juyo Jiko Setsumei) to check the repair plan and the accumulated reserve fund balance. Real net yield is typically 1.5% to 2% lower than the gross number.

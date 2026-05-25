@@ -75,7 +75,7 @@ Stretching west of Tokyo Station, Marunouchi is the command center of the Japane
 
 ## 3. The DNA Walking Route: A 1.5km Asset Exploration
 
-![Ginza-Marunouchi Walking Route Guide](/assets/images/blog/svg/en-ginza-marunouchi-walk-dna.svg)
+![Ginza-Marunouchi Walking Route Guide](/assets/images/blog/diagrams/en-ginza-marunouchi-walk-dna.webp)
 
 ### Suggested schedule
 

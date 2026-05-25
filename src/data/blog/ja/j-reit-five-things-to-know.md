@@ -92,7 +92,7 @@ _編集注: 本文のスクリーンショットはアーカイブ参照用で�
 
 ## 4.2 自作シナリオチャート（SVG例）
 
-![J-REITシナリオ別の想定総リターン棒グラフ例](/assets/images/blog/svg/ja-j-reit-five-things-to-know.svg)
+![J-REITシナリオ別の想定総リターン棒グラフ例](/assets/images/blog/diagrams/ja-j-reit-five-things-to-know.webp)
 
 _計算メモ: 棒グラフの値は上記前提の単純合計であり、将来の成績を保証するものではありません。_
 

@@ -52,7 +52,7 @@ references:
 
 ## 2.1 自作コスト構造チャート（SVG例）
 
-![東京小型賃貸の年間コスト構造の例](/assets/images/blog/svg/ja-japan-real-estate-three-things.svg)
+![東京小型賃貸の年間コスト構造の例](/assets/images/blog/diagrams/ja-japan-real-estate-three-things.webp)
 
 _計算メモ: この図は平均値ではなく、事前シミュレーション用テンプレートです。実案件では各前提を差し替えてください。_
 

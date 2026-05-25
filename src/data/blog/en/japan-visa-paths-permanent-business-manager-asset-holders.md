@@ -46,7 +46,7 @@ Japan's "Point System" is one of the fastest routes to Permanent Residency (PR) 
 
 ## 3. PR Timeline Visualization
 
-![Japan Permanent Residency Timeline Chart](/assets/images/blog/svg/en-japan-visa-paths-permanent-business-manager-asset-holders.svg)
+![Japan Permanent Residency Timeline Chart](/assets/images/blog/diagrams/en-japan-visa-paths-permanent-business-manager-asset-holders.webp)
 
 ---
 

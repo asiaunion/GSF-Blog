@@ -228,7 +228,7 @@ Week 8-10 : 등기 완료·등기식별정보(権利証) 수령
 
 ## 비용 총정리: 한눈에 보는 매입 부대비용 체크표
 
-![도쿄 부동산 매입 부대비용 구성비 차트](/assets/images/blog/svg/ko-tokyo-buying-process-step-by-step.svg)
+![도쿄 부동산 매입 부대비용 구성비 차트](/assets/images/blog/diagrams/ko-tokyo-buying-process-step-by-step.webp)
 
 _이 차트는 시뮬레이션 기준이며, 경감 특례 적용 여부에 따라 실제 금액은 변동됩니다._
 

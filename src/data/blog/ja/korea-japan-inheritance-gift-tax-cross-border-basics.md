@@ -47,7 +47,7 @@ references:
 
 不動産は、基本的にはその物件が所在する国に優先的な課税権があります。しかし、一方が「居住者」である場合、両国での申告義務が生じる可能性があります。
 
-![日韓クロスボーダー相続税課税体系](/assets/images/blog/svg/ja-korea-japan-inheritance-gift-tax-cross-border-basics.svg)
+![日韓クロスボーダー相続税課税体系](/assets/images/blog/diagrams/ja-korea-japan-inheritance-gift-tax-cross-border-basics.webp)
 
 ---
 

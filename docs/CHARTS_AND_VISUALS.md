@@ -15,7 +15,7 @@ This document captures what we learned fixing the macro-barrier Korea YoY chart 
 | `<figure class="supplemental-chart">` + per-language `<figcaption>` in MDX | Astro chart components that embed huge SVG in HTML |
 | Economist-style **direct labels** in **empty plot space** | Legend boxes over data; labels on pale lines at trough |
 | Image: short English series names only; **detail in figcaption** (KO/EN/JA) | Gemini/AI-generated chart images (wrong numbers) |
-| Simple diagrams: small **static SVG files** under `public/assets/images/blog/svg/` | Shiki-rendered “code blocks” from broken Markdown HTML |
+| Simple diagrams: **SVG source** → `scripts/render-diagrams-to-webp.mjs` → **WebP** in `public/assets/images/blog/diagrams/` | Raw `.svg` in markdown (`&`, `<` break XML → broken `<img>`) |
 
 **Reference post:** `macro-barrier-and-super-scarce-real-estate-selection` (KO/EN/JA MDX).
 
@@ -170,12 +170,16 @@ From `scripts/translate/README.md` and production lessons:
 
 ---
 
-## 8. Static SVG diagrams (existing pattern)
+## 8. Static diagrams (flow boxes, sketches)
 
-For **non–time-series** diagrams (flow boxes, sketches):
+For **non–time-series** diagrams:
 
-- Prebuilt files: `public/assets/images/blog/svg/*.svg` (~1–2KB each).
-- Reference from markdown: `![alt](/assets/images/blog/svg/….svg)`.
+1. Edit source SVG under `public/assets/images/blog/svg/` (authoring only).
+2. `python3 scripts/sanitize_svg_xml.py` — escape `&`, `<` inside `<text>` nodes.
+3. `node scripts/render-diagrams-to-webp.mjs` — outputs `public/assets/images/blog/diagrams/*.webp`.
+4. Reference in markdown: `![alt](/assets/images/blog/diagrams/{lang}-{slug}.webp)`.
+
+**Never** link `.svg` from posts — browsers and CDNs serve invalid XML as broken images.
 
 Do not mix large inline SVG into MDX for the same reasons as charts.
 

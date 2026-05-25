@@ -46,7 +46,7 @@ references:
 
 ## 3. 永住権取得タイムラインの可視化
 
-![日本永住権取得タイムライン](/assets/images/blog/svg/ja-japan-visa-paths-permanent-business-manager-asset-holders.svg)
+![日本永住権取得タイムライン](/assets/images/blog/diagrams/ja-japan-visa-paths-permanent-business-manager-asset-holders.webp)
 
 ---
 

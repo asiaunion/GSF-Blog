@@ -39,11 +39,11 @@
 
   <!-- Right-side Labels -->
   <text x="355" y="152" font-size="13" font-weight="700" fill="#059669">소득세 전 순현금흐름 (NOI - 이자) : 30%</text>
-  <text x="355" y="219" font-size="13" font-weight="600" fill="#374151">금융비용 <tspan fill="#6b7280" font-weight="normal">(LTV 50~60% 조달 금리 가정)</tspan> : 24%</text>
-  <text x="355" y="266" font-size="13" font-weight="600" fill="#374151">보유세 <tspan fill="#6b7280" font-weight="normal">(고정자산세 및 도시계획세)</tspan> : 14%</text>
-  <text x="355" y="299" font-size="13" font-weight="600" fill="#374151">수선적립금 <tspan fill="#6b7280" font-weight="normal">(장기 수선 대비 계획 적립)</tspan> : 12%</text>
-  <text x="355" y="326" font-size="13" font-weight="600" fill="#374151">공실 및 임차 광고비 <tspan fill="#6b7280" font-weight="normal">(턴오버/공실 예비율)</tspan> : 10%</text>
-  <text x="355" y="351" font-size="13" font-weight="600" fill="#374151">관리수수료 및 위탁운영비 <tspan fill="#6b7280" font-weight="normal">(PM 수수료 등)</tspan> : 10%</text>
+  <text x="355" y="219" font-size="13" font-weight="600" fill="#374151">금융비용 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(LTV 50~60% 조달 금리 가정)&lt;/tspan&gt; : 24%</text>
+  <text x="355" y="266" font-size="13" font-weight="600" fill="#374151">보유세 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(고정자산세 및 도시계획세)&lt;/tspan&gt; : 14%</text>
+  <text x="355" y="299" font-size="13" font-weight="600" fill="#374151">수선적립금 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(장기 수선 대비 계획 적립)&lt;/tspan&gt; : 12%</text>
+  <text x="355" y="326" font-size="13" font-weight="600" fill="#374151">공실 및 임차 광고비 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(턴오버/공실 예비율)&lt;/tspan&gt; : 10%</text>
+  <text x="355" y="351" font-size="13" font-weight="600" fill="#374151">관리수수료 및 위탁운영비 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(PM 수수료 등)&lt;/tspan&gt; : 10%</text>
 
   <!-- Footnote -->
   <text x="18" y="390" font-size="11" fill="#9ca3af" font-style="italic">* 수선적립금 및 공실 비용은 도쿄 도심 소형 맨션의 평균 운영 지표를 기반으로 한 기획용 시뮬레이션 템플릿 예시입니다.</text>

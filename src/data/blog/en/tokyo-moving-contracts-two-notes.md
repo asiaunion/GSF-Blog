@@ -32,7 +32,7 @@ The first thing to verify is the 'type' of contract.
 *   **Ordinary Lease (Futsu Chakuya)**: The most common type in Japan. It typically lasts for 2 years and **automatically renews unless the tenant chooses to leave**. For a landlord to refuse renewal, they must provide 'justifiable grounds,' which are very difficult to prove in court. This provides high security for the tenant. (Note: A renewal fee of \~1 month's rent is common.)
 *   **Fixed-Term Lease (Teiki Chakuya)**: This contract **terminates definitively at the end of the term**. There is no right to renew. If you wish to stay longer, you must negotiate a new contract with the landlord, who has no legal obligation to agree. These are often used for high-end properties or temporary rentals.
 
-![Comparison of Ordinary vs Fixed-Term Leases](/assets/images/blog/svg/en-tokyo-moving-contracts-two-notes.svg)
+![Comparison of Ordinary vs Fixed-Term Leases](/assets/images/blog/diagrams/en-tokyo-moving-contracts-two-notes.webp)
 
 ---
 

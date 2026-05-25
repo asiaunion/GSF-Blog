@@ -47,7 +47,7 @@ references:
 
 부동산은 기본적으로 그 물건이 소재한 국가에 우선 과세권이 있습니다. 하지만 '거주자' 신분이라면 양국 모두에 신고 의무가 발생할 수 있습니다.
 
-![한일 크로스보더 상속세 과세 체계](/assets/images/blog/svg/ko-korea-japan-inheritance-gift-tax-cross-border-basics.svg)
+![한일 크로스보더 상속세 과세 체계](/assets/images/blog/diagrams/ko-korea-japan-inheritance-gift-tax-cross-border-basics.webp)
 
 ---
 

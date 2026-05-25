@@ -38,11 +38,11 @@
 
   <!-- Right-side Labels -->
   <text x="355" y="152" font-size="13" font-weight="700" fill="#059669">所得税前手取り (純キャッシュフロー) : 30%</text>
-  <text x="355" y="219" font-size="13" font-weight="600" fill="#374151">金融コスト <tspan fill="#6b7280" font-weight="normal">(LTV 50〜60%の融資金利想定)</tspan> : 24%</text>
-  <text x="355" y="266" font-size="13" font-weight="600" fill="#374151">保有税 <tspan fill="#6b7280" font-weight="normal">(固定資産税および都市計画税)</tspan> : 14%</text>
-  <text x="355" y="299" font-size="13" font-weight="600" fill="#374151">修繕積立金 <tspan fill="#6b7280" font-weight="normal">(長期修繕に備えた計画積立)</tspan> : 12%</text>
-  <text x="355" y="326" font-size="13" font-weight="600" fill="#374151">空室および募集経費 <tspan fill="#6b7280" font-weight="normal">(テナント入れ替え/空室想定)</tspan> : 10%</text>
-  <text x="355" y="351" font-size="13" font-weight="600" fill="#374151">管理委託費および運営経費 <tspan fill="#6b7280" font-weight="normal">(PM委託管理手数料等)</tspan> : 10%</text>
+  <text x="355" y="219" font-size="13" font-weight="600" fill="#374151">金融コスト &lt;tspan fill="#6b7280" font-weight="normal"&gt;(LTV 50〜60%の融資金利想定)&lt;/tspan&gt; : 24%</text>
+  <text x="355" y="266" font-size="13" font-weight="600" fill="#374151">保有税 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(固定資産税および都市計画税)&lt;/tspan&gt; : 14%</text>
+  <text x="355" y="299" font-size="13" font-weight="600" fill="#374151">修繕積立金 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(長期修繕に備えた計画積立)&lt;/tspan&gt; : 12%</text>
+  <text x="355" y="326" font-size="13" font-weight="600" fill="#374151">空室および募集経費 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(テナント入れ替え/空室想定)&lt;/tspan&gt; : 10%</text>
+  <text x="355" y="351" font-size="13" font-weight="600" fill="#374151">管理委託費および運営経費 &lt;tspan fill="#6b7280" font-weight="normal"&gt;(PM委託管理手数料等)&lt;/tspan&gt; : 10%</text>
 
   <!-- Footnote -->
   <text x="18" y="390" font-size="11" fill="#9ca3af" font-style="italic">* 修繕積立金および空室コストは、東京都心の小型マンションの平均的な運営指標に基づいた計画シミュレーションの例です。</text>

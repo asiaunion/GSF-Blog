@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-label="Nihonbashi to Hamacho Walking Route" style="max-width:100%;height:auto;border:1px solid #e5e7eb;border-radius:8px;background:#fff;margin: 20px 0;">
-  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Nihonbashi -> Kabutocho -> Hamacho Route (2026)</text>
+  <text x="24" y="35" font-size="16" font-weight="700" fill="#111827">Nihonbashi -&gt; Kabutocho -&gt; Hamacho Route (2026)</text>
   
   <!-- Nihonbashi -->
   <rect x="50" y="80" width="160" height="80" fill="#f8fafc" stroke="#64748b" rx="8" />

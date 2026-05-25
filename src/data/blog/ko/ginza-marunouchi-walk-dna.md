@@ -71,7 +71,7 @@ references:
 
 ## 3. DNA 워킹 루트: 1.5km의 자산 가치 탐방
 
-![긴자-마루노우치 워킹 루트](/assets/images/blog/svg/ko-ginza-marunouchi-walk-dna.svg)
+![긴자-마루노우치 워킹 루트](/assets/images/blog/diagrams/ko-ginza-marunouchi-walk-dna.webp)
 
 ---
 

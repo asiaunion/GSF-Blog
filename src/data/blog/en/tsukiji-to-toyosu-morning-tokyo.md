@@ -67,7 +67,7 @@ Opened in February 2024, 'Senkyaku Banrai' has become the primary anchor for the
 
 ## 3. Connecting the Two: Suggested Morning Itinerary
 
-![Tsukiji-Toyosu Itinerary Guide](/assets/images/blog/svg/en-tsukiji-to-toyosu-morning-tokyo.svg)
+![Tsukiji-Toyosu Itinerary Guide](/assets/images/blog/diagrams/en-tsukiji-to-toyosu-morning-tokyo.webp)
 
 ---
 

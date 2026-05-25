@@ -40,11 +40,16 @@ linkedInUrl.searchParams.set("utm_campaign", `post-${slug}`);
 <section
   class="mt-8 rounded-xl border border-accent/25 bg-gradient-to-br from-accent/8 to-transparent p-5"
   aria-labelledby="high-intent-cta-title"
+  role="complementary"
   data-high-intent-cta
+  data-cta-type="author-services"
 >
   <h2 id="high-intent-cta-title" class="text-lg font-semibold">
     {L.highIntentCtaTitle}
   </h2>
+  <p class="mt-1 text-xs leading-relaxed text-foreground/60">
+    {L.highIntentCtaDisclosure}
+  </p>
   <p class="mt-2 text-sm leading-relaxed text-foreground/75">
     {showFreelance ? L.highIntentCtaBodyFreelance : L.highIntentCtaBodyMagnetOnly}
   </p>

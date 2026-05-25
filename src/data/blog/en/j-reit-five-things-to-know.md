@@ -94,7 +94,7 @@ This is not a forecast. It is a transparency template so readers can challenge e
 
 ## 4.2 My own scenario chart (illustrative SVG)
 
-![Illustrative J-REIT scenario return bars from defensive to upside](/assets/images/blog/svg/en-j-reit-five-things-to-know.svg)
+![Illustrative J-REIT scenario return bars from defensive to upside](/assets/images/blog/diagrams/en-j-reit-five-things-to-know.webp)
 
 _Method note: each bar is the arithmetic sum of the scenario inputs shown above. This chart is an educational worksheet, not a performance promise._
 

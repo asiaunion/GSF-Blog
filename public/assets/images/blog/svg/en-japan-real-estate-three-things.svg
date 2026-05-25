@@ -38,11 +38,11 @@
 
   <!-- Right-side Labels -->
   <text x="355" y="152" font-size="13" font-weight="700" fill="#059669">Net Cash Flow (Pre-Tax NOI - Interest) : 30%</text>
-  <text x="355" y="219" font-size="13" font-weight="600" fill="#374151">Financing Costs <tspan fill="#6b7280" font-weight="normal">(Assuming 50~60% LTV interest rate)</tspan> : 24%</text>
-  <text x="355" y="266" font-size="13" font-weight="600" fill="#374151">Property Taxes <tspan fill="#6b7280" font-weight="normal">(Fixed Asset &amp; City Planning Taxes)</tspan> : 14%</text>
-  <text x="355" y="299" font-size="13" font-weight="600" fill="#374151">Repair Reserve <tspan fill="#6b7280" font-weight="normal">(Long-term repair plan accumulation)</tspan> : 12%</text>
-  <text x="355" y="326" font-size="13" font-weight="600" fill="#374151">Vacancy &amp; Leasing Ads <tspan fill="#6b7280" font-weight="normal">(Tenant turnover &amp; vacancy buffer)</tspan> : 10%</text>
-  <text x="355" y="351" font-size="13" font-weight="600" fill="#374151">PM Fees &amp; Operations <tspan fill="#6b7280" font-weight="normal">(Property management &amp; utilities)</tspan> : 10%</text>
+  <text x="355" y="219" font-size="13" font-weight="600" fill="#374151">Financing Costs &lt;tspan fill="#6b7280" font-weight="normal"&gt;(Assuming 50~60% LTV interest rate)&lt;/tspan&gt; : 24%</text>
+  <text x="355" y="266" font-size="13" font-weight="600" fill="#374151">Property Taxes &lt;tspan fill="#6b7280" font-weight="normal"&gt;(Fixed Asset &amp; City Planning Taxes)&lt;/tspan&gt; : 14%</text>
+  <text x="355" y="299" font-size="13" font-weight="600" fill="#374151">Repair Reserve &lt;tspan fill="#6b7280" font-weight="normal"&gt;(Long-term repair plan accumulation)&lt;/tspan&gt; : 12%</text>
+  <text x="355" y="326" font-size="13" font-weight="600" fill="#374151">Vacancy &amp; Leasing Ads &lt;tspan fill="#6b7280" font-weight="normal"&gt;(Tenant turnover &amp; vacancy buffer)&lt;/tspan&gt; : 10%</text>
+  <text x="355" y="351" font-size="13" font-weight="600" fill="#374151">PM Fees &amp; Operations &lt;tspan fill="#6b7280" font-weight="normal"&gt;(Property management &amp; utilities)&lt;/tspan&gt; : 10%</text>
 
   <!-- Footnote -->
   <text x="18" y="390" font-size="11" fill="#9ca3af" font-style="italic">* Maintenance reserves and vacancy buffers are based on typical operating statistics for small apartments in central Tokyo.</text>

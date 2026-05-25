@@ -50,7 +50,7 @@ Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more s
 
 ## 3. Visual Comparison: Tax Liability Mapping
 
-![Personal vs Corporate Tax Structure Comparison](/assets/images/blog/svg/en-japan-corporate-vs-personal-rental-after-tax-sketch.svg)
+![Personal vs Corporate Tax Structure Comparison](/assets/images/blog/diagrams/en-japan-corporate-vs-personal-rental-after-tax-sketch.webp)
 
 ---
 

@@ -49,7 +49,7 @@ references:
 
 투자자의 성향에 따라 서울과 도쿄의 비중을 어떻게 조절해야 할까요?
 
-![한일 부동산 투자 시너지 매트릭스](/assets/images/blog/svg/ko-reading-korea-japan-markets-together.svg)
+![한일 부동산 투자 시너지 매트릭스](/assets/images/blog/diagrams/ko-reading-korea-japan-markets-together.webp)
 
 ---
 

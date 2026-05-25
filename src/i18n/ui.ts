@@ -101,6 +101,8 @@ const ui = {
       "No spam. Unsubscribe anytime. Your email stays private.",
     leadMagnetCta: "Free: Tokyo relocation D-90 checklist →",
     highIntentCtaTitle: "Need help with your Japan project?",
+    highIntentCtaDisclosure:
+      "Author services (web & automation). Separate from this article’s editorial and investment content.",
     highIntentCtaBodyFreelance:
       "I build AI workflow automation and multilingual Astro/Vercel sites from Tokyo (KR/EN/JA). Small setups from ~¥50k — ask via contact or LinkedIn.",
     highIntentCtaBodyMagnetOnly:
@@ -226,6 +228,8 @@ const ui = {
       "스팸 없음. 언제든 구독 해지 가능. 이메일은 안전하게 보호됩니다.",
     leadMagnetCta: "무료: 도쿄 이주 D-90 체크리스트 →",
     highIntentCtaTitle: "일본 관련 프로젝트가 필요하신가요?",
+    highIntentCtaDisclosure:
+      "작성자 제공 서비스(웹·자동화) 안내입니다. 본문의 투자·편집 콘텐츠와는 별개입니다.",
     highIntentCtaBodyFreelance:
       "도쿄 거주 개발자(GSF)입니다. AI 업무 자동화·Astro/Vercel 다국어 사이트 구축을 합니다. 소규모 세팅 ¥5만円〜 — 문의 또는 LinkedIn으로 연락 주세요.",
     highIntentCtaBodyMagnetOnly:
@@ -351,6 +355,8 @@ const ui = {
       "スパムなし。いつでも解除可能。メールは安全に保護されます。",
     leadMagnetCta: "無料：東京移住 D-90 チェックリスト →",
     highIntentCtaTitle: "日本関連のプロジェクトでお困りですか？",
+    highIntentCtaDisclosure:
+      "著者提供のサービス（Web・自動化）です。本記事の投資・編集内容とは別枠です。",
     highIntentCtaBodyFreelance:
       "東京在住の開発者（GSF）です。AI業務自動化・Astro/Vercelの多言語サイト構築が専門です。小規模なら5万円〜 — お問い合わせまたはLinkedInでご連絡ください。",
     highIntentCtaBodyMagnetOnly:

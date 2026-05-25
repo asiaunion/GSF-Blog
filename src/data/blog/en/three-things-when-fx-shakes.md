@@ -46,7 +46,7 @@ Many investors say, "Now is the chance because the Yen is cheap." However, the b
 
 It is essential to train yourself to base investment decisions on the Yen itself, rather than your home currency.
 
-![FX Volatility and Investment Return Correlation](/assets/images/blog/svg/en-three-things-when-fx-shakes.svg)
+![FX Volatility and Investment Return Correlation](/assets/images/blog/diagrams/en-three-things-when-fx-shakes.webp)
 
 ---
 
