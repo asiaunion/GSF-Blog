@@ -107,7 +107,3 @@ references:
 - [東京での家探し：賃貸借契約の核心ポイント](/ja/posts/tokyo-moving-contracts-two-notes/)
 - [日本ビザ取得ルート：経営管理および永住権](/ja/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [日韓相続・贈与税：10年無制限納税義務の罠](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-
-## 免責・ご利用上の注意
-
-本記事は**情報提供**を目的としており、投資・法務・税務・入国管理等の個別助言や勧誘ではありません。数値・制度・運営情報は掲載時点のものです。確認なく意思決定に用いないでください。

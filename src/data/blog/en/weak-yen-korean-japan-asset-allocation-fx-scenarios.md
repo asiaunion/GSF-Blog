@@ -114,7 +114,3 @@ Use [BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/ind
 - [Japan rate-hike cycle: three J-REIT lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

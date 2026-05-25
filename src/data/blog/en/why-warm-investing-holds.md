@@ -118,7 +118,3 @@ At the most sophisticated level, warm investing means designing deal structures 
 - [ ] **Essence**: Ask yourself if you are investing in spaces that improve 'human quality of life' rather than just chasing price growth.
 - [ ] **Sustainability**: Verify if the location has the community and infrastructure to be loved 10 years from now, beyond short-term trends.
 - [ ] **Empathy**: Create 'sticky assets' by providing values tenants truly desire—safety, comfort, and dignity.
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

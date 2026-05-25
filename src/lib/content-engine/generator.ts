@@ -400,8 +400,7 @@ function reinforceKeywordAlignment(body: string, keyword: string) {
 }
 
 function ensureDisclaimer(body: string) {
-  const disclaimer = disclaimerFor("ko");
-  return body.includes(disclaimer) ? body : `${body}\n\n${disclaimer}`;
+  return body;
 }
 
 function expandForTargetLength(body: string, pack?: ResearchPack, minKoreanChars = 1800) {

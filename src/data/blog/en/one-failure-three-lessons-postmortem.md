@@ -79,7 +79,3 @@ At GSF, we listen to potential failure stories as closely as we do success stori
 - [Corporate vs Personal Ownership: Decision Guide](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

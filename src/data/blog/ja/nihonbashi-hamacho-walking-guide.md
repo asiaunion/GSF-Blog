@@ -119,7 +119,3 @@ references:
 - [銀座から丸の内へ：東京の富と伝統のDNA](/ja/posts/ginza-marunouchi-walk-dna/)
 - [東京都心5区オフィス空室率分析](/ja/posts/tokyo-office-vacancy-five-wards-2026/)
 - [日本不動産投資 失敗の記録：3つの教訓](/ja/posts/one-failure-three-lessons-postmortem/)
-
-## 免責・ご利用上の注意
-
-本記事は**情報提供**を目的としており、投資・法務・税務・入国管理等の個別助言や勧誘ではありません。数値・制度・運営情報は掲載時点のものです。確認なく意思決定に用いないでください。

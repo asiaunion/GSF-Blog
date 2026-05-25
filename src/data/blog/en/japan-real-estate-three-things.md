@@ -89,7 +89,3 @@ After purchasing, Japan's highly developed professional maintenance and meticulo
 - [ ] **Partner**: Remember that the response speed and reporting quality of your local Property Manager (PM) are key to protecting your yield.
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

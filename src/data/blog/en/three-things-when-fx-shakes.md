@@ -72,7 +72,3 @@ At GSF, we look past the noise of FX to the intrinsic value of the asset. Use th
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

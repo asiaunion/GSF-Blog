@@ -18,6 +18,7 @@ import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
 import { PUBLIC_PROFILES } from "@/config";
 import PostDisclaimer from "@/components/PostDisclaimer.astro";
+import { resolvePostDisclaimerCategory } from "@/lib/postDisclaimer";
 import NewsletterForm from "@/components/NewsletterForm.astro";
 import GiscusComments from "@/components/GiscusComments.astro";
 import RelatedPosts from "@/components/RelatedPosts.astro";
@@ -65,8 +66,7 @@ const {
   sources,
 } = post.data;
 
-const showInlineDisclaimer =
-  category === "investment" || category === "safety";
+const postDisclaimerCategory = resolvePostDisclaimerCategory(category);
 
 const postSlug = postSlugFromId(post.id);
 
@@ -173,11 +173,7 @@ const nextPost =
       id="article"
       class="app-prose mt-8 w-full max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
     >
-      {
-        showInlineDisclaimer && (
-          <PostDisclaimer category={category} lang={disclaimerLang} />
-        )
-      }
+      <PostDisclaimer category={postDisclaimerCategory} lang={disclaimerLang} />
       <Content />
     </article>
 

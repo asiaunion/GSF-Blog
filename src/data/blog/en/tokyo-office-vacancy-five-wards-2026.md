@@ -90,7 +90,3 @@ I recommend the following routine for monitoring the Tokyo office market:
 - [Japan Rate Hike Cycle: 3 Lessons for J-REIT Investing](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

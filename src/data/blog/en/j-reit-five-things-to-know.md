@@ -191,7 +191,3 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 - [ ] **Sectors**: Review the weight of logistics or hotel sectors that can pass on inflation through rent increases.
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -282,7 +282,3 @@ Tower mansions in the Core 6 can carry monthly management fees (管理費 — Ka
 The two wards just outside the Core 6 that have become the default choice for high-income Tokyo families. Why do Meguro River-front mansions and Setagaya's residential neighborhoods command such consistent premium — and who should actually buy there?
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

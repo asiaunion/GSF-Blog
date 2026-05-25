@@ -92,7 +92,3 @@ Investing in Japan is not just about the property; it's about the "Vessel" you u
 - [Tokyo Office Vacancy 2026: Supply and Demand Shifts](/posts/tokyo-office-vacancy-five-wards-2026/)
 
 ---
-
-## Disclaimer
-
-This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

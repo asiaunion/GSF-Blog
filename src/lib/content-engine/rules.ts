@@ -23,12 +23,7 @@ export function containsHardClaims(text: string) {
   return HARD_CLAIM_PATTERNS.some(pattern => pattern.test(text));
 }
 
-export function disclaimerFor(locale: "ko" | "en" | "ja") {
-  if (locale === "ko") {
-    return "<small>※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 투자 상품의 매수·매도를 권유하지 않습니다.</small>";
-  }
-  if (locale === "ja") {
-    return "<small>※ 本記事は情報提供を目的とした個人的見解であり、特定商品の売買を推奨するものではありません。</small>";
-  }
-  return "<small>※ This article is for informational purposes only and does not constitute investment advice.</small>";
+/** @deprecated Markdown footers removed; disclaimers render via PostDisclaimer in PostDetails. */
+export function disclaimerFor(_locale: "ko" | "en" | "ja") {
+  return "";
 }

@@ -89,4 +89,3 @@ references:
 - [日本の金利上昇サイクル：J-REIT投資への3つの教訓](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
 ---
-
