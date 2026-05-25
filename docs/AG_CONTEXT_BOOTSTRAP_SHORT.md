@@ -11,7 +11,7 @@
 
 역할: AG=ko/en/ja 원고·시트·repo / Cursor=validate / commit·deploy=사용자만.
 
-필수 읽기(순): `docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md` → `docs/fact-audit/T3_POLICY.md` → `docs/BLOG_AG_CURSOR_WORKFLOW.md`
+필수 읽기(순): `AGENTS.md`(루트 SSOT) → `docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md` → `docs/fact-audit/T3_POLICY.md`
 
 고정:
 - T3 **P0-only** (12 slug 스팟). fetch ON 35/35·시트 전행 [x] **목표 아님**. `T3_DEFERRED`≠백로그.
