@@ -63,9 +63,7 @@ In the world of investment, 'not losing' is more important than 'how much you ma
 
 At GSF, we listen to potential failure stories as closely as we do success stories. Removing the thorns behind the flashy yields is the start of what we call **'Warm but Rational Investing.'**
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -83,18 +81,6 @@ At GSF, we listen to potential failure stories as closely as we do success stori
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 1,068
-- 1,916
-- 1.5%
-- 2.22%
-- 2.43%
-- 2026年4月
 
 
 ## Disclaimer

@@ -95,9 +95,7 @@ A properly structured small-unit investment should meet three criteria:
 
 Small-unit investing in Tokyo can be a sensible component of a diversified portfolio, especially for investors with yen-denominated income, long time horizons, and the ability to manage properties directly or through trusted management companies. But the entry point for disciplined analysis is the breakeven spreadsheet, not the sales brochure.
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -115,50 +113,6 @@ Small-unit investing in Tokyo can be a sensible component of a diversified portf
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥3.5
-- 0.3%
-- 0.50%
-- 0.75%
-- 1,068
-- 1,916
-- 1.4%
-- 1.5%
-- 10%
-- 100,000
-- 12%
-- 120,000
-- 14,000
-- 15%
-- 150,000
-- 18,000
-- 180,000
-- 1973년
-- 2,000
-- 2,500
-- 2.22%
-- 2.43%
-- 2.5%
-- 20%
-- 2025年
-- 2026年4月
-- 25%
-- 4.5%
-- 5,000
-- 50,000
-- 55%
-- 7,000
-- 70,000
-- 75%
-- 8,000
-- 8.5만 엔
-- 80,000
-- 85,000
-- 90,000
 
 
 ## Disclaimer

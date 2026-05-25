@@ -100,29 +100,11 @@ Because it is a terminal station where various lines like JR, subways, and Tokyu
 
 I have introduced 5 trendy areas in Tokyo, Japan. It might also be meaningful to compare the studio rent prices of each area with those in Seoul. While this might not mean much to an average traveler, I think it would be interesting for those interested in real estate to travel while keeping these market prices in mind. As mentioned when describing the Shibuya area, even in a quiet country like Japan, redevelopment is relatively active in Tokyo. It is a joy to watch an old city rebirth into something newer and more stylish. Additionally, it provides a meaningful opportunity to imagine how the cityscape of Seoul might develop in the future.
 
-
-
-
 ## Walking Action: Session Summary & Check
 
 - [ ] **Vibe**: Observe the lifestyle trajectory of Tokyo's high-end consumers at Azabudai Hills or Daikanyama T-SITE.
 - [ ] **Business**: Analyze how sophisticated spatial planning creates positive 'externalities' for surrounding rents and land prices.
 - [ ] **Inspiration**: Beyond commercial utility, check the landscaping and architectural details that create 'sticky' spaces where people want to linger.
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 13.4万円
-- 130,000
-- 134,000
-- 13만엔
-- 14.2万円
-- 142,000
-- 15.4万円
-- 154,000
-- 4,000
-- 90,000
 
 
 ## Disclaimer

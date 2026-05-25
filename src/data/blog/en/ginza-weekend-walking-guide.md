@@ -98,21 +98,6 @@ I highly recommend reading the [Ginza–Marunouchi DNA Walking Guide](/en/posts/
 - [ ] Sit on a lawn bench in GINZA SIX Garden and spot and compare Tokyo Tower and Tokyo Skytree.
 - [ ] Stand in the middle of the wide avenue during Pedestrian Paradise and capture the weekend air of Ginza with your camera.
 
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 1,200
-- 1885년
-- 1891년
-- 1970年8月2日
-- 2026년
-- 4,000
-- 6,700
-- 6,710
-- 700万円
-- 710万円
-
 
 ## Disclaimer
 

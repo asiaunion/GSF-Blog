@@ -81,10 +81,6 @@ The profit-generation formula in this market has completely changed. A position 
 
 In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024 after the explosive surge—followed by another sharp leg upward in 2025. By Q1 2026, data from Tokyo Kantei and the Real Estate Economic Institute pointed to the first mild price correction in multiple months, as rising interest costs began weighing on leveraged buyers at the margin. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
 
-
-
-
-
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 
 ## Investor Action: Session Summary & Check
@@ -96,32 +92,6 @@ In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 000万円
-- 1,068
-- 1,916
-- 1억
-- 2.22%
-- 2.43%
-- 2024년
-- 2025년
-- 2025年4月
-- 2026년
-- 2026年4月
-- 34.6%
-- 38.6%
-- 3억
-- 4,000
-- 500万円
-- 6,000
-- 7,000
-- 8,700
-- 9,500
 
 
 ## Disclaimer

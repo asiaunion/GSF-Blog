@@ -108,7 +108,6 @@ Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate an
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 
-
 <!-- content-depth-v2 -->
 
 ## Investor Action: Session Summary & Check
@@ -126,37 +125,6 @@ Use [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) for rate an
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.25%
-- 0.50%
-- 0.75%
-- 1,068
-- 1,916
-- 15%
-- 2.22%
-- 2.43%
-- 20%
-- 2006年7月
-- 2007년
-- 2007年2月
-- 2007年5月
-- 2008年
-- 2008年10月
-- 2024년
-- 2024年3月
-- 2024年7月
-- 2025년
-- 2026년
-- 2026年4月
-- 25%
-- 55%
-- 60%
-- 85%
-- 90%
 
 
 ## Disclaimer

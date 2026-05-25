@@ -63,7 +63,6 @@ The expansion of the Korean community in Tokyo signifies the growing influence o
 
 As investors, we must pay attention to how these community shifts impact real estate values and business opportunities. GSF will be your reliable partner at the junction of all these networks, ensuring your assets align with the growth of Tokyo.
 
-
 <!-- content-depth-v2 -->
 
 ## Community Insight: Session Summary & Check
@@ -108,18 +107,6 @@ Beyond lifestyle, the evolving Korean community map in Tokyo has measurable inve
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
 - [Japan Visa Paths: Business Manager & Permanent Residency](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 150,000
-- 2023년
-- 2024년
-- 2025년
-- 2026년
-- 300,000
-- 30万円
 
 
 ## Disclaimer

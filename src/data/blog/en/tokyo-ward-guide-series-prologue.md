@@ -139,42 +139,6 @@ The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonb
 
 *Disclaimer: This post is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Please consult qualified professionals before making any financial decisions. Past market performance does not guarantee future results.*
 
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥1.2
-- ¥1.5
-- ¥250
-- ¥400
-- ¥450
-- ¥550
-- ¥600
-- ¥650
-- ¥700
-- ¥800
-- ¥850
-- 100만엔
-- 120만엔
-- 150만엔
-- 2026년
-- 250,000
-- 400,000
-- 450,000
-- 45만엔
-- 50%
-- 550,000
-- 55만엔
-- 600,000
-- 60만엔
-- 650,000
-- 65만엔
-- 700,000
-- 800,000
-- 80만엔
-- 850,000
-- 85만엔
-
 
 ## Disclaimer
 

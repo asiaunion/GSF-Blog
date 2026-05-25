@@ -61,9 +61,7 @@ South Korea is currently undergoing a massive shift in its inheritance tax philo
 
 At GSF, we believe that investment yield is only half of the equation; **Asset Preservation** is the other. In the Korea-Japan corridor, the tax authorities are highly integrated and share information actively. There are no "loopholes," only "structures." Building the right structure at the acquisition phase is the only way to protect your legacy.
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -81,23 +79,6 @@ At GSF, we believe that investment yield is only half of the equation; **Asset P
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 1,068
-- 1,916
-- 100%
-- 2.22%
-- 2.43%
-- 2024년
-- 2026年4月
-- 2028년
-- 40%
-- 50%
-- 55%
 
 
 ## Disclaimer

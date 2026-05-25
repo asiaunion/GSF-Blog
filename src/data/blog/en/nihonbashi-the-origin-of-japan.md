@@ -112,35 +112,11 @@ Today, Chuo City's multilingual guides to culture and urban regeneration are par
 - [Nihonbashi Redevelopment Roadmap: Three Axes to Read Mitsui-Led Follow-On Projects](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)
 - [What COREDO Nihonbashi and Muromachi Connect](/posts/coredo-nihonbashi-mitsui-redevelopment/)
 
-
-
 ## Walking Action: Session Summary & Check
 
 - [ ] **History**: Visit the former site of Echigoya (now Mitsukoshi) to feel the energy where Japanese retail and capitalism were born.
 - [ ] **Symbol**: Reflect on the meaning of prosperity and protection embodied by the winged lions (Kirin) of Nihonbashi Bridge.
 - [ ] **Change**: Experience the unique atmosphere where department store tradition meets the financial innovation of Kabutocho.
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥320
-- ¥50
-- ¥500
-- 000万円
-- 1673년
-- 1699년
-- 1806년
-- 1896년
-- 1960년
-- 2026년
-- 2035년
-- 3,200
-- 3,200억
-- 330,000
-- 40%
-- 5,000
-- 5,000억
 
 
 ## Disclaimer

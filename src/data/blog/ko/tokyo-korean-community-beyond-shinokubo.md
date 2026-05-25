@@ -63,9 +63,7 @@ references:
 
 투자자로서 우리가 주목해야 할 점은 이러한 커뮤니티의 변화가 부동산 가치와 비즈니스 기회에 어떤 영향을 미치느냐는 것입니다. GSF는 이 모든 네트워크의 접점에서, 당신의 자산이 도쿄의 성장과 궤를 같이할 수 있도록 돕는 든든한 파트너가 되겠습니다.
 
-
 <!-- content-depth-v2 -->
-
 
 ## Community Insight: 핵심 요약 및 점검
 
@@ -109,18 +107,6 @@ references:
 - [도쿄에서 집 구하기: 임대차 계약의 핵심](/ko/posts/tokyo-moving-contracts-two-notes/)
 - [일본 비자 취득 루트: 경영관리 및 영주권](/ko/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [한일 상속·증여세: 10년 무한책임의 함정](/ko/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-
-## 교차 로케일 핵심 수치 (검증 참조)
-
-아래 항목은 KO/EN/JA 본문 수치·연도의 교차 검증용 **가시 참조**입니다.
-
-- 150,000
-- 2023년
-- 2024년
-- 2025년
-- 2026년
-- 300,000
-- 30万円
 
 
 ## 면책 및 이용 안내
