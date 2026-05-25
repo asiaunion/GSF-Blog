@@ -23,6 +23,22 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - "https://www.nta.go.jp/english/index.htm"
+citeSources:
+  - label: "REINS Market Watch, 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "국토교통성 신축 맨션 해외주소 조사, 2025-11"
+    url: "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
+    secondaryUrl: "https://www.mlit.go.jp/report/press/content/001970012.pdf"
+    archive: "/assets/sources/mlit-202511-mansion-foreign-buyer.pdf"
+  - label: "三鬼商事 도쿄 오피스 월별, 2026-03"
+    url: "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+    archive: "/assets/sources/miki-202603-tokyo-office-market.xlsx"
+    portal: "https://www.e-miki.com/rent/"
+  - label: "도쿄도 고정자산세 안내"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
+  - label: "국세청 (영문)"
+    url: "https://www.nta.go.jp/english/index.htm"
 ---
 > **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
 
@@ -30,13 +46,13 @@ sources:
 
 ## 왜 지금 도쿄인가
 
-2026년 4월 현재, 도쿄 23구 기존 맨션 중위 가격은 약 **9,200만 엔**(㎡당 약 140만 엔)을 기록하고 있습니다. ([REINS Market Watch, 2026-04](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) · [검증용 보관본](/assets/sources/reins-202604-marketwatch.pdf)) 미나토·치요다·시부야 등 프라임 3구의 신축 坪단가는 **900만 엔을 돌파**했고, 아카사카 등 일부 초고급 입지에서는 坪당 1,000만 엔을 넘기는 사례도 등장했습니다.
+2026년 4월 현재, 도쿄 23구 기존 맨션 중위 가격은 약 **9,200만 엔**(㎡당 약 140만 엔)을 기록하고 있습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 미나토·치요다·시부야 등 프라임 3구의 신축 坪단가는 **900만 엔을 돌파**했고, 아카사카 등 일부 초고급 입지에서는 坪당 1,000만 엔을 넘기는 사례도 등장했습니다.
 
 이 가격 랠리를 받치는 세 기둥이 있습니다.
 
-1. **해외 주소 매수자 증가** — 국토교통성(MLIT)에 따르면, 2025년 상반기 도쿄 23구 신축 맨션 매수자 중 해외 주소 보유자 비중은 **3.5%**, 도심 6구에서는 **7.5%**로 2024년(3.2%)보다 상승했습니다. 역대급 엔저(JPY/KRW 800~900원대)가 한국·대만·싱가포르 자금을 계속 유입시키고 있습니다. ([국토교통성 보도, 2025-11](https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html) · [PDF](https://www.mlit.go.jp/report/press/content/001970012.pdf) · [보관본](/assets/sources/mlit-202511-mansion-foreign-buyer.pdf))
+1. **해외 주소 매수자 증가** — 국토교통성(MLIT)에 따르면, 2025년 상반기 도쿄 23구 신축 맨션 매수자 중 해외 주소 보유자 비중은 **3.5%**, 도심 6구에서는 **7.5%**로 2024년(3.2%)보다 상승했습니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 역대급 엔저(JPY/KRW 800~900원대)가 한국·대만·싱가포르 자금을 계속 유입시키고 있습니다.
 2. **공급 부족** — 도심 신축 맨션 공급이 구조적으로 타이트하여, 가격 하방을 탄탄히 지지합니다.
-3. **임대 수요의 구조적 견고함** — 三鬼商事 Q1 2026 데이터 기준 도심 5구 오피스 공실률은 **2.22%**. 미나토·치요다의 소형 주거 유닛도 엘리트 수요 집중으로 인해 공실 전환 속도가 구조적으로 느립니다. ([三鬼商事 도쿄 월별, 2026-03](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) · [보관본](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [포털](https://www.e-miki.com/rent/))
+3. **임대 수요의 구조적 견고함** — 三鬼商事 Q1 2026 데이터 기준 도심 5구 오피스 공실률은 **2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>. 미나토·치요다의 소형 주거 유닛도 엘리트 수요 집중으로 인해 공실 전환 속도가 구조적으로 느립니다.
 
 일본은 선진국 중 **외국인의 부동산 취득에 제한이 거의 없는** 유일한 시장입니다. 비자도, 영주권도, 정부 승인도 필요 없습니다. 이 가이드는 '그래서 어떻게 시작하나요?'에 대한 체계적인 답을 드리기 위해 쓰여졌습니다.
 

@@ -17,14 +17,21 @@ Some tier-1 publishers rotate or retire monthly PDF/XLS URLs. We keep **read-onl
 - `mlit-202511-mansion-foreign-buyer.pdf`
 - `miki-202603-tokyo-office-market.xlsx`
 
-## Dual-link pattern (KO / EN / JA)
+## Numbered citations (pillar pilot)
+
+Posts may define `citeSources` in frontmatter and use inline superscripts:
+
+```html
+<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+```
+
+`SourcesList` renders matching anchors `id="source-1"` with **공식 / PDF / 보관 / 포털** links. Prefer this over long inline link chains.
+
+Legacy dual-link pattern (cluster posts) is still valid:
 
 ```markdown
 ([기관명 공식, YYYY-MM](https://official/url) · [검증용 보관본](/assets/sources/file.pdf))
 ```
-
-- **공식** = latest publisher URL (may change next month).
-- **보관본** = snapshot referenced in `docs/fact-audit/sources/<slug>.sources.yaml`.
 
 ## Legal / attribution
 
