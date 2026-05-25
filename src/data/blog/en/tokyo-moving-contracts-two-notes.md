@@ -19,7 +19,6 @@ sources:
 references:
   - "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
 ---
-
 Finding a home in Tokyo is an exciting milestone, but the terminology in a Japanese rental contract can be overwhelming. Japanese law strongly protects the tenant's right to remain in the property while imposing strict obligations regarding its 'restoration' upon move-out.
 
 Today, we analyze two key points of a Tokyo rental contract that determine the beginning and end of your stay. Understanding these will help you identify hidden risks before you sign.
@@ -108,3 +107,6 @@ Beyond the standard due diligence, foreign residents face an additional layer of
 - [Japan Real Estate: Corporate vs Personal Ownership](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [Managing FX Risks in a Weak Yen Era](/posts/three-things-when-fx-shakes/)
 
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

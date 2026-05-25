@@ -1,6 +1,7 @@
 # Blog fact-check workflow (Cursor)
 
 > Used in the **Cursor** step of [`BLOG_AG_CURSOR_WORKFLOW.md`](./BLOG_AG_CURSOR_WORKFLOW.md).  
+> **Roadmap (P0-2, trust gates):** [`BLOG_TRUST_AND_QUALITY_ROADMAP.md`](./BLOG_TRUST_AND_QUALITY_ROADMAP.md)  
 > AG generates text; **this process verifies claims** before publish.
 
 ---
@@ -11,8 +12,12 @@
 |----------------------------------------|---------------------------|
 | sources / references shape | Number matches source page |
 | Tier domain (go.jp, etc.) | Law/article still current |
-| No “guaranteed return” phrases | Context not misleading |
-| KO length, tone, disclaimer | Judgment calls on YMYL |
+| Fact-sheet coverage (T1) | Tier-1 **specific** URL in sheet |
+| Locale numeric parity (T2) | Context not misleading |
+| Source page fetch + fuzzy (T3) | Law/article still current |
+| EN We / JA hangul lint | Judgment calls on YMYL |
+| No “guaranteed return” phrases | T4 semantic review |
+| KO length 1200–4000 (면책 제외), tone, disclaimer | |
 
 ---
 

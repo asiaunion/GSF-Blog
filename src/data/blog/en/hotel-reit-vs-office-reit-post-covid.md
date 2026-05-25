@@ -24,7 +24,6 @@ references:
   - "https://www.mlit.go.jp/en/"
   - "https://www.jnto.go.jp/"
 ---
-
 ## 1. Define recovery in cash-flow terms first
 
 Post-COVID comparisons between hotel and office REITs often confuse price rebound with fundamental normalization. When I first started tracking both sectors side by side in early 2023, the gap between unit-price recovery and underlying cash-flow quality was striking—hotel REIT prices were already bouncing while many properties were still running below 60 percent occupancy.
@@ -108,3 +107,7 @@ The execution discipline I follow: define maximum acceptable drawdown per sector
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

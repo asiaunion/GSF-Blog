@@ -22,14 +22,13 @@ sources:
   - "https://www.nta.go.jp/english/index.htm"
   - "https://www.e-miki.com/market/"
 ---
-
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
 ---
 
 ## Why Tokyo, Why Now
 
-As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **¥92 million** (~¥1.4M/sqm). In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed ¥9 million**, with Akasaka breaking ¥10M/tsubo.
+As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **¥92 million** (92,000,000 JPY, ~1.4 million JPY/sqm or 140万 JPY/㎡). In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed ¥9 million**, with Akasaka breaking ¥10M/tsubo.
 
 Three pillars support this rally:
 
@@ -155,3 +154,7 @@ No visa needed to *own*. To **live and manage**: Business Manager Visa (¥30M ca
 - [ ] Review repair reserves — request *chōki shūzen keikaku*
 
 > **Disclaimer**: Informational only. Not a recommendation. Consult local professionals. Data as of April 2026.
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -1,14 +1,68 @@
-# Fact audit (AG phase 1 → Cursor phase 2)
+# Fact audit (AG → Cursor)
+
+**Start here for trust ops:** [`../BLOG_TRUST_AND_QUALITY_ROADMAP.md`](../BLOG_TRUST_AND_QUALITY_ROADMAP.md)
+
+## Lifecycle
 
 | Phase | Owner | Output |
 |-------|--------|--------|
-| 1 | **AG** | `INDEX.md`, `<slug>.md` (fact + **translation** audit drafts), `AG_PHASE1_REPORT.md` |
-| 2 | **Cursor** | URL verification, EN/JA fixes, `src/data/blog/**` edits, `pnpm validate:post` pass |
+| 1 | **AG** | `INDEX.md`, `<slug>.md`, `AG_PHASE1_REPORT.md` |
+| 2 | **Cursor** | gates 35/35, content fixes — [`CURSOR_PHASE2_REPORT.md`](./CURSOR_PHASE2_REPORT.md) |
+| 2.5b | **AG** | Deep/Standard/Light 전체 35 — [`../AG_PHASE2_CONTENT_FIX_PROMPT.md`](../AG_PHASE2_CONTENT_FIX_PROMPT.md) |
+| 3 | **Cursor** | tier-1 URL 검증, INDEX sync — [`../CURSOR_PHASE3_REVERIFY_PROMPT.md`](../CURSOR_PHASE3_REVERIFY_PROMPT.md) |
 
-**AG prompt:** [`../AG_BATCH_FACT_CHECK_PROMPT.md`](../AG_BATCH_FACT_CHECK_PROMPT.md)
+## INDEX authority
 
-**Templates:**
+| Column | Who sets it | Meaning |
+|--------|-------------|---------|
+| P, claims, drift, T0–T3 notes | **AG** (expected) | Working hypothesis |
+| **validate** | **Cursor** (authoritative) | `pnpm validate:post` or `pnpm trust:update-index` |
+| sheet ✓ in Claims | **AG then Cursor** | Not valid until specific URL + human or T3 PASS |
+
+Do not treat AG drafts as verified until Cursor sign-off.
+
+## Claims table rules
+
+1. Every KO numeric/date/legal threshold → a **Claims** row.
+2. **Tier-1 source URL** must be a **specific page** (statute section, press release, data table).
+3. **Forbidden:** `https://www.mlit.go.jp/` (homepage only) with `[x]` — use `trust:verify-sources` or fix URL.
+4. **UNCERTAIN** from T3 → hard block until row has `Verified ✓ (AG|Cursor, date, snippet)` and re-run verify.
+
+## Commands
+
+```bash
+pnpm trust:extract <slug>
+pnpm trust:verify-sources <slug>
+pnpm validate:post <slug>          # full gates + trust
+SKIP_TRUST_VERIFY=1 pnpm validate:post <slug>
+pnpm trust:update-index
+```
+
+## Templates
+
 - [`../templates/blog-fact-sheet.md`](../templates/blog-fact-sheet.md)
 - [`../templates/blog-translation-audit.md`](../templates/blog-translation-audit.md)
 
-Do not treat AG drafts as verified until Cursor sign-off.
+**AG batch prompt:** [`../AG_BATCH_FACT_CHECK_PROMPT.md`](../AG_BATCH_FACT_CHECK_PROMPT.md)
+
+## Sign-off (Cursor Phase 3)
+
+Per slug, after `pnpm validate:post <slug>` exit 0 **with trust on** (no `SKIP_TRUST_VERIFY`):
+
+1. Claims table: every extracted numeric has a row; **specific** tier-1 URL (not homepage-only).
+2. P0/P1 slugs: open ≥1 tier-1 URL and confirm value on page (record in Claims: `Verified ✓ (Cursor, YYYY-MM-DD, snippet)`).
+3. Update `docs/fact-audit/<slug>.md` → Sign-off section `[x]`.
+4. Run `pnpm trust:update-index` to refresh INDEX `validate` column.
+
+## UNCERTAIN queue (T3 hard block)
+
+When `pnpm trust:verify-sources <slug>` or `validate:post` reports UNCERTAIN:
+
+| Step | Owner | Action |
+|------|--------|--------|
+| 1 | AG or Cursor | Open URL; confirm or fix value in ko/en/ja |
+| 2 | AG | Replace generic URL with specific page; or soften/remove claim |
+| 3 | Cursor | Mark `Verified ✓` in sheet; re-run verify |
+| 4 | — | `validate:post` must exit 0 before publish |
+
+Do not downgrade UNCERTAIN to warning-only (roadmap policy).

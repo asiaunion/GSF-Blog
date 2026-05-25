@@ -1,6 +1,6 @@
 ---
 title: "Japan-Korea Inheritance & Gift Tax: The '10-Year Rule' Trap"
-description: "With top tax rates of 50% (Korea) and 55% (Japan), cross-border asset transfers are a high-stakes game. We analyze the 'Unlimited Taxpayer' status, the 10-year rule, and the upcoming Korean tax reforms for 2025-2028."
+description: "With top tax rates of 50% (Korea) and 55% (Japan), cross-border asset transfers are a high-stakes game. I analyze the 'Unlimited Taxpayer' status, the 10-year rule, and the upcoming Korean tax reforms for 2025-2028."
 pubDatetime: 2026-04-15T09:00:00Z
 author: GSF
 lang: en
@@ -18,7 +18,6 @@ sources:
 references:
   - "https://www.nta.go.jp/english/index.htm"
 ---
-
 For investors holding assets in both Korea and Japan, the heaviest shadow is the **Inheritance and Gift Tax**. Both nations impose some of the highest rates globally (Korea: up to 50%, Japan: up to 55%). Without a strategic plan, more than half of your hard-earned wealth can disappear in a single generation.
 
 The most critical—and often overlooked—element is Japan's **'10-Year Rule' (Unlimited Taxpayer Status)**, which allows the Japanese tax office to reach beyond its borders. Today, we break down the core risks and planning windows for cross-border families.
@@ -82,3 +81,7 @@ At GSF, we believe that investment yield is only half of the equation; **Asset P
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -116,7 +116,7 @@ async function main() {
   }
 
   const candidates = [ko, en ?? "", ja ?? ""];
-  const result = await runBlogValidation(root, candidates);
+  const result = await runBlogValidation(root, candidates, slug ? { slug } : undefined);
   printResult(result);
   process.exit(result.ok ? 0 : 1);
 }

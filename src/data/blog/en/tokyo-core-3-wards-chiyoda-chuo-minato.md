@@ -25,7 +25,6 @@ references:
   - "https://www.toukei.metro.tokyo.lg.jp/"
   - "https://suumo.jp/"
 ---
-
 "Aren't the three core wards basically the same?" — I get that question often. My answer is always the same: no. **Chiyoda, Chuo, and Minato are not interchangeable.** Under the same "central Tokyo" label, they carry completely different characters, different demand profiles, and different investment logic. Let me break them down ward by ward.
 
 This is **Ep.1** of the Tokyo 23 Wards Brand Guide series. Following the [Ep.0 Prologue](/en/posts/tokyo-ward-guide-series-prologue/), this first deep-dive covers the **Core 3 Wards (都心3区)** — Chiyoda (千代田区), Chuo (中央区), and Minato (港区).
@@ -289,3 +288,7 @@ Commerce in Shinjuku, trend in Shibuya, academia in Bunkyo. Three wards that sta
 ---
 
 *Disclaimer: This article is for informational and educational purposes only. It does not constitute investment advice, legal counsel, or tax consultation. Real estate prices fluctuate with market conditions. Please consult a qualified professional before making any financial decisions.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

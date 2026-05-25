@@ -2,7 +2,8 @@
 
 > **Hybrid workflow (default)**: **AG** writes; **Cursor** runs `pnpm validate:post` before git/deploy.  
 > Handoff: tell Cursor 「slug … 검증 부탁」 after ko/en/ja md are in repo (same slug, three folders).  
-> See [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) § Quick reference. Telegram is **optional (legacy)**.
+> See [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) § Quick reference.  
+> **Trust roadmap:** [`docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md`](docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md). Telegram is **optional (legacy)**.
 
 ## Endpoint
 - `POST /api/blog-agent/workflow`
@@ -34,7 +35,7 @@
   - KO 본문 외부 링크 수 20개 이하
   - 단정/보장형 표현 패턴 차단
   - EN/JA 번역본 유사도 과도 시 차단
-  - KO 본문 분량 1800~2300자(한글 글자수 기준)
+  - KO 본문 분량 **1200~4000** 한글 글자수 (면책 섹션 `## 면책 및 이용 안내` 제외 — `validationGates.ts` `ko-length-target`)
   - KO/JA 공손체 문장 종결 점검
   - 제목-본문 핵심 토큰 정합성 점검
   - 하드 게이트 미충족 시 즉시 발행 차단
@@ -96,7 +97,8 @@ Cross-cutting (any time): [`SEO_JA_CLUSTER_FOCUS.md`](docs/SEO_JA_CLUSTER_FOCUS.
 - `pnpm validate:post` 또는 API `apply_publish` 실패 시 JSON `failed` 배열 확인.
 - 우선 조치 순서:
   1) references/sources 무결성
-  2) 분량(1800~2300) 및 제목 정합성
+  2) 분량(1200~4000, 면책 제외) 및 제목 정합성
+  2b) trust: `pnpm trust:extract` / `trust:parity` / `trust:verify-sources` (see roadmap)
   3) tier source(정부/공공/언론) 보강
   4) 단정형 표현 및 면책문구
 
@@ -147,7 +149,9 @@ Full flow: [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md) 
 - [ ] `src/data/blog/{ko,en,ja}/<slug>.md` repo에 반영
 - [ ] Fact sheet completed — all numbers/legal claims verified
 - [ ] 이미지/에셋 작업이 [`BLOG_IMAGE_RULES_1PAGE.md`](BLOG_IMAGE_RULES_1PAGE.md) 규격(Option A 2장 구조, 중복 절대 금지, 약한 가우시안 블러로 실루엣 보존, 셀카/무관한 사진 제외)을 완수했는지 확인
-- [ ] `pnpm validate:post <slug>` exit **0** (hard gates + score + build)
+- [ ] `docs/fact-audit/<slug>.md` Claims complete (trust coverage)
+- [ ] `pnpm validate:post <slug>` exit **0** (hard gates + score + build; trust on for publish)
+- [ ] Or format-only scan: `SKIP_TRUST_VERIFY=1 pnpm validate:post <slug>` during AG 2.5b
 - [ ] Human skim: title, disclaimer, JA tone (5–10 min)
 - [ ] Git commit + deploy (or legacy API `apply_publish` if using workflow API)
 - [ ] Validate JSON 요약을 주간 KPI `notes`에 기록 (optional)

@@ -16,15 +16,15 @@ tags:
 sources:
   - "https://www.nihonbashi-tokyo.jp/"
   - "https://www.mitsuifudosan.co.jp/"
+  - "https://www.mlit.go.jp/"
 references:
   - "https://www.nihonbashi-tokyo.jp/"
 ---
-
 도쿄의 중심은 황거(Imperial Palace)이지만, 도쿄의 '역동성'이 시작되는 곳은 니혼바시(Nihonbashi)입니다. 에도 시대부터 상업의 중심지였던 이곳은 2026년 현재, 미쓰이 부동산의 대규모 재개발을 통해 과거의 유산과 초현대적 스카이라인이 공존하는 독보적인 구역으로 진화했습니다.
 
 *니혼바시 시리즈의 일부입니다. 이 글은 **현장 답사** 편 — 가격, 시간표, 평당 단가를 직접 걸으며 확인할 수 있는 2.5km 워킹 루트입니다. 역사와 상징의 배경은 [니혼바시: 모든 기원의 시작점](/ko/posts/nihonbashi-the-origin-of-japan/), 투자 파이프라인 프레임워크는 [니혼바시 재개발 로드맵](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three/)을 참조하세요.*
 
-화려한 무로마치를 지나, 일본의 월스트리트인 카부토초의 변신을 목격하고, 장인들의 숨결이 살아있는 하마초까지 이어지는 산책로에서 우리는 도쿄가 자산을 관리하고 문화를 계승하는 방식을 배우게 됩니다.
+**니혼바시에서 하마초까지**, **에도의 자부심과 현대적 감각이 만나는 산책로**를 따라 걸으며, 무로마치와 카부토초를 거쳐 장인의 거리 하마초에 이르는 동선에서 도쿄가 자산을 관리하고 문화를 계승하는 방식을 살펴봅니다.
 
 ---
 
@@ -125,3 +125,7 @@ references:
 - [긴자에서 마루노우치까지: 도쿄의 부와 전통 DNA](/ko/posts/ginza-marunouchi-walk-dna/)
 - [도쿄 5구 오피스 공실률 2%대 진입 분석](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
 - [일본 부동산 투자 실패의 기록: 3가지 교훈](/ko/posts/one-failure-three-lessons-postmortem/)
+
+## 면책 및 이용 안내
+
+본 글은 **정보 제공 목적**으로 작성되었으며, 투자·법무·세무·이민 등에 대한 개별 조언이나 권유가 아닙니다. 수치·제도·운영 정보는 게시 시점 기준이며, 확인 없이 의사결정에 사용하지 마십시오.

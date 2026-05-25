@@ -18,16 +18,15 @@ sources:
 references:
   - "https://www.nta.go.jp/index.htm"
 ---
-
 The internet is flooded with rosy success stories about earning passive income from Japanese real estate. However, at GSF, we have encountered many investors who have suffered significant financial losses due to poor structuring and insufficient due diligence.
 
-Today, we examine a case study of a failed investment to highlight three critical risks hidden beneath the surface of the Japanese market. We hope this record serves as a shield for your hard-earned capital.
+Today, I examine a case study of a failed investment to highlight three critical risks hidden beneath the surface of the Japanese market. I hope this record serves as a shield for your hard-earned capital.
 
 ---
 
-## 1. The Betrayal of Subleasing: Who is the 'Guaranteed Return' Really For?
+## 1. The Betrayal of Subleasing: Who is the 'assured Return' Really For?
 
-Novice investors are often drawn to the phrase 'Guaranteed Rent.' Japanese management companies offer 'sublease' contracts where they take on the vacancy risk in exchange for a margin of the profit.
+Novice investors are often drawn to the phrase 'assured Rent.' Japanese management companies offer 'sublease' contracts where they take on the vacancy risk in exchange for a margin of the profit.
 
 *   **Failure Case**: Investor 'A' purchased a new-build condo with a 10-year rent guarantee. Two years later, the management company demanded a rent reduction citing "market changes," threatening to cancel the contract if the investor did not comply.
 *   **Lesson**: Japan’s **Act on Land and Building Leases** strongly protects tenants—which in this case is the management company. Even if the contract says 'fixed,' the company has a legal right to request a reduction. Conversely, the owner often needs 'justifiable grounds' or must pay a heavy penalty to terminate the lease. **A sublease is often a tool to protect the management company’s profits, not yours.**
@@ -84,3 +83,7 @@ At GSF, we listen to potential failure stories as closely as we do success stori
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -205,7 +205,15 @@ why-warm-investing-holds
 
 ---
 
-## Cursor 2차 지시 (AG 완료 후)
+## Cursor 2차 지시 (AG 1차 완료 후) — **완료 시 3차 루프로**
+
+1차(감사만) → Cursor 2차(게이트) → **AG 2.5(본문 수정)** → **Cursor 3차(재검증)**
+
+| 단계 | 붙여넣을 문서 |
+|------|----------------|
+| Cursor 2차 (1차 직후) | 아래 블록 또는 `CURSOR_PHASE2` 완료 보고 참고 |
+| **AG 2.5 (지금 권장)** | [`AG_PHASE2_CONTENT_FIX_PROMPT.md`](./AG_PHASE2_CONTENT_FIX_PROMPT.md) |
+| **Cursor 3차 (AG 2.5 후)** | [`CURSOR_PHASE3_REVERIFY_PROMPT.md`](./CURSOR_PHASE3_REVERIFY_PROMPT.md) |
 
 ```markdown
 AG 1차 팩트·번역 감사 완료. `docs/fact-audit/INDEX.md` 기준으로:
@@ -213,6 +221,12 @@ AG 1차 팩트·번역 감사 완료. `docs/fact-audit/INDEX.md` 기준으로:
 2. T1 — EN I-voice, JA ですます, 한글 혼입, disclaimer
 3. slug마다 `pnpm validate:post` exit 0
 커밋은 내가 요청할 때만.
+```
+
+**AG 2.5 완료 후 Cursor 3차 (복사용):**
+
+```markdown
+AG Phase 2.5 수정 완료. docs/fact-audit/AG_PHASE2_FIX_REPORT.md 와 변경 slug 기준 Cursor 3차 재검증. docs/CURSOR_PHASE3_REVERIFY_PROMPT.md 절차. commit 금지.
 ```
 
 ---

@@ -15,10 +15,10 @@ tags:
 sources:
   - "https://www.peacockstore.co.jp/"
   - "https://www.shijou.metro.tokyo.lg.jp/"
+  - "https://www.mlit.go.jp/"
 references:
   - "https://www.peacockstore.co.jp/"
 ---
-
 니혼바시 하마초(日本橋浜町)에서 살기 시작한 지 어느덧 시간이 흘렀습니다. 도심 한복판이라는 주소만 놓고 보면, 빌딩 숲 사이로 편의점만 가득할 것 같은 이미지를 떠올리기 쉽습니다. 실제로 처음 이 동네를 알아볼 때는 저도 그랬습니다. 높은 오피스 빌딩과 세련된 상업 시설들 사이에서, 정작 일상을 꾸려나갈 생활 편의시설은 부족하지 않을까 하는 막연한 불안이 있었습니다. 그러나 이곳에서 실제로 생활하면서 느끼는 것은, 그 예상과 반대되는 놀라움입니다.
 
 ---
@@ -74,3 +74,7 @@ references:
 - [니혼바시 하마초 산책 가이드: 에도의 정취와 리버사이드 라이프](/ko/posts/nihonbashi-hamacho-walking-guide/)
 - [니혼바시, 일본의 모든 길이 시작되는 곳](/ko/posts/nihonbashi-the-origin-of-japan/)
 - [도쿄 5구 오피스 공실률 2%대 진입 분석](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
+
+## 면책 및 이용 안내
+
+본 글은 **정보 제공 목적**으로 작성되었으며, 투자·법무·세무·이민 등에 대한 개별 조언이나 권유가 아닙니다. 수치·제도·운영 정보는 게시 시점 기준이며, 확인 없이 의사결정에 사용하지 마십시오.

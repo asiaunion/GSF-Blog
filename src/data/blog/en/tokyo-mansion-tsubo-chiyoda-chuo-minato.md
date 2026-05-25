@@ -21,7 +21,6 @@ references:
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
 ---
-
 ## 1. Tsubo price is an entry point, not an answer
 
 When buyers compare condominiums across Tokyo's central wards, price per tsubo (approximately 3.3 square meters) is almost always the first metric cited. It is a useful screening tool, but treating it as the decision variable is where many investors—especially cross-border buyers encountering the Japanese market for the first time—go wrong.
@@ -31,7 +30,7 @@ In fiscal 2025 (ending March 2026), the average price of a new condominium in To
 But two units showing identical headline tsubo pricing can have materially different net returns once you layer in what actually drives ownership economics:
 
 - **Building age and structural quality.** A 2024-built RC tower with seismic isolation and a 40-year long-term repair plan has a fundamentally different depreciation curve than a 1985-vintage SRC mid-rise facing its second major repair cycle. The tsubo price comparison between these assets is misleading without adjusting for remaining economic life and capital expenditure risk.
-- **Management fee and reserve fund burden.** Monthly management fees (管理費) and repair reserve contributions (修繕積立金) vary dramatically by building scale, facilities, and management company quality. A luxury tower with concierge service, swimming pool, and private lounge may carry ¥800–1,200 per square meter monthly in combined fees—a drag that can consume 20–30 percent of gross rental income for a compact unit.
+- **Management fee and reserve fund burden.** Monthly management fees (管理費) and repair reserve contributions (修繕積立金) vary dramatically by building scale, facilities, and management company quality. A luxury tower with concierge service, swimming pool, and private lounge may carry ¥1,000 per square meter (typically ¥800–1,200) monthly in combined fees—a drag that can consume 20–30 percent of gross rental income for a compact unit.
 - **Exit liquidity layers.** Not all tsubo-equivalent properties trade with equal market depth. Buildings with fewer total units, unusual layouts, or commercial-zone restrictions face thinner transaction markets, which means exit timing risk compounds over holding periods.
 
 ## 2. Why Chiyoda, Chuo, and Minato diverge
@@ -103,3 +102,7 @@ The core question is: can you hold through one adverse cycle—rates up 100 basi
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

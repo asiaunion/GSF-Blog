@@ -26,7 +26,6 @@ references:
   - "https://www.jll.co.jp/en/research"
   - "https://www.reins.or.jp/"
 ---
-
 ## 1. 日本橋はネットワークテーゼであり、画地テーゼではありません
 
 *この記事は日本橋シリーズの**投資分析**編です。[Originエッセイ](/ja/posts/nihonbashi-the-origin-of-japan/)がこの街の象徴的な重力を扱い、[ウォーキングガイド](/ja/posts/nihonbashi-hamacho-walking-guide/)がストリートレベルの体験を案内するのに対し、この記事は再開発ストーリーを測定可能な投資フレームワーク — 動線・防災・滞在時間 — に変換します。*

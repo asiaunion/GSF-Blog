@@ -19,7 +19,6 @@ references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.reins.or.jp/"
 ---
-
 A massive wave of capital is being sucked into the center of Tokyo like a black hole. As global geopolitical tensions align with an unfathomably prolonged weak yen, real estate in central Tokyo has evolved far beyond mere 'living space' to become Asia's ultimate 'Safe Haven'.
 
 Specifically, the "Core 6 Wards" (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo)—often called the heart of Tokyo—are forming the most anomalous and extreme market in all of Japan. Today, I want to set aside simple optimism and cross-reference cold institutional numbers with my own firsthand groundwork to expose the raw reality that anyone preparing to invest in Tokyo's core must face.
@@ -78,7 +77,7 @@ The profit-generation formula in this market has completely changed. A position 
    It is now mathematically nearly impossible for a new entrant without leverage to expect a decent return from rental income in the core wards. From the start, you must clearly reset your objective to 'Global Risk Hedging' and 'Safe Asset Parking'.
 
 2. **Obsess Over Scarcity (Flight to Quality)**
-   In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, you must insist on high-end locations where foot traffic is heavily defended and the wealthy desperately desire to reside.
+   In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, you often emphasize on high-end locations where foot traffic is heavily defended and the wealthy desperately desire to reside.
 
 In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024 after the explosive surge—followed by another sharp leg upward in 2025. By Q1 2026, data from Tokyo Kantei and the Real Estate Economic Institute pointed to the first mild price correction in multiple months, as rising interest costs began weighing on leveraged buyers at the margin. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
 
@@ -97,3 +96,7 @@ In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

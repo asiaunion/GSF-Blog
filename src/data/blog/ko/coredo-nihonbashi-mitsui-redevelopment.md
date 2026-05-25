@@ -12,11 +12,11 @@ sources:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
   - "https://mitsui-shopping-park.com/urban/muromachi/"
+  - "https://www.mlit.go.jp/"
 references:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
 ---
-
 *이 글은 [니혼바시 시리즈](/ko/posts/nihonbashi-the-origin-of-japan/)의 세 번째 글입니다. Origin 편이 400년 상업 DNA를 추적하고, [하마초 워킹 가이드](/ko/posts/nihonbashi-hamacho-walking-guide/)가 거리 레벨 루트를 안내한다면, 이 글은 하나의 질문에 집중합니다: 현대식 복합 쇼핑몰은 어떻게 100년 된 장인의 손맛을 살려두는가 — 그리고 그 답은 거주자의 일상에서 어떻게 보이는가?*
 
 니혼바시에 살다 보면, ‘역사’가 책 속 이야기만은 아니라는 감각이 몸에 붙습니다. 아내와 종종 들르는 코레도 니혼바시와 코레도 무로마치 일대도 마찬가지입니다. 유리와 조명이 세련된 층을 오르내리다가도, 골목과 매장 구석에서는 오래된 상점과 손맛이 기다리고 있거든요. 제가 그 공간에서 특히 마음에 들었던 것은, 단순히 높고 새로운 빌딩이 들어섰다는 인상보다 오랜 시간을 견뎌 온 상점들—일본에서는 흔히 노포(老舗)라 부르는 가게들이 입점해 있다는 점이었습니다. 상업적으로 성공해야 한다는 전제는 분명 있을 테지만, 그 안에 지역의 색과 전통의 가치를 공간에 녹여내려는 시도가 읽혔습니다.
@@ -75,3 +75,7 @@ references:
 - [ ] **체험**: '코레도 무로마치 테라스'의 야외 테라스석에서 미쓰이 부동산이 제안하는 새로운 직주근접 라이프스타일을 느껴보세요.
 - [ ] **역사**: 니혼바시 다리에서 현재 진행 중인 '수도고 지하화' 사업 현장을 확인하며 미래의 수변 경관을 상상해 보세요.
 - [ ] **비즈니스**: 니혼바시 1초모 재개발 구역의 펜스 너머로 도쿄의 새로운 랜드마크가 올라오는 속도를 체크하세요.
+
+## 면책 및 이용 안내
+
+본 글은 **정보 제공 목적**으로 작성되었으며, 투자·법무·세무·이민 등에 대한 개별 조언이나 권유가 아닙니다. 수치·제도·운영 정보는 게시 시점 기준이며, 확인 없이 의사결정에 사용하지 마십시오.

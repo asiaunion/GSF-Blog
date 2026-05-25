@@ -18,7 +18,6 @@ sources:
 references:
   - "https://www.tsukiji.or.jp/english/"
 ---
-
 Tokyo’s morning begins at its fish markets. While many thought the 'Tsukiji Era' ended when the wholesale market moved to Toyosu in 2018, as of 2026, Tsukiji and Toyosu have evolved into distinct culinary pillars of the city.
 
 With the massive redevelopment plan for the former Tsukiji Inner Market site (led by a Mitsui Fudosan-led consortium) now underway, this area is transforming into a world-class landmark. Here is your 2026 guide to experiencing the vibrant history of Tsukiji and the modern luxury of Toyosu.
@@ -99,3 +98,7 @@ Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Post-Mortem: 3 Lessons from Japan Real Estate Failures](/posts/one-failure-three-lessons-postmortem/)
 - [Ginza-Marunouchi Walking Guide](/posts/ginza-marunouchi-walk-dna/)
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -18,7 +18,6 @@ sources:
 references:
   - "https://www.peacockstore.co.jp/"
 ---
-
 Since I started living in Nihonbashi Hamacho, one thing has consistently surprised me: how rich the neighborhood amenities are for a place smack in the middle of downtown Tokyo. The address alone conjures images of towering office buildings and a sea of convenience stores — hardly the setting you'd associate with proper grocery shopping, parks, or a leisurely evening walk. Honestly, I had those same assumptions before we moved. There was an unspoken worry that while the location would be convenient for work, everyday life might feel slightly sterile or impractical. Living here has dismantled that notion, piece by piece.
 
 ---
@@ -45,7 +44,7 @@ There's a logical explanation for these surprisingly fair prices, and it took me
 
 In nearby Koto Ward, just across from Chuo Ward where we live, sits the **Central Wholesale Market (中央卸売市場)** — the largest wholesale market in Tokyo, handling massive volumes of seafood and produce. Hamacho's position in Chuo Ward puts it almost directly adjacent to this distribution hub. The shorter the distance from wholesale to shelf, the fresher the product — and the lower the logistics cost that would otherwise get passed on to the consumer.
 
-What started as idle curiosity about our local supermarket gradually expanded into a broader understanding of how Tokyo's food supply chain actually works. From the Peacock store in Hamacho to the Central Wholesale Market in Koto Ward — a single neighborhood observation opened up a much larger picture. I find that kind of local discovery genuinely satisfying.
+What started as idle curiosity about my local supermarket gradually expanded into a broader understanding of how Tokyo's food supply chain actually works. From the Peacock store in Hamacho to the Central Wholesale Market in Koto Ward — a single neighborhood observation opened up a much larger picture. I find that kind of local discovery genuinely satisfying.
 
 ---
 
@@ -74,3 +73,7 @@ Everyone's lifestyle is different, and every choice deserves respect. A preferen
 - [Nihonbashi Hamacho Walking Guide: Edo Charm Meets Riverside Life](/en/posts/nihonbashi-hamacho-walking-guide/)
 - [Nihonbashi: Where All Roads in Japan Begin](/en/posts/nihonbashi-the-origin-of-japan/)
 - [Tokyo's 5-Ward Office Vacancy Rate Drops Below 2%](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

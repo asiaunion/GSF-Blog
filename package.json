@@ -15,7 +15,14 @@
     "cleanup:integrity": "python3 scripts/fix_integrity.py",
     "scan:md": "node scripts/detect_duplicate_markdown_sections.mjs",
     "verify:svg-posts": "node scripts/verify-svg-posts.mjs",
-    "validate:post": "npx --yes tsx scripts/validate-blog-post.ts"
+    "validate:post": "npx --yes tsx scripts/validate-blog-post.ts",
+    "validate:batch": "SKIP_VALIDATE_BUILD=1 SKIP_TRUST_VERIFY=1 node scripts/batch-validate-posts.mjs",
+    "trust:extract": "npx --yes tsx scripts/extract-claims-from-ko.mjs",
+    "trust:parity": "npx --yes tsx scripts/locale-numeric-parity.mjs",
+    "trust:verify-sources": "npx --yes tsx scripts/verify-claims-against-sources.mjs",
+    "trust:update-index": "npx --yes tsx scripts/update-fact-audit-index.mjs",
+    "trust:summary": "TRUST_SKIP_SOURCE_FETCH=1 npx --yes tsx scripts/trust-batch-summary.mjs",
+    "check:source-links": "npx --yes tsx scripts/check-source-links.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",

@@ -22,7 +22,6 @@ references:
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
   - "https://www.nta.go.jp/english/index.htm"
 ---
-
 > **This article is a Chapter 2 deep-dive companion to the [Complete Guide to Tokyo Real Estate Investment](/posts/tokyo-real-estate-investment-complete-guide/).** I recommend reading the pillar page first for the full investment roadmap, then returning here for the procedural details.
 
 ---
@@ -228,3 +227,7 @@ Week 8-10 : Registration complete, title identification received
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax consultation. Always consult qualified professionals before making any financial decisions. Past returns do not guarantee future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.
