@@ -23,6 +23,11 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://www.livable.co.jp/"
+  - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+  - "https://www.livable.co.jp/l-note/question/g12987/"
+  - "https://www.moj.go.jp/MINJI/minji05_00494.html"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -39,6 +44,16 @@ citeSources:
     url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
   - label: "국세청 (영문)"
     url: "https://www.nta.go.jp/english/index.htm"
+  - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "Tokyu Livable 매입 시 제비용(諸費用) 안내, 2026"
+    url: "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+    portal: "https://www.livable.co.jp/"
+  - label: "Tokyu Livable L-note — 매매 계약금(手付金) 관행"
+    url: "https://www.livable.co.jp/l-note/question/g12987/"
+  - label: "일본 법무성 외국인 등기 신청 서명공증 지침"
+    url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
 ---
 > **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
 
@@ -60,7 +75,7 @@ citeSources:
 
 ## Chapter 1. 에리어·가격·坪단가 — 어디를 사야 하나
 
-도쿄 부동산의 첫 번째 관문은 **에리어 선정**입니다. 같은 23구 안에서도 치요다구의 坪단가와 에도가와구의 坪단가는 3배 이상 차이가 납니다.
+도쿄 부동산의 첫 번째 관문은 **에리어 선정**입니다. 같은 23구 안에서도 치요다구의 坪단가와 에도가와구의 坪단가는 3배 이상 차이가 납니다.<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup>
 
 ### 도심 6구 vs 그 외
 
@@ -71,7 +86,7 @@ citeSources:
 | **생활권** | 세타가야·스기나미·메구로 | 350\~500만 | 실거주 겸 투자 |
 | **외곽** | 아다치·에도가와·카츠시카 | 200\~350만 | 고수익률 추구 |
 
-핵심은 **"坪단가 × 수익률 × 유동성"의 삼각형**입니다. 도심 3구는 시세차익에 강하지만 표면수익률이 낮고, 외곽은 수익률이 높지만 출구 전략(매각)이 어렵습니다.
+핵심은 **"坪단가 × 수익률 × 유동성"의 삼각형**입니다. 도심 3구는 시세차익에 강하지만 표면수익률이 낮고, 외곽은 수익률이 높지만 출구 전략(매각)이 어렵습니다. (해당 坪단가 레인지는 2025-2026년 평균 거래 데이터를 바탕으로 분류한 거시적 시장 비교 프레임워크입니다.)
 
 > 📖 **심층 읽기**: [도쿄 맨션 坪단가 분석 — 치요다·주오·미나토편](/ko/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato) | [도쿄 6구 부동산 인사이트](/ko/posts/tokyo-6-wards-real-estate-insight)
 
@@ -85,18 +100,18 @@ citeSources:
 
 | Step | 내용 | 핵심 포인트 |
 |------|------|------------|
-| 1 | **예산 확정** | 물건가의 12\~18%를 부대비용(세금·중개·법무)으로 별도 확보 |
+| 1 | **예산 확정** | 물건가의 **7\~10%** 전후를 부대비용(세금·중개·등기 등)으로 별도 확보<sup class="source-ref"><a href="#source-7" id="cite-7">7</a></sup> |
 | 2 | **중개사 선정** | 외국인 대응 경험이 있는 에이전트 필수. SUUMO·At Home에서 사전 검색 |
 | 3 | **물건 탐색·현장 확인** | 관리 조합 의사록(理事会議事録), 수선적립금 잔액 일반적으로 확인 |
 | 4 | **매수 의향서 제출** | 買付証明書(카이츠케 쇼메이쇼) — 가격 네고는 이 단계에서 |
 | 5 | **중요사항 설명** | 重要事項説明(쥬요지코 세츠메이) — 일본어 원문; 번역 필수 |
-| 6 | **계약·수부금 납입** | 매매대금의 5\~10% (보통 수백만 엔 단위) |
+| 6 | **계약·수부금 납입** | 매매대금의 5\~10% (보통 수백만 엔 단위)<sup class="source-ref"><a href="#source-8" id="cite-8">8</a></sup> |
 | 7 | **융자 실행** | 비거주자는 현금 매입이 주류. 거주자는 SMBC Prestia, SBI신세이 등 |
 | 8 | **잔금·소유권 이전 등기** | 사법서사(司法書士)가 법무국에 등기 신청 |
 
 ### 비거주자 특이사항
 
-- **여권 + 서명 공증(Affidavit of Identity)** 으로 인감증명 대체
+- **여권 + 서명 공증(Affidavit of Identity)** 으로 인감증명 대체<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup>
 - **주민표 불가** → 본국 공증 서류로 대체
 - 은행 계좌 개설이 까다로우므로 **에스크로 또는 사법서사 예치금** 활용
 

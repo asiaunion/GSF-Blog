@@ -40,3 +40,39 @@ claims:
     asOf: "2026"
     verifiedAt: "2026-05-25"
     verifier: Cursor
+
+  - id: ch1-tsubo-framework
+    koQuote: "에리어 선정입니다. 같은 23구 안에서도 치요다구의 坪단가와 에도가와구의 坪단가는 3배 이상 차이가 납니다."
+    values: ["3배"]
+    primaryUrl: https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf
+    archivePath: /assets/sources/kantei-2025-chukomansion.pdf
+    asOf: "2025"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "Qualitative ward spread; table ranges are editorial framework anchored to Kantei/REINS cluster posts."
+
+  - id: ch2-ancillary-cost-pct
+    koQuote: "물건가의 7~10% 전후를 부대비용(세금·중개·등기 등)으로 별도 확보"
+    values: ["7~10%"]
+    primaryUrl: https://cs1.livable.co.jp/kounyu/loan/money_plan.html
+    portalUrl: https://www.livable.co.jp/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+
+  - id: ch2-deposit-pct
+    koQuote: "매매대금의 5~10% (보통 수백만 엔 단위)"
+    values: ["5~10%"]
+    primaryUrl: https://www.livable.co.jp/l-note/question/g12987/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+
+  - id: ch2-affidavit-nonresident
+    koQuote: "- 여권 + 서명 공증(Affidavit of Identity) 으로 인감증명 대체"
+    values: ["Affidavit of Identity"]
+    primaryUrl: https://www.moj.go.jp/MINJI/minji05_00494.html
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "HEAD 200 via trust script; page may block generic curl. Align with tokyo-buying-process-step-by-step MOJ cite."
