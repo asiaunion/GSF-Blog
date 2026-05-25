@@ -61,7 +61,6 @@ Before deciding on an investment, GSF conducts 'Reputation and Philosophy Due Di
 
 GSF will continue to integrate human warmth into cold data analysis. I believe this is the surest way to protect and grow assets in an era of extreme volatility.
 
-
 <!-- content-depth-v2 -->
 
 ## 5. When Cold Models Fail: Three Cross-Border Case Studies
@@ -119,20 +118,6 @@ At the most sophisticated level, warm investing means designing deal structures 
 - [ ] **Essence**: Ask yourself if you are investing in spaces that improve 'human quality of life' rather than just chasing price growth.
 - [ ] **Sustainability**: Verify if the location has the community and infrastructure to be loved 10 years from now, beyond short-term trends.
 - [ ] **Empathy**: Create 'sticky assets' by providing values tenants truly desire—safety, comfort, and dignity.
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥2.4
-- 0.3%
-- 12.3%
-- 20%
-- 2023년
-- 240万円
-- 480,000
-- 48万円
-- 6.8%
 
 
 ## Disclaimer

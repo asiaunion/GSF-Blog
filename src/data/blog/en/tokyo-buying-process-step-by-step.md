@@ -228,32 +228,6 @@ Week 8-10 : Registration complete, title identification received
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax consultation. Always consult qualified professionals before making any financial decisions. Past returns do not guarantee future results.*
 
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥100
-- ¥4.3
-- ¥50
-- ¥54.3
-- ¥60
-- 000万円
-- 1.5%
-- 10%
-- 118%
-- 12%
-- 20%
-- 2026년
-- 2026年3月
-- 2026年4月
-- 2026年4月1日
-- 4.5%
-- 5,000
-- 5,430
-- 5,580
-- 580万円
-- 70%
-
 
 ## Disclaimer
 

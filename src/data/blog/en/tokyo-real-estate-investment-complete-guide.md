@@ -155,46 +155,6 @@ No visa needed to *own*. To **live and manage**: Business Manager Visa (¥30M ca
 
 > **Disclaimer**: Informational only. Not a recommendation. Consult local professionals. Data as of April 2026.
 
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥15
-- ¥20
-- ¥30
-- ¥4.5
-- 0.3%
-- 000万円
-- 1,000
-- 1.4%
-- 1.5%
-- 10%
-- 140万円
-- 18%
-- 1981년
-- 1981年6月
-- 2.22%
-- 20.42%
-- 200万円
-- 2016年4月
-- 2024년
-- 2025년
-- 2025年10月
-- 2026年4月
-- 2030년
-- 3,000
-- 3.2%
-- 3.5%
-- 35%
-- 45%
-- 5.5%
-- 50%
-- 55%
-- 7.5%
-- 9,200
-- 900万円
-- 92,000,000
-
 
 ## Disclaimer
 

@@ -184,9 +184,6 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 - [Hotel REITs vs Office REITs: Which Recovered More After COVID?](/posts/hotel-reit-vs-office-reit-post-covid/)
 - [Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
-
-
-
 ## Investor Action: Session Summary & Check
 
 - [ ] **NAV**: Check if the current price is at a discount to Net Asset Value (P/NAV < 1) to ensure a margin of safety.
@@ -196,40 +193,6 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.0%
-- 1,916
-- 1.8%
-- 100억
-- 100억원
-- 13.8%
-- 166%
-- 2.4%
-- 2.43%
-- 2000년
-- 2020년
-- 2021년
-- 2021年8月
-- 2023년
-- 2023年9月
-- 2024년
-- 2025년
-- 2026년
-- 2026年4月
-- 3.2%
-- 3.6%
-- 3.8%
-- 416%
-- 43%
-- 5.6%
-- 50%
-- 500억원
-- 600억원
-- 8.6%
 
 
 ## Disclaimer

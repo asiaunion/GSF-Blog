@@ -95,9 +95,7 @@ Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination fo
 
 Tokyo’s museums are not places that provide correct answers; they are places that invite children to ask **"Why?"** In 2026, we hope these intellectual playgrounds broaden your child's perspective and provide meaningful growth for the whole family.
 
-
 <!-- content-depth-v2 -->
-
 
 ## Family Travel Tips
 
@@ -112,31 +110,11 @@ Tokyo’s museums are not places that provide correct answers; they are places t
 - [ ] **Closures**: Most national museums are closed on Mondays; double-check the schedule when planning your route.
 - [ ] **Age**: Check the age-specific restrictions for 'ComPass' (National Museum of Nature and Science) or 'KidZania' to avoid disappointment.
 
-
 ## Recommended Series
 
 - [Tsukiji and Toyosu: The Two Hearts of Tokyo’s Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [Nihonbashi to Hamacho: A Walking Guide of Tradition and Modernity](/posts/nihonbashi-hamacho-walking-guide/)
 - [Beyond Shin-Okubo: The New Map of Tokyo’s Korean Community](/posts/tokyo-korean-community-beyond-shinokubo/)
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥210
-- ¥230
-- ¥400
-- ¥500
-- ¥600
-- ¥630
-- 1,000
-- 1,300
-- 1,600
-- 2,500
-- 2026년
-- 3,800
-- 4,000
-- 5,000
 
 
 ## Disclaimer

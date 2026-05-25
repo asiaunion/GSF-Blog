@@ -82,9 +82,7 @@ Comparing Chiyoda, Chuo, and Minato is not about finding the "cheapest" ward. Ea
 
 The core question is: can you hold through one adverse cycle—rates up 100 basis points, yen strengthening 15 percent, vacancy doubling on your specific unit type—without being forced to sell at distressed pricing? If the answer requires the base case being correct, the position is too large.
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -102,52 +100,6 @@ The core question is: can you hold through one adverse cycle—rates up 100 basi
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥800
-- 0.3%
-- 0.75%
-- 000万円
-- 1,000
-- 1,068
-- 1,200
-- 1,916
-- 1.4%
-- 1.5%
-- 1.7%
-- 10%
-- 13,784
-- 13억 원
-- 15,000
-- 15%
-- 18.5%
-- 19,500
-- 1973년
-- 1985年
-- 1억
-- 2,000
-- 2.22%
-- 2.43%
-- 2.5%
-- 2024年
-- 2025년
-- 2026年3月
-- 2026年4月
-- 25,000
-- 2억
-- 3,784
-- 4.5%
-- 40,000
-- 45,000
-- 500万円
-- 67,000
-- 70%
-- 784万円
-- 8,000
-- 9,500
 
 
 ## Disclaimer

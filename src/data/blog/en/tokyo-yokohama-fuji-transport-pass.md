@@ -63,25 +63,11 @@ For detailed instructions on where to purchase it and how to use it, please refe
 
 [JR Tokyo Wide Pass | Fares & Passes | JR-EAST (jreast.co.jp)](https://www.jreast.co.jp/multi/en/pass/tokyowidepass.html)
 
-
-
-
 ## Walking Action: Session Summary & Check
 
 - [ ] **Optimization**: Compare the cost-effectiveness of Tokyo Metro Passes vs. JR Passes based on your itinerary (City focus vs. Outskirts).
 - [ ] **Booking**: Complete advance reservations for popular trains like the 'Fuji Excursion' at least one week before weekend travel.
 - [ ] **Digital**: Register Suica or PASMO on your mobile device to skip the ticket machine and speed up transfers.
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 10,180
-- 100,000
-- 10만원
-- 20,000
-- 4,000
-- 5,090
 
 
 ## Disclaimer

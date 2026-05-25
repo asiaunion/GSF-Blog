@@ -84,7 +84,6 @@ The Bay Area corridor stretching from Tsukiji to Toyosu is the most dynamic zone
 
 Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market, then look out at the future night view of Tokyo Bay from the modern spas of Toyosu. These two hearts of Tokyo offer travelers unforgettable memories and provide investors with strong evidence of the city's growth.
 
-
 <!-- content-depth-v2 -->
 
 ## Tour Action: Session Summary & Check
@@ -98,25 +97,6 @@ Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Post-Mortem: 3 Lessons from Japan Real Estate Failures](/posts/one-failure-three-lessons-postmortem/)
 - [Ginza-Marunouchi Walking Guide](/posts/ginza-marunouchi-walk-dna/)
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥100
-- ¥300
-- 1,500
-- 2,000
-- 2018년
-- 2024年2月
-- 2026년
-- 2030년
-- 3,000
-- 3,500
-- 4,200
-- 5,000
-- 50,000
-- 8,000
 
 
 ## Disclaimer

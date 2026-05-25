@@ -106,7 +106,6 @@ In 2026, this path is not just a beautiful scenery but a profound demonstration 
 
 Investors, when you visit Tokyo, take this 1.5km walk. The future of Japanese real estate and business lies at the end of your footsteps.
 
-
 <!-- content-depth-v2 -->
 
 ## Walking Action: Session Summary & Check
@@ -120,37 +119,6 @@ Investors, when you visit Tokyo, take this 1.5km walk. The future of Japanese re
 - [Tokyo Office Market 2026: Vacancy and Rent Analysis](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Tsukiji and Toyosu: The Two Hearts of Tokyo's Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥180
-- ¥33
-- ¥44.4
-- ¥500
-- 1,500
-- 1894년
-- 1914년
-- 1932년
-- 1948년
-- 1970년
-- 2,000
-- 2012년
-- 2014년
-- 2026년
-- 2026年4月
-- 2028년
-- 280,000
-- 3,000
-- 3,300
-- 35,000
-- 4,200
-- 4,440
-- 44,400,000
-- 45,000
-- 5,000
-- 5,000억
 
 
 ## Disclaimer

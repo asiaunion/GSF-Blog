@@ -59,7 +59,6 @@ A major hurdle for foreigners is the requirement for a 'Joint Guarantor.' Today,
 
 The most important step on move-in day is to **take photos and videos of every scratch and mark in the apartment**. Emailing these to the management company creates a timestamped record that protects you from being wrongly charged for repairs when you leave. A smooth life in Tokyo starts with a meticulous contract review.
 
-
 <!-- content-depth-v2 -->
 
 ## 5. Negotiating the Contract: What Is Actually Flexible
@@ -106,18 +105,6 @@ Beyond the standard due diligence, foreign residents face an additional layer of
 - [Tokyo Office Market 2026: Vacancy and Rent Analysis](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Japan Real Estate: Corporate vs Personal Ownership](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [Managing FX Risks in a Weak Yen Era](/posts/three-things-when-fx-shakes/)
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥480
-- 10,000
-- 15,000
-- 20,000
-- 2010년
-- 30,000
-- 50,000
 
 
 ## Disclaimer

@@ -87,7 +87,6 @@ My own framework treats offset-pair allocation: hotel and office REITs as partia
 
 The execution discipline I follow: define maximum acceptable drawdown per sector, size positions to survive the adverse scenario without forced selling, and rebalance based on observable fundamentals (vacancy, RevPAR trend, debt maturity wall) rather than narrative momentum.
 
-
 <!-- content-depth-v2 -->
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
@@ -107,24 +106,6 @@ The execution discipline I follow: define maximum acceptable drawdown per sector
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 1,916
-- 14.3%
-- 20%
-- 2019년
-- 2023년
-- 2025년
-- 25%
-- 3,190
-- 3.5%
-- 4,270
-- 60%
-- 85%
 
 
 ## Disclaimer

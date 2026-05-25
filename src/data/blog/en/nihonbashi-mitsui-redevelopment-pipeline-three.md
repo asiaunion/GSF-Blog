@@ -101,9 +101,7 @@ Position sizing should reflect timeline uncertainty, not just conviction in the 
 
 The beauty of this theme is its durability—Nihonbashi has been Japan's commercial heart for four centuries, and the current redevelopment is extending rather than inventing that identity. But durability of theme does not guarantee durability of returns. The discipline is in distinguishing between the story (which is compelling) and the math (which must be tested against adversity before capital is committed).
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -121,32 +119,6 @@ The beauty of this theme is its durability—Nihonbashi has been Japan's commerc
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 1,068
-- 1,916
-- 10%
-- 15%
-- 2.22%
-- 2.43%
-- 2000년
-- 2004年
-- 2025年11月
-- 2025年4月
-- 2026년
-- 2026年3月
-- 2026年4月
-- 2026年9月
-- 2030년
-- 2035년
-- 2040년
-- 25%
-- 70%
-- 90%
 
 
 ## Disclaimer

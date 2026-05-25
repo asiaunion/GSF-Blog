@@ -77,10 +77,6 @@ It has been revealed that areas with high risk ratings in Tokyo are primarily co
 
 For example, if you already know an area has a high fire risk, selecting a property within that region that has relatively lower building density could serve as a means to mitigate that risk. Regarding the risk of building collapse, one must comprehensively consider factors such as the age of the building and whether it meets strict earthquake-resistant architectural standards. Approaching investments armed with this minimum checklist will help safeguard your valuable assets.
 
-
-
-
-
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 
 ## Investor Action: Session Summary & Check
@@ -88,19 +84,6 @@ For example, if you already know an area has a high fire risk, selecting a prope
 - [ ] **Hazard Map**: Check the ranking of your target area on the [Tokyo Earthquake Risk Map](https://www.kensetsu.metro.tokyo.lg.jp/).
 - [ ] **Standards**: Verify if the building meets 'New Anti-seismic Standards' (post-1981) or has superior vibration damping/isolation tech.
 - [ ] **Insurance**: Ensure your earthquake insurance rider's coverage limit is sufficient to cover actual asset value replacement.
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 1,068
-- 1,916
-- 1981년
-- 2.22%
-- 2.43%
-- 2013년
-- 2026年4月
 
 
 ## Disclaimer

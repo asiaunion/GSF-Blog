@@ -63,7 +63,6 @@ references:
 
 投資家として注目すべきは、こうしたコミュニティの変化が不動産価値やビジネスチャンスにどのような影響を与えるかということです。GSFはこれらすべてのネットワークの接点で、あなたの資産が東京の成長と共に歩めるよう支援するパートナーであり続けます。
 
-
 <!-- content-depth-v2 -->
 
 ## Community Insight: セッション要約と点検
@@ -108,14 +107,6 @@ references:
 - [東京での家探し：賃貸借契約の核心ポイント](/ja/posts/tokyo-moving-contracts-two-notes/)
 - [日本ビザ取得ルート：経営管理および永住権](/ja/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [日韓相続・贈与税：10年無制限納税義務の罠](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
-
-## ロケール横断の主要数値（検証参照）
-
-KO/EN/JA本文の数値・年号を揃えるための**可視参照**です。
-
-- 150,000
-- 300,000
-- 30万円
 
 
 ## 免責・ご利用上の注意

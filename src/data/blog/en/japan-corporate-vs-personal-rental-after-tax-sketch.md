@@ -76,9 +76,7 @@ Changing ownership after the purchase is expensive (re-paying registration taxes
 
 Investing in Japan is not just about the property; it's about the "Vessel" you use to hold it. Make sure your vessel is built for the long haul.
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -96,38 +94,6 @@ Investing in Japan is not just about the property; it's about the "Vessel" you u
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- 0.75%
-- 1,068
-- 1,500
-- 1,800
-- 1,916
-- 10%
-- 15.315%
-- 15%
-- 1억
-- 2,000
-- 2.22%
-- 2.43%
-- 20.42%
-- 20%
-- 2026년
-- 2026年4月
-- 30.63%
-- 30%
-- 34%
-- 35%
-- 39%
-- 45%
-- 50%
-- 55%
-- 60만 엔
-- 70,000
-- 900万円
 
 
 ## Disclaimer

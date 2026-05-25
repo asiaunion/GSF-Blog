@@ -98,9 +98,7 @@ The rule I follow: if the thesis fails under two of three scenarios, reduce posi
 
 Use [BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm) for rate and monetary base context, [Bank of Korea](https://www.bok.or.kr/eng/) for KRW interest rate and capital flow data, and [IMF](https://www.imf.org/en/Home) for multilateral FX and macro frameworks. Cross-reference commercial research (CBRE, JLL, Savills Japan) for real estate-specific FX impact analysis.
 
-
 <!-- content-depth-v2 -->
-
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
@@ -118,40 +116,6 @@ Use [BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/ind
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
-
-## Cross-locale key figures (verification reference)
-
-Visible numeric cross-check list aligned with KO/EN/JA article bodies.
-
-- ¥100
-- 0.50%
-- 0.75%
-- 1,000
-- 1,068
-- 1,150
-- 1,200
-- 1,916
-- 10,000
-- 10%
-- 12%
-- 12億
-- 15,000
-- 15%
-- 1億
-- 2.22%
-- 2.43%
-- 20%
-- 2022年
-- 2024年
-- 2024年7月
-- 2025年
-- 2026년
-- 2026年4月
-- 3.5%
-- 30%
-- 5.5%
-- 50%
-- 9.5億
 
 
 ## Disclaimer
