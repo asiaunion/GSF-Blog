@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { FactSheetClaim } from "./factSheet.ts";
+import { fetchPdfAsPlainText, isPdfUrl } from "./pdfText.ts";
 import {
   extractNumericLiterals,
   htmlToPlainText,
@@ -37,15 +38,26 @@ function numbersInText(text: string) {
   return normalized;
 }
 
+function claimNormVariants(norm: string) {
+  const variants = [norm];
+  if (norm.endsWith("pct")) variants.push(norm.slice(0, -3));
+  return [...new Set(variants.filter(Boolean))];
+}
+
 function bestMatch(claimNorm: string, pageNumbers: Set<string>) {
-  if (pageNumbers.has(claimNorm)) return { kind: "exact" as const, score: 1 };
+  for (const variant of claimNormVariants(claimNorm)) {
+    if (pageNumbers.has(variant)) return { kind: "exact" as const, score: 1 };
+  }
   let best = 0;
   for (const pn of pageNumbers) {
-    if (!pn || !claimNorm) continue;
-    if (pn.includes(claimNorm) || claimNorm.includes(pn)) {
-      const ratio =
-        Math.min(pn.length, claimNorm.length) / Math.max(pn.length, claimNorm.length);
-      if (ratio > best) best = ratio;
+    if (!pn) continue;
+    for (const variant of claimNormVariants(claimNorm)) {
+      if (!variant) continue;
+      if (pn.includes(variant) || variant.includes(pn)) {
+        const ratio =
+          Math.min(pn.length, variant.length) / Math.max(pn.length, variant.length);
+        if (ratio > best) best = ratio;
+      }
     }
   }
   if (best >= 0.85) return { kind: "fuzzy" as const, score: best };
@@ -71,6 +83,12 @@ async function writeCache(projectRoot: string, url: string, text: string) {
 }
 
 async function fetchPageText(url: string) {
+  if (isPdfUrl(url)) {
+    const pdf = await fetchPdfAsPlainText(url);
+    if (!pdf.ok) return { ok: false as const, error: pdf.error };
+    return { ok: true as const, text: pdf.text };
+  }
+
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 20_000);
   try {
@@ -115,7 +133,9 @@ export async function verifyClaimAgainstSource(
     };
   }
 
-  const claimNorm = normalizeNumericToken(claim.value || claim.quote);
+  const claimText =
+    /^verified$/i.test(claim.value?.trim() ?? "") ? claim.quote : claim.value || claim.quote;
+  const claimNorm = normalizeNumericToken(claimText);
   if (!claimNorm) {
     return { claim, status: "UNCERTAIN", reason: "empty claim value" };
   }

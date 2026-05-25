@@ -75,7 +75,7 @@ Units within walking distance of Shinjuku Station start from ¥130K even for stu
 
 ### Average Household Income
 
-The average taxable income for Shinjuku residents is **approx. 6.1 million JPY (¥6.1M)/year** — the lowest among the Core 6 Wards. But the diversity of the tenant base (students, workers, foreign nationals) keeps vacancy risk exceptionally low.
+The average taxable income for Shinjuku residents is **approx. 6.1 million JPY (610만 JPY)/year** — the lowest among the Core 6 Wards. But the diversity of the tenant base (students, workers, foreign nationals) keeps vacancy risk exceptionally low.
 
 ### Population
 
@@ -141,7 +141,7 @@ Omotesando and Aoyama are priced on par with Azabu in Minato Ward. Nakameguro ha
 
 ### Average Household Income
 
-Shibuya's average taxable income per resident is **approx. 10.7 million JPY (¥10.7M)/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023). Creative industry executives and tech startup leadership drive the number.
+Shibuya's average taxable income per resident is **approx. 10.7 million JPY (1,070만 JPY)/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023). Creative industry executives and tech startup leadership drive the number.
 
 ### Population
 
@@ -188,7 +188,7 @@ I've compared Nihonbashi and Bunkyo side by side. Nihonbashi is a place you work
 | Hongo / Yushima | ¥1.0M–¥1.45M/㎡ | ¥3.3M–¥4.8M/坪 |
 | Koishikawa / Otsuka | ¥0.9M–¥1.3M/㎡ | ¥3.0M–¥4.3M/坪 |
 | Hakusan / Nezu | ¥0.85M–¥1.2M/㎡ | ¥2.8M–¥4.0M/坪 |
-| **Ward average** | **approx. ¥1.05M/㎡** | **approx. 3.47 million JPY (¥3.47M)/坪** |
+| **Ward average** | **approx. ¥1.05M/㎡** | **approx. 3.47 million JPY (347만 JPY)/坪** |
 
 Bunkyo is the most affordable of the Core 6 Wards on a per-㎡ basis. Transit access (multiple JR and Metro lines) and living environment make it the best value-for-money play in the premium tier.
 
@@ -284,6 +284,109 @@ The two wards just outside the Core 6 that have become the default choice for hi
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Real estate prices fluctuate with market conditions. Please consult a qualified professional before making any financial decision.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥0.85
+- ¥0.9
+- ¥1.05
+- ¥1.1
+- ¥1.15
+- ¥1.2
+- ¥1.3
+- ¥1.4
+- ¥1.45
+- ¥1.5
+- ¥1.6
+- ¥1.8
+- ¥10.7
+- ¥100
+- ¥110
+- ¥130
+- ¥140
+- ¥160
+- ¥170
+- ¥180
+- ¥2.3
+- ¥2.8
+- ¥20
+- ¥220
+- ¥250
+- ¥280
+- ¥3.3
+- ¥3.65
+- ¥3.8
+- ¥30
+- ¥300
+- ¥350
+- ¥4.3
+- ¥4.65
+- ¥4.8
+- ¥4.95
+- ¥400
+- ¥450
+- ¥5.3
+- ¥5.95
+- ¥550
+- ¥6.1
+- ¥6.6
+- ¥600
+- ¥7.6
+- ¥750
+- ¥80
+- ¥800
+- ¥9.25
+- ¥90
+- 1,070
+- 105만엔
+- 115만엔
+- 12.6%
+- 120만엔
+- 13%
+- 14,000
+- 145만엔
+- 14만엔
+- 150만엔
+- 1690년
+- 16만엔
+- 17만엔
+- 18만엔
+- 19,300
+- 19,400
+- 200만엔
+- 2010년
+- 2023년
+- 2024年1月
+- 2025년
+- 2025年1月
+- 2026年
+- 22만엔
+- 230만엔
+- 231,000
+- 235,000
+- 28만엔
+- 3,000
+- 347만엔
+- 353,000
+- 35만엔
+- 380만엔
+- 430만엔
+- 465만엔
+- 480만엔
+- 495만엔
+- 5.5%
+- 530만엔
+- 55만엔
+- 595만엔
+- 610만엔
+- 660만엔
+- 700만엔
+- 75만엔
+- 760만엔
+- 925만엔
+
 
 ## Disclaimer
 

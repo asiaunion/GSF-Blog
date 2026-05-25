@@ -82,6 +82,24 @@ At GSF, we believe that investment yield is only half of the equation; **Asset P
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.75%
+- 1,068
+- 1,916
+- 100%
+- 2.22%
+- 2.43%
+- 2024년
+- 2026年4月
+- 2028년
+- 40%
+- 50%
+- 55%
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

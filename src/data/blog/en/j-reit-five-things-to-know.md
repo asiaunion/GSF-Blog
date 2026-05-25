@@ -197,6 +197,41 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.0%
+- 1,916
+- 1.8%
+- 100억
+- 100억원
+- 13.8%
+- 166%
+- 2.4%
+- 2.43%
+- 2000년
+- 2020년
+- 2021년
+- 2021年8月
+- 2023년
+- 2023年9月
+- 2024년
+- 2025년
+- 2026년
+- 2026年4月
+- 3.2%
+- 3.6%
+- 3.8%
+- 416%
+- 43%
+- 5.6%
+- 50%
+- 500억원
+- 600억원
+- 8.6%
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

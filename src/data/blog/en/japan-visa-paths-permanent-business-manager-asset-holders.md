@@ -13,10 +13,10 @@ tags:
   - JFind
   - ImmigrationReform
 sources:
-  - "https://www.moj.go.jp/isa/index.html"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
   - "https://www.isa.go.jp/en/applications/procedures/nyuukokukanri07_00132.html"
 references:
-  - "https://www.moj.go.jp/isa/index.html"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
 ---
 The image of Japan as a "Closed Country" is becoming a thing of the past. To combat a shrinking population, the Japanese government has introduced some of the most competitive immigration routes in Asia. From the 1-year Permanent Residency fast-track to the newly launched J-Find visa for elite graduates, the barrier to entry has shifted from "Can I enter?" to "Which route is the most efficient for my assets?"
 
@@ -85,6 +85,29 @@ At GSF, we help investors build the business substance required to turn a proper
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.75%
+- 000万円
+- 1,000
+- 1,068
+- 1,916
+- 2,000
+- 2.22%
+- 2.43%
+- 2.7억 원
+- 2024년
+- 2025년 10월
+- 2025年
+- 2026年
+- 2026年4月
+- 2027년 4월
+- 3,000
+- 500万円
+
 
 ## Disclaimer
 

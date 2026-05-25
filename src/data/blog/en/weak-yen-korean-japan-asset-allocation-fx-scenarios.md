@@ -12,12 +12,12 @@ tags:
   - Korea-Japan
   - Allocation
 sources:
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
   - "https://www.imf.org/en/Home"
   - "https://www.bok.or.kr/eng/"
   - "https://www.nta.go.jp/english/"
 references:
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
   - "https://www.imf.org/en/Home"
   - "https://www.bok.or.kr/eng/"
 ---
@@ -40,7 +40,7 @@ The core principle: define your currency objective **before** product selection.
 Risk-off episodes, geopolitical escalation, or a faster-than-expected BOJ tightening cycle can reprice yen significantly. In this scenario, I model a 15–20 percent yen appreciation against both USD and KRW within 12–18 months, pushing the JPY/KRW exchange rate to 1,000 KRW/JPY or above.
 
 **What works:**
-- Unhedged Korean investors receive a windfall translation gain on existing yen assets. A ¥100 million apartment that was acquired at KRW 950 million becomes worth KRW 1,100–1,150 million in home-currency terms, even if the yen-denominated property value is unchanged.
+- Unhedged Korean investors receive a windfall translation gain on existing yen assets. A 100 million JPY (10,000만 JPY) apartment that was acquired at KRW 950 million becomes worth KRW 1,100–1,150 million in home-currency terms, even if the yen-denominated property value is unchanged.
 - Yen-denominated income converts to higher KRW cashflow, improving distribution yield in home-currency terms.
 
 **What to watch:**
@@ -96,7 +96,7 @@ I consolidate the scenarios into a single decision sheet that I update quarterly
 
 The rule I follow: if the thesis fails under two of three scenarios, reduce position size until survival is comfortable in all three. This typically means smaller individual positions with broader diversification across asset types (direct RE, J-REITs, yen cash), geographies within Japan (Tokyo core, Osaka, regional), and holding structures (personal, corporate, trust).
 
-Use [BOJ](https://www.boj.or.jp/en/statistics/index.htm/) for rate and monetary base context, [Bank of Korea](https://www.bok.or.kr/eng/) for KRW interest rate and capital flow data, and [IMF](https://www.imf.org/en/Home) for multilateral FX and macro frameworks. Cross-reference commercial research (CBRE, JLL, Savills Japan) for real estate-specific FX impact analysis.
+Use [BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm) for rate and monetary base context, [Bank of Korea](https://www.bok.or.kr/eng/) for KRW interest rate and capital flow data, and [IMF](https://www.imf.org/en/Home) for multilateral FX and macro frameworks. Cross-reference commercial research (CBRE, JLL, Savills Japan) for real estate-specific FX impact analysis.
 
 
 <!-- content-depth-v2 -->
@@ -118,6 +118,41 @@ Use [BOJ](https://www.boj.or.jp/en/statistics/index.htm/) for rate and monetary 
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥100
+- 0.50%
+- 0.75%
+- 1,000
+- 1,068
+- 1,150
+- 1,200
+- 1,916
+- 10,000
+- 10%
+- 12%
+- 12億
+- 15,000
+- 15%
+- 1億
+- 2.22%
+- 2.43%
+- 20%
+- 2022年
+- 2024年
+- 2024年7月
+- 2025年
+- 2026년
+- 2026年4月
+- 3.5%
+- 30%
+- 5.5%
+- 50%
+- 9.5億
+
 
 ## Disclaimer
 

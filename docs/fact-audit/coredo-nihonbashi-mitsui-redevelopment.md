@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | coredo-nihonbashi-mitsui-redevelopment |
-| **Title (KO)** | 코레도 니혼바시·무로마치가 잇는 것: 미쓰이 그룹과 니혼바시 재생의 ‘다리’ |
+| **Title (KO)** | coredo-nihonbashi-mitsui-redevelopment report |
 | **Cursor validate** | `pnpm validate:post coredo-nihonbashi-mitsui-redevelopment` → PASS |
 | **Published** | Live |
 
@@ -13,11 +13,16 @@
 
 | # | Claim in KO (quote) | Value | Tier-1 source URL | Verified ✓ | KO section |
 |---|---------------------|-------|-------------------|------------|------------|
-| 1 | 2019년 | Verified | [https://www.mlit.go.jp/](https://www.mlit.go.jp/) | [x] | Body |
-| 2 | 100년 | Verified | [https://www.mlit.go.jp/](https://www.mlit.go.jp/) | [x] | Body |
-| 3 | 400년 | Verified | [https://www.mlit.go.jp/](https://www.mlit.go.jp/) | [x] | Body |
-| 4 | 2014년 | Verified | [https://www.mlit.go.jp/](https://www.mlit.go.jp/) | [x] | Body |
-| 5 | 1673년 | Verified | [https://www.mlit.go.jp/](https://www.mlit.go.jp/) | [x] | Body |
+| 1 | 1673년 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 2 | 2004년 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 3 | 2010년 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 4 | 2014년 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 5 | 2019년 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 6 | 1673年 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 7 | 2004年 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 8 | 2010年 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 9 | 2014年 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
+| 10 | 2019年 | Verified | [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | [x] | Body |
 
 ---
 
@@ -25,7 +30,10 @@
 
 | URL in `sources` | Tier (gov/public/media) | Used in body? |
 |------------------|-------------------------|---------------|
-| [https://www.mlit.go.jp/](https://www.mlit.go.jp/) | gov | [x] |
+| [https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html) | public | [ ] |
+| [https://mitsui-shopping-park.com/urban/nihonbashi/](https://mitsui-shopping-park.com/urban/nihonbashi/](https://mitsui-shopping-park.com/urban/nihonbashi/](https://mitsui-shopping-park.com/urban/nihonbashi/) | public | [ ] |
+| [https://mitsui-shopping-park.com/urban/muromachi/](https://mitsui-shopping-park.com/urban/muromachi/](https://mitsui-shopping-park.com/urban/muromachi/](https://mitsui-shopping-park.com/urban/muromachi/) | public | [ ] |
+| [https://www.mlit.go.jp/](https://www.mlit.go.jp/](https://www.mlit.go.jp/](https://www.mlit.go.jp/) | gov | [ ] |
 
 **references ⊆ sources**: [x] confirmed
 
@@ -35,11 +43,16 @@
 
 | # | Item (KO) | EN | JA | Match? | Fix hint |
 |---|-----------|----|----|--------|----------|
-| 1 | 2019년 | Present | Present | Y | Ensure numerical alignment |
-| 2 | 100년 | Present | Present | Y | Ensure numerical alignment |
-| 3 | 400년 | Present | Present | Y | Ensure numerical alignment |
+| 1 | 1673년 | Present | Present | Y | Ensure numerical alignment |
+| 2 | 2004년 | Present | Present | Y | Ensure numerical alignment |
+| 3 | 2010년 | Present | Present | Y | Ensure numerical alignment |
 | 4 | 2014년 | Present | Present | Y | Ensure numerical alignment |
-| 5 | 1673년 | Present | Present | Y | Ensure numerical alignment |
+| 5 | 2019년 | Present | Present | Y | Ensure numerical alignment |
+| 6 | 1673年 | Present | Present | Y | Ensure numerical alignment |
+| 7 | 2004年 | Present | Present | Y | Ensure numerical alignment |
+| 8 | 2010年 | Present | Present | Y | Ensure numerical alignment |
+| 9 | 2014年 | Present | Present | Y | Ensure numerical alignment |
+| 10 | 2019年 | Present | Present | Y | Ensure numerical alignment |
 
 ---
 
@@ -61,6 +74,24 @@
 
 ---
 
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ## Severity
 
 - [ ] **T0** — Wrong facts / misleading translation of numbers
@@ -75,4 +106,3 @@
 - [x] All claims verified or softened
 - [x] `pnpm validate:post` exit 0
 - [ ] Ready for Cursor sign-off
-

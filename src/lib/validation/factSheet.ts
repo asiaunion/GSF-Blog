@@ -45,12 +45,16 @@ export function parseFactSheetClaims(markdown: string): FactSheetClaim[] {
     const index = Number.parseInt(cells[0], 10);
     if (!Number.isFinite(index)) continue;
     const quote = cells[1] ?? "";
-    const value = cells[2] ?? "";
-    const urlCell = cells[3] ?? "";
+    // AG 2.5b sheets sometimes put literal "Verified" in Value and URL in the next column.
+    let value = cells[2] ?? "";
+    let urlCell = cells[3] ?? "";
+    let verifiedCell = cells[4] ?? "";
+    let sectionName = cells[5] ?? "";
+    if (/^verified$/i.test(value.trim()) && (urlCell.startsWith("http") || urlCell.includes("]("))) {
+      value = quote;
+    }
     const sourceUrl = urlCell.replace(/\[([^\]]*)\]\(([^)]+)\)/, "$2").trim() || urlCell;
-    const verifiedCell = cells[4] ?? "";
-    const verified = /\[x\]|✓|verified/i.test(verifiedCell);
-    const sectionName = cells[5] ?? "";
+    const verified = /\[x\]|✓/i.test(verifiedCell);
     claims.push({ index, quote, value, sourceUrl, verified, section: sectionName });
   }
   return claims;

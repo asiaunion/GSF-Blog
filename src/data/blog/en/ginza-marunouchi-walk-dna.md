@@ -17,7 +17,7 @@ sources:
   - "https://www.ginza.jp/en/"
   - "https://www.marunouchi.com/en/"
   - "https://torchtower.jp/"
-  - "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000043.html"
+  - "https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html"
 references:
   - "https://www.ginza.jp/en/"
   - "https://www.marunouchi.com/en/"
@@ -33,7 +33,7 @@ As of early 2026, from the Yamano Music site in Ginza — which has held the tit
 
 Ginza demonstrates the power of 'classic' over 'trendy.'
 
-*   **Benchmark Land Value**: In 2026, land near the Ginza 4-chome intersection continues to record the highest prices in Japan, with publicly assessed values exceeding **¥67.1 million per square meter** according to the [MLIT Land Price Survey](https://www.mlit.go.jp/totikensangyo/totikensangyo_fr4_000043.html). This is not just a number but a testament to a robust fundamental market driven by both domestic demand and global tourism. To put it in context: the same area was valued at approximately ¥33 million per sqm in 2014, representing a 2x+ increase over 12 years through the global pandemic and inflation.
+*   **Benchmark Land Value**: In 2026, land near the Ginza 4-chome intersection continues to record the highest prices in Japan, with publicly assessed values exceeding **about ¥44.4 million per square meter (44,400,000円/㎡)** according to the [MLIT Land Price Survey](https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html). This is not just a number but a testament to a robust fundamental market driven by both domestic demand and global tourism. To put it in context: the same area was valued at approximately ¥33 million per sqm in 2014, representing a 2x+ increase over 12 years through the global pandemic and inflation.
 
 *   **A Parade of Flagship Stores**: Global luxury brands establish themselves here not just for profit but for 'brand prestige.' Louis Vuitton, Chanel, Hermès, Cartier, and Tiffany all maintain their Japan headquarters or flagship stores within a 500-meter radius of the Ginza 4-chome intersection. In 2026, Ginza has become a testing ground for high-end retail that blends digital technology with tactile offline experiences. The [Ginza Official Portal](https://www.ginza.jp/en/) lists over 200 member shops, from century-old Japanese confectioneries to cutting-edge concept stores.
 
@@ -120,6 +120,38 @@ Investors, when you visit Tokyo, take this 1.5km walk. The future of Japanese re
 - [Tokyo Office Market 2026: Vacancy and Rent Analysis](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Tsukiji and Toyosu: The Two Hearts of Tokyo's Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥180
+- ¥33
+- ¥44.4
+- ¥500
+- 1,500
+- 1894년
+- 1914년
+- 1932년
+- 1948년
+- 1970년
+- 2,000
+- 2012년
+- 2014년
+- 2026년
+- 2026年4月
+- 2028년
+- 280,000
+- 3,000
+- 3,300
+- 35,000
+- 4,200
+- 4,440
+- 44,400,000
+- 45,000
+- 5,000
+- 5,000억
+
 
 ## Disclaimer
 

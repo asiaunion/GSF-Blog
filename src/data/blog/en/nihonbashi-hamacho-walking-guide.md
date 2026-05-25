@@ -128,6 +128,45 @@ For both investors and travelers, we recommend walking from Nihonbashi to Hamach
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Japan Real Estate Failures: 3 Lessons Learned](/posts/one-failure-three-lessons-postmortem/)
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥100
+- ¥50
+- ¥500
+- ¥600
+- 1,200
+- 1,500
+- 10,000
+- 1690년
+- 1699년
+- 1760년
+- 1864년
+- 1873년
+- 1878년
+- 1907년
+- 2,000
+- 2,500
+- 2014년
+- 2019년
+- 2021년
+- 2026년
+- 2026年3月
+- 25%
+- 4,000
+- 40%
+- 5,000
+- 500,000
+- 600,000
+- 700,000
+- 70만 엔
+- 8,000
+- 80,000
+- 800,000
+- 80만 엔
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

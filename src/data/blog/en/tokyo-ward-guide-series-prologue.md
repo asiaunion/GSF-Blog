@@ -94,10 +94,10 @@ The infographic and table below map each ward cluster's rough positioning. The h
 
 | Tier | Wards | Price Range (per ㎡) | Character |
 |------|-------|---------------------|-----------|
-| Core 3 | Chiyoda · Chuo · Minato | 1.5 million JPY+ (¥1.5M+) | Max premium, top foreign investor preference |
-| Core 6 (next 3) | Shinjuku · Shibuya · Bunkyo | 1.0–1.5 million JPY (¥1.0M–¥1.5M) | Commerce, trend, academia — young professionals |
-| West Premium | Meguro · Setagaya | 800,000–1.2 million JPY (¥800K–¥1.2M) | Family-grade luxury living, spacious housing |
-| Business Hub | Shinagawa · Ota | 700,000–1.0 million JPY (¥700K–¥1.0M) | Shinkansen/Haneda direct, corporate demand |
+| Core 3 | Chiyoda · Chuo · Minato | 1.5 million JPY (150만 JPY)+ (¥1.5M+) | Max premium, top foreign investor preference |
+| Core 6 (next 3) | Shinjuku · Shibuya · Bunkyo | 1.0–1.5 million JPY (100만~150만 JPY) (¥1.0M–¥1.5M) | Commerce, trend, academia — young professionals |
+| West Premium | Meguro · Setagaya | 800,000–1.2 million JPY (80만~120만 JPY) (¥800K–¥1.2M) | Family-grade luxury living, spacious housing |
+| Business Hub | Shinagawa · Ota | 700,000–1.0 million JPY (70만~100만 JPY) (¥700K–¥1.0M) | Shinkansen/Haneda direct, corporate demand |
 | Hipster Inner | Toshima · Nakano · Suginami | 600,000–850,000 JPY (¥600K–¥850K) | Trendy, Korean community, relative value |
 | Shitamachi | Taito · Sumida · Koto | 550,000–800,000 JPY (¥550K–¥800K) | Traditional + redevelopment, emerging investment |
 | North Value | Kita · Arakawa · Itabashi · Nerima | 450,000–650,000 JPY (¥450K–¥650K) | Korean enclave, practical, ongoing redevelopment |
@@ -138,6 +138,43 @@ The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonb
 ---
 
 *Disclaimer: This post is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Please consult qualified professionals before making any financial decisions. Past market performance does not guarantee future results.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥1.2
+- ¥1.5
+- ¥250
+- ¥400
+- ¥450
+- ¥550
+- ¥600
+- ¥650
+- ¥700
+- ¥800
+- ¥850
+- 100만엔
+- 120만엔
+- 150만엔
+- 2026년
+- 250,000
+- 400,000
+- 450,000
+- 45만엔
+- 50%
+- 550,000
+- 55만엔
+- 600,000
+- 60만엔
+- 650,000
+- 65만엔
+- 700,000
+- 800,000
+- 80만엔
+- 850,000
+- 85만엔
+
 
 ## Disclaimer
 

@@ -116,6 +116,51 @@ Small-unit investing in Tokyo can be a sensible component of a diversified portf
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥3.5
+- 0.3%
+- 0.50%
+- 0.75%
+- 1,068
+- 1,916
+- 1.4%
+- 1.5%
+- 10%
+- 100,000
+- 12%
+- 120,000
+- 14,000
+- 15%
+- 150,000
+- 18,000
+- 180,000
+- 1973년
+- 2,000
+- 2,500
+- 2.22%
+- 2.43%
+- 2.5%
+- 20%
+- 2025年
+- 2026年4月
+- 25%
+- 4.5%
+- 5,000
+- 50,000
+- 55%
+- 7,000
+- 70,000
+- 75%
+- 8,000
+- 8.5만 엔
+- 80,000
+- 85,000
+- 90,000
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

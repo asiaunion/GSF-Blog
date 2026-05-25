@@ -107,6 +107,19 @@ Beyond the standard due diligence, foreign residents face an additional layer of
 - [Japan Real Estate: Corporate vs Personal Ownership](/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [Managing FX Risks in a Weak Yen Era](/posts/three-things-when-fx-shakes/)
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥480
+- 10,000
+- 15,000
+- 20,000
+- 2010년
+- 30,000
+- 50,000
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

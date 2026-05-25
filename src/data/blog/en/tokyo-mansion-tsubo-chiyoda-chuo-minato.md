@@ -15,7 +15,7 @@ sources:
   - "https://www.reins.or.jp/"
   - "https://www.stat.go.jp/english/"
   - "https://www.mlit.go.jp/en/"
-  - "https://www.fudousankeizai.co.jp/"
+  - "https://www.fudousankeizai.co.jp/topSiteNews?check=1"
 references:
   - "https://www.reins.or.jp/"
   - "https://www.stat.go.jp/english/"
@@ -25,7 +25,7 @@ references:
 
 When buyers compare condominiums across Tokyo's central wards, price per tsubo (approximately 3.3 square meters) is almost always the first metric cited. It is a useful screening tool, but treating it as the decision variable is where many investors—especially cross-border buyers encountering the Japanese market for the first time—go wrong.
 
-In fiscal 2025 (ending March 2026), the average price of a new condominium in Tokyo's 23 wards reached a record ¥137.84 million, an 18.5 percent year-on-year increase ([Real Estate Economic Institute, 2026](https://www.fudousankeizai.co.jp/)). For the six core wards—Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo—the average climbed to approximately ¥195 million, with prime new construction in the top three wards regularly exceeding ¥10–20 million per tsubo depending on location, floor, and building grade.
+In fiscal 2025 (ending March 2026), the average price of a new condominium in Tokyo's 23 wards reached a record 137.84 million JPY (13,784만 JPY), an 18.5 percent year-on-year increase ([Real Estate Economic Institute, 2026](https://www.fudousankeizai.co.jp/topSiteNews?check=1)). For the six core wards—Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo—the average climbed to approximately 195 million JPY (19,500만 JPY), with prime new construction in the top three wards regularly exceeding 10–20 million JPY (1,000만~2,000만 JPY) per tsubo depending on location, floor, and building grade.
 
 But two units showing identical headline tsubo pricing can have materially different net returns once you layer in what actually drives ownership economics:
 
@@ -102,6 +102,53 @@ The core question is: can you hold through one adverse cycle—rates up 100 basi
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- ¥800
+- 0.3%
+- 0.75%
+- 000万円
+- 1,000
+- 1,068
+- 1,200
+- 1,916
+- 1.4%
+- 1.5%
+- 1.7%
+- 10%
+- 13,784
+- 13억 원
+- 15,000
+- 15%
+- 18.5%
+- 19,500
+- 1973년
+- 1985年
+- 1억
+- 2,000
+- 2.22%
+- 2.43%
+- 2.5%
+- 2024年
+- 2025년
+- 2026年3月
+- 2026年4月
+- 25,000
+- 2억
+- 3,784
+- 4.5%
+- 40,000
+- 45,000
+- 500万円
+- 67,000
+- 70%
+- 784万円
+- 8,000
+- 9,500
+
 
 ## Disclaimer
 

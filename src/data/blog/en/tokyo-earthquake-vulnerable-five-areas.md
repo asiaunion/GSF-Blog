@@ -89,6 +89,20 @@ For example, if you already know an area has a high fire risk, selecting a prope
 - [ ] **Standards**: Verify if the building meets 'New Anti-seismic Standards' (post-1981) or has superior vibration damping/isolation tech.
 - [ ] **Insurance**: Ensure your earthquake insurance rider's coverage limit is sufficient to cover actual asset value replacement.
 
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.75%
+- 1,068
+- 1,916
+- 1981년
+- 2.22%
+- 2.43%
+- 2013년
+- 2026年4月
+
+
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

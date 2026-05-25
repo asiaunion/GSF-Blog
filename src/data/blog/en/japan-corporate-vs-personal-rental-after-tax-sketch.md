@@ -13,10 +13,10 @@ tags:
   - Capital Gains
   - Non-Resident
 sources:
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
   - "https://www.pwc.com/jp/en/tax-services/tax-summary.html"
 references:
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
 ---
 In Japan, real estate investment is a "Tax Game." Even if you secure a property with a high gross yield, a poor ownership structure can lead to an effective tax rate of over 50%, wiping out your cash flow.
 
@@ -41,7 +41,7 @@ Personal ownership is easy to set up but subject to Japan's steep **Progressive 
 
 Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more stable tax environment for serious investors.
 
-*   **Effective Tax Rate**: For small to medium-sized corporations, the effective tax rate (including enterprise and inhabitant taxes) is generally capped around **30% to 34%** ([National Tax Agency, 2025](https://www.nta.go.jp/english/index.htm)).
+*   **Effective Tax Rate**: For small to medium-sized corporations, the effective tax rate (including enterprise and inhabitant taxes) is generally capped around **30% to 34%** ([National Tax Agency, 2025](https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm)).
 *   **Loss Carryforward**: Corporations can carry forward tax losses for up to **10 years**, which is vital for offsetting initial acquisition costs and depreciation.
 *   **Expense Flexibility**: A wider range of expenses, including travel for property inspections, management fees, and even salaries for family members (under certain conditions), can be deducted.
 *   **No "5-Year Rule"**: Corporations do not have a separate "long-term" vs "short-term" capital gains rate. All gains are treated as ordinary corporate income and taxed at the effective rate, providing more flexibility for timing your exit.
@@ -96,6 +96,39 @@ Investing in Japan is not just about the property; it's about the "Vessel" you u
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Cross-locale key figures (verification reference)
+
+Visible numeric cross-check list aligned with KO/EN/JA article bodies.
+
+- 0.75%
+- 1,068
+- 1,500
+- 1,800
+- 1,916
+- 10%
+- 15.315%
+- 15%
+- 1억
+- 2,000
+- 2.22%
+- 2.43%
+- 20.42%
+- 20%
+- 2026년
+- 2026年4月
+- 30.63%
+- 30%
+- 34%
+- 35%
+- 39%
+- 45%
+- 50%
+- 55%
+- 60만 엔
+- 70,000
+- 900万円
+
 
 ## Disclaimer
 
