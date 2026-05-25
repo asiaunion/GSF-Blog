@@ -362,10 +362,10 @@ html[data-theme="dark"] .supplemental-chart figcaption {
   text-decoration: underline;
 }
 
-.sources-panel li:target {
+.sources-panel .source-line:target {
   background: color-mix(in srgb, var(--accent) 8%, transparent);
   border-radius: 0.375rem;
   margin-left: -0.25rem;
-  padding-left: 0.25rem;
+  padding: 0.125rem 0.25rem;
 }
 
