@@ -48,9 +48,13 @@
 ### Publishing (AG write + Cursor validate)
 | KPI | This week | Notes |
 |-----|-----------|-------|
-| posts_validated_cursor | | `pnpm validate:post` pass count |
+| posts_validated_cursor | | `pnpm validate:post` pass count (format + trust) |
+| posts_format_only_pass | | `SKIP_TRUST_VERIFY=1` batch pass count |
+| trust_pass_count | | full trust on, exit 0 |
+| trust_uncertain_cleared | | T3 UNCERTAIN → human ✓ |
 | posts_deployed | | git/deploy after validate |
 | validate_failures | | gate names |
+| index_validate_synced | | `pnpm trust:update-index` run Y/N |
 
 ### Qualitative
 - Done:

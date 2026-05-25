@@ -26,7 +26,6 @@ references:
   - "https://www.jll.co.jp/en/research"
   - "https://www.reins.or.jp/"
 ---
-
 ## 1. Nihonbashi is a network thesis, not a parcel thesis
 
 *This is the **investment analysis** post in the Nihonbashi Series. While the [Origin essay](/posts/nihonbashi-the-origin-of-japan/) covers the district's symbolic gravity and the [Walking Guide](/posts/nihonbashi-hamacho-walking-guide/) maps the street-level experience, this piece translates the redevelopment story into a measurable investment framework: flow, resilience, and dwell time.*
@@ -122,3 +121,7 @@ The beauty of this theme is its durability—Nihonbashi has been Japan's commerc
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

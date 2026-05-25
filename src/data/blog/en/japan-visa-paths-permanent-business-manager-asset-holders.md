@@ -18,7 +18,6 @@ sources:
 references:
   - "https://www.moj.go.jp/isa/index.html"
 ---
-
 The image of Japan as a "Closed Country" is becoming a thing of the past. To combat a shrinking population, the Japanese government has introduced some of the most competitive immigration routes in Asia. From the 1-year Permanent Residency fast-track to the newly launched J-Find visa for elite graduates, the barrier to entry has shifted from "Can I enter?" to "Which route is the most efficient for my assets?"
 
 Today, we analyze the three primary routes for investors and professionals looking to establish a base in Japan in 2026.
@@ -74,7 +73,7 @@ At GSF, we help investors build the business substance required to turn a proper
 ## Investor Action: Session Summary & Check
 
 - [ ] **Score**: Calculate your points for the Highly Skilled Professional (HSP) visa based on education, experience, and salary.
-- [ ] **Capital**: Prepare source-of-funds evidence for the minimum capital (5M JPY) required for a Business Manager visa.
+- [ ] **Capital**: Prepare source-of-funds evidence for the capital (5M JPY minimum, 30M JPY recommended for stability) required for a Business Manager visa.
 - [ ] **Stay**: If aiming for permanent residency, ensure your annual days outside Japan do not exceed the requirement (typically <100 days).
 
 ## Recommended Series
@@ -86,3 +85,7 @@ At GSF, we help investors build the business substance required to turn a proper
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

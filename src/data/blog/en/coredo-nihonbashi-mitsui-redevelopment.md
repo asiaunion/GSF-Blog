@@ -16,7 +16,6 @@ references:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
 ---
-
 *This is the third post in the [Nihonbashi Series](/posts/nihonbashi-the-origin-of-japan/). While the Origin post traces 400 years of commercial DNA and the [Hamacho Walking Guide](/posts/nihonbashi-hamacho-walking-guide/) maps a street-level route, this piece zooms into a single question: how does a modern retail complex keep century-old craft alive — and what does the answer look like from a resident's daily routine?*
 
 Living in Nihonbashi, you start to feel that “history” is not only a story in books. The same goes for the COREDO Nihonbashi and COREDO Muromachi areas my wife and I visit often. Even as you move through polished floors, glass, and lighting, older shops and craft still wait in the alleys and corners of the retail floors. What I liked most was not simply the impression of tall, new buildings, but that long-established shops—what Japan often calls *shinise* (老舗)—are deliberately part of the tenant mix. Commercial success is surely a premise, yet I could also read an attempt to let local color and the value of tradition seep into the space itself.
@@ -49,7 +48,7 @@ COREDO Nihonbashi connects directly to Nihonbashi Station, so even on rainy days
 
 ## 4. COREDO Muromachi: the line “Bringing vitality to Japan—from Nihonbashi”
 
-The official concept copy for COREDO Muromachi 1 is 「日本をにぎわす、日本橋」. Introductory text says the mix runs from Nihonbashi *shinise* rooted in history to new retail formats. For 2 and 3 as well, copy for the “2nd hall” side stresses long-running shops founded more than a century ago alongside stores that compete in new flavors and techniques. What felt “good” on site lined up with those lines for me—not tradition embalmed and moved indoors, but tradition breathing inside today’s store operations and circulation.
+The official concept copy for COREDO Muromachi 1 is 「日本をにぎわす、日本橋」. Introductory text says the mix runs from Nihonbashi *shinise* rooted in history to new retail formats. For 2 and 3 as well, copy for the “2nd hall” side stresses long-running shops founded more than 100 years ago alongside stores that compete in new flavors and techniques. What felt “good” on site lined up with those lines for me—not tradition embalmed and moved indoors, but tradition breathing inside today’s store operations and circulation.
 
 ---
 
@@ -74,3 +73,7 @@ COREDO Nihonbashi and COREDO Muromachi looked to me like bridges between traditi
 - [ ] **Experience**: Feel the new 'work-live-play' lifestyle proposed by Mitsui Fudosan at the outdoor terrace of 'COREDO Muromachi Terrace'.
 - [ ] **History**: Check the 'Underground Expressway' construction site at Nihonbashi Bridge and imagine the future waterfront landscape.
 - [ ] **Business**: Monitor the pace of Tokyo's new landmark rising behind the fences of the Nihonbashi 1-Chome redevelopment area.
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

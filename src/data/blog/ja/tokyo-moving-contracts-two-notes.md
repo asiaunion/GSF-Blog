@@ -19,7 +19,6 @@ sources:
 references:
   - "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
 ---
-
 東京での新しい生活を始める家探しは、期待に満ちたものですが、契約書を前にすると不慣れな用語に戸惑うことも多いでしょう。特に日本の法律は、借主の権利を強力に保護する一方で、「原状回復」という厳格な義務を課しています。
 
 本日は、東京での生活の始まりと終わりを左右する賃貸借契約の2つの重要ポイントを分析します。この記事を読めば、契約書の行間に隠されたリスクを自ら把握できるようになるはずです。
@@ -106,3 +105,6 @@ references:
 - [日本不動産投資：法人 vs 個人名義ガイド](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [為替変動下の投資原則：円安リスク管理術](/ja/posts/three-things-when-fx-shakes/)
 
+## 免責・ご利用上の注意
+
+本記事は**情報提供**を目的としており、投資・法務・税務・入国管理等の個別助言や勧誘ではありません。数値・制度・運営情報は掲載時点のものです。確認なく意思決定に用いないでください。

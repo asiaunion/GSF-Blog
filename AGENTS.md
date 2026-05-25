@@ -22,4 +22,6 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 | `pnpm validate:post <slug>` | **Cursor** |
 | git commit / deploy | **User** (unless explicitly asked) |
 
+**Trust roadmap (fact · translation · CI):** [`docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md`](docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md) — Phase 0–3, P0 merge gate.
+
 See `docs/BLOG_AG_CURSOR_WORKFLOW.md`, `BLOG_AGENT_AUTOMATION_RUNBOOK.md`.

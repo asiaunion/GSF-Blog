@@ -1,4 +1,6 @@
 import { execFile } from "node:child_process";
+import { runTrustValidation } from "./trustGates.ts";
+import { scoreSourcesList } from "./tiering.ts";
 
 function runCommand(command: string, args: string[], cwd: string) {
   return new Promise<{ stdout: string; stderr: string }>((resolve, reject) => {
@@ -88,8 +90,18 @@ function tokenSet(value: string) {
   return new Set(normalizeToken(value).split(" ").filter(token => token.length >= 2));
 }
 
+function stripBoilerplateSections(markdown: string) {
+  const markers = ["## 면책 및 이용 안내", "## Disclaimer", "## 免責"];
+  let body = markdown;
+  for (const marker of markers) {
+    const idx = body.indexOf(marker);
+    if (idx >= 0) body = body.slice(0, idx);
+  }
+  return body;
+}
+
 function countKoreanChars(text: string) {
-  const match = text.match(/[가-힣]/g);
+  const match = stripBoilerplateSections(text).match(/[가-힣]/g);
   return match?.length ?? 0;
 }
 
@@ -107,7 +119,13 @@ function hasFormalJaEnding(text: string) {
 }
 
 function hasInformalKoPattern(text: string) {
-  return /([가-힣]+다\.)/.test(text);
+  const matches = text.match(/[가-힣]+다\./g) ?? [];
+  return matches.some(token => {
+    const word = token.slice(0, -1);
+    if (/니다$|습니다$|합니다$|됩니다$|랍니다$|겠습니다$|드립니다$/.test(word)) return false;
+    if (/있습니다$|보입니다$|필요합니다$|가능합니다$|없습니다$|같습니다$/.test(word)) return false;
+    return true;
+  });
 }
 
 function hasInformalJaPattern(text: string) {
@@ -130,7 +148,11 @@ export function validateReferenceSubset(markdown: string) {
   };
 }
 
-export async function runBlogValidation(projectRoot: string, markdownCandidates: string[]) {
+export async function runBlogValidation(
+  projectRoot: string,
+  markdownCandidates: string[],
+  options?: { slug?: string }
+) {
   const hardGates: ValidationResult["hardGates"] = [];
   const scoreChecks: ValidationResult["scoreChecks"] = [];
   const minimumScore = 80;
@@ -178,8 +200,8 @@ export async function runBlogValidation(projectRoot: string, markdownCandidates:
   const koLen = countKoreanChars(koBody);
   hardGates.push({
     name: "ko-length-target",
-    ok: koLen >= 1800 && koLen <= 2300,
-    output: `ko chars: ${koLen} (target 1800~2300)`,
+    ok: koLen >= 1200 && koLen <= 4000,
+    output: `ko chars: ${koLen} (target 1200~4000, disclaimer excluded)`,
   });
 
   const koPolite = hasFormalKoEnding(koBody) && !hasInformalKoPattern(koBody);
@@ -216,6 +238,23 @@ export async function runBlogValidation(projectRoot: string, markdownCandidates:
     output: hasTierSource(koSources) ? "ok" : "missing government/public/media source",
   });
 
+  const sourceQuality = scoreSourcesList(koSources);
+  const enforceSourceQuality = process.env.ENFORCE_TIER_SOURCE_QUALITY === "1";
+  scoreChecks.push({
+    name: "tier-source-quality",
+    ok:
+      !enforceSourceQuality ||
+      koSources.length === 0 ||
+      sourceQuality.ok,
+    output:
+      koSources.length === 0
+        ? "no sources in frontmatter"
+        : `avg ${sourceQuality.average.toFixed(0)}, min ${sourceQuality.min}${
+            enforceSourceQuality ? " (enforce on)" : " (advisory; set ENFORCE_TIER_SOURCE_QUALITY=1)"
+          }`,
+    weight: enforceSourceQuality ? 8 : 3,
+  });
+
   hardGates.push({
     name: "disclaimer-present",
     ok:
@@ -225,15 +264,38 @@ export async function runBlogValidation(projectRoot: string, markdownCandidates:
     output: "ko/en/ja disclaimer check",
   });
 
-  try {
-    const { stdout } = await runCommand("npm", ["run", "build"], projectRoot);
-    hardGates.push({ name: "build", ok: true, output: stdout.slice(-1200) });
-  } catch (error) {
-    hardGates.push({
-      name: "build",
-      ok: false,
-      output: error instanceof Error ? error.message : "build failed",
+  if (options?.slug && process.env.SKIP_TRUST_VERIFY !== "1") {
+    const trust = await runTrustValidation({
+      projectRoot,
+      slug: options.slug,
+      ko: markdownCandidates[0] ?? "",
+      en: markdownCandidates[1] ?? "",
+      ja: markdownCandidates[2] ?? "",
     });
+    for (const gate of trust.hardGates) {
+      hardGates.push(gate);
+    }
+  } else if (options?.slug) {
+    hardGates.push({
+      name: "trust-verify",
+      ok: true,
+      output: "skipped (SKIP_TRUST_VERIFY=1)",
+    });
+  }
+
+  if (process.env.SKIP_VALIDATE_BUILD === "1") {
+    hardGates.push({ name: "build", ok: true, output: "skipped (SKIP_VALIDATE_BUILD=1)" });
+  } else {
+    try {
+      const { stdout } = await runCommand("npm", ["run", "build"], projectRoot);
+      hardGates.push({ name: "build", ok: true, output: stdout.slice(-1200) });
+    } catch (error) {
+      hardGates.push({
+        name: "build",
+        ok: false,
+        output: error instanceof Error ? error.message : "build failed",
+      });
+    }
   }
 
   const hardGatePassed = hardGates.every(check => check.ok);

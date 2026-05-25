@@ -18,7 +18,6 @@ sources:
 references:
   - "https://www.boj.or.jp/en/"
 ---
-
 The returns on Japanese real estate investment are determined by two main gears. One is the value of the asset itself—**'Rental Income and Capital Gains'**—and the other is the **'Exchange Rate'**, which serves as the path for liquidation. Even if you achieve a 20% return within Japan, if the value of the Yen has dropped by 20% at the time of remittance, your return in foreign currency becomes zero.
 
 As of 2026, the Yen is experiencing increased volatility near its historical lows. To enjoy the 'Yen-weakness discount' while remaining free from the risk of a 'sudden FX reversal,' here are three principles every investor should maintain.
@@ -77,3 +76,7 @@ At GSF, we look past the noise of FX to the intrinsic value of the asset. Use th
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

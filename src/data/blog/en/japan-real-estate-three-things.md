@@ -20,7 +20,6 @@ references:
   - "https://www.stat.go.jp/english/"
   - "https://www.jnto.go.jp/eng/"
 ---
-
 ## 1. What are the advantages of investing in Japanese real estate?
 
 **Explosive Growth and Asset Cycle Transition:** Moving beyond simple "stability," the market has now clearly entered a phase of **growth**. Although Japan's economic growth rate remained below 2% over the past 30 years, recently, following the COVID-19 pandemic, mansion (apartment) prices in Tokyo's core districts have been skyrocketing, breaking historical highs almost every day. Escaping the long swamp of deflation and riding a full-fledged inflationary upward cycle, I firmly believe the Japanese real estate market has transformed into one of the most dynamically re-evaluated asset classes by global capital.
@@ -96,3 +95,7 @@ After purchasing, Japan's highly developed professional maintenance and meticulo
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

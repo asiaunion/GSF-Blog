@@ -22,7 +22,6 @@ references:
   - "https://www.mindan.org/"
   - "https://www.k-startup.go.kr/"
 ---
-
 When one thinks of 'Korea' in Tokyo, Shin-Okubo is invariably the first name that comes to mind. As a sanctuary of K-culture where countless Japanese locals and tourists flock daily, it stands as the symbolic center of Korean identity in Tokyo.
 
 However, as of 2026, the Korean community in Tokyo has evolved into a much more multi-layered and professional ecosystem. It has moved beyond being a simple place to enjoy hometown food and has become a strategic base for global business and investment. Let's explore the new map of Koreans in Tokyo, reaching far beyond the 'cultural hub' of Shin-Okubo.
@@ -110,3 +109,6 @@ Beyond lifestyle, the evolving Korean community map in Tokyo has measurable inve
 - [Japan Visa Paths: Business Manager & Permanent Residency](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [Korea-Japan Inheritance Tax: The 10-Year Rule Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics/)
 
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -24,7 +24,6 @@ references:
   - "https://www.nli-research.co.jp/"
   - "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
 ---
-
 **Foreword**
 
 For a while, there was an investment trend led by retail investors focusing heavily on US overseas stocks. Now, a new term has become trendy: "Ilhak Ants" (retail investors focusing on Japanese stocks). Unlike the expectations of many, the real estate market prices in major Japanese hub cities are trending upward. Just like stocks, you can invest in the Japanese real estate market via J-REITs. In this post, we will explore what J-REITs are, their advantages, and major REIT products.
@@ -105,7 +104,7 @@ According to research conducted by the [Nissei Basic Research Institute](https:/
 
 Over the 5 years ending August 2021, the return was 43%—lower than TOPIX over that shorter horizon but supported by consistent dividend distributions. The key takeaway is that long-run J-REIT performance has historically been driven by income compounding rather than capital appreciation alone—a structural advantage that remains, but must now be weighed against a tighter financing environment.
 
-Those investing in J-REITs can factor in factors like stable dividends of around 3\~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively guaranteed return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
+Those investing in J-REITs can factor in factors like stable dividends of around 3\~4%, the possibility of future foreign exchange gains, and capital margins through potential market value increments. Projecting a definitively assured return is impossible for any investment. However, from the standpoint of "stability," I believe J-REITs are an overseas investment that holds significant advantages.
 
 <figure class="my-6">
   <picture>
@@ -197,3 +196,7 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

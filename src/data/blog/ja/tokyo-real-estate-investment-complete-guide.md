@@ -22,7 +22,6 @@ sources:
   - "https://www.nta.go.jp/english/index.htm"
   - "https://www.e-miki.com/market/"
 ---
-
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
 ---

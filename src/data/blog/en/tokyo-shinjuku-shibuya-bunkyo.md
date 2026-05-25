@@ -21,7 +21,6 @@ sources:
   - "https://www.lifull.com/homes/"
   - "https://suumo.jp/"
 ---
-
 If Roppongi and Azabu are "expat Tokyo," Shinjuku and Shibuya are "Tokyo for Tokyoites." That's how I framed it the first time I compared the two. Same price tier. Completely different lives. Which one is right for you isn't a data question — it's a lifestyle question.
 
 This chapter follows Ep.1 (Chiyoda, Chuo, Minato) with a deep dive into **the remaining three of Tokyo's Core 6 Wards (都心6区) — Shinjuku, Shibuya, and Bunkyo**. They share a premium price bracket. But their character couldn't be more different: a commercial mega-hub, the birthplace of trends, and a quiet city of scholarship.
@@ -76,7 +75,7 @@ Units within walking distance of Shinjuku Station start from ¥130K even for stu
 
 ### Average Household Income
 
-The average taxable income for Shinjuku residents is **approx. ¥6.1M/year** — the lowest among the Core 6 Wards. But the diversity of the tenant base (students, workers, foreign nationals) keeps vacancy risk exceptionally low.
+The average taxable income for Shinjuku residents is **approx. 6.1 million JPY (¥6.1M)/year** — the lowest among the Core 6 Wards. But the diversity of the tenant base (students, workers, foreign nationals) keeps vacancy risk exceptionally low.
 
 ### Population
 
@@ -142,7 +141,7 @@ Omotesando and Aoyama are priced on par with Azabu in Minato Ward. Nakameguro ha
 
 ### Average Household Income
 
-Shibuya's average taxable income per resident is **approx. ¥10.7M/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023). Creative industry executives and tech startup leadership drive the number.
+Shibuya's average taxable income per resident is **approx. 10.7 million JPY (¥10.7M)/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023). Creative industry executives and tech startup leadership drive the number.
 
 ### Population
 
@@ -189,7 +188,7 @@ I've compared Nihonbashi and Bunkyo side by side. Nihonbashi is a place you work
 | Hongo / Yushima | ¥1.0M–¥1.45M/㎡ | ¥3.3M–¥4.8M/坪 |
 | Koishikawa / Otsuka | ¥0.9M–¥1.3M/㎡ | ¥3.0M–¥4.3M/坪 |
 | Hakusan / Nezu | ¥0.85M–¥1.2M/㎡ | ¥2.8M–¥4.0M/坪 |
-| **Ward average** | **approx. ¥1.05M/㎡** | **approx. ¥3.47M/坪** |
+| **Ward average** | **approx. ¥1.05M/㎡** | **approx. 3.47 million JPY (¥3.47M)/坪** |
 
 Bunkyo is the most affordable of the Core 6 Wards on a per-㎡ basis. Transit access (multiple JR and Metro lines) and living environment make it the best value-for-money play in the premium tier.
 
@@ -207,7 +206,7 @@ Stable demand from students, researchers, and faculty keeps the rental market co
 
 ### Average Household Income
 
-Bunkyo's average taxable income per resident is **approx. ¥7.0M/year**. University faculty, medical professionals, and researchers represent a large share — producing a stable, well-distributed income profile.
+Bunkyo's average taxable income per resident is **approx. 7 million JPY (¥7.0M)/year**. University faculty, medical professionals, and researchers represent a large share — producing a stable, well-distributed income profile.
 
 ### Population
 
@@ -246,7 +245,7 @@ Bunkyo's foreign resident ratio is **approx. 6–7%**. UTokyo's international st
 | Population (Jan 2025) | ~353,000 | ~231,000 | ~235,000 |
 | Foreign resident ratio | ~12.6% | ~5.5–6% | ~6–7% |
 | Avg. mansion price/㎡ | ¥1.15M | ¥1.5M | ¥1.05M |
-| Avg. taxable income | ~¥6.1M | ~¥10.7M | ~¥7.0M |
+| Avg. taxable income | ~6.1 million JPY (~¥6.1M) | ~10.7 million JPY (~¥10.7M) | ~7 million JPY (~¥7.0M) |
 | Gross yield (reference) | 4–5% | 3.5–5% | 4.5–5.5% |
 | Core image | Multicultural · Community · Terminal | Trend · Creative · Redevelopment | Academic · Quiet · Family |
 | Foreign-resident livability | ★★★★★ | ★★★★ | ★★★☆ |
@@ -285,3 +284,7 @@ The two wards just outside the Core 6 that have become the default choice for hi
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Real estate prices fluctuate with market conditions. Please consult a qualified professional before making any financial decision.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -1,5 +1,7 @@
 # Blog workflow: Antigravity (write) + Cursor (pre-publish verify)
 
+> **Start here (trust · phases · CI):** [`BLOG_TRUST_AND_QUALITY_ROADMAP.md`](./BLOG_TRUST_AND_QUALITY_ROADMAP.md)
+
 > **원칙**: 글 **작성·초안**은 **Antigravity (AG)**. **발행 직전 검증**은 **Cursor**에서 통과한 뒤 repo에 반영·배포.  
 > **요일 고정 없음** · **Telegram 불필요** — 포스트 1편마다 아래 순서만 지키면 됨.
 
@@ -130,7 +132,29 @@ Rule: [`.cursor/rules/blog-pre-publish.mdc`](../.cursor/rules/blog-pre-publish.m
 
 ---
 
+## Batch fact-check loop (35 published posts)
+
+| Phase | Owner | Prompt doc | md edit? |
+|-------|--------|------------|----------|
+| 1차 감사 | **AG** | [`AG_BATCH_FACT_CHECK_PROMPT.md`](./AG_BATCH_FACT_CHECK_PROMPT.md) | No — `docs/fact-audit/` only |
+| 2차 게이트·일괄 수정 | **Cursor** | [`fact-audit/CURSOR_PHASE2_REPORT.md`](./fact-audit/CURSOR_PHASE2_REPORT.md) | Yes |
+| 2.5 클레임·번역 수정 | **AG** | [`AG_PHASE2_CONTENT_FIX_PROMPT.md`](./AG_PHASE2_CONTENT_FIX_PROMPT.md) | Yes — per fact sheet |
+| 3차 재검증 | **Cursor** | [`CURSOR_PHASE3_REVERIFY_PROMPT.md`](./CURSOR_PHASE3_REVERIFY_PROMPT.md) | Yes — minimal |
+| Publish | **You** | — | `git commit` after validate 0 |
+
+**Handoff lines**
+
+- AG (Wave A 일부): **「팩트·번역 AG 수정 완료, Cursor 3차 재검증 대기」** — 6~7 slug만 해당
+- AG (merge 전 전수): **「팩트·번역 AG 전량(35) 수정 완료, Cursor 3차 전수 재검증 대기」**
+- Cursor → You: **「Cursor 3차 재검증 완료 — validate N/35, 커밋 대기」**
+
+**merge 전 권장:** Wave A 잔여 5만보다 **35 전수 (Deep/Standard/Light)** AG → Cursor 3차가 안전. [`AG_PHASE2_CONTENT_FIX_PROMPT.md`](./AG_PHASE2_CONTENT_FIX_PROMPT.md) § 전체 35개 재작업.
+
+---
+
 ## Related
 
 - [`BLOG_AGENT_AUTOMATION_RUNBOOK.md`](../BLOG_AGENT_AUTOMATION_RUNBOOK.md)
 - [`BLOG_FACT_CHECK_WORKFLOW.md`](./BLOG_FACT_CHECK_WORKFLOW.md)
+- [`AG_PHASE2_CONTENT_FIX_PROMPT.md`](./AG_PHASE2_CONTENT_FIX_PROMPT.md)
+- [`CURSOR_PHASE3_REVERIFY_PROMPT.md`](./CURSOR_PHASE3_REVERIFY_PROMPT.md)

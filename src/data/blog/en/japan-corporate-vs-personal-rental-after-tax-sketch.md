@@ -18,7 +18,6 @@ sources:
 references:
   - "https://www.nta.go.jp/english/index.htm"
 ---
-
 In Japan, real estate investment is a "Tax Game." Even if you secure a property with a high gross yield, a poor ownership structure can lead to an effective tax rate of over 50%, wiping out your cash flow.
 
 For foreign investors and non-residents, the choice between **Personal Ownership** and **Corporate (GK/KK) Ownership** depends on your long-term exit plan and the scale of your portfolio. Today, we break down the pros and cons of each structure based on the latest 2026 tax standards.
@@ -31,8 +30,8 @@ Personal ownership is easy to set up but subject to Japan's steep **Progressive 
 
 *   **Income Tax (Rental Income)**: Combined with other Japan-sourced income, rates range from **5% to 45%** (plus a 10% inhabitant tax for residents, totaling 55%).
 *   **Capital Gains Tax (The 5-Year Rule)**: This is the most critical factor for personal owners.
-    *   **Short-term (Held < 5 years)**: Approx. **39%** tax on gains.
-    *   **Long-term (Held > 5 years)**: Approx. **20%** tax on gains.
+    *   **Short-term (Held < 5 years)**: Approx. **39%** tax on gains (30.63% for non-residents).
+    *   **Long-term (Held > 5 years)**: Approx. **20%** tax on gains (15.315% for non-residents).
     *   *Note: For non-residents, the inhabitant tax portion may differ, but the federal 30% / 15% split remains the benchmark.*
 *   **Withholding Tax**: Non-residents are subject to a **20.42% withholding tax** on gross rent if the tenant is a corporation or uses the property for business. This is a cash flow burden, though it can be reconciled via a tax return.
 
@@ -57,7 +56,7 @@ Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more s
 
 ## 4. Which One Should You Choose?
 
-The "Break-even Point" for switching to a corporate structure usually occurs when your taxable rental income exceeds **9 million JPY** per year, or when you plan to build a portfolio of 3+ units.
+The "Break-even Point" for switching to a corporate structure usually occurs when your taxable rental income exceeds **9 million JPY to 15 million JPY** (approx. 9M JPY in net taxable rental income) per year, or when you plan to build a portfolio of 3+ units.
 
 **Choose Personal If:**
 *   You are buying a single small apartment for a long-term hold (10+ years).
@@ -97,3 +96,7 @@ Investing in Japan is not just about the property; it's about the "Vessel" you u
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

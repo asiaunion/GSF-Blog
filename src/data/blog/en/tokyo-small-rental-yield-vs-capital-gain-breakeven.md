@@ -20,7 +20,6 @@ references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.nta.go.jp/english/"
 ---
-
 ## 1. Why headline yield often overstates reality
 
 Small-unit investment condominiums—typically 18–25 square meter 1R or 1K formats in central Tokyo—are the entry point for many individual investors. They are marketed aggressively by developers and brokerage firms, almost always with a "surface yield" figure (表面利回り) prominently displayed: 4.0 percent, 4.5 percent, sometimes 5.0 percent or higher in secondary locations.
@@ -116,3 +115,7 @@ Small-unit investing in Tokyo can be a sensible component of a diversified portf
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

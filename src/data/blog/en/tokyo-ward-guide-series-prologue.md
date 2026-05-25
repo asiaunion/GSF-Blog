@@ -21,7 +21,6 @@ sources:
 references:
   - "https://www.toukei.metro.tokyo.lg.jp/"
 ---
-
 If you're thinking about relocating to Tokyo — or considering it as a real estate investment destination — there's one question you'll inevitably face.
 
 **"Which ward in Tokyo should I live in?"**
@@ -95,17 +94,17 @@ The infographic and table below map each ward cluster's rough positioning. The h
 
 | Tier | Wards | Price Range (per ㎡) | Character |
 |------|-------|---------------------|-----------|
-| Core 3 | Chiyoda · Chuo · Minato | ¥1.5M+ | Max premium, top foreign investor preference |
-| Core 6 (next 3) | Shinjuku · Shibuya · Bunkyo | ¥1.0–1.5M | Commerce, trend, academia — young professionals |
-| West Premium | Meguro · Setagaya | ¥800K–1.2M | Family-grade luxury living, spacious housing |
-| Business Hub | Shinagawa · Ota | ¥700K–1.0M | Shinkansen/Haneda direct, corporate demand |
-| Hipster Inner | Toshima · Nakano · Suginami | ¥600K–850K | Trendy, Korean community, relative value |
-| Shitamachi | Taito · Sumida · Koto | ¥550K–800K | Traditional + redevelopment, emerging investment |
-| North Value | Kita · Arakawa · Itabashi · Nerima | ¥450K–650K | Korean enclave, practical, ongoing redevelopment |
-| East Affordable | Adachi · Katsushika · Edogawa | ¥400K–550K | Spacious, lowest prices, long-term upside |
-| Tama Premium | Musashino · Mitaka · Chofu | ¥550K–800K | Kichijoji brand, solid commute access |
-| Tama Culture | Kokubunji · Kunitachi · Fuchu · Tachikawa | ¥400K–600K | University town, Tachikawa redevelopment |
-| Tama Outer | Hachioji · Machida · Tama, etc. | ¥250K–450K | Wide lots, 30–50% below central Tokyo |
+| Core 3 | Chiyoda · Chuo · Minato | 1.5 million JPY+ (¥1.5M+) | Max premium, top foreign investor preference |
+| Core 6 (next 3) | Shinjuku · Shibuya · Bunkyo | 1.0–1.5 million JPY (¥1.0M–¥1.5M) | Commerce, trend, academia — young professionals |
+| West Premium | Meguro · Setagaya | 800,000–1.2 million JPY (¥800K–¥1.2M) | Family-grade luxury living, spacious housing |
+| Business Hub | Shinagawa · Ota | 700,000–1.0 million JPY (¥700K–¥1.0M) | Shinkansen/Haneda direct, corporate demand |
+| Hipster Inner | Toshima · Nakano · Suginami | 600,000–850,000 JPY (¥600K–¥850K) | Trendy, Korean community, relative value |
+| Shitamachi | Taito · Sumida · Koto | 550,000–800,000 JPY (¥550K–¥800K) | Traditional + redevelopment, emerging investment |
+| North Value | Kita · Arakawa · Itabashi · Nerima | 450,000–650,000 JPY (¥450K–¥650K) | Korean enclave, practical, ongoing redevelopment |
+| East Affordable | Adachi · Katsushika · Edogawa | 400,000–550,000 JPY (¥400K–¥550K) | Spacious, lowest prices, long-term upside |
+| Tama Premium | Musashino · Mitaka · Chofu | 550,000–800,000 JPY (¥550K–¥800K) | Kichijoji brand, solid commute access |
+| Tama Culture | Kokubunji · Kunitachi · Fuchu · Tachikawa | 400,000–600,000 JPY (¥400K–¥600K) | University town, Tachikawa redevelopment |
+| Tama Outer | Hachioji · Machida · Tama, etc. | 250,000–450,000 JPY (¥250K–¥450K) | Wide lots, 30–50% below central Tokyo |
 
 > **Note**: Figures above are approximate 2025–2026 ranges. Variance by station proximity, building age, floor, and unit size is significant. Each episode provides more precise data.
 
@@ -139,3 +138,7 @@ The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonb
 ---
 
 *Disclaimer: This post is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Please consult qualified professionals before making any financial decisions. Past market performance does not guarantee future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

@@ -20,7 +20,6 @@ references:
   - "https://www.e-miki.com/market/"
   - "https://www.reins.or.jp/"
 ---
-
 The Tokyo central office market has pushed through the "Massive Supply" concerns of 2023 and is currently navigating its hottest phase in 2026. Rents, vacancy rates, and new landmark completions are converging into a new pattern of **'Super-Polarization'** unlike anything seen in previous cycles.
 
 Concluding that the market is universally booming simply because vacancy is low would be a mistake. The reality revealed by the data is a cold differentiation: "Some offices are so full you can't get in, while others remain empty even with deep rent cuts." Today, we analyze the narrative of Tokyo’s 5 central wards based on Miki Shoji's Q1 2026 data.
@@ -95,3 +94,7 @@ I recommend the following routine for monitoring the Tokyo office market:
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

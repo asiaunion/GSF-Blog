@@ -22,7 +22,6 @@ references:
   - "https://www.jnto.go.jp/eng/"
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
 ---
-
 ![Nihonbashi Sunrise and Kilometre Zero Monument](/assets/images/nihonbashi-hero.webp)
 
 I have recently relocated to **Nihonbashi (日本橋)**, which will serve as my new home and the central hub for my activities.
@@ -120,3 +119,7 @@ Today, Chuo City's multilingual guides to culture and urban regeneration are par
 - [ ] **History**: Visit the former site of Echigoya (now Mitsukoshi) to feel the energy where Japanese retail and capitalism were born.
 - [ ] **Symbol**: Reflect on the meaning of prosperity and protection embodied by the winged lions (Kirin) of Nihonbashi Bridge.
 - [ ] **Change**: Experience the unique atmosphere where department store tradition meets the financial innovation of Kabutocho.
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

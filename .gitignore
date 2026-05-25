@@ -29,6 +29,9 @@ pnpm-debug.log*
 
 public/pagefind
 
+# trust verify fetch cache
+.cache/
+
 # blog-agent staging artifacts and preview renders
 .blog-agent-workflows/
 public/previews/

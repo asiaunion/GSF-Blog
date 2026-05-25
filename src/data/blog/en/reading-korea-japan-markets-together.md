@@ -19,7 +19,6 @@ sources:
 references:
   - "https://www.savills.com/"
 ---
-
 Seoul and Tokyo, the two mega-hubs of East Asia, are often described through the lens of a 'Parallel Theory.' The narrative of 'Japanification'—that South Korea is following Japan’s path of demographic aging and low growth—has been the source of profound anxiety in the Korean investment market for the past decade.
 
 However, as of 2026, the two markets are not mere carbon copies but are in a state of **'Complementary Decoupling.'** Seoul maintains strong momentum driven by regulation-induced supply shortages and a high concentration of demand in prime districts. Meanwhile, Tokyo has reinvented itself as a 'Safe-Haven Hub' for global capital at the tail end of its ultra-low-rate era. Now is the time to read these two markets not as isolated islands, but as a single, integrated portfolio.
@@ -88,3 +87,7 @@ GSF serves as the bridge between Seoul and Tokyo, ensuring your assets achieve m
 ---
 
 *Disclaimer: This article is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Always consult a licensed professional before making any financial decisions. Past performance is not indicative of future results.*
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

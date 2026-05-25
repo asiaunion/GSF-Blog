@@ -21,7 +21,6 @@ references:
   - "https://www.nihonbashi-tokyo.jp/en/"
   - "https://www.mitsuifudosan.co.jp/english/"
 ---
-
 While the Imperial Palace is the geometric center of Tokyo, Nihonbashi is where the city's 'dynamism' truly began. A commercial hub since the Edo period, Nihonbashi in 2026 has evolved into a unique district where heritage and an ultra-modern skyline coexist through massive redevelopment led by [Mitsui Fudosan](https://www.mitsuifudosan.co.jp/english/).
 
 *Part of the Nihonbashi Series. This post is the **fieldwork piece** — a 2.5km walking route with prices, timetables, and per-sqm data you can verify on foot. For the historical and symbolic backstory, see [Nihonbashi: The Origin of Japan](/posts/nihonbashi-the-origin-of-japan/). For the investment pipeline framework, see [Nihonbashi Redevelopment Roadmap](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/).*
@@ -128,3 +127,7 @@ For both investors and travelers, we recommend walking from Nihonbashi to Hamach
 - [Ginza to Marunouchi: A DNA Walking Guide](/posts/ginza-marunouchi-walk-dna/)
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Japan Real Estate Failures: 3 Lessons Learned](/posts/one-failure-three-lessons-postmortem/)
+
+## Disclaimer
+
+This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

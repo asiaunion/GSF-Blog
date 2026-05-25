@@ -22,7 +22,6 @@ references:
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
   - "https://www.nta.go.jp/english/index.htm"
 ---
-
 > **この記事は[東京不動産投資完全ガイド](/ja/posts/tokyo-real-estate-investment-complete-guide/)のChapter 2深掘り記事です。** まずはピラーページで投資ロードマップの全体像を把握された上で、こちらで購入手続きの詳細をご確認ください。
 
 ---
