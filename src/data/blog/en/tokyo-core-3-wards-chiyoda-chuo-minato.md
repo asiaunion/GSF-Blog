@@ -287,9 +287,6 @@ Commerce in Shinjuku, trend in Shibuya, academia in Bunkyo. Three wards that sta
 
 ---
 
-*Disclaimer: This article is for informational and educational purposes only. It does not constitute investment advice, legal counsel, or tax consultation. Real estate prices fluctuate with market conditions. Please consult a qualified professional before making any financial decisions.*
-
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

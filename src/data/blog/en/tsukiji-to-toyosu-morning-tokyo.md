@@ -98,7 +98,6 @@ Taste 80 years of history with a piece of tuna sushi at the Tsukiji Outer Market
 - [Post-Mortem: 3 Lessons from Japan Real Estate Failures](/posts/one-failure-three-lessons-postmortem/)
 - [Ginza-Marunouchi Walking Guide](/posts/ginza-marunouchi-walk-dna/)
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

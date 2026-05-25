@@ -127,7 +127,6 @@ For both investors and travelers, we recommend walking from Nihonbashi to Hamach
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 - [Japan Real Estate Failures: 3 Lessons Learned](/posts/one-failure-three-lessons-postmortem/)
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

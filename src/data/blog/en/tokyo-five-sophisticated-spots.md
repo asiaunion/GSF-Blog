@@ -106,7 +106,6 @@ I have introduced 5 trendy areas in Tokyo, Japan. It might also be meaningful to
 - [ ] **Business**: Analyze how sophisticated spatial planning creates positive 'externalities' for surrounding rents and land prices.
 - [ ] **Inspiration**: Beyond commercial utility, check the landscaping and architectural details that create 'sticky' spaces where people want to linger.
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

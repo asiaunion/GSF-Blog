@@ -104,7 +104,6 @@ references:
 - [日本不動産投資：法人 vs 個人名義ガイド](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch/)
 - [為替変動下の投資原則：円安リスク管理術](/ja/posts/three-things-when-fx-shakes/)
 
-
 ## 免責・ご利用上の注意
 
 本記事は**情報提供**を目的としており、投資・法務・税務・入国管理等の個別助言や勧誘ではありません。数値・制度・運営情報は掲載時点のものです。確認なく意思決定に用いないでください。

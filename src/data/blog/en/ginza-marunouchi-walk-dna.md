@@ -120,7 +120,6 @@ Investors, when you visit Tokyo, take this 1.5km walk. The future of Japanese re
 - [Tsukiji and Toyosu: The Two Hearts of Tokyo's Morning](/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [Finding a Home in Tokyo: Key Lease Contract Insights](/posts/tokyo-moving-contracts-two-notes/)
 
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.

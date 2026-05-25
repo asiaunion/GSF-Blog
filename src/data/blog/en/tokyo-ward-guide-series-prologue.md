@@ -137,9 +137,6 @@ The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonb
 
 ---
 
-*Disclaimer: This post is for informational and educational purposes only and does not constitute investment advice, legal counsel, or tax guidance. Please consult qualified professionals before making any financial decisions. Past market performance does not guarantee future results.*
-
-
 ## Disclaimer
 
 This article is for **informational purposes** only and is not investment, legal, tax, or immigration advice. Figures, rules, and hours were accurate when published; verify before you act on them.
