@@ -39,6 +39,9 @@ sources:
   - "https://www.mlit.go.jp/"
   - "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
   - "https://www.moj.go.jp/isa/"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+  - "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -81,6 +84,15 @@ citeSources:
   - label: "일본 출입국관리청(ISA) 고도인재 포인트제·영주권 요건 완화 안내"
     url: "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
     portal: "https://www.moj.go.jp/isa/"
+  - label: "출입국관리청(ISA) 경영관리비자 요건(2025년 10월 개편)"
+    url: "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+    portal: "https://www.moj.go.jp/isa/"
+  - label: "일본 재무성 지진보험 제도 개요(화재보험 30~50%)"
+    url: "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+    portal: "https://www.mof.go.jp/"
+  - label: "국세청 임대소득세(개인 누진 vs 법인 실효세율)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+    portal: "https://www.nta.go.jp/"
 ---
 > **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
 
@@ -88,7 +100,7 @@ citeSources:
 
 ## 왜 지금 도쿄인가
 
-2026년 4월 현재, 도쿄 23구 기존 맨션 중위 가격은 약 **9,200만 엔**(㎡당 약 140만 엔)을 기록하고 있습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 미나토·치요다·시부야 등 프라임 3구의 신축 坪단가는 **900만 엔을 돌파**했고, 아카사카 등 일부 초고급 입지에서는 坪당 1,000만 엔을 넘기는 사례도 등장했습니다.
+2026년 4월 현재, 도쿄 23구 기존 맨션 중위 가격은 약 **9,200만 엔**(㎡당 약 140만 엔)을 기록하고 있습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 미나토·치요다·시부야 등 프라임 3구의 신축 坪단가는 **900만 엔을 돌파**했고, 아카사카 등 일부 초고급 입지에서는 坪당 1,000만 엔을 넘기는 사례도 등장했습니다.<sup class="source-ref"><a href="#source-6">6</a></sup>
 
 이 가격 랠리를 받치는 세 기둥이 있습니다.
 
@@ -158,9 +170,11 @@ citeSources:
 | 관리비·수선적립금 | 월 2\~5만 엔 | 월 1.5\~3만 엔 | 월 1\~2만 엔 |
 | 공실 리스크 | 낮음 | 보통 | 높음 |
 
+표의 표면수익률 구간은 구·築年·管理費에 따라 달라지는 **시장 프레임**이며, 물건별 검증은 [임대수익률 심층 글](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven)을 참고하세요.
+
 **핵심 공식**: 실질수익률 = (연간 임대료 − 보유비용) ÷ (취득가 + 부대비용) × 100
 
-직접 매입이 부담스럽다면 **J-REIT(일본 부동산투자신탁)**이 대안입니다. JPX 시장 통계 기준 **예상 연간 분배금 수익률은 약 4~5% 전후**(시기·섹터별 상이)이며, BOJ의 ETF 매입 역사와 환차익 가능성도 함께 검토할 수 있습니다.<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup>
+직접 매입이 부담스럽다면 **J-REIT(일본 부동산투자신탁)**이 대안입니다. JPX 시장 통계 기준 **예상 연간 분배금 수익률은 약 4~5% 전후**(시기·섹터별 상이)입니다.<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup> BOJ 정책·환율은 별도 시나리오로 검토하세요.
 
 > 📖 **심층 읽기**: [임대수익률 vs 시세차익 — 도쿄 소형 물건 손익분기](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 투자 알아야 할 5가지](/ko/posts/j-reit-five-things-to-know) | [호텔 리츠 vs 오피스 리츠](/ko/posts/hotel-reit-vs-office-reit-post-covid) | [금리 인상 사이클과 J-REIT](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
@@ -191,8 +205,8 @@ citeSources:
 | 인지세 | 1\~6만 엔 | 매매계약서 금액별 |
 
 ### 보유 시
-- **고정자산세**: 과세표준액 × 1.4%
-- **도시계획세**: 과세표준액 × 0.3%
+- **고정자산세**: 과세표준액 × 1.4%<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+- **도시계획세**: 과세표준액 × 0.3%<sup class="source-ref"><a href="#source-4">4</a></sup>
 
 ### 감가상각 — 절세의 핵심 무기
 
@@ -211,7 +225,7 @@ citeSources:
 
 | 항목 | 개인 | 법인(GK/KK) |
 |------|------|------------|
-| 세율 | 5\~45% 누진 | 실효 30\~35% |
+| 세율 | 5\~45% 누진 | 실효 30\~35%<sup class="source-ref"><a href="#source-17" id="cite-17">17</a></sup> |
 | 비거주자 원천징수 | 20.42% | 회피 가능 |
 | 상속·증여 | 최대 55% | 주식 양도로 회피 |
 | 초기 비용 | 낮음 | 설립비 20\~30만 엔 |
@@ -226,7 +240,7 @@ citeSources:
 
 ### 지진 리스크
 - 1981년 **신내진기준(新耐震基準)** 이후 건물은 진도 7에도 도괴하지 않도록 설계<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup>
-- 지진보험(地震保険)은 화재보험의 30\~50% 범위에서 가입 가능
+- 지진보험(地震保険)은 화재보험의 30\~50% 범위에서 가입 가능<sup class="source-ref"><a href="#source-16" id="cite-16">16</a></sup>
 - 에리어별 리스크 편차가 큼 — 매립지·하천 인접 지역 주의
 
 ### 환율 리스크
@@ -246,7 +260,7 @@ citeSources:
 부동산 투자 자체에 비자는 필요 없지만, **현지에서 관리하며 살고 싶다면** 체류 자격이 필요합니다.
 
 ### 주요 경로
-1. **경영관리비자** — 2025년 10월 대개편: 자본금 3,000만 엔 요건 + 언어 요건 추가
+1. **경영관리비자** — 2025년 10월 대개편: 자본금 3,000만 엔 요건 + 언어 요건 추가<sup class="source-ref"><a href="#source-15" id="cite-15">15</a></sup>
 2. **고도전문직(고도인재)** — 포인트 70점 이상 시 3년, 80점 이상 시 **1년 만에 영주권**<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
 3. **투자경영비자 → 영주권** — 10년 연속 체류 + 납세 실적
 

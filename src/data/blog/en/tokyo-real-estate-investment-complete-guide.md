@@ -39,6 +39,9 @@ sources:
   - "https://www.mlit.go.jp/"
   - "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
   - "https://www.moj.go.jp/isa/"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+  - "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
 citeSources:
   - label: "REINS Market Watch, Apr 2026"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -81,6 +84,15 @@ citeSources:
   - label: "ISA Highly Skilled Professional (HSP) point system & PR eligibility"
     url: "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
     portal: "https://www.moj.go.jp/isa/"
+  - label: "MOJ ISA Business Manager visa requirements (Oct 2025 reform)"
+    url: "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+    portal: "https://www.moj.go.jp/isa/"
+  - label: "Japan Ministry of Finance — earthquake insurance overview"
+    url: "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+    portal: "https://www.mof.go.jp/"
+  - label: "NTA rental income tax (personal vs corporate rates)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+    portal: "https://www.nta.go.jp/"
 ---
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
@@ -88,7 +100,7 @@ citeSources:
 
 ## Why Tokyo, Why Now
 
-As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **92 million JPY (9,200만 JPY)** (92,000,000 JPY, ~1.4 million JPY/sqm or 140万 JPY/㎡).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed 9 million JPY (900만 JPY)**, with Akasaka breaking ¥10M/tsubo.
+As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **92 million JPY (9,200만 JPY)** (92,000,000 JPY, ~1.4 million JPY/sqm or 140万 JPY/㎡).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed 9 million JPY (900만 JPY)**, with Akasaka breaking ¥10M/tsubo.<sup class="source-ref"><a href="#source-6">6</a></sup>
 
 Three pillars support this rally:
 
@@ -142,9 +154,11 @@ Non-residents: passport + notarized affidavit replaces *inkan*.<sup class="sourc
 | Mgmt fees | ¥20–50K/mo | ¥15–30K/mo | ¥10–20K/mo |
 | Vacancy risk | Low | Moderate | High |
 
+Surface-yield bands are a **market framework** by ward and building age; verify each deal in the [yield deep-dive](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven).
+
 Net yield = (Annual rent − Costs) ÷ (Price + Transaction costs) × 100
 
-Per JPX market data, **forecast annual distribution yields are roughly 4–5%** (varies by period and sector). BOJ backstop history and FX upside are also worth weighing.<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup>
+Per JPX market data, **forecast annual distribution yields are roughly 4–5%** (varies by period and sector).<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup> Treat BOJ policy and FX separately.
 
 > 📖 [Yield vs Capital Gain Breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5 Things](/posts/j-reit-five-things-to-know) | [Hotel vs Office REITs](/posts/hotel-reit-vs-office-reit-post-covid) | [Rate Hikes & J-REIT](/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
@@ -172,11 +186,16 @@ Principles: buy **before groundbreaking**, target **existing renovations within 
 
 Straight-line only since 2016. Used buildings past statutory life: **life × 0.2** = shortened depreciation.<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
 
+### Holding phase
+
+- **Fixed asset tax**: taxable base × **1.4%**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+- **City planning tax**: taxable base × **0.3%**<sup class="source-ref"><a href="#source-4">4</a></sup>
+
 ### Corporate vs. Personal
 
 | Factor | Personal | Corporate (GK/KK) |
 |--------|----------|-------------------|
-| Tax rate | 5–45% | Effective 30–35% |
+| Tax rate | 5–45% | Effective 30–35%<sup class="source-ref"><a href="#source-17" id="cite-17">17</a></sup> |
 | NR withholding | 20.42% | Avoidable |
 | Inheritance | Up to 55% | Share transfer route |
 
@@ -186,7 +205,7 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 
 ## Chapter 6. Risks — Earthquakes, FX & Rates
 
-- **Earthquakes**: Post-1981 buildings withstand intensity 7. Insurance covers 30–50% of fire policy. Avoid reclaimed land.<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup>
+- **Earthquakes**: Post-1981 buildings withstand intensity 7.<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup> Earthquake insurance is typically **30–50%** of the fire-policy limit.<sup class="source-ref"><a href="#source-16" id="cite-16">16</a></sup> Avoid reclaimed land.
 - **FX**: KRW per 100 JPY in the roughly 800–900 range demands dual-scenario planning. I play both sides.
 - **Interest rates**: BOJ tightening cycle underway, but glacial by global standards.
 
@@ -198,7 +217,7 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 
 No visa needed to *own*. To **live and manage** locally, you need a residence status.
 
-- **Business Manager Visa** — Post–Oct 2025 reform: roughly ¥30M capital plus language requirements
+- **Business Manager Visa** — Post–Oct 2025 reform: roughly ¥30M capital plus language requirements<sup class="source-ref"><a href="#source-15" id="cite-15">15</a></sup>
 - **Highly Skilled Professional (HSP)** — **70+ points**: PR eligible after 3 years; **80+ points**: PR eligible after **1 year**<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
 - **10-year continuous residence** — PR route with tax compliance
 
