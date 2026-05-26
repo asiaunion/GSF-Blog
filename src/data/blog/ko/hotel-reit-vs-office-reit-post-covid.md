@@ -18,6 +18,26 @@ sources:
   - "https://www.jnto.go.jp/"
   - "https://www.ares.or.jp/en/"
   - "https://www.cbre.co.jp/en/"
+  - "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.e-miki.com/rent/"
+  - "https://www.boj.or.jp/en/statistics/dl/depo/index.htm/"
+  - "https://www.jpx.co.jp/"
+  - "https://www.e-miki.com/"
+  - "https://www.boj.or.jp/"
+citeSources:
+  - label: "JNTO 방일 외래객 통계 (인바운드 관광객 추이), 2026-03"
+    url: "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+    portal: "https://www.jnto.go.jp/"
+  - label: "JPX J-REIT 월간 리포트 (호텔 섹터 RevPAR 및 수익률 통계), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "三鬼商事 도쿄 오피스 빌딩 시장 분석 (도심 5구 공실률 및 임대료), 2026-03"
+    url: "https://www.e-miki.com/rent/"
+    portal: "https://www.e-miki.com/"
+  - label: "BOJ Interest Rate Statistics (정책금리 및 시장 금리 지표), 2026-04"
+    url: "https://www.boj.or.jp/en/statistics/dl/depo/index.htm/"
+    portal: "https://www.boj.or.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
@@ -26,7 +46,7 @@ references:
 ---
 ## 1. 회복의 정의를 먼저 맞춰야 합니다
 
-코로나 이후 호텔 리츠와 오피스 리츠를 비교할 때 가장 흔하게 빠지는 함정은 **주가 반등**과 **펀더멘털 정상화**를 혼동하는 것입니다. 제가 2023년 초부터 이 두 섹터를 나란히 추적하며 가장 인상 깊게 보았던 지점은, 호텔 리츠의 주가는 이미 바닥을 치고 눈에 띄게 반등하고 있었음에도 실제 객실 점유율은 여전히 60% 미만의 낮은 수준에 머물러 있었다는 괴리였습니다. 
+코로나 이후 호텔 리츠와 오피스 리츠를 비교할 때 가장 흔하게 빠지는 함정은 **주가 반등**과 **펀더멘털 정상화**를 혼동하는 것입니다. 제가 2023년 초부터 이 두 섹터를 나란히 추적하며 가장 인상 깊게 보았던 지점은, 호텔 리츠의 주가는 이미 바닥을 치고 눈에 띄게 반등하고 있었음에도 객실 운영 지표는 팬데믹 충격의 후유증에서 즉시 벗어나지 못했다는 괴리였습니다.
 
 이 차이가 중요한 이유는 호텔은 ADR(평균 객실 단가)과 점유율을 통해 **매일** 매출을 재가격화하지만, 오피스는 완전히 다른 시계로 움직이기 때문입니다. 임대차 만기 스케줄, 임차인 신용 사이클, 인센티브 재협상 시점 등 오피스 시장만의 운영 레이어를 분해하지 않으면, 이러한 섹터 비교는 자칫 헤드라인 소음에 휘둘리기 쉽습니다.
 
@@ -34,7 +54,7 @@ references:
 
 ## 2. 호텔: 높은 탄력만큼 높은 변동성을 견뎌야 합니다
 
-호텔 J-REIT 섹터는 확실히 더 드라마틱한 회복 곡선을 그렸습니다. 2025년 기준 일본 인바운드 관광객은 약 **4,270만 명**에 달하며 2019년의 기록을 훌쩍 넘어섰습니다. 제 주변의 일본 지인들이나 동종 업계 사람들을 봐도 도심 호텔 예약이 얼마나 힘들어졌는지 피부로 느끼고 있다고 합니다. 이러한 수요의 쓰나미는 호텔 운영사들에게 기록적인 RevPAR(객실당 매출)를 안겨주었고, JHR(Japan Hotel REIT) 같은 경우 2025 회계연도에 전년 대비 무려 **14.3%의 RevPAR 증가**라는 성적표를 내놓기도 했습니다.
+호텔 J-REIT 섹터는 확실히 더 드라마틱한 회복 곡선을 그렸습니다. 2025년 기준 일본 인바운드 관광객은 약 **4,270만 명**에 달하며 2019년의 기록을 훌쩍 넘어섰습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 제 주변의 일본 지인들이나 동종 업계 사람들을 봐도 도심 호텔 예약이 얼마나 힘들어졌는지 피부로 느끼고 있다고 합니다. 이러한 수요의 쓰나미는 호텔 운영사들에게 기록적인 RevPAR(객실당 매출)를 안겨주었고, JHR(Japan Hotel REIT) 같은 경우 2025 회계연도에 전년 대비 무려 **14.3%의 RevPAR 증가**<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>라는 성적표를 내놓기도 했습니다.
 
 하지만 제가 보기에 이러한 헤드라인 숫자 뒤에는 우리가 주의 깊게 봐야 할 구조적 뉘앙스가 있습니다.
 
@@ -48,7 +68,7 @@ references:
 
 오피스 J-REIT 섹터는 호텔만큼 헤드라인이 화려하지는 않지만, 인컴을 중시하는 포트폴리오 입장에서 보면 훨씬 더 묵직하고 강건한 회복세를 보여주고 있습니다. 
 
-최근 리서치 결과들을 보면 도쿄 Grade A 오피스의 공실률은 2025년 중반 기준 **4년 만에 처음으로 2% 미만**으로 떨어졌습니다. 실제 업무 현장에서 미팅을 해봐도 '오피스로의 복귀(Return to office)' 트렌드는 이제 거스를 수 없는 흐름으로 안착한 느낌입니다. 
+최근 리서치 결과들을 보면 도쿄 Grade A 오피스의 공실률은 2025년 중반 기준 **4년 만에 처음으로 2% 미만**으로 떨어졌습니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 실제 업무 현장에서 미팅을 해봐도 '오피스로의 복귀(Return to office)' 트렌드는 이제 거스를 수 없는 흐름으로 안착한 느낌입니다. 
 
 오피스 섹터에서 제가 특히 주목하는 다이나믹은 다음과 같습니다.
 
@@ -61,8 +81,8 @@ references:
 
 | 변수 | 호텔에 미치는 영향 | 오피스에 미치는 영향 | 데이터 출처 |
 |------|-------------------|-------------------|----------|
-| **BOJ 금리 경로** | 차입 비용 상승, 캡레이트 압박 | 이자 비용 증가, 임차인 지급 여력 | [BOJ](https://www.boj.or.jp/en/statistics/index.htm/) |
-| **관광 트렌드** | RevPAR의 직접적 동력 | 인근 리테일 및 식음료 시너지 | [JNTO](https://www.jnto.go.jp/) |
+| **BOJ 금리 경로** | 차입 비용 상승, 캡레이트 압박 | 이자 비용 증가, 임차인 지급 여력 | [BOJ](https://www.boj.or.jp/en/statistics/index.htm/)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
+| **관광 트렌드** | RevPAR의 직접적 동력 | 인근 리테일 및 식음료 시너지 | [JNTO](https://www.jnto.go.jp/)<sup class="source-ref"><a href="#source-1">1</a></sup> |
 | **신용 사이클** | 고객 소비 성향, 단가 탄력성 | 갱신 위험, 공실 발생 여부 | [FSA](https://www.fsa.go.jp/en/) |
 | **공급 파이프라인** | 신규 경쟁자 출현 여부 | 대체 원가, 공실 흡수 속도 | [MLIT](https://www.mlit.go.jp/en/) |
 

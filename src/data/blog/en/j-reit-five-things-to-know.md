@@ -17,6 +17,27 @@ sources:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.nli-research.co.jp/"
   - "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/outline/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.nli-research.co.jp/report/detail/id=68694"
+  - "https://www.jpx.co.jp/"
+  - "https://www.boj.or.jp/"
+citeSources:
+  - label: "JPX J-REIT Market Outline (Number of Listed Funds), 2023-12"
+    url: "https://www.jpx.co.jp/equities/products/reits/outline/index.html"
+    portal: "https://www.jpx.co.jp/"
+  - label: "JPX J-REIT Monthly Report (Dividend Yields), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "NLI Research J-REIT Long-term Yield Comparison (2021-08 snapshot), 2021-09"
+    url: "https://www.nli-research.co.jp/report/detail/id=68694"
+    portal: "https://www.nli-research.co.jp/"
+  - label: "JPX Real Estate Index (TSE REIT Index Trend), 2026-04"
+    url: "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
+    portal: "https://www.jpx.co.jp/"
+  - label: "BOJ Statistics (10-year JGB Yield), 2026-04"
+    url: "https://www.boj.or.jp/en/statistics/index.htm/"
+    portal: "https://www.boj.or.jp/"
 references:
   - "https://www.japan-reit.com/"
   - "https://j-reit.jp/en/"
@@ -30,7 +51,7 @@ For a while, there was an investment trend led by retail investors focusing heav
 
 ## 1. What is J-REIT Investment?
 
-Japan's Real Estate Investment Trusts (REITs) are similar to those in the US, with major Japanese corporations participating in the market. As of 2023, there are 41 REIT funds in Japan, forming the largest real estate investment trust fund market in Asia. On a global scale, it ranks second only behind the United States.
+Japan's Real Estate Investment Trusts (REITs) are similar to those in the US, with major Japanese corporations participating in the market. As of 2023, there are 41 REIT funds in Japan<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>, forming the largest real estate investment trust fund market in Asia. On a global scale, it ranks second only behind the United States.
 
 In 2000, the Japanese government amended the "Investment Trust Act" into the "Act on Investment Trusts and Investment Corporations," allowing the funds raised by investment trusts to be used for real estate investments. This established the legal status of real estate investment trusts in Japan.
 
@@ -50,7 +71,7 @@ Investing in Japanese Real Estate Investment Trusts (REITs) presents several ben
 1. **Market Accessibility**: REITs allow investors to access a diverse portfolio of real estate assets that might be difficult to achieve through direct property ownership.
 2. **Liquidity**: Unlike physical real estate, REITs are traded on the stock exchange and can be bought or sold at any time, providing investors with ultimate liquidity.
 3. **Alternative to Property Ownership**: REITs offer a way to invest in real estate without the burden of managing the property or paying direct property taxes.
-4. **High Dividend Yield**: Generally, REITs offer high dividend yields, which can provide investors with a stable income stream.
+4. **High Dividend Yield**: Generally, REITs offer high dividend yields (historically 3–4% yield range)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>, which can provide investors with a stable income stream.
 5. **Low Minimum Capital Requirement**: Investing in REITs requires relatively low capital input, making them accessible to a broad spectrum of investors.
 
 The fact that there is a strong ally named the Bank of Japan (BOJ) elevates the attractiveness of investing in J-REITs. The BOJ has been increasing its investment scale in listed stocks. Even during the crisis of the COVID-19 pandemic in 2020, they expanded their REIT purchasing scale. Considering the abysmal interest rates of Japanese government bonds, it is highly likely that the BOJ's scale of investment in listed stocks and REITs will continue to grow.
@@ -98,9 +119,9 @@ This is not a forecast. It is a transparency template so readers can challenge e
 
 _Method note: each bar is the arithmetic sum of the scenario inputs shown above. This chart is an educational worksheet, not a performance promise._
 
-According to research conducted by the [Nissei Basic Research Institute](https://www.nli-research.co.jp/) (NLI Research), as of late August **2021**, the J-REIT cumulative return over the prior 20 years was **416%** (annualized at approximately **8.6%**). During the same period, TOPIX rose by only 166%—a data point that illustrates the long-run income compounding power of J-REITs.
+According to research conducted by the [Nissei Basic Research Institute](https://www.nli-research.co.jp/) (NLI Research), as of late August **2021**, the J-REIT cumulative return over the prior 20 years was **416%** (annualized at approximately **8.6%**)<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>. During the same period, TOPIX rose by only 166%—a data point that illustrates the long-run income compounding power of J-REITs.
 
-> **Important context (2022–2025):** The 2021 figures reflect a period of near-zero interest rates and BOJ REIT purchases. Since then, BOJ rate normalization has materially changed the environment. In 2023–2024, J-REITs significantly underperformed TOPIX; the H1 2024 total return (dividends included) was approximately **−2.4%** amid rate-hike anxiety. As of April 2026, the TSE REIT Index stands at roughly **1,916 points**, and the spread over the 10-year JGB (~2.43%) has compressed to ~200–250 bps—below the historical average of 250–300 bps. For current index data, refer to [JPX J-REIT Index](https://www.jpx.co.jp/markets/indices/real-estate/index.html).
+> **Important context (2022–2025):** The 2021 figures reflect a period of near-zero interest rates and BOJ REIT purchases. Since then, BOJ rate normalization has materially changed the environment. In 2023–2024, J-REITs significantly underperformed TOPIX; the H1 2024 total return (dividends included) was approximately **−2.4%** amid rate-hike anxiety. As of April 2026, the TSE REIT Index stands at roughly **1,916 points**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>, and the spread over the 10-year JGB (~2.43%)<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> has compressed to ~200–250 bps—below the historical average of 250–300 bps. For current index data, refer to [JPX J-REIT Index](https://www.jpx.co.jp/markets/indices/real-estate/index.html).
 
 Over the 5 years ending August 2021, the return was 43%—lower than TOPIX over that shorter horizon but supported by consistent dividend distributions. The key takeaway is that long-run J-REIT performance has historically been driven by income compounding rather than capital appreciation alone—a structural advantage that remains, but must now be weighed against a tighter financing environment.
 

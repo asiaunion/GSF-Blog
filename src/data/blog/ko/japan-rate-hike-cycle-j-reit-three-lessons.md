@@ -17,6 +17,26 @@ sources:
   - "https://www.mof.go.jp/english/"
   - "https://www.jpx.co.jp/english/"
   - "https://www.ares.or.jp/en/"
+  - "https://www.boj.or.jp/en/mops/outline/index.htm/"
+  - "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+  - "https://www.jpx.co.jp/"
+  - "https://www.boj.or.jp/"
+  - "https://www.mof.go.jp/"
+citeSources:
+  - label: "JPX J-REIT 월간 리포트 (NAV 및 배당 채널), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "BOJ Outline of Monetary Policy (정책금리 경로), 2026-03"
+    url: "https://www.boj.or.jp/en/mops/outline/index.htm/"
+    portal: "https://www.boj.or.jp/"
+  - label: "MOF JGB Interest Rate Statistics (10년물 국채 금리), 2026-04"
+    url: "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+    portal: "https://www.mof.go.jp/"
+  - label: "JPX J-REIT Market Reports (TSE REIT 지수), 2026-04"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+    portal: "https://www.jpx.co.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
@@ -31,7 +51,7 @@ J-REIT는 금리라는 파도가 밀려올 때 두 가지 채널에서 영향을
 
 첫 번째는 **밸류에이션 채널입니다.** 금리가 오르면 미래에 벌어들일 돈의 현재 가치를 깎는 '할인율'이 높아집니다. 자연스레 리츠의 자산 가치인 NAV가 압박을 받게 되죠. 하지만 이건 이야기의 절반에 불과합니다.
 
-두 번째는 제가 더 중요하게 보는 **자금 조달 채널입니다.** J-REIT는 남의 돈을 빌려서 레버리지를 일으키는 구조입니다. 이자 비용이 늘어난다는 건 배당으로 줄 돈이 줄어든다는 뜻이기도 하죠. 하지만 모든 리츠가 똑같이 고통받지는 않습니다. 고정금리 비율이 얼마나 높은지, 대출 만기가 언제 몰려 있는지, 그리고 은행과의 관계가 얼마나 끈끈한지에 따라 어떤 리츠는 태풍 속에서도 평온하고, 어떤 리츠는 돛이 찢어지는 고통을 겪기도 합니다. 
+두 번째는 제가 더 중요하게 보는 **자금 조달 채널입니다.**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> J-REIT는 남의 돈을 빌려서 레버리지를 일으키는 구조입니다. 이자 비용이 늘어난다는 건 배당으로 줄 돈이 줄어든다는 뜻이기도 하죠. 하지만 모든 리츠가 똑같이 고통받지는 않습니다. 고정금리 비율이 얼마나 높은지, 대출 만기가 언제 몰려 있는지, 그리고 은행과의 관계가 얼마나 끈끈한지에 따라 어떤 리츠는 태풍 속에서도 평온하고, 어떤 리츠는 돛이 찢어지는 고통을 겪기도 합니다. 
 
 결국 리츠 투자의 성패는 금리라는 비용 상승을 **'임대료 상승'**으로 얼마나 빠르게 전가할 수 있느냐에서 갈립니다.
 
@@ -44,9 +64,9 @@ J-REIT는 금리라는 파도가 밀려올 때 두 가지 채널에서 영향을
 
 그때는 금리 곡선이 완만하게 우상향하는 '스티프닝' 상태였기 때문입니다. 단기 금리는 낮고 장기 금리는 적당히 높아서, 리츠가 싸게 빌려 비싸게 운용하는 구조를 유지할 수 있었습니다. 진짜 문제는 금리 자체가 아니라, 글로벌 금융 위기의 전조로 금리 곡선이 평평해지고 신용 스프레드가 벌어지면서 터졌습니다. 지수가 정점에서 바닥까지 무려 **60%나 빠졌던** 아픈 기억이 우리에게 가르쳐 주는 건, **금리가 오르는 이유와 그 속도, 그리고 조달 시장의 심리**를 함께 읽어야 한다는 것입니다.
 
-우리가 지금 겪고 있는 2024\~2026 정상화 국면은 매우 점진적이지만 **멈추지 않는** 경로를 밟고 있습니다. BOJ는 2024년 7월 0.25%, 2025년 초 0.50%, 그리고 2026년 초에는 **0.75%**까지 올렸습니다. TSE REIT 지수는 2026년 4월 중순 기준 약 **1,916포인트**로, 주식 대비 약세이지만 위기 수준의 폭락은 피했습니다. 10년물 국채 금리는 **약 2.43%**까지 치솟아—10년 이상 보지 못했던 수준입니다.
+우리가 지금 겪고 있는 2024\~2026 정상화 국면은 매우 점진적이지만 **멈추지 않는** 경로를 밟고 있습니다. BOJ는 2024년 7월 0.25%, 2025년 초 0.50%, 그리고 2026년 초에는 **0.75%**까지 올렸습니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> TSE REIT 지수는 2026년 4월 중순 기준 약 **1,916포인트**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>로, 주식 대비 약세이지만 위기 수준의 폭락은 피했습니다. 10년물 국채 금리는 **약 2.43%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>까지 치솟아—10년 이상 보지 못했던 수준입니다.
 
-금리 곡선이 완만한 스티프닝을 유지하고 있어 시장이 이 인상을 소화할 수 있었지만, 장기 금리의 빠른 상승(10Y JGB가 2024년 중반 ~1.0%에서 2026년 4월 ~2.43%로)은 과거 스트레스 선행 지표와 닮아 있어 긴장을 늦출 수 없습니다. 제가 늘 모니터링하는 [BOJ 통계](https://www.boj.or.jp/en/statistics/index.htm/) 속의 **장단기 금리차(2년물과 10년물 스프레드)**가 좁아지기 시작한다면, 그때는 조심해야 할 신호라고 생각합니다.
+금리 곡선이 완만한 스티프닝을 유지하고 있어 시장이 이 인상을 소화할 수 있었지만, 장기 금리의 빠른 상승(10Y JGB가 2024년 중반 ~1.0%에서 2026년 4월 ~2.43%로)은 과거 스트레스 선행 지표와 닮아 있어 긴장을 늦출 수 없습니다. 제가 늘 모니터링하는 [BOJ 통계](https://www.boj.or.jp/en/statistics/index.htm/) 속의 **장단기 금리차(2년물과 10년물 스프레드)**<sup class="source-ref"><a href="#source-3">3</a></sup>가 좁아지기 시작한다면, 그때는 조심해야 할 신호라고 생각합니다.
 
 ## 3. 교훈 2: 위기 때 실력이 드러나는 건 '부채의 품질'입니다
 

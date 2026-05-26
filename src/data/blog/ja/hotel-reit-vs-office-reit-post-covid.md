@@ -18,6 +18,26 @@ sources:
   - "https://www.jnto.go.jp/"
   - "https://www.ares.or.jp/en/"
   - "https://www.cbre.co.jp/en/"
+  - "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.e-miki.com/rent/"
+  - "https://www.boj.or.jp/en/statistics/dl/depo/index.htm/"
+  - "https://www.jpx.co.jp/"
+  - "https://www.e-miki.com/"
+  - "https://www.boj.or.jp/"
+citeSources:
+  - label: "JNTO 訪日外客統計 (インバウンド観光客推移), 2026-03"
+    url: "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+    portal: "https://www.jnto.go.jp/"
+  - label: "JPX J-REIT 月次レポート (ホテルセクターRevPAR・利回り), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "三鬼商事 東京オフィス市場データ (オフィス空室率推移), 2026-03"
+    url: "https://www.e-miki.com/rent/"
+    portal: "https://www.e-miki.com/"
+  - label: "日本銀行 統計資料 (政策金利・イールドカーブ指標), 2026-04"
+    url: "https://www.boj.or.jp/en/statistics/dl/depo/index.htm/"
+    portal: "https://www.boj.or.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
@@ -26,7 +46,7 @@ references:
 ---
 ## 1. まず「回復」の定義を合わせます
 
-コロナ後のホテルREITとオフィスREITを比較する際に最も多い落とし穴は、**投資口価格の反発**と**ファンダメンタルズの正常化**を混同することです。2023年初頭に両セクターを並行追跡し始めた時、最も印象的だったのは、ホテルREITの価格がすでに反発しているにもかかわらず、多くの物件は依然として稼働率60%未満にとどまっていたという乖離でした。
+コロナ後のホテルREITとオフィスREITを比較する際に最も多い落とし穴は、**投資口価格の反発**と**ファンダメンタルズの正常化**を混同することです。2023年初頭に両セクターを並行追跡し始めた時、最も印象的だったのは、ホテルREITの価格がすでに反発しているにもかかわらず、客室運営の指標はパンデミック・ショックをすぐには消化しきれていなかったという乖離でした。
 
 この区別が重要なのは、ホテルがADR（平均客室単価）と稼働率を通じて**日次で**収益を再価格化するのに対し、オフィスは全く異なる時計で動くからです——賃貸借満期スケジュール、テナント信用サイクル、インセンティブ再交渉のタイミングなど。これらの運営レイヤーを分解せずにセクター比較を行えば、ヘッドラインのノイズに過ぎません。
 
@@ -34,7 +54,7 @@ references:
 
 ## 2. ホテル：高い弾力性、高いボラティリティ
 
-ホテルJ-REITセグメントはより劇的な回復を描きました。2025年の日本インバウンド観光客は約**4,270万人**に達し、2019年の3,190万人という従来の記録を大幅に上回りました。この需要の津波はホテルオペレーターに記録的なRevPARをもたらし、JHR（ジャパン・ホテル・リート投資法人）は2025年度の変動賃料ポートフォリオで前年比**14.3%のRevPAR増加**を報告しています。
+ホテルJ-REITセグメントはより劇的な回復を描きました。2025年の日本インバウンド観光客は約**4,270万人**に達し、2019年の3,190万人という従来の記録を大幅に上回りました。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>この需要の津波はホテルオペレーターに記録的なRevPARをもたらし、JHR（ジャパン・ホテル・リート投資法人）は2025年度の変動賃料ポートフォリオで前年比**14.3%のRevPAR増加**<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>を報告しています。
 
 しかし、ヘッドラインの数字の裏には重要な構造的ニュアンスがあります：
 
@@ -49,7 +69,7 @@ references:
 
 オフィスJ-REITセクターはヘッドラインでは地味ですが、インカム重視のポートフォリオに対しては構造的により強固な回復ストーリーを示しています。
 
-CBRE JAPANのリサーチによると、東京グレードAオフィス空室率は2025年半ばに**4年ぶりに2%を下回りました**。東京都心5区の全グレード合計では約2.5～3.5%まで圧縮され、本質的な「リターン・トゥ・オフィス」トレンドを反映しています。
+CBRE JAPANのリサーチによると、東京グレードAオフィス空室率は2025年半ばに**4年ぶりに2%を下回りました**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>。東京都心5区の全グレード合計では約2.5～3.5%まで圧縮され、本質的な「リターン・トゥ・オフィス」トレンドを反映しています。
 
 オフィスセクターで追跡している主要なダイナミクス：
 
@@ -63,8 +83,8 @@ CBRE JAPANのリサーチによると、東京グレードAオフィス空室率
 
 | 変数 | ホテルへの影響 | オフィスへの影響 | 一次ソース |
 |------|-------------|-------------|----------|
-| BOJ政策金利パス | リファイナンスコスト、キャップレート圧力 | リファイナンスコスト、テナント支払余力 | [BOJ統計](https://www.boj.or.jp/en/statistics/index.htm/) |
-| インバウンド観光トレンド | RevPAR直接ドライバー | F&B・リテール隣接効果 | [JNTO](https://www.jnto.go.jp/) |
+| BOJ政策金利パス | リファイナンスコスト、キャップレート圧力 | リファイナンスコスト、テナント支払余力 | [BOJ統計](https://www.boj.or.jp/en/statistics/index.htm/)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
+| インバウンド観光トレンド | RevPAR直接ドライバー | F&B・リテール隣接効果 | [JNTO](https://www.jnto.go.jp/)<sup class="source-ref"><a href="#source-1">1</a></sup> |
 | テナント・消費者信用サイクル | 稼働品質、ADR弾力性 | 更新リスク、空室 | [FSA](https://www.fsa.go.jp/en/) |
 | 建設・供給パイプライン | 新規競合、代替原価フロア | 空室吸収、賃料上限 | [MLIT](https://www.mlit.go.jp/en/) |
 
