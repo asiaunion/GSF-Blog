@@ -118,4 +118,15 @@ claims:
     verifier: Cursor
     notes: "1981新耐震 on MLIT housing page; ‘震度7 no collapse’ is simplified reader framing — see earthquake cluster for hazard maps."
 
+  - id: ch7-visa-requirements
+    koQuote: "고도전문직(고도인재) — 포인트 70점 이상 시 3년, 80점 이상 시 1년 만에 영주권"
+    values: ["70점", "3년", "80점", "1년", "영주권"]
+    primaryUrl: https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html
+    portalUrl: https://www.moj.go.jp/isa/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "Replaced broken isa.go.jp/ko/.../nyuukokukanri07_00016 (301→ISA home) with MOJ HSP point-system index; 70pt/3yr and 80pt/1yr PR shortening per linked PDFs on page."
+
+
 

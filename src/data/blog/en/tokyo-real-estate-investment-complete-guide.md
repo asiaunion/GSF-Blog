@@ -37,6 +37,8 @@ sources:
   - "https://www.nta.go.jp/"
   - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
   - "https://www.mlit.go.jp/"
+  - "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
+  - "https://www.moj.go.jp/isa/"
 citeSources:
   - label: "REINS Market Watch, Apr 2026"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -76,6 +78,9 @@ citeSources:
   - label: "MLIT New Seismic Design Standard & Building Regulation History"
     url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
     portal: "https://www.mlit.go.jp/"
+  - label: "ISA Highly Skilled Professional (HSP) point system & PR eligibility"
+    url: "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
+    portal: "https://www.moj.go.jp/isa/"
 ---
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
@@ -191,7 +196,11 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 
 ## Chapter 7. Visas & Residency
 
-No visa needed to *own*. To **live and manage**: Business Manager Visa (¥30M capital post-2025 reform), HSP (80+ points = PR in 1 year), or 10-year residence path.
+No visa needed to *own*. To **live and manage** locally, you need a residence status.
+
+- **Business Manager Visa** — Post–Oct 2025 reform: roughly ¥30M capital plus language requirements
+- **Highly Skilled Professional (HSP)** — **70+ points**: PR eligible after 3 years; **80+ points**: PR eligible after **1 year**<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
+- **10-year continuous residence** — PR route with tax compliance
 
 > 📖 [Visa & PR Paths 2025](/posts/japan-visa-paths-permanent-business-manager-asset-holders) | [Seoul & Tokyo as One Market](/posts/reading-korea-japan-markets-together)
 

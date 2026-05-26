@@ -26,6 +26,7 @@
 | H10 | 도심 메가 재개발 완공 타임라인(渋谷 2028–29 등) | 2028~2030년 | [Tokyo Metro urban regeneration PDF](https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02) | [x] | Chapter 4 |
 | H11 | 건물 정액법 도입(2016년 4월) 및 중고용 감가상각 0.2배율 | 2016년 4월 / 0.2 | [Japan National Tax Agency (NTA) depreciation table](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm) | [x] | Chapter 5 |
 | H12 | 신내진기준(1981년) 및 진도 7 도괴 방지 설계 | 1981년 / 7 | [MLIT New Seismic Design Standard & Building Regulation History](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html) | [x] | Chapter 6 |
+| H13 | 고도전문직 비자 포인트별 영주권 완화 요건(70점 3년 / 80점 1년) | 70점 / 3년 / 80점 / 1년 | [ISA Highly Skilled Professional point system (MOJ)](https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html) | [x] | Chapter 7 |
 
 > Auto-extracted rows below remain for T1 coverage; headline edits use manifest URLs above.
 
@@ -128,6 +129,7 @@
 | https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02 | gov | [x] |
 | https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm | gov | [x] |
 | https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html | gov | [x] |
+| https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html | gov | [x] |
 
 **references ⊆ sources**: [x] confirmed
 
