@@ -33,6 +33,10 @@ sources:
   - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
   - "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
   - "https://www.toshiseibi.metro.tokyo.lg.jp/"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
+  - "https://www.mlit.go.jp/"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -66,6 +70,12 @@ citeSources:
   - label: "東京都 都市再生ステップアップ（渋谷ほか）事業資料, 2025 PDF"
     url: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
     portal: "https://www.toshiseibi.metro.tokyo.lg.jp/"
+  - label: "国税庁 減価償却資産の耐用年数表および改正公示"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "国土交通省 新耐震基準の歴史および建築基準法改正公示"
+    url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
+    portal: "https://www.mlit.go.jp/"
 ---
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
@@ -77,7 +87,7 @@ citeSources:
 
 この上昇を支える3つの柱があります。
 
-1. **海外住所購入者の増加** — 国土交通省の調査によると、2025年上半期における東京23区の新築マンション購入者に占める海外住所者の割合は**3.5%**、都心6区では**7.5%**と、2024年（3.2%）から上昇しています。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 歴史的な円安（JPY/KRW 800〜900圏）が韓国・台湾・シンガポールからの資金流入を後押しし続けています。
+1. **海外住所購入者の増加** — 国土交通省の調査によると、2025年上半期における東京23区の新築マンション購入者に占める海外住所者の割合は**3.5%**、都心6区では**7.5%**と、2024年（3.2%）から上昇しています。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 歴史的な円安（100円あたり約800〜900ウォン、JPY/KRW）が韓国・台湾・シンガポールからの資金流入を後押しし続けています。
 2. **構造的な供給不足** — 都心部の新築マンション供給が慢性的にタイトで、価格の下支えとなっています。
 3. **賃貸需要の構造的な底堅さ** — 三鬼商事のQ1 2026データでは、都心5区のオフィス空室率は**2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>。港区・千代田区の小型住宅ユニットも、エリート需要の集中によって空室転換が構造的に遅い状態にあります。
 
@@ -155,7 +165,7 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 | 軽量鉄骨 | 19〜27年 |
 | RC / SRC | **47年** |
 
-2016年4月以降は**定額法**のみ。耐用年数超過の中古は**法定年数 × 0.2**で短縮償却可能です。
+2016年4月以降は**定額法**のみ。耐用年数超過の中古は**法定年数 × 0.2**で短縮償却可能です。<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
 
 ### 法人 vs 個人
 
@@ -171,8 +181,8 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 
 ## Chapter 6. リスク — 地震・為替・金利
 
-- **地震**: 1981年以降の新耐震基準物件は震度7でも倒壊しない設計です。地震保険は火災保険の30〜50%でカバーされます。
-- **為替**: JPY/KRW 800〜900圏のシナリオ分析が必須です。
+- **地震**: 1981年以降の新耐震基準物件は震度7でも倒壊しない設計です。地震保険は火災保険の30〜50%でカバーされます。<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup>
+- **為替**: 100円あたり約800〜900ウォン（JPY/KRW）圏のシナリオ分析が必須です。
 - **金利**: BOJの利上げサイクル入りですが、グローバル比では極めて緩やかです。
 
 > 📖 [東京 地震脆弱5エリア](/ja/posts/tokyo-earthquake-vulnerable-five-areas) | [円安時代の資産配分](/ja/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios) | [為替が揺れた時の3か条](/ja/posts/three-things-when-fx-shakes)

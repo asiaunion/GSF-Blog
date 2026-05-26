@@ -98,3 +98,24 @@ claims:
     verifier: Cursor
     notes: "AG URL /bosai/toshi_saikai/ was 404. PDF documents Shibuya step-up completions 2028–2029; other wards qualitative + cluster links."
 
+  - id: ch5-useful-life
+    koQuote: "2016년 4월 이후 건물은 정액법(定額法) 필수. 내용연수를 초과한 중고 건물은 법정내용연수 × 0.2로 단축 감가상각이 가능"
+    values: ["2016년 4월", "0.2"]
+    primaryUrl: https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm
+    portalUrl: https://www.nta.go.jp/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "NTA 2100: Heisei 28 (2016) buildings straight-line only; used-asset 0.2× useful life via related 2105/省令 — spot wording in cluster posts."
+
+  - id: ch6-seismic-standard
+    koQuote: "1981년 신내진기준(新耐震基準) 이후 건물은 진도 7에도 도괴하지 않도록 설계"
+    values: ["1981년", "7"]
+    primaryUrl: https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html
+    portalUrl: https://www.mlit.go.jp/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "1981新耐震 on MLIT housing page; ‘震度7 no collapse’ is simplified reader framing — see earthquake cluster for hazard maps."
+
+

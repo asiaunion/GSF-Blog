@@ -33,6 +33,10 @@ sources:
   - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
   - "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
   - "https://www.toshiseibi.metro.tokyo.lg.jp/"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
+  - "https://www.mlit.go.jp/"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -66,6 +70,12 @@ citeSources:
   - label: "도쿄도 도시재생 스텝업(渋谷 등) 사업 자료, 2025"
     url: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
     portal: "https://www.toshiseibi.metro.tokyo.lg.jp/"
+  - label: "일본 국세청(NTA) 감가상각·내용연수(定額法) 안내"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "일본 국토교통성(MLIT) 신내진기준(1981) 개요"
+    url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
+    portal: "https://www.mlit.go.jp/"
 ---
 > **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
 
@@ -77,7 +87,7 @@ citeSources:
 
 이 가격 랠리를 받치는 세 기둥이 있습니다.
 
-1. **해외 주소 매수자 증가** — 국토교통성(MLIT)에 따르면, 2025년 상반기 도쿄 23구 신축 맨션 매수자 중 해외 주소 보유자 비중은 **3.5%**, 도심 6구에서는 **7.5%**로 2024년(3.2%)보다 상승했습니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 역대급 엔저(JPY/KRW 800~900원대)가 한국·대만·싱가포르 자금을 계속 유입시키고 있습니다.
+1. **해외 주소 매수자 증가** — 국토교통성(MLIT)에 따르면, 2025년 상반기 도쿄 23구 신축 맨션 매수자 중 해외 주소 보유자 비중은 **3.5%**, 도심 6구에서는 **7.5%**로 2024년(3.2%)보다 상승했습니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 역대급 엔저(100엔당 JPY/KRW 800~900원대)가 한국·대만·싱가포르 자금을 계속 유입시키고 있습니다.
 2. **공급 부족** — 도심 신축 맨션 공급이 구조적으로 타이트하여, 가격 하방을 탄탄히 지지합니다.
 3. **임대 수요의 구조적 견고함** — 三鬼商事 Q1 2026 데이터 기준 도심 5구 오피스 공실률은 **2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>. 미나토·치요다의 소형 주거 유닛도 엘리트 수요 집중으로 인해 공실 전환 속도가 구조적으로 느립니다.
 
@@ -190,7 +200,7 @@ citeSources:
 | RC(철근콘크리트) | **47년** |
 | SRC(철골철근콘크리트) | **47년** |
 
-2016년 4월 이후 건물은 **정액법(定額法)** 필수. 내용연수를 초과한 중고 건물은 **법정내용연수 × 0.2**로 단축 감가상각이 가능하여, 고소득자의 강력한 절세 수단이 됩니다.
+2016년 4월 이후 건물은 **정액법(定額法)** 필수. 내용연수를 초과한 중고 건물은 **법정내용연수 × 0.2**로 단축 감가상각이 가능하여, 고소득자의 강력한 절세 수단이 됩니다.<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
 
 ### 법인 vs 개인 명의
 
@@ -210,12 +220,12 @@ citeSources:
 어떤 투자든 리스크를 직시하는 것이 출발점입니다.
 
 ### 지진 리스크
-- 1981년 **신내진기준(新耐震基準)** 이후 건물은 진도 7에도 도괴하지 않도록 설계
+- 1981년 **신내진기준(新耐震基準)** 이후 건물은 진도 7에도 도괴하지 않도록 설계<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup>
 - 지진보험(地震保険)은 화재보험의 30\~50% 범위에서 가입 가능
 - 에리어별 리스크 편차가 큼 — 매립지·하천 인접 지역 주의
 
 ### 환율 리스크
-- JPY/KRW 800\~900원대 박스권에서의 시나리오 분석 필수
+- 100엔당 JPY/KRW 800\~900원대 박스권에서의 시나리오 분석 필수
 - 엔고 전환 시 환차익, 엔저 심화 시 추가 매수 기회로 양면 전략
 
 ### 금리 리스크
