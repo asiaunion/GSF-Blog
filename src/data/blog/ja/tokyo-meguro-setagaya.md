@@ -18,19 +18,29 @@ tags:
 sources:
   - "https://www.city.meguro.tokyo.jp/smph/kurashi/toukei/index.html"
   - "https://www.city.meguro.tokyo.jp/"
+  - "https://www.city.setagaya.lg.jp/01110/5199.html"
+  - "https://www.city.setagaya.lg.jp/"
   - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
   - "https://www.soumu.go.jp/"
-  - "https://www.lifull.com/homes/"
+  - "https://www.homes.co.jp/mansion/chuko/tokyo/"
+  - "https://www.homes.co.jp/chintai/tokyo/"
+  - "https://www.homes.co.jp/"
+  - "https://suumo.jp/chintai/tokyo/"
+  - "https://suumo.jp/"
 citeSources:
-  - label: "目黒区および世田谷区公式人口統計（2026年前半）"
+  - label: "目黒区公式 住民基本台帳人口・外国人統計（2026年前半）"
     url: "https://www.city.meguro.tokyo.jp/smph/kurashi/toukei/index.html"
     portal: "https://www.city.meguro.tokyo.jp/"
+  - label: "世田谷区公式 住民基本台帳人口・外国人統計（2026年前半）"
+    url: "https://www.city.setagaya.lg.jp/01110/5199.html"
+    portal: "https://www.city.setagaya.lg.jp/"
   - label: "総務省 令和6年度 市町村税課税状況等の調（自治体別平均所得）"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
     portal: "https://www.soumu.go.jp/"
-  - label: "LIFULL HOME'SおよびSUUMO 東京23区マンション相場・賃料統計（2026年5月）"
-    url: "https://www.lifull.com/homes/"
-    portal: "https://www.lifull.com/homes/"
+  - label: "LIFULL HOME'S 東京中古・賃貸相場とSUUMO賃貸市場（2026年5月）"
+    url: "https://www.homes.co.jp/mansion/chuko/tokyo/"
+    secondaryUrl: "https://suumo.jp/chintai/tokyo/"
+    portal: "https://www.homes.co.jp/"
 ---
 静かで洗練された東京の日常を夢見るとき、私たちはまずどの街を思い浮かべるでしょうか。十中八九は、世田谷（Setagaya）と目黒（Meguro）を挙げることでしょう。しかし、実際に現地に住んでみたり、データを冷静に分析した投資家たちはよく知っています。この二つのエリアは、一見似ているようでいて、生活のリズムも投資としての魅力もまったく異なる「表裏一体の宇宙」であるという事実を。
 
@@ -65,11 +75,11 @@ citeSources:
 
 | サブエリア | ㎡単価（2025〜2026年） | 坪単価換算（約3.3㎡） |
 |---------|---------------------|-----------------|
-| 中目黒・青葉台 | 150〜230万ウォン/㎡ | 495〜760万ウォン/坪 |
-| 自由が丘・八雲 | 130〜190万ウォン/㎡ | 430〜630万ウォン/坪 |
-| 祐天寺・学芸大学 | 110〜160万ウォン/㎡ | 365〜530万ウォン/坪 |
-| 目黒駅周辺 | 140〜210万ウォン/㎡ | 460〜690万ウォン/坪 |
-| **区全体平均** | **約157万ウォン/㎡** | **約519万ウォン/坪**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 中目黒・青葉台 | 150〜230万円/㎡ | 495〜760万円/坪 |
+| 自由が丘・八雲 | 130〜190万円/㎡ | 430〜630万円/坪 |
+| 祐天寺・学芸大学 | 110〜160万円/㎡ | 365〜530万円/坪 |
+| 目黒駅周辺 | 140〜210万円/㎡ | 460〜690万円/坪 |
+| **区全体平均** | **約157万円/㎡** | **約519万円/坪**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 目黒区は人気の東急東横線（Tokyu Toyoko Line）沿いに強固な相場が形成されており、区内で「格安物件」を見つけることは事実上不可能に近いです。
 
@@ -81,13 +91,13 @@ citeSources:
 | 1K / 1DK | 8.6万〜14.0万円 |
 | 1LDK | 15.3万〜20.8万円 |
 | 2LDK | 24.3万〜29.9万円 |
-| 3LDK+ | 40万円〜<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 3LDK+ | 40万円〜<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 中目黒や目黒駅から徒歩5分圏内の駅近・築浅1LDKは、家賃が月25万円を超え、渋谷区の中位エリアに匹敵する水準に達します。
 
 ### 平均所得（Average Income）
 
-目黒区の納税義務者1人あたりの平均所得（Average Taxable Income）は、**約778.7万円**です。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> これは東京23区の中で千代田・港・渋谷・中央区に次ぐ**第5位**の超高所得エリアです。専門職の単身者や、共働きの高所得世帯であるパワーカップル（Power Couple）の比率が高い所得構造を反映しています。
+目黒区の納税義務者1人あたりの平均所得（Average Taxable Income）は、**約778.7万円**です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> これは東京23区の中で千代田・港・渋谷・中央区に次ぐ**第5位**の超高所得エリアです。専門職の単身者や、共働きの高所得世帯であるパワーカップル（Power Couple）の比率が高い所得構造を反映しています。
 
 ### 人口数
 
@@ -110,7 +120,7 @@ citeSources:
 
 ## 2. 世田谷区（世田谷）
 
-### 브랜드 포지셔닝 (Brand Positioning)
+### ブランドポジショニング
 
 世田谷区は、東京において「伝統的な高級住宅街」と「ファミリー」を象徴する代名詞です。23区の中で最も広い面積と最多の人口を抱え、まるで一つの独立した上質な「都市」のような落ち着いた佇まいを見せています。
 
@@ -124,11 +134,11 @@ citeSources:
 
 | サブエリア | ㎡単価（2025〜2026年） | 坪単価換算（約3.3㎡） |
 |---------|---------------------|-----------------|
-| 三軒茶屋・池尻大橋 | 110〜150万ウォン/㎡ | 365〜495万ウォン/坪 |
-| 二子玉川・用賀 | 90〜130万ウォン/㎡ | 300〜430万ウォン/坪 |
-| 下北沢・明大前 | 95〜125万ウォン/㎡ | 315〜415万ウォン/坪 |
-| 成城 | 80〜120万ウォン/㎡ | 265〜400万ウォン/坪 |
-| **区全体平均** | **約115万ウォン/㎡** | **約380万ウォン/坪**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 三軒茶屋・池尻大橋 | 110〜150万円/㎡ | 365〜495万円/坪 |
+| 二子玉川・用賀 | 90〜130万円/㎡ | 300〜430万円/坪 |
+| 下北沢・明大前 | 95〜125万円/㎡ | 315〜415万円/坪 |
+| 成城 | 80〜120万円/㎡ | 265〜400万円/坪 |
+| **区全体平均** | **約115万円/㎡** | **約380万円/坪**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 戸建て住宅の割合が非常に高い区ですが、近年は主要駅の駅周辺を中心に、新築および築浅のタワーマンションの価格上昇が際立っています。
 
@@ -140,25 +150,25 @@ citeSources:
 | 1K / 1DK | 7.1万〜11.2万円 |
 | 1LDK | 11.2万〜18.6万円 |
 | 2LDK | 13.4万〜25.6万円 |
-| 3LDK+ | 30万円〜<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 3LDK+ | 30万円〜<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 目黒区と比較して面積が非常に広いため、駅から徒歩10分以上の物件や少し内陸のエリアを選択することで、ファミリー向けの大広間物件をよりリーズナブルな家賃で見つけることができます。
 
 ### 平均所得（Average Income）
 
-世田谷区の納税義務者1人あたりの平均所得（Average Taxable Income）は、**約659.7万円**です。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 区全体の面積が広く多様な世帯が暮らしているため、平均値は目黒区を下回りますが、成城や田園調布に隣接する極一部の超高級エリアには、依然として大手企業の創業者や著名人、富裕層の大規模なコミュニティが存在しています。
+世田谷区の納税義務者1人あたりの平均所得（Average Taxable Income）は、**約659.7万円**です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 区全体の面積が広く多様な世帯が暮らしているため、平均値は目黒区を下回りますが、成城や田園調布に隣接する極一部の超高級エリアには、依然として大手企業の創業者や著名人、富裕層の大規模なコミュニティが存在しています。
 
 ### 人口数
 
 | 項目 | 数値 |
 |------|------|
-| 総人口 | **931,090人**（2026年4月1日現在）<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
+| 総人口 | **931,090人**（2026年4月1日現在）<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 | 人口密度 | 約16,000人/㎢ |
 | 最近の傾向 | 子どもの教育とゆとりある住環境を重視する、安定したアッパーミドル世帯の持続的な流入 |
 
 ### 外国人比率
 
-世田谷区の外国人住民登録者数は**31,177人**であり、総人口に対する比率は**約3.35％**です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 人口自体が23区内で最大規模であるため絶対数は多いものの、伝統的なファミリーエリアという特徴から、全体における外国人の割合は目黒区に比べて相対的に低めです。
+世田谷区の外国人住民登録者数は**31,177人**であり、総人口に対する比率は**約3.35％**です。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 人口自体が23区内で最大規模であるため絶対数は多いものの、伝統的なファミリーエリアという特徴から、全体における外国人の割合は目黒区に比べて相対的に低めです。
 
 ### 推奨ターゲット
 
@@ -173,15 +183,15 @@ citeSources:
 
 * **所得水準の格差（引き算による検証）：**
   目黒区の平均所得 **778.7万円**から世田谷区の平均所得 **659.7万円**を差し引いた所得差は、**119.0万円**です（778.7 - 659.7 = 119.0万円）。
-  *結果：* 目黒区の住民は世田谷区の住民に比べ、1人あたり年間約119万円（約18.0％）高い納税所得を有しています。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
+  *結果：* 目黒区の住民は世田谷区の住民に比べ、1人あたり年間約119万円（約18.0％）高い納税所得を有しています。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 * **人口規模の格差（割り算による検証）：**
   世田谷区の総人口 **931,090人**を目黒区の総人口 **283,913人**で割ると、**約3.28倍**という結果が得られます（931,090 ÷ 283,913 = 3.2794...倍）。
-  *結果：* 世田谷区は目黒区の3倍を超える人口と居住インフラを擁する、巨大なメガシティ（Megacity）です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+  *結果：* 世田谷区は目黒区の3倍を超える人口と居住インフラを擁する、巨大なメガシティ（Megacity）です。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 * **外国人比率の格差（差分の検証）：**
   目黒区の外国人比率 **4.42％**から世田谷区の外国人比率 **3.35％**を引くと、**1.07％p**の差が生じます（4.42 - 3.35 = 1.07%p）。
-  *結果：* 都心のオフィス街中心部への物理的な近さと、外資系ビジネスマンの圧倒的な選好度が、目黒区に高密度の外国人居住環境をもたらしていることを示しています。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+  *結果：* 都心のオフィス街中心部への物理的な近さと、外資系ビジネスマンの圧倒的な選好度が、目黒区に高密度の外国人居住環境をもたらしていることを示しています。<sup class="source-ref"><a href="#source-1">1</a></sup><sup class="source-ref"><a href="#source-2">2</a></sup>
 
 ### 主要統計比較表
 

@@ -18,19 +18,29 @@ tags:
 sources:
   - "https://www.city.meguro.tokyo.jp/smph/kurashi/toukei/index.html"
   - "https://www.city.meguro.tokyo.jp/"
+  - "https://www.city.setagaya.lg.jp/01110/5199.html"
+  - "https://www.city.setagaya.lg.jp/"
   - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
   - "https://www.soumu.go.jp/"
-  - "https://www.lifull.com/homes/"
+  - "https://www.homes.co.jp/mansion/chuko/tokyo/"
+  - "https://www.homes.co.jp/chintai/tokyo/"
+  - "https://www.homes.co.jp/"
+  - "https://suumo.jp/chintai/tokyo/"
+  - "https://suumo.jp/"
 citeSources:
-  - label: "Official Population Statistics of Meguro and Setagaya Wards (First Half of 2026)"
+  - label: "Meguro Ward official resident-register population statistics (H1 2026)"
     url: "https://www.city.meguro.tokyo.jp/smph/kurashi/toukei/index.html"
     portal: "https://www.city.meguro.tokyo.jp/"
-  - label: "Ministry of Internal Affairs and Communications: 2024 Municipal Tax Assessment Survey (Average Taxable Income)"
+  - label: "Setagaya Ward official resident-register population statistics (H1 2026)"
+    url: "https://www.city.setagaya.lg.jp/01110/5199.html"
+    portal: "https://www.city.setagaya.lg.jp/"
+  - label: "MIC 2024 municipal tax assessment survey (average taxable income by municipality)"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
     portal: "https://www.soumu.go.jp/"
-  - label: "LIFULL HOME'S and SUUMO Tokyo 23 Wards Mansion Market & Rental Stats (May 2026)"
-    url: "https://www.lifull.com/homes/"
-    portal: "https://www.lifull.com/homes/"
+  - label: "LIFULL HOME'S Tokyo used-mansion & rental market indices; SUUMO rental market (May 2026)"
+    url: "https://www.homes.co.jp/mansion/chuko/tokyo/"
+    secondaryUrl: "https://suumo.jp/chintai/tokyo/"
+    portal: "https://www.homes.co.jp/"
 ---
 When dreaming of a quiet and sophisticated daily life in Tokyo, which neighborhood comes to your mind first? In nine cases out of ten, people mention Setagaya or Meguro. However, investors who have actually lived here or analyzed the numbers closely know the truth. These two areas may look similar on the surface, but they are entirely different universes with contrasting paces of life and investment appeal.
 
@@ -69,7 +79,7 @@ When I walked through a quiet backstreet just slightly off the main riverside of
 | Jiyugaoka · Yakumo | 1.3–1.9 million yen | 4.3–6.3 million yen |
 | Yutenji · Gakugei-daigaku | 1.1–1.6 million yen | 3.65–5.3 million yen |
 | Meguro Station Area | 1.4–2.1 million yen | 4.6–6.9 million yen |
-| **Ward Average** | **Approx. 1.57 million yen** | **Approx. 5.19 million yen**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| **Ward Average** | **Approx. 1.57 million yen** | **Approx. 5.19 million yen**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 Meguro Ward commands formidable prices along the highly popular Tokyu Toyoko Line (東急東横線). Finding a "cheap deal" within this ward is virtually impossible.
 
@@ -87,7 +97,7 @@ Rents for a brand-new 1LDK near Nakameguro or Meguro Station easily climb above 
 
 ### Average Income per Taxpayer
 
-The average taxable income — the income base used for municipal tax assessments — per taxpayer in Meguro Ward is **approximately 7.787 million yen**.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> This ranks **5th** among all Tokyo 23 Wards, trailing only Chiyoda, Minato, Shibuya, and Chuo. It reflects a solid demographic of high-earning single professionals and dual-income power couples.
+The average taxable income — the income base used for municipal tax assessments — per taxpayer in Meguro Ward is **approximately 7.787 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This ranks **5th** among all Tokyo 23 Wards, trailing only Chiyoda, Minato, Shibuya, and Chuo. It reflects a solid demographic of high-earning single professionals and dual-income power couples.
 
 ### Population Dynamics
 
@@ -128,7 +138,7 @@ On a weekend afternoon, as I watched families walking toward the Tamagawa riverb
 | Futakotamagawa · Yoga | 0.9–1.3 million yen | 3.0–4.3 million yen |
 | Shimokitazawa · Meidaimae | 0.95–1.25 million yen | 3.15–4.15 million yen |
 | Seijo | 0.8–1.2 million yen | 2.65–4.0 million yen |
-| **Ward Average** | **Approx. 1.15 million yen** | **Approx. 3.8 million yen**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| **Ward Average** | **Approx. 1.15 million yen** | **Approx. 3.8 million yen**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 Although detached houses dominate the ward, the tsubo unit price — price per tsubo — of high-rise tower mansions near key transit hubs has been rising rapidly.
 
@@ -146,19 +156,19 @@ Compared to Meguro Ward, Setagaya's vast area means that if you are willing to w
 
 ### Average Income per Taxpayer
 
-The average taxable income — the taxable income base per taxpayer — in Setagaya Ward is **approximately 6.597 million yen**.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Because the ward covers a vast area with a highly diverse household demographic, the arithmetic mean is lower than Meguro's. However, exclusive luxury pockets like Seijo and areas bordering Den-en-chofu host massive enclaves of corporate owners, top executives, and celebrities.
+The average taxable income — the taxable income base per taxpayer — in Setagaya Ward is **approximately 6.597 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Because the ward covers a vast area with a highly diverse household demographic, the arithmetic mean is lower than Meguro's. However, exclusive luxury pockets like Seijo and areas bordering Den-en-chofu host massive enclaves of corporate owners, top executives, and celebrities.
 
 ### Population Dynamics
 
 | Item | Figure |
 |------|------|
-| Total Population | **931,090** (As of April 1, 2026)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
+| Total Population | **931,090** (As of April 1, 2026)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 | Population Density | Approx. 16,000 people / ㎢ |
 | Key Trend | Steady influx of middle-to-high-income families seeking quality education and spacious gardens |
 
 ### Expatriate Population Ratio
 
-The number of registered foreign residents in Setagaya Ward is **31,177**, which accounts for **approximately 3.35%** of the total population.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> While the absolute number is high due to Setagaya's massive total population, the overall proportion of expats is slightly lower than Meguro's, reflecting the more traditional residential nature of the ward.
+The number of registered foreign residents in Setagaya Ward is **31,177**, which accounts for **approximately 3.35%** of the total population.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> While the absolute number is high due to Setagaya's massive total population, the overall proportion of expats is slightly lower than Meguro's, reflecting the more traditional residential nature of the ward.
 
 ### Target Demographics
 
@@ -173,15 +183,15 @@ Comparing the core statistics of Meguro and Setagaya wards reveals their distinc
 
 * **Taxable Income Gap (Subtraction Verification):**
   Subtracting Setagaya Ward's average taxable income of **6.597 million yen** from Meguro Ward's average taxable income of **7.787 million yen** yields an income gap of **1.190 million yen** (7.787 - 6.597 = 1.190 million yen).
-  *Result:* Taxpayers in Meguro Ward enjoy an average taxable income that is approximately 1.19 million yen (about 18.0%) higher than those in Setagaya.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
+  *Result:* Taxpayers in Meguro Ward enjoy an average taxable income that is approximately 1.19 million yen (about 18.0%) higher than those in Setagaya.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 * **Population Scale Gap (Division Verification):**
   Dividing Setagaya's total population of **931,090** by Meguro's total population of **283,913** yields a ratio of **approximately 3.28 times** (931,090 ÷ 283,913 = 3.2794... times).
-  *Result:* Setagaya Ward is a massive mega-city with a population and residential market over 3.2 times larger than Meguro's.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+  *Result:* Setagaya Ward is a massive mega-city with a population and residential market over 3.2 times larger than Meguro's.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 * **Expat Ratio Difference (Direct Comparison):**
   Subtracting Setagaya's foreign resident ratio of **3.35%** from Meguro's foreign resident ratio of **4.42%** yields a difference of **1.07 percentage points** (4.42 - 3.35 = 1.07%p).
-  *Result:* Meguro Ward's closer proximity to downtown employment hubs and its strong preference among multinational corporate executives translate into a slightly denser expat-friendly ecosystem.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+  *Result:* Meguro Ward's closer proximity to downtown employment hubs and its strong preference among multinational corporate executives translate into a slightly denser expat-friendly ecosystem.<sup class="source-ref"><a href="#source-1">1</a></sup><sup class="source-ref"><a href="#source-2">2</a></sup>
 
 ### Summary Comparison Table
 

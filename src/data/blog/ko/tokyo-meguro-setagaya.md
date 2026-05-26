@@ -18,19 +18,29 @@ tags:
 sources:
   - "https://www.city.meguro.tokyo.jp/smph/kurashi/toukei/index.html"
   - "https://www.city.meguro.tokyo.jp/"
+  - "https://www.city.setagaya.lg.jp/01110/5199.html"
+  - "https://www.city.setagaya.lg.jp/"
   - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
   - "https://www.soumu.go.jp/"
-  - "https://www.lifull.com/homes/"
+  - "https://www.homes.co.jp/mansion/chuko/tokyo/"
+  - "https://www.homes.co.jp/chintai/tokyo/"
+  - "https://www.homes.co.jp/"
+  - "https://suumo.jp/chintai/tokyo/"
+  - "https://suumo.jp/"
 citeSources:
-  - label: "메구로구 및 세타가야구 공식 인구 통계 (2026년 상반기)"
+  - label: "메구로구 공식 주민등록 인구·외국인 통계 (2026년 상반기)"
     url: "https://www.city.meguro.tokyo.jp/smph/kurashi/toukei/index.html"
     portal: "https://www.city.meguro.tokyo.jp/"
+  - label: "세타가야구 공식 주민등록 인구·외국인 통계 (2026년 상반기)"
+    url: "https://www.city.setagaya.lg.jp/01110/5199.html"
+    portal: "https://www.city.setagaya.lg.jp/"
   - label: "총무성 令和6年度 市町村税課税状況 등의 調 (지자체별 평균 소득)"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
     portal: "https://www.soumu.go.jp/"
-  - label: "LIFULL HOME'S 및 SUUMO 도쿄 23구 맨션 시세/임대 통계 (2026년 5월)"
-    url: "https://www.lifull.com/homes/"
-    portal: "https://www.lifull.com/homes/"
+  - label: "LIFULL HOME'S 중고·임대 시세(도쿄) 및 SUUMO 임대 시장 (2026년 5월)"
+    url: "https://www.homes.co.jp/mansion/chuko/tokyo/"
+    secondaryUrl: "https://suumo.jp/chintai/tokyo/"
+    portal: "https://www.homes.co.jp/"
 ---
 조용하고 세련된 도쿄의 일상을 꿈꿀 때, 우리는 가장 먼저 어떤 동네를 떠올릴까요? 십중팔구는 세타가야(世田谷)와 메구로(目黒)를 언급합니다. 하지만 실제로 거주해보거나 데이터를 냉정하게 뜯어본 투자자들은 잘 알고 있습니다. 두 동네는 언뜻 비슷해 보여도, 삶의 리듬과 투자 매력도가 완전히 다른 상반된 우주라는 사실을 말이죠.
 
@@ -69,7 +79,7 @@ citeSources:
 | 지유가오카·야쿠모 | 130~190만엔/㎡ | 430~630만엔/坪 |
 | 유텐지·가쿠게이대학 | 110~160만엔/㎡ | 365~530만엔/坪 |
 | 메구로 역세권 | 140~210만엔/㎡ | 460~690만엔/坪 |
-| **구 전체 평균** | **약 157만엔/㎡** | **약 519만엔/坪**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| **구 전체 평균** | **약 157만엔/㎡** | **약 519만엔/坪**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 메구로구는 인기 노선인 도큐도요코선(東急東横線)을 따라 강력한 시세가 형성되어 있어, 구 내에서 '저렴한 물건'을 찾기란 불가능에 가깝습니다.
 
@@ -81,13 +91,13 @@ citeSources:
 | 1K / 1DK | 8.6~14.0만엔/월 |
 | 1LDK | 15.3~20.8만엔/월 |
 | 2LDK | 24.3~29.9만엔/월 |
-| 3LDK+ | 40만엔~/월<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 3LDK+ | 40만엔~/월<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 나카메구로나 메구로역 도보 5분 이내 초역세권 신축 1LDK는 월세 25만 엔 이상으로 치솟아 시부야구 하위 영역과 유사한 수준을 기록합니다.
 
 ### 평균 세대 소득
 
-메구로구의 주민세 납세 의무자 1인당 평균所得(평균 소득)은 **약 778.7만 엔**입니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 이는 도쿄 23구 중 치요다·미나토·시부야·주오구의 뒤를 이어 **5위**에 해당하는 초고소득 지역입니다. 전문직 싱글과 맞벌이 고소득 부부(파워 커플) 비율이 높은 소득 구조를 대변합니다.
+메구로구의 주민세 납세 의무자 1인당 평균所得(평균 소득)은 **약 778.7만 엔**입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 이는 도쿄 23구 중 치요다·미나토·시부야·주오구의 뒤를 이어 **5위**에 해당하는 초고소득 지역입니다. 전문직 싱글과 맞벌이 고소득 부부(파워 커플) 비율이 높은 소득 구조를 대변합니다.
 
 ### 인구수
 
@@ -128,7 +138,7 @@ citeSources:
 | 후타코타마가와·요가 | 90~130만엔/㎡ | 300~430만엔/坪 |
 | 시모키타자와·메이대전 | 95~125만엔/㎡ | 315~415만엔/坪 |
 | 세이조 | 80~120만엔/㎡ | 265~400만엔/坪 |
-| **구 전체 평균** | **약 115만엔/㎡** | **약 380만엔/坪**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| **구 전체 평균** | **약 115만엔/㎡** | **약 380만엔/坪**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 전원주택이나 단독주택 비중이 높은 구이지만, 최근 주요 역세권을 중심으로 신축 및 준신축 타워맨션의 평당 단가가 급상승하고 있습니다.
 
@@ -140,25 +150,25 @@ citeSources:
 | 1K / 1DK | 7.1~11.2만엔/월 |
 | 1LDK | 11.2~18.6만엔/월 |
 | 2LDK | 13.4~25.6만엔/월 |
-| 3LDK+ | 30만엔~/월<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 3LDK+ | 30만엔~/월<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 메구로구와 비교하여 면적이 넓기 때문에 도보 10분 이상으로 양보하거나 외곽으로 갈수록 훨씬 합리적인 월세의 대형 물건을 찾기 수월해집니다.
 
 ### 평균 세대 소득
 
-세타가야구의 주민세 납세 의무자 1인당 평균所得(평균 소득)은 **약 659.7만 엔**입니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 구 면적이 대단히 넓고 다양한 계층의 가구가 포진해 있어 산술 평균값은 메구로구보다 낮지만, 세이조나 덴엔초후 인접 지역과 같은 극소수 럭셔리 부촌지역에는 대기업 오너, 유명 연예인 등 자산가들이 여전히 대규모 군락을 이루고 있습니다.
+세타가야구의 주민세 납세 의무자 1인당 평균所得(평균 소득)은 **약 659.7만 엔**입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 구 면적이 대단히 넓고 다양한 계층의 가구가 포진해 있어 산술 평균값은 메구로구보다 낮지만, 세이조나 덴엔초후 인접 지역과 같은 극소수 럭셔리 부촌지역에는 대기업 오너, 유명 연예인 등 자산가들이 여전히 대규모 군락을 이루고 있습니다.
 
 ### 인구수
 
 | 항목 | 수치 |
 |------|------|
-| 총인구 | **931,090명** (2026년 4월 1일 기준)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
+| 총인구 | **931,090명** (2026년 4월 1일 기준)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 | 인구 밀도 | 약 16,000명/㎢ |
 | 최근 트렌드 | 아이 교육과 쾌적한 주택 정원을 동시에 챙기려는 대규모 중산층 가구의 지속적 유입 |
 
 ### 외국인 비율
 
-세타가야구의 외국인 주민 등록자 수는 **31,177명**이며, 총인구 대비 비율은 **약 3.35%**입니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 인구 자체가 도쿄 23구 중 최대이므로 절대 수치는 높으나, 전반적인 외국인 비중은 주거 문화의 보수적 성격으로 인해 메구로구에 비해 상대적으로 낮은 편입니다.
+세타가야구의 외국인 주민 등록자 수는 **31,177명**이며, 총인구 대비 비율은 **약 3.35%**입니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 인구 자체가 도쿄 23구 중 최대이므로 절대 수치는 높으나, 전반적인 외국인 비중은 주거 문화의 보수적 성격으로 인해 메구로구에 비해 상대적으로 낮은 편입니다.
 
 ### 추천 타깃
 
@@ -173,15 +183,15 @@ citeSources:
 
 * **소득 수준 격차 (뺄셈 검증):**
   메구로구 평균所得 **778.7만 엔**에서 세타가야구 평균所得 **659.7만 엔**을 뺀 소득 격차는 **119.0만 엔**입니다 (778.7 - 659.7 = 119.0만 엔). 
-  *결과:* 메구로구 주민들이 세타가야구보다 1인당 연평균 약 119만 엔(약 18.0%) 높은 주민세 과세 대상 소득을 보여줍니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
+  *결과:* 메구로구 주민들이 세타가야구보다 1인당 연평균 약 119만 엔(약 18.0%) 높은 주민세 과세 대상 소득을 보여줍니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 * **인구 규모 격차 (나눗셈 검증):**
   세타가야구의 총인구 **931,090명**을 메구로구의 총인구 **283,913명**으로 나누면 **약 3.28배**라는 결과가 산출됩니다 (931,090 ÷ 283,913 = 3.2794...배).
-  *결과:* 세타가야구는 메구로구의 3배가 훌륭히 넘는 인프라와 배후 거주 시장을 거느린 거대한 메가시티입니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+  *결과:* 세타가야구는 메구로구의 3배가 훌륭히 넘는 인프라와 배후 거주 시장을 거느린 거대한 메가시티입니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 * **외국인 비율 격차 (차이 검증):**
   메구로구 외국인 비율 **4.42%**에서 세타가야구 외국인 비율 **3.35%**를 빼면 **1.07%p**의 차이가 발생합니다 (4.42 - 3.35 = 1.07%p).
-  *결과:* 도심 오피스 가 중심지에 물리적으로 한 층 가깝고 외국계 임직원 선호도가 높은 메구로구가 다국적 정주 여건 면에서 세타가야보다 다소 유리함을 방증합니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+  *결과:* 도심 오피스 가 중심지에 물리적으로 한 층 가깝고 외국계 임직원 선호도가 높은 메구로구가 다국적 정주 여건 면에서 세타가야보다 다소 유리함을 방증합니다.<sup class="source-ref"><a href="#source-1">1</a></sup><sup class="source-ref"><a href="#source-2">2</a></sup>
 
 ### 핵심 요약 비교표
 
@@ -206,7 +216,7 @@ citeSources:
 
 ---
 
-> **데이터 기준 시점 (2026년 5월):** 인구 및 외국인 비율 데이터는 2026년 상반기 각 구청 공식 주민등록대장 공시 기준이며, 평균所得은 2024년 총무성 세제 조사 공청 자료(令和6年度) 기준입니다. 맨션 단가 및 임대 시세는 LIFULL HOME'S 및 SUUMO의 2026년 5월 실거래 및 호가 인덱스를 평균화하였습니다. 실투자 결정 전 반드시 현지 공인 사법서사 및 세무 파트너와 함께 최신 세제 경감 상황을 일반적으로 더 확인하시기 바랍니다.
+> **데이터 기준 시점 (2026년 5월):** 인구 및 외국인 비율 데이터는 2026년 상반기 각 구청 공식 주민등록대장 공시 기준이며, 평균所得은 2024년 총무성 세제 조사 공청 자료(令和6年度) 기준입니다. 맨션 단가 및 임대 시세는 LIFULL HOME'S 및 SUUMO의 2026년 5월 실거래 및 호가 인덱스를 평균화하였습니다. 실투자 결정 전 현지 공인 사법서사 및 세무 파트너와 함께 최신 세제·경감 상황을 확인하시기 바랍니다.
 
 ## Investor Action: 핵심 점검표
 
