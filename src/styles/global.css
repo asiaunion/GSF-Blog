@@ -344,22 +344,36 @@ html[data-theme="dark"] .supplemental-chart figcaption {
 }
 
 /* Inline citation superscripts → #source-N in SourcesList */
+.app-prose .source-ref,
 .source-ref {
-  font-size: 0.75em;
-  line-height: 0;
+  display: inline;
+  font-size: 0.72em;
+  line-height: 1;
   vertical-align: super;
-  margin-left: 0.12em;
+  margin-left: 0.14em;
+  white-space: nowrap;
 }
 
+.app-prose .source-ref a,
 .source-ref a {
+  display: inline-block;
+  min-width: 1.15em;
+  text-align: center;
   color: var(--accent);
-  font-weight: 600;
-  text-decoration: none;
-  padding: 0 0.15em;
+  font-weight: 700;
+  text-decoration: none !important;
+  padding: 0.05em 0.28em;
+  border-radius: 0.2em;
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  transition:
+    background 0.15s ease,
+    color 0.15s ease;
 }
 
+.app-prose .source-ref a:hover,
 .source-ref a:hover {
-  text-decoration: underline;
+  text-decoration: none !important;
+  background: color-mix(in srgb, var(--accent) 24%, transparent);
 }
 
 .sources-panel .source-line:target {
