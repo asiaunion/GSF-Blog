@@ -17,6 +17,24 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.mlit.go.jp/en/"
+  - "https://gsfark.com/assets/sources/miki-202603-tokyo-office-market.xlsx"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+  - "https://www.mlit.go.jp/en/statistics/index.html/"
+  - "https://www.e-miki.com/"
+citeSources:
+  - label: "三鬼商事 도쿄 오피스 빌딩 시장 분석 (도심 5구 공실률 및 임대료), 2026-03"
+    url: "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+    portal: "https://www.e-miki.com/rent/"
+    archive: "/assets/sources/miki-202603-tokyo-office-market.xlsx"
+  - label: "동일본 레인즈 Market Watch (수도권 주택 매매 시장 동향), 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "三鬼商사 오피스 임대 시장 분석 (실효 임대료 및 프리렌트 트렌드), 2026-03"
+    url: "https://www.e-miki.com/rent/"
+    portal: "https://www.e-miki.com/"
+  - label: "일본 국토교통성(MLIT) 토지·건설계획 통계 (도쿄 도심 오피스 공급 계획), 2025-12"
+    url: "https://www.mlit.go.jp/en/statistics/index.html/"
+    portal: "https://www.mlit.go.jp/en/"
 references:
   - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -29,9 +47,9 @@ references:
 
 ## 1. 공실률 2%대의 귀환: 판정문이 아닌 후행 신호의 해석
 
-2026년 1분기 기준, 도쿄 도심 5구(치요다, 주오, 미나토, 신주쿠, 시부야)의 평균 공실률은 **2.22%** 수준까지 내려왔습니다. 이는 팬데믹 이전 수준에 근접한 수치로, 11개월 연속 하락세를 보이던 2025년의 연장선에 있습니다.
+2026년 1분기 기준, 도쿄 도심 5구(치요다, 주오, 미나토, 신주쿠, 시부야)의 평균 공실률은 **2.22%**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 수준까지 내려왔습니다. 이는 팬데믹 이전 수준에 근접한 수치로, 11개월 연속 하락세를 보이던 2025년의 연장선에 있습니다.<sup class="source-ref"><a href="#source-1">1</a></sup>
 
-하지만 저는 이 숫자를 '축제'가 아닌 '경고'로 읽습니다. 공실률은 시장의 가장 후행적인 지표입니다. 기업들의 확장 이전 수요와 하이엔드급 신축 빌딩에 대한 강력한 흡수 여력이 먼저 움직였고, 이제야 숫자로 증명되고 있는 것입니다. 특히 주목할 점은 **'실효 임대료(Effective Rent)'의 상승**입니다. 렌트 프리미엄(무상 임대 기간)이 축소되면서 임대인의 협상력이 팬데믹 이후 최고조에 달해 있습니다.
+하지만 저는 이 숫자를 '축제'가 아닌 '경고'로 읽습니다. 공실률은 시장의 가장 후행적인 지표입니다. 기업들의 확장 이전 수요와 하이엔드급 신축 빌딩에 대한 강력한 흡수 여력이 먼저 움직였고, 이제야 숫자로 증명되고 있는 것입니다. 특히 주목할 점은 **'실효 임대료(Effective Rent)'의 상승**입니다. 렌트 프리미엄(무상 임대 기간)이 축소되면서<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 임대인의 협상력이 팬데믹 이후 최고조에 달해 있습니다.
 
 ![도쿄 도심 5구 오피스 공실률 추이 (미키 쇼지, 2023.01–2026.03)](/assets/images/blog/tokyo-office-vacancy-chart-en.webp)
 
@@ -60,7 +78,7 @@ references:
 지금 도쿄 오피스 데이터를 볼 때 우리가 빠지기 쉬운 함정은 무엇일까요?
 
 *   **'Flight to Quality'의 심화**: 임차인들이 단순히 싼 곳이 아니라, 인재를 모을 수 있는 고기능 빌딩으로 옮겨가는 현상입니다. 이로 인해 전체 평균 공실률은 낮아도, 오래된 소규모 빌딩의 공실 기간은 길어지고 있습니다. 평균의 함정에 속지 마십시오.
-*   **공급 파이프라인의 공백기**: 2023년과 2025년의 대량 공급 시기를 지나면서, 2026년 하반기부터는 상대적으로 신축 공급이 잦아드는 구간에 진입합니다. 이는 기존 A급 빌딩들의 임대료 협상력을 더욱 강화하는 요인이 될 것입니다.
+*   **공급 파이프라인의 공백기**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>: 2023년과 2025년의 대량 공급 시기를 지나면서, 2026년 하반기부터는 상대적으로 신축 공급이 잦아드는 구간에 진입합니다. 이는 기존 A급 빌딩들의 임대료 협상력을 더욱 강화하는 요인이 될 것입니다.
 *   **하이브리드 워크의 정착과 면적 최적화**: 공실률은 낮지만, 기업당 사용 면적은 과거보다 효율적으로 조정되고 있습니다. 면적 총량보다는 '인당 쾌적도'와 '공동 작업 공간'의 질이 임대료 결정의 핵심 변수가 되었습니다.
 
 ---
@@ -69,8 +87,8 @@ references:
 
 저는 도쿄 오피스 시장을 볼 때 다음의 루틴을 추천합니다.
 
-1.  **매월 [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 도쿄 월별 데이터** ([보관본](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [포털](https://www.e-miki.com/rent/)): 5구별 공실률과 평균 임대료 추이를 가장 빠르게 확인할 수 있는 기준점입니다.
-2.  **[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)** ([보관본](/assets/sources/reins-202604-marketwatch.pdf)) 거래 데이터 교차 검증: 실제 계약 현장의 열기를 파악합니다.
+1.  **매월 [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 도쿄 월별 데이터**<sup class="source-ref"><a href="#source-1">1</a></sup> ([보관본](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [포털](https://www.e-miki.com/rent/)): 5구별 공실률과 평균 임대료 추이를 가장 빠르게 확인할 수 있는 기준점입니다.
+2.  **[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)**<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> ([보관본](/assets/sources/reins-202604-marketwatch.pdf)) 거래 데이터 교차 검증: 실제 계약 현장의 열기를 파악합니다.
 3.  **대형 디벨로퍼(미쓰이, 미쓰비시, 모리)의 IR 자료**: 향후 5년 뒤의 공급 파이프라인 지도를 그리세요.
 
 **결론적으로 2026년의 도쿄 오피스는 '숫자의 회복'을 넘어 '질적 재편'의 시기입니다.** 자산 배분 관점에서 오피스 노출도를 조정하고 있다면, 단순히 5구라는 이름에 기대기보다 해당 건물이 '인재를 끌어당길 수 있는 하드웨어'를 갖췄는지를 최우선으로 검토해야 합니다.
