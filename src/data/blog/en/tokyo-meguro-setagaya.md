@@ -98,7 +98,7 @@ Rents for a brand-new 1LDK near Nakameguro or Meguro Station easily climb above 
 
 ### Average Income per Taxpayer
 
-The average taxable income — the income base used for municipal tax assessments — per taxpayer in Meguro Ward is **approximately 7.695 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This ranks **6th** among all Tokyo 23 Wards, trailing Minato, Shibuya, Chiyoda, Chuo, and Bunkyo. It reflects a solid demographic of high-earning single professionals and dual-income power couples.
+The average taxable income — the income base used for municipal tax assessments — per taxpayer in Meguro Ward is **approximately 7.695 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This ranks **6th** among all Tokyo 23 Wards, trailing Minato (1st), Shibuya (2nd), Chiyoda (3rd), Chuo (4th), and Bunkyo (5th). It reflects a solid demographic of high-earning single professionals and dual-income power couples.
 
 ### Population Dynamics
 
