@@ -14,14 +14,26 @@ tags:
   - 사법서사
   - 비거주자
 sources:
-  - "https://www.mlit.go.jp/en/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.moj.go.jp/"
+  - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
   - "https://www.livable.co.jp/"
-references:
-  - "https://www.mlit.go.jp/en/"
-  - "https://www.moj.go.jp/MINJI/minji05_00494.html"
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+  - "https://www.tax.metro.tokyo.lg.jp/"
+  - "https://www.livable.co.jp/l-note/question/g12987/"
+citeSources:
+  - label: "일본 법무성 외국인 등기 신청 서명공증 지침"
+    url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
+    portal: "https://www.moj.go.jp/"
+  - label: "Tokyu Livable 매매 부대비용 및 정산금 안내"
+    url: "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+    portal: "https://www.livable.co.jp/"
+  - label: "도쿄도 주세국 부동산취득세 과세 및 감면 세율 공시"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+    portal: "https://www.tax.metro.tokyo.lg.jp/"
+  - label: "Tokyu Livable L-note — 매매 계약금 비율과 실무"
+    url: "https://www.livable.co.jp/l-note/question/g12987/"
+    portal: "https://www.livable.co.jp/"
 ---
 > **이 글은 [도쿄 부동산 투자 완전 가이드](/ko/posts/tokyo-real-estate-investment-complete-guide/)의 Chapter 2 심층 읽기 아티클입니다.** 필라 페이지에서 전체 투자 로드맵을 먼저 파악한 뒤, 이 글에서 구매 절차의 디테일을 잡아가시길 권합니다.
 
@@ -34,8 +46,8 @@ references:
 한국 투자자가 가장 많이 당황하는 세 가지가 있습니다.
 
 1. **언어 장벽** — 重要事項説明(중요사항설명)은 법적으로 일본어로만 진행됩니다.
-2. **서류 장벽** — 비거주자는 인감증명·주민표가 없어 공증 서류로 대체해야 합니다.
-3. **비용 장벽** — 물건가 외에 8\~12%의 부대비용이 발생하지만, 항목별 내역을 사전에 파악하지 못하면 '깜짝 청구서'를 받게 됩니다.
+2. **서류 장벽** — 비거주자는 인감증명·주민표가 없어 공증 서류로 대체해야 합니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+3. **비용 장벽** — 물건가 외에 8\~12%의 부대비용이 발생하지만(Tokyu Livable 기준 실무상 7\~10% 전후), 항목별 내역을 사전에 파악하지 못하면 '깜짝 청구서'를 받게 됩니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 이 글은 그 갭을 메우기 위해 쓰여졌습니다.
 
@@ -51,7 +63,7 @@ references:
 |------|----------|------|
 | 중개 수수료 | 매매가 × 3% + 6만 엔 + 소비세 | 법정 상한선 |
 | 등록면허세 | 고정자산세 평가액 × 0.3\~2.0% | 경감 조치 적용 여부에 따라 변동 |
-| 부동산취득세 | 토지 1.5% / 건물 3\~4% | 경감 특례 시 토지 1.5% |
+| 부동산취득세 | 토지 1.5% / 건물 3\~4%<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> | 경감 특례 시 토지 1.5% |
 | 인지세 | 1\~6만 엔 | 매매계약서 금액 기준 |
 | 사법서사 보수 | 10\~20만 엔 | 물건 복잡도에 따라 변동 |
 | 화재·지진보험 | 수만\~10만 엔대 | 구조·면적·보장 범위별 |
@@ -110,7 +122,7 @@ references:
 | 항목 | 내용 |
 |------|------|
 | 희망 매수 가격 | 호가 대비 3\~5% 디스카운트가 일반적 |
-| 수부금(계약금) 금액 | 매매가의 5\~10% |
+| 수부금(계약금) 금액 | 매매가의 5\~10%<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | 융자 특약 유무 | 대출 불승인 시 해제 조건 |
 | 인도 희망일 | 통상 계약 후 1\~2개월 |
 | 유효기간 | 보통 1\~2주 |

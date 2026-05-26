@@ -10,12 +10,19 @@ tags: ["Real Estate", "Tokyo", "Investment Strategy", "Macro", "Insights"]
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://www.boj.or.jp/en/statistics/index.htm/"
-  - "https://www.stat.go.jp/english/"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
-references:
-  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
-  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+citeSources:
+  - label: "Tokyo Kantei: Capital Area Secondhand Mansion 70㎡ Price Trends 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "Tokyo Kantei: Central Wards Cap Rate Market Analysis Report"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "Bank of Japan (BOJ): Financial Market Statistics & Rate Normalization"
+    url: "https://www.boj.or.jp/en/statistics/index.htm/"
+  - label: "REINS Market Watch: Capital Area Property Liquidity Trends"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
 ---
 A massive wave of capital is being sucked into the center of Tokyo like a black hole. As global geopolitical tensions align with an unfathomably prolonged weak yen, real estate in central Tokyo has evolved far beyond mere 'living space' to become Asia's ultimate 'Safe Haven'.
 
@@ -27,7 +34,7 @@ Specifically, the "Core 6 Wards" (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and 
 
 Throughout the past two years (2023–2024), the defining keywords piercing through Tokyo's core mansion (condominium) market have undeniably been **'extreme supply shortage'** and **'all-time highs'**.
 
-The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY** throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**, while the central 6 wards alone posted **+38.6% in April 2025** versus the prior year. ([Tokyo Kantei, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf) · [archived copy](/assets/sources/kantei-2025-chukomansion.pdf)) This trajectory left the limits of ordinary labor income far behind in the dust.
+The data is chillingly clear. According to Tokyo Kantei, the average asking price for a standard 70㎡ secondhand condominium in the Core 6 Wards surpassed **140 million JPY**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> throughout much of 2025, climbing toward 160–170 million JPY by late 2025 and reportedly reaching 187–195 million JPY in early 2026 before a mild Q1 correction. Year-on-year, the 23 wards recorded **+34.6% in 2025**<sup class="source-ref"><a href="#source-1">1</a></sup>, while the central 6 wards alone posted **+38.6% in April 2025**<sup class="source-ref"><a href="#source-1">1</a></sup> versus the prior year. ([Tokyo Kantei, 2025](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf) · [archived copy](/assets/sources/kantei-2025-chukomansion.pdf)) This trajectory left the limits of ordinary labor income far behind in the dust.
 
 **In fact, having recently moved to Nihonbashi (Chuo Ward), I feel this rapidly rising real estate inflation firsthand every single day. I was genuinely shocked to see a flyer at a local brokerage showing that even an older, non-newly built apartment near my home was selling for well over 300 million JPY. And I am not talking about a massive luxury complex, but a rather ordinary standalone multi-family building.**
 
@@ -41,7 +48,7 @@ In this process, the market has torn itself completely in half. While Tokyo's ou
 
 Here is where the investment paradox arises. Because asset prices skyrocketed so quickly, the **Cap Rate (Capitalization Rate) — the most critical metric for investment purchases — has absolutely plummeted**.
 
-Currently, prime rental yields in the core areas are barely hovering in the 2% to low 3% range. Once you account for property taxes, repair reserve funds, maintenance fees, and depreciation, the actual operating 'Cash Flow' converges to zero or even dips into the negative.
+Currently, prime rental yields in the core areas are barely hovering in the 2% to low 3% range.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Once you account for property taxes, repair reserve funds, maintenance fees, and depreciation, the actual operating 'Cash Flow' converges to zero or even dips into the negative.
 
 So, if the textbook value of real estate—"rental income"—doesn't support these prices, why are cold-blooded institutional investors and fund managers still swallowing these low cap rates and buying up whole buildings in the Tokyo Core 6?
 
@@ -55,7 +62,7 @@ If you can establish a local Japanese corporation or leverage strong credit to s
 
 ## 3. The Coming Hour of Reckoning: The BOJ Rate Normalization Detonator
 
-However, no party lasts forever. In 2024, the Bank of Japan (BOJ) officially lifted its negative interest rate policy, pulling the trigger on a rate hike cycle. In the real estate market, a 'rise in the cost of capital' is the most lethal poison. What happens when the discount rate expands, and interest expenses begin choking investors who heavily leveraged themselves on floating rates?
+However, no party lasts forever. In 2024, the Bank of Japan (BOJ) officially lifted its negative interest rate policy, pulling the trigger on a rate hike cycle.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> In the real estate market, a 'rise in the cost of capital' is the most lethal poison. What happens when the discount rate expands, and interest expenses begin choking investors who heavily leveraged themselves on floating rates?
 
 Yet, the conclusion I draw from my own empirical insights is this: **"Despite all of that, the fortress of the Core 6 Wards will be the last to fall, and it will hold the strongest."**
 
@@ -77,7 +84,7 @@ The profit-generation formula in this market has completely changed. A position 
 2. **Obsess Over Scarcity (Flight to Quality)**
    In an era of rising interest rates, a ruthless sorting of the wheat from the chaff begins. A high-quality, pre-owned asset in the Core sector is infinitely safer than an ambiguous new build in the suburbs. Even if it is expensive, you often emphasize on high-end locations where foot traffic is heavily defended and the wealthy desperately desire to reside.
 
-In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024 after the explosive surge—followed by another sharp leg upward in 2025. By Q1 2026, data from Tokyo Kantei and the Real Estate Economic Institute pointed to the first mild price correction in multiple months, as rising interest costs began weighing on leveraged buyers at the margin. Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
+In truth, Tokyo's core wards showed a brief moment of consolidation in late 2024 after the explosive surge—followed by another sharp leg upward in 2025. By Q1 2026, data from Tokyo Kantei and the Real Estate Economic Institute pointed to the first mild price correction in multiple months, as rising interest costs began weighing on leveraged buyers at the margin.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> Both the fear of a total crash and the blind faith of endless growth are dangerous. Only those who acknowledge the paradigm shift—that the market's rule has evolved from "Cash Flow" to "Long-term Holding of Scarcity Value"—will be able to steadily grow their wealth in the highly volatile future of the Tokyo market.
 
 > **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
 
