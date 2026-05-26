@@ -24,6 +24,8 @@
 | H8 | 비거주자 서명공증 Affidavit 대체 | Affidavit | [Japan Ministry of Justice](https://www.moj.go.jp/MINJI/minji05_00494.html) — HEAD OK (trust script) | [x] | Chapter 2 |
 | H9 | J-REIT 예상 분배금 수익률 약 4~5% | 4~5% / 4.79% | [JPX REIT reports](https://www.jpx.co.jp/equities/products/reits/reports/index.html) · [monthly PDF](https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf) | [x] | Chapter 3 |
 | H10 | 도심 메가 재개발 완공 타임라인(渋谷 2028–29 등) | 2028~2030년 | [Tokyo Metro urban regeneration PDF](https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02) | [x] | Chapter 4 |
+| H11 | 건물 정액법 도입(2016년 4월) 및 중고용 감가상각 0.2배율 | 2016년 4월 / 0.2 | [Japan National Tax Agency (NTA) depreciation table](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm) | [x] | Chapter 5 |
+| H12 | 신내진기준(1981년) 및 진도 7 도괴 방지 설계 | 1981년 / 7 | [MLIT New Seismic Design Standard & Building Regulation History](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html) | [x] | Chapter 6 |
 
 > Auto-extracted rows below remain for T1 coverage; headline edits use manifest URLs above.
 
@@ -124,6 +126,8 @@
 | https://www.kantei.ne.jp/ | public | [ ] |
 | https://www.jpx.co.jp/equities/products/reits/reports/index.html | public | [x] |
 | https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02 | gov | [x] |
+| https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm | gov | [x] |
+| https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html | gov | [x] |
 
 **references ⊆ sources**: [x] confirmed
 

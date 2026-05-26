@@ -33,6 +33,10 @@ sources:
   - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
   - "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
   - "https://www.toshiseibi.metro.tokyo.lg.jp/"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
+  - "https://www.mlit.go.jp/"
 citeSources:
   - label: "REINS Market Watch, Apr 2026"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -66,6 +70,12 @@ citeSources:
   - label: "Tokyo Metro urban regeneration step-up projects (incl. Shibuya), 2025 PDF"
     url: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
     portal: "https://www.toshiseibi.metro.tokyo.lg.jp/"
+  - label: "National Tax Agency (NTA) Depreciation Asset Useful Life Table"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "MLIT New Seismic Design Standard & Building Regulation History"
+    url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
+    portal: "https://www.mlit.go.jp/"
 ---
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
@@ -77,7 +87,7 @@ As of April 2026, the median existing-condo price across Tokyo's 23 wards is rou
 
 Three pillars support this rally:
 
-1. **Rising overseas-address buyers** — According to Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT), overseas-based buyers accounted for **3.5% of new condos** in Tokyo's 23 wards (H1 2025), rising to **7.5% in the core 6 wards** — up from 3.2% in 2024.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> The weak yen (JPY/KRW 800–900) continues to funnel Korean, Taiwanese, and Singaporean capital.
+1. **Rising overseas-address buyers** — According to Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT), overseas-based buyers accounted for **3.5% of new condos** in Tokyo's 23 wards (H1 2025), rising to **7.5% in the core 6 wards** — up from 3.2% in 2024.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> The weak yen (KRW per 100 JPY, roughly 800–900) continues to funnel Korean, Taiwanese, and Singaporean capital.
 2. **Structural supply shortage** — new condo supply in central Tokyo is chronically tight.
 3. **Tight rental market** — Miki Shoji Q1 2026 data shows office vacancy in the 5 central wards at **2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>; residential compact units in Minato and Chiyoda exhibit similarly low churn given elite-demand clustering.
 
@@ -155,7 +165,7 @@ Principles: buy **before groundbreaking**, target **existing renovations within 
 | Light steel | 19–27 yrs |
 | RC / SRC | **47 yrs** |
 
-Straight-line only since 2016. Used buildings past statutory life: **life × 0.2** = shortened depreciation.
+Straight-line only since 2016. Used buildings past statutory life: **life × 0.2** = shortened depreciation.<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
 
 ### Corporate vs. Personal
 
@@ -171,8 +181,8 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 
 ## Chapter 6. Risks — Earthquakes, FX & Rates
 
-- **Earthquakes**: Post-1981 buildings withstand intensity 7. Insurance covers 30–50% of fire policy. Avoid reclaimed land.
-- **FX**: JPY/KRW 800–900 demands dual-scenario planning. I play both sides.
+- **Earthquakes**: Post-1981 buildings withstand intensity 7. Insurance covers 30–50% of fire policy. Avoid reclaimed land.<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup>
+- **FX**: KRW per 100 JPY in the roughly 800–900 range demands dual-scenario planning. I play both sides.
 - **Interest rates**: BOJ tightening cycle underway, but glacial by global standards.
 
 > 📖 [Earthquake-Vulnerable 5 Areas](/posts/tokyo-earthquake-vulnerable-five-areas) | [Weak Yen Allocation](/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios) | [When FX Shakes](/posts/three-things-when-fx-shakes)
