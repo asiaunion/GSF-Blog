@@ -24,6 +24,13 @@ export default defineConfig({
   redirects: {
     // Astro emits sitemap-index.xml, not sitemap.xml (GSC may submit the wrong path)
     "/sitemap.xml": { status: 308, destination: "/sitemap-index.xml" },
+    // AdSense / reviewers often probe /privacy/ — canonical page is privacy-policy
+    "/privacy": { status: 308, destination: "/privacy-policy/" },
+    "/privacy/": { status: 308, destination: "/privacy-policy/" },
+    "/ko/privacy": { status: 308, destination: "/ko/privacy-policy/" },
+    "/ko/privacy/": { status: 308, destination: "/ko/privacy-policy/" },
+    "/ja/privacy": { status: 308, destination: "/ja/privacy-policy/" },
+    "/ja/privacy/": { status: 308, destination: "/ja/privacy-policy/" },
     // Korean legacy post slugs — explicit 1:1 mapping (18 rules)
     ...getLegacyPostRedirects(),
     // Tag URL normalization (locale × encoding × case × pagination × slash) and
