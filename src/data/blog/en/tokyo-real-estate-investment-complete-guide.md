@@ -209,7 +209,7 @@ No visa needed to *own*. To **live and manage** locally, you need a residence st
 ## Pre-Purchase Checklist
 
 - [ ] Define goal — income, gain, tax shield, or residence
-- [ ] Budget — price + 12–18% costs + contingency
+- [ ] Budget — price + ~7–10% costs + contingency
 - [ ] Shortlist 3 areas — tsubo, yield, redevelopment
 - [ ] Seismic standard — post-June 1981
 - [ ] Tax structure — personal vs. corporate
