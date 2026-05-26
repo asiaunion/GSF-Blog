@@ -41,6 +41,7 @@ sources:
   - "https://www.moj.go.jp/isa/"
   - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
   - "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+  - "https://www.mof.go.jp/"
   - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
 citeSources:
   - label: "REINS Market Watch, Apr 2026"
