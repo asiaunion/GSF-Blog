@@ -20,7 +20,8 @@ sources:
   - "https://www.city.meguro.tokyo.jp/"
   - "https://www.city.setagaya.lg.jp/01110/5199.html"
   - "https://www.city.setagaya.lg.jp/"
-  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
   - "https://www.soumu.go.jp/"
   - "https://www.homes.co.jp/mansion/chuko/tokyo/"
   - "https://www.homes.co.jp/chintai/tokyo/"
@@ -34,9 +35,9 @@ citeSources:
   - label: "세타가야구 공식 주민등록 인구·외국인 통계 (2026년 상반기)"
     url: "https://www.city.setagaya.lg.jp/01110/5199.html"
     portal: "https://www.city.setagaya.lg.jp/"
-  - label: "총무성 令和6年度 市町村税課税状況 등의 調 (지자체별 평균 소득)"
-    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
-    portal: "https://www.soumu.go.jp/"
+  - label: "총무성 令和7年度 市町村税課税状況等의 調 第11表（市町村別·課税対象所得）"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+    portal: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
   - label: "LIFULL HOME'S 중고·임대 시세(도쿄) 및 SUUMO 임대 시장 (2026년 5월)"
     url: "https://www.homes.co.jp/mansion/chuko/tokyo/"
     secondaryUrl: "https://suumo.jp/chintai/tokyo/"
@@ -97,7 +98,7 @@ citeSources:
 
 ### 평균 세대 소득
 
-메구로구의 주민세 납세 의무자 1인당 평균所得(평균 소득)은 **약 778.7만 엔**입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 이는 도쿄 23구 중 치요다·미나토·시부야·주오구의 뒤를 이어 **5위**에 해당하는 초고소득 지역입니다. 전문직 싱글과 맞벌이 고소득 부부(파워 커플) 비율이 높은 소득 구조를 대변합니다.
+메구로구의 주민세 납세 의무자 1인당 평균所得(과세대상소득)은 **약 769.5만 엔**입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 이는 도쿄 23구 중 미나토·시부야·千代田·中央·文京(분쿄)에 이어 **6위**에 해당하는 초고소득 지역입니다. 전문직 싱글과 맞벌이 고소득 부부(파워 커플) 비율이 높은 소득 구조를 대변합니다.
 
 ### 인구수
 
@@ -156,7 +157,7 @@ citeSources:
 
 ### 평균 세대 소득
 
-세타가야구의 주민세 납세 의무자 1인당 평균所得(평균 소득)은 **약 659.7만 엔**입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 구 면적이 대단히 넓고 다양한 계층의 가구가 포진해 있어 산술 평균값은 메구로구보다 낮지만, 세이조나 덴엔초후 인접 지역과 같은 극소수 럭셔리 부촌지역에는 대기업 오너, 유명 연예인 등 자산가들이 여전히 대규모 군락을 이루고 있습니다.
+세타가야구의 주민세 납세 의무자 1인당 평균所得(과세대상소득)은 **약 681.2만 엔**입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 구 면적이 대단히 넓고 다양한 계층의 가구가 포진해 있어 산술 평균값은 메구로구보다 낮지만, 세이조나 덴엔초후 인접 지역과 같은 극소수 럭셔리 부촌지역에는 대기업 오너, 유명 연예인 등 자산가들이 여전히 대규모 군락을 이루고 있습니다.
 
 ### 인구수
 
@@ -182,8 +183,8 @@ citeSources:
 도쿄 서쪽을 양분하는 메구로구와 세타가야구의 핵심 통계 데이터를 비교해 보면 두 구의 고유한 결이 산술적으로 명확히 대조됩니다.
 
 * **소득 수준 격차 (뺄셈 검증):**
-  메구로구 평균所得 **778.7만 엔**에서 세타가야구 평균所得 **659.7만 엔**을 뺀 소득 격차는 **119.0만 엔**입니다 (778.7 - 659.7 = 119.0만 엔). 
-  *결과:* 메구로구 주민들이 세타가야구보다 1인당 연평균 약 119만 엔(약 18.0%) 높은 주민세 과세 대상 소득을 보여줍니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+  메구로구 평균所得 **769.5만 엔**에서 세타가야구 평균所得 **681.2만 엔**을 뺀 소득 격차는 **88.3만 엔**입니다 (769.5 − 681.2 = 88.3만 엔). 
+  *결과:* 메구로구 주민들이 세타가야구보다 1인당 연평균 약 88만 엔(약 13.0%) 높은 주민세 과세대상소득을 보여줍니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 * **인구 규모 격차 (나눗셈 검증):**
   세타가야구의 총인구 **931,090명**을 메구로구의 총인구 **283,913명**으로 나누면 **약 3.28배**라는 결과가 산출됩니다 (931,090 ÷ 283,913 = 3.2794...배).
@@ -201,7 +202,7 @@ citeSources:
 | **총인구 (명)** | 283,913명 | 931,090명 | 세타가야가 약 3.28배 많음 |
 | **외국인 주민 (명)** | 12,563명 | 31,177명 | 세타가야가 18,614명 많음 |
 | **외국인 비율 (%)** | 4.42% | 3.35% | 메구로가 1.07%p 더 높음 |
-| **평균所得 (만엔)** | 약 778.7만엔 | 약 659.7만엔 | 메구로가 119.0만엔 더 높음 |
+| **평균所得 (만엔)** | 약 769.5만엔 | 약 681.2만엔 | 메구로가 88.3만엔 더 높음 |
 | **맨션 평균 ㎡ 단가** | 약 157만엔 | 약 115만엔 | 메구로가 42만엔 더 높음 |
 
 ---
@@ -216,7 +217,7 @@ citeSources:
 
 ---
 
-> **데이터 기준 시점 (2026년 5월):** 인구 및 외국인 비율 데이터는 2026년 상반기 각 구청 공식 주민등록대장 공시 기준이며, 평균所得은 2024년 총무성 세제 조사 공청 자료(令和6年度) 기준입니다. 맨션 단가 및 임대 시세는 LIFULL HOME'S 및 SUUMO의 2026년 5월 실거래 및 호가 인덱스를 평균화하였습니다. 실투자 결정 전 현지 공인 사법서사 및 세무 파트너와 함께 최신 세제·경감 상황을 확인하시기 바랍니다.
+> **데이터 기준 시점 (2026년 5월):** 인구 및 외국인 비율 데이터는 2026년 상반기 각 구청 공식 주민등록대장 공시 기준이며, 평균所得은 총무성 令和7年度 市町村税課税状況等の調 第11表(각주 3) 기준 소득분 납세의무자 1인당 과세대상소득입니다. 맨션 단가 및 임대 시세는 LIFULL HOME'S 및 SUUMO의 2026년 5월 실거래·호가 인덱스를 평균화하였습니다. 실투자 결정 전 현지 공인 사법서사 및 세무 파트너와 함께 최신 세제·경감 상황을 확인하시기 바랍니다.
 
 ## Investor Action: 핵심 점검표
 

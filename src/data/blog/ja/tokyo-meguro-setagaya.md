@@ -20,7 +20,8 @@ sources:
   - "https://www.city.meguro.tokyo.jp/"
   - "https://www.city.setagaya.lg.jp/01110/5199.html"
   - "https://www.city.setagaya.lg.jp/"
-  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
   - "https://www.soumu.go.jp/"
   - "https://www.homes.co.jp/mansion/chuko/tokyo/"
   - "https://www.homes.co.jp/chintai/tokyo/"
@@ -34,9 +35,9 @@ citeSources:
   - label: "世田谷区公式 住民基本台帳人口・外国人統計（2026年前半）"
     url: "https://www.city.setagaya.lg.jp/01110/5199.html"
     portal: "https://www.city.setagaya.lg.jp/"
-  - label: "総務省 令和6年度 市町村税課税状況等の調（自治体別平均所得）"
-    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
-    portal: "https://www.soumu.go.jp/"
+  - label: "総務省 令和7年度 市町村税課税状況等の調 第11表（市町村別・課税対象所得）"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+    portal: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
   - label: "LIFULL HOME'S 東京中古・賃貸相場とSUUMO賃貸市場（2026年5月）"
     url: "https://www.homes.co.jp/mansion/chuko/tokyo/"
     secondaryUrl: "https://suumo.jp/chintai/tokyo/"
@@ -97,7 +98,7 @@ citeSources:
 
 ### 平均所得（Average Income）
 
-目黒区の納税義務者1人あたりの平均所得（Average Taxable Income）は、**約778.7万円**です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> これは東京23区の中で千代田・港・渋谷・中央区に次ぐ**第5位**の超高所得エリアです。専門職の単身者や、共働きの高所得世帯であるパワーカップル（Power Couple）の比率が高い所得構造を反映しています。
+目黒区の納税義務者1人あたりの平均所得（課税対象所得）は、**約769.5万円**です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> これは東京23区の中で港区・渋谷区・千代田区・中央区・文京区に次ぐ**第6位**の超高所得エリアです。専門職の単身者や、共働きの高所得世帯であるパワーカップル（Power Couple）の比率が高い所得構造を反映しています。
 
 ### 人口数
 
@@ -156,7 +157,7 @@ citeSources:
 
 ### 平均所得（Average Income）
 
-世田谷区の納税義務者1人あたりの平均所得（Average Taxable Income）は、**約659.7万円**です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 区全体の面積が広く多様な世帯が暮らしているため、平均値は目黒区を下回りますが、成城や田園調布に隣接する極一部の超高級エリアには、依然として大手企業の創業者や著名人、富裕層の大規模なコミュニティが存在しています。
+世田谷区の納税義務者1人あたりの平均所得（課税対象所得）は、**約681.2万円**です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 区全体の面積が広く多様な世帯が暮らしているため、平均値は目黒区を下回りますが、成城や田園調布に隣接する極一部の超高級エリアには、依然として大手企業の創業者や著名人、富裕層の大規模なコミュニティが存在しています。
 
 ### 人口数
 
@@ -182,8 +183,8 @@ citeSources:
 東京の西側エリアを代表する目黒区と世田谷区の主要統計データを比較すると、両区の特徴が算術的（Arithmetic）に極めて明確に浮かび上がります。
 
 * **所得水準の格差（引き算による検証）：**
-  目黒区の平均所得 **778.7万円**から世田谷区の平均所得 **659.7万円**を差し引いた所得差は、**119.0万円**です（778.7 - 659.7 = 119.0万円）。
-  *結果：* 目黒区の住民は世田谷区の住民に比べ、1人あたり年間約119万円（約18.0％）高い納税所得を有しています。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+  目黒区の平均所得 **769.5万円**から世田谷区の平均所得 **681.2万円**を差し引いた所得差は、**88.3万円**です（769.5 − 681.2 = 88.3万円）。
+  *結果：* 目黒区の住民は世田谷区の住民に比べ、1人あたり年間約88万円（約13.0％）高い課税対象所得を有しています。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 * **人口規模の格差（割り算による検証）：**
   世田谷区の総人口 **931,090人**を目黒区の総人口 **283,913人**で割ると、**約3.28倍**という結果が得られます（931,090 ÷ 283,913 = 3.2794...倍）。
@@ -201,7 +202,7 @@ citeSources:
 | **総人口（人）** | 283,913人 | 931,090人 | 世田谷区が約3.28倍多い |
 | **外国人登録者数（人）** | 12,563人 | 31,177人 | 世田谷区が18,614人多い |
 | **外国人比率（％）** | 4.42% | 3.35% | 目黒区が1.07%p高い |
-| **平均所得（万円）** | 約778.7万円 | 約659.7万円 | 目黒区が119.0万円高い |
+| **平均所得（万円）** | 約769.5万円 | 約681.2万円 | 目黒区が88.3万円高い |
 | **マンション平均㎡単価** | 約157万円 | 約115万円 | 目黒区が42万円高い |
 
 ---
@@ -216,7 +217,7 @@ citeSources:
 
 ---
 
-> **データ基準時点（2026年5月）：** 人口および外国人比率データは2026年前半の各区役所公式住民基本台帳公表に基づいており、平均所得は総務省発表の2024年度（令和6年度）課税状況資料に基づき算出しています。マンション単価および賃料相場は、2026年5月時点のLIFULL HOME'SおよびSUUMOの実取引・募集インデックスを平均化したものです。実際の投資判断の際は、現地の司法書士（Judicial Scrivener）や税理士（Tax Accountant）などの専門家にご相談の上、最新の税制優遇をご確認ください。
+> **データ基準時点（2026年5月）：** 人口および外国人比率データは2026年前半の各区役所公式住民基本台帳公表に基づいており、平均所得は総務省令和7年度「市町村税課税状況等の調」第11表（各注3）の所得分納税義務者1人あたり課税対象所得に基づき算出しています。マンション単価および賃料相場は、2026年5月時点のLIFULL HOME'SおよびSUUMOの実取引・募集インデックスを平均化したものです。実際の投資判断の際は、現地の司法書士（Judicial Scrivener）や税理士（Tax Accountant）などの専門家にご相談の上、最新の税制優遇をご確認ください。
 
 ## 投資家チェックリスト
 
