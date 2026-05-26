@@ -18,6 +18,26 @@ sources:
   - "https://www.jnto.go.jp/"
   - "https://www.ares.or.jp/en/"
   - "https://www.cbre.co.jp/en/"
+  - "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.e-miki.com/rent/"
+  - "https://www.boj.or.jp/en/statistics/dl/depo/index.htm/"
+  - "https://www.jpx.co.jp/"
+  - "https://www.e-miki.com/"
+  - "https://www.boj.or.jp/"
+citeSources:
+  - label: "JNTO Inbound Visitor Statistics (Trend of Inbound Tourism), 2026-03"
+    url: "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+    portal: "https://www.jnto.go.jp/"
+  - label: "JPX J-REIT Monthly Report (Hotel Sector RevPAR & Yields), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "Miki Shoji Tokyo Office Market Report (Tokyo 5-ward Vacancy & Rents), 2026-03"
+    url: "https://www.e-miki.com/rent/"
+    portal: "https://www.e-miki.com/"
+  - label: "BOJ Interest Rate Statistics (Policy Rate & Market Yields), 2026-04"
+    url: "https://www.boj.or.jp/en/statistics/dl/depo/index.htm/"
+    portal: "https://www.boj.or.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
@@ -26,7 +46,7 @@ references:
 ---
 ## 1. Define recovery in cash-flow terms first
 
-Post-COVID comparisons between hotel and office REITs often confuse price rebound with fundamental normalization. When I first started tracking both sectors side by side in early 2023, the gap between unit-price recovery and underlying cash-flow quality was striking—hotel REIT prices were already bouncing while many properties were still running below 60 percent occupancy.
+Post-COVID comparisons between hotel and office REITs often confuse price rebound with fundamental normalization. When I first started tracking both sectors side by side in early 2023, the gap between unit-price recovery and underlying cash-flow quality was striking—hotel REIT prices were already bouncing while operating indicators were still digesting the pandemic shock.
 
 The distinction matters because hotels reprice revenue daily through Average Daily Rate (ADR) and occupancy, while offices adjust on entirely different clocks: lease expiry schedules, tenant-credit cycles, and incentive renegotiation windows. Without decomposing "recovery" into these operating layers, sector comparisons become headline noise.
 
@@ -34,7 +54,7 @@ A useful starting framework is to separate three channels: (a) top-line revenue 
 
 ## 2. Hotels: high torque, high variance
 
-The hotel J-REIT segment has delivered the more dramatic recovery arc. Japan's inbound tourist arrivals surged to approximately 42.7 million in 2025, eclipsing the pre-pandemic record of 31.9 million set in 2019—and Q1 2026 has already set new monthly records with **10.68 million visitors** in three months alone (JNTO). This tsunami of demand translated into record RevPAR for hotel operators, with Japan Hotel REIT Investment Corporation (JHR) reporting a 14.3 percent year-on-year increase in full-year RevPAR across its variable-rent portfolio during fiscal 2025.
+The hotel J-REIT segment has delivered the more dramatic recovery arc. Japan's inbound tourist arrivals surged to approximately 42.7 million in 2025, eclipsing the pre-pandemic record of 31.9 million set in 2019—and Q1 2026 has already set new monthly records with **10.68 million visitors** in three months alone (JNTO).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> This tsunami of demand translated into record RevPAR for hotel operators, with Japan Hotel REIT Investment Corporation (JHR) reporting a 14.3 percent year-on-year increase in full-year RevPAR<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> across its variable-rent portfolio during fiscal 2025.
 
 However, the headline numbers obscure important structural nuances that I watch closely:
 
@@ -49,7 +69,7 @@ For hotel REIT investors, the core question is not "has RevPAR recovered" but "c
 
 The office J-REIT sector tells a fundamentally different recovery story—less dramatic in headlines, but arguably more structurally resilient for income-focused portfolios.
 
-Tokyo Grade A office vacancy rates fell below 2 percent by mid-2025 for the first time in four years, according to CBRE Japan research. Across all grades in Tokyo's five central wards, vacancy compressed to approximately 2.5–3.5 percent, reflecting a genuine return-to-office trend rather than pre-lease accounting tricks.
+Tokyo Grade A office vacancy rates fell below 2 percent by mid-2025 for the first time in four years, according to CBRE Japan research.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Across all grades in Tokyo's five central wards, vacancy compressed to approximately 2.5–3.5 percent, reflecting a genuine return-to-office trend rather than pre-lease accounting tricks.
 
 Key dynamics I track in the office segment:
 
@@ -66,8 +86,8 @@ Neither sector exists in isolation. I monitor four macro-level variables simulta
 
 | Variable | Hotel Impact | Office Impact | Primary Source |
 |----------|-------------|---------------|----------------|
-| BOJ policy rate path (currently **0.75%**) | Refinancing cost, cap-rate pressure | Refinancing cost, tenant affordability | [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/) |
-| Inbound tourism trend | Direct RevPAR driver | Indirect via F&B/retail adjacency | [JNTO](https://www.jnto.go.jp/) |
+| BOJ policy rate path (currently **0.75%**) | Refinancing cost, cap-rate pressure | Refinancing cost, tenant affordability | [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
+| Inbound tourism trend | Direct RevPAR driver | Indirect via F&B/retail adjacency | [JNTO](https://www.jnto.go.jp/)<sup class="source-ref"><a href="#source-1">1</a></sup> |
 | Tenant/consumer credit cycle | Occupancy quality, ADR elasticity | Lease renewal risk, vacancy | [FSA](https://www.fsa.go.jp/en/) |
 | Construction/supply pipeline | New competition, replacement cost floor | Vacancy absorption, rent ceiling | [MLIT](https://www.mlit.go.jp/en/) |
 

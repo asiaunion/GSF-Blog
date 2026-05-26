@@ -16,6 +16,26 @@ sources:
   - "https://www.fsa.go.jp/en/"
   - "https://www.mof.go.jp/english/"
   - "https://www.jpx.co.jp/english/"
+  - "https://www.boj.or.jp/en/mops/outline/index.htm/"
+  - "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+  - "https://www.jpx.co.jp/"
+  - "https://www.boj.or.jp/"
+  - "https://www.mof.go.jp/"
+citeSources:
+  - label: "JPX J-REIT 月次レポート (NAV・財務チャネルへの影響), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "BOJ 政策金利動向 (利上げサイクル概要), 2026-03"
+    url: "https://www.boj.or.jp/en/mops/outline/index.htm/"
+    portal: "https://www.boj.or.jp/"
+  - label: "MOF 国債金利統計 (10年国債金利推移), 2026-04"
+    url: "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+    portal: "https://www.mof.go.jp/"
+  - label: "JPX 東証REIT指数レポート (市場パフォーマンス動向), 2026-04"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+    portal: "https://www.jpx.co.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
@@ -30,7 +50,7 @@ J-REITは2つの金利感応チャネルの交差点に位置します：
 
 **バリュエーションチャネル。** 金利上昇は将来キャッシュフローに適用する割引率を引き上げ、NAVを機械的に圧縮します。ヘッドラインが注目するチャネルですが、ストーリーの半分に過ぎません。
 
-**ファイナンスチャネル。** J-REITはレバレッジド・ビークルです（典型的LTV 40～55%）。負債コストが分配可能利益に直接影響しますが、その影響は負債の**構造**——固定・変動比率、満期プロファイル、コベナント条件、資本市場アクセス——に完全に依存します。固定金利85%、加重平均満期5年超のREITと、変動60%で近い満期が集中するREITでは、同じ金利環境から根本的に異なるインパクトを受けます。
+**ファイナンスチャネル。**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> J-REITはレバレッジド・ビークル（典型的LTV 40〜55%）です。負債コストが分配可能利益に直接影響しますが、その影響は負債の**構造**——固定・変動比率、満期プロファイル、コベナント条件、資本市場アクセス——に完全に依存します。固定金利85%、加重平均満期5年超のREITと、変動60%で近い満期が集中するREITでは、同じ金利環境から根本的に異なるインパクトを受けます。
 
 純効果はこの2チャネルの競合に第3変数——**賃料成長**——が調節して決まります。賃料がファイナンスコスト増加より速く上昇すればREITは金利圧力を分配カットなしに吸収できます。
 
@@ -42,16 +62,16 @@ J-REITは2つの金利感応チャネルの交差点に位置します：
 
 重要だったのは利上げ自体ではなくカーブのダイナミクスでした：
 - 初期フェーズでイールドカーブが緩やかにスティープ化し、REITがプラスキャリーを維持できました。
-- 2007年半ばにグローバルサブプライム感染でカーブがフラットニングしクレジットスプレッドが拡大した時——国内ファンダメンタルズではなく——J-REITバリュエーションが崩壊しました。TSE REIT指数は2007年5月ピークから2008年10月底まで約**60%下落**しました。
+- 2007年半ばにグローバルサブプライム感染でカーブがフラットニングしクレジットスプレッドが拡大した時——国内ファンダメンタルズではなく——J-REITバリュエーションが崩壊しました。TSE REIT指数は2007年5月ピークから2008年10月末まで約**60%下落**しました。
 
 教訓：段階的で十分にコミュニケートされた金利パス＋安定したカーブ＝消化可能。急激なリプライシング＋カーブ不安定＋スプレッド拡大＝破壊的。**ストレスの源泉が規模と同じくらい重要です。**
 
-**2024～2026年正常化。** BOJの現サイクルは、2024年3月YCC離脱、2024年7月0.25%利上げ、2025年初頭0.50%利上げ、そして2026年初頭に**0.75%**への追加利上げと、慎重だが持続的なパスを辿っています。TSE REIT指数は2026年4月中旬時点で約**1,916ポイント**、株式に対しアンダーパフォームしましたが危機レベルのドローダウンは回避しています。10年JGB利回りは2026年4月時点で約**2.43%**——10年以上ぶりの水準——に達し、J-REITとの利回りスプレッドを大幅に圧縮しています。
+**2024～2026年正常化。** BOJの現サイクルは、2024年3月YCC離脱、2024年7月0.25%利上げ、2025年初頭0.50%利上げ、そして2026年初頭に**0.75%**への追加利上げ<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>と、慎重だが持続的なパスを辿っています。TSE REIT指数は2026年4月中旬時点で約**1,916ポイント**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>、株式に対しアンダーパフォームしましたが危機レベルのドローダウンは回避しています。10年JGB利回りは2026年4月時点で約**2.43%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>——10年以上ぶりの水準——に達し、J-REITとの利回りスプレッドを大幅に圧縮しています。
 
 カーブが緩やかなスティープニングを維持していることがREIT市場がこれらの利上げを吸収できている主因です。しかし、長期金利のリプライシング速度（10Y JGBが2024年半ばの～1.0%から2026年4月の～2.43%へ）は要注意——過去サイクルでストレスに先行した動きと類似しています。
 
 実務モニタリング指標（[BOJ統計](https://www.boj.or.jp/en/statistics/index.htm/)）：
-- **2年/10年JGBスプレッド** — プラスで拡大＝サポーティブ；縮小＝フラットニングストレスシグナル
+- **2年/10年JGBスプレッド**<sup class="source-ref"><a href="#source-3">3</a></sup> — プラスで拡大＝サポーティブ；縮小＝フラットニングストレス信号
 - **10年JGBボラティリティ** — ムーブインデックス上昇がREITリプライシングに先行
 - **社債クレジットスプレッド**（AA格 vs JGB）— 30～40bp超拡大で資金調達ストレスシグナル
 

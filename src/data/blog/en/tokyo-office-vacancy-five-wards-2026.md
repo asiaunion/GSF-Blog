@@ -17,6 +17,24 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.mlit.go.jp/en/"
+  - "https://gsfark.com/assets/sources/miki-202603-tokyo-office-market.xlsx"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+  - "https://www.mlit.go.jp/en/statistics/index.html/"
+  - "https://www.e-miki.com/"
+citeSources:
+  - label: "Miki Shoji Tokyo Office Market Report (Tokyo 5-ward Vacancy & Rents), 2026-03"
+    url: "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+    portal: "https://www.e-miki.com/rent/"
+    archive: "/assets/sources/miki-202603-tokyo-office-market.xlsx"
+  - label: "East Japan REINS Market Watch (Metropolitan Housing Market Trends), 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "Miki Shoji Office Leasing Market Analysis (Effective Rents & Concessions), 2026-03"
+    url: "https://www.e-miki.com/rent/"
+    portal: "https://www.e-miki.com/"
+  - label: "Japan MLIT Construction & Supply Statistics (Tokyo Office Pipeline Map), 2025-12"
+    url: "https://www.mlit.go.jp/en/statistics/index.html/"
+    portal: "https://www.mlit.go.jp/en/"
 references:
   - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -29,9 +47,9 @@ Concluding that the market is universally booming simply because vacancy is low 
 
 ## 1. Return to the 2% Range: Interpreting Lagging Signals
 
-As of Q1 2026, the average vacancy rate in Tokyo’s 5 central wards (Chiyoda, Chuo, Minato, Shinjuku, and Shibuya) has dropped to **2.22%**. This is near pre-pandemic levels and follows a consistent downward trend observed throughout 2025.
+As of Q1 2026, the average vacancy rate in Tokyo’s 5 central wards (Chiyoda, Chuo, Minato, Shinjuku, and Shibuya) has dropped to **2.22%**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>. This is near pre-pandemic levels and follows a consistent downward trend observed throughout 2025.<sup class="source-ref"><a href="#source-1">1</a></sup>
 
-However, I view this number as a "warning" rather than a "celebration." Vacancy is the most lagging indicator in the market. The demand for expansion and the robust absorption of high-spec new buildings moved first; the numbers are only now proving it. Particularly noteworthy is the **rise in 'Effective Rents.'** As rent-free periods shrink, landlord bargaining power is at its highest post-pandemic peak.
+However, I view this number as a "warning" rather than a "celebration." Vacancy is the most lagging indicator in the market. The demand for expansion and the robust absorption of high-spec new buildings moved first; the numbers are only now proving it. Particularly noteworthy is the **rise in 'Effective Rents.'** As rent-free periods shrink<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>, landlord bargaining power is at its highest post-pandemic peak.
 
 ![Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji, Jan 2023–Mar 2026)](/assets/images/blog/tokyo-office-vacancy-chart-en.webp)
 
@@ -60,7 +78,7 @@ Chuo, the financial hub, and Shinjuku, the transportation node, see steady deman
 What are the common traps when looking at Tokyo office data today?
 
 *   **Deepening 'Flight to Quality'**: Tenants are moving not to the cheapest space, but to high-function buildings that can attract talent. While average vacancy is low, the vacancy period for older, smaller buildings is lengthening. Do not be fooled by the "average."
-*   **Supply Pipeline Gap**: After the massive supply spikes of 2023 and 2025, new completions will relatively taper off starting from the latter half of 2026. This will further strengthen the bargaining power of existing Grade A landlords.
+*   **Supply Pipeline Gap**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>: After the massive supply spikes of 2023 and 2025, new completions will relatively taper off starting from the latter half of 2026. This will further strengthen the bargaining power of existing Grade A landlords.
 *   **Hybrid Work Maturity**: While vacancy is low, the floor area used per company is being optimized. The quality of "human-centric" design and "collaboration spaces" has become a more critical factor in determining rent than total square footage.
 
 ---
@@ -69,8 +87,8 @@ What are the common traps when looking at Tokyo office data today?
 
 I recommend the following routine for monitoring the Tokyo office market:
 
-1.  **Check [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) Tokyo monthly data** ([archive](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [portal](https://www.e-miki.com/rent/)): benchmark for vacancy and rent across the 5 wards.
-2.  **Cross-verify with [REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)** ([archive](/assets/sources/reins-202604-marketwatch.pdf)): transaction-market heat.
+1.  **Check [Miki Shoji](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) Tokyo monthly data**<sup class="source-ref"><a href="#source-1">1</a></sup> ([archive](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [portal](https://www.e-miki.com/rent/)): benchmark for vacancy and rent across the 5 wards.
+2.  **Cross-verify with [REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)**<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> ([archive](/assets/sources/reins-202604-marketwatch.pdf)): transaction-market heat.
 3.  **Review IR Materials from Major Developers**: Map out the supply pipeline for the next 5 years using data from Mitsui, Mitsubishi, and Mori.
 
 **In conclusion, Tokyo office in 2026 is a period of 'Qualitative Restructuring' rather than just 'Numerical Recovery.'** If you are adjusting your asset allocation, prioritize "Hardware that attracts talent" over simply relying on the prestige of the "5 Wards" name.

@@ -17,6 +17,27 @@ sources:
   - "https://www.boj.or.jp/"
   - "https://www.nli-research.co.jp/"
   - "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/outline/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.nli-research.co.jp/report/detail/id=68694"
+  - "https://www.jpx.co.jp/"
+citeSources:
+  - label: "JPX J-REIT 시장 개요 (상장 펀드 수), 2023-12"
+    url: "https://www.jpx.co.jp/equities/products/reits/outline/index.html"
+    portal: "https://www.jpx.co.jp/"
+  - label: "JPX J-REIT 월간 리포트 (배당 수익률), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "NLI Research J-REIT 장기 수익률 비교 (2021-08 snapshot), 2021-09"
+    url: "https://www.nli-research.co.jp/report/detail/id=68694"
+    portal: "https://www.nli-research.co.jp/"
+  - label: "JPX Real Estate Index (TSE REIT Index), 2026-04"
+    url: "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
+    portal: "https://www.jpx.co.jp/"
+  - label: "BOJ 통계 자료실 (10년 JGB 금리 현황), 2026-04"
+    url: "https://www.boj.or.jp/en/statistics/index.htm/"
+    portal: "https://www.boj.or.jp/"
 references:
   - "https://www.japan-reit.com/"
   - "https://j-reit.jp/"
@@ -30,7 +51,7 @@ references:
 
 ## 1. 일본 리츠(J REITs) 투자란
 
-일본의 부동산 투자 신탁(REITs)은 미국의 것과 유사하며, 일본 대기업이 시장에 참여하고 있습니다. 2023년 현재, 일본에는 41개의 REITs 펀드가 있어 아시아에서 가장 큰 부동산 투자 신탁 펀드 시장을 형성하고 있습니다. 세계 전체로는 미국 다음으로 2위 시장입니다.
+일본의 부동산 투자 신탁(REITs)은 미국의 것과 유사하며, 일본 대기업이 시장에 참여하고 있습니다. 2023년 현재, 일본에는 41개의 REITs 펀드<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>가 있어 아시아에서 가장 큰 부동산 투자 신탁 펀드 시장을 형성하고 있습니다. 세계 전체로는 미국 다음으로 2위 시장입니다.
 
 2000년에 일본 정부는 “투자 신탁법”을 “투자 신탁 및 투자 회사법”으로 개정하여 투자 신탁이 모금한 자금을 부동산 투자에 사용할 수 있게 하였습니다. 이로써 일본의 부동산 투자 신탁의 법적 지위가 확립되었습니다.
 
@@ -50,7 +71,7 @@ references:
 1. **시장 접근성**: REITs는 투자자들이 직접 부동산 소유를 통해 이루기 어려울 수 있는 다양한 부동산 자산 포트폴리오에 접근할 수 있게 해줍니다.
 2. **유동성**: 물리적인 부동산과 달리 REITs는 주식 거래소에서 거래되며 언제든지 매수 또는 매도할 수 있어 투자자에게 높은 유동성을 제공합니다.
 3. **부동산 소유 대체**: REITs는 부동산을 관리하거나 재산세를 내야 하는 필요 없이 부동산에 투자하는 방법을 제공합니다.
-4. **높은 배당 수익률**: 일반적으로 REITs는 높은 배당 수익률을 제공하여 투자자에게 안정적인 수익 흐름을 제공할 수 있습니다.
+4. **높은 배당 수익률**: 일반적으로 REITs는 높은 배당 수익률(연 3~4% 수준)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>을 제공하여 투자자에게 안정적인 수익 흐름을 제공할 수 있습니다.
 5. **낮은 최소 자본 요구**: REITs에 투자하는 데는 낮은 자본 투입이 필요하므로 다양한 투자자에게 접근 가능합니다.
 
 일본 은행(BOJ)이라는 든든한 지원군이 있다는 점은 일본 리츠 투자 매력도를 높이는 요인입니다. BOJ는 상장주식에 대한 투자 규모를 늘리고 있습니다. 지난 2020년 코로나19 팬데믹 위기 상황에도 리츠 매입 규모를 확대한 바 있습니다. 일본 국채의 형편없는 이자율을 고려할 때 이러한 BOJ의 상장주식과 리츠 투자 규모는 늘어날 가능성이 더 높다고 하겠습니다.
@@ -96,9 +117,9 @@ _편집자 주: 본문 스크린샷은 아카이브 참고용으로, 현재 UI·
 
 _계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익 보장을 의미하지 않습니다._
 
-[닛세이 기초연구소(NLI Research)](https://www.nli-research.co.jp/)가 조사한 바에 따르면, **2021년 8월말** 기준으로 과거 20년 리츠 수익률은 **416%**(연율 약 **8.6%**)로 상당히 준수한 편입니다. 같은 기간 TOPIX로 대표되는 일본 주식시장은 166% 상승에 그쳤습니다. 리츠가 가진 장기 배당 복리 효과를 보여주는 데이터입니다.
+[닛세이 기초연구소(NLI Research)](https://www.nli-research.co.jp/)가 조사한 바에 따르면, **2021년 8월말** 기준으로 과거 20년 리츠 수익률은 **416%**(연율 약 **8.6%**)<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>로 상당히 준수한 편입니다. 같은 기간 TOPIX로 대표되는 일본 주식시장은 166% 상승에 그쳤습니다. 리츠가 가진 장기 배당 복리 효과를 보여주는 데이터입니다.
 
-> **중요 현황 고지 (2022~2025년):** 위 2021년 수치는 제로금리 + BOJ REIT 매입 시기를 반영한 것입니다. 이후 BOJ 금리 정상화로 환경이 크게 바뀌었습니다. 2023~2024년 J-REIT는 TOPIX 대비 크게 언더퍼폼했으며, 2024년 상반기 총수익률(배당 포함)은 약 **-2.4%**를 기록했습니다. 2026년 4월 현재 TSE REIT Index는 약 **1,916포인트**로, 10년 JGB(약 2.43%)와의 스프레드는 역대 평균(250~300bp) 아래인 ~200~250bp까지 압축된 상태입니다. 최신 지수 데이터는 [JPX J-REIT 지수](https://www.jpx.co.jp/markets/indices/real-estate/index.html)에서 확인하시기 바랍니다.
+> **중요 현황 고지 (2022~2025년):** 위 2021년 수치는 제로금리 + BOJ REIT 매입 시기를 반영한 것입니다. 이후 BOJ 금리 정상화로 환경이 크게 바뀌었습니다. 2023~2024년 J-REIT는 TOPIX 대비 크게 언더퍼폼했으며, 2024년 상반기 총수익률(배당 포함)은 약 **-2.4%**를 기록했습니다. 2026년 4월 현재 TSE REIT Index는 약 **1,916포인트**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>로, 10년 JGB(약 2.43%)<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup>과의 스프레드는 역대 평균(250~300bp) 아래인 ~200~250bp까지 압축된 상태입니다. 최신 지수 데이터는 [JPX J-REIT 지수](https://www.jpx.co.jp/markets/indices/real-estate/index.html)에서 확인하시기 바랍니다.
 
 2021년 8월말 기준 과거 5년 수익률은 43%였습니다. 같은 기간 TOPIX보다는 낮지만, 안정적인 배당을 감안하면 장기 수익 복리 관점에서의 매력은 유효합니다. 다만 현재 금리 환경에서는 과거 데이터를 그대로 미래에 대입하기보다 차입 비용 + 스프레드 수준을 함께 보는 시나리오 접근이 필요합니다.
 

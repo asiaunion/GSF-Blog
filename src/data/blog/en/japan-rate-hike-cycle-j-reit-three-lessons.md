@@ -17,6 +17,26 @@ sources:
   - "https://www.mof.go.jp/english/"
   - "https://www.jpx.co.jp/english/"
   - "https://www.ares.or.jp/en/"
+  - "https://www.boj.or.jp/en/mops/outline/index.htm/"
+  - "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+  - "https://www.jpx.co.jp/"
+  - "https://www.boj.or.jp/"
+  - "https://www.mof.go.jp/"
+citeSources:
+  - label: "JPX J-REIT Monthly Report (NAV & Financing Channels), 2026-03"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/"
+  - label: "BOJ Outline of Monetary Policy (Policy Rate Path), 2026-03"
+    url: "https://www.boj.or.jp/en/mops/outline/index.htm/"
+    portal: "https://www.boj.or.jp/"
+  - label: "MOF JGB Interest Rate Statistics (10-year JGB Yield), 2026-04"
+    url: "https://www.mof.go.jp/english/policy/jgbs/reference/interest_rate/index.htm"
+    portal: "https://www.mof.go.jp/"
+  - label: "JPX J-REIT Market Reports (TSE REIT Index Trend), 2026-04"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+    portal: "https://www.jpx.co.jp/"
 references:
   - "https://www.boj.or.jp/en/statistics/index.htm/"
   - "https://www.fsa.go.jp/en/"
@@ -31,7 +51,7 @@ J-REITs sit at the intersection of two rate-sensitive channels:
 
 **The valuation channel.** Higher rates increase the discount rate applied to future cash flows, which mechanically compresses Net Asset Value (NAV) and, in theory, unit prices. When the 10-year JGB yield rises, cap rates for property appraisals face upward pressure, reducing the appraised value of underlying assets. This is the channel that headlines focus on—and it is real, but it is only half the story.
 
-**The financing channel.** J-REITs are leveraged vehicles—typical loan-to-value ratios range from 40–55 percent—and their cost of debt directly affects distributable income. However, the impact depends entirely on the **structure** of that debt: fixed versus floating mix, maturity profile, covenant terms, and access to capital markets. A REIT with 85 percent fixed-rate debt and a weighted-average maturity of 5+ years experiences a very different rate-hike impact than one with 60 percent floating-rate exposure and near-term maturities.
+**The financing channel.**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> J-REITs are leveraged vehicles—typical loan-to-value ratios range from 40–55 percent—and their cost of debt directly affects distributable income. However, the impact depends entirely on the **structure** of that debt: fixed versus floating mix, maturity profile, covenant terms, and access to capital markets. A REIT with 85 percent fixed-rate debt and a weighted-average maturity of 5+ years experiences a very different rate-hike impact than one with 60 percent floating-rate exposure and near-term maturities.
 
 The net effect of a rate hike on any specific J-REIT depends on the contest between these two channels, modulated by the third variable: **rent growth.** If rents are rising faster than financing costs increase, the REIT can absorb rate pressure without distribution cuts. If rents are stagnant while costs rise, the squeeze is immediate.
 
@@ -47,12 +67,12 @@ What mattered was not the rate hike itself but the curve dynamics:
 
 The lesson: a gradual, well-telegraphed rate path with a stable curve is digestible. An abrupt repricing accompanied by curve instability and credit-spread widening is destructive. The source of the stress matters as much as the magnitude.
 
-**The 2024–2026 normalization.** The BOJ's current cycle—exiting YCC (Yield Curve Control) in March 2024, raising rates to 0.25 percent in July 2024, to 0.50 percent in early 2025, and further to **0.75 percent** by early 2026—has followed a more measured but persistent path. The TSE REIT Index stood at approximately **1,916 points** as of mid-April 2026, underperforming equities but avoiding a crisis-level drawdown. The 10-year JGB yield has climbed to approximately **2.43 percent** as of April 2026—a level not seen in over a decade—which has meaningfully compressed the yield spread between J-REITs and government bonds.
+**The 2024–2026 normalization.** The BOJ's current cycle—exiting YCC (Yield Curve Control) in March 2024, raising rates to 0.25 percent in July 2024, to 0.50 percent in early 2025, and further to **0.75 percent** by early 2026<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>—has followed a more measured but persistent path. The TSE REIT Index stood at approximately **1,916 points**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> as of mid-April 2026, underperforming equities but avoiding a crisis-level drawdown. The 10-year JGB yield has climbed to approximately **2.43 percent**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> as of April 2026—a level not seen in over a decade—which has meaningfully compressed the yield spread between J-REITs and government bonds.
 
 The curve has steepened modestly rather than inverting, which is the key reason the REIT market has absorbed these hikes without systemic stress. However, the speed of the long-end repricing (10Y JGB rising from ~1.0% in mid-2024 to ~2.43% in April 2026) deserves close attention—this is precisely the kind of curve movement that preceded stress in previous cycles.
 
 For practical monitoring, I track three curve metrics from [BOJ Statistics](https://www.boj.or.jp/en/statistics/index.htm/):
-- **2-year/10-year JGB spread** — positive and widening is supportive; narrowing signals curve flattening stress
+- **2-year/10-year JGB spread**<sup class="source-ref"><a href="#source-3">3</a></sup> — positive and widening is supportive; narrowing signals curve flattening stress
 - **10-year JGB volatility** — elevated move-index readings precede REIT repricing events
 - **Corporate credit spread** (AA-rated bonds vs. JGB) — widening above 30–40 basis points signals funding stress for leveraged vehicles
 

@@ -17,6 +17,24 @@ sources:
   - "https://www.e-miki.com/rent/"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://www.mlit.go.jp/en/"
+  - "https://gsfark.com/assets/sources/miki-202603-tokyo-office-market.xlsx"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+  - "https://www.mlit.go.jp/en/statistics/index.html/"
+  - "https://www.e-miki.com/"
+citeSources:
+  - label: "三鬼商事 東京オフィス市場データ (都心5区空室率推移), 2026-03"
+    url: "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
+    portal: "https://www.e-miki.com/rent/"
+    archive: "/assets/sources/miki-202603-tokyo-office-market.xlsx"
+  - label: "東日本レインズ Market Watch (首都圏中古マンション市場動向), 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "三鬼商事 オフィス賃貸市場分析 (実質賃料およびフリーレント動向), 2026-03"
+    url: "https://www.e-miki.com/rent/"
+    portal: "https://www.e-miki.com/"
+  - label: "国土交通省 建築・計画統計 (都心オフィスピーク供給マップ), 2025-12"
+    url: "https://www.mlit.go.jp/en/statistics/index.html/"
+    portal: "https://www.mlit.go.jp/en/"
 references:
   - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -29,9 +47,9 @@ references:
 
 ## 1. 2%台への回帰：遅行指標としての空室率をどう読むか
 
-2026年3月時点で、東京都心5区の平均空室率は**2.22%**まで低下しました。これはパンデミック前の水準に肉薄する数字であり、2025年を通じて続いた改善傾向の結実と言えます。
+2026年3月時点で、東京都心5区の平均空室率は**2.22%**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>まで低下しました。これはパンデミック前の水準に肉薄する数字であり、2025年を通じて続いた改善傾向の結実と言えます。
 
-しかし、私はこの数字を「祝辞」ではなく「警告」として捉えています。空室率は市場における最も遅い指標です。拡張需要や高スペック新築ビルへの吸収は既に動いており、数字がそれを後追いしているに過ぎません。特に注目すべきは、**「成約賃料（実質賃料）」の上昇**です。フリーレント期間が短縮され、オーナー側の交渉力はポストパンデミックで最大のピークに達しています。
+しかし、私はこの数字を「祝辞」ではなく「警告」として捉えています。空室率は市場における最も遅い指標です。拡張需要や高スペック新築ビルへの吸収は既に動いており、数字がそれを後追いしているに過ぎません。特に注目すべきは、**「成約賃料（実質賃料）」の上昇**です。フリーレント期間が短縮され<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>、オーナー側の交渉力はポストパンデミックで最大のピークに達しています。
 
 ![東京都心5区オフィス空室率推移（三鬼商事、2023年1月–2026年3月）](/assets/images/blog/tokyo-office-vacancy-chart-en.webp)
 
@@ -60,7 +78,7 @@ references:
 今日のデータから読み取るべき「罠」とは何でしょうか？
 
 *   **「Flight to Quality」の加速**: テナントは安い床ではなく、「人材を呼べる高機能な床」を求めています。平均空室率は低くても、古くて狭いビルのリーシング期間は長期化しています。
-*   **供給パイプラインの空白期**: 2023年、2025年の供給ピークを過ぎ、2026年後半以降は新築供給が相対的に落ち着きます。これにより、既存Aクラスビルのオーナー優位がさらに強まるでしょう。
+*   **供給パイプラインの空白期**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>: 2023年、2025年の供給ピークを過ぎ、2026年後半以降は新築供給が相対的に落ち着きます。これにより、既存Aクラスビルのオーナー優位がさらに強まるでしょう。
 *   **ハイブリッドワークの成熟**: 空室率は低いものの、1社あたりの床面積は最適化されています。面積の広さよりも、「人間中心のデザイン」や「コラボレーションスペース」の質が賃料を決定する時代です。
 
 ---
@@ -69,8 +87,8 @@ references:
 
 投資家は、以下のルーチンを推奨します。
 
-1.  **[三鬼商事](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 東京月次**（[アーカイブ](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [ポータル](https://www.e-miki.com/rent/)）: 空室率と平均賃料のベンチマーク。
-2.  **[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)**（[アーカイブ](/assets/sources/reins-202604-marketwatch.pdf)）とのクロスチェック。
+1.  **[三鬼商事](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) 東京月次**<sup class="source-ref"><a href="#source-1">1</a></sup>（[アーカイブ](/assets/sources/miki-202603-tokyo-office-market.xlsx) · [ポータル](https://www.e-miki.com/rent/)）: 空室率と平均賃料のベンチマーク。
+2.  **[REINS Market Watch](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf)**<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>（[アーカイブ](/assets/sources/reins-202604-marketwatch.pdf)）とのクロスチェック。
 3.  **大手ディベロッパーのIR資料**: 今後5年の供給パイプラインをマッピング。
 
 **2026年の東京オフィス市場は、単なる「回復」ではなく「質的な再編」の時期です。** 資産配分を調整する際は、「5区」という名前に頼るのではなく、「人材を引き寄せるハードウェア」かどうかを最優先に評価すべきです。
