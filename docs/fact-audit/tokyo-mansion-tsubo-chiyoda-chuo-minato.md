@@ -85,6 +85,14 @@
 | 70 | 25,000 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [ ] | Body |
 | 71 | 40,000 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [ ] | Body |
 | 72 | 9,500 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [ ] | Body |
+| 73 | ¥137,840,000 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [x] | Body |
+| 74 | ¥195,000,000 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [x] | Body |
+| 75 | ¥10,000,000 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [x] | Body |
+| 76 | ¥20,000,000 | Verified | [https://www.fudousankeizai.co.jp/topSiteNews?check=1](https://www.fudousankeizai.co.jp/topSiteNews?check=1) | [x] | Body |
+| 77 | 10,680,000 | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
+| 78 | 2026-04-01 | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
+| 79 | 1.7% | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
+| 80 | 7-10% | Verified | [https://cs1.livable.co.jp/kounyu/loan/money_plan.html](https://cs1.livable.co.jp/kounyu/loan/money_plan.html) | [x] | Body |
 
 ---
 

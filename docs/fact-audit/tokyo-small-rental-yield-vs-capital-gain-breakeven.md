@@ -86,6 +86,8 @@
 | 71 | 180,000 | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
 | 72 | 7,000 | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
 | 73 | 2,000 | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
+| 74 | 39.63% | Verified | [https://www.nta.go.jp/](https://www.nta.go.jp/) | [x] | Body |
+| 75 | 2026-04-01 | Verified | [https://www.reins.or.jp/about/](https://www.reins.or.jp/about/) | [x] | Body |
 
 ---
 
