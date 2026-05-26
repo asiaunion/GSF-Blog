@@ -37,6 +37,8 @@ sources:
   - "https://www.nta.go.jp/"
   - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
   - "https://www.mlit.go.jp/"
+  - "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
+  - "https://www.moj.go.jp/isa/"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -76,6 +78,9 @@ citeSources:
   - label: "国土交通省 新耐震基準の歴史および建築基準法改正公示"
     url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
     portal: "https://www.mlit.go.jp/"
+  - label: "出入国在留管理庁 高度人材ポイント制（永住許可要件の短縮）"
+    url: "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
+    portal: "https://www.moj.go.jp/isa/"
 ---
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
@@ -194,7 +199,7 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 不動産の**所有にビザは不要**です。現地で暮らしながら管理したい場合は在留資格が必要になります。
 
 - **経営管理ビザ** — 2025年10月改正：資本金3,000万円＋語学要件追加
-- **高度専門職** — 80ポイント以上で**1年で永住権**取得可能
+- **高度専門職** — 70ポイント以上で3年、80ポイント以上で**1年で永住権**取得可能<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
 - **10年連続在留** → 永住権ルート
 
 > 📖 [日本のビザ・永住権ルート 2025年改正版](/ja/posts/japan-visa-paths-permanent-business-manager-asset-holders) | [ソウルと東京を一つの市場で読む](/ja/posts/reading-korea-japan-markets-together)

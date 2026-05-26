@@ -37,6 +37,8 @@ sources:
   - "https://www.nta.go.jp/"
   - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
   - "https://www.mlit.go.jp/"
+  - "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
+  - "https://www.moj.go.jp/isa/"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -76,6 +78,9 @@ citeSources:
   - label: "일본 국토교통성(MLIT) 신내진기준(1981) 개요"
     url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html"
     portal: "https://www.mlit.go.jp/"
+  - label: "일본 출입국관리청(ISA) 고도인재 포인트제·영주권 요건 완화 안내"
+    url: "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
+    portal: "https://www.moj.go.jp/isa/"
 ---
 > **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
 
@@ -242,7 +247,7 @@ citeSources:
 
 ### 주요 경로
 1. **경영관리비자** — 2025년 10월 대개편: 자본금 3,000만 엔 요건 + 언어 요건 추가
-2. **고도전문직(고도인재)** — 포인트 70점 이상 시 3년, 80점 이상 시 **1년 만에 영주권**
+2. **고도전문직(고도인재)** — 포인트 70점 이상 시 3년, 80점 이상 시 **1년 만에 영주권**<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
 3. **투자경영비자 → 영주권** — 10년 연속 체류 + 납세 실적
 
 부동산 법인을 설립하고 경영관리비자를 취득하는 경로가 자산가들에게 가장 인기 있지만, 2025년 개편으로 진입 장벽이 높아졌습니다.
