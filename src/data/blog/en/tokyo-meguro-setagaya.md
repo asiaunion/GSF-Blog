@@ -20,7 +20,8 @@ sources:
   - "https://www.city.meguro.tokyo.jp/"
   - "https://www.city.setagaya.lg.jp/01110/5199.html"
   - "https://www.city.setagaya.lg.jp/"
-  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
   - "https://www.soumu.go.jp/"
   - "https://www.homes.co.jp/mansion/chuko/tokyo/"
   - "https://www.homes.co.jp/chintai/tokyo/"
@@ -34,9 +35,9 @@ citeSources:
   - label: "Setagaya Ward official resident-register population statistics (H1 2026)"
     url: "https://www.city.setagaya.lg.jp/01110/5199.html"
     portal: "https://www.city.setagaya.lg.jp/"
-  - label: "MIC 2024 municipal tax assessment survey (average taxable income by municipality)"
-    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran.html"
-    portal: "https://www.soumu.go.jp/"
+  - label: "MIC FY2025 municipal tax survey Table 11 (taxable income by municipality)"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+    portal: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
   - label: "LIFULL HOME'S Tokyo used-mansion & rental market indices; SUUMO rental market (May 2026)"
     url: "https://www.homes.co.jp/mansion/chuko/tokyo/"
     secondaryUrl: "https://suumo.jp/chintai/tokyo/"
@@ -97,7 +98,7 @@ Rents for a brand-new 1LDK near Nakameguro or Meguro Station easily climb above 
 
 ### Average Income per Taxpayer
 
-The average taxable income — the income base used for municipal tax assessments — per taxpayer in Meguro Ward is **approximately 7.787 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This ranks **5th** among all Tokyo 23 Wards, trailing only Chiyoda, Minato, Shibuya, and Chuo. It reflects a solid demographic of high-earning single professionals and dual-income power couples.
+The average taxable income — the income base used for municipal tax assessments — per taxpayer in Meguro Ward is **approximately 7.695 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This ranks **6th** among all Tokyo 23 Wards, trailing Minato, Shibuya, Chiyoda, Chuo, and Bunkyo. It reflects a solid demographic of high-earning single professionals and dual-income power couples.
 
 ### Population Dynamics
 
@@ -156,7 +157,7 @@ Compared to Meguro Ward, Setagaya's vast area means that if you are willing to w
 
 ### Average Income per Taxpayer
 
-The average taxable income — the taxable income base per taxpayer — in Setagaya Ward is **approximately 6.597 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Because the ward covers a vast area with a highly diverse household demographic, the arithmetic mean is lower than Meguro's. However, exclusive luxury pockets like Seijo and areas bordering Den-en-chofu host massive enclaves of corporate owners, top executives, and celebrities.
+The average taxable income — the taxable income base per taxpayer — in Setagaya Ward is **approximately 6.812 million yen**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Because the ward covers a vast area with a highly diverse household demographic, the arithmetic mean is lower than Meguro's. However, exclusive luxury pockets like Seijo and areas bordering Den-en-chofu host massive enclaves of corporate owners, top executives, and celebrities.
 
 ### Population Dynamics
 
@@ -182,8 +183,8 @@ The number of registered foreign residents in Setagaya Ward is **31,177**, which
 Comparing the core statistics of Meguro and Setagaya wards reveals their distinct profiles with mathematical clarity.
 
 * **Taxable Income Gap (Subtraction Verification):**
-  Subtracting Setagaya Ward's average taxable income of **6.597 million yen** from Meguro Ward's average taxable income of **7.787 million yen** yields an income gap of **1.190 million yen** (7.787 - 6.597 = 1.190 million yen).
-  *Result:* Taxpayers in Meguro Ward enjoy an average taxable income that is approximately 1.19 million yen (about 18.0%) higher than those in Setagaya.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+  Subtracting Setagaya Ward's average taxable income of **6.812 million yen** from Meguro Ward's average taxable income of **7.695 million yen** yields an income gap of **0.883 million yen** (7.695 − 6.812 = 0.883 million yen).
+  *Result:* Taxpayers in Meguro Ward enjoy an average taxable income that is approximately 0.88 million yen (about 13.0%) higher than those in Setagaya.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 * **Population Scale Gap (Division Verification):**
   Dividing Setagaya's total population of **931,090** by Meguro's total population of **283,913** yields a ratio of **approximately 3.28 times** (931,090 ÷ 283,913 = 3.2794... times).
@@ -201,7 +202,7 @@ Comparing the core statistics of Meguro and Setagaya wards reveals their distinc
 | **Total Population (People)** | 283,913 | 931,090 | Setagaya has approx. 3.28x more |
 | **Foreign Residents (People)** | 12,563 | 31,177 | Setagaya has 18,614 more |
 | **Expat Ratio (%)** | 4.42% | 3.35% | Meguro is 1.07%p higher |
-| **Average Taxable Income (Yen)** | Approx. 7.787 million | Approx. 6.597 million | Meguro is 1.19 million higher |
+| **Average Taxable Income (Yen)** | Approx. 7.695 million | Approx. 6.812 million | Meguro is 0.883 million higher |
 | **Mansion Average ㎡ Price** | Approx. 1.57 million | Approx. 1.15 million | Meguro is 420,000 yen higher |
 
 ---
@@ -216,7 +217,7 @@ On the other hand, if you want a rock-solid, long-term asset backed by domestic 
 
 ---
 
-> **Data Reference Point (May 2026):** Population and expat data are based on the official basic resident register releases from each ward as of the first half of 2026. Average taxable income is calculated from the 2024 municipal tax assessment survey (令和6年度) published by the Ministry of Internal Affairs and Communications. Mansion unit prices and rental rates are averaged from the May 2026 transaction indices of LIFULL HOME'S and SUUMO. Prior to making investment decisions, please consult with a qualified local judicial scrivener (司法書士) and tax accountant (税理士) to verify the latest tax regulations.
+> **Data Reference Point (May 2026):** Population and expat data are based on the official basic resident register releases from each ward as of the first half of 2026. Average taxable income follows MIC FY2025 (令和7年度) municipal tax survey Table 11 (footnote 3): taxable income per income-tax payer. Mansion unit prices and rental rates are averaged from the May 2026 transaction indices of LIFULL HOME'S and SUUMO. Prior to making investment decisions, please consult with a qualified local judicial scrivener (司法書士) and tax accountant (税理士) to verify the latest tax regulations.
 
 ## Investor Action Checklist
 
