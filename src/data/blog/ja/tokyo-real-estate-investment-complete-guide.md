@@ -28,6 +28,11 @@ sources:
   - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
   - "https://www.livable.co.jp/l-note/question/g12987/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
+  - "https://www.jpx.co.jp/equities/products/reits/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
+  - "https://www.toshiseibi.metro.tokyo.lg.jp/"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -54,6 +59,13 @@ citeSources:
     url: "https://www.livable.co.jp/l-note/question/g12987/"
   - label: "法務省 外国人登記申請における署名証明指針"
     url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
+  - label: "JPX J-REIT月次レポート・市場統計, 2026"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+    secondaryUrl: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/equities/products/reits/index.html"
+  - label: "東京都 都市再生ステップアップ（渋谷ほか）事業資料, 2025 PDF"
+    url: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
+    portal: "https://www.toshiseibi.metro.tokyo.lg.jp/"
 ---
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
@@ -117,7 +129,7 @@ citeSources:
 
 実質利回り = (年間賃料 − 保有コスト) ÷ (取得価格 + 諸費用) × 100
 
-J-REITは分配利回り3〜4%、BOJの買入実績、為替差益の可能性を兼ね備えた代替手段です。
+J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね4〜5%前後**（時期・セクターで変動）とされ、BOJの買入実績や為替差益の可能性もあわせて検討できる代替手段です。<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup>
 
 > 📖 [利回り vs キャピタルゲイン](/ja/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5つのポイント](/ja/posts/j-reit-five-things-to-know) | [ホテルREIT vs オフィスREIT](/ja/posts/hotel-reit-vs-office-reit-post-covid) | [金利サイクルとJ-REIT](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
@@ -125,7 +137,7 @@ J-REITは分配利回り3〜4%、BOJの買入実績、為替差益の可能性�
 
 ## Chapter 4. 再開発
 
-東京は「100年に一度」と呼ばれる大規模再開発サイクルの真っ只中にあります。日本橋・八重洲・虎ノ門・渋谷駅周辺のメガプロジェクトが2028〜2030年に順次竣工予定です。
+東京は「100年に一度」と呼ばれる大規模再開発サイクルの真っ只中にあります。日本橋・八重洲・虎ノ門・渋谷駅周辺のメガプロジェクトが2028〜2030年に順次竣工予定です。<sup class="source-ref"><a href="#source-11" id="cite-11">11</a></sup>
 
 原則：**着工前〜工事中**に隣接物件を取得。駅徒歩5分以内の**既存マンションリノベーション**物件に注目してください。
 

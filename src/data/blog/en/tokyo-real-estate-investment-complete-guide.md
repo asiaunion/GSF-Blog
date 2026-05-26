@@ -28,6 +28,11 @@ sources:
   - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
   - "https://www.livable.co.jp/l-note/question/g12987/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
+  - "https://www.jpx.co.jp/equities/products/reits/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
+  - "https://www.toshiseibi.metro.tokyo.lg.jp/"
 citeSources:
   - label: "REINS Market Watch, Apr 2026"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -54,6 +59,13 @@ citeSources:
     url: "https://www.livable.co.jp/l-note/question/g12987/"
   - label: "Japan Ministry of Justice: Signature Notarization for Foreign Registration"
     url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
+  - label: "JPX J-REIT monthly report & market statistics, 2026"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+    secondaryUrl: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/equities/products/reits/index.html"
+  - label: "Tokyo Metro urban regeneration step-up projects (incl. Shibuya), 2025 PDF"
+    url: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
+    portal: "https://www.toshiseibi.metro.tokyo.lg.jp/"
 ---
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
@@ -117,7 +129,7 @@ Non-residents: passport + notarized affidavit replaces *inkan*.<sup class="sourc
 
 Net yield = (Annual rent − Costs) ÷ (Price + Transaction costs) × 100
 
-J-REITs offer 3–4% distributions, BOJ backstop history, and FX upside.
+Per JPX market data, **forecast annual distribution yields are roughly 4–5%** (varies by period and sector). BOJ backstop history and FX upside are also worth weighing.<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup>
 
 > 📖 [Yield vs Capital Gain Breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5 Things](/posts/j-reit-five-things-to-know) | [Hotel vs Office REITs](/posts/hotel-reit-vs-office-reit-post-covid) | [Rate Hikes & J-REIT](/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
@@ -125,7 +137,7 @@ J-REITs offer 3–4% distributions, BOJ backstop history, and FX upside.
 
 ## Chapter 4. Redevelopment
 
-Tokyo is mid-cycle in a "once-in-a-century" redevelopment wave. Nihonbashi, Yaesu, Toranomon, and Shibuya mega-projects complete 2028–2030. Adjacent value uplift has already started.
+Tokyo is mid-cycle in a "once-in-a-century" redevelopment wave. Nihonbashi, Yaesu, Toranomon, and Shibuya mega-projects complete 2028–2030. Adjacent value uplift has already started.<sup class="source-ref"><a href="#source-11" id="cite-11">11</a></sup>
 
 Principles: buy **before groundbreaking**, target **existing renovations within 5-min walk** from stations, understand rights-conversion structures.
 

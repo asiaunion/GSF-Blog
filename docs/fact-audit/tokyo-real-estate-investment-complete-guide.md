@@ -22,6 +22,8 @@
 | H6 | 부대비용 비율 7~10% | 7~10% | [Tokyu Livable money plan (諸費用)](https://cs1.livable.co.jp/kounyu/loan/money_plan.html) — page states 売買価格の約7～10% | [x] | Chapter 2 |
 | H7 | 계약금 비율 5~10% | 5~10% | [Tokyu Livable L-note g12987](https://www.livable.co.jp/l-note/question/g12987/) — 5% / 1割(10%) | [x] | Chapter 2 |
 | H8 | 비거주자 서명공증 Affidavit 대체 | Affidavit | [Japan Ministry of Justice](https://www.moj.go.jp/MINJI/minji05_00494.html) — HEAD OK (trust script) | [x] | Chapter 2 |
+| H9 | J-REIT 예상 분배금 수익률 약 4~5% | 4~5% / 4.79% | [JPX REIT reports](https://www.jpx.co.jp/equities/products/reits/reports/index.html) · [monthly PDF](https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf) | [x] | Chapter 3 |
+| H10 | 도심 메가 재개발 완공 타임라인(渋谷 2028–29 등) | 2028~2030년 | [Tokyo Metro urban regeneration PDF](https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02) | [x] | Chapter 4 |
 
 > Auto-extracted rows below remain for T1 coverage; headline edits use manifest URLs above.
 
@@ -120,6 +122,8 @@
 | https://www.e-miki.com/rent/ | public | [x] |
 | https://www.nta.go.jp/english/index.htm | gov | [ ] |
 | https://www.kantei.ne.jp/ | public | [ ] |
+| https://www.jpx.co.jp/equities/products/reits/reports/index.html | public | [x] |
+| https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02 | gov | [x] |
 
 **references ⊆ sources**: [x] confirmed
 
