@@ -128,5 +128,34 @@ claims:
     verifier: Cursor
     notes: "Replaced broken isa.go.jp/ko/.../nyuukokukanri07_00016 (301→ISA home) with MOJ HSP point-system index; 70pt/3yr and 80pt/1yr PR shortening per linked PDFs on page."
 
+  - id: ch7-business-manager-visa
+    koQuote: "경영관리비자 — 2025년 10월 대개편: 자본금 3,000만 엔 요건 + 언어 요건 추가"
+    values: ["2025년 10월", "3,000만 엔"]
+    primaryUrl: https://www.moj.go.jp/isa/applications/resources/10_00237.html
+    portalUrl: https://www.moj.go.jp/isa/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+
+  - id: ch6-earthquake-insurance
+    koQuote: "지진보험(地震保険)은 화재보험의 30~50% 범위에서 가입 가능"
+    values: ["30~50%"]
+    primaryUrl: https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm
+    portalUrl: https://www.mof.go.jp/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "MOF states 火災保険の30％～50％; separate from MLIT seismic-design footnote."
+
+  - id: ch5-corporate-personal-tax-rates
+    koQuote: "세율 | 5~45% 누진 | 실효 30~35%"
+    values: ["5~45%", "30~35%"]
+    primaryUrl: https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm
+    portalUrl: https://www.nta.go.jp/
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "Effective corporate band for small GK/KK; inheritance 55% etc. remain cluster deep-dives without inline cite."
+
 
 

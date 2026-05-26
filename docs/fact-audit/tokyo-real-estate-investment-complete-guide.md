@@ -17,7 +17,7 @@
 | H1 | 도쿄 23구 기존 맨션 중위 약 9,200만 엔 / ㎡당 140만 엔 | 9,200만 / 140만 | [REINS Market Watch 2026-04 PDF](https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf) · archive `/assets/sources/reins-202604-marketwatch.pdf` | [x] | 왜 지금 도쿄인가 |
 | H2 | 해외 주소 3.5% / 도심 6구 7.5% (2024년 3.2%) | 3.5% / 7.5% / 3.2% | [MLIT press 2025-11](https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html) · [PDF](https://www.mlit.go.jp/report/press/content/001970012.pdf) · archive `/assets/sources/mlit-202511-mansion-foreign-buyer.pdf` | [x] | 왜 지금 도쿄인가 |
 | H3 | 도심 5구 오피스 공실률 2.22% | 2.22% | [Miki Tokyo XLS](https://www.e-miki.com/rent/assets/market/tokyo.xlsx) · archive `/assets/sources/miki-202603-tokyo-office-market.xlsx` | [x] | 왜 지금 도쿄인가 |
-| H4 | 고정자산세 표본 | 1.4% | [Tokyo tax metro](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi) | [x] | Body (P0 legacy) |
+| H4 | 고정자산세·도시계획세(1.4% / 0.3%) | 1.4% / 0.3% | [Tokyo tax metro](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi) | [x] | Chapter 5 |
 | H5 | 치요다/에도가와 坪단가 격차(정성) + 표 레인지 프레임 | 3배+ / 표 구간 | [Tokyo Kantei 2025 PDF](https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf) · archive `/assets/sources/kantei-2025-chukomansion.pdf` | [x] | Chapter 1 |
 | H6 | 부대비용 비율 7~10% | 7~10% | [Tokyu Livable money plan (諸費用)](https://cs1.livable.co.jp/kounyu/loan/money_plan.html) — page states 売買価格の約7～10% | [x] | Chapter 2 |
 | H7 | 계약금 비율 5~10% | 5~10% | [Tokyu Livable L-note g12987](https://www.livable.co.jp/l-note/question/g12987/) — 5% / 1割(10%) | [x] | Chapter 2 |
@@ -27,6 +27,9 @@
 | H11 | 건물 정액법 도입(2016년 4월) 및 중고용 감가상각 0.2배율 | 2016년 4월 / 0.2 | [Japan National Tax Agency (NTA) depreciation table](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm) | [x] | Chapter 5 |
 | H12 | 신내진기준(1981년) 및 진도 7 도괴 방지 설계 | 1981년 / 7 | [MLIT New Seismic Design Standard & Building Regulation History](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html) | [x] | Chapter 6 |
 | H13 | 고도전문직 비자 포인트별 영주권 완화 요건(70점 3년 / 80점 1년) | 70점 / 3년 / 80점 / 1년 | [ISA Highly Skilled Professional point system (MOJ)](https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html) | [x] | Chapter 7 |
+| H14 | 경영관리비자 2025.10 개편·자본금 3,000만 엔 | 3,000만 엔 | [MOJ ISA Business Manager requirements](https://www.moj.go.jp/isa/applications/resources/10_00237.html) | [x] | Chapter 7 |
+| H15 | 지진보험 한도(화재보험의 30~50%) | 30~50% | [MOF earthquake insurance overview](https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm) | [x] | Chapter 6 |
+| H16 | 개인 누진 5~45% vs 법인 실효 30~35% | 5~45% / 30~35% | [NTA rental income tax (joto/3211)](https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm) | [x] | Chapter 5 |
 
 > Auto-extracted rows below remain for T1 coverage; headline edits use manifest URLs above.
 
@@ -130,6 +133,9 @@
 | https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2100.htm | gov | [x] |
 | https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk_000021.html | gov | [x] |
 | https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html | gov | [x] |
+| https://www.moj.go.jp/isa/applications/resources/10_00237.html | gov | [x] |
+| https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm | gov | [x] |
+| https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm | gov | [x] |
 
 **references ⊆ sources**: [x] confirmed
 

@@ -39,6 +39,9 @@ sources:
   - "https://www.mlit.go.jp/"
   - "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
   - "https://www.moj.go.jp/isa/"
+  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+  - "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -81,6 +84,15 @@ citeSources:
   - label: "出入国在留管理庁 高度人材ポイント制（永住許可要件の短縮）"
     url: "https://www.moj.go.jp/isa/applications/resources/newimmiact_3_index.html"
     portal: "https://www.moj.go.jp/isa/"
+  - label: "出入国在留管理庁 経営管理ビザ要件（2025年10月改正）"
+    url: "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+    portal: "https://www.moj.go.jp/isa/"
+  - label: "財務省 地震保険制度の概要（火災保険の30〜50%）"
+    url: "https://www.mof.go.jp/policy/financial_system/earthquake_insurance/jisin.htm"
+    portal: "https://www.mof.go.jp/"
+  - label: "国税庁 賃貸所得（個人累進 vs 法人実効税率）"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+    portal: "https://www.nta.go.jp/"
 ---
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
@@ -88,7 +100,7 @@ citeSources:
 
 ## なぜ今、東京なのか
 
-2026年4月現在、東京23区の既存マンション中位価格は約**9,200万円**（㎡あたり約140万円）です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 港区・千代田区・渋谷区のプライム3区では、新築坪単価が**900万円を突破**し、赤坂など一部の超高級立地では坪1,000万円を超える事例も出ています。
+2026年4月現在、東京23区の既存マンション中位価格は約**9,200万円**（㎡あたり約140万円）です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 港区・千代田区・渋谷区のプライム3区では、新築坪単価が**900万円を突破**し、赤坂など一部の超高級立地では坪1,000万円を超える事例も出ています。<sup class="source-ref"><a href="#source-6">6</a></sup>
 
 この上昇を支える3つの柱があります。
 
@@ -142,9 +154,11 @@ citeSources:
 | 管理費・修繕費 | 月2〜5万 | 月1.5〜3万 | 月1〜2万 |
 | 空室リスク | 低 | 中 | 高 |
 
+表面利回りの区間は区・築年・管理費で変動する**市場フレーム**です。物件ごとの検証は[利回り深掘り記事](/ja/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven)を参照してください。
+
 実質利回り = (年間賃料 − 保有コスト) ÷ (取得価格 + 諸費用) × 100
 
-J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね4〜5%前後**（時期・セクターで変動）とされ、BOJの買入実績や為替差益の可能性もあわせて検討できる代替手段です。<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup>
+J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね4〜5%前後**（時期・セクターで変動）です。<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup> BOJ政策・為替は別シナリオで検討してください。
 
 > 📖 [利回り vs キャピタルゲイン](/ja/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5つのポイント](/ja/posts/j-reit-five-things-to-know) | [ホテルREIT vs オフィスREIT](/ja/posts/hotel-reit-vs-office-reit-post-covid) | [金利サイクルとJ-REIT](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
@@ -172,11 +186,16 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 
 2016年4月以降は**定額法**のみ。耐用年数超過の中古は**法定年数 × 0.2**で短縮償却可能です。<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
 
+### 保有時
+
+- **固定資産税**: 課税標準額 × **1.4%**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+- **都市計画税**: 課税標準額 × **0.3%**<sup class="source-ref"><a href="#source-4">4</a></sup>
+
 ### 法人 vs 個人
 
 | 項目 | 個人 | 法人（GK/KK） |
 |------|------|--------------|
-| 税率 | 5〜45% | 実効30〜35% |
+| 税率 | 5〜45% | 実効30〜35%<sup class="source-ref"><a href="#source-17" id="cite-17">17</a></sup> |
 | 非居住者源泉 | 20.42% | 回避可能 |
 | 相続・贈与 | 最大55% | 株式譲渡で回避 |
 
@@ -186,7 +205,7 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 
 ## Chapter 6. リスク — 地震・為替・金利
 
-- **地震**: 1981年以降の新耐震基準物件は震度7でも倒壊しない設計です。地震保険は火災保険の30〜50%でカバーされます。<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup>
+- **地震**: 1981年以降の新耐震基準物件は震度7でも倒壊しない設計です。<sup class="source-ref"><a href="#source-13" id="cite-13">13</a></sup> 地震保険は火災保険の**30〜50%**の範囲で設定できます。<sup class="source-ref"><a href="#source-16" id="cite-16">16</a></sup>
 - **為替**: 100円あたり約800〜900ウォン（JPY/KRW）圏のシナリオ分析が必須です。
 - **金利**: BOJの利上げサイクル入りですが、グローバル比では極めて緩やかです。
 
@@ -198,7 +217,7 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 
 不動産の**所有にビザは不要**です。現地で暮らしながら管理したい場合は在留資格が必要になります。
 
-- **経営管理ビザ** — 2025年10月改正：資本金3,000万円＋語学要件追加
+- **経営管理ビザ** — 2025年10月改正：資本金3,000万円＋語学要件追加<sup class="source-ref"><a href="#source-15" id="cite-15">15</a></sup>
 - **高度専門職** — 70ポイント以上で3年、80ポイント以上で**1年で永住権**取得可能<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
 - **10年連続在留** → 永住権ルート
 
