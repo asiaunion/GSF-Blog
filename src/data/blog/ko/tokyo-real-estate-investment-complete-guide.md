@@ -28,6 +28,11 @@ sources:
   - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
   - "https://www.livable.co.jp/l-note/question/g12987/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
+  - "https://www.jpx.co.jp/equities/products/reits/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+  - "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+  - "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
+  - "https://www.toshiseibi.metro.tokyo.lg.jp/"
 citeSources:
   - label: "REINS Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
@@ -54,6 +59,13 @@ citeSources:
     url: "https://www.livable.co.jp/l-note/question/g12987/"
   - label: "일본 법무성 외국인 등기 신청 서명공증 지침"
     url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
+  - label: "JPX J-REIT 월간 리포트·시장 통계, 2026"
+    url: "https://www.jpx.co.jp/equities/products/reits/reports/index.html"
+    secondaryUrl: "https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf"
+    portal: "https://www.jpx.co.jp/equities/products/reits/index.html"
+  - label: "도쿄도 도시재생 스텝업(渋谷 등) 사업 자료, 2025"
+    url: "https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02"
+    portal: "https://www.toshiseibi.metro.tokyo.lg.jp/"
 ---
 > **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
 
@@ -133,7 +145,7 @@ citeSources:
 
 **핵심 공식**: 실질수익률 = (연간 임대료 − 보유비용) ÷ (취득가 + 부대비용) × 100
 
-직접 매입이 부담스럽다면 **J-REIT(일본 부동산투자신탁)**이 대안입니다. 분배금 수익률 3\~4%, BOJ의 ETF 매입 역사, 그리고 환차익 가능성까지 삼박자를 갖추고 있습니다.
+직접 매입이 부담스럽다면 **J-REIT(일본 부동산투자신탁)**이 대안입니다. JPX 시장 통계 기준 **예상 연간 분배금 수익률은 약 4~5% 전후**(시기·섹터별 상이)이며, BOJ의 ETF 매입 역사와 환차익 가능성도 함께 검토할 수 있습니다.<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup>
 
 > 📖 **심층 읽기**: [임대수익률 vs 시세차익 — 도쿄 소형 물건 손익분기](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 투자 알아야 할 5가지](/ko/posts/j-reit-five-things-to-know) | [호텔 리츠 vs 오피스 리츠](/ko/posts/hotel-reit-vs-office-reit-post-covid) | [금리 인상 사이클과 J-REIT](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
@@ -141,7 +153,7 @@ citeSources:
 
 ## Chapter 4. 재개발 — 가치가 솟는 지점을 읽는 법
 
-도쿄는 현재 **100년에 한 번**이라 불리는 대규모 재개발 사이클 한가운데에 있습니다. 니혼바시·야에스·도라노몬·시부야역 주변의 메가 프로젝트가 2028\~2030년 순차 완공을 앞두고 있으며, 이 프로젝트들의 영향권에 있는 기존 물건의 가치 상승이 이미 시작되었습니다.
+도쿄는 현재 **100년에 한 번**이라 불리는 대규모 재개발 사이클 한가운데에 있습니다. 니혼바시·야에스·도라노몬·시부야역 주변의 메가 프로젝트가 2028\~2030년 순차 완공을 앞두고 있으며, 이 프로젝트들의 영향권에 있는 기존 물건의 가치 상승이 이미 시작되었습니다.<sup class="source-ref"><a href="#source-11" id="cite-11">11</a></sup>
 
 **재개발 투자의 핵심 원칙**:
 - 완공 후가 아니라 **착공 전\~공사 중**에 인접 물건 매입

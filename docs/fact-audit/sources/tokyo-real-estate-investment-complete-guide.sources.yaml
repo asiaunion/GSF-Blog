@@ -76,3 +76,25 @@ claims:
     verifiedAt: "2026-05-26"
     verifier: Cursor
     notes: "HEAD 200 via trust script; page may block generic curl. Align with tokyo-buying-process-step-by-step MOJ cite."
+
+  - id: ch3-jreit-yield
+    koQuote: "JPX 시장 통계 기준 예상 연간 분배금 수익률은 약 4~5% 전후"
+    values: ["4~5%", "4.79%"]
+    primaryUrl: https://www.jpx.co.jp/equities/products/reits/reports/index.html
+    primaryPdf: https://www.jpx.co.jp/equities/products/reits/reports/tvdivq0000007ago-att/REIT.pdf
+    portalUrl: https://www.jpx.co.jp/equities/products/reits/index.html
+    asOf: "2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "JPX monthly REIT report shows forecast distribution yield ~4.79%; body uses 4~5% band. BOJ/FX not on same page."
+
+  - id: ch4-redevelopment-timeline
+    koQuote: "니혼바시·야에스·도라노몬·시부야역 주변의 메가 프로젝트가 2028~2030년 순차 완공"
+    values: ["2028~2030년"]
+    primaryUrl: https://www.toshiseibi.metro.tokyo.lg.jp/documents/d/toshiseibi/pdf_bosai_toshi_saisei_data_saisei10_siryou02
+    portalUrl: https://www.toshiseibi.metro.tokyo.lg.jp/
+    asOf: "2025-2026"
+    verifiedAt: "2026-05-26"
+    verifier: Cursor
+    notes: "AG URL /bosai/toshi_saikai/ was 404. PDF documents Shibuya step-up completions 2028–2029; other wards qualitative + cluster links."
+
