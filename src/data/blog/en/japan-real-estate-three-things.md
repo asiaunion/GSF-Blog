@@ -15,6 +15,25 @@ sources:
   - "https://www.mlit.go.jp/en/"
   - "https://www.stat.go.jp/english/"
   - "https://www.jnto.go.jp/eng/"
+  - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+  - "https://www.tax.metro.tokyo.lg.jp/"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7191.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6301.htm"
+  - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
+citeSources:
+  - label: "Tokyo Metropolitan Tax Bureau Real Estate Acquisition Tax Rates"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+    portal: "https://www.tax.metro.tokyo.lg.jp/"
+  - label: "National Tax Agency (NTA) Registration and License Tax Rates Overview"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/inshi/7191.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "National Tax Agency (NTA) Consumption Tax Overview"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shohi/6301.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "Tokyo Metropolitan Tax Bureau Fixed Asset Tax Overview"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
+    portal: "https://www.tax.metro.tokyo.lg.jp/"
 references:
   - "https://www.mlit.go.jp/en/"
   - "https://www.stat.go.jp/english/"
@@ -28,7 +47,7 @@ references:
 
 **Safe Haven:** The Japanese real estate market is evaluated as one of the safest markets in Asia. It is highly reputed as an attractive place to invest due to its reliability.
 
-**Tourism demand:** Cross-border travel has recovered meaningfully from the pandemic trough, and that can support selected rental and retail corridors. The 2019 peak and early-recovery 2023 figures in this article should be read as historical reference points; always confirm current monthly direction with [JNTO](https://www.jnto.go.jp/eng/).
+**Tourism demand:** Cross-border travel has recovered meaningfully from the pandemic trough, and that can support selected rental and retail corridors. Past peak and early-recovery figures in this article should be read as historical reference points; always confirm current monthly direction with [JNTO](https://www.jnto.go.jp/eng/).
 
 When you sanity-check numbers and policy trends, pair this article with primary materials from the [Ministry of Land, Infrastructure, Transport and Tourism (MLIT)](https://www.mlit.go.jp/en/) and macro releases from [Statistics Japan](https://www.stat.go.jp/english/). Nothing here is tax or legal advice—rates and registration practice change, so verify the latest rules with qualified professionals.
 
@@ -36,17 +55,17 @@ When you sanity-check numbers and policy trends, pair this article with primary 
 
 When investing in real estate in Japan, it is important to equip yourself with knowledge about **market trends, legal regulations, and Japanese communication skills**, while also understanding real estate-related taxes. Taxes borne by real estate investors in Japan include stamp duty, registration and real estate acquisition taxes, and consumption tax. Excluding the marginal stamp duty, the primary taxes are as follows:
 
-**Real Estate Acquisition Tax:** This tax is levied on the acquisition of land or buildings. The tax base is the value of the real estate recorded in the official ledger, which is usually lower than the market value. The tax rate formally varies depending on the type of property. Currently, a 3% rate applies to land and residential properties, and 4% to non-residential buildings.
+**Real Estate Acquisition Tax:** This tax is levied on the acquisition of land or buildings. Currently, a 3% basic tax rate applies to land and residential properties, and 4% to non-residential buildings.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> Notably, for residential land (takuchi), the tax base is halved under special relief measures, resulting in an effective tax rate of 1.5% for land and 3% for residential buildings.
 
-**Registration License Tax:** This is a tax imposed on real estate transactions such as the purchase of real estate or construction of buildings. The amount varies depending on the transaction type and is typically a percentage of the value listed in the official ledger. For example, in the case of a sale, the current registration license tax is 2% of the value recorded in the official ledger.
+**Registration License Tax:** This is a tax imposed on real estate transactions such as the purchase of real estate or construction of buildings. The amount varies depending on the transaction type and is typically a percentage of the value listed in the official ledger. For example, in the case of a sale, the current registration license tax is 2% of the value recorded in the official ledger.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
-**Consumption Tax:** Consumption tax is a value-added tax levied on the sale of goods and services in Japan, currently set at 10%.
+**Consumption Tax:** Consumption tax is a value-added tax levied on the sale of goods and services in Japan, currently set at 10%.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 After purchasing real estate in Japan, there are taxes and miscellaneous expenses that must be paid throughout the ownership period, which include the fixed asset tax and city planning tax. These taxes can be paid at local tax offices, post offices, convenience stores, and financial institutions.
 
-**Fixed Asset Tax:** A tax paid once a year for the owned real estate. The standard tax rate is around 1.4%.
+**Fixed Asset Tax:** A tax paid once a year for the owned real estate. The standard tax rate is around 1.4%.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
-**Real Estate Income Tax:** When you rent out real estate and earn rental income, income tax is levied on that income. Income tax returns must be filed annually. For example, the tax rate is 5% for incomes of 1.95 million yen or less, and 10% for incomes of 3.3 million yen or less.
+**Real Estate Income Tax:** When you rent out real estate and earn rental income, income tax is levied on that income. Income tax returns must be filed annually. For example, the tax rate is 5% for incomes of 1,950,000 yen or less, and 10% for incomes of 3,300,000 yen or less.
 
 These taxes are mandatory items that investors in Japanese real estate must confirm. It is highly advised to consult with tax or legal experts regarding these specifics. For rates, special measures, and payment mechanics, cross-check [MLIT](https://www.mlit.go.jp/en/) guidance with macro and regional releases from [Statistics Japan](https://www.stat.go.jp/english/).
 
@@ -80,7 +99,7 @@ After purchasing, Japan's highly developed professional maintenance and meticulo
 - [Hotel REITs vs Office REITs: Which Recovered More After COVID?](/posts/hotel-reit-vs-office-reit-post-covid/)
 - [Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
 
-> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
+> **Data freshness (2026-04-01):** BOJ policy rate 0.75%, 10-year JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22% (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10,680,000 (JNTO). Verify the latest from linked sources before acting.
 
 ## Investor Action: Session Summary & Check
 

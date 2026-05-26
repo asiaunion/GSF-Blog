@@ -14,13 +14,26 @@ tags:
   - judicial-scrivener
   - Non-Resident
 sources:
-  - "https://www.mlit.go.jp/en/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
-  - "https://www.nta.go.jp/english/index.htm"
-references:
-  - "https://www.mlit.go.jp/en/"
-  - "https://www.moj.go.jp/MINJI/minji05_00494.html"
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.moj.go.jp/"
+  - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+  - "https://www.livable.co.jp/"
+  - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+  - "https://www.tax.metro.tokyo.lg.jp/"
+  - "https://www.livable.co.jp/l-note/question/g12987/"
+citeSources:
+  - label: "Japan Ministry of Justice: Signature Notarization for Foreign Registration"
+    url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
+    portal: "https://www.moj.go.jp/"
+  - label: "Tokyu Livable: Purchase Closing Costs Guide"
+    url: "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+    portal: "https://www.livable.co.jp/"
+  - label: "Tokyo Metropolitan Tax: Real Estate Acquisition Tax Rates & Reductions"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+    portal: "https://www.tax.metro.tokyo.lg.jp/"
+  - label: "Tokyu Livable L-note: Earnest Money Practice Guide"
+    url: "https://www.livable.co.jp/l-note/question/g12987/"
+    portal: "https://www.livable.co.jp/"
 ---
 > **This article is a Chapter 2 deep-dive companion to the [Complete Guide to Tokyo Real Estate Investment](/posts/tokyo-real-estate-investment-complete-guide/).** I recommend reading the pillar page first for the full investment roadmap, then returning here for the procedural details.
 
@@ -33,8 +46,8 @@ Japan's real estate market is remarkably **open to foreigners**. No visa, no per
 In my experience, Korean investors face three recurring shock points:
 
 1. **The language wall** — The Important Matters Explanation is legally conducted in Japanese only.
-2. **The documentation wall** — Non-residents cannot obtain a seal certificate or resident card, so notarized alternatives are required.
-3. **The cost wall** — Ancillary costs run 8\~12% on top of the property price, and without an itemized breakdown in advance, you will receive surprise invoices.
+2. **The documentation wall** — Non-residents cannot obtain a seal certificate or resident card, so notarized alternatives are required.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+3. **The cost wall** — Ancillary costs run 8\~12% on top of the property price (though they realistically fall around 7\~10% under Tokyu Livable standards), and without an itemized breakdown in advance, you will receive surprise invoices.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 This article is my attempt to close that gap.
 
@@ -48,7 +61,7 @@ The first rule of buying Japanese real estate: **the listed price is never the f
 |------|--------------|-------|
 | Brokerage fee | Price × 3% + ¥60k + consumption tax | Legal maximum |
 | Registration & license tax | 0.3\~2.0% of assessed value | Varies by reduction eligibility |
-| Real estate acquisition tax | Land 1.5% / Building 3\~4% | Reduced rate for land |
+| Real estate acquisition tax | Land 1.5% / Building 3\~4%<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> | Reduced rate for land |
 | Stamp duty | ¥10k\~60k | Based on contract amount |
 | Judicial scrivener fee | ¥100k\~200k | Depends on deal complexity |
 | Fire & earthquake insurance | Tens of thousands to \~¥100k | By structure, area, coverage |
@@ -103,7 +116,7 @@ Once I decide on a property, I submit a Purchase Intent Letter (買付証明書)
 | Field | Content |
 |-------|---------|
 | Desired purchase price | 3\~5% below asking is typical |
-| Earnest money amount | 5\~10% of purchase price |
+| Earnest money amount | 5\~10% of purchase price<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | Financing contingency | Cancellation clause if loan is denied |
 | Preferred handover date | Usually 1\~2 months post-contract |
 | Validity period | Typically 1\~2 weeks |

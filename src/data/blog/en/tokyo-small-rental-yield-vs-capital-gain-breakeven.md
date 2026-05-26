@@ -13,25 +13,41 @@ tags:
   - Investing
 sources:
   - "https://www.mlit.go.jp/en/"
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/statistics/index.htm"
+  - "https://www.boj.or.jp/"
   - "https://www.nta.go.jp/english/"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://www.reins.or.jp/"
+  - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
+  - "https://www.tax.metro.tokyo.lg.jp/"
+citeSources:
+  - label: "East Japan Real Estate Information Network (REINS) Market Report"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+    portal: "https://www.reins.or.jp/"
+  - label: "Tokyo Metropolitan Tax Bureau Fixed Asset Tax Overview"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/kotei_tosi"
+    portal: "https://www.tax.metro.tokyo.lg.jp/"
+  - label: "Bank of Japan (BOJ) Financial and Economic Statistics"
+    url: "https://www.boj.or.jp/statistics/index.htm"
+    portal: "https://www.boj.or.jp/"
 references:
   - "https://www.mlit.go.jp/en/"
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/statistics/index.htm"
   - "https://www.nta.go.jp/english/"
 ---
 ## 1. Why headline yield often overstates reality
 
-Small-unit investment condominiums—typically 18–25 square meter 1R or 1K formats in central Tokyo—are the entry point for many individual investors. They are marketed aggressively by developers and brokerage firms, almost always with a "surface yield" figure (表面利回り) prominently displayed: 4.0 percent, 4.5 percent, sometimes 5.0 percent or higher in secondary locations.
+Small-unit investment condominiums—typically 18–25 square meter 1R or 1K formats in central Tokyo—are the entry point for many individual investors. They are marketed aggressively by developers and brokerage firms, almost always with a "surface yield" figure (表面利回り) prominently displayed: 4.0%, 4.5%, sometimes 5.0% or higher in secondary locations.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 I have underwritten enough of these deals to know that the gap between surface yield and realized net return is where most investment theses quietly die. Here is what the headline number almost never includes:
 
-- **Vacancy churn.** Compact units serving single tenants (university students, young professionals, company-housed workers) have shorter average tenancy than family-sized apartments. In central Tokyo, average occupancy cycles of 2–3 years are common, with 1–2 months vacancy per turnover for cleaning, minor repair, and re-listing. On a small-unit basis, one month of vacancy equals roughly 8 percent of annual gross income—and two turnovers per five-year period can reduce cumulative yield by 15–20 percent versus the "zero vacancy" assumption in surface yield calculations.
+- **Vacancy churn.** Compact units serving single tenants (university students, young professionals, company-housed workers) have shorter average tenancy than family-sized apartments. In central Tokyo, average occupancy cycles of 2–3 years are common, with 1–2 months vacancy per turnover for cleaning, minor repair, and re-listing. On a small-unit basis, one month of vacancy equals roughly 8% of annual gross income—and two turnovers per five-year period can reduce cumulative yield by 15–20% versus the "zero vacancy" assumption in surface yield calculations.
 - **Maintenance and repair spikes.** Air conditioning units in compact apartments need replacement every 8–12 years (¥80,000–150,000). Water heaters fail on similar cycles. Flooring and wallpaper refreshes at turnover cost ¥50,000–100,000 per event. These are not catastrophic individually, but they cluster unpredictably and are not captured in any annual yield calculation.
-- **Fee drag.** Monthly management fees (管理費) and repair reserve contributions (修繕積立金) for investor-oriented compact buildings typically run ¥8,000–18,000 combined. For a unit generating ¥70,000–90,000 monthly gross rent, this is 10–25 percent of top-line revenue consumed before any other costs.
-- **Tax friction.** Income tax on rental income (at marginal rates of 20–55 percent for Japanese residents, with withholding obligations for non-residents), fixed asset tax (approximately 1.4 percent of assessed value plus 0.3 percent city planning tax), and the consumption tax treatment of management fees all erode net returns. Foreign investors face additional complexity around tax treaty benefits, filing obligations, and withholding mechanics.
+- **Fee drag.** Monthly management fees (管理費) and repair reserve contributions (修繕積立金) for investor-oriented compact buildings typically run ¥8,000–18,000 combined. For a unit generating ¥70,000–90,000 monthly gross rent, this is 10–25% of top-line revenue consumed before any other costs.
+- **Tax friction.** Income tax on rental income (at marginal rates for Japanese residents, with withholding obligations for non-residents), fixed asset tax and city planning tax, and the consumption tax treatment of management fees all erode net returns. Foreign investors face additional complexity around tax treaty benefits, filing obligations, and withholding mechanics.
 
-A realistic full-cycle analysis often shows that a property marketed at "4.5 percent surface yield" delivers **1.5–2.5 percent net** after all frictions. If mortgage debt service is layered on top, the levered cash yield can approach zero in the early years—meaning the entire return thesis rests on price appreciation.
+A realistic full-cycle analysis often shows that a property marketed at "4.5 percent surface yield" delivers **1.5–2.5 percent net** after all frictions.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> If mortgage debt service is layered on top, the levered cash yield can approach zero in the early years—meaning the entire return thesis rests on price appreciation.
 
 ## 2. Breakeven is a scenario range, not one number
 
@@ -39,27 +55,27 @@ I model breakeven with three explicit paths, because a single-point estimate giv
 
 **Base case: gradual appreciation + modest positive cash flow**
 
-- Purchase at ¥25 million, financing at 1.5 percent variable rate, 75 percent LTV
-- Gross rent ¥85,000/month, vacancy allowance 5 percent, management/reserve ¥14,000/month
+- Purchase at ¥25,000,000, financing at 1.5% variable rate, 75% LTV
+- Gross rent ¥85,000/month, vacancy allowance 5%
 - Net cash flow after tax and all costs: approximately ¥120,000–180,000/year positive
-- Required appreciation for 10-year IRR target of 4 percent: approximately 8–12 percent cumulative (less than 1 percent annually)
+- Required appreciation for 10-year IRR target of 4%: approximately 8–12% cumulative (less than 1% annually)
 
 This base case is achievable in the current market—Tokyo condo prices have been rising faster than this threshold—but it assumes no material rate increase, stable tenant demand, and normal maintenance costs.
 
 **Stress case: rates up + flat pricing**
 
-- Same acquisition, but financing rate rises to 2.5 percent within three years (BOJ continuing normalization)
-- Rent growth flat (0 percent nominal), reflecting a demand softening or oversupply in compact segments
+- Same acquisition, but financing rate rises to 2.5% within three years (BOJ continuing normalization)
+- Rent growth flat (reflecting a demand softening or oversupply in compact segments)
 - Net cash flow turns negative by year 3: approximately ¥-80,000 to ¥-150,000/year
-- Required appreciation to avoid overall loss at year 10: approximately 15–20 percent cumulative
+- Required appreciation to avoid overall loss at year 10: approximately 15–20% cumulative
 
 This scenario is not extreme—a 100 basis point rate increase over three years is within the range of BOJ guidance. If pricing also stalls, the investor is paying out of pocket to hold an asset with uncertain exit value.
 
 **Weak-exit case: forced sale in a thin market**
 
 - Rates elevated, pricing flat or declining, and the investor needs to exit due to life-event liquidity needs
-- Disposal costs (agent commission 3 percent, capital gains tax up to 39.63 percent for short-term or 20.315 percent for long-term, miscellaneous) consume 5–10 percent of sale price
-- In a market where comparable listings have accumulated, achieving asking price may require 3–6 months of listing time or a 5–10 percent discount to ask
+- Disposal costs (agent commission 3%, capital gains tax up to 39.63% for short-term or 20.315% for long-term, miscellaneous) consume 5–10% of sale price
+- In a market where comparable listings have accumulated, achieving asking price may require 3–6 months of listing time or a 5–10% discount to ask
 
 The breakeven framework is not about predicting which scenario will occur—it is about knowing in advance how much you lose in each one and whether you can absorb that loss without disrupting your broader financial position.
 
@@ -67,7 +83,7 @@ The breakeven framework is not about predicting which scenario will occur—it i
 
 Small-unit investment economics sit at the intersection of three macro variables that most property-level analyses treat in isolation:
 
-**Interest rates.** The [Bank of Japan](https://www.boj.or.jp/en/statistics/index.htm/) raised the policy rate to 0.50 percent in early 2025 and has signaled further normalization. Variable-rate mortgages—which account for the majority of investment property financing in Japan—reprice with a lag, but each 25 basis point increase adds approximately ¥5,000–7,000 per month to debt service on a ¥20 million loan. For a compact unit with ¥70,000 gross rent and tight margins, three rate hikes can flip net cash flow from positive to negative.
+**Interest rates.** In the case of **interest rates**, as the Bank of Japan (BOJ) raised the policy rate to 0.50% in early 2025 and has signaled further normalization. Variable-rate mortgages—which account for the majority of investment property financing in Japan—reprice with a lag, but each 25 basis point increase adds approximately ¥5,000–7,000 per month to debt service on a typical loan.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> For a compact unit with ¥70,000 gross rent and tight margins, three rate hikes can flip net cash flow from positive to negative.
 
 **FX dynamics.** For Korean or other foreign investors, yen-denominated returns must be converted back to home currency. A property generating positive yen-denominated cash flow can still deliver negative KRW returns if the yen weakens during the holding period. Conversely, yen appreciation creates translation gains on top of property returns. I model three explicit FX paths (discussed in detail in my [FX scenarios post](/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios/)) and require the investment to survive at least two of three.
 
@@ -77,7 +93,7 @@ Small-unit investment economics sit at the intersection of three macro variables
 
 Beyond property-level underwriting, several structural factors frame the small-unit investment thesis:
 
-**Supply constraints.** New condominium supply in the Greater Tokyo Area hit its lowest level since 1973 in the most recent fiscal year. Construction labor shortages, elevated material costs, and land acquisition difficulty in central wards have structurally reduced the new-build pipeline. This places a replacement-cost floor under existing inventory—a builder cannot profitably construct a new compact unit in central Tokyo for less than approximately ¥4.5–5.5 million per tsubo, which means existing stock at ¥3.5–4.5 million per tsubo trades below replacement cost in many locations. This does not guarantee appreciation, but it reduces the risk of supply-driven price collapse.
+**Supply constraints.** New condominium supply in the Greater Tokyo Area hit its lowest level in half a century in the most recent fiscal year. Construction labor shortages, elevated material costs, and land acquisition difficulty in central wards have structurally reduced the new-build pipeline. This places a replacement-cost floor under existing inventory—a builder cannot profitably construct a new compact unit in central Tokyo for less than the replacement cost, which means existing stock trades below replacement cost in many locations. This does not guarantee appreciation, but it reduces the risk of supply-driven price collapse.
 
 **Demographic tailwinds for compact housing.** Japan's demographic decline is a headline headwind, but the relevant variable for central Tokyo compact units is single-person household formation—which has been increasing due to delayed marriage, urbanization of young workers, and corporate relocation patterns. Tokyo's resident population continues to grow even as Japan's national population shrinks. The Japan National Institute of Population forecasts that single-person households will represent over 40 percent of all households by 2040, concentrated in urban areas.
 
@@ -97,7 +113,7 @@ Small-unit investing in Tokyo can be a sensible component of a diversified portf
 
 <!-- content-depth-v2 -->
 
-> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
+> **Data freshness (2026-04-01):** BOJ policy rate 0.75%, 10-year JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22% (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10,680,000 (JNTO). Verify the latest from linked sources before acting.
 ## Investor Action: Session Summary & Check
 
 - [ ] **Breakeven**: Calculate the point where 'net profit' (including annual maintenance and taxes) is outweighed by asset appreciation.

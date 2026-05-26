@@ -14,13 +14,26 @@ tags:
   - 司法書士
   - 非居住者
 sources:
-  - "https://www.mlit.go.jp/en/"
   - "https://www.moj.go.jp/MINJI/minji05_00494.html"
-  - "https://www.nta.go.jp/english/index.htm"
-references:
-  - "https://www.mlit.go.jp/en/"
-  - "https://www.moj.go.jp/MINJI/minji05_00494.html"
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.moj.go.jp/"
+  - "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+  - "https://www.livable.co.jp/"
+  - "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+  - "https://www.tax.metro.tokyo.lg.jp/"
+  - "https://www.livable.co.jp/l-note/question/g12987/"
+citeSources:
+  - label: "法務省 外国人登記申請における署名証明指針"
+    url: "https://www.moj.go.jp/MINJI/minji05_00494.html"
+    portal: "https://www.moj.go.jp/"
+  - label: "東急リバブル 購入時の諸費用の目安"
+    url: "https://cs1.livable.co.jp/kounyu/loan/money_plan.html"
+    portal: "https://www.livable.co.jp/"
+  - label: "東京都 固定資産税・不動産取得税のご案内"
+    url: "https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html"
+    portal: "https://www.tax.metro.tokyo.lg.jp/"
+  - label: "東急リバブル L-note — 手付金の相場と慣行"
+    url: "https://www.livable.co.jp/l-note/question/g12987/"
+    portal: "https://www.livable.co.jp/"
 ---
 > **この記事は[東京不動産投資完全ガイド](/ja/posts/tokyo-real-estate-investment-complete-guide/)のChapter 2深掘り記事です。** まずはピラーページで投資ロードマップの全体像を把握された上で、こちらで購入手続きの詳細をご確認ください。
 
@@ -33,8 +46,8 @@ references:
 韓国人投資家が最も戸惑う3つのポイントがあります。
 
 1. **言語の壁** — 重要事項説明は法律上、日本語のみで行われます。
-2. **書類の壁** — 非居住者は印鑑証明書・住民票を取得できないため、公証書類で代替する必要があります。
-3. **費用の壁** — 物件価格の8\~12%の諸経費が発生しますが、事前に内訳を把握しておかないと「サプライズ請求書」を受け取ることになります。
+2. **書類の壁** — 非居住者は印鑑証明書・住民票を取得できないため、公証書類で代替する必要があります。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+3. **費用の壁** — 物件価格の8\~12%の諸経費が発生しますが（東急リバブル基準では実務上7\~10%前後）、事前に内訳を把握しておかないと「サプライズ請求書」を受け取ることになります。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 この記事は、そのギャップを埋めるために書かれました。
 
@@ -48,7 +61,7 @@ references:
 |------|----------|------|
 | 仲介手数料 | 売買価格 × 3% + 6万円 + 消費税 | 法定上限 |
 | 登録免許税 | 固定資産税評価額 × 0.3\~2.0% | 軽減措置の適用により変動 |
-| 不動産取得税 | 土地 1.5% / 建物 3\~4% | 経減特例時の土地税率 |
+| 不動産取得税 | 土地 1.5% / 建物 3\~4%<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> | 経減特例時の土地税率 |
 | 印紙税 | 1\~6万円 | 売買契約書金額基準 |
 | 司法書士報酬 | 10\~20万円 | 案件の複雑度による |
 | 火災・地震保険 | 数万\~10万円台 | 構造・面積・補償範囲別 |
@@ -103,7 +116,7 @@ references:
 | 項目 | 内容 |
 |------|------|
 | 希望購入価格 | 売出価格の3\~5%引きが一般的 |
-| 手付金額 | 売買価格の5\~10% |
+| 手付金額 | 売買価格の5\~10%<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | 融資特約 | ローン不承認時の解除条件 |
 | 引渡希望日 | 通常、契約後1\~2ヶ月 |
 | 有効期間 | 通常1\~2週間 |
