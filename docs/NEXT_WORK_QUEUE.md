@@ -10,7 +10,7 @@ Work in order. Check off in this file or weekly KPI when done.
 
 ## 1. Search Console (manual)
 
-Guide: [`GSC_MANUAL_STEPS_20260522.md`](./GSC_MANUAL_STEPS_20260522.md) · JA priority: [`SEO_JA_CLUSTER_FOCUS.md`](./SEO_JA_CLUSTER_FOCUS.md)
+Guide: [`GSC_ADSENSE_WAITING_CHECKLIST_KO.md`](./GSC_ADSENSE_WAITING_CHECKLIST_KO.md) · [`GSC_MANUAL_STEPS_20260522.md`](./GSC_MANUAL_STEPS_20260522.md) · JA: [`SEO_JA_CLUSTER_FOCUS.md`](./SEO_JA_CLUSTER_FOCUS.md)
 
 - [ ] Sitemap `https://gsfark.com/sitemap-index.xml` submitted / healthy
 - [ ] URL inspection ~6 URLs (home, topics, KO/EN/JA post, about)
