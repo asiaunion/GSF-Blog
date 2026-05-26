@@ -38,6 +38,11 @@
 | 23 | 2.22% | Verified | [https://www.jnto.go.jp/eng/about/](https://www.jnto.go.jp/eng/about/) | [x] | Body |
 | 24 | 1,916 | Verified | [https://www.jnto.go.jp/eng/about/](https://www.jnto.go.jp/eng/about/) | [x] | Body |
 | 25 | 1,068 | Verified | [https://www.jnto.go.jp/eng/about/](https://www.jnto.go.jp/eng/about/) | [x] | Body |
+| 26 | 2026-04-01 | Verified | [https://www.jnto.go.jp/eng/about/](https://www.jnto.go.jp/eng/about/) | [x] | Body |
+| 27 | 1,950,000 | Verified | [https://www.nta.go.jp/](https://www.nta.go.jp/) | [x] | Body |
+| 28 | 3,300,000 | Verified | [https://www.nta.go.jp/](https://www.nta.go.jp/) | [x] | Body |
+| 29 | 10,680,000 | Verified | [https://www.jnto.go.jp/eng/about/](https://www.jnto.go.jp/eng/about/) | [x] | Body |
+| 30 | 1.5% | Verified | [https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html](https://www.tax.metro.tokyo.lg.jp/kazei/real_estate/index-shutoku.html) | [x] | Body |
 
 ---
 
