@@ -13,10 +13,17 @@ tags:
   - J-REIT
   - 金融政策
 sources:
-  - "https://www.boj.or.jp/index.htm"
-  - "https://www.reins.or.jp/"
-references:
-  - "https://www.boj.or.jp/index.htm"
+  - "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+citeSources:
+  - label: "日本銀行 2024年12月 金融政策決定会合結果"
+    url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+  - label: "REINSマーケットウォッチ 2026年4月号 [アーカイブ]"
+    url: "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "REINSマーケットウォッチ 2026年4月号 (原本PDF)"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 日本不動産投資の収益は、2つの大きな歯車によって決定されます。一つは**「賃料収入と売却益」**という資産そのものの価値、もう一つは**「為替レート」**という現金化の出口です。日本国内で20%の利益を上げたとしても、送金時に円の価値が20%下落していれば、外貨ベースの収益はゼロになります。
 
@@ -37,8 +44,8 @@ references:
 
 多くの投資家が「円安だから今がチャンスだ」と言います。しかし、円安の背景には主要国との金利差があります。日本銀行（BOJ）が利上げに踏み切れば円高要因となりますが、同時に不動産ローンの金利も上昇します。
 
-*   **イールドスプレッドの確認**: （物件利回り - ローン金利）の幅が縮小すれば、資産価格には下落圧力がかかります。為替差益を期待して参入したものの、資産価値の下落（キャップレートの上昇）というより大きな波に飲み込まれるリスクに注意が必要です。
-*   **優良資産への集中**: 金利上昇局面では、立地の悪い資産から価格が下落します。東京都心5区（千代田・中央・港・新宿・渋谷）のように、賃料転嫁が可能な優良資産こそが、利上げの荒波を乗り越えることができます。
+*   **イールドスプレッドの確認**: （物件利回り - ローン金利）の幅が縮小すれば、資産価格には下落圧力がかかります。為替差益を期待して参入したものの、資産価値の下落（キャップレートの上昇）というより大きな波に飲み込まれるリスクに注意が必要です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+*   **優良資産への集中**: 金利上昇局面では、立地の悪い資産から価格が下落します。東京都心5区（千代田・中央・港・新宿・渋谷）のように、賃料転化が可能な優良資産こそが、利上げの荷波を乗り越えることができます。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 ---
 
