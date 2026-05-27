@@ -26,7 +26,7 @@ Guide: [`ADSENSE_AND_GSC_CHECKLIST.md`](./ADSENSE_AND_GSC_CHECKLIST.md)
 - [x] `PUBLIC_ADSENSE_PUBLISHER_ID` on Vercel production
 - [x] Application submitted in Google UI *(approval waiting)*
 - [ ] After approval: `public/ads.txt` + verify live *(현재 `https://gsfark.com/ads.txt` 200, repo `public/ads.txt` 존재)*
-- [ ] Lighthouse ≥90 on `/`, `/topics/`, one long post (mobile + desktop) *(2026-05-27 측정: desktop BP 77, mobile long-post perf 37로 미달)*
+- [ ] Lighthouse ≥90 on `/`, `/topics/`, one long post (mobile + desktop) *(2026-05-27 측정: desktop BP 77, mobile long-post perf가 런에 따라 37→86 변동; CLS/LCP outlier 가능)*
 
 ---
 
