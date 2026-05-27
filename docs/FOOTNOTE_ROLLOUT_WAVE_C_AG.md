@@ -2,7 +2,8 @@
 
 > **Pilot reference:** `tokyo-real-estate-investment-complete-guide` (ko/en/ja) — copy the same `citeSources` + `<sup class="source-ref">` pattern.  
 > **Prerequisites:** Wave A (Tokyo cluster 6) and Wave B (REIT·rates 4) are **done** on `main`.  
-> **Cursor:** AG finishes → user sends: `Wave C slug <name> — 발행 전 검증 부탁` or `Wave C 배치 C1 완료 — Cursor 검증 부탁`  
+> **Wave C:** ✅ **Complete** on `main` (2026-05-27) — record: [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md). **No Wave D.**  
+> **New posts only:** AG applies the same pattern → user/Cursor: `validate:post <slug>`.  
 > **Do not** split a post by chapter; complete **one slug (ko + en + ja)** per AG session.
 
 See also: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md) (fixed rules + pillar URL cheat sheet).
@@ -15,7 +16,10 @@ See also: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md) (fi
 |------|-------|--------|
 | A | 6 Tokyo cluster (+ `tokyo-meguro-setagaya` separate) | ✅ Done |
 | B | 4 REIT·rates | ✅ Done |
-| **C** | **24 remaining** (no `citeSources` yet) | **AG in progress** |
+| **C** | **24** (C1–C5 batches below) | ✅ **Done** (`main` · `5f3a9b7`) |
+| D | — | **Not planned** |
+
+**Coverage:** all **36** KO posts have `citeSources` (A+B+C + pillar/meguro/macro slugs done earlier).
 
 ---
 
@@ -63,9 +67,9 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-## Wave C — 24 slugs (five batches)
+## Wave C — 24 slugs (five batches) — ✅ all complete
 
-### C1 — 23-ward & Nihonbashi investment (5) — **start here**
+### C1 — 23-ward & Nihonbashi investment (5) — ✅
 
 | # | Slug | Footnote hints |
 |---|------|----------------|
@@ -77,7 +81,7 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-### C2 — Nihonbashi · community · safety (5)
+### C2 — Nihonbashi · community · safety (5) — ✅
 
 | # | Slug | Footnote hints |
 |---|------|----------------|
@@ -89,7 +93,7 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-### C3 — FX · tax · visa (5)
+### C3 — FX · tax · visa (5) — ✅
 
 | # | Slug | Footnote hints |
 |---|------|----------------|
@@ -101,7 +105,7 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-### C4 — Tokyo local · life (5)
+### C4 — Tokyo local · life (5) — ✅
 
 | # | Slug | Footnote hints |
 |---|------|----------------|
@@ -115,7 +119,7 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-### C5 — Essay · transport (4)
+### C5 — Essay · transport (4) — ✅
 
 | # | Slug | Footnote hints |
 |---|------|----------------|
@@ -126,9 +130,10 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-## AG completion checklist (per slug)
+## AG completion checklist (per slug — use for **new** posts)
 
-- [ ] `ko` / `en` / `ja` updated
+- [x] Wave C 24 slugs: all items below satisfied on `main`
+- [ ] `ko` / `en` / `ja` updated *(new slug only)*
 - [ ] `sources` ⊇ all `citeSources` URLs (including `portal`)
 - [ ] Archive paths in `sources` use `https://gsfark.com/assets/...`
 - [ ] 4~6 footnotes; numbers match `citeSources` order
@@ -138,7 +143,7 @@ Read first: repo root [`AGENTS.md`](../AGENTS.md) · [`docs/fact-audit/T3_POLICY
 
 ---
 
-## After Wave C (Cursor, not AG)
+## After Wave C (Cursor, not AG) — ongoing for new slugs
 
 ```bash
 SKIP_TRUST_VERIFY=1 pnpm validate:post <slug>
@@ -150,7 +155,8 @@ User commits/deploys when ready (batch or per slug).
 
 ## Do not
 
-- Finish all 24 slugs in one session
-- Run `pnpm validate:post`, git commit, or push
-- Re-edit completed Wave A/B slugs unless user asks
+- Re-open Wave C as a backlog (it is **done**)
+- Invent **Wave D** or bulk re-footnote all 36 posts without user request
+- Run `pnpm validate:post`, git commit, or push (Cursor / user)
+- Re-edit completed Wave A/B/C slugs unless user asks
 - Add footnotes to `/tags/` archive pages

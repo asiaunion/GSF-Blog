@@ -20,7 +20,7 @@
 - 금지어: 반드시/무조건/guaranteed 등.
 - 경로: `src/data/blog/{ko,en,ja}/<동일-slug>.md(x)` · 수치 3언어 parity.
 
-각주 Wave A/B 완료 · Wave C 진행: [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md) · A: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md)
+각주 Wave A/B/C **완료** (Wave D 없음): [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) · C 규칙: [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md) · A: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md)
 
 끝낼 때:
 `[AG→Cursor] slug: … / validate:post 요청 / footer면책·svg링크·bulk T3 [x] 안 함`
@@ -34,5 +34,9 @@
 ## AG 메모리 1줄
 
 ```
-GSF-Blog: docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md + docs/fact-audit/T3_POLICY.md SSOT. No footer disclaimer, no .svg in posts, no full-sheet T3.
+GSF-Blog: Wave A/B/C footnotes done (no Wave D). docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md + T3_POLICY SSOT. No footer disclaimer, no .svg, no full-sheet T3.
 ```
+
+## Antigravity Knowledge (repo)
+
+Import or read: `knowledge/auto_captured_gsf_blog_wave_c_footnotes_complete/` (`metadata.json` + `SUMMARY.md`).

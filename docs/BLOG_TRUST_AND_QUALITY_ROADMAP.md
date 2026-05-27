@@ -4,11 +4,12 @@
 
 > **에이전트 자동 로드 (루트):** [`../AGENTS.md`](../AGENTS.md) — 면책·WebP·T3 P0-only **영구 고정** (2026-05-25, AG Tier 2.5)
 
-## 현재 상태 (2026-05-25)
+## 현재 상태 (2026-05-27)
 
 | 영역 | 상태 |
 |------|------|
 | Phase 0–3 (trust infra + Cursor verify) | **완료** on `main` |
+| Footnotes Wave A/B/C (36 posts `citeSources`) | **완료** — [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) |
 | CI batch | **35/35** (`SKIP_TRUST_VERIFY=1`) |
 | T3 network | **P0-only** — [`fact-audit/T3_POLICY.md`](./fact-audit/T3_POLICY.md) |
 | P0 URL spot | **12/12** — [`fact-audit/P0_URL_SPOT_CHECKS.md`](./fact-audit/P0_URL_SPOT_CHECKS.md) |
