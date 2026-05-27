@@ -13,8 +13,8 @@ Work in order. Check off in this file or weekly KPI when done.
 Guide: [`GSC_ADSENSE_WAITING_CHECKLIST_KO.md`](./GSC_ADSENSE_WAITING_CHECKLIST_KO.md) · [`GSC_MANUAL_STEPS_20260522.md`](./GSC_MANUAL_STEPS_20260522.md) · JA: [`SEO_JA_CLUSTER_FOCUS.md`](./SEO_JA_CLUSTER_FOCUS.md)
 
 - [x] Sitemap `https://gsfark.com/sitemap-index.xml` submitted / healthy *(HTTP 200 + `/sitemap.xml` → 308 확인, 2026-05-27 Cursor)*
-- [ ] URL inspection ~6 URLs (home, topics, KO/EN/JA post, about)
-- [ ] JA cluster P0 URLs (3/week per SEO doc)
+- [x] URL inspection ~6 URLs (home, topics, KO/EN/JA post, about) *(GSC 제출 완료)*
+- [x] JA cluster P0 URLs (3/week per SEO doc) *(GSC 제출 완료)*
 - [ ] Legacy Korean URL 308 spot-check if GSC still shows old paths *(태그 페이지 308 확인됨. `/privacy/`는 404 확인되어 `vercel.json` redirect 보강 후 배포 필요)*
 
 ---
