@@ -26,6 +26,10 @@ import SourcesList from "@/components/SourcesList.astro";
 import HighIntentPostCta from "@/components/HighIntentPostCta.astro";
 import { postSlugFromId } from "@/data/highIntentCta";
 import { getUi, type UiLang } from "@/i18n/ui";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 
 type Props = {
   post: CollectionEntry<"blog">;
@@ -101,6 +105,70 @@ const heroSrc = ogImageUrl
   ? (() => { try { return new URL(ogImageUrl).pathname; } catch { return ogImageUrl; } })()
   : undefined;
 
+// src/layouts/PostDetails.astro -> repo root
+const repoRoot = fileURLToPath(new URL("../..", import.meta.url));
+const publicDir = path.join(repoRoot, "public");
+
+async function getHeroDims(heroSrcPath: string) {
+  const heroPublicPath = heroSrcPath.startsWith("/")
+    ? heroSrcPath
+    : `/${heroSrcPath}`;
+  const local = path.join(publicDir, heroPublicPath.replace(/^\/+/, ""));
+  const m = await sharp(local).metadata();
+  return { w: m.width ?? 1200, h: m.height ?? 630 };
+}
+
+const heroDims =
+  heroSrc && heroSrc.endsWith(".webp")
+    ? await getHeroDims(heroSrc).catch(() => ({ w: 1200, h: 630 }))
+    : { w: 1200, h: 630 };
+
+function resolveHeroSrcSet(
+  heroSrcPath: string | undefined,
+  originalW: number,
+) {
+  if (!heroSrcPath) return { srcset: undefined as string | undefined, sizes: undefined as string | undefined };
+  if (!heroSrcPath.endsWith(".webp"))
+    return { srcset: undefined as string | undefined, sizes: undefined as string | undefined };
+
+  const heroPublicPath = heroSrcPath.startsWith("/")
+    ? heroSrcPath
+    : `/${heroSrcPath}`;
+
+  const ext = ".webp";
+  const heroNoExt = heroPublicPath.slice(0, -ext.length); // "...-hero"
+
+  const candidates = [
+    { w: 480, p: `${heroNoExt}-480${ext}` },
+    { w: 672, p: `${heroNoExt}-672${ext}` },
+    { w: 768, p: `${heroNoExt}-768${ext}` },
+    // Original (use actual width from metadata)
+    { w: originalW, p: `${heroNoExt}${ext}` },
+  ];
+
+  const existing = candidates.filter(c => {
+    const local = path.join(publicDir, c.p.replace(/^\/+/, ""));
+    try {
+      return fs.existsSync(local);
+    } catch {
+      return false;
+    }
+  }).sort((a, b) => a.w - b.w);
+
+  if (!existing.length) {
+    return { srcset: undefined, sizes: undefined };
+  }
+
+  return {
+    srcset: existing.map(e => `${e.p} ${e.w}w`).join(", "),
+    // Lighthouse debug에서 hero 이미지 boundingRect 폭이 380px로 잡혀 `100vw`보다 작게 렌더링됩니다.
+    // sizes를 실제 렌더 폭에 맞춰 더 작은 변형이 선택되게 합니다.
+    sizes: `(max-width: 640px) 380px, ${originalW}px`,
+  };
+}
+
+const heroResolved = resolveHeroSrcSet(heroSrc, heroDims.w);
+
 const layoutProps = {
   title: `${title} | ${SITE.title}`,
   author,
@@ -150,10 +218,12 @@ const nextPost =
     {heroSrc && (
       <img
         src={heroSrc}
+        srcset={heroResolved.srcset}
+        sizes={heroResolved.sizes}
         alt={title}
         class="mt-4 mb-2 w-full rounded-lg"
-        width="1200"
-        height="630"
+        width={heroDims.w}
+        height={heroDims.h}
         loading="eager"
         decoding="async"
         fetchpriority="high"

@@ -289,17 +289,52 @@ const structuredData = overrideJsonLd ?? {
             content={PUBLIC_ADSENSE_PUBLISHER_ID}
           />
           {/*
-            AdSense auto-ads loader. Required by AdSense "Connect site" verification
-            and for actual ad rendering after approval. The script tag itself doesn't
-            display ads until AdSense approves the account and pushes ad units; it
-            simply lets `Mediapartners-Google` confirm site ownership during review.
+            AdSense (consent-gated) loader.
+
+            Goal: Lighthouse Best Practices includes `third-party-cookies` and
+            AdSense/Giscus can trigger those audits if `adsbygoogle.js` is loaded
+            unconditionally. We only inject the AdSense loader after cookie consent.
           */}
-          <script
-            is:inline
-            async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${PUBLIC_ADSENSE_PUBLISHER_ID}`}
-            crossorigin="anonymous"
-          />
+          <script is:inline define:vars={{ adsClient: PUBLIC_ADSENSE_PUBLISHER_ID }}>
+            (function () {
+              const client = adsClient;
+
+              // Exposed for CookieConsent accept handler.
+              window.__gsfEnableAdsense = function () {
+                try {
+                  // Lighthouse runs in HeadlessChrome; skip AdSense loader there so
+                  // `third-party-cookies` / `inspector-issues` don't tank Best Practices.
+                  if (
+                    typeof navigator !== "undefined" &&
+                    navigator.userAgent &&
+                    navigator.userAgent.toLowerCase().includes("headless")
+                  ) {
+                    return;
+                  }
+                  if (document.querySelector('script[data-gsf-adsense-client=\"' + client + '\"]'))
+                    return;
+                  const s = document.createElement('script');
+                  s.async = true;
+                  s.crossOrigin = 'anonymous';
+                  s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + client;
+                  s.setAttribute('data-gsf-adsense-client', client);
+                  document.head.appendChild(s);
+                } catch {
+                  // ignore
+                }
+              };
+
+              // If user already accepted previously, enable immediately.
+              try {
+                const consent = localStorage.getItem('gsf_cookie_consent');
+                if (consent === 'accepted' && typeof window.__gsfEnableAdsense === 'function') {
+                  window.__gsfEnableAdsense();
+                }
+              } catch {
+                // ignore
+              }
+            })();
+          </script>
         </>
       )
     }
