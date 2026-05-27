@@ -28,7 +28,6 @@ import { postSlugFromId } from "@/data/highIntentCta";
 import { getUi, type UiLang } from "@/i18n/ui";
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import sharp from "sharp";
 
 type Props = {
@@ -105,9 +104,9 @@ const heroSrc = ogImageUrl
   ? (() => { try { return new URL(ogImageUrl).pathname; } catch { return ogImageUrl; } })()
   : undefined;
 
-// src/layouts/PostDetails.astro -> repo root
-const repoRoot = fileURLToPath(new URL("../..", import.meta.url));
-const publicDir = path.join(repoRoot, "public");
+// SSG/Vercel: `import.meta.url` points at bundled chunks, not `src/layouts/`.
+// `process.cwd()` is the repo root during `astro build`.
+const publicDir = path.join(process.cwd(), "public");
 
 async function getHeroDims(heroSrcPath: string) {
   const heroPublicPath = heroSrcPath.startsWith("/")
