@@ -16,10 +16,13 @@ sources:
   - "https://www.savills.com/"
   - "https://www.bok.or.kr/"
   - "https://www.boj.or.jp/"
-references:
-  - "https://www.savills.com/"
-  - "https://www.bok.or.kr/"
-  - "https://www.boj.or.jp/"
+citeSources:
+  - label: "Savills Research: 2026년 서울·도쿄 시장 전망"
+    url: "https://www.savills.com/"
+  - label: "한국은행 (한은) 공식사이트"
+    url: "https://www.bok.or.kr/"
+  - label: "일본은행 (BOJ) 공식사이트"
+    url: "https://www.boj.or.jp/"
 ---
 동아시아의 두 거대 도시, 서울과 도쿄는 흔히 '평행이론'으로 설명되곤 합니다. 한국이 일본의 인구 구조와 저성장을 따라가고 있다는 '일본화(Japanification)' 논리는 지난 10년간 한국 투자 시장을 지배해온 공포의 근원이었습니다.
 
@@ -31,8 +34,8 @@ references:
 
 두 시장은 현재 서로 다른 엔진으로 움직이고 있습니다.
 
-*   **서울 (예상 상승률 6\~7.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: 전세가 상승과 신축 공급 절벽이 하방을 강력하게 지지합니다. 금리가 여전히 높은 수준임에도 불구하고, '핵심지 쏠림' 현상이 가속화되며 자산 가치의 질적 인플레이션이 진행 중입니다.
-*   **도쿄 (예상 상승률 4\~5.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: 2025년의 급등세([도쿄칸테이](https://www.kantei.ne.jp/) 기준 23구 약 +34.6% YoY) 이후 숨 고르기에 들어갔습니다. 하지만 여전히 엔저 효과와 글로벌 대비 상대적으로 낮은 금리 덕분에 외국인 투자자들에게는 '가장 저렴한 글로벌 메가시티'라는 매력을 유지하고 있습니다.
+*   **서울 (예상 상승률 6\~7.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>: 전세가 상승과 신축 공급 절벽이 하방을 강력하게 지지합니다. 금리가 여전히 높은 수준임에도 불구하고, '핵심지 쓸림' 현상이 가속화되며 자산 가치의 질적 인플레이션이 진행 중입니다.
+*   **도쿠 (예상 상승률 4\~5.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: 2025년의 급등세([도쿄칸테이](https://www.kantei.ne.jp/) 기준 23구 약 +34.6% YoY) 이후 숨 고르기에 들어갔습니다. 하지만 여전히 엔저 효과와 글로벌 대비 상대적으로 낙은 금리 덕분에 외국인 투자자들에게는 '가장 저렴한 글로벌 메가시티'라는 매력을 유지하고 있습니다.
 
 ---
 
@@ -57,7 +60,7 @@ references:
 
 투자자는 이제 두 시장을 하나의 대시보드에 올려야 합니다.
 
-1.  **금리 스프레드 비교**: 한국은행(BOK)과 일본은행(BOJ)의 기준금리 격차를 통해 엔화의 향방과 대출 비용을 예측합니다.
+1.  **금리 스프레드 비교**: 한국은행(BOK)과 일본은행(BOJ)의 기준금리 격차를 통해 엔화의 향방과 대출 비용을 예측합니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 2.  **공급 사이클 분석**: 서울의 입주 물량과 도쿄 도심의 오피스/맨션 공급 일정을 교차 확인하여 진입 시점을 조율합니다.
 3.  **통화 가치 리밸런싱**: 자산의 70%가 원화라면, 나머지 30%를 엔화 자산으로 채움으로써 통화 가치 하락에 대비하는 방어막을 구축합니다.
 

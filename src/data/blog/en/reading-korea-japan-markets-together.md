@@ -16,8 +16,13 @@ sources:
   - "https://www.savills.com/"
   - "https://www.bok.or.kr/"
   - "https://www.boj.or.jp/"
-references:
-  - "https://www.savills.com/"
+citeSources:
+  - label: "Savills Research: Seoul & Tokyo 2026 Market Outlook"
+    url: "https://www.savills.com/"
+  - label: "Bank of Korea (BOK) Official Site"
+    url: "https://www.bok.or.kr/"
+  - label: "Bank of Japan (BOJ) Official Site"
+    url: "https://www.boj.or.jp/"
 ---
 Seoul and Tokyo, the two mega-hubs of East Asia, are often described through the lens of a 'Parallel Theory.' The narrative of 'Japanification'—that South Korea is following Japan’s path of demographic aging and low growth—has been the source of profound anxiety in the Korean investment market for the past decade.
 
@@ -30,7 +35,7 @@ However, as of 2026, the two markets are not mere carbon copies but are in a sta
 These two markets are currently powered by different engines.
 
 *   **Seoul (Forecasted Growth 6\~7.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: Rising Jeonse (rental) prices and a "supply cliff" for new apartments provide a strong floor for prices. Despite sustained high interest rates, the "flight to quality" toward core districts is accelerating, leading to a qualitative inflation of asset values.
-*   **Tokyo (Forecasted Growth 4\~5.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: The market is taking a breather after the rapid surge of 2025 ([Tokyo Kantei](https://www.kantei.ne.jp/) recorded approx. +34.6% YoY for 23 wards). However, the Yen's weakness and relatively low interest rates compared to other global cities keep it attractive as the "most affordable global megacity" for international investors.
+*   **Tokyo (Forecasted Growth 4\~5.9%, [Savills Research](https://www.savills.com/research_articles/255800/368283-0))**: The market is taking a breather after the rapid surge of 2025 ([Tokyo Kantei](https://www.kantei.ne.jp/) recorded approx. +34.6% YoY for 23 wards). However, the Yen's weakness and relatively low interest rates compared to other global cities keep it attractive as the "most affordable global megacity" for international investors.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 ---
 
@@ -55,7 +60,7 @@ How should an investor balance their holdings between these two hubs?
 
 Investors should now place both markets on a single dashboard:
 
-1.  **Monitor Rate Spreads**: Watch the gap between the Bank of Korea (BOK) and the Bank of Japan (BOJ) to anticipate Yen trends and borrowing costs.
+1.  **Monitor Rate Spreads**: Watch the gap between the Bank of Korea (BOK) and the Bank of Japan (BOJ) to anticipate Yen trends and borrowing costs.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 2.  **Cross-Check Supply Cycles**: Overlay Seoul’s move-in volume with Tokyo’s office/mansion delivery schedule to optimize entry timing.
 3.  **Currency Rebalancing**: If 70% of your assets are in KRW, filling the remaining 30% with JPY-denominated assets provides a defensive buffer against currency devaluation.
 

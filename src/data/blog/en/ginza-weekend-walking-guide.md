@@ -18,10 +18,17 @@ sources:
   - "https://www.ginza.jp/"
   - "https://www.ginza.jp/ja/townguide/pedestrian-zone"
   - "https://www.mlit.go.jp/totikensangyo/"
-references:
-  - "https://www.ginza.jp/ja/townguide/pedestrian-zone"
-  - "https://ginza6.tokyo/hours"
-  - "https://www.mlit.go.jp/totikensangyo/"
+citeSources:
+  - label: "GINZA SIX Official Site"
+    url: "https://ginza6.tokyo/"
+  - label: "GINZA SIX Hours"
+    url: "https://ginza6.tokyo/hours"
+  - label: "Ginza Official Portal"
+    url: "https://www.ginza.jp/"
+  - label: "Ginza Pedestrian Zone Guide"
+    url: "https://www.ginza.jp/ja/townguide/pedestrian-zone"
+  - label: "MLIT: Land Price Disclosure – Ginza Top Ranking"
+    url: "https://www.mlit.go.jp/totikensangyo/"
 ---
 What is the first thing that comes to your mind when you think of Ginza? Is it crowds carrying luxury shopping bags, endless rows of high-end department stores, or the mind-bogglingly high land prices? 
 
@@ -47,7 +54,7 @@ After filling my visual inspiration at the bookstore, it was time to take the es
 
 In my view, there is absolutely no need to spend a lot of money to go up to high-priced paid observatories like Shibuya Sky or Tokyo City View in Roppongi Hills just to see the city skyline. GINZA SIX’s rooftop garden, **'GINZA SIX Garden,'** is the ultimate free alternative where you can peacefully enjoy Tokyo's panorama.
 
-Situated at a height of 56 meters, this rooftop garden is surrounded by transparent glass panels. This design allows you to enjoy a seamless 360-degree view of the Tokyo skyline without any obstructions. Spanning a vast 4,000 square meters (about 1,200 tsubo), the rooftop is lushly landscaped with lawns and various species of trees, making it feel like a forest in the sky. Coming across lush green grass and a pond with flowing water right in the middle of Tokyo is incredibly healing in itself.
+Situated at a height of 56 meters, this rooftop garden is surrounded by transparent glass panels. This design allows you to enjoy a seamless 360-degree view of the Tokyo skyline without any obstructions. Spanning a vast 4,000 square meters (about 1,200 tsubo), the rooftop is lushly landscaped with lawns and various species of trees, making it feel like a forest in the sky.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> Coming across lush green grass and a pond with flowing water right in the middle of Tokyo is incredibly healing in itself.
 
 Sitting quietly on a bench under the shade of a tree, I looked towards the west. Tokyo Tower, glowing in its iconic crimson light, came into view. When I turned my head to the east, Tokyo Skytree was shining in silver. While it may not be a soaring skyscraper, the unrivaled geographical location of Ginza allows you to compare Tokyo’s southern and northern landmarks in a single glance. It gave me a deep sense of quiet satisfaction.
 
@@ -57,7 +64,7 @@ Sitting quietly on a bench under the shade of a tree, I looked towards the west.
 
 Stepping out of GINZA SIX and onto Chuo-dori Street, I encountered the highlight of the weekend Ginza stroll—the **'Pedestrian Paradise' (Hokosha Tengoku)**.
 
-Pedestrian Paradise — a system that completely blocks vehicle traffic on Saturdays, Sundays, and public holidays (midday hours only) to open streets exclusively for pedestrians — was first introduced in Ginza on August 2, 1970. This year, in 2026, marks the proud **56th anniversary** of this living tradition of Ginza.
+Pedestrian Paradise — a system that completely blocks vehicle traffic on Saturdays, Sundays, and public holidays (midday hours only) to open streets exclusively for pedestrians — was first introduced in Ginza on August 2, 1970. This year, in 2026, marks the proud **56th anniversary** of this living tradition of Ginza.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 Chuo-dori, which is normally filled with luxury sedans and honking horns, is completely occupied by the footsteps of people during Saturdays, Sundays, and public holidays (midday hours only).
 
@@ -66,7 +73,7 @@ Chuo-dori, which is normally filled with luxury sedans and honking horns, is com
 
 Standing in the middle of this wide avenue and looking up at the surrounding skyscrapers is a remarkably unique experience. The crowd flowing across the open asphalt and the skyline on both sides alone convey the relaxed weekend rhythm of Ginza.
 
-On the left side of the street, **Yamano Music Ginza Flagship Store (山野楽器 銀座本店)**, holds the legendary status of having the **most expensive land in Japan for 20 consecutive years** according to the 2026 Land Price Appraisal. Walking freely on this world-class asphalt, valued at approximately **67.1 million yen** per square meter, without paying a single cent and snapping commemorative photos is perhaps the most delightful gift that weekend Ginza offers.
+On the left side of the street, **Yamano Music Ginza Flagship Store (山野楽器 銀座本店)**, holds the legendary status of having the **most expensive land in Japan for 20 consecutive years** according to the 2026 Land Price Appraisal. Walking freely on this world-class asphalt, valued at approximately **67.1 million yen** per square meter,<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> without paying a single cent and snapping commemorative photos is perhaps the most delightful gift that weekend Ginza offers.
 
 Right next to Yamano Music stands the **Kyobunkand (教文館)** building, a historic bookstore founded in 1885 and opened in Ginza in 1891, which has weathered all the storms of the district. On the right, the traditional **Ginza Mitsukoshi (MITSUKOSHI)** department store stands firm, visually showcasing the unique historical layers where Ginza's past and present coexist.
 

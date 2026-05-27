@@ -1,7 +1,4 @@
 ---
-sources:
-  - "https://www.jreast.co.jp/e/"
-  - "https://www.tokyometro.jp/en/"
 title: "Japan Travel Pass: Cover Tokyo, Yokohama, and Mount Fuji all at once"
 pubDatetime: 2026-03-23T11:00:00Z
 description: "A Tokyo resident's look at the JR Tokyo Wide Pass — the 3-day unlimited routes, the Tokyo-Yokohama-Nikko-Mt.Fuji coverage, and where the fare math actually pays off."
@@ -14,11 +11,18 @@ tags:
   - JR Pass
   - Tokyo
   - Yokohama
----
 sources:
   - "https://www.jreast.co.jp/e/"
   - "https://www.tokyometro.jp/en/"
-
+  - "https://www.jreast.co.jp/multi/en/pass/tokyowidepass.html"
+citeSources:
+  - label: "JR East Official Site (English)"
+    url: "https://www.jreast.co.jp/e/"
+  - label: "JR Tokyo Wide Pass Official (English)"
+    url: "https://www.jreast.co.jp/multi/en/pass/tokyowidepass.html"
+  - label: "Tokyo Metro Official Site (English)"
+    url: "https://www.tokyometro.jp/en/"
+---
 * This will be helpful for those – planning a 3-day trip centering around Tokyo and nearby tourist destinations.
 * Japan Travel Pass – Advantages of the JR Tokyo Wide Pass (beyond just price merits).
 * Destinations centered around Tokyo – Go beyond Tokyo and Yokohama to see Mount Fuji and enjoy hot springs.
@@ -39,11 +43,11 @@ Tokyo Metropolis, along with Kanagawa, Saitama, and Chiba prefectures that make 
 
 **Which routes are available?**
 
-Fundamentally, you can use the JR lines within the metropolitan area. Since Japan is a country with highly developed railways, trains are an excellent choice as a means of transportation. The routes available with the JR Tokyo Wide Pass cover not only Tokyo but also extend down to Yokohama, Atami, and Ito; to the right towards Chiba and Narita Airport; and upwards to Nikko, Kinugawa Onsen, Kuroiso, GALA Yuzawa, and Karuizawa. The Shinkansen segments on the official route map are particularly impressive. Personally, just taking the eastbound route to eat gyoza in Utsunomiya and returning is enough to let you deeply feel the atmosphere of the Kanto region.
+Fundamentally, you can use the JR lines within the metropolitan area. Since Japan is a country with highly developed railways, trains are an excellent choice as a means of transportation. The routes available with the JR Tokyo Wide Pass cover not only Tokyo but also extend down to Yokohama, Atami, and Ito; to the right towards Chiba and Narita Airport; and upwards to Nikko, Kinugawa Onsen, Kuroiso, GALA Yuzawa, and Karuizawa. The Shinkansen segments on the official route map are particularly impressive.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> Personally, just taking the eastbound route to eat gyoza in Utsunomiya and returning is enough to let you deeply feel the atmosphere of the Kanto region.
 
 **What are the price merits?**
 
-It costs 10,180 yen for adults (12 years and older) and 5,090 yen for children (ages 6-11). Factoring in exchange rates, you are essentially purchasing a pass that allows unlimited rides for 3 days for well under 100,000 KRW (approx. $75). On the official Japanese website, they illustrate the pass's merits with sample itineraries and fare comparisons. For example, if you travel the route Tokyo Station (Departure) – GALA Yuzawa – Omiya – Nikko – Shinjuku Station (Arrival), the regular fare is around 20,000 yen, but with the Tokyo Wide Pass, you can do it for half the price. Earning unlimited access to the Shinkansen is another significant advantage. Since it is valid for 3 consecutive days, naturally, you can secure accommodation in between. Nikko is famous for its hot springs, so staying overnight to enjoy the hot springs is an obvious choice. The ability to ride the Narita Express directly to Narita Airport can also be considered a great benefit.
+It costs 10,180 yen for adults (12 years and older) and 5,090 yen for children (ages 6-11).<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Factoring in exchange rates, you are essentially purchasing a pass that allows unlimited rides for 3 days for well under 100,000 KRW (approx. $75). On the official Japanese website, they illustrate the pass's merits with sample itineraries and fare comparisons. For example, if you travel the route Tokyo Station (Departure) – GALA Yuzawa – Omiya – Nikko – Shinjuku Station (Arrival), the regular fare is around 20,000 yen, but with the Tokyo Wide Pass, you can do it for half the price. Earning unlimited access to the Shinkansen is another significant advantage. Since it is valid for 3 consecutive days, naturally, you can secure accommodation in between. Nikko is famous for its hot springs, so staying overnight to enjoy the hot springs is an obvious choice. The ability to ride the Narita Express directly to Narita Airport can also be considered a great benefit.
 
 **Unlimited use for 3 days**
 

@@ -16,8 +16,17 @@ tags:
 sources:
   - "https://www.miraikan.jst.go.jp/en/"
   - "https://www.teamlab.art/e/borderless-azabudai/"
-references:
-  - "https://www.miraikan.jst.go.jp/en/"
+  - "https://www.ghibli-museum.jp/en/"
+  - "https://www.kidzania.jp/tokyo/"
+citeSources:
+  - label: "Miraikan Official Site"
+    url: "https://www.miraikan.jst.go.jp/en/"
+  - label: "teamLab Borderless Azabudai Hills"
+    url: "https://www.teamlab.art/e/borderless-azabudai/"
+  - label: "Ghibli Museum Official (Ticket Reservation)"
+    url: "https://www.ghibli-museum.jp/en/"
+  - label: "KidZania Tokyo Official Site"
+    url: "https://www.kidzania.jp/tokyo/"
 ---
 Finding a balance between 'education' and 'fun' on a family trip to Tokyo can be challenging. However, Tokyo’s museums go beyond simple exhibitions, embodying the essence of 'Edutainment' that sparks curiosity and encourages children to dream about the future.
 
@@ -65,7 +74,7 @@ Located in Ueno Park, this museum offers incredible depth and value.
 
 Located in LaLaport Toyosu, **KidZania** allows children to learn about social systems through role-playing.
 
-*   **Job Experience**: Children can try out over 100 professions—from firefighter to pilot—in a realistic environment, earning local currency (*kidZos*) to learn basic economic principles.
+*   **Job Experience**: Children can try out over 100 professions<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>—from firefighter to pilot—in a realistic environment, earning local currency (*kidZos*) to learn basic economic principles.
 *   **English Programs**: Every Wednesday features many programs conducted in English, making it popular for international visitors.
 *   **Tickets**: Weekday ¥4,000–5,000 (child), ¥2,500 (adult companion). Weekend premium applies. Book at [kidzania.jp](https://www.kidzania.jp/tokyo/).
 *   **Access**: LaLaport Toyosu, 2 min from Toyosu Station (Yurakucho Line). Same complex as UNIQLO and food courts.
@@ -78,7 +87,7 @@ Located in LaLaport Toyosu, **KidZania** allows children to learn about social s
 Hidden in the Mitaka forest, the **Ghibli Museum** is a legendary destination for animation lovers.
 
 *   **Experience**: Visitors can see the process of animation creation and watch exclusive short films, gaining insight into the imagination of Studio Ghibli's masters.
-*   **Booking Required**: Tickets must be booked one month in advance via Lawson Ticket. Even in 2026, they remain extremely difficult to obtain, so plan well ahead. Tickets go on sale on the 10th of each month at 10:00 AM JST.
+*   **Booking Required**: Tickets must be booked one month in advance<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> via Lawson Ticket. Even in 2026, they remain extremely difficult to obtain, so plan well ahead. Tickets go on sale on the 10th of each month at 10:00 AM JST.
 *   **Tickets**: Adults ¥1,000, children (4–12) ¥400. Photography prohibited inside.
 *   **Access**: JR Mitaka Station South Exit → Ghibli Museum shuttle bus (¥230, every 20 min) or 15 min walk through Inokashira Park.
 *   **Time needed**: 2–3 hours. Best for all ages.

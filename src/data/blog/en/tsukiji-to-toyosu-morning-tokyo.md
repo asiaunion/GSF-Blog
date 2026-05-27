@@ -15,8 +15,11 @@ tags:
 sources:
   - "https://www.tsukiji.or.jp/english/"
   - "https://www.toyosu-senkyakubanrai.jp/en/"
-references:
-  - "https://www.tsukiji.or.jp/english/"
+citeSources:
+  - label: "Tsukiji Outer Market Official Site"
+    url: "https://www.tsukiji.or.jp/english/"
+  - label: "Toyosu Senkyakubanrai Official Site"
+    url: "https://www.toyosu-senkyakubanrai.jp/en/"
 ---
 Tokyo’s morning begins at its fish markets. While many thought the 'Tsukiji Era' ended when the wholesale market moved to Toyosu in 2018, as of 2026, Tsukiji and Toyosu have evolved into distinct culinary pillars of the city.
 
@@ -26,7 +29,7 @@ With the massive redevelopment plan for the former Tsukiji Inner Market site (le
 
 ## 1. Tsukiji Outer Market: The Soul of Tokyo’s Kitchen
 
-The wholesale market may have left, but the **Outer Market**, with its 400+ shops, remains as vibrant as ever.
+The wholesale market may have left, but the **Outer Market**, with its 400+ shops,<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> remains as vibrant as ever.
 
 *   **Best Time to Visit**: Between 8:00 AM and 10:00 AM. This is when the market is at its liveliest, and you can avoid the overwhelming lunch crowds. (Note: Most shops close by 2:00 PM.)
 *   **Gastronomic Highlights**: Enjoying a freshly made *Tamagoyaki* (rolled omelet) skewer (¥100–200) or standing-only sushi (¥1,500–3,000 per set) provides a nostalgic taste of old Tokyo. For a local favorite, try the *Atsuyaki Tamago Sandwich* at **Shouro** — a crowd-free alternative to the main strip.
@@ -47,7 +50,7 @@ The wholesale market may have left, but the **Outer Market**, with its 400+ shop
 
 ## 2. Toyosu Senkyaku Banrai: Edo Charm Meets Modern Relaxation
 
-Opened in February 2024, 'Senkyaku Banrai' has become the primary anchor for the Toyosu waterfront area.
+Opened in February 2024,<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 'Senkyaku Banrai' has become the primary anchor for the Toyosu waterfront area.
 
 *   **Edo-style Food Hall**: This area recreates the atmosphere of the Edo period, offering fresh seafood delivered directly from the adjacent Toyosu Market. While Tsukiji offers a 'raw, authentic' vibe, Toyosu provides a more polished, 'tourist-friendly' experience. Average meal: ¥2,000–5,000.
 *   **Manyo Club Onsen**: This hot spring facility brings water from Hakone and Yugawara to the heart of Tokyo. The footbath area overlooking the Rainbow Bridge is the perfect place to unwind. Entry: ¥3,500 adults (weekday), ¥4,200 (weekend). Towels included.

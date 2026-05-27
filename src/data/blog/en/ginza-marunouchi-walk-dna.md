@@ -18,10 +18,15 @@ sources:
   - "https://www.marunouchi.com/en/"
   - "https://torchtower.jp/"
   - "https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html"
-references:
-  - "https://www.ginza.jp/en/"
-  - "https://www.marunouchi.com/en/"
-  - "https://torchtower.jp/"
+citeSources:
+  - label: "Ginza Official Portal (English)"
+    url: "https://www.ginza.jp/en/"
+  - label: "Marunouchi Official Portal (English)"
+    url: "https://www.marunouchi.com/en/"
+  - label: "Torch Tower Official Site"
+    url: "https://torchtower.jp/"
+  - label: "MLIT Land Price Report 2025 – Ginza 4-chome"
+    url: "https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html"
 ---
 To many visitors, Ginza and Marunouchi are remembered simply as 'shopping paradise' and 'concrete jungle.' However, through the lens of an investor, walking this path is like traversing a vast museum of Japan's national credit and asset history.
 
@@ -33,9 +38,9 @@ As of early 2026, from the Yamano Music site in Ginza — which has held the tit
 
 Ginza demonstrates the power of 'classic' over 'trendy.'
 
-*   **Benchmark Land Value**: In 2026, land near the Ginza 4-chome intersection continues to record the highest prices in Japan, with publicly assessed values exceeding **about ¥44.4 million per square meter (44,400,000円/㎡)** according to the [MLIT Land Price Survey](https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html). This is not just a number but a testament to a robust fundamental market driven by both domestic demand and global tourism. To put it in context: the same area was valued at approximately ¥33 million per sqm in 2014, representing a 2x+ increase over 12 years through the global pandemic and inflation.
+*   **Benchmark Land Value**: In 2026, land near the Ginza 4-chome intersection continues to record the highest prices in Japan, with publicly assessed values exceeding **about ¥44.4 million per square meter (44,400,000円/㎡)**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> according to the [MLIT Land Price Survey](https://www.reinfolib.mlit.go.jp/landPrices_/realEstateAppraisalReport/2025/13/2025131020529.html). This is not just a number but a testament to a robust fundamental market driven by both domestic demand and global tourism. To put it in context: the same area was valued at approximately ¥33 million per sqm in 2014, representing a 2x+ increase over 12 years through the global pandemic and inflation.
 
-*   **A Parade of Flagship Stores**: Global luxury brands establish themselves here not just for profit but for 'brand prestige.' Louis Vuitton, Chanel, Hermès, Cartier, and Tiffany all maintain their Japan headquarters or flagship stores within a 500-meter radius of the Ginza 4-chome intersection. In 2026, Ginza has become a testing ground for high-end retail that blends digital technology with tactile offline experiences. The [Ginza Official Portal](https://www.ginza.jp/en/) lists over 200 member shops, from century-old Japanese confectioneries to cutting-edge concept stores.
+*   **A Parade of Flagship Stores**: Global luxury brands establish themselves here not just for profit but for 'brand prestige.' Louis Vuitton, Chanel, Hermès, Cartier, and Tiffany all maintain their Japan headquarters or flagship stores within a 500-meter radius of the Ginza 4-chome intersection. In 2026, Ginza has become a testing ground for high-end retail that blends digital technology with tactile offline experiences. The [Ginza Official Portal](https://www.ginza.jp/en/) lists over 200 member shops<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>, from century-old Japanese confectioneries to cutting-edge concept stores.
 
 *   **Pedestrian Paradise (Hokōsha Tengoku)**: Every Saturday, Sunday, and holiday from noon to 5:00 PM (April–September) or noon to 4:00 PM (October–March), the 1.1km stretch of Chuo-dori from Ginza 1-chome to 8-chome is closed to traffic. This tradition, dating back to 1970, transforms Japan's most expensive land into a free public stage — a remarkable urban policy statement about the relationship between commercial value and civic space.
 
@@ -53,13 +58,13 @@ Ginza demonstrates the power of 'classic' over 'trendy.'
 
 ## 2. Marunouchi & Otemachi: The Skyline Building Japan's Future
 
-Stretching west of Tokyo Station, Marunouchi is the command center of the Japanese economy. Over 4,200 companies maintain offices in this district, and the daily working population exceeds **280,000** people.
+Stretching west of Tokyo Station, Marunouchi is the command center of the Japanese economy. Over 4,200 companies maintain offices in this district, and the daily working population exceeds **280,000** people.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 *   **Historic Red Brick meets Modern Towers**: The classical exterior of Tokyo Station (restored to its 1914 Tatsuno Kingo design in 2012) surrounded by sleek office towers visualizes the unique Japanese philosophy of 'innovation through tradition.' The contrast between the station's baroque dome and the glass curtain walls of the adjacent JP Tower creates one of Tokyo's most photographed architectural compositions.
 
 *   **Marunouchi Naka-dori**: This 800-meter tree-lined boulevard runs parallel to the station and is arguably Tokyo's most elegant corporate street. With seasonal light installations in winter and al fresco dining in summer, the [Marunouchi portal](https://www.marunouchi.com/en/) positions it as the district's living room. Office rents here command a premium of ¥35,000–45,000 per tsubo (approx. $75–95/sqft), among the highest in Tokyo.
 
-*   **The Tokyo Torch Project**: The ongoing construction of the ~390m ['Torch Tower'](https://torchtower.jp/) (targeting 2028 completion) will make it Japan's tallest building, surpassing Azabudai Hills' 330m tower completed in 2023. The project includes a 2,000-seat observation deck, a luxury hotel, and ground-level public spaces designed to connect the Nihonbashi side with the Marunouchi side for the first time. The total project investment is estimated at **¥500 billion**.
+*   **The Tokyo Torch Project**: The ongoing construction of the ~390m ['Torch Tower'](https://torchtower.jp/)<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> (targeting 2028 completion) will make it Japan's tallest building, surpassing Azabudai Hills' 330m tower completed in 2023. The project includes a 2,000-seat observation deck, a luxury hotel, and ground-level public spaces designed to connect the Nihonbashi side with the Marunouchi side for the first time. The total project investment is estimated at **¥500 billion**.
 
 ### Practical tips for the Marunouchi-Otemachi stretch
 

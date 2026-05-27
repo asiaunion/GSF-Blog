@@ -14,10 +14,17 @@ tags:
 sources:
   - "https://www.gotokyo.org/en/"
   - "https://www.fashion-press.net/"
-references:
-  - "https://www.gotokyo.org/en/"
+  - "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+  - "https://www.suumo.jp/"
+citeSources:
+  - label: "GO TOKYO Official Tourism Portal"
+    url: "https://www.gotokyo.org/en/"
+  - label: "JNTO Visitor Arrival Statistics (2024)"
+    url: "https://www.jnto.go.jp/statistics/data/visitors-statistics/"
+  - label: "SUUMO Rental Market Search"
+    url: "https://www.suumo.jp/"
 ---
-Having finally emerged from the long tunnel of the pandemic, Japan is presently riding a massive inbound wave, aiming for an astounding 40 million tourists a year, and has completely reclaimed its reputation as a true tourism superpower. Amidst this overwhelming recovery in foot traffic, Tokyo is brimming with immense vitality every single day, both as the nation's capital and a city situated at the absolute forefront of global trends. You might frequently wonder, "Where is the most stylish street in Tokyo?" or "Where are the best cafes and shopping spots?" In reality, there are so many stylish places you'll want to visit, such as cute general stores and trendy cafes, that people often become bewildered about where they should actually go.
+Having finally emerged from the long tunnel of the pandemic, Japan is presently riding a massive inbound wave, aiming for an astounding 40 million tourists a year,<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> and has completely reclaimed its reputation as a true tourism superpower. Amidst this overwhelming recovery in foot traffic, Tokyo is brimming with immense vitality every single day, both as the nation's capital and a city situated at the absolute forefront of global trends. You might frequently wonder, "Where is the most stylish street in Tokyo?" or "Where are the best cafes and shopping spots?" In reality, there are so many stylish places you'll want to visit, such as cute general stores and trendy cafes, that people often become bewildered about where they should actually go.
 
 A Japanese blog called "Eipura Column" features posts that answer these kinds of questions. Although it has somewhat of a PR nature, after consulting with my Japanese wife, the content seems quite persuasive, so I decided to cover it here. It is interesting because it introduces Tokyo's stylish spots in a ranking format. Personally, however, I don't think there is a need to attach too much significance to the specific order below. This is because people's standards for "stylishness" vary, and there are clear individual differences in preferred scenery.
 
@@ -34,7 +41,7 @@ A Japanese blog called "Eipura Column" features posts that answer these kinds of
 
 Daikanyama is widely recognized as a stylish "Machi" (neighborhood) in Tokyo. Known as a high-end residential area where many celebrities reside, the overall atmosphere is elegant and calm. Trees are planted along the roads, and the neighborhood's landscape is lush and beautiful. There are many fashion-related stores, such as clothing boutiques and aesthetic salons often featured in magazines, making it especially popular among women.
 
-Because it is a high-end residential area, the streetscape is beautiful and safe. In the vicinity, there are supermarkets, convenience stores, and other shops necessary for daily life. The entire neighborhood ranks at the very top, easily earning 5 stars for cleanliness. However, the rent is expensive. A studio-type one-room (1K or 1DK) costs over 130,000 yen, which is quite burdensome. Here, 'K' stands for Kitchen, and 'D' stands for Dining space. In terms of location, it is fantastic, as Tokyo's hot spots, Ebisu and Shibuya, are within walking distance.
+Because it is a high-end residential area, the streetscape is beautiful and safe. In the vicinity, there are supermarkets, convenience stores, and other shops necessary for daily life. The entire neighborhood ranks at the very top, easily earning 5 stars for cleanliness. However, the rent is expensive. A studio-type one-room (1K or 1DK) costs over 130,000 yen,<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> which is quite burdensome. Here, 'K' stands for Kitchen, and 'D' stands for Dining space. In terms of location, it is fantastic, as Tokyo's hot spots, Ebisu and Shibuya, are within walking distance.
 
 ## 2. Jiyugaoka: Loved by Women
 
