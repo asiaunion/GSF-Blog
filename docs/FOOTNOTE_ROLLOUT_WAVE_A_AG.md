@@ -174,6 +174,6 @@ User commits/deploys when ready.
 
 ---
 
-## Wave C — remaining 24 slugs (AG)
+## Wave C — 24 slugs — ✅ Done (2026-05-27)
 
-See [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md).
+All batches C1–C5 on `main`. **No Wave D.** Record: [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md). Rules archive: [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md).

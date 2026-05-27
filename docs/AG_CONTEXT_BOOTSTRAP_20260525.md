@@ -29,6 +29,7 @@
 | 4 | `docs/BLOG_AG_CURSOR_WORKFLOW.md` | AG↔Cursor 분업·폴더 규칙 |
 | 5 | `docs/CHARTS_AND_VISUALS.md` §8 | 다이어그램 **WebP만** 포스트에 링크 |
 | 6 | `src/lib/postDisclaimer.ts` | 면책 문구 SSOT (**마크다운에 넣지 않음**) |
+| 7 | `docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md` | **Wave A/B/C 각주 완료** · Wave D 없음 |
 
 읽은 뒤 **반드시** 아래 형식으로 확인 응답:
 
@@ -52,6 +53,7 @@
 - `SKIP_TRUST_VERIFY=0` 배치 35/35 달성을 AG 목표로 삼지 말 것 (24/35는 **정책상 정상**)
 - `bulk-t3-mark-passing.mjs`로 시트 전행 `[x]` 찍어 「검증 완료」 표시하지 말 것
 - `feat/fact-audit-wave-a` merge 대기 — **이미 main 반영·배포됨**
+- **Wave C 각주 24 slug (C1–C5)** — **완료** (`main` `5f3a9b7`). **Wave D 없음.** 기존 36편 일괄 재편집은 사용자 요청 시만.
 
 ---
 

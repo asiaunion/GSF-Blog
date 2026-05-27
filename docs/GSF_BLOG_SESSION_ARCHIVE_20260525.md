@@ -15,6 +15,7 @@
 | **T3 정책** | **P0-only 고정** — 전 시트 fetch ON 35/35 **비목표** |
 | **면책** | 본문 **맨 위 `PostDisclaimer`만** (투자/안전/일반 카테고리별 문구) |
 | **다이어그램** | 포스트는 **`diagrams/*.webp`만** 링크 (SVG는 편집용) |
+| **각주 Wave A/B/C** | ✅ **완료** (2026-05-27) — [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) |
 | **다음 순서** | GSC → AdSense → Monetization MVP → 콘텐츠 SEO |
 
 ---
@@ -31,6 +32,7 @@
 | `919ebfc` | macro 하단 면책 제거 · SVG→WebP 46종 · CTA 공시 |
 | `936dceb` | **T3 P0-only** 문서·로드맵·`NEXT_WORK_QUEUE` |
 | `de8fd1a` | INDEX 36/36 · macro-barrier 시트 스텁 |
+| `e2aab8b` … `5f3a9b7` | **Wave C footnotes** C1–C5 (24 slugs) · see [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) |
 
 ---
 
@@ -186,4 +188,4 @@ svg/ (편집) → pnpm diagrams:sanitize → pnpm diagrams:render → diagrams/*
 
 ---
 
-*Last updated: 2026-05-25 · merges on `main` through `de8fd1a`*
+*Last updated: 2026-05-27 · footnotes through `5f3a9b7` · trust baseline through `de8fd1a`*

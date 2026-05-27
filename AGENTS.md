@@ -48,6 +48,7 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 ---
 
 **Trust roadmap:** [`docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md`](docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md)  
+**Footnotes Wave A/B/C:** ✅ done — [`docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) (no Wave D)  
 **Session archive:** [`docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md`](docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md)  
 **AG bootstrap (copy-paste):** [`docs/AG_CONTEXT_BOOTSTRAP_SHORT.md`](docs/AG_CONTEXT_BOOTSTRAP_SHORT.md)  
 **Workflow:** [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md)
