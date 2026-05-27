@@ -20,7 +20,7 @@
 - 금지어: 반드시/무조건/guaranteed 등.
 - 경로: `src/data/blog/{ko,en,ja}/<동일-slug>.md(x)` · 수치 3언어 parity.
 
-각주 Wave A (도쿄 클러스터 6편): [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md)
+각주 Wave A/B 완료 · Wave C 진행: [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md) · A: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md)
 
 끝낼 때:
 `[AG→Cursor] slug: … / validate:post 요청 / footer면책·svg링크·bulk T3 [x] 안 함`
