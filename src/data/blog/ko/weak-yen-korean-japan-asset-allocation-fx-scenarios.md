@@ -13,12 +13,19 @@ tags:
   - JPY
   - FX
 sources:
-  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
+  - "https://www.boj.or.jp/en/statistics/dl/index.htm"
   - "https://www.bok.or.kr/eng/main/main.do"
   - "https://www.fsa.go.jp/en/"
-references:
-  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
-  - "https://www.bok.or.kr/eng/main/main.do"
+  - "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+citeSources:
+  - label: "일본은행(일은) 통계 데이터 라이브러리"
+    url: "https://www.boj.or.jp/en/statistics/dl/index.htm"
+  - label: "한국은행 금리결정 코멘트 (BOK)"
+    url: "https://www.bok.or.kr/eng/main/main.do"
+  - label: "일본 금융청(FSA) 금융시스템 모니터링"
+    url: "https://www.fsa.go.jp/en/"
+  - label: "일본은행 2024-12 금리결정뉴스"
+    url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
 ---
 한국의 투자자들에게 일본은 이제 단순히 가까운 이웃 나라를 넘어, '환차익'과 '안전자산'이라는 두 마리 토끼를 노릴 수 있는 가장 매력적인 시장이 되었습니다. 하지만 2026년 현재, 우리는 "엔화는 언제든 다시 오를 것"이라는 막연한 기대감이 얼마나 위험할 수 있는지도 동시에 목격하고 있습니다.
 
@@ -26,7 +33,7 @@ references:
 
 현재 JPY/KRW를 움직이는 세 가지 축을 저는 이렇게 보고 있습니다.
 
-- **금리 차이입니다.** 일본은행은 0.50%로 조심히 가고 있고, 우리 한국은행은 3%대를 유지하고 있습니다. 이 금리 차이가 엔화 약세를 지탱하고 있지만, 만약 일본이 예상보다 빨리 금리를 올리거나 우리가 내린다면 엔화 가치는 순식간에 튀어 오를 수 있습니다.
+- **금리 차이입니다.** 일본은행은 0.50%로 조심히 가고 있고, 우리 한국은행은 3%대를 유지하고 있습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 이 금리 차이가 엔화 약세를 지탱하고 있지만, 만약 일본이 예상보다 빨리 금리를 올리거나 우리가 내린다면 엔화 가치는 순식간에 튀어 오를 수 있습니다.
 - **무역 수지 구조입니다.** 일본의 디지털 적자와 에너지 수입 의존도는 엔화의 근본적인 하락 압력으로 작용합니다. "과거의 강한 엔화"로 돌아가는 길이 생각보다 험난할 수 있다는 뜻입니다.
 - **지정학적 리스크입니다.** 동북아시아의 긴장이 고조될 때 엔화는 역설적으로 '안전자산'의 지위를 회복하며 급등하는 경향이 있습니다.
 
@@ -36,7 +43,7 @@ references:
 
 이것은 많은 한국 투자자들이 고대하는 시나리오입니다. 일본이 본격적인 금리 인상 사이클에 진입하고, 미국과 한국이 금리를 인하하면서 내외 금리차가 축소되는 경우입니다.
 
-*   **수익 구조**: 부동산 임대 수익(평균 3\~4%) + 환차익(10\~15%)이 결합되어 연 20%에 육박하는 수익률이 가능해집니다.
+*   **수익 구조**: 부동산 임대 수익(평균 3\~4%) + 환차익(10\~15%)이 결합되어 연 20%에 육박하는 수익률이 가능해집니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 *   **전략**: 지금처럼 엔저일 때 자산을 선취매하고, 엔고 반등 시 자산의 일부를 매각하거나 배당금을 원화로 환전하여 수익을 확정 지어야 합니다.
 
 ---
@@ -46,7 +53,7 @@ references:
 일본의 구조적 적자가 해결되지 않고, 일본은행이 금리 인상에 극도로 소극적인 자세를 유지할 때 발생합니다.
 
 *   **리스크**: 원화 환산 자산 가치가 정체되거나 소폭 하락할 수 있습니다. 겉으로는 일본 현지 가격이 올랐어도 한국 통장으로 옮기면 제자리걸음일 수 있다는 뜻입니다.
-*   **전략**: 환차익에 대한 기대를 버리고, **'현금흐름(Cashflow)'**에 집중해야 합니다. 도쿄 도심 오피스나 핵심 상권 리테일처럼 환율 노이즈를 뚫고 올라갈 수 있는 펀더멘털 우량 자산에 집중하십시오.
+*   **전략**: 환차익에 대한 기대를 버리고, **'현금흐름(Cashflow)'**에 집중해야 합니다. 도쿄 도심 오피스나 핵심 상권 리테일처럼 환율 노이즈를 뚫고 올라갈 수 있는 펀더멘털 우량 자산에 집중하십시오.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ---
 

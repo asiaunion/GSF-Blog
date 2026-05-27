@@ -15,9 +15,24 @@ tags:
   - 日本再開発
 sources:
   - "https://www.nihonbashi-tokyo.jp/"
+  - "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
   - "https://www.mitsuifudosan.co.jp/"
-references:
-  - "https://www.nihonbashi-tokyo.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+citeSources:
+  - label: "日本橋1丁目中地区再開発公式案内（三井不動産）"
+    url: "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
+    portal: "https://www.mitsuifudosan.co.jp/"
+  - label: "日本橋エリア公式ポータル (nihonbashi-tokyo.jp)"
+    url: "https://www.nihonbashi-tokyo.jp/"
+  - label: "東京カンテイ 首都圈中古マンション70㎡価格動向（2025年）"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS 首都圈マーケットウォッチ（2026-04）"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
 ---
 東京の中心は皇居ですが、東京の「躍動」が始まる場所は日本橋（Nihonbashi）です。江戸時代から商業の中心地であったこの街は、2026年現在、三井不動産による大規模な再開発を通じて、歴史的遺産と超現代的なスカイラインが共存する独歩的なエリアへと進化しました。
 
@@ -29,7 +44,7 @@ references:
 
 ## 1. 日本橋室町：284mのスカイラインと伝統の共存
 
-2026年3月に竣工した「日本橋一丁目中地区再開発」ビルは、このエリアの新しいランドマークです。
+2026年3月に竣工した「日本橋一丁目中地区再開発」ビルは、このエリアの新しいランドマークです。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 *   **ウォルドルフ・アストリア東京日本橋**: 39〜47階に入居したブランド初の日本進出ホテル。1泊約¥80,000〜、アマン東京・ペニンシュラと肩を並べます。
 *   **コレド室町**: 130以上の店舗を擁する4棟連結ビル。にんべん（鰹節、1699年〜）、山本山（茶、1690年〜）など老舗がアンカー。平均ランチ¥1,200〜2,500。
@@ -50,7 +65,7 @@ references:
 かつての堅苦しい証券街（1878年に東京証券取引所が移転）であった兜町は、東京で最も魅力的なエリア変革の一つです。
 
 *   **KABUTO ONE**: 巨大なLEDディスプレイが設置された現代的なビルと、その周辺に点在するクラフトビールバー、独立系カフェ、ブティックホテルなどは、ここを若い投資家やクリエイターが集まる創造的なハブへと変えました。
-*   **歴史の痕跡**: 新一万円札に登場した渋沢栄一がこの地に最初の銀行を設立。ウォーキングマーカーを辿り明治経済変革の文脈を体感できます。投資観点：兜町の住宅坪単価は2019年比で約40%上昇。新築コンド¥600,000〜800,000/㎡。
+*   **歴史の痕跡**: 新一万円札に登場した渋沢栄一がこの地に最初の銀行を設立。ウォーキングマーカーを辿り明治経済変革の文脈を体感できます。投資観点：兜町の住宅坪単価は2019年比で約40%上昇。新築コンド¥600,000〜800,000/㎡。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ### 兜町 実践ガイド
 
@@ -71,7 +86,7 @@ references:
 ![日本橋・浜町 ウォーキングルートガイド](/assets/images/blog/diagrams/ja-nihonbashi-hamacho-walking-guide.webp)
 
 *   **甘酒横丁**: 人形町の400m商店街。人形焼（1個¥100〜200）、煎餅、伊勢辰（1864年創業）和紙工芸品など。大半10:00〜17:00営業、日曜休み多数。
-*   **浜町リバーサイド**: 隅田川へと続く浜町は、都心でありながら落ち着いた住環境を誇る洗練されたエリアです。新築タワーマンション¥500,000〜700,000/㎡ — 隣接する日本橋より約25%割安で、隠れたバリュー投資先です。
+*   **浜町リバーサイド**: 隅田川へと続く浜町は、都心でありながら落ち着いた住環境を誇る洗練されたエリアです。新築タワーマンション¥500,000〜700,000/㎡ — 隣接する日本橋より約25%割安で、隠れたバリュー投資先です。<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 ### 人形町・浜町 実践ガイド
 

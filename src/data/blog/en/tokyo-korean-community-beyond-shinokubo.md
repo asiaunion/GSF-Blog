@@ -14,13 +14,22 @@ tags:
   - Toranomon
   - KStartup
 sources:
-  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
+  - "https://www.mindan.org/"
   - "https://www.k-startup.go.kr/"
-  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
   - "https://www.e-miki.com/market/"
-references:
-  - "https://www.mindan.org/index.php?bid=news&cate=newsindex.php?bid=news&cate=newsindex.php?bid=news&cate=news"
-  - "https://www.k-startup.go.kr/"
+  - "https://www.reinfolib.mlit.go.jp/"
+  - "https://www.kexim.go.kr/"
+  - "https://www.mlit.go.jp/"
+citeSources:
+  - label: "Korean Residents Union in Japan (Mindan) Official Website"
+    url: "https://www.mindan.org/"
+  - label: "Korea Eximbank: Korean Corporate Entries into Japan Statistics"
+    url: "https://www.kexim.go.kr/"
+  - label: "Miki Shoji Office Report 2025"
+    url: "https://www.e-miki.com/market/"
+  - label: "MLIT Real Estate Information Library"
+    url: "https://www.reinfolib.mlit.go.jp/"
+    portal: "https://www.mlit.go.jp/"
 ---
 When one thinks of 'Korea' in Tokyo, Shin-Okubo is invariably the first name that comes to mind. As a sanctuary of K-culture where countless Japanese locals and tourists flock daily, it stands as the symbolic center of Korean identity in Tokyo.
 
@@ -92,11 +101,11 @@ Knowing *which* community hub matters is only half the equation. The real questi
 
 Beyond lifestyle, the evolving Korean community map in Tokyo has measurable investment implications.
 
-**Demand Effect on Rental Markets**: As more Korean professionals and startup founders relocate to Toranomon and Minato-ku, demand for furnished apartments with short-stay flexibility has risen sharply since 2023. Landlords in these zones have responded by listing on platforms like Sakura House and GaijinPot at premium rates. Toranomon Hills and Azabudai Hills are designed as mixed-use "global business centers" by Mori Building—which means tenant selection happens before vacancies even open publicly. This structural dynamic, consistently observed across comparable Mori-developed complexes (Ark Hills, Toranomon Hills Station Tower), keeps absorption paces fast even in a softening broader market. ([Miki Shoji Office Report, 2025](https://www.e-miki.com/market/))
+**Demand Effect on Rental Markets**: As more Korean professionals and startup founders relocate to Toranomon and Minato-ku, demand for furnished apartments with short-stay flexibility has risen sharply since 2023. Landlords in these zones have responded by listing on platforms like Sakura House and GaijinPot at premium rates. Toranomon Hills and Azabudai Hills are designed as mixed-use "global business centers" by Mori Building—which means tenant selection happens before vacancies even open publicly. This structural dynamic, consistently observed across comparable Mori-developed complexes (Ark Hills, Toranomon Hills Station Tower), keeps absorption paces fast even in a softening broader market.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
-**The Azabudai Hills Effect**: The 2024 opening of Mori JP Tower and Azabudai Hills fundamentally reshuffled premium residential supply in Minato-ku. A notable portion of early tenants in the residential tower are Korean-affiliated professionals—executives, investors, and returnees from Global Korea Scholarship programs. Asking prices for 1LDK units in the surrounding area have responded to this surge in elite demand, though buyers and investors should confirm current pricing directly through licensed real estate professionals or the [Ministry of Land, Infrastructure, Transport and Tourism's real estate transaction database](https://www.reinfolib.mlit.go.jp/).
+**The Azabudai Hills Effect**: The 2024 opening of Mori JP Tower and Azabudai Hills fundamentally reshuffled premium residential supply in Minato-ku. A notable portion of early tenants in the residential tower are Korean-affiliated professionals—executives, investors, and returnees from Global Korea Scholarship programs. Asking prices for 1LDK units in the surrounding area have responded to this surge in elite demand, though buyers and investors should confirm current pricing directly through licensed real estate professionals or the [Ministry of Land, Infrastructure, Transport and Tourism's real estate transaction database](https://www.reinfolib.mlit.go.jp/).<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
-**Startup Ecosystem → Office Demand**: The K-Startup surge in Toranomon is not just a community story—it is a verifiable office demand driver. According to Korea Eximbank data, the number of Korean corporations newly established in Japan reached **316 in 2024**, a record high—and the figure for January–September 2025 (318 entities) has already surpassed that annual record. Korean-founded companies in Japan tend to cluster in 30–100 sqm flexible office spaces near the Toranomon and Akasaka corridor, contributing to structurally elevated demand for smaller-format Grade B+ office inventory even as overall Tokyo vacancy figures show modest recovery.
+**Startup Ecosystem → Office Demand**: The K-Startup surge in Toranomon is not just a community story—it is a verifiable office demand driver. According to Korea Eximbank data, the number of Korean corporations newly established in Japan reached **316 in 2024**, a record high—and the figure for January–September 2025 (318 entities) has already surpassed that annual record.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Korean-founded companies in Japan tend to cluster in 30–100 sqm flexible office spaces near the Toranomon and Akasaka corridor, contributing to structurally elevated demand for smaller-format Grade B+ office inventory even as overall Tokyo vacancy figures show modest recovery.
 
 **Key Takeaway for Investors**: Community migration patterns are leading indicators of rental demand. As Korean professionals continue shifting from Shin-Okubo to Minato-ku's business core, apartments in the ¥150,000–¥300,000/month range within walking distance of Toranomon Hills or Azabudai Hills represent a compelling supply-demand imbalance that purely quantitative models tend to miss. The investment thesis here is built on structural drivers—corporate expansion, lifestyle clustering, and world-class infrastructure—rather than any single data point.
 

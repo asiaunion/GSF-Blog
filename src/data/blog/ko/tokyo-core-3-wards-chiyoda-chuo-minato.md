@@ -17,13 +17,30 @@ tags:
   - 이주
   - 투자
 sources:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-references:
+  - "https://www.nta.go.jp/"
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://suumo.jp/"
+  - "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
+citeSources:
+  - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS 수도권 마켓워치, 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "국세청 민간급여실태통계, 2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "도쿄도 인구추계 (주민기본대장), 2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "국토교통성 신축 맨션 해외주소 매수자 조사, 2025-11"
+    url: "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
 ---
 "도쿄 핵심 3구면 어디든 비슷하지 않나요?" — 이 질문을 받을 때마다 저는 고개를 젓습니다. **치요다, 주오, 미나토는 같은 묶음이 아닙니다.** 같은 '도심'이라는 라벨 아래 완전히 다른 성격, 다른 수요, 다른 투자 논리가 숨어 있습니다.
 
@@ -60,7 +77,7 @@ references:
 | 마루노우치·오테마치 인근 | 190~250만엔/㎡ | 630~830만엔/坪 |
 | 지요다·히비야 인근 | 160~210만엔/㎡ | 530~700만엔/坪 |
 | 아키하바라·간다 인근 | 110~150만엔/㎡ | 365~500만엔/坪 |
-| **구 전체 평균** | **약 150만엔/㎡** | **약 500만엔/坪** |
+| **구 전체 평균** | **약 150만엔/㎡** | **약 500만엔/坪** |<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 치요다구의 맨션 공급 자체가 절대적으로 적습니다. 신축 분양 물건이 나올 때마다 수개월 내 완판되는 것이 일반적이며, 중고 물건도 리스팅 후 빠르게 소화됩니다.
 
@@ -78,13 +95,13 @@ references:
 
 ### 평균 세대 소득
 
-치요다구의 납세자 평균 연수입은 **약 950만엔** 수준으로, 도쿄 23구 평균(약 450~500만엔)의 약 2배입니다. 단, 실제 거주 인구 기반 통계이므로 낮 시간 유동 인구의 소득 수준은 이를 훨씬 상회합니다.
+치요다구의 납세자 평균 연수입은 **약 950만엔** 수준으로, 도쿄 23구 평균(약 450~500만엔)의 약 2배입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 단, 실제 거주 인구 기반 통계이므로 낮 시간 유동 인구의 소득 수준은 이를 훨씬 상회합니다.
 
 ### 인구수
 
 | 항목 | 수치 |
 |------|------|
-| 총인구 | 약 67,000명 (23구 중 최소) |
+| 총인구 | 약 67,000명 (23구 중 최소)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | 인구 밀도 | 약 4,100명/㎢ (23구 중 최저 수준) |
 | 주간 유동인구 | 약 800,000명 이상 |
 | 최근 트렌드 | 재개발에 따른 주거용 맨션 증가로 인구 완만 증가 중 |
@@ -143,7 +160,7 @@ references:
 
 ### 평균 세대 소득
 
-주오구의 납세자 평균 연수입은 **약 730만엔** 수준으로 도쿄 평균을 크게 상회합니다. 긴자·니혼바시 상권 종사자와 금융·무역업 중심의 주재원 거주자 비율이 높습니다.
+주오구의 납세자 평균 연수입은 **약 730만엔** 수준으로 도쿄 평균을 크게 상회합니다.<sup class="source-ref"><a href="#source-3">3</a></sup> 긴자·니혼바시 상권 종사자와 금융·무역업 중심의 주재원 거주자 비율이 높습니다.
 
 ### 인구수
 
@@ -210,7 +227,7 @@ references:
 
 ### 평균 세대 소득
 
-미나토구의 납세자 평균 연수입은 **약 1,200만엔** 이상으로, 도쿄 23구에서 1위입니다. 고액 연봉 금융인, 외국계 기업 임원, 외교관이 다수 거주합니다.
+미나토구의 납세자 평균 연수입은 **약 1,200만엔** 이상으로, 도쿄 23구에서 1위입니다.<sup class="source-ref"><a href="#source-3">3</a></sup> 고액 연봉 금융인, 외국계 기업 임원, 외교관이 다수 거주합니다.
 
 ### 인구수
 
@@ -222,7 +239,7 @@ references:
 
 ### 외국인 비율
 
-미나토구의 외국인 주민 비율은 **약 11~12%** 로 23구 중 최고 수준입니다. 영어·중국어로 생활 가능한 환경이 잘 갖춰져 있으며, 외국인 전용 부동산 중개 서비스도 풍부합니다. 한국인 커뮤니티는 아카사카·롯폰기 중심으로 존재합니다.
+미나토구의 외국인 주민 비율은 **약 11~12%** 로 23구 중 최고 수준입니다.<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> 영어·중국어로 생활 가능한 환경이 잘 갖춰져 있으며, 외국인 전용 부동산 중개 서비스도 풍부합니다. 한국인 커뮤니티는 아카사카·롯폰기 중심으로 존재합니다.
 
 ### 추천 타깃
 

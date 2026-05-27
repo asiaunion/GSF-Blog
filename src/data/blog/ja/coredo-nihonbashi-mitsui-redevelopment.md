@@ -12,9 +12,18 @@ sources:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
   - "https://mitsui-shopping-park.com/urban/muromachi/"
-references:
-  - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
-  - "https://mitsui-shopping-park.com/urban/nihonbashi/"
+  - "https://www.mlit.go.jp/toshi/city_plan/toshi_city_plan_tk_000044.html"
+  - "https://www.mlit.go.jp/"
+citeSources:
+  - label: "三井不動産 日本橋再生公式決定版歴史"
+    url: "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
+  - label: "コレド日本橋 公式施設案内（三井ショッピングパーク）"
+    url: "https://mitsui-shopping-park.com/urban/nihonbashi/"
+  - label: "コレド室町 公式施設案内（三井ショッピングパーク）"
+    url: "https://mitsui-shopping-park.com/urban/muromachi/"
+  - label: "国土交通省 都市再生特別地区指定情報"
+    url: "https://www.mlit.go.jp/toshi/city_plan/toshi_city_plan_tk_000044.html"
+    portal: "https://www.mlit.go.jp/"
 ---
 *この記事は[日本橋シリーズ](/ja/posts/nihonbashi-the-origin-of-japan/)の第三弾です。Origin編が400年の商業DNAを辿り、[浜町ウォーキングガイド](/ja/posts/nihonbashi-hamacho-walking-guide/)がストリートレベルのルートを案内するのに対し、この記事は一つの問いに集中します：現代の商業施設はいかにして百年の老舗の技を生かしているのか — その答えは住民の日常からどう見えるのか？*
 
@@ -30,7 +39,7 @@ references:
 
 ## 1. なぜこの一帯が「象徴」として読まれるのか
 
-江戸時代、日本橋は五街道の起点であり、水の道と人が集まる要衝でした。1673年には三井の前身と語られる越後屋がこの町で店を開き、その後も三井グループの根は今日まで都心と重なっています。三井不動産が進める「日本橋再生」は、かつて栄えた賑わいを、現代の街の体験として再接続しようとする長期プロジェクトだと私は理解しています。公式の沿革によれば、2004年の日本橋一丁目三井ビルディング竣工とともにコレド日本橋が開業し、2010年に室町東三井ビルディングとともにコレド室町1、続いて2014年にコレド室町2・3、2019年にコレド室町テラスへと、「一度に」ではなく段階を踏んで街を埋めてきました。「複合開発」という言葉は重くなりがちですが、現場を歩くと、それが一瞬のイベントではなく、積み重ねた意思決定の層だという印象を受けます。
+江戸時代、日本橋は五街道の起点であり、水の道と人が集まる要衝でした。1673年には三井の前身と語られる越後屋がこの町で店を開き、その後も三井グループの根は今日まで都心と重なっています。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>三井不動産が進める「日本橋再生」は、かつて栄えた賑わいを、現代の街の体験として再接続しようとする長期プロジェクトだと私は理解しています。公式の沿革によれば、2004年の日本橋一丁目三井ビルディング竣工とともにコレド日本橋が開業し、2010年に室町東三井ビルディングとともにコレド室町1、続いて2014年にコレド室町2・3、2019年にコレド室町テラスへと、「一度に」ではなく段階を踏んで街を埋めてきました。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>「複合開発」という言葉は重くなりがちですが、現場を歩くと、それが一瞬のイベントではなく、積み重ねた意思決定の層だという印象を受けます。
 
 ---
 
@@ -69,5 +78,5 @@ references:
 ## Walking Action: セッション要約と点検
 
 - [ ] **体験**: 「コレド室町テラス」の屋外テラス席で、三井不動産が提案する新たな職住近接のライフスタイルを感じてみてください。
-- [ ] **歴史**: 日本橋の橋の上で現在進行中の「首都高地下化」事業の現場を確認し、未来の水辺景観を想像してみてください。
+- [ ] **歴史**: 日本橋の橋の上で現在進行中の「首都高地下化」事業の現場を確認し、未来の水辺景観を想像してみてください。<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 - [ ] **ビジネス**: 日本橋一丁目再開発エリアのフェンスの向こうに、東京の新ランドマークが立ち上がるスピードをチェックしてください。

@@ -15,11 +15,23 @@ tags:
   - 投資
   - 地域ガイド
 sources:
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
-references:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
+  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.lifull.com/homes/chintai/tokyo/"
+  - "https://suumo.jp/chintai/tokyo/"
+citeSources:
+  - label: "東京都 人口推計（住民基本台帳），2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "国税庁 民間給与実態統計，2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "LIFULL HOME'S 東京賣貸市場データ"
+    url: "https://www.lifull.com/homes/chintai/tokyo/"
+  - label: "SUUMO 東京賣貸相場データ"
+    url: "https://suumo.jp/chintai/tokyo/"
 ---
 東京への移住を検討されている方、あるいは不動産投資先として東京に注目されている方であれば、必ず一度は向き合うことになる問いがあります。
 
@@ -106,7 +118,7 @@ references:
 | 多摩文化・教育 | 国分寺・国立・府中・立川 | 40〜60万円 | 学園都市、立川再開発 |
 | 多摩郊外 | 八王子・町田・多摩など | 25〜45万円 | 広い面積、都心の30〜50%割安 |
 
-> **ご注意**: 上記価格帯は2025〜2026年を基準とした概算です。駅距離、築年数、階数、専有面積によって大きく異なります。各回でより精度の高いデータを提供します。
+> **ご注意**: 上記価格帯は2025、2026年を基準とした概算です。駅距離、築年数、階数、専有面積によって大きく異なります。各回でより精度の高いデータを提供します。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ---
 

@@ -15,8 +15,16 @@ tags:
 sources:
   - "https://www.peacockstore.co.jp/"
   - "https://www.shijou.metro.tokyo.lg.jp/"
-references:
-  - "https://www.peacockstore.co.jp/"
+  - "https://www.mlit.go.jp/toshi/city_plan/toshi_city_plan_fr_000001.html"
+  - "https://www.mlit.go.jp/"
+citeSources:
+  - label: "Peacock Store Official Website (including store info)"
+    url: "https://www.peacockstore.co.jp/"
+  - label: "Tokyo Metropolitan Central Wholesale Market Official Site"
+    url: "https://www.shijou.metro.tokyo.lg.jp/"
+  - label: "MLIT Urban Planning: Chuo Ward Overview"
+    url: "https://www.mlit.go.jp/toshi/city_plan/toshi_city_plan_fr_000001.html"
+    portal: "https://www.mlit.go.jp/"
 ---
 Since I started living in Nihonbashi Hamacho, one thing has consistently surprised me: how rich the neighborhood amenities are for a place smack in the middle of downtown Tokyo. The address alone conjures images of towering office buildings and a sea of convenience stores — hardly the setting you'd associate with proper grocery shopping, parks, or a leisurely evening walk. Honestly, I had those same assumptions before we moved. There was an unspoken worry that while the location would be convenient for work, everyday life might feel slightly sterile or impractical. Living here has dismantled that notion, piece by piece.
 
@@ -32,7 +40,7 @@ Once we actually settled in and started exploring the neighborhood with fresh ey
 
 ## Hamacho's Hidden Gem: Peacock Supermarket
 
-The real game-changer sits on the ground floor of **Tornare**, the landmark tower residence of Hamacho. There you'll find **Peacock Store**, a full-scale supermarket that operates **24 hours a day** — already a significant advantage for anyone with an irregular schedule. No more frantic dashes before closing time, no more realizing at 11 PM that you've run out of something essential.
+The real game-changer sits on the ground floor of **Tornare**, the landmark tower residence of Hamacho. There you'll find **Peacock Store**, a full-scale supermarket that operates **24 hours a day** — already a significant advantage for anyone with an irregular schedule.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> No more frantic dashes before closing time, no more realizing at 11 PM that you've run out of something essential.
 
 But it's not just about size or hours. **The vegetables and seafood are remarkably fresh, and the prices are astonishingly reasonable.** I still remember the double-take I did on my first visit — first at how vibrant and abundant the produce looked, then again when I checked the price tags. The combination felt almost impossible for central Tokyo. It's the kind of freshness you'd expect at a local market, presented inside a modern, well-organized supermarket. For my wife and me, stumbling onto Peacock felt like discovering a small but meaningful gift tucked into the neighborhood.
 
@@ -42,7 +50,7 @@ But it's not just about size or hours. **The vegetables and seafood are remarkab
 
 There's a logical explanation for these surprisingly fair prices, and it took me a while to piece it together.
 
-In nearby Koto Ward, just across from Chuo Ward where we live, sits the **Central Wholesale Market (中央卸売市場)** — the largest wholesale market in Tokyo, handling massive volumes of seafood and produce. Hamacho's position in Chuo Ward puts it almost directly adjacent to this distribution hub. The shorter the distance from wholesale to shelf, the fresher the product — and the lower the logistics cost that would otherwise get passed on to the consumer.
+In nearby Koto Ward, just across from Chuo Ward where we live, sits the **Central Wholesale Market (中央卸売市場)** — the largest wholesale market in Tokyo, handling massive volumes of seafood and produce.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Hamacho's position in Chuo Ward puts it almost directly adjacent to this distribution hub.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> The shorter the distance from wholesale to shelf, the fresher the product — and the lower the logistics cost that would otherwise get passed on to the consumer.
 
 What started as idle curiosity about my local supermarket gradually expanded into a broader understanding of how Tokyo's food supply chain actually works. From the Peacock store in Hamacho to the Central Wholesale Market in Koto Ward — a single neighborhood observation opened up a much larger picture. I find that kind of local discovery genuinely satisfying.
 

@@ -18,13 +18,18 @@ sources:
   - "https://www.cbre.co.jp/en/research-and-reports"
   - "https://www.jll.co.jp/en/research"
   - "https://www.reins.or.jp/"
-references:
-  - "https://www.mlit.go.jp/en/"
-  - "https://www.metro.tokyo.lg.jp/english/"
-  - "https://www.mitsuifudosan.co.jp/english/"
-  - "https://www.cbre.co.jp/en/research-and-reports"
-  - "https://www.jll.co.jp/en/research"
-  - "https://www.reins.or.jp/"
+  - "https://www.miki-shoji.co.jp/"
+citeSources:
+  - label: "MLIT Land & Urban Planning Data (latest urban plan FAR approvals)"
+    url: "https://www.mlit.go.jp/en/"
+  - label: "Tokyo Metropolitan Government Infrastructure Plan and Approval Data"
+    url: "https://www.metro.tokyo.lg.jp/english/"
+  - label: "Mitsui Fudosan Nihonbashi Development Official Materials"
+    url: "https://www.mitsuifudosan.co.jp/english/"
+  - label: "Miki Shoji Q1 2026 Tokyo 5-Ward Office Vacancy Report"
+    url: "https://www.miki-shoji.co.jp/"
+  - label: "CBRE Tokyo Office Market Statistics, latest"
+    url: "https://www.cbre.co.jp/en/research-and-reports"
 ---
 ## 1. Nihonbashi is a network thesis, not a parcel thesis
 
@@ -34,7 +39,7 @@ I live in the Nihonbashi area, so I watch this redevelopment story not from rese
 
 The district comprises over a dozen separate redevelopment zones orchestrated primarily by Mitsui Fudosan, each designed to connect with the others through underground passages, pedestrian decks, and riverside promenades. Evaluating any single building without its pedestrian and transport context underestimates both the upside potential and the execution risk. The thesis is that interconnected mixed-use clusters generate higher aggregate footfall, longer dwell time, and stronger rent power than isolated towers—but only if the linkages are completed and maintained.
 
-The scale is significant. The Nihonbashi 1-Chome Central District project—a 52-story flagship tower featuring offices, luxury retail, MICE facilities, the Waldorf Astoria Tokyo Nihonbashi hotel (floors 39–47), and Waldorf Astoria Residences (floors 48–51)—is scheduled for completion around March 2026, with overall project completion targeted for September 2026. This single development will add a new gravity center to the district's eastern edge, pulling foot traffic patterns away from the established COREDO Muromachi axis toward the river.
+The scale is significant. The Nihonbashi 1-Chome Central District project—a 52-story flagship tower featuring offices, luxury retail, MICE facilities, the Waldorf Astoria Tokyo Nihonbashi hotel (floors 39–47), and Waldorf Astoria Residences (floors 48–51)—is scheduled for completion around March 2026, with overall project completion targeted for September 2026.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This single development will add a new gravity center to the district's eastern edge, pulling foot traffic patterns away from the established COREDO Muromachi axis toward the river.
 
 Beyond the flagship, the Nihonbashi Honcho M-SQUARE targeted completion in November 2025, and the Nihonbashi Honcho 1-chome District 5 project broke ground in November 2025. The "Nihonbashi River Walk Area Management" organization was established in April 2025 to coordinate cohesive development across five major redevelopment zones along the Nihonbashi River—a signal that the project has moved from individual-tower execution to integrated district management.
 
@@ -50,7 +55,7 @@ What I observe on the ground: the opening of each new underground passage measur
 
 **Axis 2: Resilience — Do infrastructure upgrades improve continuity in stress events?**
 
-Tokyo's disaster-preparedness infrastructure is a real but often overlooked component of real estate value. Nihonbashi's redevelopment includes seismic base isolation across major new towers, emergency power generation for multi-day grid independence, floodwall integration along the Nihonbashi River, and designated evacuation spaces within commercial complexes.
+Tokyo's disaster-preparedness infrastructure is a real but often overlooked component of real estate value. Nihonbashi's redevelopment includes seismic base isolation across major new towers, emergency power generation for multi-day grid independence, floodwall integration along the Nihonbashi River, and designated evacuation spaces within commercial complexes.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 For office tenants, especially financial institutions and multinational headquarters, BCP (Business Continuity Planning) certification is increasingly a lease-decision factor. Buildings that can demonstrate 72-hour autonomous operation after a major seismic event command 5–10 percent rent premiums over comparable space without those certifications. As the cluster of BCP-certified buildings in Nihonbashi grows, it creates a "resilience district" network effect—companies can relocate employees between buildings within the same area with minimal disruption, which is a capability that isolated towers cannot offer.
 
@@ -73,7 +78,7 @@ What I cross-check against:
 
 - **Public planning filings.** [MLIT](https://www.mlit.go.jp/en/) publishes national land and urban policy frameworks that constrain or enable FAR bonuses, height exceptions, and public-space requirements. [Tokyo Metropolitan Government](https://www.metro.tokyo.lg.jp/english/) publishes city-level planning approvals and infrastructure commitments. These provide the regulatory envelope within which developer ambitions must operate.
 - **Actual leasing and retail behavior.** I walk the COREDO Muromachi complex regularly and note tenant turnover, vacancy signs, and foot-traffic density. Retail vacancy in completed phases is the ground truth; pre-lease announcements for future phases are forecasts.
-- **Construction progress versus disclosed schedules.** The magnitude of the Metropolitan Expressway underground relocation—targeted for the 2030s, which will eventually open riverfront views and eliminate highway noise for the entire district—is a multi-decade catalyst. But "targeted for the 2030s" means significant timeline uncertainty, and pricing that catalyst today requires explicit assumptions about delay probability and interim rent trajectories.
+- **Construction progress versus disclosed schedules.** The magnitude of the Metropolitan Expressway underground relocation—targeted for the 2030s, which will eventually open riverfront views and eliminate highway noise for the entire district—is a multi-decade catalyst. But "targeted for the 2030s" means significant timeline uncertainty, and pricing that catalyst today requires explicit assumptions about delay probability and interim rent trajectories.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 ## 4. Investment translation: from story to spreadsheet
 
@@ -85,7 +90,7 @@ For the Nihonbashi thesis to move from narrative to actionable, I translate rede
 | Rent uplift (completed vs. pre-redevelopment) | +15–25% for Grade A in-network | +5–10% if macro headwinds dominate | [MLIT rent survey](https://www.mlit.go.jp/en/), [REINS comps](https://www.reins.or.jp/) |
 | Cost overrun buffer | 10–15% above disclosed budget | 25%+ if materials/labor spike | Construction cost index (建設物価) |
 | Timeline execution | On schedule (±6 months) | 12–24 month delay | Developer IR filings, MLIT progress reports |
-| Expressway relocation catalyst | 2032–2035 partial benefit | Post-2035, limited near-term impact | Tokyo Metro Government infrastructure timeline |
+| Expressway relocation catalyst | 2032–2035 partial benefit | Post-2035, limited near-term impact | Tokyo Metro Government infrastructure timeline |<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 If these variables are not explicit in your thesis, the investment case is still at marketing level. I require at least two of the five variables to show positive evidence from observable data (not projections) before treating the theme as actionable rather than aspirational.
 

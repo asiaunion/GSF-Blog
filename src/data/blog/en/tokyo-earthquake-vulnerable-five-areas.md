@@ -14,9 +14,19 @@ tags:
 sources:
   - "https://www.bousai.metro.tokyo.lg.jp/english/"
   - "https://www.j-shis.bousai.go.jp/map/"
-references:
-  - "https://www.bousai.metro.tokyo.lg.jp/english/"
-  - "https://www.j-shis.bousai.go.jp/map/"
+  - "https://www.kensetsu.metro.tokyo.lg.jp/"
+  - "https://toshiseibi.metro.tokyo.lg.jp/bosai/mokumitu/"
+  - "https://gsfark.com/assets/sources/tokyo-chikyu-chosa-7th.pdf"
+citeSources:
+  - label: "Tokyo Metropolitan Government Disaster Portal (English)"
+    url: "https://www.bousai.metro.tokyo.lg.jp/english/"
+  - label: "J-SHIS National Seismic Hazard Map (J-SHIS Map)"
+    url: "https://www.j-shis.bousai.go.jp/map/"
+  - label: "Tokyo Bureau of Construction: Regional Earthquake Risk Survey, 7th Edition (Archive)"
+    url: "https://gsfark.com/assets/sources/tokyo-chikyu-chosa-7th.pdf"
+    archive: "/assets/sources/tokyo-chikyu-chosa-7th.pdf"
+  - label: "Tokyo Bureau of Urban Development: Wooden Densely-Built Area Fire-Risk Reduction Core Zone Map"
+    url: "https://toshiseibi.metro.tokyo.lg.jp/bosai/mokumitu/"
 ---
 **Table of Contents**
 
@@ -33,13 +43,13 @@ As everyone knows, Japan is a highly earthquake-prone country. Because of this e
 
 ## 2. About the Seismic Risk Assessment in Japan
 
-As an earthquake-prone country, Japan regularly investigates and announces regional risk levels related to earthquakes. This post introduces the findings based on the "Regional Risk Measurement Survey Regarding Earthquakes (7th Edition)" published in 2013. This survey measures hazards based on building structures such as wooden and reinforced concrete buildings, the age of the buildings, the number of floors, the total number of structures, the use of hazardous materials based on building purpose, and the current maintenance status of roads and parks.
+As an earthquake-prone country, Japan regularly investigates and announces regional risk levels related to earthquakes. This post introduces the findings based on the "Regional Risk Measurement Survey Regarding Earthquakes (7th Edition)" published in 2013.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> This survey measures hazards based on building structures such as wooden and reinforced concrete buildings, the age of the buildings, the number of floors, the total number of structures, the use of hazardous materials based on building purpose, and the current maintenance status of roads and parks.
 
 A key feature of this survey is that it does not assume a specific earthquake will happen, operating on the premise that it is unknown when or where an earthquake might occur. Needles to say, no matter how much technology advances, predicting the exact occurrence of an earthquake remains extremely difficult. Instead, the "Regional Risk Measurement Survey Regarding Earthquakes" assigns identical earthquake conditions to every region to measure relative hazard levels. In other words, by examining the details of the survey, one can understand the characteristics of the ground and buildings in a given area.
 
 The risk level ranking follows a relative evaluation method that measures how high a region ranks compared to all other regions. Therefore, even if a region's absolute safety improves, its ranking might still drop if other regions become comparatively safer.
 
-For up-to-date preparedness information, use the [Tokyo Metropolitan Government disaster portal](https://www.bousai.metro.tokyo.lg.jp/english/) and the national [J-SHIS hazard map](https://www.j-shis.bousai.go.jp/map/). This article is only a lay reading of a past survey—it is **not** an emergency guide. In a real event, follow official alerts and instructions first.
+For up-to-date preparedness information, use the [Tokyo Metropolitan Government disaster portal](https://www.bousai.metro.tokyo.lg.jp/english/) and the national [J-SHIS hazard map](https://www.j-shis.bousai.go.jp/map/).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> This article is only a lay reading of a past survey—it is **not** an emergency guide. In a real event, follow official alerts and instructions first.
 
 ## 3. Top 5 Most Vulnerable Areas to Earthquakes in Tokyo
 
@@ -56,11 +66,11 @@ Evaluated based on the risk of building collapse and the risk of fire among the 
 
 1st place is Machiya 4-chome in Arakawa Ward, 2nd is Senjuyanagi-cho in Adachi Ward, 3rd is Kyojima 3-chome in Sumida Ward, 4th is Sumida 3-chome in Sumida Ward, and finally, 5th place goes to Yanagihara 2-chome in Adachi Ward. For reference, "chome" is a geographic division similar to specific numbered streets or blocks in other countries. You can safely understand it as a single block unit.
 
-Arakawa Ward, Adachi Ward, and Sumida Ward occupy the top spots. All of these areas are located in alluvial lowlands. Because alluvial lowlands are primarily composed of sediments deposited below sea level, there is a high probability that they will amplify the shaking in the event of an earthquake.
+Arakawa Ward, Adachi Ward, and Sumida Ward occupy the top spots. All of these areas are located in alluvial lowlands. Because alluvial lowlands are primarily composed of sediments deposited below sea level, there is a high probability that they will amplify the shaking in the event of an earthquake.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 The 1st place, "Machiya 4-chome, Arakawa Ward," ranked 7th in building collapse risk and 3rd in fire risk. Since it ranked high in both overarching risk categories, it seized 1st place in overall total risk. The 2nd place, "Senjuyanagi-cho, Adachi Ward," ranked 1st in fire risk level. This is believed to be primarily due to a very high density of buildings. The 3rd place, "Kyojima 3-chome, Sumida Ward," ranked 4th in building collapse risk and 7th in fire risk, indicating highly dangerous levels in both aspects.
 
-These areas correspond to the locations marked in red on the right side of the map below. Excluding the central core of Tokyo, it can be seen that the surrounding eastern areas are relatively more vulnerable to earthquake damage. While short-term residency might be less concerning, referencing such maps is considered absolutely essential for anyone contemplating mid-to-long-term real estate investments.
+These areas correspond to the locations marked in red on the right side of the map below. Excluding the central core of Tokyo, it can be seen that the surrounding eastern areas are relatively more vulnerable to earthquake damage. While short-term residency might be less concerning, referencing such maps is considered absolutely essential for anyone contemplating mid-to-long-term real estate investments. In particular, **wooden densely-built districts (木密地域)** carry elevated fire-spread risk and are tracked separately by the Tokyo Bureau of Urban Development.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 <figure class="my-6">
   <picture>

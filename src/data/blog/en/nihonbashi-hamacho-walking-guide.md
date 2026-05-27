@@ -15,11 +15,25 @@ tags:
   - JapanRedevelopment
 sources:
   - "https://www.nihonbashi-tokyo.jp/en/"
+  - "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
   - "https://www.mitsuifudosan.co.jp/english/"
   - "https://kabuto-one.com/"
-references:
-  - "https://www.nihonbashi-tokyo.jp/en/"
-  - "https://www.mitsuifudosan.co.jp/english/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+citeSources:
+  - label: "Nihonbashi 1-Chome Central District Redevelopment Official Guide (Mitsui Fudosan)"
+    url: "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
+    portal: "https://www.mitsuifudosan.co.jp/english/"
+  - label: "Nihonbashi Area Official Portal (nihonbashi-tokyo.jp)"
+    url: "https://www.nihonbashi-tokyo.jp/en/"
+  - label: "Tokyo Kantei Metropolitan Condo 70\u33a1 Price Trend, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS Metropolitan Market Watch, 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
 ---
 While the Imperial Palace is the geometric center of Tokyo, Nihonbashi is where the city's 'dynamism' truly began. A commercial hub since the Edo period, Nihonbashi in 2026 has evolved into a unique district where heritage and an ultra-modern skyline coexist through massive redevelopment led by [Mitsui Fudosan](https://www.mitsuifudosan.co.jp/english/).
 
@@ -31,7 +45,7 @@ Walking through the glamorous Muromachi, witnessing the transformation of Japan'
 
 ## 1. Nihonbashi Muromachi: Harmony of 284m Skyline and Tradition
 
-The 'Nihonbashi 1-chome Central District Redevelopment,' completed in early 2026, is the area's new landmark — a 52-story, 284-meter tower that has fundamentally reshaped the district's skyline.
+The 'Nihonbashi 1-chome Central District Redevelopment,' completed in early 2026, is the area's new landmark — a 52-story, 284-meter tower that has fundamentally reshaped the district's skyline.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 *   **Waldorf Astoria Tokyo Nihonbashi**: Occupying floors 39-47 of the new tower, this is the brand's first Japan property. Room rates start at approximately ¥80,000/night, positioning Nihonbashi alongside Aman Tokyo and The Peninsula as a top-tier luxury hospitality destination.
 *   **COREDO Muromachi (1-3 + Terrace)**: Four interconnected buildings housing over 130 shops and restaurants. Anchored by heritage brands — Ninben (katsuobushi since 1699), Yamamotoyama (tea since 1690) — the complex demonstrates that 'modernization of tradition' is a commercially viable retail model. Average lunch: ¥1,200-2,500.
@@ -54,7 +68,7 @@ Once a stiff financial district synonymous with the Tokyo Stock Exchange (reloca
 
 *   **[KABUTO ONE](https://kabuto-one.com/)**: Completed in 2021, this mixed-use building features a 12-meter-wide LED stock ticker streaming real-time market data. The surrounding blocks now host craft beer bars, third-wave coffee shops (Blue Bottle, Glitch), and boutique hotels (K5, designed by Claesson Koivisto Rune) that rival Brooklyn or Shoreditch — with a uniquely Japanese precision.
 *   **Shibusawa Eiichi Memorial**: The father of Japanese capitalism (featured on the new ¥10,000 note) established his first bank here. Walking markers trace his journey from samurai to entrepreneur, providing tangible context for Japan's Meiji-era economic transformation.
-*   **Investment angle**: Per-tsubo residential prices in Kabutocho have risen approximately 40% since 2019, driven by the cultural repositioning. New-build condos now command ¥600,000-800,000 per sqm.
+*   **Investment angle**: Per-tsubo residential prices in Kabutocho have risen approximately 40% since 2019, driven by the cultural repositioning. New-build condos now command ¥600,000-800,000 per sqm.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ### Kabutocho practical tips
 
@@ -75,7 +89,7 @@ Moving east away from the skyscrapers, you encounter the warm, human-scaled land
 ![Nihonbashi to Hamacho Walking Route](/assets/images/blog/diagrams/en-nihonbashi-hamacho-walking-guide.webp)
 
 *   **Amazake Yokocho**: This 400-meter shopping street in Ningyocho is named after the sweet rice drink traditionally served at its entrance. Artisans make *Ningyoyaki* (¥100-200 per piece), hand-pressed rice crackers, and traditional washi paper crafts at Isetatsu (est. 1864). Most shops open 10:00-17:00; many close on Sundays.
-*   **Hamacho Park and Riverside**: Leading to the Sumida River, Hamacho is one of central Tokyo's most sophisticated residential areas. New residential towers here sell at ¥500,000-700,000 per sqm — a 25% discount to adjacent Nihonbashi, making it an under-the-radar value play for residential investors.
+*   **Hamacho Park and Riverside**: Leading to the Sumida River, Hamacho is one of central Tokyo's most sophisticated residential areas. New residential towers here sell at ¥500,000-700,000 per sqm — a 25% discount to adjacent Nihonbashi, making it an under-the-radar value play for residential investors.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 *   **Meijiza Theatre**: One of Tokyo's historic kabuki and contemporary theaters (originally 1873), recently rebuilt with a modern auditorium. Tickets from ¥4,000 for matinee performances.
 
 ### Ningyocho-Hamacho practical tips

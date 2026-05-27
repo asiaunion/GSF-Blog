@@ -15,10 +15,24 @@ tags:
   - 일본재개발
 sources:
   - "https://www.nihonbashi-tokyo.jp/"
+  - "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
   - "https://www.mitsuifudosan.co.jp/"
-  - "https://www.mlit.go.jp/"
-references:
-  - "https://www.nihonbashi-tokyo.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+citeSources:
+  - label: "니혼바시 1초메 중앙지구 재개발 공식 안내 (미쓰이 후도산)"
+    url: "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
+    portal: "https://www.mitsuifudosan.co.jp/"
+  - label: "니혼바시 안내 공식 포털 (nihonbashi-tokyo.jp)"
+    url: "https://www.nihonbashi-tokyo.jp/"
+  - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS 수도권 마켓워치, 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
 ---
 도쿄의 중심은 황거(Imperial Palace)이지만, 도쿄의 '역동성'이 시작되는 곳은 니혼바시(Nihonbashi)입니다. 에도 시대부터 상업의 중심지였던 이곳은 2026년 현재, 미쓰이 부동산의 대규모 재개발을 통해 과거의 유산과 초현대적 스카이라인이 공존하는 독보적인 구역으로 진화했습니다.
 
@@ -30,7 +44,7 @@ references:
 
 ## 1. 니혼바시 무로마치: 284m 스카이라인과 전통의 공존
 
-2026년 3월 완공된 '니혼바시 1초메 중앙지구 재개발' 빌딩(52층, 284m)은 이 지역의 새로운 랜드마크입니다.
+2026년 3월 완공된 '니혼바시 1초메 중앙지구 재개발' 빌딩(52층, 284m)은 이 지역의 새로운 랜드마크입니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 *   **월도프 아스토리아 도쿄**: 39~47층에 입주한 브랜드 최초의 일본 진출 호텔. 1박 약 ¥80,000~, 아만 도쿄·페닌슐라와 어깨를 나란히 합니다.
 *   **COREDO 무로마치 (1~3 + 테라스)**: 130개 이상의 매장을 보유한 4개 연결 빌딩. 닌벤(가다랑어포, 1699년~), 야마모토야마(차, 1690년~) 등 노포가 앵커. 평균 점심 ¥1,200~2,500.
@@ -53,7 +67,7 @@ references:
 
 *   **KABUTO ONE**: 2021년 준공, 12m 폭 LED 주식 시세 디스플레이가 파사드를 장식. 주변에 크래프트 비어 바(BrewDog), 서드웨이브 커피(블루보틀, 글리치), 부티크 호텔(K5, 북유럽 디자인)이 밀집.
 *   **시부사와 에이이치 기념관**: 새 만 엔권에 등장한 '일본 자본주의의 아버지'가 첫 은행을 이곳에 설립. 워킹 마커를 따라가며 메이지 경제 변혁의 맥락을 체감할 수 있습니다.
-*   **투자 관점**: 카부토초 주거 평당가는 2019년 대비 약 40% 상승. 신축 콘도 ¥600,000~800,000/㎡ — 문화적 재포지셔닝이 만든 프리미엄.
+*   **투자 관점**: 카부토초 주거 평당가는 2019년 대비 약 40% 상승. 신축 콘도 ¥600,000~800,000/㎡ — 문화적 재포지셔닝이 만든 프리미엄.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ### 카부토초 실전 팁
 
@@ -74,7 +88,7 @@ references:
 ![니혼바시-하마초 워킹 루트](/assets/images/blog/diagrams/ko-nihonbashi-hamacho-walking-guide.webp)
 
 *   **아마자케 요코초**: 닌교초의 400m 상점가. 닌교야키(개당 ¥100~200), 전병, 이세타쓰(1864년 창업) 와시 종이 공예품 등을 만나볼 수 있습니다. 대부분 10:00~17:00 영업, 일요일 휴무 다수.
-*   **하마초 파크·리버사이드**: 스미다강으로 이어지는 하마초는 도쿄 도심 최고의 세련된 주거 지역. 신축 타워맨션 ¥500,000~700,000/㎡ — 인접 니혼바시 대비 약 25% 할인으로 숨은 가치 투자처.
+*   **하마초 파크및리버사이드**: 스미다강으로 이어지는 하마초는 도쿄 도심 최고의 세련된 주거 지역. 신축 타워맨션 ¥500,000~700,000/㎡ — 인접 니혼바시 대비 약 25% 할인으로 숨은 가치 투자체.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 *   **메이지자**: 도쿄의 역사적 가부키·현대 극장(원래 1873년). 마티네 공연 티켓 ¥4,000~.
 
 ### 닌교초-하마초 실전 팁
