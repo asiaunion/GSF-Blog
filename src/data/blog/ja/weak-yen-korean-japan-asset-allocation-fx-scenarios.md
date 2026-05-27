@@ -12,13 +12,19 @@ tags:
   - 韓日
   - 配分
 sources:
-  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
-  - "https://www.imf.org/en/Home"
-  - "https://www.bok.or.kr/eng/"
-references:
-  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
-  - "https://www.imf.org/en/Home"
-  - "https://www.bok.or.kr/eng/"
+  - "https://www.boj.or.jp/en/statistics/dl/index.htm"
+  - "https://www.bok.or.kr/eng/main/main.do"
+  - "https://www.fsa.go.jp/en/"
+  - "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+citeSources:
+  - label: "日本銀行 統計データライブラリー"
+    url: "https://www.boj.or.jp/en/statistics/dl/index.htm"
+  - label: "韓国銀行（BOK）金融政策決定コメント"
+    url: "https://www.bok.or.kr/eng/main/main.do"
+  - label: "金融庁（FSA）金融システムモニタリング"
+    url: "https://www.fsa.go.jp/en/"
+  - label: "日本銀行 2024年12月 金融政策決定会合結果"
+    url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
 ---
 ## 1. 為替はリスク移転であり、デフォルトでアルファではありません
 
@@ -28,7 +34,7 @@ references:
 
 JPY/KRWを支配する構造的ダイナミクス：
 
-- **金利差。** 日銀は2025年初頭に0.50%へ段階的正常化中、韓国銀行は3.0～3.5%を維持。この金利差がキャリートレードメカニズムを通じて円安を支えますが、差の急縮小はシャープな円高をトリガーしえます。
+- **金利差。** 日銀は2025年初頭に0.50%へ段階的正常化中、韓国銀行は3.0～3.5%を維持。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> この金利差がキャリートレードメカニズムを通じて円安を支えますが、差の急縮小はシャープな円高をトリガーしえます。<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 - **貿易収支と資本フロー。** 日本は韓国との貿易で自動車・機械・素材分野を中心に持続的な輸出超過を維持しています。資本フローも日本に傾いており、韓国投資家の日本不動産取得が構造的に活発なフェーズにあります（[CBRE](https://www.cbre.co.jp/en/research-and-reports)・[JLL](https://www.jll.co.jp/en/research) の四半期レポートで取引動向を確認できますが、集計数値は最新リポートで検証してください）。
 - **地政学リスクプレミアム。** 韓国投資家は日本不動産を地政学ヘッジ——法治保護のある安定通貨国の実物資産——として見る傾向が強まっています。
 
@@ -89,7 +95,7 @@ BOJ正常化が段階的に進み、FRBが相対的に高い金利を維持し�
 
 遵守するルール：**3シナリオ中2つでテーゼが破綻するならポジションを縮小**——3つすべてで生存が快適になるまで。
 
-レファレンス：[BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm)金利・金融政策、[韓国銀行](https://www.bok.or.kr/eng/)KRW金利・資本フロー、[IMF](https://www.imf.org/en/Home)多国間FXフレームワーク。
+レファレンス：[BOJ統計](https://www.boj.or.jp/en/statistics/dl/index.htm)金利・金融政策、<sup class="source-ref"><a href="#source-1">1</a></sup>[韓国銀行](https://www.bok.or.kr/eng/main/main.do)KRW金利・資本フロー、<sup class="source-ref"><a href="#source-2">2</a></sup>[FSA](https://www.fsa.go.jp/en/)金融システム監視。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 <!-- content-depth-v2 -->
 
