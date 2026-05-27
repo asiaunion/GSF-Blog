@@ -12,14 +12,19 @@ tags:
   - Korea-Japan
   - Allocation
 sources:
-  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
-  - "https://www.imf.org/en/Home"
-  - "https://www.bok.or.kr/eng/"
-  - "https://www.nta.go.jp/english/"
-references:
-  - "https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm"
-  - "https://www.imf.org/en/Home"
-  - "https://www.bok.or.kr/eng/"
+  - "https://www.boj.or.jp/en/statistics/dl/index.htm"
+  - "https://www.bok.or.kr/eng/main/main.do"
+  - "https://www.fsa.go.jp/en/"
+  - "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+citeSources:
+  - label: "Bank of Japan Statistics Data Library"
+    url: "https://www.boj.or.jp/en/statistics/dl/index.htm"
+  - label: "Bank of Korea: Monetary Policy Decision"
+    url: "https://www.bok.or.kr/eng/main/main.do"
+  - label: "Financial Services Agency (FSA) Japan: Financial System Monitoring"
+    url: "https://www.fsa.go.jp/en/"
+  - label: "BOJ Monetary Policy Decision, December 2024"
+    url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
 ---
 ## 1. Treat FX as risk transfer, not alpha by default
 
@@ -29,7 +34,7 @@ The current environment is seductive. With USD/JPY having traded in the 145–16
 
 The structural dynamics underlying JPY/KRW are complex:
 
-- **Interest rate differentials.** The Bank of Japan has been gradually normalizing policy (raising rates to 0.50 percent as of early 2025), while the Bank of Korea has maintained rates in the 3.0–3.5 percent range. This differential supports yen weakness through carry-trade mechanics—but any surprise narrowing of the gap (BOJ hawkish acceleration or BOK easing) can trigger sharp yen appreciation.
+- **Interest rate differentials.** The Bank of Japan has been gradually normalizing policy (raising rates to 0.50 percent as of early 2025), while the Bank of Korea has maintained rates in the 3.0–3.5 percent range.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> This differential supports yen weakness through carry-trade mechanics—but any surprise narrowing of the gap (BOJ hawkish acceleration or BOK easing) can trigger sharp yen appreciation.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 - **Trade balance and capital flows.** Japan runs persistent merchandise trade surpluses with Korea across automotive, machinery, and materials sectors. Capital account flows—direct investment, portfolio allocation, and real estate acquisition—have tilted toward Japan, with Korean investors expanding their Japanese real estate footprint substantially in 2024 (cross-border transaction volumes tracked by [CBRE](https://www.cbre.co.jp/en/research-and-reports) and [JLL](https://www.jll.co.jp/en/research) confirm a structurally active acquisition phase, though aggregate figures should be verified against the latest reports).
 - **Geopolitical risk premium.** Korean investors increasingly view Japanese real estate as a geopolitical hedge—a hard asset denominated in a stable-currency nation with rule-of-law protections. This structural demand provides a floor under cross-border flows even when FX conditions are unfavorable.
 
@@ -96,7 +101,7 @@ I consolidate the scenarios into a single decision sheet that I update quarterly
 
 The rule I follow: if the thesis fails under two of three scenarios, reduce position size until survival is comfortable in all three. This typically means smaller individual positions with broader diversification across asset types (direct RE, J-REITs, yen cash), geographies within Japan (Tokyo core, Osaka, regional), and holding structures (personal, corporate, trust).
 
-Use [BOJ](https://www.boj.or.jp/en/about/release_2026/index.htmstatistics/dl/index.htmstatistics/dl/index.htm) for rate and monetary base context, [Bank of Korea](https://www.bok.or.kr/eng/) for KRW interest rate and capital flow data, and [IMF](https://www.imf.org/en/Home) for multilateral FX and macro frameworks. Cross-reference commercial research (CBRE, JLL, Savills Japan) for real estate-specific FX impact analysis.
+Use [BOJ statistics](https://www.boj.or.jp/en/statistics/dl/index.htm) for rate and monetary base context,<sup class="source-ref"><a href="#source-1">1</a></sup> [Bank of Korea](https://www.bok.or.kr/eng/main/main.do) for KRW interest rate and capital flow data,<sup class="source-ref"><a href="#source-2">2</a></sup> and [FSA Japan](https://www.fsa.go.jp/en/) for financial system monitoring.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Cross-reference commercial research (CBRE, JLL, Savills Japan) for real estate-specific FX impact analysis.
 
 <!-- content-depth-v2 -->
 
