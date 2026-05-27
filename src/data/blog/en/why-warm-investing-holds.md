@@ -14,9 +14,11 @@ tags:
 sources:
   - "https://www.gsfark.com/"
   - "https://www.nikkei.com/news/category/economy/"
-references:
-  - "https://www.gsfark.com/"
-  - "https://www.nikkei.com/news/category/economy/"
+citeSources:
+  - label: "GSF Official Site — Warm Investing Philosophy"
+    url: "https://www.gsfark.com/"
+  - label: "Nikkei Economy News"
+    url: "https://www.nikkei.com/news/category/economy/"
 ---
 Talking about 'warmth' at the heart of capitalism can sometimes seem naive or inefficient. There is no room for emotion in the cells of an Excel sheet, as yields and exchange rates are driven solely by cold logic.
 
@@ -80,7 +82,7 @@ The LP had no legal recourse because the clause existed. The LP did have a choic
 ### Case C: The Tenant Whose Word Was Enough
 In contrast: a residential owner in Shinjuku with a Korean tenant had a vacancy threat when the tenant lost their corporate housing allowance mid-lease. Rather than initiating immediate eviction proceedings, the owner negotiated a three-month rent reduction with full arrears recovery structured over the following year. The tenant stayed for an additional four years, referred two colleagues as tenants for adjacent units, and became an informal community liaison who kept vacancy near zero across the portfolio.
 
-The reduced rent cost the owner roughly ¥480,000 over three months. The avoided vacancy cost and referral value were approximately ¥2.4 million over four years. Warm calculation, cold outcome.
+The reduced rent cost the owner roughly ¥480,000 over three months.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> The avoided vacancy cost and referral value were approximately ¥2.4 million over four years. Warm calculation, cold outcome.
 
 ---
 

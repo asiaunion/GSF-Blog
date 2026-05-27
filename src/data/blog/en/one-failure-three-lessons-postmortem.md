@@ -15,8 +15,11 @@ tags:
 sources:
   - "https://www.nta.go.jp/index.htm"
   - "https://www.mlit.go.jp/"
-references:
-  - "https://www.nta.go.jp/index.htm"
+citeSources:
+  - label: "Japan National Tax Agency (NTA) Official Site"
+    url: "https://www.nta.go.jp/index.htm"
+  - label: "MLIT: Real Estate and Housing Policy"
+    url: "https://www.mlit.go.jp/"
 ---
 The internet is flooded with rosy success stories about earning passive income from Japanese real estate. However, at GSF, we have encountered many investors who have suffered significant financial losses due to poor structuring and insufficient due diligence.
 
@@ -29,7 +32,7 @@ Today, I examine a case study of a failed investment to highlight three critical
 Novice investors are often drawn to the phrase 'assured Rent.' Japanese management companies offer 'sublease' contracts where they take on the vacancy risk in exchange for a margin of the profit.
 
 *   **Failure Case**: Investor 'A' purchased a new-build condo with a 10-year rent guarantee. Two years later, the management company demanded a rent reduction citing "market changes," threatening to cancel the contract if the investor did not comply.
-*   **Lesson**: Japan’s **Act on Land and Building Leases** strongly protects tenants—which in this case is the management company. Even if the contract says 'fixed,' the company has a legal right to request a reduction. Conversely, the owner often needs 'justifiable grounds' or must pay a heavy penalty to terminate the lease. **A sublease is often a tool to protect the management company’s profits, not yours.**
+*   **Lesson**: Japan’s **Act on Land and Building Leases** strongly protects tenants—which in this case is the management company. Even if the contract says 'fixed,' the company has a legal right to request a reduction. Conversely, the owner often needs 'justifiable grounds' or must pay a heavy penalty to terminate the lease. **A sublease is often a tool to protect the management company’s profits, not yours.**<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 ---
 
@@ -49,7 +52,7 @@ Investment yield is not simply a calculation of the purchase price and the month
 Thinking "the Japanese tax office won't know about my overseas assets" is a dangerous arrogance.
 
 *   **Failure Case**: Investor 'C' reported rental income only in their home country and neglected to file in Japan. A few years later, the National Tax Agency (NTA) cross-referenced bank remittance records with the real estate registry. 'C' was hit with massive back taxes, penalties, and interest.
-*   **Lesson**: Japan participates in the **Common Reporting Standard (CRS)**, exchanging financial information with other countries. Even as a non-resident, you must appoint a Tax Agent (Nozei Kanrinin) and file in Japan. Tax evasion is not a 'strategy'; it is a crime that can destroy your entire investment.
+*   **Lesson**: Japan participates in the **Common Reporting Standard (CRS)**, exchanging financial information with other countries. Even as a non-resident, you must appoint a Tax Agent (Nozei Kanrinin) and file in Japan. Tax evasion is not a 'strategy'; it is a crime that can destroy your entire investment.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 ---
 

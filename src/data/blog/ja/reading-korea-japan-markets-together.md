@@ -16,8 +16,13 @@ sources:
   - "https://www.savills.com/"
   - "https://www.bok.or.kr/"
   - "https://www.boj.or.jp/"
-references:
-  - "https://www.savills.com/"
+citeSources:
+  - label: "Savills Research：2026年ソウル・東京市場見通し"
+    url: "https://www.savills.com/"
+  - label: "韓国銀行（BOK）公式サイト"
+    url: "https://www.bok.or.kr/"
+  - label: "日本銀行（BOJ）公式サイト"
+    url: "https://www.boj.or.jp/"
 ---
 東アジアの二大拠点、ソウルと東京は、しばしば「平行理論」の観点から語られます。韓国が日本の人口構造や低成長を追いかけているという「日本化（Japanification）」のナラティブは、過去10年間の韓国投資市場における最大の懸念材料でした。
 
@@ -30,7 +35,7 @@ references:
 二つの市場は現在、異なるエンジンによって駆動されています。
 
 *   **ソウル（上昇率予測 6\~7.9%、[Savills Research](https://www.savills.com/research_articles/255800/368283-0)）**: チョンセ（伝貰）価格の上昇と新築マンションの「供給の崖」が、価格の下支えとして強力に機能しています。持続的な高金利下にあっても、コアエリアへの「選別投資」が加速し、資産価値の質的なインフレが進んでいます。
-*   **東京（上昇率予測 4\~5.9%、[Savills Research](https://www.savills.com/research_articles/255800/368283-0)）**: 2025年の急騰（[東京カンテイ](https://www.kantei.ne.jp/) 23区 約+34.6% YoY）を経て、現在は一服感が出ています。しかし、円安の恩恵と他都市に比べた相対的な低金利により、グローバル投資家にとっては依然として「最も割安な世界都市」としての魅力を維持しています。
+*   **東京（上昇率予測 4\~5.9%、[Savills Research](https://www.savills.com/research_articles/255800/368283-0)）**: 2025年の急騰（[東京カンテイ](https://www.kantei.ne.jp/) 23区 約+34.6% YoY）を経て、現在は一服感が出ています。しかし、円安の恩恵と他都市に比べた相対的な低金利により、グローバル投資家にとっては依然として「最も割安な世界都市」としての魅力を維持しています。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 ---
 
@@ -55,7 +60,7 @@ references:
 
 投資家は、二つの市場を一つのダッシュボードで監視する必要があります。
 
-1.  **金利スプレッドの注視**: 韓国銀行（BOK）と日本銀行（BOJ）の金利差から、円の方向性と借入コストを予測します。
+1.  **金利スプレッドの注視**: 韓国銀行（BOK）と日本銀行（BOJ）の金利差から、円の方向性と借入コストを予測します。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 2.  **供給サイクルのクロスチェック**: ソウルの入居予定数と、東京のオフィス・マンション供給スケジュールを重ね合わせ、エントリーのタイミングを最適化します。
 3.  **通貨リバランス**: 資産の70%がウォン建てなら、残りの30%を円建て資産で埋めることで、通貨価値の下落に対する防御壁を構築します。
 

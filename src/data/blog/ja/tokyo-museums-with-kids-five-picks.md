@@ -16,8 +16,17 @@ tags:
 sources:
   - "https://www.miraikan.jst.go.jp/"
   - "https://www.teamlab.art/jp/e/borderless-azabudai/"
-references:
-  - "https://www.miraikan.jst.go.jp/"
+  - "https://www.ghibli-museum.jp/en/"
+  - "https://www.kidzania.jp/tokyo/"
+citeSources:
+  - label: "未来館公式サイト"
+    url: "https://www.miraikan.jst.go.jp/"
+  - label: "teamLab ボーダレス 麻布台ヒルズ"
+    url: "https://www.teamlab.art/jp/e/borderless-azabudai/"
+  - label: "ジブリ美術館公式（予約案内）"
+    url: "https://www.ghibli-museum.jp/en/"
+  - label: "キッザニア東京公式サイト"
+    url: "https://www.kidzania.jp/tokyo/"
 ---
 家族での東京旅行で「教育」と「楽しみ」を両立させるのは、意外と難しいものです。しかし、東京のミュージアムは単なる展示を超え、子供たちの好奇心を刺激し、未来を夢見させる「エデュテインメント（Edutainment）」の神髄を見せてくれます。
 
@@ -56,7 +65,7 @@ references:
 
 ららぽーと豊洲内にある**キッザニア**は、職業体験を通じて社会システムを学ぶ場所です。
 
-*   **職業体験**: 消防士、パイロット、パン職人など100種類以上の仕事を本格的な環境で体験し、専用通貨「キッゾ」を稼ぐことで経済の仕組みを学びます。
+*   **職業体験**: 消防士、パイロット、パン職人など100種類以上の仕事を本格的な環境で体験し、<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> 専用通貨「キッゾ」を稼ぐことで経済の仕組みを学びます。
 *   **英語プログラム**: 毎週水曜日には英語で進行されるプログラムが多く、国際的な感覚を養う機会としても活用されています。
 
 ---
@@ -66,7 +75,7 @@ references:
 三鷹の森に隠れた**ジブリ美術館**は、説明不要の名所です。
 
 *   **体験ポイント**: アニメーションが作られる過程を間近で見たり、ここでしか上映されない短編映画を鑑賞したりすることで、巨匠の想像力に触れることができます。
-*   **予約必須**: 入館は日時指定の完全予約制です。2026年現在もチケットの入手は非常に困難なため、早めの計画が必要です。
+*   **予約必須**: 入館は日時指定の完全予約制です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 2026年現在もチケットの入手は非常に困難なため、早めの計画が必要です。
 
 ---
 
