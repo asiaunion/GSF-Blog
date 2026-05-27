@@ -168,6 +168,12 @@ User commits/deploys when ready.
 
 ---
 
-## Wave B preview (do not start until A done)
+## Wave B — REIT·rates (done on `main`)
 
 `j-reit-five-things-to-know`, `hotel-reit-vs-office-reit-post-covid`, `japan-rate-hike-cycle-j-reit-three-lessons`, `tokyo-office-vacancy-five-wards-2026`
+
+---
+
+## Wave C — remaining 24 slugs (AG)
+
+See [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md).
