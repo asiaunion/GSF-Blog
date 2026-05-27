@@ -14,9 +14,18 @@ tags:
   - Non-Resident
 sources:
   - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
-  - "https://www.pwc.com/jp/en/tax-services/tax-summary.html"
-references:
-  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+  - "https://www.jetro.go.jp/en/invest/setting_up/section3/page4.html"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2879.htm"
+citeSources:
+  - label: "NTA Tax Answer: Overview of Real Property Income (Rental, Item 3211)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+  - label: "JETRO Guide: Setting Up a Business Entity in Japan"
+    url: "https://www.jetro.go.jp/en/invest/setting_up/section3/page4.html"
+  - label: "NTA: SME Corporate Tax Reduced Rate (Item 5759)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm"
+  - label: "NTA: Withholding Tax on Rent Paid to Non-Residents (Item 2879)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2879.htm"
 ---
 In Japan, real estate investment is a "Tax Game." Even if you secure a property with a high gross yield, a poor ownership structure can lead to an effective tax rate of over 50%, wiping out your cash flow.
 
@@ -28,12 +37,12 @@ For foreign investors and non-residents, the choice between **Personal Ownership
 
 Personal ownership is easy to set up but subject to Japan's steep **Progressive Tax Rates**.
 
-*   **Income Tax (Rental Income)**: Combined with other Japan-sourced income, rates range from **5% to 45%** (plus a 10% inhabitant tax for residents, totaling 55%).
+*   **Income Tax (Rental Income)**: Combined with other Japan-sourced income, rates range from **5% to 45%** (plus a 10% inhabitant tax for residents, totaling 55%).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 *   **Capital Gains Tax (The 5-Year Rule)**: This is the most critical factor for personal owners.
     *   **Short-term (Held < 5 years)**: Approx. **39%** tax on gains (30.63% for non-residents).
     *   **Long-term (Held > 5 years)**: Approx. **20%** tax on gains (15.315% for non-residents).
     *   *Note: For non-residents, the inhabitant tax portion may differ, but the federal 30% / 15% split remains the benchmark.*
-*   **Withholding Tax**: Non-residents are subject to a **20.42% withholding tax** on gross rent if the tenant is a corporation or uses the property for business. This is a cash flow burden, though it can be reconciled via a tax return.
+*   **Withholding Tax**: Non-residents are subject to a **20.42% withholding tax** on gross rent if the tenant is a corporation or uses the property for business.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> This is a cash flow burden, though it can be reconciled via a tax return.
 
 ---
 
@@ -41,7 +50,7 @@ Personal ownership is easy to set up but subject to Japan's steep **Progressive 
 
 Setting up a Japanese company (Godō Kaisha or Kabushiki Kaisha) offers a more stable tax environment for serious investors.
 
-*   **Effective Tax Rate**: For small to medium-sized corporations, the effective tax rate (including enterprise and inhabitant taxes) is generally capped around **30% to 34%** ([National Tax Agency, 2025](https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm)).
+*   **Effective Tax Rate**: For small to medium-sized corporations, the effective tax rate (including enterprise and inhabitant taxes) is generally capped around **30% to 34%**.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 *   **Loss Carryforward**: Corporations can carry forward tax losses for up to **10 years**, which is vital for offsetting initial acquisition costs and depreciation.
 *   **Expense Flexibility**: A wider range of expenses, including travel for property inspections, management fees, and even salaries for family members (under certain conditions), can be deducted.
 *   **No "5-Year Rule"**: Corporations do not have a separate "long-term" vs "short-term" capital gains rate. All gains are treated as ordinary corporate income and taxed at the effective rate, providing more flexibility for timing your exit.
@@ -61,7 +70,7 @@ The "Break-even Point" for switching to a corporate structure usually occurs whe
 **Choose Personal If:**
 *   You are buying a single small apartment for a long-term hold (10+ years).
 *   The annual rental profit is low, keeping you in the lower progressive brackets (below 20-30%).
-*   You want to avoid the annual corporate maintenance costs (approx. 70,000 JPY minimum tax + accounting fees).
+*   You want to avoid the annual corporate maintenance costs (approx. 70,000 JPY minimum tax + accounting fees).<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 **Choose Corporate If:**
 *   You plan to sell within 5 years (avoiding the 39% individual short-term tax).
