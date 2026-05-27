@@ -14,9 +14,18 @@ tags:
   - ImmigrationReform
 sources:
   - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
-  - "https://www.isa.go.jp/en/applications/procedures/nyuukokukanri07_00132.html"
-references:
-  - "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+  - "https://www.moj.go.jp/isa/content/930006301.pdf"
+  - "https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00168.html"
+  - "https://www.moj.go.jp/isa/applications/procedures/16-8.html"
+citeSources:
+  - label: "MOJ ISA: Business Manager Visa Application Guide"
+    url: "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
+  - label: "MOJ ISA: Highly Skilled Professional Point Calculation Criteria (PDF)"
+    url: "https://www.moj.go.jp/isa/content/930006301.pdf"
+  - label: "MOJ ISA: PR Requirements — Amended Residency Period Criteria"
+    url: "https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00168.html"
+  - label: "MOJ ISA: Digital Nomad Visa Guide"
+    url: "https://www.moj.go.jp/isa/applications/procedures/16-8.html"
 ---
 The image of Japan as a "Closed Country" is becoming a thing of the past. To combat a shrinking population, the Japanese government has introduced some of the most competitive immigration routes in Asia. From the 1-year Permanent Residency fast-track to the newly launched J-Find visa for elite graduates, the barrier to entry has shifted from "Can I enter?" to "Which route is the most efficient for my assets?"
 
@@ -28,7 +37,7 @@ Today, we analyze the three primary routes for investors and professionals looki
 
 This is the traditional route for those setting up a real estate management company or a startup.
 
-*   **Financial Requirement**: A minimum capital of **5 million JPY** was the old standard. In 2025, there has been increasing scrutiny on the "Business Continuity" and "Physical Office" requirements. For serious investors, a capital of **30 million JPY** is often recommended to demonstrate financial stability and secure a longer-duration visa (3 or 5 years) on the first attempt.
+*   **Financial Requirement**: A minimum capital of **5 million JPY** was the old standard. In 2025, there has been increasing scrutiny on the "Business Continuity" and "Physical Office" requirements. For serious investors, a capital of **30 million JPY** is often recommended to demonstrate financial stability and secure a longer-duration visa (3 or 5 years) on the first attempt.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 *   **Office Requirement**: A "Virtual Office" is generally not accepted. You must have a physical office space with a separate entrance and a clear business sign.
 *   **Expansion (2024 Reform)**: Foreigners can now stay for up to **2 years** without a physical office or capital if they are in the process of starting a business in certain "National Strategic Special Zones."
 
@@ -39,7 +48,7 @@ This is the traditional route for those setting up a real estate management comp
 Japan's "Point System" is one of the fastest routes to Permanent Residency (PR) in the world.
 
 *   **The 70-Point Threshold**: If you score 70 points based on your academic background, career, and income, you can apply for PR after **3 years**.
-*   **The 80-Point Fast-Track**: If you score 80 points or higher, the waiting period for PR drops to just **1 year**.
+*   **The 80-Point Fast-Track**: If you score 80 points or higher, the waiting period for PR drops to just **1 year**.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 *   **Income Requirement**: For those in the "Business Management" HSP category, a minimum annual salary of **10 million JPY** (paid by your Japanese entity) is often the baseline to secure the necessary points.
 
 ---
@@ -61,7 +70,7 @@ Japan's "Point System" is one of the fastest routes to Permanent Residency (PR) 
 
 Can you get a visa just by buying real estate? **No.** Japan does not have a direct "Golden Visa" for property purchases.
 
-However, if you establish a **Real Estate Management Company**, hire necessary staff (or outsourcing partners), and manage a portfolio that generates enough revenue to pay yourself a qualifying salary, you can secure a **Business Manager Visa**. This structure allows your investment to become the foundation for your residency.
+However, if you establish a **Real Estate Management Company**, hire necessary staff (or outsourcing partners), and manage a portfolio that generates enough revenue to pay yourself a qualifying salary, you can secure a **Business Manager Visa**. This structure allows your investment to become the foundation for your residency.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 At GSF, we help investors build the business substance required to turn a property portfolio into a legitimate visa path.
 
