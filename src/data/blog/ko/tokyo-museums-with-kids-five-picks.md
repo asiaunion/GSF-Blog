@@ -16,8 +16,17 @@ tags:
 sources:
   - "https://www.miraikan.jst.go.jp/"
   - "https://www.teamlab.art/e/borderless-azabudai/"
-references:
-  - "https://www.miraikan.jst.go.jp/"
+  - "https://www.ghibli-museum.jp/en/"
+  - "https://www.kidzania.jp/tokyo/"
+citeSources:
+  - label: "미라이칸 공식 사이트"
+    url: "https://www.miraikan.jst.go.jp/"
+  - label: "팀랩 보더리스 아자부다이 힐즈 공식 안내"
+    url: "https://www.teamlab.art/e/borderless-azabudai/"
+  - label: "지브리 미술관 공식 사이트 (예약 안내)"
+    url: "https://www.ghibli-museum.jp/en/"
+  - label: "키자니아 도쿄 공식 사이트"
+    url: "https://www.kidzania.jp/tokyo/"
 ---
 가족과 함께하는 도쿄 여행에서 '교육'과 '재미'라는 두 마리 토끼를 잡는 것은 생각보다 쉽지 않습니다. 하지만 도쿄의 뮤지엄들은 단순한 전시를 넘어, 아이들의 호기심을 자극하고 미래를 꿈꾸게 하는 '에듀테인먼트(Edutainment)'의 정수를 보여줍니다.
 
@@ -56,7 +65,7 @@ references:
 
 토요스 라라포트에 위치한 **키자니아**는 직업 체험을 통해 사회 시스템을 배우는 곳입니다.
 
-*   **직업 체험**: 소방관, 조종사, 제빵사 등 100여 가지 직업을 실제와 유사한 환경에서 체험하고 가상 화폐(키조)를 벌며 경제 관념을 익힙니다.
+*   **직업 체험**: 소방관, 조종사, 제빵사 등 100여 가지 직업을 실제와 유사한 환경에서 체험하고 가상 화폐(키조)를 벌며 경제 관념을 익힙니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 *   **영어 프로그램**: 매주 수요일은 영어로 진행되는 프로그램이 많아 국제 학교 학생이나 여행객들에게 인기가 많습니다.
 
 ---
@@ -66,7 +75,7 @@ references:
 미타카 숲에 숨겨진 **지브리 미술관**은 설명이 필요 없는 명소입니다.
 
 *   **체험 포인트**: 애니메이션이 만들어지는 과정을 직접 보고, 미술관에서만 상영되는 단편 영화를 관람하며 거장의 상상력을 엿볼 수 있습니다.
-*   **예약 필수**: 방문 1개월 전 사전 예약이 필수이며, 2026년 현재에도 티켓 구하기가 매우 어려우므로 미리 계획해야 합니다.
+*   **예약 필수**: 방문 1개월 전 사전 예약이 필수이며, 2026년 현재에도 티켓 구하기가 매우 어려우므로 미리 계획해야 합니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ---
 
