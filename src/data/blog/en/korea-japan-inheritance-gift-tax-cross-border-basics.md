@@ -15,10 +15,19 @@ tags:
 sources:
   - "https://www.nta.go.jp/english/index.htm"
   - "https://www.nts.go.kr/english/main.do"
-references:
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
+citeSources:
+  - label: "National Tax Agency (NTA) Official English Page"
+    url: "https://www.nta.go.jp/english/index.htm"
+  - label: "National Tax Service of Korea (NTS) Official English Page"
+    url: "https://www.nts.go.kr/english/main.do"
+  - label: "NTA: Inheritance Tax Calculation (Unlimited Taxpayer)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
+  - label: "NTA: Gift Tax — Gifts Within 7 Years Added to Estate"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
 ---
-For investors holding assets in both Korea and Japan, the heaviest shadow is the **Inheritance and Gift Tax**. Both nations impose some of the highest rates globally (Korea: up to 50%, Japan: up to 55%). Without a strategic plan, more than half of your hard-earned wealth can disappear in a single generation.
+For investors holding assets in both Korea and Japan, the heaviest shadow is the **Inheritance and Gift Tax**. Both nations impose some of the highest rates globally (Korea: up to 50%, Japan: up to 55%).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Without a strategic plan, more than half of your hard-earned wealth can disappear in a single generation.
 
 The most critical—and often overlooked—element is Japan's **'10-Year Rule' (Unlimited Taxpayer Status)**, which allows the Japanese tax office to reach beyond its borders. Today, we break down the core risks and planning windows for cross-border families.
 
@@ -29,8 +38,8 @@ The most critical—and often overlooked—element is Japan's **'10-Year Rule' (
 Japan determines your tax liability based on your residency status.
 
 *   **Limited Taxpayer**: Foreigners who have lived in Japan for less than 10 years (out of the last 15) on a work-related visa are generally taxed only on their **Japan-based assets**.
-*   **Unlimited Taxpayer**: If you have lived in Japan for more than **10 years**, or if you hold a Permanent Resident/Spouse visa, you are subject to tax on your **worldwide assets**. This means an apartment in Seoul or a bank account in the US is taxable in Japan.
-*   **The 7-Year Clawback**: As of 2024, Japan has strengthened its rules to include gifts made within **7 years** prior to death back into the taxable estate (up from 3 years).
+*   **Unlimited Taxpayer**: If you have lived in Japan for more than **10 years**, or if you hold a Permanent Resident/Spouse visa, you are subject to tax on your **worldwide assets**. This means an apartment in Seoul or a bank account in the US is taxable in Japan.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+*   **The 7-Year Clawback**: As of 2024, Japan has strengthened its rules to include gifts made within **7 years** prior to death back into the taxable estate (up from 3 years).<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 ---
 
