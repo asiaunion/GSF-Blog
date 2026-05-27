@@ -13,10 +13,17 @@ tags:
   - J-REIT
   - MonetaryPolicy
 sources:
-  - "https://www.boj.or.jp/en/"
-  - "https://www.reins.or.jp/"
-references:
-  - "https://www.boj.or.jp/en/"
+  - "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+citeSources:
+  - label: "BOJ Monetary Policy Decision, December 2024"
+    url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+  - label: "REINS Market Watch April 2026 [Archive]"
+    url: "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "REINS Market Watch April 2026 (original PDF)"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 The returns on Japanese real estate investment are determined by two main gears. One is the value of the asset itself—**'Rental Income and Capital Gains'**—and the other is the **'Exchange Rate'**, which serves as the path for liquidation. Even if you achieve a 20% return within Japan, if the value of the Yen has dropped by 20% at the time of remittance, your return in foreign currency becomes zero.
 
@@ -37,8 +44,8 @@ Exchange rates are notoriously difficult even for experts to predict. A simple a
 
 Many investors say, "Now is the chance because the Yen is cheap." However, the backdrop of Yen weakness is the interest rate gap between Japan and other major economies. If the Bank of Japan (BOJ) starts raising rates, the Yen will likely strengthen, but property mortgage rates will also rise.
 
-*   **Check the Yield Spread**: If the gap between (Property Yield - Loan Interest Rate) narrows, asset prices face downward pressure. You might enter for the FX gain but get hit by the larger wave of declining asset values (Cap Rate expansion).
-*   **Focus on Prime Assets**: During rate hike cycles, properties in poor locations see their prices drop first. Only high-quality assets, like those in Tokyo’s 5 central wards (Chiyoda, Chuo, Minato, Shinjuku, Shibuya), where rent increases can be passed on to tenants, can withstand the waves of rising interest rates.
+*   **Check the Yield Spread**: If the gap between (Property Yield - Loan Interest Rate) narrows, asset prices face downward pressure. You might enter for the FX gain but get hit by the larger wave of declining asset values (Cap Rate expansion).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+*   **Focus on Prime Assets**: During rate hike cycles, properties in poor locations see their prices drop first. Only high-quality assets, like those in Tokyo's 5 central wards (Chiyoda, Chuo, Minato, Shinjuku, Shibuya), where rent increases can be passed on to tenants, can withstand the waves of rising interest rates.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 ---
 
