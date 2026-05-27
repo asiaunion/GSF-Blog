@@ -15,11 +15,23 @@ tags:
   - Investment
   - Neighborhood Guide
 sources:
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
-references:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
+  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.lifull.com/homes/chintai/tokyo/"
+  - "https://suumo.jp/chintai/tokyo/"
+citeSources:
+  - label: "Tokyo Metropolitan Population Estimates (Resident Registry), 2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "NTA Private Sector Wage Survey, 2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "LIFULL HOME'S Tokyo Rental Market Data"
+    url: "https://www.lifull.com/homes/chintai/tokyo/"
+  - label: "SUUMO Tokyo Rental Market Price Data"
+    url: "https://suumo.jp/chintai/tokyo/"
 ---
 If you're thinking about relocating to Tokyo — or considering it as a real estate investment destination — there's one question you'll inevitably face.
 
@@ -106,7 +118,7 @@ The infographic and table below map each ward cluster's rough positioning. The h
 | Tama Culture | Kokubunji · Kunitachi · Fuchu · Tachikawa | 400,000–600,000 JPY (¥400K–¥600K) | University town, Tachikawa redevelopment |
 | Tama Outer | Hachioji · Machida · Tama, etc. | 250,000–450,000 JPY (¥250K–¥450K) | Wide lots, 30–50% below central Tokyo |
 
-> **Note**: Figures above are approximate 2025–2026 ranges. Variance by station proximity, building age, floor, and unit size is significant. Each episode provides more precise data.
+> **Note**: Figures above are approximate 2025–2026 ranges. Variance by station proximity, building age, floor, and unit size is significant. Each episode provides more precise data.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ---
 

@@ -17,9 +17,25 @@ tags:
   - 移住
   - 投資
 sources:
+  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
+  - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+citeSources:
+  - label: "国税庁 民間給与実態統計，2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "東京都 人口推計（住民基本台帳），2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "新宿区役所 外国人住民現況，2024"
+    url: "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
+  - label: "東京カンテイ 首都圈中古マンション70㎡価格動向，2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
 ---
 六本木や麻布が「外国人の東京」だとすれば、新宿と渋谷は「東京人の東京」です。初めて両区を比較したとき、私はそう整理しました。同じ価格帯でも、暮らし方はまったく異なります。どちらが合うかは、データではなくあなた自身のライフスタイルが決めることです。
 
@@ -81,13 +97,13 @@ sources:
 
 | 項目 | 数値 |
 |------|------|
-| 総人口 | 約353,000人（2025年1月時点） |
+| 総人口 | 約353,000人（2025年1月時点）<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 | 人口密度 | 約19,400人/㎢ |
 | 最近のトレンド | 外国人住民の増加傾向 |
 
 ### 外国人比率
 
-新宿区の外国人住民比率は**約12.6%**で、東京23区の中で最高水準です（2024年1月時点、新宿区公式データ）。中国系・韓国系の比率が高く、新大久保を中心に多国籍コミュニティが形成されています。
+新宿区の外国人住民比率は**約12.6%**で、東京23区の中で最高水準です（2024年1月時点、新宿区公式データ）。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>中国系・韓国系の比率が高く、新大久保を中心に多国籍コミュニティが形成されています。
 
 ### おすすめターゲット
 
@@ -141,7 +157,7 @@ sources:
 
 ### 平均世帯所得
 
-渋谷区の納税者1人あたりの平均課税所得は**約1,070万円**で、東京23区の中で最上位圏に位置します（総務省課税所得統計基準、2023年）。クリエイティブ業界の高所得者層とITスタートアップ幹部が、区の所得水準を牽引しています。
+渋谷区の納税者1人あたりの平均課税所得は**約1,070万円**で、東京23区の中で最上位圏に位置します（総務省課税所得統計基準、2023年）。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>クリエイティブ業界の高所得者層とITスタートアップ幹部が、区の所得水準を牽引しています。
 
 ### 人口
 
@@ -206,7 +222,7 @@ sources:
 
 ### 平均世帯所得
 
-文京区の納税者平均課税所得は**約700万円**です。大学教員・医療専門職・研究職の割合が高く、安定した所得分布が特徴です。
+文京区の納税者平均課税所得は**約700万円**です。<sup class="source-ref"><a href="#source-1">1</a></sup>大学教員・医療専門職・研究職の割合が高く、安定した所得分布が特徴です。
 
 ### 人口
 

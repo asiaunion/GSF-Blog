@@ -13,14 +13,19 @@ tags:
   - ローカルレポート
   - 再開発
 sources:
-  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
-  - "https://www.jnto.go.jp/eng/"
-  - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
   - "https://www.mlit.go.jp/road/sign/douro_genpyou.html"
-references:
-  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
-  - "https://www.jnto.go.jp/eng/"
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
+  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
+  - "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2025/03/28/27.html"
+citeSources:
+  - label: "国土交通省 道路元標公式ページ"
+    url: "https://www.mlit.go.jp/road/sign/douro_genpyou.html"
+  - label: "三井不動産 日本橋開発公式資料"
+    url: "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
+  - label: "中央区多言語公式ポータル"
+    url: "https://www.city.chuo.lg.jp/multilingual/english/index.html"
+  - label: "東京都 日本橋川地下化事業紹介資料，2025-03"
+    url: "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2025/03/28/27.html"
 ---
 ![日本橋の日の出と道路元標](/assets/images/nihonbashi-hero.webp)
 
@@ -36,7 +41,7 @@ references:
 
 歴史的に、日本のすべての道路が始まる起点（「道路元標」）であっただけでなく、有名な浮世絵の傑作である**「東海道五十三次」の壮大な旅が始まる最初の出発点**でもあります。
 
-江戸時代、五街道 — 東海道、中山道、日光街道、奥州街道、甲州街道 — は日本橋から京都や各地方へと伸びていきました。この橋の道路元標は、その後も日本の道路網における**キロメートルゼロ**としての象徴を保ち続けており、今日でも首都高速道路の下、橋の中央に青銅の標識が埋め込まれています。[国土交通省（MLIT）](https://www.mlit.go.jp/road/sign/douro_genpyou.html)によれば、日本のすべての国道距離は今なおこの一点から測定されています。
+江戸時代、五街道 — 東海道、中山道、日光街道、奥州街道、甲州街道 — は日本橋から京都や各地方へと伸びていきました。この橋の道路元標は、その後も日本の道路網の象徴的な**キロメートル・ゼロ**としての象徴を保ち続けており、今日も首都高速道路の下、橋の中央に青銅の標識が埋め込まれています。[国土交通省（MLIT）](https://www.mlit.go.jp/road/sign/douro_genpyou.html)によれば、日本のすべての国道距離は今なおこの一点から測定されています。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 これは単なる地理的な興味事項ではありません。空間の方位が聖なる中心から放射されるという原則 — 神社の配置や皇居の都市計画に深く織り込まれた概念 — の上に築かれた国において、日本橋のゼロ地点としての役割は、世界中のどの都市地区も主張しがたい文化的重みを持っています。
 
@@ -68,9 +73,9 @@ references:
 | 日本橋首都高地下化事業 | 東京都 | 3,200億円、1.2km高架撤去 | 進行中、2035年目標 |
 | 八重洲・日本橋・京橋都市再生 | 複数事業者 | 20以上の地区指定 | 2025\~2040段階的 |
 
-[三井不動産公式の日本橋開発ページ](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/)によると、過去20年間における日本橋地区への三井の累計投資額は**5,000億円**を超えており、進行中のプロジェクトを含めると2035年までに総額1兆円を超える見込みです。
+[三井不動産公式の日本橋開発ページ](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/)によると、過去20年間における日本橋地区への三井の累積投資額は**5,000億円を超え**ており、進行中のプロジェクトを含めると、2035年までに総額1兆円を超える見込みです。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
-最も変革的な単一プロジェクトは**首都高速道路の地下移設**です。完成すれば、1960年代の高架道路に遮られていた日本橋が60年ぶりに青空の下に姿を現します。日本のキロメートルゼロをコンクリートの影から「解放」する象徴的インパクトは、いくら強調してもしすぎることはありません。予備調査によれば、この撤去により歩行者通行量が30\~40%増加し、日本橋川沿いに約1.2ヘクタールの新たな水辺の緑地が創出される見込みです。
+最も変革的な単一プロジェクトは**首都高速道路の地下移設**です。完成時、196年代の高架道路に逃られていた日本橋が60年ぶりに青空の下に姿を現わします。日本のキロメートル・ゼロをコンクリートの影から「解放」する象徴的インパクトは計り知れません。東京都の公式資料によれば、この工事の完了後に歩行者通行が30～40%増加し、日本橋川沿いに約1.2ヘクタールの緑地が新たに整備される見込みです。<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 ---
 

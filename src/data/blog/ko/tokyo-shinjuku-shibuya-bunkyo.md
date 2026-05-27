@@ -17,10 +17,25 @@ tags:
   - 이주
   - 투자
 sources:
+  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
-  - "https://www.mlit.go.jp/"
+  - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+citeSources:
+  - label: "국세청 민간급여실태통계, 2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "도쿄도 인구추계 (주민기본대장), 2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "신주쿠구청 외국인 주민 현황, 2024"
+    url: "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
+  - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
 ---
 롯폰기나 아자부가 '외국인의 도쿄'라면, 신주쿠와 시부야는 '도쿄인의 도쿄'입니다. 저는 두 구를 처음 비교했을 때 이렇게 정리했습니다. 같은 가격대, 완전히 다른 삶. 어느 쪽이 맞는가는 데이터가 아니라 당신의 라이프스타일이 결정합니다.
 
@@ -82,13 +97,13 @@ sources:
 
 | 항목 | 수치 |
 |------|------|
-| 총인구 | 약 353,000명 (2025년 1월 기준) |
+| 총인구 | 약 353,000명 (2025년 1월 기준)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 | 인구 밀도 | 약 19,400명/㎢ |
 | 최근 트렌드 | 외국인 주민 증가 추세 |
 
 ### 외국인 비율
 
-신주쿠구의 외국인 주민 비율은 **약 12~13%** 로 도쿄 23구에서 가장 높은 수준입니다. 중국계·한국계 비율이 높으며, 신오쿠보를 중심으로 다국적 커뮤니티가 형성되어 있습니다.
+신주쿠구의 외국인 주민 비율은 **약 12~13%** 로 도쿄 23구에서 가장 높은 수준입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 중국계·한국계 비율이 높으며, 신오쿠보를 중심으로 다국적 커뮤니티가 형성되어 있습니다.
 
 ### 추천 타깃
 
@@ -142,7 +157,7 @@ sources:
 
 ### 평균 세대 소득
 
-시부야구 납세자 과세소득 기반 평균 연수입은 **약 1,070만엔** 으로 도쿄 23구 중 최상위권입니다 (총무성 과세소득 통계 기준, 2023년). 크리에이티브 업계 고소득층과 IT 스타트업 임직원이 구의 소득 수준을 견인합니다.
+시부야구 납세자 과세소득 기반 평균 연수입은 **약 1,070만엔** 으로 도쿄 23구 중 최상위권입니다 (총무성 과세소득 통계 기준, 2023년).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 크리에이티브 업계 고소득층과 IT 스타트업 임직원이 구의 소득 수준을 견인합니다.
 
 ### 인구수
 
@@ -207,7 +222,7 @@ sources:
 
 ### 평균 세대 소득
 
-분쿄구 납세자 평균 연수입은 **약 700만엔** 입니다. 대학 교원, 의료계 전문직, 연구직의 비율이 높아 소득 분포가 안정적입니다.
+분쿄구 납세자 평균 연수입은 **약 700만엔** 입니다.<sup class="source-ref"><a href="#source-1">1</a></sup> 대학 교원, 의료계 전문직, 연구직의 비율이 높아 소득 분포가 안정적입니다.
 
 ### 인구수
 

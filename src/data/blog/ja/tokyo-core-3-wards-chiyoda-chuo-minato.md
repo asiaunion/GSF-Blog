@@ -17,13 +17,30 @@ tags:
   - 移住
   - 投資
 sources:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-references:
+  - "https://www.nta.go.jp/"
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://suumo.jp/"
+  - "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
+citeSources:
+  - label: "東京カンテイ 首都圈中古マンション70㎡価格動向，2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS 首都圈マーケットウォッチ，2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "国税庁 民間給与実態統計，2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "東京都 人口推計（住民基本台帳），2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "国土交通省 新築マンション 海外住所購入者調査，2025-11"
+    url: "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
 ---
 「都心3区ならどこも似たようなものでしょう？」— そう聞かれるたびに、私は首を横に振ります。**千代田・中央・港は、同じカテゴリーではありません。** 「都心」という共通ラベルの下に、まったく異なる性格、異なる需要構造、異なる投資ロジックが存在しています。区ごとのデータで確認していきましょう。
 
@@ -55,12 +72,12 @@ references:
 
 ### マンション平均売買相場
 
-| エリア | ㎡単価（2025〜2026） | 坪単価換算 |
+| エリア | ㎡単価（2025、2026） | 坪単価換算 |
 |-------|-------------------|-----------|
 | 丸の内・大手町周辺 | 190〜250万円/㎡ | 630〜830万円/坪 |
 | 千代田・日比谷周辺 | 160〜210万円/㎡ | 530〜700万円/坪 |
 | 秋葉原・神田周辺 | 110〜150万円/㎡ | 365〜500万円/坪 |
-| **区全体平均** | **約150万円/㎡** | **約500万円/坪** |
+| **区全体平均** | **約150万円/㎡** | **約500万円/坪** |<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 千代田区のマンション供給量は絶対的に少ない状況が続いています。新築分譲物件が出るたびに数ヶ月以内に完売するのが通例で、中古物件もリスティング後すぐに消化されます。
 
@@ -78,13 +95,13 @@ references:
 
 ### 平均世帯所得
 
-千代田区の納税者平均年収は**約950万円**水準で、東京23区平均（約450〜500万円）のほぼ2倍です。居住人口ベースの統計であるため、昼間の就業者所得はこれをさらに上回ります。
+千代田区の納税者平均年収は**約950万円**水準で、東京23区平均（約450〜500万円）のほぼ2倍です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 居住人口ベースの統計であるため、昼間の就業者所得はこれをさらに上回ります。
 
 ### 人口
 
 | 項目 | 数値 |
 |------|------|
-| 総人口 | 約67,000人（23区中最少） |
+| 総人口 | 約67,000人（23区中最少）<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | 人口密度 | 約4,100人/km²（23区中最低水準） |
 | 昼間流入人口 | 80万人以上 |
 | 最近のトレンド | 再開発に伴う居住用マンション増加で人口は緩やかに増加中 |
@@ -143,7 +160,7 @@ references:
 
 ### 平均世帯所得
 
-中央区の納税者平均年収は**約730万円**で、東京平均を大きく上回ります。銀座・日本橋の商業従事者と、金融・貿易業中心の駐在員の割合が高い構成です。
+中央区の納税者平均年収は**約730万円**で、東京平均を大きく上回ります。<sup class="source-ref"><a href="#source-3">3</a></sup> 銀座・日本橋の商業従事者と、金融・貿易業中心の駐在員の割合が高い構成です。
 
 ### 人口
 
@@ -210,7 +227,7 @@ references:
 
 ### 平均世帯所得
 
-港区の納税者平均年収は**約1,200万円以上**で、東京23区の中で第1位です。高収入の金融専門職、外資系企業役員、外交官が多数居住しています。
+港区の納税者平均年収は**約1,200万円以上**で、東京23区の中で第1位です。<sup class="source-ref"><a href="#source-3">3</a></sup> 高収入の金融専門職、外資系企業役員、外交官が多数居住しています。
 
 ### 人口
 
@@ -222,7 +239,7 @@ references:
 
 ### 外国人比率
 
-港区の外国人居住者比率は**約11〜12%**で、23区中最高水準です。英語・中国語で生活できる環境が整っており、外国人専門の不動産仲介サービスも充実しています。韓国人コミュニティは赤坂・六本木を中心に形成されています。
+港区の外国人居住者比率は**約11〜12%**で、23区中最高水準です。<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> 英語・中国語で生活できる環境が整っており、外国人専門の不動産仲介サービスも充実しています。韓国人コミュニティは赤坂・六本木を中心に形成されています。
 
 ### おすすめの対象者
 

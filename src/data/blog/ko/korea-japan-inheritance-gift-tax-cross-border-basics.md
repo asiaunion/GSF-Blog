@@ -15,10 +15,19 @@ tags:
 sources:
   - "https://www.nta.go.jp/english/index.htm"
   - "https://www.nts.go.kr/english/main.do"
-references:
-  - "https://www.nta.go.jp/english/index.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
+citeSources:
+  - label: "일본 국세청(NTA) 영문 공식 홈페이지"
+    url: "https://www.nta.go.jp/english/index.htm"
+  - label: "한국 국세청(NTS) 영문 공식 홈페이지"
+    url: "https://www.nts.go.kr/english/main.do"
+  - label: "NTA: 상속세의 산출 방법(무제한 납세의무자)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
+  - label: "NTA: 증여세 산출 방법(조기증여의 상속세 합산)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
 ---
-일본에 부동산을 소유하고 있거나, 사업 비자를 받아 일본에 거주하려는 투자자들에게 가장 무거운 그림자는 **'상속·증여세'**입니다. 한국과 일본은 전 세계적으로 상속세율이 가장 높은 국가들(최고세율 한국 50%, 일본 55%)에 해당하며, 두 국가의 법망이 겹치는 지점에서 적절한 대응이 없다면 자산의 절반 이상이 세금으로 사라질 수 있습니다.
+일본에 부동산을 소유하고 있거나, 사업 비자를 받아 일본에 거주하려는 투자자들에게 가장 무거운 그림자는 **'상속·증여세'**입니다. 한국과 일본은 전 세계적으로 상속세율이 가장 높은 국가들(최고세율 한국 50%, 일본 55%)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>에 해당하며, 두 국가의 법망이 겹치는 지점에서 적절한 대응이 없다면 자산의 절반 이상이 세금으로 사라질 수 있습니다.
 
 특히 일본의 **'10년 규칙(무제한 납세의무)'**은 해외에 있는 자산까지 일본 세무당국이 추적할 수 있게 만드는 강력한 독소 조항입니다. 이 글은 **한일 상속·증여세 무한책임의 함정**, **10년의 규칙**, 그리고 실무에서 검토하는 **절세 시나리오**를 한 흐름으로 정리합니다.
 
@@ -29,8 +38,8 @@ references:
 일본은 거주자의 상태에 따라 과세 범위를 결정합니다. 여기서 가장 주의해야 할 개념이 '무제한 납세의무자'입니다.
 
 *   **제한적 납세의무자**: 일본에 거주한 지 10년이 되지 않은 외국인(취업 비자 등)은 일본 내에 있는 자산에 대해서만 상속·증여세를 냅니다.
-*   **무제한 납세의무자**: 일본에 10년 이상 거주(과거 15년 중 합산 10년)하거나 영주권·배우자 비자를 가진 경우, **전 세계에 있는 모든 자산**이 일본 상속·증여세의 대상이 됩니다. 한국에 남겨둔 아파트나 예금도 일본에 세금을 내야 한다는 뜻입니다.
-*   **7년 제척기간(Clawback)**: 2024년부터 일본은 사망 전 **7년 이내**에 행해진 증여를 상속 자산에 합산하여 과세합니다. (기존 3년에서 대폭 강화)
+*   **무제한 납세의무자**: 일본에 10년 이상 거주(과거 15년 중 합산 10년)하거나 영주권·배우자 비자를 가진 경우, **전 세계에 있는 모든 자산**이 일본 상속·증여세의 대상이 됩니다. 한국에 남겨둔 아파트나 예금도 일본에 세금을 내야 한다는 뜻입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+*   **7년 제척기간(Clawback)**: 2024년부터 일본은 사망 전 **7년 이내**에 행해진 증여를 상속 자산에 합산하여 과세합니다. (기존 3년에서 대폭 강화)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 ---
 

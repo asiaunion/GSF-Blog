@@ -13,14 +13,19 @@ tags:
   - Local report
   - Redevelopment
 sources:
-  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
-  - "https://www.jnto.go.jp/eng/"
-  - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
   - "https://www.mlit.go.jp/road/sign/douro_genpyou.html"
-references:
-  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
-  - "https://www.jnto.go.jp/eng/"
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
+  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
+  - "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2025/03/28/27.html"
+citeSources:
+  - label: "MLIT Official Road Kilometre Zero (Douro Genpyo) Page"
+    url: "https://www.mlit.go.jp/road/sign/douro_genpyou.html"
+  - label: "Mitsui Fudosan Nihonbashi Development Official Materials"
+    url: "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
+  - label: "Chuo City Multilingual Official Portal"
+    url: "https://www.city.chuo.lg.jp/multilingual/english/index.html"
+  - label: "Tokyo Metropolitan Government Nihonbashi River Underground Project, 2025-03"
+    url: "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2025/03/28/27.html"
 ---
 ![Nihonbashi Sunrise and Kilometre Zero Monument](/assets/images/nihonbashi-hero.webp)
 
@@ -36,7 +41,7 @@ For me, Nihonbashi is not merely a famous local landmark. I want to highlight th
 
 Just as it has historically been the point from which all roads in Japan begin (the 'Kilometre Zero' monument), it is also the first departure point for the magnificent journey of the famous Ukiyo-e masterpiece, **'The Fifty-Three Stations of the Tōkaidō'**.
 
-In the Edo period, the five great highways — the Tōkaidō, Nakasendō, Nikkō Kaidō, Ōshū Kaidō, and Kōshū Kaidō — radiated from Nihonbashi toward Kyoto and other regions. The bridge monument has remained the symbolic **kilometre zero** for Japan's road network ever since, and today the bronze marker is still embedded at the bridge's center under the Metropolitan Expressway overhead. According to the [Ministry of Land, Infrastructure, Transport and Tourism (MLIT)](https://www.mlit.go.jp/road/sign/douro_genpyou.html), all national route distances in Japan are still measured from this single point.
+In the Edo period, the five great highways — the Tōkaidō, Nakasendō, Nikkō Kaidō, Ōshū Kaidō, and Kōshū Kaidō — radiated from Nihonbashi toward Kyoto and other regions. The bridge monument has remained the symbolic **kilometre zero** for Japan's road network ever since, and today the bronze marker is still embedded at the bridge's center under the Metropolitan Expressway overhead. According to the [Ministry of Land, Infrastructure, Transport and Tourism (MLIT)](https://www.mlit.go.jp/road/sign/douro_genpyou.html), all national route distances in Japan are still measured from this single point.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 This is not merely a geographic curiosity. In a country built on the principle that spatial orientation radiates from a sacred center — a concept deeply woven into Shinto shrine placement and imperial city planning — Nihonbashi's role as the literal zero point carries cultural weight that few urban districts anywhere in the world can claim.
 
@@ -68,9 +73,9 @@ Today, Nihonbashi does not linger only in the past. This area is the core crucib
 | Nihonbashi Expressway Underground Project | Tokyo Metropolitan Gov. | ¥320B, 1.2km of elevated expressway removal | In progress, target 2035 |
 | Yaesu-Nihonbashi-Kyobashi Urban Renaissance | Multiple | Over 20 sites designated for renewal | 2025–2040 phased |
 
-According to [Mitsui Fudosan's official Nihonbashi development page](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/), the company's cumulative investment in the Nihonbashi district has exceeded **¥500 billion** over the past two decades, with ongoing projects expected to bring the total beyond the ¥1 trillion mark by 2035.
+According to [Mitsui Fudosan's official Nihonbashi development page](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/), the company's cumulative investment in the Nihonbashi district has exceeded **¥500 billion** over the past two decades, with ongoing projects expected to bring the total beyond the ¥1 trillion mark by 2035.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
-The single most transformative project is the **Metropolitan Expressway underground relocation**. When complete, the Nihonbashi Bridge — currently shadowed by the 1960s-era elevated highway — will be exposed to open sky for the first time in over 60 years. The symbolic impact of "liberating" Japan's kilometre zero from concrete overhead cannot be overstated. Preliminary studies suggest the removal will increase pedestrian traffic by 30–40% and create approximately 1.2 hectares of new waterfront green space along the Nihonbashi River.
+The single most transformative project is the **Metropolitan Expressway underground relocation**. When complete, the Nihonbashi Bridge — currently shadowed by the 1960s-era elevated highway — will be exposed to open sky for the first time in over 60 years. The symbolic impact of "liberating" Japan's kilometre zero from concrete overhead cannot be overstated. Preliminary studies suggest the removal will increase pedestrian traffic by 30–40% and create approximately 1.2 hectares of new waterfront green space along the Nihonbashi River.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 ---
 

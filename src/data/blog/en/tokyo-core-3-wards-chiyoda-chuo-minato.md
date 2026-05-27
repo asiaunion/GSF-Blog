@@ -17,13 +17,30 @@ tags:
   - relocation
   - investment
 sources:
-  - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-references:
+  - "https://www.nta.go.jp/"
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://suumo.jp/"
+  - "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
+citeSources:
+  - label: "Tokyo Kantei Metropolitan Condo 70㎡ Price Trend, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS Metropolitan Market Watch, 2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "NTA Private Sector Wage Survey, 2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "Tokyo Metropolitan Population Estimates (Resident Registry), 2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "MLIT Survey on Foreign-Address Buyers of New Tokyo Condos, 2025-11"
+    url: "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
 ---
 "Aren't the three core wards basically the same?" — I get that question often. My answer is always the same: no. **Chiyoda, Chuo, and Minato are not interchangeable.** Under the same "central Tokyo" label, they carry completely different characters, different demand profiles, and different investment logic. Let me break them down ward by ward.
 
@@ -57,10 +74,10 @@ As a residential ward, Chiyoda occupies a unique position. It has the **smallest
 
 | Sub-area | Price per ㎡ (2025–2026) | Per tsubo (坪) equivalent |
 |---------|------------------------|--------------------------|
-| Marunouchi / Otemachi vicinity | ¥1.9M–2.5M/㎡ | ¥6.3M–8.3M/坪 |
-| Chiyoda / Hibiya vicinity | ¥1.6M–2.1M/㎡ | ¥5.3M–7.0M/坪 |
-| Akihabara / Kanda vicinity | ¥1.1M–1.5M/㎡ | ¥3.65M–5.0M/坪 |
-| **Ward average** | **approx. ¥1.5M/㎡** | **approx. ¥5.0M/坪** |
+| Marunouchi / Otemachi vicinity | ¥1.9M–¥2.5M/㎡ | ¥6.3M–¥8.3M/坪 |
+| Chiyoda / Hibiya vicinity | ¥1.6M–¥2.1M/㎡ | ¥5.3M–¥7.0M/坪 |
+| Akihabara / Kanda vicinity | ¥1.1M–¥1.5M/㎡ | ¥3.65M–¥5.0M/坪 |
+| **Ward average** | **approx. ¥1.5M/㎡** | **approx. ¥5.0M/坪** |<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 New supply in Chiyoda is extremely limited. New units sell out within months of listing. Secondary market properties are absorbed just as quickly.
 
@@ -78,13 +95,13 @@ The Bancho (番町) district is one of Tokyo's most storied upscale residential 
 
 ### Average Household Income
 
-Chiyoda's average declared income per taxpayer is approximately **¥9.5 million** — roughly double the Tokyo 23-ward average of ¥4.5M–5.0M. Given that this is based on resident population, the actual income level of those who work here during the day is significantly higher.
+Chiyoda's average declared income per taxpayer is approximately **¥9.5 million** — roughly double the Tokyo 23-ward average of ¥4.5M–5.0M.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Given that this is based on resident population, the actual income level of those who work here during the day is significantly higher.
 
 ### Population
 
 | Metric | Figure |
 |--------|--------|
-| Total population | approx. 67,000 (lowest of 23 wards) |
+| Total population | approx. 67,000 (lowest of 23 wards)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | Population density | approx. 4,100/km² (among the lowest) |
 | Daytime population | 800,000+ |
 | Trend | Gradual population growth driven by new residential development |
@@ -143,7 +160,7 @@ High-floor tower units near Ginza and Tsukiji regularly exceed ¥1M/month.
 
 ### Average Household Income
 
-Chuo's average declared income per taxpayer is approximately **¥7.3 million** — well above the Tokyo average. The resident base skews toward Ginza and Nihonbashi commercial workers, and finance/trade sector assignees.
+Chuo's average declared income per taxpayer is approximately **¥7.3 million** — well above the Tokyo average.<sup class="source-ref"><a href="#source-3">3</a></sup> The resident base skews toward Ginza and Nihonbashi commercial workers, and finance/trade sector assignees.
 
 ### Population
 
@@ -210,7 +227,7 @@ Since the opening of Azabudai Hills (2023), prices in the surrounding luxury seg
 
 ### Average Household Income
 
-Minato's average declared income per taxpayer exceeds **¥12 million** — ranking #1 among all 23 wards. High-earning finance professionals, foreign corporate executives, and diplomatic staff make up a significant portion of the residential base.
+Minato's average declared income per taxpayer exceeds **¥12 million** — ranking #1 among all 23 wards.<sup class="source-ref"><a href="#source-3">3</a></sup> High-earning finance professionals, foreign corporate executives, and diplomatic staff make up a significant portion of the residential base.
 
 ### Population
 
@@ -222,7 +239,7 @@ Minato's average declared income per taxpayer exceeds **¥12 million** — ranki
 
 ### Foreign Resident Ratio
 
-Minato's foreign resident ratio is approximately **11–12%** — the highest in all 23 wards. English and Chinese are widely usable for daily life. Foreigner-specialized real estate agencies are plentiful. The Korean community is centered around Akasaka and Roppongi.
+Minato's foreign resident ratio is approximately **11–12%** — the highest in all 23 wards.<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> English and Chinese are widely usable for daily life. Foreigner-specialized real estate agencies are plentiful. The Korean community is centered around Akasaka and Roppongi.
 
 ### Who Should Consider Minato
 

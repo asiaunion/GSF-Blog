@@ -13,14 +13,19 @@ tags:
   - 로컬리포트
   - 재개발
 sources:
-  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
-  - "https://www.jnto.go.jp/eng/"
-  - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
   - "https://www.mlit.go.jp/road/sign/douro_genpyou.html"
-references:
-  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
-  - "https://www.jnto.go.jp/eng/"
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
+  - "https://www.city.chuo.lg.jp/multilingual/english/index.html"
+  - "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2025/03/28/27.html"
+citeSources:
+  - label: "국토교통성 도로원표 공식 페이지"
+    url: "https://www.mlit.go.jp/road/sign/douro_genpyou.html"
+  - label: "미쌓이 후도산 니혼바시 개발 투자 공식자료"
+    url: "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/"
+  - label: "주오구 다국어 공식 포털"
+    url: "https://www.city.chuo.lg.jp/multilingual/english/index.html"
+  - label: "도쿄도 니혼바시천 지하화 사업 소개자료, 2025-03"
+    url: "https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2025/03/28/27.html"
 ---
 ![니혼바시 일출과 도로원표](/assets/images/nihonbashi-hero.webp)
 
@@ -36,7 +41,7 @@ references:
 
 역사적으로 일본의 모든 도로가 시작되는 지점('도로원표')이었을 뿐만 아니라, 유명한 우키요에 명작인 **'동해도 53차(도카이도 고주산쓰기)'의 장대한 여정이 시작되는 첫 번째 출발지**이기도 합니다.
 
-에도 시대, 다섯 대로(五街道) — 도카이도, 나카센도, 닛코 가이도, 오슈 가이도, 고슈 가이도 — 는 니혼바시를 출발해 교토와 각 지방으로 뻗어 나갔습니다. 이 다리의 도로원표는 이후에도 일본 도로망의 **킬로미터 제로**로서의 상징을 유지하고 있으며, 오늘날에도 수도고속도로 아래 다리 중앙에 청동 표지가 박혀 있습니다. [국토교통성(MLIT)](https://www.mlit.go.jp/road/sign/douro_genpyou.html)에 따르면, 일본의 모든 국도 거리는 아직도 이 한 지점에서부터 측정됩니다.
+에도 시대, 다섯에도 시대 5대 가도인 도카이도, 나카센도, 닛코 가이도, 오슈 가이도, 고슈 가이도는 모두 니혼바시를 기점으로 교토와 각 지방을 향해 뻗어 나갔습니다. 그 이후로도 이 다리는 일본 도로망의 상징적 기점으로 남아 있으며, 현재도 도로 원표를 나타내는 청동 마크가 고가 수도 고속도로 아래에 매립된 채 존재합니다. [국토교통성(MLIT)](https://www.mlit.go.jp/road/sign/douro_genpyou.html)에 따르면, 일본의 모든 국도 거리는 오늘날에도 이 단 하나의 기점으로부터 측정됩니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 이것은 단순한 지리적 호기심이 아닙니다. 공간의 방향이 신성한 중심에서 방사된다는 원칙 — 신사 배치와 황실 도시 계획에 깊이 스며든 개념 — 위에 세워진 나라에서, 니혼바시의 영점 역할은 전 세계 어떤 도심 지역도 주장하기 어려운 문화적 무게를 지닙니다.
 
@@ -68,9 +73,9 @@ references:
 | 니혼바시 수도고속도로 지하화 사업 | 도쿄도 | 3,200억 엔, 1.2km 고가도로 철거 | 진행 중, 2035년 목표 |
 | 야에스-니혼바시-교바시 도시재생 | 복수 사업자 | 20개 이상 지구 지정 | 2025\~2040 단계별 |
 
-[미쓰이부동산 공식 니혼바시 개발 페이지](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/)에 따르면, 지난 20년간 니혼바시 지구에 대한 미쓰이의 누적 투자액은 **5,000억 엔**을 초과했으며, 진행 중인 프로젝트를 포함하면 2035년까지 총 1조 엔을 넘어설 것으로 예상됩니다.
+[미쓰이 후도산의 공식 니혼바시 개발 페이지](https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/)에 따르면, 미쓰이의 니혼바시 지구 누적 투자는 지난 20년간 **5,000억 엔을 초과**했으며, 진행 중인 프로젝트들이 완성되는 2035년까지 그 규모가 1조 엔을 넘어설 것으로 예상됩니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
-가장 변혁적인 단일 프로젝트는 **수도고속도로 지하 이설**입니다. 완공되면 1960년대 고가도로에 의해 가려져 있던 니혼바시 다리가 60년 만에 처음으로 맑은 하늘 아래 드러나게 됩니다. 일본의 킬로미터 제로를 콘크리트 그늘에서 '해방'하는 상징적 파급력은 아무리 강조해도 지나치지 않습니다. 예비 조사에 따르면 이 철거로 보행 통행량이 30\~40% 증가하고, 니혼바시 강변을 따라 약 1.2헥타르의 새로운 수변 녹지가 조성될 것으로 전망됩니다.
+가장 상징적인 단일 프로젝트는 **수도 고속도로 지하화 공사**입니다. 완공 시 1960년대에 건설된 고가 고속도로에 가려져 있던 니혼바시 다리가 60년 만에 처음으로 열린 하늘 아래 모습을 드러낼 예정입니다. '일본 기점(도로 원표)'을 콘크리트 지붕에서 해방시키는 상징적 의미는 지대합니다. 도쿄도의 공식 자료에 따르면, 이 공사의 완료 이후 보행자 통행이 30~40% 증가하고 니혼바시강 수변에 약 1.2헥타르의 녹지가 새로 조성될 것으로 예측됩니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 ---
 

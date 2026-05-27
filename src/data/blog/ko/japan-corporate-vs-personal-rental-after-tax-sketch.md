@@ -14,10 +14,18 @@ tags:
   - 절세
 sources:
   - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
-  - "https://www.japan-tax.jp/"
   - "https://www.jetro.go.jp/en/invest/setting_up/section3/page4.html"
-references:
-  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2879.htm"
+citeSources:
+  - label: "NTA 세금답변: 부동산소득의 개요 (임대수입, 항3211)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
+  - label: "JETRO 미일본 기업인 위한 법인설립 가이드"
+    url: "https://www.jetro.go.jp/en/invest/setting_up/section3/page4.html"
+  - label: "NTA: 중소법인 법인세 경제세율 (항5759)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/hojin/5759.htm"
+  - label: "NTA: 비거주자 대상 임대료 원천징수 (항2879)"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2879.htm"
 ---
 일본 부동산 투자를 결심한 뒤 가장 먼저 마주하는 갈림길은 **"누구의 명의로 살 것인가"**입니다. 단순히 취득세나 보유세 몇 푼을 아끼는 문제가 아닙니다. 이는 향후 5\~10년 뒤의 엑시트(매각) 전략, 매달 들어오는 월세의 송금 방식, 그리고 종국에는 자산의 대물림(상속·증여)까지 결정하는 거대한 설계의 시작입니다.
 
@@ -27,9 +35,9 @@ references:
 
 ## 1. 임대 소득세: 누진세율 vs 단일세율의 싸움
 
-개인 명의로 투자할 경우, 일본에서의 임대 소득은 다른 소득과 합산하여 **5%에서 최고 45%**에 이르는 누진세율이 적용됩니다. 반면, 법인 명의(일본 현지 법인)로 투자하면 자본금 1억 엔 이하 중소법인 기준 **실효세율 약 30\~35%** 수준에서 결정됩니다 ([国税庁, 2025](https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm)).
+개인 명의로 투자할 경우, 일본에서의 임대 소득은 다른 소득과 합산하여 **5%에서 최고 45%**에 이르는 누진세율이 적용됩니다. 반면, 법인 명의(일본 현지 법인)로 투자하면 자본금 1억 엔 이하 중소법인 기준 **실효세율 약 30\~35%** 수준에서 결정됩니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
-*   **개인 명의의 함정**: 비거주자가 일본 부동산을 임대할 때, 임차인이 법인이거나 사업용으로 사용하는 경우 **20.42%의 원천징수**가 발생합니다. 이는 나중에 확정신고를 통해 돌려받을 수 있지만, 초기 현금흐름(Cash Flow)을 압박하는 요인이 됩니다.
+*   **개인 명의의 함정**: 비거주자가 일본 부동산을 임대할 때, 임차인이 법인이거나 사업용으로 사용하는 경우 **20.42%의 원천징수**가 발생합니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> 이는 나중에 확정신고를 통해 돌려받을 수 있지만, 초기 현금흐름(Cash Flow)을 압박하는 요인이 됩니다.
 *   **법인 명의의 강점**: 법인은 원천징수 대상이 아니며, 모든 비용(관리비, 수선비, 차입금 이자 등)을 필요경비로 폭넓게 인정받을 수 있습니다. 또한, 이익이 800만 엔 이하인 구간에 대해서는 약 15%의 경감세율이 적용되어 소규모 투자 시 매우 유리합니다.
 
 ![개인 vs 법인 소득세율 비교 차트](/assets/images/blog/diagrams/ko-japan-corporate-vs-personal-rental-after-tax-sketch.webp)
@@ -50,7 +58,7 @@ references:
 법인이 세금 면에서 유리해 보인다고 해서 덜컥 설립해서는 안 됩니다. 법인 유지를 위한 **고정 비용**이 발생하기 때문입니다.
 
 1.  **설립 비용**: 등록면허세, 공증료, 대행료 등 약 30\~50만 엔.
-2.  **유지 비용**: 매년 발생하는 법인 주민세 균균할(이익이 없어도 약 7만 엔 지출), 세무사 기장 및 결산 비용(연간 30\~60만 엔).
+2.  **유지 비용**: 매년 발생하는 법인 주민세 균균할(이익이 없어도 약 7만 엔 지출), 세무사 기장 및 결산 비용(연간 30\~60만 엔).<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 3.  **관리 부담**: 일본 내 주소를 둔 이사(또는 대행 서비스)가 필요하며, 매년 정기 주주총회와 등기 업무가 수반됩니다.
 
 **저의 실무적 가이드라인**: 연간 순임대수익이 **1,500만 엔\~1,800만 엔**을 넘지 않는다면, 관리 비용과 복잡성을 고려할 때 개인 명의가 더 나은 선택일 수 있습니다. 하지만 자산을 계속해서 늘려갈 계획이거나 자녀에게 '주식 형태'로 증여할 계획이 있다면 초기부터 법인을 고려해야 합니다.

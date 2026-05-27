@@ -17,9 +17,25 @@ tags:
   - relocation
   - investment
 sources:
+  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+  - "https://www.nta.go.jp/"
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.lifull.com/homes/"
-  - "https://suumo.jp/"
+  - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+citeSources:
+  - label: "NTA Private Sector Wage Survey, 2023"
+    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
+    portal: "https://www.nta.go.jp/"
+  - label: "Tokyo Metropolitan Population Estimates (Resident Registry), 2025"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+  - label: "Shinjuku City Foreign Resident Statistics, 2024"
+    url: "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
+  - label: "Tokyo Kantei Metropolitan Condo 70㎡ Price Trend, 2025"
+    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
 ---
 If Roppongi and Azabu are "expat Tokyo," Shinjuku and Shibuya are "Tokyo for Tokyoites." That's how I framed it the first time I compared the two. Same price tier. Completely different lives. Which one is right for you isn't a data question — it's a lifestyle question.
 
@@ -81,13 +97,13 @@ The average taxable income for Shinjuku residents is **approx. 6.1 million JPY (
 
 | Item | Figure |
 |------|--------|
-| Total population | approx. 353,000 (Jan 2025) |
+| Total population | approx. 353,000 (Jan 2025)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 | Population density | approx. 19,400/㎢ |
 | Trend | Foreign resident population rising |
 
 ### Foreign Resident Ratio
 
-Shinjuku's foreign resident ratio stands at **approx. 12.6%** — the highest among Tokyo's 23 wards (Jan 2024, Shinjuku City official data). Chinese and Korean nationals dominate, with a vibrant multinational community centered on Shin-Okubo.
+Shinjuku's foreign resident ratio stands at **approx. 12.6%** — the highest among Tokyo's 23 wards (Jan 2024, Shinjuku City official data).<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Chinese and Korean nationals dominate, with a vibrant multinational community centered on Shin-Okubo.
 
 ### Who Should Consider Shinjuku
 
@@ -141,7 +157,7 @@ Omotesando and Aoyama are priced on par with Azabu in Minato Ward. Nakameguro ha
 
 ### Average Household Income
 
-Shibuya's average taxable income per resident is **approx. 10.7 million JPY (1,070만 JPY)/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023). Creative industry executives and tech startup leadership drive the number.
+Shibuya's average taxable income per resident is **approx. 10.7 million JPY (1,070만 JPY)/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> Creative industry executives and tech startup leadership drive the number.
 
 ### Population
 
@@ -206,7 +222,7 @@ Stable demand from students, researchers, and faculty keeps the rental market co
 
 ### Average Household Income
 
-Bunkyo's average taxable income per resident is **approx. 7 million JPY (¥7.0M)/year**. University faculty, medical professionals, and researchers represent a large share — producing a stable, well-distributed income profile.
+Bunkyo's average taxable income per resident is **approx. 7 million JPY (¥7.0M)/year**.<sup class="source-ref"><a href="#source-1">1</a></sup> University faculty, medical professionals, and researchers represent a large share — producing a stable, well-distributed income profile.
 
 ### Population
 

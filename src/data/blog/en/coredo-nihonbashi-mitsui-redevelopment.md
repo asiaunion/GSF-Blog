@@ -12,9 +12,18 @@ sources:
   - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
   - "https://mitsui-shopping-park.com/urban/nihonbashi/"
   - "https://mitsui-shopping-park.com/urban/muromachi/"
-references:
-  - "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
-  - "https://mitsui-shopping-park.com/urban/nihonbashi/"
+  - "https://www.mlit.go.jp/toshi/city_plan/toshi_city_plan_tk_000044.html"
+  - "https://www.mlit.go.jp/"
+citeSources:
+  - label: "Mitsui Fudosan Nihonbashi Regeneration Official History"
+    url: "https://www.mitsuifudosan.co.jp/english/business/development/nihonbashi/history.html"
+  - label: "COREDO Nihonbashi Official Facility Guide (Mitsui Shopping Park)"
+    url: "https://mitsui-shopping-park.com/urban/nihonbashi/"
+  - label: "COREDO Muromachi Official Facility Guide (Mitsui Shopping Park)"
+    url: "https://mitsui-shopping-park.com/urban/muromachi/"
+  - label: "MLIT Urban Regeneration Special District Designation Data"
+    url: "https://www.mlit.go.jp/toshi/city_plan/toshi_city_plan_tk_000044.html"
+    portal: "https://www.mlit.go.jp/"
 ---
 *This is the third post in the [Nihonbashi Series](/posts/nihonbashi-the-origin-of-japan/). While the Origin post traces 400 years of commercial DNA and the [Hamacho Walking Guide](/posts/nihonbashi-hamacho-walking-guide/) maps a street-level route, this piece zooms into a single question: how does a modern retail complex keep century-old craft alive — and what does the answer look like from a resident's daily routine?*
 
@@ -30,7 +39,7 @@ Today, in a calm, resident’s voice, I want to outline Mitsui Group’s long-ru
 
 ## 1. Why this district reads as a “symbol”
 
-In the Edo period, Nihonbashi was the starting point of the Gokaidō highways and a hub where water routes and people converged. In 1673, Echigoya—often cited as a forerunner of Mitsui—opened its doors in this neighborhood, and Mitsui’s roots have overlapped with the city center ever since. I understand Mitsui Fudosan’s “Nihonbashi regeneration” as a long project that tries to reconnect a once-flourishing prosperity with today’s street-level experience. According to the official timeline, COREDO Nihonbashi opened in 2004 with the Nihonbashi 1-chōme Mitsui Building; COREDO Muromachi 1 followed in 2010 with the Muromachi Higashi Mitsui Building; then COREDO Muromachi 2 and 3 in 2014, and COREDO Muromachi Terrace in 2019—filling the district in stages rather than all at once. “Mixed-use development” can sound heavy, but walking the ground, it feels less like a one-off event and more like layers of accumulated decisions.
+In the Edo period, Nihonbashi was the starting point of the Gokaidō highways and a hub where water routes and people converged. In 1673, Echigoya—often cited as a forerunner of Mitsui—opened its doors in this neighborhood, and Mitsui's roots have overlapped with the city center ever since.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> I understand Mitsui Fudosan's "Nihonbashi regeneration" as a long project that tries to reconnect a once-flourishing prosperity with today's street-level experience. According to the official timeline, COREDO Nihonbashi opened in 2004 with the Nihonbashi 1-chōme Mitsui Building; COREDO Muromachi 1 followed in 2010 with the Muromachi Higashi Mitsui Building; then COREDO Muromachi 2 and 3 in 2014, and COREDO Muromachi Terrace in 2019—filling the district in stages rather than all at once.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> "Mixed-use development" can sound heavy, but walking the ground, it feels less like a one-off event and more like layers of accumulated decisions.
 
 ---
 
@@ -69,5 +78,5 @@ COREDO Nihonbashi and COREDO Muromachi looked to me like bridges between traditi
 ## Walking Action: Session Summary & Check
 
 - [ ] **Experience**: Feel the new 'work-live-play' lifestyle proposed by Mitsui Fudosan at the outdoor terrace of 'COREDO Muromachi Terrace'.
-- [ ] **History**: Check the 'Underground Expressway' construction site at Nihonbashi Bridge and imagine the future waterfront landscape.
+- [ ] **History**: Check the 'Underground Expressway' construction site at Nihonbashi Bridge and imagine the future waterfront landscape.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 - [ ] **Business**: Monitor the pace of Tokyo's new landmark rising behind the fences of the Nihonbashi 1-Chome redevelopment area.

@@ -13,10 +13,17 @@ tags:
   - J-REIT
   - 통화정책
 sources:
-  - "https://www.boj.or.jp/en/"
-  - "https://www.reins.or.jp/"
-references:
-  - "https://www.boj.or.jp/en/"
+  - "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+citeSources:
+  - label: "일본은행 2024년 12월 정례 금융정책결정회합 결과"
+    url: "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k241219a.pdf"
+  - label: "REINS 마켓워치 2026년 4월 요약 [아카이브]"
+    url: "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
+  - label: "REINS 마켓워치 2026년 4월 (원본 PDF)"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 ---
 일본 부동산 투자의 수익은 두 개의 톱니바퀴로 결정됩니다. 하나는 **'임대수익과 시세차익'**이라는 자산 자체의 가치이고, 다른 하나는 **'환율'**이라는 현금화의 통로입니다. 아무리 일본 내에서 20%의 수익을 올렸어도, 송금 시점에 엔화 가치가 20% 하락해 있다면 외화 기준 수익률은 제로(0)가 됩니다.
 
@@ -37,8 +44,8 @@ references:
 
 많은 투자자가 "엔화가 싸니까 지금이 기회"라고 말합니다. 하지만 엔저의 배경에는 일본과 주요국 간의 금리 차이가 있습니다. 일본은행(BOJ)이 금리를 인상하기 시작하면 엔화는 강세로 돌아서겠지만, 동시에 부동산 대출 금리도 오르게 됩니다.
 
-*   **수익률 스프레드(Yield Spread) 체크**: (부동산 수익률 - 대출 금리)의 간격이 좁아지면 자산 가격은 하락 압박을 받습니다. 환차익을 기대하고 들어갔다가 자산 가치 하락(Cap Rate 상승)이라는 더 큰 파도를 맞을 수 있습니다.
-*   **우량 자산 집중**: 금리 인상기에는 입지가 나쁜 자산부터 가격이 빠집니다. 도쿄 도심 5구(chiyoda, Chuo, Minato, Shinjuku, Shibuya)처럼 임대료 전가가 가능한 우량 자산만이 금리 인상의 파고를 넘을 수 있습니다.
+*   **수익률 스프레드(Yield Spread) 체크**: (부동산 수익률 - 대출 금리)의 간격이 좁아지면 자산 가격은 하락 압박을 받습니다. 환차익을 기대하고 들어갔다가 자산 가치 하락(Cap Rate 상승)이라는 더 큰 파도를 맞을 수 있습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
+*   **우량 자산 집중**: 금리 인상기에는 입지가 나쁜 자산부터 가격이 빠집니다. 도쿄 도심 5구(chiyoda, Chuo, Minato, Shinjuku, Shibuya)처럼 임대료 전가가 가능한 우량 자산만이 금리 인상의 파고를 넘을 수 있습니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 ---
 
