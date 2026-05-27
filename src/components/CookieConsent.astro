@@ -163,6 +163,7 @@ const privacyHref = lang === "en" ? "/privacy-policy/" : `/${lang}/privacy-polic
     document.getElementById("cookie-accept")?.addEventListener("click", function () {
       localStorage.setItem("gsf_cookie_consent", "accepted");
       if (banner) banner.style.display = "none";
+      if (typeof window.__gsfEnableAdsense === "function") window.__gsfEnableAdsense();
     });
     document.getElementById("cookie-decline")?.addEventListener("click", function () {
       localStorage.setItem("gsf_cookie_consent", "declined");
