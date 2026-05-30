@@ -43,3 +43,14 @@
   - Verified via live site deployment: ![Verification Screenshot](/Users/gsf/.gemini/antigravity/brain/dfd883cc-2aeb-4df7-88b1-b9d9ead82626/strikethrough_fix_verification_1779098758381.png)
 
 
+
+### Phase 3: 에디터 완성 (v-approved-20260530-admin-cms-p3-complete)
+- **Editor.tsx Split View**: 좌측 Milkdown Crepe (마크다운 에디터) ↔ 우측 실시간 HTML PreviewPane ↔ 가장 우측 Frontmatter 설정 패널로 구성.
+- **이미지 업로드 파이프라인**: Drag & Drop / 버튼 업로드 연동, `sharp` 기반 WebP 1920px 리사이즈 및 EXIF 제거 후 `@vercel/blob` 업로드. DB `media` 테이블에 내역 저장.
+- **대시보드 및 메모**: Glassmorphism 대시보드에서 포스트 상태별 통계 및 최근 감사 로그(audit_log) 표시. 메모 전용 필터를 가진 `memos` 뷰어 구축 완료.
+
+### Phase 4: 발행 파이프라인 통합 (v-approved-20260530-admin-cms-p4-complete)
+- **GitHub API 연동 발행**: `src/admin/lib/github.ts` 를 통해 작성된 마크다운을 GitHub API 로 직접 Commit/Push (Vercel 자동 배포 트리거 연동).
+- **빈 번역 건너뛰기 기능**: 제목이나 본문이 작성되지 않은 언어(예: 영어, 일본어 미작성 시)는 빈 파일로 배포하지 않도록 처리하여 안전성 확보.
+- **감사 로그(Audit Log) 명시적 기록**: `publish`, `import` 행위가 발생할 때 `audit_log` 테이블에 사용자 이메일, IP 주소 및 User-Agent 기록.
+- **가져오기(Import) 파이프라인**: GitHub Repository 에만 존재하고 DB 에는 없는 기존 `.mdx` 포스트들을 DB 와 동기화하는 로직 구현 완료.

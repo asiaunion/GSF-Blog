@@ -21,11 +21,15 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/admin/api/dashboard")
+    fetch("/admin/api/dashboard/")
       .then(r => r.json())
       .then(data => {
         setStats(data.stats);
         setLogs(data.logs);
+        setLoading(false);
+      })
+      .catch(err => {
+        console.error(err);
         setLoading(false);
       });
   }, []);
