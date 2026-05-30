@@ -150,42 +150,42 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
       {/* 타이틀 및 헤더 영역 */}
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-300 bg-clip-text text-transparent">
+          <h1 className="text-3xl font-bold text-accent">
             📝 포스트 라이브러리
           </h1>
-          <p className="text-gray-400 mt-2 text-sm">
+          <p className="opacity-80 mt-2 text-sm">
             데이터베이스 드래프트와 GitHub 저장소 발행 목록을 실시간으로 병합하여 동기화 상태를 관리합니다.
           </p>
         </div>
         <button
           onClick={() => setIsModalOpen(true)}
-          className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white font-medium rounded-xl shadow-lg shadow-emerald-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 cursor-pointer"
+          className="flex items-center gap-2 px-5 py-3 hover:text-foreground font-medium rounded-xl shadow-emerald-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 cursor-pointer"
         >
           <span className="text-lg">+</span> 새 글 쓰기
         </button>
       </div>
 
       {/* 필터 및 검색 바 */}
-      <div className="bg-slate-900/40 backdrop-blur-md border border-white/5 rounded-2xl p-4 md:p-6 mb-6 flex flex-col md:flex-row gap-4 items-center justify-between">
+      <div className="bg-card-bg border border-border rounded-2xl p-4 md:p-6 mb-6 flex flex-col md:flex-row gap-4 items-center justify-between">
         <div className="w-full md:w-1/3 relative">
           <input
             type="text"
             placeholder="제목 또는 슬러그 검색..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
-            className="w-full pl-10 pr-4 py-2.5 bg-slate-950/60 border border-white/10 rounded-xl text-gray-200 placeholder-gray-500 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors"
+            className="w-full pl-10 pr-4 py-2.5 bg-background border border-border rounded-xl text-foreground placeholder-gray-500 focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors"
           />
-          <span className="absolute left-3.5 top-3.5 text-gray-500 text-sm">🔍</span>
+          <span className="absolute left-3.5 top-3.5 opacity-70 text-sm">🔍</span>
         </div>
 
         <div className="flex flex-wrap w-full md:w-auto gap-4 items-center">
           {/* 카테고리 필터 */}
           <div className="flex items-center gap-2">
-            <span className="text-xs text-gray-500 whitespace-nowrap">분류</span>
+            <span className="text-xs opacity-70 whitespace-nowrap">분류</span>
             <select
               value={categoryFilter}
               onChange={(e) => setCategoryFilter(e.target.value)}
-              className="px-3 py-2 bg-slate-950/60 border border-white/10 rounded-xl text-sm text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors"
+              className="px-3 py-2 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
             >
               <option value="all">전체</option>
               <option value="investment">📈 Investment</option>
@@ -198,11 +198,11 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
 
           {/* 상태 필터 */}
           <div className="flex items-center gap-2">
-            <span className="text-xs text-gray-500 whitespace-nowrap">상태</span>
+            <span className="text-xs opacity-70 whitespace-nowrap">상태</span>
             <select
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-3 py-2 bg-slate-950/60 border border-white/10 rounded-xl text-sm text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors"
+              className="px-3 py-2 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
             >
               <option value="all">전체</option>
               <option value="db-draft">📁 DB 드래프트</option>
@@ -219,9 +219,9 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
 
       {/* 로딩 / 에러 / 리스트 영역 */}
       {loading ? (
-        <div className="flex flex-col items-center justify-center py-20 bg-slate-900/10 border border-white/5 rounded-2xl backdrop-blur-sm">
-          <div className="w-10 h-10 border-4 border-emerald-500/20 border-t-emerald-500 rounded-full animate-spin"></div>
-          <p className="text-gray-400 mt-4 text-sm animate-pulse">글 목록을 병합하여 불러오는 중...</p>
+        <div className="flex flex-col items-center justify-center py-20 bg-card-bg border border-border rounded-2xl backdrop-blur-sm">
+          <div className="w-10 h-10 border-4 border-accent border-t-emerald-500 rounded-full animate-spin"></div>
+          <p className="opacity-80 mt-4 text-sm animate-pulse">글 목록을 병합하여 불러오는 중...</p>
         </div>
       ) : error ? (
         <div className="p-6 bg-red-950/20 border border-red-500/20 rounded-2xl text-center">
@@ -236,16 +236,16 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
           </button>
         </div>
       ) : filteredPosts.length === 0 ? (
-        <div className="py-20 text-center bg-slate-900/20 border border-white/5 rounded-2xl">
+        <div className="py-20 text-center bg-card-bg border border-border rounded-2xl">
           <span className="text-4xl text-gray-600 block">📭</span>
-          <p className="text-gray-500 mt-4 text-sm">일치하는 포스트가 없습니다.</p>
+          <p className="opacity-70 mt-4 text-sm">일치하는 포스트가 없습니다.</p>
         </div>
       ) : (
-        <div className="bg-slate-900/20 border border-white/5 rounded-2xl overflow-hidden backdrop-blur-md shadow-2xl">
+        <div className="bg-card-bg border border-border rounded-2xl overflow-hidden shadow-2xl">
           <div className="overflow-x-auto">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="border-b border-white/5 bg-slate-950/40 text-gray-400 text-xs font-semibold uppercase tracking-wider">
+                <tr className="border-b border-border bg-background opacity-80 text-xs font-semibold uppercase tracking-wider">
                   <th className="px-6 py-4">동기화 상태</th>
                   <th className="px-6 py-4">포스트 제목 및 슬러그</th>
                   <th className="px-6 py-4">카테고리</th>
@@ -253,11 +253,11 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                   <th className="px-6 py-4 text-right">관리</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-white/5">
+              <tbody className="divide-y divide-border">
                 {filteredPosts.map((post) => {
                   // 동기화 배지 계산
                   let badge = (
-                    <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-accent text-background text-accent border border-accent">
                       ● 발행됨 (동기화)
                     </span>
                   );
@@ -270,7 +270,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                     );
                   } else if (post.isGitOnly) {
                     badge = (
-                      <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
+                      <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-cyan-500/10 text-accent border border-cyan-500/20">
                         ● Git 발행물
                       </span>
                     );
@@ -305,16 +305,16 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                       <td className="px-6 py-4.5 whitespace-nowrap">{badge}</td>
                       <td className="px-6 py-4.5">
                         <div className="flex flex-col gap-0.5">
-                          <span className="text-sm font-semibold text-gray-100 group-hover:text-emerald-400 transition-colors">
+                          <span className="text-sm font-semibold text-foreground group-hover:text-accent transition-colors">
                             {post.displayTitle}
                           </span>
-                          <span className="text-xs text-gray-500 font-mono tracking-tight select-all">
+                          <span className="text-xs opacity-70 font-mono tracking-tight select-all">
                             /{post.slug}/
                           </span>
                         </div>
                       </td>
                       <td className="px-6 py-4.5 whitespace-nowrap">
-                        <span className="text-xs text-gray-300 font-medium">
+                        <span className="text-xs opacity-90 font-medium">
                           {categoryEmoji[post.category] || "📂"}{" "}
                           <span className="capitalize">{post.category}</span>
                         </span>
@@ -329,13 +329,13 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                             // 색상 매핑
                             let classes = "text-[10px] px-1.5 py-0.5 font-bold rounded-md border ";
                             if (isGitHas && isDbHas) {
-                              classes += "bg-emerald-500/10 text-emerald-400 border-emerald-500/20";
+                              classes += "bg-accent text-background text-accent border-accent";
                             } else if (isGitHas) {
-                              classes += "bg-cyan-500/10 text-cyan-400 border-cyan-500/20";
+                              classes += "bg-cyan-500/10 text-accent border-cyan-500/20";
                             } else if (isDbHas) {
                               classes += "bg-yellow-500/10 text-yellow-400 border-yellow-500/20";
                             } else {
-                              classes += "bg-gray-800/40 text-gray-600 border-transparent";
+                              classes += "bg-card-bg text-gray-600 border-transparent";
                             }
 
                             return (
@@ -362,14 +362,14 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                                 alert(err.message || "가져오기 실패");
                               }
                             }}
-                            className="inline-flex items-center gap-1 px-3 py-1.5 bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/20 text-xs font-semibold rounded-lg transition-colors cursor-pointer"
+                            className="inline-flex items-center gap-1 px-3 py-1.5 bg-cyan-500/10 hover:bg-cyan-500/20 text-accent border border-cyan-500/20 text-xs font-semibold rounded-lg transition-colors cursor-pointer"
                           >
                             ⬇️ DB로 가져오기
                           </button>
                         ) : (
                           <a
                             href={`/admin/posts/${post.id}/`}
-                            className="inline-flex items-center gap-1 px-3.5 py-1.5 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/20 text-xs font-semibold rounded-lg transition-all duration-200 hover:scale-[1.03] cursor-pointer"
+                            className="inline-flex items-center gap-1 px-3.5 py-1.5 bg-accent text-background hover:bg-accent text-background text-accent border border-accent text-xs font-semibold rounded-lg transition-all duration-200 hover:scale-[1.03] cursor-pointer"
                           >
                             📝 편집
                           </a>
@@ -386,13 +386,13 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
 
       {/* 새 포스트 작성 모달 (Glassmorphic Modal) */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
-          <div className="w-full max-w-lg bg-slate-900 border border-white/10 rounded-2xl overflow-hidden shadow-2xl animate-scaleUp">
-            <div className="px-6 py-4.5 bg-slate-950/60 border-b border-white/5 flex items-center justify-between">
-              <h2 className="text-lg font-bold text-gray-100">새 포스트 작성</h2>
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 animate-fadeIn">
+          <div className="w-full max-w-lg bg-card-bg border border-border rounded-2xl overflow-hidden shadow-2xl animate-scaleUp">
+            <div className="px-6 py-4.5 bg-background border-b border-border flex items-center justify-between">
+              <h2 className="text-lg font-bold text-foreground">새 포스트 작성</h2>
               <button
                 onClick={() => setIsModalOpen(false)}
-                className="text-gray-500 hover:text-gray-300 text-xl font-bold cursor-pointer"
+                className="opacity-70 hover:opacity-90 text-xl font-bold cursor-pointer"
               >
                 &times;
               </button>
@@ -406,7 +406,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
               )}
 
               <div>
-                <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
                   포스트 제목 (대표 번역용)
                 </label>
                 <input
@@ -414,13 +414,13 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                   placeholder="예: 서울-도쿄 25년 부동산 트렌드 비교"
                   value={newTitle}
                   onChange={(e) => setNewTitle(e.target.value)}
-                  className="w-full px-3.5 py-2.5 bg-slate-950/80 border border-white/10 rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-emerald-500 transition-colors"
+                  className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-foreground placeholder-gray-600 focus:outline-none focus:border-accent transition-colors"
                   required
                 />
               </div>
 
               <div>
-                <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
                   포스트 슬러그 (URL 경로 이름)
                 </label>
                 <input
@@ -428,23 +428,23 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                   placeholder="예: seoul-tokyo-real-estate-trends"
                   value={newSlug}
                   onChange={(e) => setNewSlug(e.target.value.toLowerCase().replace(/\s+/g, "-"))}
-                  className="w-full px-3.5 py-2.5 bg-slate-950/80 border border-white/10 rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-emerald-500 transition-colors font-mono text-sm"
+                  className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-foreground placeholder-gray-600 focus:outline-none focus:border-accent transition-colors font-mono text-sm"
                   required
                 />
-                <span className="text-[10px] text-gray-500 mt-1 block">
+                <span className="text-[10px] opacity-70 mt-1 block">
                   소문자, 숫자, 하이픈(-)만 허용됩니다. (공백 입력 시 자동으로 -로 변환)
                 </span>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                  <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
                     기본 언어
                   </label>
                   <select
                     value={newLang}
                     onChange={(e) => setNewLang(e.target.value as any)}
-                    className="w-full px-3.5 py-2.5 bg-slate-950/80 border border-white/10 rounded-xl text-sm text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors"
+                    className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
                   >
                     <option value="ko">한국어 (KO)</option>
                     <option value="en">영어 (EN)</option>
@@ -453,13 +453,13 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                 </div>
 
                 <div>
-                  <label className="block text-xs font-semibold text-gray-400 uppercase tracking-wider mb-1.5">
+                  <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
                     카테고리
                   </label>
                   <select
                     value={newCategory}
                     onChange={(e) => setNewCategory(e.target.value as any)}
-                    className="w-full px-3.5 py-2.5 bg-slate-950/80 border border-white/10 rounded-xl text-sm text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors"
+                    className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
                   >
                     <option value="investment">📈 Investment</option>
                     <option value="safety">🛡️ Safety</option>
@@ -470,18 +470,18 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                 </div>
               </div>
 
-              <div className="mt-4 flex gap-3 justify-end border-t border-white/5 pt-4">
+              <div className="mt-4 flex gap-3 justify-end border-t border-border pt-4">
                 <button
                   type="button"
                   onClick={() => setIsModalOpen(false)}
-                  className="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-gray-300 text-xs font-semibold rounded-xl transition-colors cursor-pointer"
+                  className="px-4 py-2.5 bg-card-bg hover:bg-muted opacity-90 text-xs font-semibold rounded-xl transition-colors cursor-pointer"
                 >
                   취소
                 </button>
                 <button
                   type="submit"
                   disabled={creating}
-                  className="px-5 py-2.5 bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-teal-500 text-white text-xs font-semibold rounded-xl transition-all duration-200 shadow-md shadow-emerald-950/20 cursor-pointer"
+                  className="px-5 py-2.5 hover:text-foreground text-xs font-semibold rounded-xl transition-all duration-200 shadow-emerald-950/20 cursor-pointer"
                 >
                   {creating ? "포스트 생성 중..." : "글 작성 시작"}
                 </button>

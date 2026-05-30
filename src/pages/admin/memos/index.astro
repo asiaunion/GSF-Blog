@@ -4,6 +4,9 @@
  * prerender=false 필수 (SSR)
  */
 import "@/styles/global.css";
+import IconMoon from "@/assets/icons/IconMoon.svg";
+import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
+
 import PostList from "@/admin/components/PostList";
 
 export const prerender = false;
@@ -27,8 +30,8 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
       body {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
         min-height: 100dvh;
-        background: #060913;
-        color: #f1f5f9;
+        background: var(--color-background);
+        color: var(--color-foreground);
         padding-bottom: 4rem;
       }
       
@@ -37,10 +40,10 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
         align-items: center;
         justify-content: space-between;
         padding: 1.25rem 2rem;
-        background: rgba(10, 15, 30, 0.5);
+        background: var(--color-card-bg);
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        border-bottom: 1px solid var(--color-border);
         position: sticky;
         top: 0;
         z-index: 40;
@@ -65,22 +68,22 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
         align-items: center;
         gap: 0.875rem;
         font-size: 0.875rem;
-        color: #94a3b8;
+        color: var(--color-muted);
       }
       
       .user-info img {
         width: 32px;
         height: 32px;
         border-radius: 50%;
-        border: 2px solid rgba(16, 185, 129, 0.3);
+        border: 2px solid var(--color-border);
       }
       
       .btn-logout {
         padding: 0.45rem 1rem;
-        background: rgba(239, 68, 68, 0.08);
-        border: 1px solid rgba(239, 68, 68, 0.2);
+        background: transparent;
+        border: 1px solid var(--color-border);
         border-radius: 10px;
-        color: #fca5a5;
+        color: var(--color-foreground);
         font-size: 0.8rem;
         font-weight: 500;
         cursor: pointer;
@@ -106,6 +109,13 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
       :global(.animate-fadeIn) { animation: fadeIn 0.2s ease-out forwards; }
       :global(.animate-scaleUp) { animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
     </style>
+  
+    <script is:inline>
+      (function () {
+        const themeValue = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.firstElementChild?.setAttribute("data-theme", themeValue);
+      })();
+    </script>
   </head>
   <body>
     <header>
@@ -115,7 +125,18 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
       </a>
       <div class="user-info">
         {user?.picture && <img src={user.picture} alt={user.name} />}
-        <span class="font-medium text-gray-200">{user?.name ?? user?.email ?? "관리자"}</span>
+        <span class="font-medium text-foreground">{user?.name ?? user?.email ?? "관리자"}</span>
+        
+        <button
+          id="theme-btn"
+          class="relative w-8 h-8 rounded-lg flex items-center justify-center hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-accent ml-2 mr-2 text-foreground"
+          title="Toggles light & dark mode"
+          aria-label="auto"
+          aria-live="polite"
+        >
+          <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 w-4 h-4" />
+          <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 w-4 h-4" />
+        </button>
         <form method="POST" action="/admin/api/auth/logout/">
           <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
         </form>
@@ -124,9 +145,13 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
 
     <main>
       <div class="max-w-7xl mx-auto px-4 mt-6">
-        <a href="/admin/" class="text-sm text-gray-400 hover:text-emerald-400 transition-colors mb-2 inline-block">← 대시보드로 돌아가기</a>
+        <a href="/admin/" class="text-sm opacity-80 hover:text-accent transition-colors mb-2 inline-block">← 대시보드로 돌아가기</a>
       </div>
       <PostList defaultStatusFilter="memo" client:only="react" />
     </main>
+  
+    <script>
+      import "@/scripts/theme.ts";
+    </script>
   </body>
 </html>

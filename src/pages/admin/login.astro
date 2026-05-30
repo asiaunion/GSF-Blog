@@ -61,7 +61,7 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
       h1 {
         font-size: 1.25rem;
         font-weight: 600;
-        color: #f1f5f9;
+        color: var(--color-foreground);
         margin-bottom: 0.25rem;
       }
 
@@ -86,7 +86,7 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
         border-radius: 10px;
         cursor: pointer;
         text-decoration: none;
-        transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+        transition: background 0.15s, transform 0.1s, box-0.15s;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
       }
 
@@ -111,7 +111,7 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
         border: 1px solid rgba(239, 68, 68, 0.3);
         border-radius: 8px;
         font-size: 0.8rem;
-        color: #fca5a5;
+        color: var(--color-foreground);
         line-height: 1.5;
       }
 
@@ -121,6 +121,13 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
         color: #334155;
       }
     </style>
+  
+    <script is:inline>
+      (function () {
+        const themeValue = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.firstElementChild?.setAttribute("data-theme", themeValue);
+      })();
+    </script>
   </head>
   <body>
     <div class="card">

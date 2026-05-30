@@ -2,6 +2,11 @@
 
 ## Approved States
 
+- **2026-05-30**: GSF-Blog Admin CMS Design Reskin Unified with Astro Paper Theme - Tag: `v-approved-20260530-admin-design-unification`
+  - Admin 대시보드 및 리스트/에디터 등 전체 CMS 컴포넌트의 하드코딩된 Tailwind 색상(slate, indigo, emerald)을 블로그 공통 CSS 변수(--background, --foreground, --accent, --muted, --border 등) 기반의 `bg-background`, `text-foreground`, `bg-card-bg` 클래스로 완전 교체.
+  - 화려한 그라데이션, backdrop-blur, 거대한 그림자(shadow-xl) 등을 모두 걷어내고 블로그 프론트엔드와 일치하는 평면적이고 심플한(Flat Minimal) 디자인으로 재정비.
+  - 다크모드/라이트모드 토글 설정(`localStorage.getItem("theme")`)을 Admin 페이지 접속 시 실시간으로 상속받아, 블로그 테마와 어드민 테마가 동일하게 유지되도록 통일.
+
 - **2026-05-30**: GSF-Blog Admin CMS P2 Post List, Editor, Auto-save & Revisions Complete - Tag: `v-approved-20260530-admin-cms-p2-complete`
   - DB 드래프트와 GitHub API 발행 목록을 지능적으로 실시간 병합하는 `PostList.tsx` 컴포넌트 및 API 완비.
   - 마크다운 WYSIWYG 에디터인 Milkdown Crepe의 마운트 구조(`root` 엘리먼트 타겟팅) 설계 및 탭 전환 시 인스턴스 소멸/재마운트 처리를 통한 다국어(ko/en/ja) 동적 탭 에디터 구현 완료.

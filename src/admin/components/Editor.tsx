@@ -243,8 +243,8 @@ export default function Editor({ id }: EditorProps) {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center py-40 text-gray-400">
-        <div className="w-12 h-12 border-4 border-emerald-500/20 border-t-emerald-500 rounded-full animate-spin"></div>
+      <div className="flex flex-col items-center justify-center py-40 opacity-80">
+        <div className="w-12 h-12 border-4 border-accent border-t-emerald-500 rounded-full animate-spin"></div>
         <p className="mt-4 text-sm animate-pulse">포스트 정보 및 Milkdown 에디터 로드 중...</p>
       </div>
     );
@@ -258,7 +258,7 @@ export default function Editor({ id }: EditorProps) {
         <p className="text-red-300/80 text-sm mt-2">{error || "포스트 데이터가 존재하지 않습니다."}</p>
         <a
           href="/admin/posts/"
-          className="mt-6 inline-block px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-gray-300 text-xs font-semibold rounded-xl transition-colors"
+          className="mt-6 inline-block px-5 py-2.5 bg-card-bg hover:bg-muted opacity-90 text-xs font-semibold rounded-xl transition-colors"
         >
           목록으로 돌아가기
         </a>
@@ -269,20 +269,20 @@ export default function Editor({ id }: EditorProps) {
   return (
     <div className="w-full max-w-[1600px] mx-auto px-4 py-6">
       {/* 1. 상단 컨트롤 바 */}
-      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-white/5 pb-5 mb-6">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-border pb-5 mb-6">
         <div className="flex items-center gap-3">
           <a
             href="/admin/posts/"
-            className="p-2 bg-slate-800 hover:bg-slate-700 text-gray-300 rounded-xl border border-white/5 text-sm transition-colors"
+            className="p-2 bg-card-bg hover:bg-muted opacity-90 rounded-xl border border-border text-sm transition-colors"
             title="목록으로"
           >
             ←
           </a>
           <div>
-            <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400 font-mono">
+            <span className="text-[10px] uppercase font-bold tracking-wider text-accent font-mono">
               Post Editor
             </span>
-            <h1 className="text-xl font-bold text-gray-100 line-clamp-1">{localTitles[activeLang] || post.slug}</h1>
+            <h1 className="text-xl font-bold text-foreground line-clamp-1">{localTitles[activeLang] || post.slug}</h1>
           </div>
         </div>
 
@@ -295,7 +295,7 @@ export default function Editor({ id }: EditorProps) {
               </span>
             )}
             {saveStatus === "Saved" && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-accent text-background text-accent border border-accent">
                 ● 자동 저장 완료
               </span>
             )}
@@ -305,7 +305,7 @@ export default function Editor({ id }: EditorProps) {
               </span>
             )}
             {saveStatus === "Ready" && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-gray-800 text-gray-400 border border-transparent">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-card-bg opacity-80 border border-transparent">
                 ● 편집 대기 중
               </span>
             )}
@@ -325,7 +325,7 @@ export default function Editor({ id }: EditorProps) {
         {/* 2. 에디터 및 미리보기 영역 (좌측 9열) */}
         <div className="xl:col-span-9 flex flex-col gap-4">
           {/* 다국어 언어 탭 및 번역 상태 */}
-          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-white/5 bg-slate-900/40 p-1.5 rounded-xl gap-2 md:gap-4">
+          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-border bg-card-bg p-1.5 rounded-xl gap-2 md:gap-4">
             <div className="flex gap-1 flex-1">
               {(["ko", "en", "ja"] as const).map((l) => (
                 <button
@@ -341,8 +341,8 @@ export default function Editor({ id }: EditorProps) {
                   }}
                   className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
                     activeLang === l
-                      ? "bg-gradient-to-r from-emerald-500/15 to-teal-500/15 text-emerald-400 border border-emerald-500/25 shadow-inner"
-                      : "text-gray-400 hover:text-gray-200 border border-transparent"
+                      ? "text-accent border border-accent shadow-inner"
+                      : "opacity-80 hover:text-foreground border border-transparent"
                   }`}
                 >
                   {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
@@ -356,8 +356,8 @@ export default function Editor({ id }: EditorProps) {
           </div>
 
           {/* 제목 수정 입력 폼 */}
-          <div className="bg-slate-900/20 border border-white/5 p-4 rounded-2xl backdrop-blur-sm">
-            <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-1.5">
+          <div className="bg-card-bg border border-border p-4 rounded-2xl backdrop-blur-sm">
+            <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-1.5">
               포스트 제목 ({activeLang.toUpperCase()})
             </label>
             <input
@@ -369,16 +369,16 @@ export default function Editor({ id }: EditorProps) {
                 setIsDirty(true);
                 setSaveStatus("Saving...");
               }}
-              className="w-full px-4 py-3 bg-slate-950/60 border border-white/10 rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-emerald-500 transition-colors text-base font-semibold"
+              className="w-full px-4 py-3 bg-background border border-border rounded-xl text-foreground placeholder-gray-600 focus:outline-none focus:border-accent transition-colors text-base font-semibold"
             />
           </div>
 
           {/* Split View: 에디터 ↔ 미리보기 */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* WYSIWYG Milkdown 에디터 컨테이너 */}
-            <div className="bg-slate-900/20 border border-white/5 rounded-2xl backdrop-blur-sm p-4 md:p-6 h-[600px] flex flex-col">
+            <div className="bg-card-bg border border-border rounded-2xl p-4 md:p-6 h-[600px] flex flex-col">
               <div className="flex items-center justify-between mb-4 shrink-0">
-                <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 select-none">
+                <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 select-none">
                   마크다운 에디터 본문
                 </label>
                 <ImageUploader 
@@ -419,13 +419,13 @@ export default function Editor({ id }: EditorProps) {
           />
 
           {/* 작가 정보 카드 */}
-          <div className="bg-slate-900/30 border border-white/5 rounded-2xl p-5 backdrop-blur-sm text-xs text-gray-400">
-            <h4 className="font-bold text-gray-300 mb-2 select-none">📌 포스트 상태 정보</h4>
+          <div className="bg-card-bg border border-border rounded-2xl p-5 text-xs opacity-80">
+            <h4 className="font-bold opacity-90 mb-2 select-none">📌 포스트 상태 정보</h4>
             <div className="flex flex-col gap-1.5 font-mono text-[10px] leading-tight">
-              <div>작성자: <span className="text-gray-200">{post.author}</span></div>
-              <div>작성일: <span className="text-gray-200">{new Date(post.created_at).toLocaleDateString()}</span></div>
-              <div>수정일: <span className="text-gray-200">{new Date(post.updated_at).toLocaleDateString()}</span></div>
-              <div className="truncate">Git SHA: <span className="text-gray-200">{post.git_sha || "미발행 (드래프트)"}</span></div>
+              <div>작성자: <span className="text-foreground">{post.author}</span></div>
+              <div>작성일: <span className="text-foreground">{new Date(post.created_at).toLocaleDateString()}</span></div>
+              <div>수정일: <span className="text-foreground">{new Date(post.updated_at).toLocaleDateString()}</span></div>
+              <div className="truncate">Git SHA: <span className="text-foreground">{post.git_sha || "미발행 (드래프트)"}</span></div>
             </div>
           </div>
 

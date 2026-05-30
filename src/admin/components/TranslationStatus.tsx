@@ -22,7 +22,7 @@ export default function TranslationStatus({ translations, baseLang = "ko" }: Tra
       }
     }
     
-    return { status: "latest", label: "최신", color: "bg-emerald-500/10 text-emerald-400 border-emerald-500/20" };
+    return { status: "latest", label: "최신", color: "bg-accent text-background text-accent border-accent" };
   };
 
   return (
