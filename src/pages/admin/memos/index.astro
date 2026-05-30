@@ -1,9 +1,9 @@
 ---
 /**
- * Admin 대시보드
- * 세션 3-C에서 React Dashboard 컴포넌트로 교체
+ * Admin 메모 목록 페이지
+ * prerender=false 필수 (SSR)
  */
-import Dashboard from "@/admin/components/Dashboard";
+import PostList from "@/admin/components/PostList";
 
 export const prerender = false;
 
@@ -17,7 +17,7 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
-    <title>Admin Dashboard — GSF-Blog</title>
+    <title>메모장 — GSF-Blog Admin</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -28,6 +28,7 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
         min-height: 100dvh;
         background: #060913;
         color: #f1f5f9;
+        padding-bottom: 4rem;
       }
       
       header {
@@ -90,6 +91,19 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
         background: rgba(239, 68, 68, 0.18);
         border-color: rgba(239, 68, 68, 0.4);
       }
+
+      /* 전역 애니메이션 클래스 */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes scaleUp {
+        from { transform: scale(0.97); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }
+      
+      :global(.animate-fadeIn) { animation: fadeIn 0.2s ease-out forwards; }
+      :global(.animate-scaleUp) { animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
     </style>
   </head>
   <body>
@@ -108,7 +122,10 @@ const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undef
     </header>
 
     <main>
-      <Dashboard client:only="react" />
+      <div class="max-w-7xl mx-auto px-4 mt-6">
+        <a href="/admin/" class="text-sm text-gray-400 hover:text-emerald-400 transition-colors mb-2 inline-block">← 대시보드로 돌아가기</a>
+      </div>
+      <PostList defaultStatusFilter="memo" client:only="react" />
     </main>
   </body>
 </html>
