@@ -8,12 +8,12 @@ interface PreviewPaneProps {
 
 export default function PreviewPane({ markdown }: PreviewPaneProps) {
   return (
-    <div className="bg-slate-900/20 border border-white/5 rounded-2xl backdrop-blur-sm p-4 md:p-6 h-[600px] flex flex-col">
-      <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-4 select-none shrink-0">
-        라이브 미리보기 (Live Preview)
+    <div className="bg-card-bg border border-border rounded-2xl p-4 md:p-6 h-[600px] flex flex-col">
+      <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-4 select-none shrink-0">
+        미리보기
       </label>
       
-      <div className="prose prose-invert prose-emerald max-w-none overflow-y-auto flex-1 pr-2 custom-scrollbar">
+      <div className="prose dark:prose-invert max-w-none overflow-y-auto flex-1 pr-2 custom-scrollbar">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>
           {markdown || '*내용이 없습니다.*'}
         </ReactMarkdown>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 interface PublishPanelProps {
   postId: string;
@@ -9,12 +9,14 @@ export default function PublishPanel({ postId, onPublishSuccess }: PublishPanelP
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [conflict, setConflict] = useState<string[] | null>(null);
+  const [success, setSuccess] = useState(false);
 
   const handlePublish = async (force = false) => {
     try {
       setLoading(true);
       setError(null);
       setConflict(null);
+      setSuccess(false);
 
       const res = await fetch(`/admin/api/posts/${postId}/publish/`, {
         method: "POST",
@@ -34,7 +36,7 @@ export default function PublishPanel({ postId, onPublishSuccess }: PublishPanelP
         throw new Error(data.error || "발행 중 오류가 발생했습니다.");
       }
 
-      alert("발행이 완료되었습니다!");
+      setSuccess(true);
       if (onPublishSuccess) {
         onPublishSuccess();
       }
@@ -46,36 +48,42 @@ export default function PublishPanel({ postId, onPublishSuccess }: PublishPanelP
   };
 
   return (
-    <div className="p-4 bg-white border border-gray-200 rounded-lg shadow-sm mt-4">
-      <h3 className="text-lg font-semibold text-gray-800 mb-2">게시 및 퍼블리싱</h3>
-      <p className="text-sm text-gray-600 mb-4">
-        GitHub 저장소에 직접 커밋하여 Vercel 배포를 트리거합니다.
+    <div className="p-4 bg-card-bg border border-border rounded-2xl mt-4">
+      <h3 className="text-lg font-semibold text-foreground mb-2">발행하기</h3>
+      <p className="text-sm text-foreground opacity-70 mb-4">
+        이 글을 블로그에 발행합니다.
       </p>
 
+      {success && (
+        <div className="mb-4 p-3 bg-accent/10 text-accent text-sm rounded-xl border border-accent/20 flex items-center gap-2">
+          ✅ 발행이 완료되었습니다.
+        </div>
+      )}
+
       {error && (
-        <div className="mb-4 p-3 bg-red-50 text-red-700 text-sm rounded border border-red-200">
+        <div className="mb-4 p-3 bg-red-500/10 text-red-400 text-sm rounded-xl border border-red-500/20">
           {error}
         </div>
       )}
 
       {conflict && (
-        <div className="mb-4 p-4 bg-yellow-50 text-yellow-800 text-sm rounded border border-yellow-200">
-          <p className="font-semibold mb-2">⚠️ Git 충돌 발생</p>
+        <div className="mb-4 p-4 bg-amber-500/10 text-amber-400 text-sm rounded-xl border border-amber-500/20">
+          <p className="font-semibold mb-2">⚠️ 외부 변경 감지</p>
           <p className="mb-2">
-            저장소의 원본 파일이 외부에서 변경되었습니다. (대상 언어: {conflict.join(", ")})
+            이 글이 다른 경로로 수정된 것 같습니다. (대상 언어: {conflict.join(", ")})
           </p>
-          <p className="mb-3">기존 변경사항을 덮어쓰고 현재 내용으로 강제 발행하시겠습니까?</p>
+          <p className="mb-3">현재 내용으로 덮어쓰고 발행할까요?</p>
           <div className="flex space-x-2">
             <button
               onClick={() => handlePublish(true)}
-              className="px-3 py-1.5 bg-red-600 hover:bg-red-700 text-white rounded font-medium transition-colors"
+              className="px-3 py-1.5 bg-red-600 hover:bg-red-700 text-foreground rounded-lg font-medium transition-colors"
               disabled={loading}
             >
-              강제 덮어쓰기
+              덮어쓰고 발행
             </button>
             <button
               onClick={() => setConflict(null)}
-              className="px-3 py-1.5 bg-gray-200 hover:bg-gray-300 text-gray-800 rounded font-medium transition-colors"
+              className="px-3 py-1.5 bg-muted hover:bg-border text-foreground rounded-lg font-medium transition-colors"
               disabled={loading}
             >
               취소
@@ -88,11 +96,11 @@ export default function PublishPanel({ postId, onPublishSuccess }: PublishPanelP
         <button
           onClick={() => handlePublish(false)}
           disabled={loading}
-          className="flex items-center justify-center w-full px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-md font-semibold transition-colors disabled:opacity-50"
+          className="flex items-center justify-center w-full px-4 py-2 bg-accent text-background hover:opacity-90 rounded-xl font-semibold transition-colors disabled:opacity-50"
         >
           {loading ? (
             <>
-              <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" fill="none" viewBox="0 0 24 24">
+              <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-foreground" fill="none" viewBox="0 0 24 24">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
               </svg>

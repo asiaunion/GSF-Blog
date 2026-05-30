@@ -59,31 +59,31 @@ export default function RevisionPanel({ postId, activeLang, onRestore, triggerRe
       {/* 슬라이드 온/오프 버튼 */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-1.5 px-3 py-2 bg-slate-800 hover:bg-slate-700 text-gray-300 text-xs font-semibold rounded-xl border border-white/5 transition-colors cursor-pointer"
+        className="flex items-center gap-1.5 px-3 py-2 bg-card-bg hover:bg-muted opacity-90 text-xs font-semibold rounded-xl border border-border transition-colors cursor-pointer"
       >
         <span>🕒</span> {isOpen ? "이력 닫기" : "수정 이력"}
       </button>
 
       {/* 이력 사이드바 (오버레이가 아닌 우측 밀어내기/플로팅 형태) */}
       {isOpen && (
-        <div className="absolute right-0 top-11 z-30 w-80 max-h-[500px] bg-slate-900/95 border border-white/10 rounded-2xl p-4 shadow-2xl backdrop-blur-md overflow-y-auto animate-scaleUp">
-          <div className="flex items-center justify-between border-b border-white/5 pb-2 mb-3">
-            <h3 className="text-sm font-bold text-gray-200">역사 기록 ({activeLang.toUpperCase()})</h3>
+        <div className="absolute right-0 top-11 z-30 w-80 max-h-[500px] bg-card-bg border border-border rounded-2xl p-4 shadow-2xl overflow-y-auto animate-scaleUp">
+          <div className="flex items-center justify-between border-b border-border pb-2 mb-3">
+            <h3 className="text-sm font-bold text-foreground">수정 이력 ({activeLang.toUpperCase()})</h3>
             <button
               onClick={fetchRevisions}
               disabled={loading}
-              className="text-xs text-emerald-400 hover:text-emerald-300 font-medium cursor-pointer"
+              className="text-xs text-accent hover:text-accent font-medium cursor-pointer"
             >
               {loading ? "갱신 중..." : "새로고침"}
             </button>
           </div>
 
           {loading ? (
-            <div className="py-10 text-center text-xs text-gray-500 animate-pulse">
+            <div className="py-10 text-center text-xs opacity-70 animate-pulse">
               이력 불러오는 중...
             </div>
           ) : revisions.length === 0 ? (
-            <div className="py-10 text-center text-xs text-gray-500">
+            <div className="py-10 text-center text-xs opacity-70">
               저장된 이전 버전이 없습니다.
             </div>
           ) : (
@@ -91,17 +91,17 @@ export default function RevisionPanel({ postId, activeLang, onRestore, triggerRe
               {revisions.map((rev) => (
                 <div
                   key={rev.id}
-                  className="p-3 bg-slate-950/60 border border-white/5 hover:border-emerald-500/20 rounded-xl transition-all duration-200 group"
+                  className="p-3 bg-background border border-border hover:border-accent rounded-xl transition-all duration-200 group"
                 >
                   <div className="flex justify-between items-center mb-1">
-                    <span className="text-[10px] text-gray-400 font-medium">
+                    <span className="text-[10px] opacity-80 font-medium">
                       👤 {rev.edited_by}
                     </span>
-                    <span className="text-[10px] text-gray-500 font-mono">
+                    <span className="text-[10px] opacity-70 font-mono">
                       {formatDate(rev.created_at)}
                     </span>
                   </div>
-                  <p className="text-[11px] text-gray-400 line-clamp-2 bg-slate-900/40 p-1.5 rounded border border-white/5 font-mono mb-2">
+                  <p className="text-[11px] opacity-80 line-clamp-2 bg-card-bg p-1.5 rounded border border-border font-mono mb-2">
                     {rev.body_md_snapshot.substring(0, 100)}...
                   </p>
                   <button
@@ -110,7 +110,7 @@ export default function RevisionPanel({ postId, activeLang, onRestore, triggerRe
                         onRestore(rev.body_md_snapshot);
                       }
                     }}
-                    className="w-full py-1.5 bg-emerald-500/10 hover:bg-emerald-500 text-emerald-400 hover:text-white border border-emerald-500/20 text-[10px] font-bold rounded-lg transition-all duration-200 cursor-pointer"
+                    className="w-full py-1.5 bg-accent text-background hover:bg-accent text-background text-accent hover:text-foreground border border-accent text-[10px] font-bold rounded-lg transition-all duration-200 cursor-pointer"
                   >
                     이 시점으로 복원
                   </button>

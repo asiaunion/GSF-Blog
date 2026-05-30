@@ -51,11 +51,11 @@ export default function ImageUploader({ postId, onUploadSuccess }: ImageUploader
       <button
         onClick={() => fileInputRef.current?.click()}
         disabled={uploading}
-        className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-emerald-400 border border-emerald-500/20 rounded-xl text-xs font-bold transition-colors disabled:opacity-50 flex items-center gap-1.5"
+        className="px-3 py-1.5 bg-card-bg hover:bg-muted text-accent border border-accent rounded-xl text-xs font-bold transition-colors disabled:opacity-50 flex items-center gap-1.5"
       >
         {uploading ? (
           <>
-            <div className="w-3 h-3 border-2 border-emerald-500/20 border-t-emerald-500 rounded-full animate-spin"></div>
+            <div className="w-3 h-3 border-2 border-accent border-t-emerald-500 rounded-full animate-spin"></div>
             업로드 중...
           </>
         ) : (

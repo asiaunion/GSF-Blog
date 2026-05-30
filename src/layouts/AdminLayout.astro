@@ -1,0 +1,158 @@
+---
+/**
+ * Admin 공통 레이아웃
+ * 인증된 어드민 페이지에서 공유하는 헤더, 테마 토글, 로그아웃, 스타일을 통합.
+ */
+import "@/styles/global.css";
+import IconMoon from "@/assets/icons/IconMoon.svg";
+import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
+
+export const prerender = false;
+
+interface Props {
+  title: string;
+  user?: { email: string; name: string; picture?: string };
+}
+
+const { title, user } = Astro.props;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>{title}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        min-height: 100dvh;
+        background: var(--color-background);
+        color: var(--color-foreground);
+        padding-bottom: 4rem;
+      }
+
+      /* 헤더 유리막 효과 */
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem 2rem;
+        background: var(--color-card-bg);
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        border-bottom: 1px solid var(--color-border);
+        position: sticky;
+        top: 0;
+        z-index: 40;
+      }
+
+      .brand {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--color-accent);
+        -webkit-text-fill-color: var(--color-accent);
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .user-info {
+        display: flex;
+        align-items: center;
+        gap: 0.875rem;
+        font-size: 0.875rem;
+        color: var(--color-muted);
+      }
+
+      .user-info img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 2px solid var(--color-border);
+      }
+
+      .btn-logout {
+        padding: 0.45rem 1rem;
+        background: transparent;
+        border: 1px solid var(--color-border);
+        border-radius: 10px;
+        color: var(--color-foreground);
+        font-size: 0.8rem;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.2s ease;
+      }
+
+      .btn-logout:hover {
+        background: rgba(239, 68, 68, 0.18);
+        border-color: rgba(239, 68, 68, 0.4);
+      }
+
+      /* 전역 애니메이션 클래스 */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes scaleUp {
+        from { transform: scale(0.97); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }
+
+      :global(.animate-fadeIn) {
+        animation: fadeIn 0.2s ease-out forwards;
+      }
+      :global(.animate-scaleUp) {
+        animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+    </style>
+
+    <script is:inline>
+      (function () {
+        const themeValue = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.firstElementChild?.setAttribute("data-theme", themeValue);
+      })();
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="/admin/" class="brand">
+        <span style="font-size: 1.35rem">🛠️</span>
+        GSF-Blog Admin
+      </a>
+      <div class="user-info">
+        {user?.picture && <img src={user.picture} alt={user.name} />}
+        <span class="font-medium text-foreground">{user?.name ?? user?.email ?? "관리자"}</span>
+
+        <button
+          id="theme-btn"
+          class="relative w-8 h-8 rounded-lg flex items-center justify-center hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-accent ml-2 mr-2 text-foreground"
+          title="Toggles light & dark mode"
+          aria-label="auto"
+          aria-live="polite"
+        >
+          <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 w-4 h-4" />
+          <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 w-4 h-4" />
+        </button>
+        <form method="POST" action="/admin/api/auth/logout/">
+          <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
+        </form>
+      </div>
+    </header>
+
+    <slot />
+
+    <script>
+      import "@/scripts/theme.ts";
+    </script>
+  </body>
+</html>

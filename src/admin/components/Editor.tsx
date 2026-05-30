@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import RevisionPanel from "./RevisionPanel";
-import PreviewPane from "./PreviewPane";
 import FrontmatterEditor from "./FrontmatterEditor";
 import ImageUploader from "./ImageUploader";
 import PublishPanel from "./PublishPanel";
@@ -9,6 +8,7 @@ import TranslationStatus from "./TranslationStatus";
 // Milkdown Crepe 스타일 및 테마 명시적 임포트
 import "@milkdown/crepe/theme/common/style.css";
 import "@milkdown/crepe/theme/frame.css";
+import "@milkdown/crepe/theme/frame-dark.css";
 
 export type PostTranslation = {
   id?: string;
@@ -56,6 +56,7 @@ export default function Editor({ id }: EditorProps) {
   const [isDirty, setIsDirty] = useState(false);
   const [saveStatus, setSaveStatus] = useState<"Ready" | "Saving..." | "Saved" | "Error">("Ready");
   const [revisionTrigger, setRevisionTrigger] = useState(0); // 이력 갱신용 강제 트리거
+  const [showSettings, setShowSettings] = useState(false); // 설정 드로어 토글
 
   // Crepe 컨테이너 레퍼런스
   const containerRef = useRef<HTMLDivElement>(null);
@@ -223,9 +224,6 @@ export default function Editor({ id }: EditorProps) {
         crepeRef.current.destroy();
       } catch (e) {}
       
-      // useEffect가 활성 언어나 post ID 변경 시 재마운트하므로, 
-      // 강제 강도 조절을 위해 post 객체 상태를 리셋 후 재대입하거나 
-      // 또는 컨테이너 DOM을 직접 조작해 Crepe 인스턴스를 재기동
       if (containerRef.current) {
         containerRef.current.innerHTML = "";
         import("@milkdown/crepe").then(async ({ Crepe }) => {
@@ -243,9 +241,9 @@ export default function Editor({ id }: EditorProps) {
 
   if (loading) {
     return (
-      <div className="flex flex-col items-center justify-center py-40 text-gray-400">
-        <div className="w-12 h-12 border-4 border-emerald-500/20 border-t-emerald-500 rounded-full animate-spin"></div>
-        <p className="mt-4 text-sm animate-pulse">포스트 정보 및 Milkdown 에디터 로드 중...</p>
+      <div className="flex flex-col items-center justify-center py-40 opacity-80">
+        <div className="w-12 h-12 border-4 border-accent border-t-transparent rounded-full animate-spin"></div>
+        <p className="mt-4 text-sm animate-pulse">에디터를 불러오는 중...</p>
       </div>
     );
   }
@@ -258,7 +256,7 @@ export default function Editor({ id }: EditorProps) {
         <p className="text-red-300/80 text-sm mt-2">{error || "포스트 데이터가 존재하지 않습니다."}</p>
         <a
           href="/admin/posts/"
-          className="mt-6 inline-block px-5 py-2.5 bg-slate-800 hover:bg-slate-700 text-gray-300 text-xs font-semibold rounded-xl transition-colors"
+          className="mt-6 inline-block px-5 py-2.5 bg-card-bg hover:bg-muted opacity-90 text-xs font-semibold rounded-xl transition-colors"
         >
           목록으로 돌아가기
         </a>
@@ -267,175 +265,271 @@ export default function Editor({ id }: EditorProps) {
   }
 
   return (
-    <div className="w-full max-w-[1600px] mx-auto px-4 py-6">
-      {/* 1. 상단 컨트롤 바 */}
-      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-white/5 pb-5 mb-6">
+    <div className="w-full max-w-3xl mx-auto px-4 py-6">
+      {/* 1. 상단 컨트롤 바 — 컴팩트 */}
+      <div className="flex items-center justify-between gap-3 mb-6">
         <div className="flex items-center gap-3">
           <a
             href="/admin/posts/"
-            className="p-2 bg-slate-800 hover:bg-slate-700 text-gray-300 rounded-xl border border-white/5 text-sm transition-colors"
+            className="p-2 bg-card-bg hover:bg-muted rounded-xl border border-border text-sm transition-colors"
             title="목록으로"
           >
             ←
           </a>
-          <div>
-            <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400 font-mono">
-              Post Editor
-            </span>
-            <h1 className="text-xl font-bold text-gray-100 line-clamp-1">{localTitles[activeLang] || post.slug}</h1>
+          <div className="flex items-center gap-2">
+            {/* 자동저장 인라인 표시 */}
+            {saveStatus === "Saving..." && (
+              <span className="text-xs text-amber-400 animate-pulse">저장 중...</span>
+            )}
+            {saveStatus === "Saved" && (
+              <span className="text-xs text-accent">✓ 저장됨</span>
+            )}
+            {saveStatus === "Error" && (
+              <span className="text-xs text-red-400">저장 실패</span>
+            )}
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center gap-4">
-          {/* 자동저장 배지 */}
-          <div className="flex items-center">
-            {saveStatus === "Saving..." && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-amber-500/10 text-amber-400 border border-amber-500/20 animate-pulse">
-                ⏳ 저장 중...
-              </span>
-            )}
-            {saveStatus === "Saved" && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                ● 자동 저장 완료
-              </span>
-            )}
-            {saveStatus === "Error" && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-red-500/10 text-red-400 border border-red-500/20">
-                ▲ 저장 실패 (다시 시도)
-              </span>
-            )}
-            {saveStatus === "Ready" && (
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium bg-gray-800 text-gray-400 border border-transparent">
-                ● 편집 대기 중
-              </span>
-            )}
-          </div>
-
-          {/* 세션 2-C 수정 이력 연동 */}
+        <div className="flex items-center gap-2">
+          {/* 수정 이력 */}
           <RevisionPanel
             postId={post.id}
             activeLang={activeLang}
             onRestore={handleRestore}
             triggerRefresh={revisionTrigger}
           />
+          {/* 설정 드로어 토글 */}
+          <button
+            onClick={() => setShowSettings(!showSettings)}
+            className={`p-2 rounded-xl border text-sm transition-colors cursor-pointer ${
+              showSettings
+                ? "bg-accent text-background border-accent"
+                : "bg-card-bg hover:bg-muted border-border"
+            }`}
+            title="게시글 설정"
+          >
+            ⚙️
+          </button>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
-        {/* 2. 에디터 및 미리보기 영역 (좌측 9열) */}
-        <div className="xl:col-span-9 flex flex-col gap-4">
-          {/* 다국어 언어 탭 및 번역 상태 */}
-          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-white/5 bg-slate-900/40 p-1.5 rounded-xl gap-2 md:gap-4">
-            <div className="flex gap-1 flex-1">
-              {(["ko", "en", "ja"] as const).map((l) => (
-                <button
-                  key={l}
-                  onClick={() => {
-                    if (crepeRef.current) {
-                      try {
-                        const txt = crepeRef.current.getMarkdown();
-                        setLocalMarkdown((prev) => ({ ...prev, [activeLang]: txt }));
-                      } catch (e) {}
-                    }
-                    setActiveLang(l);
-                  }}
-                  className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
-                    activeLang === l
-                      ? "bg-gradient-to-r from-emerald-500/15 to-teal-500/15 text-emerald-400 border border-emerald-500/25 shadow-inner"
-                      : "text-gray-400 hover:text-gray-200 border border-transparent"
-                  }`}
-                >
-                  {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
-                </button>
-              ))}
-            </div>
-            {/* 번역 동기화 상태 (ko 기준) */}
-            <div className="px-2 shrink-0">
-              <TranslationStatus translations={post.translations} baseLang="ko" />
-            </div>
-          </div>
-
-          {/* 제목 수정 입력 폼 */}
-          <div className="bg-slate-900/20 border border-white/5 p-4 rounded-2xl backdrop-blur-sm">
-            <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-1.5">
-              포스트 제목 ({activeLang.toUpperCase()})
-            </label>
-            <input
-              type="text"
-              placeholder={`${activeLang.toUpperCase()} 제목을 입력하세요...`}
-              value={localTitles[activeLang]}
-              onChange={(e) => {
-                setLocalTitles((prev) => ({ ...prev, [activeLang]: e.target.value }));
-                setIsDirty(true);
-                setSaveStatus("Saving...");
+      {/* 2. 다국어 언어 탭 */}
+      <div className="flex items-center justify-between border-b border-border bg-card-bg p-1.5 rounded-xl gap-2 mb-4">
+        <div className="flex gap-1 flex-1">
+          {(["ko", "en", "ja"] as const).map((l) => (
+            <button
+              key={l}
+              onClick={() => {
+                if (crepeRef.current) {
+                  try {
+                    const txt = crepeRef.current.getMarkdown();
+                    setLocalMarkdown((prev) => ({ ...prev, [activeLang]: txt }));
+                  } catch (e) {}
+                }
+                setActiveLang(l);
               }}
-              className="w-full px-4 py-3 bg-slate-950/60 border border-white/10 rounded-xl text-gray-200 placeholder-gray-600 focus:outline-none focus:border-emerald-500 transition-colors text-base font-semibold"
-            />
-          </div>
-
-          {/* Split View: 에디터 ↔ 미리보기 */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {/* WYSIWYG Milkdown 에디터 컨테이너 */}
-            <div className="bg-slate-900/20 border border-white/5 rounded-2xl backdrop-blur-sm p-4 md:p-6 h-[600px] flex flex-col">
-              <div className="flex items-center justify-between mb-4 shrink-0">
-                <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 select-none">
-                  마크다운 에디터 본문
-                </label>
-                <ImageUploader 
-                  postId={post.id} 
-                  onUploadSuccess={(url) => {
-                    const txt = crepeRef.current?.getMarkdown() || localMarkdown[activeLang] || "";
-                    const newTxt = txt + `\n\n![업로드된 이미지](${url})\n\n`;
-                    handleRestore(newTxt);
-                  }}
-                />
-              </div>
-              
-              {/* Milkdown Crepe 에디터 마운트 포인트 */}
-              <div 
-                ref={containerRef} 
-                className="prose prose-invert max-w-none focus:outline-none overflow-y-auto flex-1 pr-2 custom-scrollbar"
-              ></div>
-            </div>
-
-            {/* 라이브 미리보기 컴포넌트 */}
-            <PreviewPane markdown={localMarkdown[activeLang]} />
-          </div>
+              className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
+                activeLang === l
+                  ? "text-accent border border-accent shadow-inner"
+                  : "opacity-80 hover:text-foreground border border-transparent"
+              }`}
+            >
+              {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
+            </button>
+          ))}
         </div>
+        <div className="px-2 shrink-0">
+          <TranslationStatus translations={post.translations} baseLang="ko" />
+        </div>
+      </div>
 
-        {/* 3. 우측 프론트매터 설정 폼 (우측 3열) */}
-        <div className="xl:col-span-3 flex flex-col gap-6">
-          <FrontmatterEditor
-            slug={metaSlug}
-            category={metaCategory}
-            tags={metaTags}
-            onChange={(data) => {
-              setMetaSlug(data.slug);
-              setMetaCategory(data.category);
-              setMetaTags(data.tags);
-              setIsDirty(true);
-              setSaveStatus("Saving...");
+      {/* 3. 노션 스타일 에디터 본문 — 1단 중앙 정렬 */}
+      <div className="bg-card-bg border border-border rounded-2xl p-6 md:p-8 min-h-[60vh]">
+        {/* 제목 입력 — 에디터 상단에 seamless 배치 */}
+        <input
+          type="text"
+          placeholder="제목을 입력하세요..."
+          value={localTitles[activeLang]}
+          onChange={(e) => {
+            setLocalTitles((prev) => ({ ...prev, [activeLang]: e.target.value }));
+            setIsDirty(true);
+            setSaveStatus("Saving...");
+          }}
+          className="w-full text-2xl md:text-3xl font-bold text-foreground placeholder-foreground/30 bg-transparent border-none focus:outline-none mb-6 pb-4 border-b border-border"
+          style={{ borderBottom: '1px solid var(--color-border)' }}
+        />
+
+        {/* 이미지 업로드 버튼 */}
+        <div className="flex items-center justify-end mb-3">
+          <ImageUploader 
+            postId={post.id} 
+            onUploadSuccess={(url) => {
+              const txt = crepeRef.current?.getMarkdown() || localMarkdown[activeLang] || "";
+              const newTxt = txt + `\n\n![업로드된 이미지](${url})\n\n`;
+              handleRestore(newTxt);
             }}
           />
+        </div>
+        
+        {/* Milkdown Crepe 에디터 — 자동 높이 확장 */}
+        <div 
+          ref={containerRef} 
+          className="prose dark:prose-invert max-w-none focus:outline-none min-h-[40vh]"
+        ></div>
+      </div>
 
-          {/* 작가 정보 카드 */}
-          <div className="bg-slate-900/30 border border-white/5 rounded-2xl p-5 backdrop-blur-sm text-xs text-gray-400">
-            <h4 className="font-bold text-gray-300 mb-2 select-none">📌 포스트 상태 정보</h4>
-            <div className="flex flex-col gap-1.5 font-mono text-[10px] leading-tight">
-              <div>작성자: <span className="text-gray-200">{post.author}</span></div>
-              <div>작성일: <span className="text-gray-200">{new Date(post.created_at).toLocaleDateString()}</span></div>
-              <div>수정일: <span className="text-gray-200">{new Date(post.updated_at).toLocaleDateString()}</span></div>
-              <div className="truncate">Git SHA: <span className="text-gray-200">{post.git_sha || "미발행 (드래프트)"}</span></div>
+      {/* 4. 발행 바 — 에디터 하단 고정 */}
+      <div className="mt-4">
+        <PublishPanel 
+          postId={post.id} 
+          onPublishSuccess={() => fetchPostDetails()} 
+        />
+      </div>
+
+      {/* 5. 설정 드로어 (슬라이드 오버) */}
+      {showSettings && (
+        <>
+          {/* 배경 오버레이 */}
+          <div 
+            className="fixed inset-0 bg-background/60 z-40 animate-fadeIn"
+            onClick={() => setShowSettings(false)}
+          />
+          {/* 드로어 패널 */}
+          <div className="fixed top-0 right-0 h-full w-full max-w-sm bg-background border-l border-border z-50 overflow-y-auto shadow-xl animate-slideIn">
+            <div className="p-6">
+              <div className="flex items-center justify-between mb-6">
+                <h3 className="text-lg font-bold text-foreground">게시글 설정</h3>
+                <button
+                  onClick={() => setShowSettings(false)}
+                  className="p-2 hover:bg-muted rounded-xl transition-colors cursor-pointer text-foreground"
+                >
+                  ✕
+                </button>
+              </div>
+
+              <FrontmatterEditor
+                slug={metaSlug}
+                category={metaCategory}
+                tags={metaTags}
+                onChange={(data) => {
+                  setMetaSlug(data.slug);
+                  setMetaCategory(data.category);
+                  setMetaTags(data.tags);
+                  setIsDirty(true);
+                  setSaveStatus("Saving...");
+                }}
+              />
+
+              {/* 글 정보 */}
+              <div className="bg-card-bg border border-border rounded-2xl p-5 text-xs opacity-80 mt-6">
+                <h4 className="font-bold opacity-90 mb-2 select-none">📌 글 정보</h4>
+                <div className="flex flex-col gap-1.5 text-[11px] leading-tight">
+                  <div>작성자: <span className="text-foreground">{post.author}</span></div>
+                  <div>작성일: <span className="text-foreground">{new Date(post.created_at).toLocaleDateString()}</span></div>
+                  <div>수정일: <span className="text-foreground">{new Date(post.updated_at).toLocaleDateString()}</span></div>
+                  {post.git_sha && (
+                    <div>발행 버전: <span className="text-foreground font-mono">{post.git_sha.substring(0, 7)}</span></div>
+                  )}
+                  {!post.git_sha && (
+                    <div className="text-amber-400">아직 발행되지 않은 글입니다</div>
+                  )}
+                </div>
+              </div>
             </div>
           </div>
+        </>
+      )}
 
-          {/* 퍼블리시 패널 */}
-          <PublishPanel 
-            postId={post.id} 
-            onPublishSuccess={() => fetchPostDetails()} 
-          />
-        </div>
-      </div>
+      {/* 드로어 애니메이션 + Milkdown 테마 동기화 CSS */}
+      <style>{`
+        @keyframes slideIn {
+          from { transform: translateX(100%); }
+          to { transform: translateX(0); }
+        }
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        .animate-slideIn {
+          animation: slideIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        .animate-fadeIn {
+          animation: fadeIn 0.2s ease-out forwards;
+        }
+
+        /* Milkdown Crepe — 블로그 테마 변수 동기화 */
+        /* 라이트 모드 오버라이드 (기본) */
+        .milkdown {
+          --crepe-color-background: var(--background, #fdfdfd);
+          --crepe-color-on-background: var(--foreground, #1a1a1a);
+          --crepe-color-surface: var(--muted, #e6e6e6);
+          --crepe-color-surface-low: var(--border, #ece9e9);
+          --crepe-color-on-surface: var(--foreground, #1a1a1a);
+          --crepe-color-on-surface-variant: color-mix(in srgb, var(--foreground) 60%, transparent);
+          --crepe-color-outline: var(--border, #ece9e9);
+          --crepe-color-primary: var(--accent, #0f4d22);
+          --crepe-color-secondary: var(--muted, #e6e6e6);
+          --crepe-color-on-secondary: var(--foreground, #1a1a1a);
+          --crepe-color-inverse: var(--muted, #e6e6e6);
+          --crepe-color-on-inverse: var(--foreground, #1a1a1a);
+          --crepe-color-hover: color-mix(in srgb, var(--muted) 70%, transparent);
+          --crepe-color-selected: color-mix(in srgb, var(--accent) 15%, transparent);
+          --crepe-color-inline-area: color-mix(in srgb, var(--muted) 80%, transparent);
+          --crepe-font-default: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+          --crepe-font-title: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+          --crepe-font-code: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, monospace;
+        }
+
+        /* 다크 모드 오버라이드 */
+        html[data-theme="dark"] .milkdown {
+          --crepe-color-background: var(--background, #111111);
+          --crepe-color-on-background: var(--foreground, #f4f4f5);
+          --crepe-color-surface: var(--muted, #2a2a2a);
+          --crepe-color-surface-low: var(--border, #333333);
+          --crepe-color-on-surface: var(--foreground, #f4f4f5);
+          --crepe-color-on-surface-variant: color-mix(in srgb, var(--foreground) 70%, transparent);
+          --crepe-color-outline: var(--border, #333333);
+          --crepe-color-primary: var(--accent, #34d399);
+          --crepe-color-secondary: var(--muted, #2a2a2a);
+          --crepe-color-on-secondary: var(--foreground, #f4f4f5);
+          --crepe-color-inverse: var(--foreground, #f4f4f5);
+          --crepe-color-on-inverse: var(--background, #111111);
+          --crepe-color-hover: color-mix(in srgb, var(--muted) 70%, transparent);
+          --crepe-color-selected: color-mix(in srgb, var(--accent) 20%, transparent);
+          --crepe-color-inline-area: color-mix(in srgb, var(--muted) 80%, transparent);
+          --crepe-shadow-1:
+            0px 1px 2px 0px rgba(255, 255, 255, 0.1),
+            0px 1px 3px 1px rgba(255, 255, 255, 0.05);
+          --crepe-shadow-2:
+            0px 1px 2px 0px rgba(255, 255, 255, 0.1),
+            0px 2px 6px 2px rgba(255, 255, 255, 0.05);
+        }
+
+        /* ProseMirror 렌더링 안정화 — 라이트 모드 'r' 아티팩트 방지 */
+        .milkdown .ProseMirror {
+          font-family: var(--crepe-font-default);
+          color: var(--crepe-color-on-background);
+          caret-color: var(--crepe-color-primary);
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          text-rendering: optimizeLegibility;
+        }
+
+        .milkdown .ProseMirror p,
+        .milkdown .ProseMirror li {
+          line-height: 1.75;
+          letter-spacing: -0.011em;
+        }
+
+        /* Crepe 에디터 내부 코드블록 배경 동기화 */
+        .milkdown .ProseMirror code {
+          background: var(--crepe-color-inline-area);
+          border-radius: 4px;
+          padding: 0.15em 0.35em;
+          font-size: 0.875em;
+        }
+      `}</style>
     </div>
   );
 }
+
