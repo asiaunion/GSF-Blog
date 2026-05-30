@@ -39,5 +39,22 @@ export const categorySchema = z.enum([
   "essay",
 ] satisfies PostCategory[]);
 
-// TODO(세션 2-B): 포스트 생성/수정 스키마 추가
-// TODO(세션 3-A): 프론트매터 스키마 추가
+// 포스트 생성 스키마 (최초 생성 시 제목과 기본 언어를 입력받음)
+export const createPostSchema = z.object({
+  slug: slugSchema,
+  category: categorySchema,
+  title: z.string().min(1).max(200),
+  lang: langSchema,
+});
+
+// 포스트 수정 스키마 (메타데이터 및 특정 언어의 본문 내용을 수정)
+export const updatePostSchema = z.object({
+  slug: slugSchema,
+  category: categorySchema,
+  tags: z.array(z.string()).default([]),
+  status: postStatusSchema,
+  lang: langSchema,
+  title: z.string().min(1).max(200),
+  body_md: z.string().default(""),
+});
+
