@@ -1,7 +1,12 @@
 ---
-// Admin CMS 대시보드
-// 세션 2-C에서 실제 Dashboard 컴포넌트 구현 예정
+/**
+ * Admin 대시보드
+ * 세션 2-C에서 React Dashboard 컴포넌트로 교체 예정
+ */
 export const prerender = false;
+
+type AdminUser = { email: string; name: string; picture?: string };
+const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undefined;
 ---
 
 <!doctype html>
@@ -12,33 +17,77 @@ export const prerender = false;
     <meta name="robots" content="noindex, nofollow" />
     <title>Admin — GSF-Blog</title>
     <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
       body {
-        font-family: system-ui, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        min-height: 100dvh;
+        background: #0a0f1e;
+        color: #e2e8f0;
+        padding: 2rem;
+      }
+      header {
         display: flex;
         align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        margin: 0;
-        background: #0f172a;
-        color: #e2e8f0;
-      }
-      .card {
-        text-align: center;
-        padding: 2rem;
-        border: 1px solid #334155;
+        justify-content: space-between;
+        padding: 1rem 1.5rem;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.08);
         border-radius: 12px;
+        margin-bottom: 2rem;
+      }
+      .brand { font-size: 1.1rem; font-weight: 600; }
+      .user-info { display: flex; align-items: center; gap: 0.75rem; font-size: 0.85rem; color: #94a3b8; }
+      .user-info img { width: 32px; height: 32px; border-radius: 50%; }
+      .btn-logout {
+        padding: 0.4rem 0.875rem;
+        background: rgba(239,68,68,0.12);
+        border: 1px solid rgba(239,68,68,0.3);
+        border-radius: 8px;
+        color: #fca5a5;
+        font-size: 0.8rem;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.15s;
+      }
+      .btn-logout:hover { background: rgba(239,68,68,0.2); }
+      .card {
+        padding: 2rem;
+        background: rgba(255,255,255,0.04);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 12px;
+        text-align: center;
       }
       h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-      p { color: #94a3b8; font-size: 0.9rem; }
+      p { color: #64748b; font-size: 0.875rem; }
+      .badge {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.25rem 0.75rem;
+        background: rgba(34,197,94,0.1);
+        border: 1px solid rgba(34,197,94,0.3);
+        border-radius: 999px;
+        font-size: 0.75rem;
+        color: #86efac;
+      }
     </style>
   </head>
   <body>
+    <header>
+      <span class="brand">🛠️ GSF-Blog Admin</span>
+      <div class="user-info">
+        {user?.picture && <img src={user.picture} alt={user.name} />}
+        <span>{user?.name ?? user?.email ?? "관리자"}</span>
+        <form method="POST" action="/admin/api/auth/logout">
+          <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
+        </form>
+      </div>
+    </header>
+
     <div class="card">
-      <h1>🛠️ Admin CMS</h1>
-      <p>GSF-Blog 관리자 — P1 세션 1-A 완료</p>
-      <p style="margin-top:1rem;font-size:0.75rem;color:#475569">
-        세션 1-C에서 Google OAuth 인증 구현 예정
-      </p>
+      <h1>🎉 P1 세션 1-C 완료</h1>
+      <p>Google OAuth 인증이 정상 작동합니다.</p>
+      <p style="margin-top:0.5rem">세션 2-A에서 포스트 목록 UI 구현 예정</p>
+      <span class="badge">✅ 인증 성공 — {user?.email}</span>
     </div>
   </body>
 </html>
