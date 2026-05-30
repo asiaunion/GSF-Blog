@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { z } from "zod";
+import CustomSelect, { type SelectOption } from "./CustomSelect";
 
 export const frontmatterSchema = z.object({
   slug: z.string().regex(/^[a-z0-9-]+$/, "영문 소문자, 숫자, 하이픈(-)만 사용할 수 있어요."),
@@ -29,8 +30,8 @@ export default function FrontmatterEditor({ slug, category, tags, onChange }: Fr
     onChange({ slug: newSlug, category, tags });
   };
 
-  const handleCategoryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    onChange({ slug, category: e.target.value as any, tags });
+  const handleCategoryChange = (value: string) => {
+    onChange({ slug, category: value as any, tags });
   };
 
   const handleAddTag = (e: React.KeyboardEvent) => {
@@ -76,17 +77,18 @@ export default function FrontmatterEditor({ slug, category, tags, onChange }: Fr
         <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-1.5">
           카테고리
         </label>
-        <select
+        <CustomSelect
+          options={[
+            { value: "investment", label: "투자", emoji: "📈" },
+            { value: "safety", label: "안전", emoji: "🛡️" },
+            { value: "life", label: "라이프", emoji: "🌱" },
+            { value: "local", label: "로컬", emoji: "🇯🇵" },
+            { value: "essay", label: "에세이", emoji: "✍️" },
+          ]}
           value={category}
           onChange={handleCategoryChange}
-          className="w-full px-3 py-2 bg-background border border-border rounded-xl text-xs opacity-90 focus:outline-none focus:border-accent transition-colors cursor-pointer"
-        >
-          <option value="investment">📈 투자</option>
-          <option value="safety">🛡️ 안전</option>
-          <option value="life">🌱 라이프</option>
-          <option value="local">🇯🇵 로컬</option>
-          <option value="essay">✍️ 에세이</option>
-        </select>
+          compact
+        />
       </div>
 
       {/* 태그 지정 */}

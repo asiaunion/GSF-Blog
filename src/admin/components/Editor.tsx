@@ -8,6 +8,7 @@ import TranslationStatus from "./TranslationStatus";
 // Milkdown Crepe 스타일 및 테마 명시적 임포트
 import "@milkdown/crepe/theme/common/style.css";
 import "@milkdown/crepe/theme/frame.css";
+import "@milkdown/crepe/theme/frame-dark.css";
 
 export type PostTranslation = {
   id?: string;
@@ -439,7 +440,7 @@ export default function Editor({ id }: EditorProps) {
         </>
       )}
 
-      {/* 드로어 애니메이션 CSS */}
+      {/* 드로어 애니메이션 + Milkdown 테마 동기화 CSS */}
       <style>{`
         @keyframes slideIn {
           from { transform: translateX(100%); }
@@ -454,6 +455,78 @@ export default function Editor({ id }: EditorProps) {
         }
         .animate-fadeIn {
           animation: fadeIn 0.2s ease-out forwards;
+        }
+
+        /* Milkdown Crepe — 블로그 테마 변수 동기화 */
+        /* 라이트 모드 오버라이드 (기본) */
+        .milkdown {
+          --crepe-color-background: var(--background, #fdfdfd);
+          --crepe-color-on-background: var(--foreground, #1a1a1a);
+          --crepe-color-surface: var(--muted, #e6e6e6);
+          --crepe-color-surface-low: var(--border, #ece9e9);
+          --crepe-color-on-surface: var(--foreground, #1a1a1a);
+          --crepe-color-on-surface-variant: color-mix(in srgb, var(--foreground) 60%, transparent);
+          --crepe-color-outline: var(--border, #ece9e9);
+          --crepe-color-primary: var(--accent, #0f4d22);
+          --crepe-color-secondary: var(--muted, #e6e6e6);
+          --crepe-color-on-secondary: var(--foreground, #1a1a1a);
+          --crepe-color-inverse: var(--muted, #e6e6e6);
+          --crepe-color-on-inverse: var(--foreground, #1a1a1a);
+          --crepe-color-hover: color-mix(in srgb, var(--muted) 70%, transparent);
+          --crepe-color-selected: color-mix(in srgb, var(--accent) 15%, transparent);
+          --crepe-color-inline-area: color-mix(in srgb, var(--muted) 80%, transparent);
+          --crepe-font-default: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+          --crepe-font-title: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+          --crepe-font-code: 'JetBrains Mono', 'Fira Code', Menlo, Monaco, monospace;
+        }
+
+        /* 다크 모드 오버라이드 */
+        html[data-theme="dark"] .milkdown {
+          --crepe-color-background: var(--background, #111111);
+          --crepe-color-on-background: var(--foreground, #f4f4f5);
+          --crepe-color-surface: var(--muted, #2a2a2a);
+          --crepe-color-surface-low: var(--border, #333333);
+          --crepe-color-on-surface: var(--foreground, #f4f4f5);
+          --crepe-color-on-surface-variant: color-mix(in srgb, var(--foreground) 70%, transparent);
+          --crepe-color-outline: var(--border, #333333);
+          --crepe-color-primary: var(--accent, #34d399);
+          --crepe-color-secondary: var(--muted, #2a2a2a);
+          --crepe-color-on-secondary: var(--foreground, #f4f4f5);
+          --crepe-color-inverse: var(--foreground, #f4f4f5);
+          --crepe-color-on-inverse: var(--background, #111111);
+          --crepe-color-hover: color-mix(in srgb, var(--muted) 70%, transparent);
+          --crepe-color-selected: color-mix(in srgb, var(--accent) 20%, transparent);
+          --crepe-color-inline-area: color-mix(in srgb, var(--muted) 80%, transparent);
+          --crepe-shadow-1:
+            0px 1px 2px 0px rgba(255, 255, 255, 0.1),
+            0px 1px 3px 1px rgba(255, 255, 255, 0.05);
+          --crepe-shadow-2:
+            0px 1px 2px 0px rgba(255, 255, 255, 0.1),
+            0px 2px 6px 2px rgba(255, 255, 255, 0.05);
+        }
+
+        /* ProseMirror 렌더링 안정화 — 라이트 모드 'r' 아티팩트 방지 */
+        .milkdown .ProseMirror {
+          font-family: var(--crepe-font-default);
+          color: var(--crepe-color-on-background);
+          caret-color: var(--crepe-color-primary);
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          text-rendering: optimizeLegibility;
+        }
+
+        .milkdown .ProseMirror p,
+        .milkdown .ProseMirror li {
+          line-height: 1.75;
+          letter-spacing: -0.011em;
+        }
+
+        /* Crepe 에디터 내부 코드블록 배경 동기화 */
+        .milkdown .ProseMirror code {
+          background: var(--crepe-color-inline-area);
+          border-radius: 4px;
+          padding: 0.15em 0.35em;
+          font-size: 0.875em;
         }
       `}</style>
     </div>

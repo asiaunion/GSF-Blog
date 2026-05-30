@@ -1,4 +1,49 @@
 import React, { useState, useEffect } from "react";
+import CustomSelect, { type SelectOption } from "./CustomSelect";
+
+// 카테고리 영어 → 한국어 매핑
+const categoryLabels: Record<string, string> = {
+  investment: "투자",
+  safety: "안전",
+  life: "라이프",
+  local: "로컬",
+  essay: "에세이",
+};
+
+// 드롭다운 옵션 정의
+const categoryOptions: SelectOption[] = [
+  { value: "all", label: "전체", emoji: "📋" },
+  { value: "investment", label: "투자", emoji: "📈" },
+  { value: "safety", label: "안전", emoji: "🛡️" },
+  { value: "life", label: "라이프", emoji: "🌱" },
+  { value: "local", label: "로컬", emoji: "🇯🇵" },
+  { value: "essay", label: "에세이", emoji: "✍️" },
+];
+
+const statusOptions: SelectOption[] = [
+  { value: "all", label: "전체" },
+  { value: "db-draft", label: "작성 중", emoji: "📁" },
+  { value: "git-only", label: "발행됨", emoji: "🌍" },
+  { value: "unsynced", label: "수정됨", emoji: "⚠️" },
+  { value: "published", label: "발행 완료", emoji: "✅" },
+  { value: "draft", label: "임시 저장" },
+  { value: "editing", label: "편집 중" },
+  { value: "review", label: "검토 요청" },
+];
+
+const modalCategoryOptions: SelectOption[] = [
+  { value: "investment", label: "투자", emoji: "📈" },
+  { value: "safety", label: "안전", emoji: "🛡️" },
+  { value: "life", label: "라이프", emoji: "🌱" },
+  { value: "local", label: "로컬", emoji: "🇯🇵" },
+  { value: "essay", label: "에세이", emoji: "✍️" },
+];
+
+const langOptions: SelectOption[] = [
+  { value: "ko", label: "한국어 (KO)", emoji: "🇰🇷" },
+  { value: "en", label: "영어 (EN)", emoji: "🇺🇸" },
+  { value: "ja", label: "일본어 (JA)", emoji: "🇯🇵" },
+];
 
 export type PostTranslation = {
   title: string;
@@ -182,37 +227,25 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
           {/* 카테고리 필터 */}
           <div className="flex items-center gap-2">
             <span className="text-xs opacity-70 whitespace-nowrap">분류</span>
-            <select
+            <CustomSelect
+              options={categoryOptions}
               value={categoryFilter}
-              onChange={(e) => setCategoryFilter(e.target.value)}
-              className="px-3 py-2 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
-            >
-              <option value="all">전체</option>
-              <option value="investment">📈 투자</option>
-              <option value="safety">🛡️ 안전</option>
-              <option value="life">🌱 라이프</option>
-              <option value="local">🇯🇵 로컬</option>
-              <option value="essay">✍️ 에세이</option>
-            </select>
+              onChange={setCategoryFilter}
+              compact
+              className="min-w-[130px]"
+            />
           </div>
 
           {/* 상태 필터 */}
           <div className="flex items-center gap-2">
             <span className="text-xs opacity-70 whitespace-nowrap">상태</span>
-            <select
+            <CustomSelect
+              options={statusOptions}
               value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-3 py-2 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
-            >
-              <option value="all">전체</option>
-              <option value="db-draft">📁 작성 중</option>
-              <option value="git-only">🌍 발행됨</option>
-              <option value="unsynced">⚠️ 수정됨</option>
-              <option value="published">✅ 발행 완료</option>
-              <option value="draft">임시 저장</option>
-              <option value="editing">편집 중</option>
-              <option value="review">검토 요청</option>
-            </select>
+              onChange={setStatusFilter}
+              compact
+              className="min-w-[140px]"
+            />
           </div>
         </div>
       </div>
@@ -316,7 +349,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                       <td className="px-6 py-4.5 whitespace-nowrap">
                         <span className="text-xs opacity-90 font-medium">
                           {categoryEmoji[post.category] || "📂"}{" "}
-                          <span className="capitalize">{post.category}</span>
+                          {categoryLabels[post.category] || post.category}
                         </span>
                       </td>
                       <td className="px-6 py-4.5 whitespace-nowrap">
@@ -441,32 +474,22 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                   <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
                     기본 언어
                   </label>
-                  <select
+                  <CustomSelect
+                    options={langOptions}
                     value={newLang}
-                    onChange={(e) => setNewLang(e.target.value as any)}
-                    className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
-                  >
-                    <option value="ko">한국어 (KO)</option>
-                    <option value="en">영어 (EN)</option>
-                    <option value="ja">일본어 (JA)</option>
-                  </select>
+                    onChange={(v) => setNewLang(v as any)}
+                  />
                 </div>
 
                 <div>
                   <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
                     카테고리
                   </label>
-                  <select
+                  <CustomSelect
+                    options={modalCategoryOptions}
                     value={newCategory}
-                    onChange={(e) => setNewCategory(e.target.value as any)}
-                    className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
-                  >
-                    <option value="investment">📈 투자</option>
-                    <option value="safety">🛡️ 안전</option>
-                    <option value="life">🌱 라이프</option>
-                    <option value="local">🇯🇵 로컬</option>
-                    <option value="essay">✍️ 에세이</option>
-                  </select>
+                    onChange={(v) => setNewCategory(v as any)}
+                  />
                 </div>
               </div>
 
