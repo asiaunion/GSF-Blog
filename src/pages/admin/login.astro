@@ -1,0 +1,151 @@
+---
+/**
+ * Admin 로그인 페이지
+ * @see §14 세션 1-C
+ */
+import "@/styles/global.css";
+export const prerender = false;
+
+const errorMessages: Record<string, string> = {
+  config: "서버 설정 오류입니다. 관리자에게 문의하세요.",
+  oauth_denied: "Google 로그인이 취소되었습니다.",
+  state_mismatch: "보안 검증 실패. 다시 시도해주세요.",
+  missing_verifier: "인증 흐름 오류. 다시 시도해주세요.",
+  missing_params: "잘못된 요청입니다.",
+  forbidden: "접근 권한이 없습니다. 허용된 계정으로 로그인해주세요.",
+  server_error: "서버 오류가 발생했습니다. 잠시 후 다시 시도해주세요.",
+  session_expired: "세션이 만료되었습니다. 다시 로그인해주세요.",
+  unknown: "알 수 없는 오류가 발생했습니다.",
+};
+
+const url = new URL(Astro.request.url);
+const errorKey = url.searchParams.get("error") ?? "";
+const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknown) : null;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Admin 로그인 — GSF-Blog</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        min-height: 100dvh;
+        display: grid;
+        place-items: center;
+        background: #0a0f1e;
+        color: #e2e8f0;
+      }
+
+      .card {
+        width: min(360px, 90vw);
+        padding: 2.5rem 2rem;
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 16px;
+        backdrop-filter: blur(12px);
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        text-align: center;
+      }
+
+      .logo {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: #f1f5f9;
+        margin-bottom: 0.25rem;
+      }
+
+      .subtitle {
+        font-size: 0.8rem;
+        color: #64748b;
+        margin-bottom: 2rem;
+      }
+
+      .btn-google {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625rem;
+        width: 100%;
+        padding: 0.75rem 1rem;
+        background: #fff;
+        color: #1f2937;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+      }
+
+      .btn-google:hover {
+        background: #f8fafc;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      }
+
+      .btn-google:active { transform: translateY(0); }
+
+      .google-icon {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+      }
+
+      .error-box {
+        margin-top: 1.25rem;
+        padding: 0.75rem 1rem;
+        background: rgba(239, 68, 68, 0.1);
+        border: 1px solid rgba(239, 68, 68, 0.3);
+        border-radius: 8px;
+        font-size: 0.8rem;
+        color: #fca5a5;
+        line-height: 1.5;
+      }
+
+      .footer {
+        margin-top: 2rem;
+        font-size: 0.7rem;
+        color: #334155;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="logo">🔐</div>
+      <h1>GSF-Blog Admin</h1>
+      <p class="subtitle">관리자 전용 — 허용된 계정만 접근 가능</p>
+
+      <a id="btn-google-login" href="/admin/api/auth/login/" class="btn-google">
+        <!-- Google G 아이콘 (SVG) -->
+        <svg class="google-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+          <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+          <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+          <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+        </svg>
+        Google로 로그인
+      </a>
+
+      {errorMessage && (
+        <div class="error-box" role="alert">
+          ⚠️ {errorMessage}
+        </div>
+      )}
+
+      <p class="footer">GSF-Blog CMS · gsfark.com</p>
+    </div>
+  </body>
+</html>

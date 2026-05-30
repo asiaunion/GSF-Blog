@@ -26,7 +26,7 @@ Guide: [`ADSENSE_AND_GSC_CHECKLIST.md`](./ADSENSE_AND_GSC_CHECKLIST.md)
 - [x] `PUBLIC_ADSENSE_PUBLISHER_ID` on Vercel production
 - [x] Application submitted in Google UI *(approval waiting)*
 - [ ] After approval: `public/ads.txt` + verify live *(현재 `https://gsfark.com/ads.txt` 200, repo `public/ads.txt` 존재)*
-- [ ] Lighthouse ≥90 on `/`, `/topics/`, one long post (mobile + desktop) *(2026-05-27 성능 개선 코드/hero variants 푸시 완료. 로컬 Lighthouse: Best Practices 100, image-delivery-insight는 개선 확인(선택 변형 672). 다만 prod `gsfark.com`에 `srcset` 반영 전이라 배포/재측정 필요)*
+- [ ] Lighthouse ≥90 on `/`, `/topics/`, one long post (mobile + desktop) *(2026-05-27 Cursor prod 측정 — **Best Practices 100** 전 URL. **Performance:** mobile `/` 79, `/topics/` 84, long-post 87; desktop `/` 88, `/topics/` **92**, long-post **98**. long-post hero `srcset` 미배포 → `image-delivery-insight` 0, mobile perf 90+ 재측정은 배포 후)*
 
 ---
 
@@ -68,3 +68,13 @@ pnpm run build              # before major releases
 - Production reachability: `/`, `/topics/`, `/ko/topics/`, `/ja/topics/`, `/about/`, `/ko/about/`, `/ja/about/`, `/privacy-policy/`, `/ads.txt` = 200
 - Redirects: `/sitemap.xml` → `/sitemap-index.xml` (308), `/ko/tags/foo/2/` → `/ko/tags/foo/` (308)
 - Follow-up patch staged: `vercel.json`에 `/privacy/`, `/ko/privacy/`, `/ja/privacy/` → `*-privacy-policy/` redirect 추가 (배포 필요)
+
+### Lighthouse prod (2026-05-27, HeadlessChrome mobile + desktop preset)
+
+| URL | Mobile perf | Mobile BP | Desktop perf | Desktop BP | LCP (m / d) |
+|-----|-------------|-----------|--------------|------------|-------------|
+| `/` | 79 | 100 | 88 | 100 | 4.2s / 2.3s |
+| `/topics/` | 84 | 100 | 92 | 100 | 4.0s / 1.8s |
+| long-post | 87 | 100 | 98 | 100 | 3.4s / 1.0s |
+
+- long-post hero HTML: `srcset` 없음(아직 `width=1200 height=630`만) → hero variants 배포 후 mobile perf·image-delivery 재측정

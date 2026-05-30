@@ -2,6 +2,17 @@
 
 ## Approved States
 
+- **2026-05-30**: GSF-Blog Admin CMS P2 Post List, Editor, Auto-save & Revisions Complete - Tag: `v-approved-20260530-admin-cms-p2-complete`
+  - DB 드래프트와 GitHub API 발행 목록을 지능적으로 실시간 병합하는 `PostList.tsx` 컴포넌트 및 API 완비.
+  - 마크다운 WYSIWYG 에디터인 Milkdown Crepe의 마운트 구조(`root` 엘리먼트 타겟팅) 설계 및 탭 전환 시 인스턴스 소멸/재마운트 처리를 통한 다국어(ko/en/ja) 동적 탭 에디터 구현 완료.
+  - 1초 주기 본문 Polling 감지 및 타이핑 종료 2초 후 자동저장 기능, 그리고 본문 변경 감지 시 `revision_history` 에 이전 스냅샷을 자동 백업하는 감사 연동 완료.
+  - 슬라이드식 사이드바 `RevisionPanel.tsx` 를 통해 과거 버전을 조회하고 임의의 시점으로 본문을 즉시 롤백하는 복원 기능 통합 완료.
+- **2026-05-30**: GSF-Blog Admin CMS P1 Infrastructure & Google OAuth Verification Complete - Tag: `v-approved-20260530-admin-cms-p1-complete`
+  - Google Cloud Console OAuth 2.0 및 Redirect URI (`http://localhost:4321/admin/api/auth/callback/`) 연동 성공.
+  - Astro `trailingSlash: "always"` 환경에서 발생할 수 있는 404 에러를 방지하기 위해 미들웨어 및 모든 인증 API, 로그인/대시보드 템플릿의 하드코딩된 리다이렉트 경로와 버튼 링크를 끝 슬래시(`/`) 주소로 통일 및 패치 완료.
+  - 화이트리스트(`ADMIN_EMAILS=asiaunion@gmail.com,mayumiot@gmail.com`)에 등록된 승인된 계정으로 대시보드 진입(성함: Seung-Ju Kim) 정상 작동 확인.
+  - 비인가 계정 시도 시 `?error=forbidden`과 함께 403 차단 화면 작동 확인 및 `/robots.txt` 내 `Disallow: /admin/` 반영 성공.
+  - 로그아웃 시 JWT jti 블랙리스트 처리 및 세션 쿠키 삭제와 로그인 리다이렉트 안전 동작 확인.
 - **2026-05-23**: Redesign Tokyo Real Estate Cost Stack SVG charts & fix missing xmlns namespaces - Tag: `v-approved-20260523-fix-tokyo-cost-stack-chart`
   - `japan-real-estate-three-things` 포스트에 삽입된 비용 구조 SVG 차트를 고품격 100% 수직 스택형 바 차트로 전면 재디자인 및 다국어(ko/en/ja) 동기화 완료.
   - `public/assets/images/blog/svg/` 아래에 있는 전체 SVG 도표 파일(총 43개)의 네임스페이스 선언 누락 오류(`xmlns="http://www.w3.org/2000/svg"`)를 파이썬 스크립트로 일괄 치료하여 엑스박스 렌더링 에러를 완벽하게 차단.
@@ -32,3 +43,14 @@
   - Verified via live site deployment: ![Verification Screenshot](/Users/gsf/.gemini/antigravity/brain/dfd883cc-2aeb-4df7-88b1-b9d9ead82626/strikethrough_fix_verification_1779098758381.png)
 
 
+
+### Phase 3: 에디터 완성 (v-approved-20260530-admin-cms-p3-complete)
+- **Editor.tsx Split View**: 좌측 Milkdown Crepe (마크다운 에디터) ↔ 우측 실시간 HTML PreviewPane ↔ 가장 우측 Frontmatter 설정 패널로 구성.
+- **이미지 업로드 파이프라인**: Drag & Drop / 버튼 업로드 연동, `sharp` 기반 WebP 1920px 리사이즈 및 EXIF 제거 후 `@vercel/blob` 업로드. DB `media` 테이블에 내역 저장.
+- **대시보드 및 메모**: Glassmorphism 대시보드에서 포스트 상태별 통계 및 최근 감사 로그(audit_log) 표시. 메모 전용 필터를 가진 `memos` 뷰어 구축 완료.
+
+### Phase 4: 발행 파이프라인 통합 (v-approved-20260530-admin-cms-p4-complete)
+- **GitHub API 연동 발행**: `src/admin/lib/github.ts` 를 통해 작성된 마크다운을 GitHub API 로 직접 Commit/Push (Vercel 자동 배포 트리거 연동).
+- **빈 번역 건너뛰기 기능**: 제목이나 본문이 작성되지 않은 언어(예: 영어, 일본어 미작성 시)는 빈 파일로 배포하지 않도록 처리하여 안전성 확보.
+- **감사 로그(Audit Log) 명시적 기록**: `publish`, `import` 행위가 발생할 때 `audit_log` 테이블에 사용자 이메일, IP 주소 및 User-Agent 기록.
+- **가져오기(Import) 파이프라인**: GitHub Repository 에만 존재하고 DB 에는 없는 기존 `.mdx` 포스트들을 DB 와 동기화하는 로직 구현 완료.

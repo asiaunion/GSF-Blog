@@ -1,0 +1,132 @@
+---
+/**
+ * Admin 메모 목록 페이지
+ * prerender=false 필수 (SSR)
+ */
+import "@/styles/global.css";
+import PostList from "@/admin/components/PostList";
+
+export const prerender = false;
+
+type AdminUser = { email: string; name: string; picture?: string };
+const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undefined;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>메모장 — GSF-Blog Admin</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        min-height: 100dvh;
+        background: #060913;
+        color: #f1f5f9;
+        padding-bottom: 4rem;
+      }
+      
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.25rem 2rem;
+        background: rgba(10, 15, 30, 0.5);
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        position: sticky;
+        top: 0;
+        z-index: 40;
+      }
+      
+      .brand {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 700;
+        background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      
+      .user-info {
+        display: flex;
+        align-items: center;
+        gap: 0.875rem;
+        font-size: 0.875rem;
+        color: #94a3b8;
+      }
+      
+      .user-info img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: 2px solid rgba(16, 185, 129, 0.3);
+      }
+      
+      .btn-logout {
+        padding: 0.45rem 1rem;
+        background: rgba(239, 68, 68, 0.08);
+        border: 1px solid rgba(239, 68, 68, 0.2);
+        border-radius: 10px;
+        color: #fca5a5;
+        font-size: 0.8rem;
+        font-weight: 500;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.2s ease;
+      }
+      
+      .btn-logout:hover {
+        background: rgba(239, 68, 68, 0.18);
+        border-color: rgba(239, 68, 68, 0.4);
+      }
+
+      /* 전역 애니메이션 클래스 */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes scaleUp {
+        from { transform: scale(0.97); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+      }
+      
+      :global(.animate-fadeIn) { animation: fadeIn 0.2s ease-out forwards; }
+      :global(.animate-scaleUp) { animation: scaleUp 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/admin/" class="brand">
+        <span style="font-size: 1.35rem">🛠️</span>
+        GSF-Blog Admin
+      </a>
+      <div class="user-info">
+        {user?.picture && <img src={user.picture} alt={user.name} />}
+        <span class="font-medium text-gray-200">{user?.name ?? user?.email ?? "관리자"}</span>
+        <form method="POST" action="/admin/api/auth/logout/">
+          <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <div class="max-w-7xl mx-auto px-4 mt-6">
+        <a href="/admin/" class="text-sm text-gray-400 hover:text-emerald-400 transition-colors mb-2 inline-block">← 대시보드로 돌아가기</a>
+      </div>
+      <PostList defaultStatusFilter="memo" client:only="react" />
+    </main>
+  </body>
+</html>
