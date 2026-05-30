@@ -124,6 +124,67 @@ export default defineConfig({
         context: "client",
         optional: true,
       }),
+      // ── Admin CMS — 서버 전용 환경변수 ─────────────────────────────
+      /** Turso DB URL (libsql://...) */
+      TURSO_DATABASE_URL: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** Turso DB 인증 토큰 */
+      TURSO_AUTH_TOKEN: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** Google OAuth Client ID */
+      GOOGLE_CLIENT_ID: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** Google OAuth Client Secret */
+      GOOGLE_CLIENT_SECRET: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** Google OAuth Redirect URI */
+      GOOGLE_REDIRECT_URI: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** 허용된 관리자 이메일 목록 (쉼표 구분) */
+      ADMIN_EMAILS: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** JWT 서명 시크릿 (256비트 이상) */
+      JWT_SECRET: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** JWT 이전 시크릿 (키 로테이션용) */
+      JWT_SECRET_PREVIOUS: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** GitHub Fine-grained Personal Access Token */
+      GITHUB_TOKEN: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
+      /** AG API Key (AG 연동용) */
+      AG_API_KEY: envField.string({
+        access: "secret",
+        context: "server",
+        optional: true,
+      }),
     },
   },
   experimental: {
