@@ -1,8 +1,8 @@
 # Design Baseline — Admin CMS
 
-> 최종 승인: 2026-05-30 (Phase C/D) | 태그: `v-approved-20260530-phase-cd-fixes`
-> 이전 승인: 2026-05-30 | 태그: `v-approved-20260530-admin-ux-overhaul`
-> 브랜치: `ui/admin-design-unification` | 커밋: `cad3537`
+> 최종 승인: 2026-05-30 (Phase 5-B Security & Final Audit) | 태그: `v-approved-20260530-admin-cms-final`
+> 이전 승인: 2026-05-30 | 태그: `v-approved-20260530-admin-memo-expansion`
+> 브랜치: `main`
 
 ## 승인된 디자인 사양
 
@@ -40,6 +40,8 @@ rounded-xl (버튼/인풋)
 - `snapshots/06-postlist-light.png`
 - `snapshots/07-editor-dark.png`
 - `snapshots/08-editor-light.png`
+
+*(Note: Phase 5-A Memo Expansion 스크린샷은 자동 캡처가 생략되었습니다. `MemoList`, `MemoCard`의 UI 형태는 기존 `design-baseline.md`의 기조를 따릅니다.)*
 
 ## 잔여 이슈 (Phase C/D) — ✅ 전건 해결
 1. ~~카테고리 컬럼 영어(`Investment`)~~ → `categoryLabels` 매핑 추가, 한국어 표시 (`투자` 등)

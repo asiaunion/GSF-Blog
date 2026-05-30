@@ -2,6 +2,7 @@ import type { APIRoute } from "astro";
 import { dbExecute, dbBatch } from "@/admin/lib/db";
 import { verifyJwt, AUTH_COOKIE_NAME } from "@/admin/lib/auth";
 import { getBlogFileContent, getFileSha } from "@/admin/lib/github";
+import { checkRateLimit, isCsrfAttack, rateLimitResponse, csrfErrorResponse, getClientIp, RATE_LIMITS } from "@/admin/lib/security";
 
 export const prerender = false;
 
@@ -32,6 +33,13 @@ function parseMarkdown(markdown: string) {
 
 export const POST: APIRoute = async (context) => {
   try {
+    if (isCsrfAttack(context.request)) return csrfErrorResponse();
+    
+    const ip = getClientIp(context.request);
+    if (checkRateLimit(`import_${ip}`, RATE_LIMITS.publish)) {
+      return rateLimitResponse();
+    }
+
     const token = context.cookies.get(AUTH_COOKIE_NAME)?.value;
     if (!token) return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401 });
 

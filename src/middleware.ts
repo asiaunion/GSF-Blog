@@ -23,45 +23,48 @@ const PUBLIC_ADMIN_PATHS = new Set([
 export const onRequest = defineMiddleware(async (context, next) => {
   const { pathname } = new URL(context.request.url);
 
-  // /admin/* 경로만 처리
-  if (!pathname.startsWith("/admin")) {
-    return next();
+  let response: Response;
+
+  // /admin/* 경로 인증 검증
+  if (pathname.startsWith("/admin") && !PUBLIC_ADMIN_PATHS.has(pathname)) {
+    const cookies = parseCookies(context.request.headers.get("cookie"));
+    const token = cookies[AUTH_COOKIE_NAME];
+
+    if (!token) {
+      response = new Response(null, { status: 302, headers: { Location: "/admin/login/" } });
+    } else {
+      const payload = await verifyJwt(token).catch(() => null);
+
+      if (!payload) {
+        // 만료/위조/블랙리스트 — 로그인 페이지로
+        const headers = new Headers({
+          Location: "/admin/login/?error=session_expired",
+        });
+        headers.append(
+          "Set-Cookie",
+          `${AUTH_COOKIE_NAME}=; HttpOnly; SameSite=Lax; Path=/admin; Max-Age=0; Secure`
+        );
+        response = new Response(null, { status: 302, headers });
+      } else {
+        // context.locals에 사용자 정보 주입
+        (context.locals as Record<string, unknown>).user = {
+          email: payload.sub,
+          name: payload.name,
+          picture: payload.picture,
+        };
+        response = await next();
+      }
+    }
+  } else {
+    // /admin/* 이 아니거나 공개된 /admin 경로는 통과
+    response = await next();
   }
 
-  // 공개 경로는 통과
-  if (PUBLIC_ADMIN_PATHS.has(pathname)) {
-    return next();
-  }
+  // 글로벌 보안 헤더 주입
+  response.headers.set("X-Content-Type-Options", "nosniff");
+  response.headers.set("X-Frame-Options", "DENY");
+  response.headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
+  response.headers.set("Strict-Transport-Security", "max-age=31536000; includeSubDomains");
 
-  // JWT 검증
-  const cookies = parseCookies(context.request.headers.get("cookie"));
-  const token = cookies[AUTH_COOKIE_NAME];
-
-  if (!token) {
-    return new Response(null, { status: 302, headers: { Location: "/admin/login/" } });
-  }
-
-  const payload = await verifyJwt(token).catch(() => null);
-
-  if (!payload) {
-    // 만료/위조/블랙리스트 — 로그인 페이지로
-    const headers = new Headers({
-      Location: "/admin/login/?error=session_expired",
-    });
-    // 만료된 쿠키 제거
-    headers.append(
-      "Set-Cookie",
-      `${AUTH_COOKIE_NAME}=; HttpOnly; SameSite=Lax; Path=/admin; Max-Age=0; Secure`
-    );
-    return new Response(null, { status: 302, headers });
-  }
-
-  // context.locals에 사용자 정보 주입 (페이지에서 Astro.locals.user로 접근)
-  (context.locals as Record<string, unknown>).user = {
-    email: payload.sub,
-    name: payload.name,
-    picture: payload.picture,
-  };
-
-  return next();
+  return response;
 });

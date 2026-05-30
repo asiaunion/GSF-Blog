@@ -2,6 +2,7 @@ import type { APIRoute } from "astro";
 import { getBlogFiles } from "@/admin/lib/github";
 import { dbExecute, dbBatch } from "@/admin/lib/db";
 import { createPostSchema } from "@/admin/schemas/api-schemas";
+import { checkRateLimit, isCsrfAttack, rateLimitResponse, csrfErrorResponse, getClientIp, RATE_LIMITS } from "@/admin/lib/security";
 
 export const prerender = false;
 
@@ -157,6 +158,13 @@ export const GET: APIRoute = async ({ request, locals }) => {
 // POST /admin/api/posts/
 export const POST: APIRoute = async ({ request, locals }) => {
   try {
+    if (isCsrfAttack(request)) return csrfErrorResponse();
+    
+    const ip = getClientIp(request);
+    if (checkRateLimit(`posts_${ip}`, RATE_LIMITS.posts)) {
+      return rateLimitResponse();
+    }
+
     const user = (locals as any).user;
     const author = user?.name || "satoru";
     const body = await request.json();

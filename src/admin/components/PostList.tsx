@@ -417,11 +417,11 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
         </div>
       )}
 
-      {/* 새 포스트 작성 모달 (Glassmorphic Modal) */}
+      {/* 새 포스트 작성 모달 (Solid Modal) */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 animate-fadeIn">
-          <div className="w-full max-w-lg bg-card-bg border border-border rounded-2xl overflow-hidden shadow-2xl animate-scaleUp">
-            <div className="px-6 py-4.5 bg-background border-b border-border flex items-center justify-between">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
+          <div className="w-full max-w-lg bg-background border border-border rounded-2xl overflow-hidden shadow-2xl animate-scaleUp">
+            <div className="px-6 py-4.5 border-b border-border flex items-center justify-between bg-muted/30">
               <h2 className="text-lg font-bold text-foreground">새 포스트 작성</h2>
               <button
                 onClick={() => setIsModalOpen(false)}

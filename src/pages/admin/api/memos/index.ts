@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { dbExecute } from "@/admin/lib/db";
 import { createMemoSchema } from "@/admin/schemas/api-schemas";
+import { checkRateLimit, isCsrfAttack, rateLimitResponse, csrfErrorResponse, getClientIp, RATE_LIMITS } from "@/admin/lib/security";
 
 export const prerender = false;
 
@@ -29,6 +30,13 @@ export const GET: APIRoute = async ({ request, locals }) => {
 // POST /admin/api/memos
 export const POST: APIRoute = async ({ request, locals }) => {
   try {
+    if (isCsrfAttack(request)) return csrfErrorResponse();
+    
+    const ip = getClientIp(request);
+    if (checkRateLimit(`memos_${ip}`, RATE_LIMITS.posts)) {
+      return rateLimitResponse();
+    }
+
     const body = await request.json();
     const result = createMemoSchema.safeParse(body);
     

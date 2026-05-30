@@ -1,6 +1,7 @@
 import type { APIRoute } from "astro";
 import { dbExecute, dbBatch } from "@/admin/lib/db";
 import { updatePostSchema } from "@/admin/schemas/api-schemas";
+import { checkRateLimit, isCsrfAttack, rateLimitResponse, csrfErrorResponse, getClientIp, RATE_LIMITS } from "@/admin/lib/security";
 
 export const prerender = false;
 
@@ -68,6 +69,13 @@ export const GET: APIRoute = async ({ params }) => {
 // PUT /admin/api/posts/:id/
 export const PUT: APIRoute = async ({ params, request }) => {
   try {
+    if (isCsrfAttack(request)) return csrfErrorResponse();
+    
+    const ip = getClientIp(request);
+    if (checkRateLimit(`posts_${ip}`, RATE_LIMITS.posts)) {
+      return rateLimitResponse();
+    }
+
     const { id } = params;
     if (!id) {
       return new Response(JSON.stringify({ error: "포스트 ID가 누락되었습니다." }), {

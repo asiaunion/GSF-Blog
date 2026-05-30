@@ -2,6 +2,7 @@ import type { APIRoute } from "astro";
 import { processImageUpload, validateMagicNumber } from "@/admin/lib/image-pipeline";
 import { storage } from "@/admin/lib/storage";
 import { dbExecute } from "@/admin/lib/db";
+import { checkRateLimit, isCsrfAttack, rateLimitResponse, csrfErrorResponse, getClientIp, RATE_LIMITS } from "@/admin/lib/security";
 
 export const prerender = false;
 
@@ -9,6 +10,13 @@ export const POST: APIRoute = async ({ request, locals }) => {
   const user = (locals as any).user;
   if (!user) {
     return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401 });
+  }
+
+  if (isCsrfAttack(request)) return csrfErrorResponse();
+  
+  const ip = getClientIp(request);
+  if (checkRateLimit(`upload_${ip}`, RATE_LIMITS.upload)) {
+    return rateLimitResponse();
   }
 
   try {

@@ -3,11 +3,19 @@ import { dbExecute } from "@/admin/lib/db";
 import { verifyJwt, AUTH_COOKIE_NAME } from "@/admin/lib/auth";
 import { getFileSha, commitFile } from "@/admin/lib/github";
 import { generateMarkdown } from "@/admin/lib/markdown-generator";
+import { checkRateLimit, isCsrfAttack, rateLimitResponse, csrfErrorResponse, getClientIp, RATE_LIMITS } from "@/admin/lib/security";
 
 export const prerender = false;
 
 export const POST: APIRoute = async (context) => {
   try {
+    if (isCsrfAttack(context.request)) return csrfErrorResponse();
+    
+    const ip = getClientIp(context.request);
+    if (checkRateLimit(`publish_${ip}`, RATE_LIMITS.publish)) {
+      return rateLimitResponse();
+    }
+
     const token = context.cookies.get(AUTH_COOKIE_NAME)?.value;
     if (!token) {
       return new Response(JSON.stringify({ error: "Unauthorized" }), { status: 401 });
