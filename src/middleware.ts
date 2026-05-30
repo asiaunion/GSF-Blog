@@ -13,8 +13,11 @@ import { parseCookies } from "./admin/lib/security";
 // 인증 없이 접근 가능한 /admin 하위 경로 (화이트리스트)
 const PUBLIC_ADMIN_PATHS = new Set([
   "/admin/login",
+  "/admin/login/",
   "/admin/api/auth/login",
+  "/admin/api/auth/login/",
   "/admin/api/auth/callback",
+  "/admin/api/auth/callback/",
 ]);
 
 export const onRequest = defineMiddleware(async (context, next) => {
@@ -35,7 +38,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const token = cookies[AUTH_COOKIE_NAME];
 
   if (!token) {
-    return Response.redirect(new URL("/admin/login", context.request.url), 302);
+    return Response.redirect(new URL("/admin/login/", context.request.url), 302);
   }
 
   const payload = await verifyJwt(token).catch(() => null);
@@ -43,7 +46,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   if (!payload) {
     // 만료/위조/블랙리스트 — 로그인 페이지로
     const headers = new Headers({
-      Location: new URL("/admin/login?error=session_expired", context.request.url).toString(),
+      Location: new URL("/admin/login/?error=session_expired", context.request.url).toString(),
     });
     // 만료된 쿠키 제거
     headers.append(

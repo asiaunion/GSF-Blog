@@ -2,6 +2,12 @@
 
 ## Approved States
 
+- **2026-05-30**: GSF-Blog Admin CMS P1 Infrastructure & Google OAuth Verification Complete - Tag: `v-approved-20260530-admin-cms-p1-complete`
+  - Google Cloud Console OAuth 2.0 및 Redirect URI (`http://localhost:4321/admin/api/auth/callback/`) 연동 성공.
+  - Astro `trailingSlash: "always"` 환경에서 발생할 수 있는 404 에러를 방지하기 위해 미들웨어 및 모든 인증 API, 로그인/대시보드 템플릿의 하드코딩된 리다이렉트 경로와 버튼 링크를 끝 슬래시(`/`) 주소로 통일 및 패치 완료.
+  - 화이트리스트(`ADMIN_EMAILS=asiaunion@gmail.com,mayumiot@gmail.com`)에 등록된 승인된 계정으로 대시보드 진입(성함: Seung-Ju Kim) 정상 작동 확인.
+  - 비인가 계정 시도 시 `?error=forbidden`과 함께 403 차단 화면 작동 확인 및 `/robots.txt` 내 `Disallow: /admin/` 반영 성공.
+  - 로그아웃 시 JWT jti 블랙리스트 처리 및 세션 쿠키 삭제와 로그인 리다이렉트 안전 동작 확인.
 - **2026-05-23**: Redesign Tokyo Real Estate Cost Stack SVG charts & fix missing xmlns namespaces - Tag: `v-approved-20260523-fix-tokyo-cost-stack-chart`
   - `japan-real-estate-three-things` 포스트에 삽입된 비용 구조 SVG 차트를 고품격 100% 수직 스택형 바 차트로 전면 재디자인 및 다국어(ko/en/ja) 동기화 완료.
   - `public/assets/images/blog/svg/` 아래에 있는 전체 SVG 도표 파일(총 43개)의 네임스페이스 선언 누락 오류(`xmlns="http://www.w3.org/2000/svg"`)를 파이썬 스크립트로 일괄 치료하여 엑스박스 렌더링 에러를 완벽하게 차단.

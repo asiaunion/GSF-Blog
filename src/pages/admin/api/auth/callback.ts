@@ -40,11 +40,11 @@ export const GET: APIRoute = async ({ request }) => {
   // Google에서 에러 반환 시
   if (errorParam) {
     console.warn("[admin/auth/callback] OAuth error:", errorParam);
-    return redirect("/admin/login?error=oauth_denied");
+    return redirect("/admin/login/?error=oauth_denied");
   }
 
   if (!code || !state) {
-    return redirect("/admin/login?error=missing_params");
+    return redirect("/admin/login/?error=missing_params");
   }
 
   // 쿠키에서 state / codeVerifier 추출
@@ -54,11 +54,11 @@ export const GET: APIRoute = async ({ request }) => {
 
   // state 검증 (CSRF 방지)
   if (!savedState || savedState !== state) {
-    return redirect("/admin/login?error=state_mismatch");
+    return redirect("/admin/login/?error=state_mismatch");
   }
 
   if (!codeVerifier) {
-    return redirect("/admin/login?error=missing_verifier");
+    return redirect("/admin/login/?error=missing_verifier");
   }
 
   try {
@@ -72,7 +72,7 @@ export const GET: APIRoute = async ({ request }) => {
     ).catch(() => {}); // 감사 로그 실패는 로그인 차단하지 않음
 
     // 쿠키 정리 + 세션 쿠키 설정
-    const headers = new Headers({ Location: "/admin" });
+    const headers = new Headers({ Location: "/admin/" });
     headers.append("Set-Cookie", buildSessionCookie(token));
     // OAuth 임시 쿠키 제거
     headers.append(
@@ -92,11 +92,11 @@ export const GET: APIRoute = async ({ request }) => {
         "INSERT INTO audit_log (user_email, action, ip) VALUES (?, ?, ?)",
         [err.message, "login_denied", ip]
       ).catch(() => {});
-      return redirect("/admin/login?error=forbidden");
+      return redirect("/admin/login/?error=forbidden");
     }
 
     console.error("[admin/auth/callback]", err);
-    return redirect("/admin/login?error=server_error");
+    return redirect("/admin/login/?error=server_error");
   }
 };
 

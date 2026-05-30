@@ -45,7 +45,7 @@ export const GET: APIRoute = async ({ request }) => {
         : "unknown";
     return new Response(null, {
       status: 302,
-      headers: { Location: `/admin/login?error=${errParam}` },
+      headers: { Location: `/admin/login/?error=${errParam}` },
     });
   }
 };

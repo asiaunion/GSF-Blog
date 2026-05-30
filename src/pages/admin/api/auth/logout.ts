@@ -43,7 +43,7 @@ export const POST: APIRoute = async ({ request }) => {
     }
   }
 
-  const headers = new Headers({ Location: "/admin/login" });
+  const headers = new Headers({ Location: "/admin/login/" });
   headers.append("Set-Cookie", buildClearCookie());
 
   return new Response(null, { status: 302, headers });
