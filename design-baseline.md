@@ -40,7 +40,7 @@ rounded-xl (버튼/인풋)
 - `snapshots/07-editor-dark.png`
 - `snapshots/08-editor-light.png`
 
-## 잔여 이슈 (Phase C/D)
-1. 카테고리 컬럼 영어(`Investment`) — API enum 프론트 매핑 추가 필요
-2. 네이티브 `<select>` 드롭다운 → 커스텀 드롭다운 교체
-3. Milkdown `r` 아티팩트 (라이트 모드) — Crepe 렌더링 조사
+## 잔여 이슈 (Phase C/D) — ✅ 전건 해결
+1. ~~카테고리 컬럼 영어(`Investment`)~~ → `categoryLabels` 매핑 추가, 한국어 표시 (`투자` 등)
+2. ~~네이티브 `<select>` 드롭다운~~ → `CustomSelect.tsx` 커스텀 드롭다운 교체 (필터 2 + 모달 2 + 설정 1)
+3. ~~Milkdown `r` 아티팩트 (라이트 모드)~~ → Crepe CSS 변수를 블로그 `data-theme` 기반으로 동기화 + `frame-dark.css` import + `Inter` 폰트 통일
