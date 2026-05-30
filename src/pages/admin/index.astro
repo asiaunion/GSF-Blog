@@ -1,0 +1,44 @@
+---
+// Admin CMS 대시보드
+// 세션 2-C에서 실제 Dashboard 컴포넌트 구현 예정
+export const prerender = false;
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Admin — GSF-Blog</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        background: #0f172a;
+        color: #e2e8f0;
+      }
+      .card {
+        text-align: center;
+        padding: 2rem;
+        border: 1px solid #334155;
+        border-radius: 12px;
+      }
+      h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+      p { color: #94a3b8; font-size: 0.9rem; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>🛠️ Admin CMS</h1>
+      <p>GSF-Blog 관리자 — P1 세션 1-A 완료</p>
+      <p style="margin-top:1rem;font-size:0.75rem;color:#475569">
+        세션 1-C에서 Google OAuth 인증 구현 예정
+      </p>
+    </div>
+  </body>
+</html>

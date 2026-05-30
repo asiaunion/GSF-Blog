@@ -3,6 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import vercel from "@astrojs/vercel";
 import mdx from "@astrojs/mdx";
+import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 import remarkGfm from "remark-gfm";
 import remarkCollapse from "remark-collapse";
@@ -45,6 +46,8 @@ export default defineConfig({
     },
   },
   integrations: [
+    // React integration — admin 전용 (island architecture, 블로그 번들 영향 없음)
+    react(),
     mdx(),
     pagefindIntegration(),
     sitemap({

@@ -4,6 +4,9 @@ const getRobotsTxt = (sitemapURL: URL) => `
 User-agent: *
 Allow: /
 
+# Admin CMS — noindex at page level + disallow here for extra safety (AdSense protection)
+Disallow: /admin/
+
 # Legacy WordPress paths — no longer served (410 at edge); block crawl budget waste
 Disallow: /wp-admin/
 Disallow: /wp-includes/
