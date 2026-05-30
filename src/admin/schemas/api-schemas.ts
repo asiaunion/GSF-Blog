@@ -58,3 +58,8 @@ export const updatePostSchema = z.object({
   body_md: z.string().default(""),
 });
 
+// 메모 생성 스키마
+export const createMemoSchema = z.object({
+  content: z.string().min(1).max(2000),
+});
+
