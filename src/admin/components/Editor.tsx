@@ -3,6 +3,12 @@ import RevisionPanel from "./RevisionPanel";
 import PreviewPane from "./PreviewPane";
 import FrontmatterEditor from "./FrontmatterEditor";
 import ImageUploader from "./ImageUploader";
+import PublishPanel from "./PublishPanel";
+import TranslationStatus from "./TranslationStatus";
+
+// Milkdown Crepe 스타일 및 테마 명시적 임포트
+import "@milkdown/crepe/theme/common/style.css";
+import "@milkdown/crepe/theme/frame.css";
 
 export type PostTranslation = {
   id?: string;
@@ -24,10 +30,6 @@ export type MergedPost = {
   updated_at: string;
   translations: Record<string, PostTranslation>;
 };
-
-// Milkdown Crepe 스타일 및 테마 명시적 임포트
-import "@milkdown/crepe/theme/common/style.css";
-import "@milkdown/crepe/theme/frame.css";
 
 interface EditorProps {
   id: string;
@@ -322,30 +324,35 @@ export default function Editor({ id }: EditorProps) {
       <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
         {/* 2. 에디터 및 미리보기 영역 (좌측 9열) */}
         <div className="xl:col-span-9 flex flex-col gap-4">
-          {/* 다국어 언어 탭 */}
-          <div className="flex border-b border-white/5 bg-slate-900/40 p-1.5 rounded-xl gap-1">
-            {(["ko", "en", "ja"] as const).map((l) => (
-              <button
-                key={l}
-                onClick={() => {
-                  // 탭 변경 시 현재 에디터 내용 추출해서 최종 업데이트 후 변경
-                  if (crepeRef.current) {
-                    try {
-                      const txt = crepeRef.current.getMarkdown();
-                      setLocalMarkdown((prev) => ({ ...prev, [activeLang]: txt }));
-                    } catch (e) {}
-                  }
-                  setActiveLang(l);
-                }}
-                className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
-                  activeLang === l
-                    ? "bg-gradient-to-r from-emerald-500/15 to-teal-500/15 text-emerald-400 border border-emerald-500/25 shadow-inner"
-                    : "text-gray-400 hover:text-gray-200 border border-transparent"
-                }`}
-              >
-                {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
-              </button>
-            ))}
+          {/* 다국어 언어 탭 및 번역 상태 */}
+          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-white/5 bg-slate-900/40 p-1.5 rounded-xl gap-2 md:gap-4">
+            <div className="flex gap-1 flex-1">
+              {(["ko", "en", "ja"] as const).map((l) => (
+                <button
+                  key={l}
+                  onClick={() => {
+                    if (crepeRef.current) {
+                      try {
+                        const txt = crepeRef.current.getMarkdown();
+                        setLocalMarkdown((prev) => ({ ...prev, [activeLang]: txt }));
+                      } catch (e) {}
+                    }
+                    setActiveLang(l);
+                  }}
+                  className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
+                    activeLang === l
+                      ? "bg-gradient-to-r from-emerald-500/15 to-teal-500/15 text-emerald-400 border border-emerald-500/25 shadow-inner"
+                      : "text-gray-400 hover:text-gray-200 border border-transparent"
+                  }`}
+                >
+                  {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
+                </button>
+              ))}
+            </div>
+            {/* 번역 동기화 상태 (ko 기준) */}
+            <div className="px-2 shrink-0">
+              <TranslationStatus translations={post.translations} baseLang="ko" />
+            </div>
           </div>
 
           {/* 제목 수정 입력 폼 */}
@@ -421,6 +428,12 @@ export default function Editor({ id }: EditorProps) {
               <div className="truncate">Git SHA: <span className="text-gray-200">{post.git_sha || "미발행 (드래프트)"}</span></div>
             </div>
           </div>
+
+          {/* 퍼블리시 패널 */}
+          <PublishPanel 
+            postId={post.id} 
+            onPublishSuccess={() => fetchPostDetails()} 
+          />
         </div>
       </div>
     </div>

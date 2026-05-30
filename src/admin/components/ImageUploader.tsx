@@ -19,7 +19,7 @@ export default function ImageUploader({ postId, onUploadSuccess }: ImageUploader
       formData.append("file", file);
       formData.append("postId", postId);
 
-      const res = await fetch("/admin/api/upload", {
+      const res = await fetch("/admin/api/upload/", {
         method: "POST",
         body: formData,
       });
