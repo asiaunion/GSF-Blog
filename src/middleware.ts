@@ -38,7 +38,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const token = cookies[AUTH_COOKIE_NAME];
 
   if (!token) {
-    return Response.redirect(new URL("/admin/login/", context.request.url), 302);
+    return new Response(null, { status: 302, headers: { Location: "/admin/login/" } });
   }
 
   const payload = await verifyJwt(token).catch(() => null);
@@ -46,7 +46,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   if (!payload) {
     // 만료/위조/블랙리스트 — 로그인 페이지로
     const headers = new Headers({
-      Location: new URL("/admin/login/?error=session_expired", context.request.url).toString(),
+      Location: "/admin/login/?error=session_expired",
     });
     // 만료된 쿠키 제거
     headers.append(
