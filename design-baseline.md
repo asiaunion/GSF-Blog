@@ -2,6 +2,11 @@
 
 ## Approved States
 
+- **2026-05-30**: GSF-Blog Admin CMS P2 Post List, Editor, Auto-save & Revisions Complete - Tag: `v-approved-20260530-admin-cms-p2-complete`
+  - DB 드래프트와 GitHub API 발행 목록을 지능적으로 실시간 병합하는 `PostList.tsx` 컴포넌트 및 API 완비.
+  - 마크다운 WYSIWYG 에디터인 Milkdown Crepe의 마운트 구조(`root` 엘리먼트 타겟팅) 설계 및 탭 전환 시 인스턴스 소멸/재마운트 처리를 통한 다국어(ko/en/ja) 동적 탭 에디터 구현 완료.
+  - 1초 주기 본문 Polling 감지 및 타이핑 종료 2초 후 자동저장 기능, 그리고 본문 변경 감지 시 `revision_history` 에 이전 스냅샷을 자동 백업하는 감사 연동 완료.
+  - 슬라이드식 사이드바 `RevisionPanel.tsx` 를 통해 과거 버전을 조회하고 임의의 시점으로 본문을 즉시 롤백하는 복원 기능 통합 완료.
 - **2026-05-30**: GSF-Blog Admin CMS P1 Infrastructure & Google OAuth Verification Complete - Tag: `v-approved-20260530-admin-cms-p1-complete`
   - Google Cloud Console OAuth 2.0 및 Redirect URI (`http://localhost:4321/admin/api/auth/callback/`) 연동 성공.
   - Astro `trailingSlash: "always"` 환경에서 발생할 수 있는 404 에러를 방지하기 위해 미들웨어 및 모든 인증 API, 로그인/대시보드 템플릿의 하드코딩된 리다이렉트 경로와 버튼 링크를 끝 슬래시(`/`) 주소로 통일 및 패치 완료.
