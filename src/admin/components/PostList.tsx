@@ -23,7 +23,11 @@ export type MergedPost = {
   isSynced: boolean;
 };
 
-export default function PostList() {
+interface PostListProps {
+  defaultStatusFilter?: string;
+}
+
+export default function PostList({ defaultStatusFilter = "all" }: PostListProps = {}) {
   const [posts, setPosts] = useState<MergedPost[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -31,7 +35,7 @@ export default function PostList() {
   // 필터 및 검색 상태
   const [search, setSearch] = useState("");
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
-  const [statusFilter, setStatusFilter] = useState<string>("all");
+  const [statusFilter, setStatusFilter] = useState<string>(defaultStatusFilter);
 
   // 새 포스트 작성 모달 상태
   const [isModalOpen, setIsModalOpen] = useState(false);

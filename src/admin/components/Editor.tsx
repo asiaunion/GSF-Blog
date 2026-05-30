@@ -1,5 +1,8 @@
 import React, { useState, useEffect, useRef } from "react";
 import RevisionPanel from "./RevisionPanel";
+import PreviewPane from "./PreviewPane";
+import FrontmatterEditor from "./FrontmatterEditor";
+import ImageUploader from "./ImageUploader";
 
 export type PostTranslation = {
   id?: string;
@@ -46,7 +49,6 @@ export default function Editor({ id }: EditorProps) {
   const [metaSlug, setMetaSlug] = useState("");
   const [metaCategory, setMetaCategory] = useState<MergedPost["category"]>("investment");
   const [metaTags, setMetaTags] = useState<string[]>([]);
-  const [newTagInput, setNewTagInput] = useState("");
 
   // 상태 동기화 및 자동저장 관리 상태
   const [isDirty, setIsDirty] = useState(false);
@@ -236,26 +238,6 @@ export default function Editor({ id }: EditorProps) {
     }
   };
 
-  // 태그 추가
-  const handleAddTag = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" || e.key === ",") {
-      e.preventDefault();
-      const cleaned = newTagInput.trim().toLowerCase().replace(/,/g, "");
-      if (cleaned && !metaTags.includes(cleaned)) {
-        setMetaTags([...metaTags, cleaned]);
-        setIsDirty(true);
-        setSaveStatus("Saving...");
-      }
-      setNewTagInput("");
-    }
-  };
-
-  // 태그 삭제
-  const handleRemoveTag = (tagToRemove: string) => {
-    setMetaTags(metaTags.filter((t) => t !== tagToRemove));
-    setIsDirty(true);
-    setSaveStatus("Saving...");
-  };
 
   if (loading) {
     return (
@@ -283,7 +265,7 @@ export default function Editor({ id }: EditorProps) {
   }
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-6">
+    <div className="w-full max-w-[1600px] mx-auto px-4 py-6">
       {/* 1. 상단 컨트롤 바 */}
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-white/5 pb-5 mb-6">
         <div className="flex items-center gap-3">
@@ -337,9 +319,9 @@ export default function Editor({ id }: EditorProps) {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        {/* 2. 메인 에디터 영역 (좌측 3열) */}
-        <div className="lg:col-span-3 flex flex-col gap-4">
+      <div className="grid grid-cols-1 xl:grid-cols-12 gap-6">
+        {/* 2. 에디터 및 미리보기 영역 (좌측 9열) */}
+        <div className="xl:col-span-9 flex flex-col gap-4">
           {/* 다국어 언어 탭 */}
           <div className="flex border-b border-white/5 bg-slate-900/40 p-1.5 rounded-xl gap-1">
             {(["ko", "en", "ja"] as const).map((l) => (
@@ -384,108 +366,50 @@ export default function Editor({ id }: EditorProps) {
             />
           </div>
 
-          {/* WYSIWYG Milkdown 에디터 컨테이너 */}
-          <div className="bg-slate-900/20 border border-white/5 rounded-2xl backdrop-blur-sm p-4 md:p-6 min-h-[500px]">
-            <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-4 select-none">
-              마크다운 에디터 본문
-            </label>
-            
-            {/* Milkdown Crepe 에디터 마운트 포인트 */}
-            <div 
-              ref={containerRef} 
-              className="prose prose-invert max-w-none focus:outline-none min-h-[450px]"
-            ></div>
+          {/* Split View: 에디터 ↔ 미리보기 */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {/* WYSIWYG Milkdown 에디터 컨테이너 */}
+            <div className="bg-slate-900/20 border border-white/5 rounded-2xl backdrop-blur-sm p-4 md:p-6 h-[600px] flex flex-col">
+              <div className="flex items-center justify-between mb-4 shrink-0">
+                <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 select-none">
+                  마크다운 에디터 본문
+                </label>
+                <ImageUploader 
+                  postId={post.id} 
+                  onUploadSuccess={(url) => {
+                    const txt = crepeRef.current?.getMarkdown() || localMarkdown[activeLang] || "";
+                    const newTxt = txt + `\n\n![업로드된 이미지](${url})\n\n`;
+                    handleRestore(newTxt);
+                  }}
+                />
+              </div>
+              
+              {/* Milkdown Crepe 에디터 마운트 포인트 */}
+              <div 
+                ref={containerRef} 
+                className="prose prose-invert max-w-none focus:outline-none overflow-y-auto flex-1 pr-2 custom-scrollbar"
+              ></div>
+            </div>
+
+            {/* 라이브 미리보기 컴포넌트 */}
+            <PreviewPane markdown={localMarkdown[activeLang]} />
           </div>
         </div>
 
-        {/* 3. 우측 프론트매터 설정 폼 (우측 1열) */}
-        <div className="flex flex-col gap-6">
-          <div className="bg-slate-900/30 border border-white/5 rounded-2xl p-5 backdrop-blur-sm flex flex-col gap-5">
-            <h3 className="text-sm font-bold text-gray-200 border-b border-white/5 pb-2">
-              ⚙️ 프론트매터 메타데이터
-            </h3>
-
-            {/* 슬러그 입력 */}
-            <div>
-              <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-1.5">
-                포스트 슬러그 (URL 경로)
-              </label>
-              <input
-                type="text"
-                value={metaSlug}
-                onChange={(e) => {
-                  const cleaned = e.target.value.toLowerCase().replace(/\s+/g, "-");
-                  setMetaSlug(cleaned);
-                  setIsDirty(true);
-                  setSaveStatus("Saving...");
-                }}
-                className="w-full px-3 py-2 bg-slate-950/60 border border-white/10 rounded-xl text-xs text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors font-mono"
-              />
-              <span className="text-[9px] text-gray-500 mt-1 block leading-tight">
-                슬러그 수정 시 즉시 URL 경로에 반영됩니다. (소문자/숫자/하이픈만 허용)
-              </span>
-            </div>
-
-            {/* 카테고리 셀렉터 */}
-            <div>
-              <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-1.5">
-                카테고리 분류
-              </label>
-              <select
-                value={metaCategory}
-                onChange={(e) => {
-                  setMetaCategory(e.target.value as any);
-                  setIsDirty(true);
-                  setSaveStatus("Saving...");
-                }}
-                className="w-full px-3 py-2 bg-slate-950/60 border border-white/10 rounded-xl text-xs text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors cursor-pointer"
-              >
-                <option value="investment">📈 Investment</option>
-                <option value="safety">🛡️ Safety</option>
-                <option value="life">🌱 Life</option>
-                <option value="local">🇯🇵 Local</option>
-                <option value="essay">✍️ Essay</option>
-              </select>
-            </div>
-
-            {/* 태그 토큰 토글 */}
-            <div>
-              <label className="block text-[10px] uppercase font-bold tracking-wider text-gray-500 mb-1.5">
-                태그 지정
-              </label>
-              <input
-                type="text"
-                placeholder="태그 입력 후 Enter..."
-                value={newTagInput}
-                onChange={(e) => setNewTagInput(e.target.value)}
-                onKeyDown={handleAddTag}
-                className="w-full px-3 py-2 bg-slate-950/60 border border-white/10 rounded-xl text-xs text-gray-300 focus:outline-none focus:border-emerald-500 transition-colors placeholder-gray-600 mb-2"
-              />
-              
-              {/* 태그 리스트 */}
-              <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
-                {metaTags.length === 0 ? (
-                  <span className="text-[10px] text-gray-600 italic">지정된 태그가 없습니다.</span>
-                ) : (
-                  metaTags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="inline-flex items-center gap-1 pl-2 pr-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/25 text-[10px] font-medium"
-                    >
-                      #{tag}
-                      <button
-                        type="button"
-                        onClick={() => handleRemoveTag(tag)}
-                        className="text-emerald-500 hover:text-emerald-300 font-bold ml-0.5 text-xs focus:outline-none cursor-pointer"
-                      >
-                        &times;
-                      </button>
-                    </span>
-                  ))
-                )}
-              </div>
-            </div>
-          </div>
+        {/* 3. 우측 프론트매터 설정 폼 (우측 3열) */}
+        <div className="xl:col-span-3 flex flex-col gap-6">
+          <FrontmatterEditor
+            slug={metaSlug}
+            category={metaCategory}
+            tags={metaTags}
+            onChange={(data) => {
+              setMetaSlug(data.slug);
+              setMetaCategory(data.category);
+              setMetaTags(data.tags);
+              setIsDirty(true);
+              setSaveStatus("Saving...");
+            }}
+          />
 
           {/* 작가 정보 카드 */}
           <div className="bg-slate-900/30 border border-white/5 rounded-2xl p-5 backdrop-blur-sm text-xs text-gray-400">

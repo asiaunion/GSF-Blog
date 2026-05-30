@@ -1,15 +1,10 @@
-/**
- * 이미지 저장소 추상화 레이어
- * 현재: Vercel Blob (세션 3-B에서 구현)
- * 미래: CloudflareR2Provider (백엔드 교체 시 이 파일만 변경)
- *
- * @see §9 이미지 업로드 파이프라인
- */
+import { put, del, list } from "@vercel/blob";
 
 export interface StorageFile {
   url: string;
+  pathname: string;
   size: number;
-  uploadedAt: string;
+  uploadedAt: Date;
 }
 
 export interface StorageProvider {
@@ -18,5 +13,28 @@ export interface StorageProvider {
   list(prefix?: string): Promise<StorageFile[]>;
 }
 
-// TODO(세션 3-B): VercelBlobProvider 구현
-// export class VercelBlobProvider implements StorageProvider { ... }
+export class VercelBlobProvider implements StorageProvider {
+  async upload(file: Buffer, filename: string, mime: string): Promise<string> {
+    const { url } = await put(filename, file, {
+      access: "public",
+      contentType: mime,
+    });
+    return url;
+  }
+
+  async delete(url: string): Promise<void> {
+    await del(url);
+  }
+
+  async list(prefix?: string): Promise<StorageFile[]> {
+    const { blobs } = await list({ prefix });
+    return blobs.map(b => ({
+      url: b.url,
+      pathname: b.pathname,
+      size: b.size,
+      uploadedAt: b.uploadedAt,
+    }));
+  }
+}
+
+export const storage = new VercelBlobProvider();
