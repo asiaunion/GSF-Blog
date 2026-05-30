@@ -21,6 +21,7 @@ import { pagefindIntegration } from "./src/build/pagefindIntegration";
 export default defineConfig({
   site: SITE.website,
   trailingSlash: "always",
+  output: "hybrid",
   adapter: vercel(),
   redirects: {
     // Astro emits sitemap-index.xml, not sitemap.xml (GSC may submit the wrong path)
