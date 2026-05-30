@@ -1,7 +1,7 @@
 # Design Baseline — Admin CMS
 
-> 최종 승인: 2026-05-30 (Phase 5-B Security & Final Audit) | 태그: `v-approved-20260530-admin-cms-final`
-> 이전 승인: 2026-05-30 | 태그: `v-approved-20260530-admin-memo-expansion`
+> 최종 승인: 2026-05-30 | 태그: `v-approved-20260530-modal-transparency-fixed`
+> 이전 승인: 2026-05-30 (Phase 5-B Security & Final Audit) | 태그: `v-approved-20260530-admin-cms-final`
 > 브랜치: `main`
 
 ## 승인된 디자인 사양

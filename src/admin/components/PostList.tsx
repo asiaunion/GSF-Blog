@@ -82,13 +82,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
   const [statusFilter, setStatusFilter] = useState<string>(defaultStatusFilter);
 
-  // 새 포스트 작성 모달 상태
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [newSlug, setNewSlug] = useState("");
-  const [newTitle, setNewTitle] = useState("");
-  const [newCategory, setNewCategory] = useState<MergedPost["category"]>("investment");
-  const [newLang, setNewLang] = useState<"ko" | "en" | "ja">("ko");
-  const [modalError, setModalError] = useState<string | null>(null);
+  // 포스트 생성 상태
   const [creating, setCreating] = useState(false);
 
   // 데이터 fetch
@@ -114,52 +108,36 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
     fetchPosts();
   }, []);
 
-  // 포스트 생성 처리
-  const handleCreatePost = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!newSlug || !newTitle) {
-      setModalError("슬러그와 제목은 필수 입력 항목입니다.");
-      return;
-    }
-
-    // 슬러그 포맷 검증 (소문자, 숫자, 하이픈)
-    if (!/^[a-z0-9-]+$/.test(newSlug)) {
-      setModalError("슬러그는 소문자, 숫자, 하이픈(-)만 사용할 수 있습니다.");
-      return;
-    }
-
+  // 포스트 즉시 생성 (MS 워드 방식)
+  const handleCreatePost = async () => {
     try {
       setCreating(true);
-      setModalError(null);
+      const timestamp = Date.now();
+      const defaultSlug = `untitled-${timestamp}`;
+      
       const res = await fetch("/admin/api/posts/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          slug: newSlug,
-          title: newTitle,
-          category: newCategory,
-          lang: newLang,
+          slug: defaultSlug,
+          title: "제목 입력", // API 스키마가 min(1)을 요구함
+          category: "investment",
+          lang: "ko",
         }),
       });
 
       if (!res.ok) {
         const errData = await res.json();
-        throw new Error(errData.error || "포스트 생성 실패");
+        const errorMessage = typeof errData.error === "object" ? JSON.stringify(errData.error) : errData.error;
+        throw new Error(errorMessage || "포스트 생성 실패");
       }
 
       const createdPost = await res.json();
       
-      // 모달 초기화 및 닫기
-      setIsModalOpen(false);
-      setNewSlug("");
-      setNewTitle("");
-      setNewCategory("investment");
-      setNewLang("ko");
-      
       // 글 편집 페이지로 즉시 이동
       window.location.href = `/admin/posts/${createdPost.id}/`;
     } catch (err: any) {
-      setModalError(err.message || "새 포스트 생성 중 에러 발생");
+      alert(err.message || "새 포스트 생성 중 에러 발생");
     } finally {
       setCreating(false);
     }
@@ -203,10 +181,11 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
           </p>
         </div>
         <button
-          onClick={() => setIsModalOpen(true)}
-          className="flex items-center gap-2 px-5 py-3 hover:text-foreground font-medium rounded-xl shadow-emerald-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 cursor-pointer"
+          onClick={handleCreatePost}
+          disabled={creating}
+          className="flex items-center gap-2 px-5 py-3 hover:text-foreground font-medium rounded-xl shadow-emerald-950/20 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 cursor-pointer disabled:opacity-50"
         >
-          <span className="text-lg">+</span> 새 글 쓰기
+          <span className="text-lg">+</span> {creating ? "생성 중..." : "새 글 쓰기"}
         </button>
       </div>
 
@@ -417,102 +396,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
         </div>
       )}
 
-      {/* 새 포스트 작성 모달 (Solid Modal) */}
-      {isModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
-          <div className="w-full max-w-lg bg-background border border-border rounded-2xl overflow-hidden shadow-2xl animate-scaleUp">
-            <div className="px-6 py-4.5 border-b border-border flex items-center justify-between bg-muted/30">
-              <h2 className="text-lg font-bold text-foreground">새 포스트 작성</h2>
-              <button
-                onClick={() => setIsModalOpen(false)}
-                className="opacity-70 hover:opacity-90 text-xl font-bold cursor-pointer"
-              >
-                &times;
-              </button>
-            </div>
-            
-            <form onSubmit={handleCreatePost} className="p-6 flex flex-col gap-4">
-              {modalError && (
-                <div className="px-4 py-2.5 bg-red-950/40 border border-red-500/20 rounded-xl text-xs text-red-300">
-                  ⚠️ {modalError}
-                </div>
-              )}
-
-              <div>
-                <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
-                  포스트 제목 (대표 번역용)
-                </label>
-                <input
-                  type="text"
-                  placeholder="예: 서울-도쿄 25년 부동산 트렌드 비교"
-                  value={newTitle}
-                  onChange={(e) => setNewTitle(e.target.value)}
-                  className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-foreground placeholder-gray-600 focus:outline-none focus:border-accent transition-colors"
-                  required
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
-                  웹 주소 (영문)
-                </label>
-                <input
-                  type="text"
-                  placeholder="예: seoul-tokyo-real-estate-trends"
-                  value={newSlug}
-                  onChange={(e) => setNewSlug(e.target.value.toLowerCase().replace(/\s+/g, "-"))}
-                  className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-foreground placeholder-gray-600 focus:outline-none focus:border-accent transition-colors font-mono text-sm"
-                  required
-                />
-                <span className="text-[10px] opacity-70 mt-1 block">
-                  소문자, 숫자, 하이픈(-)만 허용됩니다. (공백 입력 시 자동으로 -로 변환)
-                </span>
-              </div>
-
-              <div className="grid grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
-                    기본 언어
-                  </label>
-                  <CustomSelect
-                    options={langOptions}
-                    value={newLang}
-                    onChange={(v) => setNewLang(v as any)}
-                  />
-                </div>
-
-                <div>
-                  <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
-                    카테고리
-                  </label>
-                  <CustomSelect
-                    options={modalCategoryOptions}
-                    value={newCategory}
-                    onChange={(v) => setNewCategory(v as any)}
-                  />
-                </div>
-              </div>
-
-              <div className="mt-4 flex gap-3 justify-end border-t border-border pt-4">
-                <button
-                  type="button"
-                  onClick={() => setIsModalOpen(false)}
-                  className="px-4 py-2.5 bg-card-bg hover:bg-muted opacity-90 text-xs font-semibold rounded-xl transition-colors cursor-pointer"
-                >
-                  취소
-                </button>
-                <button
-                  type="submit"
-                  disabled={creating}
-                  className="px-5 py-2.5 hover:text-foreground text-xs font-semibold rounded-xl transition-all duration-200 shadow-emerald-950/20 cursor-pointer"
-                >
-                  {creating ? "포스트 생성 중..." : "글 작성 시작"}
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      )}
+      {/* 모달 제거됨 (즉시 생성 방식으로 변경) */}
     </div>
   );
 }
