@@ -38,15 +38,15 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
         min-height: 100dvh;
         display: grid;
         place-items: center;
-        background: #0a0f1e;
-        color: #e2e8f0;
+        background: var(--color-background);
+        color: var(--color-foreground);
       }
 
       .card {
         width: min(360px, 90vw);
         padding: 2.5rem 2rem;
-        background: rgba(255, 255, 255, 0.04);
-        border: 1px solid rgba(255, 255, 255, 0.1);
+        background: var(--color-card-bg);
+        border: 1px solid var(--color-border);
         border-radius: 16px;
         backdrop-filter: blur(12px);
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
@@ -67,10 +67,11 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
 
       .subtitle {
         font-size: 0.8rem;
-        color: #64748b;
+        color: var(--color-muted);
         margin-bottom: 2rem;
       }
 
+      /* Google 브랜드 버튼 — 의도적으로 흰색 유지 */
       .btn-google {
         display: flex;
         align-items: center;
@@ -86,7 +87,7 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
         border-radius: 10px;
         cursor: pointer;
         text-decoration: none;
-        transition: background 0.15s, transform 0.1s, box-0.15s;
+        transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
       }
 
@@ -104,6 +105,7 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
         flex-shrink: 0;
       }
 
+      /* 에러 상태 — 의도적으로 빨간색 유지 */
       .error-box {
         margin-top: 1.25rem;
         padding: 0.75rem 1rem;
@@ -118,10 +120,11 @@ const errorMessage = errorKey ? (errorMessages[errorKey] ?? errorMessages.unknow
       .footer {
         margin-top: 2rem;
         font-size: 0.7rem;
-        color: #334155;
+        color: var(--color-muted);
+        opacity: 0.5;
       }
     </style>
-  
+
     <script is:inline>
       (function () {
         const themeValue = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");

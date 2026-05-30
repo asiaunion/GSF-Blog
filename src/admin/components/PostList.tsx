@@ -154,7 +154,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
             📝 포스트 라이브러리
           </h1>
           <p className="opacity-80 mt-2 text-sm">
-            데이터베이스 드래프트와 GitHub 저장소 발행 목록을 실시간으로 병합하여 동기화 상태를 관리합니다.
+            글 목록을 한눈에 관리할 수 있어요.
           </p>
         </div>
         <button
@@ -170,7 +170,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
         <div className="w-full md:w-1/3 relative">
           <input
             type="text"
-            placeholder="제목 또는 슬러그 검색..."
+            placeholder="제목 또는 주소 검색..."
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-10 pr-4 py-2.5 bg-background border border-border rounded-xl text-foreground placeholder-gray-500 focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent transition-colors"
@@ -188,11 +188,11 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
               className="px-3 py-2 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
             >
               <option value="all">전체</option>
-              <option value="investment">📈 Investment</option>
-              <option value="safety">🛡️ Safety</option>
-              <option value="life">🌱 Life</option>
-              <option value="local">🇯🇵 Local</option>
-              <option value="essay">✍️ Essay</option>
+              <option value="investment">📈 투자</option>
+              <option value="safety">🛡️ 안전</option>
+              <option value="life">🌱 라이프</option>
+              <option value="local">🇯🇵 로컬</option>
+              <option value="essay">✍️ 에세이</option>
             </select>
           </div>
 
@@ -205,12 +205,12 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
               className="px-3 py-2 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
             >
               <option value="all">전체</option>
-              <option value="db-draft">📁 DB 드래프트</option>
-              <option value="git-only">🌍 Git 발행물</option>
-              <option value="unsynced">⚠️ 미동기화 수정본</option>
+              <option value="db-draft">📁 작성 중</option>
+              <option value="git-only">🌍 발행됨</option>
+              <option value="unsynced">⚠️ 수정됨</option>
               <option value="published">✅ 발행 완료</option>
-              <option value="draft">임시 저장 (DB)</option>
-              <option value="editing">편집 중 (DB)</option>
+              <option value="draft">임시 저장</option>
+              <option value="editing">편집 중</option>
               <option value="review">검토 요청</option>
             </select>
           </div>
@@ -220,7 +220,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
       {/* 로딩 / 에러 / 리스트 영역 */}
       {loading ? (
         <div className="flex flex-col items-center justify-center py-20 bg-card-bg border border-border rounded-2xl backdrop-blur-sm">
-          <div className="w-10 h-10 border-4 border-accent border-t-emerald-500 rounded-full animate-spin"></div>
+          <div className="w-10 h-10 border-4 border-accent border-t-accent rounded-full animate-spin"></div>
           <p className="opacity-80 mt-4 text-sm animate-pulse">글 목록을 병합하여 불러오는 중...</p>
         </div>
       ) : error ? (
@@ -246,10 +246,10 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="border-b border-border bg-background opacity-80 text-xs font-semibold uppercase tracking-wider">
-                  <th className="px-6 py-4">동기화 상태</th>
-                  <th className="px-6 py-4">포스트 제목 및 슬러그</th>
+                  <th className="px-6 py-4">상태</th>
+                  <th className="px-6 py-4">제목</th>
                   <th className="px-6 py-4">카테고리</th>
-                  <th className="px-6 py-4">다국어 파일 상태</th>
+                  <th className="px-6 py-4">번역</th>
                   <th className="px-6 py-4 text-right">관리</th>
                 </tr>
               </thead>
@@ -258,32 +258,32 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                   // 동기화 배지 계산
                   let badge = (
                     <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-accent text-background text-accent border border-accent">
-                      ● 발행됨 (동기화)
+                      ● 발행됨
                     </span>
                   );
 
                   if (post.isDbOnly) {
                     badge = (
                       <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-yellow-500/10 text-yellow-400 border border-yellow-500/20 animate-pulse">
-                        ● DB 드래프트
+                        ● 작성 중
                       </span>
                     );
                   } else if (post.isGitOnly) {
                     badge = (
                       <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-cyan-500/10 text-accent border border-cyan-500/20">
-                        ● Git 발행물
+                        ● 발행됨
                       </span>
                     );
                   } else if (!post.isSynced) {
                     badge = (
                       <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-orange-500/10 text-orange-400 border border-orange-500/20">
-                        ▲ 미동기화 수정중
+                        ▲ 수정됨
                       </span>
                     );
                   } else if (post.status === "editing" || post.status === "review") {
                     badge = (
                       <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-purple-500/10 text-purple-400 border border-purple-500/20">
-                        ● DB 편집중
+                        ● 편집 중
                       </span>
                     );
                   }
@@ -300,7 +300,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                   return (
                     <tr
                       key={post.id}
-                      className="hover:bg-white/[0.02] transition-colors group"
+                      className="hover:bg-foreground/[0.03] transition-colors group"
                     >
                       <td className="px-6 py-4.5 whitespace-nowrap">{badge}</td>
                       <td className="px-6 py-4.5">
@@ -351,7 +351,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                           <button
                             onClick={async () => {
                               try {
-                                if (!confirm("Git 발행 포스트를 DB로 가져와 편집하시겠습니까?")) return;
+                                if (!confirm("이 글을 가져와서 편집할까요?")) return;
                                 const res = await fetch(`/admin/api/posts/${post.slug}/import/`, {
                                   method: "POST"
                                 });
@@ -364,7 +364,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                             }}
                             className="inline-flex items-center gap-1 px-3 py-1.5 bg-cyan-500/10 hover:bg-cyan-500/20 text-accent border border-cyan-500/20 text-xs font-semibold rounded-lg transition-colors cursor-pointer"
                           >
-                            ⬇️ DB로 가져오기
+                            ⬇️ 가져오기
                           </button>
                         ) : (
                           <a
@@ -421,7 +421,7 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
 
               <div>
                 <label className="block text-xs font-semibold opacity-80 uppercase tracking-wider mb-1.5">
-                  포스트 슬러그 (URL 경로 이름)
+                  웹 주소 (영문)
                 </label>
                 <input
                   type="text"
@@ -461,11 +461,11 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                     onChange={(e) => setNewCategory(e.target.value as any)}
                     className="w-full px-3.5 py-2.5 bg-background border border-border rounded-xl text-sm opacity-90 focus:outline-none focus:border-accent transition-colors"
                   >
-                    <option value="investment">📈 Investment</option>
-                    <option value="safety">🛡️ Safety</option>
-                    <option value="life">🌱 Life</option>
-                    <option value="local">🇯🇵 Local</option>
-                    <option value="essay">✍️ Essay</option>
+                    <option value="investment">📈 투자</option>
+                    <option value="safety">🛡️ 안전</option>
+                    <option value="life">🌱 라이프</option>
+                    <option value="local">🇯🇵 로컬</option>
+                    <option value="essay">✍️ 에세이</option>
                   </select>
                 </div>
               </div>

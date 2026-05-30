@@ -68,7 +68,7 @@ export default function RevisionPanel({ postId, activeLang, onRestore, triggerRe
       {isOpen && (
         <div className="absolute right-0 top-11 z-30 w-80 max-h-[500px] bg-card-bg border border-border rounded-2xl p-4 shadow-2xl overflow-y-auto animate-scaleUp">
           <div className="flex items-center justify-between border-b border-border pb-2 mb-3">
-            <h3 className="text-sm font-bold text-foreground">역사 기록 ({activeLang.toUpperCase()})</h3>
+            <h3 className="text-sm font-bold text-foreground">수정 이력 ({activeLang.toUpperCase()})</h3>
             <button
               onClick={fetchRevisions}
               disabled={loading}

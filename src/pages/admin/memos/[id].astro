@@ -3,7 +3,7 @@
  * Admin 메모 편집기
  * prerender=false 필수 (SSR)
  */
-import "@/styles/global.css";
+import AdminLayout from "@/layouts/AdminLayout.astro";
 import Editor from "@/admin/components/Editor";
 
 export const prerender = false;
@@ -18,111 +18,8 @@ type AdminUser = { email: string; name: string; picture?: string };
 const user = (Astro.locals as Record<string, unknown>).user as AdminUser | undefined;
 ---
 
-<!doctype html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
-    <title>메모 편집 — GSF-Blog Admin</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <style>
-      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-      body {
-        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-        min-height: 100dvh;
-        background: var(--color-background);
-        color: var(--color-foreground);
-      }
-      
-      header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0.75rem 1.5rem;
-        background: var(--color-card-bg);
-        backdrop-filter: blur(16px) saturate(180%);
-        -webkit-backdrop-filter: blur(16px) saturate(180%);
-        border-bottom: 1px solid var(--color-border);
-        position: sticky;
-        top: 0;
-        z-index: 40;
-      }
-      
-      .brand {
-        font-family: 'Outfit', sans-serif;
-        font-size: 1rem;
-        font-weight: 700;
-        background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        letter-spacing: -0.02em;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-      }
-      
-      .user-info {
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        font-size: 0.8rem;
-        color: var(--color-muted);
-      }
-      
-      .user-info img {
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        border: 2px solid var(--color-border);
-      }
-      
-      .btn-logout {
-        padding: 0.35rem 0.75rem;
-        background: transparent;
-        border: 1px solid var(--color-border);
-        border-radius: 8px;
-        color: var(--color-foreground);
-        font-size: 0.75rem;
-        font-weight: 500;
-        cursor: pointer;
-        text-decoration: none;
-        transition: all 0.2s ease;
-      }
-      
-      .btn-logout:hover {
-        background: rgba(239, 68, 68, 0.18);
-        border-color: rgba(239, 68, 68, 0.4);
-      }
-    </style>
-  
-    <script is:inline>
-      (function () {
-        const themeValue = localStorage.getItem("theme") || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
-        document.firstElementChild?.setAttribute("data-theme", themeValue);
-      })();
-    </script>
-  </head>
-  <body>
-    <header>
-      <a href="/admin/memos/" class="brand">
-        <span style="font-size: 1.1rem">📝</span>
-        GSF-Blog Admin Memos
-      </a>
-      <div class="user-info">
-        {user?.picture && <img src={user.picture} alt={user.name} />}
-        <span class="font-medium text-foreground">{user?.name ?? user?.email ?? "관리자"}</span>
-        <form method="POST" action="/admin/api/auth/logout/">
-          <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
-        </form>
-      </div>
-    </header>
-
-    <main>
-      <Editor id={id} client:only="react" />
-    </main>
-  </body>
-</html>
+<AdminLayout title="메모 편집 — GSF-Blog Admin" user={user}>
+  <main>
+    <Editor id={id} client:only="react" />
+  </main>
+</AdminLayout>

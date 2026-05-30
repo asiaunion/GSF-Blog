@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { z } from "zod";
 
 export const frontmatterSchema = z.object({
-  slug: z.string().regex(/^[a-z0-9-]+$/, "슬러그는 소문자, 숫자, 하이픈(-)만 포함할 수 있습니다."),
+  slug: z.string().regex(/^[a-z0-9-]+$/, "영문 소문자, 숫자, 하이픈(-)만 사용할 수 있어요."),
   category: z.enum(["investment", "safety", "life", "local", "essay"]),
   tags: z.array(z.string()),
 });
@@ -51,13 +51,13 @@ export default function FrontmatterEditor({ slug, category, tags, onChange }: Fr
   return (
     <div className="bg-card-bg border border-border rounded-2xl p-5 flex flex-col gap-5">
       <h3 className="text-sm font-bold text-foreground border-b border-border pb-2">
-        ⚙️ 프론트매터 메타데이터
+        ⚙️ 게시글 설정
       </h3>
 
       {/* 슬러그 입력 */}
       <div>
         <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-1.5">
-          포스트 슬러그 (URL 경로)
+          웹 주소 (영문)
         </label>
         <input
           type="text"
@@ -67,32 +67,32 @@ export default function FrontmatterEditor({ slug, category, tags, onChange }: Fr
         />
         {error && <span className="text-[9px] text-red-400 mt-1 block leading-tight">{error}</span>}
         <span className="text-[9px] opacity-70 mt-1 block leading-tight">
-          슬러그 수정 시 즉시 URL 경로에 반영됩니다. (소문자/숫자/하이픈만 허용)
+          영문 소문자, 숫자, 하이픈(-)만 사용할 수 있어요.
         </span>
       </div>
 
       {/* 카테고리 셀렉터 */}
       <div>
         <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-1.5">
-          카테고리 분류
+          카테고리
         </label>
         <select
           value={category}
           onChange={handleCategoryChange}
           className="w-full px-3 py-2 bg-background border border-border rounded-xl text-xs opacity-90 focus:outline-none focus:border-accent transition-colors cursor-pointer"
         >
-          <option value="investment">📈 Investment</option>
-          <option value="safety">🛡️ Safety</option>
-          <option value="life">🌱 Life</option>
-          <option value="local">🇯🇵 Local</option>
-          <option value="essay">✍️ Essay</option>
+          <option value="investment">📈 투자</option>
+          <option value="safety">🛡️ 안전</option>
+          <option value="life">🌱 라이프</option>
+          <option value="local">🇯🇵 로컬</option>
+          <option value="essay">✍️ 에세이</option>
         </select>
       </div>
 
       {/* 태그 지정 */}
       <div>
         <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-1.5">
-          태그 지정
+          태그
         </label>
         <input
           type="text"
@@ -106,7 +106,7 @@ export default function FrontmatterEditor({ slug, category, tags, onChange }: Fr
         {/* 태그 리스트 */}
         <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
           {tags.length === 0 ? (
-            <span className="text-[10px] text-gray-600 italic">지정된 태그가 없습니다.</span>
+            <span className="text-[10px] opacity-50 italic">아직 태그가 없어요.</span>
           ) : (
             tags.map((tag) => (
               <span

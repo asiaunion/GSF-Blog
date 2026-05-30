@@ -37,7 +37,7 @@ export default function Dashboard() {
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center py-40 opacity-80">
-        <div className="w-10 h-10 border-4 border-accent border-t-emerald-500 rounded-full animate-spin"></div>
+        <div className="w-10 h-10 border-4 border-accent border-t-accent rounded-full animate-spin"></div>
         <p className="mt-4 text-sm animate-pulse">대시보드 데이터를 불러오는 중...</p>
       </div>
     );
@@ -79,12 +79,12 @@ export default function Dashboard() {
         <div className="bg-card-bg border border-border p-6 rounded-2xl flex flex-col items-center shadow-xl">
           <span className="text-4xl mb-3">🔒</span>
           <span className="text-3xl font-bold text-foreground">{stats?.totalLogs || 0}</span>
-          <span className="text-xs opacity-80 mt-1 uppercase tracking-widest font-semibold">감사 로그 수</span>
+          <span className="text-xs opacity-80 mt-1 uppercase tracking-widest font-semibold">활동 기록</span>
         </div>
       </div>
 
       <h2 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
-        <span>📜</span> 최근 감사 로그 (Audit Log)
+        <span>📜</span> 최근 활동 내역
       </h2>
       <div className="bg-card-bg border border-border rounded-2xl overflow-hidden shadow-xl">
         <div className="overflow-x-auto">
@@ -94,12 +94,12 @@ export default function Dashboard() {
                 <th className="px-6 py-4">일시</th>
                 <th className="px-6 py-4">사용자</th>
                 <th className="px-6 py-4">액션</th>
-                <th className="px-6 py-4">대상 (Target)</th>
+                <th className="px-6 py-4">대상</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
               {logs.map(log => (
-                <tr key={log.id} className="hover:bg-white/[0.02] transition-colors">
+                <tr key={log.id} className="hover:bg-foreground/[0.03] transition-colors">
                   <td className="px-6 py-4 font-mono text-[11px] opacity-80">{new Date(log.created_at).toLocaleString()}</td>
                   <td className="px-6 py-4 font-medium">{log.user_email}</td>
                   <td className="px-6 py-4">

@@ -10,10 +10,10 @@ export default function PreviewPane({ markdown }: PreviewPaneProps) {
   return (
     <div className="bg-card-bg border border-border rounded-2xl p-4 md:p-6 h-[600px] flex flex-col">
       <label className="block text-[10px] uppercase font-bold tracking-wider opacity-70 mb-4 select-none shrink-0">
-        라이브 미리보기 (Live Preview)
+        미리보기
       </label>
       
-      <div className="prose prose-invert prose-emerald max-w-none overflow-y-auto flex-1 pr-2 custom-scrollbar">
+      <div className="prose dark:prose-invert max-w-none overflow-y-auto flex-1 pr-2 custom-scrollbar">
         <ReactMarkdown remarkPlugins={[remarkGfm]}>
           {markdown || '*내용이 없습니다.*'}
         </ReactMarkdown>
