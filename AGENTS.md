@@ -53,3 +53,23 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 **AG bootstrap (copy-paste):** [`docs/AG_CONTEXT_BOOTSTRAP_SHORT.md`](docs/AG_CONTEXT_BOOTSTRAP_SHORT.md)  
 **Workflow:** [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md)
 
+---
+
+## 🚨 Astro 정적/동적 파일 충돌 방지 (2026-05-30+)
+
+> **사고 경위**: `public/robots.txt`(Disallow 18개)가 `src/pages/robots.txt.ts`(prerender)에 의해 빌드 시 무경고로 덮어쓰기되어 7일간 크롤링 제어 미작동.
+
+### 규칙
+
+1. **`public/` 에 파일 추가 전** → `src/pages/`에 동명 라우트(`.ts`, `.js`, `.astro`)가 있는지 반드시 확인
+2. **`src/pages/` 에 파일 추가 전** → `public/`에 동명 정적 파일이 있는지 반드시 확인
+3. **충돌 발견 시** → 하나로 통합. 절대 양쪽에 공존시키지 않음
+4. **빌드 자동 감지**: `npm run build` 시 `scripts/check-static-route-conflict.mjs`가 자동 실행되어 충돌 감지 → 빌드 실패 처리
+
+### 보호 대상 파일 (충돌 시 치명적)
+
+| 파일 | 위치 (정본) | 절대 만들면 안 되는 곳 |
+|------|------------|---------------------|
+| `ads.txt` | `public/ads.txt` | ❌ `src/pages/ads.txt.ts` |
+| `robots.txt` | `src/pages/robots.txt.ts` | ❌ `public/robots.txt` |
+| Google 인증 HTML | `public/google*.html` | ❌ `src/pages/google*.astro` |
