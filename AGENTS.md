@@ -73,3 +73,64 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 | `ads.txt` | `public/ads.txt` | ❌ `src/pages/ads.txt.ts` |
 | `robots.txt` | `src/pages/robots.txt.ts` | ❌ `public/robots.txt` |
 | Google 인증 HTML | `public/google*.html` | ❌ `src/pages/google*.astro` |
+
+---
+
+## 📋 Notion CMS 파이프라인 (2026-05-31+)
+
+### 경로 구조
+
+```
+입력 경로 A (Notion UI):
+  Notion 작성 → status: "발행요청"
+  → CF Worker (1분 cron, workers/notion-poller/)
+  → GitHub Actions (.github/workflows/notion-publish.yml)
+  → notion-to-md.ts 변환 → .blog-agent-stage/{slug}.ko.md
+  → Voice Rewrite (조건부) → EN/JA 번역
+  → feature branch (notion/publish-{slug})
+  → Vercel Preview URL → Notion 기록
+  → status: "발행승인" → PR merge → 라이브
+
+입력 경로 B (AG 대화에서 Notion 포스트 배포):
+  deploy-from-notion 스킬 사용
+
+역동기화:
+  main push (KO 변경) → .github/workflows/notion-sync.yml
+  → sync-git-to-notion.ts → SHA Conflict Detection → Notion 업데이트
+```
+
+### 역할 분리 규약
+
+| 기능 | Admin CMS (Milkdown) | Notion 파이프라인 |
+|---|---|---|
+| 새 포스트 작성 | ✅ | ✅ |
+| Voice Rewrite | ❌ (수동) | ✅ (자동, checkbox로 skip 가능) |
+| EN/JA 번역 | ✅ (수동) | ✅ (자동) |
+| 이미지 업로드 | ✅ (Vercel Blob) | ✅ (Vercel Blob 자동) |
+| Turso DB | ✅ (상태 관리) | ❌ |
+| Preview URL | ❌ | ✅ (자동 Vercel) |
+
+> ⚠️ **동시 편집 금지**: 같은 slug를 Admin CMS + Notion에서 동시에 편집하지 않는다.
+> SHA Conflict Detection이 감지하지만, 운영 규약으로도 반드시 준수.
+
+### Conflict Detection 발생 시 처리 절차
+
+1. Notion 페이지에 ⚠️ 코멘트가 자동 생성됨
+2. Git KO 파일과 Notion 페이지 본문을 수동 비교
+3. 최신 내용 결정 후 Git에 반영 (Git이 Source of Truth)
+4. Notion 페이지의 `gitSha` property를 현재 commit SHA로 수동 업데이트
+5. 재동기화는 해당 파일에 공백 변경 후 push하면 `notion-sync.yml`이 재실행됨
+
+### 핵심 파일
+
+| 파일 | 역할 |
+|---|---|
+| `scripts/notion-to-md.ts` | Notion → MD 변환 공통 유틸 |
+| `scripts/notion-bootstrap.ts` | 초기 38개 포스트 일괄 등록 (1회성) |
+| `scripts/sync-git-to-notion.ts` | 역동기화 + SHA Conflict Detection |
+| `scripts/notion-page-map.json` | slug ↔ Notion Page ID 매핑 (git tracked) |
+| `workers/notion-poller/` | CF Worker cron + workflow_dispatch |
+| `.blog-agent-stage/` | 변환 중간 파일 임시 저장 (gitignore) |
+| `.github/workflows/notion-publish.yml` | 발행 파이프라인 |
+| `.github/workflows/notion-sync.yml` | 역동기화 트리거 |
+| `blueprint-notion-cms.md` | 전체 아키텍처 설계서 |
