@@ -160,71 +160,24 @@ jobs:
           echo "pr_url=${PR_URL}" >> $GITHUB_OUTPUT
           echo "✅ PR 생성됨: ${PR_URL}"
 
-      # ── 10. Vercel Preview URL 취득 ──────────────────────────────────
-      - name: Wait for Vercel Preview URL
-        id: preview
-        env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-        run: |
-          echo "⏳ Vercel Preview URL 대기 중 (최대 5분)..."
-          BRANCH="${{ steps.push.outputs.branch_name }}"
-          PREVIEW_URL=""
-
-          for i in $(seq 1 10); do
-            sleep 30
-            echo "  시도 ${i}/10..."
-            PREVIEW_URL=$(npx vercel ls \
-              --token="${VERCEL_TOKEN}" \
-              --json 2>/dev/null \
-              | jq -r ".[] | select(.meta.githubCommitRef == \"${BRANCH}\") | .url" \
-              | head -1)
-
-            if [ -n "${PREVIEW_URL}" ] && [ "${PREVIEW_URL}" != "null" ]; then
-              PREVIEW_URL="https://${PREVIEW_URL}"
-              echo "✅ Preview URL 취득: ${PREVIEW_URL}"
-              break
-            fi
-          done
-
-          echo "preview_url=${PREVIEW_URL}" >> $GITHUB_OUTPUT
-
-      # ── 11. Preview URL → Notion 기록 ────────────────────────────────
-      - name: Write Preview URL to Notion
+      # ── 10. Preview URL → Notion 기록 및 상태 업데이트 ───────────
+      - name: Write PR URL to Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: |
           PAGE_ID="${{ inputs.notion_page_id }}"
-          PREVIEW_URL="${{ steps.preview.outputs.preview_url }}"
           PR_URL="${{ steps.create_pr.outputs.pr_url }}"
 
-          if [ -n "${PREVIEW_URL}" ]; then
-            # previewUrl property 업데이트
-            curl -s -X PATCH "https://api.notion.com/v1/pages/${PAGE_ID}" \
-              -H "Authorization: Bearer ${NOTION_TOKEN}" \
-              -H "Content-Type: application/json" \
-              -H "Notion-Version: 2022-06-28" \
-              -d "{\"properties\":{\"previewUrl\":{\"url\":\"${PREVIEW_URL}\"}}}"
+          # previewUrl에 PR 주소를 넣고, status를 발행승인대기로 변경
+          curl -s -X PATCH "https://api.notion.com/v1/pages/${PAGE_ID}" \
+            -H "Authorization: Bearer ${NOTION_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -H "Notion-Version: 2022-06-28" \
+            -d "{\"properties\":{\"previewUrl\":{\"url\":\"${PR_URL}\"},\"status\":{\"select\":{\"name\":\"발행승인대기\"}}}}"
 
-            # 코멘트 작성
-            curl -s -X POST "https://api.notion.com/v1/comments" \
-              -H "Authorization: Bearer ${NOTION_TOKEN}" \
-              -H "Content-Type: application/json" \
-              -H "Notion-Version: 2022-06-28" \
-              -d "{\"parent\":{\"page_id\":\"${PAGE_ID}\"},\"rich_text\":[{\"type\":\"text\",\"text\":{\"content\":\"✅ Preview 준비됨: ${PREVIEW_URL}\\n\\nPR: ${PR_URL}\\n\\n확인 후 status를 '발행승인'으로 변경하면 라이브됩니다.\"}}]}"
+          echo "✅ Notion 업데이트 완료 (PR URL 기록 및 상태 변경)"
 
-            echo "✅ Notion에 Preview URL 기록 완료"
-          else
-            # Preview URL 없어도 PR URL은 기록
-            curl -s -X POST "https://api.notion.com/v1/comments" \
-              -H "Authorization: Bearer ${NOTION_TOKEN}" \
-              -H "Content-Type: application/json" \
-              -H "Notion-Version: 2022-06-28" \
-              -d "{\"parent\":{\"page_id\":\"${PAGE_ID}\"},\"rich_text\":[{\"type\":\"text\",\"text\":{\"content\":\"⚠️ Preview URL을 아직 가져오지 못했습니다. 잠시 후 Vercel 대시보드에서 직접 확인해주세요.\\n\\nPR: ${PR_URL}\\n\\n확인 후 status를 '발행승인'으로 변경하면 라이브됩니다.\"}}]}"
-
-            echo "⚠️ Preview URL 미취득 — PR URL만 기록"
-          fi
-
-      # ── 12. 실패 시 Notion 알림 ──────────────────────────────────────
+      # ── 11. 실패 시 Notion 알림 ──────────────────────────────────────
       - name: Notify failure to Notion
         if: failure()
         env:
@@ -233,15 +186,9 @@ jobs:
           PAGE_ID="${{ inputs.notion_page_id }}"
           RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
 
-          # status를 발행요청으로 복원 (재시도 가능하게)
+          # status를 오류(발행요청으로 복원) 및 previewUrl에 에러 로그 기록
           curl -s -X PATCH "https://api.notion.com/v1/pages/${PAGE_ID}" \
             -H "Authorization: Bearer ${NOTION_TOKEN}" \
             -H "Content-Type: application/json" \
             -H "Notion-Version: 2022-06-28" \
-            -d '{"properties":{"status":{"select":{"name":"발행요청"}}}}'
-
-          curl -s -X POST "https://api.notion.com/v1/comments" \
-            -H "Authorization: Bearer ${NOTION_TOKEN}" \
-            -H "Content-Type: application/json" \
-            -H "Notion-Version: 2022-06-28" \
-            -d "{\"parent\":{\"page_id\":\"${PAGE_ID}\"},\"rich_text\":[{\"type\":\"text\",\"text\":{\"content\":\"❌ 파이프라인 실패\\nActions 로그: ${RUN_URL}\\n\\n수정 후 status를 다시 '발행요청'으로 변경하세요.\"}}]}"
+            -d "{\"properties\":{\"status\":{\"select\":{\"name\":\"발행요청\"}},\"previewUrl\":{\"url\":\"${RUN_URL}\"}}}"
