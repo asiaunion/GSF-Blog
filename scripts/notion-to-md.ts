@@ -21,7 +21,7 @@ import * as path from "path";
 // ── 환경변수 ──────────────────────────────────────────────────────────
 const NOTION_TOKEN = process.env.NOTION_TOKEN || "";
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID || "";
-const BLOG_ROOT = path.resolve(__dirname, "../");
+const BLOG_ROOT = path.resolve(process.cwd(), "scripts", "../");
 const STAGE_DIR = path.join(BLOG_ROOT, ".blog-agent-stage");
 const PAGE_MAP_PATH = path.join(BLOG_ROOT, "scripts/notion-page-map.json");
 
@@ -416,4 +416,6 @@ async function main() {
   }
 }
 
-main().catch(console.error);
+if (process.argv[1] && process.argv[1].includes("notion-to-md.ts")) {
+  main().catch(console.error);
+}

@@ -38,7 +38,7 @@ const NOTION_TOKEN = process.env.NOTION_TOKEN || "";
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID || "";
 const CURRENT_SHA = process.env.GITHUB_SHA || "";
 const BEFORE_SHA = process.env.GITHUB_BEFORE || ""; // push 이전 SHA
-const BLOG_KO_DIR = path.resolve(__dirname, "../src/data/blog/ko");
+const BLOG_KO_DIR = path.resolve(process.cwd(), "scripts", "../src/data/blog/ko");
 
 const TEST_CONFLICT = process.argv.includes("--test-conflict");
 const SLUG_FILTER = (() => {
@@ -99,7 +99,7 @@ function getChangedKoFiles(): string[] {
       .split("\n")
       .filter(Boolean)
       .filter((f) => f.endsWith(".md") || f.endsWith(".mdx"))
-      .map((f) => path.resolve(__dirname, "../", f));
+      .map((f) => path.resolve(process.cwd(), "scripts", "../", f));
 
     return diff;
   } catch (err) {

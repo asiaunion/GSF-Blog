@@ -15,6 +15,7 @@
  *   npx tsx scripts/notion-bootstrap.ts --slug nihonbashi-the-origin-of-japan
  */
 
+import "dotenv/config";
 import { Client } from "@notionhq/client";
 import type { CreatePageParameters } from "@notionhq/client/build/src/api-endpoints";
 import * as fs from "fs";
@@ -25,7 +26,7 @@ import { loadPageMap, savePageMap, type PageMap } from "./notion-to-md";
 // ── 환경변수 ──────────────────────────────────────────────────────────
 const NOTION_TOKEN = process.env.NOTION_TOKEN || "";
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID || "";
-const BLOG_KO_DIR = path.resolve(__dirname, "../src/data/blog/ko");
+const BLOG_KO_DIR = path.resolve(process.cwd(), "scripts", "../src/data/blog/ko");
 const DRY_RUN = process.argv.includes("--dry-run");
 const SLUG_FILTER = (() => {
   const idx = process.argv.indexOf("--slug");
@@ -173,7 +174,7 @@ function buildNotionProperties(slug: string, fm: Record<string, any>): CreatePag
   }
 
   // ogImage
-  if (fm.ogImage && typeof fm.ogImage === "string") {
+  if (fm.ogImage && typeof fm.ogImage === "string" && fm.ogImage.startsWith("http")) {
     (props as any).ogImage = { url: fm.ogImage };
   }
 
@@ -262,10 +263,18 @@ function markdownToNotionBlocks(content: string): CreatePageParameters["children
     // 이미지
     const imgMatch = para.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
     if (imgMatch) {
-      blocks.push({
-        type: "image",
-        image: { type: "external", external: { url: imgMatch[2] } },
-      });
+      const url = imgMatch[2];
+      if (!url.startsWith("http")) {
+        blocks.push({
+          type: "paragraph",
+          paragraph: { rich_text: [{ type: "text", text: { content: para } }] },
+        });
+      } else {
+        blocks.push({
+          type: "image",
+          image: { type: "external", external: { url } },
+        });
+      }
       continue;
     }
 
