@@ -4,6 +4,7 @@ import FrontmatterEditor from "./FrontmatterEditor";
 import ImageUploader from "./ImageUploader";
 import PublishPanel from "./PublishPanel";
 import TranslationStatus from "./TranslationStatus";
+import EditorToolbar from "./EditorToolbar";
 
 // Milkdown Crepe 스타일 및 테마 명시적 임포트
 import "@milkdown/crepe/theme/common/style.css";
@@ -57,6 +58,7 @@ export default function Editor({ id }: EditorProps) {
   const [saveStatus, setSaveStatus] = useState<"Ready" | "Saving..." | "Saved" | "Error">("Ready");
   const [revisionTrigger, setRevisionTrigger] = useState(0); // 이력 갱신용 강제 트리거
   const [showSettings, setShowSettings] = useState(false); // 설정 드로어 토글
+  const [suggestedTags, setSuggestedTags] = useState<string[]>([]); // AI 태그 추천
 
   // Crepe 컨테이너 레퍼런스
   const containerRef = useRef<HTMLDivElement>(null);
@@ -111,6 +113,7 @@ export default function Editor({ id }: EditorProps) {
     async function initCrepe() {
       try {
         const { Crepe } = await import("@milkdown/crepe");
+        // topBar/toolbar addFeature 제거 (커스텀 React 툴바로 대체)
         
         // 이전 에디터 내용 비우기
         if (containerRef.current) {
@@ -122,10 +125,9 @@ export default function Editor({ id }: EditorProps) {
         activeCrepe = new Crepe({
           root: containerRef.current,
           defaultValue: initialContent,
-          features: {
-            // 필요에 따라 Crepe 기능 켜고 끄기 설정 가능
-          }
         });
+
+        // addFeature는 사용 안 함 (TopBar는 커스텀 React 툴바로 대체)
 
         await activeCrepe.create();
         crepeRef.current = activeCrepe;
@@ -199,6 +201,31 @@ export default function Editor({ id }: EditorProps) {
         setIsDirty(false);
         setSaveStatus("Saved");
         setRevisionTrigger((prev) => prev + 1); // 이력 패널 목록 리프레시 강제 트리거
+
+        // AI 태그 추천 — 조건부 트리거 (본문 200자 이상 + 현재 태그 2개 이하)
+        const currentBody = localMarkdown[activeLang] || "";
+        if (currentBody.length >= 200 && metaTags.length <= 2) {
+          try {
+            const tagRes = await fetch(`/admin/api/posts/${post.id}/suggest-tags/`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                body_md: currentBody,
+                title: localTitles[activeLang] || "",
+                category: metaCategory,
+              }),
+            });
+            if (tagRes.ok) {
+              const tagData = await tagRes.json();
+              if (tagData.tags && Array.isArray(tagData.tags)) {
+                setSuggestedTags(tagData.tags.filter((t: string) => !metaTags.includes(t)));
+              }
+            }
+            // silent fail: 에러 시 아무것도 하지 않음
+          } catch {
+            // 네트워크 오류도 silent fail
+          }
+        }
       } catch (err: any) {
         console.error(err);
         setSaveStatus("Error");
@@ -266,39 +293,59 @@ export default function Editor({ id }: EditorProps) {
 
   return (
     <div className="w-full max-w-3xl mx-auto px-4 py-6">
-      {/* 1. 상단 컨트롤 바 — 컴팩트 */}
-      <div className="flex items-center justify-between gap-3 mb-6">
-        <div className="flex items-center gap-3">
-          <a
-            href="/admin/posts/"
-            className="p-2 bg-card-bg hover:bg-muted rounded-xl border border-border text-sm transition-colors"
-            title="목록으로"
-          >
-            ←
-          </a>
-          <div className="flex items-center gap-2">
-            {/* 자동저장 인라인 표시 */}
-            {saveStatus === "Saving..." && (
-              <span className="text-xs text-amber-400 animate-pulse">저장 중...</span>
-            )}
-            {saveStatus === "Saved" && (
-              <span className="text-xs text-accent">✓ 저장됨</span>
-            )}
-            {saveStatus === "Error" && (
-              <span className="text-xs text-red-400">저장 실패</span>
-            )}
-          </div>
+      {/* 1+2. 통합 컨트롤 행: 뒤로가기 + 언어탭 | 저장상태 + 번역상태 + 수정이력 + 설정 */}
+      <div className="flex items-center gap-2 mb-3">
+        {/* 왼쪽: 뒤로가기 + 언어탭 */}
+        <a
+          href="/admin/posts/"
+          className="p-2 bg-card-bg hover:bg-muted rounded-xl border border-border text-sm transition-colors shrink-0"
+          title="목록으로"
+        >
+          ←
+        </a>
+        <div className="flex gap-1 bg-card-bg border border-border rounded-xl p-1 flex-1">
+          {(["ko", "en", "ja"] as const).map((l) => (
+            <button
+              key={l}
+              onClick={() => {
+                if (crepeRef.current) {
+                  try {
+                    const txt = crepeRef.current.getMarkdown();
+                    setLocalMarkdown((prev) => ({ ...prev, [activeLang]: txt }));
+                  } catch (e) {}
+                }
+                setActiveLang(l);
+              }}
+              className={`flex-1 py-1.5 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
+                activeLang === l
+                  ? "text-accent border border-accent"
+                  : "opacity-70 hover:text-foreground border border-transparent"
+              }`}
+            >
+              {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
+            </button>
+          ))}
         </div>
 
-        <div className="flex items-center gap-2">
-          {/* 수정 이력 */}
+        {/* 오른쪽: 저장상태 + 번역상태 + 수정이력 + 설정 */}
+        <div className="flex items-center gap-2 shrink-0">
+          {/* 자동저장 인라인 표시 */}
+          {saveStatus === "Saving..." && (
+            <span className="text-xs text-amber-400 animate-pulse">저장 중...</span>
+          )}
+          {saveStatus === "Saved" && (
+            <span className="text-xs text-accent">✓ 저장됨</span>
+          )}
+          {saveStatus === "Error" && (
+            <span className="text-xs text-red-400">저장 실패</span>
+          )}
+          <TranslationStatus translations={post.translations} baseLang="ko" />
           <RevisionPanel
             postId={post.id}
             activeLang={activeLang}
             onRestore={handleRestore}
             triggerRefresh={revisionTrigger}
           />
-          {/* 설정 드로어 토글 */}
           <button
             onClick={() => setShowSettings(!showSettings)}
             className={`p-2 rounded-xl border text-sm transition-colors cursor-pointer ${
@@ -313,33 +360,20 @@ export default function Editor({ id }: EditorProps) {
         </div>
       </div>
 
-      {/* 2. 다국어 언어 탭 */}
-      <div className="flex items-center justify-between border-b border-border bg-card-bg p-1.5 rounded-xl gap-2 mb-4">
-        <div className="flex gap-1 flex-1">
-          {(["ko", "en", "ja"] as const).map((l) => (
-            <button
-              key={l}
-              onClick={() => {
-                if (crepeRef.current) {
-                  try {
-                    const txt = crepeRef.current.getMarkdown();
-                    setLocalMarkdown((prev) => ({ ...prev, [activeLang]: txt }));
-                  } catch (e) {}
-                }
-                setActiveLang(l);
-              }}
-              className={`flex-1 py-2 text-center text-xs font-bold rounded-lg transition-all duration-200 cursor-pointer ${
-                activeLang === l
-                  ? "text-accent border border-accent shadow-inner"
-                  : "opacity-80 hover:text-foreground border border-transparent"
-              }`}
-            >
-              {l === "ko" ? "🇰🇷 한국어" : l === "en" ? "🇺🇸 영어" : "🇯🇵 일본어"}
-            </button>
-          ))}
+      {/* 포맷팅 툴바 + 이미지 업로드 — 언어탭과 에디터 카드 사이 */}
+      <div className="flex items-center gap-2 mb-2">
+        <div className="flex-1">
+          <EditorToolbar crepeRef={crepeRef} />
         </div>
-        <div className="px-2 shrink-0">
-          <TranslationStatus translations={post.translations} baseLang="ko" />
+        <div className="shrink-0">
+          <ImageUploader
+            postId={post.id}
+            onUploadSuccess={(url) => {
+              const txt = crepeRef.current?.getMarkdown() || localMarkdown[activeLang] || "";
+              const newTxt = txt + `\n\n![업로드된 이미지](${url})\n\n`;
+              handleRestore(newTxt);
+            }}
+          />
         </div>
       </div>
 
@@ -359,18 +393,6 @@ export default function Editor({ id }: EditorProps) {
           style={{ borderBottom: '1px solid var(--color-border)' }}
         />
 
-        {/* 이미지 업로드 버튼 */}
-        <div className="flex items-center justify-end mb-3">
-          <ImageUploader 
-            postId={post.id} 
-            onUploadSuccess={(url) => {
-              const txt = crepeRef.current?.getMarkdown() || localMarkdown[activeLang] || "";
-              const newTxt = txt + `\n\n![업로드된 이미지](${url})\n\n`;
-              handleRestore(newTxt);
-            }}
-          />
-        </div>
-        
         {/* Milkdown Crepe 에디터 — 자동 높이 확장 */}
         <div 
           ref={containerRef} 
@@ -411,10 +433,23 @@ export default function Editor({ id }: EditorProps) {
                 slug={metaSlug}
                 category={metaCategory}
                 tags={metaTags}
+                postId={post.id}
+                currentTitle={localTitles["ko"] || ""}
+                suggestedTags={suggestedTags}
+                onSuggestedTagAdd={(tag) => {
+                  if (!metaTags.includes(tag)) {
+                    const newTags = [...metaTags, tag];
+                    setMetaTags(newTags);
+                    setSuggestedTags(prev => prev.filter(t => t !== tag));
+                    setIsDirty(true);
+                    setSaveStatus("Saving...");
+                  }
+                }}
                 onChange={(data) => {
                   setMetaSlug(data.slug);
                   setMetaCategory(data.category);
                   setMetaTags(data.tags);
+                  setSuggestedTags([]); // 태그 수동 변경 시 추천 초기화
                   setIsDirty(true);
                   setSaveStatus("Saving...");
                 }}

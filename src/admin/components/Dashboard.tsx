@@ -45,19 +45,9 @@ export default function Dashboard() {
 
   return (
     <div className="max-w-6xl mx-auto py-8 px-4">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 gap-4">
-        <div>
-          <h1 className="text-3xl font-bold text-accent">대시보드 요약</h1>
-          <p className="opacity-80 mt-2 text-sm">블로그 포스트 통계 및 최근 활동 내역입니다.</p>
-        </div>
-        <div className="flex flex-wrap gap-3">
-          <a href="/admin/memos/" className="px-5 py-2.5 bg-card-bg hover:bg-muted text-foreground rounded-xl font-bold transition-colors text-sm border border-border shadow-black/20">
-            📝 메모장
-          </a>
-          <a href="/admin/posts/" className="px-5 py-2.5 hover:text-foreground rounded-xl font-bold transition-all duration-200 shadow-emerald-950/20">
-            📚 포스트 라이브러리
-          </a>
-        </div>
+      <div className="mb-8">
+        <h1 className="text-3xl font-bold text-accent">대시보드 요약</h1>
+        <p className="opacity-80 mt-2 text-sm">블로그 포스트 통계 및 최근 활동 내역입니다.</p>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-10">

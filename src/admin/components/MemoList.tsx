@@ -108,6 +108,12 @@ export default function MemoList() {
               onExpandSuccess={(postId) => {
                 window.location.href = `/admin/posts/${postId}/`;
               }}
+              onDelete={(id) => {
+                setMemos(prev => prev.filter(m => m.id !== id));
+              }}
+              onUpdate={(id, content) => {
+                setMemos(prev => prev.map(m => m.id === id ? { ...m, content } : m));
+              }}
             />
           ))}
         </div>

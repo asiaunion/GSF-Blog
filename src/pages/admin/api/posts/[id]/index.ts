@@ -182,3 +182,57 @@ export const PUT: APIRoute = async ({ params, request }) => {
     });
   }
 };
+
+// DELETE /admin/api/posts/:id/
+export const DELETE: APIRoute = async ({ params }) => {
+  try {
+    const { id } = params;
+    if (!id) {
+      return new Response(JSON.stringify({ error: "포스트 ID가 누락되었습니다." }), {
+        status: 400,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    // 포스트 존재 여부 확인
+    const checkPost = await dbExecute("SELECT id FROM posts WHERE id = ?", [id]);
+    if (checkPost.rows.length === 0) {
+      return new Response(JSON.stringify({ error: "포스트를 찾을 수 없습니다." }), {
+        status: 404,
+        headers: { "Content-Type": "application/json" },
+      });
+    }
+
+    // DB 관계 정리: post_memos.source_post_id → NULL (ON DELETE 지시어 없음)
+    await dbBatch([
+      {
+        sql: "UPDATE post_memos SET source_post_id = NULL WHERE source_post_id = ?",
+        args: [id],
+      },
+      {
+        // revision_history는 post_translations 참조 → 먼저 삭제
+        sql: "DELETE FROM revision_history WHERE translation_id IN (SELECT id FROM post_translations WHERE post_id = ?)",
+        args: [id],
+      },
+      {
+        sql: "DELETE FROM post_translations WHERE post_id = ?",
+        args: [id],
+      },
+      {
+        sql: "DELETE FROM posts WHERE id = ?",
+        args: [id],
+      },
+    ]);
+
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
+  } catch (error: any) {
+    console.error("DELETE /admin/api/posts/[id] 에러:", error);
+    return new Response(JSON.stringify({ error: error.message }), {
+      status: 500,
+      headers: { "Content-Type": "application/json" },
+    });
+  }
+};
