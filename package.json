@@ -38,7 +38,7 @@
     "@libsql/client": "^0.17.3",
     "@milkdown/crepe": "^7.21.1",
     "@milkdown/kit": "^7.21.1",
-    "@notionhq/client": "^5.22.0",
+    "@notionhq/client": "^2.2.15",
     "@pagefind/default-ui": "^1.4.0",
     "@resvg/resvg-js": "^2.6.2",
     "@tailwindcss/vite": "^4.1.18",
