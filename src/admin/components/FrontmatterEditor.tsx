@@ -190,7 +190,7 @@ export default function FrontmatterEditor({
         </div>
 
         {/* AI 추천 태그 (자동저장 성공 후 표시) */}
-        {suggestedTags.length > 0 && (
+        {suggestedTags.length > 0 ? (
           <div className="mt-2.5 pt-2.5 border-t border-border/50">
             <span className="text-[9px] opacity-60 uppercase font-semibold tracking-wider block mb-1.5">
               ✨ AI 추천 태그 (클릭하면 추가)
@@ -208,6 +208,10 @@ export default function FrontmatterEditor({
               ))}
             </div>
           </div>
+        ) : (
+          <p className="text-[9px] opacity-40 mt-1.5 leading-tight">
+            💡 본문 200자 이상 작성 후 자동저장되면 AI 태그 추천이 표시됩니다.
+          </p>
         )}
       </div>
     </div>

@@ -44,10 +44,11 @@ const isActivePosts = pathname.startsWith("/admin/posts");
         padding-bottom: 4rem;
       }
 
-      /* 헤더 — 2행 구조, solid 배경으로 강화 */
+      /* 헤더 — 1행 구조로 통합 */
       header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        align-items: center;
         background-color: var(--color-card-bg, #ffffff);
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
@@ -55,41 +56,49 @@ const isActivePosts = pathname.startsWith("/admin/posts");
         position: sticky;
         top: 0;
         z-index: 40;
-        max-height: 80px;
+        height: 52px;
+        padding: 0 1.5rem;
+        gap: 0;
       }
 
-      /* 1행: 브랜드 + 유저 정보 */
-      .header-top {
+      /* 브랜드 영역 */
+      .brand {
+        font-family: 'Outfit', sans-serif;
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--color-accent);
+        -webkit-text-fill-color: var(--color-accent);
+        letter-spacing: -0.02em;
+        text-decoration: none;
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        padding: 0.6rem 2rem;
+        gap: 0.4rem;
+        white-space: nowrap;
+        margin-right: 1.25rem;
       }
 
-      /* 2행: 탭 네비게이션 */
+      /* 탭 네비게이션 — 헤더 안에서 flex-1 */
       .header-tabs {
         display: flex;
-        align-items: center;
+        align-items: stretch;
         gap: 0;
-        padding: 0 2rem;
-        border-top: 1px solid var(--color-border);
-        background-color: var(--color-card-bg, #ffffff);
+        flex: 1;
+        height: 100%;
       }
 
       .nav-tab {
         display: inline-flex;
         align-items: center;
-        gap: 0.4rem;
-        padding: 0.5rem 1.1rem;
-        font-size: 0.82rem;
+        gap: 0.35rem;
+        padding: 0 1rem;
+        font-size: 0.8rem;
         font-weight: 600;
         color: var(--color-foreground);
         text-decoration: none;
         border-bottom: 2px solid transparent;
-        margin-bottom: -1px;
         transition: color 0.15s ease, border-color 0.15s ease;
         white-space: nowrap;
-        opacity: 0.65;
+        opacity: 0.6;
       }
 
       .nav-tab:hover {
@@ -103,41 +112,30 @@ const isActivePosts = pathname.startsWith("/admin/posts");
         opacity: 1;
       }
 
-      .brand {
-        font-family: 'Outfit', sans-serif;
-        font-size: 1.15rem;
-        font-weight: 700;
-        color: var(--color-accent);
-        -webkit-text-fill-color: var(--color-accent);
-        letter-spacing: -0.02em;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-      }
-
+      /* 유저 정보 영역 */
       .user-info {
         display: flex;
         align-items: center;
-        gap: 0.75rem;
+        gap: 0.65rem;
         font-size: 0.8rem;
         color: var(--color-foreground);
+        margin-left: auto;
       }
 
       .user-info img {
-        width: 28px;
-        height: 28px;
+        width: 26px;
+        height: 26px;
         border-radius: 50%;
         border: 2px solid var(--color-border);
       }
 
       .btn-logout {
-        padding: 0.35rem 0.85rem;
+        padding: 0.3rem 0.75rem;
         background: transparent;
         border: 1px solid var(--color-border);
         border-radius: 10px;
         color: var(--color-foreground);
-        font-size: 0.75rem;
+        font-size: 0.72rem;
         font-weight: 500;
         cursor: pointer;
         text-decoration: none;
@@ -148,6 +146,7 @@ const isActivePosts = pathname.startsWith("/admin/posts");
         background: rgba(239, 68, 68, 0.18);
         border-color: rgba(239, 68, 68, 0.4);
       }
+
 
       /* 전역 애니메이션 클래스 */
       @keyframes fadeIn {
@@ -176,33 +175,13 @@ const isActivePosts = pathname.startsWith("/admin/posts");
   </head>
   <body>
     <header>
-      {/* 1행: 브랜드 + 유저 */}
-      <div class="header-top">
-        <a href="/admin/" class="brand">
-          <span style="font-size: 1.2rem">🛠️</span>
-          GSF-Blog Admin
-        </a>
-        <div class="user-info">
-          {user?.picture && <img src={user.picture} alt={user.name} />}
-          <span style="font-weight: 500;">{user?.name ?? user?.email ?? "관리자"}</span>
+      {/* 브랜드 */}
+      <a href="/admin/" class="brand">
+        <span style="font-size: 1.1rem">🛠️</span>
+        GSF-Blog Admin
+      </a>
 
-          <button
-            id="theme-btn"
-            class="relative w-7 h-7 rounded-lg flex items-center justify-center hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-accent text-foreground"
-            title="Toggles light & dark mode"
-            aria-label="auto"
-            aria-live="polite"
-          >
-            <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 w-4 h-4" />
-            <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 w-4 h-4" />
-          </button>
-          <form method="POST" action="/admin/api/auth/logout/">
-            <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
-          </form>
-        </div>
-      </div>
-
-      {/* 2행: 탭 네비게이션 */}
+      {/* 탭 네비게이션 */}
       <nav class="header-tabs">
         <a
           href="/admin/"
@@ -226,6 +205,26 @@ const isActivePosts = pathname.startsWith("/admin/posts");
           📚 포스트 라이브러리
         </a>
       </nav>
+
+      {/* 유저 정보 */}
+      <div class="user-info">
+        {user?.picture && <img src={user.picture} alt={user.name} />}
+        <span style="font-weight: 500;">{user?.name ?? user?.email ?? "관리자"}</span>
+
+        <button
+          id="theme-btn"
+          class="relative w-7 h-7 rounded-lg flex items-center justify-center hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-accent text-foreground"
+          title="Toggles light & dark mode"
+          aria-label="auto"
+          aria-live="polite"
+        >
+          <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 w-4 h-4" />
+          <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 w-4 h-4" />
+        </button>
+        <form method="POST" action="/admin/api/auth/logout/">
+          <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
+        </form>
+      </div>
     </header>
 
     <slot />
