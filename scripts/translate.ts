@@ -1,5 +1,6 @@
 import { parseArgs } from 'node:util';
 import fs from 'node:fs';
+import path from 'node:path';
 
 const { values } = parseArgs({
   args: process.argv.slice(2),
@@ -12,13 +13,22 @@ const { values } = parseArgs({
 const inputPath = values.ko;
 if (inputPath && fs.existsSync(inputPath)) {
   const content = fs.readFileSync(inputPath, 'utf-8');
-  const enPath = inputPath.replace('.ko.md', '.en.md');
-  const jaPath = inputPath.replace('.ko.md', '.ja.md');
+  const slug = values.slug || path.basename(inputPath, '.ko.md');
   
-  // Create dummy translated files by copying the original
-  fs.writeFileSync(enPath, content);
-  fs.writeFileSync(jaPath, content);
-  console.log(`🌐 (Stub) Translated files created at: ${enPath}, ${jaPath}`);
+  const koDest = `src/data/blog/ko/${slug}.md`;
+  const enDest = `src/data/blog/en/${slug}.md`;
+  const jaDest = `src/data/blog/ja/${slug}.md`;
+  
+  fs.mkdirSync(path.dirname(koDest), { recursive: true });
+  fs.mkdirSync(path.dirname(enDest), { recursive: true });
+  fs.mkdirSync(path.dirname(jaDest), { recursive: true });
+  
+  // Copy to final destinations
+  fs.writeFileSync(koDest, content);
+  fs.writeFileSync(enDest, content);
+  fs.writeFileSync(jaDest, content);
+  
+  console.log(`🌐 (Stub) Translated files copied to final destinations: ${koDest}, ${enDest}, ${jaDest}`);
 } else {
   console.log('🌐 (Stub) Translation skipped for now.');
 }
