@@ -84,6 +84,10 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
 
   // 포스트 생성 상태
   const [creating, setCreating] = useState(false);
+  // per-item import 로딩 상태
+  const [importingId, setImportingId] = useState<string | null>(null);
+  // per-item delete 로딩 상태
+  const [deletingId, setDeletingId] = useState<string | null>(null);
 
   // 데이터 fetch
   const fetchPosts = async () => {
@@ -140,6 +144,40 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
       alert(err.message || "새 포스트 생성 중 에러 발생");
     } finally {
       setCreating(false);
+    }
+  };
+
+  // isGitOnly 포스트 편집 시 자동 import
+  const handleImportAndEdit = async (post: MergedPost) => {
+    if (importingId) return; // 중복 클릭 방지
+    setImportingId(post.slug);
+    try {
+      const res = await fetch(`/admin/api/posts/${post.slug}/import/`, {
+        method: "POST",
+      });
+      if (!res.ok) throw new Error("가져오기 실패");
+      const imported = await res.json();
+      window.location.href = `/admin/posts/${imported.id}/`;
+    } catch (err: any) {
+      alert(err.message || "가져오기 실패");
+      setImportingId(null);
+    }
+  };
+
+  // isDbOnly 포스트 삭제
+  const handleDeletePost = async (post: MergedPost) => {
+    if (!confirm(`"${post.displayTitle}"을 삭제하시겠어요?\nDB에서만 삭제됩니다. (Git 원본 보존)`)) return;
+    setDeletingId(post.id);
+    try {
+      const res = await fetch(`/admin/api/posts/${post.id}/`, {
+        method: "DELETE",
+      });
+      if (!res.ok) throw new Error("삭제 실패");
+      setPosts(prev => prev.filter(p => p.id !== post.id));
+    } catch (err: any) {
+      alert(err.message || "삭제 실패");
+    } finally {
+      setDeletingId(null);
     }
   };
 
@@ -359,33 +397,47 @@ export default function PostList({ defaultStatusFilter = "all" }: PostListProps 
                         </div>
                       </td>
                       <td className="px-6 py-4.5 whitespace-nowrap text-right">
-                        {post.isGitOnly ? (
-                          <button
-                            onClick={async () => {
-                              try {
-                                if (!confirm("이 글을 가져와서 편집할까요?")) return;
-                                const res = await fetch(`/admin/api/posts/${post.slug}/import/`, {
-                                  method: "POST"
-                                });
-                                if (!res.ok) throw new Error("가져오기 실패");
-                                const imported = await res.json();
-                                window.location.href = `/admin/posts/${imported.id}/`;
-                              } catch (err: any) {
-                                alert(err.message || "가져오기 실패");
-                              }
-                            }}
-                            className="inline-flex items-center gap-1 px-3 py-1.5 bg-cyan-500/10 hover:bg-cyan-500/20 text-accent border border-cyan-500/20 text-xs font-semibold rounded-lg transition-colors cursor-pointer"
-                          >
-                            ⬇️ 가져오기
-                          </button>
-                        ) : (
-                          <a
-                            href={`/admin/posts/${post.id}/`}
-                            className="inline-flex items-center gap-1 px-3.5 py-1.5 bg-accent text-background hover:bg-accent text-background text-accent border border-accent text-xs font-semibold rounded-lg transition-all duration-200 hover:scale-[1.03] cursor-pointer"
-                          >
-                            📝 편집
-                          </a>
-                        )}
+                        <div className="flex items-center justify-end gap-2">
+                          {post.isGitOnly ? (
+                            <button
+                              onClick={() => handleImportAndEdit(post)}
+                              disabled={importingId === post.slug}
+                              className="inline-flex items-center gap-1 px-3.5 py-1.5 bg-accent text-background border border-accent text-xs font-semibold rounded-lg transition-all duration-200 hover:scale-[1.03] cursor-pointer disabled:opacity-70 disabled:cursor-wait"
+                            >
+                              {importingId === post.slug ? (
+                                <>
+                                  <div className="w-3 h-3 border-2 border-background border-t-transparent rounded-full animate-spin" />
+                                  불러오는 중...
+                                </>
+                              ) : (
+                                "📝 편집"
+                              )}
+                            </button>
+                          ) : (
+                            <a
+                              href={`/admin/posts/${post.id}/`}
+                              className="inline-flex items-center gap-1 px-3.5 py-1.5 bg-accent text-background border border-accent text-xs font-semibold rounded-lg transition-all duration-200 hover:scale-[1.03] cursor-pointer"
+                            >
+                              📝 편집
+                            </a>
+                          )}
+
+                          {/* isDbOnly 전용 삭제 버튼 */}
+                          {post.isDbOnly && (
+                            <button
+                              onClick={() => handleDeletePost(post)}
+                              disabled={deletingId === post.id}
+                              className="inline-flex items-center gap-1 px-2.5 py-1.5 bg-red-500/10 hover:bg-red-500/20 text-red-400 border border-red-500/20 text-xs font-semibold rounded-lg transition-colors cursor-pointer disabled:opacity-50"
+                              title="DB에서 삭제 (Git 원본 보존)"
+                            >
+                              {deletingId === post.id ? (
+                                <div className="w-3 h-3 border-2 border-red-400 border-t-transparent rounded-full animate-spin" />
+                              ) : (
+                                "🗑️"
+                              )}
+                            </button>
+                          )}
+                        </div>
                       </td>
                     </tr>
                   );

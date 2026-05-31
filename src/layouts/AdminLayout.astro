@@ -2,6 +2,7 @@
 /**
  * Admin 공통 레이아웃
  * 인증된 어드민 페이지에서 공유하는 헤더, 테마 토글, 로그아웃, 스타일을 통합.
+ * 2행 헤더: 브랜드/유저 행 + 탭 네비게이션 행
  */
 import "@/styles/global.css";
 import IconMoon from "@/assets/icons/IconMoon.svg";
@@ -15,6 +16,12 @@ interface Props {
 }
 
 const { title, user } = Astro.props;
+const pathname = Astro.url.pathname;
+
+// 탭 활성 상태 판별
+const isActiveDashboard = !pathname.startsWith("/admin/memos") && !pathname.startsWith("/admin/posts");
+const isActiveMemos = pathname.startsWith("/admin/memos");
+const isActivePosts = pathname.startsWith("/admin/posts");
 ---
 
 <!doctype html>
@@ -37,24 +44,68 @@ const { title, user } = Astro.props;
         padding-bottom: 4rem;
       }
 
-      /* 헤더 유리막 효과 */
+      /* 헤더 — 2행 구조, solid 배경으로 강화 */
       header {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.25rem 2rem;
-        background: var(--color-card-bg);
+        flex-direction: column;
+        background-color: var(--color-card-bg, #ffffff);
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         border-bottom: 1px solid var(--color-border);
         position: sticky;
         top: 0;
         z-index: 40;
+        max-height: 80px;
+      }
+
+      /* 1행: 브랜드 + 유저 정보 */
+      .header-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.6rem 2rem;
+      }
+
+      /* 2행: 탭 네비게이션 */
+      .header-tabs {
+        display: flex;
+        align-items: center;
+        gap: 0;
+        padding: 0 2rem;
+        border-top: 1px solid var(--color-border);
+        background-color: var(--color-card-bg, #ffffff);
+      }
+
+      .nav-tab {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.5rem 1.1rem;
+        font-size: 0.82rem;
+        font-weight: 600;
+        color: var(--color-foreground);
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        margin-bottom: -1px;
+        transition: color 0.15s ease, border-color 0.15s ease;
+        white-space: nowrap;
+        opacity: 0.65;
+      }
+
+      .nav-tab:hover {
+        color: var(--color-accent);
+        opacity: 1;
+      }
+
+      .nav-tab.active {
+        color: var(--color-accent);
+        border-bottom-color: var(--color-accent);
+        opacity: 1;
       }
 
       .brand {
         font-family: 'Outfit', sans-serif;
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         font-weight: 700;
         color: var(--color-accent);
         -webkit-text-fill-color: var(--color-accent);
@@ -68,25 +119,25 @@ const { title, user } = Astro.props;
       .user-info {
         display: flex;
         align-items: center;
-        gap: 0.875rem;
-        font-size: 0.875rem;
-        color: var(--color-muted);
+        gap: 0.75rem;
+        font-size: 0.8rem;
+        color: var(--color-foreground);
       }
 
       .user-info img {
-        width: 32px;
-        height: 32px;
+        width: 28px;
+        height: 28px;
         border-radius: 50%;
         border: 2px solid var(--color-border);
       }
 
       .btn-logout {
-        padding: 0.45rem 1rem;
+        padding: 0.35rem 0.85rem;
         background: transparent;
         border: 1px solid var(--color-border);
         border-radius: 10px;
         color: var(--color-foreground);
-        font-size: 0.8rem;
+        font-size: 0.75rem;
         font-weight: 500;
         cursor: pointer;
         text-decoration: none;
@@ -125,28 +176,56 @@ const { title, user } = Astro.props;
   </head>
   <body>
     <header>
-      <a href="/admin/" class="brand">
-        <span style="font-size: 1.35rem">🛠️</span>
-        GSF-Blog Admin
-      </a>
-      <div class="user-info">
-        {user?.picture && <img src={user.picture} alt={user.name} />}
-        <span class="font-medium text-foreground">{user?.name ?? user?.email ?? "관리자"}</span>
+      {/* 1행: 브랜드 + 유저 */}
+      <div class="header-top">
+        <a href="/admin/" class="brand">
+          <span style="font-size: 1.2rem">🛠️</span>
+          GSF-Blog Admin
+        </a>
+        <div class="user-info">
+          {user?.picture && <img src={user.picture} alt={user.name} />}
+          <span style="font-weight: 500;">{user?.name ?? user?.email ?? "관리자"}</span>
 
-        <button
-          id="theme-btn"
-          class="relative w-8 h-8 rounded-lg flex items-center justify-center hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-accent ml-2 mr-2 text-foreground"
-          title="Toggles light & dark mode"
-          aria-label="auto"
-          aria-live="polite"
-        >
-          <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 w-4 h-4" />
-          <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 w-4 h-4" />
-        </button>
-        <form method="POST" action="/admin/api/auth/logout/">
-          <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
-        </form>
+          <button
+            id="theme-btn"
+            class="relative w-7 h-7 rounded-lg flex items-center justify-center hover:bg-muted transition-colors focus:outline-none focus:ring-2 focus:ring-accent text-foreground"
+            title="Toggles light & dark mode"
+            aria-label="auto"
+            aria-live="polite"
+          >
+            <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90 w-4 h-4" />
+            <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0 w-4 h-4" />
+          </button>
+          <form method="POST" action="/admin/api/auth/logout/">
+            <button id="btn-logout" type="submit" class="btn-logout">로그아웃</button>
+          </form>
+        </div>
       </div>
+
+      {/* 2행: 탭 네비게이션 */}
+      <nav class="header-tabs">
+        <a
+          href="/admin/"
+          class={`nav-tab${isActiveDashboard ? " active" : ""}`}
+          id="tab-dashboard"
+        >
+          📊 대시보드
+        </a>
+        <a
+          href="/admin/memos/"
+          class={`nav-tab${isActiveMemos ? " active" : ""}`}
+          id="tab-memos"
+        >
+          📝 메모장
+        </a>
+        <a
+          href="/admin/posts/"
+          class={`nav-tab${isActivePosts ? " active" : ""}`}
+          id="tab-posts"
+        >
+          📚 포스트 라이브러리
+        </a>
+      </nav>
     </header>
 
     <slot />

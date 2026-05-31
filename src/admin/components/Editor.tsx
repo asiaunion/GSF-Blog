@@ -57,6 +57,7 @@ export default function Editor({ id }: EditorProps) {
   const [saveStatus, setSaveStatus] = useState<"Ready" | "Saving..." | "Saved" | "Error">("Ready");
   const [revisionTrigger, setRevisionTrigger] = useState(0); // 이력 갱신용 강제 트리거
   const [showSettings, setShowSettings] = useState(false); // 설정 드로어 토글
+  const [suggestedTags, setSuggestedTags] = useState<string[]>([]); // AI 태그 추천
 
   // Crepe 컨테이너 레퍼런스
   const containerRef = useRef<HTMLDivElement>(null);
@@ -119,11 +120,14 @@ export default function Editor({ id }: EditorProps) {
 
         const initialContent = localMarkdown[activeLang] || "";
 
+        const { CrepeFeature } = await import("@milkdown/crepe");
+        
         activeCrepe = new Crepe({
           root: containerRef.current,
           defaultValue: initialContent,
           features: {
-            // 필요에 따라 Crepe 기능 켜고 끄기 설정 가능
+            [CrepeFeature.TopBar]: true,   // 상단 툴바 (Vue 렌더링)
+            [CrepeFeature.Toolbar]: true,  // 인라인 선택 툴바
           }
         });
 
@@ -199,6 +203,31 @@ export default function Editor({ id }: EditorProps) {
         setIsDirty(false);
         setSaveStatus("Saved");
         setRevisionTrigger((prev) => prev + 1); // 이력 패널 목록 리프레시 강제 트리거
+
+        // AI 태그 추천 — 조건부 트리거 (본문 200자 이상 + 현재 태그 2개 이하)
+        const currentBody = localMarkdown[activeLang] || "";
+        if (currentBody.length >= 200 && metaTags.length <= 2) {
+          try {
+            const tagRes = await fetch(`/admin/api/posts/${post.id}/suggest-tags/`, {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                body_md: currentBody,
+                title: localTitles[activeLang] || "",
+                category: metaCategory,
+              }),
+            });
+            if (tagRes.ok) {
+              const tagData = await tagRes.json();
+              if (tagData.tags && Array.isArray(tagData.tags)) {
+                setSuggestedTags(tagData.tags.filter((t: string) => !metaTags.includes(t)));
+              }
+            }
+            // silent fail: 에러 시 아무것도 하지 않음
+          } catch {
+            // 네트워크 오류도 silent fail
+          }
+        }
       } catch (err: any) {
         console.error(err);
         setSaveStatus("Error");
@@ -411,10 +440,23 @@ export default function Editor({ id }: EditorProps) {
                 slug={metaSlug}
                 category={metaCategory}
                 tags={metaTags}
+                postId={post.id}
+                currentTitle={localTitles["ko"] || ""}
+                suggestedTags={suggestedTags}
+                onSuggestedTagAdd={(tag) => {
+                  if (!metaTags.includes(tag)) {
+                    const newTags = [...metaTags, tag];
+                    setMetaTags(newTags);
+                    setSuggestedTags(prev => prev.filter(t => t !== tag));
+                    setIsDirty(true);
+                    setSaveStatus("Saving...");
+                  }
+                }}
                 onChange={(data) => {
                   setMetaSlug(data.slug);
                   setMetaCategory(data.category);
                   setMetaTags(data.tags);
+                  setSuggestedTags([]); // 태그 수동 변경 시 추천 초기화
                   setIsDirty(true);
                   setSaveStatus("Saving...");
                 }}
