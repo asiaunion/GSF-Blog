@@ -37,12 +37,17 @@ async function setupDatabase() {
           name: "status", 
           select: { 
             options: [
-              { name: "초안작성중", color: "gray" },
-              { name: "발행요청", color: "blue" },
-              { name: "처리중", color: "yellow" },
-              { name: "발행승인", color: "purple" },
-              { name: "발행완료", color: "green" },
-              { name: "업데이트요청", color: "orange" }
+              { name: "AI초안요청" },
+              { name: "AI초안작성중" },
+              { name: "초안검토대기" },
+              { name: "발행요청" },
+              { name: "번역중" },
+              { name: "발행승인대기" },
+              { name: "번역재요청" },
+              { name: "머지중" },
+              { name: "발행승인" },
+              { name: "발행실패" },
+              { name: "발행완료" }
             ]
           } 
         },

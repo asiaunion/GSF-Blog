@@ -146,7 +146,7 @@ async function blockToMarkdown(
     }
 
     case "divider":
-      return "---";
+      return "\n---";
 
     case "image": {
       const imageBlock = block.image;
