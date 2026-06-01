@@ -16,6 +16,9 @@ on:
         required: false
         default: "gsf-blog"
         type: string
+concurrency:
+  group: notion-merge-${{ inputs.notion_page_id }}
+  cancel-in-progress: true
 
 jobs:
   merge:

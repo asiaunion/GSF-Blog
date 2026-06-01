@@ -21,6 +21,10 @@ env:
   PNPM_VERSION: "9"
   NODE_VERSION: "20"
 
+concurrency:
+  group: notion-draft-${{ inputs.notion_page_id }}
+  cancel-in-progress: true
+
 jobs:
   ai-draft:
     runs-on: ubuntu-latest
