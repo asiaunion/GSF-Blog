@@ -1,8 +1,10 @@
 import { Client } from "@notionhq/client";
 import { blocksToMarkdown } from "./notion-to-md.ts"; 
+import { put } from "@vercel/blob";
 
 const NOTION_TOKEN = process.env.NOTION_TOKEN || "";
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "";
+const BLOB_READ_WRITE_TOKEN = process.env.BLOB_READ_WRITE_TOKEN || "";
 const PAGE_ID = process.argv[2];
 
 if (!NOTION_TOKEN || !GEMINI_API_KEY || !PAGE_ID) {
@@ -12,12 +14,24 @@ if (!NOTION_TOKEN || !GEMINI_API_KEY || !PAGE_ID) {
 
 const notion = new Client({ auth: NOTION_TOKEN });
 
-async function generateDraft(text: string): Promise<string> {
+interface DraftResult {
+  draft: string;
+  tags: string[];
+  imagePrompt: string;
+}
+
+async function generateDraft(text: string): Promise<DraftResult> {
   const prompt = `다음은 블로그 포스트 작성을 위한 메모 및 원본 내용입니다. 
-이 내용을 바탕으로 블로그 독자들이 읽기 좋은 완성된 포스트 초안을 마크다운으로 작성해 주세요.
+이 내용을 바탕으로 다음 세 가지를 생성해서 반드시 JSON 형식으로만 응답해 주세요. (마크다운 백틱 등 일체 불필요)
+
+1. "draft": 블로그 독자들이 읽기 좋은 완성된 포스트 초안 (마크다운 형식)
+2. "tags": 이 글에 어울리는 3~5개의 핵심 태그 (문자열 배열, 예: ["도쿄", "여행"])
+3. "imagePrompt": 이 글의 메인 커버 이미지로 사용할 고해상도 이미지를 생성하기 위한 영문 프롬프트 (매우 구체적이고 묘사적으로 작성)
 
 [원본 내용]
-${text}`;
+${text}
+
+반드시 순수 JSON 객체( { "draft": "...", "tags": [...], "imagePrompt": "..." } )만 출력하세요.`;
 
   const modelsListRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${GEMINI_API_KEY}`);
   if (modelsListRes.ok) {
@@ -47,7 +61,10 @@ ${text}`;
         body: JSON.stringify({
           contents: [{
             parts: [{ text: prompt }]
-          }]
+          }],
+          generationConfig: {
+            responseMimeType: "application/json"
+          }
         })
       });
 
@@ -56,13 +73,17 @@ ${text}`;
         throw new Error(`Gemini API Error with ${model}: ${JSON.stringify(data)}`);
       }
       
-      const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      let textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
       if (!textContent) {
         throw new Error(`Failed to parse Gemini response with ${model}.`);
       }
       
+      // 혹시라도 백틱이 붙어 오면 제거
+      textContent = textContent.replace(/^```json\n/, "").replace(/^```\n/, "").replace(/\n```$/, "").trim();
+      const parsed = JSON.parse(textContent) as DraftResult;
+      
       console.log(`Successfully generated draft using ${model}`);
-      return textContent;
+      return parsed;
     } catch (err: any) {
       console.error(err.message);
       lastError = err;
@@ -71,6 +92,76 @@ ${text}`;
   }
 
   throw new Error(`All Gemini models failed. Last error: ${lastError?.message}`);
+}
+
+async function generateImage(prompt: string): Promise<string | null> {
+  if (!BLOB_READ_WRITE_TOKEN) {
+    console.warn("BLOB_READ_WRITE_TOKEN is missing. Skipping image generation.");
+    return null;
+  }
+  
+  console.log("Generating image using Imagen 3 with prompt:", prompt);
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-001:predict?key=${GEMINI_API_KEY}`;
+  try {
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        instances: [{ prompt }],
+        parameters: { sampleCount: 1 }
+      })
+    });
+
+    const data = await response.json();
+    if (!response.ok) {
+      console.error("Imagen API Error:", JSON.stringify(data));
+      return null;
+    }
+
+    if (data.predictions && data.predictions.length > 0) {
+      const base64Data = data.predictions[0].bytesBase64Encoded;
+      console.log("Successfully generated image. Uploading to Vercel Blob...");
+      
+      const buffer = Buffer.from(base64Data, 'base64');
+      const filename = `hero-${Date.now()}.jpg`;
+      const blob = await put(filename, buffer, {
+        access: 'public',
+        token: BLOB_READ_WRITE_TOKEN
+      });
+      
+      console.log(`Image uploaded successfully: ${blob.url}`);
+      return blob.url;
+    }
+  } catch (err) {
+    console.error("Error generating or uploading image:", err);
+  }
+  return null;
+}
+
+async function updateNotionProperties(pageId: string, tags: string[], imageUrl: string | null) {
+  const properties: any = {};
+  if (tags && tags.length > 0) {
+    properties["tags"] = {
+      multi_select: tags.map(t => ({ name: t }))
+    };
+  }
+
+  const payload: any = {
+    page_id: pageId,
+    properties
+  };
+
+  if (imageUrl) {
+    payload.cover = {
+      type: 'external',
+      external: { url: imageUrl }
+    };
+  }
+
+  if (Object.keys(properties).length > 0 || imageUrl) {
+    console.log("Updating Notion page properties (tags & cover)...");
+    await notion.pages.update(payload);
+  }
 }
 
 function parseMarkdownToBlocks(markdown: string): any[] {
@@ -171,10 +262,16 @@ async function main() {
   const markdown = await blocksToMarkdown(notion, PAGE_ID);
   
   console.log("Requesting AI draft from Gemini API...");
-  const draftMd = await generateDraft(markdown);
+  const result = await generateDraft(markdown);
+  
+  console.log("Parsed AI result. Generating Image...");
+  const imageUrl = await generateImage(result.imagePrompt);
+
+  console.log("Updating Notion properties...");
+  await updateNotionProperties(PAGE_ID, result.tags, imageUrl);
   
   console.log("Parsing draft to Notion blocks...");
-  const draftBlocks = parseMarkdownToBlocks(draftMd);
+  const draftBlocks = parseMarkdownToBlocks(result.draft);
   
   console.log("Creating Toggle Block for AI Draft...");
   const now = new Date().toLocaleString("ko-KR", { timeZone: "Asia/Seoul" });
@@ -204,7 +301,7 @@ async function main() {
     });
   }
   
-  console.log("Successfully appended AI draft.");
+  console.log("Successfully appended AI draft and updated properties.");
 }
 
 main().catch(err => {
