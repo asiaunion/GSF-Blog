@@ -114,13 +114,12 @@ async function generateImage(prompt: string): Promise<string | null> {
 
     const data = await response.json();
     if (!response.ok) {
-      console.error("Imagen API Error:", JSON.stringify(data));
-      return null;
+      throw new Error(`Imagen API Error: ${JSON.stringify(data)}`);
     }
 
     if (data.predictions && data.predictions.length > 0) {
       const base64Data = data.predictions[0].bytesBase64Encoded;
-      console.log("Successfully generated image. Uploading to Vercel Blob...");
+      console.log("Successfully generated image via Imagen 3. Uploading to Vercel Blob...");
       
       const buffer = Buffer.from(base64Data, 'base64');
       const filename = `hero-${Date.now()}.jpg`;
@@ -131,9 +130,31 @@ async function generateImage(prompt: string): Promise<string | null> {
       
       console.log(`Image uploaded successfully: ${blob.url}`);
       return blob.url;
+    } else {
+       throw new Error("No predictions returned from Imagen");
     }
-  } catch (err) {
-    console.error("Error generating or uploading image:", err);
+  } catch (err: any) {
+    console.error("Imagen failed, falling back to Pollinations.ai:", err.message);
+    try {
+      const fallbackUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true`;
+      console.log("Fetching fallback image from:", fallbackUrl);
+      
+      const fallbackRes = await fetch(fallbackUrl);
+      if (!fallbackRes.ok) throw new Error("Pollinations fetch failed");
+      
+      const arrayBuffer = await fallbackRes.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
+      const filename = `hero-fallback-${Date.now()}.jpg`;
+      const blob = await put(filename, buffer, {
+        access: 'public',
+        token: BLOB_READ_WRITE_TOKEN
+      });
+      
+      console.log(`Fallback image uploaded successfully: ${blob.url}`);
+      return blob.url;
+    } catch (fallbackErr: any) {
+      console.error("Fallback image generation also failed:", fallbackErr.message);
+    }
   }
   return null;
 }
