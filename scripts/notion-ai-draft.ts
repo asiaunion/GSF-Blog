@@ -19,6 +19,15 @@ async function generateDraft(text: string): Promise<string> {
 [원본 내용]
 ${text}`;
 
+  const modelsListRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${GEMINI_API_KEY}`);
+  if (modelsListRes.ok) {
+    const modelsData = await modelsListRes.json();
+    const availableModels = modelsData.models?.map((m: any) => m.name) || [];
+    console.log("AVAILABLE MODELS:", availableModels.join(", "));
+  } else {
+    console.error("Failed to fetch models list");
+  }
+
   const models = [
     "gemini-1.5-pro-latest",
     "gemini-1.5-flash-latest",
