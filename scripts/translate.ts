@@ -39,9 +39,9 @@ ${text}`;
   if (!translated) throw new Error("No text returned from Gemini");
   
   // Remove markdown codeblock markers if Gemini wraps the response
-  if (translated.startsWith("\`\`\`markdown\n")) {
+  if (translated.startsWith("```markdown\n")) {
     translated = translated.substring(12, translated.length - 3);
-  } else if (translated.startsWith("\`\`\`\n")) {
+  } else if (translated.startsWith("```\n")) {
     translated = translated.substring(4, translated.length - 3);
   }
   
@@ -57,9 +57,9 @@ async function main() {
   const content = fs.readFileSync(inputPath, 'utf-8');
   const slug = values.slug || path.basename(inputPath, '.ko.md');
   
-  const koDest = \`src/data/blog/ko/\${slug}.md\`;
-  const enDest = \`src/data/blog/en/\${slug}.md\`;
-  const jaDest = \`src/data/blog/ja/\${slug}.md\`;
+  const koDest = `src/data/blog/ko/${slug}.md`;
+  const enDest = `src/data/blog/en/${slug}.md`;
+  const jaDest = `src/data/blog/ja/${slug}.md`;
   
   fs.mkdirSync(path.dirname(koDest), { recursive: true });
   fs.mkdirSync(path.dirname(enDest), { recursive: true });
@@ -84,7 +84,7 @@ async function main() {
     const jaContent = await translateText(content, "ja");
     fs.writeFileSync(jaDest, jaContent);
     
-    console.log(\`✅ Translations saved: \${enDest}, \${jaDest}\`);
+    console.log(`✅ Translations saved: ${enDest}, ${jaDest}`);
   } catch (err: any) {
     console.error("❌ Translation failed:", err.message);
     process.exit(1);
