@@ -101,7 +101,6 @@ jobs:
           echo "🖼️ 이미지 Blob 업로드 시작"
           npx tsx scripts/notion-image-upload.ts \
             --input ".blog-agent-stage/${{ steps.prep.outputs.safe_slug }}.ko.md"
-        continue-on-error: true  # 이미지 없는 포스트는 정상 진행
 
       # ── 5. Voice Rewrite — Pass 1 (조건부) ───────────────────────────
       - name: Voice Rewrite (Pass 1, automated)
@@ -143,14 +142,21 @@ jobs:
           git config user.email "bot@gsfark.com"
           git checkout -b "${BRANCH}"
           git add src/data/blog/
-          git commit -m "feat(notion): [${{ steps.prep.outputs.safe_slug }}] Notion 발행 파이프라인 자동 생성 (ko/en/ja)"
-          git push origin "${BRANCH}"
+          if git diff --staged --quiet; then
+            echo "⚠️ 변경 사항이 없습니다. (No changes to commit)"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "feat(notion): [${{ steps.prep.outputs.safe_slug }}] Notion 발행 파이프라인 자동 생성 (ko/en/ja)"
+            git push origin "${BRANCH}"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
 
           echo "✅ feature branch push 완료: ${BRANCH}"
 
       # ── 9. GitHub PR 생성 ────────────────────────────────────────────
       - name: Create Pull Request
         id: create_pr
+        if: ${{ steps.push.outputs.has_changes == 'true' }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |

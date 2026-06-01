@@ -62,18 +62,18 @@ async function main() {
     process.exit(1);
   }
 
-  if (!process.env.BLOB_READ_WRITE_TOKEN) {
-    console.warn("⚠️ BLOB_READ_WRITE_TOKEN is not set. Skipping image upload.");
-    return;
-  }
-
   const slug = path.basename(inputPath, '.ko.md');
   let content = fs.readFileSync(inputPath, 'utf-8');
-  
+
   const urls = extractNotionImageUrls(content);
   if (urls.length === 0) {
     console.log("🖼️ No Notion images found to upload.");
     return;
+  }
+
+  if (!process.env.BLOB_READ_WRITE_TOKEN) {
+    console.error("❌ BLOB_READ_WRITE_TOKEN is not set. Cannot upload images. Please add it to GitHub Secrets.");
+    process.exit(1);
   }
 
   console.log(`🖼️ Found ${urls.length} images. Uploading to Vercel Blob...`);
@@ -88,6 +88,7 @@ async function main() {
       console.log(`  ✅ Uploaded: ${newUrl}`);
     } catch (error) {
       console.error(`  ❌ Failed to upload image ${originalUrl}:`, error);
+      process.exit(1);
     }
   }
 
