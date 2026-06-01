@@ -352,7 +352,10 @@ export async function notionPageToMarkdown(
   const properties = extractProperties(page);
 
   // 2. 블록 트리 → Markdown 변환
-  const body = await blocksToMarkdown(notion, pageId);
+  let body = await blocksToMarkdown(notion, pageId);
+
+  // Ensure horizontal rules always have a blank line before them to avoid being parsed as headings
+  body = body.replace(/([^\n])\n---(\n|$)/g, '$1\n\n---$2');
 
   // 3. Frontmatter 생성
   const frontmatter = buildFrontmatter({
