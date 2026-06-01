@@ -19,26 +19,48 @@ async function generateDraft(text: string): Promise<string> {
 [원본 내용]
 ${text}`;
 
-  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      contents: [{
-        parts: [{ text: prompt }]
-      }]
-    })
-  });
+  const models = [
+    "gemini-1.5-pro-latest",
+    "gemini-1.5-flash-latest",
+    "gemini-pro",
+    "gemini-1.0-pro"
+  ];
 
-  const data = await res.json();
-  if (!res.ok) {
-    throw new Error(`Gemini API Error: ${JSON.stringify(data)}`);
+  let lastError = null;
+
+  for (const model of models) {
+    console.log(`Trying model: ${model}...`);
+    try {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${GEMINI_API_KEY}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{
+            parts: [{ text: prompt }]
+          }]
+        })
+      });
+
+      const data = await res.json();
+      if (!res.ok) {
+        throw new Error(`Gemini API Error with ${model}: ${JSON.stringify(data)}`);
+      }
+      
+      const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!textContent) {
+        throw new Error(`Failed to parse Gemini response with ${model}.`);
+      }
+      
+      console.log(`Successfully generated draft using ${model}`);
+      return textContent;
+    } catch (err: any) {
+      console.error(err.message);
+      lastError = err;
+      // continue to next model
+    }
   }
-  
-  const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
-  if (!textContent) {
-    throw new Error("Failed to parse Gemini response.");
-  }
-  return textContent;
+
+  throw new Error(`All Gemini models failed. Last error: ${lastError?.message}`);
 }
 
 function parseMarkdownToBlocks(markdown: string): any[] {
