@@ -55,9 +55,11 @@ jobs:
 
       - name: Sanitize Slug and Check Existing
         id: prep
+        env:
+          INPUT_SLUG: ${{ inputs.slug }}
         run: |
-          # Slug 정규화: 공백 제거, 소문자화, 영문/숫자/한글/하이픈만 허용
-          SAFE_SLUG=$(echo "${{ inputs.slug }}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e 's/ /-/g' -e 's/[^a-zA-Z0-9가-힣-]//g' | tr '[:upper:]' '[:lower:]')
+          # Slug 정규화: node.js 활용 (ubuntu-latest의 sed locale 문제 회피)
+          SAFE_SLUG=$(node -e "console.log(process.env.INPUT_SLUG.trim().replace(/ /g, '-').replace(/[^a-zA-Z0-9가-힣-]/g, '').toLowerCase())")
           echo "safe_slug=${SAFE_SLUG}" >> $GITHUB_OUTPUT
           
           if [ -f "src/data/blog/ko/${SAFE_SLUG}.md" ]; then
