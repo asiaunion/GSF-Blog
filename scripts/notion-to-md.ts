@@ -307,6 +307,7 @@ export function buildFrontmatter(props: NotionProperties): string {
   lines.push(`author: GSF`);
   lines.push(`draft: ${props.draft ?? false}`);
   lines.push(`lang: ko`);
+  lines.push(`aiModel: "Gemini 3.1 Pro"`);
   if (props.category) lines.push(`category: ${props.category}`);
   if (props.featured) lines.push(`featured: true`);
   if (props.ogImage) lines.push(`ogImage: "${props.ogImage}"`);

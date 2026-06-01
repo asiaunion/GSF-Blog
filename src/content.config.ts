@@ -42,6 +42,7 @@ const blog = defineCollection({
       canonicalURL: z.string().optional(),
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
+      aiModel: z.string().optional(),
       lang: z.enum(["en", "ko", "ja"]).default("en"),
       /** Post category: top PostDisclaimer copy (investment / safety / general) */
       category: z

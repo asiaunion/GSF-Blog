@@ -1,10 +1,11 @@
 /**
  * workers/notion-poller/src/index.ts
  *
- * Cloudflare Worker — Notion DB 폴링 + GitHub Actions dispatch
+ * Cloudflare Worker — Notion Webhook / Polling + GitHub Actions dispatch
  *
  * 환경:
  *   - BLOGS_CONFIG (var): JSON 배열, 블로그별 설정 (token 제외)
+ *   - DATABASE_ID_TO_BLOG (var): (Optional) JSON 객체, Notion DB ID -> blog_id 맵핑
  *   - NOTION_TOKEN (secret): GSF-Blog Notion Integration Token
  *   - WIFE_NOTION_TOKEN (secret): 아내 블로그 Notion Integration Token
  *   - CF_WORKER_GITHUB_TOKEN (secret): GitHub Fine-grained PAT (actions:write)
@@ -12,6 +13,7 @@
 
 export interface Env {
   BLOGS_CONFIG: string;
+  DATABASE_ID_TO_BLOG?: string;
   NOTION_TOKEN: string;
   WIFE_NOTION_TOKEN?: string;
   CF_WORKER_GITHUB_TOKEN: string;
@@ -21,16 +23,17 @@ interface BlogConfig {
   id: string;
   notionDatabaseId: string;
   githubRepo: string;
-  workflowFile: string;
   imageStorage: "vercel-blob" | "cf-r2";
   domain: string;
 }
 
-// ── 상태값 ────────────────────────────────────────────────────────────
-const STATUS_PUBLISH_REQUEST = "발행요청";
-const STATUS_PROCESSING = "처리중";
-const STATUS_PUBLISH_APPROVED = "발행승인";
-const STATUS_PUBLISHED = "발행완료";
+// ── 1. 상태 기반 선언형 라우팅 (STATUS_ROUTES) ──────────────────────────
+const STATUS_ROUTES: Record<string, { workflowFile: string; processingStatus: string }> = {
+  "AI초안요청": { workflowFile: "notion-ai-draft.yml", processingStatus: "AI초안작성중" },
+  "발행요청": { workflowFile: "notion-publish.yml", processingStatus: "번역중" },
+  "번역재요청": { workflowFile: "notion-publish.yml", processingStatus: "번역중" },
+  "발행승인": { workflowFile: "notion-merge.yml", processingStatus: "머지중" },
+};
 
 // ── Notion Token 선택 ─────────────────────────────────────────────────
 function getNotionToken(blogId: string, env: Env): string {
@@ -58,7 +61,7 @@ async function notionRequest(
   });
 }
 
-// ── Notion DB 쿼리: 특정 status 페이지 목록 ──────────────────────────
+// ── Notion DB 쿼리 (Polling fallback) ─────────────────────────────────
 async function queryNotionByStatus(
   databaseId: string,
   status: string,
@@ -94,7 +97,7 @@ async function queryNotionByStatus(
   });
 }
 
-// ── Notion 페이지 status 업데이트 ────────────────────────────────────
+// ── 2. Optimistic Locking: Notion 페이지 status 즉각 업데이트 ───────────
 async function updateNotionStatus(
   pageId: string,
   status: string,
@@ -111,7 +114,7 @@ async function updateNotionStatus(
   }
 }
 
-// ── Notion 페이지 코멘트 작성 ────────────────────────────────────────
+// ── Notion 페이지 코멘트 작성 ─────────────────────────────────────────
 async function addNotionComment(
   pageId: string,
   message: string,
@@ -153,158 +156,140 @@ async function triggerGitHubWorkflow(
   return true;
 }
 
-// ── GitHub PR merge (발행승인 경로) ──────────────────────────────────
-async function mergeFeatureBranch(
-  repo: string,
-  slug: string,
-  githubToken: string
-): Promise<boolean> {
-  const [owner, repoName] = repo.split("/");
+// ── 3. 동적 DB 식별 로직 ──────────────────────────────────────────────
+function identifyBlogId(databaseId: string, env: Env, configs: BlogConfig[]): string {
+  const normalizedPayloadDb = databaseId.replace(/-/g, "");
 
-  // 1. 오픈 PR 검색 (Exact match 쿼리 시 타임스탬프 때문에 조회가 안 되므로 head 파라미터를 배제하고 긁어온 뒤 내부 필터링)
-  const prListRes = await fetch(
-    `https://api.github.com/repos/${owner}/${repoName}/pulls?state=open`,
-    {
-      headers: {
-        Authorization: `Bearer ${githubToken}`,
-        Accept: "application/vnd.github.v3+json",
-        "User-Agent": "gsf-notion-poller/1.0",
-      },
+  if (env.DATABASE_ID_TO_BLOG) {
+    try {
+      const dbMap = JSON.parse(env.DATABASE_ID_TO_BLOG);
+      for (const [keyDb, mappedBlog] of Object.entries(dbMap)) {
+        if (keyDb.replace(/-/g, "") === normalizedPayloadDb) {
+          return mappedBlog as string;
+        }
+      }
+    } catch (e) {
+      console.error("DATABASE_ID_TO_BLOG parse error", e);
     }
-  );
-
-  if (!prListRes.ok) {
-    console.error(`PR 목록 조회 실패: ${await prListRes.text()}`);
-    return false;
   }
 
-  const prs = await prListRes.json();
-
-  // 정확한 브랜치 이름 패턴 매칭 (notion/publish-{slug} 또는 notion/publish-{slug}-{timestamp})
-  const pr = (prs as any[]).find((p: any) =>
-    p.head?.ref?.startsWith(`notion/publish-${slug}`)
+  // Fallback: search in BLOGS_CONFIG
+  const matchedConfig = configs.find(
+    (c) => c.notionDatabaseId.replace(/-/g, "") === normalizedPayloadDb
   );
-
-  if (!pr) {
-    console.error(`slug "${slug}"에 해당하는 오픈 PR이 없습니다.`);
-    return false;
+  if (matchedConfig) {
+    return matchedConfig.id;
   }
 
-  // 2. PR merge
-  const mergeRes = await fetch(
-    `https://api.github.com/repos/${owner}/${repoName}/pulls/${pr.number}/merge`,
-    {
-      method: "PUT",
-      headers: {
-        Authorization: `Bearer ${githubToken}`,
-        Accept: "application/vnd.github.v3+json",
-        "Content-Type": "application/json",
-        "User-Agent": "gsf-notion-poller/1.0",
-      },
-      body: JSON.stringify({
-        merge_method: "squash",
-        commit_title: `feat(notion): [${slug}] Notion 발행승인 → main 병합`,
-        commit_message: `Notion 발행 파이프라인: ${slug}\nPR #${pr.number} squash merge`,
-      }),
-    }
-  );
-
-  if (!mergeRes.ok) {
-    const err = await mergeRes.text();
-    console.error(`PR merge 실패: ${err}`);
-    return false;
-  }
-
-  return true;
+  return "";
 }
 
-// ── 블로그별 폴링 처리 ────────────────────────────────────────────────
-async function processBlog(config: BlogConfig, env: Env): Promise<void> {
-  const token = getNotionToken(config.id, env);
-  console.log(`🔍 [${config.id}] Notion DB 폴링 시작`);
+// ── Webhook 핸들러 ───────────────────────────────────────────────────
+async function processWebhook(payload: any, env: Env): Promise<Response> {
+  const databaseId = payload?.parent?.database_id;
+  const pageId = payload?.id;
 
-  // ── 발행요청 처리 ─────────────────────────────────────────────────
-  const publishRequests = await queryNotionByStatus(
-    config.notionDatabaseId,
-    STATUS_PUBLISH_REQUEST,
-    token
-  );
-
-  for (const page of publishRequests) {
-    console.log(`📄 [${config.id}] 발행요청 감지: ${page.slug} (${page.id})`);
-
-    // 중복 트리거 방지: "처리중"으로 먼저 변경
-    await updateNotionStatus(page.id, STATUS_PROCESSING, token);
-
-    // GitHub Actions 트리거
-    const triggered = await triggerGitHubWorkflow(
-      config.githubRepo,
-      config.workflowFile,
-      {
-        notion_page_id: page.id,
-        slug: page.slug,
-        blog_id: config.id,
-      },
-      env.CF_WORKER_GITHUB_TOKEN
-    );
-
-    if (!triggered) {
-      // 실패 시 원래 상태로 복원
-      await updateNotionStatus(page.id, STATUS_PUBLISH_REQUEST, token);
-      await addNotionComment(
-        page.id,
-        "❌ GitHub Actions 트리거에 실패했습니다. 잠시 후 다시 시도하거나 수동으로 실행해주세요.",
-        token
-      );
-    } else {
-      console.log(`✅ [${config.id}] GitHub Actions 트리거 성공: ${page.slug}`);
-    }
+  if (!databaseId || !pageId) {
+    return new Response("Invalid payload: Missing database_id or page_id", { status: 400 });
   }
 
-  // ── 발행승인 처리 ─────────────────────────────────────────────────
-  const publishApprovals = await queryNotionByStatus(
-    config.notionDatabaseId,
-    STATUS_PUBLISH_APPROVED,
-    token
+  let configs: BlogConfig[] = [];
+  try {
+    configs = JSON.parse(env.BLOGS_CONFIG);
+  } catch (err) {
+    return new Response("Internal Server Error: BLOGS_CONFIG error", { status: 500 });
+  }
+
+  const blogId = identifyBlogId(databaseId, env, configs);
+  if (!blogId) {
+    return new Response(`Unrecognized database_id: ${databaseId}`, { status: 404 });
+  }
+
+  const config = configs.find((c) => c.id === blogId);
+  if (!config) {
+    return new Response(`Config not found for blog_id: ${blogId}`, { status: 500 });
+  }
+
+  const statusProp = payload?.properties?.status;
+  const currentStatus = statusProp?.select?.name || statusProp?.status?.name || "";
+
+  const slugProp = payload?.properties?.slug;
+  const slug = slugProp?.rich_text?.[0]?.plain_text || "";
+
+  console.log(`[${blogId}] Webhook received - pageId: ${pageId}, status: ${currentStatus}`);
+
+  const route = STATUS_ROUTES[currentStatus];
+  if (!route) {
+    return new Response(`Ignored status: ${currentStatus}`, { status: 200 });
+  }
+
+  const token = getNotionToken(blogId, env);
+
+  // Optimistic Locking
+  await updateNotionStatus(pageId, route.processingStatus, token);
+
+  // Trigger Action
+  const triggered = await triggerGitHubWorkflow(
+    config.githubRepo,
+    route.workflowFile,
+    {
+      notion_page_id: pageId,
+      slug: slug,
+      blog_id: blogId,
+    },
+    env.CF_WORKER_GITHUB_TOKEN
   );
 
-  for (const page of publishApprovals) {
-    console.log(`✅ [${config.id}] 발행승인 감지: ${page.slug} (${page.id})`);
+  if (!triggered) {
+    // 실패 시 발행실패로 되돌리기 (안전장치)
+    await updateNotionStatus(pageId, "발행실패", token);
+    await addNotionComment(pageId, `❌ GitHub Actions 트리거에 실패했습니다. (Workflow: ${route.workflowFile})`, token);
+    return new Response("GitHub Actions trigger failed", { status: 500 });
+  }
 
-    // 중복 처리 방지: "처리중"으로 먼저 변경
-    await updateNotionStatus(page.id, STATUS_PROCESSING, token);
+  return new Response("OK", { status: 200 });
+}
 
-    // PR 찾아서 merge
-    const merged = await mergeFeatureBranch(
-      config.githubRepo,
-      page.slug,
-      env.CF_WORKER_GITHUB_TOKEN
-    );
+// ── Polling 핸들러 (Fallback) ──────────────────────────────────────────
+async function processBlogPolling(config: BlogConfig, env: Env): Promise<void> {
+  const token = getNotionToken(config.id, env);
 
-    if (!merged) {
-      // merge 실패 시 원래 상태로 복원
-      await updateNotionStatus(page.id, STATUS_PUBLISH_APPROVED, token);
-      await addNotionComment(
-        page.id,
-        `❌ main merge에 실패했습니다. PR이 존재하는지 확인하거나 수동으로 merge해주세요.\n(slug: ${page.slug})`,
-        token
+  for (const [triggerStatus, route] of Object.entries(STATUS_ROUTES)) {
+    const pages = await queryNotionByStatus(config.notionDatabaseId, triggerStatus, token);
+    
+    for (const page of pages) {
+      console.log(`📄 [${config.id}] Polling 감지: ${page.slug} (${page.id}) -> ${triggerStatus}`);
+      
+      // Optimistic Locking
+      await updateNotionStatus(page.id, route.processingStatus, token);
+      
+      const triggered = await triggerGitHubWorkflow(
+        config.githubRepo,
+        route.workflowFile,
+        {
+          notion_page_id: page.id,
+          slug: page.slug,
+          blog_id: config.id,
+        },
+        env.CF_WORKER_GITHUB_TOKEN
       );
-    } else {
-      // merge 성공 → 발행완료 상태 설정
-      await updateNotionStatus(page.id, STATUS_PUBLISHED, token);
-      await addNotionComment(
-        page.id,
-        `🎉 발행 완료! ${config.domain}에 라이브됩니다.\n역동기화가 곧 실행됩니다.`,
-        token
-      );
-      console.log(`🚀 [${config.id}] 발행 완료: ${page.slug}`);
+
+      if (!triggered) {
+        await updateNotionStatus(page.id, "발행실패", token);
+        await addNotionComment(
+          page.id,
+          `❌ GitHub Actions 트리거에 실패했습니다. (Workflow: ${route.workflowFile})`,
+          token
+        );
+      } else {
+        console.log(`✅ [${config.id}] GitHub Actions 트리거 성공`);
+      }
     }
   }
 }
 
 // ── Cloudflare Worker 진입점 ──────────────────────────────────────────
 export default {
-  // HTTP 요청 핸들러 (수동 트리거 / 헬스체크)
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
 
@@ -312,32 +297,37 @@ export default {
       return new Response("OK", { status: 200 });
     }
 
-    if (url.pathname === "/trigger" && request.method === "POST") {
-      // 수동 트리거 (cron 대기 없이 즉시 실행)
-      await this.scheduled(null as any, env, null as any);
-      return new Response("Triggered", { status: 200 });
+    if (request.method === "POST" && url.pathname === "/webhook") {
+      try {
+        const payload = await request.json();
+        return await processWebhook(payload, env);
+      } catch (err) {
+        return new Response("Invalid JSON payload", { status: 400 });
+      }
     }
 
-    return new Response("GSF Notion Poller v1.0", { status: 200 });
+    if (request.method === "POST" && url.pathname === "/trigger") {
+      await this.scheduled(null as any, env, null as any);
+      return new Response("Polling Triggered", { status: 200 });
+    }
+
+    return new Response("GSF Notion CF Worker v2.0", { status: 200 });
   },
 
-  // Cron 핸들러 (1분마다 자동 실행)
-  async scheduled(_event: ScheduledEvent, env: Env, _ctx: ExecutionContext): Promise<void> {
+  async scheduled(_event: any, env: Env, _ctx: any): Promise<void> {
     let configs: BlogConfig[];
-
     try {
       configs = JSON.parse(env.BLOGS_CONFIG);
     } catch {
-      console.error("BLOGS_CONFIG 파싱 실패 — wrangler.toml 확인 필요");
+      console.error("BLOGS_CONFIG 파싱 실패");
       return;
     }
 
-    // 모든 블로그 순차 처리 (병렬 처리 시 rate limit 위험)
     for (const config of configs) {
       try {
-        await processBlog(config, env);
+        await processBlogPolling(config, env);
       } catch (err) {
-        console.error(`[${config.id}] 처리 중 오류:`, err);
+        console.error(`[${config.id}] Polling 오류:`, err);
       }
     }
   },

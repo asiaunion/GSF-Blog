@@ -1,0 +1,181 @@
+import { Client } from "@notionhq/client";
+import { blocksToMarkdown } from "./notion-to-md.ts"; 
+
+const NOTION_TOKEN = process.env.NOTION_TOKEN || "";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "";
+const PAGE_ID = process.argv[2];
+
+if (!NOTION_TOKEN || !GEMINI_API_KEY || !PAGE_ID) {
+  console.error("Missing required environment variables or arguments.");
+  process.exit(1);
+}
+
+const notion = new Client({ auth: NOTION_TOKEN });
+
+async function generateDraft(text: string): Promise<string> {
+  const prompt = `다음은 블로그 포스트 작성을 위한 메모 및 원본 내용입니다. 
+이 내용을 바탕으로 블로그 독자들이 읽기 좋은 완성된 포스트 초안을 마크다운으로 작성해 주세요.
+
+[원본 내용]
+${text}`;
+
+  const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro:generateContent?key=${GEMINI_API_KEY}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      contents: [{
+        parts: [{ text: prompt }]
+      }]
+    })
+  });
+
+  const data = await res.json();
+  if (!res.ok) {
+    throw new Error(`Gemini API Error: ${JSON.stringify(data)}`);
+  }
+  
+  const textContent = data.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!textContent) {
+    throw new Error("Failed to parse Gemini response.");
+  }
+  return textContent;
+}
+
+function parseMarkdownToBlocks(markdown: string): any[] {
+  const blocks: any[] = [];
+  const lines = markdown.split("\n");
+  
+  let currentParagraph: string[] = [];
+
+  const flushParagraph = () => {
+    if (currentParagraph.length > 0) {
+      // Chunk text to max 2000 chars per block to avoid Notion limits
+      const text = currentParagraph.join("\n");
+      const chunks = text.match(/[\s\S]{1,2000}/g) || [];
+      for (const chunk of chunks) {
+        blocks.push({
+          object: "block",
+          type: "paragraph",
+          paragraph: {
+            rich_text: [{ type: "text", text: { content: chunk } }]
+          }
+        });
+      }
+      currentParagraph = [];
+    }
+  };
+
+  for (let line of lines) {
+    line = line.trim();
+    if (!line) {
+      flushParagraph();
+      continue;
+    }
+    
+    // Check headings
+    if (line.startsWith("### ")) {
+      flushParagraph();
+      blocks.push({
+        object: "block",
+        type: "heading_3",
+        heading_3: { rich_text: [{ type: "text", text: { content: line.replace("### ", "") } }] }
+      });
+      continue;
+    }
+    
+    if (line.startsWith("## ")) {
+      flushParagraph();
+      blocks.push({
+        object: "block",
+        type: "heading_2",
+        heading_2: { rich_text: [{ type: "text", text: { content: line.replace("## ", "") } }] }
+      });
+      continue;
+    }
+    
+    if (line.startsWith("# ")) {
+      flushParagraph();
+      blocks.push({
+        object: "block",
+        type: "heading_1",
+        heading_1: { rich_text: [{ type: "text", text: { content: line.replace("# ", "") } }] }
+      });
+      continue;
+    }
+    
+    // Bulleted list
+    if (line.startsWith("- ") || line.startsWith("* ")) {
+      flushParagraph();
+      blocks.push({
+        object: "block",
+        type: "bulleted_list_item",
+        bulleted_list_item: { rich_text: [{ type: "text", text: { content: line.substring(2) } }] }
+      });
+      continue;
+    }
+    
+    // Numbered list
+    if (/^\d+\.\s/.test(line)) {
+      flushParagraph();
+      blocks.push({
+        object: "block",
+        type: "numbered_list_item",
+        numbered_list_item: { rich_text: [{ type: "text", text: { content: line.replace(/^\d+\.\s/, "") } }] }
+      });
+      continue;
+    }
+
+    // Default: accumulate to paragraph
+    currentParagraph.push(line);
+  }
+  
+  flushParagraph();
+  
+  return blocks;
+}
+
+async function main() {
+  console.log("Fetching existing content from Notion...");
+  const markdown = await blocksToMarkdown(notion, PAGE_ID);
+  
+  console.log("Requesting AI draft from Gemini API...");
+  const draftMd = await generateDraft(markdown);
+  
+  console.log("Parsing draft to Notion blocks...");
+  const draftBlocks = parseMarkdownToBlocks(draftMd);
+  
+  console.log("Creating Toggle Block for AI Draft...");
+  const now = new Date().toLocaleString("ko-KR", { timeZone: "Asia/Seoul" });
+  const toggleRes = await notion.blocks.children.append({
+    block_id: PAGE_ID,
+    children: [
+      {
+        object: "block",
+        type: "toggle",
+        toggle: {
+          rich_text: [{ type: "text", text: { content: `✨ AI 초안 (Gemini 3.1 Pro - ${now})` } }]
+        }
+      }
+    ]
+  });
+  
+  const toggleBlockId = toggleRes.results[0].id;
+  
+  console.log(`Appending ${draftBlocks.length} blocks to Toggle...`);
+  // Chunk into 100 blocks per request (Notion API max children limit)
+  const chunkSize = 100;
+  for (let i = 0; i < draftBlocks.length; i += chunkSize) {
+    const chunk = draftBlocks.slice(i, i + chunkSize);
+    await notion.blocks.children.append({
+      block_id: toggleBlockId,
+      children: chunk
+    });
+  }
+  
+  console.log("Successfully appended AI draft.");
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
