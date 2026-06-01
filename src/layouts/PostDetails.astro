@@ -99,8 +99,11 @@ const ogImage = ogImageUrl
   ? new URL(ogImageUrl, Astro.url.origin).href
   : undefined;
 
-// Extract path-only src for in-page hero rendering (works on both localhost and production)
-const heroSrc = ogImageUrl
+// If the image is hosted on Vercel Blob or external, we use it directly as heroSrc
+const isRemoteHero = ogImageUrl?.startsWith("http");
+const heroSrc = isRemoteHero
+  ? ogImageUrl
+  : ogImageUrl
   ? (() => { try { return new URL(ogImageUrl).pathname; } catch { return ogImageUrl; } })()
   : undefined;
 
@@ -109,6 +112,8 @@ const heroSrc = ogImageUrl
 const publicDir = path.join(process.cwd(), "public");
 
 async function getHeroDims(heroSrcPath: string) {
+  if (isRemoteHero) return { w: 1200, h: 630 }; // Skip local sharp for remote images
+  
   const heroPublicPath = heroSrcPath.startsWith("/")
     ? heroSrcPath
     : `/${heroSrcPath}`;
@@ -118,7 +123,7 @@ async function getHeroDims(heroSrcPath: string) {
 }
 
 const heroDims =
-  heroSrc && heroSrc.endsWith(".webp")
+  heroSrc && (isRemoteHero || heroSrc.endsWith(".webp"))
     ? await getHeroDims(heroSrc).catch(() => ({ w: 1200, h: 630 }))
     : { w: 1200, h: 630 };
 
@@ -127,6 +132,8 @@ function resolveHeroSrcSet(
   originalW: number,
 ) {
   if (!heroSrcPath) return { srcset: undefined as string | undefined, sizes: undefined as string | undefined };
+  if (isRemoteHero) return { srcset: undefined, sizes: undefined }; // No responsive srcset for remote blobs yet
+  
   if (!heroSrcPath.endsWith(".webp"))
     return { srcset: undefined as string | undefined, sizes: undefined as string | undefined };
 

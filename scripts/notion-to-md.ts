@@ -278,6 +278,13 @@ export function extractProperties(page: PageObjectResponse): NotionProperties {
         .filter((s) => s.startsWith("http"))
     : [];
 
+  // cover image 추출 (Notion 기본 커버 이미지)
+  let coverUrl: string | undefined = undefined;
+  if (page.cover) {
+    if (page.cover.type === "external") coverUrl = page.cover.external.url;
+    else if (page.cover.type === "file") coverUrl = page.cover.file.url;
+  }
+
   return {
     title: getTitle("title") || getTitle("Name"),
     slug: getText("slug"),
@@ -289,7 +296,7 @@ export function extractProperties(page: PageObjectResponse): NotionProperties {
     modDatetime: getDate("modDatetime"),
     featured: getCheckbox("featured"),
     draft: getCheckbox("draft"),
-    ogImage: getUrl("ogImage"),
+    ogImage: getUrl("ogImage") || coverUrl,
     sources,
   };
 }

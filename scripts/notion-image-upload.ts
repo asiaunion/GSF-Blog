@@ -12,14 +12,23 @@ const { values } = parseArgs({
 
 const inputPath = values.input;
 
-// Extract Notion S3 image URLs from markdown
+// Extract Notion S3 image URLs from markdown (both body images and ogImage in frontmatter)
 function extractNotionImageUrls(markdown: string): string[] {
-  const regex = /!\[([^\]]*)\]\((https:\/\/prod-files-secure\.s3[^)]+)\)/g;
   const urls: string[] = [];
+  
+  // 1. Markdown body images: ![alt](url)
+  const regexBody = /!\[([^\]]*)\]\((https:\/\/prod-files-secure\.s3[^)]+)\)/g;
   let match;
-  while ((match = regex.exec(markdown)) !== null) {
+  while ((match = regexBody.exec(markdown)) !== null) {
     urls.push(match[2]);
   }
+  
+  // 2. Frontmatter ogImage: "url"
+  const regexOg = /ogImage:\s*"(https:\/\/prod-files-secure\.s3[^"]+)"/g;
+  while ((match = regexOg.exec(markdown)) !== null) {
+    urls.push(match[1]);
+  }
+  
   return urls;
 }
 
