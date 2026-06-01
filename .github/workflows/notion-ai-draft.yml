@@ -80,4 +80,4 @@ jobs:
             -H "Authorization: Bearer ${NOTION_TOKEN}" \
             -H "Content-Type: application/json" \
             -H "Notion-Version: 2022-06-28" \
-            -d "{\"parent\":{\"page_id\":\"${PAGE_ID}\"},\"rich_text\":[{\"type\":\"text\",\"text\":{\"content\":\"❌ AI 초안 생성 실패. Github Actions 로그를 확인해주세요.\"}}]}"
+            -d "{\"parent\":{\"page_id\":\"${PAGE_ID}\"},\"rich_text\":[{\"type\":\"text\",\"text\":{\"content\":\"❌ AI 초안 생성 실패. Github Actions 로그를 확인해주세요.\"}}]}" || echo "Failed to add comment"

@@ -29,10 +29,11 @@ ${text}`;
   }
 
   const models = [
-    "gemini-1.5-pro-latest",
-    "gemini-1.5-flash-latest",
-    "gemini-pro",
-    "gemini-1.0-pro"
+    "gemini-3.1-pro-preview",
+    "gemini-3.5-flash",
+    "gemini-3.1-flash-lite",
+    "gemini-2.5-pro",
+    "gemini-pro-latest"
   ];
 
   let lastError = null;
