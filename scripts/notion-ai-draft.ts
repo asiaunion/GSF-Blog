@@ -17,21 +17,19 @@ const notion = new Client({ auth: NOTION_TOKEN });
 interface DraftResult {
   draft: string;
   tags: string[];
-  imagePrompt: string;
 }
 
 async function generateDraft(text: string): Promise<DraftResult> {
   const prompt = `다음은 블로그 포스트 작성을 위한 메모 및 원본 내용입니다. 
-이 내용을 바탕으로 다음 세 가지를 생성해서 반드시 JSON 형식으로만 응답해 주세요. (마크다운 백틱 등 일체 불필요)
+이 내용을 바탕으로 다음 두 가지를 생성해서 반드시 JSON 형식으로만 응답해 주세요. (마크다운 백틱 등 일체 불필요)
 
-1. "draft": 블로그 독자들이 읽기 좋은 완성된 포스트 초안 (마크다운 형식)
+1. "draft": 블로그 독자들이 읽기 좋은 완성된 포스트 초안 (마크다운 형식, 프론트매터(Frontmatter)나 히어로 이미지 등은 절대 포함하지 말고 순수 본문 내용만 작성할 것)
 2. "tags": 이 글에 어울리는 3~5개의 핵심 태그 (문자열 배열, 예: ["도쿄", "여행"])
-3. "imagePrompt": 이 글의 메인 커버 이미지로 사용할 고해상도 이미지를 생성하기 위한 영문 프롬프트 (매우 구체적이고 묘사적으로 작성)
 
 [원본 내용]
 ${text}
 
-반드시 순수 JSON 객체( { "draft": "...", "tags": [...], "imagePrompt": "..." } )만 출력하세요.`;
+반드시 순수 JSON 객체( { "draft": "...", "tags": [...] } )만 출력하세요.`;
 
   const modelsListRes = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${GEMINI_API_KEY}`);
   if (modelsListRes.ok) {
