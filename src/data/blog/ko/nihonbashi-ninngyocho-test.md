@@ -1,7 +1,7 @@
 ---
 title: "도쿄 일상 산책: '니혼바시 닌교초'"
 description: ""
-pubDatetime: 2026-06-01T08:59:09.205Z
+pubDatetime: 2026-06-01T09:16:10.912Z
 author: GSF
 draft: false
 lang: ko
@@ -11,13 +11,13 @@ tags:
 ---
 
 
-![image](https://gvdehiaqjwpgiwgp.public.blob.vercel-storage.com/notion-uploads/nihonbashi-ninngyocho-test-0-gsf-blog-portfolio-1.webp)
+![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/289861a8-c5a0-4af8-9ad1-0faa52fa83ad/be816b2e-c934-455e-b129-af6fea7ae5d4/gsf-blog-portfolio-1.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SY4OJ6ZJ%2F20260601%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260601T091611Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJGMEQCIGQhmlsh8CSDNG8Nm5nIaSPwU%2B1om3ub44yLzQEYXi2QAiBU3f%2BnWgXbUJ4XxTlnuygfJtPit8LyavSVxrBwmcH44yr%2FAwgJEAAaDDYzNzQyMzE4MzgwNSIMgAHJr9XaYxzbz%2BqdKtwDbJRFP%2Bd2d%2BB8vno%2FbUdBYAlt3Bsh2gwLtnK2zcl5QWfeEbpgYSxg3J1rYqfUy86R%2FL7LyxdvOddCi6Y9qN3FmJcCB5%2B%2BPEDcK4t0LHtaw%2Bbig5Z0gSbv6xEic4%2BkCO6PdhZgVOFgNuB1Lpdk0dWucmCXheKOOimKU7EhjNE7d4JU2NkxnEkQsG3xzvupQKIy1MDt08dc9fCVGiybbaDPUzqH1ha1KycLR8m6PBIg%2BZ0qjpjrPJcYCzZ1P0WjOjJKKDKnBBokQxcKJZ%2BRMcinQ%2FtRxZlv1MJgOho%2FluZN8zUhpRnKZ%2FjdKdImE47w%2FIqikIqbb70GiICf6Ps%2Fr%2F2KoFOqkFHArRY7AK2AHBn7SIBQjbNCyYHoWJhaNj2NSTpXrcQXFVsbfoel%2BvsZ%2BDTc32VNLdr0vWWVkdn81P%2Banxl67ELGqFcau4TSQSZAuf15lEI839GU25xr8s6e9B4R3QZxAcww3%2BJzmfNBrfB6RIhcALAoa8mJtiuF5jGw9PJw6VMAs3JdYXjOTj5TCRiaTwvtWC0WLP7RvMQk%2BQisaIPXmvq34GQaM07A3o5xW%2FNI637VxFJZ99hpo1dzCW0o1s7TWLH1C9ZHffR3aTUkFXEUYQLGP9%2BzVer8ZqYw7IH10AY6pgFRWGJ41kbrqtS%2Bc8ccQQCGBoEX8ZbpnrLy2BPwqFOYiaueDxC%2BhnIoVvzxlvrr1veUT9ezPxcAtJVupngR8vXYtD9tbTaBUjS8cnjQZwUPmsa9Vm6W%2BP1Fq%2Bx%2Be9V73NulxnBIE5Nkj11Ygd%2FQc7loFF5S%2F8h1W5Ef%2ByGrhl%2BMr6hmxAZZJwsdE9OiKkU1JADECjy%2BZIOsWkatrZQjPAYmBkJ9DoUL&X-Amz-Signature=56b5a005f71e975c914e903c42acc1cb6e34fc6259a49f6f38667d651cf3b6da&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 ## 🚶‍♂️ 도쿄의 다른 일상
 도쿄라는 거대한 도시는 구역마다 각기 다른 얼굴을 가지고 있습니다. 화려한 네온사인이 빛나는 번화가가 있는가 하면, 골목 하나만 꺾어 들어가도 수백 년의 시간이 멈춘 듯한 고즈넉한 동네가 나타나기도 하죠. 오늘 소개해 드릴 곳은 도쿄 도심 한복판에서 **가장 따뜻한 '사람 사는 냄새'를 맡을 수 있는 동네, 니혼바시 닌교초(人形町)**입니다.
 ## 🚇 4개의 지하철 노선이 교차하는 교통의 요지
 제가 지내는 집에서 가장 가까운 지하철역은 도에이 신주쿠선의 하마초(浜町) 역입니다. 하지만 걷는 즐거움을 위해 발걸음을 조금만 더 옮기면 도쿄 메트로 한조몬선의 스이텐구마에(水天宮前)역, 그리고 오늘 이야기의 무대인 **닌교초(人形町)역**에 닿게 됩니다.
 닌교초역은 도쿄 메트로 히비야선과 도에이 아사쿠사선을 동시에 이용할 수 있는 매력적인 역입니다. 집 근처에서 도보로 이용할 수 있는 지하철 노선만 무려 4개나 되는 셈이니, 어디로든 떠나기 좋은 훌륭한 접근성을 자랑합니다. 하지만 닌교초는 단순히 스쳐 지나가는 환승역이 아닙니다. 발길을 멈추고 거리를 걷다 보면, 이 동네가 품고 있는 진짜 매력을 발견하게 됩니다.
-![image](https://gvdehiaqjwpgiwgp.public.blob.vercel-storage.com/notion-uploads/nihonbashi-ninngyocho-test-1-%25E1%2584%2582%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2580%25E1%2585%25AD%25E1%2584%258E%25E1%2585%25A9_%25E1%2584%258C%25E1%2585%25A1%25E1%2586%25A8%25E1%2584%2580%25E1%2585%25A6.jpg)
+![image](https://prod-files-secure.s3.us-west-2.amazonaws.com/289861a8-c5a0-4af8-9ad1-0faa52fa83ad/f04d798a-335e-426f-8458-61490f40a3e6/%E1%84%82%E1%85%B5%E1%86%AB%E1%84%80%E1%85%AD%E1%84%8E%E1%85%A9_%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%80%E1%85%A6.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SY4OJ6ZJ%2F20260601%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260601T091611Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEEaCXVzLXdlc3QtMiJGMEQCIGQhmlsh8CSDNG8Nm5nIaSPwU%2B1om3ub44yLzQEYXi2QAiBU3f%2BnWgXbUJ4XxTlnuygfJtPit8LyavSVxrBwmcH44yr%2FAwgJEAAaDDYzNzQyMzE4MzgwNSIMgAHJr9XaYxzbz%2BqdKtwDbJRFP%2Bd2d%2BB8vno%2FbUdBYAlt3Bsh2gwLtnK2zcl5QWfeEbpgYSxg3J1rYqfUy86R%2FL7LyxdvOddCi6Y9qN3FmJcCB5%2B%2BPEDcK4t0LHtaw%2Bbig5Z0gSbv6xEic4%2BkCO6PdhZgVOFgNuB1Lpdk0dWucmCXheKOOimKU7EhjNE7d4JU2NkxnEkQsG3xzvupQKIy1MDt08dc9fCVGiybbaDPUzqH1ha1KycLR8m6PBIg%2BZ0qjpjrPJcYCzZ1P0WjOjJKKDKnBBokQxcKJZ%2BRMcinQ%2FtRxZlv1MJgOho%2FluZN8zUhpRnKZ%2FjdKdImE47w%2FIqikIqbb70GiICf6Ps%2Fr%2F2KoFOqkFHArRY7AK2AHBn7SIBQjbNCyYHoWJhaNj2NSTpXrcQXFVsbfoel%2BvsZ%2BDTc32VNLdr0vWWVkdn81P%2Banxl67ELGqFcau4TSQSZAuf15lEI839GU25xr8s6e9B4R3QZxAcww3%2BJzmfNBrfB6RIhcALAoa8mJtiuF5jGw9PJw6VMAs3JdYXjOTj5TCRiaTwvtWC0WLP7RvMQk%2BQisaIPXmvq34GQaM07A3o5xW%2FNI637VxFJZ99hpo1dzCW0o1s7TWLH1C9ZHffR3aTUkFXEUYQLGP9%2BzVer8ZqYw7IH10AY6pgFRWGJ41kbrqtS%2Bc8ccQQCGBoEX8ZbpnrLy2BPwqFOYiaueDxC%2BhnIoVvzxlvrr1veUT9ezPxcAtJVupngR8vXYtD9tbTaBUjS8cnjQZwUPmsa9Vm6W%2BP1Fq%2Bx%2Be9V73NulxnBIE5Nkj11Ygd%2FQc7loFF5S%2F8h1W5Ef%2ByGrhl%2BMr6hmxAZZJwsdE9OiKkU1JADECjy%2BZIOsWkatrZQjPAYmBkJ9DoUL&X-Amz-Signature=5faa10183df1f24cbb3c4cc1ff443be7c11a4c2a0f349e75d6a037731fefb520&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 ## ⏰ 시간대별로 변하는 다채로운 삶의 풍경
 닌교초의 거리는 하루 종일 살아 숨 쉬는 한 편의 다큐멘터리 같습니다. 시간대별로 거리를 채우는 주인공들이 달라지며 다채로운 풍경을 만들어내기 때문입니다.
 -   **아침:** 출근을 위해 바쁘게 걸음을 재촉하는 직장인들의 활기찬 발소리가 거리를 깨웁니다.
