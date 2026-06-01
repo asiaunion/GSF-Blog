@@ -52,6 +52,8 @@ async function uploadImageToBlob(url: string, prefix: string): Promise<string> {
   const blob = await put(`notion-uploads/${finalFilename}`, buffer, {
     access: 'public',
     token: process.env.BLOB_READ_WRITE_TOKEN!.trim(),
+    addRandomSuffix: false,
+    allowOverwrite: true,
   });
   
   return blob.url;
