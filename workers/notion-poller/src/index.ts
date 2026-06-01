@@ -161,9 +161,9 @@ async function mergeFeatureBranch(
 ): Promise<boolean> {
   const [owner, repoName] = repo.split("/");
 
-  // 1. feature branch 이름 패턴으로 오픈 PR 검색
+  // 1. 오픈 PR 검색 (Exact match 쿼리 시 타임스탬프 때문에 조회가 안 되므로 head 파라미터를 배제하고 긁어온 뒤 내부 필터링)
   const prListRes = await fetch(
-    `https://api.github.com/repos/${owner}/${repoName}/pulls?state=open&head=${owner}:notion/publish-${slug}`,
+    `https://api.github.com/repos/${owner}/${repoName}/pulls?state=open`,
     {
       headers: {
         Authorization: `Bearer ${githubToken}`,
