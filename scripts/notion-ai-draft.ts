@@ -91,75 +91,7 @@ ${text}
     }
   }
 
-  throw new Error(`All Gemini models failed. Last error: ${lastError?.message}`);
-}
-
-async function generateImage(prompt: string): Promise<string | null> {
-  if (!BLOB_READ_WRITE_TOKEN) {
-    console.warn("BLOB_READ_WRITE_TOKEN is missing. Skipping image generation.");
-    return null;
-  }
-  
-  console.log("Generating image using Imagen 3 with prompt:", prompt);
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-001:predict?key=${GEMINI_API_KEY}`;
-  try {
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        instances: [{ prompt }],
-        parameters: { sampleCount: 1 }
-      })
-    });
-
-    const data = await response.json();
-    if (!response.ok) {
-      throw new Error(`Imagen API Error: ${JSON.stringify(data)}`);
-    }
-
-    if (data.predictions && data.predictions.length > 0) {
-      const base64Data = data.predictions[0].bytesBase64Encoded;
-      console.log("Successfully generated image via Imagen 3. Uploading to Vercel Blob...");
-      
-      const buffer = Buffer.from(base64Data, 'base64');
-      const filename = `hero-${Date.now()}.jpg`;
-      const blob = await put(filename, buffer, {
-        access: 'public',
-        token: BLOB_READ_WRITE_TOKEN
-      });
-      
-      console.log(`Image uploaded successfully: ${blob.url}`);
-      return blob.url;
-    } else {
-       throw new Error("No predictions returned from Imagen");
-    }
-  } catch (err: any) {
-    console.error("Imagen failed, falling back to Pollinations.ai:", err.message);
-    try {
-      const fallbackUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1200&height=630&nologo=true`;
-      console.log("Fetching fallback image from:", fallbackUrl);
-      
-      const fallbackRes = await fetch(fallbackUrl);
-      if (!fallbackRes.ok) throw new Error("Pollinations fetch failed");
-      
-      const arrayBuffer = await fallbackRes.arrayBuffer();
-      const buffer = Buffer.from(arrayBuffer);
-      const filename = `hero-fallback-${Date.now()}.jpg`;
-      const blob = await put(filename, buffer, {
-        access: 'public',
-        token: BLOB_READ_WRITE_TOKEN
-      });
-      
-      console.log(`Fallback image uploaded successfully: ${blob.url}`);
-      return blob.url;
-    } catch (fallbackErr: any) {
-      console.error("Fallback image generation also failed:", fallbackErr.message);
-    }
-  }
-  return null;
-}
-
-async function updateNotionProperties(pageId: string, tags: string[], imageUrl: string | null) {
+async function updateNotionProperties(pageId: string, tags: string[]) {
   const properties: any = {};
   if (tags && tags.length > 0) {
     properties["tags"] = {
@@ -172,15 +104,8 @@ async function updateNotionProperties(pageId: string, tags: string[], imageUrl: 
     properties
   };
 
-  if (imageUrl) {
-    payload.cover = {
-      type: 'external',
-      external: { url: imageUrl }
-    };
-  }
-
-  if (Object.keys(properties).length > 0 || imageUrl) {
-    console.log("Updating Notion page properties (tags & cover)...");
+  if (Object.keys(properties).length > 0) {
+    console.log("Updating Notion page properties (tags)...");
     await notion.pages.update(payload);
   }
 }
@@ -285,11 +210,8 @@ async function main() {
   console.log("Requesting AI draft from Gemini API...");
   const result = await generateDraft(markdown);
   
-  console.log("Parsed AI result. Generating Image...");
-  const imageUrl = await generateImage(result.imagePrompt);
-
   console.log("Updating Notion properties...");
-  await updateNotionProperties(PAGE_ID, result.tags, imageUrl);
+  await updateNotionProperties(PAGE_ID, result.tags);
   
   console.log("Parsing draft to Notion blocks...");
   const draftBlocks = parseMarkdownToBlocks(result.draft);
