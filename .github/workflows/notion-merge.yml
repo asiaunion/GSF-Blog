@@ -36,7 +36,7 @@ jobs:
           SAFE_SLUG=$(node -e "console.log((process.env.INPUT_SLUG || '').trim().replace(/ /g, '-').replace(/[^a-zA-Z0-9가-힣-]/g, '').toLowerCase())")
           
           # 가장 최근에 업데이트된 해당 slug의 PR 조회
-          PR_JSON=$(gh pr list --search "in:title \"[${SAFE_SLUG}]\"" --json number,state --limit 1)
+          PR_JSON=$(gh pr list --state all --search "in:title \"[${SAFE_SLUG}]\"" --json number,state --limit 1)
           PR_COUNT=$(echo "$PR_JSON" | jq length)
           
           if [ "$PR_COUNT" -eq 0 ]; then
