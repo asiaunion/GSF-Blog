@@ -51,6 +51,7 @@ async function uploadImageToBlob(url: string, prefix: string): Promise<string> {
   
   const blob = await put(`notion-uploads/${finalFilename}`, buffer, {
     access: 'public',
+    token: process.env.BLOB_READ_WRITE_TOKEN!.trim(),
   });
   
   return blob.url;
@@ -86,8 +87,9 @@ async function main() {
       // Replace original URL with new Blob URL globally in the markdown content
       content = content.split(originalUrl).join(newUrl);
       console.log(`  ✅ Uploaded: ${newUrl}`);
-    } catch (error) {
+    } catch (error: any) {
       console.error(`  ❌ Failed to upload image ${originalUrl}:`, error);
+      fs.writeFileSync('upload_error.log', `이미지 업로드 실패: ${error.message}`);
       process.exit(1);
     }
   }
