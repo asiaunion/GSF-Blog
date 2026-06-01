@@ -31,8 +31,9 @@ jobs:
         id: merge_pr
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_SLUG: ${{ inputs.slug }}
         run: |
-          SAFE_SLUG=$(echo "${{ inputs.slug }}" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' -e 's/ /-/g' -e 's/[^a-zA-Z0-9가-힣-]//g' | tr '[:upper:]' '[:lower:]')
+          SAFE_SLUG=$(node -e "console.log((process.env.INPUT_SLUG || '').trim().replace(/ /g, '-').replace(/[^a-zA-Z0-9가-힣-]/g, '').toLowerCase())")
           
           # 가장 최근에 업데이트된 해당 slug의 PR 조회
           PR_JSON=$(gh pr list --search "in:title \"[${SAFE_SLUG}]\"" --json number,state --limit 1)
