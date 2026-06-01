@@ -358,28 +358,5 @@ main().catch((err) => {
   process.exit(1);
 });
 
-// ── 헬퍼: markdownToNotionBlocks (notion-bootstrap.ts와 공용화) ────────
-// notion-to-md.ts에 export로 이동 필요 (현재는 notion-bootstrap.ts에 정의됨)
-// 구현 시 notion-to-md.ts에 export function markdownToNotionBlocks() 추가
-function markdownToNotionBlocks(content: string): any[] {
-  // notion-to-md.ts의 함수와 동일 — 구현 시 import로 대체
-  const lines = content.split("\n\n").map((p) => p.trim()).filter(Boolean);
-  const blocks: any[] = [];
+// Duplicate helper markdownToNotionBlocks removed to prevent SyntaxError (already imported on line 32)
 
-  for (const para of lines) {
-    const firstLine = para.split("\n")[0];
-    if (firstLine.startsWith("## ")) {
-      blocks.push({ type: "heading_2", heading_2: { rich_text: [{ type: "text", text: { content: firstLine.slice(3) } }] } });
-    } else if (firstLine.startsWith("### ")) {
-      blocks.push({ type: "heading_3", heading_3: { rich_text: [{ type: "text", text: { content: firstLine.slice(4) } }] } });
-    } else if (firstLine.startsWith("> ")) {
-      blocks.push({ type: "quote", quote: { rich_text: [{ type: "text", text: { content: para.replace(/^> /gm, "") } }] } });
-    } else if (firstLine.match(/^---+$/)) {
-      blocks.push({ type: "divider", divider: {} });
-    } else if (para.trim()) {
-      blocks.push({ type: "paragraph", paragraph: { rich_text: [{ type: "text", text: { content: para.slice(0, 2000) } }] } });
-    }
-  }
-
-  return blocks.slice(0, 100);
-}
