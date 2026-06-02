@@ -19,6 +19,8 @@ tags:
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
   - "https://www.nta.go.jp/"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
@@ -28,6 +30,9 @@ citeSources:
   - label: "東京カンテイ 首都圈中古マンション70㎡価格動向，2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "REINS 首都圈マーケットウォッチ，2026-04"
+    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
+    archive: "/assets/sources/reins-202604-marketwatch.pdf"
   - label: "国税庁 民間給与実態統計，2023"
     url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
     portal: "https://www.nta.go.jp/"
@@ -90,13 +95,13 @@ citeSources:
 
 ### 平均世帯所得
 
-千代田区の納税者平均年収は**約950万円**水準で、東京23区平均（約450〜500万円）のほぼ2倍です。<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 居住人口ベースの統計であるため、昼間の就業者所得はこれをさらに上回ります。
+千代田区の納税者平均年収は**約950万円**水準で、東京23区平均（約450〜500万円）のほぼ2倍です。<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 居住人口ベースの統計であるため、昼間の就業者所得はこれをさらに上回ります。
 
 ### 人口
 
 | 項目 | 数値 |
 |------|------|
-| 総人口 | 約67,000人（23区中最少）<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| 総人口 | 約67,000人（23区中最少）<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 | 人口密度 | 約4,100人/km²（23区中最低水準） |
 | 昼間流入人口 | 80万人以上 |
 | 最近のトレンド | 再開発に伴う居住用マンション増加で人口は緩やかに増加中 |
@@ -155,7 +160,7 @@ citeSources:
 
 ### 平均世帯所得
 
-中央区の納税者平均年収は**約730万円**で、東京平均を大きく上回ります。<sup class="source-ref"><a href="#source-2">2</a></sup> 銀座・日本橋の商業従事者と、金融・貿易業中心の駐在員の割合が高い構成です。
+中央区の納税者平均年収は**約730万円**で、東京平均を大きく上回ります。<sup class="source-ref"><a href="#source-3">3</a></sup> 銀座・日本橋の商業従事者と、金融・貿易業中心の駐在員の割合が高い構成です。
 
 ### 人口
 
@@ -204,7 +209,7 @@ citeSources:
 | 芝浦・田町 | 100〜150万円/㎡ | 330〜500万円/坪 |
 | **区全体平均** | **約160万円/㎡** | **約530万円/坪** |
 
-麻布台ヒルズ（2023年開業）の入居後、周辺の高級マンション相場はさらに上昇しています。外国人購入者は特に麻布・広尾エリアに集中しています。<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+麻布台ヒルズ（2023年開業）の入居後、周辺の高級マンション相場はさらに上昇しています。外国人購入者は特に麻布・広尾エリアに集中しています。
 
 > 関連記事：[都心5区マンション坪単価比較](/ja/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
 
@@ -222,7 +227,7 @@ citeSources:
 
 ### 平均世帯所得
 
-港区の納税者平均年収は**約1,200万円以上**で、東京23区の中で第1位です。<sup class="source-ref"><a href="#source-2">2</a></sup> 高収入の金融専門職、外資系企業役員、外交官が多数居住しています。
+港区の納税者平均年収は**約1,200万円以上**で、東京23区の中で第1位です。<sup class="source-ref"><a href="#source-3">3</a></sup> 高収入の金融専門職、外資系企業役員、外交官が多数居住しています。
 
 ### 人口
 
@@ -234,7 +239,7 @@ citeSources:
 
 ### 外国人比率
 
-港区の外国人居住者比率は**約11〜12%**で、23区中最高水準です。<sup class="source-ref"><a href="#source-3">3</a></sup> 英語・中国語で生活できる環境が整っており、外国人専門の不動産仲介サービスも充実しています。韓国人コミュニティは赤坂・六本木を中心に形成されています。
+港区の外国人居住者比率は**約11〜12%**で、23区中最高水準です。<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> 英語・中国語で生活できる環境が整っており、外国人専門の不動産仲介サービスも充実しています。韓国人コミュニティは赤坂・六本木を中心に形成されています。
 
 ### おすすめの対象者
 
