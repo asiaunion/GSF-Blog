@@ -19,6 +19,15 @@ sources:
   - "https://diamond.jp/"
   - "https://suumo.jp/journal/"
   - "https://suumo.jp/chintai/tokyo/"
+citeSources:
+  - label: "Tokyo Metropolitan Government General Affairs Bureau (Population Statistics)"
+    url: "https://www.soumu.metro.tokyo.lg.jp/"
+  - label: "Diamond Online (Tokyo 23 Wards Real Income Ranking)"
+    url: "https://diamond.jp/"
+  - label: "SUUMO Journal (Redevelopment & Real Estate Trends)"
+    url: "https://suumo.jp/journal/"
+  - label: "SUUMO Tokyo Rental Market Info"
+    url: "https://suumo.jp/chintai/tokyo/"
 ---
 
 Have you ever imagined a city where ancient history and cutting-edge infrastructure perfectly coexist? Usually, you have to give up one for the other. But Tokyo's Southern Belt (Shinagawa and Ota) completely shatters this stereotype.
@@ -56,7 +65,7 @@ Admittedly, the massive Takanawa Gateway zone itself technically belongs to Mina
 | Meguro & Shinagawa Border | 1.5~2.1M JPY/㎡ | 4.95~6.9M JPY/Tsubo |
 | Oimachi | 1.3~1.7M JPY/㎡ | 4.3~5.6M JPY/Tsubo |
 | Shinagawa Seaside | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
-| **Ward Average** | **~1.61M JPY/㎡** | **~5.32M JPY/Tsubo** |
+| **Ward Average** | **~1.61M JPY/㎡** | **~5.32M JPY/Tsubo** |<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 million and 300 million JPY is because capital seeking guaranteed Capital Gains and high PBR (Price Book-value Ratio) is concentrating here.
 
@@ -68,15 +77,15 @@ The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 m
 | 1K / 1DK | 100k~135k JPY |
 | 1LDK | 165k~220k JPY |
 | 2LDK | 240k~350k JPY |
-| 3LDK+ | 380k+ JPY |
+| 3LDK+ | 380k+ JPY |<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 Given the top-tier transit convenience, rental demand for compact units like 1K or 1LDK from singles and DINKs (Double Income, No Kids) is explosive. Despite high rents, the turnover rate is exceptional.
 
 ### Average Income & Population Base
 
-- **Per Capita Real Income Density:** **3.198M JPY** (8th in Tokyo 23 Wards)
+- **Per Capita Real Income Density:** **3.198M JPY** (8th in Tokyo 23 Wards)<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 - The rank jumps from 9th (taxpayer basis) to 8th when factoring in the total population. This means fewer dependents and a dense concentration of 'power couples' capable of affording premium rents.
-- **Population:** ~433,249 (As of 2026)
+- **Population:** ~433,249 (As of 2026)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 ### Target Audience
 
@@ -100,7 +109,7 @@ The biggest momentum here is the **New Airport Line (Kamakama Line)** project. B
 | Den-en-chofu & Sanno | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
 | Kamata & Omori | 850k~1.2M JPY/㎡ | 2.8~4.0M JPY/Tsubo |
 | Haneda Area | 700k~1.0M JPY/㎡ | 2.3~3.3M JPY/Tsubo |
-| **Ward Average** | **~950k JPY/㎡** | **~3.14M JPY/Tsubo** |
+| **Ward Average** | **~950k JPY/㎡** | **~3.14M JPY/Tsubo** |<sup class="source-ref"><a href="#source-3">3</a></sup>
 
 Despite its proximity to the city center, there is an abundance of properties available under 1 million JPY per ㎡, offering a relatively low barrier to entry.
 
@@ -112,15 +121,15 @@ Despite its proximity to the city center, there is an abundance of properties av
 | 1K / 1DK | 80k~110k JPY |
 | 1LDK | 130k~170k JPY |
 | 2LDK | 180k~260k JPY |
-| 3LDK+ | 250k+ JPY |
+| 3LDK+ | 250k+ JPY |<sup class="source-ref"><a href="#source-4">4</a></sup>
 
 Rents are noticeably cheaper compared to Shinagawa. Therefore, it is always a top priority for value-seeking professionals and families needing more space.
 
 ### Average Income & Population Base
 
-- **Per Capita Real Income Density:** **2.646M JPY** (14th in Tokyo 23 Wards)
+- **Per Capita Real Income Density:** **2.646M JPY** (14th in Tokyo 23 Wards)<sup class="source-ref"><a href="#source-2">2</a></sup>
 - While mid-tier in rank, this figure easily surpasses the Tokyo overall average (2.633M JPY) and the suburban municipality average (2.07M JPY). This indicates a rock-solid fundamental defense, meaning a lower risk of rent delinquency even during economic downturns.
-- **Population:** ~759,988 (As of 2026)
+- **Population:** ~759,988 (As of 2026)<sup class="source-ref"><a href="#source-1">1</a></sup>
 
 ### Target Audience
 
