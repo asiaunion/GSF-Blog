@@ -1,5 +1,5 @@
 ---
-title: "Tokyo's Core 3 Wards Deep Dive: Chiyoda, Chuo, Minato — Relocation & Investment Data Guide [Ep.1]"
+title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Ep.01] Chiyoda, Chuo, Minato"
 description: "Episode 1 of the Tokyo 23 Wards series. A ward-by-ward analysis of mansion prices, rental rates, household income, and foreigner-friendliness in Chiyoda, Chuo, and Minato — the data guide for Tokyo's most sought-after addresses."
 pubDatetime: 2026-05-14T01:45:00Z
 author: GSF

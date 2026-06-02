@@ -1,5 +1,5 @@
 ---
-title: "Where to Live in Tokyo: Meguro & Setagaya — The West Premium Residential Belt [Ep.3]"
+title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Ep.03] Meguro, Setagaya"
 description: "The third part of the Tokyo 23 Wards series. We dive deep into property prices, rental yields, average income, and expatriate living conditions in Meguro and Setagaya."
 pubDatetime: 2026-05-26T12:00:00Z
 author: GSF

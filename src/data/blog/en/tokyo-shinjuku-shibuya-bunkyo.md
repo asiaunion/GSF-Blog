@@ -1,5 +1,5 @@
 ---
-title: "Tokyo's Core 6 Wards Decoded: Shinjuku, Shibuya & Bunkyo — Relocation & Investment Data Guide [Ep.2]"
+title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Ep.02] Shinjuku, Shibuya, Bunkyo"
 description: "The second chapter in our Tokyo 23 Wards series. A data-driven deep dive into Shinjuku, Shibuya, and Bunkyo — the second premium layer of Tokyo's urban hierarchy. Covering mansion prices, rent, income levels, and foreign resident life."
 pubDatetime: 2026-05-19T12:00:00Z
 author: GSF
