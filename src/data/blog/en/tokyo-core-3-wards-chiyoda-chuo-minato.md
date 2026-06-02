@@ -19,8 +19,6 @@ tags:
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
-  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
-  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
   - "https://www.nta.go.jp/"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
@@ -30,9 +28,6 @@ citeSources:
   - label: "Tokyo Kantei Metropolitan Condo 70㎡ Price Trend, 2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
-  - label: "REINS Metropolitan Market Watch, 2026-04"
-    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
-    archive: "/assets/sources/reins-202604-marketwatch.pdf"
   - label: "NTA Private Sector Wage Survey, 2023"
     url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
     portal: "https://www.nta.go.jp/"
@@ -95,13 +90,13 @@ The Bancho (番町) district is one of Tokyo's most storied upscale residential 
 
 ### Average Household Income
 
-Chiyoda's average declared income per taxpayer is approximately **¥9.5 million** — roughly double the Tokyo 23-ward average of ¥4.5M–5.0M.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Given that this is based on resident population, the actual income level of those who work here during the day is significantly higher.
+Chiyoda's average declared income per taxpayer is approximately **¥9.5 million** — roughly double the Tokyo 23-ward average of ¥4.5M–5.0M.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Given that this is based on resident population, the actual income level of those who work here during the day is significantly higher.
 
 ### Population
 
 | Metric | Figure |
 |--------|--------|
-| Total population | approx. 67,000 (lowest of 23 wards)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
+| Total population | approx. 67,000 (lowest of 23 wards)<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
 | Population density | approx. 4,100/km² (among the lowest) |
 | Daytime population | 800,000+ |
 | Trend | Gradual population growth driven by new residential development |
@@ -160,7 +155,7 @@ High-floor tower units near Ginza and Tsukiji regularly exceed ¥1M/month.
 
 ### Average Household Income
 
-Chuo's average declared income per taxpayer is approximately **¥7.3 million** — well above the Tokyo average.<sup class="source-ref"><a href="#source-3">3</a></sup> The resident base skews toward Ginza and Nihonbashi commercial workers, and finance/trade sector assignees.
+Chuo's average declared income per taxpayer is approximately **¥7.3 million** — well above the Tokyo average.<sup class="source-ref"><a href="#source-2">2</a></sup> The resident base skews toward Ginza and Nihonbashi commercial workers, and finance/trade sector assignees.
 
 ### Population
 
@@ -209,7 +204,7 @@ I remember walking through Hiroo's shopping street for the first time and notici
 | Shibaura / Tamachi | ¥1.0M–1.5M/㎡ | ¥3.3M–5.0M/坪 |
 | **Ward average** | **approx. ¥1.6M/㎡** | **approx. ¥5.3M/坪** |
 
-Since the opening of Azabudai Hills (2023), prices in the surrounding luxury segment have risen further. Foreign buyers are particularly concentrated in Azabu and Hiroo.
+Since the opening of Azabudai Hills (2023), prices in the surrounding luxury segment have risen further. Foreign buyers are particularly concentrated in Azabu and Hiroo.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 > Related post: [Tokyo Central 5-Ward Mansion Price Comparison](/en/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
 
@@ -227,7 +222,7 @@ Since the opening of Azabudai Hills (2023), prices in the surrounding luxury seg
 
 ### Average Household Income
 
-Minato's average declared income per taxpayer exceeds **¥12 million** — ranking #1 among all 23 wards.<sup class="source-ref"><a href="#source-3">3</a></sup> High-earning finance professionals, foreign corporate executives, and diplomatic staff make up a significant portion of the residential base.
+Minato's average declared income per taxpayer exceeds **¥12 million** — ranking #1 among all 23 wards.<sup class="source-ref"><a href="#source-2">2</a></sup> High-earning finance professionals, foreign corporate executives, and diplomatic staff make up a significant portion of the residential base.
 
 ### Population
 
@@ -239,7 +234,7 @@ Minato's average declared income per taxpayer exceeds **¥12 million** — ranki
 
 ### Foreign Resident Ratio
 
-Minato's foreign resident ratio is approximately **11–12%** — the highest in all 23 wards.<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> English and Chinese are widely usable for daily life. Foreigner-specialized real estate agencies are plentiful. The Korean community is centered around Akasaka and Roppongi.
+Minato's foreign resident ratio is approximately **11–12%** — the highest in all 23 wards.<sup class="source-ref"><a href="#source-3">3</a></sup> English and Chinese are widely usable for daily life. Foreigner-specialized real estate agencies are plentiful. The Korean community is centered around Akasaka and Roppongi.
 
 ### Who Should Consider Minato
 

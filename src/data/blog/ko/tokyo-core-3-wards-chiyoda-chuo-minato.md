@@ -19,8 +19,6 @@ tags:
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
-  - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
-  - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
   - "https://www.nta.go.jp/"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
@@ -30,9 +28,6 @@ citeSources:
   - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
-  - label: "REINS 수도권 마켓워치, 2026-04"
-    url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
-    archive: "/assets/sources/reins-202604-marketwatch.pdf"
   - label: "국세청 민간급여실태통계, 2023"
     url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
     portal: "https://www.nta.go.jp/"
@@ -95,13 +90,13 @@ citeSources:
 
 ### 평균 세대 소득
 
-치요다구의 납세자 평균 연수입은 **약 950만엔** 수준으로, 도쿄 23구 평균(약 450~500만엔)의 약 2배입니다.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> 단, 실제 거주 인구 기반 통계이므로 낮 시간 유동 인구의 소득 수준은 이를 훨씬 상회합니다.
+치요다구의 납세자 평균 연수입은 **약 950만엔** 수준으로, 도쿄 23구 평균(약 450~500만엔)의 약 2배입니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> 단, 실제 거주 인구 기반 통계이므로 낮 시간 유동 인구의 소득 수준은 이를 훨씬 상회합니다.
 
 ### 인구수
 
 | 항목 | 수치 |
 |------|------|
-| 총인구 | 약 67,000명 (23구 중 최소)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
+| 총인구 | 약 67,000명 (23구 중 최소)<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
 | 인구 밀도 | 약 4,100명/㎢ (23구 중 최저 수준) |
 | 주간 유동인구 | 약 800,000명 이상 |
 | 최근 트렌드 | 재개발에 따른 주거용 맨션 증가로 인구 완만 증가 중 |
@@ -160,7 +155,7 @@ citeSources:
 
 ### 평균 세대 소득
 
-주오구의 납세자 평균 연수입은 **약 730만엔** 수준으로 도쿄 평균을 크게 상회합니다.<sup class="source-ref"><a href="#source-3">3</a></sup> 긴자·니혼바시 상권 종사자와 금융·무역업 중심의 주재원 거주자 비율이 높습니다.
+주오구의 납세자 평균 연수입은 **약 730만엔** 수준으로 도쿄 평균을 크게 상회합니다.<sup class="source-ref"><a href="#source-2">2</a></sup> 긴자·니혼바시 상권 종사자와 금융·무역업 중심의 주재원 거주자 비율이 높습니다.
 
 ### 인구수
 
@@ -209,7 +204,7 @@ citeSources:
 | 시바우라·다마치 | 100~150만엔/㎡ | 330~500만엔/坪 |
 | **구 전체 평균** | **약 160만엔/㎡** | **약 530만엔/坪** |
 
-아자부다이 힐스(2023년 개업) 입주 이후 인근 고급 맨션 시세가 추가 상승했습니다. 외국인 구매자가 특히 아자부·히로오 지역에 집중됩니다.
+아자부다이 힐스(2023년 개업) 입주 이후 인근 고급 맨션 시세가 추가 상승했습니다. 외국인 구매자가 특히 아자부·히로오 지역에 집중됩니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
 > 관련 포스트: [도심 5구 맨션 평당가 비교](/ko/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
 
@@ -227,7 +222,7 @@ citeSources:
 
 ### 평균 세대 소득
 
-미나토구의 납세자 평균 연수입은 **약 1,200만엔** 이상으로, 도쿄 23구에서 1위입니다.<sup class="source-ref"><a href="#source-3">3</a></sup> 고액 연봉 금융인, 외국계 기업 임원, 외교관이 다수 거주합니다.
+미나토구의 납세자 평균 연수입은 **약 1,200만엔** 이상으로, 도쿄 23구에서 1위입니다.<sup class="source-ref"><a href="#source-2">2</a></sup> 고액 연봉 금융인, 외국계 기업 임원, 외교관이 다수 거주합니다.
 
 ### 인구수
 
@@ -239,7 +234,7 @@ citeSources:
 
 ### 외국인 비율
 
-미나토구의 외국인 주민 비율은 **약 11~12%** 로 23구 중 최고 수준입니다.<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> 영어·중국어로 생활 가능한 환경이 잘 갖춰져 있으며, 외국인 전용 부동산 중개 서비스도 풍부합니다. 한국인 커뮤니티는 아카사카·롯폰기 중심으로 존재합니다.
+미나토구의 외국인 주민 비율은 **약 11~12%** 로 23구 중 최고 수준입니다.<sup class="source-ref"><a href="#source-3">3</a></sup> 영어·중국어로 생활 가능한 환경이 잘 갖춰져 있으며, 외국인 전용 부동산 중개 서비스도 풍부합니다. 한국인 커뮤니티는 아카사카·롯폰기 중심으로 존재합니다.
 
 ### 추천 타깃
 
