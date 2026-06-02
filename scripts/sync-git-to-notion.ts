@@ -29,7 +29,6 @@ import {
   loadPageMap,
   savePageMap,
   blocksToMarkdown,
-  markdownToNotionBlocks,
   buildFrontmatter,
 } from "./notion-to-md";
 
@@ -350,13 +349,111 @@ async function main() {
   // GitHub Actions에서 충돌은 Notion 코멘트로 이미 알림됨
 }
 
-// ── 마크다운 → Notion 블록 (notion-to-md.ts의 markdownToNotionBlocks 재사용) ─
-// import는 위에서 처리됨
+// ── Markdown 본문 → Notion 블록 (간략화 버전) ─────────────────────────
+function markdownToNotionBlocks(content: string): any[] {
+  const lines = content
+    .replace(/\r\n/g, "\n")
+    .split("\n\n")
+    .map((p) => p.trim())
+    .filter(Boolean);
+
+  const blocks: any[] = [];
+
+  for (const para of lines) {
+    const firstLine = para.split("\n")[0];
+
+    if (firstLine.startsWith("```")) {
+      const langMatch = firstLine.match(/^```(\w*)/);
+      const lang = langMatch?.[1] || "plain text";
+      const codeContent = para.replace(/^```\w*\n?/, "").replace(/```$/, "").trim();
+      blocks.push({
+        type: "code",
+        code: {
+          language: lang as any,
+          rich_text: [{ type: "text", text: { content: codeContent.slice(0, 2000) } }],
+        },
+      });
+      continue;
+    }
+
+    if (firstLine.startsWith("### ")) {
+      blocks.push({
+        type: "heading_3",
+        heading_3: { rich_text: [{ type: "text", text: { content: firstLine.slice(4) } }] },
+      });
+      continue;
+    }
+    if (firstLine.startsWith("## ")) {
+      blocks.push({
+        type: "heading_2",
+        heading_2: { rich_text: [{ type: "text", text: { content: firstLine.slice(3) } }] },
+      });
+      continue;
+    }
+    if (firstLine.startsWith("# ")) {
+      blocks.push({
+        type: "heading_1",
+        heading_1: { rich_text: [{ type: "text", text: { content: firstLine.slice(2) } }] },
+      });
+      continue;
+    }
+
+    if (firstLine.startsWith("> ")) {
+      blocks.push({
+        type: "quote",
+        quote: { rich_text: [{ type: "text", text: { content: para.replace(/^> /gm, "") } }] },
+      });
+      continue;
+    }
+
+    const imgMatch = para.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (imgMatch) {
+      const url = imgMatch[2];
+      if (!url.startsWith("http")) {
+        blocks.push({
+          type: "paragraph",
+          paragraph: { rich_text: [{ type: "text", text: { content: para } }] },
+        });
+      } else {
+        blocks.push({
+          type: "image",
+          image: { type: "external", external: { url } },
+        });
+      }
+      continue;
+    }
+
+    if (firstLine.startsWith("- ") || firstLine.startsWith("* ")) {
+      const items = para.split("\n").filter((l) => l.match(/^[-*] /));
+      for (const item of items) {
+        blocks.push({
+          type: "bulleted_list_item",
+          bulleted_list_item: {
+            rich_text: [{ type: "text", text: { content: item.replace(/^[-*] /, "") } }],
+          },
+        });
+      }
+      continue;
+    }
+
+    if (firstLine.match(/^---+$/)) {
+      blocks.push({ type: "divider", divider: {} });
+      continue;
+    }
+
+    const text = para.slice(0, 2000);
+    if (text) {
+      blocks.push({
+        type: "paragraph",
+        paragraph: { rich_text: [{ type: "text", text: { content: text } }] },
+      });
+    }
+  }
+
+  return blocks.slice(0, 100);
+}
 
 main().catch((err) => {
   console.error("❌ 치명적 오류:", err);
   process.exit(1);
 });
-
-// Duplicate helper markdownToNotionBlocks removed to prevent SyntaxError (already imported on line 32)
-
