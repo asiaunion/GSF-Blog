@@ -25,8 +25,8 @@ citeSources:
   - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
-  - label: "LIFULL HOME'S 도쿄도 시구정촌별 임대 시세"
-    url: "https://www.homes.co.jp/chintai/tokyo/city/price/"
+  - label: "SUUMO 도쿄도 임대 시세 정보"
+    url: "https://suumo.jp/chintai/tokyo/"
   - label: "도쿄 23구 평균 소득 데이터 (총무성 조사 기준 종합)"
     url: "https://www.soumu.go.jp/main_sosiki/jichi_zeimu/czaisei/czaisei_seido/ichiran09_21.html"
   - label: "도쿄도 인구추계 (주민기본대장), 2026"
@@ -73,7 +73,7 @@ citeSources:
 
 오사키와 고탄다 주변의 3LDK가 1.5억~3억 엔대를 오가는 것은 확실한 시세 차익과 자산 방어력을 기대하는 자본이 집중되고 있기 때문입니다.
 
-### 임대 평균 시세 [2차 출처] <sup class="source-ref"><a href="#source-2" id="cite-2-a">2</a></sup>
+### 임대 평균 시세 [1차 확인] <sup class="source-ref"><a href="#source-2" id="cite-2-a">2</a></sup>
 
 | 타입 | 월세 (평균) |
 |------|-----------|
@@ -117,15 +117,15 @@ citeSources:
 
 도심 인접 지역임에도 불구하고 ㎡당 100만 엔 이하로 진입 가능한 물건이 풍부하여, 상대적으로 진입 장벽이 낮습니다.
 
-### 임대 평균 시세 [2차 출처] <sup class="source-ref"><a href="#source-2" id="cite-2-b">2</a></sup>
+### 임대 평균 시세 [1차 확인] <sup class="source-ref"><a href="#source-2" id="cite-2-b">2</a></sup>
 
 | 타입 | 월세 (평균) |
 |------|-----------|
 | 1R | 약 7.2만엔/월 |
-| 1K / 1DK | 약 7.7만엔/월 |
-| 1LDK | 약 12.8만엔/월 |
-| 2LDK | 약 17.5만엔/월 |
-| 3LDK+ | 약 22.9만엔/월 |
+| 1K / 1DK | 약 8.4만엔/월 |
+| 1LDK | 약 12.5만엔/월 |
+| 2LDK | 약 16.9만엔/월 |
+| 3LDK+ | 약 20.4만엔/월 |
 
 시나가와구 대비 월세가 확실히 저렴합니다. 따라서 가성비를 중시하는 직장인들이나, 넓은 면적이 필요한 가족 단위(패밀리층) 임대 수요자들에게 항상 우선순위로 꼽힙니다.
 
@@ -158,7 +158,7 @@ citeSources:
 | **총인구 (명)** | 433,249명 | 759,988명 | 오타구가 약 1.75배 많음 |
 | **평균 소득** | 약 600만 엔 | 약 500만 엔 | 시나가와가 약 100만 엔 더 높음 |
 | **맨션 평균 ㎡ 단가** | 약 161만엔 | 약 95만엔 | 시나가와가 약 66만 엔 더 높음 |
-| **1LDK 평균 월세** | 약 19만엔 (16.5~22) | 약 15만엔 (13~17) | 시나가와가 약 4만 엔 더 높음 |
+| **1LDK 평균 월세** | 약 16.0만엔 | 약 12.5만엔 | 시나가와가 약 3.5만 엔 더 높음 |
 | **핵심 투자 전략** | 자본이득(Capital Gain) 중심 | 임대수익(Income Gain) 중심 | - |
 
 ### 💡 핵심 통찰 (Insight): 매매가 격차 vs 임대료 격차의 불균형
