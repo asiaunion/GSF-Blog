@@ -75,13 +75,13 @@ The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 m
 
 ### Average Rental Price
 
-| Layout | Monthly Rent Range |
+| Layout | Monthly Rent (Avg) |
 |------|-----------|
-| 1R | 90k~115k JPY |
-| 1K / 1DK | 100k~135k JPY |
-| 1LDK | 165k~220k JPY |
-| 2LDK | 240k~350k JPY |
-| 3LDK+ | 380k+ JPY  <sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
+| 1R | ~84k JPY |
+| 1K / 1DK | ~94k JPY |
+| 1LDK | ~160k JPY |
+| 2LDK | ~229k JPY |
+| 3LDK+ | ~295k JPY  <sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
 
 Given the top-tier transit convenience, rental demand for compact units like 1K or 1LDK from singles and DINKs (Double Income, No Kids) is explosive. Despite high rents, the turnover rate is exceptional.
 
@@ -119,13 +119,13 @@ Despite its proximity to the city center, there is an abundance of properties av
 
 ### Average Rental Price
 
-| Layout | Monthly Rent Range |
+| Layout | Monthly Rent (Avg) |
 |------|-----------|
-| 1R | 70k~95k JPY |
-| 1K / 1DK | 80k~110k JPY |
-| 1LDK | 130k~170k JPY |
-| 2LDK | 180k~260k JPY |
-| 3LDK+ | 250k+ JPY  <sup class="source-ref"><a href="#source-2">2</a></sup> |
+| 1R | ~72k JPY |
+| 1K / 1DK | ~77k JPY |
+| 1LDK | ~128k JPY |
+| 2LDK | ~175k JPY |
+| 3LDK+ | ~229k JPY  <sup class="source-ref"><a href="#source-2">2</a></sup> |
 
 Rents are noticeably cheaper compared to Shinagawa. Therefore, it is always a top priority for value-seeking professionals and families needing more space.
 
