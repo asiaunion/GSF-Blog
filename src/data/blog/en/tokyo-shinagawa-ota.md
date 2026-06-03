@@ -18,18 +18,19 @@ sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://suumo.jp/chintai/tokyo/"
-  - "https://diamond.jp/"
+  - "https://sell.home4u.jp/tokyo/13109"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
+  - "https://www.soumu.go.jp/"
 citeSources:
   - label: "Tokyo Kantei Metropolitan Second-hand Mansion 70㎡ Price Trends, 2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
   - label: "SUUMO Tokyo Rent Price Information"
     url: "https://suumo.jp/chintai/tokyo/"
-  - label: "Diamond Online (Tokyo 23 Wards Real Income Ranking)"
-    url: "https://diamond.jp/"
-  - label: "Tokyo Metropolitan Gov Population Estimates, 2026"
+  - label: "HOME4U Shinagawa & Ota Ward Mansion Market Price"
+    url: "https://sell.home4u.jp/tokyo/13109"
+  - label: "Processed Data based on Tokyo Metro Gov Municipal Tax Base & Population Estimates"
     url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
     portal: "https://www.toukei.metro.tokyo.lg.jp/"
 ---
@@ -61,7 +62,7 @@ Shinagawa is the area most coveted by global business professionals and high-end
 
 Admittedly, the massive Takanawa Gateway zone itself technically belongs to Minato Ward. But this overwhelming commercial and business redevelopment triggers a powerful Spillover Effect across all of adjacent Shinagawa. High-income tenants who prioritize living close to work are being sucked into this area like a black hole.
 
-### Average Purchase Price
+### Average Purchase Price <sup class="source-ref"><a href="#source-3" id="cite-3-a">3</a></sup>
 
 | Sub-area | Price per ㎡ (2025~2026) | Price per Tsubo (approx) |
 |---------|---------------------|-----------------|
@@ -69,9 +70,9 @@ Admittedly, the massive Takanawa Gateway zone itself technically belongs to Mina
 | Meguro & Shinagawa Border | 1.5~2.1M JPY/㎡ | 4.95~6.9M JPY/Tsubo |
 | Oimachi | 1.3~1.7M JPY/㎡ | 4.3~5.6M JPY/Tsubo |
 | Shinagawa Seaside | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
-| **Ward Average** | **~1.61M JPY/㎡** | **~5.32M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
+| **Ward Average** | **~1.61M JPY/㎡** | **~5.32M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1" id="cite-1-a">1</a></sup> |
 
-The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 million and 300 million JPY is because capital seeking guaranteed Capital Gains and high PBR (Price Book-value Ratio) is concentrating here.
+The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 million and 300 million JPY is because capital seeking reliable Capital Gains and high PBR (Price Book-value Ratio) is concentrating here.
 
 ### Average Rental Price
 
@@ -81,15 +82,15 @@ The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 m
 | 1K / 1DK | ~94k JPY |
 | 1LDK | ~160k JPY |
 | 2LDK | ~229k JPY |
-| 3LDK+ | ~295k JPY  <sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
+| 3LDK+ | ~295k JPY  <sup class="source-ref"><a href="#source-2" id="cite-2-a">2</a></sup> |
 
 Given the top-tier transit convenience, rental demand for compact units like 1K or 1LDK from singles and DINKs (Double Income, No Kids) is explosive. Despite high rents, the turnover rate is exceptional.
 
 ### Average Income & Population Base
 
-- **Per Capita Real Income Density:** **3.198M JPY** (8th in Tokyo 23 Wards)<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+- **Per Capita Real Income Density:** **3.198M JPY** (8th in Tokyo 23 Wards)<sup class="source-ref"><a href="#source-4" id="cite-4-a">4</a></sup>
 - The rank jumps from 9th (taxpayer basis) to 8th when factoring in the total population. This means fewer dependents and a dense concentration of 'power couples' capable of affording premium rents.
-- **Population:** ~433,249 (As of 2026)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+- **Population:** ~433,249 (As of 2026)<sup class="source-ref"><a href="#source-4" id="cite-4-b">4</a></sup>
 
 ### Target Audience
 
@@ -106,14 +107,14 @@ Ota is the largest ward in the 23 Wards by area. It is a hub of pragmatism where
 
 The biggest momentum here is the **New Airport Line (Kamakama Line)** project. By connecting the currently separated JR Kamata and Keikyu Kamata stations underground, access to Haneda Airport from core hubs like Shibuya and Shinjuku will drastically improve. Packaged with the Kamata Station plaza redevelopment, gentrification is actively transforming older industrial zones into fresh residential and rental markets.
 
-### Average Purchase Price
+### Average Purchase Price <sup class="source-ref"><a href="#source-3" id="cite-3-b">3</a></sup>
 
 | Sub-area | Price per ㎡ (2025~2026) | Price per Tsubo (approx) |
 |---------|---------------------|-----------------|
 | Den-en-chofu & Sanno | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
 | Kamata & Omori | 850k~1.2M JPY/㎡ | 2.8~4.0M JPY/Tsubo |
 | Haneda Area | 700k~1.0M JPY/㎡ | 2.3~3.3M JPY/Tsubo |
-| **Ward Average** | **~950k JPY/㎡** | **~3.14M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1">1</a></sup> |
+| **Ward Average** | **~950k JPY/㎡** | **~3.14M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1" id="cite-1-b">1</a></sup> |
 
 Despite its proximity to the city center, there is an abundance of properties available under 1 million JPY per ㎡, offering a relatively low barrier to entry.
 
@@ -125,15 +126,15 @@ Despite its proximity to the city center, there is an abundance of properties av
 | 1K / 1DK | ~77k JPY |
 | 1LDK | ~128k JPY |
 | 2LDK | ~175k JPY |
-| 3LDK+ | ~229k JPY  <sup class="source-ref"><a href="#source-2">2</a></sup> |
+| 3LDK+ | ~229k JPY  <sup class="source-ref"><a href="#source-2" id="cite-2-b">2</a></sup> |
 
 Rents are noticeably cheaper compared to Shinagawa. Therefore, it is always a top priority for value-seeking professionals and families needing more space.
 
 ### Average Income & Population Base
 
-- **Per Capita Real Income Density:** **2.646M JPY** (14th in Tokyo 23 Wards)<sup class="source-ref"><a href="#source-3">3</a></sup>
+- **Per Capita Real Income Density:** **2.646M JPY** (14th in Tokyo 23 Wards)<sup class="source-ref"><a href="#source-4" id="cite-4-c">4</a></sup>
 - While mid-tier in rank, this figure easily surpasses the Tokyo overall average (2.633M JPY) and the suburban municipality average (2.07M JPY). This indicates a rock-solid fundamental defense, meaning a lower risk of rent delinquency even during economic downturns.
-- **Population:** ~759,988 (As of 2026)<sup class="source-ref"><a href="#source-4">4</a></sup>
+- **Population:** ~759,988 (As of 2026)<sup class="source-ref"><a href="#source-4" id="cite-4-d">4</a></sup>
 
 ### Target Audience
 

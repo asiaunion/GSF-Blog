@@ -18,18 +18,19 @@ sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://suumo.jp/chintai/tokyo/"
-  - "https://diamond.jp/"
+  - "https://sell.home4u.jp/tokyo/13109"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
+  - "https://www.soumu.go.jp/"
 citeSources:
   - label: "東京カンテイ 首都圏中古マンション70㎡価格動向、2025年"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
   - label: "SUUMO 東京都賃貸相場情報"
     url: "https://suumo.jp/chintai/tokyo/"
-  - label: "Diamond Online (東京23区 実質所得ランキング)"
-    url: "https://diamond.jp/"
-  - label: "東京都 人口推計 (住民基本台帳)、2026年"
+  - label: "HOME4U 品川区・大田区 マンション売却相場"
+    url: "https://sell.home4u.jp/tokyo/13109"
+  - label: "東京都総務局「市区町村別課税標準額」および「人口推計」に基づく加工データ"
     url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
     portal: "https://www.toukei.metro.tokyo.lg.jp/"
 ---
@@ -61,7 +62,7 @@ citeSources:
 
 もちろん、超巨大な高輪ゲートウェイ地区自体は行政区画上、港区に属します。しかし、この圧倒的な規模の業務・商業地区再開発は、隣接する品川区全体に強力なスピルオーバー効果（Spillover Effect：周辺部へ恩恵が波及する現象）をもたらします。職住近接を最優先する高所得層の賃貸需要が、ブラックホールのようにこの地域へと吸い込まれています。
 
-### マンション平均売買価格
+### マンション平均売買価格 <sup class="source-ref"><a href="#source-3" id="cite-3-a">3</a></sup>
 
 | サブエリア | ㎡単価（2025〜2026年） | 坪単価換算 |
 |---------|---------------------|-----------------|
@@ -69,7 +70,7 @@ citeSources:
 | 目黒・品川隣接 | 150〜210万円/㎡ | 495〜690万円/坪 |
 | 大井町 | 130〜170万円/㎡ | 430〜560万円/坪 |
 | 品川シーサイド | 110〜150万円/㎡ | 365〜495万円/坪 |
-| **区全体平均** | **約161万円/㎡** | **約532万円/坪**  <sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
+| **区全体平均** | **約161万円/㎡** | **約532万円/坪**  <sup class="source-ref"><a href="#source-1" id="cite-1-a">1</a></sup> |
 
 大崎や五反田周辺の3LDKが1.5億〜3億円台で取引されているのは、確実な値上がり益と高いPBR（Price Book-value Ratio：資産価値維持率）を期待する資本が集中しているためです。
 
@@ -81,15 +82,15 @@ citeSources:
 | 1K / 1DK | 約9.4万円/月 |
 | 1LDK | 約16.0万円/月 |
 | 2LDK | 約22.9万円/月 |
-| 3LDK+ | 約29.5万円/月  <sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> |
+| 3LDK+ | 約29.5万円/月  <sup class="source-ref"><a href="#source-2" id="cite-2-a">2</a></sup> |
 
 交通利便性が東京最高レベルであるため、シングルやDINKs（Double Income, No Kids）向けの1Kや1LDKといったコンパクト住戸の賃貸需要が爆発的です。高い家賃にもかかわらず、賃貸の回転率は非常に優れています。
 
 ### 平均世帯所得と人口基盤
 
-- **人口1人当たりの実質所得密度:** **319.8万円**（東京23区内8位）<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+- **人口1人当たりの実質所得密度:** **319.8万円**（東京23区内8位）<sup class="source-ref"><a href="#source-4" id="cite-4-a">4</a></sup>
 - 納税者基準（9位）よりも、総人口基準（8位）で順位が逆転上昇します。これは扶養家族の割合が少なく、高い家賃を負担できる「高所得パワーカップル」が密集していることを意味します。
-- **人口:** 約433,249人（2026年基準）<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+- **人口:** 約433,249人（2026年基準）<sup class="source-ref"><a href="#source-4" id="cite-4-b">4</a></sup>
 
 ### おすすめのターゲット層
 
@@ -106,14 +107,14 @@ citeSources:
 
 ここでの最大のモメンタムは、**新空港線（蒲蒲線）**プロジェクトです。長らく分断されていたJR蒲田駅と京急蒲田駅が直結されれば、渋谷や新宿といった都心部から羽田空港へのアクセスが飛躍的に向上します。蒲田駅周辺の複合広場再開発とパッケージになることで、老朽化した工場地帯の各所でジェントリフィケーション（Gentrification：地域の高級化）が進行し、新たな居住・賃貸需要を創出しています。
 
-### マンション平均売買価格
+### マンション平均売買価格 <sup class="source-ref"><a href="#source-3" id="cite-3-b">3</a></sup>
 
 | サブエリア | ㎡単価（2025〜2026年） | 坪単価換算 |
 |---------|---------------------|-----------------|
 | 田園調布・山王 | 110〜150万円/㎡ | 365〜495万円/坪 |
 | 蒲田・大森 | 85〜120万円/㎡ | 280〜400万円/坪 |
 | 羽田周辺 | 70〜100万円/㎡ | 230〜330万円/坪 |
-| **区全体平均** | **約95万円/㎡** | **約314万円/坪**  <sup class="source-ref"><a href="#source-1">1</a></sup> |
+| **区全体平均** | **約95万円/㎡** | **約314万円/坪**  <sup class="source-ref"><a href="#source-1" id="cite-1-b">1</a></sup> |
 
 都心に隣接していながら、㎡単価100万円以下でエントリー可能な物件が豊富にあり、相対的に参入障壁が低いのが特徴です。
 
@@ -125,15 +126,15 @@ citeSources:
 | 1K / 1DK | 約7.7万円/月 |
 | 1LDK | 約12.8万円/月 |
 | 2LDK | 約17.5万円/月 |
-| 3LDK+ | 約22.9万円/月  <sup class="source-ref"><a href="#source-2">2</a></sup> |
+| 3LDK+ | 約22.9万円/月  <sup class="source-ref"><a href="#source-2" id="cite-2-b">2</a></sup> |
 
 品川区と比較して家賃が明確に割安です。そのため、コストパフォーマンスを重視する会社員や、広い面積が必要なファミリー層の賃貸需要者にとって、常に優先順位の上位に挙げられます。
 
 ### 平均世帯所得と人口基盤
 
-- **人口1人当たりの実質所得密度:** **264.6万円**（東京23区内14位）<sup class="source-ref"><a href="#source-3">3</a></sup>
+- **人口1人当たりの実質所得密度:** **264.6万円**（東京23区内14位）<sup class="source-ref"><a href="#source-4" id="cite-4-c">4</a></sup>
 - 順位こそ中位ですが、東京都全体の平均（263.3万円）や多摩地域などの市町村平均（207万円）を優に超える、堅牢な下値防衛力を示しています。これは、経済危機時においても家賃滞納リスクが相対的に低い、盤石なファンダメンタルズを意味します。
-- **人口:** 約759,988人（2026年基準）<sup class="source-ref"><a href="#source-4">4</a></sup>
+- **人口:** 約759,988人（2026年基準）<sup class="source-ref"><a href="#source-4" id="cite-4-d">4</a></sup>
 
 ### おすすめのターゲット層
 
