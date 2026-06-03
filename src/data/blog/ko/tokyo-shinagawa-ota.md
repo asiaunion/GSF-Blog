@@ -18,7 +18,7 @@ sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://suumo.jp/chintai/tokyo/"
-  - "https://diamond.jp/"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeimu/czaisei/czaisei_seido/ichiran09_21.html"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
 citeSources:
