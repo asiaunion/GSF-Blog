@@ -19,9 +19,9 @@ sources:
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://suumo.jp/chintai/tokyo/"
   - "https://sell.home4u.jp/tokyo/13109"
+  - "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.soumu.go.jp/"
 citeSources:
   - label: "東京カンテイ 首都圏中古マンション70㎡価格動向、2025年"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
@@ -31,8 +31,8 @@ citeSources:
   - label: "HOME4U 品川区・大田区 マンション売却相場"
     url: "https://sell.home4u.jp/tokyo/13109"
   - label: "東京都総務局「市区町村別課税標準額」および「人口推計」に基づく加工データ"
-    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
-    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+    url: "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
 ---
 
 古い歴史と最先端のインフラが共存する都市を想像したことはありますか？通常、どちらか一方を諦めなければならないと考えがちです。しかし、東京の南部ベルト（品川・大田）は、この固定観念を見事に打ち砕きます。

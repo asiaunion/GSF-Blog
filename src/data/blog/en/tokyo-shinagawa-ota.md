@@ -19,9 +19,9 @@ sources:
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://suumo.jp/chintai/tokyo/"
   - "https://sell.home4u.jp/tokyo/13109"
+  - "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.soumu.go.jp/"
 citeSources:
   - label: "Tokyo Kantei Metropolitan Second-hand Mansion 70㎡ Price Trends, 2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
@@ -31,8 +31,8 @@ citeSources:
   - label: "HOME4U Shinagawa & Ota Ward Mansion Market Price"
     url: "https://sell.home4u.jp/tokyo/13109"
   - label: "Processed Data based on Tokyo Metro Gov Municipal Tax Base & Population Estimates"
-    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
-    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+    url: "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
 ---
 
 Have you ever imagined a city where ancient history and cutting-edge infrastructure perfectly coexist? Usually, you have to give up one for the other. But Tokyo's Southern Belt (Shinagawa and Ota) completely shatters this stereotype.

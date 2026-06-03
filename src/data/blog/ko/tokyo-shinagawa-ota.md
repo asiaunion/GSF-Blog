@@ -19,9 +19,9 @@ sources:
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://suumo.jp/chintai/tokyo/"
   - "https://sell.home4u.jp/tokyo/13109"
+  - "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
-  - "https://www.soumu.go.jp/"
 citeSources:
   - label: "도쿄 칸테이 수도권 중고 맨션 70㎡ 가격 동향, 2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
@@ -31,8 +31,8 @@ citeSources:
   - label: "HOME4U 시나가와구·오타구 맨션 매매 시세"
     url: "https://sell.home4u.jp/tokyo/13109"
   - label: "도쿄도 총무국 「구시정촌별 과세표준액」 및 「인구 추계」 기반 가공 데이터"
-    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
-    portal: "https://www.toukei.metro.tokyo.lg.jp/"
+    url: "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
+    portal: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
 ---
 
 오래된 역사와 첨단 인프라가 공존하는 도시를 상상해 보신 적 있나요? 보통은 둘 중 하나를 포기해야 한다고 생각합니다. 하지만 도쿄 남부 벨트(시나가와·오타)는 이 고정관념을 완벽히 깹니다. 
