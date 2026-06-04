@@ -33,8 +33,8 @@ citeSources:
   - label: "SUUMO Nakano & Suginami Ward Rental Market Data (as of 2026-04-13, new construction within 5 min walk)"
     url: "https://suumo.jp/chintai/soba/tokyo/sc_nakano/"
     portal: "https://suumo.jp/chintai/soba/tokyo/sc_suginami/"
-  - label: "HOMES Tokyo Used Condominium Price Index (ward-level average, May 2026)"
-    url: "https://www.homes.co.jp/mansion/chuko/tokyo/city/price/"
+  - label: "Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4"
+    url: "https://www.reinfolib.mlit.go.jp/"
   - label: "Tokyo Metropolitan Government Tax Bureau — Taxable Income by Ward & TMG Population Estimates, 2025"
     url: "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
     portal: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
@@ -75,16 +75,16 @@ Entering this area before the redevelopment is complete can be viewed as one app
 
 ### Condominium Prices
 
-| Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) Equivalent |
-|---------|------------------------|--------------------------|
-| Ikebukuro West Exit core | ¥1.30M–1.55M/㎡ | ¥4.30M–5.10M/坪 |
-| Mejiro / Sugamo direction | ¥1.15M–1.40M/㎡ | ¥3.80M–4.65M/坪 |
-| Ojima / outer Ikebukuro | ¥1.00M–1.20M/㎡ | ¥3.30M–4.00M/坪 |
-| **Ward average** | **~¥1.510M/㎡** | **~¥4.99M/坪**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> |
+| Sub-area | Avg. transaction price per ㎡ | Per Tsubo (坪) Equiv. | Transactions |
+|---------|------------------------|--------------------------|-----------|
+| Ikebukuro station area (池袋·東池袋·要町) | **¥1.351M/㎡** | ~¥4.47M/坪 | (262) |
+| Mejiro / Sugamo direction (目白·巣鴨·駒込·西巣鴨) | **¥1.118M/㎡** | ~¥3.69M/坪 | (167) |
+| Outer fringe (大塚·板橋·雑司が谷·新大塚) | **¥1.125M/㎡** | ~¥3.72M/坪 | (193) |
+| **Ward average** | **¥1.158M/㎡** | **~¥3.83M/坪**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> | **(744)** |
 
-> ⚠️ **Sub-area breakdowns above are pending re-verification.** The ward average (¥1.510M/㎡, equivalent to ¥105.68M for 70㎡) is confirmed from HOMES 70㎡ index [Primary Source]. Sub-area figures are estimates pending direct source verification.
+> **[Primary Source]** Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4. Ward average 70㎡ equivalent ≒ **¥81.06M**.
 
-At the ward average of ¥1.510M/㎡, a 70㎡ unit works out to approximately ¥105.68M. Prices in the West Exit core have accelerated since the redevelopment announcement.
+At the ward average of ¥1.158M/㎡, a 70㎡ unit works out to approximately **¥81.06M**. Prices in the station-adjacent core have continued to rise since the redevelopment announcement.
 
 ### Rental Rates
 
@@ -141,15 +141,15 @@ And right now, Nakano has two clear catalysts on the horizon: the new station bu
 
 ### Condominium Prices
 
-| Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) Equivalent |
-|---------|------------------------|--------------------------|
-| Within 5-min walk of Nakano Station | ¥1.25M–1.50M/㎡ | ¥4.15M–4.95M/坪 |
-| Shin-Sakuradai / Koenjima direction | ¥1.05M–1.30M/㎡ | ¥3.45M–4.30M/坪 |
-| **Ward average** | **~¥1.191M/㎡** | **~¥3.94M/坪**<sup class="source-ref"><a href="#source-3">3</a></sup> |
+| Sub-area | Avg. transaction price per ㎡ | Per Tsubo (坪) Equiv. | Transactions |
+|---------|------------------------|--------------------------|-----------|
+| Near Nakano Station (中野·東中野·中野坂上) | **¥1.228M/㎡** | ~¥4.06M/坪 | (235) |
+| Shin-Sakuradai / Koenji direction (新中野·中野新橋·高円寺·落合·方南町) | **¥0.963M/㎡** | ~¥3.18M/坪 | (169) |
+| **Ward average** | **¥1.026M/㎡** | **~¥3.39M/坪**<sup class="source-ref"><a href="#source-3">3</a></sup> | **(619)** |
 
-> ⚠️ **Sub-area breakdowns above are pending re-verification.** The ward average (¥1.191M/㎡, equivalent to ¥83.40M for 70㎡) is confirmed from HOMES 70㎡ index [Primary Source].
+> **[Primary Source]** Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4. Ward average 70㎡ equivalent ≒ **¥71.82M**.
 
-At 70㎡, the ward average works out to approximately ¥83.40M — roughly comparable to Toshima Ward's older sub-areas. Because the ward is so compact, the station-proximity premium is more efficiently captured.
+At 70㎡, the ward average works out to approximately **¥71.82M**. Because the ward is so compact, the station-proximity premium is more efficiently captured.
 
 ### Rental Rates
 
@@ -204,16 +204,16 @@ Koenji is the home of vintage fashion and live music. Asagaya carries the fragra
 
 ### Condominium Prices
 
-| Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) Equivalent |
-|---------|------------------------|--------------------------|
-| Koenji / Asagaya station area | ¥0.95M–1.25M/㎡ | ¥3.15M–4.15M/坪 |
-| Ogikubo / Nishi-Ogikubo | ¥0.85M–1.10M/㎡ | ¥2.80M–3.65M/坪 |
-| Outer fringe (Mitaka / Musashino border) | ¥0.75M–0.95M/㎡ | ¥2.50M–3.15M/坪 |
-| **Ward average** | **~¥0.910M/㎡** | **~¥3.01M/坪**<sup class="source-ref"><a href="#source-3">3</a></sup> |
+| Sub-area | Avg. transaction price per ㎡ | Per Tsubo (坪) Equiv. | Transactions |
+|---------|------------------------|--------------------------|-----------|
+| Koenji / Asagaya station area (高円寺·阿佐ケ谷·南阿佐ケ谷·東高円寺) | **¥0.942M/㎡** | ~¥3.11M/坪 | (157) |
+| Ogikubo / Nishi-Ogikubo (荻窪·西荻窪·上井草) | **¥0.946M/㎡** | ~¥3.13M/坪 | (258) |
+| Outer fringe (浜田山 area etc.) | **¥1.072M/㎡** | ~¥3.54M/坪 | (185) |
+| **Ward average** | **¥0.931M/㎡** | **~¥3.08M/坪**<sup class="source-ref"><a href="#source-3">3</a></sup> | **(851)** |
 
-> ⚠️ **Sub-area breakdowns above are pending re-verification.** The ward average (¥0.910M/㎡, equivalent to ¥63.72M for 70㎡) is confirmed from HOMES 70㎡ index [Primary Source].
+> **[Primary Source]** Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4. Ward average 70㎡ equivalent ≒ **¥65.17M**.
 
-At 70㎡, the ward average is approximately ¥63.72M — the most accessible entry point of the three wards.
+At 70㎡, the ward average is approximately **¥65.17M** — the most accessible entry point of the three wards. Compared to Toshima, the per-㎡ gap is approximately 19.6% (Arithmetic: 22.7 ÷ 115.8 ≒ 19.6%); compared to Nakano, approximately 9.3%.
 
 ### Rental Rates
 
@@ -264,7 +264,7 @@ Cross-referencing the data across all three wards surfaces some genuinely intere
 Suginami's per-capita income (¥2.805M) minus Nakano's (¥2.606M) = **¥199,000 difference**. (Arithmetic: 2.805 − 2.606 = 0.199M) Suginami has the strongest income base of the three, but all three wards are at or above the Tokyo metropolitan average (¥2.633M).
 
 **Price gap (subtraction check):**
-Nakano's average (¥1.191M/㎡) minus Suginami's (¥0.910M/㎡) = **¥281,000/㎡ difference**. (Arithmetic: 1.191 − 0.910 = 0.281M) Suginami offers approximately 24% lower per-㎡ entry cost than Nakano.
+Nakano's average (¥1.026M/㎡) minus Suginami's (¥0.931M/㎡) = **¥95,000/㎡ difference**. (Arithmetic: 1.026 − 0.931 = 0.095M) Suginami offers approximately 9.3% lower per-㎡ entry cost than Nakano.
 
 **Foreign-resident gap (subtraction check):**
 Toshima (13.2%) minus Suginami (4.5%) = **8.7 percentage points**. (Arithmetic: 13.2 − 4.5 = 8.7) This gap translates directly into differences in Korean-language infrastructure density, tenant diversity, and day-one settlement ease for foreign relocators.
@@ -277,8 +277,8 @@ Toshima (13.2%) minus Suginami (4.5%) = **8.7 percentage points**. (Arithmetic: 
 | **Foreign resident ratio** | 13.2% | 7.9% | 4.5% |
 | **Taxpayer income rank (23 wards)** | 13th | 16th | 11th |
 | **Per-capita income density** | ¥2.685M | ¥2.606M | ¥2.805M |
-| **Avg. condo price per ㎡** | ~¥1.510M | ~¥1.191M | ~¥0.910M |
-| **70㎡ unit equiv.** | ~¥105.68M | ~¥83.40M | ~¥63.72M |
+| **Avg. condo price per ㎡** | **¥1.158M** | **¥1.026M** | **¥0.931M** |
+| **70㎡ unit equiv.** | **~¥81.06M** | **~¥71.82M** | **~¥65.17M** |
 | **1LDK rent (new build)** | ¥161,000 | ¥167,000 | ¥162,000 |
 | **Redevelopment catalyst** | 3 towers, 2043 target | New station 2026.12 + San Plaza 2034 | Asagaya 2026 master plan |
 | **Core image** | Energy · International · Redevelopment | Hidden gem · Value · Inflection point | Family · Stability · Cultural depth |
@@ -289,9 +289,9 @@ Toshima (13.2%) minus Suginami (4.5%) = **8.7 percentage points**. (Arithmetic: 
 
 The most striking finding in this dataset is that **1LDK rents converge to the ¥160,000s across all three wards**.
 
-Condo prices show a **~40% gap** between Toshima (¥1.510M/㎡) and Suginami (¥0.910M/㎡) — but 1LDK rents come in at ¥161,000 vs ¥162,000, virtually identical. This means **Suginami can be acquired at significantly lower capital outlay while delivering essentially the same income return as Toshima on a 1LDK basis**.
+Condo prices show a **~19.6% gap** between Toshima (¥1.158M/㎡) and Suginami (¥0.931M/㎡) (Arithmetic: 22.7 ÷ 115.8 ≒ 19.6%) — but 1LDK rents come in at ¥161,000 vs ¥162,000, virtually identical. This means **Suginami can be acquired at significantly lower capital outlay while delivering essentially the same income return as Toshima on a 1LDK basis**.
 
-This convergence is Suginami's most compelling investment argument.
+> **[Primary Source]** Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (https://www.reinfolib.mlit.go.jp/) — based on 744 Toshima, 619 Nakano, and 851 Suginami transactions.
 
 ---
 

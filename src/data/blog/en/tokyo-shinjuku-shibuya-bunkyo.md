@@ -22,8 +22,7 @@ sources:
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
   - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
-  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
+  - "https://www.reinfolib.mlit.go.jp/"
 citeSources:
   - label: "NTA Private Sector Wage Survey, 2023"
     url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
@@ -33,9 +32,9 @@ citeSources:
     portal: "https://www.toukei.metro.tokyo.lg.jp/"
   - label: "Shinjuku City Foreign Resident Statistics, 2024"
     url: "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
-  - label: "Tokyo Kantei Metropolitan Condo 70㎡ Price Trend, 2025"
-    url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-    archive: "/assets/sources/kantei-2025-chukomansion.pdf"
+  - label: "Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4"
+    url: "https://www.reinfolib.mlit.go.jp/"
+    portal: "https://www.reinfolib.mlit.go.jp/"
 ---
 If Roppongi and Azabu are "expat Tokyo," Shinjuku and Shibuya are "Tokyo for Tokyoites." That's how I framed it the first time I compared the two. Same price tier. Completely different lives. Which one is right for you isn't a data question — it's a lifestyle question.
 
@@ -69,11 +68,13 @@ For Korean relocators, Shinjuku isn't just a neighborhood. It's a psychological 
 
 | Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) |
 |----------|--------------------------|----------------|
-| Nishi-Shinjuku / City Hall area | ¥1.3M–¥2.0M/㎡ | ¥4.3M–¥6.6M/坪 |
-| Yotsuya / Ichigaya | ¥1.1M–¥1.6M/㎡ | ¥3.65M–¥5.3M/坪 |
-| Shin-Okubo / Takadanobaba | ¥0.9M–¥1.3M/㎡ | ¥3.0M–¥4.3M/坪 |
-| Waseda / Kagurazaka area | ¥0.85M–¥1.2M/㎡ | ¥2.8M–¥4.0M/坪 |
-| **Ward average** | **approx. ¥1.15M/㎡** | **approx. ¥3.8M/坪** |
+| Nishi-Shinjuku / City Hall area | ¥1.3M–¥2.0M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥4.3M–¥6.6M/坪 |
+| Yotsuya / Ichigaya | ¥1.1M–¥1.6M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.65M–¥5.3M/坪 |
+| Shin-Okubo / Takadanobaba | ¥0.9M–¥1.3M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.0M–¥4.3M/坪 |
+| Waseda / Kagurazaka area | ¥0.85M–¥1.2M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥2.8M–¥4.0M/坪 |
+| **Ward average** | **¥1.359M/㎡** | **¥4.49M/坪** |
+
+> Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (n=1,298)
 
 Shinjuku is the only Core 6 Ward with sub-areas below ¥1M/㎡. For budget-conscious investors, it offers the lowest entry barrier in the premium tier.
 
@@ -134,12 +135,14 @@ My view is clear. Among the Core 6 Wards, Shibuya has the highest upside potenti
 
 | Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) |
 |----------|--------------------------|----------------|
-| Omotesando / Aoyama | ¥1.8M–¥2.8M/㎡ | ¥6.0M–¥9.25M/坪 |
-| Daikanyama / Ebisu | ¥1.5M–¥2.3M/㎡ | ¥5.0M–¥7.6M/坪 |
-| Nakameguro / Yutesuji | ¥1.3M–¥2.0M/㎡ | ¥4.3M–¥6.6M/坪 |
-| Shibuya Station area | ¥1.2M–¥1.8M/㎡ | ¥4.0M–¥5.95M/坪 |
-| Hatagaya / Hatsudai | ¥1.0M–¥1.4M/㎡ | ¥3.3M–¥4.65M/坪 |
-| **Ward average** | **approx. ¥1.5M/㎡** | **approx. ¥4.95M/坪** |
+| Omotesando / Aoyama | ¥1.8M–¥2.8M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥6.0M–¥9.25M/坪 |
+| Daikanyama / Ebisu | ¥1.5M–¥2.3M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥5.0M–¥7.6M/坪 |
+| Nakameguro / Yutesuji | ¥1.3M–¥2.0M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥4.3M–¥6.6M/坪 |
+| Shibuya Station area | ¥1.2M–¥1.8M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥4.0M–¥5.95M/坪 |
+| Hatagaya / Hatsudai | ¥1.0M–¥1.4M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.3M–¥4.65M/坪 |
+| **Ward average** | **¥1.800M/㎡** | **¥5.95M/坪** |
+
+> Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (n=907)
 
 Omotesando and Aoyama are priced on par with Azabu in Minato Ward. Nakameguro has seen some of the steepest appreciation in Tokyo over the past five years.
 
@@ -200,11 +203,13 @@ I've compared Nihonbashi and Bunkyo side by side. Nihonbashi is a place you work
 
 | Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) |
 |----------|--------------------------|----------------|
-| Koraku / Suidobashi | ¥1.1M–¥1.6M/㎡ | ¥3.65M–¥5.3M/坪 |
-| Hongo / Yushima | ¥1.0M–¥1.45M/㎡ | ¥3.3M–¥4.8M/坪 |
-| Koishikawa / Otsuka | ¥0.9M–¥1.3M/㎡ | ¥3.0M–¥4.3M/坪 |
-| Hakusan / Nezu | ¥0.85M–¥1.2M/㎡ | ¥2.8M–¥4.0M/坪 |
-| **Ward average** | **approx. ¥1.05M/㎡** | **approx. 3.47 million JPY (347만 JPY)/坪** |
+| Koraku / Suidobashi | ¥1.1M–¥1.6M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.65M–¥5.3M/坪 |
+| Hongo / Yushima | ¥1.0M–¥1.45M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.3M–¥4.8M/坪 |
+| Koishikawa / Otsuka | ¥0.9M–¥1.3M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.0M–¥4.3M/坪 |
+| Hakusan / Nezu | ¥0.85M–¥1.2M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥2.8M–¥4.0M/坪 |
+| **Ward average** | **¥1.315M/㎡** | **¥4.34M/坪** |
+
+> Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (n=808)
 
 Bunkyo is the most affordable of the Core 6 Wards on a per-㎡ basis. Transit access (multiple JR and Metro lines) and living environment make it the best value-for-money play in the premium tier.
 
@@ -260,11 +265,13 @@ Bunkyo's foreign resident ratio is **approx. 6–7%**. UTokyo's international st
 | Area | 18.23㎢ | 15.11㎢ | 11.29㎢ |
 | Population (Jan 2025) | ~353,000 | ~231,000 | ~235,000 |
 | Foreign resident ratio | ~12.6% | ~5.5–6% | ~6–7% |
-| Avg. mansion price/㎡ | ¥1.15M | ¥1.5M | ¥1.05M |
+| Avg. mansion price/㎡ | ¥1.359M | ¥1.800M | ¥1.315M |
 | Avg. taxable income | ~6.1 million JPY (~¥6.1M) | ~10.7 million JPY (~¥10.7M) | ~7 million JPY (~¥7.0M) |
 | Gross yield (reference) | 4–5% | 3.5–5% | 4.5–5.5% |
 | Core image | Multicultural · Community · Terminal | Trend · Creative · Redevelopment | Academic · Quiet · Family |
 | Foreign-resident livability | ★★★★★ | ★★★★ | ★★★☆ |
+
+> Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 — Shinjuku n=1,298 / Shibuya n=907 / Bunkyo n=808
 
 ---
 

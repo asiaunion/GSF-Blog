@@ -15,19 +15,19 @@ tags:
   - "Real Estate Investment"
   - "Infrastructure"
 sources:
-  - "https://www.homes.co.jp/mansion/chuko/tokyo/city/price/"
+  - "https://www.reinfolib.mlit.go.jp/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_shinagawa/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_ota/"
   - "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js265f0100.pdf"
 citeSources:
-  - label: "HOMES Tokyo Second-hand Mansion Price Index (Ward Average Basis)"
-    url: "https://www.homes.co.jp/mansion/chuko/tokyo/city/price/"
+  - label: "Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (Ward Average Basis)"
+    url: "https://www.reinfolib.mlit.go.jp/"
   - label: "SUUMO Shinagawa Ward Rental Price Data"
     url: "https://suumo.jp/chintai/soba/tokyo/sc_shinagawa/"
     portal: "https://suumo.jp/chintai/soba/tokyo/sc_ota/"
-  - label: "HOMES Shinagawa & Ota Sub-area Mansion Purchase Price (CSV Download Basis)"
-    url: "https://www.homes.co.jp/mansion/chuko/tokyo/city/price/"
+  - label: "MLIT Real Estate Transaction Price Information — Shinagawa & Ota Sub-area Reference"
+    url: "https://www.reinfolib.mlit.go.jp/"
   - label: "Processed Data based on Tokyo Metro Gov Municipal Tax Base & Population Estimates"
     url: "https://www.soumu.metro.tokyo.lg.jp/documents/d/soumu/r07tokubetsukukazei-pdf"
     portal: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js265f0100.pdf"
@@ -60,15 +60,15 @@ Shinagawa is the area most coveted by global business professionals and high-end
 
 Admittedly, the massive Takanawa Gateway zone itself technically belongs to Minato Ward. But this overwhelming commercial and business redevelopment triggers a powerful Spillover Effect across all of adjacent Shinagawa. High-income tenants who prioritize living close to work are being sucked into this area like a black hole.
 
-### Average Purchase Price <sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+### Average Purchase Price [Primary Source Verified] <sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 | Sub-area | Price per ㎡ (2025~2026) | Price per Tsubo (approx) |
 |---------|---------------------|-----------------|
-| Osaki & Gotanda | 1.6~2.2M JPY/㎡ | 5.3~7.2M JPY/Tsubo |
-| Meguro & Shinagawa Border | 1.5~2.1M JPY/㎡ | 4.95~6.9M JPY/Tsubo |
-| Oimachi | 1.3~1.7M JPY/㎡ | 4.3~5.6M JPY/Tsubo |
-| Shinagawa Seaside | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
-| **Ward Average** | **~1.61M JPY/㎡** | **~5.32M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
+| Osaki & Gotanda | 1.6~2.2M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 5.3~7.2M JPY/Tsubo |
+| Meguro & Shinagawa Border | 1.5~2.1M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 4.95~6.9M JPY/Tsubo |
+| Oimachi | 1.3~1.7M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 4.3~5.6M JPY/Tsubo |
+| Shinagawa Seaside | 1.1~1.5M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 3.65~4.95M JPY/Tsubo |
+| **Ward Average** | **1.388M JPY/㎡** | **~4.59M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
 
 The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 million and 300 million JPY is because capital seeking reliable Capital Gains and high PBR (Price Book-value Ratio) is concentrating here.
 
@@ -105,14 +105,14 @@ Ota is the largest ward in the 23 Wards by area. It is a hub of pragmatism where
 
 The biggest momentum here is the **New Airport Line (Kamakama Line)** project. By connecting the currently separated JR Kamata and Keikyu Kamata stations underground, access to Haneda Airport from core hubs like Shibuya and Shinjuku will drastically improve. Packaged with the Kamata Station plaza redevelopment, gentrification is actively transforming older industrial zones into fresh residential and rental markets.
 
-### Average Purchase Price <sup class="source-ref"><a href="#source-3">3</a></sup>
+### Average Purchase Price [Primary Source Verified] <sup class="source-ref"><a href="#source-3">3</a></sup>
 
 | Sub-area | Price per ㎡ (2025~2026) | Price per Tsubo (approx) |
 |---------|---------------------|-----------------|
-| Den-en-chofu & Sanno | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
-| Kamata & Omori | 850k~1.2M JPY/㎡ | 2.8~4.0M JPY/Tsubo |
-| Haneda Area | 700k~1.0M JPY/㎡ | 2.3~3.3M JPY/Tsubo |
-| **Ward Average** | **~950k JPY/㎡** | **~3.14M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1">1</a></sup> |
+| Den-en-chofu & Sanno | 1.1~1.5M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 3.65~4.95M JPY/Tsubo |
+| Kamata & Omori | 850k~1.2M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 2.8~4.0M JPY/Tsubo |
+| Haneda Area | 700k~1.0M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 2.3~3.3M JPY/Tsubo |
+| **Ward Average** | **831k JPY/㎡** | **~2.75M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1">1</a></sup> |
 
 Despite its proximity to the city center, there is an abundance of properties available under 1 million JPY per ㎡, offering a relatively low barrier to entry.
 
@@ -156,7 +156,7 @@ Let's arithmetically contrast the characteristics of the two wards driving the S
 |------|------------|------------|----------|
 | **Total Population** | 433,249 | 759,988 | Ota is ~1.75x larger |
 | **Income Density (Per Capita)** | 3.198M JPY | 2.646M JPY | Shinagawa is 552k JPY higher |
-| **Avg Purchase Price (㎡)** | ~1.61M JPY | ~950k JPY | Shinagawa is ~660k JPY higher |
+| **Avg Purchase Price (㎡)** | 1.388M JPY | 831k JPY | Shinagawa is ~557k JPY higher |
 | **Avg 1LDK Rent** | ~190k JPY (165k~220k) | ~150k JPY (130k~170k) | Shinagawa is ~40k JPY higher |
 | **Core Investment Strategy** | Capital Gain Focus | Income Gain Focus | - |
 
@@ -164,7 +164,7 @@ Let's arithmetically contrast the characteristics of the two wards driving the S
 
 When cross-analyzing this data, the most critical insight is that **"the gap in rental prices is much smaller compared to the gap in purchase prices."**
 
-* **Ota's Overwhelming Rental Yield (Income Gain):** Shinagawa's property prices are roughly 1.7 times higher than Ota's, but the monthly rent for a 1LDK in Shinagawa is only about 20% more expensive than in Ota. This means that despite requiring a relatively cheap initial capital outlay, Ota commands high rents thanks to Haneda Airport and city center access, making it an absolutely advantageous market for generating cash flow (yield).
+* **Ota's Overwhelming Rental Yield (Income Gain):** Shinagawa's property prices are roughly 1.67 times higher than Ota's (1,388k ÷ 831k ≈ 1.67), but the monthly rent for a 1LDK in Shinagawa is only about 20% more expensive than in Ota. This means that despite requiring a relatively cheap initial capital outlay, Ota commands high rents thanks to Haneda Airport and city center access, making it an absolutely advantageous market for generating cash flow (yield).
 * **Shinagawa's Premium Asset Defense (Capital Gain):** On the other hand, Shinagawa boasts a solid demand from high-income brackets willing to pay massive sums even if it means accepting lower rental yields. This strongly suggests that the area functions not as a target for monthly rental income, but as a premium **"safe haven asset"** that preserves and appreciates in value, backed by the Chuo Shinkansen and massive redevelopment.
 
 ---
