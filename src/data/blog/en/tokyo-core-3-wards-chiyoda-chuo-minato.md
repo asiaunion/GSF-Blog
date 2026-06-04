@@ -296,10 +296,12 @@ Premium tower mansions in the Core 3 can carry combined management fees and repa
 
 ---
 
-## Next in This Series
+## View All in This Series
 
-**[Ep.2] The Second Premium Layer — Shinjuku, Shibuya, Bunkyo** — Publishing next week.
-
-Commerce in Shinjuku, trend in Shibuya, academia in Bunkyo. Three wards that stand shoulder-to-shoulder with the Core 3.
+- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
+- [Ep.4: Business Gateway — Shinagawa & Ota](/en/posts/tokyo-shinagawa-ota/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
 
 ---

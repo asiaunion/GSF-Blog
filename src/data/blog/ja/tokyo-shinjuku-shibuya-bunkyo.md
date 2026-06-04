@@ -291,10 +291,12 @@ citeSources:
 
 ---
 
-## 次回のシリーズ
+## シリーズ全一覧
 
-**[Ep.3] 西の高級住宅ベルト：目黒・世田谷** — 来週公開予定。
-
-都心6区のすぐ隣、ファミリー向け高級住宅の代名詞となった2区を解剖します。目黒川沿いのマンションと世田谷の住宅地が、東京に移住するファミリー層の第1選択肢になり続ける理由とは何か。
+- [シリーズプロローグ：東京のどこに住むべきか](/ja/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1：都心3区 — 千代田・中央・港](/ja/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.3：西の高級住宅ベルト — 目黒・世田谷](/ja/posts/tokyo-meguro-setagaya/)
+- [Ep.4：ビジネスゲートウェイ — 品川・大田](/ja/posts/tokyo-shinagawa-ota/)
+- [Ep.5：ヒップスター・インナーリング — 豊島・中野・杉並](/ja/posts/tokyo-toshima-nakano-suginami/)
 
 ---

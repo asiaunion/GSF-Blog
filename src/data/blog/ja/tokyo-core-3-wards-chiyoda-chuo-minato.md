@@ -296,10 +296,12 @@ citeSources:
 
 ---
 
-## 次回予告
+## シリーズ全一覧
 
-**[Ep.2] 都心準核6区 — 東京の顔：新宿・渋谷・文京** — 来週公開予定。
-
-商業の新宿、トレンドの渋谷、学問の文京。都心3区と肩を並べる第2のプレミアムレイヤーを徹底解剖します。
+- [シリーズプロローグ：東京のどこに住むべきか](/ja/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.2：都心準核6区 — 新宿・渋谷・文京](/ja/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3：西の高級住宅ベルト — 目黒・世田谷](/ja/posts/tokyo-meguro-setagaya/)
+- [Ep.4：ビジネスゲートウェイ — 品川・大田](/ja/posts/tokyo-shinagawa-ota/)
+- [Ep.5：ヒップスター・インナーリング — 豊島・中野・杉並](/ja/posts/tokyo-toshima-nakano-suginami/)
 
 ---

@@ -178,3 +178,15 @@ From a renter's perspective, if a sophisticated urban lifestyle and commuting co
 The same applies to investors. If you have abundant capital and are confident in asset appreciation (Capital Gains), choose Shinagawa. If you want high-yield cash flow (Income Gains) in the rental market based on cost-effective purchase prices, choose Ota.
 
 When infrastructure evolves, the tenant demographic shifts, and when the demographic shifts, asset values are completely re-evaluated. This harmonious blend of refined history and massive modernity is exactly why you must pay attention to the Tokyo 23 Wards Southern Belt.
+
+---
+
+## View All in This Series
+
+- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
+
+---

@@ -291,10 +291,12 @@ Tower mansions in the Core 6 can carry monthly management fees (管理費 — Ka
 
 ---
 
-## Next in the Series
+## View All in This Series
 
-**[Ep.3] The Western Premium Residential Belt: Meguro & Setagaya** — Publishing next week.
-
-The two wards just outside the Core 6 that have become the default choice for high-income Tokyo families. Why do Meguro River-front mansions and Setagaya's residential neighborhoods command such consistent premium — and who should actually buy there?
+- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
+- [Ep.4: Business Gateway — Shinagawa & Ota](/en/posts/tokyo-shinagawa-ota/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
 
 ---

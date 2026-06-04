@@ -225,8 +225,12 @@ On the other hand, if you want a rock-solid, long-term asset backed by domestic 
 - [ ] **Parking Space Verification**: For family-sized properties in Setagaya, especially those over 10 minutes from a station, having an allocated parking space (駐車場) often decides the success of your rental contract. Have you checked the parking ratios beforehand?
 - [ ] **School District Check**: If you plan to move to Setagaya with your family, cross-reference school reputations and proximity to renowned private junior high schools.
 
-## Related Series
+## View All in This Series
 
-- [Where to Live in Tokyo: Core 3 Wards — Chiyoda, Chuo, Minato [Ep.1]](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
-- [Where to Live in Tokyo: Core 6 Wards — Shinjuku, Shibuya, Bunkyo [Ep.2]](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
-- [The Complete Guide to Tokyo Real Estate Investment (Pillar Page)](/en/posts/tokyo-real-estate-investment-complete-guide/)
+- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.4: Business Gateway — Shinagawa & Ota](/en/posts/tokyo-shinagawa-ota/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
+
+---
