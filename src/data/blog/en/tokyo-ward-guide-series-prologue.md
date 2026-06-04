@@ -79,10 +79,10 @@ I'm also planning separate series using price-band and transit-line frameworks. 
 |----|------|---------------|
 | **Ep.0** | Prologue (this post) | Full overview |
 | **[Ep.1](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)** | Core 3 Wards — The Heart of Tokyo | Chiyoda · Chuo · Minato |
-| **Ep.2** | Core 6 Wards — The Face of Tokyo | Shinjuku · Shibuya · Bunkyo |
-| **Ep.3** | West Premium Residential Belt | Meguro · Setagaya |
-| **Ep.4** | Business Gateway | Shinagawa · Ota |
-| **Ep.5** | Hipster Inner Ring | Toshima · Nakano · Suginami |
+| **[Ep.2](/posts/tokyo-shinjuku-shibuya-bunkyo/)** | Core 6 Wards — The Face of Tokyo | Shinjuku · Shibuya · Bunkyo |
+| **[Ep.3](/posts/tokyo-meguro-setagaya/)** | West Premium Residential Belt | Meguro · Setagaya |
+| **[Ep.4](/posts/tokyo-shinagawa-ota/)** | Business Gateway | Shinagawa · Ota |
+| **[Ep.5](/posts/tokyo-toshima-nakano-suginami/)** | Hipster Inner Ring | Toshima · Nakano · Suginami |
 | **Ep.6** | Shitamachi Renaissance | Taito · Sumida · Koto |
 | **Ep.7** | North Tokyo Value Belt | Kita · Arakawa · Itabashi · Nerima |
 | **Ep.8** | East Side Story | Adachi · Katsushika · Edogawa |
@@ -146,5 +146,29 @@ Accuracy matters here. I'm transparent about where the numbers come from.
 **[Tokyo Core 3 Wards: Chiyoda, Chuo & Minato — Relocation & Investment Data Guide](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)** — Published
 
 The ward where the Imperial Palace sits. The ward that contains Ginza and Nihonbashi. The ward of Roppongi and Azabu. These three wards are Tokyo's most expensive, most iconic, and most in-demand among foreign investors. Why per-tsubo prices here are two to three times those of other wards, what the variance looks like within each ward by station, and how to think about long-term hold versus yield play — all covered.
+
+## ▶ Ep.2 — Core 6 Wards: The Face of Tokyo
+
+**[Tokyo Core 6 Wards: Shinjuku, Shibuya & Bunkyo](/posts/tokyo-shinjuku-shibuya-bunkyo/)** — Published
+
+Japan's busiest transfer hub in Shinjuku, the center of trends and consumer culture in Shibuya, and the university district of Bunkyo. The second tier of Tokyo's premium wards, each with a completely different character.
+
+## ▶ Ep.3 — West Premium Residential Belt
+
+**[Tokyo West Premium Residential Belt: Meguro & Setagaya](/posts/tokyo-meguro-setagaya/)** — Published
+
+Jiyugaoka and Nakameguro in Meguro, and the spacious single-family neighborhoods of Setagaya. The two wards that best satisfy the desire for a quality residential life in Tokyo.
+
+## ▶ Ep.4 — Business Gateway
+
+**[Tokyo Business Gateway: Shinagawa & Ota](/posts/tokyo-shinagawa-ota/)** — Published
+
+Shinagawa as the Shinkansen departure point, and Ota with Haneda Airport. A practical data guide for investors and relocators who prioritize business accessibility above all.
+
+## ▶ Ep.5 — Hipster Inner Ring
+
+**[Tokyo Hipster Inner Ring: Toshima, Nakano & Suginami](/posts/tokyo-toshima-nakano-suginami/)** — Published
+
+The Ikebukuro redevelopment momentum of Toshima, the hidden-gem appeal of Nakano, and the family-first stability of Suginami. A data-driven breakdown of the wards where value and cultural density are most in balance.
 
 ---
