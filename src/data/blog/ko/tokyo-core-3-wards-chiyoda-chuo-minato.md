@@ -296,10 +296,12 @@ citeSources:
 
 ---
 
-## 이 시리즈의 다음 편
+## 이 시리즈 전체 보기
 
-**[Ep.2] 핵심 6구 — 도쿄의 얼굴: 新宿·渋谷·文京** — 다음 주 발행 예정.
-
-상업의 신주쿠, 트렌드의 시부야, 학문의 분쿄. 핵심 3구와 어깨를 나란히 하는 두 번째 프리미엄 레이어를 해부합니다.
+- [시리즈 프롤로그: 도쿄 어디에 살 것인가](/ko/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.2: 핵심 6구 — 신주쿠·시부야·분쿄](/ko/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: 서쪽 프리미엄 주거 벨트 — 메구로·세타가야](/ko/posts/tokyo-meguro-setagaya/)
+- [Ep.4: 비즈니스 게이트웨이 — 시나가와·오타](/ko/posts/tokyo-shinagawa-ota/)
+- [Ep.5: 힙스터 이너링 — 도시마·나카노·스기나미](/ko/posts/tokyo-toshima-nakano-suginami/)
 
 ---

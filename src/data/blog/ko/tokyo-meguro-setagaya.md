@@ -225,8 +225,11 @@ citeSources:
 - [ ] **공실률 조사**: 세타가야구 대형 물건의 경우 역 도보 거리 10분을 넘길 시 패밀리층의 주차장(駐車場) 보유 유무가 계약의 생사를 가릅니다. 주차 면적을 사전에 체크해 두었는지 확인하십시오.
 - [ ] **학군 분석**: 세타가야구 이주를 계획할 시 공립 초등학교의 평판 및 사립 중학교 입시 명문 거리가 가까운지 교차 점검하십시오.
 
-## 함께 읽을 시리즈
+## 이 시리즈 전체 보기
 
-- [도쿄 핵심 3구 완전 분석: 치요다·주오·미나토 [Ep.1]](/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
-- [도쿄 핵심 6구 완전 분석: 신주쿠·시부야·분쿄 [Ep.2]](/ko/posts/tokyo-shinjuku-shibuya-bunkyo/)
-- [도쿄 부동산 투자 완전 가이드 (필라 페이지)](/ko/posts/tokyo-real-estate-investment-complete-guide/)
+- [시리즈 프롤로그: 도쿄 어디에 살 것인가](/ko/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: 핵심 3구 — 치요다·주오·미나토](/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: 핵심 6구 — 신주쿠·시부야·분쿄](/ko/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.4: 비즈니스 게이트웨이 — 시나가와·오타](/ko/posts/tokyo-shinagawa-ota/)
+- [Ep.5: 힙스터 이너링 — 도시마·나카노·스기나미](/ko/posts/tokyo-toshima-nakano-suginami/)
+

@@ -300,10 +300,13 @@ citeSources:
 
 ---
 
-## 이 시리즈의 다음 편
+## 이 시리즈 전체 보기
 
-**[Ep.06] 시타마치 르네상스 — 台東·墨田·江東** — 다음 주 발행 예정.
-
-에도 시대부터 이어진 서민 문화의 중심지, 시타마치(下町). 도심 재개발의 물결 속에서 새로운 가치를 발견하고 있는 세 구를 데이터로 해부합니다.
+- [시리즈 프롤로그: 도쿄 어디에 살 것인가](/ko/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: 핵심 3구 — 치요다·주오·미나토](/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: 핵심 6구 — 신주쿠·시부야·분쿄](/ko/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: 서쪽 프리미엄 주거 벨트 — 메구로·세타가야](/ko/posts/tokyo-meguro-setagaya/)
+- [Ep.4: 비즈니스 게이트웨이 — 시나가와·오타](/ko/posts/tokyo-shinagawa-ota/)
 
 ---
+

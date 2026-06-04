@@ -291,10 +291,12 @@ citeSources:
 
 ---
 
-## 이 시리즈의 다음 편
+## 이 시리즈 전체 보기
 
-**[Ep.3] 서쪽 프리미엄 주거 벨트: 目黒·世田谷** — 다음 주 발행 예정.
-
-핵심 6구 바로 옆, 가족형 고급 주거의 대명사가 된 두 구를 해부합니다. 메구로가와(目黒川) 강변 맨션과 세타가야(世田谷) 주택가는 왜 도쿄 가족 이주자의 1순위가 되었는가.
+- [시리즈 프롤로그: 도쿄 어디에 살 것인가](/ko/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: 핵심 3구 — 치요다·주오·미나토](/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.3: 서쪽 프리미엄 주거 벨트 — 메구로·세타가야](/ko/posts/tokyo-meguro-setagaya/)
+- [Ep.4: 비즈니스 게이트웨이 — 시나가와·오타](/ko/posts/tokyo-shinagawa-ota/)
+- [Ep.5: 힙스터 이너링 — 도시마·나카노·스기나미](/ko/posts/tokyo-toshima-nakano-suginami/)
 
 ---

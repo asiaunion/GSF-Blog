@@ -178,3 +178,13 @@ citeSources:
 투자자 입장에서도 마찬가지입니다. 풍부한 자본을 바탕으로 자산의 우상향(매매 차익)을 확신한다면 시나가와구를, 가성비 있는 매매가를 바탕으로 임대 시장에서의 높은 수익률 현금흐름을 원한다면 오타구를 선택하시기 바랍니다. 
 
 인프라가 진화하면 임대 수요층이 바뀌고, 수요가 바뀌면 자산의 가치가 재평가됩니다. 세련된 품격을 잃지 않으면서도 합리적인 비용으로 도쿄의 라이프스타일을 만끽하고 싶다면, 도쿄 23구 남부 벨트를 주의 깊게 주목해야 하는 이유입니다.
+
+---
+
+## 이 시리즈 전체 보기
+
+- [시리즈 프롤로그: 도쿄 어디에 살 것인가](/ko/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: 핵심 3구 — 치요다·주오·미나토](/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: 핵심 6구 — 신주쿠·시부야·분쿄](/ko/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: 서쪽 프리미엄 주거 벨트 — 메구로·세타가야](/ko/posts/tokyo-meguro-setagaya/)
+- [Ep.5: 힙스터 이너링 — 도시마·나카노·스기나미](/ko/posts/tokyo-toshima-nakano-suginami/)
