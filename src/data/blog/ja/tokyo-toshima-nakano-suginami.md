@@ -17,6 +17,7 @@ tags:
   - "不動産投資"
   - "移住"
 sources:
+  - "https://www.reinfolib.mlit.go.jp/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_toshima/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_nakano/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_suginami/"

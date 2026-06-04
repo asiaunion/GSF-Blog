@@ -17,6 +17,7 @@ tags:
   - "부동산 투자"
   - "이주"
 sources:
+  - "https://www.reinfolib.mlit.go.jp/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_toshima/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_nakano/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_suginami/"

@@ -1,13 +1,30 @@
 ---
 title: "東京のどこに住むべきか — 23区＋多摩 完全ガイド [Ep.02] 新宿・渋谷・文京区"
 description: "東京23区シリーズ第2弾。新宿・渋谷・文京3区のマンション売買価格、賃料相場、世帯所得、外国人居住環境を区ごとに深く分析します。都心3区と並ぶプレミアム第2層の実践データ。"
-pubDatetime: 2026-05-19T12:sources:
+pubDatetime: 2026-05-19T12:00:00Z
+author: GSF
+draft: false
+lang: ja
+category: investment
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinjuku-shibuya-bunkyo-hero.webp"
+tags:
+  - 東京
+  - 新宿区
+  - 渋谷区
+  - 文京区
+  - 不動産
+  - マンション
+  - 移住
+  - 投資
+sources:
   - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
   - "https://www.nta.go.jp/"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
   - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
   - "https://www.reinfolib.mlit.go.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
 citeSources:
   - label: "国税庁 民間給与実態統計，2023"
     url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
@@ -19,10 +36,6 @@ citeSources:
     url: "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
   - label: "国土交通省 不動産情報ライブラリ 成約価格情報（2025年第1～4四半期）"
     url: "https://www.reinfolib.mlit.go.jp/"
-    portal: "https://www.reinfolib.mlit.go.jp/"
-    portal: "https://www.toukei.metro.tokyo.lg.jp/"
-  - label: "新宿区役所 外国人住民現況，2024"
-    url: "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
   - label: "東京カンテイ 首都圈中古マンション70㎡価格動向，2025"
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"

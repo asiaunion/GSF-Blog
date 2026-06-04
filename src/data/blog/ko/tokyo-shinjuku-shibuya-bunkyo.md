@@ -23,6 +23,8 @@ sources:
   - "https://www.toukei.metro.tokyo.lg.jp/"
   - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
   - "https://www.reinfolib.mlit.go.jp/"
+  - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
+  - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
 citeSources:
   - label: "국세청 민간급여실태통계, 2023"
     url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
