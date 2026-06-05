@@ -82,15 +82,30 @@ def generate_drafts(slug, meta_ko, meta_en, scheduled_date):
         "Threads-KO": f"{meta_ko['title'] if meta_ko else slug}\n\n{meta_ko['description'] if meta_ko else ''}{disclaimer_ko}\n\n→ {make_url('threads')}\n\n#일본부동산 #도쿄",
     }
 
-    # X 280자 강제 단축
+    # X 280자 강제 단축 (URL 포함 실제 280자 이내)
     for key in ["X-EN", "X-KO"]:
         if len(drafts[key]) > 275:
-            drafts[key] = drafts[key][:272] + "..."
+            # URL은 마지막에 있으므로 URL 제외 텍스트를 먼저 자름
+            url_part = re.search(r'\n\n→ https?://\S+\n', drafts[key])
+            if url_part:
+                body_part = drafts[key][:url_part.start()]
+                url_str = url_part.group(0)
+                max_body = 275 - len(url_str)
+                drafts[key] = body_part[:max_body-3].rstrip() + "..." + url_str
+            else:
+                drafts[key] = drafts[key][:272] + "..."
 
-    # Threads 500자 강제 단축
+    # Threads 500자 강제 단축 (URL 포함 실제 500자 이내)
     for key in ["Threads-EN", "Threads-KO"]:
-        if len(drafts[key]) > 498:
-            drafts[key] = drafts[key][:495] + "..."
+        if len(drafts[key]) > 495:
+            url_part = re.search(r'\n\n→ https?://\S+\n', drafts[key])
+            if url_part:
+                body_part = drafts[key][:url_part.start()]
+                url_str = url_part.group(0)
+                max_body = 495 - len(url_str)
+                drafts[key] = body_part[:max_body-3].rstrip() + "..." + url_str
+            else:
+                drafts[key] = drafts[key][:492] + "..."
 
     return drafts
 
