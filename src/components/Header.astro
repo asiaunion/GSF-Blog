@@ -63,14 +63,19 @@ const isActive = (path: string) => {
   >
     <a
       href={l || "/"}
-      class="py-1 flex items-baseline gap-[1px] whitespace-nowrap sm:my-auto transition-transform duration-300 hover:scale-[1.02] active:scale-95"
+      class="py-1 flex flex-col justify-center whitespace-nowrap sm:my-auto transition-transform duration-300 hover:scale-[1.02] active:scale-95"
       aria-label={SITE.title}
     >
-      <span class="text-2xl sm:text-3xl font-extrabold tracking-tighter text-accent" style="font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;">
-        G
-      </span>
-      <span class="text-2xl sm:text-3xl font-bold tracking-tight text-foreground" style="font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;">
-        SF
+      <div class="flex items-baseline gap-[1px]">
+        <span class="text-2xl sm:text-3xl font-extrabold tracking-tighter text-accent" style="font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;">
+          G
+        </span>
+        <span class="text-2xl sm:text-3xl font-bold tracking-tight text-foreground" style="font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Times New Roman', serif;">
+          SF
+        </span>
+      </div>
+      <span class="text-[0.65rem] font-medium tracking-wide text-foreground/50 sm:text-[0.7rem] -mt-1">
+        Good Samaritan Flourishing
       </span>
     </a>
     <nav

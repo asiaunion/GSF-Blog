@@ -227,7 +227,7 @@ There are definitely indicators we must view conservatively in the short term, s
 
 ## Recommended Reading
 
-- [Complete Guide to Tokyo Real Estate Investment 2026](/en/posts/tokyo-real-estate-investment-complete-guide/)
-- [Japan's Rate Hike Cycle & J-REITs: 3 Lessons from History](/en/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
-- [Tokyo Mansion Tsubo Price Analysis — Chiyoda, Chuo, Minato](/en/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
-- [Small Apartment Yield vs. Capital Gains Breakeven Analysis](/en/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
+- [Complete Guide to Tokyo Real Estate Investment 2026](/posts/tokyo-real-estate-investment-complete-guide/)
+- [Japan's Rate Hike Cycle & J-REITs: 3 Lessons from History](/posts/japan-rate-hike-cycle-j-reit-three-lessons/)
+- [Tokyo Mansion Tsubo Price Analysis — Chiyoda, Chuo, Minato](/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
+- [Small Apartment Yield vs. Capital Gains Breakeven Analysis](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)

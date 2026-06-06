@@ -27,7 +27,7 @@ citeSources:
   - label: "NTA: 贈与税—相続前7年以内の贈与の持戻し課税"
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
 ---
-日本に不動産を所有している、あるいは事業ビザを取得して日本に居住しようとする投資家にとって、最大の懸念事項は**「相続・贈与税」**です。韓国と日本は、世界的に見ても相続税率が非常に高い国（最高税率：韓国50%、日本55%）<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>であり、両国の税網が重なる部分で適切な対策を講じなければ、資産の半分以上が税金として失われる可能性があります。
+日本に不動産を所有している、あるいは事業ビザを取得して日本に居住しようとする[投資家](/ja/posts/tokyo-real-estate-investment-complete-guide/)にとって、最大の懸念事項は**「相続・贈与税」**です。韓国と日本は、世界的に見ても相続税率が非常に高い国（最高税率：韓国50%、日本55%）<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>であり、両国の税網が重なる部分で適切な対策を講じなければ、資産の半分以上が税金として失われる可能性があります。
 
 特に日本の**「10年ルール（無制限納税義務）」**は、海外にある資産まで日本の税務当局が把握可能にする強力な条項です。本日は、日韓両国を行き来する資産家が知っておくべき税務リスクの核心を解説します。
 

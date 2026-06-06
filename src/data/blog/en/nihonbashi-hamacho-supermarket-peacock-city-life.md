@@ -78,6 +78,6 @@ Everyone's lifestyle is different, and every choice deserves respect. A preferen
 
 ## Related Reading
 
-- [Nihonbashi Hamacho Walking Guide: Edo Charm Meets Riverside Life](/en/posts/nihonbashi-hamacho-walking-guide/)
-- [Nihonbashi: Where All Roads in Japan Begin](/en/posts/nihonbashi-the-origin-of-japan/)
-- [Tokyo's 5-Ward Office Vacancy Rate Drops Below 2%](/en/posts/tokyo-office-vacancy-five-wards-2026/)
+- [Nihonbashi Hamacho Walking Guide: Edo Charm Meets Riverside Life](/posts/nihonbashi-hamacho-walking-guide/)
+- [Nihonbashi: Where All Roads in Japan Begin](/posts/nihonbashi-the-origin-of-japan/)
+- [Tokyo's 5-Ward Office Vacancy Rate Drops Below 2%](/posts/tokyo-office-vacancy-five-wards-2026/)

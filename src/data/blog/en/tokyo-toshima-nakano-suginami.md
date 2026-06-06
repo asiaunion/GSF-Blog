@@ -312,10 +312,10 @@ The real value of the Hipster Inner Ring is now visible in the numbers. Under ha
 
 ## View All in This Series
 
-- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
-- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
-- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
-- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
-- [Ep.4: Business Gateway — Shinagawa & Ota](/en/posts/tokyo-shinagawa-ota/)
+- [Series Prologue: Where to Live in Tokyo](/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/posts/tokyo-meguro-setagaya/)
+- [Ep.4: Business Gateway — Shinagawa & Ota](/posts/tokyo-shinagawa-ota/)
 
 ---

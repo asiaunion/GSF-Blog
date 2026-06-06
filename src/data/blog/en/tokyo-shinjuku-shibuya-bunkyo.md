@@ -302,10 +302,10 @@ Tower mansions in the Core 6 can carry monthly management fees (管理費 — Ka
 
 ## View All in This Series
 
-- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
-- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
-- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
-- [Ep.4: Business Gateway — Shinagawa & Ota](/en/posts/tokyo-shinagawa-ota/)
-- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
+- [Series Prologue: Where to Live in Tokyo](/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/posts/tokyo-meguro-setagaya/)
+- [Ep.4: Business Gateway — Shinagawa & Ota](/posts/tokyo-shinagawa-ota/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/posts/tokyo-toshima-nakano-suginami/)
 
 ---

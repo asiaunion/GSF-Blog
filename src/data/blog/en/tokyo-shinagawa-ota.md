@@ -183,10 +183,10 @@ When infrastructure evolves, the tenant demographic shifts, and when the demogra
 
 ## View All in This Series
 
-- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
-- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/en/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
-- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
-- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
-- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
+- [Series Prologue: Where to Live in Tokyo](/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.1: Core 3 Wards — Chiyoda, Chuo, Minato](/posts/tokyo-core-3-wards-chiyoda-chuo-minato/)
+- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/posts/tokyo-meguro-setagaya/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/posts/tokyo-toshima-nakano-suginami/)
 
 ---

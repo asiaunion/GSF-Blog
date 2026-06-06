@@ -24,6 +24,13 @@ Korean, English, and Japanese. Please write in whichever language feels most nat
 
 ---
 
+### Let's talk
+
+If you're considering buying property in Tokyo or navigating the Korea-Japan investment landscape, I'm happy to share what I've experienced firsthand. No consulting fees — just a conversation.  
+👉 [Start a conversation via email](mailto:asiaunion@gmail.com)
+
+---
+
 ### How to reach me
 
 - **Email**: asiaunion@gmail.com

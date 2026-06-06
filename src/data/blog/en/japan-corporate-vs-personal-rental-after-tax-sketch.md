@@ -27,7 +27,7 @@ citeSources:
   - label: "NTA: Withholding Tax on Rent Paid to Non-Residents (Item 2879)"
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2879.htm"
 ---
-In Japan, real estate investment is a "Tax Game." Even if you secure a property with a high gross yield, a poor ownership structure can lead to an effective tax rate of over 50%, wiping out your cash flow.
+In Japan, [real estate investment](/posts/tokyo-real-estate-investment-complete-guide/) is a "Tax Game." Even if you secure a property with a high gross yield, a poor ownership structure can lead to an effective tax rate of over 50%, wiping out your cash flow.
 
 For foreign investors and non-residents, the choice between **Personal Ownership** and **Corporate (GK/KK) Ownership** depends on your long-term exit plan and the scale of your portfolio. Today, we break down the pros and cons of each structure based on the latest 2026 tax standards.
 

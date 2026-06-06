@@ -95,7 +95,7 @@ When you peel back the cold, glittering outer shell of Ginza as a high-end luxur
 
 If you want to move beyond mere consumption and recharge your life with artistic inspiration, why not walk along the wide streets of Ginza this weekend? 
 
-I highly recommend reading the [Ginza–Marunouchi DNA Walking Guide](/en/posts/ginza-marunouchi-walk-dna/) as well, to trace the historical tracks of assets as you stroll through the glamour of the city. The iconic silhouette of Tokyo Tower peering through the green leaves of the sky garden and your light steps walking freely on the wide avenue will make your weekend in Tokyo truly special.
+I highly recommend reading the [Ginza–Marunouchi DNA Walking Guide](/posts/ginza-marunouchi-walk-dna/) as well, to trace the historical tracks of assets as you stroll through the glamour of the city. The iconic silhouette of Tokyo Tower peering through the green leaves of the sky garden and your light steps walking freely on the wide avenue will make your weekend in Tokyo truly special.
 
 <!-- content-depth-v2 -->
 

@@ -27,7 +27,7 @@ citeSources:
   - label: "NTA: 증여세 산출 방법(조기증여의 상속세 합산)"
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
 ---
-일본에 부동산을 소유하고 있거나, 사업 비자를 받아 일본에 거주하려는 투자자들에게 가장 무거운 그림자는 **'상속·증여세'**입니다. 한국과 일본은 전 세계적으로 상속세율이 가장 높은 국가들(최고세율 한국 50%, 일본 55%)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>에 해당하며, 두 국가의 법망이 겹치는 지점에서 적절한 대응이 없다면 자산의 절반 이상이 세금으로 사라질 수 있습니다.
+일본에 부동산을 소유하고 있거나, 사업 비자를 받아 일본에 거주하려는 [투자자들에게](/ko/posts/tokyo-real-estate-investment-complete-guide/) 가장 무거운 그림자는 **'상속·증여세'**입니다. 한국과 일본은 세계적으로도 상속세율이 가혹하기로 유명한 나라(최고세율: 한국 50%, 일본 55%)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>이며, 양국의 세망이 겹치는 교집합에서 적절한 대책을 세우지 않으면 자산의 절반 이상이 세금으로 증발할 수 있습니다.
 
 특히 일본의 **'10년 규칙(무제한 납세의무)'**은 해외에 있는 자산까지 일본 세무당국이 추적할 수 있게 만드는 강력한 독소 조항입니다. 이 글은 **한일 상속·증여세 무한책임의 함정**, **10년의 규칙**, 그리고 실무에서 검토하는 **절세 시나리오**를 한 흐름으로 정리합니다.
 

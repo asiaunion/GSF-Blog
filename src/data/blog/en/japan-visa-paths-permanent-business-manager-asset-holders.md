@@ -29,7 +29,7 @@ citeSources:
 ---
 The image of Japan as a "Closed Country" is becoming a thing of the past. To combat a shrinking population, the Japanese government has introduced some of the most competitive immigration routes in Asia. From the 1-year Permanent Residency fast-track to the newly launched J-Find visa for elite graduates, the barrier to entry has shifted from "Can I enter?" to "Which route is the most efficient for my assets?"
 
-Today, we analyze the three primary routes for investors and professionals looking to establish a base in Japan in 2026.
+Today, we analyze the three primary routes for [investors](/posts/tokyo-real-estate-investment-complete-guide/) and professionals looking to establish a base in Japan in 2026.
 
 ---
 

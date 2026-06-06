@@ -47,7 +47,7 @@ citeSources:
 ---
 "Aren't the three core wards basically the same?" — I get that question often. My answer is always the same: no. **Chiyoda, Chuo, and Minato are not interchangeable.** Under the same "central Tokyo" label, they carry completely different characters, different demand profiles, and different investment logic. Let me break them down ward by ward.
 
-This is **Ep.1** of the Tokyo 23 Wards Brand Guide series. Following the [Ep.0 Prologue](/en/posts/tokyo-ward-guide-series-prologue/), this first deep-dive covers the **Core 3 Wards (都心3区)** — Chiyoda (千代田区), Chuo (中央区), and Minato (港区).
+This is **Ep.1** of the Tokyo 23 Wards Brand Guide series. Following the [Ep.0 Prologue](/posts/tokyo-ward-guide-series-prologue/), this first deep-dive covers the **Core 3 Wards (都心3区)** — Chiyoda (千代田区), Chuo (中央区), and Minato (港区).
 
 Each ward has a distinct identity and demand base. The data tells the story clearly — but only if you look at each ward on its own terms.
 
@@ -147,7 +147,7 @@ Chuo has a larger resident population than Chiyoda (approx. 191,000) and richer 
 
 Nihonbashi's ongoing redevelopment — anchored by COREDO Muromachi and other mixed-use projects — continues to lift the ward's brand and drive price appreciation.
 
-> Related post: [COREDO Nihonbashi and Mitsui Redevelopment Analysis](/en/posts/coredo-nihonbashi-mitsui-redevelopment/)
+> Related post: [COREDO Nihonbashi and Mitsui Redevelopment Analysis](/posts/coredo-nihonbashi-mitsui-redevelopment/)
 
 ### Average Rental Rates
 
@@ -214,7 +214,7 @@ I remember walking through Hiroo's shopping street for the first time and notici
 
 Since the opening of Azabudai Hills (2023), prices in the surrounding luxury segment have risen further. Foreign buyers are particularly concentrated in Azabu and Hiroo.
 
-> Related post: [Tokyo Central 5-Ward Mansion Price Comparison](/en/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
+> Related post: [Tokyo Central 5-Ward Mansion Price Comparison](/posts/tokyo-mansion-tsubo-chiyoda-chuo-minato/)
 
 ### Average Rental Rates
 
@@ -301,10 +301,10 @@ Premium tower mansions in the Core 3 can carry combined management fees and repa
 
 ## View All in This Series
 
-- [Series Prologue: Where to Live in Tokyo](/en/posts/tokyo-ward-guide-series-prologue/)
-- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/en/posts/tokyo-shinjuku-shibuya-bunkyo/)
-- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/en/posts/tokyo-meguro-setagaya/)
-- [Ep.4: Business Gateway — Shinagawa & Ota](/en/posts/tokyo-shinagawa-ota/)
-- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/en/posts/tokyo-toshima-nakano-suginami/)
+- [Series Prologue: Where to Live in Tokyo](/posts/tokyo-ward-guide-series-prologue/)
+- [Ep.2: Core 6 Wards — Shinjuku, Shibuya, Bunkyo](/posts/tokyo-shinjuku-shibuya-bunkyo/)
+- [Ep.3: Western Premium Residential Belt — Meguro & Setagaya](/posts/tokyo-meguro-setagaya/)
+- [Ep.4: Business Gateway — Shinagawa & Ota](/posts/tokyo-shinagawa-ota/)
+- [Ep.5: Hipster Inner Ring — Toshima, Nakano, Suginami](/posts/tokyo-toshima-nakano-suginami/)
 
 ---

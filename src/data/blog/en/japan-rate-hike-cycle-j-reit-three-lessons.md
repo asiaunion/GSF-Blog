@@ -45,7 +45,7 @@ references:
 ---
 ## 1. Rate hikes affect both valuation and financing channels
 
-The reflexive market narrative—"rates up, REITs down"—is a dangerous oversimplification. I have studied J-REIT behavior across multiple BOJ policy regime changes, and the relationship between rates and REIT performance is far more nuanced than a single inverse correlation suggests.
+The reflexive market narrative—"rates up, REITs down"—is a dangerous oversimplification. I have studied J-REIT behavior across multiple BOJ policy regime changes as part of broader [Tokyo real estate investment](/posts/tokyo-real-estate-investment-complete-guide/) analysis, and the relationship between rates and REIT performance is far more nuanced than a single inverse correlation suggests.
 
 J-REITs sit at the intersection of two rate-sensitive channels:
 

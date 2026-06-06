@@ -27,7 +27,7 @@ citeSources:
   - label: "NTA: Gift Tax — Gifts Within 7 Years Added to Estate"
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
 ---
-For investors holding assets in both Korea and Japan, the heaviest shadow is the **Inheritance and Gift Tax**. Both nations impose some of the highest rates globally (Korea: up to 50%, Japan: up to 55%).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Without a strategic plan, more than half of your hard-earned wealth can disappear in a single generation.
+For [investors](/posts/tokyo-real-estate-investment-complete-guide/) holding assets in both Korea and Japan, the heaviest shadow is the **Inheritance and Gift Tax**. Both nations impose some of the highest rates globally (Korea: up to 50%, Japan: up to 55%).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Without a strategic plan, more than half of your hard-earned wealth can disappear in a single generation.
 
 The most critical—and often overlooked—element is Japan's **'10-Year Rule' (Unlimited Taxpayer Status)**, which allows the Japanese tax office to reach beyond its borders. Today, we break down the core risks and planning windows for cross-border families.
 
