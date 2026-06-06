@@ -5,6 +5,9 @@ title: "소개"
 
 ![Joseph · GSF, 니혼바시 거주](/assets/images/gsf-author-profile.webp)
 
+> **도쿄 부동산·J-REIT, 현장에서 씁니다**  
+> 니혼바시에 살며 직접 투자하는 사람이 쓰는 한국인 투자자를 위한 일본 부동산 심층 분석
+
 ### 공적 프로필
 
 - [LinkedIn](https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true)
@@ -14,7 +17,7 @@ title: "소개"
 
 ### 니혼바시, 이 지점에서 출발합니다
 
-저는 Joseph이고, **GSF(Good Samaritan Frontier)** 라는 이름으로 이 블로그를 운영합니다. 도쿄 한복판, 니혼바시에는 도로원표(道路元標)가 놓여 있습니다. 일본의 모든 길이 시작되고 돌아오는 한 점입니다. 저는 일본인 아내와 함께 이 동네에 살고, 아침이면 다리 아래로 흐르는 물결과 오래된 석조 난간을 지나 하루를 엽니다.
+저는 Joseph이고, **GSF(Good Samaritan Flourishing)** 라는 이름으로 이 블로그를 운영합니다. 도쿄 한복판, 니혼바시에는 도로원표(道路元標)가 놓여 있습니다. 일본의 모든 길이 시작되고 돌아오는 한 점입니다. 저는 일본인 아내와 함께 이 동네에 살고, 아침이면 다리 아래로 흐르는 물결과 오래된 석조 난간을 지나 하루를 엽니다.
 
 어떤 일도 한 점에서 시작된다고 믿습니다. 그래서 이 블로그의 시선 역시, 도로원표 옆에서 잠시 멈춰 선 사람의 것이고자 합니다. 제가 스스로에게 반복해 들려주는 말은 **변화와 진보**입니다. 머무름을 두려워하지 않되, 같은 자리로 되돌아오지는 않으려 합니다.
 
@@ -42,9 +45,25 @@ title: "소개"
   <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-      <span class="timeline-period">2018 – 2024</span>
-      <h4 class="timeline-role">일본 거주 · 한국 부동산 원격 운용 & 대학원</h4>
-      <p>일본으로 건너가 약 4년간 생활하며, 한국 서울의 부동산을 원격으로 매도·정리했습니다. 2021년에는 한국의 대학원에서 목회학 석사 과정에 입학하여 2022년부터 한국에서 나머지 과정을 이수, 2024년 졸업했습니다. 투자와 공부, 두 축을 동시에 운용한 시기입니다.</p>
+      <span class="timeline-period">2018 – 2022</span>
+      <h4 class="timeline-role">일본 거주 · 한국 부동산 원격 운용</h4>
+      <p>일본으로 건너가 약 4년간 생활하며, 한국 서울의 부동산을 원격으로 매도·정리했습니다.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2022 – 2024</span>
+      <h4 class="timeline-role">한국 · 대학원</h4>
+      <p>한국으로 돌아와 목회학 석사 과정을 이수하고 2024년 졸업했습니다. 투자와 공부, 두 축을 동시에 운용한 시기입니다.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2024 – 2026</span>
+      <h4 class="timeline-role">도쿄 니혼바시 · 귀환 & 임차 거주</h4>
+      <p>니혼바시로 돌아와 임차인으로 생활하며 글쓰기와 리서치를 이어갔습니다. 다음 단계를 준비하는 시간이었습니다.</p>
     </div>
   </div>
   <div class="timeline-item timeline-item--current">

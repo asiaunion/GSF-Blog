@@ -66,17 +66,24 @@ const hubOrder: TopicHubKey[] = [
         <h1 class="my-4 text-5xl font-extrabold sm:my-8 sm:text-7xl lg:text-8xl tracking-tight leading-tight">
           {L.heroTitleLine1}<br />{L.heroTitleLine2}
         </h1>
-        <a
-          target="_blank"
-          href={`${locale ? `/${locale}` : ""}/rss.xml/`}
-          class="inline-block mt-6 sm:mt-12 bg-foreground text-background px-6 py-3 rounded-full text-sm font-semibold shadow-lg hover:scale-105 hover:shadow-xl transition-all"
-          aria-label={L.heroRssAria}
-          title={L.heroRssTitle}
-          data-cta="rss-subscribe"
-          data-cta-location="home-hero"
-        >
-          {L.heroSubscribeRss}
-        </a>
+        <div class="flex flex-wrap gap-4 mt-6 sm:mt-12">
+          <a
+            href={`${locale ? `/${locale}` : ""}/posts/`}
+            class="inline-block bg-foreground text-background px-6 py-3 rounded-full text-sm font-semibold shadow-lg hover:scale-105 hover:shadow-xl transition-all"
+            data-cta="start-reading"
+            data-cta-location="home-hero"
+          >
+            {L.heroCtaRead}
+          </a>
+          <a
+            href={`${locale ? `/${locale}` : ""}/about/`}
+            class="inline-block border-2 border-foreground text-foreground px-6 py-3 rounded-full text-sm font-semibold hover:bg-foreground hover:text-background transition-all"
+            data-cta="about-author"
+            data-cta-location="home-hero"
+          >
+            {L.heroCtaAbout}
+          </a>
+        </div>
       </div>
 
       <div class="relative z-10 w-full max-w-2xl mb-8 backdrop-blur-[2px] bg-background/30 p-2 -ml-2 rounded-lg">

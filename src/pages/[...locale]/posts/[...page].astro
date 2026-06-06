@@ -28,9 +28,11 @@ export const getStaticPaths = (async ({ paginate }) => {
 const { page } = Astro.props;
 const { locale } = Astro.params;
 const L = getUi((locale || "en") as UiLang);
+const isPaginated = page.currentPage > 1;
+const robotsMeta = isPaginated ? "noindex, follow" : undefined;
 ---
 
-<Layout title={`${L.pageTitlePosts} | ${SITE.title}`}>
+<Layout title={`${L.pageTitlePosts} | ${SITE.title}`} robotsMeta={robotsMeta}>
   <Header />
   <Main pageTitle={L.pageTitlePosts} pageDesc={L.pageDescPosts}>
     <ul>

@@ -5,6 +5,9 @@ title: "紹介"
 
 ![Joseph · GSF、日本橋在住](/assets/images/gsf-author-profile.webp)
 
+> **東京不動産・J-REIT、現場から書く**  
+> 日本橋在住・実物投資経験者による韓国人投資家・クロスボーダー投資家のための深掘り分析
+
 ### 公的プロフィール
 
 - [LinkedIn](https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true)
@@ -16,7 +19,7 @@ title: "紹介"
 
 ### 日本橋、この一点から歩み出します
 
-私はJosephと申します。**GSF(Good Samaritan Frontier)** という名のもと、このブログを書いています。東京の真ん中、日本橋には道路元標が置かれています。日本のすべての道がそこから始まり、そこへと戻ってくる一点です。私は日本人の妻とともにこの町で暮らし、朝になると橋のたもとの古い石の欄干と、その下を静かに流れる水面を通り抜けて一日を始めます。
+私はJosephと申します。**GSF(Good Samaritan Flourishing)** という名のもと、このブログを書いています。東京の真ん中、日本橋には道路元標が置かれています。日本のすべての道がそこから始まり、そこへと戻ってくる一点です。私は日本人の妻とともにこの町で暮らし、朝になると橋のたもとの古い石の欄干と、その下を静かに流れる水面を通り抜けて一日を始めます。
 
 どんな営みも、一つの点から始まると信じています。ですからこのブログの視線もまた、道路元標のそばでしばらく立ち止まった者のものでありたいと思っています。私が静かに自分に言い聞かせている言葉は、**「変化と進歩」** です。立ち止まることを恐れないけれども、まったく同じ場所には戻らないように——と。
 
@@ -44,9 +47,25 @@ title: "紹介"
   <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-      <span class="timeline-period">2018 – 2024</span>
-      <h4 class="timeline-role">日本在住 · 遠隔資産運用 & 大学院</h4>
-      <p>日本に渡り約4年間生活しながら、韓国ソウルの不動産を遠隔で売却・整理しました。2021年には韓国の大学院で牧会学修士課程に入学、2022年から韓国でキャンパス課程を履修し、2024年に卒業しました。投資と学びの両輪を同時に回した時期です。</p>
+      <span class="timeline-period">2018 – 2022</span>
+      <h4 class="timeline-role">日本在住 · 遠隔資産運用</h4>
+      <p>日本に渡り約4年間生活しながら、韓国ソウルの不動産を遠隔で売却・整理しました。</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2022 – 2024</span>
+      <h4 class="timeline-role">韓国 · 大学院</h4>
+      <p>韓国に戻り、牧会学修士課程を履修して2024年に卒業しました。投資と学びの両輪を同時に回した時期です。</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2024 – 2026</span>
+      <h4 class="timeline-role">日本橋 · 帰還 & 賃貸居住</h4>
+      <p>日本橋に戻り、賃借人として暮らしながら執筆とリサーチを続けました。次のステップへの準備期間です。</p>
     </div>
   </div>
   <div class="timeline-item timeline-item--current">

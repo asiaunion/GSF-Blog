@@ -5,6 +5,9 @@ title: "About"
 
 ![Joseph · GSF, based in Nihonbashi](/assets/images/gsf-author-profile.webp)
 
+> **Tokyo Real Estate & J-REIT, from the Inside**  
+> Deep-dive analysis for Korean and cross-border investors — written from Nihonbashi by someone who lives here, owns here, and reads the data first.
+
 ### Public profiles
 
 - [LinkedIn](https://www.linkedin.com/in/seungju-kim-3b3629260/?skipRedirect=true)
@@ -16,7 +19,7 @@ You can also reach me via the [Contact](/contact/) page.
 
 ### Nihonbashi — Starting from This Point
 
-I am Joseph, and I write this blog under the name **GSF (Good Samaritan Frontier)**. At the heart of Tokyo, the Nihonbashi bridge carries Japan's Kilometre Zero marker (道路元標) — the single point from which every road in this country begins and to which it returns. I live in this neighborhood with my Japanese wife, and in the mornings I begin my day crossing the old stone parapets and the quiet current flowing beneath the bridge.
+I am Joseph, and I write this blog under the name **GSF (Good Samaritan Flourishing)**. At the heart of Tokyo, the Nihonbashi bridge carries Japan's Kilometre Zero marker (道路元標) — the single point from which every road in this country begins and to which it returns. I live in this neighborhood with my Japanese wife, and in the mornings I begin my day crossing the old stone parapets and the quiet current flowing beneath the bridge.
 
 I believe every endeavor begins from a single point. So the perspective of this blog tries to be that of a person pausing briefly beside the Kilometre Zero marker. The words I quietly repeat to myself are **change and progress** — unafraid to pause, yet never returning to exactly the same ground.
 
@@ -44,9 +47,25 @@ I believe every endeavor begins from a single point. So the perspective of this 
   <div class="timeline-item">
     <div class="timeline-marker"></div>
     <div class="timeline-content">
-      <span class="timeline-period">2018 – 2024</span>
-      <h4 class="timeline-role">Living in Japan · Remote Asset Management & Graduate School</h4>
-      <p>I relocated to Japan and lived there for roughly four years, remotely managing and selling my Seoul real-estate holdings during this time. In 2021 I enrolled in a Master of Divinity program at a seminary in Korea; I completed the remaining coursework on campus from 2022 and graduated in 2024. It was a phase of running two parallel tracks — investment operations and academic study.</p>
+      <span class="timeline-period">2018 – 2022</span>
+      <h4 class="timeline-role">Living in Japan · Remote Asset Management</h4>
+      <p>I relocated to Japan and lived there for roughly four years, remotely managing and selling my Seoul real-estate holdings during this time.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2022 – 2024</span>
+      <h4 class="timeline-role">Korea · Graduate School</h4>
+      <p>I enrolled in a Master of Divinity program at a seminary in Korea and completed the remaining coursework on campus, graduating in 2024. It was a phase of running two parallel tracks — investment operations and academic study.</p>
+    </div>
+  </div>
+  <div class="timeline-item">
+    <div class="timeline-marker"></div>
+    <div class="timeline-content">
+      <span class="timeline-period">2024 – 2026</span>
+      <h4 class="timeline-role">Tokyo Nihonbashi · Return & Rental Residence</h4>
+      <p>I returned to Nihonbashi and resumed life in the neighborhood as a tenant, continuing to write and research while preparing for the next step.</p>
     </div>
   </div>
   <div class="timeline-item timeline-item--current">
