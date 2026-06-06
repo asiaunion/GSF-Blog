@@ -18,10 +18,10 @@ interface Social {
 
 export const SOCIALS: Social[] = [
   {
-    name: "GitHub",
-    href: "https://github.com/asiaunion/GSF-Blog",
-    linkTitle: `${SITE.title} on GitHub`,
-    icon: IconGitHub,
+    name: "LinkedIn",
+    href: PUBLIC_PROFILES.linkedIn,
+    linkTitle: `${SITE.title} on LinkedIn`,
+    icon: IconLinkedin,
   },
   {
     name: "X",
@@ -30,10 +30,10 @@ export const SOCIALS: Social[] = [
     icon: IconBrandX,
   },
   {
-    name: "LinkedIn",
-    href: PUBLIC_PROFILES.linkedIn,
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: IconLinkedin,
+    name: "GitHub",
+    href: "https://github.com/asiaunion/GSF-Blog",
+    linkTitle: `${SITE.title} on GitHub`,
+    icon: IconGitHub,
   },
   {
     name: "Mail",
