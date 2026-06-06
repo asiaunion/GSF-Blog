@@ -13,12 +13,15 @@ import { getUi, type UiLang } from "@/i18n/ui";
 type Props = {
   variant?: "inline" | "card";
   lang?: UiLang;
+  customCta?: string;
+  downloadUrl?: string;
 };
 
-const { variant = "card", lang: langProp } = Astro.props;
+const { variant = "card", lang: langProp, customCta, downloadUrl } = Astro.props;
 const { locale } = Astro.params;
 const navLang = (langProp ?? locale ?? "en") as UiLang;
 const L = getUi(navLang);
+const finalCta = customCta || L.newsletterCta;
 
 // Buttondown username – replace with your actual Buttondown handle
 const BUTTONDOWN_USERNAME = "gsf";
@@ -40,6 +43,7 @@ const formAction = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDO
         method="post"
         target="popupwindow"
         class="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end"
+        data-download={downloadUrl}
       >
         <div class="flex-1">
           <label for="bd-email-card" class="sr-only">
@@ -58,7 +62,7 @@ const formAction = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDO
           type="submit"
           class="rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-all hover:opacity-90 hover:shadow-md active:scale-[0.98]"
         >
-          {L.newsletterCta}
+          {finalCta}
         </button>
       </form>
       <p class="mt-3 text-xs text-foreground/50">{L.newsletterDisclaimer}</p>
@@ -71,6 +75,7 @@ const formAction = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDO
       target="popupwindow"
       class="mt-6 flex w-full max-w-md flex-col gap-3 sm:flex-row"
       id="newsletter-inline"
+      data-download={downloadUrl}
     >
       <label for="bd-email-inline" class="sr-only">
         {L.newsletterEmailLabel}
@@ -87,8 +92,24 @@ const formAction = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDO
         type="submit"
         class="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl active:scale-[0.98]"
       >
-        {L.newsletterCta}
+        {finalCta}
       </button>
     </form>
   )
 }
+
+<script>
+  document.querySelectorAll("form[data-download]").forEach(form => {
+    form.addEventListener("submit", (e) => {
+      const url = form.getAttribute("data-download");
+      if (url) {
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+    });
+  });
+</script>

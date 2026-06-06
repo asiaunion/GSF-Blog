@@ -47,25 +47,31 @@ const sub = subscribeLead[lang as UiLang];
   schemaType="WebPage"
 >
   <p class="text-sm leading-relaxed text-foreground/75">{entry.data.description}</p>
-  <p class="mt-4">
-    <a
-      href={downloadHref}
-      download
-      class="inline-flex items-center gap-1 rounded-lg border border-accent/40 bg-accent/10 px-4 py-2 text-sm font-medium text-accent transition hover:bg-accent/20"
-    >
-      {lang === "ja"
-        ? "チェックリストをダウンロード (Markdown)"
-        : lang === "ko"
-          ? "체크리스트 다운로드 (Markdown)"
-          : "Download checklist (Markdown)"}
-    </a>
-  </p>
+  <div class="mt-6 mb-8 rounded-xl border border-accent/20 bg-accent/5 p-6">
+    <h3 class="text-base font-semibold mb-2">
+      {lang === "ja" ? "チェックリストをダウンロード" : lang === "ko" ? "체크리스트 다운로드" : "Download Checklist"}
+    </h3>
+    <p class="text-sm text-foreground/75 mb-4">
+      {lang === "ja" ? "メールアドレスを入力して購読すると、すぐにMarkdownファイルがダウンロードされます。" : lang === "ko" ? "이메일을 입력하고 구독하시면 즉시 마크다운 파일이 다운로드됩니다." : "Enter your email to subscribe and download the Markdown file immediately."}
+    </p>
+    <NewsletterForm 
+      variant="inline" 
+      lang={lang as UiLang} 
+      customCta={lang === "ja" ? "購読してダウンロード" : lang === "ko" ? "구독하고 다운로드" : "Subscribe to Download"}
+      downloadUrl={downloadHref}
+    />
+  </div>
   <div class="prose prose-neutral dark:prose-invert mt-8 max-w-none">
     <Content />
   </div>
   <section class="mt-10 border-t border-border pt-8">
     <h2 class="text-lg font-semibold">{sub.title}</h2>
     <p class="mt-2 text-sm text-foreground/75">{sub.body}</p>
-    <NewsletterForm variant="card" lang={lang as UiLang} />
+    <NewsletterForm 
+      variant="card" 
+      lang={lang as UiLang} 
+      customCta={lang === "ja" ? "購読してダウンロード" : lang === "ko" ? "구독하고 다운로드" : "Subscribe to Download"}
+      downloadUrl={downloadHref}
+    />
   </section>
 </AboutLayout>
