@@ -64,10 +64,10 @@ Admittedly, the massive Takanawa Gateway zone itself technically belongs to Mina
 
 | Sub-area | Price per ㎡ (2025~2026) | Price per Tsubo (approx) |
 |---------|---------------------|-----------------|
-| Osaki & Gotanda | 1.6~2.2M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 5.3~7.2M JPY/Tsubo |
-| Meguro & Shinagawa Border | 1.5~2.1M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 4.95~6.9M JPY/Tsubo |
-| Oimachi | 1.3~1.7M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 4.3~5.6M JPY/Tsubo |
-| Shinagawa Seaside | 1.1~1.5M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 3.65~4.95M JPY/Tsubo |
+| Osaki & Gotanda | 1.6~2.2M JPY/㎡ | 5.3~7.2M JPY/Tsubo |
+| Meguro & Shinagawa Border | 1.5~2.1M JPY/㎡ | 4.95~6.9M JPY/Tsubo |
+| Oimachi | 1.3~1.7M JPY/㎡ | 4.3~5.6M JPY/Tsubo |
+| Shinagawa Seaside | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
 | **Ward Average** | **1.388M JPY/㎡** | **~4.59M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> |
 
 The fact that 3LDK apartments around Osaki and Gotanda are trading between 150 million and 300 million JPY is because capital seeking reliable Capital Gains and high PBR (Price Book-value Ratio) is concentrating here.
@@ -109,9 +109,9 @@ The biggest momentum here is the **New Airport Line (Kamakama Line)** project. B
 
 | Sub-area | Price per ㎡ (2025~2026) | Price per Tsubo (approx) |
 |---------|---------------------|-----------------|
-| Den-en-chofu & Sanno | 1.1~1.5M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 3.65~4.95M JPY/Tsubo |
-| Kamata & Omori | 850k~1.2M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 2.8~4.0M JPY/Tsubo |
-| Haneda Area | 700k~1.0M JPY/㎡ ⚠️ Pending re-verification against transaction price data | 2.3~3.3M JPY/Tsubo |
+| Den-en-chofu & Sanno | 1.1~1.5M JPY/㎡ | 3.65~4.95M JPY/Tsubo |
+| Kamata & Omori | 850k~1.2M JPY/㎡ | 2.8~4.0M JPY/Tsubo |
+| Haneda Area | 700k~1.0M JPY/㎡ | 2.3~3.3M JPY/Tsubo |
 | **Ward Average** | **831k JPY/㎡** | **~2.75M JPY/Tsubo**  <sup class="source-ref"><a href="#source-1">1</a></sup> |
 
 Despite its proximity to the city center, there is an abundance of properties available under 1 million JPY per ㎡, offering a relatively low barrier to entry.

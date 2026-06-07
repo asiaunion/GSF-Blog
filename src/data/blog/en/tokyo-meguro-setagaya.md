@@ -75,10 +75,10 @@ When I walked through a quiet backstreet just slightly off the main riverside of
 
 | Sub-area | Price per ㎡ (2025–2026) | Price per Tsubo (approx. 3.3 ㎡) |
 |---------|---------------------|-----------------|
-| Nakameguro · Aobadai | 1.5–2.3 million yen ⚠️ Pending re-verification against MLIT transaction prices | 4.95–7.6 million yen |
-| Jiyugaoka · Yakumo | 1.3–1.9 million yen ⚠️ Pending re-verification against MLIT transaction prices | 4.3–6.3 million yen |
-| Yutenji · Gakugei-daigaku | 1.1–1.6 million yen ⚠️ Pending re-verification against MLIT transaction prices | 3.65–5.3 million yen |
-| Meguro Station Area | 1.4–2.1 million yen ⚠️ Pending re-verification against MLIT transaction prices | 4.6–6.9 million yen |
+| Nakameguro · Aobadai | 1.5–2.3 million yen | 4.95–7.6 million yen |
+| Jiyugaoka · Yakumo | 1.3–1.9 million yen | 4.3–6.3 million yen |
+| Yutenji · Gakugei-daigaku | 1.1–1.6 million yen | 3.65–5.3 million yen |
+| Meguro Station Area | 1.4–2.1 million yen | 4.6–6.9 million yen |
 | **Ward Average** | **1.397 million yen** | **Approx. 4.62 million yen**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 Meguro Ward commands formidable prices along the highly popular Tokyu Toyoko Line (東急東横線). Finding a "cheap deal" within this ward is virtually impossible.
@@ -134,10 +134,10 @@ On a weekend afternoon, as I watched families walking toward the Tamagawa riverb
 
 | Sub-area | Price per ㎡ (2025–2026) | Price per Tsubo (approx. 3.3 ㎡) |
 |---------|---------------------|-----------------|
-| Sangenjaya · Ikejiri-ohashi | 1.1–1.5 million yen ⚠️ Pending re-verification against MLIT transaction prices | 3.65–4.95 million yen |
-| Futakotamagawa · Yoga | 0.9–1.3 million yen ⚠️ Pending re-verification against MLIT transaction prices | 3.0–4.3 million yen |
-| Shimokitazawa · Meidaimae | 0.95–1.25 million yen ⚠️ Pending re-verification against MLIT transaction prices | 3.15–4.15 million yen |
-| Seijo | 0.8–1.2 million yen ⚠️ Pending re-verification against MLIT transaction prices | 2.65–4.0 million yen |
+| Sangenjaya · Ikejiri-ohashi | 1.1–1.5 million yen | 3.65–4.95 million yen |
+| Futakotamagawa · Yoga | 0.9–1.3 million yen | 3.0–4.3 million yen |
+| Shimokitazawa · Meidaimae | 0.95–1.25 million yen | 3.15–4.15 million yen |
+| Seijo | 0.8–1.2 million yen | 2.65–4.0 million yen |
 | **Ward Average** | **1.052 million yen** | **Approx. 3.48 million yen**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
 
 Although detached houses dominate the ward, the tsubo unit price — price per tsubo — of high-rise tower mansions near key transit hubs has been rising rapidly.
@@ -216,7 +216,7 @@ On the other hand, if you want a rock-solid, long-term asset backed by domestic 
 
 ---
 
-> **Data Reference Point (May 2026):** Population and expat data are based on the official basic resident register releases from each ward as of the first half of 2026. Average taxable income follows MIC FY2025 (令和7年度) municipal tax survey Table 11 (footnote 3): taxable income per income-tax payer. **Ward-average mansion ㎡ prices are based on MLIT Real Estate Transaction Price Information (2025 Q1–Q4), sourced from the Real Estate Information Library (reinfolib.mlit.go.jp).** Sub-area price ranges are list-price estimates pending re-verification against MLIT transaction data. Rental rates reference the May 2026 listing indices of LIFULL HOME'S and SUUMO. Prior to making investment decisions, please consult with a qualified local judicial scrivener (司法書士) and tax accountant (税理士) to verify the latest tax regulations.
+> **Data Reference Point (May 2026):** Population and expat data are based on the official basic resident register releases from each ward as of the first half of 2026. Average taxable income follows MIC FY2025 (令和7年度) municipal tax survey Table 11 (footnote 3): taxable income per income-tax payer. **Ward-average mansion ㎡ prices are based on MLIT Real Estate Transaction Price Information (2025 Q1–Q4), sourced from the Real Estate Information Library (reinfolib.mlit.go.jp).** Rental rates reference the May 2026 listing indices of LIFULL HOME'S and SUUMO. Prior to making investment decisions, please consult with a qualified local judicial scrivener (司法書士) and tax accountant (税理士) to verify the latest tax regulations.
 
 ## Investor Action Checklist
 

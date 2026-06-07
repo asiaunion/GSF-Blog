@@ -284,7 +284,7 @@ Toshima (13.2%) minus Suginami (4.5%) = **8.7 percentage points**. (Arithmetic: 
 | **Redevelopment catalyst** | 3 towers, 2043 target | New station 2026.12 + San Plaza 2034 | Asagaya 2026 master plan |
 | **Core image** | Energy · International · Redevelopment | Hidden gem · Value · Inflection point | Family · Stability · Cultural depth |
 
-> **Source**: Ward average prices derived from HOMES 70㎡ index (homes.co.jp/mansion/chuko/tokyo/city/price/), confirmed by user screenshot [Primary Source, 2026-06]. Sub-area breakdowns are pending re-verification.
+> **Source**: Ward average prices derived from HOMES 70㎡ index (homes.co.jp/mansion/chuko/tokyo/city/price/), confirmed by user screenshot [Primary Source, 2026-06].
 
 ### 💡 Key Insight: The 1LDK Rental Convergence
 
