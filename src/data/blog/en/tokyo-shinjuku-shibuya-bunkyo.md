@@ -40,7 +40,7 @@ citeSources:
 ---
 If Roppongi and Azabu are "expat Tokyo," Shinjuku and Shibuya are "Tokyo for Tokyoites." That's how I framed it the first time I compared the two. Same price tier. Completely different lives. Which one is right for you isn't a data question — it's a lifestyle question.
 
-This chapter follows Ep.1 (Chiyoda, Chuo, Minato) with a deep dive into **the remaining three of Tokyo's Core 6 Wards (都心6区) — Shinjuku, Shibuya, and Bunkyo**. They share a premium price bracket. But their character couldn't be more different: a commercial mega-hub, the birthplace of trends, and a quiet city of scholarship.
+This chapter follows the [Series Prologue](/posts/tokyo-ward-guide-series-prologue/) and Ep.1 (Chiyoda, Chuo, Minato) with a deep dive into **the remaining three of Tokyo's Core 6 Wards (都心6区) — Shinjuku, Shibuya, and Bunkyo**. They share a premium price bracket. But their character couldn't be more different: a commercial mega-hub, the birthplace of trends, and a quiet city of scholarship.
 
 ---
 

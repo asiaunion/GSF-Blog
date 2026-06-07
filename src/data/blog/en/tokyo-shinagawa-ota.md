@@ -37,7 +37,7 @@ Have you ever imagined a city where ancient history and cutting-edge infrastruct
 
 When I recently visited the Takanawa Gateway Station area, I was overwhelmed by the sheer scale of the redevelopment. A historic city was being overlaid with sophisticated, massive modern infrastructure. This kind of spatial upgrade inevitably acts as a magnet, relentlessly pulling in global investment demand as well as high-quality rental tenants.
 
-Today, I'll dissect the fundamentals and real-world market data (both purchase and rental) of Shinagawa and Ota — the two main pillars of Tokyo's Southern Belt.
+Following the [Series Prologue](/posts/tokyo-ward-guide-series-prologue/), today I'll dissect the fundamentals and real-world market data (both purchase and rental) of Shinagawa and Ota — the two main pillars of Tokyo's Southern Belt.
 
 ---
 

@@ -48,7 +48,7 @@ When the phrase "Hipster Inner Ring" comes up in conversations about Tokyo real 
 
 Ikebukuro Station in Toshima Ward handles close to two million daily passengers — placing it alongside Shinjuku and Shibuya as one of Tokyo's three major sub-centers. Nakano Station connects to Shinjuku via JR Sobu Line in just two minutes. Koenji in Suginami Ward sits on the Marunouchi Line, bringing downtown within a 20-minute ride. "Far from the center" is not a fair description for any of these neighborhoods.
 
-In this installment, I take a data-first look at the three wards that our series prologue classified as Tokyo's Hipster Inner Ring.
+In this installment, I take a data-first look at the three wards that our [Series Prologue](/posts/tokyo-ward-guide-series-prologue/) classified as Tokyo's Hipster Inner Ring.
 
 > **Data reference period**: H1 2025–2026. Rental figures are based on new construction within a 5-minute walk of each station (SUUMO). Real estate prices fluctuate quarterly — please consult the cited sources for the latest figures.
 

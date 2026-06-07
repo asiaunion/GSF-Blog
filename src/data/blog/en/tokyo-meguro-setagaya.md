@@ -44,7 +44,7 @@ citeSources:
 ---
 When dreaming of a quiet and sophisticated daily life in Tokyo, which neighborhood comes to your mind first? In nine cases out of ten, people mention Setagaya or Meguro. However, investors who have actually lived here or analyzed the numbers closely know the truth. These two areas may look similar on the surface, but they are entirely different universes with contrasting paces of life and investment appeal.
 
-In this episode, I will dissect **Meguro Ward and Setagaya Ward**—which sit directly west of the Core 6 Wards (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo) and are consistently ranked as the most desirable residential areas in Tokyo—complete with firsthand field data.
+Following the [Series Prologue](/posts/tokyo-ward-guide-series-prologue/), in this episode I will dissect **Meguro Ward and Setagaya Ward**—which sit directly west of the Core 6 Wards (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo) and are consistently ranked as the most desirable residential areas in Tokyo—complete with firsthand field data.
 
 ---
 
