@@ -7,6 +7,7 @@ import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
 import LanguageSwitcher from "./LanguageSwitcher.astro";
+import LangBanner from "./LangBanner.astro";
 import { SITE } from "@/config";
 import { getUi, type UiLang } from "@/i18n/ui";
 
@@ -49,13 +50,14 @@ const isActive = (path: string) => {
   {L.skipToContent}
 </a>
 
+<LangBanner uiLang={lang} pathname={pathname} locale={locale} />
 <header
   class="app-layout flex flex-col items-center justify-between sm:flex-row"
 >
   <div
     id="top-nav-wrap"
     class:list={[
-      "py-4 sm:py-6",
+      "py-0.5 sm:py-1",
       "border-b border-border",
       "relative w-full bg-background",
       "flex items-baseline justify-between sm:items-center",
@@ -210,9 +212,6 @@ const isActive = (path: string) => {
             </li>
           )
         }
-        <li class="col-span-1 flex items-center justify-center border-l border-border pl-2 sm:pl-4 ml-2 max-sm:border-none max-sm:pl-0">
-          <LanguageSwitcher uiLang={lang} />
-        </li>
       </ul>
     </nav>
   </div>

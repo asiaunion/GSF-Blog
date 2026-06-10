@@ -1,10 +1,10 @@
 ---
-import { canonicalizePathname } from "@/utils/hreflang";
+import { getLangUrl as _getLangUrl } from "@/utils/getLangUrl";
 import type { UiLang } from "@/i18n/ui";
 
-type Props = { uiLang?: UiLang };
+type Props = { uiLang?: UiLang; mobileId?: string };
 
-const { uiLang: uiLangProp } = Astro.props as Props;
+const { uiLang: uiLangProp, mobileId } = Astro.props as Props;
 const { pathname } = Astro.url;
 const { locale } = Astro.params;
 
@@ -12,45 +12,18 @@ const currentLang: UiLang =
   uiLangProp ??
   (locale === "ko" || locale === "ja" ? locale : "en");
 
-const normPath = pathname.replace(/\/+$/, "") || "/";
-const onArchivesOnly =
-  normPath === "/archives" || normPath.startsWith("/archives/");
+const getLangUrl = (targetLang: string) =>
+  _getLangUrl(targetLang, pathname, locale);
 
-// Function to generate the correct URL for a different language
-const getLangUrl = (targetLang: string) => {
-  if (onArchivesOnly) {
-    return "/archives/";
-  }
-
-  let relativePath = pathname;
-
-  // Strip out current locale prefix if we are in a sub-locale
-  if (locale && pathname.startsWith(`/${locale}`)) {
-    relativePath = pathname.replace(`/${locale}`, "") || "/";
-  }
-
-  relativePath = relativePath || "/";
-  if (!relativePath.startsWith("/")) relativePath = `/${relativePath}`;
-
-  relativePath = canonicalizePathname(relativePath);
-
-  if (targetLang === "en") {
-    return relativePath;
-  }
-
-  if (relativePath === "/") {
-    return `/${targetLang}/`;
-  }
-
-  return `/${targetLang}${relativePath}`;
-};
+// id suffix: 모바일 인스턴스는 "-mobile", 데스크탑은 ""
+const suffix = mobileId ? `-${mobileId}` : "";
 ---
 
-<div class="relative inline-block text-left group ml-2 sm:ml-4" tabindex="0">
+<div class="relative inline-block text-left ml-2 sm:ml-4">
   <button
     type="button"
-    class="focus-outline flex items-center space-x-1 rounded-sm px-2 py-1 font-medium uppercase transition-colors hover:text-accent"
-    id="lang-menu-button"
+    class="focus-outline flex items-center gap-1.5 rounded-sm px-3 py-1.5 font-medium uppercase transition-colors hover:text-accent border border-transparent hover:border-border"
+    id={`lang-menu-button${suffix}`}
     aria-expanded="false"
     aria-haspopup="true"
   >
@@ -78,10 +51,11 @@ const getLangUrl = (targetLang: string) => {
   </button>
 
   <div
-    class="absolute right-0 mt-2 w-24 origin-top-right rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden group-hover:block group-focus-within:block z-50 border border-border"
+    id={`lang-dropdown${suffix}`}
+    class="absolute right-0 mt-2 w-28 origin-top-right rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-50 border border-border"
     role="menu"
     aria-orientation="vertical"
-    aria-labelledby="lang-menu-button"
+    aria-labelledby={`lang-menu-button${suffix}`}
     tabindex="-1"
   >
     <div class="py-1" role="none">
@@ -109,3 +83,37 @@ const getLangUrl = (targetLang: string) => {
     </div>
   </div>
 </div>
+
+<script>
+  // 외부 클릭 핸들러: 모듈 최상단 1회만 등록 (astro:after-swap에서 재등록 안 됨)
+  document.addEventListener("click", () => {
+    document.querySelectorAll("[id^='lang-dropdown']").forEach((dd) => {
+      dd.classList.add("hidden");
+    });
+    document.querySelectorAll("[id^='lang-menu-button']").forEach((btn) => {
+      btn.setAttribute("aria-expanded", "false");
+    });
+  });
+
+  function initLangDropdown() {
+    document.querySelectorAll("[id^='lang-menu-button']").forEach((oldBtn) => {
+      const suffix = oldBtn.id.replace("lang-menu-button", "");
+      const dropdown = document.getElementById(`lang-dropdown${suffix}`);
+      if (!dropdown) return;
+
+      // cloneNode로 기존 리스너 초기화 후 재등록
+      const newBtn = oldBtn.cloneNode(true) as HTMLElement;
+      oldBtn.replaceWith(newBtn);
+
+      newBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const isOpen = !dropdown.classList.contains("hidden");
+        dropdown.classList.toggle("hidden", isOpen);
+        newBtn.setAttribute("aria-expanded", String(!isOpen));
+      });
+    });
+  }
+
+  initLangDropdown();
+  document.addEventListener("astro:after-swap", initLangDropdown);
+</script>
