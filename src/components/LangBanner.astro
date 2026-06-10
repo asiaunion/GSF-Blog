@@ -1,0 +1,81 @@
+---
+import { getUi, type UiLang } from "@/i18n/ui";
+import { getLangUrl } from "@/utils/getLangUrl";
+
+type Props = { uiLang: UiLang; pathname: string; locale: string | undefined };
+const { uiLang, pathname, locale } = Astro.props as Props;
+const L = getUi(uiLang);
+const currentLang = uiLang;
+
+const langUrl = (target: string) => getLangUrl(target, pathname, locale);
+---
+
+<div
+  id="lang-banner"
+  class="w-full border-b border-border bg-background py-2 px-4 flex items-center justify-between gap-4 text-sm"
+>
+  <span class="hidden sm:inline text-foreground/60 shrink-0">{L.langBannerText}</span>
+  <div class="flex items-center gap-2 flex-wrap">
+    <a
+      href={langUrl("en")}
+      class:list={[
+        "px-3 py-1 rounded-sm transition-colors hover:text-accent",
+        currentLang === "en"
+          ? "font-bold text-accent border border-accent"
+          : "text-foreground/70",
+      ]}
+    >{L.langBannerEn}</a>
+    <a
+      href={langUrl("ko")}
+      class:list={[
+        "px-3 py-1 rounded-sm transition-colors hover:text-accent",
+        currentLang === "ko"
+          ? "font-bold text-accent border border-accent"
+          : "text-foreground/70",
+      ]}
+    >{L.langBannerKo}</a>
+    <a
+      href={langUrl("ja")}
+      class:list={[
+        "px-3 py-1 rounded-sm transition-colors hover:text-accent",
+        currentLang === "ja"
+          ? "font-bold text-accent border border-accent"
+          : "text-foreground/70",
+      ]}
+    >{L.langBannerJa}</a>
+  </div>
+  <button
+    id="lang-banner-close"
+    aria-label={L.langBannerClose}
+    class="ml-auto text-foreground/50 hover:text-foreground p-1 shrink-0 leading-none text-lg"
+  >×</button>
+</div>
+
+<script>
+  const STORAGE_KEY = "gsf-lang-banner-dismissed";
+
+  function initBanner() {
+    const banner = document.getElementById("lang-banner");
+    if (!banner) return;
+
+    // 세션 내 이미 닫은 경우 즉시 숨김 (리스너 불필요)
+    if (sessionStorage.getItem(STORAGE_KEY) === "1") {
+      banner.style.display = "none";
+      return;
+    }
+
+    // cloneNode로 기존 리스너 초기화 후 재등록
+    const oldBtn = document.getElementById("lang-banner-close");
+    if (!oldBtn) return;
+    const newBtn = oldBtn.cloneNode(true) as HTMLElement;
+    oldBtn.replaceWith(newBtn);
+
+    newBtn.addEventListener("click", () => {
+      sessionStorage.setItem(STORAGE_KEY, "1");
+      banner.style.display = "none";
+    });
+  }
+
+  initBanner();
+  document.addEventListener("astro:after-swap", initBanner);
+</script>

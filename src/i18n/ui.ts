@@ -112,6 +112,11 @@ const ui = {
     commentsTitle: "Discussion",
     commentsDescription:
       "Share your thoughts — powered by GitHub Discussions.",
+    langBannerText: "Available in 3 languages",
+    langBannerClose: "Close",
+    langBannerEn: "🇺🇸 English",
+    langBannerKo: "🇰🇷 한국어",
+    langBannerJa: "🇯🇵 日本語",
     topicHubs: {
       urbanInvestment: {
         title: "Urban investment insight",
@@ -238,6 +243,11 @@ const ui = {
     commentsTitle: "댓글",
     commentsDescription:
       "의견을 남겨주세요 — GitHub Discussions 기반입니다.",
+    langBannerText: "한국어·日本語·English로 제공됩니다",
+    langBannerClose: "닫기",
+    langBannerEn: "🇺🇸 English",
+    langBannerKo: "🇰🇷 한국어",
+    langBannerJa: "🇯🇵 日本語",
     topicHubs: {
       urbanInvestment: {
         title: "도시형 투자 인사이트",
@@ -364,6 +374,11 @@ const ui = {
     commentsTitle: "ディスカッション",
     commentsDescription:
       "ご意見をお聞かせください — GitHub Discussionsベースです。",
+    langBannerText: "日本語・한국어・Englishで読めます",
+    langBannerClose: "閉じる",
+    langBannerEn: "🇺🇸 English",
+    langBannerKo: "🇰🇷 한국어",
+    langBannerJa: "🇯🇵 日本語",
     topicHubs: {
       urbanInvestment: {
         title: "都市型投資インサイト",
