@@ -1,23 +1,46 @@
 # GSF-Blog Design Baseline
-> Last Updated: 2026-06-07 (v-approved-20260607-header-footer-ui)
 
-## 1. Header (Logo & Subtitle)
-- **Tag**: `v-approved-20260607-header-footer-ui`
-- **Spec**: GSF 메인 로고 영역 하단에 `Good Samaritan Flourishing` 서브타이틀(text-xs, uppercase) 추가됨. 
-- **Layout**: `flex-col`로 배치되어 텍스트 간격 일치.
+> 이 파일은 사용자가 승인한 디자인 스냅샷을 기록합니다.
+> 새 세션 에이전트는 이 파일을 **반드시 먼저 읽고** 작업을 시작해야 합니다.
 
-## 2. Footer (2-Row Layout)
-- **Tag**: `v-approved-20260607-header-footer-ui`
-- **Spec**: 푸터 영역 하이브리드(반응형) 2단 분리 레이아웃 완성.
-- **Desktop (sm:)**: 
-  - 1단: 좌측 주요 링크 (About / Contact / Privacy Policy), 우측 소셜 아이콘 배열
-  - 2단: 좌측 정렬된 저작권 문구 (`Good Samaritan Flourishing` 포함)
-- **Mobile**:
-  - 중앙 정렬(`items-center`, `text-center`)로 모든 요소 수직 배치.
+---
 
-## 3. Contact Pages ("Let's talk" section)
-- **Spec**: 연락처(Email) 직전에 도쿄 부동산 및 한일 투자 관련 가벼운 대화를 유도하는 안내 문구 추가됨.
-- **Language**: KO, EN, JA 3개 국어에 모두 현지화 적용.
+## ✅ 승인 스냅샷: LangBanner UX
 
-## 4. Snapshots Directory
-- *Note*: 현재 런타임 환경 제약으로 물리적 스크린샷 캡처는 생략되었으나, 위 코드 태그(`v-approved-20260607-header-footer-ui`)를 통해 언제든 해당 시점의 UI 디자인으로 즉각 롤백 가능합니다.
+- **승인일**: 2026-06-10
+- **Git Tag**: `v-approved-20260610-lang-banner`
+- **Branch**: `ui/lang-switcher-ux`
+- **Commit**: `8e7aacd` (fix: LangBanner 위치/레이아웃 최종 확정)
+
+---
+
+## 확정된 디자인 사양
+
+### LangBanner 컴포넌트
+- **위치**: `<a id="skip-to-content">` 다음, `<header>` **바깥** (header flex 충돌 방지)
+- **레이아웃**: `w-full border-b border-border bg-background py-1.5`
+- **내부 정렬**: `app-layout` 컨테이너 + `justify-end` → GSF "G" 라인 우측 끝에 정렬
+- **언어 버튼 레이블**: `🇺🇸 EN` / `🇰🇷 KO` / `🇯🇵 JA` (국기 이모지 + 2자리 코드)
+- **현재 언어 강조**: `font-bold text-accent border border-accent`
+- **닫기 동작**: `sessionStorage` 세션 단위 (페이지 재방문 시 재표시)
+- **이벤트 중복 방지**: `cloneNode(true)` + 모듈 레벨 외부 클릭 핸들러 1회 등록
+
+### Header 네비게이션
+- **기존 LanguageSwitcher**: 데스크탑 + 모바일 **모두 제거** (LangBanner로 대체)
+- **top-nav-wrap 패딩**: `py-0.5 sm:py-1` (슬림 네비 스타일)
+
+### 파일 구조
+| 파일 | 역할 |
+|------|------|
+| `src/utils/getLangUrl.ts` | 언어 URL 생성 유틸 (LangBanner/LanguageSwitcher 공유) |
+| `src/components/LangBanner.astro` | 언어 선택 배너 컴포넌트 |
+| `src/components/Header.astro` | LangBanner 삽입, LanguageSwitcher 제거, 패딩 축소 |
+| `src/i18n/ui.ts` | `langBannerEn/Ko/Ja/Text/Close` 키 3개 언어 블록 |
+
+---
+
+## 다음 작업 시 주의사항
+
+- LangBanner는 `<header>` **밖**에 있어야 함. header 안으로 이동 시 flex row 레이아웃 깨짐
+- `LanguageSwitcher.astro`는 현재 미사용 상태 (삭제 가능하나 보존 중)
+- 이 브랜치는 아직 main 머지 대기 중
