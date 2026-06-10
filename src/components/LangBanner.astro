@@ -12,43 +12,42 @@ const langUrl = (target: string) => getLangUrl(target, pathname, locale);
 
 <div
   id="lang-banner"
-  class="w-full border-b border-border bg-background py-2 px-4 flex items-center justify-between gap-4 text-sm"
+  class="w-full border-b border-border bg-background py-1.5 text-sm"
 >
-  <span class="hidden sm:inline text-foreground/60 shrink-0">{L.langBannerText}</span>
-  <div class="flex items-center gap-2 flex-wrap">
+  <div class="app-layout flex items-center justify-end gap-1">
     <a
       href={langUrl("en")}
       class:list={[
-        "px-3 py-1 rounded-sm transition-colors hover:text-accent",
+        "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
         currentLang === "en"
           ? "font-bold text-accent border border-accent"
-          : "text-foreground/70",
+          : "text-foreground/60",
       ]}
     >{L.langBannerEn}</a>
     <a
       href={langUrl("ko")}
       class:list={[
-        "px-3 py-1 rounded-sm transition-colors hover:text-accent",
+        "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
         currentLang === "ko"
           ? "font-bold text-accent border border-accent"
-          : "text-foreground/70",
+          : "text-foreground/60",
       ]}
     >{L.langBannerKo}</a>
     <a
       href={langUrl("ja")}
       class:list={[
-        "px-3 py-1 rounded-sm transition-colors hover:text-accent",
+        "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
         currentLang === "ja"
           ? "font-bold text-accent border border-accent"
-          : "text-foreground/70",
+          : "text-foreground/60",
       ]}
     >{L.langBannerJa}</a>
+    <button
+      id="lang-banner-close"
+      aria-label={L.langBannerClose}
+      class="ml-1 text-foreground/40 hover:text-foreground px-1 shrink-0 leading-none text-base"
+    >×</button>
   </div>
-  <button
-    id="lang-banner-close"
-    aria-label={L.langBannerClose}
-    class="ml-auto text-foreground/50 hover:text-foreground p-1 shrink-0 leading-none text-lg"
-  >×</button>
 </div>
 
 <script>
