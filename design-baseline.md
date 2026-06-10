@@ -45,8 +45,30 @@
 
 ---
 
+## ✅ 승인 스냅샷: Newsletter UX 개선 (2026-06-10)
+
+- **승인일**: 2026-06-10
+- **Git Tag**: `v-approved-20260610-newsletter-ux-fix`
+- **Commit**: `8025353` (fix(newsletter): replace popup form with inline fetch + success message)
+
+### 변경 내역
+| 항목 | 이전 | 이후 |
+|------|------|------|
+| 구독 폼 방식 | `target="popupwindow"` (팝업) | `fetch()` + 인라인 메시지 |
+| 구독 완료 메시지 | 없음 (빈 팝업 창) | ✅ "확인 이메일을 보내드렸습니다!" |
+| Buttondown 아카이브 | 빈 화면 | Welcome 이메일 발행 완료 |
+| After confirming redirect | 없음 (빈 아카이브) | `gsfark.com/posts/` |
+
+### 관련 파일
+| 파일 | 변경 내용 |
+|------|---------|
+| `src/components/NewsletterForm.astro` | 팝업 제거, fetch 방식, i18n 3개 언어 인라인 메시지 |
+
+---
+
 ## 다음 작업 시 주의사항
 
 - LangBanner는 `<header>` **밖**에 있어야 함. header 안으로 이동 시 flex row 레이아웃 깨짐
 - `LanguageSwitcher.astro`는 현재 미사용 상태 (삭제 가능하나 보존 중)
-- **이 브랜치는 main 머지 대기 중** → 머지 전 반드시 확인
+- **Newsletter 폼**: 팝업 방식 완전 제거됨. 이전 `target="popupwindow"` 방식으로 되돌리지 말 것
+- **Buttondown redirect URL**: API로 변경 불가 — 대시보드에서만 수동 설정 가능 (현재값: `gsfark.com/posts/`)
