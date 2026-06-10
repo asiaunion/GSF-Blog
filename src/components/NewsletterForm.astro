@@ -15,9 +15,10 @@ type Props = {
   lang?: UiLang;
   customCta?: string;
   downloadUrl?: string;
+  class?: string;
 };
 
-const { variant = "card", lang: langProp, customCta, downloadUrl } = Astro.props;
+const { variant = "card", lang: langProp, customCta, downloadUrl, class: className } = Astro.props;
 const { locale } = Astro.params;
 const navLang = (langProp ?? locale ?? "en") as UiLang;
 const L = getUi(navLang);
@@ -73,7 +74,7 @@ const formAction = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDO
       action={formAction}
       method="post"
       target="popupwindow"
-      class="mt-6 flex w-full max-w-md flex-col gap-3 sm:flex-row"
+      class={`mt-2 flex w-full flex-col gap-3 sm:flex-row${className ? ` ${className}` : ""}`}
       id="newsletter-inline"
       data-download={downloadUrl}
     >
@@ -90,7 +91,7 @@ const formAction = `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDO
       />
       <button
         type="submit"
-        class="rounded-full bg-accent px-6 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl active:scale-[0.98]"
+        class="shrink-0 w-auto whitespace-nowrap rounded-full bg-accent px-4 py-3 text-sm font-semibold text-white shadow-lg transition-all hover:scale-105 hover:shadow-xl active:scale-[0.98]"
       >
         {finalCta}
       </button>
