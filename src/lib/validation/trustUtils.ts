@@ -36,11 +36,41 @@ export function stripCodeAndLinks(text: string) {
 }
 
 /** Normalize numeric claims for cross-locale / source matching */
-export function normalizeNumericToken(raw: string) {
+
+// English month-name → month number (used by normalizeNumericToken)
+const EN_MONTH: Record<string, number> = {
+  january: 1, february: 2, march: 3, april: 4, may: 5, june: 6,
+  july: 7, august: 8, september: 9, october: 10, november: 11, december: 12,
+};
+const EN_MONTH_RE = Object.keys(EN_MONTH).join("|");
+
+export function normalizeNumericToken(raw: string): string {
+  // --- English date fast-path (before generic numeric processing) ---
+  // "April 2026" → "20264"   /  "January 23, 2026" → "2026123"
+  // These must match KO "2026년 4월" → "20264" and "2026년 1월 23일" → "2026123"
+  const lower = raw.toLowerCase().trim();
+  const enFull = lower.match(
+    new RegExp(`^(${EN_MONTH_RE})\\s+(\\d{1,2}),?\\s+(\\d{4})$`)
+  );
+  if (enFull) {
+    const m = EN_MONTH[enFull[1]];
+    const d = parseInt(enFull[2], 10);
+    const y = parseInt(enFull[3], 10);
+    return `${y}${m}${d}`;   // e.g. "2026123"
+  }
+  const enMonth = lower.match(
+    new RegExp(`^(${EN_MONTH_RE})\\s+(\\d{4})$`)
+  );
+  if (enMonth) {
+    const m = EN_MONTH[enMonth[1]];
+    const y = parseInt(enMonth[2], 10);
+    return `${y}${m}`;   // e.g. "20264"
+  }
+  // --- Generic numeric processing ---
   let s = raw
     .toLowerCase()
     .replace(/[¥￥$,，、]/g, "")
-    .replace(/\s+/g, "")
+    .replace(/\s+/g, "")           // spaces removed first → "만엔" pattern always matches
     .replace(/만엔|만원|万円|万원|億円|억원/g, "m")
     .replace(/천만|千万/g, "10m")
     .replace(/억|億/g, "100m")
@@ -55,9 +85,11 @@ export function normalizeNumericToken(raw: string) {
   const num = parseFloat(s.replace(/[^\d.]/g, ""));
   if (Number.isFinite(num) && num > 0) {
     // EN "67.1 million JPY" ↔ KO/JA "6,710万円" (per-sqm / 万円-scale amounts)
+    // Fix: /\b만\b/ does not work with Korean chars (JS \b is ASCII-only).
+    // Use /만|万/ on rawLower instead.
     if (
       num < 10_000 &&
-      (/million|백만|百万/.test(rawLower) || (num < 1000 && /\b만\b|万/.test(raw)))
+      (/million|백만|百万/.test(rawLower) || (num < 1000 && /만|万/.test(rawLower)))
     ) {
       const scaled = num < 1000 && /million|백만|百万/.test(rawLower) ? num * 100 : num;
       if (scaled >= 100) return String(Math.round(scaled));
@@ -73,9 +105,11 @@ export function normalizeNumericToken(raw: string) {
 export function extractNumericLiterals(text: string) {
   const cleaned = stripCodeAndLinks(text);
 
+  // Build EN month alternation once (reuses the same constant)
+  const enMonthAlt = Object.keys(EN_MONTH).join("|");
   const patterns = [
-    /\d{4}년(?:\s*\d{1,2}월)?(?:\s*\d{1,2}일)?/g,
-    /\d{4}年(?:\d{1,2}月)?(?:\d{1,2}日)?/g,
+    /\d{4}년\s*\d{1,2}월(?:\s*\d{1,2}일)?/g,
+    /\d{4}年\d{1,2}月(?:\d{1,2}日)?/g,
     /\d{1,3}(?:,\d{3})+(?:\.\d+)?\s*(?:만|万)\s*(?:엔|円|원)?/g,
     // Avoid matching "440만" inside "4,440만 엔" (thousands comma prefix)
     /(?<!\d,)\d+(?:\.\d+)?\s*(?:만|万)\s*(?:엔|円|원)/g,
@@ -84,6 +118,10 @@ export function extractNumericLiterals(text: string) {
     /\d{4}-\d{2}-\d{2}/g,
     /¥\s*\d{1,3}(?:,\d{3})*(?:\.\d+)?/g,
     /\d{1,3}(?:,\d{3})+(?:\.\d+)?/g,
+    // Option B: EN natural-language dates → same normalize result as KO/JA
+    // "April 2026" → "20264"  /  "January 23, 2026" → "2026123"
+    new RegExp(`(?:${enMonthAlt})\\s+\\d{1,2},?\\s+\\d{4}`, "gi"),
+    new RegExp(`(?:${enMonthAlt})\\s+\\d{4}`, "gi"),
   ];
 
   const found = new Set<string>();
