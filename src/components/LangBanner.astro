@@ -42,39 +42,5 @@ const langUrl = (target: string) => getLangUrl(target, pathname, locale);
           : "text-foreground/60",
       ]}
     >{L.langBannerJa}</a>
-    <button
-      id="lang-banner-close"
-      aria-label={L.langBannerClose}
-      class="ml-1 text-foreground/40 hover:text-foreground px-1 shrink-0 leading-none text-base"
-    >×</button>
   </div>
 </div>
-
-<script>
-  const STORAGE_KEY = "gsf-lang-banner-dismissed";
-
-  function initBanner() {
-    const banner = document.getElementById("lang-banner");
-    if (!banner) return;
-
-    // 세션 내 이미 닫은 경우 즉시 숨김 (리스너 불필요)
-    if (sessionStorage.getItem(STORAGE_KEY) === "1") {
-      banner.style.display = "none";
-      return;
-    }
-
-    // cloneNode로 기존 리스너 초기화 후 재등록
-    const oldBtn = document.getElementById("lang-banner-close");
-    if (!oldBtn) return;
-    const newBtn = oldBtn.cloneNode(true) as HTMLElement;
-    oldBtn.replaceWith(newBtn);
-
-    newBtn.addEventListener("click", () => {
-      sessionStorage.setItem(STORAGE_KEY, "1");
-      banner.style.display = "none";
-    });
-  }
-
-  initBanner();
-  document.addEventListener("astro:after-swap", initBanner);
-</script>
