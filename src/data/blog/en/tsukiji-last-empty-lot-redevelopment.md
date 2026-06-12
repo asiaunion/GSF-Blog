@@ -6,7 +6,7 @@ author: GSF
 draft: false
 lang: en
 category: local
-aiModel: "Claude Sonnet 4.5"
+aiModel: "Claude Sonnet 4.6"
 ogImage: "https://gsfark.com/assets/images/blog/tsukiji-last-empty-lot-redevelopment-hero.webp"
 tags:
   - tsukiji
