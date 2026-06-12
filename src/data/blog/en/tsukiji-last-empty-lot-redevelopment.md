@@ -19,10 +19,10 @@ sources:
   - "https://www.shijou.metro.tokyo.lg.jp/tsukiji"
   - "https://tsukijihongwanji.jp/info/history/"
 citeSources:
-  - label: "Tsukiji District Development Official Website — History"
-    url: "https://tsukiji-machizukuri.jp/history/"
   - label: "Tokyo Metropolitan Central Wholesale Market — Former Tsukiji Market"
     url: "https://www.shijou.metro.tokyo.lg.jp/tsukiji"
+  - label: "Tsukiji District Development Official Website — History"
+    url: "https://tsukiji-machizukuri.jp/history/"
   - label: "Tsukiji Hongwanji Official Website — History"
     url: "https://tsukijihongwanji.jp/info/history/"
 ---
@@ -33,7 +33,7 @@ Step off at Tsukiji Station and an unfamiliar sight greets you.
 
 The site where the world's greatest volume of seafood once changed hands stands completely empty. Vast. It's hard to believe a space this large exists in the heart of Tokyo. Massive construction scaffolding and noise barriers mark its boundaries, and a few tower cranes rise into a grey sky.
 
-In 2018, Tsukiji Market relocated to Toyosu. The place that had sustained Tokyo's early mornings since opening in 1935 — 83 years in total — closed its doors. Since then, this land has effectively sat empty. A plot the size of four Tokyo Domes, right in the center of the city.<sup class="source-ref"><a href="#source-2" id="cite-1">1</a></sup>
+In 2018, Tsukiji Market relocated to Toyosu. The place that had sustained Tokyo's early mornings since opening in 1935 — 83 years in total — closed its doors. Since then, this land has effectively sat empty. A plot the size of four Tokyo Domes, right in the center of the city.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 ---
 
@@ -41,11 +41,11 @@ In 2018, Tsukiji Market relocated to Toyosu. The place that had sustained Tokyo'
 
 A long timeline runs along the construction barrier. The kind that makes you stop.
 
-In 1657, following the Great Meireki Fire, the Tokugawa shogunate reclaimed the coastal area here as part of Edo's reconstruction. Tsukiji — literally "constructed land." Built from the sea. Samurai families settled the new ground, and Namiyoke Inari Shrine was established.<sup class="source-ref"><a href="#source-1" id="cite-2">2</a></sup>
+In 1657, following the Great Meireki Fire, the Tokugawa shogunate reclaimed the coastal area here as part of Edo's reconstruction. Tsukiji — literally “constructed land.” Built from the sea. Samurai families settled the new ground, and Namiyoke Inari Shrine was established.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
 During the Meiji era, a foreign settlement took root. Established in Tsukiji in 1869, the settlement became the first gateway for Western culture entering Tokyo.
 
-Then came the 1923 Great Kanto Earthquake. The Nihonbashi fish market was destroyed, and in 1935 Tsukiji Market opened as its replacement — the oldest of Tokyo's eleven central wholesale markets, handling seafood and produce for nearly ninety years.<sup class="source-ref"><a href="#source-2" id="cite-3">3</a></sup>
+Then came the 1923 Great Kanto Earthquake. The Nihonbashi fish market was destroyed, and in 1935 Tsukiji Market opened as its replacement — the oldest of Tokyo's eleven central wholesale markets, handling seafood and produce for nearly ninety years.<sup class="source-ref"><a href="#source-1" id="cite-3">3</a></sup>
 
 Four hundred years of history stretched across one wall. Most passersby walked straight past. But read it, and you find yourself standing there longer than expected.
 
