@@ -138,7 +138,7 @@ function hasInformalJaPattern(text: string) {
 }
 
 function hasTierSource(urls: string[]) {
-  const signals = [".go.kr", ".go.jp", ".gov", ".or.jp", ".ac.jp", "nikkei.com", "reuters.com", "bloomberg.com", "wsj.com", "bbc.com"];
+  const signals = [".go.kr", ".go.jp", ".lg.jp", ".gov", ".or.jp", ".ac.jp", "nikkei.com", "reuters.com", "bloomberg.com", "wsj.com", "bbc.com"];
   const merged = urls.join(" ").toLowerCase();
   return signals.some(signal => merged.includes(signal));
 }
