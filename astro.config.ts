@@ -56,6 +56,8 @@ export default defineConfig({
       filter: page => {
         try {
           const pathname = new URL(page, SITE.website).pathname.replace(/\/+$/, "");
+          // Exclude admin pages — CMS UI, not public content (AdSense policy risk)
+          if (pathname === "/admin" || pathname.startsWith("/admin/")) return false;
           // Exclude tag pages — these are noindex and mostly thin content (0-1 posts)
           if (pathname.includes("/tags")) return false;
           // Exclude pagination pages — these are duplicate list content (/posts/2/, /posts/3/, etc.)
