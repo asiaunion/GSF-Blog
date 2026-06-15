@@ -1,6 +1,6 @@
 ---
-title: "Nihonbashi Redevelopment Roadmap: Three Axes to Read Mitsui-Led Follow-On Projects"
-description: "A reader's framework for Mitsui-aligned Nihonbashi pipelines—retail arcades, stations, resilience, and green space using public disclosures."
+title: "Nihonbashi Mitsui Redevelopment: 3 Projects Reshaping Tokyo"
+description: "Find out about Mitsui Fudosan's massive redevelopment pipeline in Nihonbashi. See how these 3 major projects will transform Tokyo's historic core."
 pubDatetime: 2026-04-06T09:00:00Z
 author: GSF
 lang: en

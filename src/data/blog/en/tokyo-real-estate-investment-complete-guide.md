@@ -1,6 +1,6 @@
 ---
-title: "The Complete Guide to Tokyo Real Estate Investment 2026: A Roadmap for International Buyers"
-description: "Everything about Tokyo real estate — area analysis, tsubo pricing, buying process, taxes, financing, yields, and risks — in seven chapters. Written from first-hand experience as a resident investor."
+title: "Tokyo Real Estate Investment: Complete Step-by-Step Guide [2026]"
+description: "Discover the step-by-step process of buying real estate in Tokyo. See 2026 data on market trends, taxes, and practical advice for global buyers."
 pubDatetime: 2026-05-04T10:00:00Z
 author: GSF
 lang: en

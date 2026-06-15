@@ -21,12 +21,17 @@ Guide: [`GSC_ADSENSE_WAITING_CHECKLIST_KO.md`](./GSC_ADSENSE_WAITING_CHECKLIST_K
 
 ## 2. AdSense (manual + env)
 
-Guide: [`ADSENSE_AND_GSC_CHECKLIST.md`](./ADSENSE_AND_GSC_CHECKLIST.md)
+Guide: [`ADSENSE_AND_GSC_CHECKLIST.md`](./ADSENSE_AND_GSC_CHECKLIST.md)  
+Audit 보고서: [`../adsense_audit_report_2026-06-13.md`](../adsense_audit_report_2026-06-13.md)
 
 - [x] `PUBLIC_ADSENSE_PUBLISHER_ID` on Vercel production
-- [x] Application submitted in Google UI *(approval waiting)*
-- [ ] After approval: `public/ads.txt` + verify live *(현재 `https://gsfark.com/ads.txt` 200, repo `public/ads.txt` 존재)*
-- [ ] Lighthouse ≥90 on `/`, `/topics/`, one long post (mobile + desktop) *(2026-05-27 Cursor prod 측정 — **Best Practices 100** 전 URL. **Performance:** mobile `/` 79, `/topics/` 84, long-post 87; desktop `/` 88, `/topics/` **92**, long-post **98**. long-post hero `srcset` 미배포 → `image-delivery-insight` 0, mobile perf 90+ 재측정은 배포 후)*
+- [x] ads.txt 실제 pub-ID 적용 (`public/ads.txt` 정상, HTTP 200) *(5/22 수정, 5/8 신청 당시엔 주석만 있었음)*
+- [x] AdSense 스크립트 무조건 로드 (consent-gate 제거, 6/4 수정)
+- [x] 4차 신청 제출 완료 — **현재 심사 중 ("준비 중")** 2026-06-13
+- [ ] ⏳ 심사 결과 대기 — 코드 수정·재신청 동결
+- [ ] **[다음 재신청 전 필수]** `astro.config.ts` sitemap filter — admin 1줄 추가: `if (pathname.startsWith("/admin")) return false;`
+- [ ] **[다음 재신청 전 필수]** 직전 거절로부터 최소 2~3주 대기 (빠른 재신청 패턴 탈피)
+- [ ] After approval: Lighthouse ≥90 재측정 *(2026-05-27 mobile / 79, 84, 87 — 개선 여지 있음)*
 
 ---
 
@@ -35,7 +40,7 @@ Guide: [`ADSENSE_AND_GSC_CHECKLIST.md`](./ADSENSE_AND_GSC_CHECKLIST.md)
 Guide: [`MONETIZATION_EQUITY_MVP.md`](./MONETIZATION_EQUITY_MVP.md)
 
 - [ ] W1: A8.net + もしも affiliate signup (links after AdSense OK)
-- [ ] W1: Buttondown welcome sequence (1 email)
+- [x] W1: Buttondown welcome sequence (1 email) *(마크다운 초안 준비 완료, 무료 요금제 한계로 Welcome email 1개만 우선 수동 설정)*
 - [ ] W2–W3: SNS pilot 4–8 posts ([`SNS_PILOT_CADENCE.md`](./SNS_PILOT_CADENCE.md))
 - [ ] W4: Affiliate links in 3 pilot posts ([`AFFILIATE_SETUP.md`](./AFFILIATE_SETUP.md))
 

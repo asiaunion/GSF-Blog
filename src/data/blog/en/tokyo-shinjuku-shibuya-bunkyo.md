@@ -1,6 +1,6 @@
 ---
-title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Ep.02] Shinjuku, Shibuya, Bunkyo"
-description: "The second chapter in our Tokyo 23 Wards series. A data-driven deep dive into Shinjuku, Shibuya, and Bunkyo — the second premium layer of Tokyo's urban hierarchy. Covering mansion prices, rent, income levels, and foreign resident life."
+title: "Shinjuku, Shibuya & Bunkyo: Tokyo's Creative & Academic Wards"
+description: "Explore the characteristics of Shinjuku, Shibuya, and Bunkyo. Learn about Tokyo's commercial hubs, cultural centers, and educational districts."
 pubDatetime: 2026-05-19T12:00:00Z
 author: GSF
 draft: false

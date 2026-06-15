@@ -1,6 +1,6 @@
 ---
-title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Series Prologue]"
-description: "A 12-part series breaking down Tokyo's 23 wards and Tama region by image and brand. Find the right neighborhood for relocation, investment, or travel — from the Core 6 concept to a full regional positioning map."
+title: "Tokyo 23 Wards Complete Guide: Where to Live & Invest [2026]"
+description: "Discover the definitive guide to Tokyo's 23 wards. Explore demographics, infrastructure, and urban characteristics to find the perfect area for you."
 pubDatetime: 2026-05-12T09:00:00Z
 author: GSF
 lang: en

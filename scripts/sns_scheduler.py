@@ -38,22 +38,32 @@ def load_env():
 
 # ── 블로그 MD 파싱 ─────────────────────────────────────────────────────────
 def parse_md(slug, locale):
-    """slug + locale(ko/en/ja)의 제목·설명·카테고리 추출"""
+    """slug + locale(ko/en/ja)의 제목·설명·카테고리·ogImage 추출"""
     path = BLOG_DIR / locale / f"{slug}.md"
     if not path.exists():
         path = BLOG_DIR / locale / f"{slug}.mdx"
     if not path.exists():
         return None
     text = path.read_text(encoding='utf-8')
-    title = re.search(r'^title[:\s]+"?([^"\n]+)"?', text, re.MULTILINE)
-    desc  = re.search(r'^description[:\s]+"?([^"\n]+)"?', text, re.MULTILINE)
-    cat   = re.search(r'^category[:\s]+(\S+)', text, re.MULTILINE)
-    tags  = re.findall(r'^\s+-\s+(.+)$', re.search(r'tags:(.*?)(?=\n\S)', text, re.DOTALL).group(1) if re.search(r'tags:', text) else '', re.MULTILINE)
+    title  = re.search(r'^title[:\s]+"?([^"\n]+)"?', text, re.MULTILINE)
+    desc   = re.search(r'^description[:\s]+"?([^"\n]+)"?', text, re.MULTILINE)
+    cat    = re.search(r'^category[:\s]+(\S+)', text, re.MULTILINE)
+    tags   = re.findall(r'^\s+-\s+(.+)$', re.search(r'tags:(.*?)(?=\n\S)', text, re.DOTALL).group(1) if re.search(r'tags:', text) else '', re.MULTILINE)
+    og_raw = re.search(r'^ogImage[:\s]+"?([^"\n]+)"?', text, re.MULTILINE)
+    og_val = og_raw.group(1).strip() if og_raw else None
+    # ogImage가 절대 URL이면 그대로, 상대 경로면 origin 붙이기, 없으면 기본 경로
+    if og_val and og_val.startswith('http'):
+        og_image_url = og_val
+    elif og_val:
+        og_image_url = f"https://gsfark.com{og_val if og_val.startswith('/') else '/' + og_val}"
+    else:
+        og_image_url = f"https://gsfark.com/assets/images/blog/{slug}-hero.webp"
     return {
         "title": title.group(1).strip() if title else slug,
         "description": desc.group(1).strip() if desc else "",
         "category": cat.group(1).strip() if cat else "general",
-        "tags": tags[:5]
+        "tags": tags[:5],
+        "og_image_url": og_image_url,
     }
 
 # ── SNS 초안 생성 ──────────────────────────────────────────────────────────
@@ -85,7 +95,6 @@ def generate_drafts(slug, meta_ko, meta_en, scheduled_date):
     # X 280자 강제 단축 (URL 포함 실제 280자 이내)
     for key in ["X-EN", "X-KO"]:
         if len(drafts[key]) > 275:
-            # URL은 마지막에 있으므로 URL 제외 텍스트를 먼저 자름
             url_part = re.search(r'\n\n→ https?://\S+\n', drafts[key])
             if url_part:
                 body_part = drafts[key][:url_part.start()]
@@ -122,10 +131,7 @@ mutation CreatePost($input: CreatePostInput!) {
 }
 """
 
-def post_to_buffer(token, channel_id, text, due_at_iso, dry_run=False, retry=True):
-    if dry_run:
-        return {"id": "DRY-RUN", "status": "preview"}
-
+def post_to_buffer(token, channel_id, text, due_at_iso, assets_payload=None, dry_run=False, retry=True, platform_name=""):
     import time
     variables = {
         "input": {
@@ -135,9 +141,14 @@ def post_to_buffer(token, channel_id, text, due_at_iso, dry_run=False, retry=Tru
             "mode": "customScheduled",
             "dueAt": due_at_iso,
             "saveToDraft": False,
-            "assets": []
+            "assets": assets_payload if assets_payload else []
         }
     }
+
+    if dry_run:
+        print(f"   [DRY-RUN] Payload assets for {platform_name}: {json.dumps(variables['input']['assets'])}")
+        return {"id": "DRY-RUN", "status": "preview"}
+
     payload = json.dumps({"query": MUTATION, "variables": variables}).encode()
     headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
     req = urllib.request.Request(GQL_URL, data=payload, headers=headers, method="POST")
@@ -154,7 +165,7 @@ def post_to_buffer(token, channel_id, text, due_at_iso, dry_run=False, retry=Tru
         if e.code == 429 and retry:
             print(f"   ⏳ Rate limit 감지 — 65초 대기 후 재시도...")
             time.sleep(65)
-            return post_to_buffer(token, channel_id, text, due_at_iso, dry_run, retry=False)
+            return post_to_buffer(token, channel_id, text, due_at_iso, assets_payload, dry_run, retry=False, platform_name=platform_name)
         return {"error": f"HTTP {e.code}: {err_body[:200]}"}
     except Exception as e:
         return {"error": str(e)}
@@ -172,12 +183,18 @@ def show_status(log):
     if done:
         print("✅ 완료된 회차:")
         for p in done:
-            print(f"   {p['round']:02d}회차 | {p['date']} | {p['slug'][:45]}")
+            if isinstance(p['round'], int):
+                print(f"   {p['round']:02d}회차 | {p['date']} | {p['slug'][:45]}")
+            else:
+                print(f"   {p['round']} | {p['date']} | {p['slug'][:45]}")
     print()
     if pending:
         print("⏳ 예정된 회차 (다음 5개):")
         for p in pending[:5]:
-            print(f"   {p['round']:02d}회차 | {p['scheduled_date']} | {p['slug'][:45]}")
+            if isinstance(p['round'], int):
+                print(f"   {p['round']:02d}회차 | {p['scheduled_date']} | {p['slug'][:45]}")
+            else:
+                print(f"   {p['round']} | {p['scheduled_date']} | {p['slug'][:45]}")
     print(f"{'='*55}\n")
 
 # ── 메인 ───────────────────────────────────────────────────────────────────
@@ -246,11 +263,30 @@ def main():
         # 초안 생성
         drafts = generate_drafts(slug, meta_ko, meta_en, sched_date)
 
+        # OG 이미지 URL 결정: frontmatter ogImage 우선 (en → ko 순), 없으면 기본 경로
+        og_image_url = (meta_en or {}).get('og_image_url') or \
+                       (meta_ko or {}).get('og_image_url') or \
+                       f"https://gsfark.com/assets/images/blog/{slug}-hero.webp"
+        print(f"   🖼️  OG image: {og_image_url}")
+
         # Buffer 전송
         buffer_ids = {}
         all_ok = True
         for name, text in drafts.items():
-            result = post_to_buffer(TOKEN, channel_map[name], text, due_at, args.dry_run)
+            platform_match = name.split("-")[0].lower()
+            canonical_url = f"https://gsfark.com/posts/{slug}/"
+
+            # assets 결정:
+            #   X        → [] (본문 URL에서 트위터 카드 자동 생성)
+            #   LinkedIn → link asset (canonical URL) → OG 카드 크롤링
+            #   Threads  → link asset (canonical URL) → OG 카드 크롤링
+            # ※ UTM URL을 link asset에 쓰면 크롤러가 해당 파라미터 URL을 크롤링하므로 canonical만 사용
+            if platform_match == "x":
+                assets_payload = []
+            else:
+                assets_payload = [{"link": {"url": canonical_url}}]
+
+            result = post_to_buffer(TOKEN, channel_map[name], text, due_at, assets_payload=assets_payload, dry_run=args.dry_run, platform_name=name)
             if result.get('error'):
                 print(f"   ❌ {name}: {result['error']}")
                 all_ok = False

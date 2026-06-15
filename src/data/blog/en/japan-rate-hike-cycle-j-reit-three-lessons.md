@@ -1,6 +1,6 @@
 ---
-title: "Japan Rate-Hike Cycles and J-REITs: Three Historical Lessons"
-description: "Generalize how policy rates, JGB curves, and credit spreads interacted with J-REIT valuations—avoiding single-line optimism or fear."
+title: "Japan Rate Hike & J-REIT: 3 Lessons from the 2024-2026 Cycle"
+description: "Find out how the Bank of Japan's rate hike cycle affects J-REITs. Discover 3 essential macro lessons for understanding the Japanese market."
 pubDatetime: 2026-04-13T08:00:00Z
 author: GSF
 lang: en
