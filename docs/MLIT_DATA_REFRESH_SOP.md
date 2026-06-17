@@ -18,14 +18,17 @@ pnpm sync:mlit-ark
 # 3) benchmarks v1.2 (price·station·land·population·disaster·district·timeseries)
 pnpm sync:mlit-benchmarks -- --episode ep07 --write
 
-# 3b) 가격 시계열 (2018–2025)
-pnpm mlit:price-series -- --episode ep07 --from 2018 --to 2025 --write
+# 3b) 가격 시계열 (2015–2025, CAGR5y)
+pnpm mlit:price-series -- --episode ep07 --from 2015 --to 2025 --write
+# 23구 전체: pnpm mlit:price-series -- --all-wards --from 2015 --to 2025 --write
 
 # 3c) 에피소드 리서치 팩 (블로그 작가용)
 pnpm analyze:episode -- --episode ep07 --write
 
 # 4) SUUMO B-layer (MLIT에 없음)
 node scripts/fetch-suumo-snapshot.mjs sc_kita --commit
+pnpm sync:suumo-benchmarks -- --episode ep07 --fetch-missing --write
+# 23구 전체: pnpm sync:suumo-benchmarks -- --all --fetch-missing --write
 
 # 5) 투자 dossier
 pnpm dossier:ward -- --episode ep07

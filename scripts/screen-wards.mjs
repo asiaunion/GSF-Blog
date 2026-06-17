@@ -38,6 +38,13 @@ function yieldProxy(rent1r, est70) {
   return Math.round(((rent1r * 12) / est70) * 1000) / 10;
 }
 
+function parsePopChangePct(value) {
+  if (value == null) return null;
+  if (typeof value === "number") return value;
+  const m = String(value).match(/-?[\d.]+/);
+  return m ? parseFloat(m[0]) : null;
+}
+
 async function main() {
   const args = parseArgs(process.argv);
   const b = JSON.parse(await readFile(BENCHMARKS, "utf8"));
@@ -55,8 +62,9 @@ async function main() {
       ward_avg_sqm: m?.ward_avg_sqm,
       est_70sqm: m?.est_70sqm,
       count: m?.count,
-      cagr_5y: ts?.cagr_5y,
+      cagr_5y: ts?.cagr_5y ?? ts?.cagr_full,
       pop_change: pop?.change_pct,
+      pop_change_num: parsePopChangePct(pop?.change_pct),
       flood: dis?.flood,
       liquefaction: dis?.liquefaction,
       yield_pct: y,
@@ -70,7 +78,7 @@ async function main() {
   for (const r of rows) {
     let score = 0;
     if (r.ward_avg_sqm != null && r.ward_avg_sqm < medianPrice) score += 1;
-    if (r.pop_change != null && r.pop_change > 0) score += 1;
+    if (r.pop_change_num != null && r.pop_change_num > 0) score += 1;
     if (!r.flood) score += 1;
     if (!r.liquefaction) score += 1;
     if (r.yield_pct != null && r.yield_pct >= 4) score += 1;
@@ -80,7 +88,7 @@ async function main() {
 
   let filtered = rows;
   if (args.maxPriceSqm != null) filtered = filtered.filter(r => r.ward_avg_sqm <= args.maxPriceSqm);
-  if (args.minPopChange != null) filtered = filtered.filter(r => (r.pop_change ?? -999) >= args.minPopChange);
+  if (args.minPopChange != null) filtered = filtered.filter(r => (r.pop_change_num ?? -999) >= args.minPopChange);
   if (args.noFlood) filtered = filtered.filter(r => !r.flood);
   if (args.noLiquefaction) filtered = filtered.filter(r => !r.liquefaction);
   if (args.minYield != null) filtered = filtered.filter(r => (r.yield_pct ?? 0) >= args.minYield);

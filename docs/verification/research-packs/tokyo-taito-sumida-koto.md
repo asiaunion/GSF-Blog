@@ -7,17 +7,17 @@
 
 ## Executive summary
 
-- **台東区**: 70㎡≈7762万 · ㎡110.9 · n=729 · CAGR5y=—% · 인구Δ=—% · 1R=11.4 · Yield≈1.8%
-- **墨田区**: 70㎡≈6479万 · ㎡92.6 · n=719 · CAGR5y=—% · 인구Δ=—% · 1R=10.3 · Yield≈1.9%
-- **江東区**: 70㎡≈8401万 · ㎡120 · n=1952 · CAGR5y=—% · 인구Δ=—% · 1R=10.9 · Yield≈1.6%
+- **台東区**: 70㎡≈7763万 · ㎡110.9 · n=729 · CAGR5y=—% · 인구Δ=8.4%% · 1R=11.4 · Yield≈1.8%
+- **墨田区**: 70㎡≈6482万 · ㎡92.6 · n=719 · CAGR5y=—% · 인구Δ=9.1%% · 1R=10.3 · Yield≈1.9%
+- **江東区**: 70㎡≈8400万 · ㎡120 · n=1952 · CAGR5y=—% · 인구Δ=6.4%% · 1R=10.9 · Yield≈1.6%
 
 ## Ward comparison table
 
 | 구 | 70㎡(万) | ㎡단가 | 거래수 | Top역 | 승하차/일 | 인구Δ | 홍수 | 액상화 | 1R임대 | Yield% |
 |---|---:|---:|---:|---|---:|---|:---:|:---:|---:|---:|
-| 台東区 | 7762 | 110.9 | 729 | — | — | — | — | — | 11.4 | 1.8 |
-| 墨田区 | 6479 | 92.6 | 719 | — | — | — | — | — | 10.3 | 1.9 |
-| 江東区 | 8401 | 120 | 1952 | — | — | — | — | — | 10.9 | 1.6 |
+| 台東区 | 7763 | 110.9 | 729 | 浅草 | 162672 | 8.4% | Y | Y | 11.4 | 1.8 |
+| 墨田区 | 6482 | 92.6 | 719 | 住吉 | 92207 | 9.1% | Y | Y | 10.3 | 1.9 |
+| 江東区 | 8400 | 120 | 1952 | 葛西臨海公園 | 27292 | 6.4% | Y | Y | 10.9 | 1.6 |
 
 ## Price timeseries (MLIT XIT001)
 
@@ -96,9 +96,9 @@
 
 ## Demand & risk notes
 
-- **台東区**: top station — · flood=N · liquefaction=N (tile sample)
-- **墨田区**: top station — · flood=N · liquefaction=N (tile sample)
-- **江東区**: top station — · flood=N · liquefaction=N (tile sample)
+- **台東区**: top station 浅草 · flood=Y · liquefaction=Y (tile sample)
+- **墨田区**: top station 住吉 · flood=Y · liquefaction=Y (tile sample)
+- **江東区**: top station 葛西臨海公園 · flood=Y · liquefaction=Y (tile sample)
 
 ## Writer constraints (mandatory)
 

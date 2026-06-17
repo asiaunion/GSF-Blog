@@ -43,7 +43,8 @@ async function main() {
     await run("node", ["scripts/merge-mlit-price-to-pkm.mjs", ...epFlag, ...cacheFlag]);
     await run("node", ["scripts/sync-mlit-pkm-to-ark.mjs"]);
     await run("node", ["scripts/sync-mlit-to-benchmarks.mjs", ...epFlag, ...writeFlag, ...cacheFlag]);
-    await run("node", ["scripts/mlit-price-series.mjs", ...epFlag, "--from", "2018", "--to", "2025", ...writeFlag, ...cacheFlag]);
+    await run("node", ["scripts/sync-suumo-to-benchmarks.mjs", ...epFlag, "--fetch-missing", ...writeFlag]);
+    await run("node", ["scripts/mlit-price-series.mjs", ...epFlag, "--from", "2015", "--to", "2025", ...writeFlag, ...cacheFlag]);
   }
 
   if (args.episode) {

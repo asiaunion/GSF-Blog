@@ -10,30 +10,42 @@
   "summary": [
     {
       "ward": "台東区",
-      "est_70sqm": 7762,
+      "est_70sqm": 7763,
       "ward_avg_sqm": 110.9,
       "count": 729,
       "cagr_5y": null,
+      "pop_change": "8.4%",
       "rent_1r": 11.4,
-      "yield_pct": 1.8
+      "yield_pct": 1.8,
+      "top_station": "浅草",
+      "flood": true,
+      "liquefaction": true
     },
     {
       "ward": "墨田区",
-      "est_70sqm": 6479,
+      "est_70sqm": 6482,
       "ward_avg_sqm": 92.6,
       "count": 719,
       "cagr_5y": null,
+      "pop_change": "9.1%",
       "rent_1r": 10.3,
-      "yield_pct": 1.9
+      "yield_pct": 1.9,
+      "top_station": "住吉",
+      "flood": true,
+      "liquefaction": true
     },
     {
       "ward": "江東区",
-      "est_70sqm": 8401,
+      "est_70sqm": 8400,
       "ward_avg_sqm": 120,
       "count": 1952,
       "cagr_5y": null,
+      "pop_change": "6.4%",
       "rent_1r": 10.9,
-      "yield_pct": 1.6
+      "yield_pct": 1.6,
+      "top_station": "葛西臨海公園",
+      "flood": true,
+      "liquefaction": true
     }
   ],
   "districts": {

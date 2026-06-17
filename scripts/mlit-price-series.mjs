@@ -4,17 +4,18 @@
  */
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
-import { collectPrice, EPISODE_WARDS, CACHE_DIR, loadEnv } from "./mlit-collector.mjs";
+import { collectPrice, EPISODE_WARDS, WARD_CODE, CACHE_DIR, loadEnv } from "./mlit-collector.mjs";
 import { blogPrimaryForCount, footnoteRequiredForCount, policyForCount, SAMPLE_SIZE_POLICY } from "./lib/mlit-sample-policy.mjs";
 
 const BENCHMARKS = path.join(process.cwd(), "docs/verification/tokyo-ward-series-benchmarks.json");
 
 function parseArgs(argv) {
-  const out = { ward: "", episode: "", from: 2015, to: 2025, write: false, noCache: false };
+  const out = { ward: "", episode: "", allWards: false, from: 2015, to: 2025, write: false, noCache: false };
   for (let i = 2; i < argv.length; i += 1) {
     const a = argv[i];
     if (a === "--ward") out.ward = argv[++i] ?? "";
     else if (a === "--episode") out.episode = (argv[++i] ?? "").toLowerCase();
+    else if (a === "--all-wards") out.allWards = true;
     else if (a === "--from") out.from = parseInt(argv[++i] ?? "2015", 10);
     else if (a === "--to") out.to = parseInt(argv[++i] ?? "2025", 10);
     else if (a === "--write") out.write = true;
@@ -133,8 +134,10 @@ async function main() {
   else if (args.episode) {
     wards = EPISODE_WARDS[args.episode];
     if (!wards) { console.error(`Unknown episode: ${args.episode}`); process.exit(1); }
+  } else if (args.allWards) {
+    wards = Object.keys(WARD_CODE);
   } else {
-    console.error("Usage: mlit-price-series.mjs --ward 江東区 | --episode ep06 [--write]");
+    console.error("Usage: mlit-price-series.mjs --ward 江東区 | --episode ep06 | --all-wards [--write]");
     process.exit(2);
   }
 

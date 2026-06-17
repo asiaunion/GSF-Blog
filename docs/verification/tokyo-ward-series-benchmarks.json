@@ -15,99 +15,115 @@
     "wards": {
       "千代田区": {
         "ward_avg_sqm": 194.7,
-        "est_70sqm": 13630,
+        "est_70sqm": 13629,
         "count": 357,
-        "episode": "Ep.01"
+        "episode": "Ep.01",
+        "fetched_at": "2026-06-17"
       },
       "中央区": {
         "ward_avg_sqm": 181.1,
-        "est_70sqm": 12680,
+        "est_70sqm": 12677,
         "count": 1421,
-        "episode": "Ep.01"
+        "episode": "Ep.01",
+        "fetched_at": "2026-06-17"
       },
       "港区": {
         "ward_avg_sqm": 220.6,
-        "est_70sqm": 15441,
+        "est_70sqm": 15442,
         "count": 1557,
-        "episode": "Ep.01"
+        "episode": "Ep.01",
+        "fetched_at": "2026-06-17"
       },
       "新宿区": {
         "ward_avg_sqm": 135.9,
-        "est_70sqm": 9510,
+        "est_70sqm": 9513,
         "count": 1298,
-        "episode": "Ep.02"
+        "episode": "Ep.02",
+        "fetched_at": "2026-06-17"
       },
       "渋谷区": {
         "ward_avg_sqm": 180,
         "est_70sqm": 12600,
         "count": 907,
-        "episode": "Ep.02"
+        "episode": "Ep.02",
+        "fetched_at": "2026-06-17"
       },
       "文京区": {
         "ward_avg_sqm": 131.5,
         "est_70sqm": 9205,
         "count": 808,
-        "episode": "Ep.02"
+        "episode": "Ep.02",
+        "fetched_at": "2026-06-17"
       },
       "目黒区": {
         "ward_avg_sqm": 139.7,
         "est_70sqm": 9779,
         "count": 676,
-        "episode": "Ep.03"
+        "episode": "Ep.03",
+        "fetched_at": "2026-06-17"
       },
       "世田谷区": {
         "ward_avg_sqm": 105.2,
         "est_70sqm": 7364,
         "count": 1734,
-        "episode": "Ep.03"
+        "episode": "Ep.03",
+        "fetched_at": "2026-06-17"
       },
       "品川区": {
         "ward_avg_sqm": 138.8,
         "est_70sqm": 9716,
         "count": 1223,
-        "episode": "Ep.04"
+        "episode": "Ep.04",
+        "fetched_at": "2026-06-17"
       },
       "大田区": {
         "ward_avg_sqm": 83.1,
         "est_70sqm": 5817,
         "count": 1218,
-        "episode": "Ep.04"
+        "episode": "Ep.04",
+        "fetched_at": "2026-06-17"
       },
       "豊島区": {
         "ward_avg_sqm": 115.8,
         "est_70sqm": 8106,
         "count": 744,
-        "episode": "Ep.05"
+        "episode": "Ep.05",
+        "fetched_at": "2026-06-17"
       },
       "中野区": {
         "ward_avg_sqm": 102.6,
         "est_70sqm": 7182,
         "count": 619,
-        "episode": "Ep.05"
+        "episode": "Ep.05",
+        "fetched_at": "2026-06-17"
       },
       "杉並区": {
         "ward_avg_sqm": 93.1,
         "est_70sqm": 6517,
-        "count": 851,
-        "episode": "Ep.05"
+        "count": 854,
+        "episode": "Ep.05",
+        "fetched_at": "2026-06-17"
       },
       "台東区": {
         "ward_avg_sqm": 110.9,
-        "est_70sqm": 7762,
+        "est_70sqm": 7763,
         "count": 729,
-        "episode": "Ep.06"
+        "episode": "Ep.06",
+        "fetched_at": "2026-06-17"
       },
       "墨田区": {
         "ward_avg_sqm": 92.6,
-        "est_70sqm": 6479,
+        "est_70sqm": 6482,
         "count": 719,
-        "episode": "Ep.06"
+        "episode": "Ep.06",
+        "fetched_at": "2026-06-17"
       },
       "江東区": {
         "ward_avg_sqm": 120,
-        "est_70sqm": 8401,
+        "est_70sqm": 8400,
         "count": 1952,
-        "episode": "Ep.06"
+        "episode": "Ep.06",
+        "fetched_at": "2026-06-17"
       },
       "北区": {
         "ward_avg_sqm": 89.6,
@@ -129,6 +145,30 @@
         "count": 920,
         "episode": "Ep.07",
         "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "ward_avg_sqm": 70.5,
+        "est_70sqm": 4935,
+        "count": 1030,
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "ward_avg_sqm": 73.2,
+        "est_70sqm": 5124,
+        "count": 895,
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "ward_avg_sqm": 63.9,
+        "est_70sqm": 4473,
+        "count": 582,
+        "fetched_at": "2026-06-17"
+      },
+      "江戸川区": {
+        "ward_avg_sqm": 67.7,
+        "est_70sqm": 4739,
+        "count": 710,
+        "fetched_at": "2026-06-17"
       }
     }
   },
@@ -137,45 +177,415 @@
     "wards": {
       "豊島区": {
         "1R": 10.8,
+        "1K": 11.7,
+        "1DK": 12.8,
         "1LDK": 16.1,
-        "snapshot_date": "2026-04-13",
-        "episode": "Ep.05"
+        "2K": 12.9,
+        "2DK": 20.1,
+        "2LDK": 23.1,
+        "3K": 21,
+        "3DK": 23.4,
+        "3LDK": 32.2,
+        "4K": 25,
+        "4DK": 29,
+        "4LDK": 45,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_toshima-20260617.html",
+        "episode": "Ep.05",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都豊島区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、10.8万円（ワンルーム）～45.0万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       },
       "中野区": {
         "1R": 10,
+        "1K": 11.1,
+        "1DK": 12.2,
         "1LDK": 16.7,
-        "snapshot_date": "2026-04-13",
-        "episode": "Ep.05"
+        "2K": 12.5,
+        "2DK": 19.7,
+        "2LDK": 22.8,
+        "3K": 22.9,
+        "3DK": 20.2,
+        "3LDK": 35.5,
+        "4K": 23,
+        "4DK": 30,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_nakano-20260617.html",
+        "episode": "Ep.05",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都中野区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、10.0万円（ワンルーム）～35.5万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       },
       "杉並区": {
         "1R": 9,
+        "1K": 10.7,
+        "1DK": 11.9,
         "1LDK": 16.2,
-        "snapshot_date": "2026-04-13",
-        "episode": "Ep.05"
+        "2K": 12.7,
+        "2DK": 18.2,
+        "2LDK": 20.7,
+        "3K": 22.7,
+        "3DK": 23.7,
+        "3LDK": 27.8,
+        "4K": 24.1,
+        "4DK": 25,
+        "4LDK": 34.8,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_suginami-20260617.html",
+        "episode": "Ep.05",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都杉並区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、9.0万円（ワンルーム）～35.1万円（5K以上）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       },
       "台東区": {
         "1R": 11.4,
         "1K": 11.5,
+        "1DK": 11.9,
         "1LDK": 17.2,
-        "2LDK": 19.8,
+        "2K": 12,
+        "2DK": 19.8,
+        "2LDK": 22.4,
+        "3K": 20.9,
+        "3DK": 23.4,
+        "3LDK": 33.5,
+        "4K": 23.5,
+        "4DK": 26.9,
+        "4LDK": 41.9,
         "snapshot_date": "2026-06-17",
-        "episode": "Ep.06"
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_taito-20260617.html",
+        "episode": "Ep.06",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都台東区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、11.4万円（ワンルーム）～41.9万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       },
       "墨田区": {
         "1R": 10.3,
         "1K": 10.4,
+        "1DK": 11.8,
         "1LDK": 16.1,
+        "2K": 12.2,
+        "2DK": 16.1,
         "2LDK": 18.2,
+        "3K": 16.2,
+        "3DK": 18.2,
+        "3LDK": 28.2,
+        "4K": 19.5,
+        "4DK": 19.6,
+        "4LDK": 27.5,
         "snapshot_date": "2026-06-17",
-        "episode": "Ep.06"
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_sumida-20260617.html",
+        "episode": "Ep.06",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都墨田区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、10.3万円（ワンルーム）～28.2万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       },
       "江東区": {
         "1R": 10.9,
         "1K": 11,
+        "1DK": 11.3,
         "1LDK": 15.6,
-        "2LDK": 17.9,
+        "2K": 11.4,
+        "2DK": 17.9,
+        "2LDK": 21.5,
+        "3K": 20.1,
+        "3DK": 21.3,
+        "3LDK": 36.1,
+        "4K": 23.8,
+        "4DK": 24.9,
+        "4LDK": 37.6,
         "snapshot_date": "2026-06-17",
-        "episode": "Ep.06"
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_koto-20260617.html",
+        "episode": "Ep.06",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都江東区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、10.9万円（ワンルーム）～37.6万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "千代田区": {
+        "1R": 13.2,
+        "1K": 13.2,
+        "1DK": 16.1,
+        "1LDK": 22.2,
+        "2K": 25.2,
+        "2LDK": 36.4,
+        "3K": 31.3,
+        "3LDK": 87.8,
+        "4K": 42.4,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_chiyoda-20260617.html",
+        "episode": "Ep.01",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都千代田区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、13.2万円（ワンルーム）～87.8万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "中央区": {
+        "1R": 13.7,
+        "1K": 13.8,
+        "1DK": 15,
+        "1LDK": 20.3,
+        "2K": 22.1,
+        "2DK": 26.3,
+        "2LDK": 28.5,
+        "3K": 32.4,
+        "3DK": 32,
+        "3LDK": 37.9,
+        "4K": 37.9,
+        "4DK": 38.9,
+        "4LDK": 44.7,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_chuo-20260617.html",
+        "episode": "Ep.01",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都中央区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、13.7万円（ワンルーム）～44.7万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "港区": {
+        "1R": 14.7,
+        "1K": 15.4,
+        "1DK": 16.2,
+        "1LDK": 27.7,
+        "2K": 16.4,
+        "2DK": 40.5,
+        "2LDK": 45.1,
+        "3LDK": 80.9,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_minato-20260617.html",
+        "episode": "Ep.01",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都港区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、14.7万円（ワンルーム）～80.9万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "新宿区": {
+        "1R": 11.9,
+        "1K": 12.4,
+        "1DK": 14.5,
+        "1LDK": 18.8,
+        "2K": 15.6,
+        "2LDK": 29.1,
+        "3K": 28.4,
+        "3DK": 29.4,
+        "3LDK": 43.7,
+        "4K": 30,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_shinjuku-20260617.html",
+        "episode": "Ep.02",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都新宿区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、11.9万円（ワンルーム）～43.7万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "渋谷区": {
+        "1R": 12.2,
+        "1K": 13.1,
+        "1DK": 16.7,
+        "1LDK": 21.5,
+        "2DK": 21.4,
+        "2LDK": 37.1,
+        "3K": 30.9,
+        "3LDK": 75,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_shibuya-20260617.html",
+        "episode": "Ep.02",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都渋谷区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、12.2万円（ワンルーム）～75.0万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "文京区": {
+        "1R": 11.1,
+        "1K": 12.2,
+        "1DK": 14.5,
+        "1LDK": 19.1,
+        "2K": 16.9,
+        "2DK": 21.5,
+        "2LDK": 27,
+        "3K": 21.6,
+        "3DK": 26.3,
+        "3LDK": 40.8,
+        "4K": 30.1,
+        "4DK": 37.8,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_bunkyo-20260617.html",
+        "episode": "Ep.02",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都文京区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、11.1万円（ワンルーム）～40.8万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "目黒区": {
+        "1R": 13.7,
+        "1K": 13.8,
+        "1DK": 15,
+        "1LDK": 19.8,
+        "2K": 15.8,
+        "2DK": 21.8,
+        "2LDK": 28.7,
+        "3K": 25.7,
+        "3DK": 31,
+        "3LDK": 50.6,
+        "4K": 31.1,
+        "4DK": 35.1,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_meguro-20260617.html",
+        "episode": "Ep.03",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都目黒区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、13.7万円（ワンルーム）～50.6万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "世田谷区": {
+        "1R": 10.6,
+        "1K": 11,
+        "1DK": 12.6,
+        "1LDK": 16.9,
+        "2K": 13.3,
+        "2DK": 19.8,
+        "2LDK": 23.6,
+        "3K": 22,
+        "3DK": 24.2,
+        "3LDK": 31.9,
+        "4K": 24.3,
+        "4DK": 27.6,
+        "4LDK": 41,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_setagaya-20260617.html",
+        "episode": "Ep.03",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都世田谷区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、10.6万円（ワンルーム）～41.0万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "品川区": {
+        "1R": 10.3,
+        "1K": 10.7,
+        "1DK": 12.8,
+        "1LDK": 17.9,
+        "2K": 13,
+        "2DK": 19.1,
+        "2LDK": 24.6,
+        "3K": 20.2,
+        "3DK": 24.1,
+        "3LDK": 46.7,
+        "4K": 24.7,
+        "4DK": 34.3,
+        "4LDK": 68.2,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_shinagawa-20260617.html",
+        "episode": "Ep.04",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都品川区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、10.3万円（ワンルーム）～68.2万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "大田区": {
+        "1R": 8.8,
+        "1K": 9.8,
+        "1DK": 11.6,
+        "1LDK": 15,
+        "2K": 11.8,
+        "2DK": 16.7,
+        "2LDK": 19.5,
+        "3K": 23.2,
+        "3DK": 23.5,
+        "3LDK": 27.4,
+        "4K": 23.3,
+        "4DK": 24.8,
+        "4LDK": 37.7,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_ota-20260617.html",
+        "episode": "Ep.04",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都大田区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、8.8万円（ワンルーム）～37.7万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "北区": {
+        "1R": 8.5,
+        "1K": 9.8,
+        "1DK": 11.6,
+        "1LDK": 14.7,
+        "2K": 11.7,
+        "2DK": 16.9,
+        "2LDK": 21.6,
+        "3K": 19.1,
+        "3DK": 21.6,
+        "3LDK": 29.3,
+        "4K": 21.9,
+        "4DK": 24.6,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_kita-20260617.html",
+        "episode": "Ep.07",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都北区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、8.5万円（ワンルーム）～29.3万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "荒川区": {
+        "1R": 8.6,
+        "1K": 9.1,
+        "1DK": 12.2,
+        "1LDK": 14.2,
+        "2K": 13,
+        "2DK": 17.8,
+        "2LDK": 21,
+        "3K": 20.9,
+        "3DK": 19.1,
+        "3LDK": 24.2,
+        "4K": 21.1,
+        "4DK": 31.5,
+        "4LDK": 34.5,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_arakawa-20260617.html",
+        "episode": "Ep.07",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都荒川区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、8.6万円（ワンルーム）～34.5万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "足立区": {
+        "1R": 7.7,
+        "1K": 8.3,
+        "1DK": 9,
+        "1LDK": 12.7,
+        "2K": 10.1,
+        "2DK": 13.1,
+        "2LDK": 14.7,
+        "3K": 13.9,
+        "3DK": 14.8,
+        "3LDK": 21,
+        "4K": 14.9,
+        "4DK": 21.9,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_adachi-20260617.html",
+        "episode": "Ep.07",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都足立区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、7.7万円（ワンルーム）～21.9万円（4DK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "板橋区": {
+        "1R": 8.5,
+        "1K": 9,
+        "1DK": 10.9,
+        "1LDK": 13.5,
+        "2DK": 13.6,
+        "2LDK": 17,
+        "3K": 13.7,
+        "3DK": 16.3,
+        "3LDK": 24.9,
+        "4K": 17.2,
+        "4DK": 19.8,
+        "4LDK": 28.6,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_itabashi-20260617.html",
+        "episode": "Ep.08",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都板橋区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、8.5万円（ワンルーム）～28.6万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "練馬区": {
+        "1R": 8.7,
+        "1K": 8.8,
+        "1DK": 10.9,
+        "1LDK": 13.5,
+        "2K": 12.8,
+        "2DK": 14.1,
+        "2LDK": 16.3,
+        "3K": 16.1,
+        "3DK": 14.2,
+        "3LDK": 24.1,
+        "4K": 16.5,
+        "4DK": 22.3,
+        "4LDK": 32.3,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_nerima-20260617.html",
+        "episode": "Ep.08",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都練馬区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、8.7万円（ワンルーム）～32.3万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "葛飾区": {
+        "1R": 7.2,
+        "1K": 8.2,
+        "1DK": 9.7,
+        "1LDK": 12.3,
+        "2K": 9.8,
+        "2LDK": 15.9,
+        "3K": 16.9,
+        "3DK": 15.2,
+        "3LDK": 21.5,
+        "4K": 18.6,
+        "4DK": 18.9,
+        "4LDK": 25.1,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_katsushika-20260617.html",
+        "episode": "Ep.09",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都葛飾区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、7.2万円（ワンルーム）～26.1万円（5K以上）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "江戸川区": {
+        "1R": 9.1,
+        "1K": 9.2,
+        "1LDK": 13.4,
+        "2K": 9.8,
+        "2DK": 15.3,
+        "2LDK": 16.3,
+        "3K": 15.6,
+        "3DK": 16.4,
+        "3LDK": 24.4,
+        "4K": 16.5,
+        "4DK": 19.1,
+        "4LDK": 26.5,
+        "snapshot_date": "2026-06-17",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_edogawa-20260617.html",
+        "episode": "Ep.09",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都江戸川区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、9.1万円（ワンルーム）～26.5万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       }
     }
   },
@@ -263,7 +673,7 @@
         "top_passengers": 44082,
         "total_daily": 93390,
         "station_count": 3,
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
@@ -271,7 +681,7 @@
         "top_passengers": 501818,
         "total_daily": 501818,
         "station_count": 1,
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
@@ -279,7 +689,159 @@
         "top_passengers": 65257,
         "total_daily": 65257,
         "station_count": 1,
-        "episode": "Ep.07",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "千代田区": {
+        "top_station": "東京",
+        "top_passengers": 993915,
+        "total_daily": 1723794,
+        "station_count": 7,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中央区": {
+        "top_station": "八丁堀",
+        "top_passengers": 161065,
+        "total_daily": 545975,
+        "station_count": 6,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "港区": {
+        "top_station": "浜松町",
+        "top_passengers": 253334,
+        "total_daily": 816171,
+        "station_count": 9,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "新宿区": {
+        "top_station": "早稲田",
+        "top_passengers": 76014,
+        "total_daily": 214918,
+        "station_count": 4,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "文京区": {
+        "top_station": "白山",
+        "top_passengers": 45428,
+        "total_daily": 145685,
+        "station_count": 5,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "台東区": {
+        "top_station": "浅草",
+        "top_passengers": 162672,
+        "total_daily": 206607,
+        "station_count": 2,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "墨田区": {
+        "top_station": "住吉",
+        "top_passengers": 92207,
+        "total_daily": 149614,
+        "station_count": 3,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江東区": {
+        "top_station": "葛西臨海公園",
+        "top_passengers": 27292,
+        "total_daily": 27292,
+        "station_count": 1,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "品川区": {
+        "top_station": "テレコムセンター",
+        "top_passengers": 8505,
+        "total_daily": 11468,
+        "station_count": 2,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "目黒区": {
+        "top_station": "品川",
+        "top_passengers": 548442,
+        "total_daily": 1178165,
+        "station_count": 7,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "大田区": {
+        "top_station": "京急蒲田",
+        "top_passengers": 59288,
+        "total_daily": 151465,
+        "station_count": 6,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "世田谷区": {
+        "top_station": "三軒茶屋",
+        "top_passengers": 217582,
+        "total_daily": 541206,
+        "station_count": 13,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "渋谷区": {
+        "top_station": "渋谷",
+        "top_passengers": 1215997,
+        "total_daily": 1841818,
+        "station_count": 6,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中野区": {
+        "top_station": "西武新宿",
+        "top_passengers": 143181,
+        "total_daily": 644575,
+        "station_count": 8,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "杉並区": {
+        "top_station": "高円寺",
+        "top_passengers": 92138,
+        "total_daily": 265404,
+        "station_count": 5,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "豊島区": {
+        "top_station": "巣鴨",
+        "top_passengers": 216984,
+        "total_daily": 376842,
+        "station_count": 10,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "top_station": "赤羽",
+        "top_passengers": 183284,
+        "total_daily": 207227,
+        "station_count": 2,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "top_station": "上板橋",
+        "top_passengers": 48520,
+        "total_daily": 85364,
+        "station_count": 2,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "top_station": "金町",
+        "top_passengers": 95976,
+        "total_daily": 118881,
+        "station_count": 2,
+        "episode": "",
         "fetched_at": "2026-06-17"
       }
     }
@@ -292,21 +854,154 @@
         "avg_yen_sqm": 817470.6,
         "avg_change_pct": null,
         "point_count": 17,
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
         "avg_yen_sqm": 1160368.4,
         "avg_change_pct": null,
         "point_count": 19,
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
         "avg_yen_sqm": 422777.8,
         "avg_change_pct": null,
         "point_count": 18,
-        "episode": "Ep.07",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "千代田区": {
+        "avg_yen_sqm": 16713333.3,
+        "avg_change_pct": null,
+        "point_count": 13,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中央区": {
+        "avg_yen_sqm": 2818400,
+        "avg_change_pct": null,
+        "point_count": 26,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "港区": {
+        "avg_yen_sqm": 4138888.9,
+        "avg_change_pct": null,
+        "point_count": 10,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "新宿区": {
+        "avg_yen_sqm": 2017708.3,
+        "avg_change_pct": null,
+        "point_count": 24,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "文京区": {
+        "avg_yen_sqm": 1420296.3,
+        "avg_change_pct": null,
+        "point_count": 28,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "台東区": {
+        "avg_yen_sqm": 1680818.2,
+        "avg_change_pct": null,
+        "point_count": 22,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "墨田区": {
+        "avg_yen_sqm": 710750,
+        "avg_change_pct": null,
+        "point_count": 13,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江東区": {
+        "avg_yen_sqm": 452272.7,
+        "avg_change_pct": null,
+        "point_count": 11,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "目黒区": {
+        "avg_yen_sqm": 3030909.1,
+        "avg_change_pct": null,
+        "point_count": 22,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "大田区": {
+        "avg_yen_sqm": 649352.9,
+        "avg_change_pct": null,
+        "point_count": 18,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "世田谷区": {
+        "avg_yen_sqm": 1144122.8,
+        "avg_change_pct": null,
+        "point_count": 58,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "渋谷区": {
+        "avg_yen_sqm": 8119354.8,
+        "avg_change_pct": null,
+        "point_count": 31,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中野区": {
+        "avg_yen_sqm": 2300230.8,
+        "avg_change_pct": null,
+        "point_count": 27,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "杉並区": {
+        "avg_yen_sqm": 1011888.9,
+        "avg_change_pct": null,
+        "point_count": 18,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "豊島区": {
+        "avg_yen_sqm": 1159222.2,
+        "avg_change_pct": null,
+        "point_count": 27,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "avg_yen_sqm": 1206666.7,
+        "avg_change_pct": null,
+        "point_count": 15,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "avg_yen_sqm": 587555.6,
+        "avg_change_pct": null,
+        "point_count": 19,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "avg_yen_sqm": 414000,
+        "avg_change_pct": null,
+        "point_count": 17,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江戸川区": {
+        "avg_yen_sqm": 363222.2,
+        "avg_change_pct": null,
+        "point_count": 9,
+        "episode": "",
         "fetched_at": "2026-06-17"
       }
     }
@@ -321,7 +1016,7 @@
         "pop_2040": 97089,
         "change_pct": "3.2%",
         "mesh_count": 76,
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
@@ -329,7 +1024,7 @@
         "pop_2040": 63311,
         "change_pct": "-0.8%",
         "mesh_count": 64,
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
@@ -337,7 +1032,167 @@
         "pop_2040": 69402,
         "change_pct": "-0.7%",
         "mesh_count": 72,
-        "episode": "Ep.07",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "千代田区": {
+        "pop_2020": 6047,
+        "pop_2040": 7286,
+        "change_pct": "20.5%",
+        "mesh_count": 24,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中央区": {
+        "pop_2020": 97432,
+        "pop_2040": 116655,
+        "change_pct": "19.7%",
+        "mesh_count": 67,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "港区": {
+        "pop_2020": 50519,
+        "pop_2040": 59398,
+        "change_pct": "17.6%",
+        "mesh_count": 54,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "新宿区": {
+        "pop_2020": 106995,
+        "pop_2040": 113619,
+        "change_pct": "6.2%",
+        "mesh_count": 80,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "文京区": {
+        "pop_2020": 103412,
+        "pop_2040": 114661,
+        "change_pct": "10.9%",
+        "mesh_count": 70,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "台東区": {
+        "pop_2020": 106160,
+        "pop_2040": 115032,
+        "change_pct": "8.4%",
+        "mesh_count": 71,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "墨田区": {
+        "pop_2020": 120932,
+        "pop_2040": 131989,
+        "change_pct": "9.1%",
+        "mesh_count": 72,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江東区": {
+        "pop_2020": 117200,
+        "pop_2040": 124709,
+        "change_pct": "6.4%",
+        "mesh_count": 93,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "品川区": {
+        "pop_2020": 844,
+        "pop_2040": 1312,
+        "change_pct": "55.5%",
+        "mesh_count": 7,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "目黒区": {
+        "pop_2020": 66995,
+        "pop_2040": 74027,
+        "change_pct": "10.5%",
+        "mesh_count": 67,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "大田区": {
+        "pop_2020": 107254,
+        "pop_2040": 110126,
+        "change_pct": "2.7%",
+        "mesh_count": 82,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "世田谷区": {
+        "pop_2020": 359617,
+        "pop_2040": 375244,
+        "change_pct": "4.3%",
+        "mesh_count": 232,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "渋谷区": {
+        "pop_2020": 43555,
+        "pop_2040": 48110,
+        "change_pct": "10.5%",
+        "mesh_count": 72,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中野区": {
+        "pop_2020": 115436,
+        "pop_2040": 118712,
+        "change_pct": "2.8%",
+        "mesh_count": 80,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "杉並区": {
+        "pop_2020": 118668,
+        "pop_2040": 120514,
+        "change_pct": "1.6%",
+        "mesh_count": 80,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "豊島区": {
+        "pop_2020": 128992,
+        "pop_2040": 140228,
+        "change_pct": "8.7%",
+        "mesh_count": 80,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "pop_2020": 99812,
+        "pop_2040": 100966,
+        "change_pct": "1.2%",
+        "mesh_count": 80,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "pop_2020": 78569,
+        "pop_2040": 82383,
+        "change_pct": "4.9%",
+        "mesh_count": 71,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "pop_2020": 73120,
+        "pop_2040": 73848,
+        "change_pct": "1%",
+        "mesh_count": 77,
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江戸川区": {
+        "pop_2020": 60979,
+        "pop_2040": 57027,
+        "change_pct": "-6.5%",
+        "mesh_count": 69,
+        "episode": "",
         "fetched_at": "2026-06-17"
       }
     }
@@ -353,7 +1208,7 @@
         "tsunami": false,
         "landslide": true,
         "summary": "liquefaction, flood, storm_surge, landslide",
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
@@ -363,7 +1218,7 @@
         "tsunami": false,
         "landslide": false,
         "summary": "liquefaction, flood, storm_surge",
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
@@ -373,7 +1228,207 @@
         "tsunami": false,
         "landslide": false,
         "summary": "liquefaction, flood, storm_surge",
-        "episode": "Ep.07",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "千代田区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, storm_surge, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中央区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "港区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "新宿区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "文京区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "台東区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "墨田区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江東区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": true,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge, tsunami",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "品川区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "目黒区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, storm_surge, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "大田区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "世田谷区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "渋谷区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中野区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "杉並区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "豊島区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, storm_surge, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江戸川区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": true,
+        "landslide": false,
+        "summary": "liquefaction, flood, storm_surge, tsunami",
+        "episode": "",
         "fetched_at": "2026-06-17"
       }
     }
@@ -1298,7 +2353,7 @@
             "aggregation": "DistrictName"
           }
         ],
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
@@ -1346,7 +2401,7 @@
             "aggregation": "DistrictName"
           }
         ],
-        "episode": "Ep.07",
+        "episode": "",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
@@ -1412,7 +2467,1327 @@
             "aggregation": "DistrictName"
           }
         ],
-        "episode": "Ep.07",
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "千代田区": {
+        "top_districts": [
+          {
+            "name": "神田神保町",
+            "count": 24,
+            "avg_sqm": 193,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "一番町",
+            "count": 23,
+            "avg_sqm": 229.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "岩本町",
+            "count": 22,
+            "avg_sqm": 146.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "飯田橋",
+            "count": 22,
+            "avg_sqm": 217,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "平河町",
+            "count": 19,
+            "avg_sqm": 157.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "富士見",
+            "count": 19,
+            "avg_sqm": 296.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東神田",
+            "count": 19,
+            "avg_sqm": 129.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "麹町",
+            "count": 19,
+            "avg_sqm": 225.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "三番町",
+            "count": 17,
+            "avg_sqm": 230.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "外神田",
+            "count": 16,
+            "avg_sqm": 197.9,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中央区": {
+        "top_districts": [
+          {
+            "name": "晴海",
+            "count": 369,
+            "avg_sqm": 195.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "勝どき",
+            "count": 215,
+            "avg_sqm": 223.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "月島",
+            "count": 94,
+            "avg_sqm": 170.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "日本橋浜町",
+            "count": 79,
+            "avg_sqm": 166.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "佃",
+            "count": 76,
+            "avg_sqm": 162.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "湊",
+            "count": 75,
+            "avg_sqm": 201.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "築地",
+            "count": 69,
+            "avg_sqm": 150.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新川",
+            "count": 67,
+            "avg_sqm": 143.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "銀座",
+            "count": 40,
+            "avg_sqm": 181.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東日本橋",
+            "count": 38,
+            "avg_sqm": 153.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "港区": {
+        "top_districts": [
+          {
+            "name": "芝浦",
+            "count": 200,
+            "avg_sqm": 186.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "港南",
+            "count": 148,
+            "avg_sqm": 172.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "赤坂",
+            "count": 135,
+            "avg_sqm": 216.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "三田",
+            "count": 126,
+            "avg_sqm": 257.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高輪",
+            "count": 123,
+            "avg_sqm": 196.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南麻布",
+            "count": 100,
+            "avg_sqm": 214.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "白金",
+            "count": 99,
+            "avg_sqm": 248,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南青山",
+            "count": 84,
+            "avg_sqm": 236,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "六本木",
+            "count": 74,
+            "avg_sqm": 285,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "芝",
+            "count": 73,
+            "avg_sqm": 175.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "新宿区": {
+        "top_districts": [
+          {
+            "name": "西新宿",
+            "count": 171,
+            "avg_sqm": 171.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新宿",
+            "count": 96,
+            "avg_sqm": 111.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "北新宿",
+            "count": 88,
+            "avg_sqm": 101.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西早稲田",
+            "count": 71,
+            "avg_sqm": 110.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中落合",
+            "count": 53,
+            "avg_sqm": 95.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "富久町",
+            "count": 47,
+            "avg_sqm": 185.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "下落合",
+            "count": 46,
+            "avg_sqm": 125.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "百人町",
+            "count": 43,
+            "avg_sqm": 99.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大久保",
+            "count": 43,
+            "avg_sqm": 121.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "四谷",
+            "count": 42,
+            "avg_sqm": 203.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "文京区": {
+        "top_districts": [
+          {
+            "name": "小石川",
+            "count": 113,
+            "avg_sqm": 163.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "本郷",
+            "count": 105,
+            "avg_sqm": 146.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "本駒込",
+            "count": 68,
+            "avg_sqm": 116.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "湯島",
+            "count": 66,
+            "avg_sqm": 146.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大塚",
+            "count": 57,
+            "avg_sqm": 112.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "千石",
+            "count": 57,
+            "avg_sqm": 145.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "音羽",
+            "count": 56,
+            "avg_sqm": 106.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "白山",
+            "count": 54,
+            "avg_sqm": 116.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "千駄木",
+            "count": 52,
+            "avg_sqm": 112.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "関口",
+            "count": 36,
+            "avg_sqm": 129.9,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "台東区": {
+        "top_districts": [
+          {
+            "name": "浅草",
+            "count": 63,
+            "avg_sqm": 104,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "台東",
+            "count": 57,
+            "avg_sqm": 125.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "根岸",
+            "count": 53,
+            "avg_sqm": 93.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "千束",
+            "count": 39,
+            "avg_sqm": 79.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東上野",
+            "count": 38,
+            "avg_sqm": 141.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "蔵前",
+            "count": 37,
+            "avg_sqm": 123.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "浅草橋",
+            "count": 36,
+            "avg_sqm": 109.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "入谷",
+            "count": 33,
+            "avg_sqm": 102.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "下谷",
+            "count": 31,
+            "avg_sqm": 96.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "竜泉",
+            "count": 30,
+            "avg_sqm": 95,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "墨田区": {
+        "top_districts": [
+          {
+            "name": "向島",
+            "count": 64,
+            "avg_sqm": 89.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東向島",
+            "count": 57,
+            "avg_sqm": 88.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "江東橋",
+            "count": 55,
+            "avg_sqm": 107.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "緑",
+            "count": 46,
+            "avg_sqm": 101.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八広",
+            "count": 36,
+            "avg_sqm": 73.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "立花",
+            "count": 33,
+            "avg_sqm": 69.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "亀沢",
+            "count": 32,
+            "avg_sqm": 99.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "千歳",
+            "count": 32,
+            "avg_sqm": 113.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "両国",
+            "count": 32,
+            "avg_sqm": 86.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東駒形",
+            "count": 30,
+            "avg_sqm": 97.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江東区": {
+        "top_districts": [
+          {
+            "name": "豊洲",
+            "count": 320,
+            "avg_sqm": 185.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "有明",
+            "count": 217,
+            "avg_sqm": 165.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "亀戸",
+            "count": 186,
+            "avg_sqm": 93.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大島",
+            "count": 149,
+            "avg_sqm": 84.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東雲",
+            "count": 133,
+            "avg_sqm": 137.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南砂",
+            "count": 113,
+            "avg_sqm": 76.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東砂",
+            "count": 112,
+            "avg_sqm": 69.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東陽",
+            "count": 109,
+            "avg_sqm": 97.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "北砂",
+            "count": 62,
+            "avg_sqm": 74.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "白河",
+            "count": 52,
+            "avg_sqm": 146.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "品川区": {
+        "top_districts": [
+          {
+            "name": "西五反田",
+            "count": 156,
+            "avg_sqm": 162.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東品川",
+            "count": 146,
+            "avg_sqm": 134.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南大井",
+            "count": 107,
+            "avg_sqm": 86.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東五反田",
+            "count": 93,
+            "avg_sqm": 152.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "北品川",
+            "count": 79,
+            "avg_sqm": 150.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大崎",
+            "count": 78,
+            "avg_sqm": 177.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上大崎",
+            "count": 77,
+            "avg_sqm": 175.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東大井",
+            "count": 70,
+            "avg_sqm": 123.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大井",
+            "count": 65,
+            "avg_sqm": 171,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "荏原",
+            "count": 46,
+            "avg_sqm": 126.5,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "目黒区": {
+        "top_districts": [
+          {
+            "name": "下目黒",
+            "count": 86,
+            "avg_sqm": 149.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中目黒",
+            "count": 56,
+            "avg_sqm": 160.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "目黒",
+            "count": 51,
+            "avg_sqm": 153.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東山",
+            "count": 47,
+            "avg_sqm": 153.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "青葉台",
+            "count": 42,
+            "avg_sqm": 131.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大橋",
+            "count": 42,
+            "avg_sqm": 153.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "碑文谷",
+            "count": 39,
+            "avg_sqm": 128.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "目黒本町",
+            "count": 39,
+            "avg_sqm": 127.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上目黒",
+            "count": 35,
+            "avg_sqm": 170.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八雲",
+            "count": 23,
+            "avg_sqm": 99.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "大田区": {
+        "top_districts": [
+          {
+            "name": "下丸子",
+            "count": 78,
+            "avg_sqm": 82.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大森西",
+            "count": 71,
+            "avg_sqm": 81.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大森北",
+            "count": 64,
+            "avg_sqm": 95.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "蒲田",
+            "count": 61,
+            "avg_sqm": 99.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南馬込",
+            "count": 51,
+            "avg_sqm": 72.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "池上",
+            "count": 49,
+            "avg_sqm": 81.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "矢口",
+            "count": 42,
+            "avg_sqm": 76.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "山王",
+            "count": 40,
+            "avg_sqm": 107.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西六郷",
+            "count": 40,
+            "avg_sqm": 82.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上池台",
+            "count": 38,
+            "avg_sqm": 78.4,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "世田谷区": {
+        "top_districts": [
+          {
+            "name": "弦巻",
+            "count": 83,
+            "avg_sqm": 111.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "等々力",
+            "count": 65,
+            "avg_sqm": 109.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "松原",
+            "count": 58,
+            "avg_sqm": 100.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "成城",
+            "count": 58,
+            "avg_sqm": 105.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南烏山",
+            "count": 56,
+            "avg_sqm": 72,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上馬",
+            "count": 54,
+            "avg_sqm": 132.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "三軒茶屋",
+            "count": 54,
+            "avg_sqm": 118.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "池尻",
+            "count": 52,
+            "avg_sqm": 130.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "砧",
+            "count": 51,
+            "avg_sqm": 83,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "千歳台",
+            "count": 50,
+            "avg_sqm": 87.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "渋谷区": {
+        "top_districts": [
+          {
+            "name": "代々木",
+            "count": 109,
+            "avg_sqm": 146.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "広尾",
+            "count": 82,
+            "avg_sqm": 229.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "千駄ケ谷",
+            "count": 72,
+            "avg_sqm": 208.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "恵比寿",
+            "count": 62,
+            "avg_sqm": 205.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "神宮前",
+            "count": 53,
+            "avg_sqm": 195.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "幡ケ谷",
+            "count": 50,
+            "avg_sqm": 104.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "本町",
+            "count": 46,
+            "avg_sqm": 108.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "富ケ谷",
+            "count": 41,
+            "avg_sqm": 171.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "初台",
+            "count": 40,
+            "avg_sqm": 136.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "渋谷",
+            "count": 38,
+            "avg_sqm": 231.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "中野区": {
+        "top_districts": [
+          {
+            "name": "東中野",
+            "count": 96,
+            "avg_sqm": 123.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "本町",
+            "count": 79,
+            "avg_sqm": 98,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中央",
+            "count": 74,
+            "avg_sqm": 111.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中野",
+            "count": 66,
+            "avg_sqm": 127.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南台",
+            "count": 47,
+            "avg_sqm": 102.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "弥生町",
+            "count": 44,
+            "avg_sqm": 92.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新井",
+            "count": 40,
+            "avg_sqm": 103.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "江古田",
+            "count": 23,
+            "avg_sqm": 92,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "鷺宮",
+            "count": 21,
+            "avg_sqm": 71.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "野方",
+            "count": 21,
+            "avg_sqm": 85.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "杉並区": {
+        "top_districts": [
+          {
+            "name": "荻窪",
+            "count": 81,
+            "avg_sqm": 115.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "堀ノ内",
+            "count": 52,
+            "avg_sqm": 89.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高井戸東",
+            "count": 49,
+            "avg_sqm": 106.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "成田東",
+            "count": 46,
+            "avg_sqm": 105.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高円寺南",
+            "count": 46,
+            "avg_sqm": 91.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "和田",
+            "count": 44,
+            "avg_sqm": 93.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "浜田山",
+            "count": 42,
+            "avg_sqm": 121.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "和泉",
+            "count": 40,
+            "avg_sqm": 92.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "方南",
+            "count": 34,
+            "avg_sqm": 101.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上荻",
+            "count": 33,
+            "avg_sqm": 87.2,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "豊島区": {
+        "top_districts": [
+          {
+            "name": "東池袋",
+            "count": 123,
+            "avg_sqm": 135,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "池袋",
+            "count": 60,
+            "avg_sqm": 113.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "巣鴨",
+            "count": 59,
+            "avg_sqm": 98.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高田",
+            "count": 55,
+            "avg_sqm": 111.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "駒込",
+            "count": 51,
+            "avg_sqm": 116.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南大塚",
+            "count": 48,
+            "avg_sqm": 122,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上池袋",
+            "count": 43,
+            "avg_sqm": 87.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南池袋",
+            "count": 42,
+            "avg_sqm": 182.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西池袋",
+            "count": 38,
+            "avg_sqm": 120.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "池袋本町",
+            "count": 37,
+            "avg_sqm": 96.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "top_districts": [
+          {
+            "name": "成増",
+            "count": 69,
+            "avg_sqm": 77.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高島平",
+            "count": 67,
+            "avg_sqm": 44.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "板橋",
+            "count": 58,
+            "avg_sqm": 88.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小豆沢",
+            "count": 54,
+            "avg_sqm": 74.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "前野町",
+            "count": 51,
+            "avg_sqm": 65.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "徳丸",
+            "count": 46,
+            "avg_sqm": 59.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "坂下",
+            "count": 46,
+            "avg_sqm": 63.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小茂根",
+            "count": 40,
+            "avg_sqm": 81.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中台",
+            "count": 37,
+            "avg_sqm": 47.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "志村",
+            "count": 30,
+            "avg_sqm": 66.2,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "top_districts": [
+          {
+            "name": "豊玉北",
+            "count": 56,
+            "avg_sqm": 74.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中村北",
+            "count": 54,
+            "avg_sqm": 78.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "関町北",
+            "count": 47,
+            "avg_sqm": 63.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "関町南",
+            "count": 46,
+            "avg_sqm": 70.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "貫井",
+            "count": 45,
+            "avg_sqm": 65.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "光が丘",
+            "count": 43,
+            "avg_sqm": 69.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高野台",
+            "count": 39,
+            "avg_sqm": 72.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "石神井町",
+            "count": 37,
+            "avg_sqm": 101.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東大泉",
+            "count": 37,
+            "avg_sqm": 82.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "練馬",
+            "count": 35,
+            "avg_sqm": 83.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "top_districts": [
+          {
+            "name": "青戸",
+            "count": 56,
+            "avg_sqm": 59.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "金町",
+            "count": 55,
+            "avg_sqm": 72.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東新小岩",
+            "count": 44,
+            "avg_sqm": 64.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新宿",
+            "count": 38,
+            "avg_sqm": 88.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "亀有",
+            "count": 37,
+            "avg_sqm": 80.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "白鳥",
+            "count": 32,
+            "avg_sqm": 52.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "立石",
+            "count": 32,
+            "avg_sqm": 53.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "堀切",
+            "count": 29,
+            "avg_sqm": 59.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高砂",
+            "count": 28,
+            "avg_sqm": 47.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "奥戸",
+            "count": 27,
+            "avg_sqm": 47,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-17"
+      },
+      "江戸川区": {
+        "top_districts": [
+          {
+            "name": "西葛西",
+            "count": 100,
+            "avg_sqm": 73,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "平井",
+            "count": 70,
+            "avg_sqm": 79.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中葛西",
+            "count": 49,
+            "avg_sqm": 57,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "船堀",
+            "count": 45,
+            "avg_sqm": 85.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東葛西",
+            "count": 44,
+            "avg_sqm": 64,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南葛西",
+            "count": 42,
+            "avg_sqm": 57.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西小岩",
+            "count": 42,
+            "avg_sqm": 79.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南小岩",
+            "count": 33,
+            "avg_sqm": 99,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "清新町",
+            "count": 32,
+            "avg_sqm": 54,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "松江",
+            "count": 28,
+            "avg_sqm": 58.8,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
         "fetched_at": "2026-06-17"
       }
     }

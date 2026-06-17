@@ -15,6 +15,7 @@ import {
   collectPopulation,
   collectDisaster,
   EPISODE_WARDS,
+  WARD_CODE,
   loadEnv,
 } from "./mlit-collector.mjs";
 
@@ -23,11 +24,12 @@ const BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmar
 const EPISODES = path.join(root, "docs/verification/tokyo-series-episodes.json");
 
 function parseArgs(argv) {
-  const out = { ward: "", episode: "", year: 2025, write: false, noCache: false };
+  const out = { ward: "", episode: "", allWards: false, year: 2025, write: false, noCache: false };
   for (let i = 2; i < argv.length; i += 1) {
     const a = argv[i];
     if (a === "--ward") out.ward = argv[++i] ?? "";
     else if (a === "--episode") out.episode = (argv[++i] ?? "").toLowerCase();
+    else if (a === "--all-wards") out.allWards = true;
     else if (a === "--year") out.year = parseInt(argv[++i] ?? "2025", 10);
     else if (a === "--write") out.write = true;
     else if (a === "--no-cache") out.noCache = true;
@@ -53,8 +55,10 @@ async function main() {
       console.error(`Unknown episode: ${args.episode}`);
       process.exit(1);
     }
+  } else if (args.allWards) {
+    wards = Object.keys(WARD_CODE);
   } else {
-    console.error("Usage: sync-mlit-to-benchmarks.mjs --episode ep07 [--write]");
+    console.error("Usage: sync-mlit-to-benchmarks.mjs --episode ep07 | --all-wards [--write]");
     process.exit(2);
   }
 
@@ -65,7 +69,7 @@ async function main() {
     episodesDoc.find(e => e.wards?.every(w => wards.includes(w)))?.episode ??
     "";
 
-  benchmarks.schema_version = "1.1";
+  benchmarks.schema_version = "1.2";
   benchmarks.last_updated = new Date().toISOString().slice(0, 10);
 
   if (!benchmarks.mlit_mansion_2025_q1_q4) {

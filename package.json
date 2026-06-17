@@ -40,6 +40,7 @@
     "merge:mlit-pkm": "node scripts/merge-mlit-price-to-pkm.mjs",
     "sync:mlit-ark": "node scripts/sync-mlit-pkm-to-ark.mjs",
     "sync:mlit-benchmarks": "node scripts/sync-mlit-to-benchmarks.mjs",
+    "sync:suumo-benchmarks": "node scripts/sync-suumo-to-benchmarks.mjs",
     "dossier:ward": "node scripts/render-ward-dossier.mjs",
     "compare:wards": "node scripts/compare-wards.mjs",
     "verify:mlit-drift": "node scripts/verify-mlit-drift.mjs",

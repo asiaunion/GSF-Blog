@@ -92,6 +92,7 @@ async function buildPack(meta, benchmarks, wards, args) {
       ward_avg_sqm: m?.ward_avg_sqm,
       count: m?.count,
       cagr_5y: ts?.wards?.[ward]?.cagr_5y,
+      cagr_full: ts?.wards?.[ward]?.cagr_full,
       pop_change: pop?.change_pct,
       rent_1r: suumo?.["1R"],
       yield_pct: yieldProxy(suumo?.["1R"], m?.est_70sqm),
@@ -119,7 +120,7 @@ async function buildPack(meta, benchmarks, wards, args) {
     `## Executive summary`,
     ``,
     ...summaryRows.map(r =>
-      `- **${r.ward}**: 70㎡≈${r.est_70sqm ?? "—"}万 · ㎡${r.ward_avg_sqm ?? "—"} · n=${r.count ?? "—"} · CAGR5y=${r.cagr_5y ?? "—"}% · 인구Δ=${r.pop_change ?? "—"}% · 1R=${r.rent_1r ?? "—"} · Yield≈${r.yield_pct ?? "—"}%`
+      `- **${r.ward}**: 70㎡≈${r.est_70sqm ?? "—"}万 · ㎡${r.ward_avg_sqm ?? "—"} · n=${r.count ?? "—"} · CAGR5y=${r.cagr_5y ?? r.cagr_full ?? "—"}% · 인구Δ=${r.pop_change ?? "—"} · 1R=${r.rent_1r ?? "—"} · Yield≈${r.yield_pct ?? "—"}%`
     ),
     ``,
     `## Ward comparison table`,
