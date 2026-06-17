@@ -12,7 +12,8 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
-const outDir = path.join(root, ".cache/verification");
+const cacheDir = path.join(root, ".cache/verification");
+const commitDir = path.join(root, "docs/verification/snapshots");
 
 function resolveUrl(input) {
   if (input.startsWith("http")) return input;
@@ -31,7 +32,15 @@ function extractPagecaption(html) {
 }
 
 async function main() {
-  const input = process.argv[2];
+async function main() {
+  const commit = process.argv.includes("--commit");
+  let input = "";
+  for (let i = 2; i < process.argv.length; i += 1) {
+    const a = process.argv[i];
+    if (a === "--commit") continue;
+    input = a;
+    break;
+  }
   if (!input) {
     console.error("Usage: node scripts/fetch-suumo-snapshot.mjs <sc_code|url>");
     process.exit(2);
@@ -39,8 +48,10 @@ async function main() {
 
   const url = resolveUrl(input);
   const code = codeFromUrl(url);
-  const date = new Date().toISOString().slice(0, 10).replace(/-/g, "");
-  const outFile = path.join(outDir, `suumo-sc_${code}-${date}.html`);
+  const dateStamp = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+  const fileName = `suumo-sc_${code}-${dateStamp}.html`;
+  const outDir = commit ? commitDir : cacheDir;
+  const outFile = path.join(outDir, fileName);
 
   const res = await fetch(url, {
     headers: {
@@ -77,6 +88,7 @@ async function main() {
         ok: true,
         url,
         snapshot: path.relative(root, outFile),
+        committed: commit,
         pagecaption: caption,
         hint: "Add snapshot path + snippet to manifest claim evidence",
       },

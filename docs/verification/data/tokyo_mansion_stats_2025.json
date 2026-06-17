@@ -1,0 +1,2521 @@
+{
+  "足立区": {
+    "ward_avg": 59.3,
+    "total_count": 920,
+    "est_70sqm": 4151,
+    "stations": [
+      {
+        "station": "梅田",
+        "avg": 62.7,
+        "count": 58,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "綾瀬",
+        "avg": 72.7,
+        "count": 55,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "東和",
+        "avg": 51.9,
+        "count": 42,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "中央本町",
+        "avg": 43.4,
+        "count": 42,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "新田",
+        "avg": 60.1,
+        "count": 37,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西新井本町",
+        "avg": 48.7,
+        "count": 33,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "小台",
+        "avg": 48.4,
+        "count": 29,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "大谷田",
+        "avg": 39.6,
+        "count": 29,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "東綾瀬",
+        "avg": 80.1,
+        "count": 29,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西保木間",
+        "avg": 41.4,
+        "count": 28,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "千住橋戸町",
+        "avg": 91.3,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "千住関屋町",
+        "avg": 57.8,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "谷中",
+        "avg": 63.5,
+        "count": 24,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西新井",
+        "avg": 57.7,
+        "count": 24,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "栗原",
+        "avg": 58.7,
+        "count": 20,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 API [1차 확인] A계층",
+    "fetched_at": "2026-06-17"
+  },
+  "荒川区": {
+    "ward_avg": 86.1,
+    "total_count": 510,
+    "est_70sqm": 6027,
+    "stations": [
+      {
+        "station": "東日暮里",
+        "avg": 98.4,
+        "count": 110,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "南千住",
+        "avg": 82.9,
+        "count": 107,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西日暮里",
+        "avg": 107,
+        "count": 82,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "荒川",
+        "avg": 76.9,
+        "count": 76,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "町屋",
+        "avg": 75.8,
+        "count": 47,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "東尾久",
+        "avg": 69.5,
+        "count": 46,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西尾久",
+        "avg": 67.6,
+        "count": 42,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 API [1차 확인] A계층",
+    "fetched_at": "2026-06-17"
+  },
+  "文京区": {
+    "ward_avg": 131.5,
+    "total_count": 808,
+    "est_70sqm": 9207,
+    "stations": [
+      {
+        "station": "水道橋",
+        "avg": 160.9,
+        "count": 13,
+        "min": 50,
+        "max": 289
+      },
+      {
+        "station": "御茶ノ水",
+        "avg": 155.8,
+        "count": 24,
+        "min": 84,
+        "max": 273
+      },
+      {
+        "station": "春日(東京)",
+        "avg": 153.9,
+        "count": 106,
+        "min": 53,
+        "max": 431
+      },
+      {
+        "station": "本郷三丁目",
+        "avg": 153.3,
+        "count": 54,
+        "min": 56,
+        "max": 262
+      },
+      {
+        "station": "千石",
+        "avg": 144.7,
+        "count": 47,
+        "min": 40,
+        "max": 240
+      },
+      {
+        "station": "巣鴨",
+        "avg": 141.7,
+        "count": 5,
+        "min": 55,
+        "max": 187
+      },
+      {
+        "station": "後楽園",
+        "avg": 141,
+        "count": 39,
+        "min": 50,
+        "max": 283
+      },
+      {
+        "station": "湯島",
+        "avg": 140.4,
+        "count": 40,
+        "min": 60,
+        "max": 273
+      },
+      {
+        "station": "茗荷谷",
+        "avg": 139.8,
+        "count": 78,
+        "min": 38,
+        "max": 309
+      },
+      {
+        "station": "東池袋",
+        "avg": 128.2,
+        "count": 4,
+        "min": 62,
+        "max": 187
+      },
+      {
+        "station": "根津",
+        "avg": 127.7,
+        "count": 24,
+        "min": 65,
+        "max": 200
+      },
+      {
+        "station": "東大前",
+        "avg": 124.1,
+        "count": 23,
+        "min": 33,
+        "max": 215
+      },
+      {
+        "station": "江戸川橋",
+        "avg": 122.5,
+        "count": 70,
+        "min": 60,
+        "max": 225
+      },
+      {
+        "station": "飯田橋",
+        "avg": 121.4,
+        "count": 16,
+        "min": 47,
+        "max": 187
+      },
+      {
+        "station": "駒込",
+        "avg": 119.6,
+        "count": 35,
+        "min": 51,
+        "max": 250
+      }
+    ]
+  },
+  "千代田区": {
+    "ward_avg": 194.7,
+    "total_count": 357,
+    "est_70sqm": 13630,
+    "stations": [
+      {
+        "station": "四ツ谷",
+        "avg": 317.7,
+        "count": 4,
+        "min": 211,
+        "max": 400
+      },
+      {
+        "station": "永田町",
+        "avg": 280.9,
+        "count": 7,
+        "min": 133,
+        "max": 486
+      },
+      {
+        "station": "新御茶ノ水",
+        "avg": 263.9,
+        "count": 10,
+        "min": 84,
+        "max": 453
+      },
+      {
+        "station": "飯田橋",
+        "avg": 250.1,
+        "count": 28,
+        "min": 100,
+        "max": 547
+      },
+      {
+        "station": "九段下",
+        "avg": 231.1,
+        "count": 18,
+        "min": 96,
+        "max": 500
+      },
+      {
+        "station": "市ケ谷",
+        "avg": 227,
+        "count": 27,
+        "min": 95,
+        "max": 465
+      },
+      {
+        "station": "大手町(東京)",
+        "avg": 225,
+        "count": 12,
+        "min": 163,
+        "max": 291
+      },
+      {
+        "station": "溜池山王",
+        "avg": 225,
+        "count": 1,
+        "min": 225,
+        "max": 225
+      },
+      {
+        "station": "麹町",
+        "avg": 211.9,
+        "count": 20,
+        "min": 64,
+        "max": 375
+      },
+      {
+        "station": "半蔵門",
+        "avg": 202.7,
+        "count": 54,
+        "min": 70,
+        "max": 486
+      },
+      {
+        "station": "淡路町",
+        "avg": 199.8,
+        "count": 11,
+        "min": 93,
+        "max": 357
+      },
+      {
+        "station": "小川町(東京)",
+        "avg": 194.2,
+        "count": 2,
+        "min": 175,
+        "max": 213
+      },
+      {
+        "station": "水道橋",
+        "avg": 190.2,
+        "count": 11,
+        "min": 107,
+        "max": 318
+      },
+      {
+        "station": "神保町",
+        "avg": 188.9,
+        "count": 27,
+        "min": 72,
+        "max": 333
+      },
+      {
+        "station": "末広町(東京)",
+        "avg": 178.1,
+        "count": 6,
+        "min": 70,
+        "max": 280
+      }
+    ]
+  },
+  "中央区": {
+    "ward_avg": 181.1,
+    "total_count": 1421,
+    "est_70sqm": 12680,
+    "stations": [
+      {
+        "station": "新日本橋",
+        "avg": 228.6,
+        "count": 13,
+        "min": 112,
+        "max": 300
+      },
+      {
+        "station": "勝どき",
+        "avg": 205.7,
+        "count": 524,
+        "min": 53,
+        "max": 550
+      },
+      {
+        "station": "小伝馬町",
+        "avg": 190.5,
+        "count": 26,
+        "min": 93,
+        "max": 293
+      },
+      {
+        "station": "東銀座",
+        "avg": 187.1,
+        "count": 21,
+        "min": 100,
+        "max": 327
+      },
+      {
+        "station": "八丁堀(東京)",
+        "avg": 183,
+        "count": 127,
+        "min": 60,
+        "max": 415
+      },
+      {
+        "station": "銀座一丁目",
+        "avg": 181.2,
+        "count": 7,
+        "min": 93,
+        "max": 303
+      },
+      {
+        "station": "月島",
+        "avg": 179.6,
+        "count": 239,
+        "min": 51,
+        "max": 391
+      },
+      {
+        "station": "東京",
+        "avg": 179.2,
+        "count": 5,
+        "min": 76,
+        "max": 246
+      },
+      {
+        "station": "三越前",
+        "avg": 175.8,
+        "count": 8,
+        "min": 75,
+        "max": 360
+      },
+      {
+        "station": "銀座",
+        "avg": 173.3,
+        "count": 8,
+        "min": 72,
+        "max": 267
+      },
+      {
+        "station": "人形町",
+        "avg": 172.1,
+        "count": 50,
+        "min": 52,
+        "max": 292
+      },
+      {
+        "station": "浜町",
+        "avg": 165.5,
+        "count": 65,
+        "min": 52,
+        "max": 273
+      },
+      {
+        "station": "東日本橋",
+        "avg": 159.4,
+        "count": 35,
+        "min": 64,
+        "max": 271
+      },
+      {
+        "station": "築地",
+        "avg": 158.1,
+        "count": 58,
+        "min": 76,
+        "max": 367
+      },
+      {
+        "station": "新富町(東京)",
+        "avg": 150.4,
+        "count": 72,
+        "min": 48,
+        "max": 262
+      }
+    ]
+  },
+  "江戸川区": {
+    "ward_avg": 67.7,
+    "total_count": 710,
+    "est_70sqm": 4739,
+    "stations": [
+      {
+        "station": "小岩",
+        "avg": 82.9,
+        "count": 86,
+        "min": 28,
+        "max": 252
+      },
+      {
+        "station": "平井(東京)",
+        "avg": 78,
+        "count": 80,
+        "min": 37,
+        "max": 173
+      },
+      {
+        "station": "船堀",
+        "avg": 76.2,
+        "count": 89,
+        "min": 32,
+        "max": 141
+      },
+      {
+        "station": "東大島",
+        "avg": 66.7,
+        "count": 13,
+        "min": 50,
+        "max": 99
+      },
+      {
+        "station": "西葛西",
+        "avg": 65.7,
+        "count": 157,
+        "min": 21,
+        "max": 114
+      },
+      {
+        "station": "京成小岩",
+        "avg": 63.5,
+        "count": 8,
+        "min": 35,
+        "max": 94
+      },
+      {
+        "station": "瑞江",
+        "avg": 63,
+        "count": 36,
+        "min": 38,
+        "max": 100
+      },
+      {
+        "station": "新柴又",
+        "avg": 62.7,
+        "count": 1,
+        "min": 63,
+        "max": 63
+      },
+      {
+        "station": "葛西臨海公園",
+        "avg": 61,
+        "count": 20,
+        "min": 40,
+        "max": 85
+      },
+      {
+        "station": "一之江",
+        "avg": 60.7,
+        "count": 29,
+        "min": 26,
+        "max": 89
+      },
+      {
+        "station": "葛西",
+        "avg": 60,
+        "count": 108,
+        "min": 26,
+        "max": 111
+      },
+      {
+        "station": "江戸川",
+        "avg": 58.5,
+        "count": 2,
+        "min": 44,
+        "max": 73
+      },
+      {
+        "station": "篠崎",
+        "avg": 57.6,
+        "count": 22,
+        "min": 33,
+        "max": 89
+      },
+      {
+        "station": "新小岩",
+        "avg": 51.8,
+        "count": 59,
+        "min": 25,
+        "max": 108
+      }
+    ]
+  },
+  "板橋区": {
+    "ward_avg": 70.5,
+    "total_count": 1030,
+    "est_70sqm": 4936,
+    "stations": [
+      {
+        "station": "板橋",
+        "avg": 104.5,
+        "count": 15,
+        "min": 67,
+        "max": 146
+      },
+      {
+        "station": "十条(東京)",
+        "avg": 98.5,
+        "count": 7,
+        "min": 40,
+        "max": 133
+      },
+      {
+        "station": "新板橋",
+        "avg": 91.2,
+        "count": 25,
+        "min": 38,
+        "max": 147
+      },
+      {
+        "station": "板橋区役所前",
+        "avg": 86.9,
+        "count": 73,
+        "min": 40,
+        "max": 132
+      },
+      {
+        "station": "大山(東京)",
+        "avg": 85.8,
+        "count": 86,
+        "min": 5,
+        "max": 182
+      },
+      {
+        "station": "要町",
+        "avg": 81.4,
+        "count": 19,
+        "min": 26,
+        "max": 120
+      },
+      {
+        "station": "小竹向原",
+        "avg": 80.8,
+        "count": 57,
+        "min": 32,
+        "max": 178
+      },
+      {
+        "station": "ときわ台(東京)",
+        "avg": 78.3,
+        "count": 62,
+        "min": 22,
+        "max": 138
+      },
+      {
+        "station": "板橋本町",
+        "avg": 77.6,
+        "count": 62,
+        "min": 24,
+        "max": 129
+      },
+      {
+        "station": "地下鉄成増",
+        "avg": 77.4,
+        "count": 42,
+        "min": 32,
+        "max": 117
+      },
+      {
+        "station": "成増",
+        "avg": 75.8,
+        "count": 40,
+        "min": 37,
+        "max": 111
+      },
+      {
+        "station": "北赤羽",
+        "avg": 75.7,
+        "count": 5,
+        "min": 62,
+        "max": 87
+      },
+      {
+        "station": "下板橋",
+        "avg": 73,
+        "count": 15,
+        "min": 40,
+        "max": 110
+      },
+      {
+        "station": "浮間舟渡",
+        "avg": 72.9,
+        "count": 25,
+        "min": 29,
+        "max": 92
+      },
+      {
+        "station": "千川",
+        "avg": 70.9,
+        "count": 1,
+        "min": 71,
+        "max": 71
+      }
+    ]
+  },
+  "葛飾区": {
+    "ward_avg": 63.9,
+    "total_count": 582,
+    "est_70sqm": 4471,
+    "stations": [
+      {
+        "station": "金町",
+        "avg": 74.5,
+        "count": 119,
+        "min": 17,
+        "max": 167
+      },
+      {
+        "station": "新小岩",
+        "avg": 74.1,
+        "count": 95,
+        "min": 29,
+        "max": 138
+      },
+      {
+        "station": "亀有",
+        "avg": 73.8,
+        "count": 47,
+        "min": 37,
+        "max": 117
+      },
+      {
+        "station": "京成金町",
+        "avg": 72.8,
+        "count": 9,
+        "min": 32,
+        "max": 136
+      },
+      {
+        "station": "小菅",
+        "avg": 70,
+        "count": 2,
+        "min": 69,
+        "max": 71
+      },
+      {
+        "station": "堀切菖蒲園",
+        "avg": 61.8,
+        "count": 28,
+        "min": 28,
+        "max": 89
+      },
+      {
+        "station": "青砥",
+        "avg": 58.6,
+        "count": 66,
+        "min": 17,
+        "max": 116
+      },
+      {
+        "station": "綾瀬",
+        "avg": 57.6,
+        "count": 9,
+        "min": 24,
+        "max": 125
+      },
+      {
+        "station": "お花茶屋",
+        "avg": 55.4,
+        "count": 71,
+        "min": 24,
+        "max": 244
+      },
+      {
+        "station": "四ツ木",
+        "avg": 54.9,
+        "count": 25,
+        "min": 32,
+        "max": 91
+      },
+      {
+        "station": "新柴又",
+        "avg": 54.8,
+        "count": 8,
+        "min": 33,
+        "max": 71
+      },
+      {
+        "station": "京成小岩",
+        "avg": 53.8,
+        "count": 2,
+        "min": 34,
+        "max": 74
+      },
+      {
+        "station": "京成立石",
+        "avg": 53.3,
+        "count": 45,
+        "min": 24,
+        "max": 92
+      },
+      {
+        "station": "京成高砂",
+        "avg": 49.5,
+        "count": 30,
+        "min": 26,
+        "max": 74
+      },
+      {
+        "station": "小岩",
+        "avg": 45.6,
+        "count": 15,
+        "min": 26,
+        "max": 86
+      }
+    ]
+  },
+  "北区": {
+    "ward_avg": 89.6,
+    "total_count": 585,
+    "est_70sqm": 6272,
+    "stations": [
+      {
+        "station": "滝野川",
+        "avg": 93.7,
+        "count": 93,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "志茂",
+        "avg": 88,
+        "count": 44,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "浮間",
+        "avg": 68.5,
+        "count": 39,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "東十条",
+        "avg": 71.8,
+        "count": 37,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "豊島",
+        "avg": 73.9,
+        "count": 35,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "赤羽北",
+        "avg": 74.2,
+        "count": 33,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "王子",
+        "avg": 100,
+        "count": 32,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西ケ原",
+        "avg": 102.1,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "上十条",
+        "avg": 125.8,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "赤羽西",
+        "avg": 86.2,
+        "count": 26,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "赤羽",
+        "avg": 101.4,
+        "count": 25,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "神谷",
+        "avg": 92.6,
+        "count": 23,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "田端新町",
+        "avg": 89.2,
+        "count": 22,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "堀船",
+        "avg": 106.9,
+        "count": 21,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "赤羽南",
+        "avg": 89.9,
+        "count": 16,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 API [1차 확인] A계층",
+    "fetched_at": "2026-06-17"
+  },
+  "江東区": {
+    "ward_avg": 120,
+    "total_count": 1952,
+    "est_70sqm": 8401,
+    "stations": [
+      {
+        "station": "有明(東京)",
+        "avg": 198.6,
+        "count": 63,
+        "min": 21,
+        "max": 271
+      },
+      {
+        "station": "国際展示場",
+        "avg": 195.6,
+        "count": 6,
+        "min": 164,
+        "max": 225
+      },
+      {
+        "station": "新豊洲",
+        "avg": 195.5,
+        "count": 53,
+        "min": 162,
+        "max": 240
+      },
+      {
+        "station": "豊洲",
+        "avg": 168.7,
+        "count": 343,
+        "min": 42,
+        "max": 330
+      },
+      {
+        "station": "お台場海浜公園",
+        "avg": 161.4,
+        "count": 11,
+        "min": 130,
+        "max": 186
+      },
+      {
+        "station": "有明テニスの森",
+        "avg": 148.7,
+        "count": 137,
+        "min": 100,
+        "max": 256
+      },
+      {
+        "station": "東雲(東京)",
+        "avg": 144.3,
+        "count": 40,
+        "min": 83,
+        "max": 186
+      },
+      {
+        "station": "清澄白河",
+        "avg": 128.4,
+        "count": 110,
+        "min": 57,
+        "max": 215
+      },
+      {
+        "station": "水天宮前",
+        "avg": 124.6,
+        "count": 8,
+        "min": 100,
+        "max": 151
+      },
+      {
+        "station": "辰巳",
+        "avg": 119.4,
+        "count": 76,
+        "min": 45,
+        "max": 169
+      },
+      {
+        "station": "越中島",
+        "avg": 118.4,
+        "count": 19,
+        "min": 80,
+        "max": 188
+      },
+      {
+        "station": "住吉(東京)",
+        "avg": 113.9,
+        "count": 98,
+        "min": 44,
+        "max": 186
+      },
+      {
+        "station": "森下(東京)",
+        "avg": 109.1,
+        "count": 55,
+        "min": 29,
+        "max": 165
+      },
+      {
+        "station": "押上",
+        "avg": 101.3,
+        "count": 4,
+        "min": 56,
+        "max": 131
+      },
+      {
+        "station": "門前仲町",
+        "avg": 99.9,
+        "count": 87,
+        "min": 48,
+        "max": 188
+      }
+    ]
+  },
+  "目黒区": {
+    "ward_avg": 139.7,
+    "total_count": 676,
+    "est_70sqm": 9777,
+    "stations": [
+      {
+        "station": "恵比寿",
+        "avg": 199.3,
+        "count": 16,
+        "min": 80,
+        "max": 381
+      },
+      {
+        "station": "中目黒",
+        "avg": 165.9,
+        "count": 106,
+        "min": 50,
+        "max": 480
+      },
+      {
+        "station": "代官山",
+        "avg": 163.5,
+        "count": 7,
+        "min": 100,
+        "max": 220
+      },
+      {
+        "station": "渋谷",
+        "avg": 163.2,
+        "count": 3,
+        "min": 86,
+        "max": 250
+      },
+      {
+        "station": "駒場東大前",
+        "avg": 156.5,
+        "count": 11,
+        "min": 113,
+        "max": 212
+      },
+      {
+        "station": "目黒",
+        "avg": 155.2,
+        "count": 112,
+        "min": 40,
+        "max": 400
+      },
+      {
+        "station": "西小山",
+        "avg": 150.3,
+        "count": 22,
+        "min": 65,
+        "max": 206
+      },
+      {
+        "station": "不動前",
+        "avg": 142.6,
+        "count": 12,
+        "min": 87,
+        "max": 178
+      },
+      {
+        "station": "池尻大橋",
+        "avg": 142.3,
+        "count": 67,
+        "min": 53,
+        "max": 387
+      },
+      {
+        "station": "緑が丘(東京)",
+        "avg": 141.5,
+        "count": 7,
+        "min": 87,
+        "max": 186
+      },
+      {
+        "station": "駒沢大学",
+        "avg": 131.3,
+        "count": 7,
+        "min": 44,
+        "max": 200
+      },
+      {
+        "station": "祐天寺",
+        "avg": 128.7,
+        "count": 41,
+        "min": 40,
+        "max": 217
+      },
+      {
+        "station": "武蔵小山",
+        "avg": 126.7,
+        "count": 29,
+        "min": 45,
+        "max": 200
+      },
+      {
+        "station": "学芸大学",
+        "avg": 122.9,
+        "count": 83,
+        "min": 48,
+        "max": 218
+      },
+      {
+        "station": "自由が丘(東京)",
+        "avg": 118.6,
+        "count": 23,
+        "min": 32,
+        "max": 217
+      }
+    ]
+  },
+  "港区": {
+    "ward_avg": 220.6,
+    "total_count": 1557,
+    "est_70sqm": 15441,
+    "stations": [
+      {
+        "station": "虎ノ門",
+        "avg": 389.8,
+        "count": 2,
+        "min": 170,
+        "max": 610
+      },
+      {
+        "station": "汐留",
+        "avg": 356.7,
+        "count": 12,
+        "min": 236,
+        "max": 473
+      },
+      {
+        "station": "六本木一丁目",
+        "avg": 356.7,
+        "count": 31,
+        "min": 100,
+        "max": 800
+      },
+      {
+        "station": "浜松町",
+        "avg": 333.1,
+        "count": 77,
+        "min": 80,
+        "max": 733
+      },
+      {
+        "station": "虎ノ門ヒルズ",
+        "avg": 316.7,
+        "count": 3,
+        "min": 300,
+        "max": 333
+      },
+      {
+        "station": "神谷町",
+        "avg": 300,
+        "count": 35,
+        "min": 84,
+        "max": 889
+      },
+      {
+        "station": "溜池山王",
+        "avg": 268.5,
+        "count": 7,
+        "min": 92,
+        "max": 470
+      },
+      {
+        "station": "青山一丁目",
+        "avg": 265.1,
+        "count": 40,
+        "min": 100,
+        "max": 741
+      },
+      {
+        "station": "広尾",
+        "avg": 255.8,
+        "count": 67,
+        "min": 67,
+        "max": 600
+      },
+      {
+        "station": "麻布十番",
+        "avg": 254,
+        "count": 167,
+        "min": 66,
+        "max": 828
+      },
+      {
+        "station": "表参道",
+        "avg": 240.8,
+        "count": 50,
+        "min": 62,
+        "max": 578
+      },
+      {
+        "station": "六本木",
+        "avg": 233.7,
+        "count": 72,
+        "min": 51,
+        "max": 745
+      },
+      {
+        "station": "白金高輪",
+        "avg": 226.6,
+        "count": 157,
+        "min": 50,
+        "max": 450
+      },
+      {
+        "station": "赤羽橋",
+        "avg": 222,
+        "count": 32,
+        "min": 56,
+        "max": 385
+      },
+      {
+        "station": "白金台",
+        "avg": 220.5,
+        "count": 59,
+        "min": 104,
+        "max": 500
+      }
+    ]
+  },
+  "中野区": {
+    "ward_avg": 102.6,
+    "total_count": 619,
+    "est_70sqm": 7180,
+    "stations": [
+      {
+        "station": "東中野",
+        "avg": 133.4,
+        "count": 76,
+        "min": 38,
+        "max": 250
+      },
+      {
+        "station": "中野(東京)",
+        "avg": 126.1,
+        "count": 94,
+        "min": 46,
+        "max": 267
+      },
+      {
+        "station": "笹塚",
+        "avg": 119.1,
+        "count": 11,
+        "min": 72,
+        "max": 143
+      },
+      {
+        "station": "富士見台",
+        "avg": 114.5,
+        "count": 11,
+        "min": 70,
+        "max": 133
+      },
+      {
+        "station": "高円寺",
+        "avg": 106.5,
+        "count": 18,
+        "min": 60,
+        "max": 158
+      },
+      {
+        "station": "中野坂上",
+        "avg": 105.6,
+        "count": 65,
+        "min": 39,
+        "max": 169
+      },
+      {
+        "station": "新江古田",
+        "avg": 100.3,
+        "count": 20,
+        "min": 49,
+        "max": 125
+      },
+      {
+        "station": "新中野",
+        "avg": 99.9,
+        "count": 57,
+        "min": 23,
+        "max": 168
+      },
+      {
+        "station": "中野新橋",
+        "avg": 97.7,
+        "count": 42,
+        "min": 38,
+        "max": 150
+      },
+      {
+        "station": "中野富士見町",
+        "avg": 96.6,
+        "count": 35,
+        "min": 32,
+        "max": 182
+      },
+      {
+        "station": "東高円寺",
+        "avg": 95,
+        "count": 1,
+        "min": 95,
+        "max": 95
+      },
+      {
+        "station": "西新宿五丁目",
+        "avg": 92.7,
+        "count": 4,
+        "min": 53,
+        "max": 160
+      },
+      {
+        "station": "落合",
+        "avg": 88.2,
+        "count": 37,
+        "min": 35,
+        "max": 163
+      },
+      {
+        "station": "方南町",
+        "avg": 87.1,
+        "count": 15,
+        "min": 32,
+        "max": 127
+      },
+      {
+        "station": "新井薬師前",
+        "avg": 81.2,
+        "count": 24,
+        "min": 40,
+        "max": 137
+      }
+    ]
+  },
+  "練馬区": {
+    "ward_avg": 73.2,
+    "total_count": 895,
+    "est_70sqm": 5125,
+    "stations": [
+      {
+        "station": "吉祥寺",
+        "avg": 91.1,
+        "count": 25,
+        "min": 44,
+        "max": 137
+      },
+      {
+        "station": "石神井公園",
+        "avg": 88.1,
+        "count": 60,
+        "min": 2,
+        "max": 153
+      },
+      {
+        "station": "練馬",
+        "avg": 84.9,
+        "count": 108,
+        "min": 30,
+        "max": 145
+      },
+      {
+        "station": "平和台(東京)",
+        "avg": 83.7,
+        "count": 27,
+        "min": 56,
+        "max": 126
+      },
+      {
+        "station": "新桜台",
+        "avg": 83,
+        "count": 7,
+        "min": 48,
+        "max": 117
+      },
+      {
+        "station": "豊島園",
+        "avg": 79.6,
+        "count": 23,
+        "min": 29,
+        "max": 144
+      },
+      {
+        "station": "氷川台",
+        "avg": 77.2,
+        "count": 44,
+        "min": 40,
+        "max": 131
+      },
+      {
+        "station": "練馬春日町",
+        "avg": 74.9,
+        "count": 17,
+        "min": 19,
+        "max": 108
+      },
+      {
+        "station": "上石神井",
+        "avg": 73.2,
+        "count": 52,
+        "min": 35,
+        "max": 110
+      },
+      {
+        "station": "井荻",
+        "avg": 72.8,
+        "count": 4,
+        "min": 64,
+        "max": 84
+      },
+      {
+        "station": "中村橋",
+        "avg": 72.5,
+        "count": 54,
+        "min": 22,
+        "max": 130
+      },
+      {
+        "station": "大泉学園",
+        "avg": 72.1,
+        "count": 54,
+        "min": 27,
+        "max": 133
+      },
+      {
+        "station": "桜台(東京)",
+        "avg": 71.6,
+        "count": 44,
+        "min": 32,
+        "max": 260
+      },
+      {
+        "station": "光が丘",
+        "avg": 71,
+        "count": 60,
+        "min": 27,
+        "max": 100
+      },
+      {
+        "station": "東武練馬",
+        "avg": 70.7,
+        "count": 18,
+        "min": 19,
+        "max": 109
+      }
+    ]
+  },
+  "大田区": {
+    "ward_avg": 83.1,
+    "total_count": 1218,
+    "est_70sqm": 5817,
+    "stations": [
+      {
+        "station": "天空橋",
+        "avg": 116.7,
+        "count": 2,
+        "min": 117,
+        "max": 117
+      },
+      {
+        "station": "京急蒲田",
+        "avg": 115.3,
+        "count": 35,
+        "min": 42,
+        "max": 171
+      },
+      {
+        "station": "大岡山",
+        "avg": 104.1,
+        "count": 10,
+        "min": 52,
+        "max": 229
+      },
+      {
+        "station": "北千束",
+        "avg": 104.1,
+        "count": 10,
+        "min": 58,
+        "max": 173
+      },
+      {
+        "station": "旗の台",
+        "avg": 103.2,
+        "count": 2,
+        "min": 89,
+        "max": 117
+      },
+      {
+        "station": "雪が谷大塚",
+        "avg": 98.6,
+        "count": 23,
+        "min": 9,
+        "max": 143
+      },
+      {
+        "station": "洗足",
+        "avg": 98.4,
+        "count": 5,
+        "min": 74,
+        "max": 138
+      },
+      {
+        "station": "大森(東京)",
+        "avg": 94.7,
+        "count": 114,
+        "min": 36,
+        "max": 215
+      },
+      {
+        "station": "御嶽山",
+        "avg": 89.4,
+        "count": 11,
+        "min": 69,
+        "max": 109
+      },
+      {
+        "station": "千鳥町",
+        "avg": 88,
+        "count": 29,
+        "min": 35,
+        "max": 115
+      },
+      {
+        "station": "糀谷",
+        "avg": 87.2,
+        "count": 32,
+        "min": 50,
+        "max": 138
+      },
+      {
+        "station": "大森海岸",
+        "avg": 86,
+        "count": 21,
+        "min": 47,
+        "max": 165
+      },
+      {
+        "station": "蓮沼",
+        "avg": 85.8,
+        "count": 14,
+        "min": 53,
+        "max": 110
+      },
+      {
+        "station": "洗足池",
+        "avg": 85.4,
+        "count": 26,
+        "min": 34,
+        "max": 122
+      },
+      {
+        "station": "鵜の木",
+        "avg": 85.3,
+        "count": 36,
+        "min": 56,
+        "max": 136
+      }
+    ]
+  },
+  "世田谷区": {
+    "ward_avg": 105.2,
+    "total_count": 1734,
+    "est_70sqm": 7366,
+    "stations": [
+      {
+        "station": "都立大学",
+        "avg": 177,
+        "count": 5,
+        "min": 150,
+        "max": 200
+      },
+      {
+        "station": "駒場東大前",
+        "avg": 141.4,
+        "count": 9,
+        "min": 94,
+        "max": 180
+      },
+      {
+        "station": "祐天寺",
+        "avg": 139.4,
+        "count": 8,
+        "min": 65,
+        "max": 200
+      },
+      {
+        "station": "学芸大学",
+        "avg": 135.5,
+        "count": 35,
+        "min": 59,
+        "max": 256
+      },
+      {
+        "station": "池ノ上",
+        "avg": 134.9,
+        "count": 10,
+        "min": 52,
+        "max": 227
+      },
+      {
+        "station": "自由が丘(東京)",
+        "avg": 133.7,
+        "count": 30,
+        "min": 47,
+        "max": 282
+      },
+      {
+        "station": "下北沢",
+        "avg": 130,
+        "count": 28,
+        "min": 48,
+        "max": 218
+      },
+      {
+        "station": "東北沢",
+        "avg": 129.3,
+        "count": 6,
+        "min": 47,
+        "max": 231
+      },
+      {
+        "station": "奥沢",
+        "avg": 127.3,
+        "count": 15,
+        "min": 50,
+        "max": 217
+      },
+      {
+        "station": "二子玉川",
+        "avg": 126.8,
+        "count": 102,
+        "min": 27,
+        "max": 295
+      },
+      {
+        "station": "駒沢大学",
+        "avg": 124,
+        "count": 100,
+        "min": 38,
+        "max": 255
+      },
+      {
+        "station": "池尻大橋",
+        "avg": 123.4,
+        "count": 59,
+        "min": 56,
+        "max": 253
+      },
+      {
+        "station": "桜上水",
+        "avg": 122.6,
+        "count": 14,
+        "min": 58,
+        "max": 175
+      },
+      {
+        "station": "三軒茶屋",
+        "avg": 118.7,
+        "count": 141,
+        "min": 44,
+        "max": 230
+      },
+      {
+        "station": "桜新町",
+        "avg": 115.8,
+        "count": 136,
+        "min": 50,
+        "max": 232
+      }
+    ]
+  },
+  "渋谷区": {
+    "ward_avg": 180,
+    "total_count": 907,
+    "est_70sqm": 12597,
+    "stations": [
+      {
+        "station": "向ケ丘遊園",
+        "avg": 466.7,
+        "count": 1,
+        "min": 467,
+        "max": 467
+      },
+      {
+        "station": "代官山",
+        "avg": 262.8,
+        "count": 34,
+        "min": 63,
+        "max": 492
+      },
+      {
+        "station": "北参道",
+        "avg": 260.5,
+        "count": 42,
+        "min": 80,
+        "max": 471
+      },
+      {
+        "station": "東北沢",
+        "avg": 248,
+        "count": 1,
+        "min": 248,
+        "max": 248
+      },
+      {
+        "station": "外苑前",
+        "avg": 247,
+        "count": 9,
+        "min": 115,
+        "max": 357
+      },
+      {
+        "station": "広尾",
+        "avg": 245,
+        "count": 69,
+        "min": 94,
+        "max": 500
+      },
+      {
+        "station": "駒場東大前",
+        "avg": 241.3,
+        "count": 3,
+        "min": 236,
+        "max": 250
+      },
+      {
+        "station": "明治神宮前",
+        "avg": 228.5,
+        "count": 12,
+        "min": 81,
+        "max": 669
+      },
+      {
+        "station": "渋谷",
+        "avg": 211.8,
+        "count": 115,
+        "min": 57,
+        "max": 667
+      },
+      {
+        "station": "恵比寿",
+        "avg": 204.1,
+        "count": 102,
+        "min": 71,
+        "max": 427
+      },
+      {
+        "station": "表参道",
+        "avg": 202.7,
+        "count": 21,
+        "min": 102,
+        "max": 480
+      },
+      {
+        "station": "白金台",
+        "avg": 185.7,
+        "count": 1,
+        "min": 186,
+        "max": 186
+      },
+      {
+        "station": "代々木公園",
+        "avg": 184.2,
+        "count": 38,
+        "min": 70,
+        "max": 489
+      },
+      {
+        "station": "代々木上原",
+        "avg": 180.4,
+        "count": 56,
+        "min": 62,
+        "max": 330
+      },
+      {
+        "station": "代々木八幡",
+        "avg": 160.6,
+        "count": 35,
+        "min": 78,
+        "max": 367
+      }
+    ]
+  },
+  "品川区": {
+    "ward_avg": 138.8,
+    "total_count": 1223,
+    "est_70sqm": 9715,
+    "stations": [
+      {
+        "station": "白金台",
+        "avg": 201.8,
+        "count": 5,
+        "min": 102,
+        "max": 267
+      },
+      {
+        "station": "目黒",
+        "avg": 193.4,
+        "count": 91,
+        "min": 48,
+        "max": 419
+      },
+      {
+        "station": "大崎",
+        "avg": 188.2,
+        "count": 132,
+        "min": 50,
+        "max": 316
+      },
+      {
+        "station": "武蔵小山",
+        "avg": 166.4,
+        "count": 68,
+        "min": 70,
+        "max": 333
+      },
+      {
+        "station": "戸越公園",
+        "avg": 158.4,
+        "count": 19,
+        "min": 64,
+        "max": 273
+      },
+      {
+        "station": "大井町",
+        "avg": 157.3,
+        "count": 117,
+        "min": 33,
+        "max": 329
+      },
+      {
+        "station": "五反田",
+        "avg": 150.7,
+        "count": 124,
+        "min": 37,
+        "max": 345
+      },
+      {
+        "station": "天王洲アイル",
+        "avg": 149.4,
+        "count": 53,
+        "min": 74,
+        "max": 229
+      },
+      {
+        "station": "品川シーサイド",
+        "avg": 147.2,
+        "count": 73,
+        "min": 62,
+        "max": 252
+      },
+      {
+        "station": "不動前",
+        "avg": 144.7,
+        "count": 78,
+        "min": 47,
+        "max": 273
+      },
+      {
+        "station": "下神明",
+        "avg": 133,
+        "count": 5,
+        "min": 47,
+        "max": 186
+      },
+      {
+        "station": "高輪台",
+        "avg": 131.4,
+        "count": 14,
+        "min": 82,
+        "max": 200
+      },
+      {
+        "station": "品川",
+        "avg": 130.3,
+        "count": 3,
+        "min": 75,
+        "max": 200
+      },
+      {
+        "station": "荏原町",
+        "avg": 125.1,
+        "count": 8,
+        "min": 50,
+        "max": 189
+      },
+      {
+        "station": "鮫洲",
+        "avg": 123.5,
+        "count": 6,
+        "min": 106,
+        "max": 153
+      }
+    ]
+  },
+  "新宿区": {
+    "ward_avg": 135.9,
+    "total_count": 1298,
+    "est_70sqm": 9510,
+    "stations": [
+      {
+        "station": "国立競技場",
+        "avg": 222.2,
+        "count": 2,
+        "min": 200,
+        "max": 244
+      },
+      {
+        "station": "西新宿五丁目",
+        "avg": 204.5,
+        "count": 93,
+        "min": 60,
+        "max": 382
+      },
+      {
+        "station": "新宿御苑前",
+        "avg": 178.3,
+        "count": 95,
+        "min": 29,
+        "max": 456
+      },
+      {
+        "station": "神楽坂",
+        "avg": 177.2,
+        "count": 50,
+        "min": 55,
+        "max": 267
+      },
+      {
+        "station": "中野坂上",
+        "avg": 174.6,
+        "count": 2,
+        "min": 169,
+        "max": 180
+      },
+      {
+        "station": "四谷三丁目",
+        "avg": 174.3,
+        "count": 67,
+        "min": 58,
+        "max": 280
+      },
+      {
+        "station": "四ツ谷",
+        "avg": 166.4,
+        "count": 23,
+        "min": 68,
+        "max": 294
+      },
+      {
+        "station": "信濃町",
+        "avg": 163,
+        "count": 15,
+        "min": 84,
+        "max": 341
+      },
+      {
+        "station": "市ケ谷",
+        "avg": 162.5,
+        "count": 24,
+        "min": 60,
+        "max": 262
+      },
+      {
+        "station": "新宿西口",
+        "avg": 159.3,
+        "count": 9,
+        "min": 104,
+        "max": 259
+      },
+      {
+        "station": "牛込神楽坂",
+        "avg": 154,
+        "count": 39,
+        "min": 40,
+        "max": 267
+      },
+      {
+        "station": "西新宿",
+        "avg": 153.9,
+        "count": 53,
+        "min": 67,
+        "max": 292
+      },
+      {
+        "station": "飯田橋",
+        "avg": 147.6,
+        "count": 28,
+        "min": 70,
+        "max": 243
+      },
+      {
+        "station": "目白",
+        "avg": 143.8,
+        "count": 22,
+        "min": 44,
+        "max": 217
+      },
+      {
+        "station": "牛込柳町",
+        "avg": 135.9,
+        "count": 62,
+        "min": 45,
+        "max": 240
+      }
+    ]
+  },
+  "杉並区": {
+    "ward_avg": 93.1,
+    "total_count": 854,
+    "est_70sqm": 6516,
+    "stations": [
+      {
+        "station": "浜田山",
+        "avg": 134.5,
+        "count": 45,
+        "min": 48,
+        "max": 212
+      },
+      {
+        "station": "中野(東京)",
+        "avg": 119.1,
+        "count": 9,
+        "min": 51,
+        "max": 188
+      },
+      {
+        "station": "三鷹台",
+        "avg": 109.3,
+        "count": 7,
+        "min": 42,
+        "max": 160
+      },
+      {
+        "station": "南阿佐ケ谷",
+        "avg": 104.5,
+        "count": 50,
+        "min": 36,
+        "max": 227
+      },
+      {
+        "station": "阿佐ケ谷",
+        "avg": 103.1,
+        "count": 28,
+        "min": 42,
+        "max": 182
+      },
+      {
+        "station": "笹塚",
+        "avg": 101.2,
+        "count": 4,
+        "min": 69,
+        "max": 114
+      },
+      {
+        "station": "方南町",
+        "avg": 99.1,
+        "count": 87,
+        "min": 46,
+        "max": 171
+      },
+      {
+        "station": "西永福",
+        "avg": 99,
+        "count": 25,
+        "min": 22,
+        "max": 160
+      },
+      {
+        "station": "荻窪",
+        "avg": 98.1,
+        "count": 158,
+        "min": 32,
+        "max": 200
+      },
+      {
+        "station": "永福町",
+        "avg": 97.3,
+        "count": 15,
+        "min": 50,
+        "max": 121
+      },
+      {
+        "station": "芦花公園",
+        "avg": 94.3,
+        "count": 9,
+        "min": 72,
+        "max": 114
+      },
+      {
+        "station": "上北沢",
+        "avg": 93.7,
+        "count": 4,
+        "min": 82,
+        "max": 105
+      },
+      {
+        "station": "東高円寺",
+        "avg": 92.5,
+        "count": 35,
+        "min": 31,
+        "max": 140
+      },
+      {
+        "station": "上井草",
+        "avg": 90.5,
+        "count": 9,
+        "min": 69,
+        "max": 129
+      },
+      {
+        "station": "西荻窪",
+        "avg": 88.8,
+        "count": 91,
+        "min": 34,
+        "max": 162
+      }
+    ]
+  },
+  "墨田区": {
+    "ward_avg": 92.6,
+    "total_count": 719,
+    "est_70sqm": 6479,
+    "stations": [
+      {
+        "station": "蔵前",
+        "avg": 110.8,
+        "count": 9,
+        "min": 74,
+        "max": 157
+      },
+      {
+        "station": "森下(東京)",
+        "avg": 109.3,
+        "count": 34,
+        "min": 38,
+        "max": 171
+      },
+      {
+        "station": "錦糸町",
+        "avg": 108.2,
+        "count": 126,
+        "min": 40,
+        "max": 200
+      },
+      {
+        "station": "両国",
+        "avg": 98,
+        "count": 104,
+        "min": 38,
+        "max": 187
+      },
+      {
+        "station": "本所吾妻橋",
+        "avg": 97,
+        "count": 54,
+        "min": 45,
+        "max": 143
+      },
+      {
+        "station": "菊川(東京)",
+        "avg": 96.5,
+        "count": 48,
+        "min": 58,
+        "max": 140
+      },
+      {
+        "station": "押上",
+        "avg": 91.2,
+        "count": 87,
+        "min": 28,
+        "max": 171
+      },
+      {
+        "station": "曳舟",
+        "avg": 88.9,
+        "count": 43,
+        "min": 31,
+        "max": 160
+      },
+      {
+        "station": "浅草(東武・都営・メトロ)",
+        "avg": 85.9,
+        "count": 7,
+        "min": 68,
+        "max": 111
+      },
+      {
+        "station": "東向島",
+        "avg": 82,
+        "count": 42,
+        "min": 9,
+        "max": 151
+      },
+      {
+        "station": "京成曳舟",
+        "avg": 81.5,
+        "count": 39,
+        "min": 12,
+        "max": 142
+      },
+      {
+        "station": "とうきょうスカイツリー",
+        "avg": 80,
+        "count": 16,
+        "min": 44,
+        "max": 126
+      },
+      {
+        "station": "住吉(東京)",
+        "avg": 80,
+        "count": 1,
+        "min": 80,
+        "max": 80
+      },
+      {
+        "station": "小村井",
+        "avg": 78.5,
+        "count": 39,
+        "min": 46,
+        "max": 125
+      },
+      {
+        "station": "亀戸",
+        "avg": 75.2,
+        "count": 2,
+        "min": 65,
+        "max": 86
+      }
+    ]
+  },
+  "台東区": {
+    "ward_avg": 110.9,
+    "total_count": 729,
+    "est_70sqm": 7762,
+    "stations": [
+      {
+        "station": "湯島",
+        "avg": 204.2,
+        "count": 11,
+        "min": 140,
+        "max": 246
+      },
+      {
+        "station": "根津",
+        "avg": 146,
+        "count": 26,
+        "min": 38,
+        "max": 250
+      },
+      {
+        "station": "上野",
+        "avg": 138.4,
+        "count": 45,
+        "min": 63,
+        "max": 240
+      },
+      {
+        "station": "秋葉原",
+        "avg": 132.3,
+        "count": 15,
+        "min": 56,
+        "max": 185
+      },
+      {
+        "station": "蔵前",
+        "avg": 127.4,
+        "count": 72,
+        "min": 26,
+        "max": 215
+      },
+      {
+        "station": "稲荷町(東京)",
+        "avg": 123.6,
+        "count": 20,
+        "min": 60,
+        "max": 200
+      },
+      {
+        "station": "西日暮里",
+        "avg": 123.1,
+        "count": 1,
+        "min": 123,
+        "max": 123
+      },
+      {
+        "station": "千駄木",
+        "avg": 122.2,
+        "count": 1,
+        "min": 122,
+        "max": 122
+      },
+      {
+        "station": "田原町(東京)",
+        "avg": 118.9,
+        "count": 32,
+        "min": 29,
+        "max": 200
+      },
+      {
+        "station": "新御徒町",
+        "avg": 117.4,
+        "count": 60,
+        "min": 25,
+        "max": 200
+      },
+      {
+        "station": "浅草橋",
+        "avg": 109.4,
+        "count": 36,
+        "min": 26,
+        "max": 171
+      },
+      {
+        "station": "浅草(つくばＥＸＰ)",
+        "avg": 108.8,
+        "count": 72,
+        "min": 48,
+        "max": 235
+      },
+      {
+        "station": "仲御徒町",
+        "avg": 106.1,
+        "count": 14,
+        "min": 72,
+        "max": 151
+      },
+      {
+        "station": "浅草(東武・都営・メトロ)",
+        "avg": 106,
+        "count": 60,
+        "min": 37,
+        "max": 260
+      },
+      {
+        "station": "末広町(東京)",
+        "avg": 99.7,
+        "count": 5,
+        "min": 88,
+        "max": 114
+      }
+    ]
+  },
+  "豊島区": {
+    "ward_avg": 115.8,
+    "total_count": 744,
+    "est_70sqm": 8109,
+    "stations": [
+      {
+        "station": "東池袋",
+        "avg": 187.1,
+        "count": 59,
+        "min": 48,
+        "max": 338
+      },
+      {
+        "station": "庚申塚",
+        "avg": 150,
+        "count": 1,
+        "min": 150,
+        "max": 150
+      },
+      {
+        "station": "目白",
+        "avg": 138.4,
+        "count": 35,
+        "min": 51,
+        "max": 294
+      },
+      {
+        "station": "新大塚",
+        "avg": 126.1,
+        "count": 16,
+        "min": 69,
+        "max": 186
+      },
+      {
+        "station": "池袋",
+        "avg": 121.7,
+        "count": 166,
+        "min": 27,
+        "max": 282
+      },
+      {
+        "station": "駒込",
+        "avg": 119,
+        "count": 37,
+        "min": 59,
+        "max": 212
+      },
+      {
+        "station": "要町",
+        "avg": 112.3,
+        "count": 37,
+        "min": 40,
+        "max": 231
+      },
+      {
+        "station": "大塚(東京)",
+        "avg": 112.1,
+        "count": 100,
+        "min": 43,
+        "max": 187
+      },
+      {
+        "station": "板橋",
+        "avg": 111.8,
+        "count": 24,
+        "min": 32,
+        "max": 200
+      },
+      {
+        "station": "雑司が谷(東京メトロ)",
+        "avg": 110,
+        "count": 49,
+        "min": 49,
+        "max": 190
+      },
+      {
+        "station": "巣鴨新田",
+        "avg": 105.6,
+        "count": 2,
+        "min": 100,
+        "max": 111
+      },
+      {
+        "station": "護国寺",
+        "avg": 105,
+        "count": 2,
+        "min": 100,
+        "max": 110
+      },
+      {
+        "station": "西巣鴨",
+        "avg": 102.4,
+        "count": 41,
+        "min": 46,
+        "max": 157
+      },
+      {
+        "station": "巣鴨",
+        "avg": 96.9,
+        "count": 54,
+        "min": 40,
+        "max": 200
+      },
+      {
+        "station": "高田馬場",
+        "avg": 94.9,
+        "count": 9,
+        "min": 60,
+        "max": 132
+      }
+    ]
+  }
+}

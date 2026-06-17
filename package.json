@@ -30,7 +30,19 @@
     "trust:check-source-urls": "node scripts/check-source-urls.mjs",
     "verify:episode": "node scripts/verify-episode-manifest.mjs",
     "verify:episode:gate": "node scripts/verify-episode-manifest.mjs --require-gates",
-    "fetch:suumo": "node scripts/fetch-suumo-snapshot.mjs"
+    "verify:tokyo-changed": "node scripts/verify-tokyo-changed.mjs",
+    "verify:tokyo:ci": "node scripts/verify-tokyo-changed.mjs --ci",
+    "verify:manifest-parity": "node scripts/verify-manifest-locale-parity.mjs",
+    "verify:pkm-income": "node scripts/sync-manifest-pkm-income.mjs",
+    "scaffold:manifest": "node scripts/scaffold-episode-manifest.mjs",
+    "fetch:suumo": "node scripts/fetch-suumo-snapshot.mjs",
+    "collect:mlit": "node scripts/mlit-collector.mjs",
+    "merge:mlit-pkm": "node scripts/merge-mlit-price-to-pkm.mjs",
+    "sync:mlit-ark": "node scripts/sync-mlit-pkm-to-ark.mjs",
+    "sync:mlit-benchmarks": "node scripts/sync-mlit-to-benchmarks.mjs",
+    "dossier:ward": "node scripts/render-ward-dossier.mjs",
+    "compare:wards": "node scripts/compare-wards.mjs",
+    "verify:mlit-drift": "node scripts/verify-mlit-drift.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",

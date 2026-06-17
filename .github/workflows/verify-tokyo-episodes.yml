@@ -1,0 +1,50 @@
+name: Verify Tokyo episodes
+
+on:
+  push:
+    paths:
+      - "src/data/blog/ko/tokyo-*.md"
+      - "docs/verification/**"
+      - "scripts/verify-*.mjs"
+      - "scripts/scaffold-episode-manifest.mjs"
+      - "scripts/sync-manifest-pkm-income.mjs"
+  pull_request:
+    paths:
+      - "src/data/blog/ko/tokyo-*.md"
+      - "docs/verification/**"
+
+jobs:
+  verify-tokyo-manifests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Verify tokyo episode manifests (CI mode)
+        run: node scripts/verify-tokyo-changed.mjs --ci
+
+      - name: Manifest locale parity (Ep.06+)
+        run: |
+          for slug in $(node -e "
+            const fs=require('fs');
+            const dir='docs/verification/manifests';
+            fs.readdirSync(dir).filter(f=>f.endsWith('.manifest.json')).forEach(f=>{
+              const m=JSON.parse(fs.readFileSync(dir+'/'+f,'utf8'));
+              if(m.slug) console.log(m.slug);
+            });
+          "); do
+            if [ -f "src/data/blog/en/$slug.md" ] && [ -f "src/data/blog/ja/$slug.md" ]; then
+              node scripts/verify-manifest-locale-parity.mjs --slug "$slug" || exit 1
+            fi
+          done

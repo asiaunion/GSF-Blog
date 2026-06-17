@@ -1,0 +1,30 @@
+name: MLIT benchmarks drift check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 1 */3 *"
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Check MLIT price drift
+        env:
+          MLIT_API_KEY: ${{ secrets.MLIT_API_KEY }}
+        run: |
+          if [ -z "$MLIT_API_KEY" ]; then
+            echo "MLIT_API_KEY secret not set — skipping drift check"
+            exit 0
+          fi
+          node scripts/verify-mlit-drift.mjs --threshold 0.05 --fail
+        continue-on-error: true

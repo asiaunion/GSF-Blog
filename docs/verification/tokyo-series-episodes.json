@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "description": "Where to Live in Tokyo 시리즈 slug ↔ 구 ↔ SUUMO code 매핑 (scaffold-episode-manifest.mjs)",
+  "suumo_ward_codes": {
+    "千代田区": "chiyoda",
+    "中央区": "chuo",
+    "港区": "minato",
+    "新宿区": "shinjuku",
+    "渋谷区": "shibuya",
+    "文京区": "bunkyo",
+    "目黒区": "meguro",
+    "世田谷区": "setagaya",
+    "品川区": "shinagawa",
+    "大田区": "ota",
+    "豊島区": "toshima",
+    "中野区": "nakano",
+    "杉並区": "suginami",
+    "台東区": "taito",
+    "墨田区": "sumida",
+    "江東区": "koto",
+    "北区": "kita",
+    "荒川区": "arakawa",
+    "足立区": "adachi"
+  },
+  "episodes": [
+    {
+      "episode": "Ep.01",
+      "slug": "tokyo-core-3-wards-chiyoda-chuo-minato",
+      "wards": ["千代田区", "中央区", "港区"]
+    },
+    {
+      "episode": "Ep.02",
+      "slug": "tokyo-shinjuku-shibuya-bunkyo",
+      "wards": ["新宿区", "渋谷区", "文京区"]
+    },
+    {
+      "episode": "Ep.03",
+      "slug": "tokyo-meguro-setagaya",
+      "wards": ["目黒区", "世田谷区"]
+    },
+    {
+      "episode": "Ep.04",
+      "slug": "tokyo-shinagawa-ota",
+      "wards": ["品川区", "大田区"]
+    },
+    {
+      "episode": "Ep.05",
+      "slug": "tokyo-toshima-nakano-suginami",
+      "wards": ["豊島区", "中野区", "杉並区"]
+    },
+    {
+      "episode": "Ep.06",
+      "slug": "tokyo-taito-sumida-koto",
+      "wards": ["台東区", "墨田区", "江東区"]
+    },
+    {
+      "episode": "Ep.07",
+      "slug": "tokyo-kita-arakawa-adachi",
+      "wards": ["北区", "荒川区", "足立区"]
+    }
+  ]
+}

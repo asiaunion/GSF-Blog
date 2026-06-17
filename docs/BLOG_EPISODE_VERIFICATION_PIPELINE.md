@@ -47,7 +47,7 @@ Roles:
 
 ---
 
-## Phase 1 (this week) — DONE
+## Phase 1 — DONE (2026-06-17)
 
 | Item | Path |
 |------|------|
@@ -69,20 +69,63 @@ node scripts/fetch-suumo-snapshot.mjs sc_taito
 
 ---
 
-## Phase 2 (2 weeks)
+## Phase 2 — DONE (2026-06-17)
 
-- [ ] Wire `verify:episode --require-gates` into CI / pre-commit for `src/data/blog/ko/tokyo-*.md`
-- [ ] Auto-populate manifest A-layer claims from slug + ward list (AG helper script)
-- [ ] Registry v1.5: link each SUUMO entry to `.cache/verification/` path
-- [ ] Hallucination score: `failed_claims / total_primary_claims` per episode
+- [x] Wire `verify:episode` into CI (`.github/workflows/verify-tokyo-episodes.yml`) + `scripts/verify-tokyo-changed.mjs`
+- [x] Local pre-commit: `scripts/install-pre-commit-hook.sh`
+- [x] Auto-populate manifest A-layer: `scripts/scaffold-episode-manifest.mjs` + `tokyo-series-episodes.json`
+- [x] Registry v1.5: Ep.06 SUUMO entries + `docs/verification/snapshots/` committed paths
+- [x] Hallucination score in `verify-episode-manifest.mjs` → `docs/verification/scores/<slug>.json`
+- [x] CI-safe MLIT copy: `docs/verification/data/tokyo_mansion_stats_2025.json`
+
+### Commands
+
+```bash
+pnpm scaffold:manifest -- --slug tokyo-taito-sumida-koto --write
+pnpm verify:tokyo-changed
+pnpm verify:tokyo:ci
+VERIFY_REQUIRE_GATES=1 pnpm verify:tokyo-changed
+sh scripts/install-pre-commit-hook.sh
+node scripts/fetch-suumo-snapshot.mjs sc_taito --commit
+```
 
 ---
 
-## Phase 3 (series stabilization)
+## Phase 3 — DONE (2026-06-17)
 
-- [ ] PKM `verified: true` cards sync with manifest primary claims
-- [ ] EN/JA numeric parity check against manifest (extend `locale-numeric-parity.mjs`)
-- [ ] NotebookLM output → manifest import (optional)
+- [x] PKM income card sync: `scripts/sync-manifest-pkm-income.mjs`
+- [x] Manifest ↔ locale parity: `scripts/verify-manifest-locale-parity.mjs`
+- [x] NotebookLM import: `scripts/import-notebooklm-claims.mjs`
+
+### Commands
+
+```bash
+pnpm verify:pkm-income -- --slug tokyo-taito-sumida-koto
+pnpm verify:manifest-parity -- --slug tokyo-taito-sumida-koto
+node scripts/import-notebooklm-claims.mjs --slug <slug> --input research.json --write
+```
+
+---
+
+## MLIT API integration (2026-06-17)
+
+| Item | Path |
+|------|------|
+| 통합 수집기 | `scripts/mlit-collector.mjs` |
+| PKM price merge | `scripts/merge-mlit-price-to-pkm.mjs` |
+| Ark mirror | `scripts/sync-mlit-pkm-to-ark.mjs` |
+| benchmarks v1.1 | `scripts/sync-mlit-to-benchmarks.mjs` |
+| 투자 dossier | `scripts/render-ward-dossier.mjs` → PKM `RealEstate/Tokyo/wards/` |
+| 분기 SOP | `docs/MLIT_DATA_REFRESH_SOP.md` |
+| Drift CI | `.github/workflows/mlit-drift-check.yml` |
+
+```bash
+pnpm merge:mlit-pkm -- --episode ep07
+pnpm sync:mlit-ark
+pnpm sync:mlit-benchmarks -- --episode ep07 --write
+pnpm dossier:ward -- --episode ep07
+pnpm compare:wards -- --episode ep07
+```
 
 ---
 

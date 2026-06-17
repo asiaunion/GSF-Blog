@@ -1,0 +1,135 @@
+{
+  "ok": false,
+  "slug": "tokyo-taito-sumida-koto",
+  "episode": "Ep.06",
+  "manifest": "/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/docs/verification/manifests/ep06-tokyo-taito-sumida-koto.manifest.json",
+  "failed": 1,
+  "passed": 15,
+  "total": 16,
+  "hallucination_score": {
+    "failed_primary_claims": 0,
+    "total_primary_claims": 8,
+    "score": 0,
+    "ok": true
+  },
+  "results": [
+    {
+      "type": "claim",
+      "id": "MLIT-TAITO-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-SUMIDA-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-KOTO-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-TAITO-1R",
+      "tier": "primary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-SUMIDA-1R",
+      "tier": "primary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-KOTO-1R",
+      "tier": "primary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "INCOME-TAITO",
+      "tier": "primary",
+      "method": "pkm_verified_card",
+      "ok": true,
+      "reason": "PKM card reference — manual A-layer"
+    },
+    {
+      "type": "claim",
+      "id": "SKYTREE-50M",
+      "tier": "primary",
+      "method": "user_capture",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRANSIT-KINSHICHO",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRANSIT-SUGINAMI",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "METRO-EXT-8",
+      "tier": "secondary",
+      "method": "web_search",
+      "ok": true,
+      "reason": "secondary — manual review"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-TAITO-VS-CHUO",
+      "ok": true,
+      "computed": 61.214511041009466,
+      "expected": 61.2,
+      "formula": "7762 / 12680 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-SUMIDA-VS-CHUO",
+      "ok": true,
+      "computed": 51.096214511041005,
+      "expected": 51.1,
+      "formula": "6479 / 12680 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-KOTO-VS-CHUO",
+      "ok": true,
+      "computed": 66.25394321766561,
+      "expected": 66.3,
+      "formula": "8401 / 12680 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "DIFF-SUMIDA-SUGINAMI-PRICE",
+      "ok": true,
+      "computed": 38,
+      "expected": 38,
+      "formula": "6517 - 6479"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "280.4",
+      "ok": false,
+      "reason": "primary value 280.4 not found as bold in draft (heuristic)"
+    }
+  ],
+  "written_at": "2026-06-17T06:01:52.902Z"
+}

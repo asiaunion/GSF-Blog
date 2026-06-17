@@ -56,7 +56,7 @@
       "method": "suumo_snapshot",
       "evidence": {
         "url": "https://suumo.jp/chintai/soba/tokyo/sc_taito/",
-        "snapshot": ".cache/verification/suumo-sc_taito-20260617.html",
+        "snapshot": "docs/verification/snapshots/suumo-sc_taito-20260617.html",
         "snippet": "11.4万円（ワンルーム）"
       },
       "used_in_draft": true
@@ -71,7 +71,7 @@
       "method": "suumo_snapshot",
       "evidence": {
         "url": "https://suumo.jp/chintai/soba/tokyo/sc_sumida/",
-        "snapshot": ".cache/verification/suumo-sc_sumida-20260617.html",
+        "snapshot": "docs/verification/snapshots/suumo-sc_sumida-20260617.html",
         "snippet": "10.3万円（ワンルーム）"
       },
       "used_in_draft": true
@@ -86,7 +86,7 @@
       "method": "suumo_snapshot",
       "evidence": {
         "url": "https://suumo.jp/chintai/soba/tokyo/sc_koto/",
-        "snapshot": ".cache/verification/suumo-sc_koto-20260617.html",
+        "snapshot": "docs/verification/snapshots/suumo-sc_koto-20260617.html",
         "snippet": "10.9万円（ワンルーム）"
       },
       "used_in_draft": true

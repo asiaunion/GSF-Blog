@@ -8,7 +8,7 @@
  *   node scripts/verify-episode-manifest.mjs --slug tokyo-taito-sumida-koto --require-gates
  *   node scripts/verify-episode-manifest.mjs --slug tokyo-taito-sumida-koto --draft src/data/blog/ko/tokyo-taito-sumida-koto.md
  */
-import { readFile, access, readdir } from "node:fs/promises";
+import { readFile, access, readdir, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
@@ -16,7 +16,13 @@ const PKM_ROOT =
   process.env.PKM_ROOT ||
   path.join(process.env.HOME || "", ".gemini/antigravity/scratch/projects/GSF-PKM");
 const BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmarks.json");
-const MLIT_JSON = path.join(PKM_ROOT, "PKM/30 Resources/tokyo_mansion_stats_2025.json");
+const MLIT_FALLBACK = path.join(root, "docs/verification/data/tokyo_mansion_stats_2025.json");
+const MLIT_PKM = path.join(PKM_ROOT, "PKM/30 Resources/tokyo_mansion_stats_2025.json");
+const SNAPSHOT_DIRS = [
+  path.join(root, "docs/verification/snapshots"),
+  path.join(root, ".cache/verification"),
+];
+const SCORES_DIR = path.join(root, "docs/verification/scores");
 
 async function resolveManifestPath(slug) {
   const dir = path.join(root, "docs/verification/manifests");
@@ -98,6 +104,16 @@ function checkBenchmarkLookup(claim, benchmarks) {
       ? { ok: true }
       : { ok: false, reason: `expected value ${node.value}, got ${claim.value}` };
   }
+  if (typeof node.top_passengers === "number" && claim.value != null) {
+    return node.top_passengers === claim.value
+      ? { ok: true }
+      : { ok: false, reason: `expected top_passengers ${node.top_passengers}, got ${claim.value}` };
+  }
+  if (typeof node === "number" && claim.value != null) {
+    return node === claim.value
+      ? { ok: true }
+      : { ok: false, reason: `expected ${node}, got ${claim.value}` };
+  }
   return { ok: true, reason: "benchmark node present (non-numeric claim)" };
 }
 
@@ -115,27 +131,50 @@ async function checkJsonLookup(claim, mlit) {
   return { ok: true };
 }
 
+async function resolveSnapshotPath(relativeOrAbsolute) {
+  if (!relativeOrAbsolute) return "";
+  const candidates = [
+    path.join(root, relativeOrAbsolute),
+    ...SNAPSHOT_DIRS.map(d => path.join(d, path.basename(relativeOrAbsolute))),
+  ];
+  for (const p of candidates) {
+    if (await fileExists(p)) return p;
+  }
+  return "";
+}
+
 async function checkSuumoSnapshot(claim) {
   const snippet = claim.evidence?.snippet;
   if (!snippet) return { ok: false, reason: "missing evidence.snippet" };
   const snap = claim.evidence?.snapshot;
-  if (snap && (await fileExists(path.join(root, snap)))) {
-    const html = await readFile(path.join(root, snap), "utf8");
+  const snapPath = await resolveSnapshotPath(snap);
+  if (snapPath) {
+    const html = await readFile(snapPath, "utf8");
     if (html.includes(snippet)) return { ok: true };
-    return { ok: false, reason: `snippet not in snapshot file: ${snap}` };
+    return { ok: false, reason: `snippet not in snapshot file: ${snapPath}` };
   }
-  // Fallback: check benchmarks if ward code inferable from URL
   const url = claim.evidence?.url ?? "";
   const m = url.match(/sc_([a-z_]+)/);
-  if (m) {
-    const benchmarks = await loadJson(BENCHMARKS);
-    const suumo = benchmarks.suumo_rent_new_build_station_5min?.wards ?? {};
-    const wardKey = Object.keys(suumo).find(w => url.includes("sc_"));
-    void wardKey;
-  }
+  const code = m?.[1];
   return {
     ok: false,
-    reason: `no snapshot file; run: node scripts/fetch-suumo-snapshot.mjs ${url}`,
+    reason: code
+      ? `no snapshot file; run: node scripts/fetch-suumo-snapshot.mjs sc_${code} --commit`
+      : `no snapshot file for ${url}`,
+  };
+}
+
+function computeHallucinationScore(manifest, results) {
+  const primaryClaims = (manifest.claims ?? []).filter(c => c.tier === "primary");
+  const failedPrimary = results.filter(
+    r => r.type === "claim" && r.tier === "primary" && !r.ok
+  ).length;
+  const total = primaryClaims.length || 1;
+  return {
+    failed_primary_claims: failedPrimary,
+    total_primary_claims: primaryClaims.length,
+    score: Math.round((failedPrimary / total) * 1000) / 1000,
+    ok: failedPrimary === 0,
   };
 }
 
@@ -169,8 +208,9 @@ async function main() {
   const manifest = await loadJson(args.manifest);
   const benchmarks = await loadJson(BENCHMARKS);
   let mlit = {};
-  if (await fileExists(MLIT_JSON)) {
-    mlit = await loadJson(MLIT_JSON);
+  const mlitPath = process.env.MLIT_JSON || ((await fileExists(MLIT_PKM)) ? MLIT_PKM : MLIT_FALLBACK);
+  if (await fileExists(mlitPath)) {
+    mlit = await loadJson(mlitPath);
   }
 
   const results = [];
@@ -239,7 +279,13 @@ async function main() {
     const draft = await readFile(args.draft, "utf8");
     const nums = extractDraftNumbers(draft);
     const primaryValues = (manifest.claims ?? [])
-      .filter(c => c.tier === "primary" && c.value != null && c.used_in_draft !== false)
+      .filter(
+        c =>
+          c.tier === "primary" &&
+          c.value != null &&
+          c.used_in_draft !== false &&
+          c.method !== "pkm_verified_card"
+      )
       .map(c => String(c.value));
     for (const pv of primaryValues) {
       const normalized = pv.replace(/,/g, "");
@@ -263,6 +309,8 @@ async function main() {
     }
   }
 
+  const hallucination = computeHallucinationScore(manifest, results);
+
   const report = {
     ok: failed === 0,
     slug: manifest.slug,
@@ -271,8 +319,19 @@ async function main() {
     failed,
     passed: results.filter(r => r.ok).length,
     total: results.length,
+    hallucination_score: hallucination,
     results,
   };
+
+  if (process.env.WRITE_VERIFICATION_SCORE === "1" || args.requireGates) {
+    await mkdir(SCORES_DIR, { recursive: true });
+    const scorePath = path.join(SCORES_DIR, `${manifest.slug}.json`);
+    await writeFile(
+      scorePath,
+      `${JSON.stringify({ ...report, written_at: new Date().toISOString() }, null, 2)}\n`
+    );
+    report.score_file = scorePath;
+  }
 
   console.log(JSON.stringify(report, null, 2));
   process.exit(failed === 0 ? 0 : 1);

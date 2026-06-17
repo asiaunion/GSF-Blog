@@ -46,6 +46,7 @@ tokyo-ward-series-benchmarks.json: 로드
 | 04 | tokyo-shinagawa-ota | 品川·大田 |
 | 05 | tokyo-toshima-nakano-suginami | 豊島·中野·杉並 |
 | 06 | tokyo-taito-sumida-koto | 台東·墨田·江東 |
+| 07 | tokyo-kita-arakawa-adachi | 北区·荒川·足立 |
 
 ---
 
@@ -69,7 +70,15 @@ tokyo-ward-series-benchmarks.json: 로드
 
 2. **A-layer** (자동 검증 가능):
    - MLIT 70㎡ → `method: json_lookup`, `evidence.json_path`
+   - MLIT API 수집 (Ep.07+ 권장):
+     ```bash
+     pnpm merge:mlit-pkm -- --episode ep07
+     pnpm sync:mlit-ark
+     pnpm sync:mlit-benchmarks -- --episode ep07 --write
+     pnpm dossier:ward -- --episode ep07   # PKM 투자 dossier (선택)
+     ```
    - 에피소드 간 비교 → `method: benchmark_lookup`, `evidence.benchmark`
+   - 역 승하차 → `station_passengers` in benchmarks (`pnpm scaffold:manifest` 자동)
    - PKM verified card → `method: pkm_verified_card`
 
 3. **B-layer** (SUUMO):
