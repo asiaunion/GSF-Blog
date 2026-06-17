@@ -53,11 +53,15 @@ async function main() {
     const pop = b.population_forecast?.wards?.[ward];
     const dis = b.disaster_risk?.wards?.[ward];
     const suumo = b.suumo_rent_new_build_station_5min?.wards?.[ward];
+    const tradeTs = b.mlit_trade_price_timeseries?.wards?.[ward];
+    const landTs = b.land_price_timeseries?.wards?.[ward];
     return {
       ward,
       est_70sqm: m?.est_70sqm,
       ward_avg_sqm: m?.ward_avg_sqm,
       count: m?.count,
+      trade_cagr_10y: tradeTs?.cagr_10y ?? tradeTs?.cagr_full,
+      land_cagr_10y: landTs?.cagr_10y ?? landTs?.cagr_full,
       top_station: st?.top_station,
       top_passengers: st?.top_passengers,
       pop_change: pop?.change_pct,
@@ -73,11 +77,11 @@ async function main() {
     return;
   }
 
-  const header = "| 구 | 70㎡(万) | ㎡단가 | 거래수 | Top역 | 승하차/일 | 인구Δ | 홍수 | 액상화 | 1R임대 | Yield% |";
-  const sep = "|---|---:|---:|---:|---|---:|---|:---:|:---:|---:|---:|";
+  const header = "| 구 | 70㎡(万) | ㎡단가(成約) | 거래수 | 取引CAGR10y | 地価CAGR10y | Top역 | 인구Δ | 1R | Yield% |";
+  const sep = "|---|---:|---:|---:|---:|---:|---|---:|---:|---:|";
   const body = rows
     .map(r =>
-      `| ${r.ward} | ${r.est_70sqm ?? "—"} | ${r.ward_avg_sqm ?? "—"} | ${r.count ?? "—"} | ${r.top_station ?? "—"} | ${r.top_passengers ?? "—"} | ${r.pop_change ?? "—"} | ${r.flood ? "Y" : "—"} | ${r.liquefaction ? "Y" : "—"} | ${r.rent_1r ?? "—"} | ${r.yield_proxy_pct ?? "—"} |`
+      `| ${r.ward} | ${r.est_70sqm ?? "—"} | ${r.ward_avg_sqm ?? "—"} | ${r.count ?? "—"} | ${r.trade_cagr_10y ?? "—"} | ${r.land_cagr_10y ?? "—"} | ${r.top_station ?? "—"} | ${r.pop_change ?? "—"} | ${r.rent_1r ?? "—"} | ${r.yield_proxy_pct ?? "—"} |`
     )
     .join("\n");
 

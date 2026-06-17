@@ -51,24 +51,33 @@ function districtTable(districts, ward) {
   return lines.join("\n");
 }
 
-function timeseriesTable(ts, ward) {
+function timeseriesTable(ts, ward, valueLabel = "㎡단가") {
   const row = ts?.wards?.[ward];
   if (!row?.series) return `_No timeseries for ${ward}_`;
   const years = Object.keys(row.series).sort();
-  const header = `| Year | ㎡단가 | n | YoY% |`;
+  const header = `| Year | ${valueLabel} | n | YoY% |`;
   const sep = `|---|---:|---:|---:|`;
+  const countKey = row.counts ? "counts" : "point_counts";
   const body = years.map(y => {
     const yoy = row.yoy_pct?.[y] ?? "—";
-    return `| ${y} | ${row.series[y]} | ${row.counts?.[y] ?? "—"} | ${yoy} |`;
+    return `| ${y} | ${row.series[y]} | ${row[countKey]?.[y] ?? "—"} | ${yoy} |`;
   });
-  const footer = row.cagr_5y != null ? `\n_CAGR 5y: ${row.cagr_5y}% · full span: ${row.cagr_full ?? "—"}%_` : "";
-  return [header, sep, ...body].join("\n") + footer;
+  const cagrNote = row.cagr_10y != null
+    ? `\n_CAGR 10y: ${row.cagr_10y}% · 5y: ${row.cagr_5y ?? "—"}% · span: ${row.cagr_full ?? "—"}%_`
+    : row.cagr_5y != null
+      ? `\n_CAGR 5y: ${row.cagr_5y}% · full span: ${row.cagr_full ?? "—"}%_`
+      : row.cagr_full != null
+        ? `\n_CAGR full span (${row.cagr_span_years}y): ${row.cagr_full}%_`
+        : "";
+  return [header, sep, ...body].join("\n") + cagrNote;
 }
 
 async function buildPack(meta, benchmarks, wards, args) {
   const epKey = args.episode || `ep${String(meta?.episode || "").replace(/\D/g, "")}`.padStart(2, "0").replace(/^ep0$/, "ep01");
   const slug = args.slug || meta?.slug || "";
   const ts = benchmarks.mlit_mansion_timeseries;
+  const tradeTs = benchmarks.mlit_trade_price_timeseries;
+  const landTs = benchmarks.land_price_timeseries;
   const districtRows = {};
 
   for (const ward of wards) {
@@ -93,6 +102,8 @@ async function buildPack(meta, benchmarks, wards, args) {
       count: m?.count,
       cagr_5y: ts?.wards?.[ward]?.cagr_5y,
       cagr_full: ts?.wards?.[ward]?.cagr_full,
+      trade_cagr_10y: tradeTs?.wards?.[ward]?.cagr_10y ?? tradeTs?.wards?.[ward]?.cagr_full,
+      land_cagr_10y: landTs?.wards?.[ward]?.cagr_10y ?? landTs?.wards?.[ward]?.cagr_full,
       pop_change: pop?.change_pct,
       rent_1r: suumo?.["1R"],
       yield_pct: yieldProxy(suumo?.["1R"], m?.est_70sqm),
@@ -120,16 +131,28 @@ async function buildPack(meta, benchmarks, wards, args) {
     `## Executive summary`,
     ``,
     ...summaryRows.map(r =>
-      `- **${r.ward}**: 70㎡≈${r.est_70sqm ?? "—"}万 · ㎡${r.ward_avg_sqm ?? "—"} · n=${r.count ?? "—"} · CAGR5y=${r.cagr_5y ?? r.cagr_full ?? "—"}% · 인구Δ=${r.pop_change ?? "—"} · 1R=${r.rent_1r ?? "—"} · Yield≈${r.yield_pct ?? "—"}%`
+      `- **${r.ward}**: 70㎡≈${r.est_70sqm ?? "—"}万 · ㎡${r.ward_avg_sqm ?? "—"}(成約) · n=${r.count ?? "—"} · 成約CAGR=${r.cagr_5y ?? r.cagr_full ?? "—"}% · 取引CAGR10y=${r.trade_cagr_10y ?? "—"}% · 地価CAGR10y=${r.land_cagr_10y ?? "—"}% · 인구Δ=${r.pop_change ?? "—"} · 1R=${r.rent_1r ?? "—"} · Yield≈${r.yield_pct ?? "—"}%`
     ),
     ``,
     `## Ward comparison table`,
     ``,
     compareMd,
     ``,
-    `## Price timeseries (MLIT XIT001)`,
+    `## Price timeseries — 成約価格 (MLIT XIT001 · primary)`,
     ``,
-    ...wards.flatMap(w => [`### ${w}`, ``, timeseriesTable(ts, w), ``]),
+    ...wards.flatMap(w => [`### ${w}`, ``, timeseriesTable(ts, w, "㎡단가(万)"), ``]),
+    ``,
+    `## Price timeseries — 取引価格 (MLIT XIT001 · auxiliary)`,
+    ``,
+    `_不動産取引価格情報 — 성약가와 정의·수준 상이. 장기 추세·CAGR 보조용._`,
+    ``,
+    ...wards.flatMap(w => [`### ${w}`, ``, timeseriesTable(tradeTs, w, "㎡단가(万)"), ``]),
+    ``,
+    `## Land price timeseries (MLIT XPT002 · auxiliary)`,
+    ``,
+    `_타일 내 공시지가 포인트 평균 (円/㎡) — 맨션 단가와 직접 비교 금지._`,
+    ``,
+    ...wards.flatMap(w => [`### ${w}`, ``, timeseriesTable(landTs, w, "円/㎡"), ``]),
     ``,
     `## 町名 price distribution (NOT station-level)`,
     ``,
@@ -146,7 +169,7 @@ async function buildPack(meta, benchmarks, wards, args) {
     `## Suggested manifest prefixes`,
     ``,
     `- MLIT-{WARD}-70 · SUUMO-{WARD}-1R · STATION-{WARD}-TOP · PCT-{WARD}-VS-CHUO`,
-    `- Timeseries claims: benchmark_lookup mlit_mansion_timeseries.wards.{ward}.cagr_5y (if blog_primary)`,
+    `- Timeseries claims: 成約 → mlit_mansion_timeseries · 取引(보조) → mlit_trade_price_timeseries · 地価 → land_price_timeseries`,
   ].join("\n");
 
   const data = {

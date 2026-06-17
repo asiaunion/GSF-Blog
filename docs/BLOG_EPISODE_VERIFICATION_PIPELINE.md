@@ -136,14 +136,18 @@ pnpm compare:wards -- --episode ep07
 | Item | Path |
 |------|------|
 | Sample size SSOT | `scripts/lib/mlit-sample-policy.mjs` |
-| Price timeseries | `scripts/mlit-price-series.mjs` |
+| Price timeseries (成約) | `scripts/mlit-price-series.mjs` |
+| Trade timeseries (取引·aux) | `scripts/mlit-trade-price-series.mjs` |
+| Land timeseries (地価·aux) | `scripts/mlit-land-price-series.mjs` |
 | Research pack | `scripts/render-episode-research-pack.mjs` → `docs/verification/research-packs/` |
 | Orchestrator | `scripts/analyze-episode.mjs` |
 | OG pre-deploy | `scripts/verify-og-social.mjs` |
 
 ```bash
 pnpm analyze:episode -- --episode ep07 --write
-pnpm mlit:price-series -- --episode ep07 --from 2018 --to 2025 --write
+pnpm mlit:price-series -- --episode ep07 --from 2015 --to 2025 --write
+pnpm mlit:trade-series -- --episode ep07 --from 2005 --to 2025 --write
+pnpm mlit:land-series -- --episode ep07 --from 2005 --to 2026 --write
 pnpm research:pack -- --episode ep07 --write
 pnpm verify:og-social -- --slug tokyo-taito-sumida-koto
 ```

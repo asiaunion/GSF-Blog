@@ -194,16 +194,16 @@ function stats(arr) {
 // 수집 함수들
 // ─────────────────────────────────────────────────────────────────────────────
 
-/** XIT001: 맨션 성약가·취득가 */
-async function collectPrice(wardName, year = 2025, quarter = null, noCache = false) {
+/** XIT001: 맨션 성약가·취득가·거래가격 */
+async function collectPrice(wardName, year = 2025, quarter = null, noCache = false, priceClassification = "02") {
   const cityCode = WARD_CODE[wardName];
   if (!cityCode) throw new Error(`알 수 없는 구: ${wardName}`);
 
   const q = quarter ? `_q${quarter}` : "";
-  const cacheKey = `price-${wardName}-${year}${q}`;
+  const cacheKey = `price-${priceClassification}-${wardName}-${year}${q}`;
 
   const params = new URLSearchParams({
-    priceClassification: "02", // 성약가
+    priceClassification,
     year: String(year),
     city: cityCode,
     language: "ja",
@@ -274,8 +274,11 @@ async function collectPrice(wardName, year = 2025, quarter = null, noCache = fal
     Object.entries(bands).map(([k, v]) => [k, stats(v)])
   );
 
+  const tierLabel = priceClassification === "02" ? "A" : "A_auxiliary";
+  const priceLabel = priceClassification === "02" ? "成約価格" : "不動産取引価格";
+
   return {
-    ward: wardName, type: "price", year,
+    ward: wardName, type: "price", year, price_classification: priceClassification,
     count: valid.length,
     ward_avg_sqm: st.avg,
     est_70sqm: est70,
@@ -284,8 +287,13 @@ async function collectPrice(wardName, year = 2025, quarter = null, noCache = fal
     building_year_dist: byYear,
     area_band_unit_price: areaBands,
     fetched_at: new Date().toISOString().slice(0, 10),
-    source: "MLIT XIT001 API [1차 확인] A계층",
+    source: `MLIT XIT001 ${priceLabel} API [1차 확인] ${tierLabel}계층`,
   };
+}
+
+/** XIT001 priceClassification=01 — 不動産取引価格 (보조 시계열) */
+async function collectTradePrice(wardName, year = 2025, quarter = null, noCache = false) {
+  return collectPrice(wardName, year, quarter, noCache, "01");
 }
 
 /** XPT002: 지가공시 포인트 (GeoJSON 타일) */
@@ -882,6 +890,7 @@ if (isMain) {
 
 export {
   collectPrice,
+  collectTradePrice,
   collectLandPrice,
   collectStation,
   collectPopulation,

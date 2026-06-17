@@ -94,7 +94,7 @@ async function seriesForWard(ward, fromYear, toYear, noCache) {
 
 async function mergeIntoBenchmarks(wardSeriesList) {
   const benchmarks = JSON.parse(await readFile(BENCHMARKS, "utf8"));
-  benchmarks.schema_version = "1.2";
+  benchmarks.schema_version = "1.3";
   benchmarks.last_updated = new Date().toISOString().slice(0, 10);
   benchmarks.sample_size_policy = SAMPLE_SIZE_POLICY;
 

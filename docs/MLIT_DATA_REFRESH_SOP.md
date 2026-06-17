@@ -18,9 +18,10 @@ pnpm sync:mlit-ark
 # 3) benchmarks v1.2 (price·station·land·population·disaster·district·timeseries)
 pnpm sync:mlit-benchmarks -- --episode ep07 --write
 
-# 3b) 가격 시계열 (2015–2025, CAGR5y)
-pnpm mlit:price-series -- --episode ep07 --from 2015 --to 2025 --write
-# 23구 전체: pnpm mlit:price-series -- --all-wards --from 2015 --to 2025 --write
+# 3b) 가격 시계열
+pnpm mlit:price-series -- --episode ep07 --from 2015 --to 2025 --write      # 成約価格 primary
+pnpm mlit:trade-series -- --all-wards --from 2005 --to 2025 --write         # 取引価格 auxiliary
+pnpm mlit:land-series -- --all-wards --from 2005 --to 2026 --write          # 地価 auxiliary
 
 # 3c) 에피소드 리서치 팩 (블로그 작가용)
 pnpm analyze:episode -- --episode ep07 --write

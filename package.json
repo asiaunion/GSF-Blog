@@ -46,6 +46,8 @@
     "verify:mlit-drift": "node scripts/verify-mlit-drift.mjs",
     "og:hero-jpeg": "node scripts/generate-hero-og-jpeg.mjs",
     "mlit:price-series": "node scripts/mlit-price-series.mjs",
+    "mlit:trade-series": "node scripts/mlit-trade-price-series.mjs",
+    "mlit:land-series": "node scripts/mlit-land-price-series.mjs",
     "research:pack": "node scripts/render-episode-research-pack.mjs",
     "analyze:episode": "node scripts/analyze-episode.mjs",
     "verify:og-social": "node scripts/verify-og-social.mjs",

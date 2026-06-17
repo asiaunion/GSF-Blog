@@ -56,6 +56,8 @@ async function main() {
     const dis = b.disaster_risk?.wards?.[ward];
     const suumo = b.suumo_rent_new_build_station_5min?.wards?.[ward];
     const ts = b.mlit_mansion_timeseries?.wards?.[ward];
+    const tradeTs = b.mlit_trade_price_timeseries?.wards?.[ward];
+    const landTs = b.land_price_timeseries?.wards?.[ward];
     const y = yieldProxy(suumo?.["1R"], m?.est_70sqm);
     return {
       ward,
@@ -63,6 +65,8 @@ async function main() {
       est_70sqm: m?.est_70sqm,
       count: m?.count,
       cagr_5y: ts?.cagr_5y ?? ts?.cagr_full,
+      trade_cagr_10y: tradeTs?.cagr_10y ?? tradeTs?.cagr_full,
+      land_cagr_10y: landTs?.cagr_10y ?? landTs?.cagr_full,
       pop_change: pop?.change_pct,
       pop_change_num: parsePopChangePct(pop?.change_pct),
       flood: dis?.flood,
@@ -82,7 +86,7 @@ async function main() {
     if (!r.flood) score += 1;
     if (!r.liquefaction) score += 1;
     if (r.yield_pct != null && r.yield_pct >= 4) score += 1;
-    if (r.cagr_5y != null && r.cagr_5y > 0) score += 1;
+    if (r.trade_cagr_10y != null && r.trade_cagr_10y > 0) score += 1;
     r.score = score;
   }
 
@@ -100,10 +104,10 @@ async function main() {
     return;
   }
 
-  const header = "| Rank | 구 | ㎡단가 | n | CAGR5y | 인구Δ | Yield | 홍수 | 액상화 | score |";
-  const sep = "|---:|---|---:|---:|---:|---:|---:|:---:|:---:|---:|";
+  const header = "| Rank | 구 | ㎡단가 | n | 成約CAGR | 取引10y | 地価10y | 인구Δ | Yield | 홍수 | score |";
+  const sep = "|---:|---|---:|---:|---:|---:|---:|---:|---:|:---:|:---:|";
   const body = filtered.map((r, i) =>
-    `| ${i + 1} | ${r.ward} | ${r.ward_avg_sqm ?? "—"} | ${r.count ?? "—"} | ${r.cagr_5y ?? "—"} | ${r.pop_change ?? "—"} | ${r.yield_pct ?? "—"} | ${r.flood ? "Y" : "—"} | ${r.liquefaction ? "Y" : "—"} | ${r.score} |`
+    `| ${i + 1} | ${r.ward} | ${r.ward_avg_sqm ?? "—"} | ${r.count ?? "—"} | ${r.cagr_5y ?? "—"} | ${r.trade_cagr_10y ?? "—"} | ${r.land_cagr_10y ?? "—"} | ${r.pop_change ?? "—"} | ${r.yield_pct ?? "—"} | ${r.flood ? "Y" : "—"} | ${r.score} |`
   );
   console.log([`Median ㎡단가: ${medianPrice}`, "", header, sep, ...body].join("\n"));
 }

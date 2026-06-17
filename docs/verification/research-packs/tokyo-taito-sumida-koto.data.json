@@ -14,6 +14,9 @@
       "ward_avg_sqm": 110.9,
       "count": 729,
       "cagr_5y": null,
+      "cagr_full": 7.4,
+      "trade_cagr_10y": 5.2,
+      "land_cagr_10y": 11.5,
       "pop_change": "8.4%",
       "rent_1r": 11.4,
       "yield_pct": 1.8,
@@ -27,6 +30,9 @@
       "ward_avg_sqm": 92.6,
       "count": 719,
       "cagr_5y": null,
+      "cagr_full": 6.7,
+      "trade_cagr_10y": 4.2,
+      "land_cagr_10y": 4.9,
       "pop_change": "9.1%",
       "rent_1r": 10.3,
       "yield_pct": 1.9,
@@ -40,6 +46,9 @@
       "ward_avg_sqm": 120,
       "count": 1952,
       "cagr_5y": null,
+      "cagr_full": 10.7,
+      "trade_cagr_10y": 5.4,
+      "land_cagr_10y": 4,
       "pop_change": "6.4%",
       "rent_1r": 10.9,
       "yield_pct": 1.6,
@@ -371,5 +380,5 @@
       }
     ]
   },
-  "benchmarks_schema": "1.2"
+  "benchmarks_schema": "1.3"
 }

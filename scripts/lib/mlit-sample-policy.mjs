@@ -56,5 +56,10 @@ export function formatWriterConstraintsBlock() {
 ### Other
 - XKT* / XPT002: tile sample ≠ administrative ward boundary
 - Yield proxy: pre-tax surface yield; excludes management fees and vacancy
-- Transit minutes: tier C unless user_capture`;
+- Transit minutes: tier C unless user_capture
+
+### Auxiliary timeseries (A_auxiliary)
+- **mlit_trade_price_timeseries** (XIT001 \`01\` 取引価格): trend/CAGR only — never quote as 成約価格 substitute
+- **land_price_timeseries** (XPT002): 円/㎡ tile-sample average — land context only
+- Always footnote: "不動産取引価格情報に基づく推計" or "地価公示ポイント平均"`;
 }
