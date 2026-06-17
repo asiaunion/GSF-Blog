@@ -1,0 +1,79 @@
+{
+  "$schema": "./manifest.schema.md",
+  "episode": "Ep.XX",
+  "slug": "tokyo-example-slug",
+  "created_at": "YYYY-MM-DD",
+  "updated_at": "YYYY-MM-DD",
+  "gates": {
+    "c_tier_capture_requested": false,
+    "manifest_approved_by": null,
+    "manifest_approved_at": null,
+    "draft_started": false,
+    "cursor_audit_passed": false,
+    "cursor_audit_at": null,
+    "joseph_final_approved": false
+  },
+  "claims": [
+    {
+      "id": "MLIT-EXAMPLE-70",
+      "label": "台東区 맨션 70㎡ 성약가",
+      "value": 7762,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.台東区.est_70sqm",
+        "json_path": "台東区.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-EXAMPLE-1R",
+      "label": "台東区 SUUMO 1R",
+      "value": 11.4,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_taito/",
+        "snapshot": ".cache/verification/suumo-sc_taito-YYYYMMDD.html",
+        "snippet": "11.4万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "TRANSIT-EXAMPLE",
+      "label": "錦糸町→東京",
+      "value": 8,
+      "unit": "分",
+      "tier": "secondary",
+      "layer": "C",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "transit_to_downtown.routes.錦糸町→東京"
+      },
+      "used_in_draft": true
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-TAITO-VS-CHUO",
+      "label": "台東区 vs 中央区 가격 비율",
+      "formula": "7762 / 12680 * 100",
+      "expected": 61.2,
+      "unit": "%",
+      "tolerance": 0.5
+    }
+  ],
+  "c_tier_capture_requests": [
+    {
+      "id": "CAPTURE-EXAMPLE",
+      "source": "豊洲千客万来 개업일",
+      "reason": "공식 HTML 봇차단 또는 PDF-only",
+      "status": "pending",
+      "resolved_by": null
+    }
+  ]
+}

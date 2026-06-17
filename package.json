@@ -27,7 +27,10 @@
     "trust:update-index": "npx --yes tsx scripts/update-fact-audit-index.mjs",
     "trust:summary": "TRUST_SKIP_SOURCE_FETCH=1 npx --yes tsx scripts/trust-batch-summary.mjs",
     "check:source-links": "npx --yes tsx scripts/check-source-links.mjs",
-    "trust:check-source-urls": "node scripts/check-source-urls.mjs"
+    "trust:check-source-urls": "node scripts/check-source-urls.mjs",
+    "verify:episode": "node scripts/verify-episode-manifest.mjs",
+    "verify:episode:gate": "node scripts/verify-episode-manifest.mjs --require-gates",
+    "fetch:suumo": "node scripts/fetch-suumo-snapshot.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",

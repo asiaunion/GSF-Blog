@@ -15,7 +15,7 @@
 | **AG → Cursor 넘기기** | 초안·repo 반영 후 Cursor에 예: 「slug `…` — ko/en/ja 반영됨. 발행 전 검증 부탁」 |
 | **같은 slug** | `ko/`, `en/`, `ja/` 아래 **파일명 동일** (예: `…/ko/foo.md`, `…/en/foo.md`, `…/ja/foo.md`) |
 | **AG에 시킬 때** | slug 영문 kebab-case로 통일 → KO 작성 → EN/JA 번역 → 위 세 경로에 저장 |
-| **Cursor 검증** | `pnpm validate:post <slug>` exit 0 |
+| **Cursor 검증** | `pnpm verify:episode --slug <slug>` + `pnpm validate:post <slug>` exit 0 |
 | **발행** | 본인: git commit + deploy (`/blog_publish` 텔레그램은 legacy, [§ below](#what-was-blog_publish-telegram)) |
 | **repo 루트 주의** | `src/data/blog/_integrity-example-*.md`, `_template-*.md` 는 예시/템플릿 — 실제 글은 **`ko/` `en/` `ja/` 안만** |
 
@@ -34,6 +34,8 @@ src/data/blog/ja/<slug>.md
 | Phase | Owner | Typical tools |
 |-------|--------|----------------|
 | Research, KO draft, edit | **AG** | Antigravity, Google Docs, deploy-blog 스킬 등 |
+| **Manifest + C-tier capture** | **AG → Joseph** | `docs/verification/manifests/` — KO 초안 **전** 승인 |
+| **Cursor manifest audit** | **Cursor** | `pnpm verify:episode --slug <slug>` |
 | EN/JA (if not in AG) | **AG or pipeline** | 번역 스킬 / 기존 blog-agent |
 | Fact sheet + spot-check | **You + Cursor** | [`BLOG_FACT_CHECK_WORKFLOW.md`](./BLOG_FACT_CHECK_WORKFLOW.md) |
 | Automated gates + build | **Cursor** | `pnpm validate:post <slug>` |
@@ -46,12 +48,15 @@ src/data/blog/ja/<slug>.md
 ## Per-post pipeline (no fixed weekdays)
 
 ```
-AG: 주제 → KO 원고 → (EN/JA) → repo md 반영
+AG: 주제 → manifest (Step 3-E) → Joseph 승인 → KO 원고 → (EN/JA) → repo md 반영
         ↓
-Cursor: 팩트 시트 → pnpm validate:post <slug>
+Cursor: manifest verify + 팩트 시트 → pnpm validate:post <slug>
         ↓
 You: git commit + deploy
 ```
+
+**Ep.07+ 필수**: manifest 승인 없이 KO 초안 작성 금지. Cursor 감사(`cursor_audit_passed`) 없이 배포 금지.  
+상세: [`BLOG_EPISODE_VERIFICATION_PIPELINE.md`](./BLOG_EPISODE_VERIFICATION_PIPELINE.md)
 
 발행 **빈도**는 [`EDITORIAL_TOPIC_POLICY.md`](./EDITORIAL_TOPIC_POLICY.md) / runbook 목표(예: 주 3회)를 참고하되, **월·수·금 같은 요일 매핑은 사용하지 않음**.
 
@@ -74,6 +79,8 @@ You: git commit + deploy
 ### 3. Automated validation
 
 ```bash
+pnpm verify:episode --slug <slug>          # manifest vs SSOT (Ep.07+ 권장)
+pnpm verify:episode:gate --slug <slug>       # 배포 직전 gates 포함
 pnpm validate:post <slug>
 ```
 
@@ -124,10 +131,12 @@ Telegram / GSF-Research 봇은 **현재 운영에서 필수 아님** (legacy).
 “발행 전 검증해줘”일 때:
 
 1. `slug` + `src/data/blog/` 경로 확인
-2. 팩트 시트 템플릿 안내
-3. `pnpm validate:post <slug>` → 0 될 때까지 md 수정
-4. **사용자가 요청할 때만** commit/deploy
-5. Telegram 언급하지 말 것 — publish는 git/deploy
+2. `docs/verification/manifests/*<slug>*.manifest.json` 존재·gates 확인
+3. `pnpm verify:episode --slug <slug>` → 0
+4. 팩트 시트 템플릿 안내
+5. `pnpm validate:post <slug>` → 0 될 때까지 md 수정
+6. manifest `gates.cursor_audit_passed: true` 설정
+7. **사용자가 요청할 때만** commit/deploy
 
 Rule: [`.cursor/rules/blog-pre-publish.mdc`](../.cursor/rules/blog-pre-publish.mdc)
 
@@ -155,6 +164,7 @@ Rule: [`.cursor/rules/blog-pre-publish.mdc`](../.cursor/rules/blog-pre-publish.m
 
 ## Related
 
+- [`BLOG_EPISODE_VERIFICATION_PIPELINE.md`](./BLOG_EPISODE_VERIFICATION_PIPELINE.md)
 - [`BLOG_AGENT_AUTOMATION_RUNBOOK.md`](../BLOG_AGENT_AUTOMATION_RUNBOOK.md)
 - [`BLOG_FACT_CHECK_WORKFLOW.md`](./BLOG_FACT_CHECK_WORKFLOW.md)
 - [`AG_PHASE2_CONTENT_FIX_PROMPT.md`](./AG_PHASE2_CONTENT_FIX_PROMPT.md)

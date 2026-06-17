@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-06-17",
+  "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
+  "data_tiers": {
+    "A": "MLIT JSON / PKM verified card — scripts/verify-episode-manifest.mjs 자동 검증",
+    "B": "SUUMO fetch snapshot — .cache/verification/suumo-*.html",
+    "C": "Transit estimate / PR — secondary tier 고정, primary 승격 금지"
+  },
+  "mlit_mansion_2025_q1_q4": {
+    "source": "projects/GSF-PKM/PKM/30 Resources/tokyo_mansion_stats_2025.json",
+    "source_label": "国土交通省 不動産情報ライブラリ 成約価格 2025年1~4分기",
+    "unit_sqm": "万円/㎡",
+    "unit_70sqm": "万円",
+    "wards": {
+      "千代田区": { "ward_avg_sqm": 194.7, "est_70sqm": 13630, "count": 357, "episode": "Ep.01" },
+      "中央区": { "ward_avg_sqm": 181.1, "est_70sqm": 12680, "count": 1421, "episode": "Ep.01" },
+      "港区": { "ward_avg_sqm": 220.6, "est_70sqm": 15441, "count": 1557, "episode": "Ep.01" },
+      "新宿区": { "ward_avg_sqm": 135.9, "est_70sqm": 9510, "count": 1298, "episode": "Ep.02" },
+      "渋谷区": { "ward_avg_sqm": 180.0, "est_70sqm": 12600, "count": 907, "episode": "Ep.02" },
+      "文京区": { "ward_avg_sqm": 131.5, "est_70sqm": 9205, "count": 808, "episode": "Ep.02" },
+      "目黒区": { "ward_avg_sqm": 139.7, "est_70sqm": 9779, "count": 676, "episode": "Ep.03" },
+      "世田谷区": { "ward_avg_sqm": 105.2, "est_70sqm": 7364, "count": 1734, "episode": "Ep.03" },
+      "品川区": { "ward_avg_sqm": 138.8, "est_70sqm": 9716, "count": 1223, "episode": "Ep.04" },
+      "大田区": { "ward_avg_sqm": 83.1, "est_70sqm": 5817, "count": 1218, "episode": "Ep.04" },
+      "豊島区": { "ward_avg_sqm": 115.8, "est_70sqm": 8106, "count": 744, "episode": "Ep.05" },
+      "中野区": { "ward_avg_sqm": 102.6, "est_70sqm": 7182, "count": 619, "episode": "Ep.05" },
+      "杉並区": { "ward_avg_sqm": 93.1, "est_70sqm": 6517, "count": 851, "episode": "Ep.05" },
+      "台東区": { "ward_avg_sqm": 110.9, "est_70sqm": 7762, "count": 729, "episode": "Ep.06" },
+      "墨田区": { "ward_avg_sqm": 92.6, "est_70sqm": 6479, "count": 719, "episode": "Ep.06" },
+      "江東区": { "ward_avg_sqm": 120.0, "est_70sqm": 8401, "count": 1952, "episode": "Ep.06" }
+    }
+  },
+  "suumo_rent_new_build_station_5min": {
+    "condition": "신축+역 도보1~5분, SUUMO pagecaption 기준",
+    "wards": {
+      "豊島区": { "1R": 10.8, "1LDK": 16.1, "snapshot_date": "2026-04-13", "episode": "Ep.05" },
+      "中野区": { "1R": 10.0, "1LDK": 16.7, "snapshot_date": "2026-04-13", "episode": "Ep.05" },
+      "杉並区": { "1R": 9.0, "1LDK": 16.2, "snapshot_date": "2026-04-13", "episode": "Ep.05" },
+      "台東区": { "1R": 11.4, "1K": 11.5, "1LDK": 17.2, "2LDK": 19.8, "snapshot_date": "2026-06-17", "episode": "Ep.06" },
+      "墨田区": { "1R": 10.3, "1K": 10.4, "1LDK": 16.1, "2LDK": 18.2, "snapshot_date": "2026-06-17", "episode": "Ep.06" },
+      "江東区": { "1R": 10.9, "1K": 11.0, "1LDK": 15.6, "2LDK": 17.9, "snapshot_date": "2026-06-17", "episode": "Ep.06" }
+    }
+  },
+  "income_density_per_capita": {
+    "source": "projects/GSF-PKM/PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md",
+    "unit": "万円/人",
+    "label": "인구 1인당 실질 소득 밀도",
+    "wards": {
+      "江東区": { "rank": 10, "value": 285.2 },
+      "台東区": { "rank": 12, "value": 280.4 },
+      "豊島区": { "rank": 13, "value": 268.5 },
+      "墨田区": { "rank": 15, "value": 262.1 },
+      "中野区": { "rank": 16, "value": 260.6 },
+      "杉並区": { "rank": 11, "value": 280.5 }
+    }
+  },
+  "transit_to_downtown": {
+    "tier": "C",
+    "note": "乗換案내 기준 추정 [2차 출처]. primary 승격 금지.",
+    "routes": {
+      "上野→東京": { "minutes": 8, "line": "JR上野東京ライン", "destination": "東京駅", "ward": "台東区", "episode": "Ep.06" },
+      "錦糸町→東京": { "minutes": 8, "line": "JR総武快速", "destination": "東京駅", "ward": "墨田区", "episode": "Ep.06" },
+      "東陽町→大手町": { "minutes": 9, "line": "東京メトロ東西線", "destination": "大手町", "ward": "江東区", "episode": "Ep.06" },
+      "高円寺→東京": { "minutes": 21, "line": "中央線快速", "destination": "東京駅", "ward": "杉並区", "locked_episode": "Ep.06", "note": "Joseph 확인 2026-06-17" },
+      "中野→東京": { "minutes": 16, "line": "中央線快速", "destination": "東京駅", "ward": "中野区", "locked_episode": "Ep.06", "note": "乗換案내 추정" }
+    }
+  }
+}
