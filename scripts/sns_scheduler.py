@@ -24,6 +24,44 @@ ENV_FILE  = BASE_DIR / ".env"
 GQL_URL   = "https://api.buffer.com/graphql"
 POST_TIME = "09:00"   # JST 발행 시각
 JST       = timezone(timedelta(hours=9))
+SITE_ORIGIN = "https://gsfark.com"
+
+# ── URL / OG 헬퍼 ───────────────────────────────────────────────────────────
+def post_url(slug, locale):
+    """Astro i18n: en은 prefix 없음, ko/ja는 /{locale}/posts/..."""
+    if locale == "ko":
+        return f"{SITE_ORIGIN}/ko/posts/{slug}/"
+    if locale == "ja":
+        return f"{SITE_ORIGIN}/ja/posts/{slug}/"
+    return f"{SITE_ORIGIN}/posts/{slug}/"
+
+def make_tracking_url(slug, locale, platform):
+    return (
+        f"{post_url(slug, locale)}"
+        f"?utm_source={platform}&utm_medium=social&utm_campaign=blog-broadcast"
+    )
+
+def default_og_image_url(slug):
+    return f"{SITE_ORIGIN}/assets/images/blog/{slug}-hero-og.jpg"
+
+def to_linkedin_og_image(og_image_url):
+    """LinkedIn은 WebP OG를 건너뛰는 경우가 많아 JPEG 경로를 별도로 둔다."""
+    if og_image_url.endswith(".webp"):
+        return og_image_url.replace("-hero.webp", "-hero-og.jpg")
+    return og_image_url
+
+def resolve_og_images(og_val, slug):
+    if og_val and og_val.startswith("http"):
+        og_image_url = og_val
+    elif og_val:
+        path = og_val if og_val.startswith("/") else f"/{og_val}"
+        og_image_url = f"{SITE_ORIGIN}{path}"
+    else:
+        og_image_url = default_og_image_url(slug)
+    return {
+        "og_image_url": og_image_url,
+        "og_image_url_linkedin": to_linkedin_og_image(og_image_url),
+    }
 
 # ── .env 로딩 ──────────────────────────────────────────────────────────────
 def load_env():
@@ -51,31 +89,23 @@ def parse_md(slug, locale):
     tags   = re.findall(r'^\s+-\s+(.+)$', re.search(r'tags:(.*?)(?=\n\S)', text, re.DOTALL).group(1) if re.search(r'tags:', text) else '', re.MULTILINE)
     og_raw = re.search(r'^ogImage[:\s]+"?([^"\n]+)"?', text, re.MULTILINE)
     og_val = og_raw.group(1).strip() if og_raw else None
-    # ogImage가 절대 URL이면 그대로, 상대 경로면 origin 붙이기, 없으면 기본 경로
-    if og_val and og_val.startswith('http'):
-        og_image_url = og_val
-    elif og_val:
-        og_image_url = f"https://gsfark.com{og_val if og_val.startswith('/') else '/' + og_val}"
-    else:
-        og_image_url = f"https://gsfark.com/assets/images/blog/{slug}-hero.webp"
+    og_images = resolve_og_images(og_val, slug)
     return {
         "title": title.group(1).strip() if title else slug,
         "description": desc.group(1).strip() if desc else "",
         "category": cat.group(1).strip() if cat else "general",
         "tags": tags[:5],
-        "og_image_url": og_image_url,
+        **og_images,
     }
 
 # ── SNS 초안 생성 ──────────────────────────────────────────────────────────
 def generate_drafts(slug, meta_ko, meta_en, scheduled_date):
     """6건 초안 생성 (X-EN/KO, LinkedIn-EN/KO, Threads-EN/KO)"""
-    url_base = f"https://gsfark.com/posts/{slug}/"
+    url_en = post_url(slug, "en")
+    url_ko = post_url(slug, "ko")
     is_investment = meta_ko and meta_ko.get('category') in ['investment', 'essay']
     disclaimer_ko = "\n정보 제공 목적." if is_investment else ""
     disclaimer_en = "\nFor information purposes only." if is_investment else ""
-
-    def make_url(platform):
-        return f"{url_base}?utm_source={platform}&utm_medium=social&utm_campaign=blog-broadcast"
 
     # 제목 단축 (X용)
     short_title_ko = (meta_ko['title'][:25] + "...") if meta_ko and len(meta_ko['title']) > 28 else (meta_ko['title'] if meta_ko else slug)
@@ -84,12 +114,12 @@ def generate_drafts(slug, meta_ko, meta_en, scheduled_date):
     desc_en = meta_en['description'][:70] if meta_en else ""
 
     drafts = {
-        "X-EN": f"{short_title_en}\n\n{desc_en}{disclaimer_en}\n\n→ {url_base}\n\n#JapanRealEstate #Tokyo #GSFInsight",
-        "X-KO": f"{short_title_ko}\n\n{desc_ko}{disclaimer_ko}\n\n→ {url_base}\n\n#일본부동산 #도쿄 #GSF인사이트",
-        "LinkedIn-EN": f"📌 {meta_en['title'] if meta_en else slug}\n\n{meta_en['description'] if meta_en else ''}{disclaimer_en}\n\nRead the full analysis:\n👉 {make_url('linkedin')}\n\n#JapanRealEstate #Tokyo #AsiaInvesting",
-        "LinkedIn-KO": f"📌 {meta_ko['title'] if meta_ko else slug}\n\n{meta_ko['description'] if meta_ko else ''}{disclaimer_ko}\n\n전체 내용 →\n👉 {make_url('linkedin')}\n\n#일본부동산 #도쿄 #해외투자",
-        "Threads-EN": f"{meta_en['title'] if meta_en else slug}\n\n{meta_en['description'] if meta_en else ''}{disclaimer_en}\n\n→ {make_url('threads')}\n\n#JapanRealEstate #Tokyo",
-        "Threads-KO": f"{meta_ko['title'] if meta_ko else slug}\n\n{meta_ko['description'] if meta_ko else ''}{disclaimer_ko}\n\n→ {make_url('threads')}\n\n#일본부동산 #도쿄",
+        "X-EN": f"{short_title_en}\n\n{desc_en}{disclaimer_en}\n\n→ {url_en}\n\n#JapanRealEstate #Tokyo #GSFInsight",
+        "X-KO": f"{short_title_ko}\n\n{desc_ko}{disclaimer_ko}\n\n→ {url_ko}\n\n#일본부동산 #도쿄 #GSF인사이트",
+        "LinkedIn-EN": f"📌 {meta_en['title'] if meta_en else slug}\n\n{meta_en['description'] if meta_en else ''}{disclaimer_en}\n\nRead the full analysis:\n👉 {make_tracking_url(slug, 'en', 'linkedin')}\n\n#JapanRealEstate #Tokyo #AsiaInvesting",
+        "LinkedIn-KO": f"📌 {meta_ko['title'] if meta_ko else slug}\n\n{meta_ko['description'] if meta_ko else ''}{disclaimer_ko}\n\n전체 내용 →\n👉 {make_tracking_url(slug, 'ko', 'linkedin')}\n\n#일본부동산 #도쿄 #해외투자",
+        "Threads-EN": f"{meta_en['title'] if meta_en else slug}\n\n{meta_en['description'] if meta_en else ''}{disclaimer_en}\n\n→ {make_tracking_url(slug, 'en', 'threads')}\n\n#JapanRealEstate #Tokyo",
+        "Threads-KO": f"{meta_ko['title'] if meta_ko else slug}\n\n{meta_ko['description'] if meta_ko else ''}{disclaimer_ko}\n\n→ {make_tracking_url(slug, 'ko', 'threads')}\n\n#일본부동산 #도쿄",
     }
 
     # X 280자 강제 단축 (URL 포함 실제 280자 이내)
@@ -263,28 +293,39 @@ def main():
         # 초안 생성
         drafts = generate_drafts(slug, meta_ko, meta_en, sched_date)
 
-        # OG 이미지 URL 결정: frontmatter ogImage 우선 (en → ko 순), 없으면 기본 경로
-        og_image_url = (meta_en or {}).get('og_image_url') or \
-                       (meta_ko or {}).get('og_image_url') or \
-                       f"https://gsfark.com/assets/images/blog/{slug}-hero.webp"
+        default_og = default_og_image_url(slug)
+        og_image_url = (meta_en or {}).get("og_image_url") or \
+                       (meta_ko or {}).get("og_image_url") or \
+                       default_og
+        og_image_url_linkedin = (meta_en or {}).get("og_image_url_linkedin") or \
+                                (meta_ko or {}).get("og_image_url_linkedin") or \
+                                to_linkedin_og_image(default_og)
         print(f"   🖼️  OG image: {og_image_url}")
+        print(f"   🖼️  LinkedIn image (수동 첨부용): {og_image_url_linkedin}")
 
         # Buffer 전송
         buffer_ids = {}
         all_ok = True
         for name, text in drafts.items():
-            platform_match = name.split("-")[0].lower()
-            canonical_url = f"https://gsfark.com/posts/{slug}/"
+            platform_match, locale = name.rsplit("-", 1)
+            platform_match = platform_match.lower()
+            locale = locale.lower()
+            meta = meta_en if locale == "en" else meta_ko
+            canonical_url = post_url(slug, locale)
+            locale_og_linkedin = (meta or {}).get("og_image_url_linkedin") or og_image_url_linkedin
 
             # assets 결정:
             #   X        → [] (본문 URL에서 트위터 카드 자동 생성)
-            #   LinkedIn → link asset (canonical URL) → OG 카드 크롤링
-            #   Threads  → link asset (canonical URL) → OG 카드 크롤링
+            #   LinkedIn → link asset (locale canonical) → OG 카드 크롤링
+            #   Threads  → link asset (locale canonical) → OG 카드 크롤링
             # ※ UTM URL을 link asset에 쓰면 크롤러가 해당 파라미터 URL을 크롤링하므로 canonical만 사용
             if platform_match == "x":
                 assets_payload = []
             else:
                 assets_payload = [{"link": {"url": canonical_url}}]
+
+            if args.dry_run:
+                print(f"   [DRY-RUN] {name}: link={canonical_url} linkedin_img={locale_og_linkedin}")
 
             result = post_to_buffer(TOKEN, channel_map[name], text, due_at, assets_payload=assets_payload, dry_run=args.dry_run, platform_name=name)
             if result.get('error'):
@@ -309,7 +350,14 @@ def main():
             # sns-drafts 파일 저장
             draft_path = BASE_DIR / "sns-drafts" / f"{sched_date}-{slug}.md"
             with open(draft_path, 'w', encoding='utf-8') as df:
-                df.write(f"# SNS 초안: {slug}\n\n- 회차: {round_no}/40\n- 예약일: {sched_date} JST {POST_TIME}\n\n")
+                df.write(
+                    f"# SNS 초안: {slug}\n\n"
+                    f"- 회차: {round_no}/40\n"
+                    f"- 예약일: {sched_date} JST {POST_TIME}\n"
+                    f"- LinkedIn 수동 이미지 (미리보기 실패 시): {og_image_url_linkedin}\n"
+                    f"- EN canonical: {post_url(slug, 'en')}\n"
+                    f"- KO canonical: {post_url(slug, 'ko')}\n\n"
+                )
                 for name, text in drafts.items():
                     df.write(f"## {name}\n```\n{text}\n```\n\n")
             print(f"   📄 초안 파일: sns-drafts/{sched_date}-{slug}.md\n")

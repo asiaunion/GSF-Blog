@@ -82,13 +82,6 @@ const { Content } = await render(post);
 // SSG/Vercel: `process.cwd()` is the repo root during `astro build`.
 const publicDir = path.join(process.cwd(), "public");
 
-function withOgCacheBust(imageUrl: string, when?: Date) {
-  if (!when) return imageUrl;
-  const u = new URL(imageUrl);
-  u.searchParams.set("v", when.toISOString().slice(0, 10).replace(/-/g, ""));
-  return u.href;
-}
-
 function preferLinkedInOgAsset(imageUrl: string) {
   try {
     const u = new URL(imageUrl);
@@ -119,12 +112,9 @@ if (!ogImageUrl && SITE.dynamicOgImage) {
   ogImageUrl = `${postBase}/index.png`;
 }
 
-// Resolve OG image URL for social crawlers (LinkedIn prefers JPEG 1200×630)
+// Resolve OG image URL for social crawlers (LinkedIn prefers JPEG 1200×630, no query string)
 const ogImage = ogImageUrl
-  ? withOgCacheBust(
-      preferLinkedInOgAsset(new URL(ogImageUrl, Astro.url.origin).href),
-      pubDatetime,
-    )
+  ? preferLinkedInOgAsset(new URL(ogImageUrl, Astro.url.origin).href)
   : undefined;
 
 // If the image is hosted on Vercel Blob or external, we use it directly as heroSrc

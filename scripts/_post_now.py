@@ -33,12 +33,16 @@ mutation CreatePost($input: CreatePostInput!) {
 }
 """
 
-def post_now(token, channel_id, text, platform_name, canonical_url=None):
+def post_now(token, channel_id, text, platform_name, canonical_url=None, image_url=None):
     # 현재 시각 + 2분 (Buffer API는 미래 시각 필요)
     now_utc = (datetime.now(timezone.utc) + timedelta(minutes=2)).isoformat()
 
     assets_payload = []
-    if canonical_url and platform_name.lower() != "x":
+    if platform_name.lower() == "threads" and image_url:
+        # Wiki/Buffer_API_Threads_Image_Rule.md:
+        # Threads는 link 방식으로 OG 이미지가 크롤링 안 됨 → image 객체 명시 필수
+        assets_payload = [{"image": {"url": image_url}}]
+    elif canonical_url and platform_name.lower() not in ("x", "threads"):
         assets_payload = [{"link": {"url": canonical_url}}]
 
     variables = {
@@ -79,6 +83,7 @@ def main():
     parser.add_argument("--platform", required=True, choices=["threads", "linkedin", "x"])
     parser.add_argument("--text", required=True)
     parser.add_argument("--url", default=None, help="OG 카드용 canonical URL (선택)")
+    parser.add_argument("--image-url", default=None, dest="image_url", help="명시적 이미지 URL (LinkedIn/Threads 이미지 누락 방지)")
     args = parser.parse_args()
 
     env = load_env()
@@ -98,7 +103,7 @@ def main():
         print(f"❌ {args.platform} Channel ID 없음")
         sys.exit(1)
 
-    result = post_now(token, channel_id, args.text, args.platform, canonical_url=args.url)
+    result = post_now(token, channel_id, args.text, args.platform, canonical_url=args.url, image_url=args.image_url)
     if result.get("error"):
         sys.exit(1)
 

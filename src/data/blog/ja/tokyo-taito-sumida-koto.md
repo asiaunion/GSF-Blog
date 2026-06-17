@@ -7,7 +7,7 @@ draft: false
 lang: ja
 aiModel: "Claude Sonnet 4.6"
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-taito-sumida-koto-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-taito-sumida-koto-hero-og.jpg"
 tags:
   - "東京23区"
   - "台東区"
