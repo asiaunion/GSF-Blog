@@ -79,11 +79,36 @@ const disclaimerLang =
 
 const { Content } = await render(post);
 
+// SSG/Vercel: `process.cwd()` is the repo root during `astro build`.
+const publicDir = path.join(process.cwd(), "public");
+
+function withOgCacheBust(imageUrl: string, when?: Date) {
+  if (!when) return imageUrl;
+  const u = new URL(imageUrl);
+  u.searchParams.set("v", when.toISOString().slice(0, 10).replace(/-/g, ""));
+  return u.href;
+}
+
+function preferLinkedInOgAsset(imageUrl: string) {
+  try {
+    const u = new URL(imageUrl);
+    if (!u.pathname.endsWith("-hero.webp")) return imageUrl;
+    const jpgPath = u.pathname.replace(/-hero\.webp$/, "-hero-og.jpg");
+    const local = path.join(publicDir, jpgPath.replace(/^\/+/, ""));
+    if (fs.existsSync(local)) {
+      return new URL(jpgPath, Astro.url.origin).href;
+    }
+  } catch {
+    /* keep original */
+  }
+  return imageUrl;
+}
+
 let ogImageUrl: string | undefined;
 
 // Determine OG image source
 if (typeof initOgImage === "string") {
-  ogImageUrl = initOgImage; // Remote OG image (absolute URL)
+  ogImageUrl = preferLinkedInOgAsset(initOgImage); // Remote OG image (absolute URL)
 } else if (initOgImage?.src) {
   ogImageUrl = initOgImage.src; // Local asset
 }
@@ -94,9 +119,12 @@ if (!ogImageUrl && SITE.dynamicOgImage) {
   ogImageUrl = `${postBase}/index.png`;
 }
 
-// Resolve OG image URL (or fallback to SITE.ogImage / default `og.png`)
+// Resolve OG image URL for social crawlers (LinkedIn prefers JPEG 1200×630)
 const ogImage = ogImageUrl
-  ? new URL(ogImageUrl, Astro.url.origin).href
+  ? withOgCacheBust(
+      preferLinkedInOgAsset(new URL(ogImageUrl, Astro.url.origin).href),
+      pubDatetime,
+    )
   : undefined;
 
 // If the image is hosted on Vercel Blob or external, we use it directly as heroSrc
@@ -106,10 +134,6 @@ const heroSrc = isRemoteHero
   : ogImageUrl
   ? (() => { try { return new URL(ogImageUrl).pathname; } catch { return ogImageUrl; } })()
   : undefined;
-
-// SSG/Vercel: `import.meta.url` points at bundled chunks, not `src/layouts/`.
-// `process.cwd()` is the repo root during `astro build`.
-const publicDir = path.join(process.cwd(), "public");
 
 async function getHeroDims(heroSrcPath: string) {
   if (isRemoteHero) return { w: 1200, h: 630 }; // Skip local sharp for remote images
@@ -175,6 +199,11 @@ function resolveHeroSrcSet(
 
 const heroResolved = resolveHeroSrcSet(heroSrc, heroDims.w);
 
+const ogImageIsJpeg = ogImage?.includes("-hero-og.jpg");
+const ogSocialDims = ogImageIsJpeg
+  ? { w: 1200, h: 630 }
+  : heroDims;
+
 const layoutProps = {
   title: `${title} | ${SITE.title}`,
   author,
@@ -183,6 +212,9 @@ const layoutProps = {
   modDatetime,
   canonicalURL,
   ogImage,
+  ogImageWidth: ogSocialDims.w,
+  ogImageHeight: ogSocialDims.h,
+  ogImageType: ogImageIsJpeg ? "image/jpeg" : undefined,
   scrollSmooth: true,
   tags,
   articleBody: description,

@@ -125,11 +125,22 @@ Cursor:
 ## Step 6 — EN/JA + validate + deploy
 
 ```bash
+pnpm og:hero-jpeg -- <slug>          # LinkedIn용 1200×630 JPEG (-hero-og.jpg)
 pnpm verify:episode:gate --slug <slug>
 pnpm validate:post <slug>
 ```
 
 Joseph: git commit + deploy
+
+### Step 6-S — SNS OG (LinkedIn 필수)
+
+배포 직후:
+
+1. `pnpm og:hero-jpeg -- <slug>` — `-hero-og.jpg` 생성·커밋 (없으면 WebP만 노출 → LinkedIn 미표시 위험)
+2. [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)에서 KO·EN URL 각각 **Inspect**
+3. **Revert 후 재배포**한 글은 LinkedIn이 “이미지 없음”을 캐시함 → Post Inspector 없이 재게시해도 썸네일 안 뜸
+
+`og:image`는 자동으로 `-hero-og.jpg?v=YYYYMMDD` (발행일)를 사용해 캐시 무효화.
 
 ---
 

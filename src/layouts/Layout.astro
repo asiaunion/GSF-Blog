@@ -19,6 +19,9 @@ type Props = {
   profile?: string;
   description?: string;
   ogImage?: string;
+  ogImageWidth?: number;
+  ogImageHeight?: number;
+  ogImageType?: string;
   canonicalURL?: string;
   pubDatetime?: Date;
   modDatetime?: Date | null;
@@ -39,6 +42,9 @@ const {
   profile = SITE.profile,
   description = SITE.desc,
   ogImage = SITE.ogImage ? `/${SITE.ogImage}` : "/og.png",
+  ogImageWidth,
+  ogImageHeight,
+  ogImageType,
   canonicalURL = new URL(Astro.url.pathname, Astro.url),
   pubDatetime,
   modDatetime,
@@ -57,6 +63,10 @@ const { locale } = Astro.params;
 const currentLang = (htmlLangProp ?? locale ?? "en") as string;
 
 const socialImageURL = new URL(ogImage, Astro.url);
+const ogType = pubDatetime ? "article" : "website";
+const resolvedOgWidth = ogImageWidth ?? 1200;
+const resolvedOgHeight = ogImageHeight ?? 630;
+const resolvedOgType = ogImageType ?? (String(socialImageURL).includes(".webp") ? "image/webp" : "image/jpeg");
 const canonicalHref =
   typeof canonicalURL === "string" ? canonicalURL : canonicalURL.href;
 const publisherLogoUrl = new URL(
@@ -219,10 +229,16 @@ const structuredData = overrideJsonLd ?? {
     <link rel="sitemap" href="/sitemap-index.xml" />
 
     <!-- Open Graph / Facebook -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={SITE.title} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:image" content={socialImageURL} />
+    <meta property="og:image:secure_url" content={socialImageURL} />
+    <meta property="og:image:width" content={String(resolvedOgWidth)} />
+    <meta property="og:image:height" content={String(resolvedOgHeight)} />
+    <meta property="og:image:type" content={resolvedOgType} />
 
     <!-- Article Published/Modified time -->
     {

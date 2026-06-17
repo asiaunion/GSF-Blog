@@ -42,7 +42,8 @@
     "sync:mlit-benchmarks": "node scripts/sync-mlit-to-benchmarks.mjs",
     "dossier:ward": "node scripts/render-ward-dossier.mjs",
     "compare:wards": "node scripts/compare-wards.mjs",
-    "verify:mlit-drift": "node scripts/verify-mlit-drift.mjs"
+    "verify:mlit-drift": "node scripts/verify-mlit-drift.mjs",
+    "og:hero-jpeg": "node scripts/generate-hero-og-jpeg.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",
