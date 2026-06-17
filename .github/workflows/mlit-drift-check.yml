@@ -27,4 +27,5 @@ jobs:
             exit 0
           fi
           node scripts/verify-mlit-drift.mjs --threshold 0.05 --fail
+          node scripts/verify-mlit-drift.mjs --episode ep07 --threshold 0.05
         continue-on-error: true

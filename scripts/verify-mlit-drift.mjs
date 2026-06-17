@@ -33,6 +33,7 @@ async function main() {
     : Object.keys(benchmarks.mlit_mansion_2025_q1_q4?.wards ?? {});
 
   const drifts = [];
+  const cagrDrifts = [];
   for (const ward of wards ?? []) {
     const expected = benchmarks.mlit_mansion_2025_q1_q4?.wards?.[ward]?.est_70sqm;
     if (expected == null) continue;
@@ -49,9 +50,24 @@ async function main() {
     }
   }
 
-  const out = { ok: drifts.length === 0, threshold: args.threshold, drifts };
+  const ts = benchmarks.mlit_mansion_timeseries?.wards ?? {};
+  for (const ward of wards ?? []) {
+    const row = ts[ward];
+    if (row?.cagr_5y == null) continue;
+    const cached = row.cagr_5y;
+    const years = Object.keys(row.series ?? {}).map(Number).sort((a, b) => a - b);
+    const last = years.at(-1);
+    const first5 = last != null ? last - 5 : null;
+    if (first5 == null || row.series[first5] == null || row.series[last] == null) continue;
+    const recomputed = Math.round((Math.pow(row.series[last] / row.series[first5], 1 / 5) - 1) * 1000) / 10;
+    if (Math.abs(recomputed - cached) > 0.5) {
+      cagrDrifts.push({ ward, cached, recomputed });
+    }
+  }
+
+  const out = { ok: drifts.length === 0 && cagrDrifts.length === 0, threshold: args.threshold, drifts, cagr_drifts: cagrDrifts };
   console.log(JSON.stringify(out, null, 2));
-  if (drifts.length && args.fail) process.exit(1);
+  if ((drifts.length || cagrDrifts.length) && args.fail) process.exit(1);
 }
 
 main().catch(err => {

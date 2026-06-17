@@ -32,7 +32,6 @@ function extractPagecaption(html) {
 }
 
 async function main() {
-async function main() {
   const commit = process.argv.includes("--commit");
   let input = "";
   for (let i = 2; i < process.argv.length; i += 1) {

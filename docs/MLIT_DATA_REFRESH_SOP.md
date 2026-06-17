@@ -15,8 +15,14 @@ pnpm merge:mlit-pkm -- --episode ep07 --no-cache
 # 2) Ark CI mirror
 pnpm sync:mlit-ark
 
-# 3) benchmarks v1.1 (price·station·land·population·disaster)
+# 3) benchmarks v1.2 (price·station·land·population·disaster·district·timeseries)
 pnpm sync:mlit-benchmarks -- --episode ep07 --write
+
+# 3b) 가격 시계열 (2018–2025)
+pnpm mlit:price-series -- --episode ep07 --from 2018 --to 2025 --write
+
+# 3c) 에피소드 리서치 팩 (블로그 작가용)
+pnpm analyze:episode -- --episode ep07 --write
 
 # 4) SUUMO B-layer (MLIT에 없음)
 node scripts/fetch-suumo-snapshot.mjs sc_kita --commit
@@ -26,6 +32,8 @@ pnpm dossier:ward -- --episode ep07
 
 # 6) 드리프트 확인 (선택)
 pnpm verify:mlit-drift -- --episode ep07
+pnpm screen:wards
+pnpm verify:og-social -- --slug <slug>
 ```
 
 ## Joseph 승인 체크리스트

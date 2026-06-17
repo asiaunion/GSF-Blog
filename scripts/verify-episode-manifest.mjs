@@ -10,6 +10,7 @@
  */
 import { readFile, access, readdir, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
+import { policyForCount } from "./lib/mlit-sample-policy.mjs";
 
 const root = process.cwd();
 const PKM_ROOT =
@@ -109,6 +110,16 @@ function checkBenchmarkLookup(claim, benchmarks) {
       ? { ok: true }
       : { ok: false, reason: `expected top_passengers ${node.top_passengers}, got ${claim.value}` };
   }
+  if (typeof node.cagr_5y === "number" && claim.value != null) {
+    return node.cagr_5y === claim.value
+      ? { ok: true }
+      : { ok: false, reason: `expected cagr_5y ${node.cagr_5y}, got ${claim.value}` };
+  }
+  if (typeof node.change_pct === "number" && claim.value != null) {
+    return node.change_pct === claim.value
+      ? { ok: true }
+      : { ok: false, reason: `expected change_pct ${node.change_pct}, got ${claim.value}` };
+  }
   if (typeof node === "number" && claim.value != null) {
     return node === claim.value
       ? { ok: true }
@@ -178,6 +189,20 @@ function computeHallucinationScore(manifest, results) {
   };
 }
 
+
+function checkSampleSizePolicy(claim) {
+  const n = claim.evidence?.count ?? claim.evidence?.n;
+  if (n == null) return { ok: true, reason: "no count in evidence — skip n-tier" };
+  const pol = policyForCount(n);
+  if (claim.tier === "primary" && claim.used_in_draft !== false && !pol.blog_primary) {
+    return { ok: false, reason: `n=${n} below blog_primary threshold (n<30)` };
+  }
+  if (claim.tier === "primary" && pol.footnote_required && !claim.footnote_required) {
+    return { ok: false, reason: `n=${n} requires footnote_required on claim` };
+  }
+  return { ok: true };
+}
+
 function checkGates(manifest, requireGates) {
   const issues = [];
   const g = manifest.gates ?? {};
@@ -243,6 +268,9 @@ async function main() {
     } else if (claim.tier === "secondary") {
       check = { ok: true, reason: "secondary — manual review" };
     }
+
+    const nCheck = check.ok ? checkSampleSizePolicy(claim) : check;
+    if (!nCheck.ok) check = nCheck;
 
     if (!check.ok) failed += 1;
     results.push({

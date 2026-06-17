@@ -140,7 +140,72 @@ async function buildManifest(args, meta, benchmarks, mlit) {
       });
     }
 
-    const disaster = benchmarks.disaster_risk?.wards?.[ward];
+
+    const land = benchmarks.land_price_official?.wards?.[ward];
+    if (land?.avg_change_pct != null) {
+      claims.push({
+        id: `LAND-${wardId(ward, "CHG")}`,
+        label: `${ward} 지가공시 변동율`,
+        value: land.avg_change_pct,
+        unit: "%",
+        tier: "secondary",
+        layer: "A",
+        method: "benchmark_lookup",
+        evidence: { benchmark: `land_price_official.wards.${ward}.avg_change_pct` },
+        used_in_draft: false,
+      });
+    }
+
+    const pop = benchmarks.population_forecast?.wards?.[ward];
+    if (pop?.change_pct != null) {
+      claims.push({
+        id: `POP-${wardId(ward, "2040")}`,
+        label: `${ward} 인구 2020→2040 변화율`,
+        value: pop.change_pct,
+        unit: "%",
+        tier: "primary",
+        layer: "A",
+        method: "benchmark_lookup",
+        evidence: { benchmark: `population_forecast.wards.${ward}.change_pct` },
+        used_in_draft: true,
+      });
+    }
+
+    const ts = benchmarks.mlit_mansion_timeseries?.wards?.[ward];
+    if (ts?.cagr_5y != null && ts.blog_primary !== false) {
+      claims.push({
+        id: `TIMESERIES-${wardId(ward, "CAGR5")}`,
+        label: `${ward} 맨션 ㎡단가 5년 CAGR`,
+        value: ts.cagr_5y,
+        unit: "%",
+        tier: "primary",
+        layer: "A",
+        method: "benchmark_lookup",
+        evidence: {
+          benchmark: `mlit_mansion_timeseries.wards.${ward}.cagr_5y`,
+          count: ts.counts ? Object.values(ts.counts).at(-1) : undefined,
+        },
+        footnote_required: ts.footnote_required ?? false,
+        used_in_draft: true,
+      });
+    }
+
+    if (suumo?.["1R"] != null && mlitWard?.est_70sqm) {
+      const y = Math.round(((suumo["1R"] * 12) / mlitWard.est_70sqm) * 1000) / 10;
+      claims.push({
+        id: `YIELD-${wardId(ward, "1R")}`,
+        label: `${ward} 세전 표면 yield proxy (1R)`,
+        value: y,
+        unit: "%",
+        tier: "secondary",
+        layer: "B",
+        method: "benchmark_lookup",
+        evidence: { benchmark: `derived:suumo+mlit` },
+        used_in_draft: false,
+      });
+    }
+
+        const disaster = benchmarks.disaster_risk?.wards?.[ward];
     if (disaster?.summary) {
       claims.push({
         id: `DISASTER-${wardId(ward, "SUM")}`,

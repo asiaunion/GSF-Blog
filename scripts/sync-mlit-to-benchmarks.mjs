@@ -94,6 +94,15 @@ async function main() {
       wards: {},
     };
   }
+
+  if (!benchmarks.district_price_2025) {
+    benchmarks.district_price_2025 = {
+      source: "MLIT XIT001 DistrictName aggregation",
+      tier: "A",
+      note: "町名別 — NOT station-level",
+      wards: {},
+    };
+  }
   if (!benchmarks.disaster_risk) {
     benchmarks.disaster_risk = {
       source: "MLIT XKT025~029",
@@ -117,6 +126,19 @@ async function main() {
         est_70sqm: price.est_70sqm,
         count: price.count,
         episode: epLabel || benchmarks.mlit_mansion_2025_q1_q4.wards[ward]?.episode,
+        fetched_at: price.fetched_at,
+      };
+    }
+
+    if (price.districts?.length) {
+      benchmarks.district_price_2025.wards[ward] = {
+        top_districts: price.districts.slice(0, 10).map(d => ({
+          name: d.name,
+          count: d.count,
+          avg_sqm: d.avg_sqm,
+          aggregation: "DistrictName",
+        })),
+        episode: epLabel,
         fetched_at: price.fetched_at,
       };
     }

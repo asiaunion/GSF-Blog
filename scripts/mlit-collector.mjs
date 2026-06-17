@@ -238,6 +238,7 @@ async function collectPrice(wardName, year = 2025, quarter = null, noCache = fal
   const districts = Object.entries(byDistrict)
     .map(([name, unitPrices]) => ({
       name,
+      aggregation: "DistrictName",
       count: unitPrices.length,
       avg_sqm: Math.round((unitPrices.reduce((a, b) => a + b, 0) / unitPrices.length) * 10) / 10,
       avg_man: Math.round(
@@ -280,7 +281,6 @@ async function collectPrice(wardName, year = 2025, quarter = null, noCache = fal
     est_70sqm: est70,
     unit_price_stats: { ...st, median: Math.round(st.median * 10) / 10 },
     districts,
-    stations: districts,
     building_year_dist: byYear,
     area_band_unit_price: areaBands,
     fetched_at: new Date().toISOString().slice(0, 10),
@@ -677,7 +677,7 @@ function printResult(result) {
       console.log(`  단가 범위:   ${result.unit_price_stats.min} ~ ${result.unit_price_stats.max} 万円/㎡`);
       console.log(`  중앙값:      ${result.unit_price_stats.median} 万円/㎡`);
       console.log("\n  📍 町名별 상위 10 (㎡단가):");
-      for (const s of (result.districts ?? result.stations).slice(0, 10)) {
+      for (const s of (result.districts ?? []).slice(0, 10)) {
         console.log(`    ${s.name.padEnd(10)} ${s.count}건 / ${s.avg_sqm}万/㎡`);
       }
       console.log("\n  📐 면적대별 단가:");

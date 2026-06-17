@@ -129,6 +129,27 @@ pnpm compare:wards -- --episode ep07
 
 ---
 
+
+
+## Phase 4 — Analysis pack pipeline (2026-06-17)
+
+| Item | Path |
+|------|------|
+| Sample size SSOT | `scripts/lib/mlit-sample-policy.mjs` |
+| Price timeseries | `scripts/mlit-price-series.mjs` |
+| Research pack | `scripts/render-episode-research-pack.mjs` → `docs/verification/research-packs/` |
+| Orchestrator | `scripts/analyze-episode.mjs` |
+| OG pre-deploy | `scripts/verify-og-social.mjs` |
+
+```bash
+pnpm analyze:episode -- --episode ep07 --write
+pnpm mlit:price-series -- --episode ep07 --from 2018 --to 2025 --write
+pnpm research:pack -- --episode ep07 --write
+pnpm verify:og-social -- --slug tokyo-taito-sumida-koto
+```
+
+Execution order: Phase 1 (timeseries) → Phase 3 (research-pack) → Phase 2a·2b (districts in sync) → Phase 2c (scaffold claims).
+
 ## Gate sequence (mandatory Ep.07+)
 
 | Step | Gate | Who sets |

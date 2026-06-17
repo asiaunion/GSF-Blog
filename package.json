@@ -43,7 +43,12 @@
     "dossier:ward": "node scripts/render-ward-dossier.mjs",
     "compare:wards": "node scripts/compare-wards.mjs",
     "verify:mlit-drift": "node scripts/verify-mlit-drift.mjs",
-    "og:hero-jpeg": "node scripts/generate-hero-og-jpeg.mjs"
+    "og:hero-jpeg": "node scripts/generate-hero-og-jpeg.mjs",
+    "mlit:price-series": "node scripts/mlit-price-series.mjs",
+    "research:pack": "node scripts/render-episode-research-pack.mjs",
+    "analyze:episode": "node scripts/analyze-episode.mjs",
+    "verify:og-social": "node scripts/verify-og-social.mjs",
+    "screen:wards": "node scripts/screen-wards.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.6",

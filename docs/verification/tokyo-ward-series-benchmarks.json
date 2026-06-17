@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.2",
   "last_updated": "2026-06-17",
   "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
   "data_tiers": {
@@ -373,6 +373,1045 @@
         "tsunami": false,
         "landslide": false,
         "summary": "liquefaction, flood, storm_surge",
+        "episode": "Ep.07",
+        "fetched_at": "2026-06-17"
+      }
+    }
+  },
+  "sample_size_policy": {
+    "version": 1,
+    "tiers": [
+      {
+        "min": 100,
+        "blog_primary": true,
+        "footnote_required": false,
+        "scaffold_claim": true,
+        "body_numeric": true
+      },
+      {
+        "min": 30,
+        "blog_primary": true,
+        "footnote_required": true,
+        "scaffold_claim": true,
+        "body_numeric": true
+      },
+      {
+        "min": 10,
+        "blog_primary": false,
+        "footnote_required": false,
+        "scaffold_claim": false,
+        "body_numeric": false
+      },
+      {
+        "min": 0,
+        "blog_primary": false,
+        "footnote_required": false,
+        "scaffold_claim": false,
+        "body_numeric": false
+      }
+    ],
+    "notes": {
+      "gte100": "본문 수치 직접 인용 가능",
+      "gte30": "본문 인용 시 n=XX건 각주 필수",
+      "lt30": "본문 수치 금지 — 서술만",
+      "lt10": "manifest claim 생성 제외"
+    }
+  },
+  "mlit_mansion_timeseries": {
+    "source": "MLIT XIT001 API",
+    "tier": "A",
+    "unit_sqm": "万円/㎡",
+    "note": "연도별 구 평균 ㎡단가; sample_size_policy 적용",
+    "wards": {
+      "北区": {
+        "series": {
+          "2021": 69,
+          "2022": 74.5,
+          "2023": 81.6,
+          "2024": 83.1,
+          "2025": 89.6
+        },
+        "counts": {
+          "2021": 369,
+          "2022": 387,
+          "2023": 387,
+          "2024": 464,
+          "2025": 585
+        },
+        "est_70sqm": {
+          "2021": 4830,
+          "2022": 5215,
+          "2023": 5712,
+          "2024": 5817,
+          "2025": 6272
+        },
+        "yoy_pct": {
+          "2022": 8,
+          "2023": 9.5,
+          "2024": 1.8,
+          "2025": 7.8
+        },
+        "cagr_full": 6.7,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "荒川区": {
+        "series": {
+          "2021": 68.5,
+          "2022": 71,
+          "2023": 74.3,
+          "2024": 81.4,
+          "2025": 86.1
+        },
+        "counts": {
+          "2021": 316,
+          "2022": 310,
+          "2023": 328,
+          "2024": 328,
+          "2025": 510
+        },
+        "est_70sqm": {
+          "2021": 4795,
+          "2022": 4970,
+          "2023": 5201,
+          "2024": 5698,
+          "2025": 6027
+        },
+        "yoy_pct": {
+          "2022": 3.6,
+          "2023": 4.6,
+          "2024": 9.6,
+          "2025": 5.8
+        },
+        "cagr_full": 5.9,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "足立区": {
+        "series": {
+          "2021": 47.4,
+          "2022": 49.1,
+          "2023": 53.5,
+          "2024": 56.2,
+          "2025": 59.3
+        },
+        "counts": {
+          "2021": 548,
+          "2022": 560,
+          "2023": 575,
+          "2024": 643,
+          "2025": 920
+        },
+        "est_70sqm": {
+          "2021": 3318,
+          "2022": 3437,
+          "2023": 3745,
+          "2024": 3934,
+          "2025": 4151
+        },
+        "yoy_pct": {
+          "2022": 3.6,
+          "2023": 9,
+          "2024": 5,
+          "2025": 5.5
+        },
+        "cagr_full": 5.8,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "千代田区": {
+        "series": {
+          "2021": 131.4,
+          "2022": 140.3,
+          "2023": 145.3,
+          "2024": 158.8,
+          "2025": 194.7
+        },
+        "counts": {
+          "2021": 258,
+          "2022": 301,
+          "2023": 261,
+          "2024": 271,
+          "2025": 357
+        },
+        "est_70sqm": {
+          "2021": 9198,
+          "2022": 9821,
+          "2023": 10171,
+          "2024": 11116,
+          "2025": 13629
+        },
+        "yoy_pct": {
+          "2022": 6.8,
+          "2023": 3.6,
+          "2024": 9.3,
+          "2025": 22.6
+        },
+        "cagr_full": 10.3,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "中央区": {
+        "series": {
+          "2021": 108.5,
+          "2022": 117.5,
+          "2023": 128.2,
+          "2024": 153.8,
+          "2025": 181.1
+        },
+        "counts": {
+          "2021": 958,
+          "2022": 938,
+          "2023": 1164,
+          "2024": 1149,
+          "2025": 1421
+        },
+        "est_70sqm": {
+          "2021": 7595,
+          "2022": 8225,
+          "2023": 8974,
+          "2024": 10766,
+          "2025": 12677
+        },
+        "yoy_pct": {
+          "2022": 8.3,
+          "2023": 9.1,
+          "2024": 20,
+          "2025": 17.8
+        },
+        "cagr_full": 13.7,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "港区": {
+        "series": {
+          "2021": 133.8,
+          "2022": 152,
+          "2023": 157,
+          "2024": 177.9,
+          "2025": 220.6
+        },
+        "counts": {
+          "2021": 1064,
+          "2022": 1196,
+          "2023": 1268,
+          "2024": 1198,
+          "2025": 1557
+        },
+        "est_70sqm": {
+          "2021": 9366,
+          "2022": 10640,
+          "2023": 10990,
+          "2024": 12453,
+          "2025": 15442
+        },
+        "yoy_pct": {
+          "2022": 13.6,
+          "2023": 3.3,
+          "2024": 13.3,
+          "2025": 24
+        },
+        "cagr_full": 13.3,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "新宿区": {
+        "series": {
+          "2021": 101.1,
+          "2022": 107.2,
+          "2023": 111.3,
+          "2024": 125.4,
+          "2025": 135.9
+        },
+        "counts": {
+          "2021": 789,
+          "2022": 910,
+          "2023": 975,
+          "2024": 995,
+          "2025": 1298
+        },
+        "est_70sqm": {
+          "2021": 7077,
+          "2022": 7504,
+          "2023": 7791,
+          "2024": 8778,
+          "2025": 9513
+        },
+        "yoy_pct": {
+          "2022": 6,
+          "2023": 3.8,
+          "2024": 12.7,
+          "2025": 8.4
+        },
+        "cagr_full": 7.7,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "渋谷区": {
+        "series": {
+          "2021": 119.8,
+          "2022": 133.1,
+          "2023": 140.9,
+          "2024": 162.8,
+          "2025": 180
+        },
+        "counts": {
+          "2021": 662,
+          "2022": 619,
+          "2023": 693,
+          "2024": 724,
+          "2025": 907
+        },
+        "est_70sqm": {
+          "2021": 8386,
+          "2022": 9317,
+          "2023": 9863,
+          "2024": 11396,
+          "2025": 12600
+        },
+        "yoy_pct": {
+          "2022": 11.1,
+          "2023": 5.9,
+          "2024": 15.5,
+          "2025": 10.6
+        },
+        "cagr_full": 10.7,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "文京区": {
+        "series": {
+          "2021": 103,
+          "2022": 109.4,
+          "2023": 112.1,
+          "2024": 120,
+          "2025": 131.5
+        },
+        "counts": {
+          "2021": 568,
+          "2022": 552,
+          "2023": 658,
+          "2024": 615,
+          "2025": 808
+        },
+        "est_70sqm": {
+          "2021": 7210,
+          "2022": 7658,
+          "2023": 7847,
+          "2024": 8400,
+          "2025": 9205
+        },
+        "yoy_pct": {
+          "2022": 6.2,
+          "2023": 2.5,
+          "2024": 7,
+          "2025": 9.6
+        },
+        "cagr_full": 6.3,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "目黒区": {
+        "series": {
+          "2021": 105.8,
+          "2022": 112.8,
+          "2023": 117.6,
+          "2024": 122.4,
+          "2025": 139.7
+        },
+        "counts": {
+          "2021": 504,
+          "2022": 562,
+          "2023": 552,
+          "2024": 572,
+          "2025": 676
+        },
+        "est_70sqm": {
+          "2021": 7406,
+          "2022": 7896,
+          "2023": 8232,
+          "2024": 8568,
+          "2025": 9779
+        },
+        "yoy_pct": {
+          "2022": 6.6,
+          "2023": 4.3,
+          "2024": 4.1,
+          "2025": 14.1
+        },
+        "cagr_full": 7.2,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "世田谷区": {
+        "series": {
+          "2021": 82.5,
+          "2022": 87.6,
+          "2023": 94.2,
+          "2024": 97.4,
+          "2025": 105.2
+        },
+        "counts": {
+          "2021": 1269,
+          "2022": 1333,
+          "2023": 1229,
+          "2024": 1285,
+          "2025": 1734
+        },
+        "est_70sqm": {
+          "2021": 5775,
+          "2022": 6132,
+          "2023": 6594,
+          "2024": 6818,
+          "2025": 7364
+        },
+        "yoy_pct": {
+          "2022": 6.2,
+          "2023": 7.5,
+          "2024": 3.4,
+          "2025": 8
+        },
+        "cagr_full": 6.3,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "品川区": {
+        "series": {
+          "2021": 100.6,
+          "2022": 105.3,
+          "2023": 115.3,
+          "2024": 125.4,
+          "2025": 138.8
+        },
+        "counts": {
+          "2021": 869,
+          "2022": 853,
+          "2023": 964,
+          "2024": 1001,
+          "2025": 1223
+        },
+        "est_70sqm": {
+          "2021": 7042,
+          "2022": 7371,
+          "2023": 8071,
+          "2024": 8778,
+          "2025": 9716
+        },
+        "yoy_pct": {
+          "2022": 4.7,
+          "2023": 9.5,
+          "2024": 8.8,
+          "2025": 10.7
+        },
+        "cagr_full": 8.4,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "大田区": {
+        "series": {
+          "2021": 67.2,
+          "2022": 74.9,
+          "2023": 78.3,
+          "2024": 79.2,
+          "2025": 83.1
+        },
+        "counts": {
+          "2021": 758,
+          "2022": 796,
+          "2023": 772,
+          "2024": 912,
+          "2025": 1218
+        },
+        "est_70sqm": {
+          "2021": 4704,
+          "2022": 5243,
+          "2023": 5481,
+          "2024": 5544,
+          "2025": 5817
+        },
+        "yoy_pct": {
+          "2022": 11.5,
+          "2023": 4.5,
+          "2024": 1.1,
+          "2025": 4.9
+        },
+        "cagr_full": 5.5,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "豊島区": {
+        "series": {
+          "2021": 88.6,
+          "2022": 94.9,
+          "2023": 94.4,
+          "2024": 105.8,
+          "2025": 115.8
+        },
+        "counts": {
+          "2021": 444,
+          "2022": 501,
+          "2023": 479,
+          "2024": 524,
+          "2025": 744
+        },
+        "est_70sqm": {
+          "2021": 6202,
+          "2022": 6643,
+          "2023": 6608,
+          "2024": 7406,
+          "2025": 8106
+        },
+        "yoy_pct": {
+          "2022": 7.1,
+          "2023": -0.5,
+          "2024": 12.1,
+          "2025": 9.5
+        },
+        "cagr_full": 6.9,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "中野区": {
+        "series": {
+          "2021": 78.9,
+          "2022": 82.4,
+          "2023": 90.5,
+          "2024": 92.1,
+          "2025": 102.6
+        },
+        "counts": {
+          "2021": 409,
+          "2022": 406,
+          "2023": 478,
+          "2024": 460,
+          "2025": 619
+        },
+        "est_70sqm": {
+          "2021": 5523,
+          "2022": 5768,
+          "2023": 6335,
+          "2024": 6447,
+          "2025": 7182
+        },
+        "yoy_pct": {
+          "2022": 4.4,
+          "2023": 9.8,
+          "2024": 1.8,
+          "2025": 11.4
+        },
+        "cagr_full": 6.8,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "杉並区": {
+        "series": {
+          "2021": 74.4,
+          "2022": 80,
+          "2023": 84.6,
+          "2024": 88.5,
+          "2025": 93.1
+        },
+        "counts": {
+          "2021": 621,
+          "2022": 628,
+          "2023": 639,
+          "2024": 617,
+          "2025": 854
+        },
+        "est_70sqm": {
+          "2021": 5208,
+          "2022": 5600,
+          "2023": 5922,
+          "2024": 6195,
+          "2025": 6517
+        },
+        "yoy_pct": {
+          "2022": 7.5,
+          "2023": 5.7,
+          "2024": 4.6,
+          "2025": 5.2
+        },
+        "cagr_full": 5.8,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "台東区": {
+        "series": {
+          "2021": 83.5,
+          "2022": 88.2,
+          "2023": 94.8,
+          "2024": 102,
+          "2025": 110.9
+        },
+        "counts": {
+          "2021": 457,
+          "2022": 513,
+          "2023": 513,
+          "2024": 560,
+          "2025": 729
+        },
+        "est_70sqm": {
+          "2021": 5845,
+          "2022": 6174,
+          "2023": 6636,
+          "2024": 7140,
+          "2025": 7763
+        },
+        "yoy_pct": {
+          "2022": 5.6,
+          "2023": 7.5,
+          "2024": 7.6,
+          "2025": 8.7
+        },
+        "cagr_full": 7.4,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "墨田区": {
+        "series": {
+          "2021": 71.4,
+          "2022": 78.2,
+          "2023": 80.4,
+          "2024": 84.4,
+          "2025": 92.6
+        },
+        "counts": {
+          "2021": 496,
+          "2022": 500,
+          "2023": 456,
+          "2024": 496,
+          "2025": 719
+        },
+        "est_70sqm": {
+          "2021": 4998,
+          "2022": 5474,
+          "2023": 5628,
+          "2024": 5908,
+          "2025": 6482
+        },
+        "yoy_pct": {
+          "2022": 9.5,
+          "2023": 2.8,
+          "2024": 5,
+          "2025": 9.7
+        },
+        "cagr_full": 6.7,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "江東区": {
+        "series": {
+          "2021": 79.9,
+          "2022": 88.3,
+          "2023": 94.8,
+          "2024": 105,
+          "2025": 120
+        },
+        "counts": {
+          "2021": 1410,
+          "2022": 1481,
+          "2023": 1548,
+          "2024": 1495,
+          "2025": 1952
+        },
+        "est_70sqm": {
+          "2021": 5593,
+          "2022": 6181,
+          "2023": 6636,
+          "2024": 7350,
+          "2025": 8400
+        },
+        "yoy_pct": {
+          "2022": 10.5,
+          "2023": 7.4,
+          "2024": 10.8,
+          "2025": 14.3
+        },
+        "cagr_full": 10.7,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "板橋区": {
+        "series": {
+          "2021": 57.5,
+          "2022": 61,
+          "2023": 64,
+          "2024": 68.3,
+          "2025": 70.5
+        },
+        "counts": {
+          "2021": 637,
+          "2022": 678,
+          "2023": 662,
+          "2024": 762,
+          "2025": 1030
+        },
+        "est_70sqm": {
+          "2021": 4025,
+          "2022": 4270,
+          "2023": 4480,
+          "2024": 4781,
+          "2025": 4935
+        },
+        "yoy_pct": {
+          "2022": 6.1,
+          "2023": 4.9,
+          "2024": 6.7,
+          "2025": 3.2
+        },
+        "cagr_full": 5.2,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "練馬区": {
+        "series": {
+          "2021": 61.3,
+          "2022": 64.8,
+          "2023": 66.8,
+          "2024": 73,
+          "2025": 73.2
+        },
+        "counts": {
+          "2021": 650,
+          "2022": 603,
+          "2023": 709,
+          "2024": 683,
+          "2025": 895
+        },
+        "est_70sqm": {
+          "2021": 4291,
+          "2022": 4536,
+          "2023": 4676,
+          "2024": 5110,
+          "2025": 5124
+        },
+        "yoy_pct": {
+          "2022": 5.7,
+          "2023": 3.1,
+          "2024": 9.3,
+          "2025": 0.3
+        },
+        "cagr_full": 4.5,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "葛飾区": {
+        "series": {
+          "2021": 48.2,
+          "2022": 51.3,
+          "2023": 53.8,
+          "2024": 59.3,
+          "2025": 63.9
+        },
+        "counts": {
+          "2021": 492,
+          "2022": 419,
+          "2023": 442,
+          "2024": 409,
+          "2025": 582
+        },
+        "est_70sqm": {
+          "2021": 3374,
+          "2022": 3591,
+          "2023": 3766,
+          "2024": 4151,
+          "2025": 4473
+        },
+        "yoy_pct": {
+          "2022": 6.4,
+          "2023": 4.9,
+          "2024": 10.2,
+          "2025": 7.8
+        },
+        "cagr_full": 7.3,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      },
+      "江戸川区": {
+        "series": {
+          "2021": 54,
+          "2022": 56.7,
+          "2023": 60.3,
+          "2024": 62.4,
+          "2025": 67.7
+        },
+        "counts": {
+          "2021": 471,
+          "2022": 454,
+          "2023": 497,
+          "2024": 535,
+          "2025": 710
+        },
+        "est_70sqm": {
+          "2021": 3780,
+          "2022": 3969,
+          "2023": 4221,
+          "2024": 4368,
+          "2025": 4739
+        },
+        "yoy_pct": {
+          "2022": 5,
+          "2023": 6.3,
+          "2024": 3.5,
+          "2025": 8.5
+        },
+        "cagr_full": 5.8,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-17"
+      }
+    }
+  },
+  "district_price_2025": {
+    "source": "MLIT XIT001 DistrictName aggregation",
+    "tier": "A",
+    "note": "町名別 — NOT station-level",
+    "wards": {
+      "北区": {
+        "top_districts": [
+          {
+            "name": "滝野川",
+            "count": 93,
+            "avg_sqm": 93.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "志茂",
+            "count": 44,
+            "avg_sqm": 88,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "浮間",
+            "count": 39,
+            "avg_sqm": 68.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東十条",
+            "count": 37,
+            "avg_sqm": 71.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "豊島",
+            "count": 35,
+            "avg_sqm": 73.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "赤羽北",
+            "count": 33,
+            "avg_sqm": 74.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "王子",
+            "count": 32,
+            "avg_sqm": 100,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西ケ原",
+            "count": 27,
+            "avg_sqm": 102.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上十条",
+            "count": 27,
+            "avg_sqm": 125.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "赤羽西",
+            "count": 26,
+            "avg_sqm": 86.2,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.07",
+        "fetched_at": "2026-06-17"
+      },
+      "荒川区": {
+        "top_districts": [
+          {
+            "name": "東日暮里",
+            "count": 110,
+            "avg_sqm": 98.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南千住",
+            "count": 107,
+            "avg_sqm": 82.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西日暮里",
+            "count": 82,
+            "avg_sqm": 107,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "荒川",
+            "count": 76,
+            "avg_sqm": 76.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "町屋",
+            "count": 47,
+            "avg_sqm": 75.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東尾久",
+            "count": 46,
+            "avg_sqm": 69.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西尾久",
+            "count": 42,
+            "avg_sqm": 67.6,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.07",
+        "fetched_at": "2026-06-17"
+      },
+      "足立区": {
+        "top_districts": [
+          {
+            "name": "梅田",
+            "count": 58,
+            "avg_sqm": 62.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "綾瀬",
+            "count": 55,
+            "avg_sqm": 72.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東和",
+            "count": 42,
+            "avg_sqm": 51.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中央本町",
+            "count": 42,
+            "avg_sqm": 43.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新田",
+            "count": 37,
+            "avg_sqm": 60.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西新井本町",
+            "count": 33,
+            "avg_sqm": 48.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小台",
+            "count": 29,
+            "avg_sqm": 48.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大谷田",
+            "count": 29,
+            "avg_sqm": 39.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東綾瀬",
+            "count": 29,
+            "avg_sqm": 80.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西保木間",
+            "count": 28,
+            "avg_sqm": 41.4,
+            "aggregation": "DistrictName"
+          }
+        ],
         "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       }
