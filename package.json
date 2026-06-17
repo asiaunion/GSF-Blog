@@ -50,6 +50,7 @@
     "mlit:land-series": "node scripts/mlit-land-price-series.mjs",
     "research:pack": "node scripts/render-episode-research-pack.mjs",
     "analyze:episode": "node scripts/analyze-episode.mjs",
+    "audit:ward-tiles": "node scripts/audit-ward-tiles.mjs",
     "verify:og-social": "node scripts/verify-og-social.mjs",
     "screen:wards": "node scripts/screen-wards.mjs"
   },

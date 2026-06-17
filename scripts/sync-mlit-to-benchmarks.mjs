@@ -79,7 +79,7 @@ async function main() {
     benchmarks.station_passengers = {
       source: "MLIT XKT015",
       tier: "A",
-      note: "타일 샘플 기반 — 행정구 전체와 불일치 가능",
+      note: "타일 샘플 기반 — 행정구 경계와 불일치 가능; STATION_ADMIN_WARD 필터 적용",
       wards: {},
     };
   }

@@ -34,6 +34,7 @@
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { getWardTiles } from "./lib/ward-tiles.mjs";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 상수 정의
@@ -65,34 +66,6 @@ const WARD_CODE = {
   "豊島区":   "13116", "北区":     "13117", "荒川区":   "13118",
   "板橋区":   "13119", "練馬区":   "13120", "足立区":   "13121",
   "葛飾区":   "13122", "江戸川区": "13123",
-};
-
-// 구별 대표 타일 좌표 (zoom=14, XYZ)
-// 각 구의 중심 좌표를 z=14 타일로 변환한 값
-const WARD_TILES = {
-  "千代田区": [{z:14,x:14552,y:6451}],
-  "中央区":   [{z:14,x:14553,y:6452}],
-  "港区":     [{z:14,x:14552,y:6453}],
-  "新宿区":   [{z:14,x:14550,y:6450}],
-  "文京区":   [{z:14,x:14552,y:6449}],
-  "台東区":   [{z:14,x:14554,y:6449}],
-  "墨田区":   [{z:14,x:14555,y:6451}],
-  "江東区":   [{z:14,x:14556,y:6452},{z:14,x:14557,y:6453}],
-  "品川区":   [{z:14,x:14553,y:6455}],
-  "目黒区":   [{z:14,x:14551,y:6454}],
-  "大田区":   [{z:14,x:14552,y:6457},{z:14,x:14553,y:6456},{z:14,x:14551,y:6458}],
-  "世田谷区": [{z:14,x:14549,y:6454},{z:14,x:14548,y:6453},{z:14,x:14550,y:6455}],
-  "渋谷区":   [{z:14,x:14550,y:6452}],
-  "中野区":   [{z:14,x:14549,y:6450}],
-  "杉並区":   [{z:14,x:14547,y:6450}],
-  "豊島区":   [{z:14,x:14551,y:6448}],
-  "北区":     [{z:14,x:14551,y:6446}],
-  "荒川区":   [{z:14,x:14554,y:6447}],
-  "板橋区":   [{z:14,x:14550,y:6446}],
-  "練馬区":   [{z:14,x:14548,y:6447}],
-  "足立区":   [{z:14,x:14554,y:6445}],
-  "葛飾区":   [{z:14,x:14557,y:6446}],
-  "江戸川区": [{z:14,x:14558,y:6449}],
 };
 
 // 에피소드별 구 그룹
@@ -298,8 +271,7 @@ async function collectTradePrice(wardName, year = 2025, quarter = null, noCache 
 
 /** XPT002: 지가공시 포인트 (GeoJSON 타일) */
 async function collectLandPrice(wardName, year = 2025, noCache = false) {
-  const tiles = WARD_TILES[wardName];
-  if (!tiles) throw new Error(`타일 정보 없음: ${wardName}`);
+  const tiles = getWardTiles(wardName);
 
   const allPoints = [];
   for (const { z, x, y } of tiles) {
@@ -355,8 +327,7 @@ async function collectLandPrice(wardName, year = 2025, noCache = false) {
 
 /** XKT015: 역별 승하차 인원 */
 async function collectStation(wardName, noCache = false) {
-  const tiles = WARD_TILES[wardName];
-  if (!tiles) throw new Error(`타일 정보 없음: ${wardName}`);
+  const tiles = getWardTiles(wardName);
 
   const allStations = [];
   for (const { z, x, y } of tiles) {
@@ -373,7 +344,7 @@ async function collectStation(wardName, noCache = false) {
 
   if (!allStations.length) return { ward: wardName, type: "station", count: 0, note: "데이터 없음" };
 
-  const stations = aggregateStations(allStations).map(s => ({
+  const stations = aggregateStations(allStations, wardName).map(s => ({
     ...s,
     coord: null,
     year: "latest_in_S12",
@@ -389,13 +360,13 @@ async function collectStation(wardName, noCache = false) {
     top_station: stations[0] ?? null,
     fetched_at: new Date().toISOString().slice(0, 10),
     source: "MLIT XKT015 API [1차 확인] A계층",
+    note: "타일 샘플 기반 — 행정구 경계와 불일치·인접 구 역 포함 가능; STATION_ADMIN_WARD 필터 적용",
   };
 }
 
 /** XKT013: 장래 추계 인구 (250m 메시) */
 async function collectPopulation(wardName, noCache = false) {
-  const tiles = WARD_TILES[wardName];
-  if (!tiles) throw new Error(`타일 정보 없음: ${wardName}`);
+  const tiles = getWardTiles(wardName);
 
   const allMesh = [];
   for (const { z, x, y } of tiles) {
@@ -441,8 +412,7 @@ async function collectPopulation(wardName, noCache = false) {
 
 /** XKT025/026/027/028/029: 재해 리스크 통합 */
 async function collectDisaster(wardName, noCache = false) {
-  const tiles = WARD_TILES[wardName];
-  if (!tiles) throw new Error(`타일 정보 없음: ${wardName}`);
+  const tiles = getWardTiles(wardName);
 
   const results = {};
 
@@ -574,11 +544,57 @@ function combineStationPassengers(current, daily) {
   return current + daily;
 }
 
-function aggregateStations(features) {
+const STATION_ADMIN_WARD = {
+  "北千住": "足立区",
+  "綾瀬": "足立区",
+  "小菅": "足立区",
+  "堀切菖蒲園": "足立区",
+  "四ツ木": "葛飾区",
+  "鐘ヶ淵": "葛飾区",
+  "赤羽": "北区",
+  "赤羽岩淵": "北区",
+  "王子": "北区",
+  "田端": "北区",
+  "西ケ原": "北区",
+  "上中里": "北区",
+  "東十条": "北区",
+  "池袋": "豊島区",
+  "目白": "豊島区",
+  "駒込": "豊島区",
+  "巣鴨": "豊島区",
+  "大塚": "豊島区",
+  "高田馬場": "新宿区",
+  "新大久保": "新宿区",
+  "代々木": "渋谷区",
+  "原宿": "渋谷区",
+  "恵比寿": "渋谷区",
+  "渋谷": "渋谷区",
+  "小竹向原": "練馬区",
+  "練馬": "練馬区",
+  "石神井公園": "練馬区",
+  "上野": "台東区",
+  "御徒町": "台東区",
+  "鶯谷": "台東区",
+  "浅草": "台東区",
+  "南千住": "荒川区",
+  "東京": "千代田区",
+  "秋葉原": "台東区",
+  "新宿": "新宿区",
+  "西日暮里": "荒川区",
+  "新小岩": "葛飾区",
+  "押上": "墨田区",
+  "浅草橋": "台東区",
+  "神田": "千代田区",
+};
+
+function aggregateStations(features, wardName = null) {
   const byName = new Map();
   for (const f of features) {
     const p = f.properties ?? {};
     const name = p.S12_001_ja || p.N05_011 || p.駅名 || "不明";
+    if (wardName && STATION_ADMIN_WARD[name] && STATION_ADMIN_WARD[name] !== wardName) {
+      continue;
+    }
     const line = p.S12_003_ja || p.S12_002_ja || p.N05_002 || p.路線名 || "不明";
     const daily = parseStationPassengers(p);
     if (daily <= 0) continue;
@@ -779,6 +795,9 @@ mlit-collector.mjs — MLIT 불동산 정보 라이브러리 통합 수집·분�
 
   # Ep.07 benchmarks.json 스니펫 생성
   node scripts/mlit-collector.mjs --export-benchmarks --episode ep07
+
+  # 타일 커버리지·역 집계 감사 (WARD_BOUNDS 확장 시)
+  node scripts/audit-ward-tiles.mjs --episode ep08
 
   # JSON 출력 (다른 스크립트에 파이프)
   node scripts/mlit-collector.mjs --type price --ward 台東区 --json > taito-price.json

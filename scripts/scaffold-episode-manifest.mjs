@@ -54,11 +54,14 @@ async function latestSnapshot(scCode) {
   return { snapshot, snippet: "" };
 }
 
-function wardId(jp, field) {
-  return `${jp.replace(/区$/, "").toUpperCase()}-${field}`.replace(/[^A-Z0-9-]/g, "");
+function wardId(ward, field, suumoCodes = {}) {
+  const code = suumoCodes[ward];
+  if (code) return `${code}-${field}`;
+  const ascii = ward.replace(/区$/, "").normalize("NFKD").replace(/[^\w]/g, "");
+  return `${ascii || "ward"}-${field}`;
 }
 
-async function buildManifest(args, meta, benchmarks, mlit) {
+async function buildManifest(args, meta, benchmarks, mlit, suumoCodes) {
   const today = new Date().toISOString().slice(0, 10);
   const wards = args.wards.length ? args.wards : meta?.wards ?? [];
   const episode = args.episode || meta?.episode || "Ep.XX";
@@ -69,7 +72,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const mlitWard = mlit[ward] ?? benchmarks.mlit_mansion_2025_q1_q4?.wards?.[ward];
     if (mlitWard?.est_70sqm != null) {
       claims.push({
-        id: `MLIT-${wardId(ward, "70")}`,
+        id: `MLIT-${wardId(ward, "70", suumoCodes)}`,
         label: `${ward} 70㎡ 성약가`,
         value: mlitWard.est_70sqm,
         unit: "万円",
@@ -89,11 +92,11 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     if (suumo?.["1R"] != null && scCode) {
       const snap = await latestSnapshot(scCode);
       claims.push({
-        id: `SUUMO-${wardId(ward, "1R")}`,
+        id: `SUUMO-${wardId(ward, "1R", suumoCodes)}`,
         label: `${ward} SUUMO 1R`,
         value: suumo["1R"],
         unit: "万円",
-        tier: "primary",
+        tier: "secondary",
         layer: "B",
         method: "suumo_snapshot",
         evidence: {
@@ -108,7 +111,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const income = benchmarks.income_density_per_capita?.wards?.[ward];
     if (income) {
       claims.push({
-        id: `INCOME-${wardId(ward, "DENSITY")}`,
+        id: `INCOME-${wardId(ward, "DENSITY", suumoCodes)}`,
         label: `${ward} 인구 1인당 실질 소득 밀도`,
         value: income.value,
         unit: "万円",
@@ -126,7 +129,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const station = benchmarks.station_passengers?.wards?.[ward];
     if (station?.top_passengers != null) {
       claims.push({
-        id: `STATION-${wardId(ward, "TOP")}`,
+        id: `STATION-${wardId(ward, "TOP", suumoCodes)}`,
         label: `${ward} 최다 승하차 역 (${station.top_station})`,
         value: station.top_passengers,
         unit: "人/日",
@@ -144,7 +147,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const land = benchmarks.land_price_official?.wards?.[ward];
     if (land?.avg_change_pct != null) {
       claims.push({
-        id: `LAND-${wardId(ward, "CHG")}`,
+        id: `LAND-${wardId(ward, "CHG", suumoCodes)}`,
         label: `${ward} 지가공시 변동율`,
         value: land.avg_change_pct,
         unit: "%",
@@ -159,7 +162,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const pop = benchmarks.population_forecast?.wards?.[ward];
     if (pop?.change_pct != null) {
       claims.push({
-        id: `POP-${wardId(ward, "2040")}`,
+        id: `POP-${wardId(ward, "2040", suumoCodes)}`,
         label: `${ward} 인구 2020→2040 변화율`,
         value: pop.change_pct,
         unit: "%",
@@ -175,7 +178,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const cagrContract = ts?.cagr_5y ?? ts?.cagr_full;
     if (cagrContract != null && ts.blog_primary !== false) {
       claims.push({
-        id: `TIMESERIES-${wardId(ward, "CAGR")}`,
+        id: `TIMESERIES-${wardId(ward, "CAGR", suumoCodes)}`,
         label: `${ward} 맨션 成約 ㎡단가 CAGR`,
         value: cagrContract,
         unit: "%",
@@ -198,7 +201,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const tradeCagr = tradeTs?.cagr_10y ?? tradeTs?.cagr_full;
     if (tradeCagr != null) {
       claims.push({
-        id: `TRADE-${wardId(ward, "CAGR10")}`,
+        id: `TRADE-${wardId(ward, "CAGR10", suumoCodes)}`,
         label: `${ward} 不動産取引価格 10년 CAGR (보조)`,
         value: tradeCagr,
         unit: "%",
@@ -218,7 +221,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const landCagr = landTs?.cagr_10y ?? landTs?.cagr_full;
     if (landCagr != null) {
       claims.push({
-        id: `LANDTS-${wardId(ward, "CAGR10")}`,
+        id: `LANDTS-${wardId(ward, "CAGR10", suumoCodes)}`,
         label: `${ward} 地価公示ポイント 10년 CAGR (보조)`,
         value: landCagr,
         unit: "%",
@@ -237,7 +240,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     if (suumo?.["1R"] != null && mlitWard?.est_70sqm) {
       const y = Math.round(((suumo["1R"] * 12) / mlitWard.est_70sqm) * 1000) / 10;
       claims.push({
-        id: `YIELD-${wardId(ward, "1R")}`,
+        id: `YIELD-${wardId(ward, "1R", suumoCodes)}`,
         label: `${ward} 세전 표면 yield proxy (1R)`,
         value: y,
         unit: "%",
@@ -252,7 +255,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
         const disaster = benchmarks.disaster_risk?.wards?.[ward];
     if (disaster?.summary) {
       claims.push({
-        id: `DISASTER-${wardId(ward, "SUM")}`,
+        id: `DISASTER-${wardId(ward, "SUM", suumoCodes)}`,
         label: `${ward} MLIT 재해 타일 샘플`,
         value: disaster.flood || disaster.liquefaction ? 1 : 0,
         unit: "flag",
@@ -270,7 +273,7 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     const est = benchmarks.mlit_mansion_2025_q1_q4?.wards?.[ward]?.est_70sqm;
     if (est && chuo70) {
       arithmeticChecks.push({
-        id: `PCT-${wardId(ward, "VS-CHUO")}`,
+        id: `PCT-${wardId(ward, "VS-CHUO", suumoCodes)}`,
         label: `${ward} vs 中央区 가격 비율`,
         formula: `${est} / ${chuo70} * 100`,
         expected: Math.round((est / chuo70) * 1000) / 10,
@@ -334,7 +337,7 @@ async function main() {
   const mlitPath = (await fileExists(MLIT_PKM)) ? MLIT_PKM : MLIT_FALLBACK;
   if (await fileExists(mlitPath)) mlit = await loadJson(mlitPath);
 
-  const manifest = await buildManifest(args, metaWithCodes, benchmarks, mlit);
+  const manifest = await buildManifest(args, metaWithCodes, benchmarks, mlit, suumoCodes);
   const epNum = (manifest.episode.match(/\d+/) ?? ["xx"])[0].padStart(2, "0");
   const outPath = path.join(root, "docs/verification/manifests", `ep${epNum}-${args.slug}.manifest.json`);
 

@@ -51,6 +51,24 @@ pnpm verify:og-social -- --slug <slug>
 - 로컬: `.env`의 `MLIT_API_KEY` (`.env.example` 참고)
 - CI drift: GitHub `secrets.MLIT_API_KEY`
 
+## WARD_TILES 확장 (station·disaster·population·地価 타일)
+
+타일 기반 수집은 `scripts/lib/ward-tiles.mjs`의 **WARD_BOUNDS**(위경도 bbox)에서 z=14 XYZ를 자동 생성합니다.
+
+```bash
+# 1) bbox 수정 — scripts/lib/ward-tiles.mjs WARD_BOUNDS / WARD_TILE_OVERRIDES
+# 2) 커버리지·역 집계 감사
+pnpm audit:ward-tiles -- --ward 練馬区
+pnpm audit:ward-tiles -- --episode ep08
+
+# 3) benchmarks 반영
+pnpm sync:mlit-benchmarks -- --ward 練馬区 --write
+
+# 4) 인접 구 역 오분류 시 mlit-collector.mjs STATION_ADMIN_WARD 추가 후 재동기화
+```
+
+대형 구(大田·世田谷·練馬·江東·板橋 등)는 bbox 기준 **12~24타일**이 정상. 역 수 5 미만이면 bbox 확장을 검토합니다.
+
 ## 한계 (고정 문구)
 
 - XKT* / XPT002: 타일 ≠ 행정구 경계

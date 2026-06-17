@@ -32,21 +32,92 @@ tokyo-ward-series-benchmarks.json: 로드
 
 ---
 
+## [MLIT-1] MLIT 파이프라인 로드 (도쿄 에피소드 · 투자 분석 — Step 0 직후 필수)
+
+**트리거** (하나라도 해당 시 이 단계 실행):
+
+- Where to Live in Tokyo 에피소드 (Ep.01~Ep.23)
+- 키워드: MLIT, 成約, 取引, 地価, `analyze:episode`, `screen:wards`, `compare:wards`, `dossier:ward`
+- 사용자 투자·입지 분석 요청 (gsfark.com 무관)
+
+**1) 문서 로드 (순서)**
+
+1. `projects/GSF-OS/Wiki/GSF_Ark_MLIT_Blog_Pipeline.md`
+2. `docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`
+3. `docs/MLIT_DATA_REFRESH_SOP.md` (분기 갱신·API 호출 시)
+
+**2) 에피소드 작업 — 오케스트레이터 우선**
+
+`docs/verification/tokyo-series-episodes.json`에서 `episode` + `slug` 확인 후:
+
+```bash
+cd projects/GSF-Ark
+
+# 권장 (전체 파이프라인: MLIT·SUUMO·시계열·research-pack·manifest)
+pnpm analyze:episode -- --episode ep08 --slug tokyo-itabashi-nerima --write
+
+# API 키 없거나 SSOT만 최신일 때
+pnpm analyze:episode -- --episode ep08 --slug tokyo-itabashi-nerima --write --skip-api
+
+# slug만 (episode 자동 추론)
+pnpm analyze:episode -- --slug tokyo-itabashi-nerima --write
+```
+
+**산출물 확인**
+
+- `docs/verification/research-packs/<slug>.md` ← 리서치·초안 SSOT
+- `docs/verification/manifests/epXX-<slug>.manifest.json` (`--write` 시)
+- `docs/verification/tokyo-ward-series-benchmarks.json` (v1.3)
+
+**Tier (본문 작성 시)**
+
+| 데이터 | tier | 본문 |
+|--------|------|------|
+| 成約 ㎡·70㎡ | A primary | ✅ |
+| 取引 시계열·CAGR | A_auxiliary | 추세만 + 각주 |
+| 地価 시계열 | A_auxiliary | 입지 맥락 + 각주 |
+| SUUMO 1R/Yield | B | 스냅샷 evidence |
+
+⛔ 取引를 成約처럼 쓰기 금지 · 地価와 맨션 ㎡단가 직접 비교 금지 · n&lt;30 본문 수치 금지
+
+**3) 투자 분석만 (포스트 없음)**
+
+```bash
+pnpm screen:wards
+pnpm compare:wards -- --episode ep07
+pnpm dossier:ward -- --episode ep07
+```
+
+**4) 완료 보고 (AG → Joseph / Cursor)**
+
+```
+[MLIT-1 완료] ep08 / slug: tokyo-itabashi-nerima
+research-pack: docs/verification/research-packs/tokyo-itabashi-nerima.md
+manifest: docs/verification/manifests/ep08-tokyo-itabashi-nerima.manifest.json
+다음: Joseph manifest 승인 → KO 초안 (Step 4)
+```
+
+투자 분석만이면: `[MLIT-1 완료] 투자 분석 — screen/compare/dossier 출력 첨부` 후 Step 3-E 생략 가능.
+
+---
+
 ## Step 1–2 — Topic & Q&A
 
 기존과 동일 (독자·톤·슬러그 확정).
 
-**슬러그 테이블 (Ep.01~06)**:
+**슬러그 SSOT**: `docs/verification/tokyo-series-episodes.json`
 
 | Ep | slug | 구 |
 |----|------|-----|
-| 01 | tokyo-chiyoda-chuo-minato | 千代田·中央·港 |
+| 01 | tokyo-core-3-wards-chiyoda-chuo-minato | 千代田·中央·港 |
 | 02 | tokyo-shinjuku-shibuya-bunkyo | 新宿·渋谷·文京 |
 | 03 | tokyo-meguro-setagaya | 目黒·世田谷 |
 | 04 | tokyo-shinagawa-ota | 品川·大田 |
 | 05 | tokyo-toshima-nakano-suginami | 豊島·中野·杉並 |
 | 06 | tokyo-taito-sumida-koto | 台東·墨田·江東 |
 | 07 | tokyo-kita-arakawa-adachi | 北区·荒川·足立 |
+| 08 | tokyo-itabashi-nerima | 板橋·練馬 |
+| 09 | tokyo-katsushika-edogawa | 葛飾·江戸川 |
 
 ---
 
@@ -63,29 +134,23 @@ tokyo-ward-series-benchmarks.json: 로드
 
 ## Step 3-E — Verification manifest (NEW — 초안 전 필수)
 
-1. 템플릿 복사:
+> **도쿄 에피소드**: `[MLIT-1]`에서 `pnpm analyze:episode … --write` 실행 후 이 단계로 진입. 수동 A-layer 수집은 fallback만.
+
+1. manifest 없으면 `[MLIT-1]` 재실행 또는:
    ```bash
-   cp docs/verification/manifest.template.json docs/verification/manifests/epXX-<slug>.manifest.json
+   pnpm scaffold:manifest -- --slug <slug> --write
    ```
 
-2. **A-layer** (자동 검증 가능):
-   - MLIT 70㎡ → `method: json_lookup`, `evidence.json_path`
-   - MLIT API 수집 (Ep.07+ 권장):
-     ```bash
-     pnpm merge:mlit-pkm -- --episode ep07
-     pnpm sync:mlit-ark
-     pnpm sync:mlit-benchmarks -- --episode ep07 --write
-     pnpm dossier:ward -- --episode ep07   # PKM 투자 dossier (선택)
-     ```
-   - 에피소드 간 비교 → `method: benchmark_lookup`, `evidence.benchmark`
-   - 역 승하차 → `station_passengers` in benchmarks (`pnpm scaffold:manifest` 자동)
-   - PKM verified card → `method: pkm_verified_card`
+2. **A-layer** — `[MLIT-1]` / `analyze:episode`가 채움 (benchmarks v1.3):
+   - 成約 70㎡·㎡단가 → `mlit_mansion_2025_q1_q4`
+   - 시계열 CAGR → `mlit_mansion_timeseries` (primary), `mlit_trade_price_timeseries`·`land_price_timeseries` (auxiliary, `tier: secondary`)
+   - 역·인구·재해 → `benchmark_lookup`
 
-3. **B-layer** (SUUMO):
+3. **B-layer** (SUUMO) — `sync-suumo-to-benchmarks` 또는:
    ```bash
-   node scripts/fetch-suumo-snapshot.mjs sc_taito
+   node scripts/fetch-suumo-snapshot.mjs sc_<code> --commit
+   pnpm sync:suumo-benchmarks -- --episode epXX --fetch-missing --write
    ```
-   manifest에 `snapshot` + `snippet` 기록
 
 4. **C-layer** (전철·PR·봇차단):
    - `tier: secondary` 또는 `method: user_capture`
@@ -97,6 +162,17 @@ tokyo-ward-series-benchmarks.json: 로드
    ```bash
    pnpm verify:episode --slug <slug>
    ```
+
+**Fallback** (오케스트레이터 실패 시에만 개별 실행):
+```bash
+pnpm merge:mlit-pkm -- --episode ep07
+pnpm sync:mlit-ark
+pnpm sync:mlit-benchmarks -- --episode ep07 --write
+pnpm mlit:price-series -- --episode ep07 --from 2015 --to 2025 --write
+pnpm mlit:trade-series -- --episode ep07 --from 2005 --to 2025 --write
+pnpm mlit:land-series -- --episode ep07 --from 2005 --to 2026 --write
+pnpm research:pack -- --episode ep07 --write
+```
 
 **manifest 승인 없이 Step 4 진입 금지.**
 
@@ -146,6 +222,9 @@ Joseph: git commit + deploy
 
 ## Related
 
+- [`docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`](../../docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md)
+- [`docs/MLIT_DATA_REFRESH_SOP.md`](../../docs/MLIT_DATA_REFRESH_SOP.md)
+- GSF-OS Wiki: `projects/GSF-OS/Wiki/GSF_Ark_MLIT_Blog_Pipeline.md`
 - [`docs/BLOG_EPISODE_VERIFICATION_PIPELINE.md`](../../docs/BLOG_EPISODE_VERIFICATION_PIPELINE.md)
 - [`docs/verification/README.md`](../../docs/verification/README.md)
 - [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](../../docs/BLOG_AG_CURSOR_WORKFLOW.md)
