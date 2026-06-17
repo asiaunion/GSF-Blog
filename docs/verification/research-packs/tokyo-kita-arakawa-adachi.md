@@ -7,17 +7,17 @@
 
 ## Executive summary
 
-- **北区**: 70㎡≈6272万 · ㎡89.6(成約) · n=585 · 成約CAGR=6.7% · 取引CAGR10y=5% · 地価CAGR10y=7.3% · 인구Δ=3.2% · 1R=8.5 · Yield≈1.6%
-- **荒川区**: 70㎡≈6027万 · ㎡86.1(成約) · n=510 · 成約CAGR=5.9% · 取引CAGR10y=5.3% · 地価CAGR10y=9% · 인구Δ=-0.8% · 1R=8.6 · Yield≈1.7%
-- **足立区**: 70㎡≈4151万 · ㎡59.3(成約) · n=920 · 成約CAGR=5.8% · 取引CAGR10y=6.2% · 地価CAGR10y=2.8% · 인구Δ=-0.7% · 1R=7.7 · Yield≈2.2%
+- **北区**: 70㎡≈6272万 · ㎡89.6(成約) · n=585 · 成約CAGR=6.7% · 取引CAGR10y=5% · 地価CAGR10y=7.3% · 인구Δ=1.2% · 1R=8.5 · Yield≈1.6%
+- **荒川区**: 70㎡≈6027万 · ㎡86.1(成約) · n=510 · 成約CAGR=5.9% · 取引CAGR10y=5.3% · 地価CAGR10y=9% · 인구Δ=7.7% · 1R=8.6 · Yield≈1.7%
+- **足立区**: 70㎡≈4151万 · ㎡59.3(成約) · n=920 · 成約CAGR=5.8% · 取引CAGR10y=6.2% · 地価CAGR10y=2.8% · 인구Δ=3% · 1R=7.7 · Yield≈2.2%
 
 ## Ward comparison table
 
 | 구 | 70㎡(万) | ㎡단가(成約) | 거래수 | 取引CAGR10y | 地価CAGR10y | Top역 | 인구Δ | 1R | Yield% |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|
-| 北区 | 6272 | 89.6 | 585 | 5 | 7.3 | 東十条 | 3.2% | 8.5 | 1.6 |
-| 荒川区 | 6027 | 86.1 | 510 | 5.3 | 9 | 北千住 | -0.8% | 8.6 | 1.7 |
-| 足立区 | 4151 | 59.3 | 920 | 6.2 | 2.8 | 竹ノ塚 | -0.7% | 7.7 | 2.2 |
+| 北区 | 6272 | 89.6 | 585 | 5 | 7.3 | 赤羽 | 1.2% | 8.5 | 1.6 |
+| 荒川区 | 6027 | 86.1 | 510 | 5.3 | 9 | 西日暮里 | 7.7% | 8.6 | 1.7 |
+| 足立区 | 4151 | 59.3 | 920 | 6.2 | 2.8 | 北千住 | 3% | 7.7 | 2.2 |
 
 ## Price timeseries — 成約価格 (MLIT XIT001 · primary)
 
@@ -273,9 +273,9 @@ _CAGR 10y: 2.8% · 5y: 2.4% · span: 2.1%_
 
 ## Demand & risk notes
 
-- **北区**: top station 東十条 · flood=Y · liquefaction=Y (tile sample)
-- **荒川区**: top station 北千住 · flood=Y · liquefaction=Y (tile sample)
-- **足立区**: top station 竹ノ塚 · flood=Y · liquefaction=Y (tile sample)
+- **北区**: top station 赤羽 · flood=Y · liquefaction=Y (tile sample)
+- **荒川区**: top station 西日暮里 · flood=Y · liquefaction=Y (tile sample)
+- **足立区**: top station 北千住 · flood=Y · liquefaction=Y (tile sample)
 
 ## Writer constraints (mandatory)
 

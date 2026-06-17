@@ -51,6 +51,7 @@
     "research:pack": "node scripts/render-episode-research-pack.mjs",
     "analyze:episode": "node scripts/analyze-episode.mjs",
     "audit:ward-tiles": "node scripts/audit-ward-tiles.mjs",
+    "verify:ep07-tiles": "node scripts/verify-ep07-tiles.mjs",
     "verify:og-social": "node scripts/verify-og-social.mjs",
     "screen:wards": "node scripts/screen-wards.mjs"
   },

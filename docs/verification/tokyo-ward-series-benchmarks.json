@@ -673,7 +673,7 @@
         "top_passengers": 183284,
         "total_daily": 1486294,
         "station_count": 51,
-        "episode": "",
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
@@ -681,7 +681,7 @@
         "top_passengers": 359263,
         "total_daily": 1309747,
         "station_count": 38,
-        "episode": "",
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
@@ -689,7 +689,7 @@
         "top_passengers": 501818,
         "total_daily": 1456431,
         "station_count": 26,
-        "episode": "",
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "千代田区": {
@@ -1027,27 +1027,33 @@
     "note": "250mメッシュ 타일 합산 — 구 전체 근사",
     "wards": {
       "北区": {
-        "pop_2020": 1164076,
-        "pop_2040": 1236368,
-        "change_pct": "6.2%",
-        "mesh_count": 888,
-        "episode": "",
+        "pop_2020": 343312,
+        "pop_2040": 347583,
+        "change_pct": "1.2%",
+        "mesh_count": 295,
+        "mesh_coverage_warning": true,
+        "population_tile_preset": true,
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
-        "pop_2020": 818939,
-        "pop_2040": 871310,
-        "change_pct": "6.4%",
-        "mesh_count": 636,
-        "episode": "",
+        "pop_2020": 325434,
+        "pop_2040": 350360,
+        "change_pct": "7.7%",
+        "mesh_count": 229,
+        "mesh_coverage_warning": true,
+        "population_tile_preset": true,
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
-        "pop_2020": 780620,
-        "pop_2040": 794990,
-        "change_pct": "1.8%",
-        "mesh_count": 859,
-        "episode": "",
+        "pop_2020": 376423,
+        "pop_2040": 387789,
+        "change_pct": "3%",
+        "mesh_count": 383,
+        "mesh_coverage_warning": true,
+        "population_tile_preset": true,
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "千代田区": {
@@ -1223,7 +1229,7 @@
         "tsunami": false,
         "landslide": true,
         "summary": "liquefaction, flood, storm_surge, landslide",
-        "episode": "",
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "荒川区": {
@@ -1233,7 +1239,7 @@
         "tsunami": false,
         "landslide": true,
         "summary": "liquefaction, flood, storm_surge, landslide",
-        "episode": "",
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "足立区": {
@@ -1243,7 +1249,7 @@
         "tsunami": false,
         "landslide": false,
         "summary": "liquefaction, flood, storm_surge",
-        "episode": "",
+        "episode": "Ep.07",
         "fetched_at": "2026-06-17"
       },
       "千代田区": {

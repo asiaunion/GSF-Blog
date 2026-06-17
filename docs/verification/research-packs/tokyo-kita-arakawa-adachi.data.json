@@ -17,10 +17,10 @@
       "cagr_full": 6.7,
       "trade_cagr_10y": 5,
       "land_cagr_10y": 7.3,
-      "pop_change": "3.2%",
+      "pop_change": "1.2%",
       "rent_1r": 8.5,
       "yield_pct": 1.6,
-      "top_station": "東十条",
+      "top_station": "赤羽",
       "flood": true,
       "liquefaction": true
     },
@@ -33,10 +33,10 @@
       "cagr_full": 5.9,
       "trade_cagr_10y": 5.3,
       "land_cagr_10y": 9,
-      "pop_change": "-0.8%",
+      "pop_change": "7.7%",
       "rent_1r": 8.6,
       "yield_pct": 1.7,
-      "top_station": "北千住",
+      "top_station": "西日暮里",
       "flood": true,
       "liquefaction": true
     },
@@ -49,10 +49,10 @@
       "cagr_full": 5.8,
       "trade_cagr_10y": 6.2,
       "land_cagr_10y": 2.8,
-      "pop_change": "-0.7%",
+      "pop_change": "3%",
       "rent_1r": 7.7,
       "yield_pct": 2.2,
-      "top_station": "竹ノ塚",
+      "top_station": "北千住",
       "flood": true,
       "liquefaction": true
     }

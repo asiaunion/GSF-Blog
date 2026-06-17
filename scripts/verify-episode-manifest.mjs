@@ -85,11 +85,27 @@ async function loadJson(p) {
   return JSON.parse(await readFile(p, "utf8"));
 }
 
+function parseChangePct(value) {
+  if (value == null) return null;
+  if (typeof value === "number") return value;
+  const n = parseFloat(String(value).replace("%", ""));
+  return Number.isNaN(n) ? null : n;
+}
+
 function checkBenchmarkLookup(claim, benchmarks) {
   const ref = claim.evidence?.benchmark;
   if (!ref) return { ok: false, reason: "missing evidence.benchmark" };
   const node = getByPath(benchmarks, ref);
   if (node == null) return { ok: false, reason: `benchmark path not found: ${ref}` };
+  if (ref.includes("change_pct") && claim.value != null) {
+    const bench = parseChangePct(node);
+    const claimVal = parseChangePct(claim.value);
+    if (bench != null && claimVal != null) {
+      return Math.abs(bench - claimVal) <= 0.05
+        ? { ok: true }
+        : { ok: false, reason: `expected change_pct ${bench}, got ${claimVal}` };
+    }
+  }
   if (typeof node.minutes === "number" && claim.value != null) {
     return node.minutes === claim.value
       ? { ok: true }

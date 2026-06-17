@@ -57,14 +57,17 @@
     {
       "id": "POP-kita-2040",
       "label": "北区 인구 2020→2040 변화율",
-      "value": "6.2%",
+      "value": 1.2,
       "unit": "%",
       "tier": "primary",
       "layer": "A",
       "method": "benchmark_lookup",
       "evidence": {
-        "benchmark": "population_forecast.wards.北区.change_pct"
+        "benchmark": "population_forecast.wards.北区.change_pct",
+        "mesh_count": 295,
+        "mesh_coverage_warning": true
       },
+      "footnote_required": true,
       "used_in_draft": true
     },
     {
@@ -183,14 +186,17 @@
     {
       "id": "POP-arakawa-2040",
       "label": "荒川区 인구 2020→2040 변화율",
-      "value": "6.4%",
+      "value": 7.7,
       "unit": "%",
       "tier": "primary",
       "layer": "A",
       "method": "benchmark_lookup",
       "evidence": {
-        "benchmark": "population_forecast.wards.荒川区.change_pct"
+        "benchmark": "population_forecast.wards.荒川区.change_pct",
+        "mesh_count": 229,
+        "mesh_coverage_warning": true
       },
+      "footnote_required": true,
       "used_in_draft": true
     },
     {
@@ -309,14 +315,17 @@
     {
       "id": "POP-adachi-2040",
       "label": "足立区 인구 2020→2040 변화율",
-      "value": "1.8%",
+      "value": 3,
       "unit": "%",
       "tier": "primary",
       "layer": "A",
       "method": "benchmark_lookup",
       "evidence": {
-        "benchmark": "population_forecast.wards.足立区.change_pct"
+        "benchmark": "population_forecast.wards.足立区.change_pct",
+        "mesh_count": 383,
+        "mesh_coverage_warning": true
       },
+      "footnote_required": true,
       "used_in_draft": true
     },
     {

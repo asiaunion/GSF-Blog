@@ -61,6 +61,13 @@ function wardId(ward, field, suumoCodes = {}) {
   return `${ascii || "ward"}-${field}`;
 }
 
+function parseChangePct(value) {
+  if (value == null) return null;
+  if (typeof value === "number") return value;
+  const n = parseFloat(String(value).replace("%", ""));
+  return Number.isNaN(n) ? null : n;
+}
+
 async function buildManifest(args, meta, benchmarks, mlit, suumoCodes) {
   const today = new Date().toISOString().slice(0, 10);
   const wards = args.wards.length ? args.wards : meta?.wards ?? [];
@@ -161,15 +168,22 @@ async function buildManifest(args, meta, benchmarks, mlit, suumoCodes) {
 
     const pop = benchmarks.population_forecast?.wards?.[ward];
     if (pop?.change_pct != null) {
+      const popChangeNum = parseChangePct(pop.change_pct);
+      const meshWarn = pop.mesh_coverage_warning ?? false;
       claims.push({
         id: `POP-${wardId(ward, "2040", suumoCodes)}`,
         label: `${ward} 인구 2020→2040 변화율`,
-        value: pop.change_pct,
+        value: popChangeNum ?? pop.change_pct,
         unit: "%",
         tier: "primary",
         layer: "A",
         method: "benchmark_lookup",
-        evidence: { benchmark: `population_forecast.wards.${ward}.change_pct` },
+        evidence: {
+          benchmark: `population_forecast.wards.${ward}.change_pct`,
+          mesh_count: pop.mesh_count,
+          mesh_coverage_warning: meshWarn,
+        },
+        footnote_required: meshWarn,
         used_in_draft: true,
       });
     }

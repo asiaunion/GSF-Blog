@@ -46,6 +46,31 @@ export const WARD_TILE_OVERRIDES = {
   荒川区: [{ z: 14, x: 14554, y: 6448 }],
 };
 
+/**
+ * 인구(XKT013) 전용 타일 — station은 bbox, population은 과대·과소 샘플 방지용 큐레이션.
+ * ep07 3구: Claude 지시 좌표 (역 위경도→z14 역산). 출처: docs/cursor-instructions/fix-ward-tiles-ep07.md
+ */
+export const WARD_POPULATION_TILE_PRESETS = {
+  北区: [
+    { z: 14, x: 14550, y: 6446 },
+    { z: 14, x: 14551, y: 6446 },
+    { z: 14, x: 14551, y: 6447 },
+    { z: 14, x: 14552, y: 6447 },
+  ],
+  荒川区: [
+    { z: 14, x: 14552, y: 6448 },
+    { z: 14, x: 14553, y: 6448 },
+    { z: 14, x: 14553, y: 6449 },
+  ],
+  足立区: [
+    { z: 14, x: 14553, y: 6446 },
+    { z: 14, x: 14554, y: 6446 },
+    { z: 14, x: 14554, y: 6447 },
+    { z: 14, x: 14555, y: 6445 },
+    { z: 14, x: 14555, y: 6446 },
+  ],
+};
+
 export function lon2tile(lon, z = TILE_ZOOM) {
   return Math.floor(((lon + 180) / 360) * 2 ** z);
 }
@@ -95,6 +120,13 @@ export function getWardTiles(wardName) {
   const fromBounds = tilesForBounds(bounds, TILE_ZOOM);
   const extra = WARD_TILE_OVERRIDES[wardName] ?? [];
   return dedupeTiles([...fromBounds, ...extra]);
+}
+
+/** station·disaster·地価 — bbox 기반 */
+export function getWardPopulationTiles(wardName) {
+  const preset = WARD_POPULATION_TILE_PRESETS[wardName];
+  if (preset?.length) return dedupeTiles(preset);
+  return getWardTiles(wardName);
 }
 
 export function wardTileSummary(wardName) {

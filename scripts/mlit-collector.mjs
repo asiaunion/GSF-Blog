@@ -34,7 +34,7 @@
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { getWardTiles } from "./lib/ward-tiles.mjs";
+import { getWardTiles, getWardPopulationTiles, WARD_POPULATION_TILE_PRESETS } from "./lib/ward-tiles.mjs";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 상수 정의
@@ -366,7 +366,8 @@ async function collectStation(wardName, noCache = false) {
 
 /** XKT013: 장래 추계 인구 (250m 메시) */
 async function collectPopulation(wardName, noCache = false) {
-  const tiles = getWardTiles(wardName);
+  const tiles = getWardPopulationTiles(wardName);
+  const usesPreset = Boolean(WARD_POPULATION_TILE_PRESETS[wardName]);
 
   const allMesh = [];
   for (const { z, x, y } of tiles) {
@@ -399,11 +400,18 @@ async function collectPopulation(wardName, noCache = false) {
     ? Math.round((pop2040 - pop2020) / pop2020 * 1000) / 10
     : null;
 
+  const meshCoverageWarning = allMesh.length < 100 || usesPreset;
+
   return {
     ward: wardName, type: "population",
     mesh_count: allMesh.length,
     population_by_year: popByYear,
     change_rate_2020_2040: changeRate !== null ? `${changeRate}%` : "データなし",
+    mesh_coverage_warning: meshCoverageWarning,
+    mesh_note: meshCoverageWarning
+      ? `메시 ${allMesh.length}개 — 타일 샘플 기반. 행정구 전체와 불일치 가능. change_pct는 참고값.`
+      : null,
+    population_tile_preset: usesPreset,
     note: "250mメッシュ集計値 — 行政区域と完全一致しない場合あり",
     fetched_at: new Date().toISOString().slice(0, 10),
     source: "MLIT XKT013 API [1차 확인] A계층",

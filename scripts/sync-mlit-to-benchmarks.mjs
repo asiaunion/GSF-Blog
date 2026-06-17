@@ -3,7 +3,7 @@
  * Merge MLIT collector outputs into tokyo-ward-series-benchmarks.json (v1.1 sections).
  *
  * Usage:
- *   node scripts/sync-mlit-to-benchmarks.mjs --episode ep07
+ *   node scripts/sync-mlit-to-benchmarks.mjs --episode ep07 --types station,population,disaster --write
  *   node scripts/sync-mlit-to-benchmarks.mjs --ward 北区 --write
  */
 import { readFile, writeFile } from "node:fs/promises";
@@ -24,7 +24,15 @@ const BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmar
 const EPISODES = path.join(root, "docs/verification/tokyo-series-episodes.json");
 
 function parseArgs(argv) {
-  const out = { ward: "", episode: "", allWards: false, year: 2025, write: false, noCache: false };
+  const out = {
+    ward: "",
+    episode: "",
+    allWards: false,
+    year: 2025,
+    write: false,
+    noCache: false,
+    types: null,
+  };
   for (let i = 2; i < argv.length; i += 1) {
     const a = argv[i];
     if (a === "--ward") out.ward = argv[++i] ?? "";
@@ -33,8 +41,18 @@ function parseArgs(argv) {
     else if (a === "--year") out.year = parseInt(argv[++i] ?? "2025", 10);
     else if (a === "--write") out.write = true;
     else if (a === "--no-cache") out.noCache = true;
+    else if (a === "--types") {
+      out.types = (argv[++i] ?? "")
+        .split(",")
+        .map(s => s.trim())
+        .filter(Boolean);
+    }
   }
   return out;
+}
+
+function wantsType(args, type) {
+  return !args.types?.length || args.types.includes(type);
 }
 
 function disasterSummary(detail) {
@@ -118,13 +136,23 @@ async function main() {
   const merged = { wards: [] };
 
   for (const ward of wards) {
-    const price = await collectPrice(ward, args.year, null, args.noCache);
-    const station = await collectStation(ward, args.noCache);
-    const land = await collectLandPrice(ward, args.year, args.noCache);
-    const pop = await collectPopulation(ward, args.noCache);
-    const disaster = await collectDisaster(ward, args.noCache);
+    const price = wantsType(args, "price")
+      ? await collectPrice(ward, args.year, null, args.noCache)
+      : null;
+    const station = wantsType(args, "station")
+      ? await collectStation(ward, args.noCache)
+      : null;
+    const land = wantsType(args, "landprice")
+      ? await collectLandPrice(ward, args.year, args.noCache)
+      : null;
+    const pop = wantsType(args, "population")
+      ? await collectPopulation(ward, args.noCache)
+      : null;
+    const disaster = wantsType(args, "disaster")
+      ? await collectDisaster(ward, args.noCache)
+      : null;
 
-    if (price.count > 0) {
+    if (price?.count > 0) {
       benchmarks.mlit_mansion_2025_q1_q4.wards[ward] = {
         ward_avg_sqm: price.ward_avg_sqm,
         est_70sqm: price.est_70sqm,
@@ -134,7 +162,7 @@ async function main() {
       };
     }
 
-    if (price.districts?.length) {
+    if (price?.districts?.length) {
       benchmarks.district_price_2025.wards[ward] = {
         top_districts: price.districts.slice(0, 10).map(d => ({
           name: d.name,
@@ -147,7 +175,7 @@ async function main() {
       };
     }
 
-    if (station.station_count > 0) {
+    if (station?.station_count > 0) {
       benchmarks.station_passengers.wards[ward] = {
         top_station: station.top_station?.name,
         top_passengers: station.top_station?.passengers_daily,
@@ -158,7 +186,7 @@ async function main() {
       };
     }
 
-    if (land.point_count > 0) {
+    if (land?.point_count > 0) {
       benchmarks.land_price_official.wards[ward] = {
         avg_yen_sqm: land.price_stats?.avg,
         avg_change_pct: land.avg_change_rate,
@@ -168,29 +196,33 @@ async function main() {
       };
     }
 
-    const pop2020 = pop.population_by_year?.[2020];
-    const pop2040 = pop.population_by_year?.[2040];
+    const pop2020 = pop?.population_by_year?.[2020];
+    const pop2040 = pop?.population_by_year?.[2040];
     if (pop2020) {
       benchmarks.population_forecast.wards[ward] = {
         pop_2020: pop2020,
         pop_2040: pop2040 ?? null,
         change_pct: pop.change_rate_2020_2040,
         mesh_count: pop.mesh_count,
+        mesh_coverage_warning: pop.mesh_coverage_warning ?? false,
+        population_tile_preset: pop.population_tile_preset ?? false,
         episode: epLabel,
         fetched_at: pop.fetched_at,
       };
     }
 
-    benchmarks.disaster_risk.wards[ward] = {
-      flood: disaster.detail?.flood?.has_risk ?? false,
-      liquefaction: disaster.detail?.liquefaction?.has_risk ?? false,
-      storm_surge: disaster.detail?.storm_surge?.has_risk ?? false,
-      tsunami: disaster.detail?.tsunami?.has_risk ?? false,
-      landslide: disaster.detail?.landslide?.has_risk ?? false,
-      summary: disasterSummary(disaster.detail),
-      episode: epLabel,
-      fetched_at: disaster.fetched_at,
-    };
+    if (disaster) {
+      benchmarks.disaster_risk.wards[ward] = {
+        flood: disaster.detail?.flood?.has_risk ?? false,
+        liquefaction: disaster.detail?.liquefaction?.has_risk ?? false,
+        storm_surge: disaster.detail?.storm_surge?.has_risk ?? false,
+        tsunami: disaster.detail?.tsunami?.has_risk ?? false,
+        landslide: disaster.detail?.landslide?.has_risk ?? false,
+        summary: disasterSummary(disaster.detail),
+        episode: epLabel,
+        fetched_at: disaster.fetched_at,
+      };
+    }
 
     merged.wards.push(ward);
   }
