@@ -135,6 +135,7 @@ pnpm compare:wards -- --episode ep07
 
 | Item | Path |
 |------|------|
+| **AG 영구 프롬프트** | `docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md` |
 | Sample size SSOT | `scripts/lib/mlit-sample-policy.mjs` |
 | Price timeseries (成約) | `scripts/mlit-price-series.mjs` |
 | Trade timeseries (取引·aux) | `scripts/mlit-trade-price-series.mjs` |

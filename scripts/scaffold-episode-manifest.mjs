@@ -172,21 +172,65 @@ async function buildManifest(args, meta, benchmarks, mlit) {
     }
 
     const ts = benchmarks.mlit_mansion_timeseries?.wards?.[ward];
-    if (ts?.cagr_5y != null && ts.blog_primary !== false) {
+    const cagrContract = ts?.cagr_5y ?? ts?.cagr_full;
+    if (cagrContract != null && ts.blog_primary !== false) {
       claims.push({
-        id: `TIMESERIES-${wardId(ward, "CAGR5")}`,
-        label: `${ward} 맨션 ㎡단가 5년 CAGR`,
-        value: ts.cagr_5y,
+        id: `TIMESERIES-${wardId(ward, "CAGR")}`,
+        label: `${ward} 맨션 成約 ㎡단가 CAGR`,
+        value: cagrContract,
         unit: "%",
         tier: "primary",
         layer: "A",
         method: "benchmark_lookup",
         evidence: {
-          benchmark: `mlit_mansion_timeseries.wards.${ward}.cagr_5y`,
+          benchmark: ts.cagr_5y != null
+            ? `mlit_mansion_timeseries.wards.${ward}.cagr_5y`
+            : `mlit_mansion_timeseries.wards.${ward}.cagr_full`,
           count: ts.counts ? Object.values(ts.counts).at(-1) : undefined,
+          span_years: ts.cagr_span_years,
         },
         footnote_required: ts.footnote_required ?? false,
         used_in_draft: true,
+      });
+    }
+
+    const tradeTs = benchmarks.mlit_trade_price_timeseries?.wards?.[ward];
+    const tradeCagr = tradeTs?.cagr_10y ?? tradeTs?.cagr_full;
+    if (tradeCagr != null) {
+      claims.push({
+        id: `TRADE-${wardId(ward, "CAGR10")}`,
+        label: `${ward} 不動産取引価格 10년 CAGR (보조)`,
+        value: tradeCagr,
+        unit: "%",
+        tier: "secondary",
+        layer: "A",
+        method: "benchmark_lookup",
+        evidence: {
+          benchmark: `mlit_trade_price_timeseries.wards.${ward}`,
+          note: "取引価格(01) — 成約価格과 혼용 금지",
+        },
+        footnote_required: true,
+        used_in_draft: false,
+      });
+    }
+
+    const landTs = benchmarks.land_price_timeseries?.wards?.[ward];
+    const landCagr = landTs?.cagr_10y ?? landTs?.cagr_full;
+    if (landCagr != null) {
+      claims.push({
+        id: `LANDTS-${wardId(ward, "CAGR10")}`,
+        label: `${ward} 地価公示ポイント 10년 CAGR (보조)`,
+        value: landCagr,
+        unit: "%",
+        tier: "secondary",
+        layer: "A",
+        method: "benchmark_lookup",
+        evidence: {
+          benchmark: `land_price_timeseries.wards.${ward}`,
+          note: "XPT002 타일 샘플 평균 (円/㎡)",
+        },
+        footnote_required: true,
+        used_in_draft: false,
       });
     }
 

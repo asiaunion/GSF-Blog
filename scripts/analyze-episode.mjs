@@ -3,9 +3,11 @@
  * Orchestrate MLIT analysis pipeline for one Tokyo ward episode.
  */
 import { spawn } from "node:child_process";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
+const EPISODES = path.join(root, "docs/verification/tokyo-series-episodes.json");
 
 function parseArgs(argv) {
   const out = { episode: "", slug: "", write: false, noCache: false, skipApi: false };
@@ -20,6 +22,14 @@ function parseArgs(argv) {
   return out;
 }
 
+async function resolveEpisodeFromSlug(slug) {
+  const doc = JSON.parse(await readFile(EPISODES, "utf8"));
+  const meta = (doc.episodes ?? []).find(e => e.slug === slug);
+  if (!meta?.episode) return "";
+  const n = meta.episode.replace(/\D/g, "").padStart(2, "0");
+  return `ep${n}`;
+}
+
 function run(cmd, cmdArgs) {
   return new Promise((resolve, reject) => {
     const child = spawn(cmd, cmdArgs, { cwd: root, stdio: "inherit", shell: false });
@@ -29,8 +39,11 @@ function run(cmd, cmdArgs) {
 
 async function main() {
   const args = parseArgs(process.argv);
+  if (!args.episode && args.slug) {
+    args.episode = await resolveEpisodeFromSlug(args.slug);
+  }
   if (!args.episode && !args.slug) {
-    console.error("Usage: analyze-episode.mjs --episode ep07 [--write] [--no-cache]");
+    console.error("Usage: analyze-episode.mjs --episode ep07 [--slug <slug>] [--write] [--no-cache]");
     process.exit(2);
   }
 

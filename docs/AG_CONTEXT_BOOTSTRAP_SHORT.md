@@ -11,7 +11,7 @@
 
 역할: AG=ko/en/ja 원고·시트·repo / Cursor=validate / commit·deploy=사용자만.
 
-필수 읽기(순): `AGENTS.md`(루트 SSOT) → `docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md` → `docs/fact-audit/T3_POLICY.md`
+필수 읽기(순): `AGENTS.md`(루트 SSOT) → `docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md` → `docs/fact-audit/T3_POLICY.md` → **`docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`** (블로그·MLIT·투자 분석)
 
 고정:
 - T3 **P0-only** (12 slug 스팟). fetch ON 35/35·시트 전행 [x] **목표 아님**. `T3_DEFERRED`≠백로그.
@@ -19,6 +19,7 @@
 - 그림: 포스트는 `/assets/images/blog/diagrams/*.webp` 만. svg 편집→sanitize→render. 인라인 `<svg>` 금지.
 - 금지어: 반드시/무조건/guaranteed 등.
 - 경로: `src/data/blog/{ko,en,ja}/<동일-slug>.md(x)` · 수치 3언어 parity.
+- Tokyo 에피소드/투자 분석: `pnpm analyze:episode -- --episode epXX --slug <slug> --write` → `docs/verification/research-packs/<slug>.md` SSOT. 상세 `docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`
 
 각주 Wave A/B/C **완료** (Wave D 없음): [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) · C 규칙: [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md) · A: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md)
 
@@ -34,7 +35,7 @@
 ## AG 메모리 1줄
 
 ```
-GSF-Blog: Wave A/B/C footnotes done (no Wave D). docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md + T3_POLICY SSOT. No footer disclaimer, no .svg, no full-sheet T3.
+GSF-Blog: Wave A/B/C footnotes done. MLIT pipeline: docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md. analyze:episode → research-pack → manifest → KO. No footer disclaimer, no .svg.
 ```
 
 ## Antigravity Knowledge (repo)

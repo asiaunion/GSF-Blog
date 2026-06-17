@@ -56,7 +56,8 @@ You: git commit + deploy
 ```
 
 **Ep.07+ 필수**: manifest 승인 없이 KO 초안 작성 금지. Cursor 감사(`cursor_audit_passed`) 없이 배포 금지.  
-상세: [`BLOG_EPISODE_VERIFICATION_PIPELINE.md`](./BLOG_EPISODE_VERIFICATION_PIPELINE.md)
+상세: [`BLOG_EPISODE_VERIFICATION_PIPELINE.md`](./BLOG_EPISODE_VERIFICATION_PIPELINE.md)  
+**AG MLIT·투자 분석 영구 프롬프트**: [`AG_GSFARK_MLIT_PIPELINE_PROMPT.md`](./AG_GSFARK_MLIT_PIPELINE_PROMPT.md)
 
 발행 **빈도**는 [`EDITORIAL_TOPIC_POLICY.md`](./EDITORIAL_TOPIC_POLICY.md) / runbook 목표(예: 주 3회)를 참고하되, **월·수·금 같은 요일 매핑은 사용하지 않음**.
 
