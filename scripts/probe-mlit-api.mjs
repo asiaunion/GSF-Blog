@@ -130,7 +130,7 @@ async function probe() {
     const url = `${BASE}/${endpoint}?${params}`;
     console.log(`Fetching ${url}`);
     resData = await apiFetch(url);
-  } else if (zArg || endpoint === "XKT003" || endpoint === "XGT001" || endpoint === "XST001") {
+  } else if (zArg || ["XKT003", "XGT001", "XST001", "XKT014", "XKT023", "XKT024", "XKT030"].includes(endpoint)) {
     const tiles = getWardTiles(ward);
     const zMatch = zArg ? Number(zArg) : tiles[0].z;
     const tile = tiles.find(t => t.z === zMatch) || tiles[0];

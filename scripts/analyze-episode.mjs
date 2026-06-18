@@ -71,6 +71,8 @@ async function main() {
       await run("node", ["scripts/analyze-station-distance.mjs", "--ward", ward]);
       await run("node", ["scripts/analyze-disaster-price.mjs", "--ward", ward]);
       await run("node", ["scripts/render-ward-price-map.mjs", "--ward", ward]);
+      await run("node", ["scripts/analyze-redevelopment-potential.mjs", "--ward", ward]);
+      await run("node", ["scripts/analyze-urban-constraints.mjs", "--ward", ward]);
     }
     await run("node", ["scripts/render-ward-dossier.mjs", "--episode", args.episode, ...cacheFlag]);
   }

@@ -18,6 +18,8 @@ import {
   collectDisaster,
   collectDisasterHistory,
   collectEvacuationSites,
+  collectUrbanPlanning,
+  collectZoning,
   EPISODE_WARDS,
   WARD_CODE,
   loadEnv,
@@ -92,7 +94,7 @@ async function main() {
     episodesDoc.find(e => e.wards?.every(w => wards.includes(w)))?.episode ??
     "";
 
-  benchmarks.schema_version = "1.7";
+  benchmarks.schema_version = "1.9";
   benchmarks.last_updated = new Date().toISOString().slice(0, 10);
 
   if (!benchmarks.mlit_mansion_2025_q1_q4) {
@@ -186,6 +188,14 @@ async function main() {
       wards: {},
     };
   }
+  if (!benchmarks.urban_planning) {
+    benchmarks.urban_planning = {
+      source: "MLIT XKT014, XKT023, XKT024, XKT030",
+      tier: "A",
+      note: "도시계획 (방화지역, 지구계획, 고도이용지구, 도시계획도로)",
+      wards: {},
+    };
+  }
 
   const merged = { wards: [] };
 
@@ -221,6 +231,12 @@ async function main() {
       : null;
     const evacuationSites = wantsType(args, "evacuation-sites") || wantsType(args, "evacuation_sites")
       ? await collectEvacuationSites(ward, args.noCache)
+      : null;
+    const urbanPlanning = wantsType(args, "urban-planning") || wantsType(args, "urban_planning")
+      ? await collectUrbanPlanning(ward, args.noCache)
+      : null;
+    const zoning = wantsType(args, "urban-planning") || wantsType(args, "urban_planning")
+      ? await collectZoning(ward, args.noCache)
       : null;
 
     if (price?.count > 0) {
@@ -350,6 +366,38 @@ async function main() {
         capacity_note: metrics.capacity_note,
         episode: epLabel,
         fetched_at: evacuationSites.fetched_at,
+      };
+    }
+
+    if (urbanPlanning) {
+      const fp = urbanPlanning.detail.fire_prevention_zone;
+      const dp = urbanPlanning.detail.district_plan_zones;
+      const hu = urbanPlanning.detail.high_utilization_zones;
+      const ur = urbanPlanning.detail.urban_road;
+
+      benchmarks.urban_planning.wards[ward] = {
+        fire_prevention_zone: {
+          coverage_pct: fp.feature_count === 0 ? null : (fp.coverage_pct || 0),
+          dominant_type: fp.dominant_type || null,
+          feature_count: fp.feature_count,
+          ...(fp.feature_count === 0 ? { coverage_status: "no_data", coverage_note: "해당 구에 데이터 없음 (인접 구 bleed 제외)" } : {})
+        },
+        district_plan_zones: {
+          feature_count: dp.feature_count,
+          ...(dp.feature_count === 0 ? { coverage_status: "no_data", coverage_note: "해당 구에 데이터 없음 (인접 구 bleed 제외)" } : {})
+        },
+        high_utilization_zones: {
+          feature_count: hu.feature_count,
+          ...(hu.feature_count === 0 ? { coverage_status: "no_data", coverage_note: "해당 구에 데이터 없음 (인접 구 bleed 제외)" } : {})
+        },
+        urban_road: {
+          affected_pct: ur.feature_count === 0 ? null : (ur.urban_road_affected_pct || 0),
+          feature_count: ur.feature_count,
+          ...(ur.feature_count === 0 ? { coverage_status: "no_data", coverage_note: "해당 구에 데이터 없음 (인접 구 bleed 제외)" } : {})
+        },
+        ...(zoning ? { zoning_top3: zoning.top3 } : {}),
+        episode: epLabel,
+        fetched_at: urbanPlanning.fetched_at,
       };
     }
 

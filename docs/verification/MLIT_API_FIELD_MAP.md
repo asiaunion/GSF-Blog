@@ -113,3 +113,25 @@ Fields are documented exactly as returned by the API to ensure no guessing or ha
   - `inland_flooding_flag`: 내수 범람 대비 플래그
   - `high_tide_flag`: 해일 대비 플래그
   - `remarks`: 비고
+
+## Amendment — Phase 3 (2026-06-18)
+
+### 6. XKT014 (방화/준방화지역)
+- **type**: FeatureCollection (geojson)
+- **properties**: `['_id', '_index', 'decision_date', 'city_name', 'prefecture', 'city_code', 'notice_number_s', 'notice_number', 'decision_classification', 'decision_maker', 'kubun_id', 'first_decision_date', 'fire_prevention_ja']`
+- **Key Observation**: `city_code` 있음. `fire_prevention_ja` 속성으로 방화지역 유형 파악.
+
+### 7. XKT023 (지구계획)
+- **type**: FeatureCollection (geojson)
+- **properties**: `['_id', '_index', 'plan_type_ja', 'group_code', 'prefecture', 'decision_type_ja', 'notice_number_s', 'plan_name', 'decision_date', 'city_name', 'notice_number', 'decision_maker', 'kubun_id', 'first_decision_date']`
+- **Key Observation**: ⚠️ **`city_code` 없음.** 대신 `city_name` (예: "練馬区") 존재. 필터 시 `city_name === ward` 또는 `group_code` 사용 필수.
+
+### 8. XKT024 (고도이용지구)
+- **type**: FeatureCollection (geojson)
+- **properties**: `['_id', '_index', 'advanced_name', 'group_code', 'prefecture', 'decision_type_ja', 'notice_number_s', 'decision_date', 'city_name', 'advanced_type_ja', 'notice_number', 'decision_maker', 'kubun_id', 'first_decision_date']`
+- **Key Observation**: ⚠️ **`city_code` 없음.** 대신 `city_name` 존재. 필터 시 `city_name === ward` 사용 필수.
+
+### 9. XKT030 (도시계획도로)
+- **type**: FeatureCollection (geojson)
+- **properties**: `['_id', '_index', 'decision_date', 'city_name', 'planning_road_ja', 'prefecture', 'decision_type_ja', 'city_code', 'notice_number_s', 'notice_number', 'decision_maker', 'kubun_id', 'first_decision_date']`
+- **Key Observation**: `city_code` 있음. `planning_road_ja` 필드 존재.

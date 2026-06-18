@@ -38,6 +38,9 @@ import { getWardTiles, getWardPopulationTiles, WARD_POPULATION_TILE_PRESETS } fr
 import { unionWardTiles, getStationTilesForWard } from './lib/station-tile-fetch.mjs';
 import { resolveXkt015Name, buildXkt015Map } from './lib/station-alias.mjs';
 import { getStationsByWard } from "./lib/station-master.mjs";
+import * as turf from "@turf/turf";
+import { getWardPolygons } from "./lib/ward-polygon.mjs";
+
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 상수 정의
@@ -61,6 +64,10 @@ const ENDPOINTS = {
   disaster_landslide:    `${BASE}/XKT029`, // 토사재해 경계구역
   disaster_history:      `${BASE}/XST001`, // 재해 이력
   evacuation_sites:      `${BASE}/XGT001`, // 긴급대피장소
+  urban_fire:            `${BASE}/XKT014`, // 방화·준방화지역
+  district_plan:         `${BASE}/XKT023`, // 지구계획
+  high_utilization:      `${BASE}/XKT024`, // 고도이용지구
+  urban_road:            `${BASE}/XKT030`, // 도시계획도로
 };
 
 // 도쿄 23구 시구정촌 코드
@@ -1319,7 +1326,202 @@ if (isMain) {
   });
 }
 
+
+/** XKT014, XKT023, XKT024, XKT030: 도시계획 (방화지역, 지구계획, 고도이용지구, 도시계획도로) */
+async function collectUrbanPlanning(wardName, noCache = false) {
+  const tiles = getWardTiles(wardName);
+  const targetCityCode = WARD_CODE[wardName];
+  const wardPolygons = getWardPolygons(wardName);
+  const wardAreaSqm = wardPolygons.reduce((sum, p) => sum + turf.area(p), 0);
+
+  const results = {};
+
+  const urbanTypes = {
+    fire_prevention_zone: { endpoint: ENDPOINTS.urban_fire, label: "방화·준방화지역 (XKT014)", useCityCode: true },
+    district_plan_zones:  { endpoint: ENDPOINTS.district_plan, label: "지구계획 (XKT023)", useCityCode: false },
+    high_utilization_zones: { endpoint: ENDPOINTS.high_utilization, label: "고도이용지구 (XKT024)", useCityCode: false },
+    urban_road:           { endpoint: ENDPOINTS.urban_road, label: "도시계획도로 (XKT030)", useCityCode: true },
+  };
+
+  for (const [typeKey, { endpoint, label, useCityCode }] of Object.entries(urbanTypes)) {
+    const featureMap = new Map();
+    for (const { z, x, y } of tiles) {
+      const cacheKey = `urban-${typeKey}-${wardName}-${z}_${x}_${y}`;
+      const params = new URLSearchParams({
+        response_format: "geojson",
+        z: String(z), x: String(x), y: String(y),
+      });
+      try {
+        const raw = await cachedFetch(cacheKey,
+          () => apiFetch(`${endpoint}?${params}`), noCache);
+        const tileFeatures = raw?.features ?? [];
+        for (const f of tileFeatures) {
+          const p = f.properties ?? {};
+          // Filtering logic: XKT014, XKT030 use city_code. XKT023, XKT024 use city_name
+          if (useCityCode) {
+            if (p.city_code !== targetCityCode && p.city_name !== wardName) continue;
+          } else {
+            if (p.city_name !== wardName) continue;
+          }
+          if (p._id && !featureMap.has(p._id)) {
+            featureMap.set(p._id, f);
+          }
+        }
+      } catch (e) {
+        process.stderr.write(`  ⚠️  ${label} 취득 실패: ${e.message}\n`);
+      }
+      if (tiles.length > 1) await sleep(100);
+    }
+
+    const uniqueFeatures = Array.from(featureMap.values());
+    const count = uniqueFeatures.length;
+    let overlapAreaSqm = 0;
+    
+    // For fire_prevention_zone, calculate dominant type
+    let fireArea = 0;
+    let quasiFireArea = 0;
+
+    // Calculate overlap with turf if there are features and it's 014 or 030
+    if (count > 0 && (typeKey === "fire_prevention_zone" || typeKey === "urban_road")) {
+      for (const f of uniqueFeatures) {
+        let featureAreaInWard = 0;
+        try {
+          // turf.intersect can fail on complex/invalid geometries, use try-catch per feature
+          // Since wardPolygons can be multiple, we intersect with each
+          for (const wPoly of wardPolygons) {
+            const intersection = turf.intersect(turf.featureCollection([f, wPoly]));
+            if (intersection) {
+              featureAreaInWard += turf.area(intersection);
+            }
+          }
+        } catch (err) {
+          // Fallback to feature area if intersection fails
+          featureAreaInWard = turf.area(f);
+        }
+        
+        overlapAreaSqm += featureAreaInWard;
+        
+        if (typeKey === "fire_prevention_zone") {
+          const cat = f.properties.fire_prevention_ja;
+          if (cat === "防火地域") fireArea += featureAreaInWard;
+          else if (cat === "準防火地域") quasiFireArea += featureAreaInWard;
+        }
+      }
+    }
+
+    const resultObj = {
+      label,
+      feature_count: count,
+      has_data: count > 0,
+      coverage_status: count > 0 ? "surveyed" : "no_data",
+      ...(count === 0 ? { coverage_note: "타일 내 in-ward 데이터 0건. API 커버리지 공백 가능." } : {}),
+    };
+
+    if (count > 0) {
+      if (typeKey === "fire_prevention_zone") {
+        const coveragePct = wardAreaSqm > 0 ? (overlapAreaSqm / wardAreaSqm) * 100 : 0;
+        resultObj.coverage_pct = parseFloat(coveragePct.toFixed(1));
+        resultObj.dominant_type = fireArea >= quasiFireArea ? "방화지역" : "준방화지역";
+      } else if (typeKey === "urban_road") {
+        const coveragePct = wardAreaSqm > 0 ? (overlapAreaSqm / wardAreaSqm) * 100 : 0;
+        resultObj.urban_road_affected_pct = parseFloat(coveragePct.toFixed(1));
+      }
+    }
+
+    results[typeKey] = resultObj;
+
+    await sleep(100);
+  }
+
+  return {
+    ward: wardName, type: "urban_planning",
+    summary: Object.fromEntries(
+      Object.entries(results).map(([k, v]) => {
+        if (!v.has_data) return [k, "⚠️ 0건 (no_data)"];
+        if (k === "fire_prevention_zone") return [k, `✅ ${v.feature_count}건 (${v.coverage_pct}% ${v.dominant_type})`];
+        if (k === "urban_road") return [k, `✅ ${v.feature_count}건 (${v.urban_road_affected_pct}% 영향)`];
+        return [k, `✅ ${v.feature_count}건`];
+      })
+    ),
+    detail: results,
+    fetched_at: new Date().toISOString().slice(0, 10),
+    source: "MLIT XKT014,023,024,030 API [1차 확인] A계층",
+  };
+}
+
+async function collectZoning(wardName, noCache = false) {
+  const tiles = getWardTiles(wardName);
+  const targetCityCode = WARD_CODE[wardName];
+  const wardPolygons = getWardPolygons(wardName);
+  const wardAreaSqm = wardPolygons.reduce((sum, p) => sum + turf.area(p), 0);
+
+  const featureMap = new Map();
+
+  for (const { z, x, y } of tiles) {
+    const cacheKey = `zoning-${wardName}-${z}_${x}_${y}`;
+    const params = new URLSearchParams({
+      response_format: "geojson",
+      z: String(z), x: String(x), y: String(y),
+    });
+    try {
+      const raw = await cachedFetch(cacheKey,
+        () => apiFetch(`${ENDPOINTS.zoning}?${params}`), noCache);
+      const tileFeatures = raw?.features ?? [];
+      for (const f of tileFeatures) {
+        const p = f.properties ?? {};
+        if (p.city_code !== targetCityCode && p.city_name !== wardName) continue;
+        if (p._id && !featureMap.has(p._id)) {
+          featureMap.set(p._id, f);
+        }
+      }
+    } catch (e) {
+      process.stderr.write(`  ⚠️  용도지역 취득 실패: ${e.message}\n`);
+    }
+    if (tiles.length > 1) await sleep(100);
+  }
+
+  const uniqueFeatures = Array.from(featureMap.values());
+  const count = uniqueFeatures.length;
+
+  const areaByType = {};
+
+  if (count > 0) {
+    for (const f of uniqueFeatures) {
+      let featureAreaInWard = 0;
+      try {
+        for (const wPoly of wardPolygons) {
+          const intersection = turf.intersect(turf.featureCollection([f, wPoly]));
+          if (intersection) {
+            featureAreaInWard += turf.area(intersection);
+          }
+        }
+      } catch (err) {
+        featureAreaInWard = turf.area(f);
+      }
+      
+      const type = f.properties.use_area_ja || "Unknown";
+      if (!areaByType[type]) areaByType[type] = 0;
+      areaByType[type] += featureAreaInWard;
+    }
+  }
+
+  const top3 = Object.entries(areaByType)
+    .map(([type, area]) => ({ type, pct: parseFloat((wardAreaSqm > 0 ? (area / wardAreaSqm) * 100 : 0).toFixed(1)) }))
+    .sort((a, b) => b.pct - a.pct)
+    .slice(0, 3);
+
+  return {
+    ward: wardName, type: "zoning",
+    summary: count > 0 ? `✅ top3: ${top3.map(t => `${t.type}(${t.pct}%)`).join(", ")}` : "⚠️ 0건 (no_data)",
+    top3,
+    feature_count: count,
+    fetched_at: new Date().toISOString().slice(0, 10),
+    source: "MLIT XKT002 [1차 확인] A계층",
+  };
+}
+
 export {
+
   collectPrice,
   collectTradePrice,
   collectPricePoints,
@@ -1328,8 +1530,10 @@ export {
   collectStation,
   collectPopulation,
   collectDisaster,
+  collectUrbanPlanning,
   collectDisasterHistory,
   collectEvacuationSites,
+  collectZoning,
   exportBenchmarks,
   EPISODE_WARDS,
   WARD_CODE,

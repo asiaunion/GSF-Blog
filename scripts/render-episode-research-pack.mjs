@@ -4,7 +4,7 @@
  */
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
-import { execFile } from "node:child_process";
+import { execFile, execSync } from "node:child_process";
 import { promisify } from "node:util";
 import { collectPrice, EPISODE_WARDS, loadEnv } from "./mlit-collector.mjs";
 import { formatWriterConstraintsBlock, policyForCount } from "./lib/mlit-sample-policy.mjs";
@@ -86,6 +86,23 @@ async function buildPack(meta, benchmarks, wards, args) {
       districtRows[ward] = price.districts ?? [];
     } catch {
       districtRows[ward] = [];
+    }
+  }
+
+  const redevData = {};
+  const constraintsData = {};
+  for (const ward of wards) {
+    try {
+      const p = execSync(`node scripts/analyze-redevelopment-potential.mjs --ward ${ward}`).toString();
+      redevData[ward] = JSON.parse(p.trim().split("\n").pop());
+    } catch {
+      redevData[ward] = { status: "error" };
+    }
+    try {
+      const c = execSync(`node scripts/analyze-urban-constraints.mjs --ward ${ward}`).toString();
+      constraintsData[ward] = JSON.parse(c)[0];
+    } catch {
+      constraintsData[ward] = null;
     }
   }
 
@@ -213,6 +230,25 @@ async function buildPack(meta, benchmarks, wards, args) {
     `## Policy Zone (Location Optimization - XKT003)`,
     ``,
     `_${benchmarks.location_optimization?.note ?? "23구 입지적정화계획 데이터 미고시 (coverage_status: not_applicable_tokyo23). 도쿄 외곽 및 타 현에서만 실증 확인."}_`,
+    ``,
+    `## Redevelopment Potential (XKT024 × XPT001)`,
+    ``,
+    ...wards.map(w => {
+      const d = redevData[w];
+      if (!d || d.status === "skipped") return `- **${w}**: Skipped (${d?.reason || "no_data"})`;
+      if (d.status === "error") return `- **${w}**: Error running analysis`;
+      return `- **${w}**: low_percentile count = ${d.n_low_percentile}, in-zone count = ${d.n_in_high_util}, low_and_in_zone = ${d.n_low_and_in_zone} (valid_for_body: ${d.valid_for_body})`;
+    }),
+    ``,
+    `## Urban Constraints (XKT002 × XKT014 × XKT023)`,
+    ``,
+    `| Ward | Zoning Dominant | Fire Pct | Fire Dominant | District Plans |`,
+    `|---|---|---|---|---|`,
+    ...wards.map(w => {
+      const d = constraintsData[w];
+      if (!d) return `| ${w} | Error | - | - | - |`;
+      return `| ${w} | ${d.zoning_dominant} | ${d.fire_pct} | ${d.fire_dominant} | ${d.district_plans} |`;
+    }),
     ``,
     formatWriterConstraintsBlock(),
     ``,

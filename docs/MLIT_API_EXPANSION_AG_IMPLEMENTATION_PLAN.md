@@ -423,3 +423,11 @@ Phase 완료 시 누적 등록:
 - 모든 타일 API에 `city_code === WARD_CODE[ward]` 필터 필수
 - XST001 top-level `coverage_warning` 유지 (P2-G03)
 - XGT001 capacity 필드 없으면 한계 문서화, 숫자 창작 금지
+
+## Amendment — Phase 3 (2026-06-18)
+
+- **P3-T00 선행 프로브 결과 (XKT014, XKT023, XKT024, XKT030)**
+  - XKT014, XKT030은 `city_code` 필드가 존재하여 `feature.properties.city_code === WARD_CODE[ward]` 필터 적용 가능.
+  - ⚠️ XKT023, XKT024는 `city_code`가 **없음**. 대신 `city_name` (예: "練馬区") 필드가 있으므로, `feature.properties.city_name === ward` 필터 로직 적용 필수.
+- **P3 dominant_type Amendment**: ROADMAP의 XKT014 dominant_type 예시("準防火地域優勢")와 달리, 한국어 렌더링 최적화를 위해 "방화지역" / "준방화지역" 등 한글 용어를 직접 사용하도록 구현 및 승인 완료.
+- **P3 zoning_top3 Amendment**: `schema_version` 1.8에서 1.9로 업데이트하며 `zoning_top3`를 `urban_planning` 내부로 통합하여 23구 전수 연동 처리 완료.

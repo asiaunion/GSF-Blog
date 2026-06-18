@@ -1,0 +1,268 @@
+{
+  "slug": "tokyo-itabashi-nerima",
+  "episode": "Ep.08",
+  "generated_at": "2026-06-18",
+  "wards": [
+    "板橋区",
+    "練馬区"
+  ],
+  "summary": [
+    {
+      "ward": "板橋区",
+      "est_70sqm": 4935,
+      "ward_avg_sqm": 70.5,
+      "count": 1030,
+      "cagr_5y": null,
+      "cagr_full": 5.2,
+      "trade_cagr_10y": 4.6,
+      "land_cagr_10y": 8.3,
+      "pop_change": "3.9%",
+      "rent_1r": 8.5,
+      "yield_pct": 2.1,
+      "top_station": "板橋",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 60,
+      "evac_count": 70,
+      "evac_per_10k": 1.2
+    },
+    {
+      "ward": "練馬区",
+      "est_70sqm": 5124,
+      "ward_avg_sqm": 73.2,
+      "count": 895,
+      "cagr_5y": null,
+      "cagr_full": 4.5,
+      "trade_cagr_10y": 4.2,
+      "land_cagr_10y": 3.7,
+      "pop_change": "1.6%",
+      "rent_1r": 8.7,
+      "yield_pct": 2,
+      "top_station": "小竹向原",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 56,
+      "evac_count": 102,
+      "evac_per_10k": 1.4
+    }
+  ],
+  "districts": {
+    "板橋区": [
+      {
+        "name": "成増",
+        "aggregation": "DistrictName",
+        "count": 69,
+        "avg_sqm": 77.4,
+        "avg_man": 5101
+      },
+      {
+        "name": "高島平",
+        "aggregation": "DistrictName",
+        "count": 67,
+        "avg_sqm": 44.4,
+        "avg_man": 2175
+      },
+      {
+        "name": "板橋",
+        "aggregation": "DistrictName",
+        "count": 58,
+        "avg_sqm": 88.3,
+        "avg_man": 4259
+      },
+      {
+        "name": "小豆沢",
+        "aggregation": "DistrictName",
+        "count": 54,
+        "avg_sqm": 74.3,
+        "avg_man": 4791
+      },
+      {
+        "name": "前野町",
+        "aggregation": "DistrictName",
+        "count": 51,
+        "avg_sqm": 65.9,
+        "avg_man": 4547
+      },
+      {
+        "name": "徳丸",
+        "aggregation": "DistrictName",
+        "count": 46,
+        "avg_sqm": 59.5,
+        "avg_man": 4041
+      },
+      {
+        "name": "坂下",
+        "aggregation": "DistrictName",
+        "count": 46,
+        "avg_sqm": 63.3,
+        "avg_man": 3623
+      },
+      {
+        "name": "小茂根",
+        "aggregation": "DistrictName",
+        "count": 40,
+        "avg_sqm": 81.5,
+        "avg_man": 5345
+      },
+      {
+        "name": "中台",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 47.1,
+        "avg_man": 3405
+      },
+      {
+        "name": "志村",
+        "aggregation": "DistrictName",
+        "count": 30,
+        "avg_sqm": 66.2,
+        "avg_man": 3980
+      },
+      {
+        "name": "蓮根",
+        "aggregation": "DistrictName",
+        "count": 30,
+        "avg_sqm": 64.5,
+        "avg_man": 4516
+      },
+      {
+        "name": "加賀",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 100.9,
+        "avg_man": 7862
+      },
+      {
+        "name": "中丸町",
+        "aggregation": "DistrictName",
+        "count": 24,
+        "avg_sqm": 70.4,
+        "avg_man": 3780
+      },
+      {
+        "name": "南常盤台",
+        "aggregation": "DistrictName",
+        "count": 21,
+        "avg_sqm": 75.7,
+        "avg_man": 3795
+      },
+      {
+        "name": "若木",
+        "aggregation": "DistrictName",
+        "count": 21,
+        "avg_sqm": 47.7,
+        "avg_man": 2734
+      }
+    ],
+    "練馬区": [
+      {
+        "name": "豊玉北",
+        "aggregation": "DistrictName",
+        "count": 56,
+        "avg_sqm": 74.9,
+        "avg_man": 4094
+      },
+      {
+        "name": "中村北",
+        "aggregation": "DistrictName",
+        "count": 54,
+        "avg_sqm": 78.5,
+        "avg_man": 4457
+      },
+      {
+        "name": "関町北",
+        "aggregation": "DistrictName",
+        "count": 47,
+        "avg_sqm": 63.5,
+        "avg_man": 3887
+      },
+      {
+        "name": "関町南",
+        "aggregation": "DistrictName",
+        "count": 46,
+        "avg_sqm": 70.9,
+        "avg_man": 5000
+      },
+      {
+        "name": "貫井",
+        "aggregation": "DistrictName",
+        "count": 45,
+        "avg_sqm": 65.6,
+        "avg_man": 3772
+      },
+      {
+        "name": "光が丘",
+        "aggregation": "DistrictName",
+        "count": 43,
+        "avg_sqm": 69.2,
+        "avg_man": 5502
+      },
+      {
+        "name": "高野台",
+        "aggregation": "DistrictName",
+        "count": 39,
+        "avg_sqm": 72.2,
+        "avg_man": 4742
+      },
+      {
+        "name": "石神井町",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 101.5,
+        "avg_man": 6846
+      },
+      {
+        "name": "東大泉",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 82.9,
+        "avg_man": 5270
+      },
+      {
+        "name": "練馬",
+        "aggregation": "DistrictName",
+        "count": 35,
+        "avg_sqm": 83.6,
+        "avg_man": 3831
+      },
+      {
+        "name": "北町",
+        "aggregation": "DistrictName",
+        "count": 33,
+        "avg_sqm": 75.8,
+        "avg_man": 4363
+      },
+      {
+        "name": "上石神井",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 77.6,
+        "avg_man": 4991
+      },
+      {
+        "name": "桜台",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 76.7,
+        "avg_man": 4078
+      },
+      {
+        "name": "豊玉上",
+        "aggregation": "DistrictName",
+        "count": 25,
+        "avg_sqm": 77.2,
+        "avg_man": 3176
+      },
+      {
+        "name": "豊玉南",
+        "aggregation": "DistrictName",
+        "count": 23,
+        "avg_sqm": 65.6,
+        "avg_man": 4052
+      }
+    ]
+  },
+  "benchmarks_schema": "1.9"
+}
