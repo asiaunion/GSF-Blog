@@ -145,9 +145,14 @@ async function main() {
     const land = wantsType(args, "landprice")
       ? await collectLandPrice(ward, args.year, args.noCache)
       : null;
-    const pop = wantsType(args, "population")
-      ? await collectPopulation(ward, args.noCache)
-      : null;
+    let pop = null;
+    if (wantsType(args, "population")) {
+      if (benchmarks.population_forecast?.wards[ward]?.source === "jukiren+ipss") {
+        pop = null; // skip
+      } else {
+        pop = await collectPopulation(ward, args.noCache);
+      }
+    }
     const disaster = wantsType(args, "disaster")
       ? await collectDisaster(ward, args.noCache)
       : null;

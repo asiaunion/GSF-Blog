@@ -1027,34 +1027,37 @@
     "note": "250mメッシュ 타일 합산 — 구 전체 근사",
     "wards": {
       "北区": {
-        "pop_2020": 343312,
-        "pop_2040": 347583,
-        "change_pct": "1.2%",
-        "mesh_count": 295,
-        "mesh_coverage_warning": true,
+        "pop_2020": 355213,
+        "pop_2040": 361467,
+        "change_pct": "1.8%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false,
         "population_tile_preset": true,
-        "episode": "Ep.07",
-        "fetched_at": "2026-06-17"
+        "episode": "Ep.07"
       },
       "荒川区": {
-        "pop_2020": 325434,
-        "pop_2040": 350360,
-        "change_pct": "7.7%",
-        "mesh_count": 229,
-        "mesh_coverage_warning": true,
+        "pop_2020": 217475,
+        "pop_2040": 229145,
+        "change_pct": "5.4%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false,
         "population_tile_preset": true,
-        "episode": "Ep.07",
-        "fetched_at": "2026-06-17"
+        "episode": "Ep.07"
       },
       "足立区": {
-        "pop_2020": 376423,
-        "pop_2040": 387789,
-        "change_pct": "3%",
-        "mesh_count": 383,
-        "mesh_coverage_warning": true,
+        "pop_2020": 695043,
+        "pop_2040": 712704,
+        "change_pct": "2.5%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false,
         "population_tile_preset": true,
-        "episode": "Ep.07",
-        "fetched_at": "2026-06-17"
+        "episode": "Ep.07"
       },
       "千代田区": {
         "pop_2020": 384880,

@@ -1,8 +1,8 @@
 {
   "episode": "Ep.07",
   "slug": "tokyo-kita-arakawa-adachi",
-  "created_at": "2026-06-17",
-  "updated_at": "2026-06-17",
+  "created_at": "2026-06-18",
+  "updated_at": "2026-06-18",
   "gates": {
     "c_tier_capture_requested": false,
     "manifest_approved_by": null,
@@ -57,17 +57,16 @@
     {
       "id": "POP-kita-2040",
       "label": "北区 인구 2020→2040 변화율",
-      "value": 1.2,
+      "value": 1.8,
       "unit": "%",
       "tier": "primary",
       "layer": "A",
       "method": "benchmark_lookup",
       "evidence": {
         "benchmark": "population_forecast.wards.北区.change_pct",
-        "mesh_count": 295,
-        "mesh_coverage_warning": true
+        "mesh_coverage_warning": false
       },
-      "footnote_required": true,
+      "footnote_required": false,
       "used_in_draft": true
     },
     {
@@ -186,17 +185,16 @@
     {
       "id": "POP-arakawa-2040",
       "label": "荒川区 인구 2020→2040 변화율",
-      "value": 7.7,
+      "value": 5.4,
       "unit": "%",
       "tier": "primary",
       "layer": "A",
       "method": "benchmark_lookup",
       "evidence": {
         "benchmark": "population_forecast.wards.荒川区.change_pct",
-        "mesh_count": 229,
-        "mesh_coverage_warning": true
+        "mesh_coverage_warning": false
       },
-      "footnote_required": true,
+      "footnote_required": false,
       "used_in_draft": true
     },
     {
@@ -315,17 +313,16 @@
     {
       "id": "POP-adachi-2040",
       "label": "足立区 인구 2020→2040 변화율",
-      "value": 3,
+      "value": 2.5,
       "unit": "%",
       "tier": "primary",
       "layer": "A",
       "method": "benchmark_lookup",
       "evidence": {
         "benchmark": "population_forecast.wards.足立区.change_pct",
-        "mesh_count": 383,
-        "mesh_coverage_warning": true
+        "mesh_coverage_warning": false
       },
-      "footnote_required": true,
+      "footnote_required": false,
       "used_in_draft": true
     },
     {
