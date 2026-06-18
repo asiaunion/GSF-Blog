@@ -294,7 +294,135 @@ pnpm verify:ep07-tiles
 
 ---
 
-## 8. 진행 상태 보드
+## 8. §RE-6 — 多摩26市 Registry (Wave 1)
+
+**착수 조건**: RE-5 완료  
+**범위**: registry·경계·bbox만. **benchmarks 수집은 Wave 2로 이연.**
+
+**대상**: 東京都の市 26 (`13201`–`13228`, `13216`/`13217` 공백). 狛江(`13219`)는 `region_tier: pilot` 유지 + `regions.tokyo_tama` 포함.
+
+### 8.1 실행 순서
+
+| ID | 작업 | 산출 |
+|----|------|------|
+| RE-6-T01 | N03 추출 | `docs/verification/data/tokyo-tama-boundary.geojson` |
+| RE-6-T02 | SSOT 목록 | `scripts/lib/tokyo-tama-cities.mjs` |
+| RE-6-T03 | Registry 시드 | `node scripts/seed-tokyo-tama-registry.mjs` |
+| RE-6-T04 | bbox 일괄 | `node scripts/update-tokyo-tama-bboxes.mjs` |
+| RE-6-T05 | polygon spot check | `municipality-polygon.mjs` 3시 |
+| RE-6-T06 | 타일 spot audit | `pnpm audit:ward-tiles --municipality 武蔵野市` 등 3곳 |
+
+### 8.2 핵심 명령
+
+```bash
+node scripts/prepare-n03-tokyo-tama.mjs
+node scripts/seed-tokyo-tama-registry.mjs
+node scripts/update-tokyo-tama-bboxes.mjs   # 재생성 시
+```
+
+**N03 코드 주의**: N03 `N03_007`이 西東京市(13228) 등에서 구코드와 불일치 → boundary는 `name_ja` 추출 후 `registry_code`로 정규화.
+
+### 8.3 RE-6 자체 게이트
+
+```bash
+pnpm verify:disaster-complete
+pnpm verify:urban-planning-complete
+pnpm verify:ep07-tiles
+pnpm verify:region-pilot          # 狛江 pilot 회귀
+pnpm verify:tokyo-tama            # RE-6 Wave 1 registry
+node -e "import { listRegion } from './scripts/lib/municipality-registry.mjs'; console.log(listRegion('tokyo_tama').length)"
+# → 26
+```
+
+**Wave 2 (별도 슬라이스)**: `tokyo-tama-benchmarks.json`, N02, 우선 8시 sync — Joseph 승인 후.
+
+### 8.4 §RE-6 Wave 2 — N02·Benchmarks·우선 8시 E2E
+
+**착수 조건**: RE-6 Wave 1 PASS (`pnpm verify:tokyo-tama`)  
+**범위**: 우선 8시 full stack 수집. 나머지 18시는 registry만 유지(점진 수집).  
+**금지**: `tokyo-ward-series-benchmarks.json` 수정 · 狛江 `greater-tokyo-pilot-benchmarks.json` 덮어쓰기
+
+**우선 8시 SSOT** (`scripts/lib/tokyo-tama-cities.mjs` → `TOKYO_TAMA_WAVE2_PRIORITY`):
+
+| 코드 | 시 | 비고 |
+|------|-----|------|
+| 13203 | 武蔵野市 | 吉祥寺 |
+| 13204 | 三鷹市 | |
+| 13208 | 調布市 | 23구 인접 |
+| 13206 | 府中市 | |
+| 13202 | 立川市 | |
+| 13209 | 町田市 | |
+| 13201 | 八王子市 | 다마 최대 |
+| 13228 | 西東京市 | |
+
+### 8.5 Wave 2 실행 순서
+
+| ID | 작업 | 산출 |
+|----|------|------|
+| RE-6-W2-T01 | N02 subset (26시) | `prepare-n02-tokyo-tama.mjs` → `n02-stations-tokyo-tama.geojson` |
+| RE-6-W2-T02 | `station-master.mjs` | tama N02 경로 로드 추가 |
+| RE-6-W2-T03 | benchmarks 스캐폴드 | `docs/verification/tokyo-tama-benchmarks.json` (`schema_version: "1.0-tama"`) |
+| RE-6-W2-T04 | registry region | `municipalities.json` → `regions.tokyo_tama_priority` (8 codes) |
+| RE-6-W2-T05 | sync 라우팅 | `sync-mlit-to-benchmarks.mjs` — `--region tokyo_tama_priority` → tama benchmarks |
+| RE-6-W2-T06 | tile audit 8시 | `audit-ward-tiles --municipality` — `station_count≥5` 또는 `tile_overrides` |
+| RE-6-W2-T07 | 8시 수집 loop | disaster → urban → price → station (RE-4 pilot 순서 동일) |
+| RE-6-W2-T08 | analyze | `analyze-disaster-matrix --benchmarks-path .../tokyo-tama-benchmarks.json` |
+| RE-6-W2-T09 | verify | `verify-tokyo-tama-benchmarks.mjs` + `pnpm verify:tokyo-tama` |
+
+### 8.6 Wave 2 핵심 명령
+
+```bash
+# N02 (RE-2-T08 패턴 복제)
+node scripts/prepare-n02-tokyo-tama.mjs
+# station-master가 n02-stations-tokyo-tama.geojson 로드하는지 확인
+
+# Benchmarks 스캐폴드 후 1시 trial
+node scripts/sync-mlit-to-benchmarks.mjs \
+  --region tokyo_tama_priority \
+  --municipality 武蔵野市 \
+  --types disaster,disaster-history,evacuation \
+  --write
+git diff docs/verification/tokyo-ward-series-benchmarks.json   # empty 필수
+
+# 8시 full loop (예시)
+for m in 武蔵野市 三鷹市 調布市 府中市 立川市 町田市 八王子市 西東京市; do
+  node scripts/sync-mlit-to-benchmarks.mjs --region tokyo_tama_priority --municipality "$m" \
+    --types disaster,disaster-history,evacuation,urban-planning,zoning,price,price-point,appraisal,station,population --write
+done
+
+node scripts/analyze-disaster-matrix.mjs \
+  --benchmarks-path docs/verification/tokyo-tama-benchmarks.json
+```
+
+**N02 참고**: `prepare-n02-region.mjs` (pilot) · `docs/verification/data/README.md` — N02 원본 + `tokyo-tama-boundary.geojson` point-in-poly → `ward_code` 부여.
+
+**sync 스캐폴드**: `greater-tokyo-pilot-benchmarks.json` 구조 복제. `region: "tokyo_tama"`, `schema_version: "1.0-tama"` 유지 (`pilot`과 동일 — `1.9` 덮어쓰기 금지).
+
+### 8.7 Wave 2 자체 게이트 (AG 핸드오프 전)
+
+```bash
+pnpm verify:tokyo-tama
+pnpm verify:region-pilot              # 狛江 pilot 회귀
+pnpm verify:disaster-complete         # 23구
+pnpm verify:urban-planning-complete
+pnpm verify:ep07-tiles
+pnpm verify:tokyo-tama-benchmarks     # RE-6-W2-T09 (신규)
+pnpm audit:ward-tiles --municipality 武蔵野市
+pnpm audit:ward-tiles --municipality 八王子市
+```
+
+**완료 기준 (Wave 2)**:
+- 8시 × `disaster_risk`, `disaster_history`, `evacuation_sites`, `urban_planning` 존재
+- `analyze-disaster-matrix` 8/8 Risk×History 요약
+- 23구·pilot 회귀 pass
+
+**Cursor 게이트**: `RE-6-W2-G01`
+
+**핸드오프 필수**: 8시×섹션 커버리지 표 · `tile_coverage_warning` 목록 · N02 역 수 spot check
+
+---
+
+## 9. 진행 상태 보드
 
 | 슬라이스 | 상태 | 게이트 |
 |----------|------|--------|
@@ -302,20 +430,22 @@ pnpm verify:ep07-tiles
 | RE-2 | ✅ 완료 | RE-2-G01 PASS |
 | RE-3 | ✅ 완료 | RE-3-G01 PASS (§RE-3.5 패치 포함) |
 | RE-4 | ✅ 완료 | RE-4-G01 PASS |
-| RE-5 | 🎯 착수 | — |
-| RE-5 | ⏳ 대기 | — |
+| RE-5 | ✅ 완료 | RE-5 마감 (location_optimization sync → 후속) |
+| RE-6 | ✅ Wave 1 | `verify:tokyo-tama` + 23구 회귀 PASS |
+| RE-6 W2 | 🎯 착수 | N02 + `tokyo-tama-benchmarks` 우선 8시 |
 
 *AG: 슬라이스 완료 시 이 표를 핸드오프에 갱신 요청 (Cursor가 commit 시 반영 가능).*
 
 ---
 
-## 9. Joseph → AG 한 줄 지시 예시
+## 10. Joseph → AG 한 줄 지시 예시
 
 | 상황 | Joseph/AG에 전달할 문장 |
 |------|-------------------------|
 | RE-2 시작 | `RE-2 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-2` |
+| RE-6 W2 시작 | `RE-6 Wave 2 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §8.4` |
 | RE-2 검증 후 | `RE-3 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-3` |
-| 핸드오프 | `RE-2 핸드오프. Runbook §2 템플릿 + §4.7 게이트 로그 첨부` |
+| 핸드오프 | `RE-N 핸드오프. Runbook §2 템플릿 + 게이트 로그 첨부` |
 
 ---
 

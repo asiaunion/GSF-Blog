@@ -6,6 +6,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const N02_TOKYO_PATH = path.resolve(__dirname, '../../docs/verification/data/n02-stations-tokyo.geojson');
 const N02_PILOT_PATH = path.resolve(__dirname, '../../docs/verification/data/n02-stations-kanagawa-komae.geojson');
+const N02_TAMA_PATH = path.resolve(__dirname, '../../docs/verification/data/n02-stations-tokyo-tama.geojson');
 
 let n02Features = null;
 
@@ -13,7 +14,7 @@ function loadN02Data() {
   if (n02Features) return;
   n02Features = [];
 
-  for (const p of [N02_TOKYO_PATH, N02_PILOT_PATH]) {
+  for (const p of [N02_TOKYO_PATH, N02_PILOT_PATH, N02_TAMA_PATH]) {
     if (fs.existsSync(p)) {
       const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
       n02Features.push(...data.features);

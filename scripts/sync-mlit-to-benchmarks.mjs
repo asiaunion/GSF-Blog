@@ -102,6 +102,8 @@ async function main() {
     finalBenchmarksPath = path.resolve(root, args.benchmarksPath);
   } else if (args.region === "pilot") {
     finalBenchmarksPath = path.join(root, "docs/verification/greater-tokyo-pilot-benchmarks.json");
+  } else if (args.region === "tokyo_tama_priority" || args.region === "tokyo_tama") {
+    finalBenchmarksPath = path.join(root, "docs/verification/tokyo-tama-benchmarks.json");
   }
 
   const benchmarks = JSON.parse(await readFile(finalBenchmarksPath, "utf8"));
@@ -111,7 +113,7 @@ async function main() {
     episodesDoc.find(e => e.wards?.every(w => wards.includes(w)))?.episode ??
     "";
 
-  if (args.region !== "pilot" && !args.benchmarksPath?.includes("pilot")) {
+  if (args.region !== "pilot" && args.region !== "tokyo_tama_priority" && args.region !== "tokyo_tama" && !args.benchmarksPath?.includes("pilot") && !args.benchmarksPath?.includes("tama")) {
     benchmarks.schema_version = "1.9";
   }
   benchmarks.last_updated = new Date().toISOString().slice(0, 10);

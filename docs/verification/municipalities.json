@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "municipalities": {
     "13101": {
       "name_ja": "千代田区",
@@ -679,6 +679,470 @@
         "zoning"
       ]
     },
+    "13201": {
+      "name_ja": "八王子市",
+      "name_en_slug": "hachioji",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.59794,
+        "maxLat": 35.71912,
+        "minLon": 139.1616,
+        "maxLon": 139.43005
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13202": {
+      "name_ja": "立川市",
+      "name_en_slug": "tachikawa",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.68276,
+        "maxLat": 35.74513,
+        "minLon": 139.35233,
+        "maxLon": 139.44612
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13203": {
+      "name_ja": "武蔵野市",
+      "name_en_slug": "musashino",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.69396,
+        "maxLat": 35.722,
+        "minLon": 139.52522,
+        "maxLon": 139.59547
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13204": {
+      "name_ja": "三鷹市",
+      "name_en_slug": "mitaka",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.66003,
+        "maxLat": 35.70678,
+        "minLon": 139.52447,
+        "maxLon": 139.59418
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13205": {
+      "name_ja": "青梅市",
+      "name_en_slug": "ome",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.75455,
+        "maxLat": 35.85087,
+        "minLon": 139.13716,
+        "maxLon": 139.33037
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13206": {
+      "name_ja": "府中市",
+      "name_en_slug": "fuchu",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.64619,
+        "maxLat": 35.6999,
+        "minLon": 139.42983,
+        "maxLon": 139.52646
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13207": {
+      "name_ja": "昭島市",
+      "name_en_slug": "akishima",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.69128,
+        "maxLat": 35.72629,
+        "minLon": 139.33132,
+        "maxLon": 139.39853
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13208": {
+      "name_ja": "調布市",
+      "name_en_slug": "chofu",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.63259,
+        "maxLat": 35.68816,
+        "minLon": 139.51704,
+        "maxLon": 139.59309
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13209": {
+      "name_ja": "町田市",
+      "name_en_slug": "machida",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.50125,
+        "maxLat": 35.6235,
+        "minLon": 139.2688,
+        "maxLon": 139.50759
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13210": {
+      "name_ja": "小金井市",
+      "name_en_slug": "koganei",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.68402,
+        "maxLat": 35.71907,
+        "minLon": 139.48446,
+        "maxLon": 139.5342
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13211": {
+      "name_ja": "小平市",
+      "name_en_slug": "kodaira",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.70804,
+        "maxLat": 35.74586,
+        "minLon": 139.42285,
+        "maxLon": 139.52467
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13212": {
+      "name_ja": "日野市",
+      "name_en_slug": "hino",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.63932,
+        "maxLat": 35.69163,
+        "minLon": 139.35732,
+        "maxLon": 139.44202
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13213": {
+      "name_ja": "東村山市",
+      "name_en_slug": "higashimurayama",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.73451,
+        "maxLat": 35.78171,
+        "minLon": 139.44,
+        "maxLon": 139.50479
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13214": {
+      "name_ja": "国分寺市",
+      "name_en_slug": "kokubunji",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.68833,
+        "maxLat": 35.72288,
+        "minLon": 139.42826,
+        "maxLon": 139.49144
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13215": {
+      "name_ja": "国立市",
+      "name_en_slug": "kunitachi",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.67064,
+        "maxLat": 35.70442,
+        "minLon": 139.41757,
+        "maxLon": 139.45961
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13218": {
+      "name_ja": "福生市",
+      "name_en_slug": "fussa",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.71261,
+        "maxLat": 35.75485,
+        "minLon": 139.31387,
+        "maxLon": 139.35988
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
     "13219": {
       "name_ja": "狛江市",
       "name_en_slug": "komae",
@@ -693,8 +1157,269 @@
         "minLon": 139.56197,
         "maxLon": 139.59412
       },
-      "boundary_file": "komae-boundary.geojson",
-      "boundary_property": "N03_007",
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13220": {
+      "name_ja": "東大和市",
+      "name_en_slug": "higashiyamato",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.73001,
+        "maxLat": 35.76959,
+        "minLon": 139.39163,
+        "maxLon": 139.45162
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13221": {
+      "name_ja": "清瀬市",
+      "name_en_slug": "kiyose",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.7611,
+        "maxLat": 35.80731,
+        "minLon": 139.49651,
+        "maxLon": 139.5472
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13222": {
+      "name_ja": "東久留米市",
+      "name_en_slug": "higashikurume",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.73206,
+        "maxLat": 35.77423,
+        "minLon": 139.48453,
+        "maxLon": 139.54784
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13223": {
+      "name_ja": "武蔵村山市",
+      "name_en_slug": "musashimurayama",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.73259,
+        "maxLat": 35.77441,
+        "minLon": 139.35467,
+        "maxLon": 139.41442
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13224": {
+      "name_ja": "多摩市",
+      "name_en_slug": "tama",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.6047,
+        "maxLat": 35.65796,
+        "minLon": 139.39367,
+        "maxLon": 139.47391
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13225": {
+      "name_ja": "稲城市",
+      "name_en_slug": "inagi",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.60431,
+        "maxLat": 35.65268,
+        "minLon": 139.46416,
+        "maxLon": 139.52539
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13226": {
+      "name_ja": "羽村市",
+      "name_en_slug": "hamura",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.74712,
+        "maxLat": 35.78128,
+        "minLon": 139.29213,
+        "maxLon": 139.34308
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13227": {
+      "name_ja": "あきる野市",
+      "name_en_slug": "akiruno",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.68759,
+        "maxLat": 35.77894,
+        "minLon": 139.1361,
+        "maxLon": 139.33123
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13229": {
+      "name_ja": "西東京市",
+      "name_en_slug": "nishitokyo",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "tokyo_tama",
+      "bbox": {
+        "minLat": 35.71131,
+        "maxLat": 35.7616,
+        "minLon": 139.51671,
+        "maxLon": 139.56942
+      },
+      "boundary_file": "tokyo-tama-boundary.geojson",
+      "boundary_property": "registry_code",
       "tile_overrides": [],
       "enabled_collectors": [
         "disaster",
@@ -832,6 +1557,50 @@
         "14133",
         "14204",
         "13219"
+      ]
+    },
+    "tokyo_tama": {
+      "label": "東京都多摩26市",
+      "codes": [
+        "13201",
+        "13202",
+        "13203",
+        "13204",
+        "13205",
+        "13206",
+        "13207",
+        "13208",
+        "13209",
+        "13210",
+        "13211",
+        "13212",
+        "13213",
+        "13214",
+        "13215",
+        "13218",
+        "13219",
+        "13220",
+        "13221",
+        "13222",
+        "13223",
+        "13224",
+        "13225",
+        "13226",
+        "13227",
+        "13229"
+      ]
+    },
+    "tokyo_tama_priority": {
+      "label": "東京都多摩우선8시",
+      "codes": [
+        "13203",
+        "13204",
+        "13208",
+        "13206",
+        "13202",
+        "13209",
+        "13201",
+        "13229"
       ]
     }
   }

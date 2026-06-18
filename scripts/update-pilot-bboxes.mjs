@@ -11,12 +11,6 @@ const DATA_DIR = path.resolve(__dirname, '../docs/verification/data');
 
 const registry = JSON.parse(fs.readFileSync(REGISTRY_PATH, 'utf-8'));
 
-// Fix Komae
-if (registry.municipalities["13219"]) {
-  registry.municipalities["13219"].boundary_file = "komae-boundary.geojson";
-  registry.municipalities["13219"].boundary_property = "N03_007";
-}
-
 const targetCodes = ["13219", "14103", "14133", "14204"];
 
 for (const code of targetCodes) {

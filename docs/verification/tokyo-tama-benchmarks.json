@@ -1,0 +1,1495 @@
+{
+  "schema_version": "1.0-tama",
+  "last_updated": "2026-06-18",
+  "description": "Region Expansion Wave 2 - Tokyo Tama priority 8 cities benchmarks.",
+  "region": "tokyo_tama",
+  "municipalities": [
+    "武蔵野市",
+    "三鷹市",
+    "調布市",
+    "府中市",
+    "立川市",
+    "町田市",
+    "八王子市",
+    "西東京市"
+  ],
+  "disaster_risk": {
+    "wards": {
+      "武蔵野市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "disaster_history": {
+    "wards": {
+      "武蔵野市": {
+        "has_history": true,
+        "total_events": 43,
+        "flood_events": 43,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "has_history": true,
+        "total_events": 29,
+        "flood_events": 29,
+        "last_flood_year": 2005,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "has_history": true,
+        "total_events": 65,
+        "flood_events": 65,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "has_history": true,
+        "total_events": 20,
+        "flood_events": 20,
+        "last_flood_year": 1976,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "has_history": true,
+        "total_events": 2,
+        "flood_events": 2,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "has_history": true,
+        "total_events": 51,
+        "flood_events": 31,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "has_history": false,
+        "total_events": 0,
+        "flood_events": 0,
+        "last_flood_year": null,
+        "coverage_status": "no_data",
+        "coverage_warning": true,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "has_history": true,
+        "total_events": 19,
+        "flood_events": 19,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "evacuation_sites": {
+    "wards": {
+      "武蔵野市": {
+        "site_count": 1,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 0,
+          "earthquake": 1,
+          "tsunami": 0,
+          "landslide": 0,
+          "storm_surge": 0,
+          "large_fire": 1
+        },
+        "sites_per_10k_people": 0.1,
+        "population_used": 197793,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "site_count": 57,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 23,
+          "earthquake": 32,
+          "tsunami": 0,
+          "landslide": 25,
+          "storm_surge": 0,
+          "large_fire": 3
+        },
+        "sites_per_10k_people": 2.4,
+        "population_used": 242134,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "site_count": 9,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 0,
+          "earthquake": 9,
+          "tsunami": 0,
+          "landslide": 0,
+          "storm_surge": 0,
+          "large_fire": 9
+        },
+        "sites_per_10k_people": 0.2,
+        "population_used": 375884,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "site_count": 45,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 29,
+          "earthquake": 44,
+          "tsunami": 0,
+          "landslide": 42,
+          "storm_surge": 0,
+          "large_fire": 45
+        },
+        "sites_per_10k_people": 1.4,
+        "population_used": 321303,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "site_count": 22,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 20,
+          "earthquake": 21,
+          "tsunami": 0,
+          "landslide": 20,
+          "storm_surge": 0,
+          "large_fire": 1
+        },
+        "sites_per_10k_people": 1.9,
+        "population_used": 113584,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "site_count": 101,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 59,
+          "earthquake": 87,
+          "tsunami": 0,
+          "landslide": 59,
+          "storm_surge": 0,
+          "large_fire": 100
+        },
+        "sites_per_10k_people": 1.6,
+        "population_used": 623482,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "site_count": 139,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 109,
+          "earthquake": 123,
+          "tsunami": 0,
+          "landslide": 113,
+          "storm_surge": 0,
+          "large_fire": 0
+        },
+        "sites_per_10k_people": 1.9,
+        "population_used": 726561,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "site_count": 34,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 20,
+          "earthquake": 34,
+          "tsunami": 0,
+          "landslide": 22,
+          "storm_surge": 0,
+          "large_fire": 4
+        },
+        "sites_per_10k_people": 1.3,
+        "population_used": 262213,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "urban_planning": {
+    "wards": {
+      "武蔵野市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 16.8,
+          "dominant_type": "준방화지역",
+          "feature_count": 4
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 33.1
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 12.1
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 6.3
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 8.5,
+          "dominant_type": "준방화지역",
+          "feature_count": 4
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 35.7
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 7.8
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 7.2
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 9.4,
+          "dominant_type": "준방화지역",
+          "feature_count": 11
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 26.5
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 14
+          },
+          {
+            "type": "準工業地域",
+            "pct": 5.9
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 9.1,
+          "dominant_type": "준방화지역",
+          "feature_count": 20
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 2
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 21.5
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 12.3
+          },
+          {
+            "type": "工業地域",
+            "pct": 4.3
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 1.7,
+          "dominant_type": "준방화지역",
+          "feature_count": 7
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 17.4
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 6.7
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 3.8
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 2.2,
+          "dominant_type": "준방화지역",
+          "feature_count": 28
+        },
+        "district_plan_zones": {
+          "feature_count": 45
+        },
+        "high_utilization_zones": {
+          "feature_count": 4
+        },
+        "urban_road": {
+          "affected_pct": 0.5,
+          "feature_count": 271
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 19.8
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 6.2
+          },
+          {
+            "type": "第２種中高層住居専用地域",
+            "pct": 5.1
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 1.4,
+          "dominant_type": "준방화지역",
+          "feature_count": 37
+        },
+        "district_plan_zones": {
+          "feature_count": 119
+        },
+        "high_utilization_zones": {
+          "feature_count": 3
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 11.3
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 3.6
+          },
+          {
+            "type": "準工業地域",
+            "pct": 3.1
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 15.1,
+          "dominant_type": "준방화지역",
+          "feature_count": 12
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 39
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 18.4
+          },
+          {
+            "type": "第２種中高層住居専用地域",
+            "pct": 2.7
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "location_optimization": {
+    "wards": {}
+  },
+  "zoning_top3": {
+    "wards": {}
+  },
+  "price_points": {
+    "wards": {
+      "武蔵野市": {
+        "geojson_path": "docs/verification/data/price-points/武蔵野市-2025.geojson",
+        "count": 143,
+        "price_classification": "02",
+        "tile_coverage_warning": true,
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "geojson_path": "docs/verification/data/price-points/三鷹市-2025.geojson",
+        "count": 145,
+        "price_classification": "02",
+        "tile_coverage_warning": true,
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "geojson_path": "docs/verification/data/price-points/調布市-2025.geojson",
+        "count": 393,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "geojson_path": "docs/verification/data/price-points/府中市-2025.geojson",
+        "count": 339,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "geojson_path": "docs/verification/data/price-points/立川市-2025.geojson",
+        "count": 133,
+        "price_classification": "02",
+        "tile_coverage_warning": true,
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "geojson_path": "docs/verification/data/price-points/町田市-2025.geojson",
+        "count": 261,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "geojson_path": "docs/verification/data/price-points/八王子市-2025.geojson",
+        "count": 514,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "geojson_path": "docs/verification/data/price-points/西東京市-2025.geojson",
+        "count": 111,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "appraisal": {
+    "wards": {}
+  },
+  "station": {
+    "wards": {}
+  },
+  "mlit_mansion_2025_q1_q4": {
+    "source": "MLIT XIT001 API",
+    "wards": {
+      "武蔵野市": {
+        "ward_avg_sqm": 94.8,
+        "est_70sqm": 6636,
+        "count": 255,
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "ward_avg_sqm": 82.9,
+        "est_70sqm": 5803,
+        "count": 223,
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "ward_avg_sqm": 64.8,
+        "est_70sqm": 4536,
+        "count": 418,
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "ward_avg_sqm": 60.3,
+        "est_70sqm": 4221,
+        "count": 370,
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "ward_avg_sqm": 50.8,
+        "est_70sqm": 3556,
+        "count": 209,
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "ward_avg_sqm": 46,
+        "est_70sqm": 3220,
+        "count": 300,
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "ward_avg_sqm": 37.9,
+        "est_70sqm": 2653,
+        "count": 554,
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "ward_avg_sqm": 31,
+        "est_70sqm": 2170,
+        "count": 2,
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "station_passengers": {
+    "source": "MLIT XKT015",
+    "tier": "A",
+    "note": "타일 샘플 기반 — 행정구 경계와 불일치 가능; STATION_ADMIN_WARD 필터 적용",
+    "wards": {
+      "武蔵野市": {
+        "top_station": "吉祥寺",
+        "top_passengers": 376317,
+        "total_daily": 527151,
+        "station_count": 2,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "top_station": "三鷹",
+        "top_passengers": 167532,
+        "total_daily": 193101,
+        "station_count": 3,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "top_station": "調布",
+        "top_passengers": 115507,
+        "total_daily": 358953,
+        "station_count": 9,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "top_station": "分倍河原",
+        "top_passengers": 157084,
+        "total_daily": 422383,
+        "station_count": 14,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "top_station": "立川",
+        "top_passengers": 301256,
+        "total_daily": 525919,
+        "station_count": 13,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "top_station": "町田",
+        "top_passengers": 451092,
+        "total_daily": 751098,
+        "station_count": 9,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "top_station": "八王子",
+        "top_passengers": 151038,
+        "total_daily": 600610,
+        "station_count": 22,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "top_station": "ひばりヶ丘",
+        "top_passengers": 66846,
+        "total_daily": 225796,
+        "station_count": 5,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "land_price_official": {
+    "source": "MLIT XPT002",
+    "tier": "A",
+    "wards": {
+      "武蔵野市": {
+        "avg_yen_sqm": 1194360,
+        "avg_change_pct": null,
+        "point_count": 50,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "avg_yen_sqm": 705421.1,
+        "avg_change_pct": null,
+        "point_count": 58,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "avg_yen_sqm": 477706.7,
+        "avg_change_pct": null,
+        "point_count": 76,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "avg_yen_sqm": 422473.7,
+        "avg_change_pct": null,
+        "point_count": 77,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "avg_yen_sqm": 876593.8,
+        "avg_change_pct": null,
+        "point_count": 33,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "avg_yen_sqm": 261105.5,
+        "avg_change_pct": null,
+        "point_count": 168,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "avg_yen_sqm": 179664.5,
+        "avg_change_pct": null,
+        "point_count": 241,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "avg_yen_sqm": 347272.7,
+        "avg_change_pct": null,
+        "point_count": 56,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "population_forecast": {
+    "source": "MLIT XKT013",
+    "tier": "A",
+    "note": "250mメッシュ 타일 합산 — 구 전체 근사",
+    "wards": {
+      "武蔵野市": {
+        "pop_2020": 197793,
+        "pop_2040": 206648,
+        "change_pct": "4.5%",
+        "mesh_count": 230,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "pop_2020": 242134,
+        "pop_2040": 254877,
+        "change_pct": "5.3%",
+        "mesh_count": 287,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "pop_2020": 375884,
+        "pop_2040": 392628,
+        "change_pct": "4.5%",
+        "mesh_count": 460,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "pop_2020": 321303,
+        "pop_2040": 326461,
+        "change_pct": "1.6%",
+        "mesh_count": 476,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "pop_2020": 113584,
+        "pop_2040": 112097,
+        "change_pct": "-1.3%",
+        "mesh_count": 219,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "pop_2020": 623482,
+        "pop_2040": 606079,
+        "change_pct": "-2.8%",
+        "mesh_count": 1542,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "pop_2020": 726561,
+        "pop_2040": 695394,
+        "change_pct": "-4.3%",
+        "mesh_count": 2030,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "pop_2020": 262213,
+        "pop_2040": 270547,
+        "change_pct": "3.2%",
+        "mesh_count": 315,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "district_price_2025": {
+    "source": "MLIT XIT001 DistrictName aggregation",
+    "tier": "A",
+    "note": "町名別 — NOT station-level",
+    "wards": {
+      "武蔵野市": {
+        "top_districts": [
+          {
+            "name": "中町",
+            "count": 58,
+            "avg_sqm": 112.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "吉祥寺本町",
+            "count": 44,
+            "avg_sqm": 101.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "境南町",
+            "count": 34,
+            "avg_sqm": 78,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西久保",
+            "count": 21,
+            "avg_sqm": 76.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "吉祥寺北町",
+            "count": 20,
+            "avg_sqm": 75.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "御殿山",
+            "count": 16,
+            "avg_sqm": 129.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "桜堤",
+            "count": 15,
+            "avg_sqm": 81.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "境",
+            "count": 14,
+            "avg_sqm": 89.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "吉祥寺南町",
+            "count": 13,
+            "avg_sqm": 99.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "緑町",
+            "count": 7,
+            "avg_sqm": 78.4,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "top_districts": [
+          {
+            "name": "下連雀",
+            "count": 144,
+            "avg_sqm": 86.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "牟礼",
+            "count": 28,
+            "avg_sqm": 85,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上連雀",
+            "count": 19,
+            "avg_sqm": 88.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新川",
+            "count": 15,
+            "avg_sqm": 57.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "井口",
+            "count": 11,
+            "avg_sqm": 70.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "井の頭",
+            "count": 3,
+            "avg_sqm": 66.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "野崎",
+            "count": 1,
+            "avg_sqm": 44.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "深大寺",
+            "count": 1,
+            "avg_sqm": 47.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "北野",
+            "count": 1,
+            "avg_sqm": 61.4,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "top_districts": [
+          {
+            "name": "染地",
+            "count": 71,
+            "avg_sqm": 43.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "布田",
+            "count": 56,
+            "avg_sqm": 77.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "国領町",
+            "count": 55,
+            "avg_sqm": 69.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "多摩川",
+            "count": 42,
+            "avg_sqm": 49.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "柴崎",
+            "count": 28,
+            "avg_sqm": 48,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "調布ケ丘",
+            "count": 27,
+            "avg_sqm": 88.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小島町",
+            "count": 25,
+            "avg_sqm": 88.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西つつじケ丘",
+            "count": 16,
+            "avg_sqm": 70.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "下石原",
+            "count": 16,
+            "avg_sqm": 59.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "仙川町",
+            "count": 15,
+            "avg_sqm": 91.1,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "top_districts": [
+          {
+            "name": "宮西町",
+            "count": 45,
+            "avg_sqm": 89.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "白糸台",
+            "count": 35,
+            "avg_sqm": 50,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "住吉町",
+            "count": 25,
+            "avg_sqm": 46.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "府中町",
+            "count": 24,
+            "avg_sqm": 75.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "押立町",
+            "count": 22,
+            "avg_sqm": 34.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "緑町",
+            "count": 21,
+            "avg_sqm": 69.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "若松町",
+            "count": 18,
+            "avg_sqm": 50.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "四谷",
+            "count": 18,
+            "avg_sqm": 34.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "宮町",
+            "count": 17,
+            "avg_sqm": 86.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八幡町",
+            "count": 16,
+            "avg_sqm": 74.8,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "top_districts": [
+          {
+            "name": "錦町",
+            "count": 57,
+            "avg_sqm": 57.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "曙町",
+            "count": 34,
+            "avg_sqm": 83.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "富士見町",
+            "count": 22,
+            "avg_sqm": 32.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高松町",
+            "count": 21,
+            "avg_sqm": 68.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "一番町",
+            "count": 19,
+            "avg_sqm": 23,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上砂町",
+            "count": 13,
+            "avg_sqm": 21.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "幸町",
+            "count": 10,
+            "avg_sqm": 21.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "砂川町",
+            "count": 9,
+            "avg_sqm": 28.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "羽衣町",
+            "count": 8,
+            "avg_sqm": 67,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "柏町",
+            "count": 6,
+            "avg_sqm": 36,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "top_districts": [
+          {
+            "name": "原町田",
+            "count": 45,
+            "avg_sqm": 68.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小山ヶ丘",
+            "count": 30,
+            "avg_sqm": 45.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "鶴間",
+            "count": 27,
+            "avg_sqm": 63,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南町田",
+            "count": 26,
+            "avg_sqm": 53.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小川",
+            "count": 24,
+            "avg_sqm": 53.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "鶴川",
+            "count": 19,
+            "avg_sqm": 14.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中町",
+            "count": 18,
+            "avg_sqm": 64.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "森野",
+            "count": 13,
+            "avg_sqm": 46,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南大谷",
+            "count": 13,
+            "avg_sqm": 34.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "山崎町",
+            "count": 11,
+            "avg_sqm": 18.8,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "top_districts": [
+          {
+            "name": "別所",
+            "count": 42,
+            "avg_sqm": 36.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南大沢",
+            "count": 34,
+            "avg_sqm": 31.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大和田町",
+            "count": 30,
+            "avg_sqm": 36.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八日町",
+            "count": 29,
+            "avg_sqm": 60.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "明神町",
+            "count": 28,
+            "avg_sqm": 36.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "子安町",
+            "count": 24,
+            "avg_sqm": 68.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "椚田町",
+            "count": 19,
+            "avg_sqm": 26.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "松木",
+            "count": 19,
+            "avg_sqm": 36.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "散田町",
+            "count": 18,
+            "avg_sqm": 27.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八幡町",
+            "count": 15,
+            "avg_sqm": 35.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "top_districts": [
+          {
+            "name": "秋川",
+            "count": 2,
+            "avg_sqm": 31,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "appraisal_comments": {
+    "source": "MLIT XCT001 API",
+    "tier": "A",
+    "note": "지가공시 감정평가서 원문. 직근 5년분. 텍스트 인용 시 출처 명기 필수. bulk 데이터는 캐시 경로 참조.",
+    "wards": {
+      "武蔵野市": {
+        "json_path": ".cache/mlit/appraisal-merged-musashino-2025.json",
+        "count": 62,
+        "fetched_at": "2026-06-18"
+      },
+      "三鷹市": {
+        "json_path": ".cache/mlit/appraisal-merged-mitaka-2025.json",
+        "count": 84,
+        "fetched_at": "2026-06-18"
+      },
+      "調布市": {
+        "json_path": ".cache/mlit/appraisal-merged-chofu-2025.json",
+        "count": 92,
+        "fetched_at": "2026-06-18"
+      },
+      "府中市": {
+        "json_path": ".cache/mlit/appraisal-merged-fuchu-2025.json",
+        "count": 108,
+        "fetched_at": "2026-06-18"
+      },
+      "立川市": {
+        "json_path": ".cache/mlit/appraisal-merged-tachikawa-2025.json",
+        "count": 76,
+        "fetched_at": "2026-06-18"
+      },
+      "町田市": {
+        "json_path": ".cache/mlit/appraisal-merged-machida-2025.json",
+        "count": 190,
+        "fetched_at": "2026-06-18"
+      },
+      "八王子市": {
+        "json_path": ".cache/mlit/appraisal-merged-hachioji-2025.json",
+        "count": 284,
+        "fetched_at": "2026-06-18"
+      },
+      "西東京市": {
+        "json_path": ".cache/mlit/appraisal-merged-nishitokyo-2025.json",
+        "count": 76,
+        "fetched_at": "2026-06-18"
+      }
+    }
+  }
+}
