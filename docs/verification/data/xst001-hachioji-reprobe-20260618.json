@@ -1,0 +1,16 @@
+{
+  "municipality": "八王子市",
+  "city_code": "13201",
+  "endpoint": "MLIT XST001 (disaster_history)",
+  "reprobe_at": "2026-06-18",
+  "method": "full tile scan, --no-cache",
+  "tile_count": 44,
+  "total_features_after_filter": 0,
+  "verdict": "api_no_data",
+  "disaster_risk_present": true,
+  "note": "XKT025–029 재해 상정 데이터는 존재. XST001 타일 API는 八王子市 bbox 내 44타일 전수 조회에서 features=0. collector 필터 이슈 아님(원본 타일 응답이 빈 FeatureCollection). 블로그 집필 시 재해 이력은 별도 출처(国交省・自治体) 보완 또는 API 한계 명시.",
+  "commands": [
+    "node scripts/fetch-disaster-history.mjs --municipality 八王子市 --no-cache",
+    "node scripts/sync-mlit-to-benchmarks.mjs --region tokyo_tama_priority --municipality 八王子市 --types disaster-history --no-cache --write"
+  ]
+}

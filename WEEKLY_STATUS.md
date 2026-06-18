@@ -26,6 +26,18 @@
 
 ---
 
+## ✅ 2026-06-18 — RE 트랙 공식 마감
+
+| 항목 | 내용 |
+|------|------|
+| RE-1 ~ RE-6 W2-N1 | ✅ 완료 (registry·pilot·다마 26시·우선 8시 benchmarks) |
+| 八王子 XST001 | reprobe 완료 — API 공백 확정 · [`xst001-hachioji-reprobe-20260618.json`](docs/verification/data/xst001-hachioji-reprobe-20260618.json) |
+| SSOT | [`docs/REGION_EXPANSION_CLOSURE.md`](docs/REGION_EXPANSION_CLOSURE.md) |
+| 다음 활성 | **Wave 3 콘텐츠** — Runbook §RE-7 |
+| 백로그 | 다마 18시 점진 수집(BL-1) · Phase 4 이연(BL-4) |
+
+---
+
 ## ✅ 2026-06-15 완료 작업
 
 | 항목 | 내용 | 커밋 |

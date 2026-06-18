@@ -3,6 +3,7 @@
 > **대상**: Antigravity (AG)  
 > **검증**: Cursor (`RE-*-G01` gate) → Joseph 승인  
 > **스펙 정본**: [`REGION_EXPANSION_PLAN.md`](./REGION_EXPANSION_PLAN.md) (완료 기준·스키마)  
+> **마감·백로그 SSOT**: [`REGION_EXPANSION_CLOSURE.md`](./REGION_EXPANSION_CLOSURE.md) — **RE 공식 마감 (2026-06-18)**  
 > **이 문서**: 슬라이스별 **실행 순서·명령·핸드오프** — 매 세션 여기만 읽고 착수
 
 ---
@@ -25,11 +26,12 @@ Joseph  → RE-N 승인 → 다음 슬라이스
 
 ### 1.1 착수 전 읽기
 
-1. [`docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`](./AG_GSFARK_MLIT_PIPELINE_PROMPT.md)
-2. [`docs/MLIT_DATA_REFRESH_SOP.md`](./MLIT_DATA_REFRESH_SOP.md)
-3. [`REGION_EXPANSION_PLAN.md`](./REGION_EXPANSION_PLAN.md) — 해당 RE 섹션 (완료 기준)
-4. **이 runbook** — 해당 §RE-N
-5. [`MLIT_API_EXPANSION_AG_IMPLEMENTATION_PLAN.md`](./MLIT_API_EXPANSION_AG_IMPLEMENTATION_PLAN.md) — Phase 2/3 필터 가드레일
+1. [`docs/REGION_EXPANSION_CLOSURE.md`](./REGION_EXPANSION_CLOSURE.md) — **RE 마감·백로그·알려진 갭**
+2. [`docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`](./AG_GSFARK_MLIT_PIPELINE_PROMPT.md)
+3. [`docs/MLIT_DATA_REFRESH_SOP.md`](./MLIT_DATA_REFRESH_SOP.md)
+4. [`REGION_EXPANSION_PLAN.md`](./REGION_EXPANSION_PLAN.md) — 해당 RE 섹션 (완료 기준)
+5. **이 runbook** — 해당 §RE-N 또는 §RE-7 (Wave 3)
+6. [`MLIT_API_EXPANSION_AG_IMPLEMENTATION_PLAN.md`](./MLIT_API_EXPANSION_AG_IMPLEMENTATION_PLAN.md) — Phase 2/3 필터 가드레일
 
 ### 1.2 전역 금지
 
@@ -470,28 +472,69 @@ pnpm verify:disaster-complete
 
 ## 9. 진행 상태 보드
 
+> **RE 트랙 공식 마감**: 2026-06-18 (Joseph) — 상세: [`REGION_EXPANSION_CLOSURE.md`](./REGION_EXPANSION_CLOSURE.md)
+
 | 슬라이스 | 상태 | 게이트 |
 |----------|------|--------|
-| RE-1 | ✅ 완료 | RE-1-G01 PASS |
-| RE-2 | ✅ 완료 | RE-2-G01 PASS |
-| RE-3 | ✅ 완료 | RE-3-G01 PASS (§RE-3.5 패치 포함) |
-| RE-4 | ✅ 완료 | RE-4-G01 PASS |
-| RE-5 | ✅ 완료 | RE-5 마감 (location_optimization sync → 후속) |
-| RE-6 | ✅ Wave 1 | `verify:tokyo-tama` + 23구 회귀 PASS |
-| RE-6 W2 | ✅ 완료 | `verify:tokyo-tama-benchmarks` + 회귀 PASS (Cursor RE-6-W2-G01) |
-| RE-6 W2-N1 | 🎯 착수 | 西東京 `13228` 정합 (N02·registry) |
+| RE-1 ~ RE-5 | ✅ 완료 | 각 G01 PASS |
+| RE-6 Wave 1 | ✅ 완료 | `verify:tokyo-tama` |
+| RE-6 Wave 2 | ✅ 완료 | `verify:tokyo-tama-benchmarks` |
+| RE-6 W2-N1 | ✅ 완료 | 西東京 `13228` |
+| **RE 트랙** | **🔒 마감** | — |
+| **RE-7 Wave 3** | 🎯 **다음 활성** | 콘텐츠·manifest |
 
-*AG: 슬라이스 완료 시 이 표를 핸드오프에 갱신 요청 (Cursor가 commit 시 반영 가능).*
+*데이터 백로그(18시 점진 수집 등): CLOSURE §4 BL-* 참조.*
 
 ---
 
-## 10. Joseph → AG 한 줄 지시 예시
+## 10. §RE-7 — Wave 3 (콘텐츠 트랙)
+
+**RE 데이터 트랙 마감 후 활성.** 파이프라인 추가 구축 없이 **블로그 집필·배포**에 집중.
+
+### 10.1 역할 분리
+
+| 단계 | 담당 | 산출 |
+|------|------|------|
+| 에피소드 기획·manifest | Joseph + AG | `tokyo-series-episodes.json` Tama 그룹 |
+| KO/EN/JA 초안·diagram·hero | **AG** | `src/content/blog/*.md`, assets |
+| 검증 | **Cursor** | `pnpm validate:post <slug>` |
+| commit·deploy | **Joseph** | 명시 요청 시 |
+
+### 10.2 권장 첫 슬라이스
+
+| ID | 내용 |
+|----|------|
+| RE-7-T01 | manifest — Tama 스핀오프 또는 Ep.10+ (`武蔵野`+`三鷹` 등) |
+| RE-7-T02 | research-pack: `pnpm research:pack` (benchmarks: `tokyo-tama-benchmarks.json`) |
+| RE-7-T03 | KO 초안 + diagram pipeline |
+| RE-7-T04 | `pnpm validate:post <slug>` → Cursor PASS |
+
+**데이터 SSOT**: `docs/verification/tokyo-tama-benchmarks.json` (우선 8시)  
+**八王子 주의**: `disaster_history` XST001 API 공백 — [`xst001-hachioji-reprobe-20260618.json`](./verification/data/xst001-hachioji-reprobe-20260618.json)
+
+### 10.3 금지
+
+- `tokyo-ward-series-benchmarks.json` 수정 (23구 시리즈)
+- RE 마감 전제 하에 **18시 일괄 benchmarks 수집** (BL-1은 에피소드별 점진)
+- 포스트 md 하단 면책 수동 삽입
+
+### 10.4 Joseph → AG 한 줄
+
+```
+Wave 3 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-7 + CLOSURE.md §5.
+첫 에피소드: 武蔵野+三鷹 (또는 Joseph 지정 slug).
+```
+
+---
+
+## 11. Joseph → AG 한 줄 지시 예시
 
 | 상황 | Joseph/AG에 전달할 문장 |
 |------|-------------------------|
 | RE-2 시작 | `RE-2 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-2` |
 | RE-6 W2 시작 | `RE-6 Wave 2 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §8.4` |
 | RE-6 W2-N1 | `RE-6-W2-N1 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §8.8 — 西東京 13228 정합` |
+| Wave 3 | `Wave 3 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-7 + CLOSURE.md` |
 | RE-2 검증 후 | `RE-3 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-3` |
 | 핸드오프 | `RE-N 핸드오프. Runbook §2 템플릿 + 게이트 로그 첨부` |
 

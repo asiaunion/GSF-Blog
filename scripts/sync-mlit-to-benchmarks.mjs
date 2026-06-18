@@ -364,6 +364,9 @@ async function main() {
         last_flood_year: disasterHistory.summary.last_flood_year,
         coverage_status: disasterHistory.coverage_status,
         coverage_warning: disasterHistory.coverage_warning,
+        ...(disasterHistory.coverage_note
+          ? { coverage_note: disasterHistory.coverage_note }
+          : {}),
         episode: epLabel,
         fetched_at: disasterHistory.fetched_at,
       };

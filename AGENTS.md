@@ -55,6 +55,24 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 
 ---
 
+## Region Expansion (RE) — 마감·세션 부트 (2026-06-18+)
+
+**RE 데이터 트랙 공식 마감.** 새 세션은 아래 순서로 읽기:
+
+1. [`docs/REGION_EXPANSION_CLOSURE.md`](docs/REGION_EXPANSION_CLOSURE.md) — 완료·백로그·알려진 갭
+2. [`docs/REGION_EXPANSION_AG_RUNBOOK.md`](docs/REGION_EXPANSION_AG_RUNBOOK.md) §RE-7 — **Wave 3 콘텐츠** (활성)
+
+| 트랙 | 상태 |
+|------|------|
+| RE-1~6 | 🔒 마감 |
+| Wave 3 콘텐츠 | 🎯 활성 (AG 집필 / Cursor validate) |
+| 다마 18시 benchmarks | BL-1 백로그 (에피소드별 점진) |
+| Phase 4 생활 인프라 | BL-4 이연 |
+
+**八王子 `disaster_history`**: XST001 API 공백 확정 — `docs/verification/data/xst001-hachioji-reprobe-20260618.json`
+
+---
+
 ## 🚨 Astro 정적/동적 파일 충돌 방지 (2026-05-30+)
 
 > **사고 경위**: `public/robots.txt`(Disallow 18개)가 `src/pages/robots.txt.ts`(prerender)에 의해 빌드 시 무경고로 덮어쓰기되어 7일간 크롤링 제어 미작동.

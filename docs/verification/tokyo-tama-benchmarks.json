@@ -166,6 +166,9 @@
         "last_flood_year": null,
         "coverage_status": "no_data",
         "coverage_warning": true,
+        "coverage_note": "XST001 reprobe 완료(2026-06-18): bbox 44타일 no-cache 전수 조회 features=0. API 공백 — disaster_risk(XKT)는 존재. 블로그 시 별도 출처 보완 또는 한계 명시.",
+        "reprobe_probe": "docs/verification/data/xst001-hachioji-reprobe-20260618.json",
+        "xst001_tile_count": 44,
         "episode": "",
         "fetched_at": "2026-06-18"
       },

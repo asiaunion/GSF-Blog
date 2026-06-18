@@ -2,10 +2,11 @@
 
 > **작성**: Cursor (2026-06-18)  
 > **승인**: Joseph (2026-06-18)  
+> **상태**: **🔒 RE 트랙 공식 마감 (2026-06-18)** — 마감·백로그: [`REGION_EXPANSION_CLOSURE.md`](./REGION_EXPANSION_CLOSURE.md)  
 > **실행 주체**: AG (Antigravity) — 코드·수집·benchmarks 반영  
-> **AG 실행 문서**: [`REGION_EXPANSION_AG_RUNBOOK.md`](./REGION_EXPANSION_AG_RUNBOOK.md) — **슬라이스별 착수·명령·핸드오프 (AG는 여기 우선)**  
-> **검증 주체**: Cursor (`verify:*` gate) → Joseph RE 슬라이스 승인  
-> **관계**: MLIT Phase 1~3(23구) **완료** · Phase 4(생활 인프라) **이연** · RE는 **별도 트랙**
+> **AG 실행 문서**: [`REGION_EXPANSION_AG_RUNBOOK.md`](./REGION_EXPANSION_AG_RUNBOOK.md) — **Wave 3(§RE-7) 활성**  
+> **검증 주체**: Cursor (`verify:*` gate) → Joseph 승인  
+> **관계**: MLIT Phase 1~3(23구) **완료** · Phase 4(생활 인프라) **이연** · RE 데이터 **마감**
 
 ---
 
