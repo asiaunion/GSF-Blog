@@ -4,9 +4,26 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const N02_PATH = path.resolve(__dirname, '../../docs/verification/data/n02-stations-tokyo.geojson');
+const N02_TOKYO_PATH = path.resolve(__dirname, '../../docs/verification/data/n02-stations-tokyo.geojson');
+const N02_PILOT_PATH = path.resolve(__dirname, '../../docs/verification/data/n02-stations-kanagawa-komae.geojson');
 
 let n02Features = null;
+
+function loadN02Data() {
+  if (n02Features) return;
+  n02Features = [];
+
+  for (const p of [N02_TOKYO_PATH, N02_PILOT_PATH]) {
+    if (fs.existsSync(p)) {
+      const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
+      n02Features.push(...data.features);
+    }
+  }
+
+  if (n02Features.length === 0) {
+    throw new Error(`N02 역 데이터 파일을 찾을 수 없습니다. Task 3 및 prepare-n02-region 스크립트를 먼저 실행하세요.`);
+  }
+}
 
 /**
  * N02 GeoJSON에서 특정 구(wardCode)에 속하는 역 목록을 추출합니다.
@@ -14,13 +31,7 @@ let n02Features = null;
  * @returns {Array<{name: string, lat: number, lon: number, line: string}>}
  */
 export function getStationsByWard(wardCode) {
-  if (!n02Features) {
-    if (!fs.existsSync(N02_PATH)) {
-      throw new Error(`N02 역 데이터 파일을 찾을 수 없습니다: ${N02_PATH}. Task 3 스크립트를 먼저 실행하세요.`);
-    }
-    const data = JSON.parse(fs.readFileSync(N02_PATH, 'utf-8'));
-    n02Features = data.features;
-  }
+  loadN02Data();
   
   const codeStr = String(wardCode);
   const stations = n02Features.filter(f => f.properties && f.properties.ward_code === codeStr);

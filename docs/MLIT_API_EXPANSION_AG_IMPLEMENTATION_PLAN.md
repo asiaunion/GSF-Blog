@@ -14,7 +14,7 @@
 
 1. `docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`
 2. `docs/MLIT_DATA_REFRESH_SOP.md`
-3. 이 문서의 해당 Phase 섹션
+3. 이 문서의 해당 Phase 섹션 (**RE 작업 시** → `docs/REGION_EXPANSION_PLAN.md` 해당 슬라이스)
 4. 레퍼런스 코드: `scripts/mlit-collector.mjs` (`collectDisaster` = 타일 GeoJSON 패턴)
 
 **환경**: `MLIT_API_KEY` in `.env`  
@@ -406,6 +406,7 @@ Phase 완료 시 누적 등록:
 | `scripts/render-episode-research-pack.mjs` | 작가용 팩 |
 | `docs/MLIT_API_EXPANSION_ROADMAP.md` | Phase 정의·스키마 예시 |
 | `docs/MLIT_API_EXPANSION_ANALYSIS.md` | 레이어 우선순위·조합 아이디어 |
+| **`docs/REGION_EXPANSION_PLAN.md`** | **RE 트랙 — 지역 SSOT·파일럿·AG 슬라이스 (Phase 4와 분리)** |
 
 ---
 
@@ -431,3 +432,29 @@ Phase 완료 시 누적 등록:
   - ⚠️ XKT023, XKT024는 `city_code`가 **없음**. 대신 `city_name` (예: "練馬区") 필드가 있으므로, `feature.properties.city_name === ward` 필터 로직 적용 필수.
 - **P3 dominant_type Amendment**: ROADMAP의 XKT014 dominant_type 예시("準防火地域優勢")와 달리, 한국어 렌더링 최적화를 위해 "방화지역" / "준방화지역" 등 한글 용어를 직접 사용하도록 구현 및 승인 완료.
 - **P3 zoning_top3 Amendment**: `schema_version` 1.8에서 1.9로 업데이트하며 `zoning_top3`를 `urban_planning` 내부로 통합하여 23구 전수 연동 처리 완료.
+
+---
+
+## 12. Region Expansion (RE) — 별도 트랙 (2026-06-18, Joseph 승인)
+
+MLIT Phase 1~3(23구) 완료 후 **지역 범위 일반화** 작업. Phase 4(생활 인프라)와 **분리**.
+
+| 항목 | 내용 |
+|------|------|
+| **정본 문서** | `docs/REGION_EXPANSION_PLAN.md` |
+| **AG runbook** | **`docs/REGION_EXPANSION_AG_RUNBOOK.md`** — Joseph/Cursor는 `§RE-N`만 지시 |
+| **실행** | AG — 슬라이스 ID (`RE-1-T01` …) 단위 |
+| **검증** | Cursor — `RE-*-G01` 회귀 게이트 + `pnpm verify:region-pilot` (RE-4) |
+| **23구 SSOT** | `tokyo-ward-series-benchmarks.json` **무변경** |
+| **파일럿 SSOT** | `greater-tokyo-pilot-benchmarks.json` (신규) |
+| **파일럿 4구** | 横浜市西区 · 川崎市中原区 · 鎌倉市 · 狛江市 |
+
+**AG 착수**: RE-1-T01부터. Phase 4 착수 금지 (이연).
+
+**회귀 게이트** (RE 모든 슬라이스 후):
+
+```bash
+pnpm verify:disaster-complete
+pnpm verify:urban-planning-complete
+pnpm verify:ep07-tiles
+```

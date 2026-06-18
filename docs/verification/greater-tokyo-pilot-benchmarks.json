@@ -1,0 +1,786 @@
+{
+  "schema_version": "1.0-pilot",
+  "last_updated": "2026-06-18",
+  "description": "Region Expansion pilot - Kanagawa 3 wards + Komae-shi benchmarks.",
+  "region": "pilot",
+  "municipalities": [
+    "横浜市西区",
+    "川崎市中原区",
+    "鎌倉市",
+    "狛江市"
+  ],
+  "disaster_risk": {
+    "wards": {
+      "狛江市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "横浜市西区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": true,
+        "landslide": true,
+        "summary": "liquefaction, flood, storm_surge, tsunami, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, storm_surge, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": true,
+        "tsunami": true,
+        "landslide": true,
+        "summary": "liquefaction, flood, storm_surge, tsunami, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "disaster_history": {
+    "wards": {
+      "横浜市西区": {
+        "has_history": true,
+        "total_events": 164,
+        "flood_events": 30,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "has_history": true,
+        "total_events": 83,
+        "flood_events": 73,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "has_history": true,
+        "total_events": 310,
+        "flood_events": 82,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "has_history": true,
+        "total_events": 54,
+        "flood_events": 54,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "evacuation_sites": {
+    "wards": {
+      "横浜市西区": {
+        "site_count": 31,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 30,
+          "earthquake": 31,
+          "tsunami": 6,
+          "landslide": 23,
+          "storm_surge": 31,
+          "large_fire": 3
+        },
+        "sites_per_10k_people": 0.6,
+        "population_used": 551768,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "site_count": 31,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 29,
+          "earthquake": 31,
+          "tsunami": 0,
+          "landslide": 1,
+          "storm_surge": 6,
+          "large_fire": 1
+        },
+        "sites_per_10k_people": 0.3,
+        "population_used": 943514,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "site_count": 0,
+        "coverage_status": "no_data",
+        "coverage_note": "타일 내 in-ward 대피소 0건 (인접 구 bleed 제외 후). MLIT XGT001 커버리지 공백 가능 — 본문에서 '대피소 없음' 단정 금지.",
+        "by_disaster_type": {
+          "flood": 0,
+          "earthquake": 0,
+          "tsunami": 0,
+          "landslide": 0,
+          "storm_surge": 0,
+          "large_fire": 0
+        },
+        "sites_per_10k_people": 0,
+        "population_used": 659965,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "site_count": 26,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 14,
+          "earthquake": 22,
+          "tsunami": 0,
+          "landslide": 26,
+          "storm_surge": 0,
+          "large_fire": 0
+        },
+        "sites_per_10k_people": 0.5,
+        "population_used": 545372,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "location_optimization": {
+    "wards": {}
+  },
+  "urban_planning": {
+    "wards": {
+      "横浜市西区": {
+        "fire_prevention_zone": {
+          "coverage_pct": null,
+          "dominant_type": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "商業地域",
+            "pct": 21.4
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 10.1
+          },
+          {
+            "type": "第２種中高層住居専用地域",
+            "pct": 9.6
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "fire_prevention_zone": {
+          "coverage_pct": 10.6,
+          "dominant_type": "준방화지역",
+          "feature_count": 14
+        },
+        "district_plan_zones": {
+          "feature_count": 16
+        },
+        "high_utilization_zones": {
+          "feature_count": 6
+        },
+        "urban_road": {
+          "affected_pct": 0.4,
+          "feature_count": 110
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 18.5
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 8.8
+          },
+          {
+            "type": "近隣商業地域",
+            "pct": 6.4
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 3.9,
+          "dominant_type": "준방화지역",
+          "feature_count": 14
+        },
+        "district_plan_zones": {
+          "feature_count": 14
+        },
+        "high_utilization_zones": {
+          "feature_count": 1
+        },
+        "urban_road": {
+          "affected_pct": 0.3,
+          "feature_count": 90
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 9.6
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 7.6
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 3.5
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 5.6,
+          "dominant_type": "준방화지역",
+          "feature_count": 2
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 38.9
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 13.3
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 4.4
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "price_points": {
+    "wards": {
+      "横浜市西区": {
+        "geojson_path": "docs/verification/data/price-points/横浜市西区-2025.geojson",
+        "count": 400,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "geojson_path": "docs/verification/data/price-points/川崎市中原区-2025.geojson",
+        "count": 543,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "geojson_path": "docs/verification/data/price-points/鎌倉市-2025.geojson",
+        "count": 174,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "geojson_path": "docs/verification/data/price-points/狛江市-2025.geojson",
+        "count": 102,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "appraisal_comments": {
+    "wards": {
+      "横浜市西区": {
+        "json_path": ".cache/mlit/appraisal-merged-yokohama-nishi-2025.json",
+        "count": 54,
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "json_path": ".cache/mlit/appraisal-merged-kawasaki-nakahara-2025.json",
+        "count": 68,
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "json_path": ".cache/mlit/appraisal-merged-kamakura-2025.json",
+        "count": 98,
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "json_path": ".cache/mlit/appraisal-merged-komae-2025.json",
+        "count": 28,
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "mlit_mansion_2025_q1_q4": {
+    "wards": {
+      "横浜市西区": {
+        "ward_avg_sqm": 101.7,
+        "est_70sqm": 7119,
+        "count": 400,
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "ward_avg_sqm": 109.8,
+        "est_70sqm": 7686,
+        "count": 543,
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "ward_avg_sqm": 56.8,
+        "est_70sqm": 3976,
+        "count": 174,
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "ward_avg_sqm": 66.7,
+        "est_70sqm": 4669,
+        "count": 104,
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "station_passengers": {
+    "wards": {
+      "横浜市西区": {
+        "top_station": "横浜",
+        "top_passengers": 847554,
+        "total_daily": 989642,
+        "station_count": 7,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "top_station": "武蔵小杉",
+        "top_passengers": 215118,
+        "total_daily": 457550,
+        "station_count": 7,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "top_station": "大船",
+        "top_passengers": 384987,
+        "total_daily": 571530,
+        "station_count": 16,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "top_station": "狛江",
+        "top_passengers": 43389,
+        "total_daily": 87729,
+        "station_count": 3,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "land_price_official": {
+    "source": "MLIT XPT002",
+    "tier": "A",
+    "wards": {
+      "横浜市西区": {
+        "avg_yen_sqm": 1147428.6,
+        "avg_change_pct": null,
+        "point_count": 154,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "avg_yen_sqm": 622814.1,
+        "avg_change_pct": null,
+        "point_count": 158,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "avg_yen_sqm": 267367.9,
+        "avg_change_pct": null,
+        "point_count": 195,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "avg_yen_sqm": 447643.6,
+        "avg_change_pct": null,
+        "point_count": 101,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "population_forecast": {
+    "source": "MLIT XKT013",
+    "tier": "A",
+    "note": "250mメッシュ 타일 합산 — 구 전체 근사",
+    "wards": {
+      "横浜市西区": {
+        "pop_2020": 551768,
+        "pop_2040": 555208,
+        "change_pct": "0.6%",
+        "mesh_count": 561,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "pop_2020": 943514,
+        "pop_2040": 1000844,
+        "change_pct": "6.1%",
+        "mesh_count": 860,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "pop_2020": 659965,
+        "pop_2040": 605214,
+        "change_pct": "-8.3%",
+        "mesh_count": 1668,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "pop_2020": 545372,
+        "pop_2040": 569865,
+        "change_pct": "4.5%",
+        "mesh_count": 658,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "district_price_2025": {
+    "source": "MLIT XIT001 DistrictName aggregation",
+    "tier": "A",
+    "note": "町名別 — NOT station-level",
+    "wards": {
+      "横浜市西区": {
+        "top_districts": [
+          {
+            "name": "みなとみらい",
+            "count": 73,
+            "avg_sqm": 164.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "平沼",
+            "count": 47,
+            "avg_sqm": 65.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "花咲町",
+            "count": 28,
+            "avg_sqm": 110.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中央",
+            "count": 26,
+            "avg_sqm": 85.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西平沼町",
+            "count": 24,
+            "avg_sqm": 110.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "伊勢町",
+            "count": 19,
+            "avg_sqm": 98.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "楠町",
+            "count": 16,
+            "avg_sqm": 77.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "宮ケ谷",
+            "count": 13,
+            "avg_sqm": 44.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "戸部町",
+            "count": 13,
+            "avg_sqm": 100.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "北幸",
+            "count": 12,
+            "avg_sqm": 146.5,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "川崎市中原区": {
+        "top_districts": [
+          {
+            "name": "小杉町",
+            "count": 97,
+            "avg_sqm": 158.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中丸子",
+            "count": 59,
+            "avg_sqm": 124.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新丸子東",
+            "count": 51,
+            "avg_sqm": 132,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "市ノ坪",
+            "count": 50,
+            "avg_sqm": 140.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上小田中",
+            "count": 38,
+            "avg_sqm": 78.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "下小田中",
+            "count": 23,
+            "avg_sqm": 69,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "丸子通",
+            "count": 23,
+            "avg_sqm": 79.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "新丸子町",
+            "count": 19,
+            "avg_sqm": 132.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "木月",
+            "count": 18,
+            "avg_sqm": 68.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "宮内",
+            "count": 18,
+            "avg_sqm": 51.2,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "鎌倉市": {
+        "top_districts": [
+          {
+            "name": "岩瀬",
+            "count": 23,
+            "avg_sqm": 73.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "岡本",
+            "count": 22,
+            "avg_sqm": 40.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "由比ガ浜",
+            "count": 18,
+            "avg_sqm": 83.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大船",
+            "count": 14,
+            "avg_sqm": 55.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "台",
+            "count": 12,
+            "avg_sqm": 45.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "植木",
+            "count": 11,
+            "avg_sqm": 28.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "梶原",
+            "count": 9,
+            "avg_sqm": 37.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "手広",
+            "count": 8,
+            "avg_sqm": 43.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小袋谷",
+            "count": 7,
+            "avg_sqm": 58.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "玉縄",
+            "count": 6,
+            "avg_sqm": 40.9,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      },
+      "狛江市": {
+        "top_districts": [
+          {
+            "name": "岩戸北",
+            "count": 34,
+            "avg_sqm": 83,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "和泉本町",
+            "count": 31,
+            "avg_sqm": 67.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "岩戸南",
+            "count": 13,
+            "avg_sqm": 51.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東野川",
+            "count": 8,
+            "avg_sqm": 42.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西野川",
+            "count": 6,
+            "avg_sqm": 40.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東和泉",
+            "count": 5,
+            "avg_sqm": 66.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中和泉",
+            "count": 4,
+            "avg_sqm": 61.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "猪方",
+            "count": 3,
+            "avg_sqm": 61.7,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "",
+        "fetched_at": "2026-06-18"
+      }
+    }
+  }
+}

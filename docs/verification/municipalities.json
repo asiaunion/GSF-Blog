@@ -1,0 +1,838 @@
+{
+  "schema_version": "1.0",
+  "municipalities": {
+    "13101": {
+      "name_ja": "千代田区",
+      "name_en_slug": "chiyoda",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.682,
+        "maxLat": 35.698,
+        "minLon": 139.738,
+        "maxLon": 139.772
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13102": {
+      "name_ja": "中央区",
+      "name_en_slug": "chuo",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.658,
+        "maxLat": 35.686,
+        "minLon": 139.758,
+        "maxLon": 139.792
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13103": {
+      "name_ja": "港区",
+      "name_en_slug": "minato",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.638,
+        "maxLat": 35.668,
+        "minLon": 139.728,
+        "maxLon": 139.772
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13104": {
+      "name_ja": "新宿区",
+      "name_en_slug": "shinjuku",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.678,
+        "maxLat": 35.712,
+        "minLon": 139.682,
+        "maxLon": 139.728
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13105": {
+      "name_ja": "文京区",
+      "name_en_slug": "bunkyo",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.698,
+        "maxLat": 35.722,
+        "minLon": 139.738,
+        "maxLon": 139.772
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13106": {
+      "name_ja": "台東区",
+      "name_en_slug": "taito",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.698,
+        "maxLat": 35.726,
+        "minLon": 139.768,
+        "maxLon": 139.798
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13107": {
+      "name_ja": "墨田区",
+      "name_en_slug": "sumida",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.698,
+        "maxLat": 35.722,
+        "minLon": 139.792,
+        "maxLon": 139.822
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13108": {
+      "name_ja": "江東区",
+      "name_en_slug": "koto",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.612,
+        "maxLat": 35.672,
+        "minLon": 139.788,
+        "maxLon": 139.882
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13109": {
+      "name_ja": "品川区",
+      "name_en_slug": "shinagawa",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.588,
+        "maxLat": 35.628,
+        "minLon": 139.708,
+        "maxLon": 139.768
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13110": {
+      "name_ja": "目黒区",
+      "name_en_slug": "meguro",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.618,
+        "maxLat": 35.658,
+        "minLon": 139.682,
+        "maxLon": 139.718
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13111": {
+      "name_ja": "大田区",
+      "name_en_slug": "ota",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.538,
+        "maxLat": 35.596,
+        "minLon": 139.678,
+        "maxLon": 139.762
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13112": {
+      "name_ja": "世田谷区",
+      "name_en_slug": "setagaya",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.612,
+        "maxLat": 35.672,
+        "minLon": 139.578,
+        "maxLon": 139.668
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13113": {
+      "name_ja": "渋谷区",
+      "name_en_slug": "shibuya",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.648,
+        "maxLat": 35.678,
+        "minLon": 139.682,
+        "maxLon": 139.718
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13114": {
+      "name_ja": "中野区",
+      "name_en_slug": "nakano",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.692,
+        "maxLat": 35.722,
+        "minLon": 139.648,
+        "maxLon": 139.682
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13115": {
+      "name_ja": "杉並区",
+      "name_en_slug": "suginami",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.682,
+        "maxLat": 35.718,
+        "minLon": 139.612,
+        "maxLon": 139.662
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13116": {
+      "name_ja": "豊島区",
+      "name_en_slug": "toshima",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.712,
+        "maxLat": 35.738,
+        "minLon": 139.698,
+        "maxLon": 139.728
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13117": {
+      "name_ja": "北区",
+      "name_en_slug": "kita",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.728,
+        "maxLat": 35.778,
+        "minLon": 139.708,
+        "maxLon": 139.768
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13118": {
+      "name_ja": "荒川区",
+      "name_en_slug": "arakawa",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.724,
+        "maxLat": 35.755,
+        "minLon": 139.749,
+        "maxLon": 139.815
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [
+        {
+          "z": 14,
+          "x": 14552,
+          "y": 6449
+        },
+        {
+          "z": 14,
+          "x": 14552,
+          "y": 6448
+        }
+      ],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13119": {
+      "name_ja": "板橋区",
+      "name_en_slug": "itabashi",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.728,
+        "maxLat": 35.796,
+        "minLon": 139.644,
+        "maxLon": 139.718
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13120": {
+      "name_ja": "練馬区",
+      "name_en_slug": "nerima",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.718,
+        "maxLat": 35.768,
+        "minLon": 139.598,
+        "maxLon": 139.678
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13121": {
+      "name_ja": "足立区",
+      "name_en_slug": "adachi",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.748,
+        "maxLat": 35.798,
+        "minLon": 139.748,
+        "maxLon": 139.828
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13122": {
+      "name_ja": "葛飾区",
+      "name_en_slug": "katsushika",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.728,
+        "maxLat": 35.768,
+        "minLon": 139.828,
+        "maxLon": 139.878
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13123": {
+      "name_ja": "江戸川区",
+      "name_en_slug": "edogawa",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "ku",
+      "parent_city": null,
+      "region_tier": "tokyo23",
+      "bbox": {
+        "minLat": 35.668,
+        "maxLat": 35.728,
+        "minLon": 139.848,
+        "maxLon": 139.898
+      },
+      "boundary_file": "tokyo-wards-boundary.geojson",
+      "boundary_property": "N03_004",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "13219": {
+      "name_ja": "狛江市",
+      "name_en_slug": "komae",
+      "prefecture_code": "13",
+      "prefecture_ja": "東京都",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "pilot",
+      "bbox": {
+        "minLat": 35.61843,
+        "maxLat": 35.65074,
+        "minLon": 139.56197,
+        "maxLon": 139.59412
+      },
+      "boundary_file": "komae-boundary.geojson",
+      "boundary_property": "N03_007",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "14103": {
+      "name_ja": "横浜市西区",
+      "name_en_slug": "yokohama-nishi",
+      "prefecture_code": "14",
+      "prefecture_ja": "神奈川県",
+      "admin_level": "ku",
+      "parent_city": "横浜市",
+      "region_tier": "pilot",
+      "bbox": {
+        "minLat": 35.44185,
+        "maxLat": 35.47212,
+        "minLon": 139.60313,
+        "maxLon": 139.63938
+      },
+      "boundary_file": "kanagawa-pilot-boundary.geojson",
+      "boundary_property": "N03_007",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "14133": {
+      "name_ja": "川崎市中原区",
+      "name_en_slug": "kawasaki-nakahara",
+      "prefecture_code": "14",
+      "prefecture_ja": "神奈川県",
+      "admin_level": "ku",
+      "parent_city": "川崎市",
+      "region_tier": "pilot",
+      "bbox": {
+        "minLat": 35.55255,
+        "maxLat": 35.59816,
+        "minLon": 139.62659,
+        "maxLon": 139.6847
+      },
+      "boundary_file": "kanagawa-pilot-boundary.geojson",
+      "boundary_property": "N03_007",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    },
+    "14204": {
+      "name_ja": "鎌倉市",
+      "name_en_slug": "kamakura",
+      "prefecture_code": "14",
+      "prefecture_ja": "神奈川県",
+      "admin_level": "shi",
+      "parent_city": null,
+      "region_tier": "pilot",
+      "bbox": {
+        "minLat": 35.29941,
+        "maxLat": 35.36755,
+        "minLon": 139.48867,
+        "maxLon": 139.59317
+      },
+      "boundary_file": "kanagawa-pilot-boundary.geojson",
+      "boundary_property": "N03_007",
+      "tile_overrides": [],
+      "enabled_collectors": [
+        "disaster",
+        "urban_planning",
+        "price",
+        "price_points",
+        "appraisal",
+        "station",
+        "population",
+        "landprice",
+        "zoning"
+      ]
+    }
+  },
+  "regions": {
+    "tokyo23": {
+      "label": "東京都23区",
+      "codes": [
+        "13101",
+        "13102",
+        "13103",
+        "13104",
+        "13105",
+        "13106",
+        "13107",
+        "13108",
+        "13109",
+        "13110",
+        "13111",
+        "13112",
+        "13113",
+        "13114",
+        "13115",
+        "13116",
+        "13117",
+        "13118",
+        "13119",
+        "13120",
+        "13121",
+        "13122",
+        "13123"
+      ]
+    },
+    "pilot": {
+      "label": "Greater Tokyo pilot",
+      "codes": [
+        "14103",
+        "14133",
+        "14204",
+        "13219"
+      ]
+    }
+  }
+}

@@ -13,43 +13,9 @@
  */
 
 import { isPointInWard } from "./ward-polygon.mjs";
+import { getMunicipality } from "./municipality-registry.mjs";
 
 export const TILE_ZOOM = 14;
-
-/** @type {Record<string, {minLat:number,maxLat:number,minLon:number,maxLon:number}>} */
-export const WARD_BOUNDS = {
-  千代田区: { minLat: 35.682, maxLat: 35.698, minLon: 139.738, maxLon: 139.772 },
-  中央区: { minLat: 35.658, maxLat: 35.686, minLon: 139.758, maxLon: 139.792 },
-  港区: { minLat: 35.638, maxLat: 35.668, minLon: 139.728, maxLon: 139.772 },
-  新宿区: { minLat: 35.678, maxLat: 35.712, minLon: 139.682, maxLon: 139.728 },
-  文京区: { minLat: 35.698, maxLat: 35.722, minLon: 139.738, maxLon: 139.772 },
-  台東区: { minLat: 35.698, maxLat: 35.726, minLon: 139.768, maxLon: 139.798 },
-  墨田区: { minLat: 35.698, maxLat: 35.722, minLon: 139.792, maxLon: 139.822 },
-  江東区: { minLat: 35.612, maxLat: 35.672, minLon: 139.788, maxLon: 139.882 },
-  品川区: { minLat: 35.588, maxLat: 35.628, minLon: 139.708, maxLon: 139.768 },
-  目黒区: { minLat: 35.618, maxLat: 35.658, minLon: 139.682, maxLon: 139.718 },
-  大田区: { minLat: 35.538, maxLat: 35.596, minLon: 139.678, maxLon: 139.762 },
-  世田谷区: { minLat: 35.612, maxLat: 35.672, minLon: 139.578, maxLon: 139.668 },
-  渋谷区: { minLat: 35.648, maxLat: 35.678, minLon: 139.682, maxLon: 139.718 },
-  中野区: { minLat: 35.692, maxLat: 35.722, minLon: 139.648, maxLon: 139.682 },
-  杉並区: { minLat: 35.682, maxLat: 35.718, minLon: 139.612, maxLon: 139.662 },
-  豊島区: { minLat: 35.712, maxLat: 35.738, minLon: 139.698, maxLon: 139.728 },
-  北区: { minLat: 35.728, maxLat: 35.778, minLon: 139.708, maxLon: 139.768 },
-  荒川区: { minLat: 35.724, maxLat: 35.755, minLon: 139.749, maxLon: 139.815 },
-  板橋区: { minLat: 35.728, maxLat: 35.796, minLon: 139.644, maxLon: 139.718 },
-  練馬区: { minLat: 35.718, maxLat: 35.768, minLon: 139.598, maxLon: 139.678 },
-  足立区: { minLat: 35.748, maxLat: 35.798, minLon: 139.748, maxLon: 139.828 },
-  葛飾区: { minLat: 35.728, maxLat: 35.768, minLon: 139.828, maxLon: 139.878 },
-  江戸川区: { minLat: 35.668, maxLat: 35.728, minLon: 139.848, maxLon: 139.898 },
-};
-
-/** bbox로 잡히지 않는 모서리·역 밀집지만 수동 보강 */
-export const WARD_TILE_OVERRIDES = {
-  荒川区: [
-    { z: 14, x: 14552, y: 6449 }, // 西日暮里, 日暮里
-    { z: 14, x: 14552, y: 6448 }
-  ],
-};
 
 /**
  * 인구(XKT013) 전용 타일 — station은 bbox, population은 과대·과소 샘플 방지용 큐레이션.
@@ -130,17 +96,25 @@ export function dedupeTiles(tiles) {
  * @returns {{z:number,x:number,y:number}[]}
  */
 export function getWardTiles(wardName) {
-  const bounds = WARD_BOUNDS[wardName];
-  if (!bounds) throw new Error(`WARD_BOUNDS에 없는 구: ${wardName}`);
+  const mun = getMunicipality({ name_ja: wardName });
+  if (!mun) throw new Error(`Registry에 없는 구: ${wardName}`);
+  const bounds = mun.bbox;
+  if (!bounds) throw new Error(`bbox가 없는 구: ${wardName}`);
+  
   const fromBounds = tilesForBounds(bounds, TILE_ZOOM);
   
+  if (mun.region_tier === "pilot") {
+    const extra = mun.tile_overrides ?? [];
+    return dedupeTiles([...fromBounds, ...extra]);
+  }
+
   // bbox에서 얻은 후보 타일들을 실제 구 행정구역 폴리곤(중심점 기준)으로 필터링
   const filteredBounds = fromBounds.filter(t => {
     const { lat, lon } = tileCenterLatLon(t.x, t.y, t.z);
     return isPointInWard(lat, lon, wardName);
   });
 
-  const extra = WARD_TILE_OVERRIDES[wardName] ?? [];
+  const extra = mun.tile_overrides ?? [];
   return dedupeTiles([...filteredBounds, ...extra]);
 }
 

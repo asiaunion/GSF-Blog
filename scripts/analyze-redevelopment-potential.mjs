@@ -6,13 +6,23 @@ import { EPISODE_WARDS, WARD_CODE } from "./mlit-collector.mjs";
 import { policyForCount } from "./lib/mlit-sample-policy.mjs";
 
 const root = process.cwd();
-const benchmarksPath = path.join(root, "docs/verification/tokyo-ward-series-benchmarks.json");
-const benchmarks = JSON.parse(fs.readFileSync(benchmarksPath, "utf8"));
+const DEFAULT_BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmarks.json");
 
 const args = process.argv.slice(2);
 let targetWards = [];
 
-const wardArg = args.findIndex(a => a === '--ward');
+const pathArg = args.findIndex(a => a === '--benchmarks-path');
+const benchmarksPath = pathArg !== -1 && args[pathArg + 1] ? path.resolve(args[pathArg + 1]) : DEFAULT_BENCHMARKS;
+
+if (!fs.existsSync(benchmarksPath)) {
+  console.error(`benchmarks.json not found: ${benchmarksPath}`);
+  process.exit(1);
+}
+const benchmarks = JSON.parse(fs.readFileSync(benchmarksPath, "utf8"));
+
+import { getMunicipality } from './lib/municipality-registry.mjs';
+
+const wardArg = args.findIndex(a => a === '--ward' || a === '--municipality');
 if (wardArg !== -1 && args[wardArg + 1]) {
   targetWards.push(args[wardArg + 1]);
 }

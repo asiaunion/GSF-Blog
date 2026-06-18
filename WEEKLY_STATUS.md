@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-17 |
+| 최종 업데이트 | 2026-06-18 |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟠 AdSense 재신청 대기 + Plan B 준비 중 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -110,10 +110,22 @@
 | `docs/AG_TASK_2026-06-15_adsense-sitemap-fix.md` | sitemap admin 제거 AG 지시서 |
 | `docs/AG_TASK_2026-06-15_planb-tokyokorean.md` | Plan B tokyokorean.net AG 지시서 |
 | `docs/kpi-archive/` | 주간 KPI 기록 (확정 후 운영) |
+| `docs/REGION_EXPANSION_PLAN.md` | RE 트랙 — 지역 SSOT 일반화·수도권 파일럿 AG 슬라이스 |
+| `docs/REGION_EXPANSION_AG_RUNBOOK.md` | RE AG 실행 runbook (단계별 §RE-N 착수) |
 
 ---
 
 ## 📝 작업 로그
+### 2026-06-18
+- Phase 3 (urban-planning) 23구 데이터 파이프라인(XKT014
+- XKT023
+- XKT024
+- XKT030
+- XKT002) 구축 및 연동 완료
+- 재개발 가능성(redevelopment-potential) 및 규제 환경(urban-constraints) 분석 스크립트 작성
+- Benchmarks schema 1.9 판올림 및 research-pack 주입 로직 반영
+- **Region Expansion (RE) 계획 확정** — Phase 4 이연, 파일럿 神奈川3+狛江1, `docs/REGION_EXPANSION_PLAN.md` (Cursor 계획·검증 / AG 슬라이스 구현)
+- **Region Expansion (RE) 완료** — 인프라/API 범용화 성공, 파일럿 4구(横浜西区, 川崎中原区, 鎌倉, 狛江) 데이터 수집 및 E2E 검증 완료
 ### 2026-06-17
 - Ep.06 KO/EN/JA 초안 작성 및 히어로 이미지 생성
 - Threads EN/KO 게시 완료

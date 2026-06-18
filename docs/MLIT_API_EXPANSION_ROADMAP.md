@@ -21,11 +21,14 @@
 ## 2. Phase 구성
 
 ```
-Phase 1 (1~2주)   — 공간 정보 기반 확장 (XPT001 + XCT001)
-Phase 2 (1~2주)   — 정책·리스크 완성 (XKT003 + XST001 + XGT001)
-Phase 3 (2~3주)   — 도시계획 완전판 (XKT014 + XKT030 + XKT024 + XKT023)
-Phase 4 (추후)    — 생활 인프라 레이어 (XKT004~011 + XKT031)
+Phase 1 (1~2주)   — 공간 정보 기반 확장 (XPT001 + XCT001)          ✅ 완료
+Phase 2 (1~2주)   — 정책·리스크 완성 (XKT003 + XST001 + XGT001)   ✅ 완료 (XKT003 23구 defer)
+Phase 3 (2~3주)   — 도시계획 완전판 (XKT014 + XKT030 + XKT024 + XKT023) ✅ 완료
+RE (Region Expansion, ~2주) — 지역 SSOT 일반화 + 수도권 파일럿     🎯 진행 예정
+Phase 4 (추후)    — 생활 인프라 레이어 (XKT004~011 + XKT031)       ⏸ 이연
 ```
+
+> **RE 상세**: `docs/REGION_EXPANSION_PLAN.md` — AG 슬라이스·Cursor verify gate·Joseph 승인 게이트.
 
 ---
 

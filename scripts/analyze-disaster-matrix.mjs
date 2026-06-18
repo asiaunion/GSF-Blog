@@ -1,15 +1,19 @@
 import fs from 'fs';
 import path from 'path';
 
-const BENCHMARKS = path.resolve(process.cwd(), "docs/verification/tokyo-ward-series-benchmarks.json");
+const DEFAULT_BENCHMARKS = path.resolve(process.cwd(), "docs/verification/tokyo-ward-series-benchmarks.json");
 
 function main() {
-  if (!fs.existsSync(BENCHMARKS)) {
-    console.error("benchmarks.json not found.");
+  const args = process.argv.slice(2);
+  const pathIdx = args.indexOf("--benchmarks-path");
+  const benchmarksPath = pathIdx !== -1 && args[pathIdx + 1] ? args[pathIdx + 1] : DEFAULT_BENCHMARKS;
+
+  if (!fs.existsSync(benchmarksPath)) {
+    console.error(`benchmarks.json not found: ${benchmarksPath}`);
     process.exit(1);
   }
 
-  const benchmarks = JSON.parse(fs.readFileSync(BENCHMARKS, "utf8"));
+  const benchmarks = JSON.parse(fs.readFileSync(benchmarksPath, "utf8"));
   
   if (!benchmarks.disaster_risk || !benchmarks.disaster_history) {
     console.error("Missing disaster_risk or disaster_history in benchmarks.");

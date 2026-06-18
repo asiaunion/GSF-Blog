@@ -9,6 +9,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import {
+  listRegion,
+  getMunicipality
+} from "./lib/municipality-registry.mjs";
+import {
   collectPrice,
   collectPricePoints,
   collectAppraisal,
@@ -35,6 +39,8 @@ function parseArgs(argv) {
     ward: "",
     episode: "",
     allWards: false,
+    region: "",
+    benchmarksPath: "",
     year: 2025,
     write: false,
     noCache: false,
@@ -42,9 +48,11 @@ function parseArgs(argv) {
   };
   for (let i = 2; i < argv.length; i += 1) {
     const a = argv[i];
-    if (a === "--ward") out.ward = argv[++i] ?? "";
+    if (a === "--ward" || a === "--municipality") out.ward = argv[++i] ?? "";
     else if (a === "--episode") out.episode = (argv[++i] ?? "").toLowerCase();
-    else if (a === "--all-wards") out.allWards = true;
+    else if (a === "--all-wards") { out.allWards = true; out.region = "tokyo23"; }
+    else if (a === "--region") out.region = argv[++i] ?? "";
+    else if (a === "--benchmarks-path") out.benchmarksPath = argv[++i] ?? "";
     else if (a === "--year") out.year = parseInt(argv[++i] ?? "2025", 10);
     else if (a === "--write") out.write = true;
     else if (a === "--no-cache") out.noCache = true;
@@ -80,21 +88,32 @@ async function main() {
       console.error(`Unknown episode: ${args.episode}`);
       process.exit(1);
     }
+  } else if (args.region) {
+    wards = listRegion(args.region).map(code => getMunicipality({ code }).name_ja);
   } else if (args.allWards) {
-    wards = Object.keys(WARD_CODE);
+    wards = listRegion("tokyo23").map(code => getMunicipality({ code }).name_ja);
   } else {
-    console.error("Usage: sync-mlit-to-benchmarks.mjs --episode ep07 | --all-wards [--write]");
+    console.error("Usage: sync-mlit-to-benchmarks.mjs --episode ep07 | --region pilot | --all-wards [--write]");
     process.exit(2);
   }
 
-  const benchmarks = JSON.parse(await readFile(BENCHMARKS, "utf8"));
+  let finalBenchmarksPath = BENCHMARKS;
+  if (args.benchmarksPath) {
+    finalBenchmarksPath = path.resolve(root, args.benchmarksPath);
+  } else if (args.region === "pilot") {
+    finalBenchmarksPath = path.join(root, "docs/verification/greater-tokyo-pilot-benchmarks.json");
+  }
+
+  const benchmarks = JSON.parse(await readFile(finalBenchmarksPath, "utf8"));
   const episodesDoc = JSON.parse(await readFile(EPISODES, "utf8")).episodes ?? [];
   const epLabel =
     args.episode?.replace("ep", "Ep.") ??
     episodesDoc.find(e => e.wards?.every(w => wards.includes(w)))?.episode ??
     "";
 
-  benchmarks.schema_version = "1.9";
+  if (args.region !== "pilot" && !args.benchmarksPath?.includes("pilot")) {
+    benchmarks.schema_version = "1.9";
+  }
   benchmarks.last_updated = new Date().toISOString().slice(0, 10);
 
   if (!benchmarks.mlit_mansion_2025_q1_q4) {
@@ -405,7 +424,7 @@ async function main() {
   }
 
   if (args.write) {
-    await writeFile(BENCHMARKS, `${JSON.stringify(benchmarks, null, 2)}\n`);
+    await writeFile(finalBenchmarksPath, `${JSON.stringify(benchmarks, null, 2)}\n`);
   }
 
   console.log(
@@ -413,7 +432,7 @@ async function main() {
       {
         ok: true,
         write: args.write,
-        path: args.write ? BENCHMARKS : "(dry)",
+        path: args.write ? finalBenchmarksPath : "(dry)",
         merged,
         preview: {
           mlit: merged.wards.map(w => benchmarks.mlit_mansion_2025_q1_q4.wards[w]),

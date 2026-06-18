@@ -9,6 +9,7 @@
  */
 import { collectStation, WARD_CODE, EPISODE_WARDS, loadEnv } from "./mlit-collector.mjs";
 import { getWardTiles, wardTileSummary } from "./lib/ward-tiles.mjs";
+import { getMunicipality } from "./lib/municipality-registry.mjs";
 
 const SUSPECT_LOW_STATIONS = 5;
 
@@ -16,7 +17,7 @@ function parseArgs(argv) {
   const out = { ward: "", episode: "", noCache: false, json: false };
   for (let i = 2; i < argv.length; i += 1) {
     const a = argv[i];
-    if (a === "--ward") out.ward = argv[++i] ?? "";
+    if (a === "--ward" || a === "--municipality") out.ward = argv[++i] ?? "";
     else if (a === "--episode") out.episode = (argv[++i] ?? "").toLowerCase();
     else if (a === "--no-cache") out.noCache = true;
     else if (a === "--json") out.json = true;
@@ -61,6 +62,14 @@ async function main() {
     wards = Object.keys(WARD_CODE);
   }
 
+  // validate municipalities
+  for (const w of wards) {
+    if (!getMunicipality({ name_ja: w })) {
+      console.error(`❌ Registry에 미등록된 Municipality(구/시/정/촌): ${w}`);
+      process.exit(1);
+    }
+  }
+
   const results = [];
   for (const ward of wards) {
     process.stderr.write(`▶ ${ward} (${getWardTiles(ward).length} tiles)\n`);
@@ -82,7 +91,7 @@ async function main() {
   const low = results.filter(r => r.station_count < SUSPECT_LOW_STATIONS);
   if (low.length) {
     console.log(`\n⚠️  역 수 ${SUSPECT_LOW_STATIONS} 미만: ${low.map(r => r.ward).join(", ")}`);
-    console.log("   → scripts/lib/ward-tiles.mjs WARD_BOUNDS 확장 또는 WARD_TILE_OVERRIDES 추가");
+    console.log("   → docs/verification/municipalities.json의 bbox 확장 또는 tile_overrides 추가");
   }
 }
 

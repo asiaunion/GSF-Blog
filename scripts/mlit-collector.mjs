@@ -68,32 +68,25 @@ const ENDPOINTS = {
   district_plan:         `${BASE}/XKT023`, // 지구계획
   high_utilization:      `${BASE}/XKT024`, // 고도이용지구
   urban_road:            `${BASE}/XKT030`, // 도시계획도로
+  location_optimization: `${BASE}/XKT003`, // 입지적정화계획구역
 };
 
-// 도쿄 23구 시구정촌 코드
-const WARD_CODE = {
-  "千代田区": "13101", "中央区":   "13102", "港区":     "13103",
-  "新宿区":   "13104", "文京区":   "13105", "台東区":   "13106",
-  "墨田区":   "13107", "江東区":   "13108", "品川区":   "13109",
-  "目黒区":   "13110", "大田区":   "13111", "世田谷区": "13112",
-  "渋谷区":   "13113", "中野区":   "13114", "杉並区":   "13115",
-  "豊島区":   "13116", "北区":     "13117", "荒川区":   "13118",
-  "板橋区":   "13119", "練馬区":   "13120", "足立区":   "13121",
-  "葛飾区":   "13122", "江戸川区": "13123",
-};
+import { getMunicipality, listRegion } from "./lib/municipality-registry.mjs";
 
-const WARD_SLUG = {
-  "千代田区": "chiyoda", "中央区": "chuo", "港区": "minato",
-  "新宿区": "shinjuku", "文京区": "bunkyo", "台東区": "taito",
-  "墨田区": "sumida", "江東区": "koto", "品川区": "shinagawa",
-  "目黒区": "meguro", "大田区": "ota", "世田谷区": "setagaya",
-  "渋谷区": "shibuya", "中野区": "nakano", "杉並区": "suginami",
-  "豊島区": "toshima", "北区": "kita", "荒川区": "arakawa",
-  "板橋区": "itabashi", "練馬区": "nerima", "足立区": "adachi",
-  "葛飾区": "katsushika", "江戸川区": "edogawa",
-};
+// 도쿄 23구 시구정촌 코드 (registry에서 동적 생성하되 export 호환성 유지)
+const WARD_CODE = {};
+const WARD_SLUG = {};
 
-// 에피소드별 구 그룹
+const tokyo23Codes = listRegion("tokyo23");
+for (const code of tokyo23Codes) {
+  const mun = getMunicipality({ code });
+  if (mun) {
+    WARD_CODE[mun.name_ja] = mun.code;
+    WARD_SLUG[mun.name_ja] = mun.name_en_slug;
+  }
+}
+
+// 에피소드별 구 그룹 (기존 유지)
 const EPISODE_WARDS = {
   ep01: ["千代田区","中央区","港区"],
   ep02: ["新宿区","渋谷区","文京区"],
@@ -194,7 +187,8 @@ function stats(arr) {
 
 /** XIT001: 맨션 성약가·취득가·거래가격 */
 async function collectPrice(wardName, year = 2025, quarter = null, noCache = false, priceClassification = "02") {
-  const cityCode = WARD_CODE[wardName];
+  const mun = getMunicipality({ name_ja: wardName });
+  const cityCode = mun?.code || WARD_CODE[wardName];
   if (!cityCode) throw new Error(`알 수 없는 구: ${wardName}`);
 
   const q = quarter ? `_q${quarter}` : "";
@@ -316,7 +310,7 @@ function parseAreaSqm(raw) {
 
 /** XPT001: 부동산 거래가격 (포인트) */
 async function collectPricePoints(wardName, year = 2025, noCache = false, priceClassification = "02") {
-  const slug = WARD_SLUG[wardName] || "unknown";
+  const slug = WARD_SLUG[wardName] || wardName;
   const tiles = getWardTiles(wardName);
 
   const allPoints = [];
@@ -337,7 +331,8 @@ async function collectPricePoints(wardName, year = 2025, noCache = false, priceC
   }
 
   // Filter for the exact ward using city_code
-  const wardCode = WARD_CODE[wardName];
+  const mun = getMunicipality({ name_ja: wardName });
+  const wardCode = mun?.code || WARD_CODE[wardName];
   const inWard = allPoints.filter(f => String(f.properties?.city_code) === wardCode);
 
   // Filter for "中古マンション等" and "区分所有建物" using land_type_name_ja
@@ -439,7 +434,8 @@ async function collectLandPrice(wardName, year = 2025, noCache = false) {
 
 /** XCT001: 부동산 감정평가 (지가조사) */
 async function collectAppraisal(wardName, year = 2023, noCache = false) {
-  const cityCode = WARD_CODE[wardName];
+  const mun = getMunicipality({ name_ja: wardName });
+  const cityCode = mun?.code || WARD_CODE[wardName];
   if (!cityCode) throw new Error(`알 수 없는 구: ${wardName}`);
 
   const prefCode = cityCode.substring(0, 2); // "13"
@@ -486,7 +482,7 @@ async function collectAppraisal(wardName, year = 2023, noCache = false) {
     use_type: d["標準地番号 用途区分"]
   }));
 
-  const cachePath = path.join(CACHE_DIR, `appraisal-merged-${WARD_SLUG[wardName]}-${year}.json`);
+  const cachePath = path.join(CACHE_DIR, `appraisal-merged-${mun?.name_en_slug || WARD_SLUG[wardName] || wardName}-${year}.json`);
   await writeJson(cachePath, processedPoints);
 
   const changes = processedPoints.map(p => p.change_rate).filter(r => r !== 0);
@@ -507,7 +503,8 @@ async function collectAppraisal(wardName, year = 2023, noCache = false) {
 
 /** XKT015: 역별 승하차 인원 */
 async function collectStation(wardName, noCache = false) {
-  const wardCode = WARD_CODE[wardName] || String(13101 + Object.keys(WARD_CODE).indexOf(wardName)); // Fallback just in case
+  const mun = getMunicipality({ name_ja: wardName });
+  const wardCode = mun?.code || WARD_CODE[wardName];
   const tiles = unionWardTiles(wardName, wardCode);
   const tile_sources = {
     ward_polygon: getWardTiles(wardName).length,
@@ -533,13 +530,7 @@ async function collectStation(wardName, noCache = false) {
   const xkt015Aggregated = aggregateStations(allStations, wardName);
   const xkt015Map = buildXkt015Map(xkt015Aggregated);
 
-  const WARD_CODE_MAP = {
-    "千代田区": "13101", "中央区": "13102", "港区": "13103", "新宿区": "13104", "文京区": "13105",
-    "台東区": "13106", "墨田区": "13107", "江東区": "13108", "品川区": "13109", "目黒区": "13110",
-    "大田区": "13111", "世田谷区": "13112", "渋谷区": "13113", "中野区": "13114", "杉並区": "13115",
-    "豊島区": "13116", "北区": "13117", "荒川区": "13118", "板橋区": "13119", "練馬区": "13120",
-    "足立区": "13121", "葛飾区": "13122", "江戸川区": "13123"
-  };
+
   
   
   // 1. N02 역 마스터 기반 조회
@@ -716,8 +707,9 @@ async function collectDisaster(wardName, noCache = false) {
 /** XST001: 재해 이력 */
 async function collectDisasterHistory(wardName, noCache = false) {
   const tiles = getWardTiles(wardName);
-  const targetCityCode = WARD_CODE[wardName];
-  const targetPrefCity = "東京都" + wardName;
+  const mun = getMunicipality({ name_ja: wardName });
+  const targetCityCode = mun?.code || WARD_CODE[wardName];
+  const targetPrefCity = mun ? mun.prefecture_ja + mun.name_ja : "東京都" + wardName;
 
   const features = [];
   for (const { z, x, y } of tiles) {
@@ -797,8 +789,9 @@ async function collectDisasterHistory(wardName, noCache = false) {
 /** XGT001: 긴급대피장소 */
 async function collectEvacuationSites(wardName, noCache = false) {
   const tiles = getWardTiles(wardName);
-  const targetCityCode = WARD_CODE[wardName];
-  const targetPrefCity = "東京都" + wardName;
+  const mun = getMunicipality({ name_ja: wardName });
+  const targetCityCode = mun?.code || WARD_CODE[wardName];
+  const targetPrefCity = (mun?.prefecture_ja || "東京都") + wardName;
 
   const features = [];
   for (const { z, x, y } of tiles) {
@@ -814,7 +807,7 @@ async function collectEvacuationSites(wardName, noCache = false) {
       for (const f of tileFeatures) {
         const p = f.properties ?? {};
         if (p.city_code && p.city_code !== targetCityCode) continue;
-        if (p.prefecture_and_city && p.prefecture_and_city !== targetPrefCity) continue;
+        if (p.address_ja && !p.address_ja.startsWith(targetPrefCity)) continue;
         features.push(f);
       }
     } catch (e) {
@@ -1238,8 +1231,9 @@ async function main() {
   const hasFlag = f => argv.includes(f);
 
   const type      = getArg("--type") ?? "price";
-  const wardArg   = getArg("--ward");
+  const wardArg   = getArg("--ward") || getArg("--municipality");
   const epArg     = getArg("--episode")?.toLowerCase();
+  const regionArg = getArg("--region");
   const year      = parseInt(getArg("--year") ?? "2025", 10);
   const quarter   = getArg("--quarter") ? parseInt(getArg("--quarter"), 10) : null;
   const priceClassification = getArg("--price-classification") ?? "02";
@@ -1249,15 +1243,26 @@ async function main() {
 
   // 대상 구 목록 결정
   let wards = [];
-  if (wardArg) {
+  if (regionArg) {
+    const codes = listRegion(regionArg);
+    wards = codes.map(c => getMunicipality({ code: c }).name_ja);
+  } else if (wardArg) {
     wards = [wardArg];
   } else if (epArg) {
     wards = EPISODE_WARDS[epArg];
     if (!wards) { console.error(`❌ 알 수 없는 에피소드: ${epArg}`); process.exit(1); }
   } else if (!exportBm) {
-    console.error("❌ --ward 또는 --episode 를 지정하세요.");
+    console.error("❌ --ward, --municipality, --region, 또는 --episode 를 지정하세요.");
     console.error("   node scripts/mlit-collector.mjs --help");
     process.exit(1);
+  }
+
+  // validate unknown municipalities
+  for (const w of wards) {
+    if (!getMunicipality({ name_ja: w })) {
+      console.error(`❌ Registry에 미등록된 Municipality(구/시/정/촌): ${w}`);
+      process.exit(1);
+    }
   }
 
   // benchmarks 내보내기 모드
@@ -1330,7 +1335,8 @@ if (isMain) {
 /** XKT014, XKT023, XKT024, XKT030: 도시계획 (방화지역, 지구계획, 고도이용지구, 도시계획도로) */
 async function collectUrbanPlanning(wardName, noCache = false) {
   const tiles = getWardTiles(wardName);
-  const targetCityCode = WARD_CODE[wardName];
+  const mun = getMunicipality({ name_ja: wardName });
+  const targetCityCode = mun?.code || WARD_CODE[wardName];
   const wardPolygons = getWardPolygons(wardName);
   const wardAreaSqm = wardPolygons.reduce((sum, p) => sum + turf.area(p), 0);
 
@@ -1341,6 +1347,7 @@ async function collectUrbanPlanning(wardName, noCache = false) {
     district_plan_zones:  { endpoint: ENDPOINTS.district_plan, label: "지구계획 (XKT023)", useCityCode: false },
     high_utilization_zones: { endpoint: ENDPOINTS.high_utilization, label: "고도이용지구 (XKT024)", useCityCode: false },
     urban_road:           { endpoint: ENDPOINTS.urban_road, label: "도시계획도로 (XKT030)", useCityCode: true },
+    location_optimize_zones: { endpoint: ENDPOINTS.location_optimization, label: "입지적정화계획구역 (XKT003)", useCityCode: true },
   };
 
   for (const [typeKey, { endpoint, label, useCityCode }] of Object.entries(urbanTypes)) {
@@ -1357,11 +1364,12 @@ async function collectUrbanPlanning(wardName, noCache = false) {
         const tileFeatures = raw?.features ?? [];
         for (const f of tileFeatures) {
           const p = f.properties ?? {};
+          const parentCityCode = mun?.parent_city ? getMunicipality({ name_ja: mun.parent_city })?.code : null;
           // Filtering logic: XKT014, XKT030 use city_code. XKT023, XKT024 use city_name
           if (useCityCode) {
-            if (p.city_code !== targetCityCode && p.city_name !== wardName) continue;
+            if (p.city_code !== targetCityCode && p.city_code !== parentCityCode && p.city_name !== wardName && p.city_name !== mun?.parent_city) continue;
           } else {
-            if (p.city_name !== wardName) continue;
+            if (p.city_name !== wardName && p.city_name !== mun?.parent_city) continue;
           }
           if (p._id && !featureMap.has(p._id)) {
             featureMap.set(p._id, f);
@@ -1451,7 +1459,8 @@ async function collectUrbanPlanning(wardName, noCache = false) {
 
 async function collectZoning(wardName, noCache = false) {
   const tiles = getWardTiles(wardName);
-  const targetCityCode = WARD_CODE[wardName];
+  const mun = getMunicipality({ name_ja: wardName });
+  const targetCityCode = mun?.code || WARD_CODE[wardName];
   const wardPolygons = getWardPolygons(wardName);
   const wardAreaSqm = wardPolygons.reduce((sum, p) => sum + turf.area(p), 0);
 
@@ -1469,7 +1478,8 @@ async function collectZoning(wardName, noCache = false) {
       const tileFeatures = raw?.features ?? [];
       for (const f of tileFeatures) {
         const p = f.properties ?? {};
-        if (p.city_code !== targetCityCode && p.city_name !== wardName) continue;
+        const parentCityCode = mun?.parent_city ? getMunicipality({ name_ja: mun.parent_city })?.code : null;
+        if (p.city_code !== targetCityCode && p.city_code !== parentCityCode && p.city_name !== wardName && p.city_name !== mun?.parent_city) continue;
         if (p._id && !featureMap.has(p._id)) {
           featureMap.set(p._id, f);
         }

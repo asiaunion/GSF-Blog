@@ -1,4 +1,5 @@
-import { collectEvacuationSites, collectPopulation, WARD_CODE, loadEnv } from "./mlit-collector.mjs";
+import { collectEvacuationSites, WARD_CODE, loadEnv } from "./mlit-collector.mjs";
+import { listRegion, getMunicipality } from "./lib/municipality-registry.mjs";
 import { calculateEvacuationMetrics } from "./lib/evacuation-metrics.mjs";
 
 async function main() {
@@ -7,14 +8,20 @@ async function main() {
   const args = process.argv.slice(2);
   const isAll = args.includes("--all-wards");
   const wardIndex = args.indexOf("--ward");
+  const municipalityIndex = args.indexOf("--municipality");
+  const regionIndex = args.indexOf("--region");
   
   let targetWards = [];
-  if (isAll) {
-    targetWards = Object.keys(WARD_CODE);
+  if (regionIndex !== -1 && args[regionIndex + 1]) {
+    targetWards = listRegion(args[regionIndex + 1]).map(code => getMunicipality({ code }).name_ja);
+  } else if (isAll) {
+    targetWards = listRegion("tokyo23").map(code => getMunicipality({ code }).name_ja);
   } else if (wardIndex !== -1 && args[wardIndex + 1]) {
     targetWards = [args[wardIndex + 1]];
+  } else if (municipalityIndex !== -1 && args[municipalityIndex + 1]) {
+    targetWards = [args[municipalityIndex + 1]];
   } else {
-    console.error("사용법: node fetch-evacuation-sites.mjs --ward <구이름> [--no-cache] 또는 --all-wards");
+    console.error("사용법: node fetch-evacuation-sites.mjs --ward <구이름> | --municipality <시구정촌> | --region <region> [--no-cache] 또는 --all-wards");
     process.exit(1);
   }
 

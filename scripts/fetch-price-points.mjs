@@ -13,6 +13,7 @@
 
 import { parseArgs } from "node:util";
 import { collectPricePoints, WARD_CODE, loadEnv } from "./mlit-collector.mjs";
+import { listRegion, getMunicipality } from "./lib/municipality-registry.mjs";
 
 async function main() {
   await loadEnv();
@@ -31,13 +32,24 @@ async function main() {
   const noCache = values["no-cache"] || false;
   const priceClassification = values["price-classification"] || "02"; // 02: 성약가, 01: 거래가
 
+  const args = process.argv.slice(2);
+
+  const isAll = args.includes("--all-wards");
+  const wardIndex = args.indexOf("--ward");
+  const municipalityIndex = args.indexOf("--municipality");
+  const regionIndex = args.indexOf("--region");
+  
   let wards = [];
-  if (values["all-wards"]) {
-    wards = Object.keys(WARD_CODE);
-  } else if (values.ward) {
-    wards = values.ward.split(",");
+  if (regionIndex !== -1 && args[regionIndex + 1]) {
+    wards = listRegion(args[regionIndex + 1]).map(code => getMunicipality({ code }).name_ja);
+  } else if (isAll) {
+    wards = listRegion("tokyo23").map(code => getMunicipality({ code }).name_ja);
+  } else if (wardIndex !== -1 && args[wardIndex + 1]) {
+    wards = [args[wardIndex + 1]];
+  } else if (municipalityIndex !== -1 && args[municipalityIndex + 1]) {
+    wards = [args[municipalityIndex + 1]];
   } else {
-    console.error("❌ --ward <구이름> 또는 --all-wards 파라미터가 필요합니다.");
+    console.error("사용법: node fetch-price-points.mjs --ward <구이름> | --municipality <시구정촌> | --region <region> [--no-cache] 또는 --all-wards");
     process.exit(1);
   }
 

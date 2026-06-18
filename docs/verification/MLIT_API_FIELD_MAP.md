@@ -135,3 +135,21 @@ Fields are documented exactly as returned by the API to ensure no guessing or ha
 - **type**: FeatureCollection (geojson)
 - **properties**: `['_id', '_index', 'decision_date', 'city_name', 'planning_road_ja', 'prefecture', 'decision_type_ja', 'city_code', 'notice_number_s', 'notice_number', 'decision_maker', 'kubun_id', 'first_decision_date']`
 - **Key Observation**: `city_code` 있음. `planning_road_ja` 필드 존재.
+
+## Amendment — Region Expansion Pilot (2026-06-18)
+
+### 정령지정도시(Designated Cities) 필터링 특이사항
+요코하마시 서구(横浜市西区)나 가와사키시 나카하라구(川崎市中原区) 같은 정령지정도시의 '구' 단위 데이터 수집 시, MLIT API의 응답 속성에서 `city_code`와 `city_name`이 구(ward) 단위가 아닌 **시(city) 단위**로 반환되는 경우가 존재함.
+
+- **XKT002 (용도지역)**: `city_code`가 "14100"(요코하마시), "14130"(가와사키시) 등으로 반환됨. (구 코드인 14103이나 14133이 아님). `city_name` 또한 "横浜市", "川崎市"로 반환.
+- **XKT023 (지구계획) / XKT024 (고도이용지구)**: `city_code`는 아예 존재하지 않으며, `city_name`이 "横浜市", "川崎市"로 반환됨.
+- **필터링 시 주의**: 수집기(`mlit-collector.mjs`)에서 `p.city_code !== targetCityCode && p.city_name !== wardName` 와 같이 엄격하게 검사할 경우, 정령지정도시의 구 데이터가 **전부 누락(0건)**되는 문제 발생. 부모 시(parent city) 코드나 이름과도 매칭을 허용하거나, BBOX/폴리곤 기하학적 포함(intersect) 여부로만 필터링하도록 완화가 필요함 (선택적 후속 과제).
+
+### XKT003 (입지적정화계획구역)
+- **type**: FeatureCollection (geojson)
+- **properties**: `['_id', '_index', 'city_name', 'city_code', ...]`
+- **특징**: `location_optimization` 엔드포인트용으로 활용. `city_code` 필드가 존재하므로 일반적인 필터 로직 적용 가능.
+
+### 10. XGT001 (지정긴급대피장소) - 지정도시(政令指定都市) 필터링 주의사항
+- **현상**: 요코하마시(横浜市), 가와사키시(川崎市) 등 정령지정도시의 경우, `prefecture_and_city` 필드가 "神奈川県横浜市" 등으로 통합 표기됨 (구 단위 명칭 미포함).
+- **해결**: `prefecture_and_city`가 아닌 `address_ja.startsWith(targetPrefCity)` (예: "神奈川県横浜市西区") 로 매칭하여 인접 구 대피소가 섞이는 것을 방지함.

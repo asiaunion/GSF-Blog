@@ -5,21 +5,30 @@ import { getWardTiles } from './lib/ward-tiles.mjs';
 import { WARD_CODE } from './mlit-collector.mjs';
 import { policyForCount } from './lib/mlit-sample-policy.mjs';
 
-const benchmarksPath = path.resolve('docs/verification/tokyo-ward-series-benchmarks.json');
-const benchmarks = JSON.parse(fs.readFileSync(benchmarksPath, 'utf8'));
-
 const args = process.argv.slice(2);
-const wardArg = args.findIndex(a => a === '--ward');
+const wardArg = args.findIndex(a => a === '--ward' || a === '--municipality');
 if (wardArg === -1 || !args[wardArg + 1]) {
-  console.error("Usage: node analyze-disaster-price.mjs --ward <WardName>");
+  console.error("Usage: node analyze-disaster-price.mjs --ward <WardName> [--benchmarks-path <path>]");
   process.exit(1);
 }
 const wardName = args[wardArg + 1];
 
-if (!WARD_CODE[wardName]) {
+import { getMunicipality } from './lib/municipality-registry.mjs';
+if (!getMunicipality({ name_ja: wardName }) && !WARD_CODE[wardName]) {
   console.error(`Unknown ward: ${wardName}`);
   process.exit(1);
 }
+
+const DEFAULT_BENCHMARKS = path.resolve(process.cwd(), "docs/verification/tokyo-ward-series-benchmarks.json");
+const pathIdx = args.indexOf("--benchmarks-path");
+const benchmarksPathStr = pathIdx !== -1 && args[pathIdx + 1] ? path.resolve(args[pathIdx + 1]) : DEFAULT_BENCHMARKS;
+
+if (!fs.existsSync(benchmarksPathStr)) {
+  console.error(`benchmarks.json not found: ${benchmarksPathStr}`);
+  process.exit(1);
+}
+
+const benchmarks = JSON.parse(fs.readFileSync(benchmarksPathStr, 'utf8'));
 
 const pricePointsInfo = benchmarks.price_points?.wards[wardName];
 if (!pricePointsInfo) {
