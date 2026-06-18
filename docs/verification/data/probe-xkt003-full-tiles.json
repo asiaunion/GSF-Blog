@@ -1,0 +1,94 @@
+{
+  "千代田区": {
+    "status": "empty",
+    "features": 0
+  },
+  "中央区": {
+    "status": "empty",
+    "features": 0
+  },
+  "港区": {
+    "status": "empty",
+    "features": 0
+  },
+  "新宿区": {
+    "status": "empty",
+    "features": 0
+  },
+  "文京区": {
+    "status": "empty",
+    "features": 0
+  },
+  "台東区": {
+    "status": "empty",
+    "features": 0
+  },
+  "墨田区": {
+    "status": "empty",
+    "features": 0
+  },
+  "江東区": {
+    "status": "empty",
+    "features": 0
+  },
+  "品川区": {
+    "status": "empty",
+    "features": 0
+  },
+  "目黒区": {
+    "status": "empty",
+    "features": 0
+  },
+  "大田区": {
+    "status": "empty",
+    "features": 0
+  },
+  "世田谷区": {
+    "status": "has_data",
+    "features": 2
+  },
+  "渋谷区": {
+    "status": "empty",
+    "features": 0
+  },
+  "中野区": {
+    "status": "empty",
+    "features": 0
+  },
+  "杉並区": {
+    "status": "empty",
+    "features": 0
+  },
+  "豊島区": {
+    "status": "empty",
+    "features": 0
+  },
+  "北区": {
+    "status": "empty",
+    "features": 0
+  },
+  "荒川区": {
+    "status": "empty",
+    "features": 0
+  },
+  "板橋区": {
+    "status": "has_data",
+    "features": 3
+  },
+  "練馬区": {
+    "status": "empty",
+    "features": 0
+  },
+  "足立区": {
+    "status": "empty",
+    "features": 0
+  },
+  "葛飾区": {
+    "status": "empty",
+    "features": 0
+  },
+  "江戸川区": {
+    "status": "empty",
+    "features": 0
+  }
+}

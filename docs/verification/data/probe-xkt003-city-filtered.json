@@ -1,0 +1,144 @@
+{
+  "千代田区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "中央区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "港区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "新宿区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "文京区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "台東区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "墨田区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "江東区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "品川区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "目黒区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "大田区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "世田谷区": {
+    "raw_tile_features": 2,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": [
+      "狛江市(13219)"
+    ]
+  },
+  "渋谷区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "中野区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "杉並区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "豊島区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "北区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "荒川区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "板橋区": {
+    "raw_tile_features": 3,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": [
+      "戸田市(11224)"
+    ]
+  },
+  "練馬区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "足立区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "葛飾区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  },
+  "江戸川区": {
+    "raw_tile_features": 0,
+    "in_ward_features": 0,
+    "residential_induction_features": 0,
+    "foreign_cities": []
+  }
+}

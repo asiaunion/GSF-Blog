@@ -5,8 +5,8 @@
   "updated_at": "2026-06-18",
   "gates": {
     "c_tier_capture_requested": false,
-    "manifest_approved_by": "joseph",
-    "manifest_approved_at": "2026-06-18",
+    "manifest_approved_by": null,
+    "manifest_approved_at": null,
     "draft_started": false,
     "cursor_audit_passed": false,
     "cursor_audit_at": null,
@@ -103,7 +103,7 @@
     {
       "id": "LANDTS-kita-CAGR10",
       "label": "北区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 7.3,
+      "value": 6.9,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -231,7 +231,7 @@
     {
       "id": "LANDTS-arakawa-CAGR10",
       "label": "荒川区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 9,
+      "value": 6.4,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -359,7 +359,7 @@
     {
       "id": "LANDTS-adachi-CAGR10",
       "label": "足立区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 2.8,
+      "value": 5.2,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",

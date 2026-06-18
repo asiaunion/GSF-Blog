@@ -1,7 +1,7 @@
 {
   "slug": "tokyo-kita-arakawa-adachi",
   "episode": "Ep.07",
-  "generated_at": "2026-06-17",
+  "generated_at": "2026-06-18",
   "wards": [
     "北区",
     "荒川区",
@@ -16,13 +16,17 @@
       "cagr_5y": null,
       "cagr_full": 6.7,
       "trade_cagr_10y": 5,
-      "land_cagr_10y": 7.3,
-      "pop_change": "1.2%",
+      "land_cagr_10y": 6.9,
+      "pop_change": "1.8%",
       "rent_1r": 8.5,
       "yield_pct": 1.6,
       "top_station": "赤羽",
       "flood": true,
-      "liquefaction": true
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 52,
+      "evac_count": 37,
+      "evac_per_10k": 1
     },
     {
       "ward": "荒川区",
@@ -32,13 +36,17 @@
       "cagr_5y": null,
       "cagr_full": 5.9,
       "trade_cagr_10y": 5.3,
-      "land_cagr_10y": 9,
-      "pop_change": "7.7%",
+      "land_cagr_10y": 6.4,
+      "pop_change": "5.4%",
       "rent_1r": 8.6,
       "yield_pct": 1.7,
       "top_station": "西日暮里",
       "flood": true,
-      "liquefaction": true
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 56,
+      "evac_count": 41,
+      "evac_per_10k": 1.9
     },
     {
       "ward": "足立区",
@@ -48,13 +56,17 @@
       "cagr_5y": null,
       "cagr_full": 5.8,
       "trade_cagr_10y": 6.2,
-      "land_cagr_10y": 2.8,
-      "pop_change": "3%",
+      "land_cagr_10y": 5.2,
+      "pop_change": "2.5%",
       "rent_1r": 7.7,
       "yield_pct": 2.2,
       "top_station": "北千住",
       "flood": true,
-      "liquefaction": true
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 79,
+      "evac_count": 22,
+      "evac_per_10k": 0.3
     }
   ],
   "districts": {

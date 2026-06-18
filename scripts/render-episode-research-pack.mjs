@@ -110,14 +110,36 @@ async function buildPack(meta, benchmarks, wards, args) {
       top_station: st?.top_station,
       flood: dis?.flood,
       liquefaction: dis?.liquefaction,
+      has_risk: (dis?.flood || dis?.liquefaction || dis?.storm_surge || dis?.tsunami || dis?.landslide) ? true : false,
+      history_events: benchmarks.disaster_history?.wards?.[ward]?.total_events ?? 0,
+      evac_count: benchmarks.evacuation_sites?.wards?.[ward]?.site_count ?? 0,
+      evac_per_10k: benchmarks.evacuation_sites?.wards?.[ward]?.sites_per_10k_people ?? 0
     };
   });
 
   let compareMd = "";
   try {
-    compareMd = await compareTable(epKey.startsWith("ep") ? epKey : `ep${meta.episode.replace(/\D/g, "").padStart(2, "0")}`);
+    compareMd = await compareTable(epKey.startsWith("ep") ? epKey : `ep${meta.episode.replace(/\\D/g, "").padStart(2, "0")}`);
   } catch {
     compareMd = "_compare-wards unavailable_";
+  }
+
+  const appraisalHighlights = {};
+  for (const w of wards) {
+    const appraisalInfo = benchmarks.appraisal_comments?.wards?.[w];
+    let topHighlights = [];
+    if (appraisalInfo && appraisalInfo.json_path) {
+      try {
+        const raw = await readFile(path.join(root, appraisalInfo.json_path), "utf8");
+        const data = JSON.parse(raw);
+        if (Array.isArray(data)) {
+          topHighlights = data.sort((a, b) => (b.change_rate || 0) - (a.change_rate || 0)).slice(0, 3);
+        }
+      } catch (e) {
+        // ignore
+      }
+    }
+    appraisalHighlights[w] = topHighlights;
   }
 
   const md = [
@@ -158,11 +180,39 @@ async function buildPack(meta, benchmarks, wards, args) {
     ``,
     ...wards.flatMap(w => [`### ${w}`, ``, districtTable(districtRows[w], w), ``]),
     ``,
+    `## Price Map (Spatial Heatmap)`,
+    ``,
+    ...wards.flatMap(w => [`### ${w}`, ``, `![${w} Price Map](/assets/images/blog/diagrams/heatmap-${w}.webp)`, ``]),
+    ``,
+    `## Appraisal Highlights (XCT001)`,
+    ``,
+    ...wards.flatMap(w => {
+      const highlights = appraisalHighlights[w] || [];
+      if (!highlights.length) return [`### ${w}`, ``, `_No appraisal comments for ${w}_`, ``];
+      return [`### ${w}`, ``, ...highlights.map(c => `- ${c.address} (${Number(c.price_sqm).toLocaleString("ja-JP")} 円/㎡, 変動率: ${c.change_rate}%)`), ``];
+    }),
+    ``,
     `## Demand & risk notes`,
     ``,
     ...summaryRows.map(r =>
       `- **${r.ward}**: top station ${r.top_station ?? "—"} · flood=${r.flood ? "Y" : "N"} · liquefaction=${r.liquefaction ? "Y" : "N"} (tile sample)`
     ),
+    ``,
+    `## Disaster Risk vs History Matrix (XKT025~029 × XST001)`,
+    ``,
+    ...summaryRows.map(r =>
+      `- **${r.ward}**: 상정(Risk)=${r.has_risk ? "O" : "X"}, 이력(History)=${r.history_events > 0 ? "O" : "X"} (${r.history_events} events)`
+    ),
+    ``,
+    `## Evacuation Sites (XGT001)`,
+    ``,
+    ...summaryRows.map(r =>
+      `- **${r.ward}**: ${r.evac_count} sites (${r.evac_per_10k} per 10k)${r.evac_count === 0 ? " — _(coverage: no_data / API 공백 가능)_" : ""}`
+    ),
+    ``,
+    `## Policy Zone (Location Optimization - XKT003)`,
+    ``,
+    `_${benchmarks.location_optimization?.note ?? "23구 입지적정화계획 데이터 미고시 (coverage_status: not_applicable_tokyo23). 도쿄 외곽 및 타 현에서만 실증 확인."}_`,
     ``,
     formatWriterConstraintsBlock(),
     ``,

@@ -63,6 +63,15 @@ async function main() {
   }
 
   if (args.episode) {
+    const doc = JSON.parse(await readFile(EPISODES, "utf8"));
+    const meta = (doc.episodes ?? []).find(e => e.episode === args.episode);
+    const wards = meta?.wards ?? [];
+    
+    for (const ward of wards) {
+      await run("node", ["scripts/analyze-station-distance.mjs", "--ward", ward]);
+      await run("node", ["scripts/analyze-disaster-price.mjs", "--ward", ward]);
+      await run("node", ["scripts/render-ward-price-map.mjs", "--ward", ward]);
+    }
     await run("node", ["scripts/render-ward-dossier.mjs", "--episode", args.episode, ...cacheFlag]);
   }
 

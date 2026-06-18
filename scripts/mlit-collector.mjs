@@ -47,6 +47,8 @@ const BASE = "https://www.reinfolib.mlit.go.jp/ex-api/external";
 
 const ENDPOINTS = {
   price:      `${BASE}/XIT001`,  // 성약가·취득가
+  price_point:`${BASE}/XPT001`,  // 부동산 거래가격 (포인트)
+  appraisal:  `${BASE}/XCT001`,  // 부동산 감정평가 (지가조사)
   munici:     `${BASE}/XIT002`,  // 시구정촌 목록
   landprice:  `${BASE}/XPT002`,  // 지가공시 포인트 (GeoJSON/타일)
   station:    `${BASE}/XKT015`,  // 역별 승하차 인원 (타일)
@@ -57,6 +59,8 @@ const ENDPOINTS = {
   disaster_storm_surge:  `${BASE}/XKT027`, // 고조 침수 상정
   disaster_tsunami:      `${BASE}/XKT028`, // 쓰나미 침수 상정
   disaster_landslide:    `${BASE}/XKT029`, // 토사재해 경계구역
+  disaster_history:      `${BASE}/XST001`, // 재해 이력
+  evacuation_sites:      `${BASE}/XGT001`, // 긴급대피장소
 };
 
 // 도쿄 23구 시구정촌 코드
@@ -69,6 +73,17 @@ const WARD_CODE = {
   "豊島区":   "13116", "北区":     "13117", "荒川区":   "13118",
   "板橋区":   "13119", "練馬区":   "13120", "足立区":   "13121",
   "葛飾区":   "13122", "江戸川区": "13123",
+};
+
+const WARD_SLUG = {
+  "千代田区": "chiyoda", "中央区": "chuo", "港区": "minato",
+  "新宿区": "shinjuku", "文京区": "bunkyo", "台東区": "taito",
+  "墨田区": "sumida", "江東区": "koto", "品川区": "shinagawa",
+  "目黒区": "meguro", "大田区": "ota", "世田谷区": "setagaya",
+  "渋谷区": "shibuya", "中野区": "nakano", "杉並区": "suginami",
+  "豊島区": "toshima", "北区": "kita", "荒川区": "arakawa",
+  "板橋区": "itabashi", "練馬区": "nerima", "足立区": "adachi",
+  "葛飾区": "katsushika", "江戸川区": "edogawa",
 };
 
 // 에피소드별 구 그룹
@@ -272,6 +287,93 @@ async function collectTradePrice(wardName, year = 2025, quarter = null, noCache 
   return collectPrice(wardName, year, quarter, noCache, "01");
 }
 
+function parsePriceManYen(raw) {
+  if (!raw) return 0;
+  if (typeof raw === "number") return raw;
+  const s = String(raw).replace(/,/g, "");
+  const m = s.match(/(\d+)万円/);
+  if (m) return parseInt(m[1], 10);
+  const m2 = s.match(/(\d+)/);
+  return m2 ? parseInt(m2[1], 10) : 0;
+}
+
+function parseAreaSqm(raw) {
+  if (!raw) return 0;
+  if (typeof raw === "number") return raw;
+  const s = String(raw).replace(/,/g, "");
+  const m = s.match(/(\d+)㎡/);
+  if (m) return parseInt(m[1], 10);
+  const m2 = s.match(/(\d+)/);
+  return m2 ? parseInt(m2[1], 10) : 0;
+}
+
+/** XPT001: 부동산 거래가격 (포인트) */
+async function collectPricePoints(wardName, year = 2025, noCache = false, priceClassification = "02") {
+  const slug = WARD_SLUG[wardName] || "unknown";
+  const tiles = getWardTiles(wardName);
+
+  const allPoints = [];
+  for (const { z, x, y } of tiles) {
+    const cacheKey = `price-point-${priceClassification}-${wardName}-${year}-${z}_${x}_${y}`;
+    const params = new URLSearchParams({
+      response_format: "geojson",
+      z: String(z), x: String(x), y: String(y),
+      from: `${year}1`,
+      to: `${year}4`,
+      priceClassification,
+    });
+    const raw = await cachedFetch(cacheKey,
+      () => apiFetch(`${ENDPOINTS.price_point}?${params}`), noCache);
+    const features = raw?.features ?? [];
+    allPoints.push(...features);
+    if (tiles.length > 1) await sleep(300);
+  }
+
+  // Filter for the exact ward using city_code
+  const wardCode = WARD_CODE[wardName];
+  const inWard = allPoints.filter(f => String(f.properties?.city_code) === wardCode);
+
+  // Filter for "中古マンション等" and "区分所有建物" using land_type_name_ja
+  const mansionPoints = inWard.filter(f => {
+    const t = f.properties?.land_type_name_ja;
+    return t === "中古マンション等" || t === "区分所有建物";
+  });
+
+  const valid = mansionPoints.filter(f => {
+    const p = parsePriceManYen(f.properties?.u_transaction_price_total_ja);
+    const a = parseAreaSqm(f.properties?.u_area_ja);
+    return p > 0 && a > 0;
+  });
+
+  if (!valid.length) return { ward: wardName, type: "price-point", count: 0, note: "데이터 없음" };
+
+  const featureCollection = {
+    type: "FeatureCollection",
+    features: valid
+  };
+
+  const relativePath = `docs/verification/data/price-points/${slug}-${year}.geojson`;
+  const outPath = path.join(process.cwd(), relativePath);
+  await writeJson(outPath, featureCollection);
+
+  const unitPrices = valid.map(f => {
+    const p = parsePriceManYen(f.properties?.u_transaction_price_total_ja);
+    const a = parseAreaSqm(f.properties?.u_area_ja);
+    return p / a; // 万円/㎡
+  });
+  const st = stats(unitPrices);
+
+  return {
+    ward: wardName, type: "price-point", year, price_classification: priceClassification,
+    count: valid.length,
+    ward_avg_sqm: st.avg,
+    est_70sqm: Math.round(st.avg * 70),
+    geojson_path: relativePath,
+    fetched_at: new Date().toISOString().slice(0, 10),
+    source: `MLIT XPT001 API [1차 확인] A계층`,
+  };
+}
+
 /** XPT002: 지가공시 포인트 (GeoJSON 타일) */
 async function collectLandPrice(wardName, year = 2025, noCache = false) {
   const tiles = getWardTiles(wardName);
@@ -325,6 +427,74 @@ async function collectLandPrice(wardName, year = 2025, noCache = false) {
       : null,
     fetched_at: new Date().toISOString().slice(0, 10),
     source: "MLIT XPT002 API [1차 확인] A계층",
+  };
+}
+
+/** XCT001: 부동산 감정평가 (지가조사) */
+async function collectAppraisal(wardName, year = 2023, noCache = false) {
+  const cityCode = WARD_CODE[wardName];
+  if (!cityCode) throw new Error(`알 수 없는 구: ${wardName}`);
+
+  const prefCode = cityCode.substring(0, 2); // "13"
+  const cityCodeSuffix = cityCode.slice(-3); // e.g. "117"
+
+  // division: 00 = 宅地, 05 = 商業地
+  const divisions = ["00", "05"];
+  const allPoints = [];
+
+  for (const div of divisions) {
+    const cacheKey = `appraisal-${wardName}-${year}-${div}`;
+    const params = new URLSearchParams({
+      year: String(year),
+      area: prefCode,
+      division: div
+    });
+    
+    const raw = await cachedFetch(cacheKey,
+      () => apiFetch(`${ENDPOINTS.appraisal}?${params}`), noCache);
+    
+    const records = raw?.data ?? [];
+    allPoints.push(...records);
+    if (divisions.length > 1) await sleep(300);
+  }
+
+  // Filter for exact ward
+  const inWard = allPoints.filter(d => 
+    String(d["標準地番号 市区町村コード 市区町村コード"]) === cityCodeSuffix
+  );
+
+  if (!inWard.length) return { ward: wardName, type: "appraisal", count: 0, note: "데이터 없음" };
+
+  const valid = inWard.filter(d => {
+    const price = parseInt(d["1㎡当たりの価格"], 10);
+    return !isNaN(price) && price > 0;
+  });
+
+  const processedPoints = valid.map(d => ({
+    price_sqm: parseInt(d["1㎡当たりの価格"], 10),
+    change_rate: parseFloat(d["変動率"]) || 0,
+    address: d["標準地 所在地 住居表示"] || d["標準地 所在地 所在地番"],
+    lat: parseFloat(d["位置座標 緯度"]),
+    lon: parseFloat(d["位置座標 経度"]),
+    use_type: d["標準地番号 用途区分"]
+  }));
+
+  const cachePath = path.join(CACHE_DIR, `appraisal-merged-${WARD_SLUG[wardName]}-${year}.json`);
+  await writeJson(cachePath, processedPoints);
+
+  const changes = processedPoints.map(p => p.change_rate).filter(r => r !== 0);
+  const avgChange = changes.length ? Math.round((changes.reduce((a,b)=>a+b,0) / changes.length) * 10) / 10 : 0;
+  const prices = processedPoints.map(p => p.price_sqm);
+  const st = stats(prices);
+
+  return {
+    ward: wardName, type: "appraisal", year,
+    count: processedPoints.length,
+    avg_price_sqm: st.avg,
+    avg_change_rate: avgChange,
+    json_path: cachePath.replace(process.cwd() + '/', ''),
+    fetched_at: new Date().toISOString().slice(0, 10),
+    source: `MLIT XCT001 API [1차 확인] A계층`,
   };
 }
 
@@ -533,6 +703,161 @@ async function collectDisaster(wardName, noCache = false) {
     detail: results,
     fetched_at: new Date().toISOString().slice(0, 10),
     source: "MLIT XKT025~029 API [1차 확인] A계층",
+  };
+}
+
+/** XST001: 재해 이력 */
+async function collectDisasterHistory(wardName, noCache = false) {
+  const tiles = getWardTiles(wardName);
+  const targetCityCode = WARD_CODE[wardName];
+  const targetPrefCity = "東京都" + wardName;
+
+  const features = [];
+  for (const { z, x, y } of tiles) {
+    const cacheKey = `disaster_history-${wardName}-${z}_${x}_${y}`;
+    const params = new URLSearchParams({
+      response_format: "geojson",
+      z: String(z), x: String(x), y: String(y),
+    });
+    try {
+      const raw = await cachedFetch(cacheKey,
+        () => apiFetch(`${ENDPOINTS.disaster_history}?${params}`), noCache);
+      const tileFeatures = raw?.features ?? [];
+      for (const f of tileFeatures) {
+        const p = f.properties ?? {};
+        if (p.city_code && p.city_code !== targetCityCode) continue;
+        if (p.prefecture_and_city && p.prefecture_and_city !== targetPrefCity) continue;
+        features.push(f);
+      }
+    } catch (e) {
+      process.stderr.write(`  ⚠️  재해 이력 취득 실패: ${e.message}\n`);
+    }
+    if (tiles.length > 1) await sleep(300);
+  }
+
+  const uniqueFeaturesMap = new Map();
+  for (const f of features) {
+    const p = f.properties ?? {};
+    const id = p._id || JSON.stringify(p);
+    uniqueFeaturesMap.set(id, p);
+  }
+  const uniqueProps = Array.from(uniqueFeaturesMap.values());
+
+  const events = [];
+  let lastFloodYear = null;
+  let floodEvents = 0;
+
+  for (const p of uniqueProps) {
+    events.push({
+      disaster_name: p.disaster_name_ja,
+      disaster_date: p.disaster_date,
+      disaster_source: p.disaster_source
+    });
+    if (p.disastertype_code === "11" || (p.disaster_name_ja && p.disaster_name_ja.includes("浸水"))) {
+      floodEvents++;
+      const year = p.disaster_date ? parseInt(p.disaster_date.slice(0, 4), 10) : null;
+      if (year && (!lastFloodYear || year > lastFloodYear)) {
+        lastFloodYear = year;
+      }
+    }
+  }
+
+  const hasHistory = uniqueProps.length > 0;
+  let coverageStatus = "surveyed";
+  let coverageNote = "타일 내 과거 재해 이력 데이터 조회됨.";
+  if (!hasHistory) {
+    coverageStatus = "no_data";
+    coverageNote = "이 구역에 등록된 재해 이력 없음 (또는 미조사).";
+  }
+
+  return {
+    ward: wardName, type: "disaster_history",
+    coverage_status: coverageStatus,
+    coverage_note: coverageNote,
+    coverage_warning: !hasHistory,
+    summary: {
+      has_history: hasHistory,
+      total_events: uniqueProps.length,
+      flood_events: floodEvents,
+      last_flood_year: lastFloodYear,
+    },
+    detail: { events },
+    fetched_at: new Date().toISOString().slice(0, 10),
+    source: "MLIT XST001 API",
+  };
+}
+
+/** XGT001: 긴급대피장소 */
+async function collectEvacuationSites(wardName, noCache = false) {
+  const tiles = getWardTiles(wardName);
+  const targetCityCode = WARD_CODE[wardName];
+  const targetPrefCity = "東京都" + wardName;
+
+  const features = [];
+  for (const { z, x, y } of tiles) {
+    const cacheKey = `evacuation_sites-${wardName}-${z}_${x}_${y}`;
+    const params = new URLSearchParams({
+      response_format: "geojson",
+      z: String(z), x: String(x), y: String(y),
+    });
+    try {
+      const raw = await cachedFetch(cacheKey,
+        () => apiFetch(`${ENDPOINTS.evacuation_sites}?${params}`), noCache);
+      const tileFeatures = raw?.features ?? [];
+      for (const f of tileFeatures) {
+        const p = f.properties ?? {};
+        if (p.city_code && p.city_code !== targetCityCode) continue;
+        if (p.prefecture_and_city && p.prefecture_and_city !== targetPrefCity) continue;
+        features.push(f);
+      }
+    } catch (e) {
+      process.stderr.write(`  ⚠️  대피장소 취득 실패: ${e.message}\n`);
+    }
+    if (tiles.length > 1) await sleep(300);
+  }
+
+  const uniqueFeaturesMap = new Map();
+  for (const f of features) {
+    const p = f.properties ?? {};
+    const id = p.common_id || p._id || JSON.stringify(p);
+    uniqueFeaturesMap.set(id, p);
+  }
+  const uniqueProps = Array.from(uniqueFeaturesMap.values());
+
+  let totalCapacity = null;
+  let floodSites = 0;
+  let earthquakeSites = 0;
+  let tsunamiSites = 0;
+  let landslideSites = 0;
+  let stormSurgeSites = 0;
+  let largeFireSites = 0;
+
+  for (const p of uniqueProps) {
+    if (p.flood_flag) floodSites++;
+    if (p.earthquake_flag) earthquakeSites++;
+    if (p.tsunami_flag) tsunamiSites++;
+    if (p.landslide_flag) landslideSites++;
+    if (p.high_tide_flag) stormSurgeSites++;
+    if (p.large_fire_flag) largeFireSites++;
+  }
+
+  return {
+    ward: wardName, type: "evacuation_sites",
+    summary: {
+      site_count: uniqueProps.length,
+      total_capacity: totalCapacity,
+      capacity_note: "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않음.",
+      by_disaster_type: {
+        flood: floodSites,
+        earthquake: earthquakeSites,
+        tsunami: tsunamiSites,
+        landslide: landslideSites,
+        storm_surge: stormSurgeSites,
+        large_fire: largeFireSites
+      }
+    },
+    fetched_at: new Date().toISOString().slice(0, 10),
+    source: "MLIT XGT001 API",
   };
 }
 
@@ -783,6 +1108,22 @@ function printResult(result) {
         console.log(`  평균 변동율: ${result.avg_change_rate}%`);
       break;
     }
+    case "price-point": {
+      if (result.count === 0) { console.log("  데이터 없음"); break; }
+      console.log(`  수집 포인트: ${result.count}건`);
+      console.log(`  평균 ㎡단가: ${result.ward_avg_sqm} 万円/㎡`);
+      console.log(`  70㎡ 환산:   ${result.est_70sqm} 万円`);
+      console.log(`  GeoJSON:     ${result.geojson_path}`);
+      break;
+    }
+    case "appraisal": {
+      if (result.count === 0) { console.log("  데이터 없음"); break; }
+      console.log(`  수집 포인트: ${result.count}건`);
+      console.log(`  평균 ㎡단가: ${result.avg_price_sqm.toLocaleString()} 円/㎡`);
+      console.log(`  평균 변동율: ${result.avg_change_rate}%`);
+      console.log(`  JSON 경로:   ${result.json_path}`);
+      break;
+    }
     case "station": {
       if (result.station_count === 0) { console.log("  데이터 없음"); break; }
       console.log(`  역 수:       ${result.station_count}역`);
@@ -829,11 +1170,13 @@ mlit-collector.mjs — MLIT 불동산 정보 라이브러리 통합 수집·분�
 
 데이터 타입 (--type):
   price       맨션 성약가 (XIT001) — 역별·면적별 집계 포함
+  price-point 부동산 거래가격 포인트 (XPT001) — GeoJSON 생성
+  appraisal   부동산 감정평가 (XCT001) — 지가·변동율
   landprice   지가공시 포인트 (XPT002) — 지가·변동율
   station     역별 승하차 인원 (XKT015)
   population  장래 추계 인구 (XKT013) — 2020~2050
   disaster    재해 리스크 통합 (XKT025~029) — 액상화·홍수·고조·쓰나미·토사
-  all         위 5종 전체 수집
+  all         price, landprice, station, population, disaster 5종 전체 수집
 
 구 지정:
   --ward <구명>       단일 구 (예: 台東区)
@@ -892,6 +1235,7 @@ async function main() {
   const epArg     = getArg("--episode")?.toLowerCase();
   const year      = parseInt(getArg("--year") ?? "2025", 10);
   const quarter   = getArg("--quarter") ? parseInt(getArg("--quarter"), 10) : null;
+  const priceClassification = getArg("--price-classification") ?? "02";
   const noCache   = hasFlag("--no-cache");
   const jsonOut   = hasFlag("--json");
   const exportBm  = hasFlag("--export-benchmarks");
@@ -918,11 +1262,15 @@ async function main() {
 
   // 수집 타입별 실행
   const COLLECTORS = {
-    price:      w => collectPrice(w, year, quarter, noCache),
+    price:      w => collectPrice(w, year, quarter, noCache, priceClassification),
+    "price-point": w => collectPricePoints(w, year, noCache, priceClassification),
+    appraisal:  w => collectAppraisal(w, year, noCache),
     landprice:  w => collectLandPrice(w, year, noCache),
     station:    w => collectStation(w, noCache),
     population: w => collectPopulation(w, noCache),
     disaster:   w => collectDisaster(w, noCache),
+    "disaster-history": w => collectDisasterHistory(w, noCache),
+    "evacuation-sites": w => collectEvacuationSites(w, noCache),
   };
 
   const allResults = [];
@@ -974,10 +1322,14 @@ if (isMain) {
 export {
   collectPrice,
   collectTradePrice,
+  collectPricePoints,
+  collectAppraisal,
   collectLandPrice,
   collectStation,
   collectPopulation,
   collectDisaster,
+  collectDisasterHistory,
+  collectEvacuationSites,
   exportBenchmarks,
   EPISODE_WARDS,
   WARD_CODE,
