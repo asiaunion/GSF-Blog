@@ -122,5 +122,22 @@ pnpm verify:tokyo-tama-benchmarks      # 우선 8시
 
 ---
 
+## 8. 세션 마감 기록 (2026-06-18)
+
+| 항목 | 값 |
+|------|-----|
+| RE 트랙 | Joseph 승인 · **공식 마감** |
+| 원격 push | `origin/main` @ `ee5e48a` |
+| 주요 커밋 | `7ef9c36` RE-6 W2 · `d3678b1` 西東京 13228 · `ee5e48a` RE 마감·八王子 reprobe |
+| Cursor 마지막 작업 | 八王子 XST001 reprobe·CLOSURE·§RE-7·push |
+| **다음 활성** | **Wave 3** — Runbook §RE-7, 권장 첫 편 武蔵野+三鷹 |
+
+**새 세션 부트 (3줄)**  
+1. `docs/REGION_EXPANSION_CLOSURE.md`  
+2. `docs/REGION_EXPANSION_AG_RUNBOOK.md` §RE-7  
+3. `pnpm verify:tokyo-tama-benchmarks` (회귀 확인 시)
+
+---
+
 *Joseph RE 공식 마감: 2026-06-18*  
 *AG/Cursor: RE 신규 슬라이스 착수 전 Joseph 확인 — 기본 후속은 BL-* 또는 §RE-7*
