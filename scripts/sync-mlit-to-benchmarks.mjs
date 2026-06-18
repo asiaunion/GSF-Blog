@@ -87,7 +87,7 @@ async function main() {
     episodesDoc.find(e => e.wards?.every(w => wards.includes(w)))?.episode ??
     "";
 
-  benchmarks.schema_version = "1.3";
+  benchmarks.schema_version = "1.4";
   benchmarks.last_updated = new Date().toISOString().slice(0, 10);
 
   if (!benchmarks.mlit_mansion_2025_q1_q4) {
