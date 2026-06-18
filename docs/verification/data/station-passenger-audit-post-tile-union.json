@@ -1,0 +1,295 @@
+[
+  {
+    "ward": "千代田区",
+    "n02_count": 27,
+    "matched_exact": 26,
+    "matched_alias": 0,
+    "zero_pax": 1,
+    "match_rate_pct": 96.3,
+    "zero_stations": [
+      {
+        "name": "秋葉原",
+        "lat": 35.69877,
+        "lon": 139.77435,
+        "fuzzy_candidates": []
+      }
+    ],
+    "top_station": "東京",
+    "top_passengers": 1176902
+  },
+  {
+    "ward": "中央区",
+    "n02_count": 22,
+    "matched_exact": 22,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "八丁堀",
+    "top_passengers": 259988
+  },
+  {
+    "ward": "港区",
+    "n02_count": 35,
+    "matched_exact": 35,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "新橋",
+    "top_passengers": 716115
+  },
+  {
+    "ward": "新宿区",
+    "n02_count": 27,
+    "matched_exact": 27,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "新宿",
+    "top_passengers": 1494374
+  },
+  {
+    "ward": "文京区",
+    "n02_count": 16,
+    "matched_exact": 16,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "飯田橋",
+    "top_passengers": 487688
+  },
+  {
+    "ward": "台東区",
+    "n02_count": 18,
+    "matched_exact": 18,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "秋葉原",
+    "top_passengers": 531329
+  },
+  {
+    "ward": "墨田区",
+    "n02_count": 13,
+    "matched_exact": 11,
+    "matched_alias": 0,
+    "zero_pax": 2,
+    "match_rate_pct": 84.6,
+    "zero_stations": [
+      {
+        "name": "鐘ヶ淵",
+        "lat": 35.73415,
+        "lon": 139.82072,
+        "fuzzy_candidates": []
+      },
+      {
+        "name": "とうきょうスカイツリー",
+        "lat": 35.71066,
+        "lon": 139.81016,
+        "fuzzy_candidates": []
+      }
+    ],
+    "top_station": "押上",
+    "top_passengers": 573261
+  },
+  {
+    "ward": "江東区",
+    "n02_count": 28,
+    "matched_exact": 28,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "新木場",
+    "top_passengers": 282481
+  },
+  {
+    "ward": "品川区",
+    "n02_count": 25,
+    "matched_exact": 25,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "五反田",
+    "top_passengers": 514510
+  },
+  {
+    "ward": "目黒区",
+    "n02_count": 9,
+    "matched_exact": 9,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "中目黒",
+    "top_passengers": 363724
+  },
+  {
+    "ward": "大田区",
+    "n02_count": 40,
+    "matched_exact": 40,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "蒲田",
+    "top_passengers": 399179
+  },
+  {
+    "ward": "世田谷区",
+    "n02_count": 38,
+    "matched_exact": 38,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "下北沢",
+    "top_passengers": 225967
+  },
+  {
+    "ward": "渋谷区",
+    "n02_count": 19,
+    "matched_exact": 18,
+    "matched_alias": 0,
+    "zero_pax": 1,
+    "match_rate_pct": 94.7,
+    "zero_stations": [
+      {
+        "name": "新宿",
+        "lat": 35.68809,
+        "lon": 139.69918,
+        "fuzzy_candidates": [
+          "新宿三丁目",
+          "新宿西口",
+          "新宿御苑前",
+          "西新宿五丁目",
+          "南新宿"
+        ]
+      }
+    ],
+    "top_station": "渋谷",
+    "top_passengers": 1215997
+  },
+  {
+    "ward": "中野区",
+    "n02_count": 12,
+    "matched_exact": 12,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "中野",
+    "top_passengers": 386657
+  },
+  {
+    "ward": "杉並区",
+    "n02_count": 18,
+    "matched_exact": 18,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "荻窪",
+    "top_passengers": 242043
+  },
+  {
+    "ward": "豊島区",
+    "n02_count": 25,
+    "matched_exact": 25,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "池袋",
+    "top_passengers": 979866
+  },
+  {
+    "ward": "北区",
+    "n02_count": 19,
+    "matched_exact": 19,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "赤羽",
+    "top_passengers": 183284
+  },
+  {
+    "ward": "荒川区",
+    "n02_count": 20,
+    "matched_exact": 20,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "西日暮里",
+    "top_passengers": 359263
+  },
+  {
+    "ward": "板橋区",
+    "n02_count": 20,
+    "matched_exact": 20,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "板橋",
+    "top_passengers": 63704
+  },
+  {
+    "ward": "練馬区",
+    "n02_count": 19,
+    "matched_exact": 19,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "小竹向原",
+    "top_passengers": 488951
+  },
+  {
+    "ward": "足立区",
+    "n02_count": 24,
+    "matched_exact": 24,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "北千住",
+    "top_passengers": 501818
+  },
+  {
+    "ward": "葛飾区",
+    "n02_count": 12,
+    "matched_exact": 11,
+    "matched_alias": 0,
+    "zero_pax": 1,
+    "match_rate_pct": 91.7,
+    "zero_stations": [
+      {
+        "name": "堀切菖蒲園",
+        "lat": 35.74765,
+        "lon": 139.82802,
+        "fuzzy_candidates": []
+      }
+    ],
+    "top_station": "新小岩",
+    "top_passengers": 141472
+  },
+  {
+    "ward": "江戸川区",
+    "n02_count": 11,
+    "matched_exact": 11,
+    "matched_alias": 0,
+    "zero_pax": 0,
+    "match_rate_pct": 100,
+    "zero_stations": [],
+    "top_station": "小岩",
+    "top_passengers": 116612
+  }
+]

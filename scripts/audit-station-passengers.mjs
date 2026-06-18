@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { collectStation, EPISODE_WARDS, WARD_CODE } from './mlit-collector.mjs';
+import { collectStation, EPISODE_WARDS, WARD_CODE, loadEnv } from './mlit-collector.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -49,6 +49,7 @@ function computeFuzzyCandidates(name, keys) {
 }
 
 async function main() {
+  await loadEnv();
   const results = [];
   let total_n02 = 0;
   let total_matched = 0;

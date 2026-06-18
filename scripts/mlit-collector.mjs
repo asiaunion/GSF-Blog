@@ -35,6 +35,7 @@ import { readFile, writeFile, mkdir, access } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { getWardTiles, getWardPopulationTiles, WARD_POPULATION_TILE_PRESETS } from "./lib/ward-tiles.mjs";
+import { unionWardTiles, getStationTilesForWard } from './lib/station-tile-fetch.mjs';
 import { getStationsByWard } from "./lib/station-master.mjs";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -328,7 +329,13 @@ async function collectLandPrice(wardName, year = 2025, noCache = false) {
 
 /** XKT015: 역별 승하차 인원 */
 async function collectStation(wardName, noCache = false) {
-  const tiles = getWardTiles(wardName);
+  const wardCode = WARD_CODE[wardName] || String(13101 + Object.keys(WARD_CODE).indexOf(wardName)); // Fallback just in case
+  const tiles = unionWardTiles(wardName, wardCode);
+  const tile_sources = {
+    ward_polygon: getWardTiles(wardName).length,
+    station_coords: getStationTilesForWard(wardCode).length,
+    union: tiles.length
+  };
 
   const allStations = [];
   for (const { z, x, y } of tiles) {
@@ -355,7 +362,7 @@ async function collectStation(wardName, noCache = false) {
     "豊島区": "13116", "北区": "13117", "荒川区": "13118", "板橋区": "13119", "練馬区": "13120",
     "足立区": "13121", "葛飾区": "13122", "江戸川区": "13123"
   };
-  const wardCode = WARD_CODE_MAP[wardName];
+  
   
   // 1. N02 역 마스터 기반 조회
   const masterStations = getStationsByWard(wardCode);
@@ -407,7 +414,8 @@ async function collectStation(wardName, noCache = false) {
     source: "MLIT N02 Master + XKT015 API",
     note: "N02 역 마스터 기반 정확한 구 소속 매핑 적용됨. STATION_ADMIN_WARD는 fallback으로만 사용.",
     xkt015_keys: Array.from(xkt015Map.keys()),
-    master_stations: Array.from(stationsMap.values()).filter(s => s.is_master)
+    master_stations: Array.from(stationsMap.values()).filter(s => s.is_master),
+    tile_sources
   };
 }
 

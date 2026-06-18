@@ -415,3 +415,11 @@ Slice 0 → 1 → 2 → 3 → 4 → 5 → 6
 | `scripts/sync-mlit-to-benchmarks.mjs` | `--all-wards --types station` |
 | `scripts/verify-ep07-tiles.mjs` | ep07 회귀 gate |
 | `docs/verification/tokyo-ward-series-benchmarks.json` | `station_passengers.wards` |
+
+## [AG Log] 2026-06-18: Slice 2 완료
+- N02 역 좌표를 기반으로 `station-tile-fetch.mjs`의 `unionWardTiles`를 구현했습니다.
+- `mlit-collector.mjs`에 타일 union 로직을 통합하여 누락되었던 역 주변 데이터를 추가 수집하도록 했습니다.
+- **KPI 달성 결과**: 
+  - N02 대상 역 497개 중 **492개 (98.99%)** 매핑 성공.
+  - zero_pax 역은 **5개**로, KPI 목표치(≥88%, zero ≤60)를 초과 달성했습니다.
+- 다음 단계: Slice 3 (station-name-aliases.json 추가 및 정규화로 남은 5개 역 중 일부 복구).
