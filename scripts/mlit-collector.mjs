@@ -35,6 +35,7 @@ import { readFile, writeFile, mkdir, access } from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { getWardTiles, getWardPopulationTiles, WARD_POPULATION_TILE_PRESETS } from "./lib/ward-tiles.mjs";
+import { getStationsByWard } from "./lib/station-master.mjs";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 상수 정의
@@ -344,11 +345,55 @@ async function collectStation(wardName, noCache = false) {
 
   if (!allStations.length) return { ward: wardName, type: "station", count: 0, note: "데이터 없음" };
 
-  const stations = aggregateStations(allStations, wardName).map(s => ({
-    ...s,
-    coord: null,
-    year: "latest_in_S12",
-  }));
+  const xkt015Aggregated = aggregateStations(allStations, wardName);
+  const xkt015Map = new Map(xkt015Aggregated.map(s => [s.name, s.passengers_daily]));
+
+  const WARD_CODE_MAP = {
+    "千代田区": "13101", "中央区": "13102", "港区": "13103", "新宿区": "13104", "文京区": "13105",
+    "台東区": "13106", "墨田区": "13107", "江東区": "13108", "品川区": "13109", "目黒区": "13110",
+    "大田区": "13111", "世田谷区": "13112", "渋谷区": "13113", "中野区": "13114", "杉並区": "13115",
+    "豊島区": "13116", "北区": "13117", "荒川区": "13118", "板橋区": "13119", "練馬区": "13120",
+    "足立区": "13121", "葛飾区": "13122", "江戸川区": "13123"
+  };
+  const wardCode = WARD_CODE_MAP[wardName];
+  
+  // 1. N02 역 마스터 기반 조회
+  const masterStations = getStationsByWard(wardCode);
+  
+  const stationsMap = new Map();
+  for (const ms of masterStations) {
+    stationsMap.set(ms.name, {
+      name: ms.name,
+      lat: ms.lat,
+      lon: ms.lon,
+      line: ms.line,
+      passengers_daily: xkt015Map.get(ms.name) || 0,
+      coord: [ms.lon, ms.lat],
+      year: "latest_in_S12",
+      is_master: true
+    });
+  }
+
+  // 2. Fallback: 기존 STATION_ADMIN_WARD에 등록된 역 중 마스터에 없는 역 추가
+  // 타일 API가 인접 구 역을 무분별하게 가져오므로, N02에 없으면 명시적 매핑만 허용
+  for (const fallback of xkt015Aggregated) {
+    if (!stationsMap.has(fallback.name) && STATION_ADMIN_WARD[fallback.name] === wardName) {
+      stationsMap.set(fallback.name, {
+        name: fallback.name,
+        lat: null,
+        lon: null,
+        line: fallback.line,
+        passengers_daily: fallback.passengers_daily,
+        coord: null,
+        year: "latest_in_S12",
+        is_master: false
+      });
+    }
+  }
+
+  const stations = Array.from(stationsMap.values())
+    .filter(s => s.passengers_daily > 0 || s.is_master) // 데이터가 없더라도 마스터 역은 포함
+    .sort((a, b) => b.passengers_daily - a.passengers_daily);
 
   const total = stations.reduce((s, st) => s + st.passengers_daily, 0);
 
@@ -356,11 +401,11 @@ async function collectStation(wardName, noCache = false) {
     ward: wardName, type: "station",
     station_count: stations.length,
     total_daily_passengers: total,
-    stations: stations.slice(0, 20),
+    stations: stations.slice(0, 30), // 최대 30개로 넉넉하게
     top_station: stations[0] ?? null,
     fetched_at: new Date().toISOString().slice(0, 10),
-    source: "MLIT XKT015 API [1차 확인] A계층",
-    note: "타일 샘플 기반 — 행정구 경계와 불일치·인접 구 역 포함 가능; STATION_ADMIN_WARD 필터 적용",
+    source: "MLIT N02 Master + XKT015 API",
+    note: "N02 역 마스터 기반 정확한 구 소속 매핑 적용됨. STATION_ADMIN_WARD는 fallback으로만 사용.",
   };
 }
 

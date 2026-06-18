@@ -50,6 +50,7 @@ export const WARD_TILE_OVERRIDES = {
  * 인구(XKT013) 전용 타일 — station은 bbox, population은 과대·과소 샘플 방지용 큐레이션.
  * ep07 3구: Claude 지시 좌표 (역 위경도→z14 역산). 출처: docs/cursor-instructions/fix-ward-tiles-ep07.md
  */
+// STATION 데이터는 station-master.mjs로 이관. presets는 population 전용.
 export const WARD_POPULATION_TILE_PRESETS = {
   北区: [
     { z: 14, x: 14550, y: 6446 },

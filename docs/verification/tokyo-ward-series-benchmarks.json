@@ -671,26 +671,26 @@
       "北区": {
         "top_station": "赤羽",
         "top_passengers": 183284,
-        "total_daily": 1486294,
-        "station_count": 51,
+        "total_daily": 780926,
+        "station_count": 19,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-17"
+        "fetched_at": "2026-06-18"
       },
       "荒川区": {
         "top_station": "西日暮里",
         "top_passengers": 359263,
-        "total_daily": 1309747,
-        "station_count": 38,
+        "total_daily": 847019,
+        "station_count": 20,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-17"
+        "fetched_at": "2026-06-18"
       },
       "足立区": {
         "top_station": "北千住",
         "top_passengers": 501818,
-        "total_daily": 1456431,
-        "station_count": 26,
+        "total_daily": 1409015,
+        "station_count": 25,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-17"
+        "fetched_at": "2026-06-18"
       },
       "千代田区": {
         "top_station": "東京",

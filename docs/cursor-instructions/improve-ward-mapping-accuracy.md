@@ -175,3 +175,5 @@ Task 2·3은 병렬 진행 가능.
 - 채택 소스: e-Stat / IPSS / 国土地理院 / N02
 - czl.jp: 사용 안 함
 - [2026-06-18] Slice 1 완료 — ep07 POP jukiren+ipss, verify:ep07-tiles PASSED
+- [2026-06-18] Slice 2 완료 — 23구 인구 backfill jukiren+ipss
+- [2026-06-18] Slice 3 완료 — N02 역 마스터 도입, ep07 STATION 재검증 PASSED
