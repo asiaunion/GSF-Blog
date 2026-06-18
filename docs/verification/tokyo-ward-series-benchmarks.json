@@ -664,9 +664,9 @@
     }
   },
   "station_passengers": {
-    "source": "MLIT XKT015",
+    "source": "MLIT N02 Master + XKT015 (ward+station tile union)",
     "tier": "A",
-    "note": "타일 샘플 기반 — 행정구 전체와 불일치 가능",
+    "note": "N02 역 소속 + polygon/station-coord 타일 union + station-name-aliases. zero_pax 의도적 2건: 千代田·秋葉原, 渋谷·新宿 (STATION_ADMIN_WARD 이중계상 방지). match_rate ~99.6%.",
     "wards": {
       "北区": {
         "top_station": "赤羽",
