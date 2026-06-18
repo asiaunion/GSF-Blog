@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "last_updated": "2026-06-18",
   "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
   "data_tiers": {
@@ -671,7 +671,7 @@
       "北区": {
         "top_station": "赤羽",
         "top_passengers": 183284,
-        "total_daily": 666228,
+        "total_daily": 948393,
         "station_count": 19,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -679,7 +679,7 @@
       "荒川区": {
         "top_station": "西日暮里",
         "top_passengers": 359263,
-        "total_daily": 618251,
+        "total_daily": 847019,
         "station_count": 20,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -687,15 +687,15 @@
       "足立区": {
         "top_station": "北千住",
         "top_passengers": 501818,
-        "total_daily": 927116,
+        "total_daily": 1517110,
         "station_count": 24,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "千代田区": {
         "top_station": "東京",
-        "top_passengers": 993915,
-        "total_daily": 2516901,
+        "top_passengers": 1176902,
+        "total_daily": 4673060,
         "station_count": 27,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -703,7 +703,7 @@
       "中央区": {
         "top_station": "八丁堀",
         "top_passengers": 259988,
-        "total_daily": 1697510,
+        "total_daily": 2249647,
         "station_count": 22,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -711,7 +711,7 @@
       "港区": {
         "top_station": "新橋",
         "top_passengers": 716115,
-        "total_daily": 3541153,
+        "total_daily": 4083989,
         "station_count": 35,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -719,15 +719,15 @@
       "新宿区": {
         "top_station": "新宿",
         "top_passengers": 1494374,
-        "total_daily": 3200854,
+        "total_daily": 4318509,
         "station_count": 27,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "文京区": {
-        "top_station": "御茶ノ水",
-        "top_passengers": 223836,
-        "total_daily": 1111623,
+        "top_station": "飯田橋",
+        "top_passengers": 487688,
+        "total_daily": 1506444,
         "station_count": 16,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -735,15 +735,15 @@
       "台東区": {
         "top_station": "秋葉原",
         "top_passengers": 531329,
-        "total_daily": 2225853,
+        "total_daily": 2490662,
         "station_count": 19,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "墨田区": {
         "top_station": "押上",
-        "top_passengers": 223535,
-        "total_daily": 423266,
+        "top_passengers": 573261,
+        "total_daily": 1687828,
         "station_count": 13,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -751,15 +751,15 @@
       "江東区": {
         "top_station": "新木場",
         "top_passengers": 282481,
-        "total_daily": 1038731,
+        "total_daily": 1722175,
         "station_count": 28,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "品川区": {
-        "top_station": "大崎",
-        "top_passengers": 375884,
-        "total_daily": 1101718,
+        "top_station": "五反田",
+        "top_passengers": 514510,
+        "total_daily": 2235167,
         "station_count": 25,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -767,7 +767,7 @@
       "目黒区": {
         "top_station": "中目黒",
         "top_passengers": 363724,
-        "total_daily": 522477,
+        "total_daily": 744289,
         "station_count": 9,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -775,7 +775,7 @@
       "大田区": {
         "top_station": "蒲田",
         "top_passengers": 399179,
-        "total_daily": 1092046,
+        "total_daily": 1687268,
         "station_count": 40,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -783,15 +783,15 @@
       "世田谷区": {
         "top_station": "下北沢",
         "top_passengers": 225967,
-        "total_daily": 1585041,
+        "total_daily": 1741540,
         "station_count": 38,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "渋谷区": {
         "top_station": "渋谷",
-        "top_passengers": 821426,
-        "total_daily": 1492139,
+        "top_passengers": 1215997,
+        "total_daily": 2613487,
         "station_count": 19,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -799,7 +799,7 @@
       "中野区": {
         "top_station": "中野",
         "top_passengers": 386657,
-        "total_daily": 562984,
+        "total_daily": 792731,
         "station_count": 12,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -807,7 +807,7 @@
       "杉並区": {
         "top_station": "荻窪",
         "top_passengers": 242043,
-        "total_daily": 954564,
+        "total_daily": 991279,
         "station_count": 18,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -815,23 +815,23 @@
       "豊島区": {
         "top_station": "池袋",
         "top_passengers": 979866,
-        "total_daily": 1608024,
+        "total_daily": 1801229,
         "station_count": 25,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "板橋区": {
-        "top_station": "東武練馬",
-        "top_passengers": 54406,
-        "total_daily": 454755,
+        "top_station": "板橋",
+        "top_passengers": 63704,
+        "total_daily": 666210,
         "station_count": 20,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "練馬区": {
         "top_station": "小竹向原",
-        "top_passengers": 301371,
-        "total_daily": 921873,
+        "top_passengers": 488951,
+        "total_daily": 1295760,
         "station_count": 19,
         "episode": "",
         "fetched_at": "2026-06-18"
@@ -839,15 +839,15 @@
       "葛飾区": {
         "top_station": "新小岩",
         "top_passengers": 141472,
-        "total_daily": 578017,
+        "total_daily": 682136,
         "station_count": 12,
         "episode": "",
         "fetched_at": "2026-06-18"
       },
       "江戸川区": {
-        "top_station": "瑞江",
-        "top_passengers": 105698,
-        "total_daily": 454215,
+        "top_station": "小岩",
+        "top_passengers": 116612,
+        "total_daily": 659975,
         "station_count": 11,
         "episode": "",
         "fetched_at": "2026-06-18"
