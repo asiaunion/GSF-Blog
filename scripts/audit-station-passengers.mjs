@@ -82,7 +82,7 @@ async function main() {
       console.error = origErr;
     }
 
-    const masterStations = res.stations.filter(s => s.is_master);
+    const masterStations = res.master_stations || [];
     const n02_count = masterStations.length;
     let matched_exact = 0;
     let matched_alias = 0; // Will be used in Slice 3
