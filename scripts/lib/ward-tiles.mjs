@@ -35,7 +35,7 @@ export const WARD_BOUNDS = {
   杉並区: { minLat: 35.682, maxLat: 35.718, minLon: 139.612, maxLon: 139.662 },
   豊島区: { minLat: 35.712, maxLat: 35.738, minLon: 139.698, maxLon: 139.728 },
   北区: { minLat: 35.728, maxLat: 35.778, minLon: 139.708, maxLon: 139.768 },
-  荒川区: { minLat: 35.718, maxLat: 35.748, minLon: 139.768, maxLon: 139.808 },
+  荒川区: { minLat: 35.724, maxLat: 35.755, minLon: 139.749, maxLon: 139.815 },
   板橋区: { minLat: 35.728, maxLat: 35.796, minLon: 139.644, maxLon: 139.718 },
   練馬区: { minLat: 35.718, maxLat: 35.768, minLon: 139.598, maxLon: 139.678 },
   足立区: { minLat: 35.748, maxLat: 35.798, minLon: 139.748, maxLon: 139.828 },
@@ -44,7 +44,12 @@ export const WARD_BOUNDS = {
 };
 
 /** bbox로 잡히지 않는 모서리·역 밀집지만 수동 보강 */
-export const WARD_TILE_OVERRIDES = {};
+export const WARD_TILE_OVERRIDES = {
+  荒川区: [
+    { z: 14, x: 14552, y: 6449 }, // 西日暮里, 日暮里
+    { z: 14, x: 14552, y: 6448 }
+  ],
+};
 
 /**
  * 인구(XKT013) 전용 타일 — station은 bbox, population은 과대·과소 샘플 방지용 큐레이션.
