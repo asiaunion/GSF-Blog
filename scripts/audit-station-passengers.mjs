@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { collectStation, EPISODE_WARDS, WARD_CODE, loadEnv } from './mlit-collector.mjs';
+import { resolveXkt015Name, normalizeStationName } from './lib/station-alias.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -94,8 +95,11 @@ async function main() {
 
     for (const s of masterStations) {
       if (s.passengers_daily > 0) {
-        // In Slice 1, everything matched is exact
-        matched_exact++;
+        if (resolveXkt015Name(s.name) !== normalizeStationName(s.name)) {
+          matched_alias++;
+        } else {
+          matched_exact++;
+        }
       } else {
         zero_pax++;
         zero_stations.push({

@@ -36,6 +36,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { getWardTiles, getWardPopulationTiles, WARD_POPULATION_TILE_PRESETS } from "./lib/ward-tiles.mjs";
 import { unionWardTiles, getStationTilesForWard } from './lib/station-tile-fetch.mjs';
+import { resolveXkt015Name, buildXkt015Map } from './lib/station-alias.mjs';
 import { getStationsByWard } from "./lib/station-master.mjs";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -353,7 +354,7 @@ async function collectStation(wardName, noCache = false) {
   if (!allStations.length) return { ward: wardName, type: "station", count: 0, note: "데이터 없음" };
 
   const xkt015Aggregated = aggregateStations(allStations, wardName);
-  const xkt015Map = new Map(xkt015Aggregated.map(s => [s.name, s.passengers_daily]));
+  const xkt015Map = buildXkt015Map(xkt015Aggregated);
 
   const WARD_CODE_MAP = {
     "千代田区": "13101", "中央区": "13102", "港区": "13103", "新宿区": "13104", "文京区": "13105",
@@ -369,12 +370,13 @@ async function collectStation(wardName, noCache = false) {
   
   const stationsMap = new Map();
   for (const ms of masterStations) {
+    const aliasName = resolveXkt015Name(ms.name);
     stationsMap.set(ms.name, {
       name: ms.name,
       lat: ms.lat,
       lon: ms.lon,
       line: ms.line,
-      passengers_daily: xkt015Map.get(ms.name) || 0,
+      passengers_daily: xkt015Map.get(aliasName) || 0,
       coord: [ms.lon, ms.lat],
       year: "latest_in_S12",
       is_master: true
@@ -612,9 +614,7 @@ const STATION_ADMIN_WARD = {
   "北千住": "足立区",
   "綾瀬": "足立区",
   "小菅": "足立区",
-  "堀切菖蒲園": "足立区",
   "四ツ木": "葛飾区",
-  "鐘ヶ淵": "葛飾区",
   "赤羽": "北区",
   "赤羽岩淵": "北区",
   "王子": "北区",

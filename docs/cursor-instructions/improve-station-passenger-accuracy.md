@@ -239,9 +239,11 @@ N02↔XKT015 **문자열 불일치** 해소. 자동 fuzzy는 alias 파일에 **�
 ### 완료 보고
 
 ```
-Slice 3: station name aliases
-- alias entries: N
-- match_rate 평균: X%
+- [x] Slice 3: `station-name-aliases.json` + 정규화`station-alias.mjs` 구현
+  - `とうきょうスカイツリー` → `押上` alias.
+  - `鐘ヶ淵`, `堀切菖蒲園`를 `STATION_ADMIN_WARD`에서 제거하여 N02 소속구에서 매핑되게 수정.
+  - `新宿`(Shibuya), `秋葉原`(Chiyoda)는 0 유지.
+  - KPI: matched=495 (494 exact + 1 alias), zero=2.
 - post-alias JSON 커밋
 ```
 
