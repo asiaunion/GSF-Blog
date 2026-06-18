@@ -28,7 +28,7 @@ export const TOKYO_TAMA_CITIES = [
   { code: "13225", name_ja: "稲城市", name_en_slug: "inagi" },
   { code: "13226", name_ja: "羽村市", name_en_slug: "hamura" },
   { code: "13227", name_ja: "あきる野市", name_en_slug: "akiruno" },
-  { code: "13229", name_ja: "西東京市", name_en_slug: "nishitokyo" },
+  { code: "13228", name_ja: "西東京市", name_en_slug: "nishitokyo" },
 ];
 
 export const TOKYO_TAMA_CODES = TOKYO_TAMA_CITIES.map((c) => c.code);
@@ -44,7 +44,7 @@ export const TOKYO_TAMA_WAVE2_PRIORITY = [
   "13206", // 府中市
   "13208", // 調布市
   "13209", // 町田市
-  "13229", // 西東京市
+  "13228", // 西東京市
 ];
 
 export const TOKYO_TAMA_WAVE2_NAMES = TOKYO_TAMA_WAVE2_PRIORITY.map(

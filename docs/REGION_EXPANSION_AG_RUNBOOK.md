@@ -420,6 +420,52 @@ pnpm audit:ward-tiles --municipality 八王子市
 
 **핸드오프 필수**: 8시×섹션 커버리지 표 · `tile_coverage_warning` 목록 · N02 역 수 spot check
 
+### 8.8 §RE-6-W2-N1 — 西東京市 코드 `13228` 정합 (Nit)
+
+**착수 조건**: RE-6-W2-G01 PASS (Cursor nit 지적)  
+**배경**: AG가 N03 구코드 `13229`로 registry를 통일했으나 **総務省 공식 코드는 `13228`**.  
+`n02-stations-tokyo-tama.geojson` 역 5개는 `ward_code: "13228"`에 남아 `getStationsByWard("13229")` → 0 · tile audit 西東京 → 0역.
+
+**원칙 (Wave 1과 동일)**:
+- Registry·SSOT·`regions.*` → **공식 `13228`**
+- N03 `N03_007`은 `13229`일 수 있음 → boundary는 **`name_ja` 매칭** + `registry_code: "13228"` 강제
+
+| ID | 작업 | 산출 |
+|----|------|------|
+| RE-6-W2-N1-T01 | SSOT 복원 | `tokyo-tama-cities.mjs` — 西東京 `13228` (WAVE2_PRIORITY 포함) |
+| RE-6-W2-N1-T02 | boundary 재생성 | `prepare-n03-tokyo-tama.mjs` → `registry_code: "13228"` 확인 |
+| RE-6-W2-N1-T03 | registry 키 이전 | `municipalities.json` — `13229` 삭제 → `13228` 추가, `regions.tokyo_tama`·`tokyo_tama_priority` 갱신 |
+| RE-6-W2-N1-T04 | N02 재생성 | `prepare-n02-tokyo-tama.mjs` → 西東京 `ward_code: "13228"` ≥ 5역 |
+| RE-6-W2-N1-T05 | spot check | 아래 게이트 |
+
+**금지**: `tokyo-tama-benchmarks.json` 재수집 불필요 (키는 `name_ja` 西東京市). benchmarks·price-points **덮어쓰기 금지**.
+
+```bash
+# 수정 후 순서
+node scripts/prepare-n03-tokyo-tama.mjs
+node scripts/seed-tokyo-tama-registry.mjs    # 또는 13229→13228 수동 이전 + bbox
+node scripts/prepare-n02-tokyo-tama.mjs
+
+# 완료 검증
+node -e "import { getStationsByWard } from './scripts/lib/station-master.mjs'; console.log(getStationsByWard('13228').length)"
+# 기대: ≥5
+
+pnpm verify:tokyo-tama
+pnpm verify:tokyo-tama-benchmarks
+pnpm audit:ward-tiles --municipality 西東京市
+# 기대: stations > 0, top_station 존재
+
+pnpm verify:region-pilot
+pnpm verify:disaster-complete
+```
+
+**완료 기준**:
+- `listRegion('tokyo_tama')`에 `13228` 포함 · `13229` 없음
+- `getStationsByWard('13228').length ≥ 5`
+- `audit:ward-tiles 西東京市` — `station_count > 0`
+
+**Cursor 게이트**: `RE-6-W2-N1-G01`
+
 ---
 
 ## 9. 진행 상태 보드
@@ -432,7 +478,8 @@ pnpm audit:ward-tiles --municipality 八王子市
 | RE-4 | ✅ 완료 | RE-4-G01 PASS |
 | RE-5 | ✅ 완료 | RE-5 마감 (location_optimization sync → 후속) |
 | RE-6 | ✅ Wave 1 | `verify:tokyo-tama` + 23구 회귀 PASS |
-| RE-6 W2 | 🎯 착수 | N02 + `tokyo-tama-benchmarks` 우선 8시 |
+| RE-6 W2 | ✅ 완료 | `verify:tokyo-tama-benchmarks` + 회귀 PASS (Cursor RE-6-W2-G01) |
+| RE-6 W2-N1 | 🎯 착수 | 西東京 `13228` 정합 (N02·registry) |
 
 *AG: 슬라이스 완료 시 이 표를 핸드오프에 갱신 요청 (Cursor가 commit 시 반영 가능).*
 
@@ -444,6 +491,7 @@ pnpm audit:ward-tiles --municipality 八王子市
 |------|-------------------------|
 | RE-2 시작 | `RE-2 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-2` |
 | RE-6 W2 시작 | `RE-6 Wave 2 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §8.4` |
+| RE-6 W2-N1 | `RE-6-W2-N1 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §8.8 — 西東京 13228 정합` |
 | RE-2 검증 후 | `RE-3 착수. docs/REGION_EXPANSION_AG_RUNBOOK.md §RE-3` |
 | 핸드오프 | `RE-N 핸드오프. Runbook §2 템플릿 + 게이트 로그 첨부` |
 
