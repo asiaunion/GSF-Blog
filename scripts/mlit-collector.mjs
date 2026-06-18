@@ -406,6 +406,7 @@ async function collectStation(wardName, noCache = false) {
     fetched_at: new Date().toISOString().slice(0, 10),
     source: "MLIT N02 Master + XKT015 API",
     note: "N02 역 마스터 기반 정확한 구 소속 매핑 적용됨. STATION_ADMIN_WARD는 fallback으로만 사용.",
+    xkt015_keys: Array.from(xkt015Map.keys())
   };
 }
 
