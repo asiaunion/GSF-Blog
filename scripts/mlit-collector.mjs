@@ -365,6 +365,7 @@ async function collectStation(wardName, noCache = false) {
 }
 
 /** XKT013: 장래 추계 인구 (250m 메시) */
+// XKT013 메시 = 보조. 구별 인구 SSOT = benchmarks.population_forecast (jukiren+ipss).
 async function collectPopulation(wardName, noCache = false) {
   const tiles = getWardPopulationTiles(wardName);
   const usesPreset = Boolean(WARD_POPULATION_TILE_PRESETS[wardName]);

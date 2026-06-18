@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3",
-  "last_updated": "2026-06-17",
+  "last_updated": "2026-06-18",
   "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
   "data_tiers": {
     "A": "MLIT JSON / PKM verified card — scripts/verify-episode-manifest.mjs 자동 검증",
@@ -1034,7 +1034,6 @@
         "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
         "fetched_at": "2026-06-18",
         "mesh_coverage_warning": false,
-        "population_tile_preset": true,
         "episode": "Ep.07"
       },
       "荒川区": {
@@ -1045,7 +1044,6 @@
         "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
         "fetched_at": "2026-06-18",
         "mesh_coverage_warning": false,
-        "population_tile_preset": true,
         "episode": "Ep.07"
       },
       "足立区": {
@@ -1056,168 +1054,187 @@
         "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
         "fetched_at": "2026-06-18",
         "mesh_coverage_warning": false,
-        "population_tile_preset": true,
         "episode": "Ep.07"
       },
       "千代田区": {
-        "pop_2020": 384880,
-        "pop_2040": 438138,
-        "change_pct": "13.8%",
-        "mesh_count": 385,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 66680,
+        "pop_2040": 77961,
+        "change_pct": "16.9%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "中央区": {
-        "pop_2020": 390101,
-        "pop_2040": 455463,
-        "change_pct": "16.8%",
-        "mesh_count": 366,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 169179,
+        "pop_2040": 204407,
+        "change_pct": "20.8%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "港区": {
-        "pop_2020": 463753,
-        "pop_2040": 547019,
-        "change_pct": "18%",
-        "mesh_count": 465,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 260486,
+        "pop_2040": 303333,
+        "change_pct": "16.4%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "新宿区": {
-        "pop_2020": 803971,
-        "pop_2040": 872171,
-        "change_pct": "8.5%",
-        "mesh_count": 644,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 349385,
+        "pop_2040": 368303,
+        "change_pct": "5.4%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "文京区": {
-        "pop_2020": 565591,
-        "pop_2040": 639171,
-        "change_pct": "13%",
-        "mesh_count": 445,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 240069,
+        "pop_2040": 269344,
+        "change_pct": "12.2%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "台東区": {
-        "pop_2020": 579626,
-        "pop_2040": 649537,
-        "change_pct": "12.1%",
-        "mesh_count": 445,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 211444,
+        "pop_2040": 239478,
+        "change_pct": "13.3%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "墨田区": {
-        "pop_2020": 436293,
-        "pop_2040": 477187,
-        "change_pct": "9.4%",
-        "mesh_count": 302,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 272085,
+        "pop_2040": 294801,
+        "change_pct": "8.3%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "江東区": {
-        "pop_2020": 819450,
-        "pop_2040": 901470,
-        "change_pct": "10%",
-        "mesh_count": 698,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 524310,
+        "pop_2040": 584661,
+        "change_pct": "11.5%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "品川区": {
-        "pop_2020": 711986,
-        "pop_2040": 773719,
-        "change_pct": "8.7%",
-        "mesh_count": 510,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 422488,
+        "pop_2040": 460036,
+        "change_pct": "8.9%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "目黒区": {
-        "pop_2020": 739428,
-        "pop_2040": 783690,
-        "change_pct": "6%",
-        "mesh_count": 602,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 288088,
+        "pop_2040": 298001,
+        "change_pct": "3.4%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "大田区": {
-        "pop_2020": 1518225,
-        "pop_2040": 1591215,
-        "change_pct": "4.8%",
-        "mesh_count": 1212,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 748081,
+        "pop_2040": 771582,
+        "change_pct": "3.1%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "世田谷区": {
-        "pop_2020": 1586068,
-        "pop_2040": 1667211,
-        "change_pct": "5.1%",
-        "mesh_count": 1526,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 943664,
+        "pop_2040": 987357,
+        "change_pct": "4.6%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "渋谷区": {
-        "pop_2020": 424036,
-        "pop_2040": 453455,
-        "change_pct": "6.9%",
-        "mesh_count": 430,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 243883,
+        "pop_2040": 264615,
+        "change_pct": "8.5%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "中野区": {
-        "pop_2020": 946263,
-        "pop_2040": 990708,
-        "change_pct": "4.7%",
-        "mesh_count": 669,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 344880,
+        "pop_2040": 364317,
+        "change_pct": "5.6%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "杉並区": {
-        "pop_2020": 1127616,
-        "pop_2040": 1183519,
-        "change_pct": "5%",
-        "mesh_count": 896,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 591108,
+        "pop_2040": 618753,
+        "change_pct": "4.7%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "豊島区": {
-        "pop_2020": 670955,
-        "pop_2040": 729750,
-        "change_pct": "8.8%",
-        "mesh_count": 455,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 301599,
+        "pop_2040": 328611,
+        "change_pct": "9.0%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "板橋区": {
-        "pop_2020": 1827547,
-        "pop_2040": 1914794,
-        "change_pct": "4.8%",
-        "mesh_count": 1452,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 584483,
+        "pop_2040": 606997,
+        "change_pct": "3.9%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "練馬区": {
-        "pop_2020": 1312479,
-        "pop_2040": 1368580,
-        "change_pct": "4.3%",
-        "mesh_count": 1211,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 752608,
+        "pop_2040": 764854,
+        "change_pct": "1.6%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "葛飾区": {
-        "pop_2020": 1083387,
-        "pop_2040": 1097729,
-        "change_pct": "1.3%",
-        "mesh_count": 1133,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 453093,
+        "pop_2040": 456775,
+        "change_pct": "0.8%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       },
       "江戸川区": {
-        "pop_2020": 933906,
-        "pop_2040": 937874,
-        "change_pct": "0.4%",
-        "mesh_count": 821,
-        "episode": "",
-        "fetched_at": "2026-06-17"
+        "pop_2020": 697932,
+        "pop_2040": 690100,
+        "change_pct": "-1.1%",
+        "source": "jukiren+ipss",
+        "source_url": "https://www.ipss.go.jp/pp-shicyoson/j/shicyoson23/t-page.asp",
+        "fetched_at": "2026-06-18",
+        "mesh_coverage_warning": false
       }
     }
   },

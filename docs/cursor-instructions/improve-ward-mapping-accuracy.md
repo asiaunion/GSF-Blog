@@ -174,3 +174,4 @@ Task 2·3은 병렬 진행 가능.
 - [2026-06-18] Slice 0: 브랜치 baseline 커밋
 - 채택 소스: e-Stat / IPSS / 国土地理院 / N02
 - czl.jp: 사용 안 함
+- [2026-06-18] Slice 1 완료 — ep07 POP jukiren+ipss, verify:ep07-tiles PASSED
