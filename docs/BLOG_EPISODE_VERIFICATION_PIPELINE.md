@@ -162,6 +162,7 @@ Execution order: Phase 1 (timeseries) → Phase 3 (research-pack) → Phase 2a·
 | 3-E | `c_tier_capture_requests` resolved or waived | Joseph |
 | 3-E | `manifest_approved_by` | Joseph |
 | 4 | `draft_started: true` (after manifest approval) | AG |
+| Pre-draft | `pnpm verify:station-passengers` + `audit-ward-tiles --episode epXX` exit 0 | CI/script |
 | Post-draft | `cursor_audit_passed: true` | Cursor |
 | Pre-deploy | `pnpm verify:episode --require-gates` exit 0 | CI/script |
 | Pre-deploy | `pnpm validate:post <slug>` exit 0 | CI/script |
