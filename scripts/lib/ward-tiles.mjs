@@ -12,6 +12,8 @@
  * 대형 구(世田谷·大田·練馬·江東 등)는 bbox로 12~24타일이 정상.
  */
 
+import { isPointInWard } from "./ward-polygon.mjs";
+
 export const TILE_ZOOM = 14;
 
 /** @type {Record<string, {minLat:number,maxLat:number,minLon:number,maxLon:number}>} */
@@ -42,9 +44,7 @@ export const WARD_BOUNDS = {
 };
 
 /** bbox로 잡히지 않는 모서리·역 밀집지만 수동 보강 */
-export const WARD_TILE_OVERRIDES = {
-  荒川区: [{ z: 14, x: 14554, y: 6448 }],
-};
+export const WARD_TILE_OVERRIDES = {};
 
 /**
  * 인구(XKT013) 전용 타일 — station은 bbox, population은 과대·과소 샘플 방지용 큐레이션.
@@ -79,6 +79,15 @@ export function lon2tile(lon, z = TILE_ZOOM) {
 export function lat2tile(lat, z = TILE_ZOOM) {
   const rad = (lat * Math.PI) / 180;
   return Math.floor(((1 - Math.log(Math.tan(rad) + 1 / Math.cos(rad)) / Math.PI) / 2) * 2 ** z);
+}
+
+export function tileCenterLatLon(x, y, z = TILE_ZOOM) {
+  const cx = x + 0.5;
+  const cy = y + 0.5;
+  const n = Math.PI - (2.0 * Math.PI * cy) / Math.pow(2.0, z);
+  const lat = (180.0 / Math.PI) * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n)));
+  const lon = (cx / Math.pow(2.0, z)) * 360.0 - 180.0;
+  return { lat, lon };
 }
 
 export function tilesForBounds(bounds, z = TILE_ZOOM) {
@@ -119,8 +128,15 @@ export function getWardTiles(wardName) {
   const bounds = WARD_BOUNDS[wardName];
   if (!bounds) throw new Error(`WARD_BOUNDS에 없는 구: ${wardName}`);
   const fromBounds = tilesForBounds(bounds, TILE_ZOOM);
+  
+  // bbox에서 얻은 후보 타일들을 실제 구 행정구역 폴리곤(중심점 기준)으로 필터링
+  const filteredBounds = fromBounds.filter(t => {
+    const { lat, lon } = tileCenterLatLon(t.x, t.y, t.z);
+    return isPointInWard(lat, lon, wardName);
+  });
+
   const extra = WARD_TILE_OVERRIDES[wardName] ?? [];
-  return dedupeTiles([...fromBounds, ...extra]);
+  return dedupeTiles([...filteredBounds, ...extra]);
 }
 
 /** station·disaster·地価 — bbox 기반 */

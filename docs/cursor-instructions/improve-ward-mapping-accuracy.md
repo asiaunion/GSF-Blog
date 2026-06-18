@@ -177,3 +177,4 @@ Task 2·3은 병렬 진행 가능.
 - [2026-06-18] Slice 1 완료 — ep07 POP jukiren+ipss, verify:ep07-tiles PASSED
 - [2026-06-18] Slice 2 완료 — 23구 인구 backfill jukiren+ipss
 - [2026-06-18] Slice 3 완료 — N02 역 마스터 도입, ep07 STATION 재검증 PASSED
+- [2026-06-18] Slice 4 완료 — GeoJSON 행정경계 폴리곤 필터 도입, WARD_TILE_OVERRIDES Arakawa 예외 제거

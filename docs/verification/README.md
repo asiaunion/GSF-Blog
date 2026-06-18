@@ -34,6 +34,11 @@ pnpm validate:post <slug>
 | [`manifests/*.manifest.json`](./manifests/) | 에피소드별 claim ledger |
 | [`../BLOG_EPISODE_VERIFICATION_PIPELINE.md`](../BLOG_EPISODE_VERIFICATION_PIPELINE.md) | 전체 Phase 1~3 문서 |
 
+## Data Sources & Mapping (Schema 1.4)
+- **population 소스**: 기존 XKT013 메시 방식에서 **住民基本台帳+社人研(IPSS R5)** 공식 구별 데이터로 교체 (`source: "jukiren+ipss"`).
+- **station 소스**: 타일 API 사후 필터링에서 **国土数値情報 鉄道データ(N02)** 역 마스터 조회 후 XKT015 조인 방식으로 교체.
+- **타일 필터**: 단순 bbox 외접 사각형 방식에서 **bbox + GeoJSON 행정경계 폴리곤(turf)** 정밀 필터링으로 개선하여 경계 타일 오분류 제거.
+
 ## 3 layers
 
 | Layer | Source | Verification |
