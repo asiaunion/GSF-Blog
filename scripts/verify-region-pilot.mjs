@@ -39,7 +39,7 @@ function main() {
       }
 
       // Check coverage_status if applicable
-      if (wardData.coverage_status && !["ok", "partial", "no_data", "tile_coverage_warning"].includes(wardData.coverage_status)) {
+      if (wardData.coverage_status && !["ok", "partial", "no_data", "tile_coverage_warning", "surveyed"].includes(wardData.coverage_status)) {
          console.warn(`⚠️  Ward '${ward}' in section '${section}' has unknown coverage_status: ${wardData.coverage_status}`);
       }
     }

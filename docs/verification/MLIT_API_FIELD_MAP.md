@@ -143,7 +143,7 @@ Fields are documented exactly as returned by the API to ensure no guessing or ha
 
 - **XKT002 (용도지역)**: `city_code`가 "14100"(요코하마시), "14130"(가와사키시) 등으로 반환됨. (구 코드인 14103이나 14133이 아님). `city_name` 또한 "横浜市", "川崎市"로 반환.
 - **XKT023 (지구계획) / XKT024 (고도이용지구)**: `city_code`는 아예 존재하지 않으며, `city_name`이 "横浜市", "川崎市"로 반환됨.
-- **필터링 시 주의**: 수집기(`mlit-collector.mjs`)에서 `p.city_code !== targetCityCode && p.city_name !== wardName` 와 같이 엄격하게 검사할 경우, 정령지정도시의 구 데이터가 **전부 누락(0건)**되는 문제 발생. 부모 시(parent city) 코드나 이름과도 매칭을 허용하거나, BBOX/폴리곤 기하학적 포함(intersect) 여부로만 필터링하도록 완화가 필요함 (선택적 후속 과제).
+- **필터링 시 주의**: 수집기(`mlit-collector.mjs`)에서 `p.city_code !== targetCityCode && p.city_name !== wardName` 와 같이 엄격하게 검사할 경우, 정령지정도시의 구 데이터가 **전부 누락(0건)**되는 문제 발생. 부모 시(parent city) 코드나 이름과도 매칭을 허용하거나, BBOX/폴리곤 기하학적 포함(intersect) 여부로만 필터링하도록 완화가 필요함 (구현 완료: 81c3736).
 
 ### XKT003 (입지적정화계획구역)
 - **type**: FeatureCollection (geojson)
