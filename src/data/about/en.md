@@ -82,7 +82,7 @@ The words I often repeat to myself are **change and progress**. I do not fear re
       <h4 class="timeline-role">Tokyo Nihonbashi · Condo Purchase & Relocation</h4>
       <p>In 2026 I purchased a pre-owned condominium (中古マンション) in Nihonbashi, Tokyo and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level. I continue to walk the path of an investor and independent researcher, and this blog serves as a record of that ongoing journey.</p>
       <p>If you're interested in the purchase process itself — what surprised me, what differed from Korea, and why timing mattered more than price — you may find this essay helpful:
-<a href="/posts/buying-property-japan-surprises-foreign-investor/">What Surprised Me Most About Buying Property in Japan</a>.</p>
+<a class="timeline-essay-link" href="/posts/buying-property-japan-surprises-foreign-investor/">What Surprised Me Most About Buying Property in Japan</a>.</p>
     </div>
   </div>
 </div>

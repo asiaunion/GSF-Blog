@@ -80,7 +80,7 @@ title: "소개"
       <h4 class="timeline-role">도쿄 니혼바시 · 중고 맨션 구입 & 이주</h4>
       <p>도쿄 니혼바시에서 중고 맨션(中古マンション)을 구입하여 이사했습니다. 물건 탐색부터 계약, 대출 심사, 잔금·등기에 이르는 일본 부동산 거래의 전 과정을 직접 경험했습니다. 한국과 일본, 두 나라의 부동산 시장을 실무 수준에서 비교할 수 있게 된 계기이기도 합니다. 저는 투자자이자 리서처로서의 길을 걷고 있으며, 이 블로그는 그 과정의 기록입니다.</p>
       <p>실제 매입 과정에서 어떤 점이 예상과 달랐는지, 한국과 일본의 차이는 무엇이었는지, 그리고 왜 가격보다 타이밍이 더 중요하다고 느꼈는지 궁금하시다면 아래 글도 참고해 보시기 바랍니다.
-<a href="/ko/posts/buying-property-japan-surprises-foreign-investor/">일본에서 집을 사며 가장 놀랐던 것들</a>.</p>
+<a class="timeline-essay-link" href="/ko/posts/buying-property-japan-surprises-foreign-investor/">일본에서 집을 사며 가장 놀랐던 것들</a>.</p>
     </div>
   </div>
 </div>

@@ -194,6 +194,11 @@ html[data-theme="dark"] {
   color: color-mix(in srgb, var(--color-foreground) 80%, transparent);
   margin: 0;
 }
+.timeline-essay-link {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 50%, transparent);
+}
 
 /**
  * About Pillars — 4-column topic cards

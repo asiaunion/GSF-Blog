@@ -82,7 +82,7 @@ title: "紹介"
       <h4 class="timeline-role">日本橋 · 中古マンション購入 & 移住</h4>
       <p>日本橋で中古マンションを購入し、引越しました。物件探しから契約・住宅ローン審査・残金決済・登記まで、日本の不動産取引のすべてのプロセスを自ら経験しました。韓国と日本、二つの不動産市場を実務レベルで比較できるようになった契機でもあります。投資家でありリサーチャーとしての道を歩んでおり、このブログはその過程の記録です。</p>
       <p>実際の購入プロセスで何に驚いたのか、韓国との違いは何だったのか、そしてなぜ価格よりもタイミングが重要だと感じたのかについては、こちらの記事で詳しく書いています。
-<a href="/ja/posts/buying-property-japan-surprises-foreign-investor/">日本で不動産を購入して驚いたこと</a>。</p>
+<a class="timeline-essay-link" href="/ja/posts/buying-property-japan-surprises-foreign-investor/">日本で不動産を購入して驚いたこと</a>。</p>
     </div>
   </div>
 </div>
