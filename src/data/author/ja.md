@@ -1,6 +1,6 @@
 ---
 lang: ja
-title: "キム・スンジュ"
+title: "Joseph. KIM"
 description: "GSFArk創設者・編集者"
 ---
 

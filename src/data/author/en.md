@@ -1,6 +1,6 @@
 ---
 lang: en
-title: "Joseph Kim"
+title: "Joseph. KIM"
 description: "Founder and editor of GSFArk."
 ---
 

@@ -1,6 +1,6 @@
 ---
 lang: ko
-title: "김승주"
+title: "Joseph. KIM"
 description: "GSFArk의 설립자이자 편집자"
 ---
 

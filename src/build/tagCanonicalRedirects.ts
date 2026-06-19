@@ -118,11 +118,11 @@ export const TAG_SAFETY_NET: VercelRoute = {
 export const WP_LEGACY_ROUTES: VercelRoute[] = [
   {
     src: "^/author/?$",
-    headers: { Location: "/about/" },
+    headers: { Location: "/author/joseph-kim/" },
     status: 308,
   },
   {
-    src: "^/author/.+",
+    src: "^/author/(?!joseph-kim/?$).+",
     headers: { Location: "/about/" },
     status: 308,
   },

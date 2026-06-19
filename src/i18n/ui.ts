@@ -117,7 +117,7 @@ const ui = {
     authorEeatMissionCta: "Mission",
     authorEeatMethodologyCta: "Research Methodology",
     authorEeatBody:
-      "Joseph Kim is the founder and editor of GSFArk.\nBased in Nihonbashi, Tokyo. Living and investing in Japan since 2018.",
+      "Joseph. KIM is the founder and editor of GSFArk.\nBased in Nihonbashi, Tokyo. Living and investing in Japan since 2018.",
     footerMission: "Mission",
     footerMethodology: "Methodology",
     footerAuthor: "Author",
@@ -257,7 +257,7 @@ const ui = {
     authorEeatMissionCta: "운영 목적",
     authorEeatMethodologyCta: "연구 방법론",
     authorEeatBody:
-      "김승주는 GSFArk의 설립자이자 편집자입니다.\n도쿄 니혼바시에 거주하며, 일본 부동산과 장기 투자에 대해 연구하고 기록하고 있습니다.",
+      "Joseph. KIM은 GSFArk의 설립자이자 편집자입니다.\n도쿄 니혼바시에 거주하며, 일본 부동산과 장기 투자에 대해 연구하고 기록하고 있습니다.",
     footerMission: "운영 목적",
     footerMethodology: "연구 방법론",
     footerAuthor: "작성자",
@@ -396,7 +396,7 @@ const ui = {
     authorEeatMissionCta: "運営目的",
     authorEeatMethodologyCta: "調査方法論",
     authorEeatBody:
-      "キム・スンジュはGSFArkの創設者兼編集者です。\n東京・日本橋を拠点に、日本不動産と長期投資について調査・執筆しています。",
+      "Joseph. KIMはGSFArkの創設者兼編集者です。\n東京・日本橋を拠点に、日本不動産と長期投資について調査・執筆しています。",
     footerMission: "運営目的",
     footerMethodology: "調査方法論",
     footerAuthor: "著者",
