@@ -310,8 +310,32 @@ const nextPost =
           class="size-20 rounded-full border border-border object-cover"
         />
         <div class="flex-1">
-          <p class="text-sm leading-relaxed text-foreground/80">{L.authorCardBody}</p>
+          <p class="text-sm leading-relaxed text-foreground/80 whitespace-pre-wrap">{L.authorEeatBody}</p>
           <div class="mt-3 flex flex-wrap gap-2">
+            <a
+              href={`${localePrefix}/author/joseph-kim/`}
+              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
+              data-cta="author-profile"
+              data-cta-location="post-author-card"
+            >
+              {L.authorEeatProfileCta}
+            </a>
+            <a
+              href={`${localePrefix}/mission/`}
+              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
+              data-cta="author-mission"
+              data-cta-location="post-author-card"
+            >
+              {L.authorEeatMissionCta}
+            </a>
+            <a
+              href={`${localePrefix}/methodology/`}
+              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
+              data-cta="author-methodology"
+              data-cta-location="post-author-card"
+            >
+              {L.authorEeatMethodologyCta}
+            </a>
             <a
               href={`${localePrefix}/about/`}
               class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"

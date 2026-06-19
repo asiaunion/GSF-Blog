@@ -161,4 +161,31 @@ const resources = defineCollection({
   }),
 });
 
-export const collections = { blog, about, privacy, contact, resources };
+const mission = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "./src/data/mission" }),
+  schema: z.object({
+    lang: z.enum(["en", "ko", "ja"]),
+    title: z.string(),
+    description: z.string(),
+  }),
+});
+
+const methodology = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "./src/data/methodology" }),
+  schema: z.object({
+    lang: z.enum(["en", "ko", "ja"]),
+    title: z.string(),
+    description: z.string(),
+  }),
+});
+
+const author = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "./src/data/author" }),
+  schema: z.object({
+    lang: z.enum(["en", "ko", "ja"]),
+    title: z.string(),
+    description: z.string(),
+  }),
+});
+
+export const collections = { blog, about, privacy, contact, resources, mission, methodology, author };

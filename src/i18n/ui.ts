@@ -113,6 +113,14 @@ const ui = {
     commentsTitle: "Discussion",
     commentsDescription:
       "Share your thoughts — powered by GitHub Discussions.",
+    authorEeatProfileCta: "Author Profile",
+    authorEeatMissionCta: "Mission",
+    authorEeatMethodologyCta: "Research Methodology",
+    authorEeatBody:
+      "Joseph Kim is the founder and editor of GSFArk.\nBased in Nihonbashi, Tokyo. Living and investing in Japan since 2018.",
+    footerMission: "Mission",
+    footerMethodology: "Methodology",
+    footerAuthor: "Author",
     langBannerText: "Available in 3 languages",
     langBannerClose: "Close",
     langBannerEn: "🇺🇸 EN",
@@ -245,6 +253,14 @@ const ui = {
     commentsTitle: "댓글",
     commentsDescription:
       "의견을 남겨주세요 — GitHub Discussions 기반입니다.",
+    authorEeatProfileCta: "작성자 프로필",
+    authorEeatMissionCta: "운영 목적",
+    authorEeatMethodologyCta: "연구 방법론",
+    authorEeatBody:
+      "김승주는 GSFArk의 설립자이자 편집자입니다.\n도쿄 니혼바시에 거주하며, 일본 부동산과 장기 투자에 대해 연구하고 기록하고 있습니다.",
+    footerMission: "운영 목적",
+    footerMethodology: "연구 방법론",
+    footerAuthor: "작성자",
     langBannerClose: "닫기",
     langBannerEn: "🇺🇸 EN",
     langBannerKo: "🇰🇷 KO",
@@ -376,6 +392,14 @@ const ui = {
     commentsTitle: "ディスカッション",
     commentsDescription:
       "ご意見をお聞かせください — GitHub Discussionsベースです。",
+    authorEeatProfileCta: "著者プロフィール",
+    authorEeatMissionCta: "運営目的",
+    authorEeatMethodologyCta: "調査方法論",
+    authorEeatBody:
+      "キム・スンジュはGSFArkの創設者兼編集者です。\n東京・日本橋を拠点に、日本不動産と長期投資について調査・執筆しています。",
+    footerMission: "運営目的",
+    footerMethodology: "調査方法論",
+    footerAuthor: "著者",
     langBannerClose: "閉じる",
     langBannerEn: "🇺🇸 EN",
     langBannerKo: "🇰🇷 KO",

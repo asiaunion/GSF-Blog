@@ -7,7 +7,7 @@ export const PUBLIC_PROFILES = {
 export const SITE = {
   website: "https://gsfark.com/", // replace this with your deployed domain
   author: "GSF",
-  profile: "https://gsfark.com/",
+  profile: "https://gsfark.com/author/joseph-kim/",
   desc: "In-depth analysis on Tokyo real estate, J-REIT, and Korea–Japan macro — written from Nihonbashi by a practitioner investor.",
   title: "GSF Blog",
   ogImage: "gsf-og-default.jpg",

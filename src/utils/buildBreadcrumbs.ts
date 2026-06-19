@@ -77,6 +77,9 @@ export function buildBreadcrumbItems(pathname: string): BreadcrumbItem[] {
     contact: L.footerContact,
     "privacy-policy": L.footerPrivacy,
     archives: L.navArchives,
+    mission: L.footerMission,
+    methodology: L.footerMethodology,
+    author: L.footerAuthor,
   };
 
   if (segments.length === 1 && named[a]) {
@@ -90,7 +93,7 @@ export function buildBreadcrumbItems(pathname: string): BreadcrumbItem[] {
     const isLast = i === segments.length - 1;
     const seg = decodeURIComponent(segments[i]!);
     items.push({
-      label: seg,
+      label: named[seg] || seg,
       href: isLast ? undefined : `${base}${acc}/`,
       current: isLast,
     });
