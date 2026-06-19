@@ -6,13 +6,13 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-19 |
+| 최종 업데이트 | 2026-06-19 (세션 마감) |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟠 AdSense 재신청 대기 + Plan B 준비 중 |
+| 상태 | 🟢 E-E-A-T + Essay 1 **라이브** — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | 6/29~30 GSFArk 재제출 + tokyokorean.net Plan B 병행 준비 |
-| 다음 체크포인트 | 6/29~30 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 |
-| 블로커 | 없음 — 기술 결함 전부 해소 완료 (2026-06-15) |
+| 이번 주 최우선 액션 | Joseph 라이브 스팟 체크 → **7월 초 AdSense 재제출** |
+| 다음 체크포인트 | 7/초 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
+| 블로커 | 없음 — 기술·E-E-A-T 배포 완료 (`main` `49648c9`) |
 
 ---
 
@@ -20,7 +20,9 @@
 
 | 기한 | 항목 | 상태 |
 |------|------|------|
-| 6/29~30 | GSFArk AdSense 재제출 (체크박스 체크 → 다시 제출) | ⏳ 대기 |
+| 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
+| 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
+| 7/초 | GSFArk AdSense 재제출 | ⏳ 대기 |
 | 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | 🔄 AG 준비 중 |
 | 매주 화/목 | 발행 목표 주 2회 유지 | 🔄 진행 중 |
 
@@ -54,7 +56,7 @@
 |------|------|
 | 신청 횟수 | 5차 (조치 필요 통보 수신) |
 | 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) |
-| 재제출 예정 | 6/29~30 (2주 cool-off 후) |
+| 재제출 예정 | 7월 초 (E-E-A-T 페이지 + Essay 1 배포 후) |
 | GSC 색인 추세 | ⚠️ 130개대 → 120개대 → 116개 하락 추세 모니터링 필요 |
 
 ---
@@ -121,6 +123,9 @@
 |------|------|
 | `docs/AG_TASK_2026-06-15_adsense-sitemap-fix.md` | sitemap admin 제거 AG 지시서 |
 | `docs/AG_TASK_2026-06-15_planb-tokyokorean.md` | Plan B tokyokorean.net AG 지시서 |
+| `docs/AG_TASK_2026-06-19_adsense-pages.md` | E-E-A-T 페이지 추가 + About 수정 + Author Box AG 지시서 |
+| `docs/GSF_ARK_SESSION_CLOSURE_20260619.md` | **2026-06-19 세션 마감** — AdSense E-E-A-T 라이브 스냅샷 |
+| `docs/AG_TASK_2026-06-19_deploy-bundle.md` | E-E-A-T + essay 통합 배포 번들 |
 | `docs/kpi-archive/` | 주간 KPI 기록 (확정 후 운영) |
 | `docs/REGION_EXPANSION_PLAN.md` | RE 트랙 — 지역 SSOT 일반화·수도권 파일럿 AG 슬라이스 |
 | `docs/REGION_EXPANSION_AG_RUNBOOK.md` | RE AG 실행 runbook (단계별 §RE-N 착수) |
@@ -129,7 +134,29 @@
 
 ## 📝 작업 로그
 
-### 2026-06-19 — Ep.07 배포 · Hero 게이트 · Vercel lockfile
+### 2026-06-19 (세션 마감) — AdSense E-E-A-T **라이브** + 핫픽스
+
+| 항목 | 내용 | 커밋/참고 |
+|------|------|-----------|
+| **PR #24** | mission/methodology/author + essay 3언어 + About | `1defc35` merge |
+| **Author EN** | `/author/joseph-kim/` 200 복구 · Joseph. KIM | `470ffac` |
+| **About E-E-A-T** | 니혼바시·타임라인·pillar·출처 문단 | `e48b8c0` |
+| **Author Card** | 포스트 하단 4 CTA | `16c9155` |
+| **타임라인 링크** | accent + 분리 CTA 줄 | `cdd40bb`, `49648c9` |
+| **SSOT** | [`GSF_ARK_SESSION_CLOSURE_20260619.md`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) | `main` `49648c9` |
+| **다음** | Joseph 라이브 스팟 → 7월 초 AdSense 재제출 | |
+
+### 2026-06-19 — AdSense E-E-A-T 작업 설계 + Essay 1 초안
+
+| 항목 | 내용 | 파일 |
+|------|------|------|
+| GPT 제안 검토 | mission·methodology·author·About·Essay 5편 항목별 검증 완료 | — |
+| AG 지시서 | E-E-A-T 페이지 4개 TASK 작성 | `docs/AG_TASK_2026-06-19_adsense-pages.md` |
+| Essay 1 초안 | "What Surprised Me Most About Buying Property in Japan" (draft:true) | `src/data/blog/en/buying-property-japan-surprises-foreign-investor.md` |
+| About en.md 발견 | 2026 니혼바시 콘도 매입 경험 기재 확인 → Essay 소재 활용 | — |
+| 재제출 일정 | 6/29~30 → 7월 초로 조정 (E-E-A-T 작업 완료 후) | — |
+
+### 2026-06-19 (이전) — Ep.07 배포 · Hero 게이트 · Vercel lockfile
 
 | 항목 | 내용 | 커밋/참고 |
 |------|------|-----------|

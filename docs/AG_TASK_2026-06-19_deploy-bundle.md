@@ -218,4 +218,5 @@ EN/KO/JA 에세이 본문 하단 `### About the Author` / `### 작성자 소개`
 
 ---
 
-*Changelog: v1.0 — E-E-A-T + About timeline link + essay KO/JA 저장·통합 배포 지시*
+*Changelog: v1.0 — E-E-A-T + About timeline link + essay KO/JA 저장·통합 배포 지시*  
+*Changelog: 2026-06-19 — **배포 완료** (`main` `49648c9`). 세션 마감: [`GSF_ARK_SESSION_CLOSURE_20260619.md`](./GSF_ARK_SESSION_CLOSURE_20260619.md)*
