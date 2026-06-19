@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-18 |
+| 최종 업데이트 | 2026-06-19 |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟠 AdSense 재신청 대기 + Plan B 준비 중 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -80,7 +80,7 @@
 | 항목 | 값 |
 |------|-----|
 | 발행 목표 | 주 2회 이상 (화/목) |
-| 현재 총 발행 수 | 36기사 (2026-06-09 기준) |
+| 현재 총 발행 수 | 37기사 (Ep.07 포함, 2026-06-19) |
 | 소셜 자동 배포 | ✅ 정상 가동 중 |
 | 언어 | 日/韓/英 3언어 |
 
@@ -128,6 +128,20 @@
 ---
 
 ## 📝 작업 로그
+
+### 2026-06-19 — Ep.07 배포 · Hero 게이트 · Vercel lockfile
+
+| 항목 | 내용 | 커밋/참고 |
+|------|------|-----------|
+| **Ep.07 라이브** | `tokyo-kita-arakawa-itabashi-nerima` KO/EN/JA | `8f7b7b2` |
+| 검증 | `verify:og-social` ✅ · `validate:post` ✅ (Cursor) | fact sheet 131건 |
+| Hero | `hero.webp` + `hero-og.jpg` (1200×630) · `ogImage` `.jpg` | |
+| **Hero hard gate** | `validationGates.ts` hero gates · manifest `hero_waived_by` · `orchestrator` slug | 이 커밋 |
+| **Vercel 빌드 수정** | `ERR_PNPM_OUTDATED_LOCKFILE` — `@turf/turf`, `xlsx` lockfile 누락 | `9a2dff5` |
+| 라이브 URL | https://gsfark.com/ko/posts/tokyo-kita-arakawa-itabashi-nerima/ → **200** | |
+| **백로그** | `verify:episode:gate` secondary 12 + draft_coverage 11 (primary 0 실패, 비차단) | 다음 에피소드 전 동기화 권장 |
+| **다음** | LinkedIn Post Inspector (KO·EN) · Ep.08 manifest | |
+
 ### 2026-06-18
 - Phase 3 (urban-planning) 23구 데이터 파이프라인(XKT014
 - XKT023

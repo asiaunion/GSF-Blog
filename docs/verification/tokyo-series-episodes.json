@@ -81,27 +81,30 @@
     },
     {
       "episode": "Ep.07",
-      "slug": "tokyo-kita-arakawa-adachi",
+      "slug": "tokyo-kita-arakawa-itabashi-nerima",
       "wards": [
         "\u5317\u533a",
         "\u8352\u5ddd\u533a",
-        "\u8db3\u7acb\u533a"
-      ]
-    },
-    {
-      "episode": "Ep.08",
-      "slug": "tokyo-itabashi-nerima",
-      "wards": [
         "\u677f\u6a4b\u533a",
         "\u7df4\u99ac\u533a"
       ]
     },
     {
-      "episode": "Ep.09",
-      "slug": "tokyo-katsushika-edogawa",
+      "episode": "Ep.08",
+      "slug": "tokyo-adachi-katsushika-edogawa",
       "wards": [
+        "\u8db3\u7acb\u533a",
         "\u845b\u98fe\u533a",
         "\u6c5f\u6238\u5ddd\u533a"
+      ]
+    },
+    {
+      "episode": "Ep.09",
+      "slug": "tokyo-musashino-mitaka-chofu",
+      "wards": [
+        "\u6b66\u8535\u91ce\u5e02",
+        "\u4e09\u9df9\u5e02",
+        "\u8abf\u5e03\u5e02"
       ]
     }
   ]

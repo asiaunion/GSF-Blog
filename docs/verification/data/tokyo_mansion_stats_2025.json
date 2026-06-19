@@ -111,7 +111,7 @@
       }
     ],
     "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
-    "fetched_at": "2026-06-18"
+    "fetched_at": "2026-06-19"
   },
   "荒川区": {
     "ward_avg": 86.1,
@@ -169,7 +169,7 @@
       }
     ],
     "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
-    "fetched_at": "2026-06-18"
+    "fetched_at": "2026-06-19"
   },
   "文京区": {
     "ward_avg": 131.5,
@@ -948,7 +948,7 @@
       }
     ],
     "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
-    "fetched_at": "2026-06-18"
+    "fetched_at": "2026-06-19"
   },
   "江東区": {
     "ward_avg": 120,

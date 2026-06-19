@@ -6,7 +6,7 @@
 | **Title (KO)** | 도쿄 어디에 살 것인가 — 23구 완전 가이드 [Ep.07] 북부 4구: 기타·아라카와·이타바시·네리마 |
 | **Author / date** | GSF / 2026-06-19 |
 | **Cursor validate** | `pnpm validate:post tokyo-kita-arakawa-itabashi-nerima` → PASS (2026-06-19) |
-| **Published** | — / — |
+| **Published** | 2026-06-19 / `8f7b7b2` (+ build fix `9a2dff5`) |
 
 ---
 
@@ -165,7 +165,8 @@
 ## Notes / open questions
 
 - MLIT-chiyoda-70 manifest 값: 13,630 (SSOT `tokyo_mansion_stats_2025.json` 동기화 완료)
-- Secondary CAGR/YIELD benchmarks (8건): `used_in_draft: false` — 본문 미인용, manifest 보조 claim
+- Hero pipeline: `deploy-blog` Step 4.5 · `verify:og-social` · `validationGates` hero hard gates (2026-06-19)
+- Secondary CAGR/YIELD benchmarks (8건): `used_in_draft: false` — 본문 미인용, manifest 보조 claim (비차단 백로그)
 
 ---
 
@@ -173,6 +174,7 @@
 
 - [x] All extracted claims in sheet (131건)
 - [x] `pnpm validate:post` exit 0 (2026-06-19)
+- [x] `pnpm verify:og-social --no-live` exit 0 (2026-06-19)
 - [x] `cursor_audit_passed: true` (manifest)
-- [ ] Hero image (Joseph 스킵 지시)
-- [ ] Ready for git commit + deploy
+- [x] Hero image (`hero.webp` + `hero-og.jpg`, ogImage `.jpg`)
+- [x] Deployed — `8f7b7b2` / live 200 (2026-06-19)

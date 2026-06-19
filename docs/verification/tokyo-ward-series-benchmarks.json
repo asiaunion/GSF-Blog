@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.9",
-  "last_updated": "2026-06-18",
+  "schema_version": "1.3",
+  "last_updated": "2026-06-19",
   "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
   "data_tiers": {
     "A": "MLIT JSON / PKM verified card — scripts/verify-episode-manifest.mjs 자동 검증",
@@ -130,21 +130,21 @@
         "est_70sqm": 6272,
         "count": 585,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "ward_avg_sqm": 86.1,
         "est_70sqm": 6027,
         "count": 510,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "足立区": {
         "ward_avg_sqm": 59.3,
         "est_70sqm": 4151,
         "count": 920,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "ward_avg_sqm": 70.5,
@@ -511,7 +511,7 @@
         "4DK": 21.9,
         "snapshot_date": "2026-06-17",
         "snapshot_file": "docs/verification/snapshots/suumo-sc_adachi-20260617.html",
-        "episode": "Ep.07",
+        "episode": "Ep.08",
         "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都足立区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、7.7万円（ワンルーム）～21.9万円（4DK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       },
       "板橋区": {
@@ -674,7 +674,7 @@
         "total_daily": 948393,
         "station_count": 19,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "top_station": "西日暮里",
@@ -682,7 +682,7 @@
         "total_daily": 847019,
         "station_count": 20,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "足立区": {
         "top_station": "北千住",
@@ -690,7 +690,7 @@
         "total_daily": 1517110,
         "station_count": 24,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "top_station": "東京",
@@ -863,21 +863,21 @@
         "avg_change_pct": null,
         "point_count": 71,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "avg_yen_sqm": 1094011.8,
         "avg_change_pct": null,
         "point_count": 86,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "足立区": {
         "avg_yen_sqm": 529618.3,
         "avg_change_pct": null,
         "point_count": 133,
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "avg_yen_sqm": 4497061.9,
@@ -1250,7 +1250,7 @@
         "landslide": true,
         "summary": "liquefaction, flood, storm_surge, landslide",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "flood": true,
@@ -1260,7 +1260,7 @@
         "landslide": true,
         "summary": "liquefaction, flood, storm_surge, landslide",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "足立区": {
         "flood": true,
@@ -1270,7 +1270,7 @@
         "landslide": false,
         "summary": "liquefaction, flood, storm_surge",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "flood": true,
@@ -1552,7 +1552,7 @@
         "cagr_span_years": 4,
         "blog_primary": true,
         "footnote_required": false,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "series": {
@@ -1587,7 +1587,7 @@
         "cagr_span_years": 4,
         "blog_primary": true,
         "footnote_required": false,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "足立区": {
         "series": {
@@ -1622,7 +1622,7 @@
         "cagr_span_years": 4,
         "blog_primary": true,
         "footnote_required": false,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "series": {
@@ -2395,7 +2395,7 @@
           }
         ],
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "top_districts": [
@@ -2443,7 +2443,7 @@
           }
         ],
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "足立区": {
         "top_districts": [
@@ -2509,7 +2509,7 @@
           }
         ],
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "top_districts": [
@@ -5537,7 +5537,7 @@
         "cagr_span_years": 20,
         "blog_primary": false,
         "footnote_required": true,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "series": {
@@ -5637,7 +5637,7 @@
         "cagr_span_years": 20,
         "blog_primary": false,
         "footnote_required": true,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "series": {
@@ -5937,7 +5937,7 @@
         "cagr_span_years": 20,
         "blog_primary": false,
         "footnote_required": true,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "葛飾区": {
         "series": {
@@ -7954,7 +7954,7 @@
         "count": 354,
         "price_classification": "02",
         "tile_coverage_warning": true,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "geojson_path": "docs/verification/data/price-points/chiyoda-2025.geojson",
@@ -8073,7 +8073,7 @@
         "count": 351,
         "price_classification": "02",
         "tile_coverage_warning": true,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "geojson_path": "docs/verification/data/price-points/itabashi-2025.geojson",
@@ -8094,7 +8094,7 @@
         "count": 680,
         "price_classification": "02",
         "tile_coverage_warning": true,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "葛飾区": {
         "geojson_path": "docs/verification/data/price-points/katsushika-2025.geojson",
@@ -8120,7 +8120,7 @@
       "北区": {
         "json_path": ".cache/mlit/appraisal-merged-kita-2025.json",
         "count": 108,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "千代田区": {
         "json_path": ".cache/mlit/appraisal-merged-chiyoda-2025.json",
@@ -8205,7 +8205,7 @@
       "荒川区": {
         "json_path": ".cache/mlit/appraisal-merged-arakawa-2025.json",
         "count": 56,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "json_path": ".cache/mlit/appraisal-merged-itabashi-2025.json",
@@ -8220,7 +8220,7 @@
       "足立区": {
         "json_path": ".cache/mlit/appraisal-merged-adachi-2025.json",
         "count": 206,
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "葛飾区": {
         "json_path": ".cache/mlit/appraisal-merged-katsushika-2025.json",
@@ -8406,8 +8406,9 @@
         "last_flood_year": 1982,
         "coverage_status": "surveyed",
         "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "has_history": true,
@@ -8416,8 +8417,9 @@
         "last_flood_year": 1982,
         "coverage_status": "surveyed",
         "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "has_history": true,
@@ -8446,8 +8448,9 @@
         "last_flood_year": 1982,
         "coverage_status": "surveyed",
         "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "葛飾区": {
         "has_history": true,
@@ -8767,7 +8770,7 @@
         "population_used": 355213,
         "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "site_count": 41,
@@ -8784,7 +8787,7 @@
         "population_used": 217475,
         "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "site_count": 70,
@@ -8835,7 +8838,7 @@
         "population_used": 695043,
         "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
         "episode": "Ep.07",
-        "fetched_at": "2026-06-18"
+        "fetched_at": "2026-06-19"
       },
       "葛飾区": {
         "site_count": 0,
@@ -9652,8 +9655,8 @@
             "pct": 7.1
           }
         ],
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.07",
+        "fetched_at": "2026-06-19"
       },
       "荒川区": {
         "fire_prevention_zone": {
@@ -9691,8 +9694,8 @@
             "pct": 4.3
           }
         ],
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.07",
+        "fetched_at": "2026-06-19"
       },
       "板橋区": {
         "fire_prevention_zone": {
@@ -9806,8 +9809,8 @@
             "pct": 9.3
           }
         ],
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.07",
+        "fetched_at": "2026-06-19"
       },
       "葛飾区": {
         "fire_prevention_zone": {

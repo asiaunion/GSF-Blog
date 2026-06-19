@@ -271,7 +271,7 @@ export class BlogAgentOrchestrator {
       String(translated.enMarkdown ?? ""),
       String(translated.jaMarkdown ?? ""),
     ];
-    const validation = await runBlogValidation(process.cwd(), candidates);
+    const validation = await runBlogValidation(process.cwd(), candidates, { slug });
     if (!validation.ok) {
       await this.machine.recordOutput(workflowId, "READY_TO_PUBLISH", {
         validation,
