@@ -76,10 +76,7 @@ const ui = {
     authorCardTitle: "About the author",
     authorCardBody:
       "Joseph (GSF) · Owner-occupier in Nihonbashi, Tokyo. Holds investment properties in Korea. Writes research-grade reports on Japan real estate, J-REIT, and Korea–Japan cross-border investing.",
-    authorCardAboutCta: "Read author profile",
     authorCardContactCta: "Contact",
-    authorCardLinkedInCta: "Connect on LinkedIn",
-    authorCardXFollowCta: "Follow on X",
     postFollowTitle: "Follow updates",
     postFollowBody:
       "Subscribe to the newsletter for weekly Tokyo real estate insights — or follow via RSS, X, and LinkedIn.",
@@ -216,10 +213,7 @@ const ui = {
     authorCardTitle: "작성자 소개",
     authorCardBody:
       "Joseph(GSF) · 도쿄 니혼바시 자가 거주·소유. 한국 투자 물건 보유 중. 일본 부동산·J-REIT·한일 크로스보더 투자를 직접 경험을 바탕으로 기록합니다.",
-    authorCardAboutCta: "작성자 프로필 보기",
     authorCardContactCta: "문의하기",
-    authorCardLinkedInCta: "LinkedIn 연결",
-    authorCardXFollowCta: "X에서 팔로우",
     postFollowTitle: "업데이트 받기",
     postFollowBody:
       "뉴스레터로 매주 도쿄 부동산 인사이트를 받아보세요 — 또는 RSS·X·LinkedIn으로 팔로우하세요.",
@@ -355,10 +349,7 @@ const ui = {
     authorCardTitle: "著者について",
     authorCardBody:
       "Joseph (GSF) · 東京・日本橋の分譲マンションに自己居住・所有。韓国に投資用物件を保有。日本不動産・J-REIT・日韓クロスボーダー投資を実体験をもとに発信しています。",
-    authorCardAboutCta: "著者プロフィールを見る",
     authorCardContactCta: "お問い合わせ",
-    authorCardLinkedInCta: "LinkedInでつながる",
-    authorCardXFollowCta: "Xでフォロー",
     postFollowTitle: "更新を受け取る",
     postFollowBody:
       "ニュースレターで毎週の東京不動産インサイトを受け取れます — またはRSS・X・LinkedInでフォロー。",

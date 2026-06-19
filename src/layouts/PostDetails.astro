@@ -16,7 +16,6 @@ import { slugifyStr } from "@/utils/slugify";
 import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
 import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
-import { PUBLIC_PROFILES } from "@/config";
 import PostDisclaimer from "@/components/PostDisclaimer.astro";
 import { resolvePostDisclaimerCategory } from "@/lib/postDisclaimer";
 import NewsletterForm from "@/components/NewsletterForm.astro";
@@ -42,14 +41,6 @@ const navLang = (locale || "en") as UiLang;
 const L = getUi(navLang);
 const localePrefix = navLang === "en" ? "" : `/${navLang}`;
 const authorProfileImage = "/assets/images/gsf-author-profile.webp";
-const linkedInCtaUrl = new URL(PUBLIC_PROFILES.linkedIn);
-linkedInCtaUrl.searchParams.set("utm_source", "gsf_blog");
-linkedInCtaUrl.searchParams.set("utm_medium", "author_card_cta");
-linkedInCtaUrl.searchParams.set("utm_campaign", "post-author-linkedin");
-const xCtaUrl = new URL(PUBLIC_PROFILES.x);
-xCtaUrl.searchParams.set("utm_source", "gsf_blog");
-xCtaUrl.searchParams.set("utm_medium", "author_card_cta");
-xCtaUrl.searchParams.set("utm_campaign", "post-author-x");
 const copyCodeLabel = L.copyCodeButton;
 const copyDoneLabel = L.copyCodeDone;
 
@@ -337,42 +328,12 @@ const nextPost =
               {L.authorEeatMethodologyCta}
             </a>
             <a
-              href={`${localePrefix}/about/`}
-              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
-              data-cta="author-about"
-              data-cta-location="post-author-card"
-            >
-              {L.authorCardAboutCta}
-            </a>
-            <a
               href={`${localePrefix}/contact/`}
               class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
               data-cta="author-contact"
               data-cta-location="post-author-card"
             >
               {L.authorCardContactCta}
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={linkedInCtaUrl.toString()}
-              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
-              data-cta="author-linkedin-connect"
-              data-cta-location="post-author-card"
-              data-cta-name="LinkedIn"
-            >
-              {L.authorCardLinkedInCta}
-            </a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={xCtaUrl.toString()}
-              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
-              data-cta="author-x-follow"
-              data-cta-location="post-author-card"
-              data-cta-name="X"
-            >
-              {L.authorCardXFollowCta}
             </a>
           </div>
         </div>
