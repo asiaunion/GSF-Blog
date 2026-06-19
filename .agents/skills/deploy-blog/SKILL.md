@@ -14,11 +14,14 @@ description: GSFArk.com 블로그 포스트 작성·배포 파이프라인 (Wher
 1. **KO 초안 작성 전** → `docs/verification/manifests/<slug>.manifest.json` 작성 + Joseph 승인 (`gates.manifest_approved_by`)
 2. **C-tier 캡처** → `c_tier_capture_requests` 해결 또는 Joseph 면제
 3. **초안 후** → Cursor 감사 (`gates.cursor_audit_passed`)
-4. **배포 전** → `pnpm verify:episode:gate --slug <slug>` exit 0 + `pnpm validate:post <slug>` exit 0
+4. **이미지 (Step 4.5)** → `{slug}-hero.webp` + `{slug}-hero-og.jpg` + `ogImage` `.jpg` + `pnpm verify:og-social --slug <slug> --no-live` exit 0  
+   (면제만 허용: manifest `gates.hero_waived_by` — 구두 스킵 금지)
+5. **배포 전** → `pnpm verify:og-social --slug <slug> --no-live` exit 0 + `pnpm verify:episode:gate --slug <slug>` exit 0 + `pnpm validate:post <slug>` exit 0
 
 ⛔ **금지**: manifest 없이 숫자 포함 KO 초안 작성  
 ⛔ **금지**: evidence 없이 `tier: primary` 부여  
-⛔ **금지**: "[1차 확인] ✅" 자기 보고만으로 검증 완료 선언
+⛔ **금지**: "[1차 확인] ✅" 자기 보고만으로 검증 완료 선언  
+⛔ **금지**: hero 없이 EN/JA·배포 진행 (Step 4.5 미완료 또는 `hero_waived_by` 미기재)
 
 ---
 
@@ -115,9 +118,9 @@ manifest: docs/verification/manifests/ep08-tokyo-itabashi-nerima.manifest.json
 | 04 | tokyo-shinagawa-ota | 品川·大田 |
 | 05 | tokyo-toshima-nakano-suginami | 豊島·中野·杉並 |
 | 06 | tokyo-taito-sumida-koto | 台東·墨田·江東 |
-| 07 | tokyo-kita-arakawa-adachi | 北区·荒川·足立 |
-| 08 | tokyo-itabashi-nerima | 板橋·練馬 |
-| 09 | tokyo-katsushika-edogawa | 葛飾·江戸川 |
+| 07 | tokyo-kita-arakawa-itabashi-nerima | 北区·荒川·板橋·練馬 |
+| 08 | tokyo-adachi-katsushika-edogawa | 足立·葛飾·江戸川 |
+| 09 | tokyo-musashino-mitaka-chofu | 武蔵野·三鷹·調布 |
 
 ---
 
@@ -186,6 +189,27 @@ pnpm research:pack -- --episode ep07 --write
 
 ---
 
+## Step 4.5 — Hero image (필수 · KO 초안 후, EN/JA 전)
+
+> **Step 5(번역)·Step 6(배포) 진입 조건**: 아래 exit 0 확인. `verify:og-social` 또는 `validate:post` hero gate 실패 시 **진행 중단**.
+
+1. **Hero WebP** — `public/assets/images/blog/{slug}-hero.webp`  
+   - 사용자 첨부·지정 폴더만 ([`BLOG_IMAGE_RULES_1PAGE.md`](../../BLOG_IMAGE_RULES_1PAGE.md))  
+   - Downloads 자동 선택·셀카 hero 금지
+2. **LinkedIn JPEG** — `pnpm og:hero-jpeg -- <slug>` → `{slug}-hero-og.jpg` (1200×630)
+3. **Frontmatter** — KO `ogImage`를 `https://gsfark.com/assets/images/blog/{slug}-hero-og.jpg` 로 설정 (`.webp` 금지)
+4. **검증** — `pnpm verify:og-social --slug <slug> --no-live` → exit 0
+
+**면제 (Joseph만)**: episode manifest에만 기록 — 구두 불가.
+
+```json
+"gates": { "hero_waived_by": "Joseph YYYY-MM-DD — 사유" }
+```
+
+`validate:post`가 manifest `hero_waived_by`를 읽어 hero gate를 skip. 다음 편 전 waiver 제거 + 이미지 완료 필수.
+
+---
+
 ## Step 5 — Cursor audit (필수)
 
 Joseph 또는 AG가 Cursor에:
@@ -200,23 +224,22 @@ Cursor:
 
 ## Step 6 — EN/JA + validate + deploy
 
+> Step 4.5 완료 전제. EN/JA에도 동일 `ogImage` (`.jpg`) 반영.
+
 ```bash
-pnpm og:hero-jpeg -- <slug>          # LinkedIn용 1200×630 JPEG (-hero-og.jpg)
+pnpm verify:og-social --slug <slug> --no-live   # hero-webp / hero-og-jpg / ogImage .jpg
 pnpm verify:episode:gate --slug <slug>
-pnpm validate:post <slug>
+pnpm validate:post <slug>                      # hero-webp-exists + hero-og-jpg-exists 포함
 ```
 
-Joseph: git commit + deploy
+Joseph: git commit + deploy — **md 3 + hero.webp + hero-og.jpg**
 
-### Step 6-S — SNS OG (LinkedIn 필수)
+### Step 6-S — SNS OG (LinkedIn · 배포 직후)
 
-배포 직후:
+1. [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)에서 KO·EN URL 각각 **Inspect**
+2. **Revert 후 재배포**한 글은 LinkedIn이 “이미지 없음”을 캐시함 → Post Inspector 없이 재게시해도 썸네일 안 뜸
 
-1. `pnpm og:hero-jpeg -- <slug>` — `-hero-og.jpg` 생성·커밋 (없으면 WebP만 노출 → LinkedIn 미표시 위험)
-2. [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)에서 KO·EN URL 각각 **Inspect**
-3. **Revert 후 재배포**한 글은 LinkedIn이 “이미지 없음”을 캐시함 → Post Inspector 없이 재게시해도 썸네일 안 뜸
-
-`og:image`는 자동으로 `-hero-og.jpg?v=YYYYMMDD` (발행일)를 사용해 캐시 무효화.
+`og:image`는 `-hero-og.jpg?v=YYYYMMDD` (발행일)로 캐시 무효화.
 
 ---
 

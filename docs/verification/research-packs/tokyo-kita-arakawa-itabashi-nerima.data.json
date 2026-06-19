@@ -1,0 +1,340 @@
+{
+  "slug": "tokyo-kita-arakawa-itabashi-nerima",
+  "episode": "Ep.07",
+  "generated_at": "2026-06-19",
+  "wards": [
+    "北区",
+    "荒川区",
+    "足立区"
+  ],
+  "summary": [
+    {
+      "ward": "北区",
+      "est_70sqm": 6272,
+      "ward_avg_sqm": 89.6,
+      "count": 585,
+      "cagr_5y": null,
+      "cagr_full": 6.7,
+      "trade_cagr_10y": 5,
+      "land_cagr_10y": 6.9,
+      "pop_change": "1.8%",
+      "rent_1r": 8.5,
+      "yield_pct": 1.6,
+      "top_station": "赤羽",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 52,
+      "evac_count": 37,
+      "evac_per_10k": 1
+    },
+    {
+      "ward": "荒川区",
+      "est_70sqm": 6027,
+      "ward_avg_sqm": 86.1,
+      "count": 510,
+      "cagr_5y": null,
+      "cagr_full": 5.9,
+      "trade_cagr_10y": 5.3,
+      "land_cagr_10y": 6.4,
+      "pop_change": "5.4%",
+      "rent_1r": 8.6,
+      "yield_pct": 1.7,
+      "top_station": "西日暮里",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 56,
+      "evac_count": 41,
+      "evac_per_10k": 1.9
+    },
+    {
+      "ward": "足立区",
+      "est_70sqm": 4151,
+      "ward_avg_sqm": 59.3,
+      "count": 920,
+      "cagr_5y": null,
+      "cagr_full": 5.8,
+      "trade_cagr_10y": 6.2,
+      "land_cagr_10y": 5.2,
+      "pop_change": "2.5%",
+      "rent_1r": 7.7,
+      "yield_pct": 2.2,
+      "top_station": "北千住",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 79,
+      "evac_count": 22,
+      "evac_per_10k": 0.3
+    }
+  ],
+  "districts": {
+    "北区": [
+      {
+        "name": "滝野川",
+        "aggregation": "DistrictName",
+        "count": 93,
+        "avg_sqm": 93.7,
+        "avg_man": 4983
+      },
+      {
+        "name": "志茂",
+        "aggregation": "DistrictName",
+        "count": 44,
+        "avg_sqm": 88,
+        "avg_man": 5376
+      },
+      {
+        "name": "浮間",
+        "aggregation": "DistrictName",
+        "count": 39,
+        "avg_sqm": 68.5,
+        "avg_man": 4741
+      },
+      {
+        "name": "東十条",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 71.8,
+        "avg_man": 3950
+      },
+      {
+        "name": "豊島",
+        "aggregation": "DistrictName",
+        "count": 35,
+        "avg_sqm": 73.9,
+        "avg_man": 4394
+      },
+      {
+        "name": "赤羽北",
+        "aggregation": "DistrictName",
+        "count": 33,
+        "avg_sqm": 74.2,
+        "avg_man": 5097
+      },
+      {
+        "name": "王子",
+        "aggregation": "DistrictName",
+        "count": 32,
+        "avg_sqm": 100,
+        "avg_man": 6088
+      },
+      {
+        "name": "西ケ原",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 102.1,
+        "avg_man": 5844
+      },
+      {
+        "name": "上十条",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 125.8,
+        "avg_man": 7989
+      },
+      {
+        "name": "赤羽西",
+        "aggregation": "DistrictName",
+        "count": 26,
+        "avg_sqm": 86.2,
+        "avg_man": 4921
+      },
+      {
+        "name": "赤羽",
+        "aggregation": "DistrictName",
+        "count": 25,
+        "avg_sqm": 101.4,
+        "avg_man": 5592
+      },
+      {
+        "name": "神谷",
+        "aggregation": "DistrictName",
+        "count": 23,
+        "avg_sqm": 92.6,
+        "avg_man": 5683
+      },
+      {
+        "name": "田端新町",
+        "aggregation": "DistrictName",
+        "count": 22,
+        "avg_sqm": 89.2,
+        "avg_man": 5050
+      },
+      {
+        "name": "堀船",
+        "aggregation": "DistrictName",
+        "count": 21,
+        "avg_sqm": 106.9,
+        "avg_man": 6824
+      },
+      {
+        "name": "赤羽南",
+        "aggregation": "DistrictName",
+        "count": 16,
+        "avg_sqm": 89.9,
+        "avg_man": 5050
+      }
+    ],
+    "荒川区": [
+      {
+        "name": "東日暮里",
+        "aggregation": "DistrictName",
+        "count": 110,
+        "avg_sqm": 98.4,
+        "avg_man": 5630
+      },
+      {
+        "name": "南千住",
+        "aggregation": "DistrictName",
+        "count": 107,
+        "avg_sqm": 82.9,
+        "avg_man": 5571
+      },
+      {
+        "name": "西日暮里",
+        "aggregation": "DistrictName",
+        "count": 82,
+        "avg_sqm": 107,
+        "avg_man": 5955
+      },
+      {
+        "name": "荒川",
+        "aggregation": "DistrictName",
+        "count": 76,
+        "avg_sqm": 76.9,
+        "avg_man": 4856
+      },
+      {
+        "name": "町屋",
+        "aggregation": "DistrictName",
+        "count": 47,
+        "avg_sqm": 75.8,
+        "avg_man": 4736
+      },
+      {
+        "name": "東尾久",
+        "aggregation": "DistrictName",
+        "count": 46,
+        "avg_sqm": 69.5,
+        "avg_man": 4035
+      },
+      {
+        "name": "西尾久",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 67.6,
+        "avg_man": 4007
+      }
+    ],
+    "足立区": [
+      {
+        "name": "梅田",
+        "aggregation": "DistrictName",
+        "count": 58,
+        "avg_sqm": 62.7,
+        "avg_man": 3783
+      },
+      {
+        "name": "綾瀬",
+        "aggregation": "DistrictName",
+        "count": 55,
+        "avg_sqm": 72.7,
+        "avg_man": 4221
+      },
+      {
+        "name": "東和",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 51.9,
+        "avg_man": 3310
+      },
+      {
+        "name": "中央本町",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 43.4,
+        "avg_man": 3024
+      },
+      {
+        "name": "新田",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 60.1,
+        "avg_man": 4865
+      },
+      {
+        "name": "西新井本町",
+        "aggregation": "DistrictName",
+        "count": 33,
+        "avg_sqm": 48.7,
+        "avg_man": 3088
+      },
+      {
+        "name": "小台",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 48.4,
+        "avg_man": 3555
+      },
+      {
+        "name": "大谷田",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 39.6,
+        "avg_man": 2291
+      },
+      {
+        "name": "東綾瀬",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 80.1,
+        "avg_man": 3752
+      },
+      {
+        "name": "西保木間",
+        "aggregation": "DistrictName",
+        "count": 28,
+        "avg_sqm": 41.4,
+        "avg_man": 2721
+      },
+      {
+        "name": "千住橋戸町",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 91.3,
+        "avg_man": 6411
+      },
+      {
+        "name": "千住関屋町",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 57.8,
+        "avg_man": 3781
+      },
+      {
+        "name": "谷中",
+        "aggregation": "DistrictName",
+        "count": 24,
+        "avg_sqm": 63.5,
+        "avg_man": 3555
+      },
+      {
+        "name": "西新井",
+        "aggregation": "DistrictName",
+        "count": 24,
+        "avg_sqm": 57.7,
+        "avg_man": 3425
+      },
+      {
+        "name": "栗原",
+        "aggregation": "DistrictName",
+        "count": 20,
+        "avg_sqm": 58.7,
+        "avg_man": 3160
+      }
+    ]
+  },
+  "benchmarks_schema": "1.3"
+}

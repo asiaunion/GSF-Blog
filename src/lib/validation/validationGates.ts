@@ -1,6 +1,43 @@
 import { execFile } from "node:child_process";
+import { access, readFile, readdir } from "node:fs/promises";
+import path from "node:path";
 import { runTrustValidation } from "./trustGates.ts";
 import { scoreSourcesList } from "./tiering.ts";
+
+async function fileExists(p: string) {
+  try { await access(p); return true; } catch { return false; }
+}
+
+async function resolveManifestPath(projectRoot: string, slug: string) {
+  const dir = path.join(projectRoot, "docs/verification/manifests");
+  const direct = path.join(dir, `${slug}.manifest.json`);
+  if (await fileExists(direct)) return direct;
+  try {
+    const files = await readdir(dir);
+    for (const file of files.filter(f => f.endsWith(".manifest.json"))) {
+      const candidate = path.join(dir, file);
+      const raw = await readFile(candidate, "utf8");
+      const data = JSON.parse(raw) as { slug?: string };
+      if (data.slug === slug) return candidate;
+    }
+  } catch {
+    /* manifests dir missing */
+  }
+  return null;
+}
+
+async function loadHeroWaivedFromManifest(projectRoot: string, slug: string) {
+  const manifestPath = await resolveManifestPath(projectRoot, slug);
+  if (!manifestPath) return false;
+  try {
+    const raw = await readFile(manifestPath, "utf8");
+    const data = JSON.parse(raw) as { gates?: { hero_waived_by?: string } };
+    return Boolean(data.gates?.hero_waived_by?.trim());
+  } catch {
+    return false;
+  }
+}
+
 
 function runCommand(command: string, args: string[], cwd: string) {
   return new Promise<{ stdout: string; stderr: string }>((resolve, reject) => {
@@ -153,10 +190,16 @@ export function validateReferenceSubset(markdown: string) {
   };
 }
 
+export interface BlogValidationOptions {
+  slug?: string;
+  /** Set when manifest `gates.hero_waived_by` is non-empty (Joseph-documented waiver only). */
+  heroWaived?: boolean;
+}
+
 export async function runBlogValidation(
   projectRoot: string,
   markdownCandidates: string[],
-  options?: { slug?: string }
+  options?: BlogValidationOptions
 ) {
   const hardGates: ValidationResult["hardGates"] = [];
   const scoreChecks: ValidationResult["scoreChecks"] = [];
@@ -267,7 +310,40 @@ export async function runBlogValidation(
       "PostDisclaimer at top of article (PostDetails); markdown footer disclaimer not required",
   });
 
+  // ─── Hero Image Hard Gates ─────────────────────────────────────────
+  // hero-webp-exists and hero-og-jpg-exists must pass before deploy.
+  // Bypass ONLY via: SKIP_HERO_CHECK=1 env (CI) or options.heroWaived (manifest gates.hero_waived_by).
+  // Verbal/ad-hoc skip is NOT allowed — use the waiver flag in the episode manifest.
+  if (options?.slug) {
+    const heroWaived =
+      options.heroWaived === true ||
+      (await loadHeroWaivedFromManifest(projectRoot, options.slug));
+    const skipHero = process.env.SKIP_HERO_CHECK === "1" || heroWaived;
+    const pubBlog = path.join(projectRoot, "public/assets/images/blog");
+    const webpPath = path.join(pubBlog, `${options.slug}-hero.webp`);
+    const ogJpgPath = path.join(pubBlog, `${options.slug}-hero-og.jpg`);
+    const webpExists = skipHero || await fileExists(webpPath);
+    const ogJpgExists = skipHero || await fileExists(ogJpgPath);
+
+    hardGates.push({
+      name: "hero-webp-exists",
+      ok: webpExists,
+      output: webpExists
+        ? (skipHero ? "skipped (SKIP_HERO_CHECK or heroWaived)" : `ok — ${webpPath}`)
+        : `MISSING: ${webpPath}\n→ Fix: generate_image + cwebp -q 85 <src.png> -o ${webpPath}`,
+    });
+    hardGates.push({
+      name: "hero-og-jpg-exists",
+      ok: ogJpgExists,
+      output: ogJpgExists
+        ? (skipHero ? "skipped (SKIP_HERO_CHECK or heroWaived)" : `ok — ${ogJpgPath}`)
+        : `MISSING: ${ogJpgPath}\n→ Fix: pnpm og:hero-jpeg -- ${options.slug}`,
+    });
+  }
+  // ─────────────────────────────────────────────────────────────────────
+
   if (options?.slug && process.env.SKIP_TRUST_VERIFY !== "1") {
+
     const trust = await runTrustValidation({
       projectRoot,
       slug: options.slug,

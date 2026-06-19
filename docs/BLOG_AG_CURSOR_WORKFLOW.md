@@ -48,14 +48,18 @@ src/data/blog/ja/<slug>.md
 ## Per-post pipeline (no fixed weekdays)
 
 ```
-AG: 주제 → manifest (Step 3-E) → Joseph 승인 → KO 원고 → (EN/JA) → repo md 반영
+AG: 주제 → manifest (Step 3-E) → Joseph 승인 → KO 원고
+        → Step 4.5 이미지 (hero-webp + og-jpeg + verify:og-social exit 0)
+        → (EN/JA 번역) → repo md 반영
         ↓
-Cursor: manifest verify + 팩트 시트 → pnpm validate:post <slug>
+Cursor: manifest verify + 팩트 시트 → pnpm verify:og-social --slug <slug> → pnpm validate:post <slug>
         ↓
 You: git commit + deploy
 ```
 
 **Ep.07+ 필수**: manifest 승인 없이 KO 초안 작성 금지. Cursor 감사(`cursor_audit_passed`) 없이 배포 금지.  
+**이미지 필수 (2026-06-19~)**: `hero-webp-exists` + `hero-og-jpg-exists` hard gate — `pnpm validate:post`에서 자동 검사.  
+면제(waiver)는 manifest `gates.hero_waived_by` 필드 기재로만 허용. 구두 스킵 불가.  
 상세: [`BLOG_EPISODE_VERIFICATION_PIPELINE.md`](./BLOG_EPISODE_VERIFICATION_PIPELINE.md)  
 **AG MLIT·투자 분석 영구 프롬프트**: [`AG_GSFARK_MLIT_PIPELINE_PROMPT.md`](./AG_GSFARK_MLIT_PIPELINE_PROMPT.md)
 
@@ -80,12 +84,17 @@ You: git commit + deploy
 ### 3. Automated validation
 
 ```bash
+pnpm verify:og-social --slug <slug> --no-live   # ← 필수 추가 (2026-06-19)
+# → hero-webp exists / hero-og-jpg exists / ogImage is .jpg 확인
+# exit non-0 이면 배포 불가. No verbal bypass.
+
 pnpm verify:episode --slug <slug>          # manifest vs SSOT (Ep.07+ 권장)
-pnpm verify:episode:gate --slug <slug>       # 배포 직전 gates 포함
+pnpm verify:episode:gate --slug <slug>     # 배포 직전 gates 포함
 pnpm validate:post <slug>
+# validate:post는 hero-webp-exists + hero-og-jpg-exists hard gate 포함
 ```
 
-Exit `0` = 하드 게이트 + 점수 + `npm run build` 통과.
+Exit `0` on **both** `verify:og-social` **and** `validate:post` = 배포 가능.
 
 ### 4. Human skim (5–10 min)
 
@@ -95,11 +104,25 @@ Exit `0` = 하드 게이트 + 점수 + `npm run build` 통과.
 
 [`§ What was `/blog_publish`?`](#what-was-blog_publish-telegram) 참고.
 
-1. `pnpm validate:post <slug>` 가 이미 **0**
-2. `git add` / `commit` the three locale files
-3. Deploy (예: `pnpm run build` + Vercel, or your existing deploy script)
+1. `pnpm verify:og-social --slug <slug> --no-live` 가 **0** ← NEW (hero 이미지 검증)
+2. `pnpm validate:post <slug>` 가 **0** (hero gate 포함)
+3. `git add` / `commit` — **3개 locale md + 2개 이미지 파일** (`hero.webp`, `hero-og.jpg`)
+4. Deploy (예: `pnpm run build` + Vercel, or your existing deploy script)
 
 Telegram / GSF-Research 봇은 **현재 운영에서 필수 아님** (legacy).
+
+#### Hero image waiver policy
+
+Joseph이 명시적으로 이미지 없는 배포를 허가한 경우에만 적용.
+**구두 허가 불인정** — episode manifest `gates.hero_waived_by` 필드에 기재해야 `validate:post`가 bypass:
+
+```json
+"gates": {
+  "hero_waived_by": "Joseph 2026-06-19 — draft only, images to follow"
+}
+```
+
+다음 포스팅 전 waiver 제거 + 이미지 생성 완료 필수.
 
 ---
 
@@ -132,12 +155,14 @@ Telegram / GSF-Research 봇은 **현재 운영에서 필수 아님** (legacy).
 “발행 전 검증해줘”일 때:
 
 1. `slug` + `src/data/blog/` 경로 확인
-2. `docs/verification/manifests/*<slug>*.manifest.json` 존재·gates 확인
-3. `pnpm verify:episode --slug <slug>` → 0
-4. 팩트 시트 템플릿 안내
-5. `pnpm validate:post <slug>` → 0 될 때까지 md 수정
-6. manifest `gates.cursor_audit_passed: true` 설정
-7. **사용자가 요청할 때만** commit/deploy
+2. `docs/verification/manifests/*<slug>*.manifest.json` 존재·gates 확인 (`hero_waived_by` 없으면 이미지 필수)
+3. Hero assets: `public/assets/images/blog/{slug}-hero.webp` + `{slug}-hero-og.jpg`, KO `ogImage` = `.jpg`
+4. `pnpm verify:og-social --slug <slug> --no-live` → 0
+5. `pnpm verify:episode --slug <slug>` → 0
+6. 팩트 시트 (`docs/fact-audit/<slug>.md`) coverage 확인
+7. `pnpm validate:post <slug>` → 0 (hero gate + build; manifest `hero_waived_by` 시 hero skip)
+8. manifest `gates.cursor_audit_passed: true` 설정
+9. **사용자가 요청할 때만** commit/deploy (md 3 + hero.webp + hero-og.jpg)
 
 Rule: [`.cursor/rules/blog-pre-publish.mdc`](../.cursor/rules/blog-pre-publish.mdc)
 

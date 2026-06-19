@@ -1,0 +1,577 @@
+{
+  "episode": "Ep.07",
+  "slug": "tokyo-kita-arakawa-itabashi-nerima",
+  "created_at": "2026-06-19",
+  "updated_at": "2026-06-19",
+  "gates": {
+    "c_tier_capture_requested": false,
+    "manifest_approved_by": "Joseph",
+    "manifest_approved_at": "2026-06-19",
+    "draft_started": true,
+    "cursor_audit_passed": true,
+    "cursor_audit_at": "2026-06-19",
+    "joseph_final_approved": false
+  },
+  "claims": [
+    {
+      "id": "MLIT-chiyoda-70",
+      "label": "千代田区 70㎡ 성약가 (비교 기준)",
+      "value": 13630,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "千代田区.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-kita-70",
+      "label": "北区 70㎡ 성약가",
+      "value": 6272,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "北区.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-kita-1R",
+      "label": "北区 SUUMO 1R",
+      "value": 8.5,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_kita/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_kita-20260617.html",
+        "snippet": "8.5万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-kita-TOP",
+      "label": "北区 최다 승하차 역 (赤羽)",
+      "value": 183284,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.北区.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-kita-2040",
+      "label": "北区 인구 2020→2040 변화율",
+      "value": 1.8,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.北区.change_pct",
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-kita-CAGR",
+      "label": "北区 맨션 成約 ㎡단가 CAGR",
+      "value": 6.7,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.北区.cagr_full",
+        "count": 585,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-kita-CAGR10",
+      "label": "北区 不動産取引価格 10년 CAGR (보조)",
+      "value": 5,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.北区",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-kita-CAGR10",
+      "label": "北区 地価公示ポイント 10년 CAGR (보조)",
+      "value": 6.9,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.北区",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-kita-1R",
+      "label": "北区 세전 표면 yield proxy (1R)",
+      "value": 1.6,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-kita-SUM",
+      "label": "北区 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.北区"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-arakawa-70",
+      "label": "荒川区 70㎡ 성약가",
+      "value": 6027,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "荒川区.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-arakawa-1R",
+      "label": "荒川区 SUUMO 1R",
+      "value": 8.6,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_arakawa/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_arakawa-20260617.html",
+        "snippet": "8.6万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-arakawa-TOP",
+      "label": "荒川区 최다 승하차 역 (西日暮里)",
+      "value": 359263,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.荒川区.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-arakawa-2040",
+      "label": "荒川区 인구 2020→2040 변화율",
+      "value": 5.4,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.荒川区.change_pct",
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-arakawa-CAGR",
+      "label": "荒川区 맨션 成約 ㎡단가 CAGR",
+      "value": 5.9,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.荒川区.cagr_full",
+        "count": 510,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-arakawa-CAGR10",
+      "label": "荒川区 不動産取引価格 10년 CAGR (보조)",
+      "value": 5.3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.荒川区",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-arakawa-CAGR10",
+      "label": "荒川区 地価公示ポイント 10년 CAGR (보조)",
+      "value": 6.4,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.荒川区",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-arakawa-1R",
+      "label": "荒川区 세전 표면 yield proxy (1R)",
+      "value": 1.7,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-arakawa-SUM",
+      "label": "荒川区 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.荒川区"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-itabashi-70",
+      "label": "板橋区 70㎡ 성약가",
+      "value": 4936,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "板橋区.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-itabashi-1R",
+      "label": "板橋区 SUUMO 1R",
+      "value": 8.5,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_itabashi/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_itabashi-20260617.html",
+        "snippet": "8.5万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-itabashi-TOP",
+      "label": "板橋区 최다 승하차 역 (板橋)",
+      "value": 63704,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.板橋区.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-itabashi-2040",
+      "label": "板橋区 인구 2020→2040 변화율",
+      "value": 3.9,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.板橋区.change_pct",
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-itabashi-CAGR",
+      "label": "板橋区 맨션 成約 ㎡단가 CAGR",
+      "value": 5.2,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.板橋区.cagr_full",
+        "count": 1030,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-itabashi-CAGR10",
+      "label": "板橋区 不動産取引価格 10년 CAGR (보조)",
+      "value": 4.6,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.板橋区",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-itabashi-CAGR10",
+      "label": "板橋区 地価公示ポイント 10년 CAGR (보조)",
+      "value": 8.3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.板橋区",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-itabashi-1R",
+      "label": "板橋区 세전 표면 yield proxy (1R)",
+      "value": 2.1,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-itabashi-SUM",
+      "label": "板橋区 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.板橋区"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-nerima-70",
+      "label": "練馬区 70㎡ 성약가",
+      "value": 5125,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "練馬区.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-nerima-1R",
+      "label": "練馬区 SUUMO 1R",
+      "value": 8.7,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_nerima/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_nerima-20260617.html",
+        "snippet": "8.7万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-nerima-TOP",
+      "label": "練馬区 최다 승하차 역 (小竹向原)",
+      "value": 488951,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.練馬区.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-nerima-2040",
+      "label": "練馬区 인구 2020→2040 변화율",
+      "value": 1.6,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.練馬区.change_pct",
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-nerima-CAGR",
+      "label": "練馬区 맨션 成約 ㎡단가 CAGR",
+      "value": 4.5,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.練馬区.cagr_full",
+        "count": 895,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-nerima-CAGR10",
+      "label": "練馬区 不動産取引価格 10년 CAGR (보조)",
+      "value": 4.2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.練馬区",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-nerima-CAGR10",
+      "label": "練馬区 地価公示ポイント 10년 CAGR (보조)",
+      "value": 3.7,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.練馬区",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-nerima-1R",
+      "label": "練馬区 세전 표면 yield proxy (1R)",
+      "value": 2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-nerima-SUM",
+      "label": "練馬区 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.練馬区"
+      },
+      "used_in_draft": false
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-kita-VS-CHIYODA",
+      "label": "北区 vs 千代田区 가격 비율",
+      "formula": "6272 / 13630 * 100",
+      "expected": 46.0,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-arakawa-VS-CHIYODA",
+      "label": "荒川区 vs 千代田区 가격 비율",
+      "formula": "6027 / 13630 * 100",
+      "expected": 44.2,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-itabashi-VS-CHIYODA",
+      "label": "板橋区 vs 千代田区 가격 비율",
+      "formula": "4935 / 13630 * 100",
+      "expected": 36.2,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-nerima-VS-CHIYODA",
+      "label": "練馬区 vs 千代田区 가격 비율",
+      "formula": "5124 / 13630 * 100",
+      "expected": 37.6,
+      "unit": "%",
+      "tolerance": 0.5
+    }
+  ],
+  "c_tier_capture_requests": []
+}

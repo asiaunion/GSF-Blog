@@ -16,8 +16,16 @@ In Cursor:
 2. Follow [`docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md`](docs/BLOG_TRUST_AND_QUALITY_ROADMAP.md) and [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md).
 3. Trust gates: `pnpm trust:verify-sources <slug>` when fact sheet has specific URLs; `SKIP_TRUST_VERIFY=1` only for format-only passes.
 4. Require [`docs/templates/blog-fact-sheet.md`](docs/templates/blog-fact-sheet.md) for KO bodies with numbers or legal thresholds.
-5. Run `pnpm validate:post <slug>` (or `--stage <slug>`) and fix markdown until exit code 0.
-6. Fact-check: [`docs/BLOG_FACT_CHECK_WORKFLOW.md`](docs/BLOG_FACT_CHECK_WORKFLOW.md).
-7. After exit 0, remind user to **git commit + deploy** — do not assume Telegram `/blog_publish`.
+5. **Hero image gates (HARD — added 2026-06-19)**:
+   ```bash
+   pnpm verify:og-social --slug <slug> --no-live
+   # Checks: hero-webp exists, hero-og-jpg exists, ogImage is .jpg (not .webp)
+   # Exit non-0 → block publish. No verbal bypass allowed.
+   # Waiver ONLY via manifest gates.hero_waived_by field.
+   ```
+6. Run `pnpm validate:post <slug>` (or `--stage <slug>`) and fix markdown until exit code 0.
+   - `validate:post` now includes `hero-webp-exists` and `hero-og-jpg-exists` hard gates.
+7. Fact-check: [`docs/BLOG_FACT_CHECK_WORKFLOW.md`](docs/BLOG_FACT_CHECK_WORKFLOW.md).
+8. After exit 0 on **both** `verify:og-social` and `validate:post`, remind user to **git commit + deploy**.
 
 Gate failures: fix order in `BLOG_AGENT_AUTOMATION_RUNBOOK.md` § Gate failure remediation (sources → length → tier → risky claims).

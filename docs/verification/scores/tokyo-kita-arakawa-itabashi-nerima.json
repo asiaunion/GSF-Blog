@@ -1,0 +1,391 @@
+{
+  "ok": false,
+  "slug": "tokyo-kita-arakawa-itabashi-nerima",
+  "episode": "Ep.07",
+  "manifest": "/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/docs/verification/manifests/ep07-tokyo-kita-arakawa-itabashi-nerima.manifest.json",
+  "failed": 23,
+  "passed": 29,
+  "total": 52,
+  "hallucination_score": {
+    "failed_primary_claims": 0,
+    "total_primary_claims": 17,
+    "score": 0,
+    "ok": true
+  },
+  "results": [
+    {
+      "type": "claim",
+      "id": "MLIT-chiyoda-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-kita-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-kita-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-kita-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-kita-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-kita-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-kita-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 5.7, got 5"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-kita-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 8.3, got 6.9"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-kita-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-kita-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-arakawa-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-arakawa-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-arakawa-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-arakawa-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-arakawa-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-arakawa-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 5, got 5.3"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-arakawa-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 7.9, got 6.4"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-arakawa-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-arakawa-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-itabashi-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-itabashi-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-itabashi-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-itabashi-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-itabashi-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-itabashi-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 5.1, got 4.6"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-itabashi-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 11.2, got 8.3"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-itabashi-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-itabashi-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-nerima-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-nerima-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-nerima-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-nerima-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-nerima-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-nerima-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 4, got 4.2"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-nerima-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 4.3, got 3.7"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-nerima-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-nerima-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-kita-VS-CHIYODA",
+      "ok": true,
+      "computed": 46.01614086573734,
+      "expected": 46,
+      "formula": "6272 / 13630 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-arakawa-VS-CHIYODA",
+      "ok": true,
+      "computed": 44.218635363169476,
+      "expected": 44.2,
+      "formula": "6027 / 13630 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-itabashi-VS-CHIYODA",
+      "ok": true,
+      "computed": 36.206896551724135,
+      "expected": 36.2,
+      "formula": "4935 / 13630 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-nerima-VS-CHIYODA",
+      "ok": true,
+      "computed": 37.59354365370506,
+      "expected": 37.6,
+      "formula": "5124 / 13630 * 100"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "13630",
+      "ok": false,
+      "reason": "primary value 13630 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "183284",
+      "ok": false,
+      "reason": "primary value 183284 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "1.8",
+      "ok": false,
+      "reason": "primary value 1.8 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "359263",
+      "ok": false,
+      "reason": "primary value 359263 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "5.4",
+      "ok": false,
+      "reason": "primary value 5.4 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "4936",
+      "ok": false,
+      "reason": "primary value 4936 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "63704",
+      "ok": false,
+      "reason": "primary value 63704 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "3.9",
+      "ok": false,
+      "reason": "primary value 3.9 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "5125",
+      "ok": false,
+      "reason": "primary value 5125 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "488951",
+      "ok": false,
+      "reason": "primary value 488951 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "1.6",
+      "ok": false,
+      "reason": "primary value 1.6 not found as bold in draft (heuristic)"
+    }
+  ],
+  "written_at": "2026-06-19T05:31:57.311Z"
+}
