@@ -22,9 +22,13 @@ You can also reach me via the [Contact](/contact/) page.
 
 ### Nihonbashi — Starting from This Point
 
-I am Joseph, and I write this blog under the name **GSF (Good Samaritan Flourishing)**. At the heart of Tokyo, the Nihonbashi bridge carries Japan's Kilometre Zero marker (道路元標) — the single point from which every road in this country begins and to which it returns. I live in this neighborhood with my Japanese wife, and in the mornings I begin my day crossing the old stone parapets and the quiet current flowing beneath the bridge.
+I am Joseph, and I run this blog under the name **GSF (Good Samaritan Flourishing)**.
 
-I believe every endeavor begins from a single point. So the perspective of this blog tries to be that of a person pausing briefly beside the Kilometre Zero marker. The words I quietly repeat to myself are **change and progress** — unafraid to pause, yet never returning to exactly the same ground.
+In the heart of Tokyo stands Nihonbashi, home to Japan's Road Origin Marker (Dōrogenpyō). It is the place from which all roads in Japan begin. I live in Nihonbashi, Tokyo, where I closely observe the changes of the city and the lives of the people around me.
+
+I believe that every meaningful journey begins from a single point. That is why I hope this blog reflects the perspective of someone who pauses for a moment beside that marker and looks carefully at the road ahead.
+
+The words I often repeat to myself are **change and progress**. I do not fear remaining in one place for a season, but I strive not to return to the same place unchanged.
 
 ---
 
@@ -59,8 +63,8 @@ I believe every endeavor begins from a single point. So the perspective of this 
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-period">2022 – 2024</span>
-      <h4 class="timeline-role">Korea · Graduate School</h4>
-      <p>I enrolled in a Master of Divinity program at a seminary in Korea and completed the remaining coursework on campus, graduating in 2024. It was a phase of running two parallel tracks — investment operations and academic study.</p>
+      <h4 class="timeline-role">Korea · Graduate Studies</h4>
+      <p>I returned to Korea and completed a graduate program, graduating in 2024. During this period, I balanced investing with academic study while developing a longer-term perspective on both work and life.</p>
     </div>
   </div>
   <div class="timeline-item">
@@ -76,7 +80,7 @@ I believe every endeavor begins from a single point. So the perspective of this 
     <div class="timeline-content">
       <span class="timeline-period">2026 – Present</span>
       <h4 class="timeline-role">Tokyo Nihonbashi · Condo Purchase & Relocation</h4>
-      <p>In 2026 I purchased a pre-owned condominium (中古マンション) in Nihonbashi, Tokyo and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level. I am charting a path as both an investor and an entrepreneur, and this blog is a record of that journey.</p>
+      <p>In 2026 I purchased a pre-owned condominium (中古マンション) in Nihonbashi, Tokyo and relocated here. The process — from property search, contract negotiation, and mortgage screening to final settlement and registration — gave me a first-hand walkthrough of every stage of a Japanese real-estate transaction. It also gave me a practical basis for comparing the Korean and Japanese property markets at an operational level. I continue to walk the path of an investor and independent researcher, and this blog serves as a record of that ongoing journey.</p>
       <p>If you're interested in the purchase process itself — what surprised me, what differed from Korea, and why timing mattered more than price — you may find this essay helpful:
 <a href="/posts/buying-property-japan-surprises-foreign-investor/">What Surprised Me Most About Buying Property in Japan</a>.</p>
     </div>
@@ -103,7 +107,7 @@ I often return to the phrase **"human-centered investing."** Investing is ultima
   <div class="pillar-card">
     <span class="pillar-icon">🗼</span>
     <h4>Tokyo Life</h4>
-    <p>Life in Nihonbashi and the inner city, a Korean–Japanese family's daily rhythm, and local reports</p>
+    <p>Life in Nihonbashi and central Tokyo, local observations, and reports from the community.</p>
   </div>
   <div class="pillar-card">
     <span class="pillar-icon">✍️</span>
@@ -118,6 +122,10 @@ I write with an eye toward holding profit and purpose together. Every article on
 
 ### A Note to Readers: Commitments and Disclaimer
 
-Every piece here is a record of observation by one investor — **not investment advice**. Figures and links are preserved as they appear in their sources, and statistics, regulations, and tax-related information are, wherever possible, accompanied by at least two primary official references. Any investment decision must rest with the reader's own judgment, and individual circumstances should be verified through qualified professionals and official institutions.
+Every piece here is a record of observation by one investor — **not investment advice**. Figures and links are preserved as they appear in their sources, and statistics, regulations, and tax-related information are, wherever possible, accompanied by at least two primary official references.
+
+The articles on this blog are based, whenever possible, on direct experience and primary-source research. I prioritize Japanese real estate transaction data, public statistics, and corporate disclosures, and I make a conscious effort to distinguish factual information from personal interpretation. Whenever possible, I provide original sources so that readers can verify the information for themselves.
+
+Any investment decision must rest with the reader's own judgment, and individual circumstances should be verified through qualified professionals and official institutions.
 
 *Logged from Nihonbashi, Tokyo — through an investor's eyes.*
