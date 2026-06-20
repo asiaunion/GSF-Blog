@@ -39,8 +39,8 @@ The words I often repeat to myself are **change and progress**. I do not fear re
     <div class="timeline-marker"></div>
     <div class="timeline-content">
       <span class="timeline-period">2005 – 2013</span>
-      <h4 class="timeline-role">P&C Insurance · ~8 Years</h4>
-      <p>After studying economics in Korea, I spent roughly eight years at a property & casualty insurance company. My first two years focused on commercial real-estate leasing (office space), giving me hands-on experience with property contracts and tenant negotiations. I then moved to a product-planning division, where I spent six years designing insurance products and running statistical analyses. It was a period that sharpened my eye for data-driven risk assessment — a lens I carry into every investment decision today.</p>
+      <h4 class="timeline-role">Non-Life Insurance · ~8 Years</h4>
+      <p>After studying economics in Korea, I spent roughly eight years at a Non-Life Insurance company. I worked in a product-planning division, designing insurance products and running statistical analyses — a period that sharpened my eye for data-driven risk assessment, a lens I carry into every investment decision today.</p>
     </div>
   </div>
   <div class="timeline-item">

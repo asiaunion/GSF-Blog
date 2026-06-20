@@ -1,6 +1,6 @@
 ---
 lang: ja
-title: "Joseph. KIM"
+title: "Joseph KIM"
 description: "GSFArk創設者・編集者"
 ---
 
