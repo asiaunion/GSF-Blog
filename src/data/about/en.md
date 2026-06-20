@@ -40,7 +40,7 @@ The words I often repeat to myself are **change and progress**. I do not fear re
     <div class="timeline-content">
       <span class="timeline-period">2005 – 2013</span>
       <h4 class="timeline-role">Non-Life Insurance · ~8 Years</h4>
-      <p>After studying economics in Korea, I spent roughly eight years at a Non-Life Insurance company. I worked in a product-planning division, designing insurance products and running statistical analyses — a period that sharpened my eye for data-driven risk assessment, a lens I carry into every investment decision today.</p>
+      <p>After studying economics in Korea, I spent roughly eight years at a Non-Life Insurance company. I worked in a product-planning division, handling insurance underwriting planning and statistical analyses — a period that sharpened my eye for data-driven risk assessment, a lens I carry into every investment decision today.</p>
     </div>
   </div>
   <div class="timeline-item">
