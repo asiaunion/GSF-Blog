@@ -4,6 +4,7 @@
 > **AG 컨텍스트:** 첫 세션 [`AG_CONTEXT_BOOTSTRAP_20260525.md`](./AG_CONTEXT_BOOTSTRAP_20260525.md) · 이후 [`AG_CONTEXT_BOOTSTRAP_SHORT.md`](./AG_CONTEXT_BOOTSTRAP_SHORT.md)
 
 > **원칙**: 글 **작성·초안**은 **Antigravity (AG)**. **발행 직전 검증**은 **Cursor**에서 통과한 뒤 repo에 반영·배포.  
+> **코드·구현 레이어**: Claude는 기획·브리핑만 — **구현 확정은 Cursor와 티키타카** ([`GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md`](../../GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md)).  
 > **요일 고정 없음** · **Telegram 불필요** — 포스트 1편마다 아래 순서만 지키면 됨.
 
 ---
@@ -17,6 +18,7 @@
 | **AG에 시킬 때** | slug 영문 kebab-case로 통일 → KO 작성 → EN/JA 번역 → 위 세 경로에 저장 |
 | **Cursor 검증** | `pnpm verify:episode --slug <slug>` + `pnpm validate:post <slug>` exit 0 |
 | **발행** | 본인: git commit + deploy (`/blog_publish` 텔레그램은 legacy, [§ below](#what-was-blog_publish-telegram)) |
+| **배포 직후 PKM (Tokyo 에피소드)** | **AG**: `pnpm dossier:ward -- --episode epXX` + ward 카드 블로그 링크·체크 ([§ AG post-deploy PKM](#ag-post-deploy-pkm-tokyo-episodes)) |
 | **repo 루트 주의** | `src/data/blog/_integrity-example-*.md`, `_template-*.md` 는 예시/템플릿 — 실제 글은 **`ko/` `en/` `ja/` 안만** |
 
 **폴더 구조 (확인됨)**:
@@ -40,6 +42,7 @@ src/data/blog/ja/<slug>.md
 | Fact sheet + spot-check | **You + Cursor** | [`BLOG_FACT_CHECK_WORKFLOW.md`](./BLOG_FACT_CHECK_WORKFLOW.md) |
 | Automated gates + build | **Cursor** | `pnpm validate:post <slug>` |
 | **Publish** | **You** (after validate) | `git commit` + Vercel deploy — see § Publish below |
+| **PKM Obsidian dossier (post-deploy)** | **AG** | `pnpm dossier:ward` + ward `.md` 블로그 링크 — Tokyo 에피소드만 |
 
 **Do not** merge/deploy until `pnpm validate:post` exits `0`.
 
@@ -55,9 +58,12 @@ AG: 주제 → manifest (Step 3-E) → Joseph 승인 → KO 원고
 Cursor: manifest verify + 팩트 시트 → pnpm verify:og-social --slug <slug> → pnpm validate:post <slug>
         ↓
 You: git commit + deploy
+        ↓
+AG: Step 7 PKM — pnpm dossier:ward -- --episode epXX + ward 카드 블로그 링크·체크 (Tokyo 에피소드만)
 ```
 
 **Ep.07+ 필수**: manifest 승인 없이 KO 초안 작성 금지. Cursor 감사(`cursor_audit_passed`) 없이 배포 금지.  
+**Tokyo 에피소드 배포 직후 필수 (2026-06-19~)**: AG가 Step 7 PKM dossier 실행 — 구두 생략 금지.  
 **이미지 필수 (2026-06-19~)**: `hero-webp-exists` + `hero-og-jpg-exists` hard gate — `pnpm validate:post`에서 자동 검사.  
 면제(waiver)는 manifest `gates.hero_waived_by` 필드 기재로만 허용. 구두 스킵 불가.  
 상세: [`BLOG_EPISODE_VERIFICATION_PIPELINE.md`](./BLOG_EPISODE_VERIFICATION_PIPELINE.md)  
@@ -123,6 +129,34 @@ Joseph이 명시적으로 이미지 없는 배포를 허가한 경우에만 적�
 ```
 
 다음 포스팅 전 waiver 제거 + 이미지 생성 완료 필수.
+
+---
+
+## AG post-deploy PKM (Tokyo episodes)
+
+> **Owner: AG only** — Cursor는 이 단계를 실행·검증하지 않음.  
+> **Scope**: Where to Live in Tokyo (Ep.01~Ep.23). 일반 블로그 slug는 생략.
+
+Joseph가 live 배포를 확인한 **직후**, AG가 deploy-blog **Step 7**을 수행한다.
+
+### Checklist
+
+1. **episode 코드** — `docs/verification/tokyo-series-episodes.json`에서 `slug` → `episode` (예: `Ep.07` → CLI `ep07`) 및 `wards` 목록 확인.
+
+2. **dossier 재생성**
+   ```bash
+   cd projects/GSF-Ark
+   pnpm dossier:ward -- --episode ep07
+   ```
+   산출: `GSF-PKM/PKM/30 Resources/RealEstate/Tokyo/wards/{区}.md` + `{区}.data.json`
+
+3. **블로그 링크** — 각 ward `.md`에 수동 보강 (`render-ward-dossier`는 URL 미삽입):
+   - `## 요약` 블록: `블로그 Ep.NN: [제목](https://gsfark.com/ko/posts/<slug>/) ✅ 배포완료 YYYY-MM-DD`
+   - `## 미확인·다음 액션`: `- [x] Ep.NN 블로그 배포 완료 (YYYY-MM-DD)`
+
+4. **완료 보고** — Joseph에게 `[AG→Joseph] Step 7 PKM 완료` + slug + wards N/N 링크 확인.
+
+상세·HARD-GATE: [`.agents/skills/deploy-blog/SKILL.md`](../.agents/skills/deploy-blog/SKILL.md) § Step 7.
 
 ---
 

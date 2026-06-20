@@ -22,6 +22,22 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 | `pnpm validate:post <slug>` | **Cursor** |
 | git commit / deploy | **User** (unless explicitly asked) |
 
+## Handoff (Claude 부재 구간)
+
+배포 완료 시 `scratch/projects/GSF-Ark/_handoff.md`에 append. 규칙: `scratch/AGENTS.md` → 핸드오프 자동 기록.
+
+## Claude ↔ Cursor (코드 레이어)
+
+**코드·CI·스키마 확정은 Claude 단독 금지** — Cursor와 티키타카.  
+SSOT: `scratch/projects/GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md` · Claude §7E.
+
+| 레이어 | Owner |
+|--------|--------|
+| 기획·브리핑·Wiki | Claude → `CURSOR_BRIEF_*.md` |
+| 구현·validate·repo 패턴 | **Cursor** |
+| KO/EN/JA 초안 | AG |
+| `pnpm validate:post` | Cursor |
+
 ---
 
 ## ⚙️ GSF-Blog 고정 아키텍처 규칙 (SSOT) — 2026-05-25+
