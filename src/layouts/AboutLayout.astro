@@ -27,17 +27,17 @@ const authorImageUrl = new URL(
 const pageUrl = new URL(Astro.url.pathname, Astro.url).href;
 
 const pageLd =
-  schemaType === "AboutPage"
+  schemaType === "AboutPage" || schemaType === "ProfilePage"
     ? {
         "@context": "https://schema.org",
-        "@type": "AboutPage",
+        "@type": schemaType,
         name: frontmatter.title,
         url: pageUrl,
         inLanguage: currentLang,
         mainEntity: {
           "@type": "Person",
-          name: "Joseph (GSF)",
-          url: SITE.profile,
+          name: "Joseph KIM",
+          url: pageUrl,
           image: authorImageUrl,
           ...(sameAs.length > 0 && { sameAs }),
         },
