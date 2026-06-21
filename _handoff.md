@@ -62,3 +62,10 @@
 - 배포 URL: https://gsfark.com
 - Claude 부재 여부: 예
 - 특이사항: Brief P0–P2 중 tag/about-us/business/PDF/resources는 df0307e·aeccf2f 선행 완료. 「크롤됨–미색인」34건은 URL 검사 색인 요청만 (Joseph GSC 수동).
+
+## [2026-06-21 22:20] AG 작업 완료 (Phase A / 배포 대기)
+- 작업 내용: E-E-A-T 에세이 2편(Checklist) & 3편(Nihonbashi) Phase A 완료. EN/KO/JA 번역 및 검수, 화자 일치, MLIT 팩트시트 보강, 히어로/OG 이미지 점검 완료.
+- 커밋 해시: 67ba48a
+- 배포 URL: N/A (현재 `draft: true`)
+- Claude 부재 여부: 아니오 (AG가 직접 로그 작성)
+- 특이사항: `validate:post` 검증 통과 (exit 0). `feat/eeat-essay-2-3-phase-a` 브랜치에 저장 상태. 6/26(2편), 7/3(3편)에 각각 `draft: false` 전환 및 main merge 진행 예정.
