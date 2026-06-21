@@ -55,3 +55,10 @@
 - 배포 URL: https://gsfark.com
 - Claude 부재 여부: 예
 - 특이사항: PDF 원본 없음 → `funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/` 로 대체. GSC 8건 실패 중 resources·PDF 해소, tag 4건은 이전 df0307e 배포로 이미 308.
+
+## [2026-06-21 19:55] Cursor 배포 완료
+- 작업 내용: GSC 최종 Brief 잔여 — robots.txt `/downloads/`, `/assets/sources/` Disallow; `/author/asiaunion/`·`/author/gsf/` → `/author/joseph-kim/` (vercel.json + WP_LEGACY_ROUTES)
+- 커밋 해시: 441d963
+- 배포 URL: https://gsfark.com
+- Claude 부재 여부: 예
+- 특이사항: Brief P0–P2 중 tag/about-us/business/PDF/resources는 df0307e·aeccf2f 선행 완료. 「크롤됨–미색인」34건은 URL 검사 색인 요청만 (Joseph GSC 수동).
