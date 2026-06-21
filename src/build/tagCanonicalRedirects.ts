@@ -116,6 +116,83 @@ export const TAG_SAFETY_NET: VercelRoute = {
 
 /** Legacy WordPress / Yoast paths still in GSC index from the prior site. */
 export const WP_LEGACY_ROUTES: VercelRoute[] = [
+  // P1 — WP fixed pages (GSC 404 samples: /about-us/, /business/)
+  {
+    src: "^/about-us/?$",
+    headers: { Location: "/about/" },
+    status: 308,
+  },
+  {
+    src: "^/ko/about-us/?$",
+    headers: { Location: "/ko/about/" },
+    status: 308,
+  },
+  {
+    src: "^/ja/about-us/?$",
+    headers: { Location: "/ja/about/" },
+    status: 308,
+  },
+  {
+    src: "^/business/?$",
+    headers: { Location: "/topics/" },
+    status: 308,
+  },
+  {
+    src: "^/ko/business/?$",
+    headers: { Location: "/ko/topics/" },
+    status: 308,
+  },
+  {
+    src: "^/ja/business/?$",
+    headers: { Location: "/ja/topics/" },
+    status: 308,
+  },
+  // P0 — WP singular /tag/ → Astro /tags/ (GSC 404: ~40 legacy tag URLs)
+  {
+    src: "^/tag/?$",
+    headers: { Location: "/tags/" },
+    status: 308,
+  },
+  {
+    src: "^/ko/tag/?$",
+    headers: { Location: "/ko/tags/" },
+    status: 308,
+  },
+  {
+    src: "^/ja/tag/?$",
+    headers: { Location: "/ja/tags/" },
+    status: 308,
+  },
+  {
+    src: "^/tag/([^/]+)/page/\\d+/?$",
+    headers: { Location: "/tags/$1/" },
+    status: 308,
+  },
+  {
+    src: "^/ko/tag/([^/]+)/page/\\d+/?$",
+    headers: { Location: "/ko/tags/$1/" },
+    status: 308,
+  },
+  {
+    src: "^/ja/tag/([^/]+)/page/\\d+/?$",
+    headers: { Location: "/ja/tags/$1/" },
+    status: 308,
+  },
+  {
+    src: "^/tag/([^/]+)/?$",
+    headers: { Location: "/tags/$1/" },
+    status: 308,
+  },
+  {
+    src: "^/ko/tag/([^/]+)/?$",
+    headers: { Location: "/ko/tags/$1/" },
+    status: 308,
+  },
+  {
+    src: "^/ja/tag/([^/]+)/?$",
+    headers: { Location: "/ja/tags/$1/" },
+    status: 308,
+  },
   {
     src: "^/author/?$",
     headers: { Location: "/author/joseph-kim/" },
@@ -136,7 +213,7 @@ export const WP_LEGACY_ROUTES: VercelRoute[] = [
     headers: { Location: "/" },
     status: 308,
   },
-  /** Gone — tell crawlers to drop legacy WP system URLs (not 308 to home). */
+  /** P2 — Gone: legacy WP system URLs + uploads (not 308 to home). */
   {
     src: "^/wp-(?:admin|content|includes|json|login\\.php)(?:/.*)?$",
     status: 410,

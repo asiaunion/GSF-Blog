@@ -79,9 +79,19 @@ check "/tags/nihonbashi/2/"                  200
 echo "--- WP legacy ---"
 check "/author/gsf/"        308 "/about/"
 check "/feed/"              308 "/rss.xml"
-check "/wp-admin/foo/"      308 "/"
-check "/wp-login.php"       308 "/"
-check "/wp-json/foo/"       308 "/"
+check "/wp-admin/foo/"      410
+check "/wp-login.php"       410
+check "/wp-json/foo/"       410
+check "/wp-content/uploads/2024/04/high-yield-investment-01.pdf" 410
+
+echo "--- WP legacy pages (GSC 404) ---"
+check "/about-us/"          308 "/about/"
+check "/business/"          308 "/topics/"
+
+echo "--- WP singular /tag/ → /tags/ (GSC 404) ---"
+check "/tag/%EC%9D%BC%EB%B3%B8-%EC%A3%BC%EC%8B%9D/" 308 "/tags/"
+check "/tag/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/" 308 "/tags/"
+check "/ko/tag/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/" 308 "/ko/tags/"
 
 echo "--- Safety net (unknown tag) ---"
 check "/tags/완전임의새태그/"   308 "/tags/"

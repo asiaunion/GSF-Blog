@@ -114,9 +114,16 @@ const MATRIX = [
   // WP legacy
   ["/author/gsf/", 308, "/about/"],
   ["/feed/", 308, "/rss.xml"],
-  ["/wp-admin/foo/", 308, "/"],
-  ["/wp-login.php", 308, "/"],
-  ["/wp-json/foo/", 308, "/"],
+  ["/wp-admin/foo/", 410],
+  ["/wp-login.php", 410],
+  ["/wp-json/foo/", 410],
+  ["/wp-content/uploads/2024/04/high-yield-investment-01.pdf", 410],
+  // GSC 404 — WP pages + singular /tag/
+  ["/about-us/", 308, "/about/"],
+  ["/business/", 308, "/topics/"],
+  ["/tag/%EC%9D%BC%EB%B3%B8-%EC%A3%BC%EC%8B%9D/", 308, "/tags/"],
+  ["/tag/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/", 308, "/tags/"],
+  ["/ko/tag/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/", 308, "/ko/tags/"],
   // Safety net
   ["/tags/완전임의새태그/", 308, "/tags/"],
   ["/ko/tags/zzzunknown/", 308, "/tags/"],
