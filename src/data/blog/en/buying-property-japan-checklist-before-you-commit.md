@@ -30,6 +30,8 @@ This essay is the checklist I wish I had carried to every property visit.
 
 It is not a legal guide, and it is not a complete manual for buying real estate in Japan. It is simply a record of what proved to matter most to me after going through the process myself.
 
+The [surprises I encountered as a foreign buyer](/en/posts/buying-property-japan-surprises-foreign-investor/) are covered in an earlier piece. If you are curious why I chose Nihonbashi specifically, [that story is here](/en/posts/why-i-chose-nihonbashi/).
+
 ---
 
 ## Before the Visit
@@ -38,7 +40,7 @@ It is not a legal guide, and it is not a complete manual for buying real estate 
 
 In Japan, one date matters immediately: **June 1981**.
 
-Buildings completed before that point were generally built under the old earthquake-resistance standard (**旧耐震基準**). Buildings completed after it follow the revised standard (**新耐震基準**). That distinction does not tell you everything about a building, but it changes the conversation at once.
+Buildings completed before that point were generally built under the old earthquake-resistance standard (**旧耐震基準**). Buildings completed after it follow the revised standard (**新耐震基準**). That distinction does not tell you everything about a building, but it changes the conversation at once. See the [MLIT overview of earthquake-resistant housing](https://www.mlit.go.jp/totikensangyo/totikensangyo_fr2_000043.html) for the official threshold.
 
 It affects financing. It affects insurance. It affects the pool of future buyers. It affects how comfortable you need to be with structural and maintenance risk.
 

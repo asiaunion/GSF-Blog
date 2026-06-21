@@ -68,7 +68,7 @@ It did not make the decision by itself.
 
 I chose Nihonbashi because my wife grew up here.
 
-When we moved to Tokyo in 2018, this was the part of the city she knew best — the streets she had walked as a child, the bridge she had crossed in every season, the district that held the texture of her earliest memories.
+When my wife and I moved to Tokyo in 2018, this was the part of the city she knew best — the streets she had walked as a child, the bridge she had crossed in every season, the district that held the texture of her earliest memories.
 
 Living near Nihonbashi was not, at first, an investment thesis.
 
@@ -88,7 +88,9 @@ Compared to the more photogenic parts of Tokyo, it can seem almost restrained: a
 
 But the place carries a different kind of weight.
 
-Years before we bought our home, I remember standing there and thinking about what it meant to be at the starting point.
+I have written separately about [the history that made Nihonbashi Japan's starting point](/en/posts/nihonbashi-the-origin-of-japan/).
+
+Years before my wife and I bought my home, I remember standing there and thinking about what it meant to be at the starting point.
 
 Not the destination.
 
@@ -98,9 +100,9 @@ From this bridge, every road in Japan officially begins.
 
 It would be easy to call that sentiment and leave it there.
 
-But where people choose to live is rarely decided by numbers alone. In the end, most homes are chosen at the point where practical judgment and private meaning meet. Nihonbashi became that place for us.
+But where people choose to live is rarely decided by numbers alone. In the end, most homes are chosen at the point where practical judgment and private meaning meet. Nihonbashi became that place for my wife and me.
 
-Years later, we bought an address that contains the word *Nihonbashi*.
+Years later, my wife and I bought an address that contains the word *Nihonbashi*.
 
 I still do not think that was an accident.
 
@@ -160,7 +162,7 @@ That distinction matters more than many investors admit.
 
 The research I publish on this site is an attempt to make the invisible visible.
 
-Transaction prices. Vacancy trends. Redevelopment pipelines. Ward-by-ward supply data.
+Transaction prices. Vacancy trends. Redevelopment pipelines. Ward-by-ward supply data — the kind of analysis I covered in the [Tokyo property surprises series](/en/posts/buying-property-japan-surprises-foreign-investor/).
 
 All of that matters.
 
