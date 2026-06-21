@@ -41,3 +41,8 @@ Every article published on GSFArk is written from this perspective.
 ## Current Base
 
 Nihonbashi, Tokyo, Japan
+
+## Contact
+
+- **Email**: asiaunion@gmail.com
+- [Send a message →](/contact/)
