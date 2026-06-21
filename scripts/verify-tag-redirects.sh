@@ -87,6 +87,9 @@ check "/wp-content/uploads/2024/04/high-yield-investment-01.pdf" 410
 echo "--- WP legacy pages (GSC 404) ---"
 check "/about-us/"          308 "/about/"
 check "/business/"          308 "/topics/"
+check "/ko/resources/"      308 "/ko/resources/tokyo-relocation-d90/"
+check "/ja/resources/"      308 "/ja/resources/tokyo-relocation-d90/"
+check "/assets/sources/tokyo-chikyu-chosa-7th.pdf" 410
 
 echo "--- WP singular /tag/ → /tags/ (GSC 404) ---"
 check "/tag/%EC%9D%BC%EB%B3%B8-%EC%A3%BC%EC%8B%9D/" 308 "/tags/"

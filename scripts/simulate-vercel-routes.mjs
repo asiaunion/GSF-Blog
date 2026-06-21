@@ -121,6 +121,9 @@ const MATRIX = [
   // GSC 404 — WP pages + singular /tag/
   ["/about-us/", 308, "/about/"],
   ["/business/", 308, "/topics/"],
+  ["/ko/resources/", 308, "/ko/resources/tokyo-relocation-d90/"],
+  ["/ja/resources/", 308, "/ja/resources/tokyo-relocation-d90/"],
+  ["/assets/sources/tokyo-chikyu-chosa-7th.pdf", 410],
   ["/tag/%EC%9D%BC%EB%B3%B8-%EC%A3%BC%EC%8B%9D/", 308, "/tags/"],
   ["/tag/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/", 308, "/tags/"],
   ["/ko/tag/%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85/", 308, "/ko/tags/"],

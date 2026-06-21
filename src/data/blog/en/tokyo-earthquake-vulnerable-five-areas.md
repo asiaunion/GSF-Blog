@@ -16,15 +16,14 @@ sources:
   - "https://www.j-shis.bousai.go.jp/map/"
   - "https://www.kensetsu.metro.tokyo.lg.jp/"
   - "https://toshiseibi.metro.tokyo.lg.jp/bosai/mokumitu/"
-  - "https://gsfark.com/assets/sources/tokyo-chikyu-chosa-7th.pdf"
+  - "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/"
 citeSources:
   - label: "Tokyo Metropolitan Government Disaster Portal (English)"
     url: "https://www.bousai.metro.tokyo.lg.jp/english/"
   - label: "J-SHIS National Seismic Hazard Map (J-SHIS Map)"
     url: "https://www.j-shis.bousai.go.jp/map/"
-  - label: "Tokyo Bureau of Construction: Regional Earthquake Risk Survey, 7th Edition (Archive)"
-    url: "https://gsfark.com/assets/sources/tokyo-chikyu-chosa-7th.pdf"
-    archive: "/assets/sources/tokyo-chikyu-chosa-7th.pdf"
+  - label: "Tokyo Bureau of Urban Development: Regional Earthquake Risk Survey (official)"
+    url: "https://www.funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/"
   - label: "Tokyo Bureau of Urban Development: Wooden Densely-Built Area Fire-Risk Reduction Core Zone Map"
     url: "https://toshiseibi.metro.tokyo.lg.jp/bosai/mokumitu/"
 ---

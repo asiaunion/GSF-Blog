@@ -147,6 +147,27 @@ export const WP_LEGACY_ROUTES: VercelRoute[] = [
     headers: { Location: "/ja/topics/" },
     status: 308,
   },
+  // Resources hub — index URL missing; only tokyo-relocation-d90 exists (GSC 404)
+  {
+    src: "^/resources/?$",
+    headers: { Location: "/resources/tokyo-relocation-d90/" },
+    status: 308,
+  },
+  {
+    src: "^/ko/resources/?$",
+    headers: { Location: "/ko/resources/tokyo-relocation-d90/" },
+    status: 308,
+  },
+  {
+    src: "^/ja/resources/?$",
+    headers: { Location: "/ja/resources/tokyo-relocation-d90/" },
+    status: 308,
+  },
+  /** Retired self-hosted source PDF — post cites official Tokyo portal instead. */
+  {
+    src: "^/assets/sources/tokyo-chikyu-chosa-7th\\.pdf$",
+    status: 410,
+  },
   // P0 — WP singular /tag/ → Astro /tags/ (GSC 404: ~40 legacy tag URLs)
   {
     src: "^/tag/?$",
