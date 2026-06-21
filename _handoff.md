@@ -48,3 +48,10 @@
 - 배포 URL: https://gsfark.com (Vercel main push)
 - Claude 부재 여부: 예 (Claude brief: ark-404-redirects-20260621)
 - 특이사항: P2 PDF `/wp-content/*` → 410 기존 유지. 로컬 route sim: GSC 404 샘플 5/5 pass. GSC 「수정 사항 확인」은 배포 1~2주 후.
+
+## [2026-06-21 19:39] Cursor 배포 완료
+- 작업 내용: GSC 404 잔여 3건 — `/ko|ja/resources/` → `tokyo-relocation-d90` redirect; PDF `tokyo-chikyu-chosa-7th.pdf` → 410; earthquake 포스트 KO/EN/JA 출처를 도쿄도 공식 URL로 교체
+- 커밋 해시: aeccf2f
+- 배포 URL: https://gsfark.com
+- Claude 부재 여부: 예
+- 특이사항: PDF 원본 없음 → `funenka.metro.tokyo.lg.jp/area-hazard-level/regional-risk-level/` 로 대체. GSC 8건 실패 중 resources·PDF 해소, tag 4건은 이전 df0307e 배포로 이미 308.
