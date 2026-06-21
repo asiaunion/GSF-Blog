@@ -34,3 +34,10 @@
 - 배포 URL: https://gsfark.com
 - Claude 부재 여부: 예
 - 특이사항: Cursor에서 사전 커밋된 내용을 main에 merge 후 push 함.
+
+## [2026-06-21 19:12] Cursor 배포 완료
+- 작업 내용: Author Profile (Joseph KIM) EN/KO/JA — Contact 섹션 추가 (이메일 asiaunion@gmail.com + Contact 페이지 링크)
+- 커밋 해시: 1fe9c40
+- 배포 URL: https://gsfark.com/author/joseph-kim/ (Vercel main push 자동 배포)
+- Claude 부재 여부: 예
+- 특이사항: GSC ProfilePage mainEntity 수정(7dd9468) 이후 E-E-A-T 보강. mailto 직접 노출 없음. pnpm build exit 0 확인.
