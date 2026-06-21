@@ -221,7 +221,7 @@ export const WP_LEGACY_ROUTES: VercelRoute[] = [
   },
   {
     src: "^/author/(?!joseph-kim/?$).+",
-    headers: { Location: "/about/" },
+    headers: { Location: "/author/joseph-kim/" },
     status: 308,
   },
   {

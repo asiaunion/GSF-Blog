@@ -77,7 +77,8 @@ check "/tags/nihonbashi/"                    200
 check "/tags/nihonbashi/2/"                  200
 
 echo "--- WP legacy ---"
-check "/author/gsf/"        308 "/about/"
+check "/author/gsf/"        308 "/author/joseph-kim/"
+check "/author/asiaunion/"  308 "/author/joseph-kim/"
 check "/feed/"              308 "/rss.xml"
 check "/wp-admin/foo/"      410
 check "/wp-login.php"       410

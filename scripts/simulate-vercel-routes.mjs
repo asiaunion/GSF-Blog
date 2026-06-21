@@ -112,7 +112,8 @@ const MATRIX = [
   ["/tags/nihonbashi/", 200],
   ["/tags/nihonbashi/2/", 200],
   // WP legacy
-  ["/author/gsf/", 308, "/about/"],
+  ["/author/gsf/", 308, "/author/joseph-kim/"],
+  ["/author/asiaunion/", 308, "/author/joseph-kim/"],
   ["/feed/", 308, "/rss.xml"],
   ["/wp-admin/foo/", 410],
   ["/wp-login.php", 410],

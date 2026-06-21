@@ -17,17 +17,32 @@
     },
     {
       "source": "/author",
-      "destination": "/about/",
+      "destination": "/author/joseph-kim/",
       "permanent": true
     },
     {
       "source": "/author/",
-      "destination": "/about/",
+      "destination": "/author/joseph-kim/",
       "permanent": true
     },
     {
-      "source": "/author/:path*",
-      "destination": "/about/",
+      "source": "/author/asiaunion",
+      "destination": "/author/joseph-kim/",
+      "permanent": true
+    },
+    {
+      "source": "/author/asiaunion/",
+      "destination": "/author/joseph-kim/",
+      "permanent": true
+    },
+    {
+      "source": "/author/gsf",
+      "destination": "/author/joseph-kim/",
+      "permanent": true
+    },
+    {
+      "source": "/author/gsf/",
+      "destination": "/author/joseph-kim/",
       "permanent": true
     },
     {

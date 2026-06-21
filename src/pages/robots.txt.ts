@@ -25,6 +25,10 @@ Disallow: /search/
 Disallow: /ko/search/
 Disallow: /ja/search/
 
+# Newsletter download assets + raw source files — not search landing pages
+Disallow: /downloads/
+Disallow: /assets/sources/
+
 Sitemap: ${sitemapURL.href}
 `;
 
