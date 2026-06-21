@@ -41,3 +41,10 @@
 - 배포 URL: https://gsfark.com/author/joseph-kim/ (Vercel main push 자동 배포)
 - Claude 부재 여부: 예
 - 특이사항: GSC ProfilePage mainEntity 수정(7dd9468) 이후 E-E-A-T 보강. mailto 직접 노출 없음. pnpm build exit 0 확인.
+
+## [2026-06-21 19:27] Cursor 배포 완료
+- 작업 내용: GSC 404 WP legacy redirect — `/tag/`→`/tags/` (EN/KO/JA), `/about-us/`→`/about/`, `/business/`→`/topics/` (`tagCanonicalRedirects.ts` WP_LEGACY_ROUTES)
+- 커밋 해시: df0307e
+- 배포 URL: https://gsfark.com (Vercel main push)
+- Claude 부재 여부: 예 (Claude brief: ark-404-redirects-20260621)
+- 특이사항: P2 PDF `/wp-content/*` → 410 기존 유지. 로컬 route sim: GSC 404 샘플 5/5 pass. GSC 「수정 사항 확인」은 배포 1~2주 후.
