@@ -122,3 +122,10 @@
 - SSOT: `WEEKLY_STATUS.md` → 「✍️ E-E-A-T Essay 파이프라인」블록
 - 다음: Joseph/AG 트리거 → main merge → `draft: false` → validate → Vercel 배포 → AG 배포 완료 항목으로 교체
 - Claude 부재 여부: 예 (컨텍스트 복원 실패로 「초안 없음」 오독 발생 — 세션 W에서 SSOT 보강)
+
+## [2026-06-24 01:10] AG 배포 완료
+- 작업 내용: Essay 2 (buying-property-japan-checklist-before-you-commit) 배포
+- 커밋 해시: 99520f4
+- 배포 URL: https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/
+- Claude 부재 여부: 아니오
+- 특이사항: Essay 3는 draft: true 상태 유지, Essay 2만 배포.
