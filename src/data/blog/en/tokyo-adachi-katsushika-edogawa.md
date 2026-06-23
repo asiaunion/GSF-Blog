@@ -1,7 +1,7 @@
 ---
 title: "Where to Live in Tokyo — The Complete 23-Ward Guide [Ep.08] Eastern 3 Wards: Adachi · Katsushika · Edogawa"
 description: "Looking for Tokyo's real value-for-money? We compare mansion transaction prices, rental rates, and transit access across 足立区 (Adachi-ku), 葛飾区 (Katsushika-ku), and 江戸川区 (Edogawa-ku) — all with data."
-pubDatetime: 2026-06-24T04:00:00Z
+pubDatetime: 2026-06-23T12:00:00Z
 author: GSF
 draft: false
 lang: en
