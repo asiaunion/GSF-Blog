@@ -4,7 +4,7 @@ description: "서명하기 전에 확인했더라면 좋았을 것들. 도쿄 �
 pubDatetime: 2026-06-26T09:00:00+09:00
 author: Joseph KIM
 lang: ko
-draft: true
+draft: false
 category: essay
 ogImage: "https://gsfark.com/assets/images/blog/buying-property-japan-checklist-before-you-commit-hero-og.jpg"
 tags:

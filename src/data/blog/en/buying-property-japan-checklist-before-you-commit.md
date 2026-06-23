@@ -4,7 +4,7 @@ pubDatetime: 2026-06-26T09:00:00+09:00
 description: "What I wish I had verified before signing anything — a practical checklist drawn from firsthand experience buying a condominium in Nihonbashi, Tokyo."
 author: Joseph KIM
 lang: en
-draft: true
+draft: false
 ogImage: "https://gsfark.com/assets/images/blog/buying-property-japan-checklist-before-you-commit-hero-og.jpg"
 category: essay
 tags:
