@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-19 (세션 마감) |
+| 최종 업데이트 | 2026-06-23 (세션 마감) |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 E-E-A-T + Essay 1 **라이브** — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -133,6 +133,11 @@
 ---
 
 ## 📝 작업 로그
+### 2026-06-23
+- GSF-Blog를 GSF-Ark로 명칭 변경
+- Ep.08 SNS 초안 텍스트 및 UTM 파라미터 재단장 (Buffer 업그레이드 이슈 해결)
+- X KO 포스팅 성공 및 LinkedIn Inspector 확인 내역 기록(sns-log.json 및 _handoff.md)
+- sns-draft 검증 하드게이트(pnpm validate:sns-draft) 규칙 메모리 도입
 
 ### 2026-06-19 (세션 마감) — AdSense E-E-A-T **라이브** + 핫픽스
 
