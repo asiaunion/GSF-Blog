@@ -84,3 +84,25 @@
 - 배포 URL: https://gsfark.com (main push 후 Vercel)
 - Claude 부재 여부: 예
 - 특이사항: verify:episode:gate secondary 9건 + draft_coverage(-1.1) 휴리스틱 FAIL — Ep.07 동일 패턴, primary hallucination 0으로 배포 진행. `joseph_final_approved` 미설정.
+## [2026-06-23] AG 배포 완료 (Hero Hotfix)
+- 작업 내용: Ep.08 Hero 이미지 GSC 스크린샷 오적용 → 생성 히어로로 복구
+- 커밋 해시: 05cbc35 (+ pubDatetime hotfix c6d6975)
+- 배포 URL: https://gsfark.com/ko/posts/tokyo-adachi-katsushika-edogawa/
+- Claude 부재 여부: 예
+- 특이사항: hero-og.jpg 라이브 MD5 일치 확인. 홈 노출은 pubDatetime·postFilter 스케줄 이슈 별도 해결.
+
+## [2026-06-23 23:01] Cursor SNS 기록 — Ep.08 X KO 게시 성공
+- 작업 내용: Ep.08 SNS X KO 수동 게시 완료 (Joseph 확인: 히어로 이미지 정상)
+- 초안: sns-drafts/2026-06-23-tokyo-adachi-katsushika-edogawa.md
+- 검증: `pnpm validate:sns-draft --slug tokyo-adachi-katsushika-edogawa` PASS
+- 게이트 커밋: de68e93 (validate:sns-draft)
+- 콘텐츠 URL: https://gsfark.com/ko/posts/tokyo-adachi-katsushika-edogawa/
+- X KO 게시 URL: https://x.com/asiaunion/status/2069414446720815615
+- LinkedIn Inspector: EN PASS / KO PASS (사전 확인)
+- 플랫폼 상태:
+  - X KO: ✅ 게시 완료 (hero-og.jpg 정상)
+  - X EN: ⏳ KO 후 24h+
+  - Threads EN/KO: ⏳ 대기
+  - LinkedIn EN/KO: ⏳ 대기
+- Claude 부재 여부: 예
+- 특이사항: X EN 글자 초과·카드 미표시 이슈는 초안 단축 + hero 직접 첨부로 해소. sns-log.json `ep08-manual` 갱신.
