@@ -6,9 +6,9 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-24 (세션 W — Essay 2·3 브랜치 SSOT) |
+| 최종 업데이트 | 2026-06-24 (Essay 2 배포 완료 — AG `99520f4`) |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 E-E-A-T + Essay 1 **라이브** — AdSense 재제출 대기 |
+| 상태 | 🟢 E-E-A-T Essay 1·2 **라이브** — Essay 3 draft 대기 — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
 | 이번 주 최우선 액션 | Joseph 라이브 스팟 체크 → **7월 초 AdSense 재제출** |
 | 다음 체크포인트 | 7/초 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
@@ -84,15 +84,13 @@
 | 편 | slug | 배포 예정 | 상태 | 브랜치 | 커밋 (validate) | 본문 경로 (브랜치 기준) |
 |----|------|-----------|------|--------|-----------------|-------------------------|
 | Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
-| Essay 2 | `buying-property-japan-checklist-before-you-commit` | **6/26** | 🟡 브랜치 대기 | `feat/eeat-essay-2-3-phase-a` | `67ba48a` | `src/data/blog/{en,ja,ko}/buying-property-japan-checklist-before-you-commit.md` (`draft: true`) |
-| Essay 3 | `why-i-chose-nihonbashi` | **7/3** | 🟡 브랜치 대기 | `feat/eeat-essay-2-3-phase-a` | `67ba48a` | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
+| Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
+| Essay 3 | `why-i-chose-nihonbashi` | **7/3** | 🟡 draft 대기 (`main`) | `main` | `99520f4` (merge) | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
 
-**다음 액션 (AG · Joseph 트리거):**
-1. 배포일 전: `feat/eeat-essay-2-3-phase-a` → `main` 머지
-2. 해당 slug `draft: false` + `pnpm validate:post` + 배포
-3. `_handoff.md` AG 배포 완료 append + 이 표 상태 → ✅ 라이브
-
-**참고:** Phase A `8dda59c` · validate `67ba48a` · 브랜치 tip `0be2200` (docs only)
+**다음 액션:**
+1. ~~Essay 2~~ ✅ 6/24 AG 배포 (`99520f4`, pubDatetime hotfix `99b4e78`)
+2. **Essay 3 (7/3):** `draft: false` + `pnpm validate:post` + AG 배포
+3. Joseph: Essay 2 GSC 색인 (EN/KO/JA 3 URL) — 배포 당일 즉시
 
 ---
 
@@ -101,7 +99,7 @@
 | 항목 | 값 |
 |------|-----|
 | 발행 목표 | 주 2회 이상 (화/목) |
-| 현재 총 발행 수 | 37기사 (Ep.07 포함, 2026-06-19) |
+| 현재 총 발행 수 | 38기 (Essay 2 포함, 2026-06-24) |
 | 소셜 자동 배포 | ✅ 정상 가동 중 |
 | 언어 | 日/韓/英 3언어 |
 
@@ -152,6 +150,11 @@
 ---
 
 ## 📝 작업 로그
+### 2026-06-24
+- **Essay 2 라이브** — `buying-property-japan-checklist-before-you-commit` KO/EN/JA (`99520f4` merge + publish, `99b4e78` pubDatetime)
+- URL: https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/
+- Essay 3는 `main`에 `draft: true` 유지 — 7/3 AG 배포 예정
+
 ### 2026-06-23
 - GSF-Blog를 GSF-Ark로 명칭 변경
 - Ep.08 SNS 초안 텍스트 및 UTM 파라미터 재단장 (Buffer 업그레이드 이슈 해결)
