@@ -14,8 +14,8 @@
 | Day | 상태 | 건수 | 비고 |
 |-----|------|------|------|
 | Day 1 | ✅ 완료 | 10/10 | 크롤됨–미색인 EN |
-| **Day 2** | ⏳ **다음** | — | **AdSense E-E-A-T 1순위** |
-| Day 3–6 | 대기 | — | 크롤됨–미색인·허브·시리즈 |
+| **Day 2** | ✅ 완료 | 10/10 | **AdSense E-E-A-T 1순위** (Joseph, 6/24) |
+| Day 3–6 | ⏳ **다음** | — | 크롤됨–미색인·허브·시리즈 |
 
 ---
 
@@ -32,7 +32,7 @@
 9. https://gsfark.com/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/
 10. https://gsfark.com/posts/tokyo-yokohama-fuji-transport-pass/
 
-## Day 2 — AdSense E-E-A-T 1순위 (10) ← **다음**
+## Day 2 — AdSense E-E-A-T 1순위 (10) ✅
 
 사람 심사·AdSense가 먼저 보는 신호. **「이미 색인됨」이면 스킵** → 같은 Day에서 아래 **대체 URL**로 채움.
 

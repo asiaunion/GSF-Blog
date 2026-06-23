@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-24 (Essay 2 배포 완료 — AG `99520f4`) |
+| 최종 업데이트 | 2026-06-24 (E-E-A-T + Essay 1 GSC 완료) |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 E-E-A-T Essay 1·2 **라이브** — Essay 3 draft 대기 — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -83,7 +83,7 @@
 
 | 편 | slug | 배포 예정 | 상태 | 브랜치 | 커밋 (validate) | 본문 경로 (브랜치 기준) |
 |----|------|-----------|------|--------|-----------------|-------------------------|
-| Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
+| Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
 | Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
 | Essay 3 | `why-i-chose-nihonbashi` | **6/26** | 🟡 draft 대기 (`main`) | `main` | `99520f4` (merge) | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
 
@@ -151,6 +151,7 @@
 
 ## 📝 작업 로그
 ### 2026-06-24
+- **E-E-A-T + Essay 1 GSC 색인** — Joseph Day 2 큐 완료 (author/contact/mission/methodology + Essay 1)
 - **Essay 2 라이브** — `buying-property-japan-checklist-before-you-commit` KO/EN/JA (`99520f4` merge + publish, `99b4e78` pubDatetime)
 - Essay 2 조기 배포 및 pubDatetime 수정
 - 미래 시간 포스트 노출 누락 방지 KI 규칙 추가

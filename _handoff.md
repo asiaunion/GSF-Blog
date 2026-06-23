@@ -135,3 +135,8 @@
 - 배포 예정: 7/3 → **2026-06-26**
 - `pubDatetime`: `2026-06-26T10:00:00+09:00` (en/ko/ja, `draft: true` 유지)
 - 다음: 6/26 AG — `draft: false` + validate + 배포
+
+## [2026-06-24] Joseph — E-E-A-T + Essay 1 GSC 색인 완료
+- 작업: GSC Day 2 큐 (author/contact/mission/methodology + Essay 1 EN 등)
+- SSOT: `GSC_INDEXING_REQUEST_QUEUE_20260621.md` Day 2 ✅ · WEEKLY Essay 1 + GSC
+- 다음 GSC: Day 3–6 일반 포스트 큐 (AdSense 7/10 전 여유)
