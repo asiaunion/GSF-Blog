@@ -1,0 +1,249 @@
+{
+  "ok": false,
+  "slug": "tokyo-adachi-katsushika-edogawa",
+  "episode": "Ep.08",
+  "manifest": "/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/docs/verification/manifests/ep08-tokyo-adachi-katsushika-edogawa.manifest.json",
+  "failed": 10,
+  "passed": 21,
+  "total": 31,
+  "hallucination_score": {
+    "failed_primary_claims": 0,
+    "total_primary_claims": 12,
+    "score": 0,
+    "ok": true
+  },
+  "results": [
+    {
+      "type": "claim",
+      "id": "MLIT-adachi-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-adachi-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-adachi-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-adachi-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-adachi-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-adachi-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 5.6, got 6.2"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-adachi-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 6.3, got 5.2"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-adachi-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-adachi-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-katsushika-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-katsushika-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-katsushika-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-katsushika-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-katsushika-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-katsushika-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 7.5, got 6.8"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-katsushika-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 6.8, got 4.2"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-katsushika-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-katsushika-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-edogawa-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-edogawa-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-edogawa-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-edogawa-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-edogawa-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-edogawa-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 6.7, got 4.6"
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-edogawa-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "expected cagr_5y 3.1, got 2.4"
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-edogawa-1R",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": false,
+      "reason": "benchmark path not found: derived:suumo+mlit"
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-edogawa-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-adachi-VS-CHIYODA",
+      "ok": true,
+      "computed": 30.457113507960965,
+      "expected": 30.5,
+      "formula": "4151 / 13629 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-katsushika-VS-CHIYODA",
+      "ok": true,
+      "computed": 32.81972265023113,
+      "expected": 32.8,
+      "formula": "4473 / 13629 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-edogawa-VS-CHIYODA",
+      "ok": true,
+      "computed": 34.771443246019516,
+      "expected": 34.8,
+      "formula": "4739 / 13629 * 100"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "-1.1",
+      "ok": false,
+      "reason": "primary value -1.1 not found as bold in draft (heuristic)"
+    }
+  ],
+  "written_at": "2026-06-23T12:22:54.360Z"
+}

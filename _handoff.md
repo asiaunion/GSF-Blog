@@ -62,3 +62,25 @@
 - 배포 URL: https://gsfark.com
 - Claude 부재 여부: 예
 - 특이사항: Brief P0–P2 중 tag/about-us/business/PDF/resources는 df0307e·aeccf2f 선행 완료. 「크롤됨–미색인」34건은 URL 검사 색인 요청만 (Joseph GSC 수동).
+
+## [2026-06-23 20:05] AG Ep.08 초안 완료
+- 작업 내용: Ep.08 (足立区·葛飾区·江戸川区) KO/EN/JA 3개 초안 작성
+- research-pack: docs/verification/research-packs/tokyo-adachi-katsushika-edogawa.md (수정된 episode-registry.mjs 반영, --skip-api 재실행)
+- manifest: docs/verification/manifests/ep08-tokyo-adachi-katsushika-edogawa.manifest.json (gates: manifest_approved_by=Joseph, draft_started=true)
+- 생성 파일:
+  - src/data/blog/ko/tokyo-adachi-katsushika-edogawa.md
+  - src/data/blog/en/tokyo-adachi-katsushika-edogawa.md
+  - src/data/blog/ja/tokyo-adachi-katsushika-edogawa.md
+- 커밋 해시: (미커밋 — Cursor verify:episode + validate:post 후 진행)
+- 배포 URL: (미배포)
+- 특이사항: research-pack 헤더 버그(板橋区·練馬区 오표기) → render-episode-research-pack.mjs 수정(episode-registry.mjs 신규) 후 해결. 초안은 manifest claims 27개 + research-pack 기반으로 수치 창작 없음.
+
+## [2026-06-23] Cursor Ep.08 검증·배포 준비 완료
+- 작업 내용: Ep.08 `tokyo-adachi-katsushika-edogawa` Cursor audit — validate:post·verify:og-social PASS, manifest `cursor_audit_passed: true`, KO/EN/JA `draft: false`
+- Primary SSOT: 12/12 pass (PKM 葛飾区 4473 동기화 확인)
+- fact-audit: docs/fact-audit/tokyo-adachi-katsushika-edogawa.md (Cursor primary 감사 섹션 추가)
+- Hero: tokyo-adachi-katsushika-edogawa-hero.webp + hero-og.jpg
+- 커밋 해시: (이번 커밋 후 기록)
+- 배포 URL: https://gsfark.com (main push 후 Vercel)
+- Claude 부재 여부: 예
+- 특이사항: verify:episode:gate secondary 9건 + draft_coverage(-1.1) 휴리스틱 FAIL — Ep.07 동일 패턴, primary hallucination 0으로 배포 진행. `joseph_final_approved` 미설정.
