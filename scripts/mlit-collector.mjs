@@ -72,6 +72,7 @@ const ENDPOINTS = {
 };
 
 import { getMunicipality, listRegion } from "./lib/municipality-registry.mjs";
+import { loadEpisodeWardsMap } from "./lib/episode-registry.mjs";
 
 // 도쿄 23구 시구정촌 코드 (registry에서 동적 생성하되 export 호환성 유지)
 const WARD_CODE = {};
@@ -86,18 +87,8 @@ for (const code of tokyo23Codes) {
   }
 }
 
-// 에피소드별 구 그룹 (기존 유지)
-const EPISODE_WARDS = {
-  ep01: ["千代田区","中央区","港区"],
-  ep02: ["新宿区","渋谷区","文京区"],
-  ep03: ["目黒区","世田谷区"],
-  ep04: ["品川区","大田区"],
-  ep05: ["豊島区","中野区","杉並区"],
-  ep06: ["台東区","墨田区","江東区"],
-  ep07: ["北区","荒川区","足立区"],
-  ep08: ["板橋区","練馬区"],
-  ep09: ["葛飾区","江戸川区"],
-};
+// 에피소드별 구 그룹 — SSOT: docs/verification/tokyo-series-episodes.json
+const EPISODE_WARDS = loadEpisodeWardsMap();
 
 const CACHE_DIR = path.join(process.cwd(), ".cache/mlit");
 const BENCHMARKS_PATH = path.join(

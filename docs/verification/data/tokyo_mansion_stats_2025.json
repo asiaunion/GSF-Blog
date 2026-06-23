@@ -615,114 +615,116 @@
   "板橋区": {
     "ward_avg": 70.5,
     "total_count": 1030,
-    "est_70sqm": 4936,
+    "est_70sqm": 4935,
     "stations": [
       {
-        "station": "板橋",
-        "avg": 104.5,
-        "count": 15,
-        "min": 67,
-        "max": 146
-      },
-      {
-        "station": "十条(東京)",
-        "avg": 98.5,
-        "count": 7,
-        "min": 40,
-        "max": 133
-      },
-      {
-        "station": "新板橋",
-        "avg": 91.2,
-        "count": 25,
-        "min": 38,
-        "max": 147
-      },
-      {
-        "station": "板橋区役所前",
-        "avg": 86.9,
-        "count": 73,
-        "min": 40,
-        "max": 132
-      },
-      {
-        "station": "大山(東京)",
-        "avg": 85.8,
-        "count": 86,
-        "min": 5,
-        "max": 182
-      },
-      {
-        "station": "要町",
-        "avg": 81.4,
-        "count": 19,
-        "min": 26,
-        "max": 120
-      },
-      {
-        "station": "小竹向原",
-        "avg": 80.8,
-        "count": 57,
-        "min": 32,
-        "max": 178
-      },
-      {
-        "station": "ときわ台(東京)",
-        "avg": 78.3,
-        "count": 62,
-        "min": 22,
-        "max": 138
-      },
-      {
-        "station": "板橋本町",
-        "avg": 77.6,
-        "count": 62,
-        "min": 24,
-        "max": 129
-      },
-      {
-        "station": "地下鉄成増",
-        "avg": 77.4,
-        "count": 42,
-        "min": 32,
-        "max": 117
-      },
-      {
         "station": "成増",
-        "avg": 75.8,
+        "avg": 77.4,
+        "count": 69,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "高島平",
+        "avg": 44.4,
+        "count": 67,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "板橋",
+        "avg": 88.3,
+        "count": 58,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "小豆沢",
+        "avg": 74.3,
+        "count": 54,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "前野町",
+        "avg": 65.9,
+        "count": 51,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "徳丸",
+        "avg": 59.5,
+        "count": 46,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "坂下",
+        "avg": 63.3,
+        "count": 46,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "小茂根",
+        "avg": 81.5,
         "count": 40,
-        "min": 37,
-        "max": 111
+        "min": null,
+        "max": null
       },
       {
-        "station": "北赤羽",
+        "station": "中台",
+        "avg": 47.1,
+        "count": 37,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "志村",
+        "avg": 66.2,
+        "count": 30,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "蓮根",
+        "avg": 64.5,
+        "count": 30,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "加賀",
+        "avg": 100.9,
+        "count": 29,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "中丸町",
+        "avg": 70.4,
+        "count": 24,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "南常盤台",
         "avg": 75.7,
-        "count": 5,
-        "min": 62,
-        "max": 87
+        "count": 21,
+        "min": null,
+        "max": null
       },
       {
-        "station": "下板橋",
-        "avg": 73,
-        "count": 15,
-        "min": 40,
-        "max": 110
-      },
-      {
-        "station": "浮間舟渡",
-        "avg": 72.9,
-        "count": 25,
-        "min": 29,
-        "max": 92
-      },
-      {
-        "station": "千川",
-        "avg": 70.9,
-        "count": 1,
-        "min": 71,
-        "max": 71
+        "station": "若木",
+        "avg": 47.7,
+        "count": 21,
+        "min": null,
+        "max": null
       }
-    ]
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-06-23"
   },
   "葛飾区": {
     "ward_avg": 63.9,
@@ -1401,114 +1403,116 @@
   "練馬区": {
     "ward_avg": 73.2,
     "total_count": 895,
-    "est_70sqm": 5125,
+    "est_70sqm": 5124,
     "stations": [
       {
-        "station": "吉祥寺",
-        "avg": 91.1,
-        "count": 25,
-        "min": 44,
-        "max": 137
-      },
-      {
-        "station": "石神井公園",
-        "avg": 88.1,
-        "count": 60,
-        "min": 2,
-        "max": 153
-      },
-      {
-        "station": "練馬",
-        "avg": 84.9,
-        "count": 108,
-        "min": 30,
-        "max": 145
-      },
-      {
-        "station": "平和台(東京)",
-        "avg": 83.7,
-        "count": 27,
-        "min": 56,
-        "max": 126
-      },
-      {
-        "station": "新桜台",
-        "avg": 83,
-        "count": 7,
-        "min": 48,
-        "max": 117
-      },
-      {
-        "station": "豊島園",
-        "avg": 79.6,
-        "count": 23,
-        "min": 29,
-        "max": 144
-      },
-      {
-        "station": "氷川台",
-        "avg": 77.2,
-        "count": 44,
-        "min": 40,
-        "max": 131
-      },
-      {
-        "station": "練馬春日町",
+        "station": "豊玉北",
         "avg": 74.9,
-        "count": 17,
-        "min": 19,
-        "max": 108
+        "count": 56,
+        "min": null,
+        "max": null
       },
       {
-        "station": "上石神井",
-        "avg": 73.2,
-        "count": 52,
-        "min": 35,
-        "max": 110
-      },
-      {
-        "station": "井荻",
-        "avg": 72.8,
-        "count": 4,
-        "min": 64,
-        "max": 84
-      },
-      {
-        "station": "中村橋",
-        "avg": 72.5,
+        "station": "中村北",
+        "avg": 78.5,
         "count": 54,
-        "min": 22,
-        "max": 130
+        "min": null,
+        "max": null
       },
       {
-        "station": "大泉学園",
-        "avg": 72.1,
-        "count": 54,
-        "min": 27,
-        "max": 133
+        "station": "関町北",
+        "avg": 63.5,
+        "count": 47,
+        "min": null,
+        "max": null
       },
       {
-        "station": "桜台(東京)",
-        "avg": 71.6,
-        "count": 44,
-        "min": 32,
-        "max": 260
+        "station": "関町南",
+        "avg": 70.9,
+        "count": 46,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "貫井",
+        "avg": 65.6,
+        "count": 45,
+        "min": null,
+        "max": null
       },
       {
         "station": "光が丘",
-        "avg": 71,
-        "count": 60,
-        "min": 27,
-        "max": 100
+        "avg": 69.2,
+        "count": 43,
+        "min": null,
+        "max": null
       },
       {
-        "station": "東武練馬",
-        "avg": 70.7,
-        "count": 18,
-        "min": 19,
-        "max": 109
+        "station": "高野台",
+        "avg": 72.2,
+        "count": 39,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "石神井町",
+        "avg": 101.5,
+        "count": 37,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "東大泉",
+        "avg": 82.9,
+        "count": 37,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "練馬",
+        "avg": 83.6,
+        "count": 35,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "北町",
+        "avg": 75.8,
+        "count": 33,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "上石神井",
+        "avg": 77.6,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "桜台",
+        "avg": 76.7,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "豊玉上",
+        "avg": 77.2,
+        "count": 25,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "豊玉南",
+        "avg": 65.6,
+        "count": 23,
+        "min": null,
+        "max": null
       }
-    ]
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-06-23"
   },
   "大田区": {
     "ward_avg": 83.1,

@@ -1,0 +1,396 @@
+{
+  "slug": "tokyo-adachi-katsushika-edogawa",
+  "episode": "Ep.08",
+  "generated_at": "2026-06-23",
+  "wards": [
+    "足立区",
+    "葛飾区",
+    "江戸川区"
+  ],
+  "summary": [
+    {
+      "ward": "足立区",
+      "est_70sqm": 4151,
+      "ward_avg_sqm": 59.3,
+      "count": 920,
+      "cagr_5y": null,
+      "cagr_full": 5.8,
+      "trade_cagr_10y": 6.2,
+      "land_cagr_10y": 5.2,
+      "pop_change": "2.5%",
+      "rent_1r": 7.7,
+      "yield_pct": 2.2,
+      "top_station": "北千住",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 79,
+      "evac_count": 22,
+      "evac_per_10k": 0.3
+    },
+    {
+      "ward": "葛飾区",
+      "est_70sqm": 4473,
+      "ward_avg_sqm": 63.9,
+      "count": 582,
+      "cagr_5y": null,
+      "cagr_full": 7.3,
+      "trade_cagr_10y": 6.8,
+      "land_cagr_10y": 4.2,
+      "pop_change": "0.8%",
+      "rent_1r": 7.2,
+      "yield_pct": 1.9,
+      "top_station": "新小岩",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 49,
+      "evac_count": 0,
+      "evac_per_10k": 0
+    },
+    {
+      "ward": "江戸川区",
+      "est_70sqm": 4739,
+      "ward_avg_sqm": 67.7,
+      "count": 710,
+      "cagr_5y": null,
+      "cagr_full": 5.8,
+      "trade_cagr_10y": 4.6,
+      "land_cagr_10y": 2.4,
+      "pop_change": "-1.1%",
+      "rent_1r": 9.1,
+      "yield_pct": 2.3,
+      "top_station": "小岩",
+      "flood": true,
+      "liquefaction": true,
+      "has_risk": true,
+      "history_events": 37,
+      "evac_count": 65,
+      "evac_per_10k": 0.9
+    }
+  ],
+  "districts": {
+    "足立区": [
+      {
+        "name": "梅田",
+        "aggregation": "DistrictName",
+        "count": 58,
+        "avg_sqm": 62.7,
+        "avg_man": 3783
+      },
+      {
+        "name": "綾瀬",
+        "aggregation": "DistrictName",
+        "count": 55,
+        "avg_sqm": 72.7,
+        "avg_man": 4221
+      },
+      {
+        "name": "東和",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 51.9,
+        "avg_man": 3310
+      },
+      {
+        "name": "中央本町",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 43.4,
+        "avg_man": 3024
+      },
+      {
+        "name": "新田",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 60.1,
+        "avg_man": 4865
+      },
+      {
+        "name": "西新井本町",
+        "aggregation": "DistrictName",
+        "count": 33,
+        "avg_sqm": 48.7,
+        "avg_man": 3088
+      },
+      {
+        "name": "小台",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 48.4,
+        "avg_man": 3555
+      },
+      {
+        "name": "大谷田",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 39.6,
+        "avg_man": 2291
+      },
+      {
+        "name": "東綾瀬",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 80.1,
+        "avg_man": 3752
+      },
+      {
+        "name": "西保木間",
+        "aggregation": "DistrictName",
+        "count": 28,
+        "avg_sqm": 41.4,
+        "avg_man": 2721
+      },
+      {
+        "name": "千住橋戸町",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 91.3,
+        "avg_man": 6411
+      },
+      {
+        "name": "千住関屋町",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 57.8,
+        "avg_man": 3781
+      },
+      {
+        "name": "谷中",
+        "aggregation": "DistrictName",
+        "count": 24,
+        "avg_sqm": 63.5,
+        "avg_man": 3555
+      },
+      {
+        "name": "西新井",
+        "aggregation": "DistrictName",
+        "count": 24,
+        "avg_sqm": 57.7,
+        "avg_man": 3425
+      },
+      {
+        "name": "栗原",
+        "aggregation": "DistrictName",
+        "count": 20,
+        "avg_sqm": 58.7,
+        "avg_man": 3160
+      }
+    ],
+    "葛飾区": [
+      {
+        "name": "青戸",
+        "aggregation": "DistrictName",
+        "count": 56,
+        "avg_sqm": 59.7,
+        "avg_man": 3176
+      },
+      {
+        "name": "金町",
+        "aggregation": "DistrictName",
+        "count": 55,
+        "avg_sqm": 72.7,
+        "avg_man": 4534
+      },
+      {
+        "name": "東新小岩",
+        "aggregation": "DistrictName",
+        "count": 44,
+        "avg_sqm": 64.7,
+        "avg_man": 3968
+      },
+      {
+        "name": "新宿",
+        "aggregation": "DistrictName",
+        "count": 38,
+        "avg_sqm": 88.4,
+        "avg_man": 6284
+      },
+      {
+        "name": "亀有",
+        "aggregation": "DistrictName",
+        "count": 37,
+        "avg_sqm": 80.5,
+        "avg_man": 5251
+      },
+      {
+        "name": "白鳥",
+        "aggregation": "DistrictName",
+        "count": 32,
+        "avg_sqm": 52.4,
+        "avg_man": 3341
+      },
+      {
+        "name": "立石",
+        "aggregation": "DistrictName",
+        "count": 32,
+        "avg_sqm": 53.7,
+        "avg_man": 2881
+      },
+      {
+        "name": "堀切",
+        "aggregation": "DistrictName",
+        "count": 29,
+        "avg_sqm": 59.8,
+        "avg_man": 3388
+      },
+      {
+        "name": "高砂",
+        "aggregation": "DistrictName",
+        "count": 28,
+        "avg_sqm": 47.9,
+        "avg_man": 2919
+      },
+      {
+        "name": "奥戸",
+        "aggregation": "DistrictName",
+        "count": 27,
+        "avg_sqm": 47,
+        "avg_man": 2824
+      },
+      {
+        "name": "西新小岩",
+        "aggregation": "DistrictName",
+        "count": 24,
+        "avg_sqm": 72.8,
+        "avg_man": 4095
+      },
+      {
+        "name": "新小岩",
+        "aggregation": "DistrictName",
+        "count": 23,
+        "avg_sqm": 98.9,
+        "avg_man": 6043
+      },
+      {
+        "name": "東金町",
+        "aggregation": "DistrictName",
+        "count": 23,
+        "avg_sqm": 71.6,
+        "avg_man": 4998
+      },
+      {
+        "name": "東立石",
+        "aggregation": "DistrictName",
+        "count": 17,
+        "avg_sqm": 56.3,
+        "avg_man": 3594
+      },
+      {
+        "name": "四つ木",
+        "aggregation": "DistrictName",
+        "count": 17,
+        "avg_sqm": 52.1,
+        "avg_man": 3365
+      }
+    ],
+    "江戸川区": [
+      {
+        "name": "西葛西",
+        "aggregation": "DistrictName",
+        "count": 100,
+        "avg_sqm": 73,
+        "avg_man": 5364
+      },
+      {
+        "name": "平井",
+        "aggregation": "DistrictName",
+        "count": 70,
+        "avg_sqm": 79.9,
+        "avg_man": 5690
+      },
+      {
+        "name": "中葛西",
+        "aggregation": "DistrictName",
+        "count": 49,
+        "avg_sqm": 57,
+        "avg_man": 3518
+      },
+      {
+        "name": "船堀",
+        "aggregation": "DistrictName",
+        "count": 45,
+        "avg_sqm": 85.3,
+        "avg_man": 6240
+      },
+      {
+        "name": "東葛西",
+        "aggregation": "DistrictName",
+        "count": 44,
+        "avg_sqm": 64,
+        "avg_man": 4475
+      },
+      {
+        "name": "南葛西",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 57.1,
+        "avg_man": 4176
+      },
+      {
+        "name": "西小岩",
+        "aggregation": "DistrictName",
+        "count": 42,
+        "avg_sqm": 79.2,
+        "avg_man": 4712
+      },
+      {
+        "name": "南小岩",
+        "aggregation": "DistrictName",
+        "count": 33,
+        "avg_sqm": 99,
+        "avg_man": 7003
+      },
+      {
+        "name": "清新町",
+        "aggregation": "DistrictName",
+        "count": 32,
+        "avg_sqm": 54,
+        "avg_man": 4381
+      },
+      {
+        "name": "松江",
+        "aggregation": "DistrictName",
+        "count": 28,
+        "avg_sqm": 58.8,
+        "avg_man": 4014
+      },
+      {
+        "name": "小松川",
+        "aggregation": "DistrictName",
+        "count": 23,
+        "avg_sqm": 65.8,
+        "avg_man": 5152
+      },
+      {
+        "name": "中央",
+        "aggregation": "DistrictName",
+        "count": 22,
+        "avg_sqm": 47,
+        "avg_man": 3264
+      },
+      {
+        "name": "南篠崎町",
+        "aggregation": "DistrictName",
+        "count": 21,
+        "avg_sqm": 67.5,
+        "avg_man": 4652
+      },
+      {
+        "name": "松島",
+        "aggregation": "DistrictName",
+        "count": 16,
+        "avg_sqm": 63.5,
+        "avg_man": 4738
+      },
+      {
+        "name": "篠崎町",
+        "aggregation": "DistrictName",
+        "count": 15,
+        "avg_sqm": 63.7,
+        "avg_man": 4027
+      }
+    ]
+  },
+  "benchmarks_schema": "1.3"
+}

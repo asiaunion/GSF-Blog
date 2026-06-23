@@ -7,6 +7,7 @@ import path from "node:path";
 import { execFile, execSync } from "node:child_process";
 import { promisify } from "node:util";
 import { collectPrice, EPISODE_WARDS, loadEnv } from "./mlit-collector.mjs";
+import { findEpisodeByKey, findEpisodeBySlug } from "./lib/episode-registry.mjs";
 import { formatWriterConstraintsBlock, policyForCount } from "./lib/mlit-sample-policy.mjs";
 
 const execFileAsync = promisify(execFile);
@@ -280,14 +281,15 @@ async function main() {
   let meta = null;
   let wards = [];
   if (args.slug) {
-    meta = episodesDoc.episodes.find(e => e.slug === args.slug);
+    meta = findEpisodeBySlug(episodesDoc, args.slug);
     wards = meta?.wards ?? [];
   }
   if (args.episode) {
-    wards = EPISODE_WARDS[args.episode] ?? wards;
-    meta = meta || episodesDoc.episodes.find(e =>
-      e.wards?.every(w => wards.includes(w))
-    );
+    // Slug SSOT wins when both --slug and --episode are passed (analyze-episode default).
+    if (!wards.length) {
+      wards = EPISODE_WARDS[args.episode] ?? [];
+    }
+    meta = meta || findEpisodeByKey(episodesDoc, args.episode);
   }
   if (!wards.length) {
     console.error("Usage: render-episode-research-pack.mjs --slug <slug> | --episode ep06 [--write]");
