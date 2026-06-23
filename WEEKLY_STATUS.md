@@ -6,13 +6,13 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-19 (세션 마감) |
+| 최종 업데이트 | 2026-06-23 (세션 P) |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 E-E-A-T + Essay 1 **라이브** — AdSense 재제출 대기 |
+| 상태 | 🟢 E-E-A-T + GSC 기술 보완 완료 — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | Joseph 라이브 스팟 체크 → **7월 초 AdSense 재제출** |
-| 다음 체크포인트 | 7/초 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
-| 블로커 | 없음 — 기술·E-E-A-T 배포 완료 (`main` `49648c9`) |
+| 이번 주 최우선 액션 | Essay 2 배포 준비 (6/26 AG) · GSC 색인 요청 (Joseph, 6/26) |
+| 다음 체크포인트 | 6/26 Essay 2 live / 7/3 Essay 3 live / 7/10 AdSense 재신청 / GSC 404 재확인 (1~2주 후) |
+| 블로커 | 없음 |
 
 ---
 
@@ -21,10 +21,40 @@
 | 기한 | 항목 | 상태 |
 |------|------|------|
 | 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
-| 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
-| 7/초 | GSFArk AdSense 재제출 | ⏳ 대기 |
-| 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | 🔄 AG 준비 중 |
+| 6/26 | Essay 2 배포 (AG) | 🔜 AG 담당 |
+| 6/30 | Essay 2·3 초안 작성 | ✅ Claude 완료 (GPT 수정 반영) |
+| 7/3 | Essay 3 배포 (AG) | 🔜 AG 담당 |
+| 6/26 | GSC 색인 요청 — E-E-A-T + Essay 1~3 EN/KO/JA | 🔄 진행 중 — 6/26 완료 예정 |
+| **7/10** | **GSFArk AdSense 재신청** | ⏳ 고정일 |
+| 7/13~15 | Plan B tokyokorean.net AdSense 신청 | ⏳ GSFArk 후 3~5일 |
 | 매주 화/목 | 발행 목표 주 2회 유지 | 🔄 진행 중 |
+
+---
+
+## 📅 예약 배포 체크리스트 (Joseph — AG 배포 전 확인)
+
+브랜치: `feat/eeat-essay-2-3-phase-a` · Phase A 커밋 `67ba48a` · 현재 `draft: true`
+
+### Essay 2 — **2026-06-26 (목) 09:00 JST**
+
+| # | 단계 | 담당 | 상태 |
+|---|------|------|------|
+| 1 | KO/EN/JA `draft: false` 전환 (`buying-property-japan-checklist-before-you-commit`) | AG | ⬜ |
+| 2 | `pnpm validate:post buying-property-japan-checklist-before-you-commit` (exit 0) | AG/Cursor | ⬜ |
+| 3 | `feat/eeat-essay-2-3-phase-a` → **main merge** + push | Joseph 승인 후 AG | ⬜ |
+| 4 | Vercel prod 배포 확인 (gsfark.com) | Joseph | ⬜ |
+| 5 | `_handoff.md` append | AG | ⬜ |
+| 6 | GSC 색인 요청에 Essay 2 URL 포함 (Joseph 진행 중 → 6/26 완료) | Joseph | 🔄 |
+
+### Essay 3 — **2026-07-03 (목) 10:00 JST**
+
+| # | 단계 | 담당 | 상태 |
+|---|------|------|------|
+| 1 | KO/EN/JA `draft: false` 전환 (`why-i-chose-nihonbashi`) | AG | ⬜ |
+| 2 | `pnpm validate:post why-i-chose-nihonbashi` (exit 0) | AG/Cursor | ⬜ |
+| 3 | main merge + push (Essay 2 이후 동일 브랜치 또는 main 직접) | Joseph 승인 후 AG | ⬜ |
+| 4 | Vercel prod 배포 확인 | Joseph | ⬜ |
+| 5 | `_handoff.md` append | AG | ⬜ |
 
 ---
 
@@ -56,8 +86,10 @@
 |------|------|
 | 신청 횟수 | 5차 (조치 필요 통보 수신) |
 | 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) |
-| 재제출 예정 | 7월 초 (E-E-A-T 페이지 + Essay 1 배포 후) |
-| GSC 색인 추세 | ⚠️ 130개대 → 120개대 → 116개 하락 추세 모니터링 필요 |
+| 재제출 예정 | **7월 10일 고정** (Essay 2 6/26 + Essay 3 7/3 배포 후 1주 숫성) |
+| Plan B 신청 | 7/13~15 (GSFArk 후 3~5일) |
+| GSC 색인 추세 | 116개 유지 — 기술 보완(404 리디렉션·robots.txt) 배포 완료, 1~2주 후 재확인 |
+| GSC 404 보완 | ✅ 완료 (441d963, df0307e, aeccf2f) — 54건 → 10건 이하 예상 |
 
 ---
 
@@ -113,7 +145,7 @@
 | 매주 화/목 | 발행 1건 이상 |
 | 매주 | 소셜 자동 배포 정상 가동 확인 |
 | 수시 | 애드센스 메일함 확인 |
-| 6/29~30 | GSFArk AdSense 재제출 (목사님 직접) |
+| 6/30 | Essay 2·3 초안 완료 (Claude 담당) |
 
 ---
 
@@ -133,6 +165,25 @@
 ---
 
 ## 📝 작업 로그
+
+### 2026-06-21
+- Essay 2·3 데드라인 확정: 6월 30일 (Claude 담당)
+- E-E-A-T 에세이 2편(Checklist) 및 3편(Nihonbashi) Phase A 검수/번역/수정
+- MLIT 지진 기준 Fact Sheet 보강
+- 화자 일치 및 1인칭 화법(We->I/my wife) 전면 수정
+- 히어로 이미지 생성 및 WebP/OG 포맷 변환
+- ogImage 및 frontmatter 검증 후 배포 대기 상태로 커밋
+- Author Profile 연락처 추가 (3언어) — Cursor 완료
+- GSC 404 54건 분석 + Cursor Brief 작성·완료 (커밋 441d963, df0307e, aeccf2f)
+- GSC 색인 현황: 116개 유지 — 기술 보완 후 1~2주 재확인 예정
+- Joseph GSC 수동 작업: URL 검사 → 색인 요청 Day 2 E-E-A-T 우선 (하루 10건) 진행 중
+- **Essay 2 초안** 완료 (GPT 수정 반영): `buying-property-japan-checklist-before-you-commit.md`
+- **Essay 3 초안** 완료 (GPT 수정 반영): `why-i-chose-nihonbashi.md`
+- AdSense 재신청 일정 확정: **7월 10일** (Cursor·Claude 정렬) — Plan B 7/13~15
+- admin sitemap 제외 확인: astro.config.ts 정상 (✅)
+
+### 2026-06-20
+- topics.astro h1 mt-9 추가 — 로고와 본문 붙어보이는 문제 수정
 
 ### 2026-06-19 (세션 마감) — AdSense E-E-A-T **라이브** + 핫픽스
 
@@ -170,15 +221,12 @@
 | **다음** | LinkedIn Post Inspector (KO·EN) · Ep.08 manifest | |
 
 ### 2026-06-18
-- Phase 3 (urban-planning) 23구 데이터 파이프라인(XKT014
-- XKT023
-- XKT024
-- XKT030
-- XKT002) 구축 및 연동 완료
+- Phase 3 (urban-planning) 23구 데이터 파이프라인 구축 및 연동 완료
 - 재개발 가능성(redevelopment-potential) 및 규제 환경(urban-constraints) 분석 스크립트 작성
 - Benchmarks schema 1.9 판올림 및 research-pack 주입 로직 반영
-- **Region Expansion (RE) 계획 확정** — Phase 4 이연, 파일럿 神奈川3+狛江1, `docs/REGION_EXPANSION_PLAN.md` (Cursor 계획·검증 / AG 슬라이스 구현)
-- **Region Expansion (RE) 완료** — 인프라/API 범용화 성공, 파일럿 4구(横浜西区, 川崎中原区, 鎌倉, 狛江) 데이터 수집 및 E2E 검증 완료
+- **Region Expansion (RE) 계획 확정** — Phase 4 이연, 파일럿 神奈川3+狛江1
+- **Region Expansion (RE) 완료** — 인프라/API 범용화 성공, 파일럿 4구 데이터 수집 및 E2E 검증 완료
+
 ### 2026-06-17
 - Ep.06 KO/EN/JA 초안 작성 및 히어로 이미지 생성
 - Threads EN/KO 게시 완료

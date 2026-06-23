@@ -69,3 +69,12 @@
 - 배포 URL: N/A (현재 `draft: true`)
 - Claude 부재 여부: 아니오 (AG가 직접 로그 작성)
 - 특이사항: `validate:post` 검증 통과 (exit 0). `feat/eeat-essay-2-3-phase-a` 브랜치에 저장 상태. 6/26(2편), 7/3(3편)에 각각 `draft: false` 전환 및 main merge 진행 예정.
+
+## [2026-06-23] Cursor — Claude P/Q 핸드오프 점검
+- 작업 내용: Essay 2·3 배포 준비 상태 재확인 (Claude 핸드오프 follow-up)
+- Essay 2 (`buying-property-japan-checklist-before-you-commit`): KO/EN/JA `draft: true`, pubDatetime 2026-06-26, `validate:post` exit 0 (score 100)
+- Essay 3 (`why-i-chose-nihonbashi`): KO/EN/JA `draft: true`, pubDatetime 2026-07-03, `validate:post` exit 0 (score 100)
+- WEEKLY [HUB] 이번 주 최우선: Essay 2 배포 준비 + GSC 색인으로 갱신 (초안 완료 반영)
+- 커밋 해시: N/A (점검만, 배포 미실행)
+- Claude 부재 여부: 예 (Claude P/Q 핸드오프 수신)
+- 특이사항: 6/26 AG `draft:false` 전환 + main merge 시 `_handoff.md` append 필수. GSC 색인 완료 후 WEEKLY 필수 액션 ✅ 처리 (Joseph). 예약 배포 체크리스트 → WEEKLY §「예약 배포 체크리스트」.
