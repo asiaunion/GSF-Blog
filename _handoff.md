@@ -1,18 +1,24 @@
 # _handoff.md — Claude 부재 구간 핸드오프 기록 (GSF-Ark)
-> AG가 GSF-Ark 배포 작업 완료 시마다 append 방식으로 기록.
-> Claude가 Ark 관련 세션 시작 시 이 파일을 읽어 컨텍스트 복원.
+> **AG 배포 완료** 또는 **Cursor 브랜치 대기** 시 append. Claude Ark 세션 §7A에서 읽음.
 > 규칙: `scratch/AGENTS.md` → 핸드오프 자동 기록 규칙 참조.
 
 ---
 
-<!-- AG: 배포 완료 시 아래 형식으로 append -->
+<!-- AG: 배포 완료 시 -->
 <!--
 ## [YYYY-MM-DD HH:MM] AG 배포 완료
+...
+-->
+
+<!-- Cursor: main 머지 전 브랜치 대기 시 -->
+<!--
+## [YYYY-MM-DD HH:MM] Cursor 브랜치 대기
 - 작업 내용:
-- 커밋 해시:
-- 배포 URL:
-- Claude 부재 여부:
-- 특이사항:
+- 브랜치:
+- 커밋 (validate):
+- slug / 파일:
+- 배포 예정:
+- 다음: main merge → draft:false → AG 배포
 -->
 
 ## [2026-06-19 14:33] AG 배포 완료
@@ -106,3 +112,13 @@
   - LinkedIn EN/KO: ⏳ 대기
 - Claude 부재 여부: 예
 - 특이사항: X EN 글자 초과·카드 미표시 이슈는 초안 단축 + hero 직접 첨부로 해소. sns-log.json `ep08-manual` 갱신.
+
+## [2026-06-24 00:00] Cursor 브랜치 대기 — E-E-A-T Essay 2·3 (Phase A 완료)
+- 작업 내용: Essay 2·3 KO/EN/JA 초안 + hero + `validate:post` PASS — **main 미머지**, `draft: true`
+- 브랜치: `feat/eeat-essay-2-3-phase-a` (tip `0be2200`, validate `67ba48a`, Phase A `8dda59c`)
+- Essay 2 slug: `buying-property-japan-checklist-before-you-commit` — 배포 예정 **2026-06-26**
+- Essay 3 slug: `why-i-chose-nihonbashi` — 배포 예정 **2026-07-03**
+- 파일: `src/data/blog/{en,ja,ko}/<slug>.md` (브랜치에만 존재, `main` 없음)
+- SSOT: `WEEKLY_STATUS.md` → 「✍️ E-E-A-T Essay 파이프라인」블록
+- 다음: Joseph/AG 트리거 → main merge → `draft: false` → validate → Vercel 배포 → AG 배포 완료 항목으로 교체
+- Claude 부재 여부: 예 (컨텍스트 복원 실패로 「초안 없음」 오독 발생 — 세션 W에서 SSOT 보강)

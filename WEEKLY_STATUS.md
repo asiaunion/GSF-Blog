@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-23 (세션 마감) |
+| 최종 업데이트 | 2026-06-24 (세션 W — Essay 2·3 브랜치 SSOT) |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 E-E-A-T + Essay 1 **라이브** — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -74,6 +74,25 @@
 | 타임라인 | 6/15~7/10 구축·콘텐츠 → 7/10~15 런칭 + 신청 |
 | AG 지시서 | `docs/AG_TASK_2026-06-15_planb-tokyokorean.md` |
 | 계정 활성화 후 | GSFArk.com 동일 계정 추가 등록 예정 |
+
+---
+
+## ✍️ E-E-A-T Essay 파이프라인 (브랜치·배포 SSOT)
+
+> **Claude §7A:** Ark·Essay·AdSense 관련 세션 시 **이 블록 필수**. `main`에 파일이 없어도 **브랜치에 초안이 있을 수 있음** — conversation_search·Relevant chats로 「미작성」 추론 금지.
+
+| 편 | slug | 배포 예정 | 상태 | 브랜치 | 커밋 (validate) | 본문 경로 (브랜치 기준) |
+|----|------|-----------|------|--------|-----------------|-------------------------|
+| Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
+| Essay 2 | `buying-property-japan-checklist-before-you-commit` | **6/26** | 🟡 브랜치 대기 | `feat/eeat-essay-2-3-phase-a` | `67ba48a` | `src/data/blog/{en,ja,ko}/buying-property-japan-checklist-before-you-commit.md` (`draft: true`) |
+| Essay 3 | `why-i-chose-nihonbashi` | **7/3** | 🟡 브랜치 대기 | `feat/eeat-essay-2-3-phase-a` | `67ba48a` | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
+
+**다음 액션 (AG · Joseph 트리거):**
+1. 배포일 전: `feat/eeat-essay-2-3-phase-a` → `main` 머지
+2. 해당 slug `draft: false` + `pnpm validate:post` + 배포
+3. `_handoff.md` AG 배포 완료 append + 이 표 상태 → ✅ 라이브
+
+**참고:** Phase A `8dda59c` · validate `67ba48a` · 브랜치 tip `0be2200` (docs only)
 
 ---
 
