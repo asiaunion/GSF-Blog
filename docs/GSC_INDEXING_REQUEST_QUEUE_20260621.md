@@ -115,7 +115,7 @@
 
 ## AdSense 7/4~9 추가 큐 (Essay 2·3 배포 후)
 
-Essay 2 (6/26) · Essay 3 (7/3) 라이브 다음날부터, 하루 3~6건:
+Essay 2 (6/24 ✅) · Essay 3 (**6/26**) 라이브 다음날부터, 하루 3~6건:
 
 - `buying-property-japan-checklist-before-you-commit` EN/KO/JA
 - `why-i-chose-nihonbashi` EN/KO/JA

@@ -84,13 +84,13 @@
 | 편 | slug | 배포 예정 | 상태 | 브랜치 | 커밋 (validate) | 본문 경로 (브랜치 기준) |
 |----|------|-----------|------|--------|-----------------|-------------------------|
 | Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
-| Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
-| Essay 3 | `why-i-chose-nihonbashi` | **7/3** | 🟡 draft 대기 (`main`) | `main` | `99520f4` (merge) | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
+| Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
+| Essay 3 | `why-i-chose-nihonbashi` | **6/26** | 🟡 draft 대기 (`main`) | `main` | `99520f4` (merge) | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
 
 **다음 액션:**
-1. ~~Essay 2~~ ✅ 6/24 AG 배포 (`99520f4`, pubDatetime hotfix `99b4e78`)
-2. **Essay 3 (7/3):** `draft: false` + `pnpm validate:post` + AG 배포
-3. Joseph: Essay 2 GSC 색인 (EN/KO/JA 3 URL) — 배포 당일 즉시
+1. ~~Essay 2 배포~~ ✅ 6/24 AG (`99520f4`, pubDatetime hotfix `99b4e78`)
+2. ~~Essay 2 GSC~~ ✅ 6/24 Joseph (EN/KO/JA 3 URL)
+3. **Essay 3 (6/26):** `draft: false` + `pnpm validate:post` + AG 배포
 
 ---
 
@@ -152,8 +152,11 @@
 ## 📝 작업 로그
 ### 2026-06-24
 - **Essay 2 라이브** — `buying-property-japan-checklist-before-you-commit` KO/EN/JA (`99520f4` merge + publish, `99b4e78` pubDatetime)
+- Essay 2 조기 배포 및 pubDatetime 수정
+- 미래 시간 포스트 노출 누락 방지 KI 규칙 추가
 - URL: https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/
-- Essay 3는 `main`에 `draft: true` 유지 — 7/3 AG 배포 예정
+- **Essay 2 GSC 색인** — Joseph EN/KO/JA 3 URL 요청 완료
+- Essay 3는 `main`에 `draft: true` 유지 — **6/26** AG 배포 예정
 
 ### 2026-06-23
 - GSF-Blog를 GSF-Ark로 명칭 변경

@@ -1,6 +1,6 @@
 ---
 title: "Why I Chose Nihonbashi"
-pubDatetime: 2026-07-03T10:00:00+09:00
+pubDatetime: 2026-06-26T10:00:00+09:00
 description: "A personal account of why a Korean investor, after years of watching Tokyo's market, chose one specific neighborhood — and what that choice meant beyond the numbers."
 author: Joseph KIM
 lang: en

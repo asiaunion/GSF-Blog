@@ -1,7 +1,7 @@
 ---
 title: "なぜ日本橋を選んだのか"
 description: "長年、東京の市場を見続けた韓国人投資家が、一つのエリアを選んだ理由。そして、その選択が数字を超えて意味したこと。"
-pubDatetime: 2026-07-03T10:00:00+09:00
+pubDatetime: 2026-06-26T10:00:00+09:00
 author: Joseph KIM
 lang: ja
 draft: true

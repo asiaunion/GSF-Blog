@@ -117,7 +117,7 @@
 - 작업 내용: Essay 2·3 KO/EN/JA 초안 + hero + `validate:post` PASS — **main 미머지**, `draft: true`
 - 브랜치: `feat/eeat-essay-2-3-phase-a` (tip `0be2200`, validate `67ba48a`, Phase A `8dda59c`)
 - Essay 2 slug: `buying-property-japan-checklist-before-you-commit` — 배포 예정 **2026-06-26**
-- Essay 3 slug: `why-i-chose-nihonbashi` — 배포 예정 **2026-07-03**
+- Essay 3 slug: `why-i-chose-nihonbashi` — 배포 예정 **2026-06-26** *(7/3에서 변경, 세션 Z)*
 - 파일: `src/data/blog/{en,ja,ko}/<slug>.md` (브랜치에만 존재, `main` 없음)
 - SSOT: `WEEKLY_STATUS.md` → 「✍️ E-E-A-T Essay 파이프라인」블록
 - 다음: Joseph/AG 트리거 → main merge → `draft: false` → validate → Vercel 배포 → AG 배포 완료 항목으로 교체
@@ -128,4 +128,10 @@
 - 커밋 해시: 99520f4
 - 배포 URL: https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/
 - Claude 부재 여부: 아니오
-- 특이사항: Essay 3는 draft: true 상태 유지, Essay 2만 배포.
+- 특이사항: Essay 3는 draft: true 상태 유지, Essay 2만 배포. Essay 3 배포일 **6/26** 확정 (7/3에서 변경).
+
+## [2026-06-24] Essay 3 배포일 변경
+- slug: `why-i-chose-nihonbashi`
+- 배포 예정: 7/3 → **2026-06-26**
+- `pubDatetime`: `2026-06-26T10:00:00+09:00` (en/ko/ja, `draft: true` 유지)
+- 다음: 6/26 AG — `draft: false` + validate + 배포
