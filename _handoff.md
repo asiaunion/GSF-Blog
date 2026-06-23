@@ -80,7 +80,7 @@
 - Primary SSOT: 12/12 pass (PKM 葛飾区 4473 동기화 확인)
 - fact-audit: docs/fact-audit/tokyo-adachi-katsushika-edogawa.md (Cursor primary 감사 섹션 추가)
 - Hero: tokyo-adachi-katsushika-edogawa-hero.webp + hero-og.jpg
-- 커밋 해시: (이번 커밋 후 기록)
+- 커밋 해시: 8e4dcf1 (feat/ep08 + mlit fix 7764849)
 - 배포 URL: https://gsfark.com (main push 후 Vercel)
 - Claude 부재 여부: 예
 - 특이사항: verify:episode:gate secondary 9건 + draft_coverage(-1.1) 휴리스틱 FAIL — Ep.07 동일 패턴, primary hallucination 0으로 배포 진행. `joseph_final_approved` 미설정.
