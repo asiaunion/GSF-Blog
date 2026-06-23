@@ -1,7 +1,7 @@
 ---
 title: "서명하기 전에: 도쿄 부동산 매수 체크리스트"
 description: "서명하기 전에 확인했더라면 좋았을 것들. 도쿄 니혼바시에서 콘도미니엄을 직접 매입한 경험을 바탕으로 정리한 실전 체크리스트."
-pubDatetime: 2026-06-26T09:00:00+09:00
+pubDatetime: 2026-06-24T01:14:00+09:00
 author: Joseph KIM
 lang: ko
 draft: false
