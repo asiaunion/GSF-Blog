@@ -362,6 +362,20 @@ def main():
                     df.write(f"## {name}\n```\n{text}\n```\n\n")
             print(f"   📄 초안 파일: sns-drafts/{sched_date}-{slug}.md\n")
 
+            # 기계 검증 (exit 0 아니면 경고 — AG가 게시 전 수정 필요)
+            import subprocess
+            val = subprocess.run(
+                ["node", "scripts/validate-sns-draft.mjs", "--file", str(draft_path)],
+                cwd=BASE_DIR,
+                capture_output=True,
+                text=True,
+            )
+            if val.returncode == 0:
+                print("   ✅ validate:sns-draft PASS")
+            else:
+                print("   ❌ validate:sns-draft FAIL — Buffer 게시 전 수정 필수")
+                print(val.stdout[:800] or val.stderr[:400])
+
     # pending에서 처리된 항목 제거
     processed_slugs = {p['slug'] for p in processed}
     log['pending'] = [p for p in log['pending'] if p['slug'] not in processed_slugs]

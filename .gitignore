@@ -37,7 +37,8 @@ public/pagefind
 public/previews/
 .vercel
 artifacts/
-sns-drafts/
+sns-drafts/*
+!sns-drafts/_TEMPLATE.md
 
 # Ollama local models
 ollama_models/

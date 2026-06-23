@@ -234,12 +234,31 @@ pnpm validate:post <slug>                      # hero-webp-exists + hero-og-jpg-
 
 Joseph: git commit + deploy — **md 3 + hero.webp + hero-og.jpg**
 
-### Step 6-S — SNS OG (LinkedIn · 배포 직후)
+### Step 6-S — SNS 초안 게이트 (배포 직후 · Buffer 게시 전)
 
-1. [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)에서 KO·EN URL 각각 **Inspect**
-2. **Revert 후 재배포**한 글은 LinkedIn이 “이미지 없음”을 캐시함 → Post Inspector 없이 재게시해도 썸네일 안 뜸
+⛔ **금지**: `pnpm validate:sns-draft` exit 0 전 SNS 게시·“배포 완료” 선언  
+⛔ **금지**: `sns_scheduler.py` / `_TEMPLATE.md` 없이 X·Threads 초안만 수동 작성
 
-`og:image`는 `-hero-og.jpg?v=YYYYMMDD` (발행일)로 캐시 무효화.
+1. **초안 베이스** — scheduler 출력에서 시작 (수동 작성은 편집만 허용):
+   ```bash
+   python3 scripts/sns_scheduler.py --dry-run --rounds 1
+   # → sns-drafts/YYYY-MM-DD-<slug>.md 생성 · 구조는 sns-drafts/_TEMPLATE.md 참고
+   ```
+2. **기계 검증** (exit 0 필수):
+   ```bash
+   pnpm validate:sns-draft --slug <slug>
+   ```
+   - X: twitter-weighted ≤280 (URL=23자)
+   - Threads: ≤500자
+   - 투자/essay: 면책 문구 필수
+   - YMYL: 구체 수치·매수 권유 패턴 FAIL
+   - UTM: `utm_campaign=blog-broadcast`
+3. **Cadence** (`docs/SNS_PILOT_CADENCE.md`): 신규 포스트 → **X KO 1건 먼저** · EN 24h 후
+4. **X 이미지**: URL 카드만 의존 금지 → `{slug}-hero-og.jpg` **미디어 직접 첨부** 권장
+5. **LinkedIn** — [Post Inspector](https://www.linkedin.com/post-inspector/)에서 KO·EN canonical URL 각각 **Inspect**
+6. **Revert 후 재배포** 시 LinkedIn/X 카드 캐시 갱신 필수 (Inspector / [Card Validator](https://cards-dev.twitter.com/validator))
+
+`og:image`는 `-hero-og.jpg?v=YYYYMMDD` (발행일)로 캐시 무효화 권장.
 
 ---
 

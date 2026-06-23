@@ -130,7 +130,7 @@ slug 매칭 실패 → 유사 slug 3개 제안 후 `NEEDS_USER_INPUT` 상태 전
 
 4) Code Processing Area:
 - UTM URL 조립: `https://gsfark.com/posts/<slug>/?utm_source={platform}&utm_medium=social&utm_campaign=blog-broadcast`
-- 글자 수 카운트 (X: 280자 제한 검증)
+- 글자 수 카운트 (X: 280자 제한 검증) → `pnpm validate:sns-draft --slug <slug>` exit 0
 - 스마트 기본값 적용: `--all` 미지정 시 6건 생성 (X:EN/KO/JA, LinkedIn:EN/KO, Threads:KO)
 
 5) Success Criteria:

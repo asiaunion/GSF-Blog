@@ -32,7 +32,8 @@
 
 - 구체적 수치(공실률·수익률) SNS 요약 **금지**
 - "매수 적기" 등 권유 표현 **금지**
-- UTM: `utm_source=x&utm_medium=social&utm_campaign=blog_pilot`
+- UTM: `utm_source=x&utm_medium=social&utm_campaign=blog-broadcast` (SSOT — `pnpm validate:sns-draft` 검증)
+- SNS 초안: `python3 scripts/sns_scheduler.py --dry-run` → `pnpm validate:sns-draft --slug <slug>` exit 0 후 게시
 
 ---
 
