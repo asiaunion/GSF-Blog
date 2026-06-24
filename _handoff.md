@@ -136,7 +136,13 @@
 - `pubDatetime`: `2026-06-26T10:00:00+09:00` (en/ko/ja, `draft: true` 유지)
 - 다음: 6/26 AG — `draft: false` + validate + 배포
 
-## [2026-06-24] Joseph — E-E-A-T + Essay 1 GSC 색인 완료
+## [2026-06-24] Joseph 확인 — Ep08 라이브
+- 작업 내용: Ep.08 `tokyo-adachi-katsushika-edogawa` KO/EN/JA 재배포 확인 완료 (Joseph 라이브 스팡 체크)
+- Hero Hotfix `05cbc35` + pubDatetime `c6d6975` 포함
+- 비고: _handoff 기존 AG 배포 기록 (06/23) 라이브 상태 조세포
+- 다음: SNS X EN/Threads/LinkedIn 대기 — Ep08 소셜 파이프라인 진행
+
+## [2026-06-24] Joseph 확인 — E-E-A-T + Essay 1 GSC 색인 완료
 - 작업: GSC Day 2 큐 (author/contact/mission/methodology + Essay 1 EN 등)
 - SSOT: `GSC_INDEXING_REQUEST_QUEUE_20260621.md` Day 2 ✅ · WEEKLY Essay 1 + GSC
 - 다음 GSC: Day 3–6 일반 포스트 큐 (AdSense 7/10 전 여유)
