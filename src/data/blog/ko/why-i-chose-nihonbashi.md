@@ -1,7 +1,7 @@
 ---
 title: "왜 니혼바시인가"
 description: "수년간 도쿄 시장을 지켜본 한 한국인 투자자가 니혼바시를 선택한 이유 — 그리고 그 선택이 숫자 너머에서 의미했던 것."
-pubDatetime: 2026-06-26T10:00:00+09:00
+pubDatetime: 2026-06-25T10:00:00+09:00
 author: Joseph KIM
 lang: ko
 draft: false

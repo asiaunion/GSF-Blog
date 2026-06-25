@@ -86,12 +86,12 @@
 |----|------|-----------|------|--------|-----------------|-------------------------|
 | Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
 | Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
-| Essay 3 | `why-i-chose-nihonbashi` | **6/26** | ✅ 라이브 (`main`) | `main` | `99520f4` (merge) | [KO](https://gsfark.com/ko/posts/why-i-chose-nihonbashi/) · `draft: false` |
+| Essay 3 | `why-i-chose-nihonbashi` | **6/25** | ✅ 라이브 (`main`) | `main` | `99520f4` (merge) | [KO](https://gsfark.com/ko/posts/why-i-chose-nihonbashi/) · `draft: false` |
 
 **다음 액션:**
 1. ~~Essay 2 배포~~ ✅ 6/24 AG (`99520f4`, pubDatetime hotfix `99b4e78`)
 2. ~~Essay 2 GSC~~ ✅ 6/24 Joseph (EN/KO/JA 3 URL)
-3. ~~Essay 3 (6/26):~~ ✅ 6/25 AG 배포 (`draft: false` + `validate:post` + `4ace7f7`)
+3. ~~Essay 3 (6/25):~~ ✅ 6/25 AG 배포 (`draft: false` + `validate:post` + `4ace7f7`)
 
 ---
 
