@@ -8,6 +8,11 @@ title: "Terms of Service"
 
 These Terms of Service govern your use of GSF Blog (`https://gsfark.com/`, the "Site"). By accessing or using the Site, you agree to these Terms. If you do not agree, please discontinue use.
 
+The operator of this Site is:
+
+- **Operator**: Joseph KIM (GSF Blog / GSF)
+- **Email**: contact@gsfark.com
+
 ---
 
 ## 1. Purpose of the Site
@@ -28,7 +33,7 @@ Nothing on this Site constitutes investment, legal, tax, accounting, or other pr
 
 ## 3. Intellectual Property
 
-Unless otherwise stated, the text, original analysis, editorial structure, and branding on this Site are owned by GSF Blog.
+Unless otherwise stated, the text, original analysis, editorial structure, and branding on this Site are owned by **Joseph KIM**, operator of GSF Blog.
 
 - You may quote brief excerpts with proper attribution and a link to the original page.
 - You may not republish full articles, scrape the Site for resale, or reproduce materials in a misleading context without prior written permission.
@@ -77,7 +82,7 @@ You agree not to:
 
 ## 8. Limitation of Liability
 
-To the fullest extent permitted by applicable law, GSF Blog and its operator shall not be liable for any direct, indirect, incidental, consequential, or special loss arising out of or related to:
+To the fullest extent permitted by applicable law, **Joseph KIM**, operator of GSF Blog, shall not be liable for any direct, indirect, incidental, consequential, or special loss arising out of or related to:
 
 - reliance on Site content;
 - delays, errors, omissions, or interruptions;

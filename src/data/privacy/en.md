@@ -10,7 +10,7 @@ GSF Blog (`https://gsfark.com/`, hereinafter "this Site") is a personal publicat
 
 The operator of this Site is:
 
-- **Operator**: GSF (Joseph)
+- **Operator**: Joseph KIM (GSF Blog / GSF)
 - **Email**: contact@gsfark.com
 
 ---
