@@ -1,13 +1,14 @@
 /**
- * Four editorial hubs (Phase 3 plan) — file slugs shared across en/ko/ja.
+ * Four editorial hubs — flagship slugs shared across en/ko/ja.
+ * Curated for completeness and representativeness (not an exhaustive archive).
  */
 export const TOPIC_HUB_SLUGS = {
   urbanInvestment: [
+    "tokyo-real-estate-investment-complete-guide",
+    "japan-shinchiku-vs-chuko-mansion-investor-guide",
+    "tokyo-mansion-market-reins-2026-04",
+    "j-reit-five-things-to-know",
     "tokyo-office-vacancy-five-wards-2026",
-    "tokyo-mansion-tsubo-chiyoda-chuo-minato",
-    "hotel-reit-vs-office-reit-post-covid",
-    "nihonbashi-mitsui-redevelopment-pipeline-three",
-    "tokyo-small-rental-yield-vs-capital-gain-breakeven",
   ],
   macroPolicy: [
     "weak-yen-korean-japan-asset-allocation-fx-scenarios",
@@ -18,17 +19,17 @@ export const TOPIC_HUB_SLUGS = {
   ],
   tokyoLife: [
     "nihonbashi-hamacho-walking-guide",
-    "tsukiji-to-toyosu-morning-tokyo",
+    "why-i-chose-nihonbashi",
     "ginza-marunouchi-walk-dna",
     "tokyo-korean-community-beyond-shinokubo",
-    "tokyo-museums-with-kids-five-picks",
+    "tsukiji-to-toyosu-morning-tokyo",
   ],
   essay: [
     "why-warm-investing-holds",
-    "tokyo-moving-contracts-two-notes",
-    "three-things-when-fx-shakes",
-    "reading-korea-japan-markets-together",
+    "buying-property-japan-checklist-before-you-commit",
+    "buying-property-japan-surprises-foreign-investor",
     "one-failure-three-lessons-postmortem",
+    "reading-korea-japan-markets-together",
   ],
 } as const;
 
