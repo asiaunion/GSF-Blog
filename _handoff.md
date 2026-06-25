@@ -187,3 +187,15 @@
 - 사이트: Terms/Privacy/Contact 배포 완료 (`main` 63abded+)
 - GSC: 색인 생성 요청 사용자 완료
 - 다음: onlydomains DMARC 1건 추가 → verify 스크립트 전체 통과 → **AdSense 신청**
+
+## [2026-06-25] Cursor 배포 완료 — Topic Hubs 큐레이션
+- 작업 내용: Topic Hubs 대표 글 12편 교체 (`src/data/topicHubs.ts`) — 완성도·대표성 기준 큐레이션
+- 커밋 해시: `75a1930`
+- 배포 URL: https://gsfark.com/topics/ (EN/KO/JA 동일 구조)
+- Claude 부재 여부: 예
+- 특이사항:
+  - 47편 중 허브당 5편 × 4축 = 20편 (전체 아카이브 아님 — 의도된 설계)
+  - Urban 4편·Essay 2편·Tokyo life 1편 교체; Macro policy 유지
+  - Vercel main push 자동 배포 · 라이브 20 URL 검증 완료
+- AdSense: GSC `ads.txt` URL 검사 실패 = 사이트 문제 아님 · 재제출일 **7/3** 합의
+- SSOT: `docs/GSF_ARK_SESSION_CLOSURE_20260625.md` · WEEKLY_STATUS HUB `75a1930`

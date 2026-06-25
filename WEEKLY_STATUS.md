@@ -6,13 +6,13 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-24 (GSC 색인 큐 49/49 완료) |
+| 최종 업데이트 | 2026-06-25 (Topic Hubs 큐레이션 + AdSense 준비 세션 마감) |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 E-E-A-T Essay 1·2 **라이브** · Ep08 **라이브** — Essay 3 draft 대기 — AdSense 재제출 대기 |
+| 상태 | 🟢 E-E-A-T Essay 1·2·3 **라이브** · Topic Hubs **대표 글 20편 갱신** — AdSense **7/3** 재제출 예정 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | Joseph 라이브 스팟 체크 → **7월 초 AdSense 재제출** |
-| 다음 체크포인트 | 7/초 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
-| 블로커 | 없음 — 기술·E-E-A-T 배포 완료 (`main` `49648c9`) |
+| 이번 주 최우선 액션 | Joseph 라이브 스팟 체크 → **7/3 AdSense 재제출** |
+| 다음 체크포인트 | 7/3 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
+| 블로커 | 없음 — Topic Hubs 배포 완료 (`main` `75a1930`) |
 
 ---
 
@@ -22,7 +22,7 @@
 |------|------|------|
 | 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
 | 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
-| 7/초 | GSFArk AdSense 재제출 | ⏳ 대기 |
+| 7/3 | GSFArk AdSense 재제출 | ⏳ 예정 (Joseph 합의) |
 | 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | 🔄 AG 준비 중 |
 | 매주 화/목 | 발행 목표 주 2회 유지 | 🔄 진행 중 |
 
@@ -56,7 +56,7 @@
 |------|------|
 | 신청 횟수 | 5차 (조치 필요 통보 수신) |
 | 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) |
-| 재제출 예정 | 7월 초 (E-E-A-T 페이지 + Essay 1 배포 후) |
+| 재제출 예정 | **7/3** (Privacy·ToS·ads.txt·Topic Hubs 반영 후) |
 | GSC 색인 큐 | ✅ Day 1–6 **49/49** 요청 완료 (Joseph, 6/24) — Coverage 1~2주 후 재확인 |
 | GSC 색인 추세 | ⚠️ 116개 기준 — 큐 반영 후 1~2주 뒤 재측정 |
 
@@ -100,7 +100,7 @@
 | 항목 | 값 |
 |------|-----|
 | 발행 목표 | 주 2회 이상 (화/목) |
-| 현재 총 발행 수 | 38기 (Essay 2 포함, 2026-06-24) |
+| 현재 총 발행 수 | 39기 (Essay 3 포함, 2026-06-25) |
 | 소셜 자동 배포 | ✅ 정상 가동 중 |
 | 언어 | 日/韓/英 3언어 |
 
@@ -131,7 +131,7 @@
 | 매주 화/목 | 발행 1건 이상 |
 | 매주 | 소셜 자동 배포 정상 가동 확인 |
 | 수시 | 애드센스 메일함 확인 |
-| 6/29~30 | GSFArk AdSense 재제출 (목사님 직접) |
+| 7/3 | GSFArk AdSense 재제출 (목사님 직접) |
 
 ---
 
@@ -142,7 +142,7 @@
 | `docs/AG_TASK_2026-06-15_adsense-sitemap-fix.md` | sitemap admin 제거 AG 지시서 |
 | `docs/AG_TASK_2026-06-15_planb-tokyokorean.md` | Plan B tokyokorean.net AG 지시서 |
 | `docs/AG_TASK_2026-06-19_adsense-pages.md` | E-E-A-T 페이지 추가 + About 수정 + Author Box AG 지시서 |
-| `docs/GSF_ARK_SESSION_CLOSURE_20260619.md` | **2026-06-19 세션 마감** — AdSense E-E-A-T 라이브 스냅샷 |
+| `docs/GSF_ARK_SESSION_CLOSURE_20260625.md` | **2026-06-25 세션 마감** — Essay 3 검증 + AdSense·Topic Hubs |
 | `docs/AG_TASK_2026-06-19_deploy-bundle.md` | E-E-A-T + essay 통합 배포 번들 |
 | `docs/kpi-archive/` | 주간 KPI 기록 (확정 후 운영) |
 | `docs/REGION_EXPANSION_PLAN.md` | RE 트랙 — 지역 SSOT 일반화·수도권 파일럿 AG 슬라이스 |
@@ -152,7 +152,17 @@
 
 ## 📝 작업 로그
 ### 2026-06-25
-- **Essay 3 라이브** — `why-i-chose-nihonbashi` KO/EN/JA (`draft: false` 전환 및 배포, 커밋 `4ace7f7`)
+- **Topic Hubs 큐레이션** — `topicHubs.ts` 대표 글 12편 교체 · 커밋 `75a1930` · EN/KO/JA `/topics/` 라이브 검증
+- **AdSense 준비 (Cursor)** — Privacy Policy 날짜 6/25 갱신 (`fc1e83b`) · ads.txt GSC URL 검사 = 사이트 문제 아님 확인 · **재제출일 7/3 합의**
+- **Essay 3 라이브** — `why-i-chose-nihonbashi` KO/EN/JA (`draft: false` 전환 및 배포, 커밋 `4ace7f7`, `bbd58dd`)
+- Zoho Mail JP Lite 도입 (Forever Free 일본 지원 종료 확인)
+- contact@gsfark.com 생성 및 수발신 검증
+- OnlyDomains DNS에 MX/SPF/DKIM/DMARC 레코드 설정 완료
+- **Cursor 검증 완료** — `validate:post` 100·`verify:og-social` PASS · EN/KO/JA URL 200 · Vercel Production Ready · [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260625.md)
+- **홈·목록 노출** — `pubDatetime` 6/26 10:00 JST 스케줄 (직접 URL 접근 200, 목록·RSS는 6/26 이후)
+- Essay 3 (why-i-chose-nihonbashi) KO/EN/JA draft: false 변경 및 6/25 날짜 적용 완료
+- validate:post 검증 성공 (100점)
+- WEEKLY_STATUS.md 및 _handoff.md 배포 내역 갱신
 
 ### 2026-06-24
 - **GSC 색인 생성 요청 큐 종료** — Day 1–6 **49/49** 완료 (Joseph)
