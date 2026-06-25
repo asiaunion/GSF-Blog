@@ -152,3 +152,10 @@
 - SSOT: `docs/GSC_INDEXING_REQUEST_QUEUE_20260621.md` — **큐 종료**
 - 잔여: Essay 2·3 EN/KO/JA 6건은 7/4~9 별도 큐 (Essay 3 라이브 6/26 후)
 - 다음: GSC Coverage 1~2주 후 재확인 → 7/초 AdSense 재제출 준비
+
+## [2026-06-25 10:04] AG 배포 완료
+- 작업 내용: Essay 3 (why-i-chose-nihonbashi) KO/EN/JA 배포 (draft: false 처리)
+- 커밋 해시: 4ace7f7
+- 배포 URL: https://gsfark.com/ko/posts/why-i-chose-nihonbashi/
+- Claude 부재 여부: 아니오
+- 특이사항: validate:post 점수 100점 통과 완료

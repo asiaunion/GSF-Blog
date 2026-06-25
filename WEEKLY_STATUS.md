@@ -86,12 +86,12 @@
 |----|------|-----------|------|--------|-----------------|-------------------------|
 | Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
 | Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
-| Essay 3 | `why-i-chose-nihonbashi` | **6/26** | 🟡 draft 대기 (`main`) | `main` | `99520f4` (merge) | `src/data/blog/{en,ja,ko}/why-i-chose-nihonbashi.md` (`draft: true`) |
+| Essay 3 | `why-i-chose-nihonbashi` | **6/26** | ✅ 라이브 (`main`) | `main` | `99520f4` (merge) | [KO](https://gsfark.com/ko/posts/why-i-chose-nihonbashi/) · `draft: false` |
 
 **다음 액션:**
 1. ~~Essay 2 배포~~ ✅ 6/24 AG (`99520f4`, pubDatetime hotfix `99b4e78`)
 2. ~~Essay 2 GSC~~ ✅ 6/24 Joseph (EN/KO/JA 3 URL)
-3. **Essay 3 (6/26):** `draft: false` + `pnpm validate:post` + AG 배포
+3. ~~Essay 3 (6/26):~~ ✅ 6/25 AG 배포 (`draft: false` + `validate:post` + `4ace7f7`)
 
 ---
 
@@ -151,6 +151,9 @@
 ---
 
 ## 📝 작업 로그
+### 2026-06-25
+- **Essay 3 라이브** — `why-i-chose-nihonbashi` KO/EN/JA (`draft: false` 전환 및 배포, 커밋 `4ace7f7`)
+
 ### 2026-06-24
 - **GSC 색인 생성 요청 큐 종료** — Day 1–6 **49/49** 완료 (Joseph)
 - **Ep08 라이브** — `tokyo-adachi-katsushika-edogawa` KO/EN/JA 배포 완료 (Joseph 확인)
