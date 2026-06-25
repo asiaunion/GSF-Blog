@@ -2,6 +2,7 @@
 title: "From Ginza to Marunouchi: A DNA Walking Guide to Tokyo's Wealth and Tradition 2026"
 description: "From Ginza, boasting the highest land prices in Japan for 20 consecutive years, to Marunouchi, the heart of finance and business. We walk the 1.5km route where Tokyo's past and future intersect most vividly, with practical tips on transport, costs, and investment signals."
 pubDatetime: 2026-04-24T09:00:00Z
+modDatetime: 2026-06-04T23:11:23+09:00
 author: GSF
 lang: en
 category: local

@@ -2,6 +2,7 @@
 title: "東京都心5区のオフィス空室率が2%台に突入：2026年の供給マップと投資判断"
 description: "東京の都心5区（千代田・中央・港・新宿・渋谷）の空室率が2020年以来の低水準を記録しています。三鬼商事の最新データと「Flight to Quality（質の高いビルへの移転）」トレンドを基に、各エリアの需給バランスを分析します。"
 pubDatetime: 2026-03-30T10:00:00Z
+modDatetime: 2026-05-27T01:05:01+09:00
 author: GSF
 lang: ja
 category: investment

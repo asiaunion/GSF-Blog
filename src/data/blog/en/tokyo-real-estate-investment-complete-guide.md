@@ -2,6 +2,7 @@
 title: "Tokyo Real Estate Investment: Complete Step-by-Step Guide [2026]"
 description: "Discover the step-by-step process of buying real estate in Tokyo. See 2026 data on market trends, taxes, and practical advice for global buyers."
 pubDatetime: 2026-05-04T10:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: en
 category: investment

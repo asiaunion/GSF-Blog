@@ -2,6 +2,7 @@
 title: "Seoul and Tokyo: Reading Two Markets as One Global Corridor"
 description: "In 2026, the 'Japanification' of the Korean economy and the 'Revitalization' of the Japanese economy are intersecting. We analyze the structural supply shortages in Seoul and the global capital concentration in Tokyo to share strategic insights for cross-border asset allocation."
 pubDatetime: 2026-04-18T11:00:00Z
+modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: investment

@@ -2,6 +2,7 @@
 title: "도쿄 도심 3구 (치요다, 추오, 미나토): 프리미엄 입지 분석"
 description: "도쿄 최상위 핵심 입지인 도심 3구의 공실률, 지가 동향, 향후 개발 파이프라인 데이터를 확인하고 입지적 가치를 비교해 보세요."
 pubDatetime: 2026-05-14T01:45:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 draft: false
 lang: ko

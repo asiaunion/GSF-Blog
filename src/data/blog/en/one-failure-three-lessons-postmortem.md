@@ -2,6 +2,7 @@
 title: "A Post-Mortem of Japan Real Estate Failures: 3 Lessons to Protect Your Capital"
 description: "Failure stories are often more powerful than success stories. From the traps of subleasing to hidden maintenance spikes and tax audits, we analyze real-world investment failures to uncover the 'invisible risks' of the Japanese market."
 pubDatetime: 2026-04-20T07:00:00Z
+modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: investment

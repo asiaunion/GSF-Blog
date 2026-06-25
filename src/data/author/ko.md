@@ -47,5 +47,5 @@ GSFArk의 모든 글은 다음 네 가지를 함께 고려하여 작성됩니다
 
 ## 연락처
 
-- **이메일**: asiaunion@gmail.com
+- **이메일**: contact@gsfark.com
 - [메시지 보내기 →](/ko/contact/)

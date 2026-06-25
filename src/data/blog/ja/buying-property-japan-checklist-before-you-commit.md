@@ -2,6 +2,7 @@
 title: "サインする前に：東京不動産購入チェックリスト"
 description: "サインする前に確認しておくべきだったこと。東京・日本橋でマンションを実際に購入した経験をもとにまとめた実践的なチェックリストです。"
 pubDatetime: 2026-06-24T01:14:00+09:00
+modDatetime: 2026-06-24T01:15:21+09:00
 author: Joseph KIM
 lang: ja
 draft: false

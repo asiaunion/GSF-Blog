@@ -2,6 +2,7 @@
 title: "Nihonbashi Hamacho Living: The Supermarket Nobody Expects in Central Tokyo"
 description: "Discover the convenience of living in Nihonbashi Hamacho. Explore local supermarkets like Peacock Store, daily amenities, and neighborhood charm."
 pubDatetime: 2026-05-08T13:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: en
 category: life

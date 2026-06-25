@@ -2,6 +2,7 @@
 title: "Beyond Shin-Okubo: The New Map of Korea-Tokyo Communities & Business 2026"
 description: "Tokyo’s Korean community has expanded beyond the geographical boundaries of Shin-Okubo. From the global elite networks in Azabu to the K-Startup hub in Toranomon, we provide an in-depth look at the evolving status and business bases of Koreans in Tokyo as of 2026."
 pubDatetime: 2026-05-01T08:00:00Z
+modDatetime: 2026-05-27T12:37:12+09:00
 author: GSF
 lang: en
 category: life

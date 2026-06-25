@@ -2,6 +2,7 @@
 title: "The Aesthetics of Warm Investing: Where Cold Numbers Meet Human Warmth"
 description: "Investing is ultimately proven by numbers, but those numbers are created by human decisions and the quality of relationships. I explain how GSF's 'Warm Investing' operates as a practical risk management framework, far beyond a simple slogan."
 pubDatetime: 2026-04-22T08:00:00Z
+modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: essay

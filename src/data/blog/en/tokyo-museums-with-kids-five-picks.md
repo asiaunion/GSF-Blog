@@ -2,6 +2,7 @@
 title: "Intellectual Exploration with Kids in Tokyo: 2026 Edutainment Museum BEST 5"
 description: "Tokyo is a massive laboratory and playground for children. From cutting-edge robotics to dinosaur fossils and immersive media art. We introduce five must-visit educational museums in Tokyo for families traveling in 2026."
 pubDatetime: 2026-05-02T09:00:00Z
+modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: local

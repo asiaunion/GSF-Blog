@@ -1,0 +1,26 @@
+---
+import AboutLayout from "@/layouts/AboutLayout.astro";
+import { getEntry, render } from "astro:content";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: undefined } },
+    { params: { locale: "ko" } },
+    { params: { locale: "ja" } },
+  ];
+}
+
+const { locale } = Astro.params;
+const lang = (locale as "ko" | "ja" | undefined) ?? "en";
+
+const entry = await getEntry("terms", lang);
+if (!entry) {
+  throw new Error(`Terms entry not found for locale: ${lang}`);
+}
+
+const { Content } = await render(entry);
+---
+
+<AboutLayout frontmatter={{ title: entry.data.title }} schemaType="WebPage">
+  <Content />
+</AboutLayout>

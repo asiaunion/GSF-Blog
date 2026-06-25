@@ -2,6 +2,7 @@
 title: "일본 금리 인상과 J-REIT: 2024-2026 사이클에서 배우는 3가지 교훈"
 description: "일본은행(BOJ)의 금리 인상 사이클이 J-REIT 시장에 미치는 영향을 분석합니다. 일본 매크로 환경을 이해하기 위한 3가지 핵심 교훈을 확인하세요."
 pubDatetime: 2026-04-13T08:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: investment

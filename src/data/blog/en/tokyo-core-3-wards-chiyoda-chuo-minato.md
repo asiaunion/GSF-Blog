@@ -2,6 +2,7 @@
 title: "Chiyoda, Chuo & Minato: Tokyo's 3 Premium Wards Data"
 description: "Learn which ward to invest in based on vacancy rates, price trends, and developer pipelines in Tokyo's premium central 3 wards."
 pubDatetime: 2026-05-14T01:45:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 draft: false
 lang: en

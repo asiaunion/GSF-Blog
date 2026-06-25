@@ -2,6 +2,7 @@
 title: "Hotel REITs vs Office REITs: Which Recovered More After COVID?"
 description: "Compare recovery paths for hotel ADR/occupancy versus office leasing through a J-REIT lens, including lags from rates, tourism, and earnings."
 pubDatetime: 2026-04-03T07:00:00Z
+modDatetime: 2026-05-27T01:05:01+09:00
 author: GSF
 lang: en
 category: investment

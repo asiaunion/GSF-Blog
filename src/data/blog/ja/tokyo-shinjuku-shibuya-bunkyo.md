@@ -2,6 +2,7 @@
 title: "新宿、渋谷、文京区：東京の商業・教育の中心地ガイド"
 description: "東京の副都心である新宿・渋谷と、文教地区である文京区の特徴を比較。各区の商業、文化、居住環境の違いについて解説します。"
 pubDatetime: 2026-05-19T12:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 draft: false
 lang: ja

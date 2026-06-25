@@ -2,6 +2,7 @@
 title: "도쿄 23구 완전 정복: 거주와 투자 관점 가이드 [2026]"
 description: "도쿄 23구의 각 구별 특징, 인프라, 거주 환경을 분석합니다. 어디에 살고 어디에 주목해야 할지 구체적인 가이드를 확인하세요."
 pubDatetime: 2026-05-12T09:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: investment

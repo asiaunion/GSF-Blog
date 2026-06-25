@@ -47,5 +47,5 @@ GSFArkの記事は常に以下の視点を組み合わせて執筆していま�
 
 ## お問い合わせ
 
-- **メール**: asiaunion@gmail.com
+- **メール**: contact@gsfark.com
 - [メッセージを送る →](/ja/contact/)

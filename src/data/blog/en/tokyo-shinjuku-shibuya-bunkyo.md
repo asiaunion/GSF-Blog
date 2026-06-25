@@ -2,6 +2,7 @@
 title: "Shinjuku, Shibuya & Bunkyo: Tokyo's Creative & Academic Wards"
 description: "Explore the characteristics of Shinjuku, Shibuya, and Bunkyo. Learn about Tokyo's commercial hubs, cultural centers, and educational districts."
 pubDatetime: 2026-05-19T12:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 draft: false
 lang: en

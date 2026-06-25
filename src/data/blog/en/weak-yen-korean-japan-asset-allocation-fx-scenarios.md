@@ -2,6 +2,7 @@
 title: "Weak Yen and Korean Allocations to Japan: Three FX Scenarios"
 description: "Analyze JPY/KRW paths (800–900 JPY/KRW range) and USD/JPY scenarios to stress-test Japan real assets, J-REITs, and cash for Korean investors."
 pubDatetime: 2026-04-04T08:00:00Z
+modDatetime: 2026-05-27T12:38:04+09:00
 author: GSF
 lang: en
 category: investment

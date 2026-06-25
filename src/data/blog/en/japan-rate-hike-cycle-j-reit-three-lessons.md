@@ -2,6 +2,7 @@
 title: "Japan Rate Hike & J-REIT: 3 Lessons from the 2024-2026 Cycle"
 description: "Find out how the Bank of Japan's rate hike cycle affects J-REITs. Discover 3 essential macro lessons for understanding the Japanese market."
 pubDatetime: 2026-04-13T08:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: en
 category: investment

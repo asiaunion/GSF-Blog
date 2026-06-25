@@ -2,6 +2,7 @@
 title: "도심 한복판에 마트가? — 니혼바시 하마초 피코크의 반전"
 description: "도심 속 주거지 니혼바시 하마초의 생활 편의성을 소개합니다. 피코크 스토어 등 주요 슈퍼마켓과 동네의 매력을 직접 확인해 보세요."
 pubDatetime: 2026-05-08T13:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: life

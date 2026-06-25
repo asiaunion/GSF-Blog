@@ -2,6 +2,7 @@
 title: "東京不動産購入の完全ガイド：ステップバイステップの手順 [2026]"
 description: "東京での不動産購入プロセスをステップバイステップで解説。2026年の市場データ、税金、グローバル購入者向けの実務手順をご確認ください。"
 pubDatetime: 2026-05-04T10:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ja
 category: investment

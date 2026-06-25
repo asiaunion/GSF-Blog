@@ -2,6 +2,7 @@
 title: "Nihonbashi Mitsui Redevelopment: 3 Projects Reshaping Tokyo"
 description: "Find out about Mitsui Fudosan's massive redevelopment pipeline in Nihonbashi. See how these 3 major projects will transform Tokyo's historic core."
 pubDatetime: 2026-04-06T09:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: en
 category: investment

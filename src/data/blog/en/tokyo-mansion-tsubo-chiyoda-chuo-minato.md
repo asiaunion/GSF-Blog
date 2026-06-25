@@ -2,6 +2,7 @@
 title: "Urban Mansion Prices per Tsubo: Chuo, Chiyoda, and Minato Compared"
 description: "A framework to compare tsubo-level pricing across Chuo, Chiyoda, and Minato—plus holding-cost layers foreign buyers often miss."
 pubDatetime: 2026-04-01T11:00:00Z
+modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: en
 category: investment

@@ -2,6 +2,7 @@
 title: "The Two Hearts of Tokyo’s Morning: Tsukiji and Toyosu, 2026 Transformations"
 description: "From the 80-year history of the Tsukiji Outer Market to the modern culinary hub of Toyosu Senkyaku Banrai. We provide a smart guide to exploring these areas as of 2026, focusing on both gastronomic experiences and the massive redevelopment projects underway."
 pubDatetime: 2026-04-29T07:00:00Z
+modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: local

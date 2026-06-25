@@ -2,6 +2,7 @@
 title: "New vs. Pre-owned Mansions: The Complete 2026 Investor's Guide"
 description: "A Tokyo mansion investment guide from the perspective of a Nihonbashi resident. A deep dive comparing new and pre-owned mansions using 70% hard data from April 2026 and 30% real-life experience."
 pubDatetime: 2026-05-30T08:00:00Z
+modDatetime: 2026-06-07T03:13:14+09:00
 author: GSF
 lang: en
 category: investment

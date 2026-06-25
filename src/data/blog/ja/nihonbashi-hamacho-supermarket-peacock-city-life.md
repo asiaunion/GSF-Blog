@@ -2,6 +2,7 @@
 title: "都心にスーパーが？日本橋浜町の意外な生活利便性"
 description: "都心の住宅街・日本橋浜町の生活利便性を紹介します。ピーコックストアなどのスーパーや日常の買い物環境、街の魅力をご覧ください。"
 pubDatetime: 2026-05-08T13:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ja
 category: life

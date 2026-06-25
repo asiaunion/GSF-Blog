@@ -2,6 +2,7 @@
 title: "Where to Live in Tokyo — The Complete 23-Ward Guide [Ep.07] Northern 4 Wards: Kita · Arakawa · Itabashi · Nerima"
 description: "13–28 minutes to Tokyo Station, at 36–46% of Chiyoda prices. We compare mansion transaction prices, rental rates, and transit access across 北区 (Kita-ku), 荒川区 (Arakawa-ku), 板橋区 (Itabashi-ku), and 練馬区 (Nerima-ku) — all with data."
 pubDatetime: 2026-06-19T04:00:00Z
+modDatetime: 2026-06-19T14:33:20+09:00
 author: GSF
 draft: false
 lang: en

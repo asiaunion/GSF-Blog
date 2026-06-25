@@ -2,6 +2,7 @@
 title: "Tokyo 23 Wards Complete Guide: Where to Live & Invest [2026]"
 description: "Discover the definitive guide to Tokyo's 23 wards. Explore demographics, infrastructure, and urban characteristics to find the perfect area for you."
 pubDatetime: 2026-05-12T09:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: en
 category: investment

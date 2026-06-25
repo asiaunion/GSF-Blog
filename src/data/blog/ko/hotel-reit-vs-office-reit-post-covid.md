@@ -2,6 +2,7 @@
 title: "호텔 리츠 vs 오피스 리츠, 코로나 이후 어느 쪽이 회복했나요?"
 description: "코로나 이후 호텔 J-REIT와 오피스 J-REIT의 회복 속도를 ADR·객실 점유율·공실률 데이터로 비교하고, BOJ 금리 경로와 인바운드 관광 트렌드가 각 자산군에 주는 시차와 투자 시사점을 정리합니다."
 pubDatetime: 2026-04-03T07:00:00Z
+modDatetime: 2026-05-27T01:05:01+09:00
 author: GSF
 lang: ko
 category: investment

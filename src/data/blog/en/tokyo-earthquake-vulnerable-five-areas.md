@@ -1,6 +1,7 @@
 ---
 title: "Top 5 Earthquake-Vulnerable Areas in Tokyo, Japan"
 pubDatetime: 2026-03-20T09:00:00Z
+modDatetime: 2026-06-21T19:38:58+09:00
 description: "Drawing on the Tokyo Metropolitan Government's regional earthquake-risk survey, this piece walks through the five wards most exposed to building-collapse and fire risk, and what that means for medium- to long-term real-estate investors."
 author: GSF
 lang: en

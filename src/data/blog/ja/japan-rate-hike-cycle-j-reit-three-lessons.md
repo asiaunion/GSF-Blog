@@ -2,6 +2,7 @@
 title: "日本の利上げとJ-REIT：2024-2026年サイクルから学ぶ3つの教訓"
 description: "日銀の利上げサイクルがJ-REIT市場に与える影響を分析。日本のマクロ環境を理解するための3つの重要な教訓を確認してください。"
 pubDatetime: 2026-04-13T08:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ja
 category: investment

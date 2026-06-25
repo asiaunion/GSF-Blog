@@ -2,6 +2,7 @@
 title: "신주쿠, 시부야, 분쿄구: 도쿄의 상업 및 교육 중심지 분석"
 description: "도쿄 서부의 핵심인 신주쿠, 시부야와 교육 중심지 분쿄구의 특징을 비교합니다. 각 구의 상권, 문화, 주거 환경의 차이를 알아보세요."
 pubDatetime: 2026-05-19T12:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 draft: false
 lang: ko

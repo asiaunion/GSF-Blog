@@ -44,6 +44,8 @@ const L = getUi(lang);
         <a href={`${l}/contact/`} class="link-subtle">{L.footerContact}</a>
         <span>&middot;</span>
         <a href={`${l}/privacy-policy/`} class="link-subtle">{L.footerPrivacy}</a>
+        <span>&middot;</span>
+        <a href={`${l}/terms-of-service/`} class="link-subtle">{L.footerTerms}</a>
       </div>
       <Socials />
     </div>
@@ -51,6 +53,9 @@ const L = getUi(lang);
       <span>{L.footerCopyright} &#169; {currentYear} GSF (Good Samaritan Flourishing).</span>
       <span class="hidden sm:inline">&nbsp;|&nbsp;</span>
       <span>{L.footerAllRights}</span>
+    </div>
+    <div class="text-xs opacity-60 text-center sm:text-left">
+      <span>{L.footerAdsNotice}</span>
     </div>
   </div>
 </footer>

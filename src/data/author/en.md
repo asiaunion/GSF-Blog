@@ -44,5 +44,5 @@ Nihonbashi, Tokyo, Japan
 
 ## Contact
 
-- **Email**: asiaunion@gmail.com
+- **Email**: contact@gsfark.com
 - [Send a message →](/contact/)

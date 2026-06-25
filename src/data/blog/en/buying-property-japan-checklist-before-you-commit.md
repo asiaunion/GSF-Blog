@@ -1,6 +1,7 @@
 ---
 title: "Before You Commit: A Checklist for Buying Property in Tokyo"
 pubDatetime: 2026-06-24T01:14:00+09:00
+modDatetime: 2026-06-24T01:15:21+09:00
 description: "What I wish I had verified before signing anything — a practical checklist drawn from firsthand experience buying a condominium in Nihonbashi, Tokyo."
 author: Joseph KIM
 lang: en

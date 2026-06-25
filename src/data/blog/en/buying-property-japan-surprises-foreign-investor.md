@@ -1,6 +1,7 @@
 ---
 title: "What Surprised Me Most About Buying Property in Japan"
 pubDatetime: 2026-06-19T09:00:00+09:00
+modDatetime: 2026-06-20T10:19:29+09:00
 description: "A Korean investor's first-hand account of purchasing a condominium in Nihonbashi, Tokyo — the procedures, the surprises, and what no guidebook told me."
 author: Joseph KIM
 lang: en

@@ -11,7 +11,7 @@ GSF Blog(`https://gsfark.com/`, 이하 "본 사이트")는 방문자의 개인�
 본 사이트의 운영자는 다음과 같습니다.
 
 - **운영자**: GSF (Joseph)
-- **이메일**: asiaunion@gmail.com
+- **이메일**: contact@gsfark.com
 
 ---
 
@@ -120,6 +120,6 @@ GSF Blog(`https://gsfark.com/`, 이하 "본 사이트")는 방문자의 개인�
 
 방문자는 본 사이트를 이용함으로써 본 개인정보 처리방침에 동의하는 것으로 간주됩니다. 본 방침 또는 방문자 본인의 개인정보 처리와 관련한 문의는 아래 연락처로 주시기 바랍니다.
 
-- **이메일**: asiaunion@gmail.com
+- **이메일**: contact@gsfark.com
 
 본 사이트는 통상 영업일 기준 2~3일 이내에 회신합니다.

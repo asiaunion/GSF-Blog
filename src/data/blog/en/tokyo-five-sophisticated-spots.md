@@ -1,6 +1,7 @@
 ---
 title: "Top 5 Stylish Spots in Tokyo, Japan"
 pubDatetime: 2026-03-21T10:00:00Z
+modDatetime: 2026-05-27T13:16:15+09:00
 description: "Compare Daikanyama, Jiyugaoka, Omotesando, Ginza, and Shibuya along two axes — a visitor's walking route and the going rent for a studio apartment — and see what the differences reveal about each neighborhood's character and investment angle."
 author: GSF
 lang: en

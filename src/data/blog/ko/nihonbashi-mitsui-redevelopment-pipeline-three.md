@@ -2,6 +2,7 @@
 title: "니혼바시 미쓰이 재개발: 도쿄의 중심을 바꾸는 3대 파이프라인"
 description: "미쓰이 부동산이 주도하는 니혼바시 핵심 재개발 프로젝트 3가지를 분석합니다. 도쿄의 역사적 중심지가 어떻게 변화할지 확인해 보세요."
 pubDatetime: 2026-04-06T09:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: investment

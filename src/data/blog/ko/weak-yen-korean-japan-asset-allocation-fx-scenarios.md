@@ -2,6 +2,7 @@
 title: "역대급 엔저 시대, 한일 자산 배분 전략과 3가지 FX 시나리오 2026"
 description: "JPY/KRW 환율 800~900원대 박스권이 장기화되는 가운데, 한국 투자자의 관점에서 일본 부동산 및 리츠 투자 시 반드시 고려해야 할 환차익 시나리오와 리스크 관리 전략을 분석합니다."
 pubDatetime: 2026-04-04T08:00:00Z
+modDatetime: 2026-05-27T12:37:12+09:00
 author: GSF
 lang: ko
 category: investment

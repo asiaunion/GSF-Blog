@@ -2,6 +2,7 @@
 title: "Tokyo's 6 Key Wards: Real Estate Data & Investment Insights [2026]"
 description: "Analyze price trends and demographic shifts in Tokyo's 6 key wards. See the data to understand the future of Tokyo's urban landscape."
 pubDatetime: 2026-03-27T08:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: "GSF"
 lang: en
 category: investment

@@ -140,6 +140,14 @@ const privacy = defineCollection({
   }),
 });
 
+const terms = defineCollection({
+  loader: glob({ pattern: "**/[^_]*.md", base: "./src/data/terms" }),
+  schema: z.object({
+    lang: z.enum(["en", "ko", "ja"]),
+    title: z.string(),
+  }),
+});
+
 const contact = defineCollection({
   loader: glob({ pattern: "**/[^_]*.md", base: "./src/data/contact" }),
   schema: z.object({
@@ -188,4 +196,14 @@ const author = defineCollection({
   }),
 });
 
-export const collections = { blog, about, privacy, contact, resources, mission, methodology, author };
+export const collections = {
+  blog,
+  about,
+  privacy,
+  terms,
+  contact,
+  resources,
+  mission,
+  methodology,
+  author,
+};

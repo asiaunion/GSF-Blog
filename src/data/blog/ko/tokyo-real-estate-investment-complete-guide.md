@@ -2,6 +2,7 @@
 title: "도쿄 부동산 매수 A to Z: 단계별 완전 가이드 [2026]"
 description: "도쿄 부동산 매수를 위한 단계별 가이드. 2026년 최신 시장 데이터, 세금, 그리고 글로벌 매수자를 위한 실무 절차를 확인해 보세요."
 pubDatetime: 2026-05-04T10:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: investment

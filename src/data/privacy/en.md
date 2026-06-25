@@ -11,7 +11,7 @@ GSF Blog (`https://gsfark.com/`, hereinafter "this Site") is a personal publicat
 The operator of this Site is:
 
 - **Operator**: GSF (Joseph)
-- **Email**: asiaunion@gmail.com
+- **Email**: contact@gsfark.com
 
 ---
 
@@ -121,6 +121,6 @@ This Policy may be revised in response to changes in applicable laws, Site servi
 
 By using this Site, you are deemed to consent to this Privacy Policy. If you have any questions about this Policy or about how your personal information is handled, please reach out using the details below.
 
-- **Email**: asiaunion@gmail.com
+- **Email**: contact@gsfark.com
 
 I usually reply within 2–3 business days.

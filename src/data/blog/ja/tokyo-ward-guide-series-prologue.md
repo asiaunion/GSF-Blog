@@ -2,6 +2,7 @@
 title: "東京23区完全ガイド：居住・投資視点でのエリア解説 [2026]"
 description: "東京23区の特徴、インフラ、人口動態を徹底比較。居住や不動産検討に役立つ、エリア別の詳細なガイドをご覧ください。"
 pubDatetime: 2026-05-12T09:00:00Z
+modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ja
 category: investment

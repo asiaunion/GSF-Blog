@@ -1,6 +1,7 @@
 ---
 title: "Nihonbashi, The Starting Point and New Origin of All Things"
 pubDatetime: 2026-03-25T07:00:00Z
+modDatetime: 2026-05-27T12:37:12+09:00
 description: "Moving to Nihonbashi, the center of Japan and home to the Kilometre Zero monument. A deep look at the district's 400-year commercial heritage, its ¥1-trillion-class redevelopment wave, and why this origin point still defines Tokyo's gravity."
 author: GSF
 lang: en

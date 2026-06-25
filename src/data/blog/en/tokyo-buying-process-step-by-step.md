@@ -2,6 +2,7 @@
 title: "Tokyo Real Estate Buying Process Demystified: An 8-Step Field Guide from Search to Title Registration"
 description: "A comprehensive 8-step walkthrough for first-time foreign buyers acquiring property in Tokyo. Covers the 2026 nationality disclosure mandate, non-resident documentation, brokerage fee caps, and the critical role of the judicial scrivener."
 pubDatetime: 2026-05-06T11:00:00Z
+modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: en
 category: investment
