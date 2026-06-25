@@ -6,13 +6,13 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-25 (Topic Hubs 큐레이션 + AdSense 준비 세션 마감) |
+| 최종 업데이트 | 2026-06-26 (Essay 3 홈·목록·GSC 색인 Joseph 확인) |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 E-E-A-T Essay 1·2·3 **라이브** · Topic Hubs **대표 글 20편 갱신** — AdSense **7/3** 재제출 예정 |
+| 상태 | 🟢 Essay 1·2·3 **라이브+GSC** · Topic Hubs 갱신 — AdSense **7/3** 재제출 예정 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | Joseph 라이브 스팟 체크 → **7/3 AdSense 재제출** |
+| 이번 주 최우선 액션 | **7/3 AdSense 재제출** |
 | 다음 체크포인트 | 7/3 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
-| 블로커 | 없음 — Topic Hubs 배포 완료 (`main` `75a1930`) |
+| 블로커 | 없음 — Essay 3 노출·색인 요청 완료 (`main` `9c5984a`) |
 
 ---
 
@@ -57,7 +57,7 @@
 | 신청 횟수 | 5차 (조치 필요 통보 수신) |
 | 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) |
 | 재제출 예정 | **7/3** (Privacy·ToS·ads.txt·Topic Hubs 반영 후) |
-| GSC 색인 큐 | ✅ Day 1–6 **49/49** 요청 완료 (Joseph, 6/24) — Coverage 1~2주 후 재확인 |
+| GSC 색인 큐 | ✅ Day 1–6 **49/49** + Essay 3 EN/KO/JA **3/3** (Joseph, 6/26) |
 | GSC 색인 추세 | ⚠️ 116개 기준 — 큐 반영 후 1~2주 뒤 재측정 |
 
 ---
@@ -86,12 +86,14 @@
 |----|------|-----------|------|--------|-----------------|-------------------------|
 | Essay 1 | `buying-property-japan-surprises-foreign-investor` | 6/19 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `49648c9` | `src/data/blog/{en,ja,ko}/buying-property-japan-surprises-foreign-investor.md` |
 | Essay 2 | `buying-property-japan-checklist-before-you-commit` | 6/24 ✅ | ✅ 라이브 + GSC (`main`) | `main` | `99520f4` | [KO](https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/) · `draft: false` |
-| Essay 3 | `why-i-chose-nihonbashi` | **6/25** | ✅ 라이브 (`main`) | `main` | `99520f4` (merge) | [KO](https://gsfark.com/ko/posts/why-i-chose-nihonbashi/) · `draft: false` |
+| Essay 3 | `why-i-chose-nihonbashi` | 6/25 ✅ | ✅ 라이브 + 홈·목록 + GSC (`main`) | `main` | `4ace7f7` | [KO](https://gsfark.com/ko/posts/why-i-chose-nihonbashi/) · `draft: false` |
 
 **다음 액션:**
 1. ~~Essay 2 배포~~ ✅ 6/24 AG (`99520f4`, pubDatetime hotfix `99b4e78`)
 2. ~~Essay 2 GSC~~ ✅ 6/24 Joseph (EN/KO/JA 3 URL)
-3. ~~Essay 3 (6/25):~~ ✅ 6/25 AG 배포 (`draft: false` + `validate:post` + `4ace7f7`)
+3. ~~Essay 3 배포~~ ✅ 6/25 AG (`4ace7f7`)
+4. ~~Essay 3 홈·목록 노출~~ ✅ 6/26 Joseph 확인 (`pubDatetime` 10:00 JST)
+5. ~~Essay 3 GSC~~ ✅ 6/26 Joseph (EN/KO/JA 3 URL)
 
 ---
 
@@ -112,7 +114,7 @@
 |------|------|------|------|
 | 1 | AdSense 계정 활성화 | 🔄 진행 중 | Plan A(GSFArk 재제출) + Plan B(tokyokorean.net) 병행 |
 | 2 | tokyokorean.net 런칭 | 🔄 AG 준비 중 | 7/10~15 목표 |
-| 3 | GSC 색인 큐·Coverage | ✅ 큐 49/49 완료 | 1~2주 후 Coverage 재확인 · Essay 2·3 6건은 7/4~9 |
+| 3 | GSC 색인 큐·Coverage | ✅ Essay 3 GSC 완료 (6/26) | Coverage 1~2주 후 재확인 |
 | 4 | SEO 최적화 | ⬜ 미착수 | 승인 후 착수 |
 | 5 | 발행 지속성 유지 | 🔄 진행 중 | 주 2회 화/목 |
 
@@ -151,6 +153,10 @@
 ---
 
 ## 📝 작업 로그
+### 2026-06-26
+- **Essay 3 홈·목록 노출** — Joseph 확인 (`why-i-chose-nihonbashi` EN/KO/JA)
+- **Essay 3 GSC 색인** — Joseph EN/KO/JA 3 URL 색인 생성 요청 완료
+
 ### 2026-06-25
 - **Topic Hubs 큐레이션** — `topicHubs.ts` 대표 글 12편 교체 · 커밋 `75a1930` · EN/KO/JA `/topics/` 라이브 검증
 - **AdSense 준비 (Cursor)** — Privacy Policy 날짜 6/25 갱신 (`fc1e83b`) · ads.txt GSC URL 검사 = 사이트 문제 아님 확인 · **재제출일 7/3 합의**

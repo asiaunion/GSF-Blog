@@ -67,8 +67,8 @@
 
 ## 6. 다음 액션 (Joseph)
 
-1. **6/26 10:00 JST** — 홈·포스트 목록에 Essay 3 노출 확인
-2. **GSC** — Essay 3 EN/KO/JA 3 URL 색인 요청 (큐 예정 7/4~9)
+1. ~~**6/26 10:00 JST** — 홈·포스트 목록에 Essay 3 노출 확인~~ ✅ 6/26
+2. ~~**GSC** — Essay 3 EN/KO/JA 3 URL 색인 요청~~ ✅ 6/26
 3. **7/3** — GSFArk AdSense 재제출
 4. **(선택)** onlydomains DMARC TXT 추가 → `node scripts/verify-domain-email-dns.mjs` 전체 통과
 

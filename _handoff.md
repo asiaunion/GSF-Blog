@@ -199,3 +199,8 @@
   - Vercel main push 자동 배포 · 라이브 20 URL 검증 완료
 - AdSense: GSC `ads.txt` URL 검사 실패 = 사이트 문제 아님 · 재제출일 **7/3** 합의
 - SSOT: `docs/GSF_ARK_SESSION_CLOSURE_20260625.md` · WEEKLY_STATUS HUB `75a1930`
+
+## [2026-06-26] Joseph 확인 — Essay 3 홈·목록·GSC
+- 작업: Essay 3 `why-i-chose-nihonbashi` 홈·`/posts/`·RSS 노출 확인 완료
+- GSC: EN/KO/JA 3 URL 색인 생성 요청 완료 (예정 큐 7/4~9보다 조기 완료)
+- 다음: **7/3** AdSense 재제출
