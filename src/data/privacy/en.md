@@ -6,7 +6,7 @@ title: "Privacy Policy"
 **Last Updated: April 17, 2026**
 **Effective Date: April 17, 2026**
 
-GSF Blog (`https://gsfark.com/`, hereinafter "this Site") is a personal publication that I — GSF (Joseph) — run from Nihonbashi, Tokyo. I care about the privacy of the people who stop by, and I publish this Privacy Policy so that what I collect, how it is used, and what rights you have are all stated plainly. This document also serves as the formal record required by applicable laws and by the Google AdSense program policies.
+GSF Blog (`https://gsfark.com/`, hereinafter "this Site") is a personal publication that I — Joseph KIM (GSF Blog / GSF) — run from Nihonbashi, Tokyo. I care about the privacy of the people who stop by, and I publish this Privacy Policy so that what I collect, how it is used, and what rights you have are all stated plainly. This document also serves as the formal record required by applicable laws and by the Google AdSense program policies.
 
 The operator of this Site is:
 

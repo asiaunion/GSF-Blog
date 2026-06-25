@@ -10,7 +10,7 @@ GSF Blog(`https://gsfark.com/`、以下「本サイト」といいます)は、�
 
 本サイトの運営者は以下のとおりです。
 
-- **運営者**: Joseph KIM（GSF Blog）
+- **運営者**: Joseph KIM（GSF Blog / GSF）
 - **メール**: contact@gsfark.com
 
 ---

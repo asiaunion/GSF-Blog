@@ -10,7 +10,7 @@ GSF Blog(`https://gsfark.com/`, 이하 "본 사이트")는 방문자의 개인�
 
 본 사이트의 운영자는 다음과 같습니다.
 
-- **운영자**: Joseph KIM (김승주) / GSF Blog
+- **운영자**: Joseph KIM (GSF Blog / GSF)
 - **이메일**: contact@gsfark.com
 
 ---

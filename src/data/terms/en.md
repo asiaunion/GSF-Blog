@@ -33,7 +33,7 @@ Nothing on this Site constitutes investment, legal, tax, accounting, or other pr
 
 ## 3. Intellectual Property
 
-Unless otherwise stated, the text, original analysis, editorial structure, and branding on this Site are owned by **Joseph KIM**, operator of GSF Blog.
+Unless otherwise stated, the text, original analysis, editorial structure, and branding on this Site are owned by **Joseph KIM**, operator of GSF Blog / GSF.
 
 - You may quote brief excerpts with proper attribution and a link to the original page.
 - You may not republish full articles, scrape the Site for resale, or reproduce materials in a misleading context without prior written permission.
@@ -82,7 +82,7 @@ You agree not to:
 
 ## 8. Limitation of Liability
 
-To the fullest extent permitted by applicable law, **Joseph KIM**, operator of GSF Blog, shall not be liable for any direct, indirect, incidental, consequential, or special loss arising out of or related to:
+To the fullest extent permitted by applicable law, **Joseph KIM**, operator of GSF Blog / GSF, shall not be liable for any direct, indirect, incidental, consequential, or special loss arising out of or related to:
 
 - reliance on Site content;
 - delays, errors, omissions, or interruptions;
