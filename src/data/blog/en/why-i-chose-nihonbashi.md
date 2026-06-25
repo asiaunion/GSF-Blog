@@ -4,7 +4,7 @@ pubDatetime: 2026-06-26T10:00:00+09:00
 description: "A personal account of why a Korean investor, after years of watching Tokyo's market, chose one specific neighborhood — and what that choice meant beyond the numbers."
 author: Joseph KIM
 lang: en
-draft: true
+draft: false
 ogImage: "https://gsfark.com/assets/images/blog/why-i-chose-nihonbashi-hero-og.jpg"
 category: essay
 tags:

@@ -146,3 +146,9 @@
 - 작업: GSC Day 2 큐 (author/contact/mission/methodology + Essay 1 EN 등)
 - SSOT: `GSC_INDEXING_REQUEST_QUEUE_20260621.md` Day 2 ✅ · WEEKLY Essay 1 + GSC
 - 다음 GSC: Day 3–6 일반 포스트 큐 (AdSense 7/10 전 여유)
+
+## [2026-06-24] Joseph 확인 — GSC 색인 생성 요청 큐 전체 완료
+- 작업: Day 1–6 큐 **49/49** URL 검사 → 색인 생성 요청 완료
+- SSOT: `docs/GSC_INDEXING_REQUEST_QUEUE_20260621.md` — **큐 종료**
+- 잔여: Essay 2·3 EN/KO/JA 6건은 7/4~9 별도 큐 (Essay 3 라이브 6/26 후)
+- 다음: GSC Coverage 1~2주 후 재확인 → 7/초 AdSense 재제출 준비

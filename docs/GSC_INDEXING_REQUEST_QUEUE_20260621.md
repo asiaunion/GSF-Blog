@@ -14,8 +14,12 @@
 | Day | 상태 | 건수 | 비고 |
 |-----|------|------|------|
 | Day 1 | ✅ 완료 | 10/10 | 크롤됨–미색인 EN |
-| **Day 2** | ✅ 완료 | 10/10 | **AdSense E-E-A-T 1순위** (Joseph, 6/24) |
-| Day 3–6 | ⏳ **다음** | — | 크롤됨–미색인·허브·시리즈 |
+| Day 2 | ✅ 완료 | 10/10 | **AdSense E-E-A-T 1순위** (Joseph, 6/24) |
+| Day 3 | ✅ 완료 | 10/10 | 크롤됨–미색인 EN·JA (Joseph, 6/24) |
+| Day 4 | ✅ 완료 | 10/10 | 허브·리소스 (Joseph, 6/24) |
+| Day 5 | ✅ 완료 | 10/10 | 시리즈·핵심 KO/JA (Joseph, 6/24) |
+| Day 6 | ✅ 완료 | 9/9 | 잔여 (Joseph, 6/24) |
+| **합계** | ✅ **큐 종료** | **49/49** | Essay 2·3 6건은 7/4~9 별도 큐 |
 
 ---
 
@@ -60,7 +64,7 @@
 - https://gsfark.com/ko/about/
 - https://gsfark.com/ja/about/
 
-## Day 3 — GSC 「크롤링됨–미색인」 EN·JA (10)
+## Day 3 — GSC 「크롤링됨–미색인」 EN·JA (10) ✅
 
 *(구 Day 2 — AdSense 우선순위로 하루 밀림)*
 
@@ -77,7 +81,7 @@
 19. https://gsfark.com/ja/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios/
 20. https://gsfark.com/ja/posts/tokyo-office-vacancy-five-wards-2026/
 
-## Day 4 — GSC 잔여 + 허브·리소스 (10)
+## Day 4 — GSC 잔여 + 허브·리소스 (10) ✅
 
 21. https://gsfark.com/ko/posts/tokyo-6-wards-real-estate-insight/
 22. https://gsfark.com/ko/topics/
@@ -90,7 +94,7 @@
 29. https://gsfark.com/ja/posts/tokyo-ward-guide-series-prologue/
 30. https://gsfark.com/posts/tokyo-real-estate-investment-complete-guide/
 
-## Day 5 — 시리즈·핵심 KO/JA (10)
+## Day 5 — 시리즈·핵심 KO/JA (10) ✅
 
 31. https://gsfark.com/ko/posts/tokyo-real-estate-investment-complete-guide/
 32. https://gsfark.com/ja/posts/tokyo-real-estate-investment-complete-guide/
@@ -103,7 +107,7 @@
 39. https://gsfark.com/posts/tokyo-shinjuku-shibuya-bunkyo/
 40. https://gsfark.com/ko/posts/tokyo-shinjuku-shibuya-bunkyo/
 
-## Day 6 — 잔여 (9)
+## Day 6 — 잔여 (9) ✅
 
 41. https://gsfark.com/ja/posts/tokyo-shinjuku-shibuya-bunkyo/
 42. https://gsfark.com/posts/macro-barrier-and-super-scarce-real-estate-selection/

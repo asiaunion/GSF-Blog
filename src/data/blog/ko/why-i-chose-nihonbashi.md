@@ -4,7 +4,7 @@ description: "수년간 도쿄 시장을 지켜본 한 한국인 투자자가 �
 pubDatetime: 2026-06-26T10:00:00+09:00
 author: Joseph KIM
 lang: ko
-draft: true
+draft: false
 category: essay
 ogImage: "https://gsfark.com/assets/images/blog/why-i-chose-nihonbashi-hero-og.jpg"
 tags:

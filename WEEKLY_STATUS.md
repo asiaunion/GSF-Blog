@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-24 (Ep08 라이브 확인) |
+| 최종 업데이트 | 2026-06-24 (GSC 색인 큐 49/49 완료) |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 E-E-A-T Essay 1·2 **라이브** · Ep08 **라이브** — Essay 3 draft 대기 — AdSense 재제출 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -57,7 +57,8 @@
 | 신청 횟수 | 5차 (조치 필요 통보 수신) |
 | 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) |
 | 재제출 예정 | 7월 초 (E-E-A-T 페이지 + Essay 1 배포 후) |
-| GSC 색인 추세 | ⚠️ 130개대 → 120개대 → 116개 하락 추세 모니터링 필요 |
+| GSC 색인 큐 | ✅ Day 1–6 **49/49** 요청 완료 (Joseph, 6/24) — Coverage 1~2주 후 재확인 |
+| GSC 색인 추세 | ⚠️ 116개 기준 — 큐 반영 후 1~2주 뒤 재측정 |
 
 ---
 
@@ -111,7 +112,7 @@
 |------|------|------|------|
 | 1 | AdSense 계정 활성화 | 🔄 진행 중 | Plan A(GSFArk 재제출) + Plan B(tokyokorean.net) 병행 |
 | 2 | tokyokorean.net 런칭 | 🔄 AG 준비 중 | 7/10~15 목표 |
-| 3 | GSC 색인 하락 모니터링 | 🔄 관찰 중 | 116개 → 2주 후 재확인 |
+| 3 | GSC 색인 큐·Coverage | ✅ 큐 49/49 완료 | 1~2주 후 Coverage 재확인 · Essay 2·3 6건은 7/4~9 |
 | 4 | SEO 최적화 | ⬜ 미착수 | 승인 후 착수 |
 | 5 | 발행 지속성 유지 | 🔄 진행 중 | 주 2회 화/목 |
 
@@ -151,6 +152,7 @@
 
 ## 📝 작업 로그
 ### 2026-06-24
+- **GSC 색인 생성 요청 큐 종료** — Day 1–6 **49/49** 완료 (Joseph)
 - **Ep08 라이브** — `tokyo-adachi-katsushika-edogawa` KO/EN/JA 배포 완료 (Joseph 확인)
 - **Ep08 SNS 완료** — X EN/Threads EN·KO/LinkedIn EN·KO 전 플랫폼 게시 완료
 - **E-E-A-T + Essay 1 GSC 색인** — Joseph Day 2 큐 완료 (author/contact/mission/methodology + Essay 1)
