@@ -219,3 +219,34 @@ contact@gsfark.com  →  (개인 Gmail 주소)
 - Footer AdSense 고지
 - 포스트 `modDatetime` 136건
 - GSC 색인 요청 — 사용자 완료
+
+---
+
+## 12. 완료 기록 (2026-06-25) — Zoho Mail JP
+
+| 항목 | 상태 |
+|------|------|
+| Provider | **Zoho Mail JP** (`mail.zoho.jp`, `mx.zoho.jp`) |
+| Mailbox | `contact@gsfark.com` |
+| Display name | Joseph KIM |
+| MX / SPF / DKIM | ✅ DNS 확인됨 |
+| Inbound / Outbound test | ✅ 사용자 완료 |
+| **DMARC** | ⏳ onlydomains에 TXT 추가 필요 → [`EMAIL_DNS_DMARC_ONLYDOMAINS.md`](./EMAIL_DNS_DMARC_ONLYDOMAINS.md) |
+
+검증: `node scripts/verify-domain-email-dns.mjs`
+
+---
+
+## 13. AG 복사용 — DMARC만 남은 경우
+
+```markdown
+# [GSF-Ark] DMARC TXT 추가 (onlydomains)
+
+Zoho 수·발신 완료. DMARC만 추가:
+- Host: _dmarc
+- Type: TXT
+- Value: v=DMARC1; p=none; rua=mailto:contact@gsfark.com; fo=1
+
+가이드: docs/EMAIL_DNS_DMARC_ONLYDOMAINS.md
+검증: node scripts/verify-domain-email-dns.mjs
+```

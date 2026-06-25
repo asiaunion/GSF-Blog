@@ -159,3 +159,31 @@
 - 배포 URL: https://gsfark.com/ko/posts/why-i-chose-nihonbashi/
 - Claude 부재 여부: 아니오
 - 특이사항: validate:post 점수 100점 통과 완료
+
+## [2026-06-25 10:10] Cursor 검증·세션 마감
+- 작업 내용: Essay 3 라이브 E2E 검증 (AG 배포 후 Cursor 확인)
+- 커밋 해시: `bbd58dd` (main HEAD)
+- 배포 URL:
+  - EN https://gsfark.com/posts/why-i-chose-nihonbashi/
+  - KO https://gsfark.com/ko/posts/why-i-chose-nihonbashi/
+  - JA https://gsfark.com/ja/posts/why-i-chose-nihonbashi/
+- validate:post: ok=true, score=100, hardGatePassed=true
+- verify:og-social: ok=true, issues=[]
+- Vercel: Production Ready (10:05 JST, `gsfark.com` alias)
+- Claude 부재 여부: 예
+- 특이사항:
+  - sitemap 3 locale URL 포함 · hero-og.jpg·hero.webp 200
+  - `pubDatetime` 2026-06-26T10:00+09:00 — 홈·목록·RSS는 6/26 10:00 JST 이후 노출 (직접 URL 200은 정상)
+  - SSOT: `docs/GSF_ARK_SESSION_CLOSURE_20260625.md` · WEEKLY_STATUS HUB 갱신
+- 다음: 6/26 10:00 JST 홈 노출 확인 → Essay 3 GSC 색인 (7/4~9 큐) → 7/초 AdSense 재제출
+
+## [2026-06-25 23:40] Zoho Mail JP + AdSense 준비 (사용자·Cursor)
+
+- 작업 내용: AdSense 준비 (ToS, Privacy, Footer AdSense, contact@, modDatetime, Joseph KIM 운영자 명시) + Zoho Mail JP 설정
+- 메일: `contact@gsfark.com` — Zoho Mail JP, 표시 이름 Joseph KIM, 수·발신 테스트 완료
+- DNS 확인: MX `mx.zoho.jp` / SPF `include:zohomail.jp` / DKIM `zoho._domainkey` ✅
+- **남음:** DMARC TXT `_dmarc` → onlydomains (가이드: `docs/EMAIL_DNS_DMARC_ONLYDOMAINS.md`)
+- 검증 스크립트: `node scripts/verify-domain-email-dns.mjs`
+- 사이트: Terms/Privacy/Contact 배포 완료 (`main` 63abded+)
+- GSC: 색인 생성 요청 사용자 완료
+- 다음: onlydomains DMARC 1건 추가 → verify 스크립트 전체 통과 → **AdSense 신청**
