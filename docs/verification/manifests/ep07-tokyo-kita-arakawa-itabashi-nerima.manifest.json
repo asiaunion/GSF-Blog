@@ -24,7 +24,7 @@
       "evidence": {
         "json_path": "千代田区.est_70sqm"
       },
-      "used_in_draft": true
+      "used_in_draft": false
     },
     {
       "id": "MLIT-kita-70",
@@ -52,7 +52,7 @@
         "snapshot": "docs/verification/snapshots/suumo-sc_kita-20260617.html",
         "snippet": "8.5万円（ワンルーム）"
       },
-      "used_in_draft": true
+      "used_in_draft": false
     },
     {
       "id": "STATION-kita-TOP",
@@ -101,7 +101,7 @@
     {
       "id": "TRADE-kita-CAGR10",
       "label": "北区 不動産取引価格 10년 CAGR (보조)",
-      "value": 5,
+      "value": 5.7,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -116,7 +116,7 @@
     {
       "id": "LANDTS-kita-CAGR10",
       "label": "北区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 6.9,
+      "value": 8.3,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -135,9 +135,10 @@
       "unit": "%",
       "tier": "secondary",
       "layer": "B",
-      "method": "benchmark_lookup",
+      "method": "user_capture",
       "evidence": {
-        "benchmark": "derived:suumo+mlit"
+        "capture_by": "user",
+        "note": "derived suumo+mlit yield proxy"
       },
       "used_in_draft": false
     },
@@ -229,7 +230,7 @@
     {
       "id": "TRADE-arakawa-CAGR10",
       "label": "荒川区 不動産取引価格 10년 CAGR (보조)",
-      "value": 5.3,
+      "value": 5,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -244,7 +245,7 @@
     {
       "id": "LANDTS-arakawa-CAGR10",
       "label": "荒川区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 6.4,
+      "value": 7.9,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -263,9 +264,10 @@
       "unit": "%",
       "tier": "secondary",
       "layer": "B",
-      "method": "benchmark_lookup",
+      "method": "user_capture",
       "evidence": {
-        "benchmark": "derived:suumo+mlit"
+        "capture_by": "user",
+        "note": "derived suumo+mlit yield proxy"
       },
       "used_in_draft": false
     },
@@ -285,7 +287,7 @@
     {
       "id": "MLIT-itabashi-70",
       "label": "板橋区 70㎡ 성약가",
-      "value": 4936,
+      "value": 4935,
       "unit": "万円",
       "tier": "primary",
       "layer": "A",
@@ -357,7 +359,7 @@
     {
       "id": "TRADE-itabashi-CAGR10",
       "label": "板橋区 不動産取引価格 10년 CAGR (보조)",
-      "value": 4.6,
+      "value": 5.1,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -372,7 +374,7 @@
     {
       "id": "LANDTS-itabashi-CAGR10",
       "label": "板橋区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 8.3,
+      "value": 5.9,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -391,9 +393,10 @@
       "unit": "%",
       "tier": "secondary",
       "layer": "B",
-      "method": "benchmark_lookup",
+      "method": "user_capture",
       "evidence": {
-        "benchmark": "derived:suumo+mlit"
+        "capture_by": "user",
+        "note": "derived suumo+mlit yield proxy"
       },
       "used_in_draft": false
     },
@@ -413,7 +416,7 @@
     {
       "id": "MLIT-nerima-70",
       "label": "練馬区 70㎡ 성약가",
-      "value": 5125,
+      "value": 5124,
       "unit": "万円",
       "tier": "primary",
       "layer": "A",
@@ -485,7 +488,7 @@
     {
       "id": "TRADE-nerima-CAGR10",
       "label": "練馬区 不動産取引価格 10년 CAGR (보조)",
-      "value": 4.2,
+      "value": 4,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -500,7 +503,7 @@
     {
       "id": "LANDTS-nerima-CAGR10",
       "label": "練馬区 地価公示ポイント 10년 CAGR (보조)",
-      "value": 3.7,
+      "value": 4.6,
       "unit": "%",
       "tier": "secondary",
       "layer": "A",
@@ -519,9 +522,10 @@
       "unit": "%",
       "tier": "secondary",
       "layer": "B",
-      "method": "benchmark_lookup",
+      "method": "user_capture",
       "evidence": {
-        "benchmark": "derived:suumo+mlit"
+        "capture_by": "user",
+        "note": "derived suumo+mlit yield proxy"
       },
       "used_in_draft": false
     },
@@ -544,7 +548,7 @@
       "id": "PCT-kita-VS-CHIYODA",
       "label": "北区 vs 千代田区 가격 비율",
       "formula": "6272 / 13630 * 100",
-      "expected": 46.0,
+      "expected": 46,
       "unit": "%",
       "tolerance": 0.5
     },

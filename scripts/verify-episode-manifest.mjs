@@ -232,7 +232,7 @@ function checkGates(manifest, requireGates) {
 
 function extractDraftNumbers(md) {
   const body = md.replace(/^---[\s\S]*?---\n/, "");
-  const matches = body.match(/\*\*[\d,]+(?:\.\d+)?[^*]*\*\*/g) ?? [];
+  const matches = body.match(/\*\*[+-]?[\d,]+(?:\.\d+)?[^*]*\*\*/g) ?? [];
   return matches.map(s => s.replace(/\*\*/g, "").trim());
 }
 
