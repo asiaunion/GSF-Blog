@@ -2521,5 +2521,291 @@
         "max": 132
       }
     ]
+  },
+  "武蔵野市": {
+    "ward_avg": 94.8,
+    "total_count": 255,
+    "est_70sqm": 6636,
+    "stations": [
+      {
+        "station": "中町",
+        "avg": 112.5,
+        "count": 58,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "吉祥寺本町",
+        "avg": 101.1,
+        "count": 44,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "境南町",
+        "avg": 78,
+        "count": 34,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西久保",
+        "avg": 76.3,
+        "count": 21,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "吉祥寺北町",
+        "avg": 75.3,
+        "count": 20,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "御殿山",
+        "avg": 129.7,
+        "count": 16,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "桜堤",
+        "avg": 81.3,
+        "count": 15,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "境",
+        "avg": 89.7,
+        "count": 14,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "吉祥寺南町",
+        "avg": 99.4,
+        "count": 13,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "緑町",
+        "avg": 78.4,
+        "count": 7,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "吉祥寺東町",
+        "avg": 86.3,
+        "count": 7,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "関前",
+        "avg": 69.9,
+        "count": 5,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "八幡町",
+        "avg": 85.3,
+        "count": 1,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-06-26"
+  },
+  "三鷹市": {
+    "ward_avg": 82.9,
+    "total_count": 223,
+    "est_70sqm": 5803,
+    "stations": [
+      {
+        "station": "下連雀",
+        "avg": 86.3,
+        "count": 144,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "牟礼",
+        "avg": 85,
+        "count": 28,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "上連雀",
+        "avg": 88.5,
+        "count": 19,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "新川",
+        "avg": 57.8,
+        "count": 15,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "井口",
+        "avg": 70.5,
+        "count": 11,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "井の頭",
+        "avg": 66.8,
+        "count": 3,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "野崎",
+        "avg": 44.6,
+        "count": 1,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "深大寺",
+        "avg": 47.1,
+        "count": 1,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "北野",
+        "avg": 61.4,
+        "count": 1,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-06-26"
+  },
+  "調布市": {
+    "ward_avg": 64.8,
+    "total_count": 418,
+    "est_70sqm": 4536,
+    "stations": [
+      {
+        "station": "染地",
+        "avg": 43.6,
+        "count": 71,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "布田",
+        "avg": 77.2,
+        "count": 56,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "国領町",
+        "avg": 69.5,
+        "count": 55,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "多摩川",
+        "avg": 49.2,
+        "count": 42,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "柴崎",
+        "avg": 48,
+        "count": 28,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "調布ケ丘",
+        "avg": 88.9,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "小島町",
+        "avg": 88.6,
+        "count": 25,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "西つつじケ丘",
+        "avg": 70.7,
+        "count": 16,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "下石原",
+        "avg": 59.3,
+        "count": 16,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "仙川町",
+        "avg": 91.1,
+        "count": 15,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "入間町",
+        "avg": 61.1,
+        "count": 13,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "富士見町",
+        "avg": 60.4,
+        "count": 12,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "上石原",
+        "avg": 49.8,
+        "count": 10,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "菊野台",
+        "avg": 74.6,
+        "count": 7,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "緑ケ丘",
+        "avg": 95.7,
+        "count": 5,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-06-26"
   }
 }

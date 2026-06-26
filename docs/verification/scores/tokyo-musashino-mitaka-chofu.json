@@ -1,0 +1,192 @@
+{
+  "ok": true,
+  "slug": "tokyo-musashino-mitaka-chofu",
+  "episode": "Ep.09",
+  "manifest": "/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/docs/verification/manifests/ep09-tokyo-musashino-mitaka-chofu.manifest.json",
+  "failed": 0,
+  "passed": 24,
+  "total": 24,
+  "hallucination_score": {
+    "failed_primary_claims": 0,
+    "total_primary_claims": 12,
+    "score": 0,
+    "ok": true
+  },
+  "results": [
+    {
+      "type": "claim",
+      "id": "MLIT-ward-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-ward-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-ward-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-ward-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-ward-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-ward-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-ward-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-ward-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-ward-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-ward-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-ward-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-ward-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-ward-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-ward-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-ward-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-ward-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-ward-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-ward-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-ward-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-ward-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-ward-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-ward-VS-CHUO",
+      "ok": true,
+      "computed": 52.346769740474876,
+      "expected": 52.3,
+      "formula": "6636 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-ward-VS-CHUO",
+      "ok": true,
+      "computed": 45.775814467145224,
+      "expected": 45.8,
+      "formula": "5803 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-ward-VS-CHUO",
+      "ok": true,
+      "computed": 35.78133627829928,
+      "expected": 35.8,
+      "formula": "4536 / 12677 * 100"
+    }
+  ],
+  "written_at": "2026-06-26T03:58:24.403Z"
+}

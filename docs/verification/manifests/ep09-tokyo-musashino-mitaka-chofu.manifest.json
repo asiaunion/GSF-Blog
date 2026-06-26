@@ -1,0 +1,347 @@
+{
+  "episode": "Ep.09",
+  "slug": "tokyo-musashino-mitaka-chofu",
+  "created_at": "2026-06-26",
+  "updated_at": "2026-06-26",
+  "gates": {
+    "c_tier_capture_requested": false,
+    "manifest_approved_by": "Joseph",
+    "manifest_approved_at": "2026-06-26",
+    "draft_started": true,
+    "cursor_audit_passed": true,
+    "cursor_audit_at": "2026-06-26",
+    "joseph_final_approved": false
+  },
+  "claims": [
+    {
+      "id": "MLIT-ward-70",
+      "label": "武蔵野市 70㎡ 성약가",
+      "value": 6636,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "武蔵野市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-ward-TOP",
+      "label": "武蔵野市 최다 승하차 역 (吉祥寺)",
+      "value": 376317,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.武蔵野市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-ward-2040",
+      "label": "武蔵野市 인구 2020→2040 변화율",
+      "value": 4.5,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.武蔵野市.change_pct",
+        "mesh_count": 230,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-ward-CAGR",
+      "label": "武蔵野市 맨션 成約 ㎡단가 CAGR",
+      "value": 6.2,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.武蔵野市.cagr_full",
+        "count": 255,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-ward-CAGR10",
+      "label": "武蔵野市 不動産取引価格 10년 CAGR (보조)",
+      "value": 3.2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.武蔵野市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-ward-CAGR10",
+      "label": "武蔵野市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 2.8,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.武蔵野市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-ward-SUM",
+      "label": "武蔵野市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.武蔵野市"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-ward-70",
+      "label": "三鷹市 70㎡ 성약가",
+      "value": 5803,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "三鷹市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-ward-TOP",
+      "label": "三鷹市 최다 승하차 역 (三鷹)",
+      "value": 167532,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.三鷹市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-ward-2040",
+      "label": "三鷹市 인구 2020→2040 변화율",
+      "value": 5.3,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.三鷹市.change_pct",
+        "mesh_count": 287,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-ward-CAGR",
+      "label": "三鷹市 맨션 成約 ㎡단가 CAGR",
+      "value": 5.9,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.三鷹市.cagr_full",
+        "count": 223,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-ward-CAGR10",
+      "label": "三鷹市 不動産取引価格 10년 CAGR (보조)",
+      "value": 6.2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.三鷹市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-ward-CAGR10",
+      "label": "三鷹市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 4.3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.三鷹市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-ward-SUM",
+      "label": "三鷹市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.三鷹市"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-ward-70",
+      "label": "調布市 70㎡ 성약가",
+      "value": 4536,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "調布市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-ward-TOP",
+      "label": "調布市 최다 승하차 역 (調布)",
+      "value": 115507,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.調布市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-ward-2040",
+      "label": "調布市 인구 2020→2040 변화율",
+      "value": 4.5,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.調布市.change_pct",
+        "mesh_count": 460,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-ward-CAGR",
+      "label": "調布市 맨션 成約 ㎡단가 CAGR",
+      "value": 3.6,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.調布市.cagr_full",
+        "count": 418,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-ward-CAGR10",
+      "label": "調布市 不動産取引価格 10년 CAGR (보조)",
+      "value": 8.3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.調布市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-ward-CAGR10",
+      "label": "調布市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 4.6,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.調布市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-ward-SUM",
+      "label": "調布市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.調布市"
+      },
+      "used_in_draft": false
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-ward-VS-CHUO",
+      "label": "武蔵野市 vs 中央区 가격 비율",
+      "formula": "6636 / 12677 * 100",
+      "expected": 52.3,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-ward-VS-CHUO",
+      "label": "三鷹市 vs 中央区 가격 비율",
+      "formula": "5803 / 12677 * 100",
+      "expected": 45.8,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-ward-VS-CHUO",
+      "label": "調布市 vs 中央区 가격 비율",
+      "formula": "4536 / 12677 * 100",
+      "expected": 35.8,
+      "unit": "%",
+      "tolerance": 0.5
+    }
+  ],
+  "c_tier_capture_requests": []
+}
