@@ -31,6 +31,7 @@ description: GSFArk.com 블로그 포스트 작성·배포 파이프라인 (Wher
 
 ```
 Blog_Source_Verification_Rule: 로드 (GSF-OS/Wiki)
+Joseph_Operating_Layer + GSF_Ark_Data_First_Author_Layer: 로드 (JOL-1 · KO 초안 전)
 Tokyo-Wards-Source-Registry: ✅ 레지스트리 로드됨 [TWR-v1.5]
 tokyo-ward-series-benchmarks.json: 로드
 ```
@@ -106,9 +107,23 @@ manifest: docs/verification/manifests/ep08-tokyo-itabashi-nerima.manifest.json
 
 ---
 
-## Step 1–2 — Topic & Q&A
+## Step 1–2 — Topic & Joseph Hypothesis Layer
 
-기존과 동일 (독자·톤·슬러그 확정).
+**Step 1**: 독자·톤·슬러그 확정.
+
+**Step 2 (Data-first)**: 경험 수집 ❌ → **질문·가설·Trigger·Final Insight** 수집 ✅  
+핵심 질문: *"이 데이터가 나에게 어떤 질문을 던지는가?"*
+
+| SSOT | 경로 |
+|------|------|
+| 철학 | `GSF-OS/Wiki/GSF_Ark_Data_First_Author_Layer.md` |
+| JOL | `GSF-OS/Wiki/Joseph_Operating_Layer.md` |
+| Decision Log 템플릿 | `docs/templates/blog-decision-log.md` |
+| 스테이징 | `.blog-agent-stage/<slug>/decision-log.md` |
+
+**Q1~Q8 (요약)**: Audience · Core message · Field verification(선택) · Initial assumption · Trigger · Personal rule · Common mistake · Final insight
+
+**Tokyo MLIT**: manifest Joseph 승인 **후** Decision Log **Trigger·Hypothesis** 업데이트 → KO 초안(Step 4) 직전 완료.
 
 **슬러그 SSOT**: `docs/verification/tokyo-series-episodes.json`
 
@@ -185,9 +200,13 @@ pnpm research:pack -- --episode ep07 --write
 
 ## Step 4 — KO draft
 
+> AG 지시: Research 요약 ❌ → Joseph의 **질문·가설·증거·결론**을 Evidence Hierarchy(L1→L2→L3→…) 순서로 **편집** ✅
+
+- `Joseph_Operating_Layer.md` + `.blog-agent-stage/<slug>/decision-log.md` (Final Insight = 뼈대)
 - manifest `claims`에 있는 수치만 사용
 - `tier: secondary` → 본문에 `[2차 출처]` 표기
 - `gates.draft_started: true` 설정
+- **Step 4-A**: Joseph Authenticity Check — L1→L3 추론 체인·Final Insight echo (Voice Rewrite 후, 승인 전)
 
 ---
 

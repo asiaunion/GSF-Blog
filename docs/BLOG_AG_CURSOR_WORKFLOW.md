@@ -31,6 +31,26 @@ src/data/blog/ja/<slug>.md
 
 ---
 
+## Author Layer — Data-first (Joseph Hypothesis Layer)
+
+Joseph는 **Data-first Analyst**다. AG는 Research 요약이 아니라 **가설·증거·결론 편집**을 한다.
+
+| 단계 | 산출물 | SSOT |
+|------|--------|------|
+| Step 2 (AG) | Q1~Q8 + Decision Log | `.blog-agent-stage/<slug>/decision-log.md` |
+| MLIT 에피소드 | Research pack 후 Trigger·Hypothesis 업데이트 | 동일 Decision Log |
+| Step 4 (AG) | KO 초안 — Evidence Hierarchy L1→L3→… | `deploy-blog` Step 4 |
+| Step 4-A (Joseph) | Authenticity Check — 추론 체인·Final Insight | Decision Log 하단 |
+| Step 7-C (AG) | PKM Thinking 승격 | `$PKM_ROOT/PKM/Thinking/<slug>.md` |
+
+**철학·Evidence Hierarchy**: [`GSF-OS/Wiki/GSF_Ark_Data_First_Author_Layer.md`](../../GSF-OS/Wiki/GSF_Ark_Data_First_Author_Layer.md)  
+**JOL (분석 OS + 원칙)**: [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
+**스킬 절차**: `deploy-blog` v5.1 Step 2~4-A · 템플릿 [`docs/templates/blog-decision-log.md`](./templates/blog-decision-log.md)
+
+**MLIT gate 순서는 유지**: `analyze:episode` → manifest Joseph 승인 → Decision Log Trigger 업데이트 → KO 초안.
+
+---
+
 ## Responsibility split
 
 | Phase | Owner | Typical tools |
