@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0-tama",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-06-26",
   "description": "Region Expansion Wave 2 - Tokyo Tama priority 8 cities benchmarks.",
   "region": "tokyo_tama",
   "municipalities": [
@@ -94,6 +94,26 @@
         "summary": "liquefaction, flood, landslide",
         "episode": "",
         "fetched_at": "2026-06-18"
+      },
+      "国分寺市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-26"
+      },
+      "国立市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "",
+        "fetched_at": "2026-06-26"
       }
     }
   },
@@ -181,6 +201,28 @@
         "coverage_warning": false,
         "episode": "",
         "fetched_at": "2026-06-18"
+      },
+      "国分寺市": {
+        "has_history": true,
+        "total_events": 29,
+        "flood_events": 29,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
+        "episode": "",
+        "fetched_at": "2026-06-26"
+      },
+      "国立市": {
+        "has_history": false,
+        "total_events": 0,
+        "flood_events": 0,
+        "last_flood_year": null,
+        "coverage_status": "no_data",
+        "coverage_warning": true,
+        "coverage_note": "이 구역에 등록된 재해 이력 없음 (또는 미조사).",
+        "episode": "",
+        "fetched_at": "2026-06-26"
       }
     }
   },
@@ -821,6 +863,22 @@
         "station_count": 5,
         "episode": "",
         "fetched_at": "2026-06-18"
+      },
+      "国分寺市": {
+        "top_station": "国分寺",
+        "top_passengers": 306253,
+        "total_daily": 372157,
+        "station_count": 3,
+        "episode": "",
+        "fetched_at": "2026-06-26"
+      },
+      "国立市": {
+        "top_station": "国立",
+        "top_passengers": 94190,
+        "total_daily": 129088,
+        "station_count": 3,
+        "episode": "",
+        "fetched_at": "2026-06-26"
       }
     }
   },
@@ -970,6 +1028,26 @@
         "population_tile_preset": false,
         "episode": "",
         "fetched_at": "2026-06-18"
+      },
+      "国分寺市": {
+        "pop_2020": 167916,
+        "pop_2040": 170606,
+        "change_pct": "1.6%",
+        "mesh_count": 229,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-26"
+      },
+      "国立市": {
+        "pop_2020": 150305,
+        "pop_2040": 151219,
+        "change_pct": "0.6%",
+        "mesh_count": 221,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "",
+        "fetched_at": "2026-06-26"
       }
     }
   },
@@ -1492,6 +1570,47 @@
         "json_path": ".cache/mlit/appraisal-merged-nishitokyo-2025.json",
         "count": 76,
         "fetched_at": "2026-06-18"
+      }
+    }
+  },
+  "income_density_per_capita": {
+    "source": "docs/verification/cache/tama-income-r6-ep10.json",
+    "unit": "万円/人",
+    "label": "인구 1인당 실질 소득 밀도（市町村民税 課税標準額 ÷ 都人口推計）",
+    "fiscal_year": "R6",
+    "population_as_of": "2026-05",
+    "wards": {
+      "国立市": {
+        "rank": 1,
+        "value": 191.9,
+        "taxpayers": 38413,
+        "population": 77462,
+        "fetched_at": "2026-06-26",
+        "episode": "Ep.10"
+      },
+      "国分寺市": {
+        "rank": 2,
+        "value": 179.7,
+        "taxpayers": 66925,
+        "population": 133714,
+        "fetched_at": "2026-06-26",
+        "episode": "Ep.10"
+      },
+      "府中市": {
+        "rank": 3,
+        "value": 155.5,
+        "taxpayers": 131941,
+        "population": 265708,
+        "fetched_at": "2026-06-26",
+        "episode": "Ep.10"
+      },
+      "立川市": {
+        "rank": 4,
+        "value": 146.7,
+        "taxpayers": 92354,
+        "population": 187190,
+        "fetched_at": "2026-06-26",
+        "episode": "Ep.10"
       }
     }
   }

@@ -73,6 +73,7 @@
     "verify:ep07-tiles": "node scripts/verify-ep07-tiles.mjs",
     "verify:station-passengers": "node scripts/verify-station-passengers.mjs",
     "audit:station-passengers": "node scripts/audit-station-passengers.mjs",
+    "verify:decision-log": "npx --yes tsx scripts/verify-decision-log.mjs",
     "verify:og-social": "node scripts/verify-og-social.mjs",
     "validate:sns-draft": "node scripts/validate-sns-draft.mjs",
     "screen:wards": "node scripts/screen-wards.mjs"

@@ -1,6 +1,7 @@
 import { execFile } from "node:child_process";
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { runDecisionLogGates } from "./decisionLogGates.ts";
 import { runTrustValidation } from "./trustGates.ts";
 import { scoreSourcesList } from "./tiering.ts";
 
@@ -339,6 +340,16 @@ export async function runBlogValidation(
         ? (skipHero ? "skipped (SKIP_HERO_CHECK or heroWaived)" : `ok — ${ogJpgPath}`)
         : `MISSING: ${ogJpgPath}\n→ Fix: pnpm og:hero-jpeg -- ${options.slug}`,
     });
+  }
+  // ─────────────────────────────────────────────────────────────────────
+
+  // ─── Decision Log Hard Gates (Hypothesis Layer pilot) ────────────────
+  if (options?.slug) {
+    const decisionGates = await runDecisionLogGates(projectRoot, options.slug);
+    for (const gate of decisionGates) {
+      if (gate.name === "decision-log-pilot-skip") continue;
+      hardGates.push(gate);
+    }
   }
   // ─────────────────────────────────────────────────────────────────────
 

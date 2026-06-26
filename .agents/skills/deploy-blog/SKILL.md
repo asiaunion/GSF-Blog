@@ -109,21 +109,31 @@ manifest: docs/verification/manifests/ep08-tokyo-itabashi-nerima.manifest.json
 
 ## Step 1–2 — Topic & Joseph Hypothesis Layer
 
-**Step 1**: 독자·톤·슬러그 확정.
+**Step 1**: 독자·톤·슬러그 확정. (시리즈 Ep는 지역·slug 이미 확정 — **가설은 미확정**.)
 
-**Step 2 (Data-first)**: 경험 수집 ❌ → **질문·가설·Trigger·Final Insight** 수집 ✅  
-핵심 질문: *"이 데이터가 나에게 어떤 질문을 던지는가?"*
+**Step 0~2 (Data-first — [`docs/JOSEPH_AUTHOR_OPS.md`](../../docs/JOSEPH_AUTHOR_OPS.md))**:
+
+| Phase | 내용 | 담당 |
+|-------|------|------|
+| 0 Data Discovery | MLIT/research-pack → Decision Log **Data snapshot** | Cursor |
+| 1 Tiki-taka | 데이터 보며 Q/A → `## Tiki-taka log` | Joseph + Cursor |
+| 2 Hypothesis Lock | Trigger·Hypothesis·Final Insight 확정 | Joseph 승인 |
+
+핵심: **가설을 먼저 쓰지 않는다.** 데이터 → 질문·답 → 가설.
 
 | SSOT | 경로 |
 |------|------|
+| 실행 Ops | `docs/JOSEPH_AUTHOR_OPS.md` |
 | 철학 | `GSF-OS/Wiki/GSF_Ark_Data_First_Author_Layer.md` |
 | JOL | `GSF-OS/Wiki/Joseph_Operating_Layer.md` |
-| Decision Log 템플릿 | `docs/templates/blog-decision-log.md` |
+| Decision Log | `docs/templates/blog-decision-log.md` |
 | 스테이징 | `.blog-agent-stage/<slug>/decision-log.md` |
 
-**Q1~Q8 (요약)**: Audience · Core message · Field verification(선택) · Initial assumption · Trigger · Personal rule · Common mistake · Final insight
+**파일럿 Ep.10~15**: KO 초안 **Cursor** (AG KO 일시 중단). `pnpm verify:decision-log --slug <slug>` 필수.
 
-**Tokyo MLIT**: manifest Joseph 승인 **후** Decision Log **Trigger·Hypothesis** 업데이트 → KO 초안(Step 4) 직전 완료.
+**Q1~Q8**: Phase 2 완료 후 Q&A map과 동기화.
+
+**Tokyo MLIT**: `analyze:episode` → manifest Joseph 승인 → Data snapshot·Trigger 재확인 → KO(Step 4).
 
 **슬러그 SSOT**: `docs/verification/tokyo-series-episodes.json`
 
@@ -138,6 +148,7 @@ manifest: docs/verification/manifests/ep08-tokyo-itabashi-nerima.manifest.json
 | 07 | tokyo-kita-arakawa-itabashi-nerima | 北区·荒川·板橋·練馬 |
 | 08 | tokyo-adachi-katsushika-edogawa | 足立·葛飾·江戸川 |
 | 09 | tokyo-musashino-mitaka-chofu | 武蔵野·三鷹·調布 |
+| 10 | tokyo-kokubunji-kunitachi-fuchu-tachikawa | 国分寺·国立·府中·立川 |
 
 ---
 
@@ -198,15 +209,19 @@ pnpm research:pack -- --episode ep07 --write
 
 ---
 
-## Step 4 — KO draft
+## Step 4 — KO draft (vNext · Reasoning OS)
 
 > AG 지시: Research 요약 ❌ → Joseph의 **질문·가설·증거·결론**을 Evidence Hierarchy(L1→L2→L3→…) 순서로 **편집** ✅
 
+**형식 SSOT (Ep.10+)**: [`docs/KO_VNEXT_WRITING.md`](../../docs/KO_VNEXT_WRITING.md)  
+**사고 흐름**: [`docs/REASONING_OS.md`](../../docs/REASONING_OS.md)
+
 - `Joseph_Operating_Layer.md` + `.blog-agent-stage/<slug>/decision-log.md` (Final Insight = 뼈대)
+- vNext spine: **먼저 결론** → 왜 이 글 → 가설 vs 데이터 → 본문 → Joseph's View
 - manifest `claims`에 있는 수치만 사용
 - `tier: secondary` → 본문에 `[2차 출처]` 표기
 - `gates.draft_started: true` 설정
-- **Step 4-A**: Joseph Authenticity Check — L1→L3 추론 체인·Final Insight echo (Voice Rewrite 후, 승인 전)
+- **Step 4-A**: Joseph Authenticity · **narrative lock** — Final Insight echo · 허구 L4/L5 없음 (승인 후 spine 변경 없음)
 
 ---
 

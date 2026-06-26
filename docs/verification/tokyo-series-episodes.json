@@ -1,111 +1,126 @@
 {
   "schema_version": "1.0",
-  "description": "Where to Live in Tokyo \uc2dc\ub9ac\uc988 slug \u2194 \uad6c \u2194 SUUMO code \ub9e4\ud551 (scaffold-episode-manifest.mjs)",
+  "description": "Where to Live in Tokyo 시리즈 slug ↔ 구 ↔ SUUMO code 매핑 (scaffold-episode-manifest.mjs)",
   "suumo_ward_codes": {
-    "\u5343\u4ee3\u7530\u533a": "chiyoda",
-    "\u4e2d\u592e\u533a": "chuo",
-    "\u6e2f\u533a": "minato",
-    "\u65b0\u5bbf\u533a": "shinjuku",
-    "\u6e0b\u8c37\u533a": "shibuya",
-    "\u6587\u4eac\u533a": "bunkyo",
-    "\u76ee\u9ed2\u533a": "meguro",
-    "\u4e16\u7530\u8c37\u533a": "setagaya",
-    "\u54c1\u5ddd\u533a": "shinagawa",
-    "\u5927\u7530\u533a": "ota",
-    "\u8c4a\u5cf6\u533a": "toshima",
-    "\u4e2d\u91ce\u533a": "nakano",
-    "\u6749\u4e26\u533a": "suginami",
-    "\u53f0\u6771\u533a": "taito",
-    "\u58a8\u7530\u533a": "sumida",
-    "\u6c5f\u6771\u533a": "koto",
-    "\u5317\u533a": "kita",
-    "\u8352\u5ddd\u533a": "arakawa",
-    "\u8db3\u7acb\u533a": "adachi",
-    "\u677f\u6a4b\u533a": "itabashi",
-    "\u7df4\u99ac\u533a": "nerima",
-    "\u845b\u98fe\u533a": "katsushika",
-    "\u6c5f\u6238\u5ddd\u533a": "edogawa"
+    "千代田区": "chiyoda",
+    "中央区": "chuo",
+    "港区": "minato",
+    "新宿区": "shinjuku",
+    "渋谷区": "shibuya",
+    "文京区": "bunkyo",
+    "目黒区": "meguro",
+    "世田谷区": "setagaya",
+    "品川区": "shinagawa",
+    "大田区": "ota",
+    "豊島区": "toshima",
+    "中野区": "nakano",
+    "杉並区": "suginami",
+    "台東区": "taito",
+    "墨田区": "sumida",
+    "江東区": "koto",
+    "北区": "kita",
+    "荒川区": "arakawa",
+    "足立区": "adachi",
+    "板橋区": "itabashi",
+    "練馬区": "nerima",
+    "葛飾区": "katsushika",
+    "江戸川区": "edogawa",
+    "国分寺市": "kokubunji",
+    "国立市": "kunitachi",
+    "府中市": "fuchu",
+    "立川市": "tachikawa"
   },
   "episodes": [
     {
       "episode": "Ep.01",
       "slug": "tokyo-core-3-wards-chiyoda-chuo-minato",
       "wards": [
-        "\u5343\u4ee3\u7530\u533a",
-        "\u4e2d\u592e\u533a",
-        "\u6e2f\u533a"
+        "千代田区",
+        "中央区",
+        "港区"
       ]
     },
     {
       "episode": "Ep.02",
       "slug": "tokyo-shinjuku-shibuya-bunkyo",
       "wards": [
-        "\u65b0\u5bbf\u533a",
-        "\u6e0b\u8c37\u533a",
-        "\u6587\u4eac\u533a"
+        "新宿区",
+        "渋谷区",
+        "文京区"
       ]
     },
     {
       "episode": "Ep.03",
       "slug": "tokyo-meguro-setagaya",
       "wards": [
-        "\u76ee\u9ed2\u533a",
-        "\u4e16\u7530\u8c37\u533a"
+        "目黒区",
+        "世田谷区"
       ]
     },
     {
       "episode": "Ep.04",
       "slug": "tokyo-shinagawa-ota",
       "wards": [
-        "\u54c1\u5ddd\u533a",
-        "\u5927\u7530\u533a"
+        "品川区",
+        "大田区"
       ]
     },
     {
       "episode": "Ep.05",
       "slug": "tokyo-toshima-nakano-suginami",
       "wards": [
-        "\u8c4a\u5cf6\u533a",
-        "\u4e2d\u91ce\u533a",
-        "\u6749\u4e26\u533a"
+        "豊島区",
+        "中野区",
+        "杉並区"
       ]
     },
     {
       "episode": "Ep.06",
       "slug": "tokyo-taito-sumida-koto",
       "wards": [
-        "\u53f0\u6771\u533a",
-        "\u58a8\u7530\u533a",
-        "\u6c5f\u6771\u533a"
+        "台東区",
+        "墨田区",
+        "江東区"
       ]
     },
     {
       "episode": "Ep.07",
       "slug": "tokyo-kita-arakawa-itabashi-nerima",
       "wards": [
-        "\u5317\u533a",
-        "\u8352\u5ddd\u533a",
-        "\u677f\u6a4b\u533a",
-        "\u7df4\u99ac\u533a"
+        "北区",
+        "荒川区",
+        "板橋区",
+        "練馬区"
       ]
     },
     {
       "episode": "Ep.08",
       "slug": "tokyo-adachi-katsushika-edogawa",
       "wards": [
-        "\u8db3\u7acb\u533a",
-        "\u845b\u98fe\u533a",
-        "\u6c5f\u6238\u5ddd\u533a"
+        "足立区",
+        "葛飾区",
+        "江戸川区"
       ]
     },
     {
       "episode": "Ep.09",
       "slug": "tokyo-musashino-mitaka-chofu",
       "wards": [
-        "\u6b66\u8535\u91ce\u5e02",
-        "\u4e09\u9df9\u5e02",
-        "\u8abf\u5e03\u5e02"
+        "武蔵野市",
+        "三鷹市",
+        "貿布市"
       ]
+    },
+    {
+      "episode": "Ep.10",
+      "slug": "tokyo-kokubunji-kunitachi-fuchu-tachikawa",
+      "wards": [
+        "国分寺市",
+        "国立市",
+        "府中市",
+        "立川市"
+      ],
+      "theme_ko": "다마 교육·문화 벨트"
     }
   ]
 }

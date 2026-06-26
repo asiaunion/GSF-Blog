@@ -1,6 +1,23 @@
 # Joseph Blog Writing SOP v1
 
-## 1) Joseph 전용 작성 템플릿 (KO)
+> **⚠️ 워크플로 SSOT는 [`docs/JOSEPH_AUTHOR_OPS.md`](docs/JOSEPH_AUTHOR_OPS.md)입니다.**  
+> **Hypothesis Layer 파일럿 (Ep.10~) KO 형식 SSOT는 [`docs/KO_VNEXT_WRITING.md`](docs/KO_VNEXT_WRITING.md)입니다.**  
+> 본 문서는 **레거시 KO 템플릿**(Ep.01~09)·분량·톤·Bear Case·발행 체크리스트를 담습니다.  
+> Editorial Duo+ §4의 "경험적 해석·티키타카"는 **레거시** — Ep.10~는 Ops Phase 0~1 + [`REASONING_OS.md`](docs/REASONING_OS.md)를 따릅니다.
+
+## 1-A) KO vNext (Hypothesis Layer · Ep.10+)
+
+**전체 spine·체크리스트**: [`docs/KO_VNEXT_WRITING.md`](docs/KO_VNEXT_WRITING.md)  
+**참조 초안**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md`
+
+```text
+먼저 결론 → 왜 이 글을 쓰는가 (+ 출발 가설) → 가설 vs 데이터 표
+→ 본문 (L1→L2→L3) → 반대 가설 → 이런 분께 → Joseph's View → 데이터 기준 시점
+```
+
+Ep.10 이후 **섹션 순서 변경 금지**. 아래 §1은 Ep.01~09 등 레거시 편에만 적용.
+
+## 1) Joseph 전용 작성 템플릿 (KO · 레거시)
 
 ```md
 # [제목]

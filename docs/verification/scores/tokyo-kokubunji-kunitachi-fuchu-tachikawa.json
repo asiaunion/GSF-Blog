@@ -1,0 +1,288 @@
+{
+  "ok": false,
+  "slug": "tokyo-kokubunji-kunitachi-fuchu-tachikawa",
+  "episode": "Ep.10",
+  "manifest": "/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/docs/verification/manifests/ep10-tokyo-kokubunji-kunitachi-fuchu-tachikawa.manifest.json",
+  "failed": 11,
+  "passed": 28,
+  "total": 39,
+  "hallucination_score": {
+    "failed_primary_claims": 0,
+    "total_primary_claims": 20,
+    "score": 0,
+    "ok": true
+  },
+  "results": [
+    {
+      "type": "claim",
+      "id": "MLIT-kokubunji-70",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-kokubunji-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "INCOME-kokubunji-DENSITY",
+      "tier": "primary",
+      "method": "pkm_verified_card",
+      "ok": true,
+      "reason": "PKM card reference — manual A-layer"
+    },
+    {
+      "type": "claim",
+      "id": "STATION-kokubunji-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-kokubunji-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-kokubunji-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-kunitachi-70",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-kunitachi-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "INCOME-kunitachi-DENSITY",
+      "tier": "primary",
+      "method": "pkm_verified_card",
+      "ok": true,
+      "reason": "PKM card reference — manual A-layer"
+    },
+    {
+      "type": "claim",
+      "id": "STATION-kunitachi-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-kunitachi-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-kunitachi-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-fuchu-70",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-fuchu-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "INCOME-fuchu-DENSITY",
+      "tier": "primary",
+      "method": "pkm_verified_card",
+      "ok": true,
+      "reason": "PKM card reference — manual A-layer"
+    },
+    {
+      "type": "claim",
+      "id": "STATION-fuchu-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-fuchu-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-fuchu-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-tachikawa-70",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-tachikawa-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "INCOME-tachikawa-DENSITY",
+      "tier": "primary",
+      "method": "pkm_verified_card",
+      "ok": true,
+      "reason": "PKM card reference — manual A-layer"
+    },
+    {
+      "type": "claim",
+      "id": "STATION-tachikawa-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-tachikawa-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-tachikawa-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-kokubunji-VS-CHUO",
+      "ok": true,
+      "computed": 45.38928768636112,
+      "expected": 45.4,
+      "formula": "5754 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-kunitachi-VS-CHUO",
+      "ok": true,
+      "computed": 35.450027609055766,
+      "expected": 35.5,
+      "formula": "4494 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-fuchu-VS-CHUO",
+      "ok": true,
+      "computed": 33.296521258972945,
+      "expected": 33.3,
+      "formula": "4221 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-tachikawa-VS-CHUO",
+      "ok": true,
+      "computed": 28.050800662617338,
+      "expected": 28.1,
+      "formula": "3556 / 12677 * 100"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "306253",
+      "ok": false,
+      "reason": "primary value 306253 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "1.6",
+      "ok": false,
+      "reason": "primary value 1.6 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "4494",
+      "ok": false,
+      "reason": "primary value 4494 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "94190",
+      "ok": false,
+      "reason": "primary value 94190 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "0.6",
+      "ok": false,
+      "reason": "primary value 0.6 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "4221",
+      "ok": false,
+      "reason": "primary value 4221 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "157084",
+      "ok": false,
+      "reason": "primary value 157084 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "1.6",
+      "ok": false,
+      "reason": "primary value 1.6 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "3556",
+      "ok": false,
+      "reason": "primary value 3556 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "301256",
+      "ok": false,
+      "reason": "primary value 301256 not found as bold in draft (heuristic)"
+    },
+    {
+      "type": "draft_coverage",
+      "id": "-1.3",
+      "ok": false,
+      "reason": "primary value -1.3 not found as bold in draft (heuristic)"
+    }
+  ],
+  "written_at": "2026-06-26T15:48:48.380Z"
+}

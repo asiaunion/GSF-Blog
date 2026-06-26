@@ -1,0 +1,411 @@
+{
+  "episode": "Ep.10",
+  "slug": "tokyo-kokubunji-kunitachi-fuchu-tachikawa",
+  "created_at": "2026-06-26",
+  "updated_at": "2026-06-27",
+  "gates": {
+    "hypothesis_layer_by": "Joseph 2026-06-26",
+    "hypothesis_layer_required": true,
+    "c_tier_capture_requested": false,
+    "manifest_approved_by": "Joseph",
+    "manifest_approved_at": "2026-06-27",
+    "draft_started": true,
+    "draft_started_at": "2026-06-26",
+    "cursor_audit_passed": true,
+    "cursor_audit_at": "2026-06-27",
+    "joseph_final_approved": false
+  },
+  "claims": [
+    {
+      "id": "MLIT-kokubunji-70",
+      "label": "国分寺市 70㎡ 성약가",
+      "value": 5754,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.国分寺市.est_70sqm",
+        "count": 156,
+        "pkm_card": "GSF-PKM/PKM/30 Resources/RealEstate/Tokyo/wards/国分寺市.data.json"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-kokubunji-1R",
+      "label": "国分寺市 SUUMO 1R",
+      "value": 9.4,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_kokubunji/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_kokubunji-20260626.html",
+        "snippet": "9.4万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "INCOME-kokubunji-DENSITY",
+      "label": "国分寺市 인구 1인당 실질 소득 밀도",
+      "value": 179.7,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "pkm_verified_card",
+      "evidence": {
+        "card": "projects/GSF-PKM/PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md",
+        "rank": 2
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-kokubunji-TOP",
+      "label": "国分寺市 최다 승하차 역 (国分寺)",
+      "value": 306253,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.国分寺市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-kokubunji-2040",
+      "label": "国分寺市 인구 2020→2040 변화율",
+      "value": 1.6,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.国分寺市.change_pct",
+        "mesh_count": 229,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-kokubunji-CAGR",
+      "label": "国分寺市 맨션 成約 ㎡단가 CAGR",
+      "value": 8.8,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.国分寺市.cagr_full",
+        "count": 156,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-kunitachi-70",
+      "label": "国立市 70㎡ 성약가",
+      "value": 4494,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.国立市.est_70sqm",
+        "count": 105,
+        "pkm_card": "GSF-PKM/PKM/30 Resources/RealEstate/Tokyo/wards/国立市.data.json"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-kunitachi-1R",
+      "label": "国立市 SUUMO 1R",
+      "value": 9.3,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_kunitachi/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_kunitachi-20260626.html",
+        "snippet": "9.3万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "INCOME-kunitachi-DENSITY",
+      "label": "国立市 인구 1인당 실질 소득 밀도",
+      "value": 191.9,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "pkm_verified_card",
+      "evidence": {
+        "card": "projects/GSF-PKM/PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md",
+        "rank": 1
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-kunitachi-TOP",
+      "label": "国立市 최다 승하차 역 (国立)",
+      "value": 94190,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.国立市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-kunitachi-2040",
+      "label": "国立市 인구 2020→2040 변화율",
+      "value": 0.6,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.国立市.change_pct",
+        "mesh_count": 221,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-kunitachi-CAGR",
+      "label": "国立市 맨션 成約 ㎡단가 CAGR",
+      "value": 4.5,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.国立市.cagr_full",
+        "count": 105,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-fuchu-70",
+      "label": "府中市 70㎡ 성약가",
+      "value": 4221,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.府中市.est_70sqm",
+        "count": 370,
+        "pkm_card": "GSF-PKM/PKM/30 Resources/RealEstate/Tokyo/wards/府中市.data.json"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-fuchu-1R",
+      "label": "府中市 SUUMO 1R",
+      "value": 8.6,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_fuchu/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_fuchu-20260626.html",
+        "snippet": "8.6万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "INCOME-fuchu-DENSITY",
+      "label": "府中市 인구 1인당 실질 소득 밀도",
+      "value": 155.5,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "pkm_verified_card",
+      "evidence": {
+        "card": "projects/GSF-PKM/PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md",
+        "rank": 3
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-fuchu-TOP",
+      "label": "府中市 최다 승하차 역 (分倍河原)",
+      "value": 157084,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.府中市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-fuchu-2040",
+      "label": "府中市 인구 2020→2040 변화율",
+      "value": 1.6,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.府中市.change_pct",
+        "mesh_count": 476,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-fuchu-CAGR",
+      "label": "府中市 맨션 成約 ㎡단가 CAGR",
+      "value": 5.4,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.府中市.cagr_full",
+        "count": 370,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-tachikawa-70",
+      "label": "立川市 70㎡ 성약가",
+      "value": 3556,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.立川市.est_70sqm",
+        "count": 209,
+        "pkm_card": "GSF-PKM/PKM/30 Resources/RealEstate/Tokyo/wards/立川市.data.json"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-tachikawa-1R",
+      "label": "立川市 SUUMO 1R",
+      "value": 8,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_tachikawa/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_tachikawa-20260626.html",
+        "snippet": "8.0万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "INCOME-tachikawa-DENSITY",
+      "label": "立川市 인구 1인당 실질 소득 밀도",
+      "value": 146.7,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "pkm_verified_card",
+      "evidence": {
+        "card": "projects/GSF-PKM/PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md",
+        "rank": 4
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-tachikawa-TOP",
+      "label": "立川市 최다 승하차 역 (立川)",
+      "value": 301256,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.立川市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-tachikawa-2040",
+      "label": "立川市 인구 2020→2040 변화율",
+      "value": -1.3,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.立川市.change_pct",
+        "mesh_count": 219,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-tachikawa-CAGR",
+      "label": "立川市 맨션 成約 ㎡단가 CAGR",
+      "value": 4.8,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.立川市.cagr_full",
+        "count": 209,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-kokubunji-VS-CHUO",
+      "label": "国分寺市 vs 中央区 가격 비율",
+      "formula": "5754 / 12677 * 100",
+      "expected": 45.4,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-kunitachi-VS-CHUO",
+      "label": "国立市 vs 中央区 가격 비율",
+      "formula": "4494 / 12677 * 100",
+      "expected": 35.5,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-fuchu-VS-CHUO",
+      "label": "府中市 vs 中央区 가격 비율",
+      "formula": "4221 / 12677 * 100",
+      "expected": 33.3,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-tachikawa-VS-CHUO",
+      "label": "立川市 vs 中央区 가격 비율",
+      "formula": "3556 / 12677 * 100",
+      "expected": 28.1,
+      "unit": "%",
+      "tolerance": 0.5
+    }
+  ],
+  "c_tier_capture_requests": []
+}

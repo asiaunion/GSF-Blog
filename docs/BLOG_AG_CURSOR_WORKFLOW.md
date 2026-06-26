@@ -31,7 +31,12 @@ src/data/blog/ja/<slug>.md
 
 ---
 
-## Author Layer — Data-first (Joseph Hypothesis Layer)
+## Author Layer — Data-first (Joseph Hypothesis Layer · Reasoning OS)
+
+**실행 SSOT**: [`JOSEPH_AUTHOR_OPS.md`](./JOSEPH_AUTHOR_OPS.md) — Data Discovery → Tiki-taka → Hypothesis Lock → KO  
+**사고 흐름**: [`REASONING_OS.md`](./REASONING_OS.md) · Wiki [`Reasoning_OS.md`](../../GSF-OS/Wiki/Reasoning_OS.md)  
+**KO vNext (Ep.10+)**: [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md)  
+**파일럿 Ep.10~15**: KO 초안 Cursor · AG KO 일시 중단 · [`pilot/hypothesis-layer-pilot-log.md`](./pilot/hypothesis-layer-pilot-log.md)
 
 Joseph는 **Data-first Analyst**다. AG는 Research 요약이 아니라 **가설·증거·결론 편집**을 한다.
 

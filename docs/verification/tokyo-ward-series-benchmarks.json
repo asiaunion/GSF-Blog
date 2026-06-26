@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-06-27",
   "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
   "data_tiers": {
     "A": "MLIT JSON / PKM verified card — scripts/verify-episode-manifest.mjs 자동 검증",
@@ -192,6 +192,34 @@
         "count": 418,
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "国分寺市": {
+        "ward_avg_sqm": 82.2,
+        "est_70sqm": 5754,
+        "count": 156,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "国立市": {
+        "ward_avg_sqm": 64.2,
+        "est_70sqm": 4494,
+        "count": 105,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "府中市": {
+        "ward_avg_sqm": 60.3,
+        "est_70sqm": 4221,
+        "count": 370,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "立川市": {
+        "ward_avg_sqm": 50.8,
+        "est_70sqm": 3556,
+        "count": 209,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
       }
     }
   },
@@ -609,6 +637,30 @@
         "snapshot_file": "docs/verification/snapshots/suumo-sc_edogawa-20260617.html",
         "episode": "Ep.09",
         "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、東京都江戸川区（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、9.1万円（ワンルーム）～26.5万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "国分寺市": {
+        "1R": 9.4,
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_kokubunji-20260626.html",
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "国立市": {
+        "1R": 9.3,
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_kunitachi-20260626.html",
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "府中市": {
+        "1R": 8.6,
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_fuchu-20260626.html",
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "立川市": {
+        "1R": 8.0,
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_tachikawa-20260626.html",
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
       }
     }
   },
@@ -640,6 +692,34 @@
       "杉並区": {
         "rank": 11,
         "value": 280.5
+      },
+      "国分寺市": {
+        "value": 179.7,
+        "rank": 2,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27",
+        "source": "docs/verification/cache/tama-income-r6-ep10.json"
+      },
+      "国立市": {
+        "value": 191.9,
+        "rank": 1,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27",
+        "source": "docs/verification/cache/tama-income-r6-ep10.json"
+      },
+      "府中市": {
+        "value": 155.5,
+        "rank": 3,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27",
+        "source": "docs/verification/cache/tama-income-r6-ep10.json"
+      },
+      "立川市": {
+        "value": 146.7,
+        "rank": 4,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27",
+        "source": "docs/verification/cache/tama-income-r6-ep10.json"
       }
     }
   },
@@ -898,6 +978,38 @@
         "station_count": 9,
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "国分寺市": {
+        "top_station": "国分寺",
+        "top_passengers": 306253,
+        "total_daily": 372157,
+        "station_count": 3,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "国立市": {
+        "top_station": "国立",
+        "top_passengers": 94190,
+        "total_daily": 129088,
+        "station_count": 3,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "府中市": {
+        "top_station": "分倍河原",
+        "top_passengers": 157084,
+        "total_daily": 422383,
+        "station_count": 14,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "立川市": {
+        "top_station": "立川",
+        "top_passengers": 301256,
+        "total_daily": 525919,
+        "station_count": 13,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
       }
     }
   },
@@ -1333,6 +1445,42 @@
         "population_tile_preset": false,
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "国分寺市": {
+        "pop_2020": 167916,
+        "pop_2040": 170606,
+        "change_pct": "1.6%",
+        "mesh_count": 229,
+        "mesh_coverage_warning": false,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "国立市": {
+        "pop_2020": 150305,
+        "pop_2040": 151219,
+        "change_pct": "0.6%",
+        "mesh_count": 221,
+        "mesh_coverage_warning": false,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "府中市": {
+        "pop_2020": 321303,
+        "pop_2040": 326461,
+        "change_pct": "1.6%",
+        "mesh_count": 476,
+        "mesh_coverage_warning": false,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
+      },
+      "立川市": {
+        "pop_2020": 113584,
+        "pop_2040": 112097,
+        "change_pct": "-1.3%",
+        "mesh_count": 219,
+        "mesh_coverage_warning": false,
+        "episode": "Ep.10",
+        "fetched_at": "2026-06-27"
       }
     }
   },
@@ -2551,6 +2699,146 @@
           "2025": -6.6
         },
         "cagr_full": 3.6,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-26"
+      },
+      "国立市": {
+        "series": {
+          "2021": 53.8,
+          "2022": 67.6,
+          "2023": 67.3,
+          "2024": 64.9,
+          "2025": 64.2
+        },
+        "counts": {
+          "2021": 52,
+          "2022": 68,
+          "2023": 63,
+          "2024": 68,
+          "2025": 105
+        },
+        "est_70sqm": {
+          "2021": 3766,
+          "2022": 4732,
+          "2023": 4711,
+          "2024": 4543,
+          "2025": 4494
+        },
+        "yoy_pct": {
+          "2022": 25.7,
+          "2023": -0.4,
+          "2024": -3.6,
+          "2025": -1.1
+        },
+        "cagr_full": 4.5,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-26"
+      },
+      "国分寺市": {
+        "series": {
+          "2021": 58.7,
+          "2022": 68,
+          "2023": 69.2,
+          "2024": 77.6,
+          "2025": 82.2
+        },
+        "counts": {
+          "2021": 114,
+          "2022": 126,
+          "2023": 103,
+          "2024": 106,
+          "2025": 156
+        },
+        "est_70sqm": {
+          "2021": 4109,
+          "2022": 4760,
+          "2023": 4844,
+          "2024": 5432,
+          "2025": 5754
+        },
+        "yoy_pct": {
+          "2022": 15.8,
+          "2023": 1.8,
+          "2024": 12.1,
+          "2025": 5.9
+        },
+        "cagr_full": 8.8,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-26"
+      },
+      "府中市": {
+        "series": {
+          "2021": 48.9,
+          "2022": 53.5,
+          "2023": 53.8,
+          "2024": 56.9,
+          "2025": 60.3
+        },
+        "counts": {
+          "2021": 291,
+          "2022": 272,
+          "2023": 268,
+          "2024": 291,
+          "2025": 370
+        },
+        "est_70sqm": {
+          "2021": 3423,
+          "2022": 3745,
+          "2023": 3766,
+          "2024": 3983,
+          "2025": 4221
+        },
+        "yoy_pct": {
+          "2022": 9.4,
+          "2023": 0.6,
+          "2024": 5.8,
+          "2025": 6
+        },
+        "cagr_full": 5.4,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-06-26"
+      },
+      "立川市": {
+        "series": {
+          "2021": 42.1,
+          "2022": 48.1,
+          "2023": 45.6,
+          "2024": 55,
+          "2025": 50.8
+        },
+        "counts": {
+          "2021": 182,
+          "2022": 147,
+          "2023": 158,
+          "2024": 149,
+          "2025": 209
+        },
+        "est_70sqm": {
+          "2021": 2947,
+          "2022": 3367,
+          "2023": 3192,
+          "2024": 3850,
+          "2025": 3556
+        },
+        "yoy_pct": {
+          "2022": 14.3,
+          "2023": -5.2,
+          "2024": 20.6,
+          "2025": -7.6
+        },
+        "cagr_full": 4.8,
         "cagr_5y": null,
         "cagr_span_years": 4,
         "blog_primary": true,

@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "fetched_at": "2026-06-26",
+  "methodology": "PKM 도쿄_23구_인당_실질소득_통계_2025.md 동일: (市町村民税 課税標準額 千円 × 1,000) ÷ 都人口推計 総人口",
+  "sources": {
+    "tax_base": {
+      "label": "総務省 令和6年度 市町村税課税状況等の調 第11表 市町村別（所得割・課税標準額）",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html",
+      "file": "xls/J51-24-b.xlsx",
+      "fiscal_year": "R6",
+      "survey_date": "2024-07-01"
+    },
+    "population": {
+      "label": "東京都の人口（推計）2026年5月",
+      "url": "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js265v0000_1.csv",
+      "as_of": "2026-05"
+    }
+  },
+  "reference": {
+    "tokyo_municipalities_avg_per_capita_man_yen": 207.7,
+    "tokyo_23ku_avg_per_capita_man_yen": 287.4,
+    "pkm_card": "GSF-PKM/PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md"
+  },
+  "municipalities": {
+    "国立市": {
+      "code": "13215",
+      "tax_base_thousand_yen": 148628596,
+      "taxpayers": 38413,
+      "population": 77462,
+      "per_capita_man_yen": 191.9,
+      "per_taxpayer_man_yen": 386.9,
+      "rank_among_ep10": 1
+    },
+    "国分寺市": {
+      "code": "13214",
+      "tax_base_thousand_yen": 240278024,
+      "taxpayers": 66925,
+      "population": 133714,
+      "per_capita_man_yen": 179.7,
+      "per_taxpayer_man_yen": 359.0,
+      "rank_among_ep10": 2
+    },
+    "府中市": {
+      "code": "13206",
+      "tax_base_thousand_yen": 413082029,
+      "taxpayers": 131941,
+      "population": 265708,
+      "per_capita_man_yen": 155.5,
+      "per_taxpayer_man_yen": 313.1,
+      "rank_among_ep10": 3
+    },
+    "立川市": {
+      "code": "13202",
+      "tax_base_thousand_yen": 274594721,
+      "taxpayers": 92354,
+      "population": 187190,
+      "per_capita_man_yen": 146.7,
+      "per_taxpayer_man_yen": 297.3,
+      "rank_among_ep10": 4
+    }
+  }
+}
