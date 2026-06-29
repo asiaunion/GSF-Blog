@@ -256,3 +256,10 @@
 - 라이브 확인: 3개 언어(ko/en/ja) 모두 200 OK 수집 검증 완료
 - Vercel: Production Ready (gsf-blog-ivg5h3bbr)
 - 후속: pnpm dossier:ward --episode ep10 데이터 적재 완료
+
+## [2026-06-30 00:00] 발행일자 수정 발행 완료 (6월 30일자 반영)
+- 작업: 3개 언어(ko/en/ja) pubDatetime을 2026-06-30T12:00:00Z로 일괄 변경
+- 커밋: 2952d45
+- Vercel: Production Ready (gsf-blog-eb7fspgsg)
+- 라이브 반영 검증: datetime="2026-06-30T12:00:00.000Z" 실서버 HTML 확인 완료
+- dossier:ward: 메타데이터 변경에 따른 PKM 재동기화 완료
