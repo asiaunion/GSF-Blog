@@ -277,3 +277,9 @@
 - Vercel: Production Ready (gsf-blog-2e0hdplij)
 - 라이브 반영 검증: datetime="2026-06-29T15:05:00.000Z" 실서버 HTML 확인 완료 (JST 타임존 환산 시 6월 30일 00:05 정각으로 6월 30일자 실시간 즉시 노출 완료)
 - dossier:ward: 메타데이터 변경에 따른 PKM 재동기화 완료
+
+## [2026-06-30 00:23] Astro Paper 타임존 렌더링 버그 수정 및 최종 배포 완료
+- 원인 분석: 빌드 시스템(Vercel)의 시스템 타임존이 UTC(세계표준시)이므로, pubDatetime의 오프셋이 +09:00이어도 `Intl.DateTimeFormat`이 timeZone 옵션 없이 실행되면서 `Jun 29`로 출력되는 버그가 존재했음.
+- 해결: `src/components/Datetime.astro` 내 `Intl.DateTimeFormat` 생성 시 `timeZone: postTimezone || SITE.timezone` 옵션을 명시적으로 추가하여 UTC 빌드 서버 환경에서도 아시아/도쿄 표준시 기준 날짜로 강제 포맷팅 처리함.
+- 배포: `npx vercel --prod --yes` 수동 강제 배포 실행 완료. (Aliased to https://gsfark.com, ID: kxdh0iozo)
+- 검증: 실서버 글 목록에서 `Jun 30, 2026`으로 날짜가 정상 렌더링 노출되는 것을 확인 및 검증 완료.
