@@ -220,3 +220,10 @@
   - build: exit 0 ✅
   - 히어로: 国分寺/国立 권역 추오선 역사+주거밀집 골든아워 장면 (Ep.09 톤 매칭)
   - Cursor 검증 필요 항목: draft_coverage bold 처리 + locale parity 미세 조정
+
+## [2026-06-29 21:00] Cursor 검증 통과 → 발행 대기
+- 작업: 7447760 — EN/JA price literals 万円 패치 (parity gate 통과)
+- JA 오타 수정: 126.5万円円 → 126.5万円
+- validate:post: exit 0, score 100 ✅ 전 게이트 통과
+- 브랜치: feat/ep10-kokubunji-i18n-hero (로컬 완료, push 미실시)
+- 다음: Joseph draft:false 승인 → git push → Vercel 배포 → AG pnpm dossier:ward --episode ep10
