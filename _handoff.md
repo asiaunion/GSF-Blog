@@ -270,3 +270,10 @@
 - Vercel: Production Ready (gsf-blog-ov42c4r3y)
 - 라이브 반영 검증: datetime="2026-06-29T15:00:00.000Z" 실서버 HTML 확인 완료 (과거 시간 처리로 지금 바로 실시간 노출 확인)
 - dossier:ward: 메타데이터 변경에 따른 PKM 재동기화 완료
+
+## [2026-06-30 00:12] 발행일자 타임존 오프셋 지정 6월 30일 배포 완료
+- 작업: 3개 언어(ko/en/ja) pubDatetime을 JST 기준 6월 30일 실시간 배포용으로 2026-06-30T00:05:00+09:00 로 변경
+- 커밋: 6adb6ed
+- Vercel: Production Ready (gsf-blog-2e0hdplij)
+- 라이브 반영 검증: datetime="2026-06-29T15:05:00.000Z" 실서버 HTML 확인 완료 (JST 타임존 환산 시 6월 30일 00:05 정각으로 6월 30일자 실시간 즉시 노출 완료)
+- dossier:ward: 메타데이터 변경에 따른 PKM 재동기화 완료
