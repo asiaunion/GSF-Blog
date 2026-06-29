@@ -41,7 +41,7 @@ In [Ep.09](/posts/tokyo-musashino-mitaka-chofu/), we covered the western premium
 
 - The four Tama cities are **not a single "cheap suburb"**—they are **four distinct markets** differentiated by rail lines, redevelopment activity, and land use.
 - **Even within the same city**, prices per ㎡ diverge by **more than 3x** depending on the cho-me (e.g., Tachikawa: Akebono-cho 83.4万 vs. Ichibang-cho 23.0万).
-- **Despite wide purchase-price spreads**, new-build 1R rents near stations converge at **¥80,000–94,000/month**. Low-price cho-me offer relatively wider gross yields; redevelopment cho-me carry a price premium.
+- **Despite wide purchase-price spreads**, new-build 1R rents near stations converge at **8.0–9.4万円/月**. Low-price cho-me offer relatively wider gross yields; redevelopment cho-me carry a price premium.
 - **Population and income** provide background context. In this dataset, the axis that more directly predicts purchase prices is **station access, rail line, and cho-me redevelopment potential** rather than city-level income.
 - All four cities carry **flood and liquefaction risk flags**. When evaluating individual cho-me, cross-reference the relevant hazard maps separately.
 
@@ -53,7 +53,7 @@ The reading of "Tama = cheaper suburbs beyond the 23 wards" is common. Kunitachi
 
 This time, we tested that assumption using **cho-me-level transaction prices** rather than city averages. Price gaps that city names alone cannot explain kept appearing, which led us to reframe the analysis around **living zones, rail lines, and redevelopment** axes.
 
-Our starting hypothesis was **"Tama = discounted, value-oriented suburbs."** When we compared the cho-me data point by point, that hypothesis failed repeatedly.
+My starting hypothesis was **"Tama = discounted, value-oriented suburbs."** When I compared the cho-me data point by point, that hypothesis failed repeatedly.
 
 ---
 
@@ -91,55 +91,55 @@ The cho-me tables below are designed to show **which areas within a city command
 
 ### Kokubunji City — Western Hub and Honcho Premium
 
-Kokubunji Station records approximately **306,000 daily passengers**, making it the clearest hub among the four cities. City-wide ㎡ price rose from 58.7万 in 2021 to **82.2万 in 2025** (4-year CAGR **8.8%**). 70㎡ ≈ **¥57.54M** (approximately **42.2%** of Chiyoda Ward [Ep.01] benchmark).
+Kokubunji Station records approximately **30.6万人/日**, making it the clearest hub among the four cities. City-wide ㎡ price rose from 58.7万 in 2021 to **82.2万 in 2025** (4-year CAGR **8.8%**). 70㎡ ≈ **5,754万円** (approximately **42.2%** of Chiyoda Ward [Ep.01] benchmark).
 
 | Cho-me | Price/㎡ (transaction) | 70㎡ estimate | Count |
 |--------|----------------------|---------------|-------|
-| Honcho | 126.5万 | approx. ¥88.55M | 37 |
-| Higashi Koigakubo | 70.6万 | approx. ¥49.42M | 46 |
-| Nishi-cho | 45.4万 | approx. ¥31.78M | 16 |
-| **City average** | **82.2万** | **approx. ¥57.54M** | **156** |
+| Honcho | 126.5万 | approx. 8,855万円 | 37 |
+| Higashi Koigakubo | 70.6万 | approx. 4,942万円 | 46 |
+| Nishi-cho | 45.4万 | approx. 3,178万円 | 16 |
+| **City average** | **82.2万** | **approx. 5,754万円** | **156** |
 
 **Key observation:** Honcho's 126.5万 is the highest cho-me figure across all four cities. Public records link this to **Kokubunji Station North Exit redevelopment** (City Tower Kokubunji, etc.) and the JR Chuo Line / Seibu Line interchange. This aligns directionally with Joseph's hypothesis on "western hub rail connectivity and large-scale redevelopment." However, with n=37 and cho-me aggregation, we avoid asserting specific walk-distance conclusions.
 
 ### Kunitachi City — University Town, Cho-me Dispersion
 
-Home to Hitotsubashi University, Tokyo Gakugei University, and other **academic and residential institutions**. Kunitachi Station records approximately **94,000 daily passengers**—smaller than the hubs of Kokubunji and Tachikawa. ㎡ price: 53.8万 → **64.2万** (CAGR **4.5%**), 70㎡ ≈ **¥44.94M** (approximately **33.0%** of Chiyoda).
+Home to Hitotsubashi University, Tokyo Gakugei University, and other **academic and residential institutions**. Kunitachi Station records approximately **9.4万人/日**—smaller than the hubs of Kokubunji and Tachikawa. ㎡ price: 53.8万 → **64.2万** (CAGR **4.5%**), 70㎡ ≈ **4,494万円** (approximately **33.0%** of Chiyoda).
 
 | Cho-me | Price/㎡ (transaction) | 70㎡ estimate | Count |
 |--------|----------------------|---------------|-------|
-| Higashi | 73.4万 | approx. ¥51.38M | 23 |
-| Naka | 70.4万 | approx. ¥49.28M | 22 |
-| Fujimidai | 58.0万 | approx. ¥40.60M | 28 |
-| Aoyagi | 44.3万 | approx. ¥31.01M | 7 |
-| **City average** | **64.2万** | **approx. ¥44.94M** | **105** |
+| Higashi | 73.4万 | approx. 5,138万円 | 23 |
+| Naka | 70.4万 | approx. 4,928万円 | 22 |
+| Fujimidai | 58.0万 | approx. 4,060万円 | 28 |
+| Aoyagi | 44.3万 | approx. 3,101万円 | 7 |
+| **City average** | **64.2万** | **approx. 4,494万円** | **105** |
 
 **Where the hypothesis broke down:** Per-capita income ranks **#1 among the four cities (191.9万)**, yet the highest-price cho-me is lower than Kokubunji Honcho. The framing of "university town = uniform premium" does not hold—cho-me-level differentiation (Higashi/Naka vs. Aoyagi/Yagawa) is more accurate. Station traffic and large-scale redevelopment catalysts are comparatively weak here.
 
 ### Fuchu City — Government/Racecourse, Miyanishi-cho and Periphery
 
-The **administrative and entertainment axis** anchored by Tokyo Racecourse and Fuchu Station. Bubaigawara Station records approximately **157,000 daily passengers**; the city has 14 stations. ㎡ price: 48.9万 → **60.3万** (CAGR **5.4%**), 70㎡ ≈ **¥42.21M** (approximately **31.0%** of Chiyoda).
+The **administrative and entertainment axis** anchored by Tokyo Racecourse and Fuchu Station. Bubaigawara Station records approximately **15.7万人/日**; the city has 14 stations. ㎡ price: 48.9万 → **60.3万** (CAGR **5.4%**), 70㎡ ≈ **4,221万円** (approximately **31.0%** of Chiyoda).
 
 | Cho-me | Price/㎡ (transaction) | 70㎡ estimate | Count |
 |--------|----------------------|---------------|-------|
-| Miyanishi-cho | 89.6万 | approx. ¥62.72M | 45 |
-| Fuchu-cho | 75.3万 | approx. ¥52.71M | 24 |
-| Shiraito-dai | 50.0万 | approx. ¥35.00M | 35 |
-| Yotsuya | 34.9万 | approx. ¥24.43M | 18 |
-| **City average** | **60.3万** | **approx. ¥42.21M** | **370** |
+| Miyanishi-cho | 89.6万 | approx. 6,272万円 | 45 |
+| Fuchu-cho | 75.3万 | approx. 5,271万円 | 24 |
+| Shiraito-dai | 50.0万 | approx. 3,500万円 | 35 |
+| Yotsuya | 34.9万 | approx. 2,443万円 | 18 |
+| **City average** | **60.3万** | **approx. 4,221万円** | **370** |
 
 **Where interpretation diverges:** The contrast between **Miyanishi-cho** and **Shiraito-dai** is pronounced. Transaction volume (370 cases) is the highest among the four cities, indicating good **market liquidity**. The data reads as a dual structure: cho-me premium tied to the administrative/entertainment context vs. peripheral low-price cho-me.
 
 ### Tachikawa City — Low City Average, High Intra-City Dispersion
 
-A city with a strong **administrative and commercial sub-center** image. Tachikawa Station records approximately **301,000 daily passengers**; combined city-station traffic is approximately **526,000/day**. ㎡ price: 42.1万 → **50.8万** (CAGR **4.8%**), 70㎡ ≈ **¥35.56M** — **lowest city average among the four** (approximately **26.1%** of Chiyoda).
+A city with a strong **administrative and commercial sub-center** image. Tachikawa Station records approximately **30.1万人/日**; combined city-station traffic approximately **52.6万人/日**. ㎡ price: 42.1万 → **50.8万** (CAGR **4.8%**), 70㎡ ≈ **3,556万円** — **lowest city average among the four** (approximately **26.1%** of Chiyoda).
 
 | Cho-me | Price/㎡ (transaction) | 70㎡ estimate | Count |
 |--------|----------------------|---------------|-------|
-| Akebono-cho | 83.4万 | approx. ¥58.38M | 34 |
-| Nishiki-cho | 57.4万 | approx. ¥40.18M | 57 |
-| Ichiban-cho | 23.0万 | approx. ¥16.10M | 19 |
-| **City average** | **50.8万** | **approx. ¥35.56M** | **209** |
+| Akebono-cho | 83.4万 | approx. 5,838万円 | 34 |
+| Nishiki-cho | 57.4万 | approx. 4,018万円 | 57 |
+| Ichiban-cho | 23.0万 | approx. 1,610万円 | 19 |
+| **City average** | **50.8万** | **approx. 3,556万円** | **209** |
 
 **Where thinking shifted:** Looking at only the city average suggests "Tama's lowest-price market," but **Akebono-cho** is in the 80万 range. Joseph's T1 observation on "infrastructure quality, scale of redevelopment" aligns directionally with the Akebono-cho vs. Ichiban-cho contrast and public redevelopment data (Tachikawa Takurosu, etc.). Note that Ichiban-cho n=19 — treat as directional reference only.
 
@@ -161,7 +161,7 @@ Joseph's T1 intuition (Akebono-cho has better infrastructure; the redevelopment 
 
 This table is designed to examine **whether rents track purchase prices**. City-average ㎡ prices and SUUMO 1R rents (new build, 1–5 min walk) are placed side by side.
 
-| City | SUUMO 1R (¥10k/month) | City avg. ㎡ price | Gross yield* |
+| City | SUUMO 1R (万円/月) | City avg. ㎡ price | Gross yield* |
 |------|-----------------------|-------------------|-------------|
 | Kokubunji | 9.4 | 82.2万 | ~1.9% |
 | Kunitachi | 9.3 | 64.2万 | ~2.5% |
@@ -170,7 +170,7 @@ This table is designed to examine **whether rents track purchase prices**. City-
 
 \*70㎡, city-avg ㎡ price, pre-tax, excluding management fees and vacancy. Structural comparison only — not investment advice.
 
-**At the cho-me level:** A low-purchase-price cho-me like Tachikawa Ichiban-cho (23.0万/㎡) could show a gross yield of **4–6%** assuming the same city-level 1R rent (¥80,000/month) — though actual Ichiban-cho 1R rents may be lower. **Kokubunji Honcho** (126.5万) and **Tachikawa Akebono-cho** (83.4万) carry large purchase premiums, compressing gross yield to approximately **~1.3–1.6%**.
+**At the cho-me level:** A low-purchase-price cho-me like Tachikawa Ichiban-cho (23.0万/㎡) could show a gross yield of **4–6%** assuming the same city-level 1R rent (8.0万円/月) — though actual Ichiban-cho 1R rents may be lower. **Kokubunji Honcho** (126.5万) and **Tachikawa Akebono-cho** (83.4万) carry large purchase premiums, compressing gross yield to approximately **~1.3–1.6%**.
 
 **Recommended reading order:** Cho-me → rail line → redevelopment → then rent and yield. The purchase-price map and the rent map are not the same.
 
@@ -208,8 +208,8 @@ All four cities fall **below the municipal average (~208万)** and are further f
 
 | Item | Kokubunji | Kunitachi | Fuchu | Tachikawa |
 |------|-----------|-----------|-------|-----------|
-| Representative station daily traffic | Kokubunji 306k | Kunitachi 94k | Bubaigawara 157k | Tachikawa 301k |
-| 70㎡ price (2025) | **¥57.54M** | ¥44.94M | ¥42.21M | ¥35.56M |
+| Representative station daily traffic | Kokubunji 30.6万 | Kunitachi 9.4万 | Bubaigawara 15.7万 | Tachikawa 30.1万 |
+| 70㎡ price (2025) | **5,754万円** | 4,494万円 | 4,221万円 | 3,556万円 |
 | vs Chiyoda | **42.2%** | 33.0% | 31.0% | 26.1% |
 | Transaction CAGR (2021–25) | **8.8%** | 4.5% | 5.4% | 4.8% |
 | Population Δ 2040 | +1.6% | +0.6% | +1.6% | −1.3% |
@@ -219,14 +219,14 @@ All four cities fall **below the municipal average (~208万)** and are further f
 **Positioning within the series:**
 
 | City | 70㎡ price | 4Y CAGR |
-|----|-----------|---------|
-| Musashino (Ep.09) | ¥66.36M | 6.2% |
-| **Kokubunji (Ep.10)** | **¥57.54M** | **8.8%** |
-| Mitaka (Ep.09) | ¥58.03M | 5.9% |
-| **Kunitachi** | ¥44.94M | 4.5% |
-| **Fuchu** | ¥42.21M | 5.4% |
-| Chofu (Ep.09) | ¥45.36M | 3.6% |
-| **Tachikawa** | ¥35.56M | 4.8% |
+|----|-----------|--------|
+| Musashino (Ep.09) | 6,636万円 | 6.2% |
+| **Kokubunji (Ep.10)** | **5,754万円** | **8.8%** |
+| Mitaka (Ep.09) | 5,803万円 | 5.9% |
+| **Kunitachi** | 4,494万円 | 4.5% |
+| **Fuchu** | 4,221万円 | 5.4% |
+| Chofu (Ep.09) | 4,536万円 | 3.6% |
+| **Tachikawa** | 3,556万円 | 4.8% |
 
 ---
 
@@ -276,7 +276,7 @@ Cho-me with n<30 (Aoyagi 7 cases, Ichiban-cho 19 cases)—treat **direction only
 **What readers should verify first**  
 ① MLIT transaction distribution for the **cho-me** of interest ② Public data on **rail lines and redevelopment** ③ Location-specific **hazard maps** ④ Actual **rent listings** on SUUMO etc. (gross yield is structural comparison only).
 
-**In one line** — The Tama Education & Culture Belt is not one cheap neighborhood but **four markets**, and even within the same city, **cho-me, rail line, and redevelopment diverge**. Purchase prices vary widely while new-build station-adjacent rents converge in the **¥80,000–100,000/month range**, so the right sequence is: **choose location first**, then examine rent and yield.
+**In one line** — The Tama Education & Culture Belt is not one cheap neighborhood but **four markets**, and even within the same city, **cho-me, rail line, and redevelopment diverge**. Purchase prices vary widely while new-build station-adjacent rents converge in the **8–9万円/月帯**, so the right sequence is: **choose location first**, then examine rent and yield.
 
 ---
 
