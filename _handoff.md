@@ -238,3 +238,11 @@
 - 라이브 확인: ko ✅ / en ✅ / ja ✅
 - Vercel: Production Ready (gsf-blog-9tgyz7aws)
 - 후속: pnpm dossier:ward --episode ep10 실행 중
+
+## [2026-06-29 23:44] AG 번역 수정 및 revert 완료 (Cursor 검증 대기)
+- 작업: GPT 번역 개선 의견 (EN 3곳, JA 3곳) 반영
+- 복구: `draft: false` 배포 커밋(4632869)을 Revert(fb3093b)하여 draft: true로 복구 완료
+- 상태: origin/main에 push 완료 (draft: true 상태)
+- Vercel 배포: fb3093b 기준 Ready 완료 (빌드 정상)
+- 검증 게이트: validate:post exit:0 (score 100) ✅, verify:og-social ok ✅
+- 다음 단계: Cursor가 수정한 EN/JA 번역(cb1feb4, fb3093b) 내용을 최종 검증한 후에 배포(draft: false) 진행 요청
