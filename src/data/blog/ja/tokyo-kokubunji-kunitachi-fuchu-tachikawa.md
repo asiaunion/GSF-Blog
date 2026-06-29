@@ -3,7 +3,7 @@ title: "東京どこに住むか — 23区完全ガイド [Ep.10] 多摩教育�
 description: "東京23区外の多摩ベルト4市を、町名単位の取引データで読み解きます。「郊外だから安い」という印象を超えて、鉄道・再開発・生活圏によって異なる市場が形成されていることを整理します。"
 pubDatetime: 2026-06-29T12:00:00Z
 author: GSF
-draft: true
+draft: false
 lang: ja
 aiModel: "Cursor + ChatGPT 5.5 (KO voice final)"
 category: investment
