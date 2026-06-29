@@ -204,3 +204,19 @@
 - 작업: Essay 3 `why-i-chose-nihonbashi` 홈·`/posts/`·RSS 노출 확인 완료
 - GSC: EN/KO/JA 3 URL 색인 생성 요청 완료 (예정 큐 7/4~9보다 조기 완료)
 - 다음: **7/3** AdSense 재제출
+
+## [2026-06-29 16:25] AG 작업 완료 — Ep.10 EN/JA 번역 + 히어로 이미지 수정
+- 작업 내용: feat/ep10-kokubunji-i18n-hero 브랜치에 EN/JA md 신규 작성 + 히어로 이미지 교체
+- 브랜치: feat/ep10-kokubunji-i18n-hero
+- 최종 커밋: 14a5c9f (fix(ep10-en): numeric parity)
+- 이전 커밋: 3d0eb93 (feat(ep10): EN/JA translations + hero image update)
+- KO 미수정 확인: git diff HEAD ko/ = 0줄
+- Claude 부재 여부: 예 (AG 단독 작업)
+- 특이사항:
+  - verify:og-social: exit 0 ✅
+  - verify:episode: hallucination_score 0 ✅ / draft_coverage 11 실패 (KO bold 형식 미적용 — KO 수정 금지 제약)
+  - verify:episode:gate: exit 1 (draft_coverage만 원인)
+  - validate:post: exit 0 / hardGatePassed:false (trust-locale-numeric-parity 잔여 — Cursor 조정 필요)
+  - build: exit 0 ✅
+  - 히어로: 国分寺/国立 권역 추오선 역사+주거밀집 골든아워 장면 (Ep.09 톤 매칭)
+  - Cursor 검증 필요 항목: draft_coverage bold 처리 + locale parity 미세 조정

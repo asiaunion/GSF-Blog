@@ -6,11 +6,11 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-26 (Essay 3 홈·목록·GSC 색인 Joseph 확인) |
+| 최종 업데이트 | 2026-06-28 |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 Essay 1·2·3 **라이브+GSC** · Topic Hubs 갱신 — AdSense **7/3** 재제출 예정 |
+| 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/3** 재제출 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | **7/3 AdSense 재제출** |
+| 이번 주 최우선 액션 | Ep10 집필·번역 · 7/3 AdSense 재제출 |
 | 다음 체크포인트 | 7/3 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
 | 블로커 | 없음 — Essay 3 노출·색인 요청 완료 (`main` `9c5984a`) |
 
@@ -153,6 +153,14 @@
 ---
 
 ## 📝 작업 로그
+
+### 2026-06-28
+- Ep09 배포 완료 · Ep10 KO 초안 완료 (Cursor 6/28)
+### 2026-06-27
+- Social Broadcast: buying-property-japan-checklist-before-you-commit (X/LinkedIn/Threads 초안 생성 및 저장)
+- 도쿄 에피소드 9 (무사시노·미타카·조후) 초안 및 EN/JA 번역 파일 생성
+- Hero/OG 이미지 생성
+- PKM Ward 카드 링크 업데이트
 ### 2026-06-26
 - **Essay 3 홈·목록 노출** — Joseph 확인 (`why-i-chose-nihonbashi` EN/KO/JA)
 - **Essay 3 GSC 색인** — Joseph EN/KO/JA 3 URL 색인 생성 요청 완료
