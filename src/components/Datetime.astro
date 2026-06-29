@@ -45,6 +45,7 @@ const date = new Intl.DateTimeFormat(dateLocale, {
   day: "numeric",
   month: "short",
   year: "numeric",
+  timeZone: postTimezone || SITE.timezone,
 }).format(datetime.toDate());
 ---
 
