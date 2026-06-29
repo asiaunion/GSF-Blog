@@ -3,7 +3,7 @@ title: "Where to Live in Tokyo — 23 Wards Guide [Ep.10] Tama Education & Cultu
 description: "Four cities west of the 23 wards — analyzed by cho-me-level transaction data. Not a single 'cheap suburb,' but four distinct markets shaped by rail lines, redevelopment, and land use."
 pubDatetime: 2026-06-26T12:00:00Z
 author: GSF
-draft: true
+draft: false
 lang: en
 aiModel: "Claude Sonnet 4.6 (Thinking)"
 category: investment
