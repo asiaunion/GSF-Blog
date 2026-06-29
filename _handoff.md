@@ -227,3 +227,14 @@
 - validate:post: exit 0, score 100 ✅ 전 게이트 통과
 - 브랜치: feat/ep10-kokubunji-i18n-hero (로컬 완료, push 미실시)
 - 다음: Joseph draft:false 승인 → git push → Vercel 배포 → AG pnpm dossier:ward --episode ep10
+
+## [2026-06-29 21:04] AG 배포 완료
+- 작업: Ep.10 발행 (Joseph 승인 21:02)
+- draft:false 커밋: dc6f2ec
+- main merge 커밋: fab2aab
+- 배포 URL (KO): https://gsfark.com/ko/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/
+- 배포 URL (EN): https://gsfark.com/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/
+- 배포 URL (JA): https://gsfark.com/ja/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/
+- 라이브 확인: ko ✅ / en ✅ / ja ✅
+- Vercel: Production Ready (gsf-blog-9tgyz7aws)
+- 후속: pnpm dossier:ward --episode ep10 실행 중
