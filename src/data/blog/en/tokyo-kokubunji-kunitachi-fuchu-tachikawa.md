@@ -3,7 +3,7 @@ title: "Where to Live in Tokyo — 23 Wards Guide [Ep.10] Tama Education & Cultu
 description: "Four cities west of Tokyo's 23 wards, examined through neighborhood-level transaction data. Beyond the impression of 'affordable suburbs,' each city turns out to be a distinct market shaped by rail lines, redevelopment, and local character."
 pubDatetime: 2026-06-29T12:00:00Z
 author: GSF
-draft: false
+draft: true
 lang: en
 aiModel: "Cursor + ChatGPT 5.5 (KO voice final)"
 category: investment
