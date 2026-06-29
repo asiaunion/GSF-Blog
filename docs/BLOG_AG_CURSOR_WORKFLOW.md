@@ -35,8 +35,9 @@ src/data/blog/ja/<slug>.md
 
 **실행 SSOT**: [`JOSEPH_AUTHOR_OPS.md`](./JOSEPH_AUTHOR_OPS.md) — Data Discovery → Tiki-taka → Hypothesis Lock → KO  
 **사고 흐름**: [`REASONING_OS.md`](./REASONING_OS.md) · Wiki [`Reasoning_OS.md`](../../GSF-OS/Wiki/Reasoning_OS.md)  
-**KO vNext (Ep.10+)**: [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md)  
-**파일럿 Ep.10~15**: KO 초안 Cursor · AG KO 일시 중단 · [`pilot/hypothesis-layer-pilot-log.md`](./pilot/hypothesis-layer-pilot-log.md)
+**KO vNext (Ep.10+)**: [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · **편집 철학**: [`JOSEPH_AUTHENTIC_VOICE.md`](./JOSEPH_AUTHENTIC_VOICE.md)  
+**기준 글 (benchmark)**: Ep.10 `tokyo-kokubunji-kunitachi-fuchu-tachikawa` — Ep.11~는 구조·톤·난이도를 Ep.10과 비교  
+**파일럿 Ep.10~15**: KO 초안 Cursor → 보이스 편집 (ChatGPT) → Cursor 검증 · AG KO 일시 중단 · [`pilot/hypothesis-layer-pilot-log.md`](./pilot/hypothesis-layer-pilot-log.md)
 
 Joseph는 **Data-first Analyst**다. AG는 Research 요약이 아니라 **가설·증거·결론 편집**을 한다.
 

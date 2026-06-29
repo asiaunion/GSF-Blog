@@ -1,7 +1,8 @@
 # Joseph Authentic Voice — Editorial Philosophy
 
-> **상태**: v1.0 (2026-06-27) · Joseph × ChatGPT · Cursor 정렬  
-> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)
+> **상태**: v1.1 (2026-06-29) · Ep.10 voice lock · Joseph × ChatGPT · Cursor 정렬  
+> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
+> **기준 글 (benchmark)**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Ep.10)
 
 ---
 
@@ -10,6 +11,36 @@
 > **나는 경험을 과장하지 않는다. 대신 판단 과정을 숨기지 않는다.**
 
 목표는 「인간처럼 쓰기」가 아니라 **「Joseph처럼 생각하기」**다.
+
+---
+
+## 편집 철학 — GSF-Ark의 중심축
+
+Ep.10 작업의 수확은 **문체 하나**가 아니라 **편집 철학**이다.
+
+- **문체**는 시간이 지나며 조금씩 바뀔 수 있다.
+- 아래 **네 가지**는 Ep.11 이후에도 GSF-Ark의 중심축으로 유지한다.
+
+| # | 원칙 | 실천 |
+|---|------|------|
+| 1 | **데이터를 존중한다** | manifest·표·수치를 주인공으로 둔다. 감성으로 숫자를 덮지 않는다. |
+| 2 | **사고 과정을 숨기지 않는다** | 처음 생각 → 데이터 재확인 → 판단 변화를 드러낸다. |
+| 3 | **독자가 스스로 판단하도록 돕는다** | 결론만 던지지 않고, 읽는 법·한계·확인 순서를 남긴다. |
+| 4 | **사람의 온도는 과장하지 않는다** | 경험담·에세이가 아니라, 데이터를 설명하는 목소리에서 자연스럽게 배어 나온다. |
+
+Ep.10은 「좋은 글」이 아니라 **「기준이 되는 글」**이다. Ep.11~ 모든 KO 초안·보이스 편집본은 Ep.10과 **방향·밀도·독자 난이도**를 비교한다.
+
+---
+
+## 문체 vs 편집 철학
+
+| | 문체 (가변) | 편집 철학 (고정) |
+|---|-------------|------------------|
+| 예 | 「여기서 주목할 점」 vs 「가장 흥미로웠던 부분」 | 데이터 존중 · 사고 과정 공개 |
+| 비율 목표 | 애널리스트 노트 **~90%** · 사람의 온도 **~10%** | 70/30 에세이화 ❌ (GSFGrace 경계 흐림) |
+| 한 줄 | 따뜻한 **데이터** 분석 ❌ | 따뜻한 **사람**이 하는 데이터 분석 ✅ |
+
+GSFGrace는 사람·신앙·삶·니혼바시를 쓴다. GSF-Ark는 데이터·시장·구조·숫자를 쓴다. **데이터가 주인공**이되, 그 데이터를 읽어 주는 사람이 따뜻하면 충분하다.
 
 ---
 
@@ -47,18 +78,20 @@ EEAT는 감정 서사가 아니라 **어느 층을 읽고 있는지 투명함**�
 | 위험 | 허구 1인칭 서사 유도 | 과도한 보수(톤 flat) |
 | 합의 | **판단 과정** 드러내기 | **사실·출처** 분리 유지 |
 
-Ep.10에서 채택: vNext spine + Joseph's View + **허구 현장 금지** + 출발 가설(무인칭/데이터 기반).
+Ep.10에서 채택: vNext spine + Joseph's View + **허구 현장 금지** + 사고 과정 드러내기.
+
+**워크플로 (KO)**: Cursor 데이터 초안 → ChatGPT 보이스 편집 → `validate:post` → Joseph 최종 OK.
 
 ---
 
 ## KO 적용 (Ep.10+)
 
-- **앞 20%**: 질문·출발 가설 · Joseph 제공 1인칭만
-- **본문**: L1→L2→L3 · 「Joseph가 Tn에서…」인용 가능
-- **뒤 10%**: Joseph's View · Final insight echo
-- **금지**: 「가보니」「체감상」 등 Decision Log에 없는 L5
+- **앞 20%**: 질문·선입견 · 1인칭 **2~3회** (표현 로테이션, Joseph 톤)
+- **본문**: 표·수치 중심 · 해석 라벨 로테이션 · **멈춤 문장 2~3개** (독자와 함께 멈춤)
+- **뒤 10%**: Joseph's View — 질문 → 자료 대조 → 판단 변화 → 독자 확인 순서
+- **금지**: 「가보니」「체감상」 등 허구 현장 · T1/L1/Decision Log 등 **독자용 내부 코드** · 「반드시」 등 단정
 
-상세 spine: [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md)
+상세 spine·체크리스트: [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md)
 
 ---
 
