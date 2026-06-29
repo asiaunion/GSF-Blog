@@ -246,3 +246,13 @@
 - Vercel 배포: fb3093b 기준 Ready 완료 (빌드 정상)
 - 검증 게이트: validate:post exit:0 (score 100) ✅, verify:og-social ok ✅
 - 다음 단계: Cursor가 수정한 EN/JA 번역(cb1feb4, fb3093b) 내용을 최종 검증한 후에 배포(draft: false) 진행 요청
+
+## [2026-06-29 23:50] AG 배포 완료 (Cursor 최종 승인 후 발행 완료)
+- 작업: Cursor 검증 승인 확인 후 draft: false 최종 배포
+- 커밋: 28b1cd8
+- 배포 URL (KO): https://gsfark.com/ko/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/
+- 배포 URL (EN): https://gsfark.com/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/
+- 배포 URL (JA): https://gsfark.com/ja/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/
+- 라이브 확인: 3개 언어(ko/en/ja) 모두 200 OK 수집 검증 완료
+- Vercel: Production Ready (gsf-blog-ivg5h3bbr)
+- 후속: pnpm dossier:ward --episode ep10 데이터 적재 완료
