@@ -63,7 +63,7 @@ That is why this piece focuses less on city averages and more on **neighborhood-
 
 I initially expected the four cities to sit at roughly similar levels of suburban premium. Looking at the data, my impressions shifted as follows.
 
-| What I checked | What the data showed |
+| What I expected | What the data showed |
 |----------------|----------------------|
 | Kokubunji Honcho **126.5万/㎡** | Directly contradicts "Tama = cheap." A station-adjacent, north-exit redevelopment neighborhood pulls the city average up. |
 | Tachikawa Akebono-cho vs. Ichiban-cho **3.6x gap** | Even within Tachikawa, a JR hub/redevelopment axis vs. Seibu Line/low-rise residential axis split emerges. |
@@ -141,7 +141,7 @@ A city with a strong **administrative and commercial sub-center** image. Tachika
 | Ichiban-cho | 23.0万円 | approx. 1,610万円 | 19 |
 | **City average** | **50.8万円** | **approx. 3,556万円** | **209** |
 
-**Where thinking shifted:** Looking at only the city average suggests "Tama's lowest-price market," but **Akebono-cho** is in the 80万 range. Cross-referencing public redevelopment data (Tachikawa Takurosu, etc.) with the Akebono-cho vs. Ichiban-cho contrast, the split emerges: Akebono-cho as a station/redevelopment/infrastructure axis, Ichiban-cho as a different residential character — Seibu Line, low-rise. Ichiban-cho n=19 — treat as directional reference only.
+**What changed my view:** Looking at only the city average suggests "Tama's lowest-price market," but **Akebono-cho** is in the 80万 range. Cross-referencing public redevelopment data (Tachikawa Takurosu, etc.) with the Akebono-cho vs. Ichiban-cho contrast, the split emerges: Akebono-cho as a station/redevelopment/infrastructure axis, Ichiban-cho as a different residential character — Seibu Line, low-rise. Ichiban-cho n=19 — treat as directional reference only.
 
 ---
 
@@ -276,7 +276,7 @@ It is easy to assume the highest-income city will also have the highest prices. 
 
 **Reflecting on this piece**
 
-The question I stayed with longest while preparing this was: "Is Tama really one market?" As I compared transaction records, my vague assumption that the four cities would be roughly similar started to break. **Kokubunji Honcho 126.5万** and the **3.6x gap within Tachikawa** do not fit the "affordable suburb" framing. Working through the data, the answers kept shifting — and in the end, neighborhood and living zone explained more than city name.
+The question I stayed with longest while preparing this was: "Is Tama really one market?" As I compared transaction records, my vague assumption that the four cities would be roughly similar started to break. **Kokubunji Honcho 126.5万** and the **3.6x gap within Tachikawa** do not fit the "affordable suburb" framing. The more I compared the data, the more my original assumption began to change — and in the end, neighborhood and living zone explained more than city name.
 
 **What I will keep reading this way**
 
