@@ -172,6 +172,7 @@ git add ACTIVITY_LOG.md && git commit -m "docs(activity-log): GSF-Ark Buttondown
 
 ## 7. 참고 링크
 
+- **Newsletter template (SSOT):** `docs/GSF_ARK_WEEKLY_NEWSLETTER_TEMPLATE.md`
 - Buttondown RSS docs: https://docs.buttondown.com/rss-to-email
 - Buttondown sending domain: https://docs.buttondown.com/sending-from-a-custom-domain
 - GSF-Ark repo: `scratch/projects/GSF-Ark` (remote: asiaunion/GSF-Blog)

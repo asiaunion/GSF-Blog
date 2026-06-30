@@ -35,7 +35,7 @@ async function main() {
 
   console.log(`Found ${recentItems.length} new post(s) within the last 7 days. Creating Buttondown draft...`);
 
-  // Build the email body
+  // Build the email body — SSOT: docs/GSF_ARK_WEEKLY_NEWSLETTER_TEMPLATE.md
   const esc = (s) => s ? s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') : '';
   let postsHtml = '';
   for (const item of recentItems) {
