@@ -43,16 +43,51 @@ async function main() {
     const description = item.contentSnippet || item.content || "";
     const url = item.link;
 
-    postsHtml += `<h2>${esc(title)}</h2>\n<p>${description}</p>\n<p><a href="${url}">Read on the blog &rarr;</a></p>\n<hr/>\n`;
+    postsHtml += `<h2>${esc(title)}</h2>
+
+<p>${description}</p>
+
+<p>
+<a href="${url}">
+Read the full analysis →
+</a>
+</p>
+
+<hr />
+
+`;
   }
 
   const htmlBody = `<p>Hi,</p>
 
-<p>Here are the latest updates from GSF Ark this week:</p>
+<p>
+Here are the latest articles published on <strong>GSF-Ark</strong> over the past week.
+</p>
+
+<p>
+GSF-Ark is a data-first notebook on Tokyo real estate, J-REITs, and Korea–Japan macro trends, written from Nihonbashi, Tokyo.
+</p>
+
+<hr />
 
 ${postsHtml}
+<p>
+Thanks for reading.
+</p>
 
-<p>&mdash; Joseph<br>GSF Ark &middot; Tokyo real estate &amp; J-REIT</p>`;
+<p>
+My goal is simple: present the data, explain the context, and share how I interpret it.
+</p>
+
+<p>
+You'll hear from me whenever I publish a new analysis or practical guide related to Tokyo real estate, J-REITs, or Korea–Japan investing. I don't send emails on a fixed schedule—only when I have something genuinely worth sharing.
+</p>
+
+<p>
+— <strong>Joseph KIM</strong><br>
+Logged from Nihonbashi, Tokyo<br>
+<a href="https://gsfark.com">gsfark.com</a>
+</p>`;
 
   let draftSubject = `[Draft] ${recentItems[0].title}`;
   if (recentItems.length > 1) {
