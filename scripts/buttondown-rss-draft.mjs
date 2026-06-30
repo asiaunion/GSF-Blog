@@ -1,4 +1,5 @@
 import Parser from 'rss-parser';
+import fetch from 'node-fetch'; // Make sure fetch is available (built-in in Node 18+)
 
 const parser = new Parser();
 const API_KEY = process.env.BUTTONDOWN_API_KEY;
@@ -18,42 +19,47 @@ async function main() {
     return;
   }
 
-  // Get the most recent item
-  const latestItem = feed.items[0];
-  console.log(`Latest post: "${latestItem.title}"`);
-  console.log(`Published on: ${latestItem.pubDate}`);
-
-  // Check if it's within the last 7 days
-  const pubDate = new Date(latestItem.pubDate);
+  // Get all items published within the last 7 days
   const now = new Date();
-  const diffTime = Math.abs(now - pubDate);
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+  const recentItems = feed.items.filter(item => {
+    const pubDate = new Date(item.pubDate);
+    const diffTime = Math.abs(now - pubDate);
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    return diffDays <= 7;
+  });
 
-  if (diffDays > 7) {
-    console.log(`The latest post is ${diffDays} days old. It was published more than 7 days ago. Skipping draft creation.`);
+  if (recentItems.length === 0) {
+    console.log("No new posts found within the last 7 days. Skipping draft creation.");
     return;
   }
 
-  console.log("The post is new (within the last 7 days). Creating Buttondown draft...");
+  console.log(`Found ${recentItems.length} new post(s) within the last 7 days. Creating Buttondown draft...`);
 
-  const title = latestItem.title;
-  const description = latestItem.contentSnippet || latestItem.content || "";
-  const url = latestItem.link;
+  // Build the email body
+  let postsHtml = '';
+  for (const item of recentItems) {
+    const title = item.title;
+    const description = item.contentSnippet || item.content || "";
+    const url = item.link;
+
+    postsHtml += `<h2>${title}</h2>\n<p>${description}</p>\n<p><a href="${url}">Read on the blog &rarr;</a></p>\n<hr/>\n`;
+  }
 
   const htmlBody = `<p>Hi,</p>
 
-<p>A new post is live on GSF Ark:</p>
+<p>Here are the latest updates from GSF Ark this week:</p>
 
-<h2>${title}</h2>
-
-<p>${description}</p>
-
-<p><a href="${url}">Read on the blog &rarr;</a></p>
+${postsHtml}
 
 <p>&mdash; Joseph<br>GSF Ark &middot; Tokyo real estate &amp; J-REIT</p>`;
 
+  let draftSubject = `[Draft] ${recentItems[0].title}`;
+  if (recentItems.length > 1) {
+    draftSubject = `[Draft] ${recentItems[0].title} and ${recentItems.length - 1} more`;
+  }
+
   const payload = {
-    subject: `[Draft] ${title}`,
+    subject: draftSubject,
     body: htmlBody,
     status: "draft"
   };
