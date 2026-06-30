@@ -40,12 +40,12 @@ async function main() {
   let postsHtml = '';
   for (const item of recentItems) {
     const title = item.title;
-    const description = item.contentSnippet || item.content || "";
+    const description = item.contentSnippet || item.description || "";
     const url = item.link;
 
     postsHtml += `<h2>${esc(title)}</h2>
 
-<p>${description}</p>
+<p>${esc(description)}</p>
 
 <p>
 <a href="${url}">

@@ -10,7 +10,7 @@
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/3** 재제출 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | 7/3 AdSense 재제출 · Ep.10 SNS 수동 게시(Joseph X KO 승인) |
+| 이번 주 최우선 액션 | 7/1 RSS 마이너 버그 대응 |
 | 다음 체크포인트 | 7/3 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
 | 블로커 | 없음 — Essay 3 노출·색인 요청 완료 (`main` `9c5984a`) |
 
@@ -157,6 +157,9 @@
 
 ## 📝 작업 로그
 ### 2026-06-30
+- Buttondown RSS Draft 마이너 버그 픽스 및 핸드오프 정리
+- Buttondown RSS Draft 템플릿 적용
+- Cursor 검증 피드백 반영 (Buttondown RSS Draft)
 - Ep.10 3언어 배포·SNS 초안·AdSense 점검 완료
 - EN/JA 번역 및 피드백 수정
 - Ep.10 SNS Voice v1.0 최종 확정 초안 반영 및 로컬 백업 저장
