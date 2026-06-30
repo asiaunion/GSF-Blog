@@ -6,6 +6,8 @@
 
 > ⛔ **수동 작성 금지** — 베이스는 반드시 scheduler 출력에서 시작:
 >
+> **확정 초안이 이미 있으면** (`sns-drafts/*-<slug>.md`, 제목에 `최종 확정`) → AG는 **재작성 없이** 해당 파일 읽기 + `validate:sns-draft` 후 제출. [`social-broadcast` Step 0-B](../.agents/skills/social-broadcast/SKILL.md)
+>
 > ```bash
 > cd projects/GSF-Ark
 > python3 scripts/sns_scheduler.py --dry-run --rounds 1

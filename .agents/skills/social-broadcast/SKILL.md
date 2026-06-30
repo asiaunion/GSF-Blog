@@ -54,6 +54,27 @@ slug가 2개 이상 후보면 Joseph에게만 1회 확인. 그 외에는 묻지 
 
 ---
 
+## Step 0-B — 확정 초안 우선 (기본 경로)
+
+`pnpm sns:resolve-slug` 출력에 **`draftFile`** 이 있으면 **재작성하지 않는다**.
+
+1. `draftFile` 전문 읽기 (예: `sns-drafts/2026-06-30-tokyo-kokubunji-kunitachi-fuchu-tachikawa.md`)
+2. `pnpm validate:sns-draft --slug <slug>` → **exit 0** 확인
+3. exit 0이면 → **Step 1~3 생략** · 파일 내용을 Step 5 채팅 형식으로 Joseph에게 제출
+4. `draftFinalized: true`이면 제목에 **(최종 확정)** 표기 유지
+
+**재작성은 Joseph가 명시할 때만** (`다시 써줘`, `SNS 초안 수정`, `Voice로 새로` 등).
+
+| slug | 확정 초안 SSOT |
+|------|----------------|
+| `tokyo-kokubunji-kunitachi-fuchu-tachikawa` (Ep.10) | `sns-drafts/2026-06-30-tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` |
+
+`_handoff.md`에 SNS 초안 확정 항목이 있으면 동일 파일을 우선한다.
+
+**커밋·푸시**: Joseph 지시 시 AG가 `sns-drafts/*-<slug>.md` (+ 관련 doc 변경)만 스테이징. `git commit` / `git push`는 Joseph 명시 후.
+
+---
+
 ## Step 1 — 질문·발견 추출 (내부)
 
 블로그 KO 본문에서 다음을 **2줄로 먼저 정리** (채팅에 잠깐 보여도 됨):

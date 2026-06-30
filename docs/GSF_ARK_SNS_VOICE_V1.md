@@ -181,6 +181,7 @@ pnpm validate:sns-draft --slug <slug>   # exit 0
 - **발견**: "타치카와시 안에서 동네에 따라 최대 3.6배"
 - **결론**: "도시 평균보다 동네가 시장을 더 잘 설명한다"
 - **블로그 SSOT**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md`
+- **SNS 초안 SSOT (최종 확정)**: `sns-drafts/2026-06-30-tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` — AG는 재작성 없이 읽고 제출
 
 ---
 

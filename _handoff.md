@@ -21,6 +21,16 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
+## [2026-06-30 10:55] AG SNS 초안 완료
+- 작업 내용: Ep.10 다마 교육·문화 벨트 SNS Voice v1.0 기준 초안 확정 및 YMYL-safe 검증 통과
+- 저장 파일: `projects/GSF-Ark/sns-drafts/2026-06-30-tokyo-kokubunji-kunitachi-fuchu-tachikawa.md`
+- 커밋 해시: (로컬 git 커밋 없음)
+- 배포 URL: (수동 발행 필요)
+- Claude 부재 여부: 예
+- 특이사항:
+  - `projects/GSF-Ark/docs/GSF_ARK_SNS_VOICE_V1.md` 및 `AG_SNS_DRAFT_PROMPT.md`에 Voice v1.0 영구 지식화 반영
+  - Buffer API 예약 한도 초과 오류(Scheduled posts limit reached)로 자동 배포 불가 → 전체 채널 수동 복사 발행 전환
+
 ## [2026-06-19 14:33] AG 배포 완료
 - 작업 내용: Ep.07 도쿄 북부 4구 (기타·아라카와·이타바시·네리마) KO/EN/JA 포스팅 + 히어로 이미지 강제화 인프라
 - 커밋 해시: 8f7b7b2
@@ -283,3 +293,11 @@
 - 해결: `src/components/Datetime.astro` 내 `Intl.DateTimeFormat` 생성 시 `timeZone: postTimezone || SITE.timezone` 옵션을 명시적으로 추가하여 UTC 빌드 서버 환경에서도 아시아/도쿄 표준시 기준 날짜로 강제 포맷팅 처리함.
 - 배포: `npx vercel --prod --yes` 수동 강제 배포 실행 완료. (Aliased to https://gsfark.com, ID: kxdh0iozo)
 - 검증: 실서버 글 목록에서 `Jun 30, 2026`으로 날짜가 정상 렌더링 노출되는 것을 확인 및 검증 완료.
+
+## [2026-06-30] SNS 초안 확정 (Ep.10) — AG 확인·커밋 대기
+- slug: `tokyo-kokubunji-kunitachi-fuchu-tachikawa`
+- 초안 파일: `sns-drafts/2026-06-30-tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Joseph 최종 확정)
+- validate: `pnpm validate:sns-draft --slug tokyo-kokubunji-kunitachi-fuchu-tachikawa` exit 0 (로컬)
+- AG: `SNS 배포 시작` → social-broadcast Step 0-B · 파일 읽고 채팅 제출 (재작성 금지)
+- git: Joseph 지시 시 AG가 add/commit/push (`sns-drafts/` + 관련 doc)
+- 다음: Joseph 승인 → X KO 1차 게시 (`docs/SNS_PILOT_CADENCE.md`)

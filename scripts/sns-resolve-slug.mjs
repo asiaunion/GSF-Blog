@@ -11,13 +11,14 @@
  *   node scripts/sns-resolve-slug.mjs
  *   node scripts/sns-resolve-slug.mjs --slug tokyo-kokubunji-kunitachi-fuchu-tachikawa
  */
-import { readFile, readdir } from "node:fs/promises";
+import { readFile, readdir, stat } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
 const HANDOFF = path.join(root, "_handoff.md");
 const KO_BLOG = path.join(root, "src/data/blog/ko");
 const EPISODES = path.join(root, "docs/verification/tokyo-series-episodes.json");
+const DRAFTS_DIR = path.join(root, "sns-drafts");
 
 function parseArgs(argv) {
   const out = { slug: "" };
@@ -72,6 +73,34 @@ async function slugFromNewestKo() {
   return { slug: best.slug, source: "newest-ko", title: best.title, pubDatetime: best.pubDatetime, category: best.category };
 }
 
+async function draftForSlug(slug) {
+  try {
+    const files = (await readdir(DRAFTS_DIR)).filter(
+      f => f.endsWith(`-${slug}.md`) && f !== "_TEMPLATE.md",
+    );
+    if (files.length === 0) return null;
+
+    let best = files[0];
+    let bestMtime = 0;
+    for (const f of files) {
+      const st = await stat(path.join(DRAFTS_DIR, f));
+      if (st.mtimeMs > bestMtime) {
+        bestMtime = st.mtimeMs;
+        best = f;
+      }
+    }
+
+    const rel = `sns-drafts/${best}`;
+    const head = await readFile(path.join(DRAFTS_DIR, best), "utf8");
+    const firstLine = head.split("\n")[0] ?? "";
+    const finalized = /최종 확정|final/i.test(firstLine);
+
+    return { draftFile: rel, draftFinalized: finalized };
+  } catch {
+    return null;
+  }
+}
+
 async function episodeForSlug(slug) {
   try {
     const raw = await readFile(EPISODES, "utf8");
@@ -123,6 +152,7 @@ async function main() {
   }
 
   const episode = await episodeForSlug(slug);
+  const draft = await draftForSlug(slug);
 
   console.log(
     JSON.stringify(
@@ -133,6 +163,8 @@ async function main() {
         category,
         episode,
         source,
+        draftFile: draft?.draftFile ?? null,
+        draftFinalized: draft?.draftFinalized ?? false,
         ...meta,
       },
       null,

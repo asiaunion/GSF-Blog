@@ -74,7 +74,8 @@ SSOT: `scratch/projects/GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md` · Cl
 
 Joseph가 **`SNS 배포 시작`** / **`SNS 배포`** / **`소셜 배포`** 만 말하면 → **`.agents/skills/social-broadcast/SKILL.md`** 즉시 실행.
 
-- slug 생략 시: `pnpm sns:resolve-slug` (handoff → 최신 KO 포스트)
+- slug 생략 시: `pnpm sns:resolve-slug` (handoff → 최신 KO 포스트 · **draftFile** 있으면 확정 초안 우선)
+- 확정 초안 있으면 재작성 금지 — `social-broadcast` Step 0-B
 - Voice v1.0 초안 6건 + `validate:sns-draft` exit 0 후 Joseph 승인 요청
 - Buffer·게시는 Joseph 승인 후만
 
