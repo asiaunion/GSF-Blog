@@ -40,12 +40,12 @@ async function main() {
   let postsHtml = '';
   for (const item of recentItems) {
     const title = item.title;
-    const description = item.contentSnippet || item.description || "";
+    const snippet = item.contentSnippet || item.description || "";
     const url = item.link;
 
     postsHtml += `<h2>${esc(title)}</h2>
 
-<p>${esc(description)}</p>
+<p>${esc(snippet)}</p>
 
 <p>
 <a href="${url}">
@@ -61,7 +61,11 @@ Read the full analysis →
   const htmlBody = `<p>Hi,</p>
 
 <p>
-Here are the latest articles published on <strong>GSF-Ark</strong> over the past week.
+Here are the latest analyses recently published on <strong>GSF-Ark</strong>.
+</p>
+
+<p>
+I hope you find something useful in this edition.
 </p>
 
 <p>
@@ -80,7 +84,7 @@ My goal is simple: present the data, explain the context, and share how I interp
 </p>
 
 <p>
-You'll hear from me whenever I publish a new analysis or practical guide related to Tokyo real estate, J-REITs, or Korea–Japan investing. I don't send emails on a fixed schedule—only when I have something genuinely worth sharing.
+If you found something useful, feel free to share it with someone who may enjoy it as well.
 </p>
 
 <p>

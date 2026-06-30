@@ -361,3 +361,9 @@
 - 커밋 해시: 3b3701d
 - 특이사항: GitHub Actions 연동, Buttondown API 무료 티어 한계로 Draft API 사용. 다중 포스트 지원 및 Cursor 코드리뷰 피드백(node-fetch 제거, HTML 이스케이프, 예약 포스트 제외) 모두 반영 완료 (`ac708dc`).
 - Claude 부재 여부: 아니오
+
+## [2026-07-01 00:58] AG 작업 완료 — 템플릿 문구 및 구조 업데이트
+- 작업: 이메일 본문(Header, Body, Footer) 문구 최종 수정 반영
+- 변경 내용: Data-first 톤앤매너 유지, 시간 제약적 문구(over the past week) 삭제, 공유 권유 문구 추가
+- 특이사항: Design Principles 준수 확인 완료
+- 상태: 배포 완료
