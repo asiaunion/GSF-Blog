@@ -301,3 +301,14 @@
 - AG: `SNS 배포 시작` → social-broadcast Step 0-B · 파일 읽고 채팅 제출 (재작성 금지)
 - git: Joseph 지시 시 AG가 add/commit/push (`sns-drafts/` + 관련 doc)
 - 다음: Joseph 승인 → X KO 1차 게시 (`docs/SNS_PILOT_CADENCE.md`)
+
+## [2026-06-30] Cursor 세션 종료 — SNS Voice v1.0 · Ep.10 초안
+- **상태**: 저장 완료 · `main` clean · 최신 커밋 `cb7a558` (AG)
+- **완료**:
+  - GSF-Ark SNS Voice v1.0 확정 (`docs/GSF_ARK_SNS_VOICE_V1.md`)
+  - `social-broadcast` 스킬 + `SNS 배포 시작` 트리거 · `pnpm sns:resolve-slug` (`draftFile`/`draftFinalized`)
+  - Ep.10 확정 초안: `sns-drafts/2026-06-30-tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` · `validate:sns-draft` exit 0
+- **AG 다음 액션**:
+  1. `SNS 배포 시작` → Step 0-B로 확정 초안 제출 (재작성 금지)
+  2. Joseph 승인 후 X KO 1차 게시 (`hero-og.jpg` 미디어 첨부)
+- **미완**: SNS 실제 게시(Buffer/수동) — Joseph 승인 대기
