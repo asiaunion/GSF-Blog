@@ -312,3 +312,52 @@
   1. `SNS 배포 시작` → Step 0-B로 확정 초안 제출 (재작성 금지)
   2. Joseph 승인 후 X KO 1차 게시 (`hero-og.jpg` 미디어 첨부)
 - **미완**: SNS 실제 게시(Buffer/수동) — Joseph 승인 대기
+
+## [2026-06-30] Claude — 7/3 AdSense 재제출 전 최종 점검 (라이브 + GSC + Gmail)
+
+**결론: 기술적 결함 0건. 7/3 재제출 진행 가능.**
+
+### 라이브 사이트 직접 점검 (Claude in Chrome)
+| 항목 | 결과 |
+|------|------|
+| `gsfark.com/ads.txt` | ✅ `google.com, pub-4729433282370174, DIRECT, f08c47fec0942fa0` 정상 |
+| `sitemap-0.xml` | ✅ admin/tags/archives/search/en-redirect **0건** — 필터 완전 작동 |
+| `robots.txt` | ✅ `/admin/` disallow 정상, sitemap 경로 정상 |
+| Privacy Policy | ✅ Operator(Joseph KIM)·contact@gsfark.com·AdSense 고지 명시 |
+| AdSense 스크립트 | ✅ JS 콘솔 직접 검사 — `adsbygoogle.js?client=ca-pub-4729433282370174` 실제 DOM 로드 확인, 쿠키 게이팅 없음 |
+| 홈페이지 / Ep10 라이브 | ✅ 정상 렌더링 |
+
+### GSC 점검 (search.google.com/search-console)
+- 개요 화면 "최종 업데이트: 26.6.12" — **스냅샷이 3주 전**이라 536/116 수치를 액면 그대로 걱정할 필요 없음
+- 색인 안됨 536건 사유 9개 분류 — **전부 의도된 noindex/robots 차단 설계 또는 정상 대기열**(크롤링됨·발견됨 67건은 시간이 해결)
+- 404 54건 드릴다운 → 전부 `/tags/*`, `/resources/`(구 경로), PDF 등 **6/21 이미 redirect/410 처리된 레거시 URL의 캐시 잔재**. 유효성 검사 "시작됨(26.6.21)" 확인 — 이미 재검토 요청 들어간 상태
+- **GSC 알림 메일 5월~6월 빈도 변화 확인(Gmail 검색, 총 34건)**: 5월엔 거의 매주 "유효성 검사 시작→일부 미해결" 트라이얼 루프 반복, 6/20~21 마지막 이슈(프로필 페이지 구조화 데이터 mainEntity 누락) "해결됨" 확정 후 **메일 완전 중단**. 메커니즘상 "검증 요청한 미해결 항목이 있을 때만" 발송되는 구조라, 6/21 이후 무메일 = **신규 문제 없음**(부정 신호 아님)
+
+### AdSense "조치 필요" 메일 6건 전수 확인 (5/11, 5/18, 5/28, 6/4, 6/10, 6/15)
+- 6건 전부 **동일한 정형 템플릿** (제목·본문 100% 일치, 직접 본문 대조: 5/11 vs 6/15)
+- **구체적 거절 사유는 메일에 일절 명시되지 않음** — Google AdSense의 표준 정책(상세 사유는 항상 대시보드 내에서만 제공)
+- 본문 내 유일한 단서: "전문가 팁 — 콘텐츠 부족 또는 낮은 콘텐츠 품질이 흔한 비승인 사유" (일반적 안내 문구, 사이트 특정 진단 아님)
+- → 6/13 audit report(ads.txt 공백·쿠키게이팅·admin sitemap)는 **메일이 아닌 코드/구조 분석을 통한 자체 추론**이었고, 이번 점검으로 그 추론이 모두 코드 레벨에서 해소된 것을 라이브로 재확인함
+
+### 종합 판단
+- 6/10(4차 거절) → 7/3(5차 제출) 간격 23일 — "최소 2주" 권고 충족
+- 기술 결함(ads.txt, 쿠키게이팅, admin sitemap, 404) 전부 해소·정상 대기 상태로 확인됨
+- 잔존 변수: 콘텐츠량/품질에 대한 Google의 정성적 판단(메일에 사유 비공개라 사전 확인 불가) — 이 부분만 결과를 봐야 알 수 있음
+- **다음 액션 없음 — 7/3 그대로 재제출 진행**
+
+
+## [2026-06-30 23:14] AG 작업 완료 — Buttondown RSS Draft 자동화 (우회 구현)
+- 작업: GitHub Actions + Buttondown API 기반 스크립트 작성 (`scripts/buttondown-rss-draft.mjs`) 및 workflow 설정
+- RSS URL: https://gsfark.com/rss.xml
+- Cadence: weekly (Saturday AM JST)
+- Behavior: 최신 1개 글이 7일 이내 작성된 경우 Buttondown API로 Draft 생성 (not auto-send)
+- 발신: API 템플릿에 지정
+- 스모크: Dummy key로 RSS 파싱 및 7일 판독 로직 검증 완료 (API Key 부재로 실제 전송은 401 확인)
+- repo 변경: `rss-parser` 의존성 추가, 스크립트 및 `.github/workflows/buttondown-weekly-draft.yml` 반영
+- 다음: Joseph 님이 GSF-Ark 레포지토리에 `BUTTONDOWN_API_KEY` GitHub Secret 추가 시 자동화 본격 가동
+
+## [2026-07-01 00:12] AG 배포 완료 — Buttondown RSS Draft 템플릿 적용
+- 작업 내용: Buttondown RSS Draft 메일 템플릿 레이아웃 전면 수정 (설계 의도에 맞춰 Header/Footer 및 리피터 최적화)
+- 커밋 해시: 3b3701d
+- 특이사항: GitHub Actions 연동, Buttondown API 무료 티어 한계로 Draft API 사용. 다중 포스트 지원 및 Cursor 코드리뷰 피드백(node-fetch 제거, HTML 이스케이프, 예약 포스트 제외) 모두 반영 완료 (`ac708dc`).
+- Claude 부재 여부: 아니오
