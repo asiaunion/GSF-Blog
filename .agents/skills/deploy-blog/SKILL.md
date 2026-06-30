@@ -1,6 +1,6 @@
 ---
 name: deploy-blog
-description: GSFArk.com 블로그 포스트 작성·배포 파이프라인 (Where to Live in Tokyo 시리즈 포함). Manifest 검증 게이트 필수.
+description: GSFArk.com 블로그 포스트 작성·배포 파이프라인 (Where to Live in Tokyo 시리즈 포함). Manifest 검증 게이트 필수. 배포 후 SNS는 social-broadcast 스킬 — Joseph「SNS 배포 시작」.
 ---
 
 # deploy-blog (GSF-Ark)
@@ -270,31 +270,28 @@ pnpm validate:post <slug>                      # hero-webp-exists + hero-og-jpg-
 
 Joseph: git commit + deploy — **md 3 + hero.webp + hero-og.jpg**
 
-### Step 6-S — SNS 초안 게이트 (배포 직후 · Buffer 게시 전)
+### Step 6-S — SNS 초안 (배포 직후 · Joseph: 「SNS 배포 시작」만 말해도 됨)
+
+**스킬**: [`.agents/skills/social-broadcast/SKILL.md`](../social-broadcast/SKILL.md) — **즉시 실행**  
+**Voice SSOT**: [`docs/GSF_ARK_SNS_VOICE_V1.md`](../../docs/GSF_ARK_SNS_VOICE_V1.md)
 
 ⛔ **금지**: `pnpm validate:sns-draft` exit 0 전 SNS 게시·“배포 완료” 선언  
-⛔ **금지**: `sns_scheduler.py` / `_TEMPLATE.md` 없이 X·Threads 초안만 수동 작성
+⛔ **금지**: `sns_scheduler.py` 출력을 Voice 재작성 없이 제출
 
-1. **초안 베이스** — scheduler 출력에서 시작 (수동 작성은 편집만 허용):
-   ```bash
-   python3 scripts/sns_scheduler.py --dry-run --rounds 1
-   # → sns-drafts/YYYY-MM-DD-<slug>.md 생성 · 구조는 sns-drafts/_TEMPLATE.md 참고
-   ```
-2. **기계 검증** (exit 0 필수):
-   ```bash
-   pnpm validate:sns-draft --slug <slug>
-   ```
-   - X: twitter-weighted ≤280 (URL=23자)
-   - Threads: ≤500자
-   - 투자/essay: 면책 문구 필수
-   - YMYL: 구체 수치·매수 권유 패턴 FAIL
-   - UTM: `utm_campaign=blog-broadcast`
-3. **Cadence** (`docs/SNS_PILOT_CADENCE.md`): 신규 포스트 → **X KO 1건 먼저** · EN 24h 후
-4. **X 이미지**: URL 카드만 의존 금지 → `{slug}-hero-og.jpg` **미디어 직접 첨부** 권장
-5. **LinkedIn** — [Post Inspector](https://www.linkedin.com/post-inspector/)에서 KO·EN canonical URL 각각 **Inspect**
-6. **Revert 후 재배포** 시 LinkedIn/X 카드 캐시 갱신 필수 (Inspector / [Card Validator](https://cards-dev.twitter.com/validator))
+**Joseph 트리거**: `SNS 배포 시작` / `SNS 배포` / `소셜 배포` (slug 생략 가능)
 
-`og:image`는 `-hero-og.jpg?v=YYYYMMDD` (발행일)로 캐시 무효화 권장.
+1. **slug** — `pnpm sns:resolve-slug` (또는 `-- --slug <slug>`)
+2. **초안** — Voice v1.0으로 X·LinkedIn·Threads EN/KO 6건 작성 → `sns-drafts/YYYY-MM-DD-<slug>.md`
+3. **검증** — `pnpm validate:sns-draft --slug <slug>` exit 0
+4. **제출** — 채팅 복사용 블록 + Joseph 승인 대기
+
+(선택) scheduler 베이스만 필요할 때:
+```bash
+python3 scripts/sns_scheduler.py --dry-run --rounds 1
+# → 생성 파일을 Voice v1.0으로 전면 재작성 후 validate
+```
+
+**Cadence**: `docs/SNS_PILOT_CADENCE.md` — X KO 1차 · EN 24h 후 · hero-og.jpg 미디어 첨부 권장
 
 ---
 

@@ -18,6 +18,7 @@
 | **AG에 시킬 때** | slug 영문 kebab-case로 통일 → KO 작성 → EN/JA 번역 → 위 세 경로에 저장 |
 | **Cursor 검증** | `pnpm verify:episode --slug <slug>` + `pnpm validate:post <slug>` exit 0 |
 | **발행** | 본인: git commit + deploy (`/blog_publish` 텔레그램은 legacy, [§ below](#what-was-blog_publish-telegram)) |
+| **SNS (배포 직후)** | **AG**: Joseph가 `SNS 배포 시작`만 말함 → [`social-broadcast`](../.agents/skills/social-broadcast/SKILL.md) · Voice [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · `pnpm sns:resolve-slug` |
 | **배포 직후 PKM (Tokyo 에피소드)** | **AG**: `pnpm dossier:ward -- --episode epXX` + ward 카드 블로그 링크·체크 ([§ AG post-deploy PKM](#ag-post-deploy-pkm-tokyo-episodes)) |
 | **repo 루트 주의** | `src/data/blog/_integrity-example-*.md`, `_template-*.md` 는 예시/템플릿 — 실제 글은 **`ko/` `en/` `ja/` 안만** |
 

@@ -67,7 +67,16 @@ SSOT: `scratch/projects/GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md` · Cl
 **Footnotes Wave A/B/C:** ✅ done — [`docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](docs/GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) (no Wave D)  
 **Session archive:** [`docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md`](docs/GSF_BLOG_SESSION_ARCHIVE_20260525.md)  
 **AG bootstrap (copy-paste):** [`docs/AG_CONTEXT_BOOTSTRAP_SHORT.md`](docs/AG_CONTEXT_BOOTSTRAP_SHORT.md)  
-**Workflow:** [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md)
+**Workflow:** [`docs/BLOG_AG_CURSOR_WORKFLOW.md`](docs/BLOG_AG_CURSOR_WORKFLOW.md)  
+**SNS Voice v1.0:** [`docs/GSF_ARK_SNS_VOICE_V1.md`](docs/GSF_ARK_SNS_VOICE_V1.md) · AG 프롬프트: [`docs/AG_SNS_DRAFT_PROMPT.md`](docs/AG_SNS_DRAFT_PROMPT.md) · 게시 전 `pnpm validate:sns-draft --slug <slug>` (exit 0)
+
+### SNS 배포 (Joseph 한 줄 트리거)
+
+Joseph가 **`SNS 배포 시작`** / **`SNS 배포`** / **`소셜 배포`** 만 말하면 → **`.agents/skills/social-broadcast/SKILL.md`** 즉시 실행.
+
+- slug 생략 시: `pnpm sns:resolve-slug` (handoff → 최신 KO 포스트)
+- Voice v1.0 초안 6건 + `validate:sns-draft` exit 0 후 Joseph 승인 요청
+- Buffer·게시는 Joseph 승인 후만
 
 ---
 

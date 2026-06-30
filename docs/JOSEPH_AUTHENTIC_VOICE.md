@@ -1,7 +1,7 @@
 # Joseph Authentic Voice — Editorial Philosophy
 
 > **상태**: v1.1 (2026-06-29) · Ep.10 voice lock · Joseph × ChatGPT · Cursor 정렬  
-> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
+> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
 > **기준 글 (benchmark)**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Ep.10)
 
 ---

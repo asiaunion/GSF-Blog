@@ -1,4 +1,5 @@
 # Social Broadcast Drafts (TEMPLATE)
+**Voice v1.0:** → [`docs/GSF_ARK_SNS_VOICE_V1.md`](../docs/GSF_ARK_SNS_VOICE_V1.md) · AG 프롬프트: [`docs/AG_SNS_DRAFT_PROMPT.md`](../docs/AG_SNS_DRAFT_PROMPT.md)
 **Post:** `<slug>`
 **Date:** `YYYY-MM-DD`
 **Cadence:** 신규 포스트 → X KO 1건만 먼저 (`docs/SNS_PILOT_CADENCE.md`)
@@ -35,7 +36,7 @@ https://gsfark.com/posts/<slug>/?utm_source=x&utm_medium=social&utm_campaign=blo
 https://gsfark.com/posts/<slug>/?utm_source=linkedin&utm_medium=social&utm_campaign=blog-broadcast
 
 ### 🇰🇷 KO
-*본 글은 정보 제공 목적이며 투자 권유가 아닙니다.
+*본 글은 정보 제공 목적이며, 특정 자산의 매수·매도를 권유하지 않습니다.
 https://gsfark.com/ko/posts/<slug>/?utm_source=linkedin&utm_medium=social&utm_campaign=blog-broadcast
 
 > 배포 후 [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/) — EN·KO canonical URL 각각 Inspect.

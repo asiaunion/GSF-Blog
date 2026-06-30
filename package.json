@@ -76,6 +76,7 @@
     "verify:decision-log": "npx --yes tsx scripts/verify-decision-log.mjs",
     "verify:og-social": "node scripts/verify-og-social.mjs",
     "validate:sns-draft": "node scripts/validate-sns-draft.mjs",
+    "sns:resolve-slug": "node scripts/sns-resolve-slug.mjs",
     "screen:wards": "node scripts/screen-wards.mjs"
   },
   "dependencies": {

@@ -20,6 +20,7 @@
 - 금지어: 반드시/무조건/guaranteed 등.
 - 경로: `src/data/blog/{ko,en,ja}/<동일-slug>.md(x)` · 수치 3언어 parity.
 - Tokyo 에피소드/투자 분석: `pnpm analyze:episode -- --episode epXX --slug <slug> --write` → `docs/verification/research-packs/<slug>.md` SSOT. 상세 `docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md`
+- **SNS**: Joseph가 `SNS 배포 시작`만 말하면 → `.agents/skills/social-broadcast/SKILL.md` 실행 · Voice `docs/GSF_ARK_SNS_VOICE_V1.md` · `pnpm sns:resolve-slug` + `pnpm validate:sns-draft --slug <slug>` exit 0
 
 각주 Wave A/B/C **완료** (Wave D 없음): [`GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md`](./GSF_BLOG_WAVE_C_FOOTNOTES_COMPLETE_20260527.md) · C 규칙: [`FOOTNOTE_ROLLOUT_WAVE_C_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_C_AG.md) · A: [`FOOTNOTE_ROLLOUT_WAVE_A_AG.md`](./FOOTNOTE_ROLLOUT_WAVE_A_AG.md)
 
@@ -35,7 +36,7 @@
 ## AG 메모리 1줄
 
 ```
-GSF-Blog: Wave A/B/C footnotes done. MLIT pipeline: docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md. analyze:episode → research-pack → manifest → KO. No footer disclaimer, no .svg.
+GSF-Blog: Wave A/B/C footnotes done. MLIT pipeline: docs/AG_GSFARK_MLIT_PIPELINE_PROMPT.md. SNS: "SNS 배포 시작" → social-broadcast skill + Voice v1.0. No footer disclaimer, no .svg.
 ```
 
 ## Antigravity Knowledge (repo)

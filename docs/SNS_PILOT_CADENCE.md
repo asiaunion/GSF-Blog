@@ -1,7 +1,8 @@
 # SNS Pilot Cadence (1–2 posts / week)
 
 > **목표**: SEO-only 트래픽에 **월 4–8건** 소셜 시그널 추가. Phase 2 full automation 전 **수동·반자동 pilot**.  
-> **구현**: [`blueprint-social-broadcast.md`](../blueprint-social-broadcast.md) + `social-broadcast` Codex 스킬
+> **구현**: [`blueprint-social-broadcast.md`](../blueprint-social-broadcast.md) + `social-broadcast` Codex 스킬  
+> **톤·초안 규칙 (v1.0)**: [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · AG 복붙: [`AG_SNS_DRAFT_PROMPT.md`](./AG_SNS_DRAFT_PROMPT.md)
 
 ---
 
