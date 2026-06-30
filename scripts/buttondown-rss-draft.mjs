@@ -1,5 +1,4 @@
 import Parser from 'rss-parser';
-import fetch from 'node-fetch'; // Make sure fetch is available (built-in in Node 18+)
 
 const parser = new Parser();
 const API_KEY = process.env.BUTTONDOWN_API_KEY;
@@ -23,6 +22,7 @@ async function main() {
   const now = new Date();
   const recentItems = feed.items.filter(item => {
     const pubDate = new Date(item.pubDate);
+    if (isNaN(pubDate.getTime()) || pubDate > now) return false;
     const diffTime = Math.abs(now - pubDate);
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     return diffDays <= 7;
@@ -36,13 +36,14 @@ async function main() {
   console.log(`Found ${recentItems.length} new post(s) within the last 7 days. Creating Buttondown draft...`);
 
   // Build the email body
+  const esc = (s) => s ? s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') : '';
   let postsHtml = '';
   for (const item of recentItems) {
     const title = item.title;
     const description = item.contentSnippet || item.content || "";
     const url = item.link;
 
-    postsHtml += `<h2>${title}</h2>\n<p>${description}</p>\n<p><a href="${url}">Read on the blog &rarr;</a></p>\n<hr/>\n`;
+    postsHtml += `<h2>${esc(title)}</h2>\n<p>${description}</p>\n<p><a href="${url}">Read on the blog &rarr;</a></p>\n<hr/>\n`;
   }
 
   const htmlBody = `<p>Hi,</p>
