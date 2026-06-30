@@ -10,7 +10,7 @@
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/3** 재제출 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | Ep10 집필·번역 · 7/3 AdSense 재제출 |
+| 이번 주 최우선 액션 | 7/3 AdSense 재제출 · Ep.10 SNS 수동 게시(Joseph X KO 승인) |
 | 다음 체크포인트 | 7/3 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
 | 블로커 | 없음 — Essay 3 노출·색인 요청 완료 (`main` `9c5984a`) |
 
@@ -22,7 +22,7 @@
 |------|------|------|
 | 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
 | 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
-| 7/3 | GSFArk AdSense 재제출 | ⏳ 예정 (Joseph 합의) |
+| 7/3 | GSFArk AdSense 재제출 | ⏳ 예정 (Joseph 합의) — 사전점검 완료(6/30, 결함 0건) |
 | 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | 🔄 AG 준비 중 |
 | 매주 화/목 | 발행 목표 주 2회 유지 | 🔄 진행 중 |
 
@@ -50,15 +50,18 @@
 
 ---
 
-## 📋 AdSense 현황 (2026-06-15 기준)
+## 📋 AdSense 현황 (2026-06-30 재확인)
 
 | 항목 | 상태 |
 |------|------|
-| 신청 횟수 | 5차 (조치 필요 통보 수신) |
-| 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) |
+| 신청 횟수 | 5차 (조치 필요 통보 수신, 6건 전수 확인 — 5/11、6/15 동일 정형 템플릿, 구체 사유 비공개) |
+| 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) — **6/30 라이브 직접 재확인 완료** |
+| GSC 404 54건 | ✅ 전부 레거시 URL(tags/resources/PDF) — 6/21 이미 redirect/410 처리, 유효성검사 진행 중 |
 | 재제출 예정 | **7/3** (Privacy·ToS·ads.txt·Topic Hubs 반영 후) |
 | GSC 색인 큐 | ✅ Day 1–6 **49/49** + Essay 3 EN/KO/JA **3/3** (Joseph, 6/26) |
-| GSC 색인 추세 | ⚠️ 116개 기준 — 큐 반영 후 1~2주 뒤 재측정 |
+| GSC 색인 추세 | ⚠️ 개요화면 6/12 스냅샷 기준(116개) — 실제 최신값은 더 높을 가능성, 큐 반영 후 1~2주 뒤 재측정 |
+
+> **2026-06-30 Claude 점검 SSOT**: `_handoff.md` [2026-06-30] Claude — 7/3 AdSense 재제출 전 최종 점검 블록 (라이브+GSC+Gmail 전체 증거)
 
 ---
 
@@ -154,11 +157,13 @@
 
 ## 📝 작업 로그
 ### 2026-06-30
+- Ep.10 3언어 배포·SNS 초안·AdSense 점검 완료
 - EN/JA 번역 및 피드백 수정
 - Ep.10 SNS Voice v1.0 최종 확정 초안 반영 및 로컬 백업 저장
 - SNS Voice v1.0 규칙 및 프롬프트 가이드 문서화
 - Astro 타임존 렌더링 버그 수정
 - Ep.10 실시간 릴리스 배포 및 dossier:ward 데이터 적재
+- 7/3 AdSense 재제출 전 최종 점검(Claude) — 라이브(ads.txt·sitemap·robots.txt·AdSense 스크립트)·GSC(색인 536건 사유·404 54건)·Gmail(GSC 알림 34건+AdSense 거절메일 6건 전수) 직접 확인, 결함 0건
 
 ### 2026-06-28
 - Ep09 배포 완료 · Ep10 KO 초안 완료 (Cursor 6/28)
