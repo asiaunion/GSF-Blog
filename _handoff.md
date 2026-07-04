@@ -21,18 +21,17 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
-## [2026-07-04 16:50 JST] Cursor 브랜치 대기
-- 작업 내용: 한국 거주자의 일본 부동산 양도세 실무 에피소드 초안 작성 및 검증 완료 (KO/EN/JA)
+## [2026-07-04 17:35 JST] Cursor 브랜치 대기
+- 작업 내용: 한국 거주자의 일본 부동산 양도세 에피소드 출처 정밀 수정 및 본문 단순화 완료 (KO/EN/JA)
+  - NTS 오링크 교체 (양도세 개요 및 소득세법 제57조 공식 법조문 percent-encoding 주소 채택)
+  - 일본 NTA No.3208(장기세율) / No.2024(확정신고) / No.2022(납세관리인) 공식 URL 보강 및 각주 재정렬
+  - 난해한 세법 개념을 직관적인 비유("새해 해돋이 횟수 기준")로 훨씬 이해하기 쉽게 순화 및 불필요한 단락 축소
 - 브랜치: fix/tag-capital-gains-episode
-- 커밋 (validate): e5e075f (pnpm validate:post PASS 100점 완료)
+- 커밋 (validate): a6b29e6 (pnpm validate:post PASS 100점 완료)
 - slug / 파일: `korea-resident-japan-property-capital-gains-tax`
-  - KO: `src/data/blog/ko/korea-resident-japan-property-capital-gains-tax.md`
-  - EN: `src/data/blog/en/korea-resident-japan-property-capital-gains-tax.md`
-  - JA: `src/data/blog/ja/korea-resident-japan-property-capital-gains-tax.md`
-  - 에셋: `public/assets/images/blog/korea-resident-japan-property-capital-gains-tax-hero.jpg` (.webp, -og.jpg), `public/assets/images/blog/diagrams/korea-resident-japan-property-capital-gains-tax-flow.webp`
-- 배포 예정: Cursor의 최종 PASS 검증 완료 후 main merge 및 prod deploy 예정
+- 배포 예정: Cursor의 최종 PASS 재검증 완료 후 main merge 및 prod deploy 예정
 - 다음: Cursor의 `fix/tag-capital-gains-episode` 브랜치 품질 최종 승인
-- SSOT: docs/EPISODE_BRIEF_korea-resident-japan-capital-gains-20260704.md
+- SSOT: GSF-OS/AG_TASK_ark-capital-gains-sources-fix-20260704.md
 
 ## [2026-07-04 16:10 JST] AG 배포 완료 (Cursor PASS 후)
 - 작업 내용: Phase 1~3 (태그 직링크 · taxonomy · 운영 신뢰) 구현 및 배포 완료
