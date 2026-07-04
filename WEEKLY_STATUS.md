@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-07-04 |
+| 최종 업데이트 | 2026-07-05 |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/2** 재제출 완료 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
@@ -156,8 +156,12 @@
 ---
 
 ## 📝 작업 로그
+### 2026-07-05
+- 양도세 에피소드 출처 정밀 수정 및 본문 단순화 완료
+- SNS Voice v1.0 톤앤매너 정밀 교정 적용 및 validate:sns-draft 통과
 
 ### 2026-07-04
+- Where to Live 프롤로그·pending 문구 prod 배포 확인
 - 양도세 에피소드 KO/EN/JA prod 배포
 - Phase1~3 태그 직링크·taxonomy prod 배포
 - Phase 1~3 태그 직링크 및 taxonomy 린트 배포 완료
