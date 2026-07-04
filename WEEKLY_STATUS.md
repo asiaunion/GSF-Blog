@@ -6,12 +6,12 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-06-30 |
+| 최종 업데이트 | 2026-07-02 |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/3** 재제출 |
+| 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/2** 재제출 완료 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | 7/1 RSS 마이너 버그 대응 |
-| 다음 체크포인트 | 7/3 AdSense 재제출 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
+| 이번 주 최우선 액션 | 7/1 템플릿 문구 업데이트 |
+| 다음 체크포인트 | AdSense 심사 결과 확인 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
 | 블로커 | 없음 — Essay 3 노출·색인 요청 완료 (`main` `9c5984a`) |
 
 ---
@@ -22,7 +22,7 @@
 |------|------|------|
 | 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
 | 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
-| 7/3 | GSFArk AdSense 재제출 | ⏳ 예정 (Joseph 합의) — 사전점검 완료(6/30, 결함 0건) |
+| 7/2 | GSFArk AdSense 재제출 | ✅ 완료 — 검토 요청 제출 완료, 결과 대기 중 |
 | 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | 🔄 AG 준비 중 |
 | 매주 화/목 | 발행 목표 주 2회 유지 | 🔄 진행 중 |
 
@@ -57,7 +57,7 @@
 | 신청 횟수 | 5차 (조치 필요 통보 수신, 6건 전수 확인 — 5/11、6/15 동일 정형 템플릿, 구체 사유 비공개) |
 | 기술 결함 | ✅ 전부 해소 (admin sitemap, consent-gate, ads.txt) — **6/30 라이브 직접 재확인 완료** |
 | GSC 404 54건 | ✅ 전부 레거시 URL(tags/resources/PDF) — 6/21 이미 redirect/410 처리, 유효성검사 진행 중 |
-| 재제출 예정 | **7/3** (Privacy·ToS·ads.txt·Topic Hubs 반영 후) |
+| 재제출 상태 | **7/2 제출 완료** — 결과 대기 중 |
 | GSC 색인 큐 | ✅ Day 1–6 **49/49** + Essay 3 EN/KO/JA **3/3** (Joseph, 6/26) |
 | GSC 색인 추세 | ⚠️ 개요화면 6/12 스냅샷 기준(116개) — 실제 최신값은 더 높을 가능성, 큐 반영 후 1~2주 뒤 재측정 |
 
@@ -156,7 +156,15 @@
 ---
 
 ## 📝 작업 로그
+
+### 2026-07-02
+- AdSense 재제출 완료 (7/2)
+### 2026-07-01
+- Buttondown RSS Draft 자동화 파이프라인 구축 완료 (최근 7일 포스트 번들링
+- GitHub Actions 연동)
+- 뉴스레터 Final Copy 템플릿 문구 반영 (Data-first 톤 유지)
 ### 2026-06-30
+- Buttondown 뉴스레터 템플릿 최종 문구(Final Copy) 반영
 - Buttondown RSS Draft 마이너 버그 픽스 및 핸드오프 정리
 - Buttondown RSS Draft 템플릿 적용
 - Cursor 검증 피드백 반영 (Buttondown RSS Draft)

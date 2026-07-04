@@ -16,6 +16,7 @@ import { patchVercelConfig } from "./patchVercelRedirectsTrailingSlash";
 function pagefindVercelAuxIntegration(
   vercelStaticDir: () => string,
   blogDir: () => string,
+  projectRoot: () => string,
 ): AstroIntegration {
   return {
     name: "pagefind-sync-aux-to-vercel-static",
@@ -30,6 +31,25 @@ function pagefindVercelAuxIntegration(
           logger.info(
             `vercel-config-patch: stripped ${r.stripped} per-tag, +${r.catchAlls} catch-alls, +${r.wpLegacy} WP legacy, total ${r.total} routes`,
           );
+
+          // Run Vercel redirect loop and destination gate check
+          const simulatorScript = path.join(projectRoot(), "scripts", "simulate-vercel-routes.mjs");
+          if (fs.existsSync(simulatorScript)) {
+            logger.info("Running vercel redirect gate check...");
+            const gateResult = spawnSync(process.execPath, [simulatorScript, "--gate"], {
+              stdio: "inherit",
+              cwd: projectRoot(),
+            });
+            if (gateResult.error) {
+              throw gateResult.error;
+            }
+            if (gateResult.status !== 0) {
+              throw new Error(`Redirect gate verification failed with exit code ${gateResult.status}`);
+            }
+            logger.info("Redirect gate verification passed!");
+          } else {
+            logger.warn(`Simulator script not found at ${simulatorScript}; skip gate check.`);
+          }
         }
         if (!fs.existsSync(auxSrc)) {
           logger.warn(
@@ -67,6 +87,7 @@ export function pagefindIntegration(): AstroIntegration {
   const syncAux = pagefindVercelAuxIntegration(
     () => vercelStaticAbs,
     () => blogDirAbs,
+    () => projectRoot,
   );
 
   return {

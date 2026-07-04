@@ -7,9 +7,91 @@ import path from "node:path";
 
 const CONFIG = ".vercel/output/config.json";
 const STATIC_ROOT = ".vercel/output/static";
+const VERCEL_JSON = "vercel.json";
+const GONE_ROUTES = "scripts/vercel-gone-routes.json";
 
+// Read build output config
 const cfg = JSON.parse(fs.readFileSync(CONFIG, "utf-8"));
-const routes = cfg.routes;
+const existingRoutes = cfg.routes || [];
+
+// ── Vercel.json synthesis rules ──
+function sourceToSrc(source) {
+  let pattern = source
+    .replace(/:path\*/g, "___PATHSTAR___")
+    .replace(/:path/g, "___PATH___");
+  pattern = pattern.replace(/[.+?^${}()|[\]\\]/g, "\\$&");
+  pattern = pattern
+    .replace(/___PATHSTAR___/g, "(.*)")
+    .replace(/___PATH___/g, "([^/]+)");
+  return `^${pattern}$`;
+}
+
+function vercelDestination(dest) {
+  return dest.replace(/:path\*/g, "$1").replace(/:path/g, "$1");
+}
+
+function vercelRedirectToRoute({ source, destination, permanent }) {
+  return {
+    src: sourceToSrc(source),
+    status: permanent === false ? 307 : 308,
+    headers: { Location: vercelDestination(destination) },
+  };
+}
+
+function trailingSlashVariant(route) {
+  if (route.status !== 308 && route.status !== 307) return null;
+  const { src } = route;
+  if (!src?.startsWith("^") || !src.endsWith("$")) return null;
+  const inner = src.slice(1, -1);
+  if (inner.endsWith("/") || inner.endsWith("/?")) return null;
+  return { ...route, src: `^${inner}/$` };
+}
+
+let vercelJson = { redirects: [] };
+if (fs.existsSync(VERCEL_JSON)) {
+  try {
+    vercelJson = JSON.parse(fs.readFileSync(VERCEL_JSON, "utf-8"));
+  } catch (e) {
+    console.error("Error reading vercel.json:", e);
+  }
+}
+
+const fromVercel = [];
+if (vercelJson.redirects) {
+  for (const r of vercelJson.redirects) {
+    const route = vercelRedirectToRoute(r);
+    const slash = trailingSlashVariant(route);
+    fromVercel.push(slash ?? route);
+  }
+}
+
+let fromGone = [];
+if (fs.existsSync(GONE_ROUTES)) {
+  try {
+    const goneSources = JSON.parse(fs.readFileSync(GONE_ROUTES, "utf-8"));
+    fromGone = goneSources.map(source => ({
+      src: sourceToSrc(source),
+      status: 410,
+    }));
+  } catch (e) {
+    console.error("Error reading vercel-gone-routes.json:", e);
+  }
+}
+
+// Synthesize routes: vercel.json redirects are applied first in Git build
+const routes = [];
+const seenKeys = new Set();
+function pushRoute(route) {
+  const key = `${route.src}|${route.status ?? ""}|${route.headers?.Location ?? route.dest ?? ""}`;
+  if (seenKeys.has(key)) return;
+  seenKeys.add(key);
+  routes.push(route);
+}
+
+for (const r of fromVercel) pushRoute(r);
+for (const r of fromGone) pushRoute(r);
+for (const r of existingRoutes) pushRoute(r);
+
 const fsIdx = routes.findIndex(r => r.handle === "filesystem");
 
 /**
@@ -17,8 +99,6 @@ const fsIdx = routes.findIndex(r => r.handle === "filesystem");
  * @returns {{ status: number, location?: string, matchedSrc?: string }}
  */
 function evaluate(url) {
-  // Vercel does case-sensitive regex matching against the raw URL.
-  // alternation explicitly enumerates upper + lower percent forms.
   const candidates = [url];
 
   // Phase 1: routes BEFORE filesystem handle.
@@ -38,8 +118,10 @@ function evaluate(url) {
           }
           return { status: r.status, location: loc, matchedSrc: r.src };
         }
+        if (r.status) {
+          return { status: r.status, matchedSrc: r.src };
+        }
         if (r.dest) {
-          // SSR/_render — treat as 200 (we don't actually execute it)
           return { status: 200, matchedSrc: r.src };
         }
       }
@@ -47,7 +129,6 @@ function evaluate(url) {
   }
 
   // Phase 2: filesystem handle — check if a static file exists.
-  // Try /foo/ -> /foo/index.html, /foo -> /foo.html, /foo.json etc.
   for (const u of candidates) {
     const decoded = (() => { try { return decodeURI(u); } catch { return u; } })();
     const candidatesFs = [
@@ -73,6 +154,9 @@ function evaluate(url) {
         if (r.status && r.headers?.Location) {
           return { status: r.status, location: r.headers.Location, matchedSrc: r.src };
         }
+        if (r.status) {
+          return { status: r.status, matchedSrc: r.src };
+        }
         if (r.status === 404) {
           return { status: 404, matchedSrc: r.src };
         }
@@ -86,7 +170,127 @@ function evaluate(url) {
   return { status: 404 };
 }
 
+/** Follow up to N redirect hops (mirrors real crawler behavior). */
+function resolveChain(url, maxHops = 5) {
+  let cur = url;
+  let last;
+  const chain = [url];
+  for (let i = 0; i < maxHops; i++) {
+    last = evaluate(cur);
+    if (last.status === 308 && last.location) {
+      cur = last.location;
+      chain.push(cur);
+      continue;
+    }
+    break;
+  }
+  return { ...last, finalUrl: cur, chain };
+}
+
+// ── Gate Mode & CLI Argument handling ──
+const isGateMode = process.argv.includes("--gate");
+
+if (isGateMode) {
+  console.log("Starting Redirect Gate checks...");
+  const seeds = new Set();
+
+  // 1. Collect tag slugs from built output static folders
+  const tagDirs = ["tags", "ko/tags", "ja/tags"];
+  for (const td of tagDirs) {
+    const fullPath = path.join(STATIC_ROOT, td);
+    if (fs.existsSync(fullPath)) {
+      const entries = fs.readdirSync(fullPath);
+      for (const ent of entries) {
+        if (ent === "archive" || ent === "index.html") continue;
+        const entPath = path.join(fullPath, ent);
+        if (fs.statSync(entPath).isDirectory()) {
+          seeds.add(`/tags/${ent}/`);
+          seeds.add(`/ko/tags/${ent}/`);
+          seeds.add(`/ja/tags/${ent}/`);
+        }
+      }
+    }
+  }
+
+  // 2. All static Location values in synthesized routes
+  for (const r of routes) {
+    if (r.headers?.Location) {
+      const loc = r.headers.Location;
+      if (!loc.includes("$") && !loc.includes(":")) {
+        seeds.add(loc);
+      }
+    }
+  }
+
+  // 3. All static sources in vercel.json
+  if (vercelJson.redirects) {
+    for (const r of vercelJson.redirects) {
+      const src = r.source;
+      if (!src.includes(":") && !src.includes("*")) {
+        seeds.add(src);
+      }
+    }
+  }
+
+  console.log(`Verifying ${seeds.size} seed URLs...`);
+  let failCount = 0;
+
+  for (const seed of seeds) {
+    const r = resolveChain(seed, 10);
+    
+    // Check for hops limit or loop
+    let loopDetected = false;
+    const seenUrls = new Set();
+    for (const u of r.chain) {
+      if (seenUrls.has(u)) {
+        loopDetected = true;
+        break;
+      }
+      seenUrls.add(u);
+    }
+
+    if (loopDetected || (r.status === 308 && r.chain.length >= 10)) {
+      console.error(`❌ LOOP DETECTED: ${r.chain.join(" -> ")}`);
+      failCount++;
+      continue;
+    }
+
+    const terminal = r.finalUrl;
+    if (terminal.startsWith("http://") || terminal.startsWith("https://")) {
+      continue;
+    }
+    if (r.status === 410) {
+      continue;
+    }
+
+    const termEval = evaluate(terminal);
+    if (termEval.status !== 200) {
+      console.error(`❌ DESTINATION 404: '${seed}' resolved to '${terminal}' (matched: ${termEval.matchedSrc ?? "(none)"})`);
+      failCount++;
+    }
+  }
+
+  if (failCount > 0) {
+    console.error(`\n❌ Redirect Gate check failed: ${failCount} issues found.`);
+    process.exit(1);
+  } else {
+    console.log("\n✅ Redirect Gate check passed successfully.");
+    process.exit(0);
+  }
+}
+
+// ── Standard Matrix Mode (Default) ──
 const MATRIX = [
+  // Spot checks
+  ["/tags/fx/", 200],
+  ["/ko/tags/fx/", 308, "/tags/fx/"],
+  ["/tags/j-reits/", 308, "/ko/tags/j-reits/"],
+  ["/ko/tags/j-reits/", 200],
+  ["/ja/tags/多摩/", 200],
+  ["/ko/tags/多摩/", 308, "/ja/tags/%E5%A4%9A%E6%91%A9/"],
+  ["/tags/tokyo/2/", 200],
+  ["/ja/mission", 308, "/ja/mission/"],
+
   // 日本橋 (JA canonical, 5 posts -> 2 pages)
   ["/tags/日本橋/2/", 308, "/ja/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/"],
   ["/tags/日本橋/2", 308, "/ja/tags/%E6%97%A5%E6%9C%AC%E6%A9%8B/"],
@@ -137,30 +341,13 @@ const MATRIX = [
   ["/sitemap.xml", 308, "/sitemap-index.xml"],
 ];
 
-/** Follow up to 5 redirect hops (mirrors real crawler behavior). */
-function resolveChain(url, maxHops = 5) {
-  let cur = url;
-  let last;
-  const chain = [url];
-  for (let i = 0; i < maxHops; i++) {
-    last = evaluate(cur);
-    if (last.status === 308 && last.location) {
-      cur = last.location;
-      chain.push(cur);
-      continue;
-    }
-    break;
-  }
-  return { ...last, finalUrl: cur, chain };
-}
-
 let pass = 0, fail = 0;
 const fails = [];
 for (const [url, wantStatus, wantLoc] of MATRIX) {
   const r = resolveChain(url);
-  // For 308-expected: check that any hop landed on wantLoc (i.e. final URL includes it).
-  // For 200-expected: check terminal status is 200.
-  const okStatus = wantStatus === 200 ? r.status === 200 : r.chain.length > 1;
+  const okStatus = wantStatus === 200 ? r.status === 200 :
+                   wantStatus === 410 ? r.status === 410 :
+                   r.chain.length > 1;
   const okLoc = !wantLoc || r.finalUrl.includes(wantLoc) ||
     r.chain.some(u => u.includes(wantLoc));
   if (okStatus && okLoc) {
