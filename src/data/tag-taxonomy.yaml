@@ -2458,3 +2458,13 @@ concepts:
       en: "墨田区"
       ko: "墨田区"
       ja: "墨田区"
+  - id: 양도세
+    labels:
+      en: "Capital Gains Tax"
+      ko: "양도세"
+      ja: "譲渡所得税"
+  - id: 외국납부세액공제
+    labels:
+      en: "Foreign Tax Credit"
+      ko: "외국납부세액공제"
+      ja: "外国税額控除"
