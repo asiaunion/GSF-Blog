@@ -21,6 +21,13 @@ Global rules: `~/.gemini/config/rules/agent_rules.md`
 | Draft KO/EN/JA, assets | **AG** |
 | `pnpm validate:post <slug>` | **Cursor** |
 | git commit / deploy | **User** (unless explicitly asked) |
+| **후속 과제 백로그** | **Cursor** — [`docs/DEFERRED_AFTER_ADSENSE.md`](docs/DEFERRED_AFTER_ADSENSE.md) |
+
+### Cursor backlog (HARD)
+
+- GSF-Ark 세션 시작 시 `docs/DEFERRED_AFTER_ADSENSE.md`의 `status: open` 항목을 확인한다.
+- AdSense 승인 전에는 P0–P2 **대량 콘텐츠·스키마** 작업을 제안·실행하지 않는다 (파일에 명시된 예외만).
+- 항목 완료 시 해당 파일 status를 `done`으로 갱신하고 `hub:log --author=Cursor`로 ACTIVITY_LOG에 남긴다.
 
 ## Handoff (Claude 부재 구간)
 
