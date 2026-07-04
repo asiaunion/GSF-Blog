@@ -42,22 +42,57 @@ citeSources:
     url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C57%EC%A1%B0"
 ---
 
-When investing in Japanese real estate, planning for the sale (exit) tax requirements is just as important as managing operating yields. For investors residing in South Korea who own property in Japan, the exit phase involves a unique set of tax obligations and settlement procedures under both countries' laws.
+Many investors carefully calculate acquisition and holding taxes when purchasing Japanese real estate, but the tax implications at the time of sale are often reviewed much later.
 
-Failing to understand the tax codes and filing procedures can lead to unexpected tax liabilities or locked-up funds, significantly reducing net proceeds. Before signing a sales contract, it is highly recommended to clarify the capital gains tax flow in both Japan and Korea.
+For Korean residents selling property in Japan, both Japanese and Korean tax laws may apply simultaneously. Waiting until just before signing the sales contract can leave too little time to prepare.
+
+This article summarizes the key tax procedures and practical checkpoints Korean residents should review before selling Japanese real estate.
 
 ---
 
-## 1. Japanese Individual Capital Gains Tax: Determining Short-Term vs. Long-Term Holding Periods
+## At a Glance
+
+```
+Korean Resident
+      │
+      ▼
+Japanese Property Sale
+      │
+      ▼
+① Confirm Japanese withholding tax requirements
+      │
+      ▼
+② File Japanese tax return
+      │
+      ▼
+③ Report capital gains in Korea
+      │
+      ▼
+④ Claim Foreign Tax Credit
+```
+
+---
+
+## 1. Japanese Individual Capital Gains Tax: Holding Period Rules for Short-Term and Long-Term Capital Gains
 
 Under Japanese tax law, capital gains from individual real estate transfers are subject to classified taxation (分離課税), meaning they are calculated and taxed independently from other income. The primary factor in determining the tax rate is the holding period.
 
-Tax rates differ significantly depending on whether the property is held for 5 years or less (short-term) or more than 5 years (long-term). Simply calculating the days from acquisition to sale can lead to costly tax mistakes.
+Tax rates differ significantly depending on whether the property is held for 5 years or less (short-term) or more than 5 years (long-term). Simply calculating the calendar period between the acquisition date and the sale date can lead to costly tax mistakes.
 
-### The 'January 1st' New Year Sunrise Rule
-According to National Tax Agency (NTA) regulations, the holding period is evaluated as of **January 1st of the year in which the sale occurs**, rather than the actual transaction date. <sup><a href="#source-1" id="cite-1">1</a></sup> 
+### The "January 1 Rule"
+According to National Tax Agency (NTA) regulations, the holding period is evaluated as of **January 1 of the year in which the sale occurs**, rather than the actual transaction date. <sup><a href="#source-1" id="cite-1">1</a></sup>
 
-To make this concept easy to understand, think of it as **counting how many times the New Year’s Day sunrise has passed** since the property was acquired. For example, if a property purchased on May 1, 2021, is sold on June 1, 2026, the calendar holding period is over 5 years. However, as of January 1, 2026, only four New Year sunrises (2022, 2023, 2024, 2025) have passed, making the tax holding period 4 years and 8 months. Therefore, this transaction falls under **Short-term Capital Gains**.
+In practice, think of it as **calculating the holding period as of January 1 of the sale year.**
+
+For example, if a property purchased on May 1, 2021 is sold on June 1, 2026, the calendar holding period exceeds five years. However, as of January 1, 2026, the holding period is still approximately four years and eight months — meaning only four January 1sts have passed (2022, 2023, 2024, 2025) since acquisition. Therefore, this transaction is treated as a **Short-term Capital Gain**.
+
+> **GSF Note**
+>
+> A more common mistake than applying the wrong tax rate is miscalculating the holding period.
+>
+> In Japan, the threshold is not simply five years from the acquisition date — it is determined based on **January 1 of the year of sale**.
+>
+> Even a small adjustment to the sale schedule may change the applicable tax rate, so the transaction timeline should be reviewed together with the overall tax plan.
 
 ### Applicable Tax Rates for Non-Residents
 Non-residents who do not have registered addresses in Japan are exempt from local inhabitant tax, leaving only the national income tax rates:
@@ -65,7 +100,7 @@ Non-residents who do not have registered addresses in Japan are exempt from loca
 - **Short-term Capital Gains (5 years or less as of Jan 1)**: Tax rate of **30.63%** applies <sup><a href="#source-2" id="cite-2">2</a></sup>
 - **Long-term Capital Gains (exceeding 5 years as of Jan 1)**: Tax rate of **15.315%** applies <sup><a href="#source-3" id="cite-3">3</a></sup>
 
-Since a difference of just a few days can double the tax rate, it is advisable to coordinate the closing date—such as postponing it to early the next year—to cross the January 1st threshold.
+Because even a small difference in timing can significantly affect the applicable tax rate, the sale schedule should be considered as part of the overall tax planning process.
 
 ---
 
@@ -73,7 +108,7 @@ Since a difference of just a few days can double the tax rate, it is advisable t
 
 ![Japan Property Capital Gains Tax Flow Diagram](/assets/images/blog/diagrams/korea-resident-japan-property-capital-gains-tax-flow.webp)
 
-Japanese tax law implements a withholding mechanism at closing to prevent tax evasion by non-residents who might relocate transaction funds out of the country.
+Japanese tax law requires withholding tax at settlement to reduce the risk of tax collection becoming difficult after a non-resident seller receives the sale proceeds.
 
 ### Withholding Tax on Land and Building Transfers
 In principle, the buyer is required to withhold **10.21% of the gross purchase price** (not the net gain) when paying a non-resident seller. <sup><a href="#source-4" id="cite-4">4</a></sup> This applies to the transfer of **land and buildings (土地等の譲渡対価)**. Condominiums with land rights are generally included. Since a significant portion of the sale proceeds is withheld at closing, sellers need to prepare for this temporary cash-flow restriction on closing day.
@@ -114,8 +149,14 @@ Under South Korean tax law, residents are required to report and pay capital gai
 To prevent double taxation on the same gain, South Korean tax law provides a **Foreign Tax Credit (외국납부세액공제)**. <sup><a href="#source-8" id="cite-8">8</a></sup> The tax paid in Japan can be credited against the Korean tax liability.
 
 > [!WARNING]
-> **Understanding Credit Limits**
+> **Limits of the Foreign Tax Credit**
 > The foreign tax credit is capped at the portion of the Korean tax liability corresponding to the foreign-source income. If the tax paid in Japan exceeds this limit or if certain expenses are not recognized under Korean tax law, the excess amount cannot be credited, resulting in residual double taxation. A pre-sale cross-border tax simulation is recommended.
+
+> **GSF Note**
+>
+> When both Japan and Korea require separate filings, the order of reporting can matter as much as the tax amounts themselves.
+>
+> Since the Japanese return must typically be completed before the Foreign Tax Credit can be claimed in Korea, planning the filing timeline in advance is the safer approach.
 
 Furthermore, exit tax matters are linked to inheritance and gift tax planning. To understand the basics of cross-border asset transfers, refer to the [Korea-Japan Inheritance and Gift Tax Cross-Border Guide](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/).
 
@@ -123,35 +164,61 @@ Furthermore, exit tax matters are linked to inheritance and gift tax planning. T
 
 ## 5. Pre-Sale Tax & Administrative Checklist
 
-A practical checklist for managing your obligations prior to selling Japanese real estate:
+A step-by-step checklist from contract signing through Korean tax filing.
 
-### [Phase A] Contract & Closing
-- [ ] **Verify Holding Period**: Confirm the holding period based on January 1st of the sale year to avoid short-term tax rates.
-- [ ] **Review Withholding Requirements**: Determine if the 10.21% withholding tax applies based on the buyer's profile.
-- [ ] **Estimate Net Cash Flow**: Calculate net proceeds after accounting for withholding tax, transaction costs, and Korean tax liabilities. Refer to the [Rental Yield vs. Capital Gain Breakeven Guide](/en/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/) to assess your net baseline.
+### Pre-Contract
 
-### [Phase B] Japanese Tax Reporting
-- [ ] **Appoint Tax Representative**: Select a local representative (typically a Japanese tax accountant) to handle the tax return and refund process.
-- [ ] **File Tax Return in Japan**: File the final tax return in Japan between February and March of the year following the sale to reconcile the actual tax liability.
+- [ ] **Verify Holding Period**: Confirm whether January 1 of the sale year crosses the 5-year threshold — prevents short-term tax rate application
+- [ ] **Check Withholding Tax Applicability**: Determine if the 10.21% withholding applies based on the buyer's profile (corporation or investor individual)
+- [ ] **Estimate Net Proceeds**: Calculate after-tax proceeds using acquisition cost, capital expenditures, and transaction fees. Refer to the [Rental Yield vs. Capital Gain Breakeven Guide](/en/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven/)
+- [ ] **Prepare Required Documents**: Gather acquisition contract, capital expenditure receipts, and identify tax representative candidates
 
-### [Phase C] Korean Tax Reporting & Remittance
-- [ ] **Prepare Documentation for Funds Transfer**: Consolidate sales contracts, closing statements, and tax receipts to justify bank remittance of proceeds.
-- [ ] **File Korean Preliminary Return**: File the preliminary return within 2 months of the end of the sale month.
-- [ ] **Claim Foreign Tax Credit**: Attach the Japanese tax payment receipt to claim the foreign tax credit on your Korean return.
+### Closing Day
+
+- [ ] **Final Withholding Tax Confirmation**: Reconfirm buyer eligibility before settlement
+- [ ] **Verify Actual Transfer Amount**: Compare actual proceeds received against estimate after 10.21% deduction
+- [ ] **Retain All Settlement Documents**: Keep digital copies of all closing-related contracts and receipts
+
+### Japanese Tax Return (Year Following Sale, Feb–Mar)
+
+- [ ] **Appoint and Register Tax Representative**: File the representative notification in advance — required for non-residents
+- [ ] **Compile Deductible Expenses**: Submit acquisition cost, capital expenditures, and agency fee documentation in full
+- [ ] **File Tax Return and Confirm Refund**: Submit return, confirm over-withheld refund amount
+- [ ] **Confirm Refund Receipt**: Ensure bank account is set up for refund deposit
+
+### Korean Tax Reporting (Within 2 Months from the End of the Month of Sale)
+
+- [ ] **File Preliminary Return and Pay Tax**: Submit to the competent tax office
+- [ ] **Claim Foreign Tax Credit**: Attach Japanese final tax payment receipt and file for double taxation relief
+- [ ] **Retain All Documents Permanently**: Archive contracts, tax receipts, and remittance records from both countries in a single location
 
 ---
 
-## 6. Investor Action
+## 6. Investment Checkpoints
 
-Immediate steps for non-resident investors planning an exit:
+### Review the Sale Timeline First
 
-- **Optimize Holding Period**: If close to the 5-year threshold, consider adjusting the contract timeline to cross the January 1st mark.
-- **Plan for Closing Cash Flow**: If the 10.21% withholding tax applies, maintain sufficient liquidity to manage closing costs, as tax refunds can take several months.
-- **Maintain Consolidated Records**: Save all acquisition contracts, capital expenditure receipts, and Japanese tax documents in a single digital archive. This is essential for tax filings and bank transfers in Korea.
+If a property is near the 5-year threshold, adjusting the contract date by a few weeks can significantly change the applicable tax rate. Rather than relying on a simple calendar count, running a simulation with a tax advisor based on the January 1 rule is the safer approach.
+
+### Calculate the Actual Cash Flow at Closing First
+
+If withholding tax applies, the actual amount received at closing may be substantially lower than expected. Since any refund is processed after the tax return is filed the following year, short-term liquidity should be factored into the plan as well.
+
+### Cross-Border Tax Review Before Signing Is the Prudent Approach
+
+The actual tax liability can vary depending on acquisition cost, deductible expenses, ownership structure, and how the Foreign Tax Credit is applied. Consulting a specialist who handles both Japanese and Korean cross-border tax matters before signing is the recommended approach.
 
 ---
+
+GSF-Ark treats Japanese real estate investment as more than a calculation of rental yields or resale profits. From acquisition and ownership to sale and inheritance, Japanese real estate is part of a long-term asset management process.
+
+This article summarizes the key regulations and procedures Korean residents should be aware of when selling Japanese real estate.
+
+The actual tax liability may vary depending on acquisition cost, deductible expenses, capital expenditures, ownership structure, and how Korean tax law is applied.
+
+Before completing a transaction, reviewing your individual situation with a cross-border tax professional in both Japan and Korea is the recommended approach.
 
 ## Data Reference Point
-- The tax treatments and cross-border guidance in this article are current as of **July 4, 2026**, based on active tax codes and guidelines from the NTA and NTS. Tax regulations are subject to change. Always consult specialized tax advisors in both countries before finalizing a transaction.
+- The tax treatments and cross-border guidance in this article are current as of **July 4, 2026**, based on active tax codes and guidelines from the NTA and NTS. Individual tax requirements may differ due to treaty revisions or legislative changes. Tax laws may change over time. Before completing an actual transaction, always confirm the latest regulations and seek professional advice where appropriate.
 
 <!-- content-depth-v2 -->

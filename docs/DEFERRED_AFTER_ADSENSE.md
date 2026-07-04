@@ -47,8 +47,8 @@ Joseph KIM (Person) → GSF (Brand) → GSF-Ark (Project)
 
 | ID | status | 과제 | 비고 |
 |----|--------|------|------|
-| B1 | open | EN/JA에 KO와 동일 골격 동기화 | 한눈에 절차, GSF Note×2, 시간순 체크리스트, 매각 시 투자 체크포인트, 클로징 |
-| B2 | open | KO: 연속 `---` 제거, 한국 신고 기한 「양도일이 속하는 달의 말일부터 2개월」 | |
+| B1 | done | EN/JA에 KO와 동일 골격 동기화 | 2026-07-04 배포 |
+| B2 | done | KO: 한국 신고 기한 「양도일이 속하는 달의 말일부터 2개월」 | 2026-07-04 |
 | B3 | open | (선택) 관련 글 섹션 분리 | 현재 본문 인라인 링크만 |
 
 Slug: `korea-resident-japan-property-capital-gains-tax`  
@@ -71,6 +71,7 @@ Slug: `korea-resident-japan-property-capital-gains-tax`
 | 날짜 | ID | 메모 |
 |------|-----|------|
 | 2026-07-04 | DONE-1..4 | AdSense 심사 중 안전 범위만 적용 |
+| 2026-07-04 | B1, B2 | EN/JA 편집 동기화·KO 신고 기한 문구 · prod 배포 |
 
 ---
 
