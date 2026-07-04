@@ -21,13 +21,13 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
-## [2026-07-04 20:19 JST] AG SNS 초안 완료 (Step 5 위임)
-- 작업 내용: 한국 거주자 일본 부동산 양도세 에피소드 SNS 초안 날짜명 영구 로컬 파일 저장 및 크리덴셜 연동 체크 완료
+## [2026-07-04 20:25 JST] AG SNS 초안 완료 (SNS Voice v1.0 정밀 적용)
+- 작업 내용: 한국 거주자 일본 부동산 양도세 에피소드 SNS 초안(Voice v1.0 및 YMYL 4대 가이드) 작성 및 검증 통과 완료
 - 저장 파일: `projects/GSF-Ark/sns-drafts/2026-07-04-korea-resident-japan-property-capital-gains-tax.md`
-- 커밋 해시: (로컬 git 커밋 없음 - .gitignore 대상)
+- 검증 결과: `pnpm validate:sns-draft` exit 0 (에러 0건, X 279자 / Threads 496자 한계 최적화 완료)
 - 배포 URL: (수동 발행 폴백)
 - Claude 부재 여부: 예 (AG 단독 작업)
-- 특이사항:
+- 특이사항: 4단 구조(질문-발견-Note-링크)를 정비하고, KO 정중체(~습니다) 적용 및 YMYL 수치(10.21%) 문자 삭제 처리 완료.
   - `.env` 크리덴셜 검사:
     - X (Twitter): Free Tier 정책에 따라 자동 게시 비활성화 (수동 복사용 텍스트 폴백)
     - LinkedIn: 크리덴셜 미설정 (`LINKEDIN_ACCESS_TOKEN` 등 비어 있음, 수동 복사용 텍스트 폴백)
