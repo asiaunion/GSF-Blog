@@ -21,14 +21,18 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
-## [2026-07-04 15:13 JST] Cursor 브랜치 대기
-- 작업 내용: GSC 태그 리디렉션 루프 오류 근본 수정 및 빌드 타임 게이트 연동
-- 브랜치: fix/tag-redirect-loops-gsc
-- 커밋 (validate): 7f1923e
-- slug / 파일: vercel.json, src/build/crossLocaleTagRedirects.ts, scripts/simulate-vercel-routes.mjs, src/build/pagefindIntegration.ts
-- 배포 예정: Cursor 검증 PASS 후 prod deploy
-- 다음: Cursor의 `fix/tag-redirect-loops-gsc` 브랜치 검증 및 main 머지 승인
-- SSOT: GSF-OS/AG_TASK_ark-tag-redirect-loops-20260704.md
+## [2026-07-04 15:20 JST] AG 배포 완료 (Cursor PASS 후)
+- 작업 내용: GSC 태그 리디렉션 루프 오류 근본 수정 및 빌드 타임 게이트 연동 배포 완료
+- 커밋 해시: 7b0caca (main merge 완료)
+- 배포 URL: https://gsfark.com
+- Claude 부재 여부: 예
+- 특이사항:
+  - vercel.json에서 per-tag 정적 규칙 736개 전량 삭제
+  - crossLocaleTagRedirects.ts의 getTagSlugPrimaryLocaleMap 다단계 집계 알고리즘으로 전면 재구조화
+  - 리스트형 태그 따옴표 처리 수정
+  - simulate-vercel-routes.mjs 확장하여 빌드 완료 시점에 loop/404 전수 검사 게이트 연동
+  - 라이브 서버 curl spot-check를 통한 리디렉션 루프 해소 확인 완료
+
 
 ## [2026-06-30 10:55] AG SNS 초안 완료
 - 작업 내용: Ep.10 다마 교육·문화 벨트 SNS Voice v1.0 기준 초안 확정 및 YMYL-safe 검증 통과
