@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# EMERGENCY ONLY — prefer git push to main
 # Build with PUBLIC_* analytics env inlined, then prebuilt deploy (avoids 100MB source upload).
 set -euo pipefail
 cd "$(dirname "$0")/.."

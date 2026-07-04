@@ -8,6 +8,9 @@ import Tag from "@/components/Tag.astro";
 import getUniqueTags from "@/utils/getUniqueTags";
 import { SITE } from "@/config";
 import { getUi, type UiLang } from "@/i18n/ui";
+import { tagCanonicalHref } from "@/utils/tagCanonicalHref";
+import { collectTagsByLocale, getTagSlugPrimaryLocaleMap } from "@/build/crossLocaleTagRedirects";
+import path from "node:path";
 
 export function getStaticPaths() {
   return [
@@ -23,13 +26,16 @@ const L = getUi(lang as UiLang);
 const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
 
 let tags = getUniqueTags(posts);
+
+const blogDir = path.join(process.cwd(), "src/data/blog");
+const primaryMap = getTagSlugPrimaryLocaleMap(collectTagsByLocale(blogDir));
 ---
 
 <Layout title={`${L.pageTitleTags} | ${SITE.title}`} robotsMeta="noindex, follow">
   <Header />
   <Main pageTitle={L.pageTitleTags} pageDesc={L.pageDescTags}>
     <ul class="flex flex-wrap gap-6">
-      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} />)}
+      {tags.map(({ tag, tagName }) => <Tag {tag} {tagName} href={tagCanonicalHref(tag, primaryMap)} />)}
     </ul>
   </Main>
   <Footer />

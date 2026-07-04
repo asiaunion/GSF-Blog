@@ -1,0 +1,2460 @@
+version: 1
+concepts:
+  - id: 23-wards
+    labels:
+      en: "23 Wards"
+      ko: "23 Wards"
+      ja: "23 Wards"
+  - id: 23-구
+    labels:
+      en: "23-구"
+      ko: "23구"
+      ja: "23-구"
+  - id: 23-区
+    labels:
+      en: "23-区"
+      ko: "23-区"
+      ja: "23区"
+  - id: 5-구
+    labels:
+      en: "5-구"
+      ko: "5구"
+      ja: "5-구"
+  - id: adachi-ku
+    labels:
+      en: "Adachi-ku"
+      ko: "Adachi-ku"
+      ja: "Adachi-ku"
+  - id: allocation
+    labels:
+      en: "Allocation"
+      ko: "Allocation"
+      ja: "Allocation"
+  - id: arakawa-ku
+    labels:
+      en: "Arakawa-ku"
+      ko: "Arakawa-ku"
+      ja: "Arakawa-ku"
+  - id: asakusa
+    labels:
+      en: "Asakusa"
+      ko: "Asakusa"
+      ja: "Asakusa"
+  - id: assetallocation
+    labels:
+      en: "AssetAllocation"
+      ko: "AssetAllocation"
+      ja: "AssetAllocation"
+  - id: azabujuban
+    labels:
+      en: "AzabuJuban"
+      ko: "AzabuJuban"
+      ja: "AzabuJuban"
+  - id: boj-interest-rate
+    labels:
+      en: "BOJ Interest Rate"
+      ko: "BOJ Interest Rate"
+      ja: "BOJ Interest Rate"
+  - id: boj금리
+    labels:
+      en: "boj금리"
+      ko: "BOJ금리"
+      ja: "boj금리"
+  - id: bunkyo
+    labels:
+      en: "Bunkyo"
+      ko: "Bunkyo"
+      ja: "Bunkyo"
+  - id: businessmanagervisa
+    labels:
+      en: "BusinessManagerVisa"
+      ko: "BusinessManagerVisa"
+      ja: "BusinessManagerVisa"
+  - id: buying-process
+    labels:
+      en: "buying-process"
+      ko: "buying-process"
+      ja: "buying-process"
+  - id: buying-property-japan
+    labels:
+      en: "buying-property-japan"
+      ko: "buying-property-japan"
+      ja: "buying-property-japan"
+  - id: capital-gains
+    labels:
+      en: "Capital Gains"
+      ko: "Capital Gains"
+      ja: "Capital Gains"
+  - id: chiyoda
+    labels:
+      en: "Chiyoda"
+      ko: "Chiyoda"
+      ja: "Chiyoda"
+  - id: chofu
+    labels:
+      en: "Chofu"
+      ko: "Chofu"
+      ja: "Chofu"
+  - id: chuo
+    labels:
+      en: "Chuo"
+      ko: "Chuo"
+      ja: "Chuo"
+  - id: city-life
+    labels:
+      en: "City Life"
+      ko: "City Life"
+      ja: "City Life"
+  - id: complete-guide
+    labels:
+      en: "complete-guide"
+      ko: "complete-guide"
+      ja: "complete-guide"
+  - id: condo
+    labels:
+      en: "Condo"
+      ko: "Condo"
+      ja: "Condo"
+  - id: coredo
+    labels:
+      en: "COREDO"
+      ko: "COREDO"
+      ja: "COREDO"
+  - id: corporateownership
+    labels:
+      en: "CorporateOwnership"
+      ko: "CorporateOwnership"
+      ja: "CorporateOwnership"
+  - id: credit-restrictions
+    labels:
+      en: "Credit Restrictions"
+      ko: "Credit Restrictions"
+      ja: "Credit Restrictions"
+  - id: crossborder
+    labels:
+      en: "CrossBorder"
+      ko: "CrossBorder"
+      ja: "CrossBorder"
+  - id: crossborderbusiness
+    labels:
+      en: "CrossBorderBusiness"
+      ko: "CrossBorderBusiness"
+      ja: "CrossBorderBusiness"
+  - id: daikanyama
+    labels:
+      en: "Daikanyama"
+      ko: "Daikanyama"
+      ja: "Daikanyama"
+  - id: depreciation
+    labels:
+      en: "Depreciation"
+      ko: "Depreciation"
+      ja: "Depreciation"
+  - id: earthquake
+    labels:
+      en: "Earthquake"
+      ko: "Earthquake"
+      ja: "Earthquake"
+  - id: edogawa-ku
+    labels:
+      en: "Edogawa-ku"
+      ko: "Edogawa-ku"
+      ja: "Edogawa-ku"
+  - id: entrepreneurship
+    labels:
+      en: "Entrepreneurship"
+      ko: "Entrepreneurship"
+      ja: "Entrepreneurship"
+  - id: essay
+    labels:
+      en: "Essay"
+      ko: "Essay"
+      ja: "Essay"
+  - id: foreign-investor
+    labels:
+      en: "foreign-investor"
+      ko: "foreign-investor"
+      ja: "foreign-investor"
+  - id: fuchu
+    labels:
+      en: "Fuchu"
+      ko: "Fuchu"
+      ja: "Fuchu"
+  - id: futsuchakuya
+    labels:
+      en: "FutsuChakuya"
+      ko: "FutsuChakuya"
+      ja: "FutsuChakuya"
+  - id: fx
+    labels:
+      en: "FX"
+      ko: "FX"
+      ja: "FX"
+  - id: fxrisk
+    labels:
+      en: "FXRisk"
+      ko: "FXRisk"
+      ja: "FXRisk"
+  - id: gifttax
+    labels:
+      en: "GiftTax"
+      ko: "GiftTax"
+      ja: "GiftTax"
+  - id: ginza
+    labels:
+      en: "Ginza"
+      ko: "Ginza"
+      ja: "Ginza"
+  - id: ginzasix
+    labels:
+      en: "GinzaSix"
+      ko: "GinzaSix"
+      ja: "GinzaSix"
+  - id: hamacho
+    labels:
+      en: "Hamacho"
+      ko: "Hamacho"
+      ja: "Hamacho"
+  - id: hotel
+    labels:
+      en: "Hotel"
+      ko: "Hotel"
+      ja: "Hotel"
+  - id: ikebukuro
+    labels:
+      en: "Ikebukuro"
+      ko: "Ikebukuro"
+      ja: "Ikebukuro"
+  - id: immigrationreform
+    labels:
+      en: "ImmigrationReform"
+      ko: "ImmigrationReform"
+      ja: "ImmigrationReform"
+  - id: infrastructure
+    labels:
+      en: "Infrastructure"
+      ko: "Infrastructure"
+      ja: "Infrastructure"
+  - id: inheritancetax
+    labels:
+      en: "InheritanceTax"
+      ko: "InheritanceTax"
+      ja: "InheritanceTax"
+  - id: insights
+    labels:
+      en: "Insights"
+      ko: "Insights"
+      ja: "Insights"
+  - id: interest-rate-hikes
+    labels:
+      en: "Interest Rate Hikes"
+      ko: "Interest Rate Hikes"
+      ja: "Interest Rate Hikes"
+  - id: investing
+    labels:
+      en: "Investing"
+      ko: "Investing"
+      ja: "Investing"
+  - id: investment
+    labels:
+      en: "investment"
+      ko: "investment"
+      ja: "investment"
+  - id: investment-strategy
+    labels:
+      en: "Investment Strategy"
+      ko: "Investment Strategy"
+      ja: "Investment Strategy"
+  - id: investmentfailure
+    labels:
+      en: "InvestmentFailure"
+      ko: "InvestmentFailure"
+      ja: "InvestmentFailure"
+  - id: investmentphilosophy
+    labels:
+      en: "InvestmentPhilosophy"
+      ko: "InvestmentPhilosophy"
+      ja: "InvestmentPhilosophy"
+  - id: investor-notes
+    labels:
+      en: "investor-notes"
+      ko: "investor-notes"
+      ja: "investor-notes"
+  - id: itabashi-ku
+    labels:
+      en: "Itabashi-ku"
+      ko: "Itabashi-ku"
+      ja: "Itabashi-ku"
+  - id: j-reit
+    labels:
+      en: "J-REIT"
+      ko: "J-REIT"
+      ja: "J-REIT"
+  - id: j-reits
+    labels:
+      en: "J-REITs"
+      ko: "J-REITs"
+      ja: "J-REITs"
+  - id: japan
+    labels:
+      en: "Japan"
+      ko: "Japan"
+      ja: "Japan"
+  - id: japan-investing
+    labels:
+      en: "Japan investing"
+      ko: "Japan investing"
+      ja: "Japan investing"
+  - id: japan-investment
+    labels:
+      en: "japan-investment"
+      ko: "japan-investment"
+      ja: "japan-investment"
+  - id: japan-lifestyle
+    labels:
+      en: "Japan Lifestyle"
+      ko: "Japan Lifestyle"
+      ja: "Japan Lifestyle"
+  - id: japan-real-estate
+    labels:
+      en: "Japan Real Estate"
+      ko: "Japan Real Estate"
+      ja: "Japan Real Estate"
+  - id: japan-travel
+    labels:
+      en: "japan-travel"
+      ko: "japan-travel"
+      ja: "japan-travel"
+  - id: japanification
+    labels:
+      en: "Japanification"
+      ko: "Japanification"
+      ja: "Japanification"
+  - id: japanredevelopment
+    labels:
+      en: "JapanRedevelopment"
+      ko: "JapanRedevelopment"
+      ja: "JapanRedevelopment"
+  - id: japanrentalcontracts
+    labels:
+      en: "JapanRentalContracts"
+      ko: "JapanRentalContracts"
+      ja: "JapanRentalContracts"
+  - id: japanvisa
+    labels:
+      en: "JapanVisa"
+      ko: "JapanVisa"
+      ja: "JapanVisa"
+  - id: jfind
+    labels:
+      en: "JFind"
+      ko: "JFind"
+      ja: "JFind"
+  - id: jpy
+    labels:
+      en: "JPY"
+      ko: "JPY"
+      ja: "JPY"
+  - id: jr-pass
+    labels:
+      en: "JR Pass"
+      ko: "JR Pass"
+      ja: "JR Pass"
+  - id: jr패스
+    labels:
+      en: "jr패스"
+      ko: "JR패스"
+      ja: "jr패스"
+  - id: jrパス
+    labels:
+      en: "jrパス"
+      ko: "jrパス"
+      ja: "JRパス"
+  - id: judicial-scrivener
+    labels:
+      en: "judicial-scrivener"
+      ko: "judicial-scrivener"
+      ja: "judicial-scrivener"
+  - id: k-스타트업
+    labels:
+      en: "k-스타트업"
+      ko: "K-스타트업"
+      ja: "k-스타트업"
+  - id: kabutocho
+    labels:
+      en: "Kabutocho"
+      ko: "Kabutocho"
+      ja: "Kabutocho"
+  - id: katsushika-ku
+    labels:
+      en: "Katsushika-ku"
+      ko: "Katsushika-ku"
+      ja: "Katsushika-ku"
+  - id: kidzania
+    labels:
+      en: "KidZania"
+      ko: "KidZania"
+      ja: "KidZania"
+  - id: kita-ku
+    labels:
+      en: "Kita-ku"
+      ko: "Kita-ku"
+      ja: "Kita-ku"
+  - id: kokubunji
+    labels:
+      en: "Kokubunji"
+      ko: "Kokubunji"
+      ja: "Kokubunji"
+  - id: korea-japan
+    labels:
+      en: "Korea-Japan"
+      ko: "Korea-Japan"
+      ja: "Korea-Japan"
+  - id: koreancommunity
+    labels:
+      en: "KoreanCommunity"
+      ko: "KoreanCommunity"
+      ja: "KoreanCommunity"
+  - id: koto-ku
+    labels:
+      en: "Koto-ku"
+      ko: "Koto-ku"
+      ja: "Koto-ku"
+  - id: kstartup
+    labels:
+      en: "KStartup"
+      ko: "KStartup"
+      ja: "KStartup"
+  - id: kunitachi
+    labels:
+      en: "Kunitachi"
+      ko: "Kunitachi"
+      ja: "Kunitachi"
+  - id: kスタートアップ
+    labels:
+      en: "kスタートアップ"
+      ko: "kスタートアップ"
+      ja: "Kスタートアップ"
+  - id: lifestyle
+    labels:
+      en: "Lifestyle"
+      ko: "Lifestyle"
+      ja: "Lifestyle"
+  - id: livingintokyo
+    labels:
+      en: "LivingInTokyo"
+      ko: "LivingInTokyo"
+      ja: "LivingInTokyo"
+  - id: local-report
+    labels:
+      en: "Local report"
+      ko: "Local report"
+      ja: "Local report"
+  - id: macro
+    labels:
+      en: "Macro"
+      ko: "Macro"
+      ja: "Macro"
+  - id: maintenancefees
+    labels:
+      en: "MaintenanceFees"
+      ko: "MaintenanceFees"
+      ja: "MaintenanceFees"
+  - id: mansion
+    labels:
+      en: "Mansion"
+      ko: "Mansion"
+      ja: "Mansion"
+  - id: marketanalysis
+    labels:
+      en: "MarketAnalysis"
+      ko: "MarketAnalysis"
+      ja: "MarketAnalysis"
+  - id: marketcorrelation
+    labels:
+      en: "MarketCorrelation"
+      ko: "MarketCorrelation"
+      ja: "MarketCorrelation"
+  - id: marunouchi
+    labels:
+      en: "Marunouchi"
+      ko: "Marunouchi"
+      ja: "Marunouchi"
+  - id: meguro
+    labels:
+      en: "Meguro"
+      ko: "Meguro"
+      ja: "Meguro"
+  - id: mikishoji
+    labels:
+      en: "MikiShoji"
+      ko: "MikiShoji"
+      ja: "MikiShoji"
+  - id: minato
+    labels:
+      en: "Minato"
+      ko: "Minato"
+      ja: "Minato"
+  - id: miraikan
+    labels:
+      en: "Miraikan"
+      ko: "Miraikan"
+      ja: "Miraikan"
+  - id: mitaka
+    labels:
+      en: "Mitaka"
+      ko: "Mitaka"
+      ja: "Mitaka"
+  - id: mitsui
+    labels:
+      en: "Mitsui"
+      ko: "Mitsui"
+      ja: "Mitsui"
+  - id: monetarypolicy
+    labels:
+      en: "MonetaryPolicy"
+      ko: "MonetaryPolicy"
+      ja: "MonetaryPolicy"
+  - id: musashino
+    labels:
+      en: "Musashino"
+      ko: "Musashino"
+      ja: "Musashino"
+  - id: nakano
+    labels:
+      en: "Nakano"
+      ko: "Nakano"
+      ja: "Nakano"
+  - id: neighborhood-guide
+    labels:
+      en: "Neighborhood Guide"
+      ko: "Neighborhood Guide"
+      ja: "Neighborhood Guide"
+  - id: nerima-ku
+    labels:
+      en: "Nerima-ku"
+      ko: "Nerima-ku"
+      ja: "Nerima-ku"
+  - id: new-mansion
+    labels:
+      en: "New Mansion"
+      ko: "New Mansion"
+      ja: "New Mansion"
+  - id: nihonbashi
+    labels:
+      en: "Nihonbashi"
+      ko: "Nihonbashi"
+      ja: "Nihonbashi"
+  - id: ningyocho
+    labels:
+      en: "Ningyocho"
+      ko: "Ningyocho"
+      ja: "Ningyocho"
+  - id: non-resident
+    labels:
+      en: "Non-Resident"
+      ko: "Non-Resident"
+      ja: "Non-Resident"
+  - id: office
+    labels:
+      en: "Office"
+      ko: "Office"
+      ja: "Office"
+  - id: ota
+    labels:
+      en: "Ota"
+      ko: "Ota"
+      ja: "Ota"
+  - id: otemachi
+    labels:
+      en: "Otemachi"
+      ko: "Otemachi"
+      ja: "Otemachi"
+  - id: pedestrianparadise
+    labels:
+      en: "PedestrianParadise"
+      ko: "PedestrianParadise"
+      ja: "PedestrianParadise"
+  - id: permanentresidency
+    labels:
+      en: "PermanentResidency"
+      ko: "PermanentResidency"
+      ja: "PermanentResidency"
+  - id: pillar-page
+    labels:
+      en: "pillar-page"
+      ko: "pillar-page"
+      ja: "pillar-page"
+  - id: pre-owned-mansion
+    labels:
+      en: "Pre-owned Mansion"
+      ko: "Pre-owned Mansion"
+      ja: "Pre-owned Mansion"
+  - id: price
+    labels:
+      en: "Price"
+      ko: "Price"
+      ja: "Price"
+  - id: rates
+    labels:
+      en: "Rates"
+      ko: "Rates"
+      ja: "Rates"
+  - id: real-estate
+    labels:
+      en: "real estate"
+      ko: "real estate"
+      ja: "real estate"
+  - id: real-estate-investment
+    labels:
+      en: "Real Estate Investment"
+      ko: "Real Estate Investment"
+      ja: "Real Estate Investment"
+  - id: realestate
+    labels:
+      en: "RealEstate"
+      ko: "RealEstate"
+      ja: "RealEstate"
+  - id: redevelopment
+    labels:
+      en: "Redevelopment"
+      ko: "Redevelopment"
+      ja: "Redevelopment"
+  - id: reins
+    labels:
+      en: "REINS"
+      ko: "REINS"
+      ja: "REINS"
+  - id: relocation
+    labels:
+      en: "relocation"
+      ko: "relocation"
+      ja: "relocation"
+  - id: repair-reserve-fund
+    labels:
+      en: "Repair Reserve Fund"
+      ko: "Repair Reserve Fund"
+      ja: "Repair Reserve Fund"
+  - id: restorationcosts
+    labels:
+      en: "RestorationCosts"
+      ko: "RestorationCosts"
+      ja: "RestorationCosts"
+  - id: riskmanagement
+    labels:
+      en: "RiskManagement"
+      ko: "RiskManagement"
+      ja: "RiskManagement"
+  - id: safety
+    labels:
+      en: "Safety"
+      ko: "Safety"
+      ja: "Safety"
+  - id: scarcity
+    labels:
+      en: "Scarcity"
+      ko: "Scarcity"
+      ja: "Scarcity"
+  - id: selectivity
+    labels:
+      en: "Selectivity"
+      ko: "Selectivity"
+      ja: "Selectivity"
+  - id: senkyakubanrai
+    labels:
+      en: "SenkyakuBanrai"
+      ko: "SenkyakuBanrai"
+      ja: "SenkyakuBanrai"
+  - id: seoul-real-estate
+    labels:
+      en: "Seoul Real Estate"
+      ko: "Seoul Real Estate"
+      ja: "Seoul Real Estate"
+  - id: setagaya
+    labels:
+      en: "Setagaya"
+      ko: "Setagaya"
+      ja: "Setagaya"
+  - id: shibuya
+    labels:
+      en: "Shibuya"
+      ko: "Shibuya"
+      ja: "Shibuya"
+  - id: shinagawa
+    labels:
+      en: "Shinagawa"
+      ko: "Shinagawa"
+      ja: "Shinagawa"
+  - id: shinjuku
+    labels:
+      en: "Shinjuku"
+      ko: "Shinjuku"
+      ja: "Shinjuku"
+  - id: shinokubo
+    labels:
+      en: "ShinOkubo"
+      ko: "ShinOkubo"
+      ja: "ShinOkubo"
+  - id: sublease
+    labels:
+      en: "Sublease"
+      ko: "Sublease"
+      ja: "Sublease"
+  - id: suginami
+    labels:
+      en: "Suginami"
+      ko: "Suginami"
+      ja: "Suginami"
+  - id: sumida-ku
+    labels:
+      en: "Sumida-ku"
+      ko: "Sumida-ku"
+      ja: "Sumida-ku"
+  - id: tachikawa
+    labels:
+      en: "Tachikawa"
+      ko: "Tachikawa"
+      ja: "Tachikawa"
+  - id: taito-ku
+    labels:
+      en: "Taito-ku"
+      ko: "Taito-ku"
+      ja: "Taito-ku"
+  - id: tama
+    labels:
+      en: "Tama"
+      ko: "多摩"
+      ja: "多摩"
+    aliases:
+      ko: ["다마"]
+  - id: tax
+    labels:
+      en: "Tax"
+      ko: "Tax"
+      ja: "Tax"
+  - id: taxaudit
+    labels:
+      en: "TaxAudit"
+      ko: "TaxAudit"
+      ja: "TaxAudit"
+  - id: taxplanning
+    labels:
+      en: "TaxPlanning"
+      ko: "TaxPlanning"
+      ja: "TaxPlanning"
+  - id: taxstrategy
+    labels:
+      en: "TaxStrategy"
+      ko: "TaxStrategy"
+      ja: "TaxStrategy"
+  - id: teamlab
+    labels:
+      en: "teamLab"
+      ko: "teamLab"
+      ja: "teamLab"
+  - id: teikichakuya
+    labels:
+      en: "TeikiChakuya"
+      ko: "TeikiChakuya"
+      ja: "TeikiChakuya"
+  - id: title-registration
+    labels:
+      en: "title-registration"
+      ko: "title-registration"
+      ja: "title-registration"
+  - id: tokyo
+    labels:
+      en: "Tokyo"
+      ko: "Tokyo"
+      ja: "Tokyo"
+  - id: tokyo-23-wards
+    labels:
+      en: "Tokyo 23 Wards"
+      ko: "Tokyo 23 Wards"
+      ja: "Tokyo 23 Wards"
+  - id: tokyo-investment
+    labels:
+      en: "Tokyo Investment"
+      ko: "Tokyo Investment"
+      ja: "Tokyo Investment"
+  - id: tokyo-life
+    labels:
+      en: "tokyo-life"
+      ko: "tokyo-life"
+      ja: "tokyo-life"
+  - id: tokyo-living
+    labels:
+      en: "Tokyo Living"
+      ko: "Tokyo Living"
+      ja: "Tokyo Living"
+  - id: tokyo-real-estate
+    labels:
+      en: "Tokyo Real Estate"
+      ko: "Tokyo Real Estate"
+      ja: "Tokyo Real Estate"
+  - id: tokyo-redevelopment
+    labels:
+      en: "tokyo-redevelopment"
+      ko: "tokyo-redevelopment"
+      ja: "tokyo-redevelopment"
+  - id: tokyomuseums
+    labels:
+      en: "TokyoMuseums"
+      ko: "TokyoMuseums"
+      ja: "TokyoMuseums"
+  - id: tokyoobservatory
+    labels:
+      en: "TokyoObservatory"
+      ko: "TokyoObservatory"
+      ja: "TokyoObservatory"
+  - id: tokyostroll
+    labels:
+      en: "TokyoStroll"
+      ko: "TokyoStroll"
+      ja: "TokyoStroll"
+  - id: tokyotorch
+    labels:
+      en: "TokyoTorch"
+      ko: "TokyoTorch"
+      ja: "TokyoTorch"
+  - id: tokyotravel
+    labels:
+      en: "TokyoTravel"
+      ko: "TokyoTravel"
+      ja: "TokyoTravel"
+  - id: tokyowithkids
+    labels:
+      en: "TokyoWithKids"
+      ko: "TokyoWithKids"
+      ja: "TokyoWithKids"
+  - id: toranomon
+    labels:
+      en: "Toranomon"
+      ko: "Toranomon"
+      ja: "Toranomon"
+  - id: torchtower
+    labels:
+      en: "TorchTower"
+      ko: "TorchTower"
+      ja: "TorchTower"
+  - id: toshima
+    labels:
+      en: "Toshima"
+      ko: "Toshima"
+      ja: "Toshima"
+  - id: toyosumarket
+    labels:
+      en: "ToyosuMarket"
+      ko: "ToyosuMarket"
+      ja: "ToyosuMarket"
+  - id: travel
+    labels:
+      en: "Travel"
+      ko: "Travel"
+      ja: "Travel"
+  - id: tsukiji
+    labels:
+      en: "tsukiji"
+      ko: "tsukiji"
+      ja: "tsukiji"
+  - id: tsukijimarket
+    labels:
+      en: "TsukijiMarket"
+      ko: "TsukijiMarket"
+      ja: "TsukijiMarket"
+  - id: tsukijiredevelopment
+    labels:
+      en: "TsukijiRedevelopment"
+      ko: "TsukijiRedevelopment"
+      ja: "TsukijiRedevelopment"
+  - id: tsutayabooks
+    labels:
+      en: "TsutayaBooks"
+      ko: "TsutayaBooks"
+      ja: "TsutayaBooks"
+  - id: vacancyrate
+    labels:
+      en: "VacancyRate"
+      ko: "VacancyRate"
+      ja: "VacancyRate"
+  - id: yen
+    labels:
+      en: "Yen"
+      ko: "Yen"
+      ja: "Yen"
+  - id: yenstrategy
+    labels:
+      en: "YenStrategy"
+      ko: "YenStrategy"
+      ja: "YenStrategy"
+  - id: yield
+    labels:
+      en: "Yield"
+      ko: "Yield"
+      ja: "Yield"
+  - id: yokohama
+    labels:
+      en: "Yokohama"
+      ko: "Yokohama"
+      ja: "Yokohama"
+  - id: 가격
+    labels:
+      en: "가격"
+      ko: "가격"
+      ja: "가격"
+  - id: 가쓰시카구
+    labels:
+      en: "가쓰시카구"
+      ko: "가쓰시카구"
+      ja: "가쓰시카구"
+  - id: 감가상각
+    labels:
+      en: "감가상각"
+      ko: "감가상각"
+      ja: "감가상각"
+  - id: 경영관리비자
+    labels:
+      en: "경영관리비자"
+      ko: "경영관리비자"
+      ja: "경영관리비자"
+  - id: 고도인재
+    labels:
+      en: "고도인재"
+      ko: "고도인재"
+      ja: "고도인재"
+  - id: 공실률
+    labels:
+      en: "공실률"
+      ko: "공실률"
+      ja: "공실률"
+  - id: 구매절차
+    labels:
+      en: "구매절차"
+      ko: "구매절차"
+      ja: "구매절차"
+  - id: 금리
+    labels:
+      en: "금리"
+      ko: "금리"
+      ja: "금리"
+  - id: 금리인상
+    labels:
+      en: "금리인상"
+      ko: "금리인상"
+      ja: "금리인상"
+  - id: 기업가정신
+    labels:
+      en: "기업가정신"
+      ko: "기업가정신"
+      ja: "기업가정신"
+  - id: 기타구
+    labels:
+      en: "기타구"
+      ko: "기타구"
+      ja: "기타구"
+  - id: 긴자
+    labels:
+      en: "긴자"
+      ko: "긴자"
+      ja: "긴자"
+  - id: 긴자식스
+    labels:
+      en: "긴자식스"
+      ko: "긴자식스"
+      ja: "긴자식스"
+  - id: 나카노구
+    labels:
+      en: "나카노구"
+      ko: "나카노구"
+      ja: "나카노구"
+  - id: 네리마구
+    labels:
+      en: "네리마구"
+      ko: "네리마구"
+      ja: "네리마구"
+  - id: 니혼바시
+    labels:
+      en: "니혼바시"
+      ko: "니혼바시"
+      ja: "니혼바시"
+
+  - id: 다이칸야마
+    labels:
+      en: "다이칸야마"
+      ko: "다이칸야마"
+      ja: "다이칸야마"
+  - id: 다이토구
+    labels:
+      en: "다이토구"
+      ko: "다이토구"
+      ja: "다이토구"
+  - id: 대출규제
+    labels:
+      en: "대출규제"
+      ko: "대출규제"
+      ja: "대출규제"
+  - id: 도시마구
+    labels:
+      en: "도시마구"
+      ko: "도시마구"
+      ja: "도시마구"
+  - id: 도심라이프
+    labels:
+      en: "도심라이프"
+      ko: "도심라이프"
+      ja: "도심라이프"
+  - id: 도쿄
+    labels:
+      en: "도쿄"
+      ko: "도쿄"
+      ja: "도쿄"
+  - id: 도쿄-23-구
+    labels:
+      en: "도쿄-23-구"
+      ko: "도쿄 23구"
+      ja: "도쿄-23-구"
+  - id: 도쿄-6-구
+    labels:
+      en: "도쿄-6-구"
+      ko: "도쿄6구"
+      ja: "도쿄-6-구"
+  - id: 도쿄라이프
+    labels:
+      en: "도쿄라이프"
+      ko: "도쿄라이프"
+      ja: "도쿄라이프"
+  - id: 도쿄뮤지엄
+    labels:
+      en: "도쿄뮤지엄"
+      ko: "도쿄뮤지엄"
+      ja: "도쿄뮤지엄"
+  - id: 도쿄부동산
+    labels:
+      en: "도쿄부동산"
+      ko: "도쿄부동산"
+      ja: "도쿄부동산"
+  - id: 도쿄산책
+    labels:
+      en: "도쿄산책"
+      ko: "도쿄산책"
+      ja: "도쿄산책"
+  - id: 도쿄생활
+    labels:
+      en: "도쿄생활"
+      ko: "도쿄생활"
+      ja: "도쿄생활"
+  - id: 도쿄여행
+    labels:
+      en: "도쿄여행"
+      ko: "도쿄여행"
+      ja: "도쿄여행"
+  - id: 도쿄재개발
+    labels:
+      en: "도쿄재개발"
+      ko: "도쿄재개발"
+      ja: "도쿄재개발"
+  - id: 도쿄전망대
+    labels:
+      en: "도쿄전망대"
+      ko: "도쿄전망대"
+      ja: "도쿄전망대"
+  - id: 도쿄투자
+    labels:
+      en: "도쿄투자"
+      ko: "도쿄투자"
+      ja: "도쿄투자"
+  - id: 등기
+    labels:
+      en: "등기"
+      ko: "등기"
+      ja: "등기"
+  - id: 라이프
+    labels:
+      en: "라이프"
+      ko: "라이프"
+      ja: "라이프"
+  - id: 로컬리포트
+    labels:
+      en: "로컬리포트"
+      ko: "로컬리포트"
+      ja: "로컬리포트"
+  - id: 리스크관리
+    labels:
+      en: "리스크관리"
+      ko: "리스크관리"
+      ja: "리스크관리"
+  - id: 마루노우치
+    labels:
+      en: "마루노우치"
+      ko: "마루노우치"
+      ja: "마루노우치"
+  - id: 매크로
+    labels:
+      en: "매크로"
+      ko: "매크로"
+      ja: "매크로"
+  - id: 맨션
+    labels:
+      en: "맨션"
+      ko: "맨션"
+      ja: "맨션"
+  - id: 메구로구
+    labels:
+      en: "메구로구"
+      ko: "메구로구"
+      ja: "메구로구"
+  - id: 무사시노
+    labels:
+      en: "무사시노"
+      ko: "무사시노"
+      ja: "무사시노"
+  - id: 미나토구
+    labels:
+      en: "미나토구"
+      ko: "미나토구"
+      ja: "미나토구"
+  - id: 미라이칸
+    labels:
+      en: "미라이칸"
+      ko: "미라이칸"
+      ja: "미라이칸"
+  - id: 미츠이
+    labels:
+      en: "미츠이"
+      ko: "미츠이"
+      ja: "미츠이"
+  - id: 미타카
+    labels:
+      en: "미타카"
+      ko: "미타카"
+      ja: "미타카"
+  - id: 법인설립
+    labels:
+      en: "법인설립"
+      ko: "법인설립"
+      ja: "법인설립"
+  - id: 보통차가
+    labels:
+      en: "보통차가"
+      ko: "보통차가"
+      ja: "보통차가"
+  - id: 보행자천국
+    labels:
+      en: "보행자천국"
+      ko: "보행자천국"
+      ja: "보행자천국"
+  - id: 부동산
+    labels:
+      en: "부동산"
+      ko: "부동산"
+      ja: "부동산"
+  - id: 부동산-투자
+    labels:
+      en: "부동산-투자"
+      ko: "부동산 투자"
+      ja: "부동산-투자"
+  - id: 분쿄구
+    labels:
+      en: "분쿄구"
+      ko: "분쿄구"
+      ja: "분쿄구"
+  - id: 비거주자
+    labels:
+      en: "비거주자"
+      ko: "비거주자"
+      ja: "비거주자"
+  - id: 사법서사
+    labels:
+      en: "사법서사"
+      ko: "사법서사"
+      ja: "사법서사"
+  - id: 상속세
+    labels:
+      en: "상속세"
+      ko: "상속세"
+      ja: "상속세"
+  - id: 서브리스
+    labels:
+      en: "서브리스"
+      ko: "서브리스"
+      ja: "서브리스"
+  - id: 서울부동산
+    labels:
+      en: "서울부동산"
+      ko: "서울부동산"
+      ja: "서울부동산"
+  - id: 선별안목
+    labels:
+      en: "선별안목"
+      ko: "선별안목"
+      ja: "선별안목"
+  - id: 세금
+    labels:
+      en: "세금"
+      ko: "세금"
+      ja: "세금"
+  - id: 세무계획
+    labels:
+      en: "세무계획"
+      ko: "세무계획"
+      ja: "세무계획"
+  - id: 세무조사
+    labels:
+      en: "세무조사"
+      ko: "세무조사"
+      ja: "세무조사"
+  - id: 세타가야구
+    labels:
+      en: "세타가야구"
+      ko: "세타가야구"
+      ja: "세타가야구"
+  - id: 수선적립금
+    labels:
+      en: "수선적립금"
+      ko: "수선적립금"
+      ja: "수선적립금"
+  - id: 스기나미구
+    labels:
+      en: "스기나미구"
+      ko: "스기나미구"
+      ja: "스기나미구"
+  - id: 스미다구
+    labels:
+      en: "스미다구"
+      ko: "스미다구"
+      ja: "스미다구"
+  - id: 시나가와구
+    labels:
+      en: "시나가와구"
+      ko: "시나가와구"
+      ja: "시나가와구"
+  - id: 시부야구
+    labels:
+      en: "시부야구"
+      ko: "시부야구"
+      ja: "시부야구"
+  - id: 시세차익
+    labels:
+      en: "시세차익"
+      ko: "시세차익"
+      ja: "시세차익"
+  - id: 시장분석
+    labels:
+      en: "시장분석"
+      ko: "시장분석"
+      ja: "시장분석"
+  - id: 시장비교
+    labels:
+      en: "시장비교"
+      ko: "시장비교"
+      ja: "시장비교"
+  - id: 신오쿠보
+    labels:
+      en: "신오쿠보"
+      ko: "신오쿠보"
+      ja: "신오쿠보"
+  - id: 신주쿠구
+    labels:
+      en: "신주쿠구"
+      ko: "신주쿠구"
+      ja: "신주쿠구"
+  - id: 신축맨션
+    labels:
+      en: "신축맨션"
+      ko: "신축맨션"
+      ja: "신축맨션"
+  - id: 아다치구
+    labels:
+      en: "아다치구"
+      ko: "아다치구"
+      ja: "아다치구"
+  - id: 아라카와구
+    labels:
+      en: "아라카와구"
+      ko: "아라카와구"
+      ja: "아라카와구"
+  - id: 아사쿠사
+    labels:
+      en: "아사쿠사"
+      ko: "아사쿠사"
+      ja: "아사쿠사"
+  - id: 아이와도쿄
+    labels:
+      en: "아이와도쿄"
+      ko: "아이와도쿄"
+      ja: "아이와도쿄"
+  - id: 아자부주반
+    labels:
+      en: "아자부주반"
+      ko: "아자부주반"
+      ja: "아자부주반"
+  - id: 안전
+    labels:
+      en: "안전"
+      ko: "안전"
+      ja: "안전"
+  - id: 에도가와구
+    labels:
+      en: "에도가와구"
+      ko: "에도가와구"
+      ja: "에도가와구"
+  - id: 에세이
+    labels:
+      en: "에세이"
+      ko: "에세이"
+      ja: "에세이"
+  - id: 엔저
+    labels:
+      en: "엔저"
+      ko: "엔저"
+      ja: "엔저"
+  - id: 엔저전략
+    labels:
+      en: "엔저전략"
+      ko: "엔저전략"
+      ja: "엔저전략"
+  - id: 여행
+    labels:
+      en: "여행"
+      ko: "여행"
+      ja: "여행"
+  - id: 영주권
+    labels:
+      en: "영주권"
+      ko: "영주권"
+      ja: "영주권"
+  - id: 오타구
+    labels:
+      en: "오타구"
+      ko: "오타구"
+      ja: "오타구"
+  - id: 오테마치
+    labels:
+      en: "오테마치"
+      ko: "오테마치"
+      ja: "오테마치"
+  - id: 오피스
+    labels:
+      en: "오피스"
+      ko: "오피스"
+      ja: "오피스"
+  - id: 완전가이드
+    labels:
+      en: "완전가이드"
+      ko: "완전가이드"
+      ja: "완전가이드"
+  - id: 외국인투자
+    labels:
+      en: "외국인투자"
+      ko: "외국인투자"
+      ja: "외국인투자"
+  - id: 외국인투자자
+    labels:
+      en: "외국인투자자"
+      ko: "외국인투자자"
+      ja: "외국인투자자"
+  - id: 요코하마
+    labels:
+      en: "요코하마"
+      ko: "요코하마"
+      ja: "요코하마"
+  - id: 원상회복
+    labels:
+      en: "원상회복"
+      ko: "원상회복"
+      ja: "원상회복"
+  - id: 이주
+    labels:
+      en: "이주"
+      ko: "이주"
+      ja: "이주"
+  - id: 이케부쿠로
+    labels:
+      en: "이케부쿠로"
+      ko: "이케부쿠로"
+      ja: "이케부쿠로"
+  - id: 이타바시구
+    labels:
+      en: "이타바시구"
+      ko: "이타바시구"
+      ja: "이타바시구"
+  - id: 인사이트
+    labels:
+      en: "인사이트"
+      ko: "인사이트"
+      ja: "인사이트"
+  - id: 인프라
+    labels:
+      en: "인프라"
+      ko: "인프라"
+      ja: "인프라"
+  - id: 인형초
+    labels:
+      en: "인형초"
+      ko: "인형초"
+      ja: "인형초"
+  - id: 일본
+    labels:
+      en: "일본"
+      ko: "일본"
+      ja: "일본"
+  - id: 일본부동산
+    labels:
+      en: "일본부동산"
+      ko: "일본부동산"
+      ja: "일본부동산"
+  - id: 일본비자
+    labels:
+      en: "일본비자"
+      ko: "일본비자"
+      ja: "일본비자"
+  - id: 일본생활
+    labels:
+      en: "일본생활"
+      ko: "일본생활"
+      ja: "일본생활"
+  - id: 일본여행
+    labels:
+      en: "일본여행"
+      ko: "일본여행"
+      ja: "일본여행"
+  - id: 일본이민
+    labels:
+      en: "일본이민"
+      ko: "일본이민"
+      ja: "일본이민"
+  - id: 일본임대차계약
+    labels:
+      en: "일본임대차계약"
+      ko: "일본임대차계약"
+      ja: "일본임대차계약"
+  - id: 일본재개발
+    labels:
+      en: "일본재개발"
+      ko: "일본재개발"
+      ja: "일본재개발"
+  - id: 일본투자
+    labels:
+      en: "일본투자"
+      ko: "일본투자"
+      ja: "일본투자"
+  - id: 일본화
+    labels:
+      en: "일본화"
+      ko: "일본화"
+      ja: "일본화"
+  - id: 임대수익률
+    labels:
+      en: "임대수익률"
+      ko: "임대수익률"
+      ja: "임대수익률"
+  - id: 자산배분
+    labels:
+      en: "자산배분"
+      ko: "자산배분"
+      ja: "자산배분"
+  - id: 재개발
+    labels:
+      en: "재개발"
+      ko: "재개발"
+      ja: "재개발"
+  - id: 절세
+    labels:
+      en: "절세"
+      ko: "절세"
+      ja: "절세"
+  - id: 정기차가
+    labels:
+      en: "정기차가"
+      ko: "정기차가"
+      ja: "정기차가"
+  - id: 조후
+    labels:
+      en: "조후"
+      ko: "조후"
+      ja: "조후"
+  - id: 주오구
+    labels:
+      en: "주오구"
+      ko: "주오구"
+      ja: "주오구"
+  - id: 중고맨션
+    labels:
+      en: "중고맨션"
+      ko: "중고맨션"
+      ja: "중고맨션"
+  - id: 증여세
+    labels:
+      en: "증여세"
+      ko: "증여세"
+      ja: "증여세"
+  - id: 지역가이드
+    labels:
+      en: "지역가이드"
+      ko: "지역가이드"
+      ja: "지역가이드"
+  - id: 지진
+    labels:
+      en: "지진"
+      ko: "지진"
+      ja: "지진"
+  - id: 천객만래
+    labels:
+      en: "천객만래"
+      ko: "천객만래"
+      ja: "천객만래"
+  - id: 츠키지
+    labels:
+      en: "츠키지"
+      ko: "츠키지"
+      ja: "츠키지"
+  - id: 츠키지시장
+    labels:
+      en: "츠키지시장"
+      ko: "츠키지시장"
+      ja: "츠키지시장"
+  - id: 츠키지재개발
+    labels:
+      en: "츠키지재개발"
+      ko: "츠키지재개발"
+      ja: "츠키지재개발"
+  - id: 츠타야서점
+    labels:
+      en: "츠타야서점"
+      ko: "츠타야서점"
+      ja: "츠타야서점"
+  - id: 치요다구
+    labels:
+      en: "치요다구"
+      ko: "치요다구"
+      ja: "치요다구"
+  - id: 카부토초
+    labels:
+      en: "카부토초"
+      ko: "카부토초"
+      ja: "카부토초"
+  - id: 코레도
+    labels:
+      en: "코레도"
+      ko: "코레도"
+      ja: "코레도"
+  - id: 코쿠분지
+    labels:
+      en: "코쿠분지"
+      ko: "코쿠분지"
+      ja: "코쿠분지"
+  - id: 코토구
+    labels:
+      en: "코토구"
+      ko: "코토구"
+      ja: "코토구"
+  - id: 쿠니타치
+    labels:
+      en: "쿠니타치"
+      ko: "쿠니타치"
+      ja: "쿠니타치"
+  - id: 키자니아
+    labels:
+      en: "키자니아"
+      ko: "키자니아"
+      ja: "키자니아"
+  - id: 타치카와
+    labels:
+      en: "타치카와"
+      ko: "타치카와"
+      ja: "타치카와"
+  - id: 토라노몬
+    labels:
+      en: "토라노몬"
+      ko: "토라노몬"
+      ja: "토라노몬"
+  - id: 토요스시장
+    labels:
+      en: "토요스시장"
+      ko: "토요스시장"
+      ja: "토요스시장"
+  - id: 토쿄토치
+    labels:
+      en: "토쿄토치"
+      ko: "토쿄토치"
+      ja: "토쿄토치"
+  - id: 통화정책
+    labels:
+      en: "통화정책"
+      ko: "통화정책"
+      ja: "통화정책"
+  - id: 투자
+    labels:
+      en: "투자"
+      ko: "투자"
+      ja: "투자"
+  - id: 투자노트
+    labels:
+      en: "투자노트"
+      ko: "투자노트"
+      ja: "투자노트"
+  - id: 투자실패
+    labels:
+      en: "투자실패"
+      ko: "투자실패"
+      ja: "투자실패"
+  - id: 투자전략
+    labels:
+      en: "투자전략"
+      ko: "투자전략"
+      ja: "투자전략"
+  - id: 투자철학
+    labels:
+      en: "투자철학"
+      ko: "투자철학"
+      ja: "투자철학"
+  - id: 팀랩
+    labels:
+      en: "팀랩"
+      ko: "팀랩"
+      ja: "팀랩"
+  - id: 필라페이지
+    labels:
+      en: "필라페이지"
+      ko: "필라페이지"
+      ja: "필라페이지"
+  - id: 하마초
+    labels:
+      en: "하마초"
+      ko: "하마초"
+      ja: "하마초"
+  - id: 한국인커뮤니티
+    labels:
+      en: "한국인커뮤니티"
+      ko: "한국인커뮤니티"
+      ja: "한국인커뮤니티"
+  - id: 한일비즈니스
+    labels:
+      en: "한일비즈니스"
+      ko: "한일비즈니스"
+      ja: "한일비즈니스"
+  - id: 호텔
+    labels:
+      en: "호텔"
+      ko: "호텔"
+      ja: "호텔"
+  - id: 환리스크
+    labels:
+      en: "환리스크"
+      ko: "환리스크"
+      ja: "환리스크"
+  - id: 환율
+    labels:
+      en: "환율"
+      ko: "환율"
+      ja: "환율"
+  - id: 후추
+    labels:
+      en: "후추"
+      ko: "후추"
+      ja: "후추"
+  - id: 희소성
+    labels:
+      en: "희소성"
+      ko: "희소성"
+      ja: "희소성"
+  - id: インサイト
+    labels:
+      en: "インサイト"
+      ko: "インサイト"
+      ja: "インサイト"
+  - id: インフラ
+    labels:
+      en: "インフラ"
+      ko: "インフラ"
+      ja: "インフラ"
+  - id: エッセイ
+    labels:
+      en: "エッセイ"
+      ko: "エッセイ"
+      ja: "エッセイ"
+  - id: オフィス
+    labels:
+      en: "オフィス"
+      ko: "オフィス"
+      ja: "オフィス"
+  - id: オフィス市場
+    labels:
+      en: "オフィス市場"
+      ko: "オフィス市場"
+      ja: "オフィス市場"
+  - id: キッザニア
+    labels:
+      en: "キッザニア"
+      ko: "キッザニア"
+      ja: "キッザニア"
+  - id: キャピタルゲイン
+    labels:
+      en: "キャピタルゲイン"
+      ko: "キャピタルゲイン"
+      ja: "キャピタルゲイン"
+  - id: クロスボーダービジネス
+    labels:
+      en: "クロスボーダービジネス"
+      ko: "クロスボーダービジネス"
+      ja: "クロスボーダービジネス"
+  - id: コレド
+    labels:
+      en: "コレド"
+      ko: "コレド"
+      ja: "コレド"
+  - id: サブリース
+    labels:
+      en: "サブリース"
+      ko: "サブリース"
+      ja: "サブリース"
+  - id: ソウル不動産
+    labels:
+      en: "ソウル不動産"
+      ko: "ソウル不動産"
+      ja: "ソウル不動産"
+  - id: チームラボ
+    labels:
+      en: "チームラボ"
+      ko: "チームラボ"
+      ja: "チームラボ"
+  - id: ピラーページ
+    labels:
+      en: "ピラーページ"
+      ko: "ピラーページ"
+      ja: "ピラーページ"
+  - id: ホテル
+    labels:
+      en: "ホテル"
+      ko: "ホテル"
+      ja: "ホテル"
+  - id: マクロ
+    labels:
+      en: "マクロ"
+      ko: "マクロ"
+      ja: "マクロ"
+  - id: マクロ経済
+    labels:
+      en: "マクロ経済"
+      ko: "マクロ経済"
+      ja: "マクロ経済"
+  - id: マンション
+    labels:
+      en: "マンション"
+      ko: "マンション"
+      ja: "マンション"
+  - id: ライフスタイル
+    labels:
+      en: "ライフスタイル"
+      ko: "ライフスタイル"
+      ja: "ライフスタイル"
+  - id: リスク管理
+    labels:
+      en: "リスク管理"
+      ko: "リスク管理"
+      ja: "リスク管理"
+  - id: ローカルレポート
+    labels:
+      en: "ローカルレポート"
+      ko: "ローカルレポート"
+      ja: "ローカルレポート"
+  - id: 三井
+    labels:
+      en: "三井"
+      ko: "三井"
+      ja: "三井"
+  - id: 三鬼商事
+    labels:
+      en: "三鬼商事"
+      ko: "三鬼商事"
+      ja: "三鬼商事"
+  - id: 三鷹
+    labels:
+      en: "三鷹"
+      ko: "三鷹"
+      ja: "三鷹"
+  - id: 不動産
+    labels:
+      en: "不動産"
+      ko: "不動産"
+      ja: "不動産"
+  - id: 不動産投資
+    labels:
+      en: "不動産投資"
+      ko: "不動産投資"
+      ja: "不動産投資"
+  - id: 世田谷区
+    labels:
+      en: "世田谷区"
+      ko: "世田谷区"
+      ja: "世田谷区"
+  - id: 中古マンション
+    labels:
+      en: "中古マンション"
+      ko: "中古マンション"
+      ja: "中古マンション"
+  - id: 中央区
+    labels:
+      en: "中央区"
+      ko: "中央区"
+      ja: "中央区"
+  - id: 中野区
+    labels:
+      en: "中野区"
+      ko: "中野区"
+      ja: "中野区"
+  - id: 丸の内
+    labels:
+      en: "丸の内"
+      ko: "丸の内"
+      ja: "丸の内"
+  - id: 人形町
+    labels:
+      en: "人形町"
+      ko: "人形町"
+      ja: "人形町"
+  - id: 代官山
+    labels:
+      en: "代官山"
+      ko: "代官山"
+      ja: "代官山"
+  - id: 価格
+    labels:
+      en: "価格"
+      ko: "価格"
+      ja: "価格"
+  - id: 修繕積立金
+    labels:
+      en: "修繕積立金"
+      ko: "修繕積立金"
+      ja: "修繕積立金"
+  - id: 兜町
+    labels:
+      en: "兜町"
+      ko: "兜町"
+      ja: "兜町"
+  - id: 入管法改正
+    labels:
+      en: "入管法改正"
+      ko: "入管法改正"
+      ja: "入管法改正"
+  - id: 円
+    labels:
+      en: "円"
+      ko: "円"
+      ja: "円"
+  - id: 円安戦略
+    labels:
+      en: "円安戦略"
+      ko: "円安戦略"
+      ja: "円安戦略"
+  - id: 再開発
+    labels:
+      en: "再開発"
+      ko: "再開発"
+      ja: "再開発"
+  - id: 利上げ
+    labels:
+      en: "利上げ"
+      ko: "利上げ"
+      ja: "利上げ"
+  - id: 利回り
+    labels:
+      en: "利回り"
+      ko: "利回り"
+      ja: "利回り"
+  - id: 北区
+    labels:
+      en: "北区"
+      ko: "北区"
+      ja: "北区"
+  - id: 千代田区
+    labels:
+      en: "千代田区"
+      ko: "千代田区"
+      ja: "千代田区"
+  - id: 千客万来
+    labels:
+      en: "千客万来"
+      ko: "千客万来"
+      ja: "千客万来"
+  - id: 原状回復
+    labels:
+      en: "原状回復"
+      ko: "原状回復"
+      ja: "原状回復"
+  - id: 台東区
+    labels:
+      en: "台東区"
+      ko: "台東区"
+      ja: "台東区"
+  - id: 司法書士
+    labels:
+      en: "司法書士"
+      ko: "司法書士"
+      ja: "司法書士"
+  - id: 品川区
+    labels:
+      en: "品川区"
+      ko: "品川区"
+      ja: "品川区"
+  - id: 国分寺
+    labels:
+      en: "国分寺"
+      ko: "国分寺"
+      ja: "国分寺"
+  - id: 国立
+    labels:
+      en: "国立"
+      ko: "国立"
+      ja: "国立"
+  - id: 地域ガイド
+    labels:
+      en: "地域ガイド"
+      ko: "地域ガイド"
+      ja: "地域ガイド"
+  - id: 地震
+    labels:
+      en: "地震"
+      ko: "地震"
+      ja: "地震"
+  - id: 外国人投資
+    labels:
+      en: "外国人投資"
+      ko: "外国人投資"
+      ja: "外国人投資"
+  - id: 外国人投資家
+    labels:
+      en: "外国人投資家"
+      ko: "外国人投資家"
+      ja: "外国人投資家"
+  - id: 多摩
+    labels:
+      en: "多摩"
+      ko: "多摩"
+      ja: "多摩"
+  - id: 大手町
+    labels:
+      en: "大手町"
+      ko: "大手町"
+      ja: "大手町"
+  - id: 大田区
+    labels:
+      en: "大田区"
+      ko: "大田区"
+      ja: "大田区"
+  - id: 子連れ東京
+    labels:
+      en: "子連れ東京"
+      ko: "子連れ東京"
+      ja: "子連れ東京"
+  - id: 完全ガイド
+    labels:
+      en: "完全ガイド"
+      ko: "完全ガイド"
+      ja: "完全ガイド"
+  - id: 定期借家
+    labels:
+      en: "定期借家"
+      ko: "定期借家"
+      ja: "定期借家"
+  - id: 市場分析
+    labels:
+      en: "市場分析"
+      ko: "市場分析"
+      ja: "市場分析"
+  - id: 市場相関
+    labels:
+      en: "市場相関"
+      ko: "市場相関"
+      ja: "市場相関"
+  - id: 希少性
+    labels:
+      en: "希少性"
+      ko: "希少性"
+      ja: "希少性"
+  - id: 府中
+    labels:
+      en: "府中"
+      ko: "府中"
+      ja: "府中"
+  - id: 投資
+    labels:
+      en: "投資"
+      ko: "投資"
+      ja: "投資"
+  - id: 投資ノート
+    labels:
+      en: "投資ノート"
+      ko: "投資ノート"
+      ja: "投資ノート"
+  - id: 投資哲学
+    labels:
+      en: "投資哲学"
+      ko: "投資哲学"
+      ja: "投資哲学"
+  - id: 投資失敗
+    labels:
+      en: "投資失敗"
+      ko: "投資失敗"
+      ja: "投資失敗"
+  - id: 投資戦略
+    labels:
+      en: "投資戦略"
+      ko: "投資戦略"
+      ja: "投資戦略"
+  - id: 文京区
+    labels:
+      en: "文京区"
+      ko: "文京区"
+      ja: "文京区"
+  - id: 新大久保
+    labels:
+      en: "新大久保"
+      ko: "新大久保"
+      ja: "新大久保"
+  - id: 新宿区
+    labels:
+      en: "新宿区"
+      ko: "新宿区"
+      ja: "新宿区"
+  - id: 新築マンション
+    labels:
+      en: "新築マンション"
+      ko: "新築マンション"
+      ja: "新築マンション"
+  - id: 旅行
+    labels:
+      en: "旅行"
+      ko: "旅行"
+      ja: "旅行"
+  - id: 日本
+    labels:
+      en: "日本"
+      ko: "日本"
+      ja: "日本"
+  - id: 日本ビザ
+    labels:
+      en: "日本ビザ"
+      ko: "日本ビザ"
+      ja: "日本ビザ"
+  - id: 日本不動産
+    labels:
+      en: "日本不動産"
+      ko: "日本不動産"
+      ja: "日本不動産"
+  - id: 日本再開発
+    labels:
+      en: "日本再開発"
+      ko: "日本再開発"
+      ja: "日本再開発"
+  - id: 日本化
+    labels:
+      en: "日本化"
+      ko: "日本化"
+      ja: "日本化"
+  - id: 日本投資
+    labels:
+      en: "日本投資"
+      ko: "日本投資"
+      ja: "日本投資"
+  - id: 日本旅行
+    labels:
+      en: "日本旅行"
+      ko: "日本旅行"
+      ja: "日本旅行"
+  - id: 日本橋
+    labels:
+      en: "日本橋"
+      ko: "日本橋"
+      ja: "日本橋"
+  - id: 日本生活
+    labels:
+      en: "日本生活"
+      ko: "日本生活"
+      ja: "日本生活"
+  - id: 日銀金利
+    labels:
+      en: "日銀金利"
+      ko: "日銀金利"
+      ja: "日銀金利"
+  - id: 普通借家
+    labels:
+      en: "普通借家"
+      ko: "普通借家"
+      ja: "普通借家"
+  - id: 未来館
+    labels:
+      en: "未来館"
+      ko: "未来館"
+      ja: "未来館"
+  - id: 杉並区
+    labels:
+      en: "杉並区"
+      ko: "杉並区"
+      ja: "杉並区"
+  - id: 東京
+    labels:
+      en: "東京"
+      ko: "東京"
+      ja: "東京"
+  - id: 東京-23-区
+    labels:
+      en: "東京-23-区"
+      ko: "東京-23-区"
+      ja: "東京23区"
+  - id: 東京ミュージアム
+    labels:
+      en: "東京ミュージアム"
+      ko: "東京ミュージアム"
+      ja: "東京ミュージアム"
+  - id: 東京ライフ
+    labels:
+      en: "東京ライフ"
+      ko: "東京ライフ"
+      ja: "東京ライフ"
+  - id: 東京不動産
+    labels:
+      en: "東京不動産"
+      ko: "東京不動産"
+      ja: "東京不動産"
+  - id: 東京再開発
+    labels:
+      en: "東京再開発"
+      ko: "東京再開発"
+      ja: "東京再開発"
+  - id: 東京展望台
+    labels:
+      en: "東京展望台"
+      ko: "東京展望台"
+      ja: "東京展望台"
+  - id: 東京投資
+    labels:
+      en: "東京投資"
+      ko: "東京投資"
+      ja: "東京投資"
+  - id: 東京散策
+    labels:
+      en: "東京散策"
+      ko: "東京散策"
+      ja: "東京散策"
+  - id: 東京旅行
+    labels:
+      en: "東京旅行"
+      ko: "東京旅行"
+      ja: "東京旅行"
+  - id: 東京暮らし
+    labels:
+      en: "東京暮らし"
+      ko: "東京暮らし"
+      ja: "東京暮らし"
+  - id: 東京生活
+    labels:
+      en: "東京生活"
+      ko: "東京生活"
+      ja: "東京生活"
+  - id: 板橋区
+    labels:
+      en: "板橋区"
+      ko: "板橋区"
+      ja: "板橋区"
+  - id: 横浜
+    labels:
+      en: "横浜"
+      ko: "横浜"
+      ja: "横浜"
+  - id: 武蔵野
+    labels:
+      en: "武蔵野"
+      ko: "武蔵野"
+      ja: "武蔵野"
+  - id: 歩行者天国
+    labels:
+      en: "歩行者天国"
+      ko: "歩行者天国"
+      ja: "歩行者天国"
+  - id: 永住権
+    labels:
+      en: "永住権"
+      ko: "永住権"
+      ja: "永住権"
+  - id: 江戸川区
+    labels:
+      en: "江戸川区"
+      ko: "江戸川区"
+      ja: "江戸川区"
+  - id: 江東区
+    labels:
+      en: "江東区"
+      ko: "江東区"
+      ja: "江東区"
+  - id: 池袋
+    labels:
+      en: "池袋"
+      ko: "池袋"
+      ja: "池袋"
+  - id: 法人化
+    labels:
+      en: "法人化"
+      ko: "法人化"
+      ja: "法人化"
+  - id: 浅草
+    labels:
+      en: "浅草"
+      ko: "浅草"
+      ja: "浅草"
+  - id: 浜町
+    labels:
+      en: "浜町"
+      ko: "浜町"
+      ja: "浜町"
+  - id: 渋谷区
+    labels:
+      en: "渋谷区"
+      ko: "渋谷区"
+      ja: "渋谷区"
+  - id: 減価償却
+    labels:
+      en: "減価償却"
+      ko: "減価償却"
+      ja: "減価償却"
+  - id: 港区
+    labels:
+      en: "港区"
+      ko: "港区"
+      ja: "港区"
+  - id: 為替
+    labels:
+      en: "為替"
+      ko: "為替"
+      ja: "為替"
+  - id: 為替リスク
+    labels:
+      en: "為替リスク"
+      ko: "為替リスク"
+      ja: "為替リスク"
+  - id: 登記
+    labels:
+      en: "登記"
+      ko: "登記"
+      ja: "登記"
+  - id: 目黒区
+    labels:
+      en: "目黒区"
+      ko: "目黒区"
+      ja: "目黒区"
+  - id: 相続税
+    labels:
+      en: "相続税"
+      ko: "相続税"
+      ja: "相続税"
+  - id: 移住
+    labels:
+      en: "移住"
+      ko: "移住"
+      ja: "移住"
+  - id: 税務戦略
+    labels:
+      en: "税務戦略"
+      ko: "税務戦略"
+      ja: "税務戦略"
+  - id: 税務計画
+    labels:
+      en: "税務計画"
+      ko: "税務計画"
+      ja: "税務計画"
+  - id: 税務調査
+    labels:
+      en: "税務調査"
+      ko: "税務調査"
+      ja: "税務調査"
+  - id: 税金
+    labels:
+      en: "税金"
+      ko: "税金"
+      ja: "税金"
+  - id: 空室率
+    labels:
+      en: "空室率"
+      ko: "空室率"
+      ja: "空室率"
+  - id: 立川
+    labels:
+      en: "立川"
+      ko: "立川"
+      ja: "立川"
+  - id: 築地
+    labels:
+      en: "築地"
+      ko: "築地"
+      ja: "築地"
+  - id: 築地再開発
+    labels:
+      en: "築地再開発"
+      ko: "築地再開発"
+      ja: "築地再開発"
+  - id: 築地市場
+    labels:
+      en: "築地市場"
+      ko: "築地市場"
+      ja: "築地市場"
+  - id: 経営管理ビザ
+    labels:
+      en: "経営管理ビザ"
+      ko: "経営管理ビザ"
+      ja: "経営管理ビザ"
+  - id: 練馬区
+    labels:
+      en: "練馬区"
+      ko: "練馬区"
+      ja: "練馬区"
+  - id: 荒川区
+    labels:
+      en: "荒川区"
+      ko: "荒川区"
+      ja: "荒川区"
+  - id: 葛飾区
+    labels:
+      en: "葛飾区"
+      ko: "葛飾区"
+      ja: "葛飾区"
+  - id: 蔦屋書店
+    labels:
+      en: "蔦屋書店"
+      ko: "蔦屋書店"
+      ja: "蔦屋書店"
+  - id: 虎ノ門
+    labels:
+      en: "虎ノ門"
+      ko: "虎ノ門"
+      ja: "虎ノ門"
+  - id: 融資規制
+    labels:
+      en: "融資規制"
+      ko: "融資規制"
+      ja: "融資規制"
+  - id: 調布
+    labels:
+      en: "調布"
+      ko: "調布"
+      ja: "調布"
+  - id: 譲渡所得
+    labels:
+      en: "譲渡所得"
+      ko: "譲渡所得"
+      ja: "譲渡所得"
+  - id: 豊島区
+    labels:
+      en: "豊島区"
+      ko: "豊島区"
+      ja: "豊島区"
+  - id: 豊洲市場
+    labels:
+      en: "豊洲市場"
+      ko: "豊洲市場"
+      ja: "豊洲市場"
+  - id: 賃貸借契約
+    labels:
+      en: "賃貸借契約"
+      ko: "賃貸借契約"
+      ja: "賃貸借契約"
+  - id: 資産配分
+    labels:
+      en: "資産配分"
+      ko: "資産配分"
+      ja: "資産配分"
+  - id: 購入手続き
+    labels:
+      en: "購入手続き"
+      ko: "購入手続き"
+      ja: "購入手続き"
+  - id: 贈与税
+    labels:
+      en: "贈与税"
+      ko: "贈与税"
+      ja: "贈与税"
+  - id: 起業家精神
+    labels:
+      en: "起業家精神"
+      ko: "起業家精神"
+      ja: "起業家精神"
+  - id: 足立区
+    labels:
+      en: "足立区"
+      ko: "足立区"
+      ja: "足立区"
+  - id: 選別眼
+    labels:
+      en: "選別眼"
+      ko: "選別眼"
+      ja: "選別眼"
+  - id: 都心-6-区
+    labels:
+      en: "都心-6-区"
+      ko: "都心-6-区"
+      ja: "都心6区"
+  - id: 都心ライフ
+    labels:
+      en: "都心ライフ"
+      ko: "都心ライフ"
+      ja: "都心ライフ"
+  - id: 配分
+    labels:
+      en: "配分"
+      ko: "配分"
+      ja: "配分"
+  - id: 金利
+    labels:
+      en: "金利"
+      ko: "金利"
+      ja: "金利"
+  - id: 金融政策
+    labels:
+      en: "金融政策"
+      ko: "金融政策"
+      ja: "金融政策"
+  - id: 銀座
+    labels:
+      en: "銀座"
+      ko: "銀座"
+      ja: "銀座"
+  - id: 銀座シックス
+    labels:
+      en: "銀座シックス"
+      ko: "銀座シックス"
+      ja: "銀座シックス"
+  - id: 防災
+    labels:
+      en: "防災"
+      ko: "防災"
+      ja: "防災"
+  - id: 非居住者
+    labels:
+      en: "非居住者"
+      ko: "非居住者"
+      ja: "非居住者"
+  - id: 韓国人コミュニティ
+    labels:
+      en: "韓国人コミュニティ"
+      ko: "韓国人コミュニティ"
+      ja: "韓国人コミュニティ"
+  - id: 韓日
+    labels:
+      en: "韓日"
+      ko: "韓日"
+      ja: "韓日"
+  - id: 高度専門職
+    labels:
+      en: "高度専門職"
+      ko: "高度専門職"
+      ja: "高度専門職"
+  - id: 麻布十番
+    labels:
+      en: "麻布十番"
+      ko: "麻布十番"
+      ja: "麻布十番"
+  - id: 墨田区
+    labels:
+      en: "墨田区"
+      ko: "墨田区"
+      ja: "墨田区"

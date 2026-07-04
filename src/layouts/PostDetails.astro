@@ -28,6 +28,11 @@ import { getUi, type UiLang } from "@/i18n/ui";
 import fs from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
+import { tagCanonicalHref } from "@/utils/tagCanonicalHref";
+import { collectTagsByLocale, getTagSlugPrimaryLocaleMap } from "@/build/crossLocaleTagRedirects";
+
+const blogDir = path.join(process.cwd(), "src/data/blog");
+const primaryMap = getTagSlugPrimaryLocaleMap(collectTagsByLocale(blogDir));
 
 type Props = {
   post: CollectionEntry<"blog">;
@@ -283,7 +288,7 @@ const nextPost =
     <EditPost class="sm:hidden" {hideEditPost} {post} />
 
     <ul class="mt-4 mb-8 flex flex-wrap gap-4 sm:my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />)}
+      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} href={tagCanonicalHref(slugifyStr(tag), primaryMap)} size="sm" />)}
     </ul>
 
     <BackToTopButton />

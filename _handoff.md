@@ -21,6 +21,15 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
+## [2026-07-04 16:04 JST] Cursor 브랜치 대기
+- 작업 내용: Phase 1~3 (태그 직링크 · taxonomy · 운영 신뢰) 구현 완료
+- 브랜치: fix/tag-phase1-3-ssot
+- 커밋 (validate): 3ff72ec
+- slug / 파일: src/utils/tagCanonicalHref.ts, src/components/Tag.astro, src/layouts/PostDetails.astro, src/pages/[...locale]/tags/index.astro, src/data/tag-taxonomy.yaml, scripts/bootstrap-tag-taxonomy.mjs, scripts/lint-tag-taxonomy.mjs, package.json, .github/workflows/blog-validate.yml, .github/workflows/verify-tokyo-episodes.yml, .gitignore, WEEKLY_STATUS.md, docs/DEPLOY.md, scripts/deploy-prebuilt-prod.sh
+- 배포 예정: Cursor 검증 PASS 후 main merge 및 prod deploy
+- 다음: Cursor의 `fix/tag-phase1-3-ssot` 브랜치 검증 및 main 머지 승인
+- SSOT: GSF-OS/AG_TASK_ark-tag-phase1-3-20260704.md
+
 ## [2026-07-04 15:20 JST] AG 배포 완료 (Cursor PASS 후)
 - 작업 내용: GSC 태그 리디렉션 루프 오류 근본 수정 및 빌드 타임 게이트 연동 배포 완료
 - 커밋 해시: 7b0caca (main merge 완료)

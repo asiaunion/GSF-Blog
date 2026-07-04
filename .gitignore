@@ -56,3 +56,15 @@ workers/notion-poller/node_modules/
 docs/verification/data/N02-*/
 docs/verification/data/N03-*/
 docs/verification/data/*.zip
+
+# local debug / one-off artifacts (do not commit)
+/jobs*.json
+/run*_logs.txt
+/build_log.txt
+/failed_log.txt
+/query_result*.json
+/test.js
+/test.ts
+/test-*.js
+/test-*.ts
+/*.xlsx

@@ -178,3 +178,10 @@ Joseph가 **`SNS 배포 시작`** / **`SNS 배포`** / **`소셜 배포`** 만 �
 | `.github/workflows/notion-publish.yml` | 발행 파이프라인 |
 | `.github/workflows/notion-sync.yml` | 역동기화 트리거 |
 | `blueprint-notion-cms.md` | 전체 아키텍처 설계서 |
+
+---
+
+## 🏷️ 태그 관리 및 Taxonomy 규칙 (2026-07-04+)
+
+* 새 태그 추가 시 반드시 `src/data/tag-taxonomy.yaml`에 concept 및 로케일별 `labels`를 등록 후 커밋해야 빌드/머지 CI(`lint:tags`)를 통과할 수 있습니다.
+* 기존 포스트의 태그 rename 및 동의어 통합(Phase 2b)은 현재 **AdSense 심사 중**이므로 심사 승인 이후로 미룹니다.

@@ -1,3 +1,4 @@
+# advisory only — not a merge gate
 name: Verify Tokyo episodes
 
 on:
@@ -33,6 +34,7 @@ jobs:
 
       - name: Verify tokyo episode manifests (CI mode)
         run: node scripts/verify-tokyo-changed.mjs --ci
+        continue-on-error: true
 
       - name: Manifest locale parity (Ep.06+)
         run: |

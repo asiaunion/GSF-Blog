@@ -11,6 +11,8 @@ on:
       - "src/lib/validation/**"
       - "scripts/validate-blog-post.ts"
       - "scripts/batch-validate-posts.mjs"
+      - "src/data/tag-taxonomy.yaml"
+      - "scripts/lint-tag-taxonomy.mjs"
 
 jobs:
   validate-changed-slugs:
@@ -37,6 +39,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Run tag taxonomy lint
+        run: pnpm lint:tags
 
       - name: Detect changed slugs
         id: slugs
