@@ -71,10 +71,10 @@ For Korean relocators, Shinjuku isn't just a neighborhood. It's a psychological 
 
 | Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) |
 |----------|--------------------------|----------------|
-| Nishi-Shinjuku / City Hall area | ¥1.3M–¥2.0M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥4.3M–¥6.6M/坪 |
-| Yotsuya / Ichigaya | ¥1.1M–¥1.6M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.65M–¥5.3M/坪 |
-| Shin-Okubo / Takadanobaba | ¥0.9M–¥1.3M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.0M–¥4.3M/坪 |
-| Waseda / Kagurazaka area | ¥0.85M–¥1.2M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥2.8M–¥4.0M/坪 |
+| Nishi-Shinjuku / City Hall area | ¥1.3M–¥2.0M/㎡ | ¥4.3M–¥6.6M/坪 |
+| Yotsuya / Ichigaya | ¥1.1M–¥1.6M/㎡ | ¥3.65M–¥5.3M/坪 |
+| Shin-Okubo / Takadanobaba | ¥0.9M–¥1.3M/㎡ | ¥3.0M–¥4.3M/坪 |
+| Waseda / Kagurazaka area | ¥0.85M–¥1.2M/㎡ | ¥2.8M–¥4.0M/坪 |
 | **Ward average** | **¥1.359M/㎡** | **¥4.49M/坪** |
 
 > Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (n=1,298)
@@ -138,11 +138,11 @@ My view is clear. Among the Core 6 Wards, Shibuya has the highest upside potenti
 
 | Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) |
 |----------|--------------------------|----------------|
-| Omotesando / Aoyama | ¥1.8M–¥2.8M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥6.0M–¥9.25M/坪 |
-| Daikanyama / Ebisu | ¥1.5M–¥2.3M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥5.0M–¥7.6M/坪 |
-| Nakameguro / Yutesuji | ¥1.3M–¥2.0M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥4.3M–¥6.6M/坪 |
-| Shibuya Station area | ¥1.2M–¥1.8M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥4.0M–¥5.95M/坪 |
-| Hatagaya / Hatsudai | ¥1.0M–¥1.4M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.3M–¥4.65M/坪 |
+| Omotesando / Aoyama | ¥1.8M–¥2.8M/㎡ | ¥6.0M–¥9.25M/坪 |
+| Daikanyama / Ebisu | ¥1.5M–¥2.3M/㎡ | ¥5.0M–¥7.6M/坪 |
+| Nakameguro / Yutesuji | ¥1.3M–¥2.0M/㎡ | ¥4.3M–¥6.6M/坪 |
+| Shibuya Station area | ¥1.2M–¥1.8M/㎡ | ¥4.0M–¥5.95M/坪 |
+| Hatagaya / Hatsudai | ¥1.0M–¥1.4M/㎡ | ¥3.3M–¥4.65M/坪 |
 | **Ward average** | **¥1.800M/㎡** | **¥5.95M/坪** |
 
 > Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (n=907)
@@ -206,10 +206,10 @@ I've compared Nihonbashi and Bunkyo side by side. Nihonbashi is a place you work
 
 | Sub-area | Price per ㎡ (2025–2026) | Per Tsubo (坪) |
 |----------|--------------------------|----------------|
-| Koraku / Suidobashi | ¥1.1M–¥1.6M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.65M–¥5.3M/坪 |
-| Hongo / Yushima | ¥1.0M–¥1.45M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.3M–¥4.8M/坪 |
-| Koishikawa / Otsuka | ¥0.9M–¥1.3M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥3.0M–¥4.3M/坪 |
-| Hakusan / Nezu | ¥0.85M–¥1.2M/㎡ ⚠️ pending sub-area verification vs. actual transactions | ¥2.8M–¥4.0M/坪 |
+| Koraku / Suidobashi | ¥1.1M–¥1.6M/㎡ | ¥3.65M–¥5.3M/坪 |
+| Hongo / Yushima | ¥1.0M–¥1.45M/㎡ | ¥3.3M–¥4.8M/坪 |
+| Koishikawa / Otsuka | ¥0.9M–¥1.3M/㎡ | ¥3.0M–¥4.3M/坪 |
+| Hakusan / Nezu | ¥0.85M–¥1.2M/㎡ | ¥2.8M–¥4.0M/坪 |
 | **Ward average** | **¥1.315M/㎡** | **¥4.34M/坪** |
 
 > Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (n=808)
