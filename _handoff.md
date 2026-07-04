@@ -21,6 +21,19 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
+## [2026-07-04 20:19 JST] AG SNS 초안 완료 (Step 5 위임)
+- 작업 내용: 한국 거주자 일본 부동산 양도세 에피소드 SNS 초안 날짜명 영구 로컬 파일 저장 및 크리덴셜 연동 체크 완료
+- 저장 파일: `projects/GSF-Ark/sns-drafts/2026-07-04-korea-resident-japan-property-capital-gains-tax.md`
+- 커밋 해시: (로컬 git 커밋 없음 - .gitignore 대상)
+- 배포 URL: (수동 발행 폴백)
+- Claude 부재 여부: 예 (AG 단독 작업)
+- 특이사항:
+  - `.env` 크리덴셜 검사:
+    - X (Twitter): Free Tier 정책에 따라 자동 게시 비활성화 (수동 복사용 텍스트 폴백)
+    - LinkedIn: 크리덴셜 미설정 (`LINKEDIN_ACCESS_TOKEN` 등 비어 있음, 수동 복사용 텍스트 폴백)
+    - Threads: 크리덴셜이 정상적으로 연동되어 있으나, 샌드박스 보안 정책 상 자동 게시 스크립트(`post_to_threads.py`) 실행 권한 승인이 타임아웃되어 실제 자동 게시를 처리하지 못하고 수동 복사용 텍스트 폴백으로 처리함.
+  - 모든 채널(X, LinkedIn, Threads)에 대해 복사 및 즉시 사용이 가능한 최종 텍스트 요약을 보고서에 첨부함.
+
 ## [2026-07-04 17:35 JST] Cursor 브랜치 대기
 - 작업 내용: 한국 거주자의 일본 부동산 양도세 에피소드 출처 정밀 수정 및 본문 단순화 완료 (KO/EN/JA)
   - NTS 오링크 교체 (양도세 개요 및 소득세법 제57조 공식 법조문 percent-encoding 주소 채택)

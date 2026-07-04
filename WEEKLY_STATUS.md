@@ -158,6 +158,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-04
+- 양도세 에피소드 KO/EN/JA prod 배포
 - Phase1~3 태그 직링크·taxonomy prod 배포
 - Phase 1~3 태그 직링크 및 taxonomy 린트 배포 완료
 - GSC 태그 리디렉션 루프 수정 prod 배포
