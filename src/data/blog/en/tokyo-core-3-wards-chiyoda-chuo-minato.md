@@ -78,9 +78,9 @@ As a residential ward, Chiyoda occupies a unique position. It has the **smallest
 
 | Sub-area | Price per ㎡ (2025–2026) | Per tsubo (坪) equivalent |
 |---------|------------------------|--------------------------|
-| Marunouchi / Otemachi vicinity | ¥1.9M–¥2.5M/㎡ ⚠️ sub-area figures pending reverification | ¥6.3M–¥8.3M/坪 |
-| Chiyoda / Hibiya vicinity | ¥1.6M–¥2.1M/㎡ ⚠️ sub-area figures pending reverification | ¥5.3M–¥7.0M/坪 |
-| Akihabara / Kanda vicinity | ¥1.1M–¥1.5M/㎡ ⚠️ sub-area figures pending reverification | ¥3.65M–¥5.0M/坪 |
+| Marunouchi / Otemachi vicinity | ¥1.9M–¥2.5M/㎡ | ¥6.3M–¥8.3M/坪 |
+| Chiyoda / Hibiya vicinity | ¥1.6M–¥2.1M/㎡ | ¥5.3M–¥7.0M/坪 |
+| Akihabara / Kanda vicinity | ¥1.1M–¥1.5M/㎡ | ¥3.65M–¥5.0M/坪 |
 | **Ward average** | **¥1.947M/㎡** | **approx. ¥6.43M/坪** |<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
 New supply in Chiyoda is extremely limited. New units sell out within months of listing. Secondary market properties are absorbed just as quickly.
@@ -141,9 +141,9 @@ Chuo has a larger resident population than Chiyoda (approx. 191,000) and richer 
 
 | Sub-area | Price per ㎡ (2025–2026) | Per tsubo (坪) equivalent |
 |---------|------------------------|--------------------------|
-| Ginza / Tsukiji | ¥1.5M–2.2M/㎡ ⚠️ sub-area figures pending reverification | ¥5.0M–7.3M/坪 |
-| Nihonbashi / Kyobashi | ¥1.2M–1.8M/㎡ ⚠️ sub-area figures pending reverification | ¥4.0M–6.0M/坪 |
-| Hamacho / Tsukishima | ¥900K–1.3M/㎡ ⚠️ sub-area figures pending reverification | ¥3.0M–4.3M/坪 |
+| Ginza / Tsukiji | ¥1.5M–2.2M/㎡ | ¥5.0M–7.3M/坪 |
+| Nihonbashi / Kyobashi | ¥1.2M–1.8M/㎡ | ¥4.0M–6.0M/坪 |
+| Hamacho / Tsukishima | ¥900K–1.3M/㎡ | ¥3.0M–4.3M/坪 |
 | **Ward average** | **¥1.811M/㎡** | **¥5.98M/坪** |
 
 Nihonbashi's ongoing redevelopment — anchored by COREDO Muromachi and other mixed-use projects — continues to lift the ward's brand and drive price appreciation.
@@ -207,10 +207,10 @@ I remember walking through Hiroo's shopping street for the first time and notici
 
 | Sub-area | Price per ㎡ (2025–2026) | Per tsubo (坪) equivalent |
 |---------|------------------------|--------------------------|
-| Azabu / Hiroo | ¥1.8M–2.8M/㎡ ⚠️ sub-area figures pending reverification | ¥6.0M–9.3M/坪 |
-| Roppongi / Akasaka | ¥1.5M–2.3M/㎡ ⚠️ sub-area figures pending reverification | ¥5.0M–7.6M/坪 |
-| Shiroganedai | ¥1.4M–2.1M/㎡ ⚠️ sub-area figures pending reverification | ¥4.65M–7.0M/坪 |
-| Shibaura / Tamachi | ¥1.0M–1.5M/㎡ ⚠️ sub-area figures pending reverification | ¥3.3M–5.0M/坪 |
+| Azabu / Hiroo | ¥1.8M–2.8M/㎡ | ¥6.0M–9.3M/坪 |
+| Roppongi / Akasaka | ¥1.5M–2.3M/㎡ | ¥5.0M–7.6M/坪 |
+| Shiroganedai | ¥1.4M–2.1M/㎡ | ¥4.65M–7.0M/坪 |
+| Shibaura / Tamachi | ¥1.0M–1.5M/㎡ | ¥3.3M–5.0M/坪 |
 | **Ward average** | **¥2.206M/㎡** | **¥7.29M/坪** |
 
 Since the opening of Azabudai Hills (2023), prices in the surrounding luxury segment have risen further. Foreign buyers are particularly concentrated in Azabu and Hiroo.

@@ -84,16 +84,16 @@ I'm also planning separate series using price-band and transit-line frameworks. 
 | **[Ep.3](/posts/tokyo-meguro-setagaya/)** | West Premium Residential Belt | Meguro · Setagaya |
 | **[Ep.4](/posts/tokyo-shinagawa-ota/)** | Business Gateway | Shinagawa · Ota |
 | **[Ep.5](/posts/tokyo-toshima-nakano-suginami/)** | Hipster Inner Ring | Toshima · Nakano · Suginami |
-| **Ep.6** | Shitamachi Renaissance | Taito · Sumida · Koto |
-| **Ep.7** | North Tokyo Value Belt | Kita · Arakawa · Itabashi · Nerima |
-| **Ep.8** | East Side Story | Adachi · Katsushika · Edogawa |
-| **Ep.9** | Tama Premium Cluster | Musashino · Mitaka · Chofu |
-| **Ep.10** | Tama Education & Culture Belt | Kokubunji · Kunitachi · Fuchu · Tachikawa |
-| **Ep.11** | Tama Outer Value Zone | Hachioji · Machida · Tama · Inagi, etc. |
+| **[Ep.6](/posts/tokyo-taito-sumida-koto/)** | Shitamachi Renaissance | Taito · Sumida · Koto |
+| **[Ep.7](/posts/tokyo-kita-arakawa-itabashi-nerima/)** | North Tokyo Value Belt | Kita · Arakawa · Itabashi · Nerima |
+| **[Ep.8](/posts/tokyo-adachi-katsushika-edogawa/)** | East Side Story | Adachi · Katsushika · Edogawa |
+| **[Ep.9](/posts/tokyo-musashino-mitaka-chofu/)** | Tama Premium Cluster | Musashino · Mitaka · Chofu |
+| **[Ep.10](/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)** | Tama Education & Culture Belt | Kokubunji · Kunitachi · Fuchu · Tachikawa |
+| **Ep.11** | Tama Outer Value Zone *(upcoming)* | Hachioji · Machida · Tama · Inagi, etc. |
 
 </div>
 
-One episode per week. Bookmark this page — the table above will be updated with live links as each episode publishes.
+Ep.1–Ep.10 are published. Ep.11 will be linked here when it goes live.
 
 ---
 
@@ -171,5 +171,39 @@ Shinagawa as the Shinkansen departure point, and Ota with Haneda Airport. A prac
 **[Tokyo Hipster Inner Ring: Toshima, Nakano & Suginami](/posts/tokyo-toshima-nakano-suginami/)** — Published
 
 The Ikebukuro redevelopment momentum of Toshima, the hidden-gem appeal of Nakano, and the family-first stability of Suginami. A data-driven breakdown of the wards where value and cultural density are most in balance.
+
+## ▶ Ep.6 — Shitamachi Renaissance
+
+**[Shitamachi Renaissance: Taito, Sumida & Koto](/posts/tokyo-taito-sumida-koto/)** — Published
+
+Asakusa and Ueno in Taito, the Sumida River corridor, and Toyosu–Ariake in Koto. Price, rent, and foreign-resident livability where tradition meets redevelopment.
+
+## ▶ Ep.7 — North Tokyo Value Belt
+
+**[North Tokyo Value Belt: Kita, Arakawa, Itabashi & Nerima](/posts/tokyo-kita-arakawa-itabashi-nerima/)** — Published
+
+Four northern wards where practical housing and ongoing redevelopment meet. Data for relocators and investors who prioritize space and access per yen.
+
+## ▶ Ep.8 — East Side Story
+
+**[East Side Story: Adachi, Katsushika & Edogawa](/posts/tokyo-adachi-katsushika-edogawa/)** — Published
+
+The eastern value belt of the 23 wards. Larger floor plates, lower entry prices, and long-horizon upside — compared across the three wards.
+
+## ▶ Ep.9 — Tama Premium Cluster
+
+**[Tama Premium Cluster: Musashino, Mitaka & Chofu](/posts/tokyo-musashino-mitaka-chofu/)** — Published
+
+Kichijoji brand power with workable CBD commutes. Housing, schools, and price positioning across the Tama premium trio.
+
+## ▶ Ep.10 — Tama Education & Culture Belt
+
+**[Tama Education & Culture Belt: Kokubunji, Kunitachi, Fuchu & Tachikawa](/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)** — Published
+
+University towns and Tachikawa redevelopment in one belt — including how prices per ㎡ diverge sharply by neighborhood within the same city.
+
+## ▶ Ep.11 — Tama Outer Value Zone *(upcoming)*
+
+Hachioji, Machida, Tama, Inagi, and the outer Tama fringe. Links will be added here and in the table above when published.
 
 ---
