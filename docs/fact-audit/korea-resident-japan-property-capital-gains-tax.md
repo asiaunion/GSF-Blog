@@ -24,6 +24,7 @@
 | 9 | 100,000,000엔 | 100000000 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm) | [x] | Body |
 | 10 | 2월 16일 | 216 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm) | [x] | Body |
 | 11 | 3월 15일 | 315 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm) | [x] | Body |
+| 11b | 납세관리인 | tax-agent | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm) | [x] | Body |
 | 12 | 2개월 | 2mo | [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308) | [x] | Body |
 | 13 | 5월 | 5mo | [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308) | [x] | Body |
 | 14 | 2026년 7월 4일 | 202674 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3202.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3202.htm) | [x] | Body |
@@ -39,7 +40,7 @@
 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm) | gov | [x] |
 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm) | gov | [x] |
 | [https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm) | gov | [x] |
-| [https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2022.htm) | gov | [x] |
+| [https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm](https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm) | gov | [x] |
 | [https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308](https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308) | gov | [x] |
 | [https://www.law.go.kr/법령/소득세법/제57조](https://www.law.go.kr/법령/소득세법/제57조) | gov | [x] |
 
@@ -99,4 +100,4 @@
 
 - [x] All claims verified or softened
 - [x] `pnpm validate:post` exit 0
-- [ ] Ready for Cursor sign-off
+- [x] Ready for Cursor sign-off (No.1923 납세관리인 URL, 2026-07-04)
