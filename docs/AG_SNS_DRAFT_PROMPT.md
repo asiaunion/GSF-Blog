@@ -22,16 +22,17 @@
 - `docs/GSF_ARK_SNS_VOICE_V1.md` — 톤·YMYL·채널 규칙
 - `docs/JOSEPH_AUTHENTIC_VOICE.md` — 편집 철학
 
-## 작업
-1. 블로그에서 **이번 글을 쓰게 만든 질문 1개**와 **가장 의미 있는 발견 1개**를 먼저 2줄로 정리할 것.
-2. 발견 숫자는 **배수·倍率 1개만** (`validate-sns-draft` YMYL 통과). 금액·%·CAGR 본문 금지.
-3. 아래 6건 초안 작성:
-   - X-EN, X-KO
-   - LinkedIn-EN, LinkedIn-KO
-   - Threads-EN, Threads-KO
-4. 질문 opening은 **이번 글 전용 표현** 사용 (직전 회차와 동일 문형 금지). 변형 풀은 Voice v1.0 참조.
-5. `sns-drafts/YYYY-MM-DD-<slug>.md` 저장 (`sns-drafts/_TEMPLATE.md` 구조).
-6. `pnpm validate:sns-draft --slug <slug>` 실행 → **exit 0** 확인. 실패 시 수정 후 재실행.
+## 작업 (One-shot — 재작업 루프 금지)
+1. 블로그에서 **질문 1개** + **발견 1개(배수만)** 를 먼저 2줄로 고정. 이 두 줄이 6블록의 유일한 메시지.
+2. 발견 숫자는 **배수·倍率 1개만**. 금액·%·CAGR 본문 금지.
+3. 6건 초안 작성 (X-EN/KO, LinkedIn-EN/KO, Threads-EN/KO).
+4. **플랫폼별 HARD (검증기가 차단함):**
+   - **X**: opening = 질문형 (`?` / `까요`). 평서문 금지. Joseph's Note 생략. KO 면책 = plain `정보 제공 목적.` (이탤릭 금지)
+   - **LinkedIn**: EN 면책 = `For informational purposes only and does not constitute investment advice.` / KO는 Voice KO 면책. bullets 앞 `Key takeaways`·`이번 제도를 검토하면서 확인한 핵심` 금지. 발견 배수 반복(3회+) 금지
+   - **Threads**: **Joseph's Note** (GSF Note 금지). 짧은 면책만 (LinkedIn 긴 면책 금지)
+5. URL·UTM: KO=`/ko/posts/`, EN=무접두, `utm_source`=플랫폼명, `utm_campaign=blog-broadcast`
+6. `sns-drafts/YYYY-MM-DD-<slug>.md` 저장.
+7. `pnpm validate:sns-draft --slug <slug>` → **exit 0**. 실패 시 스스로 수정 후 재실행. **exit 0 전 Joseph에게 제출 금지.**
 
 ## 출력 형식 (채팅)
 

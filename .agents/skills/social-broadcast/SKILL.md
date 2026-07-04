@@ -87,13 +87,21 @@ slug가 2개 이상 후보면 Joseph에게만 1회 확인. 그 외에는 묻지 
 
 ---
 
-## Step 2 — 6건 초안 작성
+## Step 2 — 6건 초안 작성 (One-shot)
 
 | 채널 | 언어 | 규칙 요약 |
 |------|------|-----------|
-| X | EN, KO | 280 twitter-weighted 이하. 질문+발견 1~2문장. Joseph's Note 생략 |
-| LinkedIn | EN, KO | 질문 → 2문장째 배수. bullet 3~4. 면책 필수. KO는 이주·실거주 맥락 (EN 번역 금지) |
-| Threads | EN, KO | 500자 이하, 단락 2~3. 마지막 Joseph's Note 한 줄 |
+| X | EN, KO | 280 twitter-weighted 이하. **opening=질문형** (`?`/`까요`). 발견 1~2문장. Joseph's Note 생략. KO 면책 plain `정보 제공 목적.` |
+| LinkedIn | EN, KO | 질문/프레이밍 → 배수 1회. bullet 3~4. **요약 인트로 금지**. EN 면책 Voice 표준. KO는 이주·실거주 맥락 (EN 번역 금지) |
+| Threads | EN, KO | 500자 이하, 단락 2~3. **Joseph's Note** (GSF Note 금지). 짧은 면책만 |
+
+**제출 전 자가 체크 (validate가 막음):**
+
+- [ ] X EN/KO 첫 줄이 질문인가?
+- [ ] Threads에 `Joseph's Note`가 있는가? (`GSF Note` 없음)
+- [ ] LinkedIn에 `Key takeaways` / `이번 제도를 검토하면서 확인한 핵심` 없음?
+- [ ] 발견 배수(`두 배`/`2x`/`double`)가 LinkedIn에서 과다 반복되지 않는가?
+- [ ] Threads KO가 LinkedIn용 긴 면책을 쓰지 않는가?
 
 **언어 기본값** (Joseph 지시 없으면):
 

@@ -133,6 +133,26 @@ pnpm validate:sns-draft --slug <slug>   # exit 0
 
 - `%`, `¥`, `万円`, `억` / `억원`, `CAGR`, `XX만 원`(띄어쓰기)
 - 매수 권유: 매수 적기, 지금이 기회, 추천합니다, buy now, perfect time to buy 등
+- **GSF Note** → 반드시 **Joseph's Note** (Threads)
+- 블로그 요약 인트로: `Key takeaways from this analysis`, `Key observations from the data`, `이번 제도를 검토하면서 확인한 핵심…`
+- X opening이 **평서문**인 경우 (질문 `?` / `까요` 필수)
+- Threads에 LinkedIn용 긴 KO 면책(`특정 자산의 매수·매도…`) 사용
+- X/Threads KO 면책을 `*이탤릭*`으로 감싸기 (plain `정보 제공 목적.` 만)
+- LinkedIn에서 발견 배수(`두 배`/`double`/`2x`)를 3회 이상 반복 (이중과세 double taxation 제외)
+- `utm_source`가 플랫폼과 불일치, KO URL에 `/ko/posts/` 누락
+
+### One-shot 게이트 (재작업 루프 방지)
+
+AG는 **한 번에** 아래를 만족한 초안만 제출한다. Claude/Joseph 다회 검수는 예외.
+
+| # | 규칙 |
+|---|------|
+| 1 | 질문·발견을 먼저 2줄로 고정한 뒤 6블록 작성 (플랫폼마다 다른 발견 금지) |
+| 2 | X EN/KO opening = **질문형** (평서문 변환 금지) |
+| 3 | Threads = **Joseph's Note** + 짧은 면책 (`정보 제공 목적.` / `For informational purposes only.`) |
+| 4 | LinkedIn EN 면책 = Voice 표준 영문 한 줄 (`…does not constitute investment advice.`) |
+| 5 | LinkedIn KO: 발견 배수 **한 번**, bullets 앞 요약 인트로 금지 |
+| 6 | `pnpm validate:sns-draft --slug` **exit 0** 후에만 승인 요청 |
 
 ### 허용되는 "발견 숫자" (1개만)
 
@@ -202,3 +222,4 @@ pnpm validate:sns-draft --slug <slug>   # exit 0
 | 날짜 | 내용 |
 |------|------|
 | 2026-06-30 | v1.0 확정 — Ep.10 SNS Voice, AG 프롬프트 연동 |
+| 2026-07-04 | One-shot 게이트 — validate-sns-draft에 Voice 구조 규칙 추가 (질문 opening, Joseph's Note, 면책·UTM·배수 반복) |
