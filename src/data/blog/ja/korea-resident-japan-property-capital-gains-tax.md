@@ -2,7 +2,7 @@
 title: "韓国居住者の日本不動産売却に伴う譲渡税 — 事前確認チェックリスト"
 description: "非居住者・韓国居住投資家向けの日本譲渡所得税、源泉徴収義務、韓国での海外資産申告と外国税額控除の実務フロー"
 pubDatetime: 2026-07-04T16:30:00+09:00
-author: GSF
+author: Joseph KIM
 draft: false
 lang: ja
 aiModel: "Gemini 3.1 Pro"

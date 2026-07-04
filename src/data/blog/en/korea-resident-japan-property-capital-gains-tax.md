@@ -2,7 +2,7 @@
 title: "Japan Property Capital Gains Tax for Korean Residents — Pre-Sale Checklist"
 description: "A practical guide to Japanese capital gains tax, withholding tax exemptions, tax representative filing, and claiming the Korean foreign tax credit for non-resident investors."
 pubDatetime: 2026-07-04T16:30:00+09:00
-author: GSF
+author: Joseph KIM
 draft: false
 lang: en
 aiModel: "Gemini 3.1 Pro"
