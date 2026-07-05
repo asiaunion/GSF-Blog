@@ -23,7 +23,7 @@ citeSources:
     url: "https://www.moj.go.jp/isa/applications/resources/10_00237.html"
   - label: "MOJ ISA: 고도전문직 포인트 계산 기준 (PDF)"
     url: "https://www.moj.go.jp/isa/content/930006301.pdf"
-  - label: "MOJ ISA: 영주하려는 분으로 별도의 효수요건 개정 안내"
+  - label: "MOJ ISA: 영주하려는 분의 별도 허가 요건 개정 안내"
     url: "https://www.moj.go.jp/isa/applications/resources/nyuukokukanri07_00168.html"
   - label: "MOJ ISA: 디지털 노마드 비자 안내"
     url: "https://www.moj.go.jp/isa/applications/procedures/16-8.html"
@@ -73,7 +73,7 @@ citeSources:
 
 <!-- content-depth-v2 -->
 
-> **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (三鬼商事 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 일반적으로 확인하세요.
+> **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (미키 상사 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 일반적으로 확인하세요.
 ## Investor Action: 핵심 요약 및 점검
 
 - [ ] **점수계산**: 고도전문직(HSP) 비자 신청을 위해 본인의 학력, 경력, 연봉 기반 점수표를 직접 계산해 보세요.

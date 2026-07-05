@@ -1,8 +1,8 @@
-# GSF-Ark KO 전수 교정 리포트 (배치 1/5)
+# GSF-Ark KO 전수 교정 리포트 (배치 1~2/5)
 
 - 작성일자: 2026-07-05
 - 작성자: AG (AntiGravity)
-- 대상: `src/data/blog/ko/` 내 10개 파일 (배치 1)
+- 대상: `src/data/blog/ko/` 내 20개 파일 (배치 1~2)
 - 검증 상태: Cursor 검증 대기
 
 ## 교정 내역 요약
@@ -37,3 +37,29 @@
 | `japan-real-estate-three-things.md` | 67 | 표준세율은1.4% | 표준세율은 1.4% | 띄어쓰기 누락 수정 | 100% |
 | `japan-real-estate-three-things.md` | 81 | S**uumo | **Suumo | 볼드 마크다운 문법 깨짐 수정 | 100% |
 | `japan-real-estate-three-things.md` | 97 | (三鬼商事 Q1 2026) | (미키 상사 Q1 2026) | 고유명사 한글화 통일 | 95% |
+| `japan-shinchiku-vs-chuko-mansion-investor-guide.md` | 136 | 築年수 | 축년수 | 한글-한자 혼용 표기 한글화 | 95% |
+| `japan-shinchiku-vs-chuko-mansion-investor-guide.md` | 196 | 타무라 나오키 | 다무라 나오키 | BOJ 위원명 외래어 표기 통일 | 100% |
+| `japan-visa-paths-permanent-business-manager-asset-holders.md` | 26 | 효수요건 | 허가 요건 | 명백한 오타(효수 -> 허가) 교정 | 100% |
+| `japan-visa-paths-permanent-business-manager-asset-holders.md` | 76 | (三鬼商事 Q1 2026) | (미키 상사 Q1 2026) | 고유명사 한글화 통일 | 95% |
+| `korea-japan-inheritance-gift-tax-cross-border-basics.md` | 78 | (三鬼商事 Q1 2026) | (미키 상사 Q1 2026) | 고유명사 한글화 통일 | 95% |
+| `macro-barrier-and-super-scarce-real-estate-selection.mdx` | 3 | 가강한 | 강력한 | 맥락상 부자연스러운 번역 단어 교정 | 95% |
+| `macro-barrier-and-super-scarce-real-estate-selection.mdx` | 41 | 선긋기 | 선 긋기 | 띄어쓰기 오류 교정 | 95% |
+| `macro-barrier-and-super-scarce-real-estate-selection.mdx` | 53 | 도쿄칸테이 | 도쿄 칸테이 | 고유명사 띄어쓰기 통일 | 95% |
+| `macro-barrier-and-super-scarce-real-estate-selection.mdx` | 94 | 갈라치기하는 | 갈라놓는 | 분석 맥락에 맞는 격조 높은 어휘로 변경 | 90% |
+| `nihonbashi-hamacho-supermarket-peacock-city-life.md` | 22 등 다수 | 피콕 | 피코크 | 외래어 표기 통일(타 글과 일관성 유지) | 95% |
+| `nihonbashi-hamacho-supermarket-peacock-city-life.md` | 24 | 시무서 종안 | 사무소 종합 안내 | 기계 번역 오류 수정 | 95% |
+| `nihonbashi-hamacho-supermarket-peacock-city-life.md` | 30 등 다수 | 수퍼마켓 | 슈퍼마켓 | 표준 외래어 표기 통일 | 100% |
+| `nihonbashi-hamacho-walking-guide.md` | 3 등 다수 | 카부토초 | 가부토초 | 외래어 표기법 표준화 | 100% |
+| `nihonbashi-hamacho-walking-guide.md` | 92 | 하마초 파크및리버사이드 | 하마초 파크 및 리버사이드 | 띄어쓰기 교정 | 100% |
+| `nihonbashi-hamacho-walking-guide.md` | 124 | 60~80만 엔대 / 50~70만 엔대 | 60만~80만 엔/㎡대 / 50만~70만 엔/㎡대 | 단위 생략에 의한 의미 불명확성 보완 | 95% |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 24 | 토지·도시 정정 정수 (최신 도시계획 취덕조수) | 토지·건설 관련 통계 (최신 도시계획 결정 현황) | 기계 번역 오류 수정 (국토교통성 조직명 및 통계명) | 95% |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 26 | 도쿄도 아름 인프라 정비 계획 | 도쿄도 도시 인프라 정비 계획 | 기계 번역 오역 교정 | 95% |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 76 | 마세 환경 | 거시 환경 | 기계 번역 오역(Macro -> 마세) 교정 | 100% |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 96 | (三鬼商事 Q1 2026) | (미키 상사 Q1 2026) | 고유명사 한글화 통일 | 95% |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 99 | 니혼바시 1초모 중가구 | 니혼바시 1초메 중앙지구 | 오타 및 번역 투 고유명사 통일 | 95% |
+| `nihonbashi-the-origin-of-japan.md` | 45 | 에도 시대, 다섯에도 시대 5대 가도인 | 에도 시대 5대 가도인 | 중복 및 오역 표현 수정 | 100% |
+| `nihonbashi-the-origin-of-japan.md` | 91, 125 | 카부토초 | 가부토초 | 외래어 표기법 표준화 | 100% |
+| `nihonbashi-the-origin-of-japan.md` | 99 | 기재와 역사 | 기원과 역사 | 기계 번역 오역 교정 (Origin -> 기재?) | 95% |
+| `nihonbashi-the-origin-of-japan.md` | 111 | 도쿄 중앙구 | 도쿄 주오구 | 행정구역 외래어 표기 통일 | 95% |
+| `one-failure-three-lessons-postmortem.md` | 22 | 부동산 관련 말싴 안내 | 부동산 거래 관련 안내 | 기계 번역 오류 수정 (MLIT 사이트 소개글) | 95% |
+| `one-failure-three-lessons-postmortem.md` | 72 | (三鬼商事 Q1 2026) | (미키 상사 Q1 2026) | 고유명사 한글화 통일 | 95% |
