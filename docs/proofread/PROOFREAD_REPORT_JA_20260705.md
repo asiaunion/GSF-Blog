@@ -22,3 +22,9 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `japan-visa-paths-permanent-business-manager-asset-holders.md` | 41 | しか㈁2025年 | しかし、2025年 | 한글 잔재(㈁) 및 오타 교정 | 100% |
 | `korea-resident-japan-property-capital-gains-tax.md` | 121 | 100,000,000円 | 1億円 | 숫자 표기(억 단위) 일관성 확보 | 100% |
+
+### 배치 3/5 (파일 22~31: three-things-when-fx-shakes ~ tokyo-korean-community-beyond-shinokubo)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `tokyo-adachi-katsushika-edogawa.md` | 224, 232, 238 | インサイト１、２、３ | インサイト1、2、3 | 숫자 반각 표기 통일 | 100% |

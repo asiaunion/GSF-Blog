@@ -551,3 +551,15 @@
 - 빌드: PASS
 - 다음: 배치 2/5 진행 후 Cursor 검증
 - Cursor 검증: 대기
+
+## [2026-07-06 01:05] AG — JA 교정 배치 2/5 완료
+- 작업: Phase 3 JA LLM 교정 패스 배치 2/5 (11개 파일 전수 검토)
+- 검토 파일: japan-shinchiku ~ reading-korea-japan
+- 수정 파일:
+  - `japan-visa-paths-permanent-business-manager-asset-holders.md`: しか㈁ -> しかし、 한글 잔재(㈁) 오타 교정
+  - `korea-resident-japan-property-capital-gains-tax.md`: 100,000,000円 -> 1億円 숫자 표기(억 단위) 일관성 확보
+- 리포트: `docs/proofread/PROOFREAD_REPORT_JA_20260705.md` append
+- 커밋: ba8d52c (feat/proofread-ja-batch-1)
+- 빌드: PASS
+- 다음: 배치 3/5 진행 후 Cursor 검증
+- Cursor 검증: 대기
