@@ -1,76 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="GSF Concept A">
-  <defs>
-    <!-- 다크모드용 은은한 네온 광원 효과 -->
-    <radialGradient id="neon-glow" cx="50%" cy="50%" r="60%">
-      <stop offset="0%" stop-color="#34d399" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#34d399" stop-opacity="0" />
-    </radialGradient>
-    <!-- 프리미엄 에메랄드 그라데이션 -->
-    <linearGradient id="emerald-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#059669" />
-      <stop offset="50%" stop-color="#10b981" />
-      <stop offset="100%" stop-color="#34d399" />
-    </linearGradient>
-  </defs>
-
-  <!-- 배경 사각형 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="GSF Favicon">
+  <!-- 배경 사각형 (R=30의 단단한 비례) -->
   <rect class="bg" width="128" height="128" rx="30" />
-  
-  <!-- 다크모드 글로우 레이어 (기본 opacity 0, 다크모드 시 활성화) -->
-  <rect class="glow" width="128" height="128" rx="30" fill="url(#neon-glow)" opacity="0" />
 
-  <!-- 디자인 요소 그룹 (중앙 정렬 조정) -->
-  <g transform="translate(4, 4)">
-    <!-- 우측을 감싸며 상승하는 원호 (Arc/Ark) -->
-    <path class="arc-line" d="M 96,28 A 46,46 0 0,1 106,60 A 46,46 0 0,1 60,106 A 46,46 0 0,1 24,90" 
-          stroke="url(#emerald-grad)" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="1 1" />
-    <path class="arc-line-solid" d="M 96,28 A 46,46 0 0,1 106,60 A 46,46 0 0,1 60,106" 
-          stroke="url(#emerald-grad)" stroke-width="4.5" stroke-linecap="round" />
-
-    <!-- 정교하게 가공된 Serif 'G' 모노그램 패스 -->
-    <!-- 전통적인 출판물/신뢰성 있는 투자 리포트 느낌의 기품 있는 Serif G 형태 -->
-    <path class="symbol-g" d="M 78,38 
-             C 74,32 67,29 59,29 
-             C 42,29 29,42 29,60 
-             C 29,78 41,91 58,91 
-             C 71,91 79,83 80,71 
-             L 56,71 L 56,61 L 91,61 L 91,73 
-             C 91,89 77,101 58,101 
-             C 34,101 18,84 18,60 
-             C 18,36 34,19 59,19 
-             C 72,19 83,26 88,38 
-             Z" />
-  </g>
+  <!-- 기하학적 G 심볼 패스 
+       - 우상단 개구부 1시 방향 컴팩트 마감 
+       - 중심(X=64)을 지나 X=57까지 깊이 파고드는 비대칭적 가로 바
+       - 내측 끝단을 사선 Chamfer(L 57,56 L 63,72)로 깎아 독창성과 간접적 조형미(방주의 뱃머리/다리) 연출 -->
+  <path class="symbol-g" d="M 95,28 
+           C 87,20 76,17 64,17 
+           C 38,17 17,38 17,64 
+           C 17,90 38,111 64,111 
+           C 90,111 111,90 111,64 
+           L 111,56 
+           L 57,56 
+           L 63,72 
+           L 93,72 
+           C 90,83 80,93 64,93 
+           C 48,93 35,80 35,64 
+           C 35,48 48,35 64,35 
+           C 75,35 84,40 90,47 
+           L 102,37 Z" />
 
   <style>
+    /* 라이트 모드: 따뜻한 오프화이트 배경 (#F5F2EB) + 깊고 기품 있는 딥 포레스트 그린 심볼 (#123524) */
     .bg {
-      fill: #fdfdfd;
-      stroke: rgba(15, 77, 34, 0.08);
+      fill: #F5F2EB;
+      stroke: rgba(18, 53, 36, 0.05);
       stroke-width: 1;
     }
     .symbol-g {
-      fill: #0f4d22; /* Light mode: Deep forest green */
+      fill: #123524;
     }
-    .arc-line, .arc-line-solid {
-      stroke: #0f4d22;
-      opacity: 0.85;
-    }
-    
-    /* 다크모드 대응 스타일 */
+
+    /* 다크 모드: 완벽한 하우스 컬러 반전 대응 */
     @media (prefers-color-scheme: dark) {
       .bg {
-        fill: #0d1117;
-        stroke: rgba(255, 255, 255, 0.05);
-      }
-      .glow {
-        opacity: 1;
+        fill: #123524;
+        stroke: rgba(255, 255, 255, 0.02);
       }
       .symbol-g {
-        fill: url(#emerald-grad); /* Dark mode: Bright emerald gradient */
-      }
-      .arc-line, .arc-line-solid {
-        stroke: url(#emerald-grad);
-        opacity: 1;
+        fill: #F5F2EB;
       }
     }
   </style>
