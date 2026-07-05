@@ -76,7 +76,7 @@ Standing in the middle of this wide avenue and looking up at the surrounding sky
 
 On the left side of the street, **Yamano Music Ginza Flagship Store (山野楽器 銀座本店)**, holds the legendary status of having the **most expensive land in Japan for 20 consecutive years** according to the 2026 Land Price Appraisal. Walking freely on this world-class asphalt, valued at approximately **67.1 million yen** per square meter,<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> without paying a single cent and snapping commemorative photos is perhaps the most delightful gift that weekend Ginza offers.
 
-Right next to Yamano Music stands the **Kyobunkand (教文館)** building, a historic bookstore founded in 1885 and opened in Ginza in 1891, which has weathered all the storms of the district. On the right, the traditional **Ginza Mitsukoshi (MITSUKOSHI)** department store stands firm, visually showcasing the unique historical layers where Ginza's past and present coexist.
+Right next to Yamano Music stands the **Kyobunkan (教文館)** building, a historic bookstore founded in 1885 and opened in Ginza in 1891, which has weathered all the storms of the district. On the right, the traditional **Ginza Mitsukoshi (MITSUKOSHI)** department store stands firm, visually showcasing the unique historical layers where Ginza's past and present coexist.
 
 ---
 
