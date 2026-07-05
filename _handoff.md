@@ -4,6 +4,16 @@
 
 ---
 
+## [2026-07-05 23:55 JST] Cursor Phase 1 PASS
+- 작업 내용: 전수 교정 Phase 1 배치 5/5 완료 (Cursor 마무리) — KO 50/50 전체 PASS
+- 브랜치: feat/proofread-ko-batch-1
+- 커밋 (validate): 006d45f (pnpm build PASS, Redirect Gate 1876 PASS)
+- slug / 파일: 배치 5 13개 (surprises·capital-gains 포함, why-i-chose-nihonbashi 포함)
+- 반려 수정: 都심6区→都心6区, taito 유시마/분쿄 복구, 코토구 표기 유지, tsukiji 강동구→코토구
+- 배포 예정: Joseph 승인 후 main 일괄 merge + Vercel deploy
+- 다음: main merge · Phase 2 EN / Phase 3 JA
+- SSOT: GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md / docs/proofread/PROOFREAD_REPORT_KO_20260705.md
+
 ## [2026-07-05 23:10 JST] Cursor 브랜치 대기
 - 작업 내용: 전수 교정 Phase 1 배치 4/5 완료 (KO 10개 파일 맞춤법, 띄어쓰기, 외래어 표기 교정 및 용어 제안 수집)
 - 브랜치: feat/proofread-ko-batch-1

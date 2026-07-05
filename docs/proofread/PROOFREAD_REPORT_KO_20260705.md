@@ -1,9 +1,9 @@
-# GSF-Ark KO 전수 교정 리포트 (배치 1~4/5)
+# GSF-Ark KO 전수 교정 리포트 (배치 1~5/5)
 
 - 작성일자: 2026-07-05
-- 작성자: AG (AntiGravity)
-- 대상: `src/data/blog/ko/` 내 40개 파일 (배치 1~4)
-- 검증 상태: Cursor 검증 대기
+- 작성자: AG (배치 1~4) · Cursor (배치 5 마무리)
+- 대상: `src/data/blog/ko/` 내 50개 파일 (배치 1~5)
+- 검증 상태: **Cursor Phase 1 PASS** (2026-07-05)
 
 ## 교정 내역 요약
 
@@ -147,3 +147,20 @@
 | `tokyo-shinagawa-ota.md` | 68~71 | 160~220만엔/㎡ / 530~720만엔/坪 | 160만~220만 엔/㎡ / 530~720만 엔/坪 | 띄어쓰기 및 단위 통일 | 95% |
 | `tokyo-shinagawa-ota.md` | 107 | 카마타 / 카마카마선 | 가마타 / 가마가마선 | 지명 외래어 표기 표준화 | 100% |
 
+## 배치 5/5 (13파일)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `buying-property-japan-surprises-foreign-investor.md` | 39 | 치요다·주오·… | 지요다·주오·… | 지요다 표기 표준화 | 95% |
+| `korea-resident-japan-property-capital-gains-tax.md` | 121 | 100,000,000엔 | 1억 엔(100,000,000 엔) | 화폐 단위 한글화 | 95% |
+| `tokyo-shinjuku-shibuya-bunkyo.md` | 다수 | 치요다 / 만엔 | 지요다 / 만 엔 | 지요다·화폐 띄어쓰기 표준화 | 95% |
+| `tokyo-small-rental-yield-vs-capital-gain-breakeven.md` | 다수 | 만엔 / 치요다 | 만 엔 / 지요다 | 화폐·지명 표기 통일 | 95% |
+| `tokyo-taito-sumida-koto.md` | 다수 | 치요다 / 만엔 / 多摩 | 지요다 / 만 엔 / 다마 | 화폐·지명·한자 표기 통일 (코토구 유지) | 95% |
+| `tokyo-toshima-nakano-suginami.md` | 다수 | 치요다 / 만엔 | 지요다 / 만 엔 | 지요다·화폐 띄어쓰기 표준화 | 95% |
+| `tokyo-ward-guide-series-prologue.md` | 59 등 | 치요다 / 都心6区(AG 오타 都심) | 지요다 / 都心6区 | 지요다 표준화·한자 오타 복구 | 100% |
+| `tokyo-yokohama-fuji-transport-pass.md` | 다수 | 만엔 | 만 엔 | 화폐 단위 띄어쓰기 | 95% |
+| `tsukiji-last-empty-lot-redevelopment.md` | 다수 | 츠키지 / 만엔 | 쓰키지 / 만 엔 | 외래어·화폐 표기 표준화 | 95% |
+| `tsukiji-to-toyosu-morning-tokyo.md` | 다수 | 츠키지 / 강동구(Koto-ku) | 쓰키지 / 코토구(Koto-ku) | 외래어 표기·구명 오역 교정 | 100% |
+| `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | 다수 | 이스케이프 물결 | ~ | 마크다운 이스케이프 정리 | 100% |
+| `why-warm-investing-holds.md` | 79 | 2022\~2023 | 2022~2023 | 이스케이프 물결 제거 | 100% |
+| `why-i-chose-nihonbashi.md` | 46 | 치요다구 | 지요다구 | 지요다 표기 표준화 | 95% |
