@@ -495,3 +495,46 @@
 - 빌드: PASS (redirect gate 1876 URLs)
 - 다음: 배치 2/5 착수 (파일 11~20: japan-shinchiku ~ one-failure)
 - Cursor 검증: 대기
+
+## [2026-07-06 00:15] AG — EN 교정 배치 2/5 완료
+- 작업: Phase 2 EN LLM 교정 패스 배치 2/5 (10개 파일 전수 검토)
+- 수정 파일:
+  - `src/data/blog/en/nihonbashi-hamacho-walking-guide.md` L135: `Kilometer` → `Kilometre` (파일 내 표기 통일)
+- 리포트: `docs/proofread/PROOFREAD_REPORT_EN_20260705.md` append
+- 커밋: `20620eb` (feat/proofread-en-batch-1)
+- 빌드: PASS (redirect gate 1876 URLs)
+- 다음: 배치 3/5 착수 (파일 21~30)
+- Cursor 검증: 대기
+
+## [2026-07-06 00:21] AG — EN 교정 배치 3/5 완료
+- 작업: Phase 2 EN LLM 교정 패스 배치 3/5 (11개 파일 전수 검토)
+- 검토 파일: reading-korea-japan ~ tokyo-korean-community (21~31번)
+- 수정 파일: 없음 (0건)
+- 리포트: `docs/proofread/PROOFREAD_REPORT_EN_20260705.md` append
+- 커밋: `60b4450` (feat/proofread-en-batch-1)
+- 빌드: PASS (redirect gate 1876 URLs)
+- 다음: 배치 4/5 착수 (파일 32~41)
+- Cursor 검증: 대기
+
+## [2026-07-06 00:30] AG — EN 교정 배치 4/5 완료
+- 작업: Phase 2 EN LLM 교정 패스 배치 4/5 (10개 파일 전수 검토)
+- 검토 파일: tokyo-mansion-market-reins ~ tokyo-shinjuku-shibuya-bunkyo (32~41번)
+- 수정 파일: 없음 (0건)
+- 리포트: `docs/proofread/PROOFREAD_REPORT_EN_20260705.md` append
+- 커밋: `3507a13` (feat/proofread-en-batch-1)
+- 빌드: PASS
+- 다음: 배치 5/5 착수 (파일 42~50)
+- Cursor 검증: 대기
+
+## [2026-07-06 00:40] AG — EN 교정 배치 5/5 완료
+- 작업: Phase 2 EN LLM 교정 패스 배치 5/5 (10개 파일 전수 검토)
+- 검토 파일: tokyo-small-rental-yield ~ why-warm-investing-holds (42~51번)
+- 수정 파일:
+  - `src/data/blog/en/tokyo-taito-sumida-koto.md` L106, L263: 영문 포스트 내 한국어 괄호 병기 제거
+  - `src/data/blog/en/tokyo-ward-guide-series-prologue.md` L110-113: 가격대 표 내 한국어 잔재 일괄 제거
+  - `src/data/blog/en/weak-yen-korean-japan-asset-allocation-fx-scenarios.md` L49: 영문 포스트 내 한국어 괄호 병기 제거
+- 리포트: `docs/proofread/PROOFREAD_REPORT_EN_20260705.md` append
+- 커밋: `fc0e237` (feat/proofread-en-batch-1)
+- 빌드: PASS
+- 다음: Cursor 검증 후 main 일괄 머지
+- Cursor 검증: 대기
