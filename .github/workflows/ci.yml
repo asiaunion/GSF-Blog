@@ -40,6 +40,12 @@ jobs:
       - name: "📦 Install dependencies"
         run: pnpm install
 
+      - name: Install codespell
+        run: pip install codespell
+
+      - name: "🔤 Language lint (KO/JA/EN)"
+        run: pnpm lint:language
+
       - name: "🔎 Lint code"
         run: pnpm run lint
 

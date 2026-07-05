@@ -373,6 +373,27 @@ export async function runBlogValidation(
     });
   }
 
+  if (options?.slug) {
+    try {
+      const { stdout, stderr } = await runCommand(
+        "node",
+        ["scripts/lint-language.mjs", "--slug", options.slug],
+        projectRoot
+      );
+      hardGates.push({
+        name: "language-lint",
+        ok: true,
+        output: (stdout || stderr || "ok").trim().slice(-600),
+      });
+    } catch (error) {
+      hardGates.push({
+        name: "language-lint",
+        ok: false,
+        output: error instanceof Error ? error.message : "language lint failed",
+      });
+    }
+  }
+
   if (process.env.SKIP_VALIDATE_BUILD === "1") {
     hardGates.push({ name: "build", ok: true, output: "skipped (SKIP_VALIDATE_BUILD=1)" });
   } else {

@@ -13,6 +13,10 @@ on:
       - "scripts/batch-validate-posts.mjs"
       - "src/data/tag-taxonomy.yaml"
       - "scripts/lint-tag-taxonomy.mjs"
+      - "scripts/lint-language.mjs"
+      - "docs/KO_TERMINOLOGY.md"
+      - "docs/JA_TERMINOLOGY.md"
+      - ".codespellrc"
 
 jobs:
   validate-changed-slugs:
@@ -40,8 +44,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Install codespell
+        run: pip install codespell
+
       - name: Run tag taxonomy lint
         run: pnpm lint:tags
+
+      - name: Run language lint (KO/JA/EN)
+        run: pnpm lint:language
 
       - name: Detect changed slugs
         id: slugs

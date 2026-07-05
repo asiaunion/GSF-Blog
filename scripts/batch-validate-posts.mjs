@@ -5,12 +5,26 @@
  */
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
 import { runBlogValidation } from "../src/lib/validation/validationGates.ts";
 
 const root = process.cwd();
 const koDir = path.join(root, "src/data/blog/ko");
 
+function runLanguageLint() {
+  const result = spawnSync("node", ["scripts/lint-language.mjs"], {
+    cwd: root,
+    encoding: "utf8",
+    stdio: "pipe",
+  });
+  if (result.status !== 0) {
+    console.error(result.stdout || result.stderr);
+    process.exit(result.status ?? 1);
+  }
+}
+
 async function main() {
+  runLanguageLint();
   process.env.SKIP_VALIDATE_BUILD = "1";
   process.env.SKIP_TRUST_VERIFY = process.env.SKIP_TRUST_VERIFY ?? "1";
   const slugs = (await readdir(koDir))

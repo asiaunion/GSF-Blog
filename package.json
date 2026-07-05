@@ -12,6 +12,7 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "lint:tags": "node scripts/lint-tag-taxonomy.mjs",
+    "lint:language": "node scripts/lint-language.mjs",
     "cleanup:strikethrough": "python3 scripts/fix_strikethrough.py",
     "cleanup:integrity": "python3 scripts/fix_integrity.py",
     "scan:md": "node scripts/detect_duplicate_markdown_sections.mjs",

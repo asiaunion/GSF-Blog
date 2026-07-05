@@ -45,6 +45,16 @@ SSOT: `scratch/projects/GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md` · Cl
 | KO/EN/JA 초안 | AG |
 | `pnpm validate:post` | Cursor |
 
+### 표기·언어 린트 (Layer 3 — 2026-07-06+)
+
+AG 초안·번역 단계에서 아래 SSOT를 **반드시** 참조한다. `pnpm lint:language` / `validate:post` hard gate.
+
+| 로케일 | SSOT | 검사 |
+|--------|------|------|
+| KO | [`docs/KO_TERMINOLOGY.md`](docs/KO_TERMINOLOGY.md) 확정 금지 변형 | `lint:language` |
+| JA | [`docs/JA_TERMINOLOGY.md`](docs/JA_TERMINOLOGY.md) | hangul 0건 (`lint:language`) |
+| EN | `.codespellrc` | codespell (`lint:language`) |
+
 ---
 
 ## ⚙️ GSF-Blog 고정 아키텍처 규칙 (SSOT) — 2026-05-25+
