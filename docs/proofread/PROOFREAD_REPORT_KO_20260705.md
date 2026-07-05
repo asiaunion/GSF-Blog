@@ -1,8 +1,8 @@
-# GSF-Ark KO 전수 교정 리포트 (배치 1~3/5)
+# GSF-Ark KO 전수 교정 리포트 (배치 1~4/5)
 
 - 작성일자: 2026-07-05
 - 작성자: AG (AntiGravity)
-- 대상: `src/data/blog/ko/` 내 30개 파일 (배치 1~3)
+- 대상: `src/data/blog/ko/` 내 40개 파일 (배치 1~4)
 - 검증 상태: Cursor 검증 대기
 
 ## 교정 내역 요약
@@ -109,4 +109,41 @@
 | `tokyo-kita-arakawa-itabashi-nerima.md` | 93, 141, 186, 231 | 간취리 | 방 구성 | 일본어 '間取り' 기계 오번역 교정 | 100% |
 | `tokyo-kita-arakawa-itabashi-nerima.md` | 295 | 외락권 | 외곽권 | 문맥상 오타 교정 | 100% |
 | `tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` | 295 | 하자드맵 | 해저드맵 | 사이트 내 용어 표기 통일(해저드맵) | 95% |
+| `tokyo-korean-community-beyond-shinokubo.md` | 29 | 미키 쇼지 | 미키 상사(三鬼商事) | 고유명사 한글화 및 표기 통일 | 95% |
+| `tokyo-korean-community-beyond-shinokubo.md` | 97 | 글로벌코리아장학금 | 글로벌 코리아 장학금 | 띄어쓰기 교정 | 95% |
+| `tokyo-korean-community-beyond-shinokubo.md` | 111 | thesis | 가설 | 번역 투 어휘 순화 | 100% |
+| `tokyo-mansion-market-reins-2026-04.md` | 45 | 치요다·추오·미나토구의 | 치요다·주오·미나토구의 | 외래어 표기(추오 ➔ 주오) 교정 | 95% |
+| `tokyo-mansion-market-reins-2026-04.md` | 49, 51 | 치바현 / 치바 | 지바현 / 지바 | 외래어 표기(치바 ➔ 지바) 표준화 | 100% |
+| `tokyo-mansion-market-reins-2026-04.md` | 57 | 1.9% 이고 | 1.9%이고 | 띄어쓰기 교정 | 100% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 25 | 부동산감정연구소(Kantei) | 도쿄 칸테이(Tokyo Kantei) | 고유 명칭 오역 교정 | 100% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 43 | ¥137,840,000 / ¥195,000,000 / ¥10,000,000 / ¥20,000,000 | 1억 3,784만 엔 / 1억 9,500만 엔 / 1,000만 엔 / 2,000만 엔 | 화폐 단위 띄어쓰기 및 한국어 억/만 단위 통일 | 95% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 48 | ¥1,000 / ¥800~¥1,200 | 1,000엔 / 800~1,200엔 | 화폐 단위 표기 표준화 | 95% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 57 | 츠키지 | 쓰키지 | 외래어 표기 표준화 (mansion-tsubo 한정) | 95% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 61 | 리벨런싱 | 리밸런싱 | 맞춤법 교정 | 100% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 70~75 | ¥15,000~¥45,000 / ¥8,000~¥25,000 / ¥15,000~¥40,000 | 1만 5,000~4만 5,000엔 / 8,000~2만 5,000엔 / 1만 5,000~4만 엔 | 화폐 단위 띄어쓰기 및 단위 통일 | 95% |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 97 | (三鬼商事 Q1 2026) / 10,680,000명 | (미키 상사(三鬼商事) Q1 2026) / 1,068만 명 | 고유명사 한글화 및 인구 단위 통일 | 95% |
+| `tokyo-meguro-setagaya.md` | 101, 160, 186, 187, 220 | 평균所得 | 평균소득 | 한글-한자 혼용 표기 한글화 | 100% |
+| `tokyo-meguro-setagaya.md` | 205 | 평균所得 (만엔) / 약 769.5만엔 / 약 681.2만엔 / 88.3만엔 | 평균소득 (만 엔) / 약 769.5만 엔 / 약 681.2만 엔 / 88.3만 엔 | 띄어쓰기 및 한자 표기 한글화 | 95% |
+| `tokyo-meguro-setagaya.md` | 206 | 139.7만엔 / 105.2만엔 / 34.5만엔 | 139.7만 엔 / 105.2만 엔 / 34.5만 엔 | 화폐 단위 띄어쓰기 | 95% |
+| `tokyo-moving-contracts-two-notes.md` | 43, 44 | Chakuya | Shakuya | 차지차가법 용어(借家) 영문 표기 교정 | 100% |
+| `tokyo-moving-contracts-two-notes.md` | 82 | 청소비 ¥50,000 | 청소비 5만 엔 | 화폐 표기 한글화 및 띄어쓰기 | 95% |
+| `tokyo-moving-contracts-two-notes.md` | 98 | 1통 ¥480 / 15,000\~20,000엔 / 10,000\~30,000엔 | 1통 480엔 / 1만 5,000~2만 엔 / 1만~3만 엔 | 화폐 표기 및 이스케이프 물결 제거 | 95% |
+| `tokyo-moving-contracts-two-notes.md` | 98 | 토키 지코 쇼메이쇼 | 도키 지코 쇼메이쇼 | 외래어 표기 표준화 | 95% |
+| `tokyo-musashino-mitaka-chofu.md` | 2 | 23구 완전 가이드 | 23구 + 다마 완전 가이드 | 제목에 다마(多摩) 영역 명시화 | 100% |
+| `tokyo-musashino-mitaka-chofu.md` | 38 등 다수 | 키치죠지 | 기치조지 | 외래어 표기법 표준화 | 100% |
+| `tokyo-musashino-mitaka-chofu.md` | 54, 79, 102 | 6,636만엔 / 1억 3,630만엔 | 6,636만 엔 / 1억 3,630만 엔 | 화폐 단위 띄어쓰기 | 95% |
+| `tokyo-musashino-mitaka-chofu.md` | 182 | 카츠시카 | 가쓰시카 | 외래어 표기법 표준화 | 100% |
+| `tokyo-museums-with-kids-five-picks.md` | 65 | 토요스 | 도요스 | 외래어 표기법 표준화 | 100% |
+| `tokyo-museums-with-kids-five-picks.md` | 103 | 츠키지와 토요스 | 쓰키지와 도요스 | 외래어 표기법 표준화 | 100% |
+| `tokyo-office-vacancy-five-wards-2026.md` | 3 | Miki Shoji | 미키 상사(三鬼商事) | 고유명사 한글화 통일 | 95% |
+| `tokyo-office-vacancy-five-wards-2026.md` | 33 | 三鬼商사 | 미키 상사(三鬼商事) | 오타(상사 ➔ 상사) 및 한글화 교정 | 100% |
+| `tokyo-office-vacancy-five-wards-2026.md` | 70 | 토라노몬-아자부다이 힐스 | 토라노몬-아자부다이 힐즈 | 힐스 ➔ 힐즈 표기 통일 | 95% |
+| `tokyo-office-vacancy-five-wards-2026.md` | 73 | 5\~10년 | 5~10년 | 이스케이프 물결 제거 | 100% |
+| `tokyo-real-estate-investment-complete-guide.md` | 55, 111 | 三鬼商事 | 미키 상사(三鬼商事) | 고유명사 한글화 통일 | 95% |
+| `tokyo-real-estate-investment-complete-guide.md` | 125~128 | 600\~1,000만+ / 450\~750만 / 200\~350만 / 카츠시카 | 600~1,000만 엔+ / 450~750만 엔 / 200~350만 엔 / 가쓰시카 | 이스케이프 정리, 단위 명시화 및 가쓰시카 표기 표준화 | 95% |
+| `tokyo-real-estate-investment-complete-guide.md` | 147 | 買付証明書(카이츠케 쇼메이쇼) | 매수의향서(買付証明書, 카이츠케 쇼메이쇼) | 가독성을 위한 한글 명칭 병기 | 95% |
+| `tokyo-real-estate-investment-complete-guide.md` | 172 | 2\~5만 엔 / 1.5\~3만 엔 / 1\~2만 엔 | 2만~5만 엔 / 1.5만~3만 엔 / 1만~2만 엔 | 이스케이프 물결 제거 및 단위 명시화 | 95% |
+| `tokyo-shinagawa-ota.md` | 2 | 23구 + 多摩 | 23구 + 다마 | 한자 제거 및 한글화 | 100% |
+| `tokyo-shinagawa-ota.md` | 68~71 | 160~220만엔/㎡ / 530~720만엔/坪 | 160만~220만 엔/㎡ / 530~720만 엔/坪 | 띄어쓰기 및 단위 통일 | 95% |
+| `tokyo-shinagawa-ota.md` | 107 | 카마타 / 카마카마선 | 가마타 / 가마가마선 | 지명 외래어 표기 표준화 | 100% |
 

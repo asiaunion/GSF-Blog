@@ -64,7 +64,7 @@ citeSources:
 
 ## 4. 키자니아 도쿄 (Toyosu): 사회를 배우는 작은 도시
 
-토요스 라라포트에 위치한 **키자니아**는 직업 체험을 통해 사회 시스템을 배우는 곳입니다.
+도요스 라라포트에 위치한 **키자니아**는 직업 체험을 통해 사회 시스템을 배우는 곳입니다.
 
 *   **직업 체험**: 소방관, 조종사, 제빵사 등 100여 가지 직업을 실제와 유사한 환경에서 체험하고 가상 화폐(키조)를 벌며 경제 관념을 익힙니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 *   **영어 프로그램**: 매주 수요일은 영어로 진행되는 프로그램이 많아 국제 학교 학생이나 여행객들에게 인기가 많습니다.
@@ -100,6 +100,6 @@ citeSources:
 
 ## 함께 보면 좋은 시리즈
 
-- [츠키지와 토요스: 도쿄의 아침을 여는 두 심장](/ko/posts/tsukiji-to-toyosu-morning-tokyo/)
+- [쓰키지와 도요스: 도쿄의 아침을 여는 두 심장](/ko/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [니혼바시에서 하마초까지: 전통과 현대의 산책로](/ko/posts/nihonbashi-hamacho-walking-guide/)
 - [신오쿠보를 넘어: 도쿄의 새로운 한국인 커뮤니티](/ko/posts/tokyo-korean-community-beyond-shinokubo/)
