@@ -4,6 +4,15 @@
 
 ---
 
+## [2026-07-06 00:05 JST] AG 작업 대기 — Phase 2 EN 배치 1/5
+- 작업 내용: Phase 2 EN 착수 — Layer 1 codespell 설정 완료, 배치 1 LLM 교정 대기
+- 브랜치: feat/proofread-en-batch-1 (main 기준)
+- 커밋 (validate): eada2d8 (codespell 0건)
+- slug / 파일: 배치 1 EN 10개 (checklist ~ japan-real-estate-three-things)
+- 배포 예정: Phase 2 전체 5/5 + Cursor PASS 후 main 일괄 merge
+- 다음: AG 배치 1/5 LLM 교정 → Cursor 검증
+- SSOT: GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md §5 / docs/proofread/PROOFREAD_REPORT_EN_20260705.md
+
 ## [2026-07-05 23:55 JST] Cursor Phase 1 PASS
 - 작업 내용: 전수 교정 Phase 1 배치 5/5 완료 (Cursor 마무리) — KO 50/50 전체 PASS
 - 브랜치: feat/proofread-ko-batch-1

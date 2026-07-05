@@ -1,0 +1,3 @@
+[codespell]
+# EN blog proofread — domain allowlist (task doc §5, Claude scan 2026-07-05)
+ignore-words-list = Chanel,SME,Aoto,trough,theses
