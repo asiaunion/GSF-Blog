@@ -10,7 +10,8 @@
  *   1. `.app-prose table` in src/styles/typography.css must keep the
  *      overflow-x wrapper — this is the fix for the 2026-07-06 incident and
  *      is easy to accidentally drop during a refactor.
- *   2. Blog markdown/mdx source must not contain raw HTML with a fixed pixel
+ *   2. `.app-prose pre` / `.astro-code` must keep overflow-x for long code lines.
+ *   3. Blog markdown/mdx source must not contain raw HTML with a fixed pixel
  *      width wide enough to overflow a 375px viewport (images are exempt —
  *      Tailwind preflight already forces `img { max-width: 100% }`).
  *
@@ -61,36 +62,48 @@ function lineNumberAt(content, index) {
   return content.slice(0, index).split("\n").length;
 }
 
-/** Check 1: the table-overflow CSS guard is still in place. */
+/** Extract first nested `selector { ... }` block inside `.app-prose { ... }`. */
+function extractAppProseNestedBlock(css, selector) {
+  const re = new RegExp(
+    `\\.app-prose\\s*\\{[\\s\\S]*?\\n\\s*${selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\{([\\s\\S]*?)\\n\\s*\\}`
+  );
+  return css.match(re)?.[1] ?? null;
+}
+
+function requireOverflowX(blockLabel, blockBody) {
+  if (!blockBody) {
+    return [`typography.css: could not find \`.app-prose ${blockLabel} { ... }\` block`];
+  }
+  if (!/overflow-x-auto|overflow-x-scroll/.test(blockBody)) {
+    return [
+      `typography.css: \`.app-prose ${blockLabel}\` is missing \`overflow-x-auto\` — ` +
+        "wide content can push the page wider than the viewport.",
+    ];
+  }
+  return [];
+}
+
+/** Check 1–2: table and pre/code overflow CSS guards. */
 function checkTypographyCssGuard() {
   const css = readText(typographyCssPath);
-  const tableBlockMatch = css.match(/\.app-prose\s*\{[\s\S]*?\n\s*table\s*\{([\s\S]*?)\n\s*\}/);
-
-  if (!tableBlockMatch) {
-    return ["typography.css: could not find `.app-prose table { ... }` block at all"];
-  }
-
-  const tableBlock = tableBlockMatch[1];
   const errors = [];
 
-  if (!/overflow-x-auto|overflow-x-scroll/.test(tableBlock)) {
-    errors.push(
-      "typography.css: `.app-prose table` is missing `overflow-x-auto` — a wide table will " +
-        "push the whole page wider than the mobile viewport (see 2026-07-06 incident)."
-    );
-  }
-  if (!/\bblock\b/.test(tableBlock)) {
+  const tableBlock = extractAppProseNestedBlock(css, "table");
+  errors.push(...requireOverflowX("table", tableBlock));
+  if (tableBlock && !/\bblock\b/.test(tableBlock)) {
     errors.push(
       "typography.css: `.app-prose table` is missing `block` display — required for the " +
         "overflow-x wrapper to actually scroll instead of the whole document."
     );
   }
 
+  errors.push(...requireOverflowX("pre", extractAppProseNestedBlock(css, "pre")));
+  errors.push(...requireOverflowX(".astro-code", extractAppProseNestedBlock(css, ".astro-code")));
+
   return errors;
 }
 
-/**
- * Check 2: raw HTML in markdown with a fixed pixel width that could overflow
+/** Check 3: raw HTML in markdown with a fixed pixel width that could overflow
  * a 375px viewport. `<img>` is exempt (Tailwind preflight forces max-width:100%).
  */
 function findFixedWidthOverflowHits(content, filePath) {
