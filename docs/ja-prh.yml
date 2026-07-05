@@ -1,0 +1,32 @@
+version: 1
+# GSF-Ark JA site terminology — SSOT: docs/JA_TERMINOLOGY.md
+# Consumed by textlint-rule-prh via .textlintrc.json
+
+rules:
+  # Fullwidth digits → halfwidth (markdown body)
+  - expected: halfwidth digits
+    pattern: /[０-９]/
+    message: "全角数字は半角に統一（JA_TERMINOLOGY）"
+
+  # Fullwidth Latin → halfwidth
+  - expected: halfwidth ASCII
+    pattern: /[Ａ-Ｚａ-ｚ]/
+    message: "全角英字は半角に統一（JA_TERMINOLOGY）"
+
+  # Korean won in kana context — prefer ウォン
+  - expected: ウォン
+    pattern: /(?:^|[^ウ])원(?:[^ン]|$)/
+    message: "原価表記はカタカナ「ウォン」（JA_TERMINOLOGY）"
+
+  - expected: 万ウォン
+    pattern: /万원|만원/
+    message: "韓国ウォンは「万ウォン」表記（JA_TERMINOLOGY）"
+
+  # Large yen literals (100万円+) — prefer 万円 / 億円; small fares like 3,000円 are OK
+  - expected: 万円 or 億円
+    pattern: /[0-9]{1,3}(?:,[0-9]{3}){2,}円/
+    message: "百万円超は万円・億円表記に統一（JA_TERMINOLOGY）"
+
+  - expected: 万円 or 億円
+    pattern: /[1-9][0-9]{2},[0-9]{3}円/
+    message: "10万円以上のカンマ区切り円は万円表記に統一（JA_TERMINOLOGY）"

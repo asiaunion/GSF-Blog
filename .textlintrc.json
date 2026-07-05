@@ -1,0 +1,11 @@
+{
+  "plugins": {
+    "@textlint/markdown": true
+  },
+  "rules": {
+    "prh": {
+      "rulePaths": ["./docs/ja-prh.yml"]
+    }
+  },
+  "presets": []
+}

@@ -229,6 +229,25 @@ function failWithReport(errors) {
   process.exit(1);
 }
 
+function runJaTextlint(jaFiles) {
+  if (jaFiles.length === 0) return { ok: true, output: "no JA files" };
+
+  const args = ["scripts/lint-ja-textlint.mjs"];
+  if (slugArg) args.push("--slug", slugArg);
+
+  const result = spawnSync("node", args, {
+    cwd: root,
+    encoding: "utf8",
+    maxBuffer: 10 * 1024 * 1024,
+  });
+
+  const output = [result.stdout, result.stderr].filter(Boolean).join("\n").trim();
+  return {
+    ok: result.status === 0,
+    output: output || (result.status === 0 ? "0 issues" : "textlint failed"),
+  };
+}
+
 function main() {
   const errors = [];
   const warnings = [];
@@ -271,6 +290,11 @@ function main() {
 
   if (errors.length > 0) {
     failWithReport(errors);
+  }
+
+  const textlint = runJaTextlint(jaFiles);
+  if (!textlint.ok) {
+    failWithReport([`JA textlint: ${textlint.output}`]);
   }
 
   const scope = slugArg ? `slug=${slugArg}` : "full corpus";

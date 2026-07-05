@@ -17,3 +17,9 @@
 ```
 # 예: 출처 라벨에만 허용할 때 한 줄씩 추가
 ```
+
+## textlint (prh)
+
+- 설정: `.textlintrc.json` · 사전: [`docs/ja-prh.yml`](ja-prh.yml) (`JA_TERMINOLOGY` 표기 원칙)
+- 실행: `pnpm lint:ja-textlint` (또는 `pnpm lint:language`에 포함)
+- **현재:** prh 표기 규칙만 hard gate. `preset-ja-technical-writing` 전체는 블로그 톤·표와 충돌이 커서 추후 단계적 활성화.
