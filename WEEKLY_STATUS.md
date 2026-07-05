@@ -10,7 +10,7 @@
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/2** 재제출 완료 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | 삼국어 전수 교정 완료 — Layer 3 lint-language.mjs 협의 |
+| 이번 주 최우선 액션 | 삼국어 전수 교정 프로그램 완료 — textlint 선택 검토 |
 | 다음 체크포인트 | AdSense 심사 결과 확인 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
 | 블로커 | 없음 |
 
@@ -158,6 +158,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-06
+- Layer 3 lint-language.mjs — KO/JA/EN CI·validate 연동 (5745c19)
 - Phase 3 JA 50/50 main merge + Vercel production deploy (30c95bb → gsfark.com)
 ### 2026-07-05
 - Phase 2 EN 50/50 main merge + Vercel production deploy (1862e38 → gsfark.com)
