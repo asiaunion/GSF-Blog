@@ -46,3 +46,12 @@
 | `tokyo-taito-sumida-koto.md` | 263 | 6,000만엔 | ¥60 million | 영문 포스트 내 한국어 잔재 제거 | 100% |
 | `tokyo-ward-guide-series-prologue.md` | 110-113 | 1.5 million JPY (150만 JPY)+ (¥1.5M+) 등 | 1.5 million JPY (¥1.5M)+ 등 | 가격대 표의 괄호 안 한국어 잔재 일괄 제거 | 100% |
 | `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | 49 | 100 million JPY (10,000만 JPY) | 100 million JPY | 영문 포스트 내 한국어 괄호 병기 제거 | 100% |
+
+### Cursor 후속 (배치 5 보완)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `tokyo-taito-sumida-koto.md` | 89 | 2026년 4월 | April 2026 | 영문 본문 한글 일자 잔재 제거 | 100% |
+| `tokyo-taito-sumida-koto.md` | 129 | 2024년 9월 21일 / 5,000万 / 127万 / 100만 | September 21, 2024 / 50 million / 1.27 million / 1 million | 영문 본문 한글·혼용 수량 표기 정리 | 100% |
+| `tokyo-taito-sumida-koto.md` | 176 | 2024년 11월 | November 2024 | 영문 본문 한글 일자 잔재 제거 | 100% |
+| `tokyo-taito-sumida-koto.md` | 178 | 2025년 3월 | March 2025 | 영문 본문 한글 일자 잔재 제거 | 100% |

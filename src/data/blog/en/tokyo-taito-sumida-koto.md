@@ -86,7 +86,7 @@ But open a map and the story shifts. Ueno Station (上野駅) connects to Tokyo 
 
 Taito-ku is the smallest ward by area among all 23 wards. And that small ward borders Chiyoda-ku and Bunkyo-ku (文京区) to the west. Its position places it squarely within the inner-city zone.
 
-2026년 4월, Taito-ku officially released the "Asakusa Mirai Zuan (浅草未来図案) — Urban Development Vision."<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> It's the first revision of the ward's vision in roughly 20 years since 2007. Reflecting the dramatic shift in the foreign tourist environment following the Skytree's opening, it outlines plans to reshape the areas around Asakusa Station and the Sumida River (隅田川) waterfront. The core goal: move away from tourism-only concentration and strengthen residential functionality.
+In April 2026, Taito-ku officially released the "Asakusa Mirai Zuan (浅草未来図案) — Urban Development Vision."<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> It's the first revision of the ward's vision in roughly 20 years since 2007. Reflecting the dramatic shift in the foreign tourist environment following the Skytree's opening, it outlines plans to reshape the areas around Asakusa Station and the Sumida River (隅田川) waterfront. The core goal: move away from tourism-only concentration and strengthen residential functionality.
 
 ### Mansion Average Sale Prices
 
@@ -126,7 +126,7 @@ A rough back-of-the-envelope Cap Rate — the ratio of net rental income to prop
 
 ### Brand Positioning
 
-If Sumida-ku (墨田区) were captured in a single photo, it would be a silhouette standing against the Tokyo Skytree (東京スカイツリー). But the Skytree is more than a tourist attraction. On 2024년 9월 21일 — Day 4,506 since opening — cumulative Skytree observatory admissions surpassed **5,000万** visitors.<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup> International visitors in FY2023 (2023-04–2024-03) reached **127万** — the first time annual international footfall exceeded **100만**.<sup class="source-ref"><a href="#source-7" id="cite-7">7</a></sup> That infrastructure has substantively transformed the commercial character of Sumida-ku.
+If Sumida-ku (墨田区) were captured in a single photo, it would be a silhouette standing against the Tokyo Skytree (東京スカイツリー). But the Skytree is more than a tourist attraction. On September 21, 2024 — Day 4,506 since opening — cumulative Skytree observatory admissions surpassed **50 million** visitors.<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup> International visitors in FY2023 (2023-04–2024-03) reached **1.27 million** — the first time annual international footfall exceeded **1 million**.<sup class="source-ref"><a href="#source-7" id="cite-7">7</a></sup> That infrastructure has substantively transformed the commercial character of Sumida-ku.
 
 But let me ask you something. Have you ever seriously considered living or investing near the Skytree?
 
@@ -173,9 +173,9 @@ Kuramae and Morishita are already approaching Taito-ku average levels. Both neig
 
 ### Subway Line 8 Extension — The Beginning of Structural Change
 
-2024년 11월, construction began on the Tokyo Metro Yurakucho Line (有楽町線) extension.<sup class="source-ref"><a href="#source-8" id="cite-8">8</a></sup> When this line connecting Toyosu (豊洲) to Sumiyoshi (住吉) opens (targeting the mid-2030s), the north-south transit network in Sumida-ku and Koto-ku will be fundamentally transformed. Areas currently dependent on car access will gain direct connections to the city center.
+In November 2024, construction began on the Tokyo Metro Yurakucho Line (有楽町線) extension.<sup class="source-ref"><a href="#source-8" id="cite-8">8</a></sup> When this line connecting Toyosu (豊洲) to Sumiyoshi (住吉) opens (targeting the mid-2030s), the north-south transit network in Sumida-ku and Koto-ku will be fundamentally transformed. Areas currently dependent on car access will gain direct connections to the city center.
 
-Additionally, in 2025년 3월, Sumida-ku established the "Kinshicho Machizukuri Vision" (targeting 2040).<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup> It aims to comprehensively restructure commercial, business, and residential functions around Kinshicho Station, with a Grand Design formulation committee now fully operational from 2026 onward. The progress of these two projects could become a variable affecting area-specific price formation going forward.
+Additionally, in March 2025, Sumida-ku established the "Kinshicho Machizukuri Vision" (targeting 2040).<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup> It aims to comprehensively restructure commercial, business, and residential functions around Kinshicho Station, with a Grand Design formulation committee now fully operational from 2026 onward. The progress of these two projects could become a variable affecting area-specific price formation going forward.
 
 ---
 
