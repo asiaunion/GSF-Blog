@@ -14,7 +14,9 @@ on:
       - "src/data/tag-taxonomy.yaml"
       - "scripts/lint-tag-taxonomy.mjs"
       - "scripts/lint-language.mjs"
+      - "scripts/lint-mobile-structure.mjs"
       - "scripts/lint-ja-textlint.mjs"
+      - "src/styles/typography.css"
       - ".textlintrc.json"
       - "docs/ja-prh.yml"
       - "docs/KO_TERMINOLOGY.md"
@@ -55,6 +57,9 @@ jobs:
 
       - name: Run language lint (KO/JA/EN)
         run: pnpm lint:language
+
+      - name: Run mobile structure lint
+        run: pnpm lint:mobile
 
       - name: Detect changed slugs
         id: slugs

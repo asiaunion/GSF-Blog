@@ -121,10 +121,20 @@
       @apply opacity-75;
     }
 
+    /*
+      Markdown tables have no responsive wrapper (remark-gfm renders a bare <table>).
+      A 4-5 column table's min-content width easily exceeds a 375px viewport, which
+      pushes the whole document wider than the screen instead of just the table —
+      that's what made some posts look like they didn't fill the mobile screen.
+      `block` + `overflow-x-auto` turns the table itself into the scroll container.
+      Guarded by `scripts/lint-mobile-structure.mjs` — do not remove without replacing.
+    */
     table {
+      @apply block max-w-full overflow-x-auto;
+
       th,
       td {
-        @apply border border-border p-2;
+        @apply border border-border p-2 wrap-break-word;
       }
 
       th {

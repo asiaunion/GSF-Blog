@@ -11,8 +11,8 @@ import { runBlogValidation } from "../src/lib/validation/validationGates.ts";
 const root = process.cwd();
 const koDir = path.join(root, "src/data/blog/ko");
 
-function runLanguageLint() {
-  const result = spawnSync("node", ["scripts/lint-language.mjs"], {
+function runLint(scriptPath) {
+  const result = spawnSync("node", [scriptPath], {
     cwd: root,
     encoding: "utf8",
     stdio: "pipe",
@@ -24,7 +24,8 @@ function runLanguageLint() {
 }
 
 async function main() {
-  runLanguageLint();
+  runLint("scripts/lint-language.mjs");
+  runLint("scripts/lint-mobile-structure.mjs");
   process.env.SKIP_VALIDATE_BUILD = "1";
   process.env.SKIP_TRUST_VERIFY = process.env.SKIP_TRUST_VERIFY ?? "1";
   const slugs = (await readdir(koDir))

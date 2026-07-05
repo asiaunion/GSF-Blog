@@ -46,6 +46,9 @@ jobs:
       - name: "🔤 Language lint (KO/JA/EN)"
         run: pnpm lint:language
 
+      - name: "📱 Mobile structure lint"
+        run: pnpm lint:mobile
+
       - name: "🔎 Lint code"
         run: pnpm run lint
 

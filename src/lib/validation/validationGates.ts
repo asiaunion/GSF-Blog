@@ -393,6 +393,25 @@ export async function runBlogValidation(
         output: (error instanceof Error ? error.message : "language lint failed").slice(-2000),
       });
     }
+
+    try {
+      const { stdout, stderr } = await runCommand(
+        "node",
+        ["scripts/lint-mobile-structure.mjs", "--slug", options.slug],
+        projectRoot
+      );
+      hardGates.push({
+        name: "mobile-structure-lint",
+        ok: true,
+        output: (stdout || stderr || "ok").trim().slice(-600),
+      });
+    } catch (error) {
+      hardGates.push({
+        name: "mobile-structure-lint",
+        ok: false,
+        output: (error instanceof Error ? error.message : "mobile structure lint failed").slice(-2000),
+      });
+    }
   }
 
   if (process.env.SKIP_VALIDATE_BUILD === "1") {
