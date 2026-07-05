@@ -107,10 +107,10 @@ The infographic and table below map each ward cluster's rough positioning. The h
 
 | Tier | Wards | Price Range (per ㎡) | Character |
 |------|-------|---------------------|-----------|
-| Core 3 | Chiyoda · Chuo · Minato | 1.5 million JPY (150만 JPY)+ (¥1.5M+) | Max premium, top foreign investor preference |
-| Core 6 (next 3) | Shinjuku · Shibuya · Bunkyo | 1.0–1.5 million JPY (100만~150만 JPY) (¥1.0M–¥1.5M) | Commerce, trend, academia — young professionals |
-| West Premium | Meguro · Setagaya | 800,000–1.2 million JPY (80만~120만 JPY) (¥800K–¥1.2M) | Family-grade luxury living, spacious housing |
-| Business Hub | Shinagawa · Ota | 700,000–1.0 million JPY (70만~100만 JPY) (¥700K–¥1.0M) | Shinkansen/Haneda direct, corporate demand |
+| Core 3 | Chiyoda · Chuo · Minato | 1.5 million JPY (¥1.5M)+ | Max premium, top foreign investor preference |
+| Core 6 (next 3) | Shinjuku · Shibuya · Bunkyo | 1.0–1.5 million JPY (¥1.0M–¥1.5M) | Commerce, trend, academia — young professionals |
+| West Premium | Meguro · Setagaya | 800,000–1.2 million JPY (¥800K–¥1.2M) | Family-grade luxury living, spacious housing |
+| Business Hub | Shinagawa · Ota | 700,000–1.0 million JPY (¥700K–¥1.0M) | Shinkansen/Haneda direct, corporate demand |
 | Hipster Inner | Toshima · Nakano · Suginami | 600,000–850,000 JPY (¥600K–¥850K) | Trendy, Korean community, relative value |
 | Shitamachi | Taito · Sumida · Koto | 550,000–800,000 JPY (¥550K–¥800K) | Traditional + redevelopment, emerging investment |
 | North Value | Kita · Arakawa · Itabashi · Nerima | 450,000–650,000 JPY (¥450K–¥650K) | Korean enclave, practical, ongoing redevelopment |

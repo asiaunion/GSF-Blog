@@ -46,7 +46,7 @@ The core principle: define your currency objective **before** product selection.
 Risk-off episodes, geopolitical escalation, or a faster-than-expected BOJ tightening cycle can reprice yen significantly. In this scenario, I model a 15–20 percent yen appreciation against both USD and KRW within 12–18 months, pushing the JPY/KRW exchange rate to 1,000 KRW/JPY or above.
 
 **What works:**
-- Unhedged Korean investors receive a windfall translation gain on existing yen assets. A 100 million JPY (10,000만 JPY) apartment that was acquired at KRW 950 million becomes worth KRW 1,100–1,150 million in home-currency terms, even if the yen-denominated property value is unchanged.
+- Unhedged Korean investors receive a windfall translation gain on existing yen assets. A 100 million JPY apartment that was acquired at KRW 950 million becomes worth KRW 1,100–1,150 million in home-currency terms, even if the yen-denominated property value is unchanged.
 - Yen-denominated income converts to higher KRW cashflow, improving distribution yield in home-currency terms.
 
 **What to watch:**

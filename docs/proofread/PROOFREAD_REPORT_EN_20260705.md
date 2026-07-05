@@ -37,3 +37,12 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | (이상 없음) | — | — | — | 10개 파일 전수 검토, 수정 대상 없음 (F34 L144 tautology는 독자 설명용 의도적 표현으로 보류) | — |
 
+
+### 배치 5/5 (파일 42~51: tokyo-small-rental-yield ~ why-warm-investing-holds)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `tokyo-taito-sumida-koto.md` | 106 | 1억 | ¥100 million | 영문 포스트 내 한국어 잔재 제거 | 100% |
+| `tokyo-taito-sumida-koto.md` | 263 | 6,000만엔 | ¥60 million | 영문 포스트 내 한국어 잔재 제거 | 100% |
+| `tokyo-ward-guide-series-prologue.md` | 110-113 | 1.5 million JPY (150만 JPY)+ (¥1.5M+) 등 | 1.5 million JPY (¥1.5M)+ 등 | 가격대 표의 괄호 안 한국어 잔재 일괄 제거 | 100% |
+| `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | 49 | 100 million JPY (10,000만 JPY) | 100 million JPY | 영문 포스트 내 한국어 괄호 병기 제거 | 100% |

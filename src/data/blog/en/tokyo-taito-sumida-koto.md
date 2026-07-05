@@ -103,7 +103,7 @@ Taito-ku is the smallest ward by area among all 23 wards. And that small ward bo
 
 Put the ward average of 7,762万円 alongside Chuo-ku at 1億2,680万円 or Minato-ku (港区) at 1億5,441万円, and it's hard not to feel that the "inner-city adjacency" hasn't been fully priced in yet.
 
-Yushima and Nezu are the exceptions. These western neighborhoods bordering Bunkyo-ku have already crossed **1억**. The price gap within the ward is wide depending on where you are. Keep that in mind.
+Yushima and Nezu are the exceptions. These western neighborhoods bordering Bunkyo-ku have already crossed **¥100 million**. The price gap within the ward is wide depending on where you are. Keep that in mind.
 
 To my eyes, Taito-ku looks more like a "city living area" than a "tourist zone." The fact that Asakusa and Ueno come to mind first is one thing — actually living or investing there is a different question entirely.
 
@@ -260,7 +260,7 @@ The Greater Tokyo mansion market in Q1 2026 continued to see declining new-build
 
 **Taito-ku** is a great ward to start in as a renter if you work in central Tokyo. The Ueno and Akihabara rail networks branch out in every direction. Tourism infrastructure is strong, which makes daily life genuinely convenient. That said, noise and congestion levels vary considerably within the ward — I'd recommend the quieter backstreets toward Kuramae and Imado (今戸) over the commercial areas near Asakusa.
 
-**Sumida-ku** has surprisingly strong credentials for families. The Skytree-area improvements have created well-maintained riverside parks and walking paths. Like Koto-ku, the wide road grid makes car use practical. If you're looking to buy in the **6,000만엔** range, the Kinshicho and Ryogoku corridor is a realistic option.
+**Sumida-ku** has surprisingly strong credentials for families. The Skytree-area improvements have created well-maintained riverside parks and walking paths. Like Koto-ku, the wide road grid makes car use practical. If you're looking to buy in the **¥60 million** range, the Kinshicho and Ryogoku corridor is a realistic option.
 
 **Koto-ku** splits sharply based on lifestyle. The Toyosu-Ariake zone feels like an entirely different, purpose-built new city. Meanwhile the inland Kiba-Toyocho areas retain an older Tokyo character while offering excellent accessibility. The same ward delivers two completely different experiences depending on which you choose.
 
