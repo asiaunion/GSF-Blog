@@ -3,9 +3,33 @@
     "@textlint/markdown": true
   },
   "rules": {
+    "preset-ja-technical-writing": {
+      "sentence-length": false,
+      "max-comma": true,
+      "max-ten": false,
+      "max-kanji-continuous-len": false,
+      "arabic-kanji-numbers": true,
+      "no-mix-dearu-desumasu": false,
+      "ja-no-mixed-period": false,
+      "no-double-negative-ja": true,
+      "no-dropping-the-ra": true,
+      "no-doubled-conjunctive-particle-ga": true,
+      "no-doubled-conjunction": true,
+      "no-doubled-joshi": false,
+      "no-nfd": true,
+      "no-invalid-control-character": true,
+      "no-zero-width-spaces": true,
+      "no-exclamation-question-mark": false,
+      "no-hankaku-kana": true,
+      "ja-no-weak-phrase": false,
+      "ja-no-successive-word": true,
+      "ja-no-abusage": true,
+      "ja-no-redundant-expression": false,
+      "ja-unnatural-alphabet": true,
+      "no-unmatched-pair": true
+    },
     "prh": {
       "rulePaths": ["./docs/ja-prh.yml"]
     }
-  },
-  "presets": []
+  }
 }
