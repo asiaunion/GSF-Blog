@@ -191,7 +191,7 @@ citeSources:
 - 역세권 도보 5분 이내의 **기존 맨션 리노베이션** 물건에 주목
 - 재개발 조합의 권리변환 구조 이해 필수
 
-> 📖 **심층 읽기**: [코레도 니혼바시·미츠이 재개발](/ko/posts/coredo-nihonbashi-mitsui-redevelopment) | [니혼바시 미츠이 재개발 파이프라인 3편](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [오피스 공실률 2%대 — 도심 5구 수급 지도](/ko/posts/tokyo-office-vacancy-five-wards-2026)
+> 📖 **심층 읽기**: [코레도 니혼바시·미쓰이 재개발](/ko/posts/coredo-nihonbashi-mitsui-redevelopment) | [니혼바시 미쓰이 재개발 파이프라인 3편](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [오피스 공실률 2%대 — 도심 5구 수급 지도](/ko/posts/tokyo-office-vacancy-five-wards-2026)
 
 ---
 

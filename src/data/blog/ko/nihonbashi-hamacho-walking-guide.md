@@ -23,7 +23,7 @@ sources:
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
 citeSources:
-  - label: "니혼바시 1초메 중앙지구 재개발 공식 안내 (미쓰이 후도산)"
+  - label: "니혼바시 1초메 중앙지구 재개발 공식 안내 (미쓰이 부동산)"
     url: "https://www.mitsuifudosan.co.jp/nihonbashi/ichome/"
     portal: "https://www.mitsuifudosan.co.jp/"
   - label: "니혼바시 안내 공식 포털 (nihonbashi-tokyo.jp)"
