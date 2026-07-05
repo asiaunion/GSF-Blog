@@ -538,3 +538,16 @@
 - 빌드: PASS
 - 다음: Cursor 검증 후 main 일괄 머지
 - Cursor 검증: 대기
+
+## [2026-07-06 00:55] AG — JA 교정 배치 1/5 완료
+- 작업: Phase 3 JA LLM 교정 패스 배치 1/5 (10개 파일 전수 검토)
+- 검토 파일: buying-property-japan-checklist-before-you-commit.md ~ japan-real-estate-three-things.md
+- 수정 파일:
+  - `ginza-weekend-walking-guide.md`: Kyobunkand -> Kyobunkan 오타 교정
+  - `japan-real-estate-three-things.md`: 1,950,000円 -> 195万円 숫자 표기(만 단위) 일관성
+  - `ginza-marunouchi-walk-dna.md`: 44,400,000円 -> 4,440万円 숫자 표기(만 단위) 일관성
+- 리포트: `docs/proofread/PROOFREAD_REPORT_JA_20260705.md` 생성 및 기재
+- 커밋: 154743f (feat/proofread-ja-batch-1)
+- 빌드: PASS
+- 다음: 배치 2/5 진행 후 Cursor 검증
+- Cursor 검증: 대기
