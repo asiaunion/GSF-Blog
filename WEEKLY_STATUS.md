@@ -157,6 +157,7 @@
 
 ## 📝 작업 로그
 ### 2026-07-05
+- Phase 0 proofread main merge·prod deploy
 - 양도세 에피소드 출처 정밀 수정 및 본문 단순화 완료
 - SNS Voice v1.0 톤앤매너 정밀 교정 적용 및 validate:sns-draft 통과
 

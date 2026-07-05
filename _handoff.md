@@ -4,6 +4,16 @@
 
 ---
 
+## [2026-07-05 22:35 JST] Cursor 브랜치 대기
+- 작업 내용: 전수 교정 Phase 1 배치 1/5 완료 (KO 10개 파일 맞춤법, 띄어쓰기, 외래어 표기 교정 및 용어 제안 수집)
+- 브랜치: feat/proofread-ko-batch-1
+- 커밋 (validate): pnpm build PASS (Redirect Gate 1876 seeds PASS)
+- slug / 파일: src/data/blog/ko/ 내 10개 파일 (buying-property-japan-checklist-before-you-commit 등)
+- 배포 예정: Joseph/Cursor 검증 완료 후 main merge 및 배포 예정
+- 다음: Cursor의 `feat/proofread-ko-batch-1` 브랜치 교정 세부 사항 최종 PASS 검증
+- SSOT: GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md / docs/proofread/PROOFREAD_REPORT_KO_20260705.md
+
+
 <!-- AG: 배포 완료 시 -->
 <!--
 ## [YYYY-MM-DD HH:MM] AG 배포 완료
