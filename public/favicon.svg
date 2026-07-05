@@ -1,46 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="GSF Favicon">
-  <!-- 배경 사각형 (R=30의 단단한 비례) -->
-  <rect class="bg" width="128" height="128" rx="30" />
-
-  <!-- 기하학적 G 심볼 패스 
-       - 우상단 개구부 1시 방향 컴팩트 마감 
-       - 중심(X=64)을 지나 X=57까지 깊이 파고드는 비대칭적 가로 바
-       - 내측 끝단을 사선 Chamfer(L 57,56 L 63,72)로 깎아 독창성과 간접적 조형미(방주의 뱃머리/다리) 연출 -->
-  <path class="symbol-g" d="M 95,28 
-           C 87,20 76,17 64,17 
-           C 38,17 17,38 17,64 
-           C 17,90 38,111 64,111 
-           C 90,111 111,90 111,64 
-           L 111,56 
-           L 57,56 
-           L 63,72 
-           L 93,72 
-           C 90,83 80,93 64,93 
-           C 48,93 35,80 35,64 
-           C 35,48 48,35 64,35 
-           C 75,35 84,40 90,47 
-           L 102,37 Z" />
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none" role="img" aria-label="GSF">
+  <rect class="bg" width="128" height="128" rx="21"/>
+  <!--
+    Custom G path — GSF brand symbol
+    viewBox 128×128, center (64,64), radius 38, stroke 18
+    Opening: (88,34)→(102,58), sweep=0 (CCW), large-arc=1
+    Crossbar: y=58 (above center 64 → differentiates from Google G)
+  -->
+  <path class="g"
+        d="M 88,34 A 38,38 0 1,0 102,58 L 66,58"
+        stroke-width="18"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        fill="none"/>
   <style>
-    /* 라이트 모드: 따뜻한 오프화이트 배경 (#F5F2EB) + 깊고 기품 있는 딥 포레스트 그린 심볼 (#123524) */
-    .bg {
-      fill: #F5F2EB;
-      stroke: rgba(18, 53, 36, 0.05);
-      stroke-width: 1;
-    }
-    .symbol-g {
-      fill: #123524;
-    }
-
-    /* 다크 모드: 완벽한 하우스 컬러 반전 대응 */
+    .bg { fill: #143628; }
+    .g  { stroke: #F7F5F0; }
     @media (prefers-color-scheme: dark) {
-      .bg {
-        fill: #123524;
-        stroke: rgba(255, 255, 255, 0.02);
-      }
-      .symbol-g {
-        fill: #F5F2EB;
-      }
+      .bg { fill: #F7F5F0; }
+      .g  { stroke: #143628; }
     }
   </style>
 </svg>
