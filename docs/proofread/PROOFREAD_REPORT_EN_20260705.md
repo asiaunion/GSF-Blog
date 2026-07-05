@@ -23,3 +23,10 @@
 | 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `nihonbashi-hamacho-walking-guide.md` | 135 | 'Kilometer Zero' | 'Kilometre Zero' | 파일 내 L113 및 nihonbashi-the-origin-of-japan.md 전체 표기 'Kilometre'로 통일 | 100% |
+
+### 배치 3/5 (파일 21~31: reading-korea-japan ~ tokyo-korean-community)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| (이상 없음) | — | — | — | 11개 파일 전수 검토, 수정 대상 없음 | — |
+
