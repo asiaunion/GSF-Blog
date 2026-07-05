@@ -10,7 +10,7 @@ ogImage: "https://gsfark.com/assets/images/blog/tokyo-6-wards-real-estate-insigh
 tags: ["부동산", "도쿄6구", "투자전략", "매크로", "인사이트"]
 sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
-  - "https://www.boj.or.jp/en/statistics/index.htm/"
+  - "https://www.boj.or.jp/en/statistics/index.html"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
 citeSources:
   - label: "Tokyo Kantei 수도권 중고 맨션 70㎡ 가격 동향 2025"
@@ -20,7 +20,7 @@ citeSources:
     url: "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
     archive: "/assets/sources/kantei-2025-chukomansion.pdf"
   - label: "일본은행(BOJ) 금융시장 통계 및 금리 정상화 추이"
-    url: "https://www.boj.or.jp/en/statistics/index.htm/"
+    url: "https://www.boj.or.jp/en/statistics/index.html"
   - label: "REINS Market Watch 수도권 부동산 유동성 동향"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
     archive: "/assets/sources/reins-202604-marketwatch.pdf"
@@ -87,7 +87,7 @@ Tokyo Kantei에 따르면, 핵심 6구의 70㎡ 기준 중고 맨션 평균 호�
 
 실제로 2024년 말 초급등 이후 잠시 숨 고르기를 한 뒤, 2025년에는 다시 한 차례 급등 국면이 전개되었습니다. 2026년 Q1에 접어들면서 Tokyo Kantei 및 부동산 경제연구소 데이터는 레버리지 매수자들의 이자 부담이 증가하면서 수개월 만에 처음으로 소폭의 가격 조정이 시작되고 있음을 시사합니다.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> 폭락할 것이라는 공포론과 끝없이 오를 것이라는 맹신 모두 위험합니다. 시장의 규칙이 "캐시플로우(월세)"에서 "희소가치 장기 보유"로 완전히 전환했다는 패러다임의 변화를 인정하는 자만이, 변동성이 지배할 미래의 도쿄 시장에서 흔들림 없이 자산을 불려 나갈 수 있을 것입니다.
 
-> **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (三鬼商事 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 일반적으로 확인하세요.
+> **데이터 기준 시점 (2026년 4월):** BOJ 정책금리 0.75%, 10년물 JGB ≈ 2.43%, TSE REIT Index ≈ 1,916, 도쿄 5구 공실률 2.22% (미키 상사 Q1 2026), Q1 2026 인바운드 관광객 1,068만 명 (JNTO). 투자 결정 전 링크된 출처에서 최신 데이터를 일반적으로 확인하세요.
 
 ## Investor Action: 핵심 요약 및 점검
 

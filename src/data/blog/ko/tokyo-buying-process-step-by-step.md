@@ -50,7 +50,7 @@ citeSources:
 2. **서류 장벽** — 비거주자는 인감증명·주민표가 없어 공증 서류로 대체해야 합니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 3. **비용 장벽** — 물건가 외에 8\~12%의 부대비용이 발생하지만(Tokyu Livable 기준 실무상 7\~10% 전후), 항목별 내역을 사전에 파악하지 못하면 '깜짝 청구서'를 받게 됩니다.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 
-이 글은 그 갭을 메우기 위해 쓰여졌습니다.
+이 글은 그 갭을 메우기 위해 쓰였습니다.
 
 ---
 
