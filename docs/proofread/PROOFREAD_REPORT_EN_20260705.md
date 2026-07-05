@@ -17,3 +17,9 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `ginza-weekend-walking-guide.md` | 79 | Kyobunkand (教文館) | Kyobunkan (教文館) | 고유명사 말미 'd' 오타 수정 (교분칸 서점 공식 로마자 표기) | 100% |
 | `j-reit-five-things-to-know.md` | 129 | can factor in factors like | can consider factors like | 중복 어휘("factor in factors") 문법 오류 수정 | 100% |
+
+### 배치 2/5 (파일 11~20)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `nihonbashi-hamacho-walking-guide.md` | 135 | 'Kilometer Zero' | 'Kilometre Zero' | 파일 내 L113 및 nihonbashi-the-origin-of-japan.md 전체 표기 'Kilometre'로 통일 | 100% |

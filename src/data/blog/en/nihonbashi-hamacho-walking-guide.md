@@ -132,7 +132,7 @@ For both investors and travelers, we recommend walking from Nihonbashi to Hamach
 
 ## Walking Action: Session Summary & Check
 
-- [ ] **Tradition**: Find the 'Kilometer Zero' marker at the center of Nihonbashi Bridge, the starting point of all roads in Japan.
+- [ ] **Tradition**: Find the 'Kilometre Zero' marker at the center of Nihonbashi Bridge, the starting point of all roads in Japan.
 - [ ] **Innovation**: Feel the new rhythm of Tokyo finance in front of the giant stock ticker at Kabutocho 'KABUTO ONE'.
 - [ ] **Lifestyle**: Enjoy the 'riverside' mood of Tokyo's city center at Hamacho Park while looking over the Sumida River.
 
