@@ -41,7 +41,7 @@ jobs:
         run: pnpm install
 
       - name: Install codespell
-        run: pip install codespell
+        run: pip install 'codespell==2.3.0'
 
       - name: "🔤 Language lint (KO/JA/EN)"
         run: pnpm lint:language

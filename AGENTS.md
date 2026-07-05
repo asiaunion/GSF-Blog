@@ -55,6 +55,8 @@ AG 초안·번역 단계에서 아래 SSOT를 **반드시** 참조한다. `pnpm 
 | JA | [`docs/JA_TERMINOLOGY.md`](docs/JA_TERMINOLOGY.md) | hangul 0건 (`lint:language`) |
 | EN | `.codespellrc` | codespell (`lint:language`) |
 
+**codespell (EN):** CI에서 필수. 로컬은 `pip install codespell` 또는 `uvx codespell` — 미설치 시 EN 검사만 경고 후 스킵(exit 0), KO/JA는 정상 검사.
+
 ---
 
 ## ⚙️ GSF-Blog 고정 아키텍처 규칙 (SSOT) — 2026-05-25+

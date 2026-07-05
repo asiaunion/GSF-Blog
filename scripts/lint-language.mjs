@@ -5,7 +5,10 @@
  *   node scripts/lint-language.mjs              # full corpus
  *   node scripts/lint-language.mjs --slug foo   # ko/en/ja for one slug only
  *
- * SSOT: docs/KO_TERMINOLOGY.md (확정 금지 변형), docs/JA_TERMINOLOGY.md, .codespellrc
+ * SSOT: docs/KO_TERMINOLOGY.md (확정=hard, 제안=soft warning), docs/JA_TERMINOLOGY.md, .codespellrc
+ *
+ * EN codespell: tries codespell → python3 -m codespell → uvx codespell.
+ * Missing locally: warn + skip (exit 0). Missing in CI: hard fail.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -22,6 +25,10 @@ const slugArg = (() => {
   return idx >= 0 ? process.argv[idx + 1] : "";
 })();
 
+function isCi() {
+  return process.env.CI === "true" || process.env.GITHUB_ACTIONS === "true";
+}
+
 function readText(filePath) {
   return fs.readFileSync(filePath, "utf8");
 }
@@ -34,25 +41,43 @@ function listMarkdownFiles(localeDir) {
     .map(f => path.join(localeDir, f));
 }
 
-function parseKoBannedTerms(markdown) {
+function sliceMarkdownSection(markdown, sectionHeader) {
+  const escaped = sectionHeader.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const headerRe = new RegExp(`^${escaped}\\s*$`, "m");
+  const match = headerRe.exec(markdown);
+  if (!match) return "";
+
+  const start = match.index;
+  const afterHeader = markdown.slice(start + sectionHeader.length);
+  const nextSection = afterHeader.match(/\n## /);
+  return nextSection?.index != null
+    ? markdown.slice(start, start + sectionHeader.length + nextSection.index)
+    : markdown.slice(start);
+}
+
+/** Header-based table parse — keeps empty cells; maps 금지 변형 column by header name. */
+function parseKoTerminologySection(markdown, sectionHeader) {
   const terms = [];
-  const start = markdown.indexOf("## 확정");
-  if (start < 0) return terms;
-  const end = markdown.indexOf("## 제안", start);
-  const section = end >= 0 ? markdown.slice(start, end) : markdown.slice(start);
+  const section = sliceMarkdownSection(markdown, sectionHeader);
+  if (!section) return terms;
+
+  let bannedCol = -1;
 
   for (const line of section.split("\n")) {
     const trimmed = line.trim();
-    if (!trimmed.startsWith("|") || trimmed.includes("금지 변형")) continue;
-    if (/^\|\s*:?-+:?\s*\|/.test(trimmed)) continue;
+    if (!trimmed.startsWith("|")) continue;
 
-    const cols = trimmed
-      .split("|")
-      .map(c => c.trim())
-      .filter(Boolean);
-    if (cols.length < 3) continue;
+    const cells = trimmed.split("|").slice(1, -1).map(c => c.trim());
+    if (cells.length === 0) continue;
 
-    const banned = cols[2];
+    if (cells.some(c => c === "금지 변형" || c.includes("금지 변형"))) {
+      bannedCol = cells.findIndex(c => c === "금지 변형" || c.includes("금지 변형"));
+      continue;
+    }
+    if (cells.every(c => /^:?-+:?$/.test(c))) continue;
+    if (bannedCol < 0 || cells.length <= bannedCol) continue;
+
+    const banned = cells[bannedCol];
     if (!banned || banned === "—" || banned === "-") continue;
 
     for (const term of banned.split(/[,，]/)) {
@@ -106,21 +131,21 @@ function findTermHits(content, filePath, terms) {
 }
 
 function findHangulHits(content, filePath, allowlist) {
+  const allowSet = new Set(allowlist);
   const hits = [];
   const re = /[가-힣]+/g;
   let match;
   while ((match = re.exec(content)) !== null) {
     const token = match[0];
+    if (allowSet.has(token)) continue;
     const idx = match.index;
-    const context = content.slice(Math.max(0, idx - 30), idx + token.length + 30);
-    if (allowlist.some(entry => context.includes(entry) || token.includes(entry))) {
-      continue;
-    }
     hits.push({
       file: filePath,
       line: lineNumberAt(content, idx),
       term: token,
-      snippet: context.replace(/\n/g, " "),
+      snippet: content
+        .slice(Math.max(0, idx - 30), idx + token.length + 30)
+        .replace(/\n/g, " "),
     });
   }
   return hits;
@@ -138,39 +163,79 @@ function resolveFiles(locale) {
   return listMarkdownFiles(dir);
 }
 
-function runCodespell(files) {
-  if (files.length === 0) return { ok: true, output: "no EN files" };
-
-  const codespell = process.env.CODESPELL_BIN || "codespell";
+function codespellArgs(files) {
   const args = ["--quiet-level=3"];
   if (fs.existsSync(codespellConfigPath)) {
     args.push("--config", codespellConfigPath);
   }
   args.push(...files);
+  return args;
+}
 
-  const result = spawnSync(codespell, args, {
-    cwd: root,
-    encoding: "utf8",
-  });
+function runCodespell(files) {
+  if (files.length === 0) return { ok: true, output: "no EN files", skipped: false };
 
-  if (result.error?.code === "ENOENT") {
+  const args = codespellArgs(files);
+  const attempts = [];
+
+  if (process.env.CODESPELL_BIN) {
+    attempts.push({ cmd: process.env.CODESPELL_BIN, args });
+  }
+  attempts.push({ cmd: "codespell", args });
+  attempts.push({ cmd: "python3", args: ["-m", "codespell", ...args] });
+  attempts.push({ cmd: "uvx", args: ["codespell", ...args] });
+
+  for (const { cmd, args: spawnArgs } of attempts) {
+    const result = spawnSync(cmd, spawnArgs, { cwd: root, encoding: "utf8" });
+    if (result.error?.code === "ENOENT") continue;
+
+    const output = [result.stdout, result.stderr].filter(Boolean).join("\n").trim();
     return {
-      ok: false,
-      output:
-        "codespell not found on PATH. Install: pip install codespell (or set CODESPELL_BIN).",
+      ok: result.status === 0,
+      output: output || (result.status === 0 ? "0 issues" : "codespell failed"),
+      skipped: false,
+      via: cmd,
     };
   }
 
-  const output = [result.stdout, result.stderr].filter(Boolean).join("\n").trim();
+  const installHint =
+    "Install: pip install codespell | uv tool install codespell | set CODESPELL_BIN";
+
+  if (!isCi()) {
+    return {
+      ok: true,
+      skipped: true,
+      output: `WARN: codespell not found — EN check skipped locally (${installHint}). CI enforces EN codespell.`,
+    };
+  }
+
   return {
-    ok: result.status === 0,
-    output: output || (result.status === 0 ? "0 issues" : "codespell failed"),
+    ok: false,
+    skipped: false,
+    output: `codespell not found in CI (${installHint}).`,
   };
+}
+
+function formatHits(label, hits) {
+  return hits.map(
+    h => `${label} "${h.term}" in ${path.relative(root, h.file)}:${h.line} — …${h.snippet}…`
+  );
+}
+
+function failWithReport(errors) {
+  const report = ["❌ lint-language failed:", ...errors.map(e => `  - ${e}`)].join("\n");
+  console.error(report);
+  console.log(report);
+  process.exit(1);
 }
 
 function main() {
   const errors = [];
-  const koBanned = parseKoBannedTerms(readText(koTerminologyPath));
+  const warnings = [];
+
+  const koMarkdown = readText(koTerminologyPath);
+  const koBannedHard = parseKoTerminologySection(koMarkdown, "## 확정");
+  const koBannedSoft = parseKoTerminologySection(koMarkdown, "## 제안");
   const jaAllowlist = parseJaHangulAllowlist(readText(jaTerminologyPath));
 
   const koFiles = resolveFiles("ko");
@@ -179,36 +244,39 @@ function main() {
 
   for (const filePath of koFiles) {
     const content = readText(filePath);
-    const hits = findTermHits(content, filePath, koBanned);
-    for (const hit of hits) {
-      errors.push(`KO banned "${hit.term}" in ${hit.file}:${hit.line} — …${hit.snippet}…`);
-    }
+    errors.push(...formatHits("KO banned", findTermHits(content, filePath, koBannedHard)));
+    warnings.push(
+      ...formatHits("KO proposed (soft)", findTermHits(content, filePath, koBannedSoft))
+    );
   }
 
   for (const filePath of jaFiles) {
     const content = readText(filePath);
-    const hits = findHangulHits(content, filePath, jaAllowlist);
-    for (const hit of hits) {
-      errors.push(`JA hangul "${hit.term}" in ${hit.file}:${hit.line} — …${hit.snippet}…`);
-    }
+    errors.push(...formatHits("JA hangul", findHangulHits(content, filePath, jaAllowlist)));
   }
 
   const codespell = runCodespell(enFiles);
   if (!codespell.ok) {
     errors.push(`EN codespell: ${codespell.output}`);
+  } else if (codespell.skipped) {
+    warnings.push(codespell.output);
+  }
+
+  if (warnings.length > 0) {
+    console.warn("⚠️ lint-language warnings (non-blocking):\n");
+    for (const w of warnings) {
+      console.warn(`  - ${w}`);
+    }
   }
 
   if (errors.length > 0) {
-    console.error("❌ lint-language failed:\n");
-    for (const err of errors) {
-      console.error(`  - ${err}`);
-    }
-    process.exit(1);
+    failWithReport(errors);
   }
 
   const scope = slugArg ? `slug=${slugArg}` : "full corpus";
+  const enNote = codespell.skipped ? "EN skipped (no codespell)" : `EN ${enFiles.length} files`;
   console.log(
-    `✅ lint-language passed (${scope}; KO banned ${koBanned.length} terms, JA allowlist ${jaAllowlist.length}, EN ${enFiles.length} files)`
+    `✅ lint-language passed (${scope}; KO hard ${koBannedHard.length}, KO soft ${koBannedSoft.length}, JA allowlist ${jaAllowlist.length}, ${enNote}; warnings ${warnings.length})`
   );
 }
 

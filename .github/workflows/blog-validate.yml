@@ -45,7 +45,7 @@ jobs:
         run: pnpm install
 
       - name: Install codespell
-        run: pip install codespell
+        run: pip install 'codespell==2.3.0'
 
       - name: Run tag taxonomy lint
         run: pnpm lint:tags

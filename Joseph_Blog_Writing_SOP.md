@@ -64,7 +64,7 @@ Ep.10 이후 **섹션 순서 변경 금지**. 아래 §1은 Ep.01~09 등 레거�
 
 ## 3) 발행 전 체크리스트 (필수)
 
-- **표기 SSOT**: KO는 [`docs/KO_TERMINOLOGY.md`](docs/KO_TERMINOLOGY.md) **확정** 금지 변형 준수 · JA는 [`docs/JA_TERMINOLOGY.md`](docs/JA_TERMINOLOGY.md) (한글 혼입 0건·万円/반각 숫자) · EN은 `codespell` + `.codespellrc`. CI: `pnpm lint:language`
+- **표기 SSOT**: KO는 [`docs/KO_TERMINOLOGY.md`](docs/KO_TERMINOLOGY.md) — **확정** 금지 변형은 CI hard fail, **제안**은 soft warning · JA는 [`docs/JA_TERMINOLOGY.md`](docs/JA_TERMINOLOGY.md) · EN은 `codespell` + `.codespellrc`. CI: `pnpm lint:language` (로컬 codespell 미설치 시 EN만 스킵)
 - 제목이 본문 주제를 벗어나지 않는다
 - 제목 핵심 키워드 2개 이상이 본문 서론/결론에 모두 등장한다
 - 본문 길이 1800~2300자(목표 2000자)

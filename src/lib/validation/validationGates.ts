@@ -42,9 +42,10 @@ async function loadHeroWaivedFromManifest(projectRoot: string, slug: string) {
 
 function runCommand(command: string, args: string[], cwd: string) {
   return new Promise<{ stdout: string; stderr: string }>((resolve, reject) => {
-    execFile(command, args, { cwd }, (error, stdout, stderr) => {
+    execFile(command, args, { cwd, maxBuffer: 10 * 1024 * 1024 }, (error, stdout, stderr) => {
       if (error) {
-        reject(new Error(stderr || stdout || error.message));
+        const detail = [stderr, stdout].filter(Boolean).join("\n").trim() || error.message;
+        reject(new Error(detail));
         return;
       }
       resolve({ stdout, stderr });
@@ -389,7 +390,7 @@ export async function runBlogValidation(
       hardGates.push({
         name: "language-lint",
         ok: false,
-        output: error instanceof Error ? error.message : "language lint failed",
+        output: (error instanceof Error ? error.message : "language lint failed").slice(-2000),
       });
     }
   }
