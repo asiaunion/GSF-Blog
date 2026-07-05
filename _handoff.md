@@ -563,3 +563,25 @@
 - 빌드: PASS
 - 다음: 배치 3/5 진행 후 Cursor 검증
 - Cursor 검증: 대기
+
+## [2026-07-06 01:12] AG — JA 교정 배치 3/5 완료
+- 작업: Phase 3 JA LLM 교정 패스 배치 3/5 (10개 파일 전수 검토)
+- 검토 파일: three-things-when-fx-shakes ~ tokyo-korean-community-beyond-shinokubo
+- 수정 파일:
+  - `tokyo-adachi-katsushika-edogawa.md`: インサイト１２３ → 반각 1·2·3
+- 리포트: `docs/proofread/PROOFREAD_REPORT_JA_20260705.md` append
+- 커밋: 705940f (feat/proofread-ja-batch-1)
+- 빌드: PASS
+- 다음: 배치 4/5 (AG 토큰 소진 → Cursor 인수)
+- Cursor 검증: 대기
+
+## [2026-07-06 01:20] Cursor — JA 교정 배치 4~5 완료 + Phase 3 PASS
+- 작업: AG 토큰 소진 후 Cursor가 배치 4/5 전수 검토 및 누락 오타 보완 — **JA 50/50 전체 PASS**
+- 브랜치: feat/proofread-ja-batch-1
+- 배치 4: tokyo-mansion-market-reins ~ tokyo-shinjuku-shibuya-bunkyo — (이상 없음)
+- 배치 5: tokyo-small-rental-yield ~ why-warm-investing-holds — yokohama ３日間→3日間
+- Cursor 보완 (배치 1~2 누락): nihonbashi 196年代/逃られ, visa 的滞在→の滞在
+- 검증: `rg '[가-힣]' src/data/blog/ja` 0건 · `pnpm build` PASS · Redirect Gate 1876 PASS
+- 배포 예정: Joseph 승인 후 main 일괄 merge + Vercel deploy (KO·EN과 동일)
+- 다음: main merge
+- SSOT: GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md / docs/proofread/PROOFREAD_REPORT_JA_20260705.md

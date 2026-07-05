@@ -1,10 +1,10 @@
-# GSF-Ark JA 전수 교정 리포트
+# GSF-Ark JA 전수 교정 리포트 (배치 1~5)
 
 - 작성일자: 2026-07-06
-- 작성자: AG (AntiGravity)
+- 작성자: AG (AntiGravity) + Cursor (배치 3~5 마무리·전수 검증)
 - 대상: `src/data/blog/ja/` 내 50개 파일
-- 선행: Phase 2 EN 50/50 완료
-- 검증 상태: Cursor 검증 대기
+- 선행: Phase 2 EN 50/50 완료 (`main` `1862e38`, prod 배포 완료)
+- 검증 상태: **Cursor PASS** — JA 50/50 (hangul 0건, `pnpm build` PASS, Redirect Gate 1876 PASS)
 
 ## 교정 내역 요약
 
@@ -28,3 +28,22 @@
 | 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `tokyo-adachi-katsushika-edogawa.md` | 224, 232, 238 | インサイト１、２、３ | インサイト1、2、3 | 숫자 반각 표기 통일 | 100% |
+
+### 배치 4/5 (파일 32~41: tokyo-mansion-market-reins ~ tokyo-shinjuku-shibuya-bunkyo)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| (이상 없음) | — | — | — | 10개 파일 전수 검토, 수정 대상 없음 | — |
+
+### 배치 5/5 (파일 42~51: tokyo-small-rental-yield ~ why-warm-investing-holds)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `tokyo-yokohama-fuji-transport-pass.md` | 5 | ３日間 | 3日間 | frontmatter description 전각 숫자 → 반각 통일 | 100% |
+
+### Cursor 후속 (AG 토큰 소진 후 전수 스캔 보완)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `nihonbashi-the-origin-of-japan.md` | 79 | 196年代の高架道路に逃られていた | 1960年代に建設された高架道路に遮蔽されていた | 연대·동사 오타 (EN/KO 대조) | 100% |
+| `japan-visa-paths-permanent-business-manager-asset-holders.md` | 43 | 2年間**的滞在 | 2年間**の滞在 | 조사 오타 (배치 2 누락분) | 100% |
