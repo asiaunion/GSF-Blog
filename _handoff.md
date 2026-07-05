@@ -21,6 +21,15 @@
 - 다음: main merge → draft:false → AG 배포
 -->
 
+## [2026-07-05 12:57 JST] Cursor 브랜치 대기
+- 작업 내용: gsfark.com 파비콘 리뉴얼 디자인(Option A - Premium Editorial 'G' & Arc) 적용
+- 브랜치: ui/favicon-redesign
+- 커밋 (validate): commit 대기
+- slug / 파일: public/favicon.svg
+- 배포 예정: Joseph가 Cursor 검증 완료 후 main merge 및 배포 예정 (Layout, ads.txt, env, Privacy 보존 검증 완료)
+- 다음: Cursor의 `ui/favicon-redesign` 브랜치 변경 사항 최종 검증
+- SSOT: c507321a-f85c-4a29-b03b-769390fe6325/implementation_plan.md
+
 ## [2026-07-04 20:25 JST] AG SNS 초안 완료 (SNS Voice v1.0 정밀 적용)
 - 작업 내용: 한국 거주자 일본 부동산 양도세 에피소드 SNS 초안(Voice v1.0 및 YMYL 4대 가이드) 작성 및 검증 통과 완료
 - 저장 파일: `projects/GSF-Ark/sns-drafts/2026-07-04-korea-resident-japan-property-capital-gains-tax.md`
