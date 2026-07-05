@@ -15,3 +15,10 @@
 | `ginza-weekend-walking-guide.md` | 79 | Kyobunkand | Kyobunkan | 고유명사 오타 수정 (교분칸 로마자 표기) | 100% |
 | `japan-real-estate-three-things.md` | 69 | 1,950,000円 / 3,300,000円 | 195万円 / 330万円 | 숫자 표기(만 단위) 일관성 확보 | 100% |
 | `ginza-marunouchi-walk-dna.md` | 43 | 44,400,000円 | 4,440万円 | 숫자 표기(만 단위) 일관성 확보 | 100% |
+
+### 배치 2/5 (파일 11~21: japan-shinchiku ~ reading-korea-japan)
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `japan-visa-paths-permanent-business-manager-asset-holders.md` | 41 | しか㈁2025年 | しかし、2025年 | 한글 잔재(㈁) 및 오타 교정 | 100% |
+| `korea-resident-japan-property-capital-gains-tax.md` | 121 | 100,000,000円 | 1億円 | 숫자 표기(억 단위) 일관성 확보 | 100% |
