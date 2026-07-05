@@ -484,3 +484,14 @@
 - 변경 내용: Data-first 톤앤매너 유지, 시간 제약적 문구(over the past week) 삭제, 공유 권유 문구 추가
 - 특이사항: Design Principles 준수 확인 완료
 - 상태: 배포 완료
+
+## [2026-07-06 00:08] AG — EN 교정 배치 1/5 완료
+- 작업: Phase 2 EN LLM 교정 패스 배치 1/5 (10개 파일 전수 검토)
+- 수정 파일:
+  - `src/data/blog/en/ginza-weekend-walking-guide.md` L79: `Kyobunkand` → `Kyobunkan` (오타)
+  - `src/data/blog/en/j-reit-five-things-to-know.md` L129: `factor in factors like` → `consider factors like` (중복 어휘)
+- 리포트: `docs/proofread/PROOFREAD_REPORT_EN_20260705.md` append
+- 커밋: `0a3232d` (feat/proofread-en-batch-1)
+- 빌드: PASS (redirect gate 1876 URLs)
+- 다음: 배치 2/5 착수 (파일 11~20: japan-shinchiku ~ one-failure)
+- Cursor 검증: 대기
