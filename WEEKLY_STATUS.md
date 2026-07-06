@@ -158,6 +158,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-06
+- JA textlint Wave 6 main merge + prod deploy
 - JA textlint Wave 5 main merge + prod deploy
 - Layer 3 lint-language.mjs — KO/JA/EN CI·validate 연동 (5745c19)
 - Phase 3 JA 50/50 main merge + Vercel production deploy (30c95bb → gsfark.com)

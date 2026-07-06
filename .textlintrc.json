@@ -10,7 +10,7 @@
       "max-kanji-continuous-len": false,
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": false,
-      "ja-no-mixed-period": false,
+      "ja-no-mixed-period": true,
       "no-double-negative-ja": true,
       "no-dropping-the-ra": true,
       "no-doubled-conjunctive-particle-ga": true,
