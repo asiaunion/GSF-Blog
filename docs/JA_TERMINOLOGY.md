@@ -33,7 +33,7 @@
 | 2 | `arabic-kanji-numbers` | ✅ (75건 auto-fix + 수동) |
 | 3 | `max-comma`, `no-doubled-conjunction` | ✅ |
 | 4 | `ja-no-successive-word` | ✅ (★표→n/5, 蒲蒲線→蒲田線) |
-| 5 | `no-doubled-joshi` | 🔜 (~117건 — 문장 분할·조사 정리) |
+| 5 | `no-doubled-joshi` | ✅ (234건 → 0, 51파일 전수) |
 | 6 | `ja-no-redundant-expression` | 대기 (~26) |
 | 7 | `ja-no-mixed-period` | 대기 (~49, 표·리스트 예외 검토) |
 | 8 | `no-mix-dearu-desumasu` | 대기 (블로그 톤 협의 — `preferInList`) |

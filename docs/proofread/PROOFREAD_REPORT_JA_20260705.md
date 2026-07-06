@@ -47,3 +47,56 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | `nihonbashi-the-origin-of-japan.md` | 79 | 196年代の高架道路に逃られていた | 1960年代に建設された高架道路に遮蔽されていた | 연대·동사 오타 (EN/KO 대조) | 100% |
 | `japan-visa-paths-permanent-business-manager-asset-holders.md` | 43 | 2年間**的滞在 | 2年間**の滞在 | 조사 오타 (배치 2 누락분) | 100% |
+
+---
+
+## Wave 5 — no-doubled-joshi 전수 수정 (Claude, 2026-07-06)
+
+- **활성화**: `.textlintrc.json` `no-doubled-joshi: false` → `true`
+- **대상**: `src/data/blog/ja/` 51개 파일 전수
+- **수정 전 위반 수**: 234건 (AG 4건 선수정 후 230건)
+- **수정 후 위반 수**: 0건
+- **수정 방침**: 의미·URL·각주·수치 변경 금지 / 조사 치환·어순 조정·문장 분할만 허용
+- **최종 검증**: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+
+### 주요 수정 파일 (Wave 5 전용)
+
+| 파일명 | 수정 내용 |
+| :--- | :--- |
+| `buying-property-japan-checklist-before-you-commit.md` | doubled に·は 3건 조사 치환·문장 분할 |
+| `why-i-chose-nihonbashi.md` | doubled に·が·は 5건 어순 조정 |
+| `tokyo-moving-contracts-two-notes.md` | doubled が 4건 조사 치환 |
+| `tokyo-mansion-market-reins-2026-04.md` | doubled が·は 4건 문장 분할·치환 |
+| `korea-resident-japan-property-capital-gains-tax.md` | doubled が 3건 조사 치환 |
+| `japan-shinchiku-vs-chuko-mansion-investor-guide.md` | doubled に·が 5건 치환·분할 |
+| `buying-property-japan-surprises-foreign-investor.md` | doubled は 1건 조사 치환 |
+| `coredo-nihonbashi-mitsui-redevelopment.md` | doubled が 1건 어순 조정 |
+| `hotel-reit-vs-office-reit-post-covid.md` | doubled が 1건 문장 분할 |
+| `japan-corporate-vs-personal-rental-after-tax-sketch.md` | doubled が 1건 조사 치환 |
+| `j-reit-five-things-to-know.md` | doubled に 1건 년도 뒤 読点 삽입 |
+| `japan-rate-hike-cycle-j-reit-three-lessons.md` | doubled が 1건 も 치환 |
+| `japan-real-estate-three-things.md` | doubled に 1건 접속사 변경 |
+| `japan-visa-paths-permanent-business-manager-asset-holders.md` | doubled か·が 2건 치환 |
+| `korea-japan-inheritance-gift-tax-cross-border-basics.md` | doubled が 1건 문장 재구성 |
+| `nihonbashi-hamacho-supermarket-peacock-city-life.md` | doubled は 2건 문장 분할·조사 치환 |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | doubled は 1건 문장 분할 |
+| `nihonbashi-the-origin-of-japan.md` | doubled に 1건 읽점 삽입 |
+| `three-things-when-fx-shakes.md` | doubled が 1건 어순 조정 |
+| `tokyo-6-wards-real-estate-insight.md` | doubled に 2건 치환 |
+| `tokyo-adachi-katsushika-edogawa.md` | doubled が 1건 문장 재구성 |
+| `tokyo-core-3-wards-chiyoda-chuo-minato.md` | doubled が 1건 조사 치환 |
+| `tokyo-earthquake-vulnerable-five-areas.md` | doubled に 1건 읽점 삽입 |
+| `tokyo-five-sophisticated-spots.md` | doubled も 1건 문장 재구성 |
+| `tokyo-kita-arakawa-itabashi-nerima.md` | doubled が 1건 문장 재구성 |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | doubled が·に 2건 문장 분할·치환 |
+| `tokyo-meguro-setagaya.md` | doubled が·か 2건 문장 분할·치환 |
+| `tokyo-real-estate-investment-complete-guide.md` | doubled で 1건 조사 치환 |
+| `tokyo-shinagawa-ota.md` | doubled が·に 3건 치환·문장 재구성 |
+| `tokyo-shinjuku-shibuya-bunkyo.md` | doubled が 2건 조사 치환 |
+| `tokyo-small-rental-yield-vs-capital-gain-breakeven.md` | doubled が 1건 문장 분할 |
+| `tokyo-taito-sumida-koto.md` | doubled に 2건 치환 |
+| `tokyo-ward-guide-series-prologue.md` | doubled に 1건 접속사 변경 |
+| `tokyo-yokohama-fuji-transport-pass.md` | doubled に 3건 치환·문장 재구성 |
+| `tsukiji-last-empty-lot-redevelopment.md` | doubled が·に 4건 치환·읽점 삽입 |
+| `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | doubled で 1건 읽점 삽입 |
+| `why-warm-investing-holds.md` | doubled に 3건 치환·문장 재구성 |

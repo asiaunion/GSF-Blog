@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-07-06 12:52 JST] Claude Wave 5 완료 — no-doubled-joshi 전수 수정
+- 작업 내용: `.textlintrc.json` no-doubled-joshi 활성화 + 51개 JA 파일 전수 수정
+- 위반 건수: 234건 → 0건
+- 검증: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+- 수정 방침: 조사 치환·어순 조정·문장 분할만 / 의미·URL·각주·수치 변경 없음
+- SSOT: docs/proofread/PROOFREAD_REPORT_JA_20260705.md (Wave 5 섹션 추가)
+- 다음: Cursor 검증 대기 (Wave 6+ rules는 OFF 유지)
+
 ## [2026-07-06 00:05 JST] AG 작업 대기 — Phase 2 EN 배치 1/5
 - 작업 내용: Phase 2 EN 착수 — Layer 1 codespell 설정 완료, 배치 1 LLM 교정 대기
 - 브랜치: feat/proofread-en-batch-1 (main 기준)
