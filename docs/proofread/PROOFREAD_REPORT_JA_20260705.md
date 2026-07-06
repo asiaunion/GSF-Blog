@@ -186,3 +186,21 @@
 | `tokyo-taito-sumida-koto.md` | 3건 | `:` → 。, 주석 。 추가 |
 | `tokyo-ward-guide-series-prologue.md` | 10건 | `公開済み` → `公開済み。` |
 | `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | 3건 | ：→。, シリーズ。 |
+
+---
+
+## Wave 8 — no-mix-dearu-desumasu 활성화 (Claude, 2026-07-06)
+
+- **활성화**: `.textlintrc.json` `no-mix-dearu-desumasu: false` → `{ "preferInList": "ですます" }`
+- **preferInList 결정**: `ですます` — 블로그 본문·리스트 전체 です/ます 톤 통일 (だ/である 허용 안 함)
+- **대상**: `src/data/blog/ja/` 51개 파일 전수
+- **수정 전 위반 수**: 1건 (preferInList: 'ですます' 기준)
+- **수정 후 위반 수**: 0건
+- **수정 방침**: `である` → `ですます` 치환 1건만 / 의미·URL·각주·수치 변경 금지
+- **최종 검증**: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+
+### 수정 내역 (Wave 8)
+
+| 파일명 | 줄 | Before → After | 확신도 |
+| :--- | :--- | :--- | :--- |
+| `why-warm-investing-holds.md` | 46 | `続く構造であるか。` → `続く構造ですか。` | 100% |
