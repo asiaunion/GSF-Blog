@@ -35,7 +35,7 @@
 | 4 | `ja-no-successive-word` | ✅ (★표→n/5, 蒲蒲線→蒲田線) |
 | 5 | `no-doubled-joshi` | ✅ (234건 → 0, 51파일 전수) |
 | 6 | `ja-no-redundant-expression` | ✅ (26건 → 0, 14파일) |
-| 7 | `ja-no-mixed-period` | 대기 (~49, 표·리스트 예외 검토) |
+| 7 | `ja-no-mixed-period` | ✅ (49건 → 0, 15파일) |
 | 8 | `no-mix-dearu-desumasu` | 대기 (블로그 톤 협의 — `preferInList`) |
 | 9 | `max-ten`, `sentence-length`, `max-kanji-continuous-len` | 대기 (완화 옵션 후) |
 
