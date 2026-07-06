@@ -4,7 +4,15 @@
 
 ---
 
-## [2026-07-06 14:00 JST] Claude Wave 7 완료 — ja-no-mixed-period 전수 수정
+## [2026-07-06 15:24 JST] Cursor — textlint Wave 0–7 완료 · 백로그 저장 (Joseph 보류)
+- **완료:** JA textlint Wave 0–7 prod (`736685b`) — `lint:ja-textlint` 0 · build 1876 PASS
+- **일시 중단:** Joseph — 남은 과제 미결 백로그로 저장, 추후 재개
+- **다음 1순위:** Wave 8 `no-mix-dearu-desumasu` (~285) — **Joseph 톤·preferInList 협의 후** AG 지시
+- **다음 2순위:** Wave 9 (`max-ten`·`sentence-length`·`max-kanji-continuous-len`) · EN Phase 2 · KO soft 103건
+- **SSOT:** `WEEKLY_STATUS.md` §📌 미결 백로그 · `docs/JA_TERMINOLOGY.md` §다음 과제
+- **재개 한 줄:** `GSF-Ark JA textlint Wave 8 착수`
+
+## [2026-07-06 14:28 JST] Cursor Wave 7 merge + prod deploy
 - 작업 내용: `.textlintrc.json` ja-no-mixed-period 활성화 + 51개 JA 파일 전수 수정
 - 위반 건수: 49건 → 0건
 - 검증: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS

@@ -40,3 +40,16 @@
 | 9 | `max-ten`, `sentence-length`, `max-kanji-continuous-len` | 대기 (완화 옵션 후) |
 
 **미활성:** `ja-no-weak-phrase`, `no-exclamation-question-mark` — Joseph 톤·인용문과 충돌.
+
+## 다음 과제 (미결 — 2026-07-06 Joseph 보류)
+
+Wave 0–7 **완료·prod 반영** (`main` `736685b`). 아래는 **Joseph 지시 시** 순서대로 재개.
+
+| 순서 | Wave | 규칙 | 설문 건수 | 선행 조건 |
+|:---:|------|------|----------|-----------|
+| **1** | 8 | `no-mix-dearu-desumasu` | ~285 | Joseph: です/ます 톤·`preferInList` 협의 |
+| 2 | 9 | `max-ten` · `sentence-length` · `max-kanji-continuous-len` | ~17 · ~55 · TBD | Wave 8 PASS 후 · 완화 옵션 검토 |
+
+- 설문: `node scripts/survey-ja-textlint-rules.mjs`
+- 백로그 SSOT: [`WEEKLY_STATUS.md`](../WEEKLY_STATUS.md) §📌 미결 백로그
+- EN Phase 2 · KO soft 103건: 동일 WEEKLY §📌 표 참조

@@ -8,11 +8,30 @@
 |------|-----|
 | 최종 업데이트 | 2026-07-06 |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 Ep10 집필 착수 (KO 초안 Cursor) · Ep09 배포 완료 — AdSense **7/2** 재제출 완료 |
+| 상태 | 🟢 JA textlint Wave 0–7 prod 반영 (`736685b`) · KO 50/50 ✅ · AdSense **7/2** 재제출 결과 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | 삼국어 전수 교정 프로그램 완료 — textlint 선택 검토 |
-| 다음 체크포인트 | AdSense 심사 결과 확인 / 7/10~15 Plan B 런칭 + 신청 / Wave 3 (Joseph 지시 시) |
-| 블로커 | 없음 |
+| 이번 주 최우선 액션 | **미결 백로그** — 아래 §📌 참조 (Joseph `Wave 8 착수` 지시 시 재개) |
+| 다음 체크포인트 | **① JA textlint Wave 8** (톤 협의) → **② EN Phase 2** → AdSense 결과 / Plan B 7/10~15 |
+| 블로커 | 없음 (Wave 8은 Joseph 톤·`preferInList` 결정 선행 권장) |
+
+---
+
+## 📌 미결 백로그 — Joseph 다음 착수 (2026-07-06 저장)
+
+> **SSOT:** textlint 로드맵 [`docs/JA_TERMINOLOGY.md`](docs/JA_TERMINOLOGY.md) · 전수 교정 [`GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md`](../GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md)  
+> **완료:** KO Phase 1 · JA LLM Phase 3 · JA textlint **Wave 0–7** (main `736685b`, prod 반영)  
+> **일시 중단:** Joseph 지시 — 추후 순서대로 재개
+
+| 우선 | 과제 | 규모·조건 | 담당 | 상태 | SSOT |
+|:---:|------|-----------|------|------|------|
+| **1** | **JA textlint Wave 8** — `no-mix-dearu-desumasu` | ~**285건** · 블로그 です/ます 톤 혼용 · **`preferInList` 옵션 Joseph 협의 선행** | Joseph → AG → Cursor | 🔜 미착수 | `JA_TERMINOLOGY.md` Wave 8 |
+| 2 | JA textlint Wave 9 — `max-ten` · `sentence-length` · `max-kanji-continuous-len` | ~17 + ~55 + TBD · **완화 옵션** 검토 후 활성화 | AG → Cursor | 🔜 미착수 | `JA_TERMINOLOGY.md` Wave 9 |
+| 3 | EN Phase 2 전수 교정 | 50편 · codespell CI + LLM 배치 10×5 | AG → Cursor | 🔜 미착수 | `feat/proofread-en-batch-1` · `PROOFREAD_REPORT_EN_20260705.md` |
+| 4 | KO soft terminology 확정 | lint **103건** soft warning → Joseph 확정 후 hard 전환 여부 | Joseph | 🔜 미착수 | `docs/KO_TERMINOLOGY.md` |
+| 5 | 파비콘 Option 1 배포 | Aero Cut `277b666` | Joseph + Cursor | 🟡 브랜치 대기 | `ui/favicon-redesign` |
+| — | textlint **의도적 미활성** | `ja-no-weak-phrase` · `no-exclamation-question-mark` — Joseph 톤 충돌 | — | ⏸ 보류 | `JA_TERMINOLOGY.md` |
+
+**Joseph 한 줄 재개:** `GSF-Ark JA textlint Wave 8 착수` (톤 협의 후) 또는 `EN Phase 2 착수`
 
 ---
 
@@ -158,6 +177,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-06
+- JA textlint Wave 7 main merge + prod deploy
 - JA textlint Wave 6 main merge + prod deploy
 - JA textlint Wave 5 main merge + prod deploy
 - Layer 3 lint-language.mjs — KO/JA/EN CI·validate 연동 (5745c19)
