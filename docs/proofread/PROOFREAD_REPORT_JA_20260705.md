@@ -100,3 +100,46 @@
 | `tsukiji-last-empty-lot-redevelopment.md` | doubled が·に 4건 치환·읽점 삽입 |
 | `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | doubled で 1건 읽점 삽입 |
 | `why-warm-investing-holds.md` | doubled に 3건 치환·문장 재구성 |
+
+---
+
+## Wave 6 — ja-no-redundant-expression 전수 수정 (Claude, 2026-07-06)
+
+- **활성화**: `.textlintrc.json` `ja-no-redundant-expression: false` → `true`
+- **대상**: `src/data/blog/ja/` 51개 파일 전수
+- **수정 전 위반 수**: 26건
+- **수정 후 위반 수**: 0건
+- **수정 방침**: 의미·URL·각주·수치·Joseph 1인칭 톤 변경 금지 / 중복 표현 간결화만 허용
+- **최종 검증**: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+- **커밋**: `18e4257` (branch: `feat/ja-textlint-wave6-redundant`)
+
+### 주요 수정 내역 (Wave 6 전용)
+
+| 파일명 | 줄 | Before → After | 규칙 |
+| :--- | :--- | :--- | :--- |
+| `ginza-weekend-walking-guide.md` | 48 | 目にすることのできない → 目にできない | dict2 |
+| `ginza-weekend-walking-guide.md` | 58 | 一望することができます → 一望できます | dict2 |
+| `j-reit-five-things-to-know.md` | 51 | 投資を行う個人投資家 → 投資をする個人投資家 | dict5 |
+| `j-reit-five-things-to-know.md` | 66 | 確認することができます → 確認できます | dict2 |
+| `j-reit-five-things-to-know.md` | 86 | 確認することができます → 確認できます | dict2 |
+| `j-reit-five-things-to-know.md` | 86 | 投資することが可能です → 投資できます | dict1 |
+| `j-reit-five-things-to-know.md` | 127 | 基準にすることができます → 基準にできます | dict2 |
+| `j-reit-five-things-to-know.md` | 127 | 保証することは不可能です → 保証するのは不可能です | dict1 |
+| `hotel-reit-vs-office-reit-post-covid.md` | 52 | 比較を行えば → を比較すれば | dict5 |
+| `japan-rate-hike-cycle-j-reit-three-lessons.md` | 125 | 分散を行います → を分散させます | dict5 |
+| `japan-real-estate-three-things.md` | 47 | 所有することができますが → 所有できますが | dict2 |
+| `japan-real-estate-three-things.md` | 65 | 納付することができます → 納付できます | dict2 |
+| `japan-real-estate-three-things.md` | 87 | 審査を行い → 審査し | dict5 |
+| `japan-real-estate-three-things.md` | 95 | 創出することができます → 創出できます | dict2 |
+| `japan-shinchiku-vs-chuko-mansion-investor-guide.md` | 136 | シミュレーションを行うことを → シミュレーションすることを | dict5 |
+| `korea-japan-inheritance-gift-tax-cross-border-basics.md` | 68 | シミュレーションを行うべきです → シミュレーションすべきです | dict5 |
+| `korea-japan-inheritance-gift-tax-cross-border-basics.md` | 74 | であると考えています → と考えています | dict4 |
+| `korea-resident-japan-property-capital-gains-tax.md` | 111 | 源泉徴収を行う制度 → 源泉徴収する制度 | dict5 |
+| `korea-resident-japan-property-capital-gains-tax.md` | 140 | 納税を行う必要があります → 納税が必要です | dict5 |
+| `korea-resident-japan-property-capital-gains-tax.md` | 196 | シミュレーションを行うことが安全 → シミュレーションするのが安全 | dict5 |
+| `nihonbashi-hamacho-supermarket-peacock-city-life.md` | 62 | 利用することができます → 利用できます | dict2 |
+| `three-things-when-fx-shakes.md` | 39 | ヘッジ）することが可能です → ヘッジ）できます | dict1 |
+| `tokyo-buying-process-step-by-step.md` | 131 | 説明を行うことを → 説明をすることを | dict5 |
+| `tokyo-earthquake-vulnerable-five-areas.md` | 48 | 理解することができるのです → 理解できるのです | dict2 |
+| `tokyo-ward-guide-series-prologue.md` | 128 | 購入することができ、 → 購入でき、 | dict2 |
+| `why-i-chose-nihonbashi.md` | 78 | 記録することはできません → 記録できません | dict2 |
