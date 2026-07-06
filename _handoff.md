@@ -4,6 +4,15 @@
 
 ---
 
+## [2026-07-06 14:00 JST] Claude Wave 7 완료 — ja-no-mixed-period 전수 수정
+- 작업 내용: `.textlintrc.json` ja-no-mixed-period 활성화 + 51개 JA 파일 전수 수정
+- 위반 건수: 49건 → 0건
+- 검증: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+- 수정 방침: ：→。치환·공백행 제거·。추가만 / 의미·URL·각주·수치 변경 없음
+- SSOT: docs/proofread/PROOFREAD_REPORT_JA_20260705.md (Wave 7 섹션 추가)
+- 브랜치: feat/ja-textlint-wave7-mixed-period / 커밋: 7a1addc
+- 다음: Cursor 검증 대기 (main push/deploy 금지)
+
 ## [2026-07-06 13:20 JST] Claude Wave 6 완료 — ja-no-redundant-expression 전수 수정
 - 작업 내용: `.textlintrc.json` ja-no-redundant-expression 활성화 + 51개 JA 파일 전수 수정
 - 위반 건수: 26건 → 0건

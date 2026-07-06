@@ -143,3 +143,46 @@
 | `tokyo-earthquake-vulnerable-five-areas.md` | 48 | 理解することができるのです → 理解できるのです | dict2 |
 | `tokyo-ward-guide-series-prologue.md` | 128 | 購入することができ、 → 購入でき、 | dict2 |
 | `why-i-chose-nihonbashi.md` | 78 | 記録することはできません → 記録できません | dict2 |
+
+---
+
+## Wave 7 — ja-no-mixed-period 전수 수정 (Claude, 2026-07-06)
+
+- **활성화**: `.textlintrc.json` `ja-no-mixed-period: false` → `true`
+- **대상**: `src/data/blog/ja/` 51개 파일 전수
+- **수정 전 위반 수**: 49건
+- **수정 후 위반 수**: 0건
+- **수정 방침**: 의미·URL·각주·수치 변경 금지 / 。누락 보완 — ：→。치환·공백행 제거·。추가만
+- **최종 검증**: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+- **커밋**: `7a1addc` (branch: `feat/ja-textlint-wave7-mixed-period`)
+
+### 수정 유형별 분류 (Wave 7)
+
+| 수정 유형 | 건수 | 예시 |
+| :--- | :--- | :--- |
+| `：` → `。` (리스트·테이블 도입문 말미) | 38건 | `ダイナミクス：` → `ダイナミクス。` |
+| `— 公開済み` → `— 公開済み。` (prologue 시리즈 목록) | 10건 | `公開済み` → `公開済み。` |
+| 공백행 제거로 단락 통합 (문학적 분절 구조) | 2건 | buying-property L101/107 |
+| `:` (ASCII) → `。` | 2건 | `確認すべきこと:` → `確認すべきこと。` |
+| 수식·주석 말미 `。` 추가 | 4건 | `× 100` → `× 100。` |
+| `シリーズの関連記事` → `シリーズの関連記事。` | 5건 | hotel-reit, nihonbashi-mitsui 등 |
+
+### 주요 수정 파일 (Wave 7 전용)
+
+| 파일명 | 수정 건수 | 주요 수정 유형 |
+| :--- | :--- | :--- |
+| `buying-property-japan-surprises-foreign-investor.md` | 2건 | 단락 통합 (문학적 분절) |
+| `ginza-marunouchi-walk-dna.md` | 1건 | ：→。 |
+| `hotel-reit-vs-office-reit-post-covid.md` | 4건 | ：→。, シリーズ。 |
+| `japan-rate-hike-cycle-j-reit-three-lessons.md` | 6건 | ：→。, シリーズ。 |
+| `japan-shinchiku-vs-chuko-mansion-investor-guide.md` | 1건 | ：→。 |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 4건 | ：→。, シリーズ。 |
+| `nihonbashi-the-origin-of-japan.md` | 2건 | ：→。 |
+| `tokyo-adachi-katsushika-edogawa.md` | 1건 | `:` → 。 |
+| `tokyo-buying-process-step-by-step.md` | 1건 | ：→。 |
+| `tokyo-mansion-tsubo-chiyoda-chuo-minato.md` | 5건 | ：→。, シリーズ。 |
+| `tokyo-real-estate-investment-complete-guide.md` | 1건 | 수식 말미 。 추가 |
+| `tokyo-small-rental-yield-vs-capital-gain-breakeven.md` | 5건 | ：→。, シリーズ。 |
+| `tokyo-taito-sumida-koto.md` | 3건 | `:` → 。, 주석 。 추가 |
+| `tokyo-ward-guide-series-prologue.md` | 10건 | `公開済み` → `公開済み。` |
+| `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | 3건 | ：→。, シリーズ。 |
