@@ -22,7 +22,6 @@ import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 import { getUi, type UiLang } from "@/i18n/ui";
 import { TOPIC_HUB_SLUGS, type TopicHubKey } from "@/data/topicHubs";
-import NewsletterBanner from "@/components/NewsletterBanner.astro";
 import NewsletterForm from "@/components/NewsletterForm.astro";
 
 const posts = await getCollection("blog", ({ id }) => id.startsWith(`${lang}/`));
@@ -159,8 +158,6 @@ const hubOrder: TopicHubKey[] = [
         </div>
       </div>
     </section>
-
-    <NewsletterBanner lang={lang as UiLang} />
 
     {
       featuredPosts.length > 0 && (

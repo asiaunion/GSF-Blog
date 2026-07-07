@@ -625,3 +625,6 @@
 - 1차 검증: 로컬 `pnpm build` PASS
 - 상호 링크 검증: 로컬 소스 상에 `Footer.astro` 교차 링크 존재 확인 (라이브 미배포 상태)
 - 다음: Cursor 브랜치 대기 (UI 변경 및 AdSense 호환성 검증 후 배포)
+
+## [2026-07-08 00:20 JST] [AG] [GSF-Ark]
+- 작업 내용: `index.astro`에서 `NewsletterBanner` import 및 렌더링 코드 제거
