@@ -1,6 +1,6 @@
 ---
-title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Ep.04] Shinagawa, Ota"
-description: "Analyzing the solid income fundamentals and massive infrastructure redevelopment that create overwhelming growth potential in Tokyo's Southern Belt (Shinagawa and Ota), complete with purchase and rental market data."
+title: "Shinagawa & Ota Ward Tokyo: Southern Belt Investment Guide [2026]"
+description: "Shinagawa and Ota — Tokyo's infrastructure-driven growth belt. Covers purchase prices, rental yields, and the Haneda re-development pipeline for cross-border investors."
 pubDatetime: 2026-06-02T20:20:00Z
 modDatetime: 2026-06-07T09:57:10+09:00
 author: GSF

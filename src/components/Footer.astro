@@ -24,6 +24,12 @@ const lang = (
 ) as UiLang;
 const l = lang === "en" ? "" : `/${lang}`;
 const L = getUi(lang);
+const sisterSiteLabel =
+  lang === "ko"
+    ? "생활형 일본 가이드는 TokyoKorean"
+    : lang === "ja"
+      ? "日本生活の韓国語ガイドは TokyoKorean"
+      : "For practical Japan life guides, visit TokyoKorean";
 ---
 
 <footer
@@ -56,6 +62,15 @@ const L = getUi(lang);
     </div>
     <div class="text-xs opacity-60 text-center sm:text-left">
       <span>{L.footerAdsNotice}</span>
+    </div>
+    <div class="text-xs opacity-70 text-center sm:text-left">
+      <a
+        href="https://tokyokorean.net/"
+        class="link-subtle"
+        rel="noopener noreferrer"
+      >
+        {sisterSiteLabel}
+      </a>
     </div>
   </div>
 </footer>

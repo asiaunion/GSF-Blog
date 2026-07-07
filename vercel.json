@@ -61,6 +61,21 @@
       "permanent": true
     },
     {
+      "source": "/terms/",
+      "destination": "/terms-of-service/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/terms/",
+      "destination": "/ko/terms-of-service/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/terms/",
+      "destination": "/ja/terms-of-service/",
+      "permanent": true
+    },
+    {
       "source": "/:path*/feed/",
       "destination": "/",
       "permanent": true
@@ -123,6 +138,51 @@
     {
       "source": "/posts/%EB%8F%84%EC%BF%84%EC%99%80-%EC%9A%94%EC%BD%94%ED%95%98%EB%A7%88-%ED%9B%84%EC%A7%80%EC%82%B0%EA%B9%8C%EC%A7%80-%EC%9D%B4%EC%9A%A9-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B5%90%ED%86%B5-%ED%8C%A8%EC%8A%A4/",
       "destination": "/posts/tokyo-yokohama-fuji-transport-pass/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/inheritance-the-origin-of-japan/",
+      "destination": "/posts/nihonbashi-the-origin-of-japan/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/inheritance-the-origin-of-japan/",
+      "destination": "/ko/posts/nihonbashi-the-origin-of-japan/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/inheritance-the-origin-of-japan/",
+      "destination": "/ja/posts/nihonbashi-the-origin-of-japan/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/tokyo-yokohama-fujisawa-pass/",
+      "destination": "/posts/tokyo-yokohama-fuji-transport-pass/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/tokyo-yokohama-fujisawa-pass/",
+      "destination": "/ko/posts/tokyo-yokohama-fuji-transport-pass/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/tokyo-yokohama-fujisawa-pass/",
+      "destination": "/ja/posts/tokyo-yokohama-fuji-transport-pass/",
+      "permanent": true
+    },
+    {
+      "source": "/posts/tokyo-office-market-post-covid/",
+      "destination": "/posts/hotel-reit-vs-office-reit-post-covid/",
+      "permanent": true
+    },
+    {
+      "source": "/ko/posts/tokyo-office-market-post-covid/",
+      "destination": "/ko/posts/hotel-reit-vs-office-reit-post-covid/",
+      "permanent": true
+    },
+    {
+      "source": "/ja/posts/tokyo-office-market-post-covid/",
+      "destination": "/ja/posts/hotel-reit-vs-office-reit-post-covid/",
       "permanent": true
     },
     {

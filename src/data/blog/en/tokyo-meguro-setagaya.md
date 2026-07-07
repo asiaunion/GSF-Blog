@@ -1,6 +1,6 @@
 ---
-title: "Where to Live in Tokyo — A Complete Guide to 23 Wards + Tama [Ep.03] Meguro, Setagaya"
-description: "The third part of the Tokyo 23 Wards series. We dive deep into property prices, rental yields, average income, and expatriate living conditions in Meguro and Setagaya."
+title: "Meguro & Setagaya Ward Tokyo: Living & Investment Guide [2026]"
+description: "Deep-dive into property prices, rental yields, and expatriate living in Meguro and Setagaya — Tokyo's premier family residential wards. Data-driven analysis for cross-border investors."
 pubDatetime: 2026-05-26T12:00:00Z
 modDatetime: 2026-06-07T09:57:10+09:00
 author: GSF

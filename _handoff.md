@@ -619,3 +619,9 @@
 - 배포 예정: Joseph 승인 후 main 일괄 merge + Vercel deploy (KO·EN과 동일)
 - 다음: main merge
 - SSOT: GSF-OS/AG_TASK_ark-trilingual-proofread-20260705.md / docs/proofread/PROOFREAD_REPORT_JA_20260705.md
+
+## [2026-07-07 23:25] AG 배포 준비 완료 (Cursor 대기)
+- 작업 내용: 23 Wards SEO 타이틀 정렬 (9개 포스트), 뉴스레터 CTA 배너 추가 (홈 상단, 포스트 하단 D-90 링크 보강)
+- 1차 검증: 로컬 `pnpm build` PASS
+- 상호 링크 검증: 로컬 소스 상에 `Footer.astro` 교차 링크 존재 확인 (라이브 미배포 상태)
+- 다음: Cursor 브랜치 대기 (UI 변경 및 AdSense 호환성 검증 후 배포)
