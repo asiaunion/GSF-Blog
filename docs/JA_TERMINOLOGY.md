@@ -36,19 +36,18 @@
 | 5 | `no-doubled-joshi` | ✅ (234건 → 0, 51파일 전수) |
 | 6 | `ja-no-redundant-expression` | ✅ (26건 → 0, 14파일) |
 | 7 | `ja-no-mixed-period` | ✅ (49건 → 0, 15파일) |
-| 8 | `no-mix-dearu-desumasu` | 대기 (블로그 톤 협의 — `preferInList`) |
+| 8 | `no-mix-dearu-desumasu` | ✅ (`preferInList`: ですます, 1건 → 0) |
 | 9 | `max-ten`, `sentence-length`, `max-kanji-continuous-len` | 대기 (완화 옵션 후) |
 
 **미활성:** `ja-no-weak-phrase`, `no-exclamation-question-mark` — Joseph 톤·인용문과 충돌.
 
 ## 다음 과제 (미결 — 2026-07-06 Joseph 보류)
 
-Wave 0–7 **완료·prod 반영** (`main` `736685b`). 아래는 **Joseph 지시 시** 순서대로 재개.
+Wave 0–8 **완료·prod 반영** (`main` merge f1f01c0). 아래는 **Joseph 지시 시** 순서대로 재개.
 
 | 순서 | Wave | 규칙 | 설문 건수 | 선행 조건 |
 |:---:|------|------|----------|-----------|
-| **1** | 8 | `no-mix-dearu-desumasu` | ~285 | Joseph: です/ます 톤·`preferInList` 협의 |
-| 2 | 9 | `max-ten` · `sentence-length` · `max-kanji-continuous-len` | ~17 · ~55 · TBD | Wave 8 PASS 후 · 완화 옵션 검토 |
+| **1** | 9 | `max-ten` · `sentence-length` · `max-kanji-continuous-len` | ~17 · ~55 · TBD | 완화 옵션 검토 |
 
 - 설문: `node scripts/survey-ja-textlint-rules.mjs`
 - 백로그 SSOT: [`WEEKLY_STATUS.md`](../WEEKLY_STATUS.md) §📌 미결 백로그
