@@ -28,7 +28,7 @@
 | 2 | JA textlint Wave 9 — `max-ten` · `sentence-length` · `max-kanji-continuous-len` | ~17 + ~55 + TBD · **완화 옵션** 검토 후 활성화 | AG → Cursor | 🔜 미착수 | `JA_TERMINOLOGY.md` Wave 9 |
 | 3 | EN Phase 2 전수 교정 | 50편 · codespell CI + LLM 배치 10×5 | AG → Cursor | 🔜 미착수 | `feat/proofread-en-batch-1` · `PROOFREAD_REPORT_EN_20260705.md` |
 | 4 | KO soft terminology 확정 | lint **103건** soft warning → Joseph 확정 후 hard 전환 여부 | Joseph | 🔜 미착수 | `docs/KO_TERMINOLOGY.md` |
-| 5 | 파비콘 Option 1 배포 | Aero Cut `277b666` | Joseph + Cursor | 🟡 브랜치 대기 | `ui/favicon-redesign` |
+| 5 | hero OG JPEG 42건 생성 및 참조 갱신 | 본문 무변경, ogImage 1줄 수정 | AG → Cursor | ✅ 완료 | `chore/hero-og-jpeg` |
 | — | textlint **의도적 미활성** | `ja-no-weak-phrase` · `no-exclamation-question-mark` — Joseph 톤 충돌 | — | ⏸ 보류 | `JA_TERMINOLOGY.md` |
 
 **Joseph 한 줄 재개:** `GSF-Ark JA textlint Wave 8 착수` (톤 협의 후) 또는 `EN Phase 2 착수`
