@@ -6,7 +6,7 @@ description: "Three angles on Japanese real estate for foreign investors: why To
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero-og.jpg"
 tags:
   - Japan Real Estate
   - Investment

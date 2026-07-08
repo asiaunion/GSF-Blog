@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/reading-korea-japan-markets-together-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/reading-korea-japan-markets-together-hero-og.jpg"
 tags:
   - 서울부동산
   - 도쿄부동산

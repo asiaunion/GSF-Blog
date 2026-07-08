@@ -7,7 +7,7 @@ draft: false
 lang: ko
 aiModel: "Gemini 3.1 Pro"
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/korea-resident-japan-property-capital-gains-tax-hero.jpg"
+ogImage: "https://gsfark.com/assets/images/blog/korea-resident-japan-property-capital-gains-tax-hero-og.jpg"
 tags:
   - "일본부동산"
   - "양도세"

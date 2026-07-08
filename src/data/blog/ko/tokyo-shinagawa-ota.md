@@ -8,7 +8,7 @@ draft: false
 lang: ko
 aiModel: "Gemini 3.1 Pro"
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinagawa-ota-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinagawa-ota-hero-og.jpg"
 tags:
   - "도쿄 23구"
   - "시나가와구"

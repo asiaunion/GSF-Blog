@@ -6,7 +6,7 @@ modDatetime: 2026-06-07T03:13:14+09:00
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-shinchiku-vs-chuko-mansion-investor-guide-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-shinchiku-vs-chuko-mansion-investor-guide-hero-og.jpg"
 tags:
   - New Mansion
   - Pre-owned Mansion

@@ -5,7 +5,7 @@ pubDatetime: 2026-05-30T08:00:00Z
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-shinchiku-vs-chuko-mansion-investor-guide-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-shinchiku-vs-chuko-mansion-investor-guide-hero-og.jpg"
 tags:
   - 新築マンション
   - 中古マンション

@@ -6,7 +6,7 @@ modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-rate-hike-cycle-j-reit-three-lessons-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-rate-hike-cycle-j-reit-three-lessons-hero-og.jpg"
 tags:
   - 금리
   - J-REIT

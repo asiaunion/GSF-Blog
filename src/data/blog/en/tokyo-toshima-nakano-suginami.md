@@ -8,7 +8,7 @@ draft: false
 lang: en
 aiModel: "Gemini 2.5 Pro"
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-toshima-nakano-suginami-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-toshima-nakano-suginami-hero-og.jpg"
 tags:
   - "Tokyo 23 Wards"
   - "Toshima"

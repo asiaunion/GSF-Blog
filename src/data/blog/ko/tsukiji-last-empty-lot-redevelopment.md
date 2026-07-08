@@ -7,7 +7,7 @@ draft: false
 lang: ko
 category: local
 aiModel: "Claude Sonnet 4.6"
-ogImage: "https://gsfark.com/assets/images/blog/tsukiji-last-empty-lot-redevelopment-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tsukiji-last-empty-lot-redevelopment-hero-og.jpg"
 tags:
   - 쓰키지
   - 도쿄재개발

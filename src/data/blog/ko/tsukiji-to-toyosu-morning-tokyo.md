@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T12:56:19+09:00
 author: GSF
 lang: ko
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/tsukiji-to-toyosu-morning-tokyo-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tsukiji-to-toyosu-morning-tokyo-hero-og.jpg"
 tags:
   - 도쿄여행
   - 쓰키지시장

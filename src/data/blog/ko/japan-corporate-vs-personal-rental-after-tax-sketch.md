@@ -6,7 +6,7 @@ modDatetime: 2026-06-07T03:13:14+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-corporate-vs-personal-rental-after-tax-sketch-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-corporate-vs-personal-rental-after-tax-sketch-hero-og.jpg"
 tags:
   - 일본부동산
   - 세금

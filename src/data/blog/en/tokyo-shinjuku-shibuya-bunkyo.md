@@ -7,7 +7,7 @@ author: GSF
 draft: false
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinjuku-shibuya-bunkyo-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinjuku-shibuya-bunkyo-hero-og.jpg"
 tags:
   - Tokyo
   - Shinjuku

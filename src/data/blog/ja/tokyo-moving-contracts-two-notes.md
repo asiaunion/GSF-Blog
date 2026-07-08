@@ -6,7 +6,7 @@ modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: ja
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-moving-contracts-two-notes-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-moving-contracts-two-notes-hero-og.jpg"
 tags:
   - 東京生活
   - 賃貸借契約

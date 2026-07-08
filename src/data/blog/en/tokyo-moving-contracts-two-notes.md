@@ -6,7 +6,7 @@ modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: en
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-moving-contracts-two-notes-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-moving-contracts-two-notes-hero-og.jpg"
 tags:
   - LivingInTokyo
   - JapanRentalContracts

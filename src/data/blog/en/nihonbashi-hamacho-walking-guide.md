@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T12:37:12+09:00
 author: GSF
 lang: en
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-hamacho-walking-guide-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-hamacho-walking-guide-hero-og.jpg"
 tags:
   - TokyoTravel
   - Nihonbashi

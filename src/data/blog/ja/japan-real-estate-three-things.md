@@ -6,7 +6,7 @@ description: "30年のデフレを抜けて上昇サイクルに入った東京�
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero-og.jpg"
 tags:
   - 日本不動産
   - 投資

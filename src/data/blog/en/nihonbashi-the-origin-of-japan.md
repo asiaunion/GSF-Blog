@@ -6,7 +6,7 @@ description: "Moving to Nihonbashi, the center of Japan and home to the Kilometr
 author: GSF
 lang: en
 category: essay
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-the-origin-of-japan-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-the-origin-of-japan-hero-og.jpg"
 tags:
   - Essay
   - Nihonbashi

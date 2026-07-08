@@ -6,7 +6,7 @@ modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: ko
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-moving-contracts-two-notes-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-moving-contracts-two-notes-hero-og.jpg"
 tags:
   - 도쿄생활
   - 일본임대차계약

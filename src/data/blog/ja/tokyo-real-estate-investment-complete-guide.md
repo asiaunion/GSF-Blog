@@ -6,7 +6,7 @@ modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-real-estate-investment-complete-guide-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-real-estate-investment-complete-guide-hero-og.jpg"
 featured: true
 tags:
   - 東京不動産

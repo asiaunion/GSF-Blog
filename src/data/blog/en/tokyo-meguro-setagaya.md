@@ -7,7 +7,7 @@ author: GSF
 draft: false
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-meguro-setagaya-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-meguro-setagaya-hero-og.jpg"
 tags:
   - Tokyo
   - Meguro

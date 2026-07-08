@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T12:41:28+09:00
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/three-things-when-fx-shakes-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/three-things-when-fx-shakes-hero-og.jpg"
 tags:
   - 日本不動産
   - 円安戦略

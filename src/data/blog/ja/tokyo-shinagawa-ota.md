@@ -8,7 +8,7 @@ draft: false
 lang: ja
 aiModel: "Gemini 3.1 Pro"
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinagawa-ota-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-shinagawa-ota-hero-og.jpg"
 tags:
   - "東京23区"
   - "品川区"

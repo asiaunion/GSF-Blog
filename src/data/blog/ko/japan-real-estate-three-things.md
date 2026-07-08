@@ -6,7 +6,7 @@ description: "30년 디플레이션을 벗어나 상승 사이클에 진입한 �
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/japan-real-estate-three-things-hero-og.jpg"
 tags:
   - 일본부동산
   - 투자

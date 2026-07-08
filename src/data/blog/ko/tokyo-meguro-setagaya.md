@@ -7,7 +7,7 @@ author: GSF
 draft: false
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-meguro-setagaya-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-meguro-setagaya-hero-og.jpg"
 tags:
   - 도쿄
   - 메구로구
