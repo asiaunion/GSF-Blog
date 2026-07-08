@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T12:40:46+09:00
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/weak-yen-korean-japan-asset-allocation-fx-scenarios-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/weak-yen-korean-japan-asset-allocation-fx-scenarios-hero-og.jpg"
 tags:
   - 円
   - 為替

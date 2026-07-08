@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: essay
-ogImage: "https://gsfark.com/assets/images/blog/why-warm-investing-holds-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/why-warm-investing-holds-hero-og.jpg"
 tags:
   - InvestmentPhilosophy
   - RiskManagement
