@@ -6,7 +6,7 @@ modDatetime: 2026-06-07T03:13:14+09:00
 author: GSF
 lang: en
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/ginza-weekend-walking-guide-hero-og.jpg"
 tags:
   - TokyoStroll
   - GinzaSix

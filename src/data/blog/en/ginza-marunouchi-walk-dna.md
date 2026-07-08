@@ -6,7 +6,7 @@ modDatetime: 2026-06-04T23:11:23+09:00
 author: GSF
 lang: en
 category: local
-ogImage: "https://gsfark.com/assets/images/blog/ginza-marunouchi-walk-dna-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/ginza-marunouchi-walk-dna-hero-og.jpg"
 tags:
   - TokyoTravel
   - Ginza
