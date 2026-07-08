@@ -9,7 +9,7 @@
       "max-ten": false,
       "max-kanji-continuous-len": false,
       "arabic-kanji-numbers": true,
-      "no-mix-dearu-desumasu": false,
+      "no-mix-dearu-desumasu": { "preferInList": "ですます" },
       "ja-no-mixed-period": true,
       "no-double-negative-ja": true,
       "no-dropping-the-ra": true,
