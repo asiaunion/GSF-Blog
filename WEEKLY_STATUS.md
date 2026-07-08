@@ -6,13 +6,13 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-07-06 |
+| 최종 업데이트 | 2026-07-08 |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 JA textlint Wave 0–7 prod 반영 (`736685b`) · KO 50/50 ✅ · AdSense **7/2** 재제출 결과 대기 |
+| 상태 | 🟢 JA textlint Wave 0–9 ✅ · KO soft 103 ✅ · hero OG 51슬러그 prod 배포·LinkedIn 렌더 확인 ✅ (`dc05f3e`) · AdSense **7/2** 재제출 결과 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | **미결 백로그** — 아래 §📌 참조 (Joseph `Wave 8 착수` 지시 시 재개) |
-| 다음 체크포인트 | **① JA textlint Wave 8** (톤 협의) → **② EN Phase 2** → AdSense 결과 / Plan B 7/10~15 |
-| 블로커 | 없음 (Wave 8은 Joseph 톤·`preferInList` 결정 선행 권장) |
+| 이번 주 최우선 액션 | GSC 재크롤링·색인 요청 + 유입 4트랙 (교정·에셋 프로그램 전체 종결) |
+| 다음 체크포인트 | AdSense 결과 / Plan B 7/10~15 / batch-validate 잔여 4건(스코프 외 콘텐츠 게이트) |
+| 블로커 | 없음 |
 
 ---
 
