@@ -6,7 +6,7 @@ description: "도쿄도의 지역 지진 위험 측정 조사를 바탕으로, �
 author: GSF
 lang: ko
 category: safety
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-earthquake-vulnerable-five-areas-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-earthquake-vulnerable-five-areas-hero-og.jpg"
 tags:
   - 지진
   - 도쿄

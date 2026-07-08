@@ -6,7 +6,7 @@ description: "Compare Daikanyama, Jiyugaoka, Omotesando, Ginza, and Shibuya alon
 author: GSF
 lang: en
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-five-sophisticated-spots-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-five-sophisticated-spots-hero-og.jpg"
 tags:
   - Tokyo
   - Travel

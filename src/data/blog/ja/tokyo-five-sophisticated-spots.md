@@ -6,7 +6,7 @@ description: "代官山・自由が丘・表参道・銀座・渋谷の5エリ�
 author: GSF
 lang: ja
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-five-sophisticated-spots-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-five-sophisticated-spots-hero-og.jpg"
 tags:
   - 東京
   - 旅行

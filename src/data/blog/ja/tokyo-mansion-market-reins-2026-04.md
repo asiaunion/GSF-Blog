@@ -5,7 +5,7 @@ pubDatetime: 2026-06-10T09:00:00Z
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-mansion-market-reins-2026-04-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-mansion-market-reins-2026-04-hero-og.jpg"
 tags:
   - 東京
   - 不動産

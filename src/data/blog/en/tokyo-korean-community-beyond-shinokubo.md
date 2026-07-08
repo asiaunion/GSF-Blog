@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T12:37:12+09:00
 author: GSF
 lang: en
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-korean-community-beyond-shinokubo-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-korean-community-beyond-shinokubo-hero-og.jpg"
 tags:
   - LivingInTokyo
   - KoreanCommunity

@@ -6,7 +6,7 @@ modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-buying-process-step-by-step-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-buying-process-step-by-step-hero-og.jpg"
 tags:
   - 도쿄부동산
   - 구매절차

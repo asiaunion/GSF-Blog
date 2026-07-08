@@ -6,7 +6,7 @@ modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-buying-process-step-by-step-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-buying-process-step-by-step-hero-og.jpg"
 tags:
   - 東京不動産
   - 購入手続き

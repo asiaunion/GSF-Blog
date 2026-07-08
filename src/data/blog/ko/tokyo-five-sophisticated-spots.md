@@ -6,7 +6,7 @@ description: "다이칸야마·지유가오카·오모테산도·긴자·시부�
 author: GSF
 lang: ko
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-five-sophisticated-spots-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-five-sophisticated-spots-hero-og.jpg"
 tags:
   - 도쿄
   - 여행
