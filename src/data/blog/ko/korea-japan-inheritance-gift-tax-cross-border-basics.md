@@ -6,7 +6,7 @@ modDatetime: 2026-06-07T03:13:14+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/korea-japan-inheritance-gift-tax-cross-border-basics-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/korea-japan-inheritance-gift-tax-cross-border-basics-hero-og.jpg"
 tags:
   - 일본부동산
   - 상속세

@@ -6,7 +6,7 @@ description: "日本の中心点、道路元標がある日本橋へ新たに引
 author: GSF
 lang: ja
 category: essay
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-the-origin-of-japan-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-the-origin-of-japan-hero-og.jpg"
 tags:
   - エッセイ
   - 日本橋

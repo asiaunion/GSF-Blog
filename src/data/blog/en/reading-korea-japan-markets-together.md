@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: en
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/reading-korea-japan-markets-together-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/reading-korea-japan-markets-together-hero-og.jpg"
 tags:
   - Seoul Real Estate
   - Tokyo Real Estate

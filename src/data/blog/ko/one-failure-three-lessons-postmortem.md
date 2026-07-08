@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T13:16:15+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/one-failure-three-lessons-postmortem-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/one-failure-three-lessons-postmortem-hero-og.jpg"
 tags:
   - 일본부동산
   - 투자실패

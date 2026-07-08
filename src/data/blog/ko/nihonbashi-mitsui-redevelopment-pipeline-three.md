@@ -6,7 +6,7 @@ modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-mitsui-redevelopment-pipeline-three-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-mitsui-redevelopment-pipeline-three-hero-og.jpg"
 tags:
   - 니혼바시
   - 미쓰이
