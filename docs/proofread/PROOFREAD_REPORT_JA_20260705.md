@@ -204,3 +204,37 @@
 | 파일명 | 줄 | Before → After | 확신도 |
 | :--- | :--- | :--- | :--- |
 | `why-warm-investing-holds.md` | 46 | `続く構造であるか。` → `続く構造ですか。` | 100% |
+
+---
+
+## Wave 9 — max-ten · sentence-length 활성화 (Claude, 2026-07-08)
+
+- **활성화**: `max-ten: { max: 4 }` · `sentence-length: { max: 120 }` (Joseph 확정 2026-07-08)
+- **의도적 미활성 확정**: `max-kanji-continuous-len` — 모든 임계값(6/8/10)에서 잔여 위반 전건이 정당한 전문용어·고유명사(重要事項説明書, 国税庁民間給与実態統計調査 등)로 오탐. `ja-no-weak-phrase` 등과 동일하게 미활성 목록 편입
+- **수정 전 위반**: max-ten 3건(2파일) + sentence-length 15건(9파일) = 18건
+- **수정 후 위반**: 0건
+- **수정 방침**: 조사 치환·문장 분할·중黒 나열만 / 의미·URL·각주·수치 변경 금지
+- **인프라**: `textlint-filter-rule-comments` devDep 추가 + `.textlintrc.json` `filters.comments` 활성화 — 인용문 블록 예외 처리용
+- **최종 검증**: `pnpm lint:ja-textlint` ✅ 0 problems / `pnpm build` ✅ PASS
+
+### 수정 내역 (Wave 9)
+
+| 파일명 | 규칙 | 수정 내용 |
+| :--- | :--- | :--- |
+| `buying-property-japan-surprises-foreign-investor.md` | max-ten | L230 문학적 행갈이 연용형 읽점 1개 제거 |
+| `buying-property-japan-checklist-before-you-commit.md` | max-ten | L144·L216 열거문 2건 문장 분할 |
+| `tokyo-meguro-setagaya.md` | sentence-length | L48·L130·L216 3건 문장 분할 |
+| `tokyo-6-wards-real-estate-insight.md` | sentence-length | L38 각주 문장 분할, L40 볼드 단락 문장별 분리(。볼드 밖) |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | sentence-length | L37 이탤릭 인트로 문장별 분리, L43 프로젝트 설명 분할+中黒 나열 |
+| `nihonbashi-hamacho-walking-guide.md` | sentence-length | L40 이탤릭 인트로 문장별 분리(링크 2개 분리) |
+| `japan-rate-hike-cycle-j-reit-three-lessons.md` | sentence-length | L70 BOJ 사이클·JGB 문장 2건 분할 |
+| `hotel-reit-vs-office-reit-post-covid.md` | sentence-length | L92 (a)(b)/(c) 분할 |
+| `ginza-weekend-walking-guide.md` | sentence-length | L77·L79 2건 문장 분할 |
+| `coredo-nihonbashi-mitsui-redevelopment.md` | sentence-length | L29 이탤릭 인트로 문장별 분리, L43 연혁 문장 분할 |
+| `j-reit-five-things-to-know.md` | sentence-length | L199 인용문(「」4문장, 215자) — 재작성 금지 원칙에 따라 textlint-disable 주석 예외 처리 |
+
+### 기술 노트 (재발 참고)
+
+- textlint sentence-length는 **이탤릭/볼드 전체 단락을 한 문장으로 계산** — 문장 단위로 `*…*。` 분리하면 해결
+- `<sup>` 각주 HTML 원문·마크다운 기호도 문자수에 포함됨
+- 「」 인용문은 내부 。로 분할되지 않음 — 인용문 초과분은 filter-rule-comments로 예외 처리

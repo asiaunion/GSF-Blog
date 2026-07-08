@@ -2,11 +2,14 @@
   "plugins": {
     "@textlint/markdown": true
   },
+  "filters": {
+    "comments": true
+  },
   "rules": {
     "preset-ja-technical-writing": {
-      "sentence-length": false,
+      "sentence-length": { "max": 120 },
       "max-comma": true,
-      "max-ten": false,
+      "max-ten": { "max": 4 },
       "max-kanji-continuous-len": false,
       "arabic-kanji-numbers": true,
       "no-mix-dearu-desumasu": { "preferInList": "ですます" },
