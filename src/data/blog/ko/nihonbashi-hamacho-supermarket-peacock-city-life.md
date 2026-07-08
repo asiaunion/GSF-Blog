@@ -6,7 +6,7 @@ modDatetime: 2026-06-15T22:42:21+09:00
 author: GSF
 lang: ko
 category: life
-ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-hamacho-supermarket-peacock-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/nihonbashi-hamacho-supermarket-peacock-city-life-hero-og.jpg"
 tags:
   - 도쿄생활
   - 니혼바시

@@ -7,7 +7,7 @@ author: GSF
 draft: false
 lang: ja
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-core-3-wards-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-core-3-wards-chiyoda-chuo-minato-hero-og.jpg"
 tags:
   - 東京
   - 千代田区
