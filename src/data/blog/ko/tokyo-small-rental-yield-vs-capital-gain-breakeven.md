@@ -6,7 +6,7 @@ modDatetime: 2026-05-26T22:22:38+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-small-rental-yield-vs-capital-gain-breakeven-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-small-rental-yield-vs-capital-gain-breakeven-hero-og.jpg"
 tags:
   - 임대수익률
   - 시세차익

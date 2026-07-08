@@ -8,7 +8,7 @@ draft: false
 lang: ko
 aiModel: "Gemini 2.5 Pro"
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-toshima-nakano-suginami-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-toshima-nakano-suginami-hero-og.jpg"
 tags:
   - "도쿄 23구"
   - "도시마구"

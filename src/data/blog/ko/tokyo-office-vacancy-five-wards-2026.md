@@ -6,7 +6,7 @@ modDatetime: 2026-05-27T01:05:01+09:00
 author: GSF
 lang: ko
 category: investment
-ogImage: "https://gsfark.com/assets/images/blog/tokyo-office-vacancy-five-wards-2026-hero.webp"
+ogImage: "https://gsfark.com/assets/images/blog/tokyo-office-vacancy-five-wards-2026-hero-og.jpg"
 tags:
   - 도쿄
   - 오피스
