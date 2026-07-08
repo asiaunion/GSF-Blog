@@ -164,3 +164,14 @@
 | `weak-yen-korean-japan-asset-allocation-fx-scenarios.md` | 다수 | 이스케이프 물결 | ~ | 마크다운 이스케이프 정리 | 100% |
 | `why-warm-investing-holds.md` | 79 | 2022\~2023 | 2022~2023 | 이스케이프 물결 제거 | 100% |
 | `why-i-chose-nihonbashi.md` | 46 | 치요다구 | 지요다구 | 지요다 표기 표준화 | 95% |
+
+## AG Soft Triage Wave (Phase A·B 확정) - 2026-07-08
+
+| 파일명 | 줄 번호 | Before | After | 사유 | 확신도 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `nihonbashi-hamacho-supermarket-peacock-city-life.md` | 다수 | 고토구 | 코토구 | AG 반려 이력 유지 | 100% |
+| `ginza-marunouchi-walk-dna.md` | 다수 | 츠키지 | 쓰키지 | 외래어 표기 표준화 | 100% |
+| `nihonbashi-mitsui-redevelopment-pipeline-three.md` | 다수 | 카부토초 | 가부토초 | 외래어 표기법 표준화 | 100% |
+| `tokyo-6-wards-real-estate-insight.md` | 다수 | Kantei | 도쿄 칸테이 | 고유명사 한글화 (본문 서술) | 100% |
+| 다수 (16건) | 다수 | 지요다 | 치요다 | 다수 관행 및 통용 표기 채택 | 100% |
+| `tokyo-taito-sumida-koto.md` | 다수 | 간취리 | 방 구성 | 기계 오역 방지 (표 헤더) | 100% |

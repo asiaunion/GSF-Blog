@@ -109,5 +109,5 @@ citeSources:
 ## 함께 읽을 시리즈
 
 - [도쿄 5구 오피스 공실률 2%대 진입 분석](/ko/posts/tokyo-office-vacancy-five-wards-2026/)
-- [츠키지와 토요스: 도쿄의 아침을 여는 두 심장](/ko/posts/tsukiji-to-toyosu-morning-tokyo/)
+- [쓰키지와 토요스: 도쿄의 아침을 여는 두 심장](/ko/posts/tsukiji-to-toyosu-morning-tokyo/)
 - [도쿄에서 집 구하기: 임대차 계약의 핵심](/ko/posts/tokyo-moving-contracts-two-notes/)

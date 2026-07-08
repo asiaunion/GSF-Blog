@@ -628,3 +628,10 @@
 
 ## [2026-07-08 00:20 JST] [AG] [GSF-Ark]
 - 작업 내용: `index.astro`에서 `NewsletterBanner` import 및 렌더링 코드 제거
+
+## [2026-07-08 13:23] AG Soft Triage 완료 (A/B/R 그룹 확정)
+- 작업 내용: KO Soft Triage A/B 그룹 26건 치환 및 R그룹 lint 규칙 2건 수정 완료. (0 soft warnings 확인)
+- 대상 파일: src/data/blog/ko/ 내 13파일 및 docs/KO_TERMINOLOGY.md, PROOFREAD_REPORT_KO_20260705.md
+- 커밋 내용: 1커밋으로 처리 (modDatetime 유지)
+- 린트 상태: `pnpm lint:language` 0건 경고 확인, 빌드 PASS
+- 다음 단계: Cursor가 내용 확인 후 main merge 요망.
