@@ -62,7 +62,7 @@ When considering relocating to Tokyo, I, too, initially thought of Hachioji and 
 
 Hachioji is one of the largest municipalities in Tokyo. When transactions from much wider suburban residential areas are mixed into the average, the city-wide figure appears significantly lower than the actual central hubs.
 
-Is Western Tama really cheap everywhere? Contrasting the actual transaction prices at the neighborhood (cho-mei) level completely changed my mind. Hachioji's low average is merely the result of cheaper suburban neighborhoods scattered across a massive area dragging the number down. The prices around the central stations are anything but light.
+Is Western Tama really cheap everywhere? Contrasting the actual transaction prices at the neighborhood (cho-mei) level completely changed my mind. Hachioji's low average is merely the result of cheaper suburban neighborhoods scattered across a massive area dragging the number down. The prices around the central stations are anything but cheap.
 
 That's why this post focuses on uncovering the **average trap** hidden by massive city limits, highlighting the **dual structure** between station hubs and the deep outskirts.
 
