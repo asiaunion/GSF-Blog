@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tsukiji-last-empty-lot-redevelopment
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/tsukiji-last-empty-lot-redevelopment/
+- 제목: 쓰키지, 도쿄의 마지막 공터가 바뀌고 있다
+- 카테고리: local
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #도쿄생활 #도쿄재개발 #쓰키지
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tsukiji-last-empty-lot-redevelopment-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 쓰키지, 도쿄의 마지막 공터가 바뀌고 있다
+5. 카테고리 선택 후 발행

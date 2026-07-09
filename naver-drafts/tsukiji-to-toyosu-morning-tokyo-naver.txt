@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tsukiji-to-toyosu-morning-tokyo
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/tsukiji-to-toyosu-morning-tokyo/
+- 제목: 도쿄의 아침을 여는 두 개의 심장: 쓰키지와 도요스, 2026년의 변화
+- 카테고리: local
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #도요스시장 #도쿄여행 #쓰키지시장
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tsukiji-to-toyosu-morning-tokyo-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 도쿄의 아침을 여는 두 개의 심장: 쓰키지와 도요스, 2026년의 변화
+5. 카테고리 선택 후 발행

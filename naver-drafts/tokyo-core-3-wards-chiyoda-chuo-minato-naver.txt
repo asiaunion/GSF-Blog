@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-core-3-wards-chiyoda-chuo-minato
+
+- 생성일시: 2026-07-09 12:51 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/
+- 제목: 추오·치요다·미나토구: 도쿄 도심 3구 프리미엄 투자 데이터 [2026]
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #도쿄 #맨션 #미나토구
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-core-3-wards-chiyoda-chuo-minato-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 추오·치요다·미나토구: 도쿄 도심 3구 프리미엄 투자 데이터 [2026]
+5. 카테고리 선택 후 발행

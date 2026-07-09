@@ -1,0 +1,234 @@
+{
+  "ok": true,
+  "slug": "tokyo-hachioji-hino-akishima",
+  "episode": "Ep.11",
+  "manifest": "/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/docs/verification/manifests/ep11-tokyo-hachioji-hino-akishima.manifest.json",
+  "failed": 0,
+  "passed": 30,
+  "total": 30,
+  "hallucination_score": {
+    "failed_primary_claims": 0,
+    "total_primary_claims": 12,
+    "score": 0,
+    "ok": true
+  },
+  "results": [
+    {
+      "type": "claim",
+      "id": "MLIT-hachioji-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-hachioji-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-hachioji-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-hachioji-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-hachioji-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-hachioji-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-hachioji-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-hachioji-1R",
+      "tier": "secondary",
+      "method": "user_capture",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-hachioji-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-hino-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-hino-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-hino-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-hino-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-hino-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-hino-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-hino-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-hino-1R",
+      "tier": "secondary",
+      "method": "user_capture",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-hino-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "claim",
+      "id": "MLIT-akishima-70",
+      "tier": "primary",
+      "method": "json_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "SUUMO-akishima-1R",
+      "tier": "secondary",
+      "method": "suumo_snapshot",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "STATION-akishima-TOP",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "POP-akishima-2040",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TIMESERIES-akishima-CAGR",
+      "tier": "primary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "TRADE-akishima-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "LANDTS-akishima-CAGR10",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "YIELD-akishima-1R",
+      "tier": "secondary",
+      "method": "user_capture",
+      "ok": true
+    },
+    {
+      "type": "claim",
+      "id": "DISASTER-akishima-SUM",
+      "tier": "secondary",
+      "method": "benchmark_lookup",
+      "ok": true,
+      "reason": "benchmark node present (non-numeric claim)"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-hachioji-VS-CHUO",
+      "ok": true,
+      "computed": 20.92766427388183,
+      "expected": 20.9,
+      "formula": "2653 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-hino-VS-CHUO",
+      "ok": true,
+      "computed": 23.578133627829928,
+      "expected": 23.6,
+      "formula": "2989 / 12677 * 100"
+    },
+    {
+      "type": "arithmetic",
+      "id": "PCT-akishima-VS-CHUO",
+      "ok": true,
+      "computed": 22.69464384318056,
+      "expected": 22.7,
+      "formula": "2877 / 12677 * 100"
+    }
+  ],
+  "written_at": "2026-07-09T12:02:04.495Z"
+}

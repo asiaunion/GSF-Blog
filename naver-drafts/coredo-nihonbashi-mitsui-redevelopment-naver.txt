@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: coredo-nihonbashi-mitsui-redevelopment
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/coredo-nihonbashi-mitsui-redevelopment/
+- 제목: 코레도 니혼바시·무로마치가 잇는 것: 미쓰이 그룹과 니혼바시 재생의 ‘다리’
+- 카테고리: local
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. coredo-nihonbashi-mitsui-redevelopment-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 코레도 니혼바시·무로마치가 잇는 것: 미쓰이 그룹과 니혼바시 재생의 ‘다리’
+5. 카테고리 선택 후 발행

@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: nihonbashi-hamacho-supermarket-peacock-city-life
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/nihonbashi-hamacho-supermarket-peacock-city-life/
+- 제목: 도심 한복판에 마트가? — 니혼바시 하마초 피코크의 반전
+- 카테고리: life
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #日本橋 #니혼바시 #니혼바시하마초
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. nihonbashi-hamacho-supermarket-peacock-city-life-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 도심 한복판에 마트가? — 니혼바시 하마초 피코크의 반전
+5. 카테고리 선택 후 발행

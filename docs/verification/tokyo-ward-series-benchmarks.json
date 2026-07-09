@@ -1,6 +1,6 @@
 {
   "schema_version": "1.3",
-  "last_updated": "2026-06-27",
+  "last_updated": "2026-07-09",
   "description": "Where to Live in Tokyo 시리즈 Ep.01~Ep.23 공통 비교 수치 SSOT. 에피소드 간 비교·역引用 시 재리서치 금지 — 이 파일에서 lookup.",
   "data_tiers": {
     "A": "MLIT JSON / PKM verified card — scripts/verify-episode-manifest.mjs 자동 검증",
@@ -220,6 +220,34 @@
         "count": 209,
         "episode": "Ep.10",
         "fetched_at": "2026-06-27"
+      },
+      "八王子市": {
+        "ward_avg_sqm": 37.9,
+        "est_70sqm": 2653,
+        "count": 554,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "ward_avg_sqm": 42.7,
+        "est_70sqm": 2989,
+        "count": 162,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "ward_avg_sqm": 31,
+        "est_70sqm": 2170,
+        "count": 2,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "ward_avg_sqm": 41.1,
+        "est_70sqm": 2877,
+        "count": 131,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -657,10 +685,76 @@
         "fetched_at": "2026-06-27"
       },
       "立川市": {
-        "1R": 8.0,
+        "1R": 8,
         "snapshot_file": "docs/verification/snapshots/suumo-sc_tachikawa-20260626.html",
         "episode": "Ep.10",
         "fetched_at": "2026-06-27"
+      },
+      "八王子市": {
+        "1R": 7,
+        "1K": 7.9,
+        "1DK": 9.5,
+        "1LDK": 12,
+        "2LDK": 14,
+        "3K": 12.7,
+        "3LDK": 22.1,
+        "4K": 14.1,
+        "4DK": 16.7,
+        "snapshot_date": "2026-07-09",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_hachioji-20260709.html",
+        "episode": "Ep.11",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、八王子市（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、7.0万円（ワンルーム）～22.1万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "日野市": {
+        "1R": 7.6,
+        "1K": 7.7,
+        "1DK": 8.9,
+        "2K": 9.7,
+        "2DK": 11.2,
+        "2LDK": 14,
+        "3K": 11.4,
+        "3DK": 13.9,
+        "3LDK": 20.3,
+        "4K": 14.1,
+        "4DK": 18.4,
+        "4LDK": 21.6,
+        "snapshot_date": "2026-07-09",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_hino-20260709.html",
+        "episode": "Ep.11",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、日野市（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、7.6万円（ワンルーム）～21.6万円（4LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "西東京市": {
+        "1R": 8,
+        "1K": 8.1,
+        "1DK": 9.2,
+        "1LDK": 11.3,
+        "2K": 11.1,
+        "2DK": 14.7,
+        "2LDK": 14.8,
+        "3K": 16.2,
+        "3DK": 16.2,
+        "3LDK": 25,
+        "4K": 16.4,
+        "4DK": 21,
+        "snapshot_date": "2026-07-09",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_nishitokyo-20260709.html",
+        "episode": "Ep.11",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、西東京市（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、8.0万円（ワンルーム）～25.0万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
+      },
+      "昭島市": {
+        "1R": 7.1,
+        "1LDK": 11.8,
+        "2K": 10,
+        "2LDK": 12.9,
+        "3K": 12.8,
+        "3DK": 12.5,
+        "3LDK": 24.2,
+        "4K": 13,
+        "4DK": 17.6,
+        "snapshot_date": "2026-07-09",
+        "snapshot_file": "docs/verification/snapshots/suumo-sc_akishima-20260709.html",
+        "episode": "Ep.11",
+        "pagecaption": "新築かつ駅から徒歩1分～5分以内という条件で、昭島市（東京都）周辺の賃貸マンション家賃相場・賃料相場の目安を算出すると、7.1万円（ワンルーム）～24.2万円（3LDK）です。間取りごとの相場金額は次の通りとなります。ご希望の予算・間取りから、ぴったりの住まいが見つかるかご確認ください。"
       }
     }
   },
@@ -1010,6 +1104,38 @@
         "station_count": 13,
         "episode": "Ep.10",
         "fetched_at": "2026-06-27"
+      },
+      "八王子市": {
+        "top_station": "八王子",
+        "top_passengers": 151038,
+        "total_daily": 600610,
+        "station_count": 22,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "top_station": "高幡不動",
+        "top_passengers": 71844,
+        "total_daily": 235244,
+        "station_count": 10,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "top_station": "ひばりヶ丘",
+        "top_passengers": 66846,
+        "total_daily": 225796,
+        "station_count": 5,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "top_station": "拝島",
+        "top_passengers": 88356,
+        "total_daily": 169762,
+        "station_count": 4,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -1198,6 +1324,34 @@
         "point_count": 76,
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "avg_yen_sqm": 179664.5,
+        "avg_change_pct": null,
+        "point_count": 241,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "avg_yen_sqm": 249554.1,
+        "avg_change_pct": null,
+        "point_count": 75,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "avg_yen_sqm": 347272.7,
+        "avg_change_pct": null,
+        "point_count": 56,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "avg_yen_sqm": 212587,
+        "avg_change_pct": null,
+        "point_count": 46,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -1481,6 +1635,46 @@
         "mesh_coverage_warning": false,
         "episode": "Ep.10",
         "fetched_at": "2026-06-27"
+      },
+      "八王子市": {
+        "pop_2020": 726561,
+        "pop_2040": 695394,
+        "change_pct": "-4.3%",
+        "mesh_count": 2030,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "pop_2020": 279211,
+        "pop_2040": 276679,
+        "change_pct": "-0.9%",
+        "mesh_count": 562,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "pop_2020": 262213,
+        "pop_2040": 270547,
+        "change_pct": "3.2%",
+        "mesh_count": 315,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "pop_2020": 190210,
+        "pop_2040": 184337,
+        "change_pct": "-3.1%",
+        "mesh_count": 358,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -1747,6 +1941,46 @@
         "summary": "liquefaction, flood, landslide",
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -2844,6 +3078,138 @@
         "blog_primary": true,
         "footnote_required": false,
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "series": {
+          "2021": 29.9,
+          "2022": 35.8,
+          "2023": 36.8,
+          "2024": 37.7,
+          "2025": 37.9
+        },
+        "counts": {
+          "2021": 516,
+          "2022": 442,
+          "2023": 449,
+          "2024": 424,
+          "2025": 554
+        },
+        "est_70sqm": {
+          "2021": 2093,
+          "2022": 2506,
+          "2023": 2576,
+          "2024": 2639,
+          "2025": 2653
+        },
+        "yoy_pct": {
+          "2022": 19.7,
+          "2023": 2.8,
+          "2024": 2.4,
+          "2025": 0.5
+        },
+        "cagr_full": 6.1,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "series": {
+          "2021": 33.7,
+          "2022": 33.9,
+          "2023": 37.9,
+          "2024": 38.2,
+          "2025": 42.7
+        },
+        "counts": {
+          "2021": 131,
+          "2022": 125,
+          "2023": 142,
+          "2024": 126,
+          "2025": 162
+        },
+        "est_70sqm": {
+          "2021": 2359,
+          "2022": 2373,
+          "2023": 2653,
+          "2024": 2674,
+          "2025": 2989
+        },
+        "yoy_pct": {
+          "2022": 0.6,
+          "2023": 11.8,
+          "2024": 0.8,
+          "2025": 11.8
+        },
+        "cagr_full": 6.1,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "series": {
+          "2022": 27.6,
+          "2024": 27.7,
+          "2025": 31
+        },
+        "counts": {
+          "2022": 3,
+          "2024": 1,
+          "2025": 2
+        },
+        "est_70sqm": {
+          "2022": 1932,
+          "2024": 1939,
+          "2025": 2170
+        },
+        "yoy_pct": {
+          "2024": 0.4,
+          "2025": 11.9
+        },
+        "cagr_full": 3.9,
+        "cagr_5y": null,
+        "cagr_span_years": 3,
+        "blog_primary": false,
+        "footnote_required": false,
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "series": {
+          "2021": 33.6,
+          "2022": 36,
+          "2023": 36,
+          "2024": 37.7,
+          "2025": 41.1
+        },
+        "counts": {
+          "2021": 78,
+          "2022": 60,
+          "2023": 52,
+          "2024": 95,
+          "2025": 131
+        },
+        "est_70sqm": {
+          "2021": 2352,
+          "2022": 2520,
+          "2023": 2520,
+          "2024": 2639,
+          "2025": 2877
+        },
+        "yoy_pct": {
+          "2022": 7.1,
+          "2023": 0,
+          "2024": 4.7,
+          "2025": 9
+        },
+        "cagr_full": 5.2,
+        "cagr_5y": null,
+        "cagr_span_years": 4,
+        "blog_primary": true,
+        "footnote_required": false,
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -4543,6 +4909,216 @@
         ],
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "top_districts": [
+          {
+            "name": "別所",
+            "count": 42,
+            "avg_sqm": 36.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南大沢",
+            "count": 34,
+            "avg_sqm": 31.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大和田町",
+            "count": 30,
+            "avg_sqm": 36.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八日町",
+            "count": 29,
+            "avg_sqm": 60.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "明神町",
+            "count": 28,
+            "avg_sqm": 36.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "子安町",
+            "count": 24,
+            "avg_sqm": 68.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "椚田町",
+            "count": 19,
+            "avg_sqm": 26.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "松木",
+            "count": 19,
+            "avg_sqm": 36.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "散田町",
+            "count": 18,
+            "avg_sqm": 27.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "八幡町",
+            "count": 15,
+            "avg_sqm": 35.3,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "top_districts": [
+          {
+            "name": "多摩平",
+            "count": 34,
+            "avg_sqm": 59.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "旭が丘",
+            "count": 29,
+            "avg_sqm": 47.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "三沢",
+            "count": 14,
+            "avg_sqm": 24.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "百草",
+            "count": 14,
+            "avg_sqm": 16.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "大字日野",
+            "count": 9,
+            "avg_sqm": 43.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "万願寺",
+            "count": 8,
+            "avg_sqm": 46,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "富士町",
+            "count": 7,
+            "avg_sqm": 50.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東豊田",
+            "count": 6,
+            "avg_sqm": 31.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "高幡",
+            "count": 6,
+            "avg_sqm": 45.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "日野本町",
+            "count": 5,
+            "avg_sqm": 36.4,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "top_districts": [
+          {
+            "name": "秋川",
+            "count": 2,
+            "avg_sqm": 31,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "top_districts": [
+          {
+            "name": "つつじが丘",
+            "count": 25,
+            "avg_sqm": 25.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "宮沢町",
+            "count": 22,
+            "avg_sqm": 50.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "松原町",
+            "count": 19,
+            "avg_sqm": 50.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "美堀町",
+            "count": 14,
+            "avg_sqm": 31.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "武蔵野",
+            "count": 12,
+            "avg_sqm": 31.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "玉川町",
+            "count": 10,
+            "avg_sqm": 40.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "昭和町",
+            "count": 7,
+            "avg_sqm": 45.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中神町",
+            "count": 5,
+            "avg_sqm": 58.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "代官山",
+            "count": 4,
+            "avg_sqm": 93.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "拝島町",
+            "count": 3,
+            "avg_sqm": 32.4,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -7127,6 +7703,366 @@
         "blog_primary": false,
         "footnote_required": true,
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "series": {
+          "2007": 35.8,
+          "2008": 27.7,
+          "2009": 33.1,
+          "2010": 30.6,
+          "2011": 27.7,
+          "2012": 26.3,
+          "2013": 28.1,
+          "2014": 33.4,
+          "2015": 29.7,
+          "2016": 30.3,
+          "2017": 32.2,
+          "2018": 32.2,
+          "2019": 31.5,
+          "2020": 31.9,
+          "2021": 34.7,
+          "2022": 41.5,
+          "2023": 40.9,
+          "2024": 42.3,
+          "2025": 44.3
+        },
+        "counts": {
+          "2007": 202,
+          "2008": 304,
+          "2009": 466,
+          "2010": 329,
+          "2011": 298,
+          "2012": 299,
+          "2013": 370,
+          "2014": 352,
+          "2015": 326,
+          "2016": 336,
+          "2017": 350,
+          "2018": 363,
+          "2019": 372,
+          "2020": 349,
+          "2021": 355,
+          "2022": 385,
+          "2023": 321,
+          "2024": 298,
+          "2025": 320
+        },
+        "est_70sqm": {
+          "2007": 2506,
+          "2008": 1939,
+          "2009": 2317,
+          "2010": 2142,
+          "2011": 1939,
+          "2012": 1841,
+          "2013": 1967,
+          "2014": 2338,
+          "2015": 2079,
+          "2016": 2121,
+          "2017": 2254,
+          "2018": 2254,
+          "2019": 2205,
+          "2020": 2233,
+          "2021": 2429,
+          "2022": 2905,
+          "2023": 2863,
+          "2024": 2961,
+          "2025": 3101
+        },
+        "yoy_pct": {
+          "2008": -22.6,
+          "2009": 19.5,
+          "2010": -7.6,
+          "2011": -9.5,
+          "2012": -5.1,
+          "2013": 6.8,
+          "2014": 18.9,
+          "2015": -11.1,
+          "2016": 2,
+          "2017": 6.3,
+          "2018": 0,
+          "2019": -2.2,
+          "2020": 1.3,
+          "2021": 8.8,
+          "2022": 19.6,
+          "2023": -1.4,
+          "2024": 3.4,
+          "2025": 4.7
+        },
+        "cagr_full": 1.2,
+        "cagr_5y": 6.8,
+        "cagr_10y": 4.1,
+        "cagr_span_years": 18,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "series": {
+          "2007": 33.3,
+          "2008": 33.2,
+          "2009": 30,
+          "2010": 30.5,
+          "2011": 30.6,
+          "2012": 28.6,
+          "2013": 26.7,
+          "2014": 28.7,
+          "2015": 32.4,
+          "2016": 31.8,
+          "2017": 34,
+          "2018": 35.8,
+          "2019": 35,
+          "2020": 34.2,
+          "2021": 35,
+          "2022": 39.1,
+          "2023": 38.7,
+          "2024": 39,
+          "2025": 39.6
+        },
+        "counts": {
+          "2007": 55,
+          "2008": 58,
+          "2009": 52,
+          "2010": 55,
+          "2011": 76,
+          "2012": 58,
+          "2013": 72,
+          "2014": 91,
+          "2015": 92,
+          "2016": 73,
+          "2017": 80,
+          "2018": 80,
+          "2019": 67,
+          "2020": 80,
+          "2021": 106,
+          "2022": 77,
+          "2023": 73,
+          "2024": 78,
+          "2025": 58
+        },
+        "est_70sqm": {
+          "2007": 2331,
+          "2008": 2324,
+          "2009": 2100,
+          "2010": 2135,
+          "2011": 2142,
+          "2012": 2002,
+          "2013": 1869,
+          "2014": 2009,
+          "2015": 2268,
+          "2016": 2226,
+          "2017": 2380,
+          "2018": 2506,
+          "2019": 2450,
+          "2020": 2394,
+          "2021": 2450,
+          "2022": 2737,
+          "2023": 2709,
+          "2024": 2730,
+          "2025": 2772
+        },
+        "yoy_pct": {
+          "2008": -0.3,
+          "2009": -9.6,
+          "2010": 1.7,
+          "2011": 0.3,
+          "2012": -6.5,
+          "2013": -6.6,
+          "2014": 7.5,
+          "2015": 12.9,
+          "2016": -1.9,
+          "2017": 6.9,
+          "2018": 5.3,
+          "2019": -2.2,
+          "2020": -2.3,
+          "2021": 2.3,
+          "2022": 11.7,
+          "2023": -1,
+          "2024": 0.8,
+          "2025": 1.5
+        },
+        "cagr_full": 1,
+        "cagr_5y": 3,
+        "cagr_10y": 2,
+        "cagr_span_years": 18,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "series": {
+          "2008": 38.3,
+          "2009": 13.6,
+          "2010": 23.3,
+          "2011": 24.1,
+          "2012": 27.9,
+          "2013": 23.3,
+          "2014": 24.8,
+          "2015": 32.7,
+          "2016": 25.7,
+          "2018": 16.7,
+          "2019": 21.2,
+          "2020": 22.3,
+          "2021": 26.2,
+          "2022": 33.3,
+          "2023": 39,
+          "2024": 20.9,
+          "2025": 33.5
+        },
+        "counts": {
+          "2008": 1,
+          "2009": 1,
+          "2010": 2,
+          "2011": 3,
+          "2012": 2,
+          "2013": 3,
+          "2014": 2,
+          "2015": 3,
+          "2016": 1,
+          "2018": 1,
+          "2019": 4,
+          "2020": 2,
+          "2021": 1,
+          "2022": 1,
+          "2023": 3,
+          "2024": 2,
+          "2025": 2
+        },
+        "est_70sqm": {
+          "2008": 2681,
+          "2009": 952,
+          "2010": 1631,
+          "2011": 1687,
+          "2012": 1953,
+          "2013": 1631,
+          "2014": 1736,
+          "2015": 2289,
+          "2016": 1799,
+          "2018": 1169,
+          "2019": 1484,
+          "2020": 1561,
+          "2021": 1834,
+          "2022": 2331,
+          "2023": 2730,
+          "2024": 1463,
+          "2025": 2345
+        },
+        "yoy_pct": {
+          "2009": -64.5,
+          "2010": 71.3,
+          "2011": 3.4,
+          "2012": 15.8,
+          "2013": -16.5,
+          "2014": 6.4,
+          "2015": 31.9,
+          "2016": -21.4,
+          "2018": -35,
+          "2019": 26.9,
+          "2020": 5.2,
+          "2021": 17.5,
+          "2022": 27.1,
+          "2023": 17.1,
+          "2024": -46.4,
+          "2025": 60.3
+        },
+        "cagr_full": -0.8,
+        "cagr_5y": 8.5,
+        "cagr_10y": 0.2,
+        "cagr_span_years": 17,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "series": {
+          "2007": 26.8,
+          "2008": 31.2,
+          "2009": 26.5,
+          "2010": 27.4,
+          "2011": 29.4,
+          "2012": 30,
+          "2013": 27.6,
+          "2014": 30.1,
+          "2015": 29.6,
+          "2016": 29.8,
+          "2017": 34.4,
+          "2018": 29.7,
+          "2019": 32.3,
+          "2020": 32.4,
+          "2021": 39.3,
+          "2022": 40.5,
+          "2023": 39.8,
+          "2024": 41.2,
+          "2025": 45.1
+        },
+        "counts": {
+          "2007": 29,
+          "2008": 44,
+          "2009": 49,
+          "2010": 41,
+          "2011": 36,
+          "2012": 53,
+          "2013": 35,
+          "2014": 51,
+          "2015": 58,
+          "2016": 58,
+          "2017": 57,
+          "2018": 50,
+          "2019": 61,
+          "2020": 48,
+          "2021": 68,
+          "2022": 54,
+          "2023": 47,
+          "2024": 69,
+          "2025": 40
+        },
+        "est_70sqm": {
+          "2007": 1876,
+          "2008": 2184,
+          "2009": 1855,
+          "2010": 1918,
+          "2011": 2058,
+          "2012": 2100,
+          "2013": 1932,
+          "2014": 2107,
+          "2015": 2072,
+          "2016": 2086,
+          "2017": 2408,
+          "2018": 2079,
+          "2019": 2261,
+          "2020": 2268,
+          "2021": 2751,
+          "2022": 2835,
+          "2023": 2786,
+          "2024": 2884,
+          "2025": 3157
+        },
+        "yoy_pct": {
+          "2008": 16.4,
+          "2009": -15.1,
+          "2010": 3.4,
+          "2011": 7.3,
+          "2012": 2,
+          "2013": -8,
+          "2014": 9.1,
+          "2015": -1.7,
+          "2016": 0.7,
+          "2017": 15.4,
+          "2018": -13.7,
+          "2019": 8.8,
+          "2020": 0.3,
+          "2021": 21.3,
+          "2022": 3.1,
+          "2023": -1.7,
+          "2024": 3.5,
+          "2025": 9.5
+        },
+        "cagr_full": 2.9,
+        "cagr_5y": 6.8,
+        "cagr_10y": 4.3,
+        "cagr_span_years": 18,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -9173,6 +10109,330 @@
         "blog_primary": false,
         "footnote_required": true,
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "series": {
+          "2005": 152406,
+          "2006": 153129,
+          "2007": 163817,
+          "2008": 175696,
+          "2009": 167170,
+          "2010": 158122,
+          "2011": 157229,
+          "2012": 155401,
+          "2013": 154493,
+          "2014": 160704,
+          "2015": 162287,
+          "2016": 161500,
+          "2017": 160414,
+          "2018": 161574,
+          "2019": 162988,
+          "2020": 163566,
+          "2021": 162279,
+          "2022": 162718,
+          "2023": 165591,
+          "2024": 171334,
+          "2025": 179665,
+          "2026": 180864
+        },
+        "point_counts": {
+          "2005": 281,
+          "2006": 274,
+          "2007": 265,
+          "2008": 260,
+          "2009": 256,
+          "2010": 254,
+          "2011": 244,
+          "2012": 243,
+          "2013": 243,
+          "2014": 228,
+          "2015": 228,
+          "2016": 236,
+          "2017": 241,
+          "2018": 241,
+          "2019": 241,
+          "2020": 241,
+          "2021": 242,
+          "2022": 242,
+          "2023": 242,
+          "2024": 241,
+          "2025": 241,
+          "2026": 150
+        },
+        "yoy_change_rate": {},
+        "yoy_pct": {
+          "2006": 0.5,
+          "2007": 7,
+          "2008": 7.3,
+          "2009": -4.9,
+          "2010": -5.4,
+          "2011": -0.6,
+          "2012": -1.2,
+          "2013": -0.6,
+          "2014": 4,
+          "2015": 1,
+          "2016": -0.5,
+          "2017": -0.7,
+          "2018": 0.7,
+          "2019": 0.9,
+          "2020": 0.4,
+          "2021": -0.8,
+          "2022": 0.3,
+          "2023": 1.8,
+          "2024": 3.5,
+          "2025": 4.9,
+          "2026": 0.7
+        },
+        "cagr_full": 0.8,
+        "cagr_5y": 2.2,
+        "cagr_10y": 1.1,
+        "cagr_span_years": 21,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "series": {
+          "2005": 192264,
+          "2006": 192906,
+          "2007": 207133,
+          "2008": 224122,
+          "2009": 212370,
+          "2010": 198296,
+          "2011": 197065,
+          "2012": 196156,
+          "2013": 197805,
+          "2014": 209164,
+          "2015": 212119,
+          "2016": 211778,
+          "2017": 214014,
+          "2018": 217699,
+          "2019": 220671,
+          "2020": 221137,
+          "2021": 219384,
+          "2022": 220521,
+          "2023": 230438,
+          "2024": 237627,
+          "2025": 249554,
+          "2026": 266302
+        },
+        "point_counts": {
+          "2005": 87,
+          "2006": 85,
+          "2007": 83,
+          "2008": 82,
+          "2009": 81,
+          "2010": 81,
+          "2011": 77,
+          "2012": 77,
+          "2013": 77,
+          "2014": 67,
+          "2015": 67,
+          "2016": 72,
+          "2017": 73,
+          "2018": 73,
+          "2019": 73,
+          "2020": 73,
+          "2021": 73,
+          "2022": 73,
+          "2023": 74,
+          "2024": 75,
+          "2025": 75,
+          "2026": 53
+        },
+        "yoy_change_rate": {},
+        "yoy_pct": {
+          "2006": 0.3,
+          "2007": 7.4,
+          "2008": 8.2,
+          "2009": -5.2,
+          "2010": -6.6,
+          "2011": -0.6,
+          "2012": -0.5,
+          "2013": 0.8,
+          "2014": 5.7,
+          "2015": 1.4,
+          "2016": -0.2,
+          "2017": 1.1,
+          "2018": 1.7,
+          "2019": 1.4,
+          "2020": 0.2,
+          "2021": -0.8,
+          "2022": 0.5,
+          "2023": 4.5,
+          "2024": 3.1,
+          "2025": 5,
+          "2026": 6.7
+        },
+        "cagr_full": 1.6,
+        "cagr_5y": 4,
+        "cagr_10y": 2.3,
+        "cagr_span_years": 21,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "series": {
+          "2005": 266776,
+          "2006": 268895,
+          "2007": 288544,
+          "2008": 309772,
+          "2009": 288263,
+          "2010": 276411,
+          "2011": 272963,
+          "2012": 270636,
+          "2013": 272527,
+          "2014": 278078,
+          "2015": 281157,
+          "2016": 283929,
+          "2017": 293964,
+          "2018": 300946,
+          "2019": 308179,
+          "2020": 312946,
+          "2021": 312446,
+          "2022": 313597,
+          "2023": 321821,
+          "2024": 332018,
+          "2025": 347273,
+          "2026": 354861
+        },
+        "point_counts": {
+          "2005": 58,
+          "2006": 57,
+          "2007": 57,
+          "2008": 57,
+          "2009": 57,
+          "2010": 56,
+          "2011": 54,
+          "2012": 55,
+          "2013": 55,
+          "2014": 51,
+          "2015": 51,
+          "2016": 56,
+          "2017": 56,
+          "2018": 56,
+          "2019": 56,
+          "2020": 56,
+          "2021": 56,
+          "2022": 57,
+          "2023": 57,
+          "2024": 57,
+          "2025": 56,
+          "2026": 36
+        },
+        "yoy_change_rate": {},
+        "yoy_pct": {
+          "2006": 0.8,
+          "2007": 7.3,
+          "2008": 7.4,
+          "2009": -6.9,
+          "2010": -4.1,
+          "2011": -1.2,
+          "2012": -0.9,
+          "2013": 0.7,
+          "2014": 2,
+          "2015": 1.1,
+          "2016": 1,
+          "2017": 3.5,
+          "2018": 2.4,
+          "2019": 2.4,
+          "2020": 1.5,
+          "2021": -0.2,
+          "2022": 0.4,
+          "2023": 2.6,
+          "2024": 3.2,
+          "2025": 4.6,
+          "2026": 2.2
+        },
+        "cagr_full": 1.4,
+        "cagr_5y": 2.6,
+        "cagr_10y": 2.3,
+        "cagr_span_years": 21,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "series": {
+          "2005": 178717,
+          "2006": 176733,
+          "2007": 189172,
+          "2008": 202263,
+          "2009": 190944,
+          "2010": 179717,
+          "2011": 175580,
+          "2012": 175860,
+          "2013": 176680,
+          "2014": 182844,
+          "2015": 184978,
+          "2016": 187617,
+          "2017": 189723,
+          "2018": 192787,
+          "2019": 195575,
+          "2020": 196085,
+          "2021": 194660,
+          "2022": 195787,
+          "2023": 199809,
+          "2024": 206000,
+          "2025": 212587,
+          "2026": 225259
+        },
+        "point_counts": {
+          "2005": 60,
+          "2006": 60,
+          "2007": 58,
+          "2008": 57,
+          "2009": 54,
+          "2010": 53,
+          "2011": 50,
+          "2012": 50,
+          "2013": 50,
+          "2014": 45,
+          "2015": 45,
+          "2016": 47,
+          "2017": 47,
+          "2018": 47,
+          "2019": 47,
+          "2020": 47,
+          "2021": 47,
+          "2022": 47,
+          "2023": 47,
+          "2024": 47,
+          "2025": 46,
+          "2026": 28
+        },
+        "yoy_change_rate": {},
+        "yoy_pct": {
+          "2006": -1.1,
+          "2007": 7,
+          "2008": 6.9,
+          "2009": -5.6,
+          "2010": -5.9,
+          "2011": -2.3,
+          "2012": 0.2,
+          "2013": 0.5,
+          "2014": 3.5,
+          "2015": 1.2,
+          "2016": 1.4,
+          "2017": 1.1,
+          "2018": 1.6,
+          "2019": 1.4,
+          "2020": 0.3,
+          "2021": -0.7,
+          "2022": 0.6,
+          "2023": 2.1,
+          "2024": 3.1,
+          "2025": 3.2,
+          "2026": 6
+        },
+        "cagr_full": 1.1,
+        "cagr_5y": 3,
+        "cagr_10y": 1.8,
+        "cagr_span_years": 21,
+        "blog_primary": false,
+        "footnote_required": true,
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -9362,6 +10622,27 @@
         "price_classification": "02",
         "tile_coverage_warning": false,
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "geojson_path": "docs/verification/data/price-points/八王子市-2025.geojson",
+        "count": 514,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "geojson_path": "docs/verification/data/price-points/日野市-2025.geojson",
+        "count": 157,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "geojson_path": "docs/verification/data/price-points/昭島市-2025.geojson",
+        "count": 131,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -9499,6 +10780,26 @@
         "json_path": ".cache/mlit/appraisal-merged-chofu-2025.json",
         "count": 92,
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "json_path": ".cache/mlit/appraisal-merged-hachioji-2025.json",
+        "count": 284,
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "json_path": ".cache/mlit/appraisal-merged-hino-2025.json",
+        "count": 86,
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "json_path": ".cache/mlit/appraisal-merged-nishitokyo-2025.json",
+        "count": 48,
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "json_path": ".cache/mlit/appraisal-merged-akishima-2025.json",
+        "count": 42,
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -9774,6 +11075,50 @@
         "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "has_history": false,
+        "total_events": 0,
+        "flood_events": 0,
+        "last_flood_year": null,
+        "coverage_status": "no_data",
+        "coverage_warning": true,
+        "coverage_note": "이 구역에 등록된 재해 이력 없음 (또는 미조사).",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "has_history": false,
+        "total_events": 0,
+        "flood_events": 0,
+        "last_flood_year": null,
+        "coverage_status": "no_data",
+        "coverage_warning": true,
+        "coverage_note": "이 구역에 등록된 재해 이력 없음 (또는 미조사).",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "has_history": true,
+        "total_events": 19,
+        "flood_events": 19,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "has_history": false,
+        "total_events": 0,
+        "flood_events": 0,
+        "last_flood_year": null,
+        "coverage_status": "no_data",
+        "coverage_warning": true,
+        "coverage_note": "이 구역에 등록된 재해 이력 없음 (또는 미조사).",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     },
     "coverage_warning": "국토조사 미완료 지역은 이력 없음이 아닌 데이터 없음일 수 있음"
@@ -10228,6 +11573,74 @@
         "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "site_count": 139,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 109,
+          "earthquake": 123,
+          "tsunami": 0,
+          "landslide": 113,
+          "storm_surge": 0,
+          "large_fire": 0
+        },
+        "sites_per_10k_people": 1.9,
+        "population_used": 726561,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "site_count": 48,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 33,
+          "earthquake": 48,
+          "tsunami": 0,
+          "landslide": 0,
+          "storm_surge": 0,
+          "large_fire": 47
+        },
+        "sites_per_10k_people": 1.7,
+        "population_used": 279211,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "site_count": 34,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 20,
+          "earthquake": 34,
+          "tsunami": 0,
+          "landslide": 22,
+          "storm_surge": 0,
+          "large_fire": 4
+        },
+        "sites_per_10k_people": 1.3,
+        "population_used": 262213,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "site_count": 34,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 20,
+          "earthquake": 34,
+          "tsunami": 0,
+          "landslide": 34,
+          "storm_surge": 0,
+          "large_fire": 5
+        },
+        "sites_per_10k_people": 1.8,
+        "population_used": 190210,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   },
@@ -11360,6 +12773,158 @@
         ],
         "episode": "Ep.09",
         "fetched_at": "2026-06-26"
+      },
+      "八王子市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 1.4,
+          "dominant_type": "준방화지역",
+          "feature_count": 37
+        },
+        "district_plan_zones": {
+          "feature_count": 119
+        },
+        "high_utilization_zones": {
+          "feature_count": 3
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 11.3
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 3.6
+          },
+          {
+            "type": "準工業地域",
+            "pct": 3.1
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "日野市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 5.5,
+          "dominant_type": "준방화지역",
+          "feature_count": 13
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 26.8
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 4.7
+          },
+          {
+            "type": "第２種中高層住居専用地域",
+            "pct": 4.2
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "西東京市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 15.1,
+          "dominant_type": "준방화지역",
+          "feature_count": 12
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 39
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 18.4
+          },
+          {
+            "type": "第２種中高層住居専用地域",
+            "pct": 2.7
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
+      },
+      "昭島市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 6.1,
+          "dominant_type": "준방화지역",
+          "feature_count": 5
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 21.4
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 9.1
+          },
+          {
+            "type": "準工業地域",
+            "pct": 4.8
+          }
+        ],
+        "episode": "Ep.11",
+        "fetched_at": "2026-07-09"
       }
     }
   }

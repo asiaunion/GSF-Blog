@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-korean-community-beyond-shinokubo
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-korean-community-beyond-shinokubo/
+- 제목: 신오쿠보를 넘어: 도쿄의 새로운 한국인 커뮤니티와 비즈니스 지도 2026
+- 카테고리: life
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #K스타트업 #도쿄라이프 #도쿄생활
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-korean-community-beyond-shinokubo-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 신오쿠보를 넘어: 도쿄의 새로운 한국인 커뮤니티와 비즈니스 지도 2026
+5. 카테고리 선택 후 발행

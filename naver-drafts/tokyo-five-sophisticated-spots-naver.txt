@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-five-sophisticated-spots
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-five-sophisticated-spots/
+- 제목: 일본 도쿄의 세련된 명소 5곳
+- 카테고리: life
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #다이칸야마 #도쿄 #도쿄라이프
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-five-sophisticated-spots-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 일본 도쿄의 세련된 명소 5곳
+5. 카테고리 선택 후 발행

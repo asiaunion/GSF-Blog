@@ -2,7 +2,8 @@
   "description": "Hypothesis Layer pilot Ep.10–15. pnpm validate:post enforces decision-log gates for these slugs only.",
   "pilot_start": "2026-06-26",
   "slugs": [
-    "tokyo-kokubunji-kunitachi-fuchu-tachikawa"
+    "tokyo-kokubunji-kunitachi-fuchu-tachikawa",
+    "tokyo-hachioji-hino-akishima"
   ],
   "notes": "Append slugs Ep.11–15 as each episode starts. Legacy posts unaffected unless listed here."
 }

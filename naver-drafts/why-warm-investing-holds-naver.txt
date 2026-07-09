@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: why-warm-investing-holds
+
+- 생성일시: 2026-07-09 12:30 JST
+- 원문: https://gsfark.com/ko/posts/why-warm-investing-holds/
+- 제목: 따뜻한 투자의 미학: 숫자의 냉기와 사람의 온도가 만나는 지점
+- 카테고리: essay
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #기업가정신 #리스크관리 #에세이
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. why-warm-investing-holds-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 따뜻한 투자의 미학: 숫자의 냉기와 사람의 온도가 만나는 지점
+5. 카테고리 선택 후 발행

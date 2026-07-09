@@ -635,3 +635,46 @@
 - 커밋 내용: 1커밋으로 처리 (modDatetime 유지)
 - 린트 상태: `pnpm lint:language` 0건 경고 확인, 빌드 PASS
 - 다음 단계: Cursor가 내용 확인 후 main merge 요망.
+
+## [2026-07-09 20:34] AG 배포 완료
+- 작업 내용: Ep.11 하치오지/히노/아키시마 KO/EN/JA 배포 완료
+- 커밋 해시: 8985bc8
+- 배포 URL: https://gsfark.com/ko/posts/tokyo-hachioji-hino-akishima/ 등
+- Claude 부재 여부: 아니오
+- 특이사항: Claude Validator 이슈 해결 및 verify:episode (30/30) 통과 후 배포
+
+## [2026-07-09 20:37] AG 배포 보완
+- 작업 내용: Ep.11 GPT 8가지 피드백 반영 (훅 강화, 표 추가 등) KO/EN/JA
+- 커밋 해시: 503111a
+- 배포 URL: 동일
+- 특이사항: 지시받은 피드백 전부 반영 완료
+
+## [2026-07-09 20:42] AG 배포 보완 (최종)
+- 작업 내용: Ep.11 최종 GPT 피드백 반영 (제목 변경, 먼저 결론 압축, 같은 데이터 강조, 한줄 요약 세련되게, SEO 태그 보강) KO/EN/JA
+- 커밋 해시: da8c6ec
+- 배포 URL: 동일
+- 특이사항: 지시받은 피드백 전부 반영 완료
+## [2026-07-09 20:51] AG 배포 보완 (EN/JA 번역 세부 교정)
+- 작업 내용: Ep.11 EN/JA 세부 번역 개선 (statistical illusion, decoupled markets, The Average Trap, 価格プレミアム, 平均の罠 등)
+- 커밋 해시: 77be712
+- 배포 URL: 동일
+- 특이사항: GPT의 개선 제안(자연스러운 표현, 전문 용어) 반영 완료
+## [2026-07-09 20:55] AG 배포 보완 (EN/JA 추가 뉘앙스 교정)
+- 작업 내용: Ep.11 EN/JA 마지막 뉘앙스 교정 ("anything but light" → "anything but cheap", "平均を希釈した" → "平均を押し下げた" 등)
+- 커밋 해시: bb2990f
+- 배포 URL: 동일
+
+## [2026-07-09 20:59] AG 배포 보완 (히어로 이미지)
+- 작업 내용: Ep.11 히어로 이미지 생성 (WebP, OG JPG) 및 푸시
+- 커밋 해시: 2f514d3
+- 다음 단계: Claude가 배포 단계 검증 (pnpm verify:episode 및 Vercel 상태 점검) 수행할 것
+
+## [2026-07-09 12:20] AG 배포 완료
+- 작업 내용: GSF-Ark Ep.11 (tokyo-hachioji-hino-akishima) 3언어 (KO/EN/JA) 배포 및 parity 오류 해결
+- 커밋 해시: 4faf6ea
+- 배포 URL: 
+  - KO: https://gsfark.com/ko/posts/tokyo-hachioji-hino-akishima/
+  - EN: https://gsfark.com/en/posts/tokyo-hachioji-hino-akishima/
+  - JA: https://gsfark.com/ja/posts/tokyo-hachioji-hino-akishima/
+- Claude 부재 여부: 아니오
+- 특이사항: trust-locale-numeric-parity 게이트 이슈 완벽히 해소 완료.
