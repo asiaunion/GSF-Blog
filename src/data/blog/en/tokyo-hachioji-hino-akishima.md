@@ -1,5 +1,5 @@
 ---
-title: "Where to Live in Tokyo — The 23 Wards Guide [Ep.11] The Real Prices of Western Tama Hidden by Averages: Hachioji, Hino, and Akishima"
+title: "Where to Live in Tokyo — The 23 Wards Guide [Ep.11] The Real Housing Prices of Western Tama Hidden Behind Averages: Hachioji, Hino, and Akishima"
 description: "A deep dive into three cities in Western Tama using neighborhood-level transaction data. Stripping away the 'average trap' caused by massive land areas reveals a clear dual structure: vibrant 600,000-yen station areas and 300,000-yen outskirts."
 pubDatetime: 2026-07-09T00:05:00+09:00
 author: GSF
@@ -43,15 +43,15 @@ But when we dive down into actual transaction data at the neighborhood level, a 
 
 In Ep.10, we explored the educational and cultural belt of Tama centered around Tachikawa. This time, we move a bit further west along the Chuo Line to cover three cities: **Hachioji, Hino, and Akishima**.
 
-These areas boast massive land sizes and are physically distant from central Tokyo. However, looking closely at the transaction data, I realized we can't simply lump these three cities together as "cheap outskirts." Strip away the optical illusion of averages created by their massive footprints, and a completely different market emerges.
+These areas boast massive land sizes and are physically distant from central Tokyo. However, looking closely at the transaction data, I realized we can't simply lump these three cities together as "cheap outskirts." Strip away the statistical illusion of averages created by their massive footprints, and a completely different market emerges.
 
 ---
 
-## The Bottom Line First
+## Key Takeaways
 
-- **Illusion and Dual Structure**: The low prices in Hachioji and Hino are an optical illusion caused by area dilution. A distinct dual structure exists with 600,000-yen station zones coexisting with 300,000-yen outskirts.
+- **The Average Trap**: The low prices in Hachioji and Hino are a statistical illusion caused by area dilution. A distinct dual structure exists with 600,000-yen station zones coexisting with 300,000-yen outskirts.
 - **Akishima's Premium**: Despite its small size, Akishima experiences concentrated demand from the transit hub effect, holding a paradoxical premium.
-- **Divorced Markets**: Regardless of purchase price gaps, new 1R (studio) rents around stations cluster tightly at 70,000 to 80,000 yen, entirely divorcing the rental yield map from the purchase price map.
+- **Decoupled Purchase and Rental Markets**: Regardless of purchase price gaps, new 1R (studio) rents around stations cluster tightly at 70,000 to 80,000 yen, entirely decoupling the rental yield map from the purchase price map.
 - **Disaster Risks**: All three cities feature rivers, posing flood and liquefaction risks. Checking hazard maps is absolutely mandatory.
 
 ---
@@ -277,7 +277,7 @@ If you're interested in these areas, I recommend checking in this order:
 
 **In one sentence**
 
-Averages explain the city, but the actual market moves based on neighborhoods. Strip away the average's optical illusion caused by massive land areas, and you'll find a clear **dual structure: 600,000-yen station hubs alongside 300,000-yen outskirts.**
+Averages explain the city, but the actual market moves based on neighborhoods. Strip away the average's statistical illusion caused by massive land areas, and you'll find a clear **dual structure: 600,000-yen station hubs alongside 300,000-yen outskirts.**
 
 ---
 
