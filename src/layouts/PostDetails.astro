@@ -287,22 +287,22 @@ const nextPost =
 
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 mb-4">
       {/* 왼쪽: About the Author */}
-      <section class="rounded-xl border border-border bg-card p-4 flex flex-col justify-between h-full">
-        <div class="flex items-center justify-between mb-3">
-          <h2 class="text-sm font-semibold text-foreground/60 uppercase tracking-widest">
-            {L.authorCardTitle}
+      <section class="rounded-xl border border-border bg-card p-4 flex flex-col justify-between h-full gap-3">
+        {/* Header: Title & Link */}
+        <div class="flex items-center justify-between mt-1">
+          <h2 class="text-xs font-bold tracking-widest text-foreground/60 uppercase">
+            {L.authorEeatTitle}
           </h2>
           <a
             href={`${localePrefix}/author/joseph-kim/`}
-            class="text-sm text-foreground/50 transition hover:text-accent"
-            data-cta="author-profile"
-            data-cta-location="post-author-card"
+            class="text-xs font-medium text-foreground/60 transition hover:text-accent flex items-center gap-1"
           >
-            {L.authorEeatProfileCta} →
+            {L.authorEeatProfileCta} &rarr;
           </a>
         </div>
 
-        <div class="flex items-center gap-4">
+        {/* Content: Avatar & Bio */}
+        <div class="flex items-center gap-4 mb-1.5">
           <img
             src={authorProfileImage}
             alt="GSF author"
@@ -371,8 +371,6 @@ const nextPost =
       <NewsletterForm variant="slim" lang={navLang} />
     </div>
 
-    <GiscusComments lang={navLang} />
-
     <hr class="my-6 border-border border-solid" />
 
     <!-- Previous/Next Post Buttons -->
@@ -406,6 +404,8 @@ const nextPost =
         )
       }
     </div>
+
+    <GiscusComments lang={navLang} />
   </main>
   <Footer />
 </Layout>
