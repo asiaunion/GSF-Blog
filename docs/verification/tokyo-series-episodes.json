@@ -28,7 +28,14 @@
     "国分寺市": "kokubunji",
     "国立市": "kunitachi",
     "府中市": "fuchu",
-    "立川市": "tachikawa"
+    "立川市": "tachikawa",
+    "八王子市": "hachioji",
+    "日野市": "hino",
+    "西東京市": "nishitokyo",
+    "町田市": "machida",
+    "多摩市": "tama",
+    "稲城市": "inagi",
+    "昭島市": "akishima"
   },
   "episodes": [
     {
@@ -121,6 +128,26 @@
         "立川市"
       ],
       "theme_ko": "다마 교육·문화 벨트"
+    },
+    {
+      "episode": "Ep.11",
+      "slug": "tokyo-hachioji-hino-akishima",
+      "wards": [
+        "八王子市",
+        "日野市",
+        "昭島市"
+      ],
+      "theme_ko": "중앙선 서부 + 세이부 벨트"
+    },
+    {
+      "episode": "Ep.12",
+      "slug": "tokyo-machida-tama-inagi",
+      "wards": [
+        "町田市",
+        "多摩市",
+        "稲城市"
+      ],
+      "theme_ko": "오다큐·게이오 남부 뉴타운 벨트"
     }
   ]
 }
