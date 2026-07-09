@@ -277,13 +277,13 @@ const nextPost =
 
     <EditPost class="sm:hidden" {hideEditPost} {post} />
 
-    <ul class="mt-4 mb-8 flex flex-wrap gap-4 sm:my-8">
+    <ul class="mt-2 mb-4 flex flex-wrap gap-4">
       {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} href={tagCanonicalHref(slugifyStr(tag), primaryMap)} size="sm" />)}
     </ul>
 
     <BackToTopButton />
 
-    <hr class="my-8 border-border border-solid" />
+    <hr class="my-4 border-border border-solid" />
 
     <div class="grid grid-cols-1 gap-4 md:grid-cols-2 mb-4">
       {/* 왼쪽: About the Author */}
@@ -317,24 +317,26 @@ const nextPost =
         </div>
       </section>
 
-      {/* 오른쪽: Share + Newsletter + TokyoKorean */}
-      <section class="rounded-xl border border-border bg-card p-4 flex flex-col justify-between h-full gap-4">
-        {/* 상단: Share와 TokyoKorean */}
+      {/* 오른쪽: Share + TokyoKorean + Newsletter (3 rows) */}
+      <section class="rounded-xl border border-border bg-card p-4 flex flex-col justify-between h-full gap-3">
+        {/* Row 1: Share */}
         <div class="flex items-center justify-between">
-          <div class="flex items-center gap-1">
-            <ShareLinks showLabel={false} />
-          </div>
+          <ShareLinks showLabel={false} />
+        </div>
+        
+        {/* Row 2: TokyoKorean */}
+        <div class="flex items-center justify-between">
           <a
             href={L.companionLinkUrl}
             target="_blank"
             rel="noopener"
-            class="text-sm font-medium text-foreground/50 transition hover:text-accent flex items-center gap-1"
+            class="text-sm font-medium text-foreground/75 transition hover:text-accent flex items-center gap-1"
           >
-            {L.companionLinkText} ↗
+            {L.companionLine} {L.companionLinkText} ↗
           </a>
         </div>
         
-        {/* 하단: Newsletter inline */}
+        {/* Row 3: Newsletter inline */}
         <div class="w-full bd-inline-wrapper">
           <form
             class="bd-form flex gap-2 w-full"
