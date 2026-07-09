@@ -1,0 +1,433 @@
+{
+  "episode": "Ep.11",
+  "slug": "tokyo-hachioji-hino-akishima",
+  "created_at": "2026-07-09",
+  "updated_at": "2026-07-09",
+  "gates": {
+    "c_tier_capture_requested": false,
+    "manifest_approved_by": "Joseph",
+    "manifest_approved_at": "2026-07-09",
+    "draft_started": true,
+    "claude_audit_passed": true,
+    "claude_audit_at": "2026-07-09",
+    "joseph_final_approved": true,
+    "cursor_audit_passed": true,
+    "cursor_audit_at": "2026-07-09"
+  },
+  "claims": [
+    {
+      "id": "MLIT-hachioji-70",
+      "label": "八王子市 70㎡ 성약가",
+      "value": 2653,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "八王子市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-hachioji-1R",
+      "label": "八王子市 SUUMO 1R",
+      "value": 7,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_hachioji/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_hachioji-20260709.html",
+        "snippet": "7.0万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-hachioji-TOP",
+      "label": "八王子市 최다 승하차 역 (八王子)",
+      "value": 151038,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.八王子市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-hachioji-2040",
+      "label": "八王子市 인구 2020→2040 변화율",
+      "value": -4.3,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.八王子市.change_pct",
+        "mesh_count": 2030,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-hachioji-CAGR",
+      "label": "八王子市 맨션 成約 ㎡단가 CAGR",
+      "value": 6.1,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.八王子市.cagr_full",
+        "count": 554,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-hachioji-CAGR10",
+      "label": "八王子市 不動産取引価格 10년 CAGR (보조)",
+      "value": 6.8,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.八王子市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-hachioji-CAGR10",
+      "label": "八王子市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 2.2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.八王子市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-hachioji-1R",
+      "label": "八王子市 세전 표면 yield proxy (1R)",
+      "value": 3.2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "user_capture",
+      "evidence": {
+        "capture_by": "user"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-hachioji-SUM",
+      "label": "八王子市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.八王子市"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-hino-70",
+      "label": "日野市 70㎡ 성약가",
+      "value": 2989,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "日野市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-hino-1R",
+      "label": "日野市 SUUMO 1R",
+      "value": 7.6,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_hino/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_hino-20260709.html",
+        "snippet": "7.6万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-hino-TOP",
+      "label": "日野市 최다 승하차 역 (高幡不動)",
+      "value": 71844,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.日野市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-hino-2040",
+      "label": "日野市 인구 2020→2040 변화율",
+      "value": -0.9,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.日野市.change_pct",
+        "mesh_count": 562,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-hino-CAGR",
+      "label": "日野市 맨션 成約 ㎡단가 CAGR",
+      "value": 6.1,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.日野市.cagr_full",
+        "count": 162,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-hino-CAGR10",
+      "label": "日野市 不動産取引価格 10년 CAGR (보조)",
+      "value": 3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.日野市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-hino-CAGR10",
+      "label": "日野市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 4,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.日野市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-hino-1R",
+      "label": "日野市 세전 표면 yield proxy (1R)",
+      "value": 3.1,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "user_capture",
+      "evidence": {
+        "capture_by": "user"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-hino-SUM",
+      "label": "日野市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.日野市"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-akishima-70",
+      "label": "昭島市 70㎡ 성약가",
+      "value": 2877,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "昭島市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-akishima-1R",
+      "label": "昭島市 SUUMO 1R",
+      "value": 7.1,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_akishima/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_akishima-20260709.html",
+        "snippet": "7.1万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-akishima-TOP",
+      "label": "昭島市 최다 승하차 역 (拝島)",
+      "value": 88356,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.昭島市.top_passengers"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-akishima-2040",
+      "label": "昭島市 인구 2020→2040 변화율",
+      "value": -3.1,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.昭島市.change_pct",
+        "mesh_count": 358,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-akishima-CAGR",
+      "label": "昭島市 맨션 成約 ㎡단가 CAGR",
+      "value": 5.2,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.昭島市.cagr_full",
+        "count": 131,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-akishima-CAGR10",
+      "label": "昭島市 不動産取引価格 10년 CAGR (보조)",
+      "value": 6.8,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.昭島市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-akishima-CAGR10",
+      "label": "昭島市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.昭島市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-akishima-1R",
+      "label": "昭島市 세전 표면 yield proxy (1R)",
+      "value": 3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "user_capture",
+      "evidence": {
+        "capture_by": "user"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-akishima-SUM",
+      "label": "昭島市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.昭島市"
+      },
+      "used_in_draft": false
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-hachioji-VS-CHUO",
+      "label": "八王子市 vs 中央区 가격 비율",
+      "formula": "2653 / 12677 * 100",
+      "expected": 20.9,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-hino-VS-CHUO",
+      "label": "日野市 vs 中央区 가격 비율",
+      "formula": "2989 / 12677 * 100",
+      "expected": 23.6,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-akishima-VS-CHUO",
+      "label": "昭島市 vs 中央区 가격 비율",
+      "formula": "2877 / 12677 * 100",
+      "expected": 22.7,
+      "unit": "%",
+      "tolerance": 0.5
+    }
+  ],
+  "c_tier_capture_requests": []
+}
