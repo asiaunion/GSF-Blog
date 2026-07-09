@@ -10,7 +10,7 @@
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 JA textlint Wave 0–9 ✅ · KO soft 103 ✅ · hero OG 51슬러그 prod 배포·LinkedIn 렌더 확인 ✅ (`dc05f3e`) · AdSense **7/2** 재제출 결과 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | About Author 간소화 및 2단 분할 레이아웃 적용 |
+| 이번 주 최우선 액션 | Sources, 태그, 컴패니언 등 세부 간격 조정 |
 | 다음 체크포인트 | AdSense 결과 / Plan B 7/10~15 / batch-validate 잔여 4건(스코프 외 콘텐츠 게이트) |
 | 블로커 | 없음 |
 
@@ -177,6 +177,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-09
+- 하단 UI 우측 3열 스택 및 상하 여백 축소 배포
 - 하단 UI 그리드 레이아웃 적용 배포 완료
 - Minimal v3 하단 UI 미세 조정 배포 완료
 - Post Footer Minimal v3 라이브 배포
