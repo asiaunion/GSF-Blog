@@ -287,14 +287,9 @@ const nextPost =
 
     {/* Share + Newsletter — 한 줄 2칸 */}
     <div class="mt-8 flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-10">
-      {/* 왼쪽: Share */}
+      {/* 왼쪽: Share — ShareLinks 내부에 이미 라벨이 있음 */}
       <div class="flex-none">
-        <p class="text-xs font-medium uppercase tracking-widest text-foreground/40">
-          {L.sharePostLead}
-        </p>
-        <div class="mt-2 flex items-center gap-1">
-          <ShareLinks />
-        </div>
+        <ShareLinks />
       </div>
 
       {/* 구분선 — 세로(sm 이상)·가로(sm 미만) */}
@@ -302,7 +297,7 @@ const nextPost =
       <div class="block sm:hidden h-px w-full bg-border"></div>
 
       {/* 오른쪽: Newsletter inline */}
-      <div class="flex-1 min-w-0">
+      <div class="bd-inline-wrapper flex-1 min-w-0">
         <p class="text-xs font-medium uppercase tracking-widest text-foreground/40">
           {L.newsletterTitle}
         </p>
@@ -310,7 +305,7 @@ const nextPost =
           class="bd-form mt-2 flex gap-2"
           data-endpoint="https://buttondown.com/api/emails/embed-subscribe/GSFArk"
           data-lang={navLang}
-          data-variant="card"
+          data-variant="inline"
         >
           <label for="bd-email-footer" class="sr-only">{L.newsletterEmailLabel}</label>
           <input
