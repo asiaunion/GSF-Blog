@@ -213,9 +213,10 @@ const allPosts = posts.map(({ data: { title }, id, filePath }) => ({
 
 const currentPostIndex = allPosts.findIndex(a => a.id === post.id);
 
-const prevPost = currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
-const nextPost =
-  currentPostIndex !== allPosts.length ? allPosts[currentPostIndex + 1] : null;
+const prevPost =
+  currentPostIndex !== allPosts.length - 1 ? allPosts[currentPostIndex + 1] : null;
+const nextPost = 
+  currentPostIndex !== 0 ? allPosts[currentPostIndex - 1] : null;
 
 ---
 
@@ -291,7 +292,7 @@ const nextPost =
         {/* Header: Title & Link */}
         <div class="flex items-center justify-between mt-1">
           <h2 class="text-xs font-bold tracking-widest text-foreground/60 uppercase">
-            {L.authorEeatTitle}
+            {L.authorCardTitle}
           </h2>
           <a
             href={`${localePrefix}/author/joseph-kim/`}
