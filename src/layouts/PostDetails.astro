@@ -316,58 +316,60 @@ const nextPost =
 
     <RelatedPosts currentPost={post} allPosts={posts} lang={navLang} />
 
-    {/* Share + Newsletter — 한 줄 2칸 (Related Posts 하단) */}
-    <div class="mt-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-10">
-      {/* 왼쪽: Share */}
-      <div class="flex-none">
-        <div class="flex items-center gap-1">
-          <ShareLinks showLabel={false} />
+    {/* Share + Newsletter + TokyoKorean — 한 줄 (Related Posts 하단) */}
+    <div class="mt-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between">
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-10">
+        {/* 왼쪽: Share */}
+        <div class="flex-none">
+          <div class="flex items-center gap-1">
+            <ShareLinks showLabel={false} />
+          </div>
+        </div>
+
+        {/* 구분선 — 세로(sm 이상)·가로(sm 미만) */}
+        <div class="hidden sm:block h-6 w-px bg-border"></div>
+        <div class="block sm:hidden h-px w-full bg-border"></div>
+
+        {/* 중간: Newsletter inline */}
+        <div class="flex-1 w-full sm:max-w-[260px] bd-inline-wrapper">
+          <form
+            class="bd-form flex gap-2"
+            data-endpoint="https://buttondown.com/api/emails/embed-subscribe/GSFArk"
+            data-lang={navLang}
+            data-variant="inline"
+          >
+            <label for="bd-email-footer" class="sr-only">{L.newsletterEmailLabel}</label>
+            <input
+              type="email"
+              name="email"
+              id="bd-email-footer"
+              required
+              placeholder={L.newsletterPlaceholder}
+              class="min-w-0 flex-1 rounded-md border border-border bg-background px-2.5 py-1 text-sm text-foreground placeholder:text-foreground/35 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            />
+            <button
+              type="submit"
+              class="bd-btn shrink-0 rounded-md bg-accent px-3 py-1 text-sm font-semibold text-white transition-all hover:opacity-90 active:scale-[0.98]"
+            >
+              {L.newsletterCta}
+            </button>
+          </form>
+          <p class="bd-msg hidden mt-2 text-xs font-medium" aria-live="polite"></p>
         </div>
       </div>
-
-      {/* 구분선 — 세로(sm 이상)·가로(sm 미만) */}
-      <div class="hidden sm:block h-6 w-px bg-border"></div>
-      <div class="block sm:hidden h-px w-full bg-border"></div>
-
-      {/* 오른쪽: Newsletter inline */}
-      <div class="flex-1 w-full sm:max-w-[260px] bd-inline-wrapper">
-        <form
-          class="bd-form flex gap-2"
-          data-endpoint="https://buttondown.com/api/emails/embed-subscribe/GSFArk"
-          data-lang={navLang}
-          data-variant="inline"
+      
+      {/* 오른쪽: TokyoKorean 텍스트 링크 */}
+      <div class="flex-none sm:text-right mt-2 sm:mt-0">
+        <a
+          href={L.companionLinkUrl}
+          target="_blank"
+          rel="noopener"
+          class="text-sm font-medium text-foreground/50 transition hover:text-accent flex items-center gap-1"
         >
-          <label for="bd-email-footer" class="sr-only">{L.newsletterEmailLabel}</label>
-          <input
-            type="email"
-            name="email"
-            id="bd-email-footer"
-            required
-            placeholder={L.newsletterPlaceholder}
-            class="min-w-0 flex-1 rounded-md border border-border bg-background px-2.5 py-1 text-sm text-foreground placeholder:text-foreground/35 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
-          />
-          <button
-            type="submit"
-            class="bd-btn shrink-0 rounded-md bg-accent px-3 py-1 text-sm font-semibold text-white transition-all hover:opacity-90 active:scale-[0.98]"
-          >
-            {L.newsletterCta}
-          </button>
-        </form>
-        <p class="bd-msg hidden mt-2 text-xs font-medium" aria-live="polite"></p>
+          {L.companionLinkText} ↗
+        </a>
       </div>
     </div>
-
-    <p class="mt-8 text-sm text-foreground/60">
-      {L.companionLine}{" "}
-      <a
-        href={L.companionLinkUrl}
-        target="_blank"
-        rel="noopener"
-        class="font-medium text-foreground/80 underline decoration-border underline-offset-4 transition hover:text-accent hover:decoration-accent"
-      >
-        {L.companionLinkText}
-      </a>
-    </p>
 
     <div class="hidden">
       <NewsletterForm variant="slim" lang={navLang} />

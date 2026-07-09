@@ -685,3 +685,8 @@
 - 커밋 (validate): cf488ed
 - 빌드 상태: pnpm build 통과 (exit 0)
 - 다음: Claude님이 확인 후 main merge 진행
+
+## [2026-07-09 23:18] AG 배포 완료
+- 작업 내용: Post Footer Minimal v3 (Share+Newsletter를 RelatedPosts 하단으로 이동, 입력창 크기 축소)
+- 커밋 해시: 0ce4314
+- 배포 URL: https://gsfark.com
