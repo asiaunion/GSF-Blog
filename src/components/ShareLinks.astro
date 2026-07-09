@@ -4,6 +4,12 @@ import LinkButton from "./LinkButton.astro";
 import { parseLocalizedPath } from "@/utils/hreflang";
 import { getUi, type UiLang } from "@/i18n/ui";
 
+export interface Props {
+  showLabel?: boolean;
+}
+
+const { showLabel = true } = Astro.props;
+
 const URL = Astro.url;
 const normalized =
   URL.pathname.replace(/\/+$/, "") === "" ? "/" : URL.pathname.replace(/\/+$/, "");
@@ -14,7 +20,7 @@ const L = getUi(locale as UiLang);
 {
   SHARE_LINKS.length > 0 && (
     <div class="flex flex-none flex-col items-center justify-center gap-1 md:items-start">
-      <span class="italic">{L.sharePostLead}</span>
+      {showLabel && <span class="italic">{L.sharePostLead}</span>}
       <div class="text-center">
         {SHARE_LINKS.map(social => (
           <LinkButton
