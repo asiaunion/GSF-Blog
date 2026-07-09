@@ -37,7 +37,6 @@ const giscusLang = giscusLangMap[navLang] ?? "en";
 ---
 
 <section id="giscus-comments" class="mt-8">
-  <h2 class="text-lg font-semibold mb-4">{L.commentsTitle}</h2>
   <div id="giscus-container"></div>
 </section>
 
@@ -70,7 +69,7 @@ const giscusLang = giscusLangMap[navLang] ?? "en";
     giscusScript.setAttribute("data-category-id", script.dataset.categoryId);
     giscusScript.setAttribute("data-mapping", script.dataset.mapping);
     giscusScript.setAttribute("data-strict", "0");
-    giscusScript.setAttribute("data-reactions-enabled", "1");
+    giscusScript.setAttribute("data-reactions-enabled", "0");
     giscusScript.setAttribute("data-emit-metadata", "0");
     giscusScript.setAttribute("data-input-position", "top");
     giscusScript.setAttribute("data-theme", giscusTheme);
