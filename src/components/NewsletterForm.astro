@@ -15,7 +15,7 @@
 import { getUi, type UiLang } from "@/i18n/ui";
 
 type Props = {
-  variant?: "inline" | "card";
+  variant?: "inline" | "card" | "slim";
   lang?: UiLang;
   customCta?: string;
   downloadUrl?: string;
@@ -50,7 +50,39 @@ const formEndpoint = `https://buttondown.com/api/emails/embed-subscribe/${BUTTON
 ---
 
 {
-  variant === "card" ? (
+  variant === "slim" ? (
+    <section
+      id="newsletter-subscribe"
+      class="mt-6 rounded-xl border border-border bg-card p-5"
+    >
+      <h2 class="text-base font-semibold">{L.newsletterTitle}</h2>
+      <form
+        class="bd-form mt-3 flex flex-col gap-3 sm:flex-row sm:items-center"
+        data-endpoint={formEndpoint}
+        data-lang={navLang}
+        data-variant="card"
+      >
+        <div class="flex-1">
+          <label for="bd-email-slim" class="sr-only">{L.newsletterEmailLabel}</label>
+          <input
+            type="email"
+            name="email"
+            id="bd-email-slim"
+            required
+            placeholder={L.newsletterPlaceholder}
+            class="w-full rounded-lg border border-border bg-background px-4 py-2.5 text-sm text-foreground placeholder:text-foreground/40 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+          />
+        </div>
+        <button
+          type="submit"
+          class="bd-btn rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-all hover:opacity-90 active:scale-[0.98]"
+        >
+          {finalCta}
+        </button>
+      </form>
+      <p class="bd-msg mt-3 hidden text-sm font-medium" aria-live="polite"></p>
+    </section>
+  ) : variant === "card" ? (
     <section
       id="newsletter-subscribe"
       class="mt-6 rounded-xl border border-accent/30 bg-gradient-to-br from-accent/5 to-transparent p-5"

@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-buying-process-step-by-step
+
+- 생성일시: 2026-07-09 12:54 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-buying-process-step-by-step/
+- 제목: 도쿄 부동산 구매 절차 완전 정복: 물건 검색부터 등기 완료까지 8단계 실전 가이드
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #구매절차 #등기 #부동산인사이트
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-buying-process-step-by-step-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 도쿄 부동산 구매 절차 완전 정복: 물건 검색부터 등기 완료까지 8단계 실전 가이드
+5. 카테고리 선택 후 발행

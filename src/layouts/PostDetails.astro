@@ -22,8 +22,6 @@ import NewsletterForm from "@/components/NewsletterForm.astro";
 import GiscusComments from "@/components/GiscusComments.astro";
 import RelatedPosts from "@/components/RelatedPosts.astro";
 import SourcesList from "@/components/SourcesList.astro";
-import HighIntentPostCta from "@/components/HighIntentPostCta.astro";
-import { postSlugFromId } from "@/data/highIntentCta";
 import { getUi, type UiLang } from "@/i18n/ui";
 import fs from "node:fs";
 import path from "node:path";
@@ -68,7 +66,6 @@ const {
 
 const postDisclaimerCategory = resolvePostDisclaimerCategory(category);
 
-const postSlug = postSlugFromId(post.id);
 
 const disclaimerLang =
   postLang ?? (post.id.startsWith("ko/") ? "ko" : post.id.startsWith("ja/") ? "ja" : "en");
@@ -276,14 +273,7 @@ const nextPost =
       <SourcesList sources={sources} citeSources={citeSources} lang={disclaimerLang} />
     )}
 
-    <HighIntentPostCta
-      lang={navLang}
-      localePrefix={localePrefix}
-      category={category}
-      slug={postSlug}
-    />
 
-    <hr class="my-8 border-border border-solid" />
 
     <EditPost class="sm:hidden" {hideEditPost} {post} />
 
@@ -316,55 +306,27 @@ const nextPost =
             >
               {L.authorEeatProfileCta}
             </a>
-            <a
-              href={`${localePrefix}/mission/`}
-              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
-              data-cta="author-mission"
-              data-cta-location="post-author-card"
-            >
-              {L.authorEeatMissionCta}
-            </a>
-            <a
-              href={`${localePrefix}/methodology/`}
-              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
-              data-cta="author-methodology"
-              data-cta-location="post-author-card"
-            >
-              {L.authorEeatMethodologyCta}
-            </a>
-            <a
-              href={`${localePrefix}/contact/`}
-              class="rounded-full border border-border px-3 py-1 text-sm hover:border-accent"
-              data-cta="author-contact"
-              data-cta-location="post-author-card"
-            >
-              {L.authorCardContactCta}
-            </a>
+
           </div>
         </div>
       </div>
     </section>
 
-    <section class="mt-6 rounded-xl border border-border bg-card p-5">
-      <h2 class="text-lg font-semibold">{L.postFollowTitle}</h2>
-      <p class="mt-2 text-sm leading-relaxed text-foreground/75">{L.postFollowBody}</p>
-      <div class="mt-4 flex flex-wrap items-center gap-3">
-        <a
-          target="_blank"
-          href={`${localePrefix}/rss.xml/`}
-          class="rounded-full bg-foreground px-4 py-2 text-sm font-medium text-background transition-opacity hover:opacity-90"
-          data-cta="rss-subscribe"
-          data-cta-location="post-follow-card"
-        >
-          {L.postFollowRssCta}
-        </a>
-        <Socials trackingContext="post-follow" />
-      </div>
-    </section>
-
-    <NewsletterForm variant="card" lang={navLang} />
-
     <RelatedPosts currentPost={post} allPosts={posts} lang={navLang} />
+
+    <p class="mt-6 text-sm text-foreground/60">
+      {L.companionLine}{" "}
+      <a
+        href={L.companionLinkUrl}
+        target="_blank"
+        rel="noopener"
+        class="font-medium text-foreground/80 underline decoration-border underline-offset-4 transition hover:text-accent hover:decoration-accent"
+      >
+        {L.companionLinkText}
+      </a>
+    </p>
+
+    <NewsletterForm variant="slim" lang={navLang} />
 
     <GiscusComments lang={navLang} />
 

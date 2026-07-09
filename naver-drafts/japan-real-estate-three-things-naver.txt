@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: japan-real-estate-three-things
+
+- 생성일시: 2026-07-09 12:54 JST
+- 원문: https://gsfark.com/ko/posts/japan-real-estate-three-things/
+- 제목: 일본 부동산 투자 알아야 할 3가지
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #도쿄 #부동산인사이트 #세금
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. japan-real-estate-three-things-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 일본 부동산 투자 알아야 할 3가지
+5. 카테고리 선택 후 발행
