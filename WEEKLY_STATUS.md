@@ -10,7 +10,7 @@
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 JA textlint Wave 0–9 ✅ · KO soft 103 ✅ · hero OG 51슬러그 prod 배포·LinkedIn 렌더 확인 ✅ (`dc05f3e`) · AdSense **7/2** 재제출 결과 대기 |
 | 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | 뉴스레터 버튼 사이즈 축소 및 TokyoKorean 링크 스타일 적용 |
+| 이번 주 최우선 액션 | About the author 제목 복원 및 이전글(과거)/다음글(미래)로 방향 변경 |
 | 다음 체크포인트 | AdSense 결과 / Plan B 7/10~15 / batch-validate 잔여 4건(스코프 외 콘텐츠 게이트) |
 | 블로커 | 없음 |
 
@@ -177,6 +177,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-09
+- 작성자 프로필 타이틀 복원 및 이전글/다음글 논리 수정
 - 하단 UI 뉴스레터 폼 축소 및 링크 재정렬
 - Global Footer 정리
 - 하단 UI 미세 조정
