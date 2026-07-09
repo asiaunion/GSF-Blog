@@ -34,6 +34,12 @@ citeSources:
     url: "https://suumo.jp/"
 ---
 
+Is Hachioji really the cheapest city in Tokyo?
+
+If you only look at the city average, yes.
+
+But when we dive down into actual transaction data at the neighborhood level, a completely different market appears.
+
 In Ep.10, we explored the educational and cultural belt of Tama centered around Tachikawa. This time, we move a bit further west along the Chuo Line to cover three cities: **Hachioji, Hino, and Akishima**.
 
 These areas boast massive land sizes and are physically distant from central Tokyo. However, looking closely at the transaction data, I realized we can't simply lump these three cities together as "cheap outskirts." Strip away the optical illusion of averages created by their massive footprints, and a completely different market emerges.
@@ -52,9 +58,11 @@ These areas boast massive land sizes and are physically distant from central Tok
 
 ## Why I'm Writing This
 
-I, too, initially thought of Hachioji and Western Tama as "cost-effective, cheap outskirts." After all, Hachioji—the largest city in Tama—showed a city-wide average price of just 379,000 yen/sqm.
+When considering relocating to Tokyo, I, too, initially thought of Hachioji and Western Tama as "cost-effective, cheap outskirts." After all, Hachioji—the largest city in Tama—showed a city-wide average price of just 379,000 yen/sqm.
 
-Is Western Tama really cheap everywhere? Contrasting the transaction prices at the neighborhood (cho-mei) level completely changed my mind. Hachioji's low average is merely the result of cheaper suburban neighborhoods scattered across a massive area dragging the number down. The prices around the central stations are anything but light.
+Hachioji is one of the largest municipalities in Tokyo. When transactions from much wider suburban residential areas are mixed into the average, the city-wide figure appears significantly lower than the actual central hubs.
+
+Is Western Tama really cheap everywhere? Contrasting the actual transaction prices at the neighborhood (cho-mei) level completely changed my mind. Hachioji's low average is merely the result of cheaper suburban neighborhoods scattered across a massive area dragging the number down. The prices around the central stations are anything but light.
 
 That's why this post focuses on uncovering the **average trap** hidden by massive city limits, highlighting the **dual structure** between station hubs and the deep outskirts.
 
@@ -86,6 +94,18 @@ I initially assumed these three cities shared a flattened, low-cost baseline typ
 
 ---
 
+## Key Comparison: Averages vs. Actual Markets
+
+Before diving in, here is the data that clearly shows the core message of this post: "The average is different from the actual market."
+
+| City | City Average | Central Stations | Outskirts |
+|------|-------------:|-----------------:|----------:|
+| Hachioji | 379k yen | 604k yen | 317k yen |
+| Hino | 427k yen | 598k yen | 242k yen |
+| Akishima | 411k yen | 585k yen | 255k yen |
+
+---
+
 ## 1. Hachioji — The Average Trap of Massive Land Area
 
 The table below isn't here to show **"how cheap the city average is"**, but rather **"how massive the price gap is between neighborhoods."**
@@ -94,8 +114,8 @@ The table below isn't here to show **"how cheap the city average is"**, but rath
 
 Hachioji is a hub city boasting the largest population in the Tama region (approx. 579,000). The city-wide average price is **379,000 yen/sqm**, or **about 26.53 million yen** for a standard 70sqm unit. Looking only at the average, it seems incredibly affordable.
 
-| Neighborhood | Price/sqm (Contract) | 70sqm Eqv. | Count |
-|--------------|----------------------|------------|-------|
+| Neighborhood | Price/sqm (Actual) | 70sqm Eqv. | Count |
+|--------------|--------------------|------------|-------|
 | Yokamachi | 604k yen | ~42.28m yen | 29 |
 | Myojincho | 365k yen | ~25.55m yen | 28 |
 | Bessho | 365k yen | ~25.55m yen | 42 |
@@ -112,8 +132,8 @@ Hachioji is a hub city boasting the largest population in the Tama region (appro
 
 Hino City exhibits an extreme dual structure very similar to Hachioji. The city-wide average is **427,000 yen/sqm**, or **about 29.89 million yen** for 70sqm.
 
-| Neighborhood | Price/sqm (Contract) | 70sqm Eqv. | Count |
-|--------------|----------------------|------------|-------|
+| Neighborhood | Price/sqm (Actual) | 70sqm Eqv. | Count |
+|--------------|--------------------|------------|-------|
 | Tamadaira | 598k yen | ~41.86m yen | 34 |
 | Asahigaoka | 476k yen | ~33.32m yen | 29 |
 | Misawa* | 242k yen | ~16.94m yen | 14 |
@@ -129,8 +149,8 @@ Hino City exhibits an extreme dual structure very similar to Hachioji. The city-
 
 With a population of around 110,000, Akishima is a small city, yet it occupies a unique position in the railway network piercing through the Tama region. Its average price of **411,000 yen/sqm**, or **about 28.77 million yen** for 70sqm, actually outpaces the massive city of Hachioji. Being the closest of the three to Tachikawa, what kind of market does Akishima form?
 
-| Neighborhood | Price/sqm (Contract) | 70sqm Eqv. | Count |
-|--------------|----------------------|------------|-------|
+| Neighborhood | Price/sqm (Actual) | 70sqm Eqv. | Count |
+|--------------|--------------------|------------|-------|
 | Nakagamicho* | 585k yen | ~40.95m yen | 5 |
 | Miyazawacho* | 508k yen | ~35.56m yen | 22 |
 | Tsutsujigaoka* | 255k yen | ~17.85m yen | 25 |
@@ -138,7 +158,11 @@ With a population of around 110,000, Akishima is a small city, yet it occupies a
 
 *Note: While Akishima has enough city-wide samples (131), individual neighborhoods have under 30. We read these for directional variance.*
 
-**Where the data shifted my impression:** Let's pause here. Why does Akishima have a higher average unit price than Hachioji? Part of it is its smaller land area minimizing the dilution effect, but more importantly, the **Haijima transit hub** strongly vacuums up localized demand. The intersection of the JR Ome, Itsukaichi, and Hachiko lines, along with the Seibu Haijima line, creates a paradoxical premium for this small city.
+**Where the data shifted my impression:** Let's pause here. Why does Akishima have a higher average unit price than Hachioji? Part of it is its smaller land area minimizing the dilution effect, but more importantly, the **Haijima transit hub** strongly vacuums up localized demand. 
+
+While the city is small, its living radius is by no means small. Because transactions are heavily concentrated in specific station areas, the average price naturally forms at a relatively higher level.
+
+The intersection of the JR Ome, Itsukaichi, and Hachiko lines, along with the Seibu Haijima line, creates a paradoxical premium for this small city.
 
 ---
 
@@ -194,7 +218,7 @@ Here's a summary table of everything we've covered so far.
 | 70sqm Price (2025) | 26.53m yen | 29.89m yen | 28.77m yen |
 | Central Highs | **600k yen level** | **600k yen level** | 500k yen level |
 | Outskirt Lows | 300k yen level | 200k yen level | 200k yen level |
-| Contract CAGR (21–25) | 6.1% | 6.1% | 5.2% |
+| Actual Price CAGR (21–25) | 6.1% | 6.1% | 5.2% |
 | Pop Δ 2040 | -4.3% | -0.9% | -3.1% |
 | Per Capita Inc. | 145.4k | **166.4k** | 148.8k |
 | SUUMO 1R | 7.0k | **7.6k** | 7.1k |
@@ -233,7 +257,7 @@ It's a fact that population forecasts point downward. However, instead of readin
 
 **Wrapping up this post**
 
-While preparing this piece, the question I grappled with longest was, "Can we really evaluate these massive Tama cities using a single average price?" Hachioji's 379,000-yen average seemed to reinforce the vague stereotype that "Tama offers great value." But splitting the transaction data neighborhood by neighborhood completely changed my perspective. The extreme dual structure—600k for central stations and 300k for outskirts—was merely masked by the average. The market is already ruthlessly pricing properties based on location. Akishima was also striking; despite being a small city, it sustains high prices thanks to its transit hub effect.
+What I wanted to verify most from this data was, "Can we really evaluate these massive Tama cities using a single average price?" Hachioji's 379,000-yen average seemed to reinforce the vague stereotype that "Tama offers great value." But splitting the transaction data neighborhood by neighborhood completely changed my perspective. The extreme dual structure—600k for central stations and 300k for outskirts—was merely masked by the average. The market is already ruthlessly pricing properties based on location. Akishima was also striking; despite being a small city, it sustains high prices thanks to its transit hub effect.
 
 **How I'll continue reading the market**
 
@@ -253,7 +277,7 @@ If you're interested in these areas, I recommend checking in this order:
 
 **In one sentence**
 
-The low prices in Hachioji and Hino are optical illusions created by their massive land areas; underneath lies a very clear **dual structure with 600,000-yen station hubs and 300,000-yen outskirts.**
+If you only look at the city average, Western Tama regions like Hachioji seem affordable. But the actual market is pricing properties based on neighborhood-level locations, not city averages. Strip away the optical illusion of massive land areas, and you'll find a clear **dual structure: 600,000-yen station hubs alongside 300,000-yen outskirts.**
 
 ---
 
@@ -275,7 +299,7 @@ In the next episode, we'll dissect the regions forming the major southern axis o
 
 | Metric | Source/Date |
 |--------|-------------|
-| Mansion Price/sqm | MLIT Real Estate Info Library **Q1-Q4 2025** |
+| Mansion Price/sqm (Actual) | MLIT Real Estate Info Library **Q1-Q4 2025** |
 | Population Forecast | IPSS mesh **2020→2040** |
 | Per Capita Income | **Reiwa 6** Municipal Tax Base ÷ **May 2026** Tokyo Pop Est. |
 | SUUMO 1R | **2026-07-09** Snapshot (New, 1-5min walk) |
