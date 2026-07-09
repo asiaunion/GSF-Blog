@@ -678,3 +678,10 @@
   - JA: https://gsfark.com/ja/posts/tokyo-hachioji-hino-akishima/
 - Claude 부재 여부: 아니오
 - 특이사항: trust-locale-numeric-parity 게이트 이슈 완벽히 해소 완료.
+
+## [2026-07-09 23:59] Cursor 브랜치 대기
+- 작업 내용: Post Footer Minimal v2 구현 (ui/post-footer-minimal-v2)
+- 브랜치: ui/post-footer-minimal-v2
+- 커밋 (validate): cf488ed
+- 빌드 상태: pnpm build 통과 (exit 0)
+- 다음: Claude님이 확인 후 main merge 진행

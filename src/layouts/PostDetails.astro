@@ -285,48 +285,7 @@ const nextPost =
 
     <hr class="my-8 border-border border-solid" />
 
-    {/* Share + Newsletter — 한 줄 2칸 */}
-    <div class="mt-8 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-10">
-      {/* 왼쪽: Share */}
-      <div class="flex-none">
-        <div class="flex items-center gap-1">
-          <ShareLinks showLabel={false} />
-        </div>
-      </div>
-
-      {/* 구분선 — 세로(sm 이상)·가로(sm 미만) */}
-      <div class="hidden sm:block h-6 w-px bg-border"></div>
-      <div class="block sm:hidden h-px w-full bg-border"></div>
-
-      {/* 오른쪽: Newsletter inline */}
-      <div class="flex-1 min-w-0 bd-inline-wrapper">
-        <form
-          class="bd-form flex gap-2"
-          data-endpoint="https://buttondown.com/api/emails/embed-subscribe/GSFArk"
-          data-lang={navLang}
-          data-variant="inline"
-        >
-          <label for="bd-email-footer" class="sr-only">{L.newsletterEmailLabel}</label>
-          <input
-            type="email"
-            name="email"
-            id="bd-email-footer"
-            required
-            placeholder={L.newsletterPlaceholder}
-            class="min-w-0 flex-1 rounded-lg border border-border bg-background px-3 py-1.5 text-sm text-foreground placeholder:text-foreground/35 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
-          />
-          <button
-            type="submit"
-            class="bd-btn shrink-0 rounded-lg bg-accent px-3 py-1.5 text-sm font-semibold text-white transition-all hover:opacity-90 active:scale-[0.98]"
-          >
-            {L.newsletterCta}
-          </button>
-        </form>
-        <p class="bd-msg hidden mt-2 text-xs font-medium" aria-live="polite"></p>
-      </div>
-    </div>
-
-    <section class="mt-8 rounded-xl border border-border bg-card p-4">
+    <section class="rounded-xl border border-border bg-card p-4">
       {/* 제목 좌 + 프로필 링크 우 — 같은 줄 */}
       <div class="flex items-center justify-between">
         <h2 class="text-sm font-semibold text-foreground/60 uppercase tracking-widest">
@@ -357,7 +316,48 @@ const nextPost =
 
     <RelatedPosts currentPost={post} allPosts={posts} lang={navLang} />
 
-    <p class="mt-6 text-sm text-foreground/60">
+    {/* Share + Newsletter — 한 줄 2칸 (Related Posts 하단) */}
+    <div class="mt-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:gap-10">
+      {/* 왼쪽: Share */}
+      <div class="flex-none">
+        <div class="flex items-center gap-1">
+          <ShareLinks showLabel={false} />
+        </div>
+      </div>
+
+      {/* 구분선 — 세로(sm 이상)·가로(sm 미만) */}
+      <div class="hidden sm:block h-6 w-px bg-border"></div>
+      <div class="block sm:hidden h-px w-full bg-border"></div>
+
+      {/* 오른쪽: Newsletter inline */}
+      <div class="flex-1 w-full sm:max-w-[260px] bd-inline-wrapper">
+        <form
+          class="bd-form flex gap-2"
+          data-endpoint="https://buttondown.com/api/emails/embed-subscribe/GSFArk"
+          data-lang={navLang}
+          data-variant="inline"
+        >
+          <label for="bd-email-footer" class="sr-only">{L.newsletterEmailLabel}</label>
+          <input
+            type="email"
+            name="email"
+            id="bd-email-footer"
+            required
+            placeholder={L.newsletterPlaceholder}
+            class="min-w-0 flex-1 rounded-md border border-border bg-background px-2.5 py-1 text-sm text-foreground placeholder:text-foreground/35 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+          />
+          <button
+            type="submit"
+            class="bd-btn shrink-0 rounded-md bg-accent px-3 py-1 text-sm font-semibold text-white transition-all hover:opacity-90 active:scale-[0.98]"
+          >
+            {L.newsletterCta}
+          </button>
+        </form>
+        <p class="bd-msg hidden mt-2 text-xs font-medium" aria-live="polite"></p>
+      </div>
+    </div>
+
+    <p class="mt-8 text-sm text-foreground/60">
       {L.companionLine}{" "}
       <a
         href={L.companionLinkUrl}
