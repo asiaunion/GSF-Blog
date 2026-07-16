@@ -32,6 +32,8 @@ type Props = {
   articleBody?: string;
   /** When set, replaces default BlogPosting JSON-LD (e.g. About → Person). */
   overrideJsonLd?: Record<string, unknown>;
+  /** Extra JSON-LD blocks (e.g. FAQPage) rendered alongside BlogPosting / override. */
+  extraJsonLd?: Record<string, unknown> | Record<string, unknown>[];
   /** When set, renders <meta name="robots"> and suppresses canonical/hreflang/JSON-LD. */
   robotsMeta?: string;
 };
@@ -54,6 +56,7 @@ const {
   overrideJsonLd,
   htmlLang: htmlLangProp,
   robotsMeta,
+  extraJsonLd,
 } = Astro.props;
 
 const isErrorPage = !!robotsMeta;
@@ -113,6 +116,12 @@ const structuredData = overrideJsonLd ?? {
       keywords: tags.join(", "),
     }),
 };
+
+const extraJsonLdBlocks: Record<string, unknown>[] = !extraJsonLd
+  ? []
+  : Array.isArray(extraJsonLd)
+    ? extraJsonLd
+    : [extraJsonLd];
 ---
 
 <!doctype html>
@@ -270,6 +279,14 @@ const structuredData = overrideJsonLd ?? {
         set:html={JSON.stringify(structuredData)}
       />
     )}
+    {!isErrorPage &&
+      extraJsonLdBlocks.map(block => (
+        <script
+          type="application/ld+json"
+          is:inline
+          set:html={JSON.stringify(block)}
+        />
+      ))}
 
     <!-- Enable RSS feed auto-discovery  -->
     <!-- https://docs.astro.build/en/recipes/rss/#enabling-rss-feed-auto-discovery -->

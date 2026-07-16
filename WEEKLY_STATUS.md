@@ -6,13 +6,13 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-07-09 |
+| 최종 업데이트 | 2026-07-17 |
 | 프로젝트명 | GSF-Ark |
-| 상태 | 🟢 JA textlint Wave 0–9 ✅ · KO soft 103 ✅ · hero OG 51슬러그 prod 배포·LinkedIn 렌더 확인 ✅ (`dc05f3e`) · AdSense **7/2** 재제출 결과 대기 |
-| 목표 + 기한 | AdSense 계정 활성화 → GSFArk 추가 등록 (2026 Q3) |
-| 이번 주 최우선 액션 | About the author 제목 복원 및 이전글(과거)/다음글(미래)로 방향 변경 |
-| 다음 체크포인트 | AdSense 결과 / Plan B 7/10~15 / batch-validate 잔여 4건(스코프 외 콘텐츠 게이트) |
-| 블로커 | 없음 |
+| 상태 | 🟢 AdSense 7/7 재보류 — **D-001 Cursor 확정**: 게이트A/B·네이버주력·JA신규동결·Phase A′. Playbook+SEO_SPRINT |
+| 목표 + 기한 | Phase A′ 4주(refresh70/네이버) → ~8/12 게이트A 판정 |
+| 이번 주 최우선 액션 | ① Week0 GSC 부트스트랩 ② 백로그#1 risky-claims+네이버 ③ 내부링크0 7편 ④ Joseph: 네이버SA·Bing |
+| 다음 체크포인트 | 2026-08-12 게이트 A/B · JA soft sunset 여부 |
+| 블로커 | hreflang 방어 배포 전 KO+EN 전용 신규 금지 (방어 코드 착수됨) |
 
 ---
 
@@ -42,7 +42,7 @@
 | 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
 | 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
 | 7/2 | GSFArk AdSense 재제출 | ✅ 완료 — 검토 요청 제출 완료, 결과 대기 중 |
-| 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | 🔄 AG 준비 중 |
+| 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | ⏸ **보류** — D-001 게이트B(70%색인+유입2주) 전 신청 안 함 |
 | 매주 화/목 | 발행 목표 주 2회 유지 | 🔄 진행 중 |
 
 ---
@@ -175,8 +175,17 @@
 ---
 
 ## 📝 작업 로그
+### 2026-07-10
+- 하단 풋터 Minimal Edition v2~v3 적용
+- Ep.11 SNS 초안 5건 생성 완료
+- social-broadcast 스킬 언어별 URL 하드 게이트 추가
+- hero OG JPEG 42건 생성 및 참조 갱신 완료
+- Related Posts 요약 제거 및 축소
+- About the Author 및 소셜/구독 링크 2단 배치
+- 댓글 박스 상하 여백 최소화
 
 ### 2026-07-09
+- 하단 댓글 박스 여백 축소
 - 작성자 프로필 타이틀 복원 및 이전글/다음글 논리 수정
 - 하단 UI 뉴스레터 폼 축소 및 링크 재정렬
 - Global Footer 정리

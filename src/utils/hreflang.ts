@@ -1,6 +1,6 @@
 export type AppLocale = "en" | "ko" | "ja";
 
-const LOCALES: AppLocale[] = ["en", "ko", "ja"];
+export const LOCALES: AppLocale[] = ["en", "ko", "ja"];
 
 /** Paths that exist only at site root (no /ko /ja mirrors). */
 const DEFAULT_LOCALE_ONLY_PREFIXES = ["/archives", "/debug"];
@@ -74,12 +74,23 @@ export function buildLocalizedAbsoluteUrl(
 
 export type HreflangLink = { hreflang: string; href: string };
 
+export type HreflangOptions = {
+  /**
+   * Locales that actually have content for this path.
+   * When omitted, all LOCALES are emitted (static pages with full mirrors).
+   * Pass a subset for posts so missing JA (etc.) never get hreflang → 404.
+   */
+  locales?: AppLocale[];
+};
+
 /**
- * Returns up to 4 link tags: en, ko, ja, x-default (mirrors en for this site).
+ * Returns alternate link tags for existing locales + x-default.
+ * x-default prefers `en` when present, else the first active locale.
  */
 export function getHreflangAlternateUrls(
   pathname: string,
-  site: string
+  site: string,
+  options?: HreflangOptions
 ): HreflangLink[] {
   const { pathWithoutLocale } = parseLocalizedPath(pathname);
 
@@ -97,11 +108,38 @@ export function getHreflangAlternateUrls(
     ];
   }
 
-  const enUrl = buildLocalizedAbsoluteUrl(site, "en", pathWithoutLocale);
-  const links: HreflangLink[] = LOCALES.map(locale => ({
+  const requested = options?.locales;
+  const activeLocales: AppLocale[] =
+    requested && requested.length > 0
+      ? LOCALES.filter(locale => requested.includes(locale))
+      : [...LOCALES];
+
+  if (activeLocales.length === 0) {
+    const href = buildLocalizedAbsoluteUrl(site, "en", pathWithoutLocale);
+    return [
+      { hreflang: "en", href },
+      { hreflang: "x-default", href },
+    ];
+  }
+
+  const links: HreflangLink[] = activeLocales.map(locale => ({
     hreflang: locale,
     href: buildLocalizedAbsoluteUrl(site, locale, pathWithoutLocale),
   }));
-  links.push({ hreflang: "x-default", href: enUrl });
+
+  const defaultLocale: AppLocale = activeLocales.includes("en")
+    ? "en"
+    : activeLocales[0];
+  links.push({
+    hreflang: "x-default",
+    href: buildLocalizedAbsoluteUrl(site, defaultLocale, pathWithoutLocale),
+  });
   return links;
+}
+
+/** `/posts/{slug}/` → slug; otherwise null (non-post paths keep full locale set). */
+export function extractPostSlugFromPath(pathname: string): string | null {
+  const { pathWithoutLocale } = parseLocalizedPath(pathname);
+  const match = pathWithoutLocale.match(/^\/posts\/([^/]+)\/?$/);
+  return match?.[1] ?? null;
 }

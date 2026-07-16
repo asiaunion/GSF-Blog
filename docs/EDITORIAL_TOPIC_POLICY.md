@@ -44,9 +44,9 @@
 
 ---
 
-## 4. Pre-publish checklist (4 questions)
+## 4. Pre-publish checklist (6 questions)
 
-Score before drafting or at KO-final gate. **Proceed if ≥3 Yes.** If **≥2 No**, defer or downgrade to essay.
+Score before drafting or at KO-final gate. **Proceed if ≥4 Yes** (items 1–4 required; 5–6 required for non-essay). If **≥2 No** on 1–4, defer or downgrade to essay.
 
 | # | Question | Yes criteria |
 |---|----------|--------------|
@@ -54,14 +54,33 @@ Score before drafting or at KO-final gate. **Proceed if ≥3 Yes.** If **≥2 No
 | 2 | **Search intent** | JA (or KO 교민) intent: 情報収集 / 比較 / 移住準備 — not pure 観光 only |
 | 3 | **Internal links** | Can link to **≥2 existing posts** (+ lead magnet if 移住・契約・税務) |
 | 4 | **Monetization path** | Ties to **Affiliate**, **newsletter/D-90**, or **freelancing portfolio** (post CTA: [`HIGH_INTENT_POST_CTA.md`](./HIGH_INTENT_POST_CTA.md)) |
+| 5 | **Target query** | One primary Body/long-tail query written down (site title input) — essay exempt |
+| 6 | **SERP open** | 5-min SERP check: not locked by gov/portal-only results — essay exempt |
 
-**Log** (optional): note hub + target tier in blog-agent memo or weekly KPI `notes`.
+**Log** (optional): note hub + target tier + target query in blog-agent memo or `WEEKLY_KPI_REVIEW.md` query ledger. `targetQuery` frontmatter deferred until after 4-week sprint.
 
 ---
 
 ## 5. Phase playbook
 
-### Phase A — AdSense pending (now)
+### Phase A′ — AdSense pending (Cursor 2026-07-17 확정)
+
+> SSOT: [`ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](./ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) · [`SEO_SPRINT_PROPOSAL_2026-07.md`](./SEO_SPRINT_PROPOSAL_2026-07.md)
+
+| Share | Content type | Goal |
+|-------|--------------|------|
+| **70%** | **GSC-driven refresh** (title/H2/본문 1층, 주 2편) | 발견성 · 미색인 탈출 · 게이트 A |
+| **30%** | New long-tail (**KO+EN only**, after hreflang fix) | 공백 쿼리만 |
+| — | JA **신규 동결**; 기존 JA 갱신 조건부 | 병렬 URL 공급 중단 |
+| — | 네이버/티스토리: **그 주 refresh = 그 주 배포** | 레퍼럴 2주 |
+
+| Do | Don't |
+|----|-------|
+| Week 0 GSC 부트스트랩 · Body/롱테일만 | Niche pivot; head-keyword-only posts |
+| 네이버 요약→개별 URL (품질 HARD) | EN-first volume; JA 신규 |
+| risky-claims · 내부링크 0 글 수선 | PV-only listicles; 게이트 전 재신청 |
+
+### Phase A — AdSense pending (legacy — superseded by A′)
 
 | Do | Don't |
 |----|-------|

@@ -1,13 +1,40 @@
 ---
-import { getHreflangAlternateUrls } from "@/utils/hreflang";
+import { getEntry } from "astro:content";
+import {
+  extractPostSlugFromPath,
+  getHreflangAlternateUrls,
+  LOCALES,
+  type AppLocale,
+} from "@/utils/hreflang";
 
 type Props = {
   pathname: string;
   site: string;
+  /** When set, skip blog lookup (tests / explicit override). */
+  locales?: AppLocale[];
 };
 
-const { pathname, site } = Astro.props;
-const alternates = getHreflangAlternateUrls(pathname, site);
+const { pathname, site, locales: localesProp } = Astro.props;
+
+let locales = localesProp;
+
+if (!locales) {
+  const slug = extractPostSlugFromPath(pathname);
+  if (slug) {
+    const found: AppLocale[] = [];
+    for (const locale of LOCALES) {
+      const entry = await getEntry("blog", `${locale}/${slug}`);
+      if (entry && !entry.data.draft) {
+        found.push(locale);
+      }
+    }
+    if (found.length > 0) {
+      locales = found;
+    }
+  }
+}
+
+const alternates = getHreflangAlternateUrls(pathname, site, { locales });
 ---
 
 {
