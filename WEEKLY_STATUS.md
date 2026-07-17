@@ -177,6 +177,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-17
+- G1·G2·G3 KO §1-4 (R4) 반영 및 validate 완료 (feat/r4-tier0-updates)
 - Phase A' (W0+W1+W2) 배포 완료
 - Cursor 재반려 반영 완료 (#3, #6, week0 bands)
 ### 2026-07-10
