@@ -15,3 +15,14 @@
 - 요청 URL 묶음: 위 11개 슬러그의 KO, EN URL 전체 (1~3번은 JA 포함) - 총 25개 URL
 - HTTP 코드: 200 OK
 - 성공 기준 통과
+
+## [2026-07-17 21:00 JST] IndexNow Ping (R4 배포)
+
+- 대상 슬러그 (3개):
+  1. tokyo-meguro-setagaya
+  2. tokyo-shinagawa-ota
+  3. tokyo-ward-guide-series-prologue
+- 요청 URL 묶음: 위 3개 슬러그의 KO, EN URL 전체 - 총 6개 URL
+- HTTP 코드: 200 OK
+- 성공 기준 통과
+
