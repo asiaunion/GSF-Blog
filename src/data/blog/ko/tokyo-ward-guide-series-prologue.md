@@ -2,7 +2,7 @@
 title: "도쿄 23구 특징 비교 — 구별 집값과 거주 환경 한눈에 [2026]"
 description: "도쿄 23구 시리즈 프롤로그. 구별 특징·집값·거주 환경을 한눈에 보고 12편 로드맵으로 이어집니다."
 pubDatetime: 2026-05-12T09:00:00Z
-modDatetime: 2026-07-17T20:42:00+09:00
+modDatetime: 2026-07-18T01:15:00+09:00
 author: GSF
 lang: ko
 category: investment
