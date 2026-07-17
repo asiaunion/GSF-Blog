@@ -1,14 +1,14 @@
 # 네이버 블로그 초안: tokyo-meguro-setagaya
 
-- 생성일시: 2026-07-09 12:54 JST
-- 원문: https://gsfark.com/ko/posts/tokyo-meguro-setagaya/?utm_source=naver&utm_medium=blog&utm_campaign=blog-broadcast
-- 제목: 메구로·세타가야구 완전 분석: 도쿄 고급 주거 투자 가이드 [2026]
+- 생성일시: 2026-07-17 21:00 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-meguro-setagaya/
+- 제목: 세타가야구 부촌은 어디인가 — 세이조·메구로 집값과 주거 환경 비교 [2026]
 - 카테고리: investment
 - 해시태그: #일본부동산 #도쿄부동산 #GSFArk #도쿄 #맨션 #메구로구
 
 ## 붙여넣기 절차
 1. blog.naver.com/gsfark → 글쓰기
-2. 크롬 등 브라우저에서 해당 html 파일을 열기
-3. 브라우저 화면에 보이는 내용 전체(Cmd+A)를 복사하여 네이버 에디터 본문에 붙여넣기
-4. 제목 입력: 메구로·세타가야구 완전 분석: 도쿄 고급 주거 투자 가이드 [2026]
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-meguro-setagaya-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 세타가야구 부촌은 어디인가 — 세이조·메구로 집값과 주거 환경 비교 [2026]
 5. 카테고리 선택 후 발행

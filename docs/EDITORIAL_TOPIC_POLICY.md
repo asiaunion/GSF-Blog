@@ -69,8 +69,8 @@ Score before drafting or at KO-final gate. **Proceed if ≥4 Yes** (items 1–4 
 
 | Share | Content type | Goal |
 |-------|--------------|------|
-| **70%** | **GSC-driven refresh** (title/H2/본문 1층, 주 2편) | 발견성 · 미색인 탈출 · 게이트 A |
-| **30%** | New long-tail (**KO+EN only**, after hreflang fix) | 공백 쿼리만 |
+| **~70%** | **GSC-driven refresh** (§1–4: title/도입/H2 — **본문 전면 금지**. 편수 FLEX) | 발견성 · 미색인 탈출 · 게이트 A |
+| **~30%** | New long-tail (**KO+EN only**, after hreflang fix) — 편수 FLEX | 공백 쿼리만 |
 | — | JA **신규 동결**; 기존 JA 갱신 조건부 | 병렬 URL 공급 중단 |
 | — | 네이버/티스토리: **그 주 refresh = 그 주 배포** | 레퍼럴 2주 |
 

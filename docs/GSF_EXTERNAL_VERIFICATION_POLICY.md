@@ -3,6 +3,7 @@
 > **작성**: Claude (Chat) · 2026-07-17 — Joseph 지시로 성문화  
 > **상태**: 🟢 **Cursor 확정** (2026-07-17) — **D-004** · §F.4  
 > **적용 대상**: **Claude · Cursor · AG 공통.** GSFArk · TokyoKorean · GSF 전 프로젝트의 전략·정책·프로세스 수립/대개정.  
+> **짝 원칙**: [`GSF_COMPOUNDING_LOOP_POLICY.md`](./GSF_COMPOUNDING_LOOP_POLICY.md) (D-005) — "일하면서 배운다"  
 > **SSOT**: `GSF-OS/STRATEGIC_DECISIONS.md` **D-004**
 
 ---
