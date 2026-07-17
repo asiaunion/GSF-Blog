@@ -1,7 +1,8 @@
 # SEO 스프린트 제안 — 2026-07 (Cursor 재검증 반영판)
 
 > **작성**: Claude (Chat) · 2026-07-16
-> **상태**: 🟢 **Cursor 확정** (2026-07-17) — 쟁점 §7 → plan §F.1 결정 반영. Playbook: [`ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](./ADSENSE_APPROVAL_PLAYBOOK_2026-07.md)
+> **상태**: 🟢 **Cursor 확정** (2026-07-17) — 쟁점 §7 → plan §F.1 결정 반영. Playbook: [`ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](./ADSENSE_APPROVAL_PLAYBOOK_2026-07.md)  
+> **콘텐츠 SEO 재가중·백필**: [`CONTENT_SEO_STRATEGY_2026-07.md`](./CONTENT_SEO_STRATEGY_2026-07.md) (Cursor §F.2)
 > **전제 (재논의 안 함)**: AdSense 핵 = YMYL + 트래픽 부재 · JA 신규 발행 동결 · 네이버→티스토리가 주 유입 · Google은 Body/롱테일만 · 게이트 A/B (Cursor 2026-07-16 확정안)
 > **refs**: `adsense_audit_report_2026-07-15.md` · `docs/EDITORIAL_TOPIC_POLICY.md` · `docs/SEO_JA_CLUSTER_FOCUS.md` · `TokyoKorean/docs/NAVER_DAUM_BACKLINK_STRATEGY.md` · `GSF-OS/STRATEGIC_DECISIONS.md` D-001
 

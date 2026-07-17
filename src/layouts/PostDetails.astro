@@ -28,6 +28,7 @@ import path from "node:path";
 import sharp from "sharp";
 import { tagCanonicalHref } from "@/utils/tagCanonicalHref";
 import { collectTagsByLocale, getTagSlugPrimaryLocaleMap } from "@/build/crossLocaleTagRedirects";
+import { buildFaqPageJsonLd } from "@/utils/faqJsonLd";
 
 const blogDir = path.join(process.cwd(), "src/data/blog");
 const primaryMap = getTagSlugPrimaryLocaleMap(collectTagsByLocale(blogDir));
@@ -71,6 +72,24 @@ const disclaimerLang =
   postLang ?? (post.id.startsWith("ko/") ? "ko" : post.id.startsWith("ja/") ? "ja" : "en");
 
 const { Content } = await render(post);
+
+// FAQ JsonLd Injection for refreshed posts
+let faqItems: { question: string; answer: string }[] = [];
+if (post.id === "ko/tokyo-hachioji-hino-akishima") {
+  faqItems = [
+    { question: "하치오지는 정말 도쿄에서 가장 저렴한 도시인가요?", answer: "시 평균(37.9만엔)만 보면 저렴해 보이지만, 실제로는 중심 역세권(60만엔대)과 외곽(30만엔대)이 공존하는 이중 구조를 가집니다." },
+    { question: "아키시마시의 집값은 왜 다마 최대 거점인 하치오지보다 높게 나타나나요?", answer: "아키시마는 면적이 작아 외곽 희석 효과가 덜하고, 하이지마역 등 철도 환승 허브로 국지적 수요가 강하게 집중되기 때문입니다." },
+    { question: "다마 서부 지역의 매매가와 임대료는 비례하나요?", answer: "아닙니다. 매매가 격차와 무관하게 역세권 신축 1R 임대료는 7~8만엔 선에 모여 임대 수익률이 지역마다 다르게 나타납니다." },
+  ];
+} else if (post.id === "ko/tokyo-korean-community-beyond-shinokubo") {
+  faqItems = [
+    { question: "도쿄 내 한국인 커뮤니티는 신오쿠보에만 집중되어 있나요?", answer: "과거에는 신오쿠보가 중심이었으나, 현재는 글로벌 엘리트와 자산가들이 선호하는 미나토구(아자부·히로오)와 K-스타트업 허브인 토라노몬·롯폰기 등으로 다층적으로 확장되었습니다." },
+    { question: "비즈니스와 커리어 확장을 목표로 한다면 도쿄의 어느 지역이 거주하기 적합한가요?", answer: "토라노몬과 롯폰기 지역이 적합합니다. K-스타트업 센터(KSC)와 주요 VC가 밀접해 있어 비즈니스 네트워킹과 정보 교류에 최적화된 환경을 제공합니다." },
+    { question: "한국인 커뮤니티의 이동이 도쿄 부동산 시장에 어떤 영향을 미치고 있나요?", answer: "한국인 전문직과 창업자들이 미나토구 비즈니스 코어로 이동하면서, 토라노몬 힐즈나 아자부다이 힐즈 도보권 내의 월 15만~30만 엔대 아파트 및 유연 오피스에 대한 임대 수요가 구조적으로 지탱되고 있습니다." }
+  ];
+}
+
+const generatedFaqJsonLd = faqItems.length > 0 ? buildFaqPageJsonLd(faqItems) : undefined;
 
 // SSG/Vercel: `process.cwd()` is the repo root during `astro build`.
 const publicDir = path.join(process.cwd(), "public");
@@ -201,6 +220,7 @@ const layoutProps = {
   scrollSmooth: true,
   tags,
   articleBody: description,
+  extraJsonLd: generatedFaqJsonLd,
 };
 
 /* ========== Prev/Next Posts ========== */

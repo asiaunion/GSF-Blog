@@ -1,7 +1,7 @@
 ---
 title: "일본 도쿄 지진에서 취약한 5곳"
 pubDatetime: 2026-03-20T09:00:00Z
-modDatetime: 2026-06-21T19:38:58+09:00
+modDatetime: 2026-07-17T01:19:26+09:00
 description: "도쿄도의 지역 지진 위험 측정 조사를 바탕으로, 건물 붕괴·화재 리스크가 높은 23구 상위 5개 지역과 중장기 부동산 투자 시 점검해야 할 항목을 정리합니다."
 author: GSF
 lang: ko
@@ -97,3 +97,8 @@ citeSources:
 - [ ] **해저드맵**: 도쿄도 건설국이 제공하는 [지진 위험도 맵](https://www.kensetsu.metro.tokyo.lg.jp/)에서 타겟 지역의 랭킹을 확인하세요.
 - [ ] **내진기준**: 1981년 이후 건설된 '신내진기준' 건물인지, 혹은 그 이상의 제진/면진 설비가 있는지 체크하세요.
 - [ ] **보험**: 화재보험뿐만 아니라 지진보험 특약의 보상 한도가 자산 가치를 충분히 커버하는지 검토하세요.
+
+## 함께 보면 좋은 글
+
+- [신축 vs 구축 맨션, 무엇을 살 것인가 — 2026년 투자자 관점 완전 비교](/ko/posts/japan-shinchiku-vs-chuko-mansion-investor-guide/)
+- [도쿄 한인타운은 신오쿠보에만 있을까 — 변화하는 거점과 지역색](/ko/posts/tokyo-korean-community-beyond-shinokubo/)

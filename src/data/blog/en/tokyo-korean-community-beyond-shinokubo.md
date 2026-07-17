@@ -2,7 +2,7 @@
 title: "Beyond Shin-Okubo: The New Map of Korea-Tokyo Communities & Business 2026"
 description: "Tokyo’s Korean community has expanded beyond the geographical boundaries of Shin-Okubo. From the global elite networks in Azabu to the K-Startup hub in Toranomon, we provide an in-depth look at the evolving status and business bases of Koreans in Tokyo as of 2026."
 pubDatetime: 2026-05-01T08:00:00Z
-modDatetime: 2026-05-27T12:37:12+09:00
+modDatetime: 2026-07-17T02:50:00+09:00
 author: GSF
 lang: en
 category: life
@@ -106,9 +106,9 @@ Beyond lifestyle, the evolving Korean community map in Tokyo has measurable inve
 
 **The Azabudai Hills Effect**: The 2024 opening of Mori JP Tower and Azabudai Hills fundamentally reshuffled premium residential supply in Minato-ku. A notable portion of early tenants in the residential tower are Korean-affiliated professionals—executives, investors, and returnees from Global Korea Scholarship programs. Asking prices for 1LDK units in the surrounding area have responded to this surge in elite demand, though buyers and investors should confirm current pricing directly through licensed real estate professionals or the [Ministry of Land, Infrastructure, Transport and Tourism's real estate transaction database](https://www.reinfolib.mlit.go.jp/).<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
-**Startup Ecosystem → Office Demand**: The K-Startup surge in Toranomon is not just a community story—it is a verifiable office demand driver. According to Korea Eximbank data, the number of Korean corporations newly established in Japan reached **316 in 2024**, a record high—and the figure for January–September 2025 (318 entities) has already surpassed that annual record.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Korean-founded companies in Japan tend to cluster in 30–100 sqm flexible office spaces near the Toranomon and Akasaka corridor, contributing to structurally elevated demand for smaller-format Grade B+ office inventory even as overall Tokyo vacancy figures show modest recovery.
+**Startup Ecosystem → Office Demand**: The K-Startup surge in Toranomon is not just a community story—it is a verifiable office demand driver. According to Korea Eximbank data, the number of Korean corporations newly established in Japan reached **316 in 2024**, a record high—and the figure for September 2025 (318 entities) has already surpassed that annual record.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Korean-founded companies in Japan tend to cluster in 30–100 sqm flexible office spaces near the Toranomon and Akasaka corridor, contributing to structurally elevated demand for smaller-format Grade B+ office inventory even as overall Tokyo vacancy figures show modest recovery.
 
-**Key Takeaway for Investors**: Community migration patterns are leading indicators of rental demand. As Korean professionals continue shifting from Shin-Okubo to Minato-ku's business core, apartments in the ¥150,000–¥300,000/month range within walking distance of Toranomon Hills or Azabudai Hills represent a compelling supply-demand imbalance that purely quantitative models tend to miss. The investment thesis here is built on structural drivers—corporate expansion, lifestyle clustering, and world-class infrastructure—rather than any single data point.
+**Key Takeaway for Investors**: Community migration patterns are leading indicators of rental demand. As Korean professionals continue shifting from Shin-Okubo to Minato-ku's business core, apartments in the ¥15 (x10k) to ¥30 (x10k)/month range within walking distance of Toranomon Hills or Azabudai Hills represent a compelling supply-demand imbalance that purely quantitative models tend to miss. The investment thesis here is built on structural drivers—corporate expansion, lifestyle clustering, and world-class infrastructure—rather than any single data point.
 
 ---
 

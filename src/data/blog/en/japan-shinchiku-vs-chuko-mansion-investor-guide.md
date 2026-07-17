@@ -78,28 +78,28 @@ The foundation of real estate investment is location. To understand the Tokyo an
 
 While the overall average for the Greater Tokyo Area hasn't surpassed Seoul, the price structure looks like a steep staircase as you move toward the city center.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
-- **Greater Tokyo Average:** **87.36 million JPY** (Includes Kanagawa, Saitama, Chiba)
-- **Tokyo 23 Wards Average:** **124.98 million JPY**
-- **Core 6 Wards Average:** **224.26 million JPY** (Chiyoda, Chuo, Minato, Shinjuku, Bunkyo, Shibuya)
+- **Greater Tokyo Average:** **87.36 million JPY** (approx. ¥8,736 x 10k) (Includes Kanagawa, Saitama, Chiba)
+- **Tokyo 23 Wards Average:** **124.98 million JPY** (approx. ¥12,498 x 10k)
+- **Core 6 Wards Average:** **224.26 million JPY** (approx. ¥22,426 x 10k) (Chiyoda, Chuo, Minato, Shinjuku, Bunkyo, Shibuya)
 
-The average price for a new mansion in the Core 6 Wards—which includes my neighborhood Nihonbashi, Ginza (Chuo Ward), and Marunouchi (Chiyoda Ward)—has reached a staggering **224 million JPY**. The Greater Tokyo average is only good for grasping the overall trend. If your goal is to live or invest in central Tokyo, you must base your financial planning on the actual, significantly higher prices of the Core 6 Wards and the 23 Wards.
+The average price for a new mansion in the Core 6 Wards—which includes my neighborhood Nihonbashi, Ginza (Chuo Ward), and Marunouchi (Chiyoda Ward)—has reached **224 million JPY (approx. ¥22,400 x 10k)**. The Greater Tokyo average is only good for grasping the overall trend. If your goal is to live or invest in central Tokyo, you must base your financial planning on the actual, relatively higher prices of the Core 6 Wards and the 23 Wards.
 
 ### Greater Tokyo Market Trends (New vs. Pre-owned)
 
 | Indicator | New Mansions | Pre-owned Mansions |
 |------|----------|----------|
 | **Supply / Transactions** | 1,163 units (Released) | 3,903 cases (Contracted, -1.2%) |
-| **Average Price** | **87.36M JPY** (+24.6%) | **53.21M JPY** (+5.4%) |
-| **Price per ㎡** | 1.306M JPY | 859.3K JPY (+5.9%) |
+| **Average Price** | **87.36 million JPY** (+24.6%) (approx. ¥8,736 x 10k) | **53.21 million JPY** (+5.4%) (approx. ¥5,321 x 10k) |
+| **Price per ㎡** | 1.306 million JPY (approx. ¥131 x 10k) | 859.3K JPY (+5.9%) (approx. ¥85.93 x 10k) |
 | **Market Vitality** | Initial Month Contract Rate 62.3% (-4.0%p) | Tokyo Wards: 72 consecutive months of ㎡ price growth |
 | **Inventory** | 6,313 units | 45,215 cases (+2.7%) |
 
 <small>Source: Real Estate Economic Institute PDF p.1<sup class="source-ref"><a href="#source-1">1</a></sup>, REINS Summary PDF p.1~3<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup></small>
 
-Here are the facts we can extract from the data:
+Here are the facts I can extract from the data:
 
 1. **New Mansion Contract Rate is 62.3%:** Generally, a rate above 70% is considered the benchmark for 'strong sales'. The 62.3% figure represents a 4.0 percentage point drop year-over-year.
-2. **Tokyo Wards Pre-owned ㎡ Price Up for 72 Consecutive Months:** According to REINS data, the price per square meter for pre-owned mansions in the Tokyo 23 Wards stands at 1.374 million JPY (+10.1%), continuing an upward trend for 72 straight months.
+2. **Tokyo Wards Pre-owned ㎡ Price Up for 72 Consecutive Months:** According to REINS data, the price per square meter for pre-owned mansions in the Tokyo 23 Wards stands at 1.374 million JPY (+10.1%) (approx. ¥137 x 10k), continuing an upward trend for 72 straight months.
 3. **Increase in Pre-owned Inventory:** The pre-owned inventory in the Greater Tokyo area has increased to 45,215 properties (+2.7% YoY). This can be interpreted in several ways, such as profit-taking listings appearing due to price surges in the city center, or the heat from the core spreading to the outskirts.
 
 ---
@@ -115,7 +115,7 @@ For buildings acquired after April 2016, **only the straight-line method** is ap
 ### New RC (Reinforced Concrete) is 47 Years
 
 According to the National Tax Agency (NTA) useful life table, the statutory useful life for a residential RC structure is **47 years**.
-The straight-line depreciation rate for 47 years is approximately 0.022 (2.2%). Assuming a building acquisition cost of 60 million JPY, your annual depreciation expense would be about 1.32 million JPY.
+The straight-line depreciation rate for 47 years is approximately 0.022 (2.2%). Assuming a building acquisition cost of 60 million JPY (approx. ¥6,000 x 10k), your annual depreciation expense would be about 1.32 million JPY (approx. ¥132 x 10k).
 
 ### The Shortened Useful Life of Pre-owned Mansions (Simplified Method)
 
@@ -129,10 +129,10 @@ The reason tax-driven investments heavily favor pre-owned mansions is due to the
 | **20 Years Old (Partially Elapsed)** | `(47 - 20) + (20 × 0.2)` | **31 Years** |
 | **47 Years Old (Fully Elapsed)** | `47 × 0.2` | **9 Years** |
 
-Comparing this based on a building acquisition cost of 60 million JPY:
-- New (47 years): 1.32 million JPY deducted annually
-- 20 Years Old Pre-owned (31 years): Depreciation rate ~0.033 → 1.98 million JPY deducted annually
-- 47 Years Old Pre-owned (9 years): Depreciation rate 0.112 → 6.72 million JPY deducted annually
+Comparing this based on a building acquisition cost of 60 million JPY (approx. ¥6,000 x 10k):
+- New (47 years): 1.32 million JPY (approx. ¥132 x 10k) deducted annually
+- 20 Years Old Pre-owned (31 years): Depreciation rate ~0.033 → 1.98 million JPY (approx. ¥198 x 10k) deducted annually
+- 47 Years Old Pre-owned (9 years): Depreciation rate 0.112 → 6.72 million JPY (approx. ¥672 x 10k) deducted annually
 
 If your goal is to book massive depreciation expenses early on to shield your income tax, older pre-owned properties are overwhelmingly advantageous. However, this varies by property, so I highly recommend running simulations with a tax accountant beforehand.
 
@@ -148,7 +148,7 @@ According to the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) 
 - **Equal Reserve Method:** Reserving the same amount from the beginning throughout the long-term repair plan period.
 - **Stepped-Increase Reserve Method:** Keeping initial reserve amounts low at the time of sale, then incrementally increasing the amount at regular intervals.
 
-A significant portion of new Japanese mansions adopt the 'Stepped-Increase' method because it makes initial costs look low. Thus, even if it's only 20,000 to 30,000 JPY per month when you move in, the long-term repair plan often explicitly states that it will increase significantly around the 10-to-15-year mark when large-scale repairs are due.
+A significant portion of new Japanese mansions adopt the 'Stepped-Increase' method because it makes initial costs look low. Thus, even if it's only 20k to 30k JPY per month when you move in, the long-term repair plan often explicitly states that it will increase significantly around the 10-to-15-year mark when large-scale repairs are due.
 
 ### 'Lump-Sum Contributions' When Funds Fall Short
 
@@ -176,7 +176,7 @@ The completion of a real estate investment is the exit strategy. Let's look at '
 
 The inventory of pre-owned mansions in the Core 3 Wards increased by 43.0% YoY, while contracted cases decreased by 9.2%.
 
-Conversely, the price per ㎡ rose by 10.1% based on the Tokyo 23 Wards, showing that listing prices and transaction prices remain rock solid. How should we interpret this strange divergence where transactions are slightly shrinking but asking prices won't come down?
+Conversely, the price per ㎡ rose by 10.1% based on the Tokyo 23 Wards, showing that listing prices and transaction prices remain rock solid. How should I interpret this strange divergence where transactions are slightly shrinking but asking prices won't come down?
 
 I want to add a brief impression from living in a pre-owned mansion in the city center. The biggest pillar firmly supporting the real estate value of the Core 3 Wards from the bottom up is ultimately the **'time saved through living close to work'**. It saves office workers the time wasted on the streets, and the convenient infrastructure experience—having hospitals, pharmacies, and government offices nearby, plus access to 4 subway lines within 10 minutes—has a strong gravitational pull that makes it hard to move out once you've tasted it. Even if it's an older building.
 
@@ -188,15 +188,15 @@ However, from an investor's perspective, amidst rising inventory, the short-term
 
 ## 5. BOJ Interest Rate Environment: Implications from Three Hawkish Board Members
 
-We cannot overlook the policy trends of the Bank of Japan (BOJ), which acts as a pillar supporting the Yield Gap in Japanese real estate investments.
+I cannot overlook the policy trends of the Bank of Japan (BOJ), which acts as a pillar supporting the Yield Gap in Japanese real estate investments.
 
 On April 28, 2026, the BOJ Policy Board decided by a majority vote of **6 to 3** to keep the policy interest rate unchanged at **0.75%**.<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 
-### The Minority View We Must Watch (3 Dissenters)
+### The Minority View I Must Watch (3 Dissenters)
 
 The decision was a 'freeze', but 3 out of the 9 members (Junko Nakagawa, Hajime Takata, and Naoki Tamura) strongly argued that rates should be **raised to 1.0%** immediately.<sup class="source-ref"><a href="#source-4">4</a></sup> They are on guard against the ripple effects of rising import prices.
 
-Given the highly leveraged nature of real estate investment, if the interest rate climbs through 1.0% and higher, rental yields may fall, or buyers' borrowing limits could shrink. We are in an era where an interest rate stress test (simulating cash flow under rising interest rates) before buying is absolutely mandatory.
+Given the highly leveraged nature of real estate investment, if the interest rate climbs through 1.0% and higher, rental yields may fall, or buyers' borrowing limits could shrink. I am in an era where an interest rate stress test (simulating cash flow under rising interest rates) before buying is absolutely mandatory.
 
 ---
 
@@ -208,7 +208,7 @@ The Tokyo mansion market in the spring of 2026, as seen through various data tod
 |----------|------|------|
 | **Maximize Short-Term Tax Savings** | Pre-owned (Older) | Can heavily concentrate early depreciation expenses using the simplified method for shortened useful life. |
 | **Stable Rental Operations** | New or Under 10 Years Old | Predictability of repair costs is relatively high, and initial repair reserve burdens are low. |
-| **Capital Gains (Long-term)** | Core City Center | Well-located pre-owned properties with a relatively lower barrier to entry compared to new prices (Core 6 Wards: 224 million JPY). |
+| **Capital Gains (Long-term)** | Core City Center | Well-located pre-owned properties with a relatively lower barrier to entry compared to new prices (Core 6 Wards: 220 million JPY (approx. ¥22,000 x 10k)). |
 
 Please make sure to go through the following checklist before making an investment decision.
 
@@ -220,7 +220,7 @@ Please make sure to go through the following checklist before making an investme
 - [ ] **Depreciation Simulation**: Calculate your after-tax yield with a tax accountant using the NTA's simplified method.
 - [ ] **BOJ Interest Rate Monitoring**: Track any shifts in opinion from the 3 dissenting (hawkish) members at the next policy meeting.
 
-There are definitely indicators we must view conservatively in the short term, such as the repair lump-sum issue, rising inventory in the Core 3 Wards, and pressure to raise interest rates. Therefore, it is safest to thoroughly calculate your yield at the time of purchase and your exit strategy.
+There are definitely indicators I must view conservatively in the short term, such as the repair lump-sum issue, rising inventory in the Core 3 Wards, and pressure to raise interest rates. Therefore, it is safest to thoroughly calculate your yield at the time of purchase and your exit strategy.
 
 ---
 

@@ -28,7 +28,7 @@
 | gsc_impressions_ja | | | — |
 | gsc_clicks_ja | | | — |
 | gsc_indexed_urls (approx) | | | — |
-| gsc_queries_top | | | top 5 JA queries (28d) — see [SEO_JA_CLUSTER_FOCUS § GSC refresh](./SEO_JA_CLUSTER_FOCUS.md#gsc-query-refresh-post-adsense) |
+| gsc_queries_top | 28 (baseline) | | top 5 JA queries (28d) — see [SEO_JA_CLUSTER_FOCUS § GSC refresh](./SEO_JA_CLUSTER_FOCUS.md#gsc-query-refresh-post-adsense) |
 | refreshed_slugs | | | post-Adsense refresh targets |
 | email_subscribers | | | 50 @ 3mo |
 | sns_posts_published | | | 1–2/wk |

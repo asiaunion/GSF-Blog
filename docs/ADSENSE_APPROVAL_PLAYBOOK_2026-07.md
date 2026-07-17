@@ -3,6 +3,8 @@
 > **상태**: 🟢 Cursor 확정 (2026-07-17) — Joseph OK  
 > **SSOT 결정**: `GSF-OS/STRATEGIC_DECISIONS.md` **D-001** (Cursor 2026-07-16/17 개정)  
 > **SEO 운영 상세**: [`SEO_SPRINT_PROPOSAL_2026-07.md`](./SEO_SPRINT_PROPOSAL_2026-07.md)  
+> **콘텐츠 SEO 주축·백필**: [`CONTENT_SEO_STRATEGY_2026-07.md`](./CONTENT_SEO_STRATEGY_2026-07.md) (Cursor §F.2)  
+> **발행 프로세스·글쓰기**: [`CONTENT_PUBLISHING_PROCESS_2026-07.md`](./CONTENT_PUBLISHING_PROCESS_2026-07.md) · [`SEO_WRITING_GUIDE_2026-07.md`](./SEO_WRITING_GUIDE_2026-07.md) (§F.3)  
 > **선행 감사**: [`../adsense_audit_report_2026-07-15.md`](../adsense_audit_report_2026-07-15.md)
 
 ---
@@ -63,9 +65,11 @@ SEO 노력 배분(승인 전 Phase A′): **KO 50 / JA 30(기존 URL 갱신만) 
 
 | 축 | 규칙 | refs |
 |----|------|------|
+| 시간 배분 | **콘텐츠 SEO 55 / 채널 30 / 기술·GSC 15** (부족 주 = 채널 우선) | CONTENT_SEO §F.2① |
 | 비중 | **refresh 70% / 신규 30%** (주 2 refresh + 신규 ≤1) | TOPIC_POLICY Phase A′ |
 | title/H2 | Week 0 GSC 부트스트랩 → 주 2편, 한 층만 변경 | SEO_SPRINT §3 |
 | 백로그 | §4.2 10건 — **#4 = 구매절차 허브-상세** (j-reit는 Week4 여유) | SEO_SPRINT §4 + Cursor §F.1⑤ |
+| 백필 | 전량 금지 · 코호트 ~20 · **대조군 D 보존** · 큐 #11–#20 | CONTENT_SEO 부록 C · §F.2 |
 | 네이버 | **그 주 refresh = 그 주 네이버 배포** | SEO_SPRINT §5 |
 | 내부링크 0 | 관광 제외 **7편** Week 1–2 별도 (코호트 D 제외) | SEO_SPRINT §12.2 |
 | KPI | 게이트 A 숫자와 동일 — 완화 없음 | SEO_SPRINT §6 |
@@ -107,6 +111,7 @@ SEO 노력 배분(승인 전 Phase A′): **KO 50 / JA 30(기존 URL 갱신만) 
 ## 8. 관련 문서
 
 - [`SEO_SPRINT_PROPOSAL_2026-07.md`](./SEO_SPRINT_PROPOSAL_2026-07.md)  
+- [`AG_TASK_2026-07-17_adsense-phase-a-week1.md`](./AG_TASK_2026-07-17_adsense-phase-a-week1.md) — AG 실행 · Cursor 검증  
 - [`EDITORIAL_TOPIC_POLICY.md`](./EDITORIAL_TOPIC_POLICY.md)  
 - [`SEO_JA_CLUSTER_FOCUS.md`](./SEO_JA_CLUSTER_FOCUS.md)  
 - `TokyoKorean/docs/NAVER_DAUM_BACKLINK_STRATEGY.md`  

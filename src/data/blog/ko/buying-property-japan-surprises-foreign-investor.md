@@ -2,7 +2,7 @@
 title: "일본에서 집을 사며 가장 놀랐던 것들"
 description: "도쿄 니혼바시에서 콘도미니엄을 매입한 한 한국인 투자자의 기록. 절차, 문화, 그리고 어떤 가이드북도 알려주지 않았던 이야기."
 pubDatetime: 2026-06-19T09:00:00+09:00
-modDatetime: 2026-06-20T10:19:29+09:00
+modDatetime: 2026-07-17T01:19:26+09:00
 author: Joseph KIM
 tags:
   - 일본부동산
@@ -231,3 +231,8 @@ sources:
 그 여정이 시작된 장소에서 이 글을 쓰고 있습니다.
 
 *도쿄 니혼바시에서 기록합니다.*
+
+## 함께 보면 좋은 글
+
+- [신축 vs 구축 맨션, 무엇을 살 것인가 — 2026년 투자자 관점 완전 비교](/ko/posts/japan-shinchiku-vs-chuko-mansion-investor-guide/)
+- [도쿄 한인타운은 신오쿠보에만 있을까 — 변화하는 거점과 지역색](/ko/posts/tokyo-korean-community-beyond-shinokubo/)

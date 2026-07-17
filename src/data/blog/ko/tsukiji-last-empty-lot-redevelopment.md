@@ -2,6 +2,7 @@
 title: "쓰키지, 도쿄의 마지막 공터가 바뀌고 있다"
 description: "한때 세계에서 가장 많은 수산물이 오가던 자리가 비었다. 그리고 도쿄는 그 자리에 무언가를 짓기 시작했다. 2026년 6월, 현장에서 본 쓰키지 재개발의 지금."
 pubDatetime: 2026-06-13T09:00:00+09:00
+modDatetime: 2026-07-17T01:19:26+09:00
 author: GSF
 draft: false
 lang: ko
@@ -96,3 +97,8 @@ citeSources:
 전철을 타지 않고 집까지 천천히 걸어왔습니다. 잠깐 빗방울이 떨어졌다가 이내 그쳤습니다. 좋은 산책이었습니다.
 
 *2026년 6월, 쓰키지에서*
+
+## 함께 보면 좋은 글
+
+- [신축 vs 구축 맨션, 무엇을 살 것인가 — 2026년 투자자 관점 완전 비교](/ko/posts/japan-shinchiku-vs-chuko-mansion-investor-guide/)
+- [도쿄 한인타운은 신오쿠보에만 있을까 — 변화하는 거점과 지역색](/ko/posts/tokyo-korean-community-beyond-shinokubo/)

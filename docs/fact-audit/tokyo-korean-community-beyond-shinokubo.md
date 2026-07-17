@@ -27,6 +27,9 @@
 | 12 | ¥300,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
 | 13 | 150,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
 | 14 | 300,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
+| 15 | 15만엔 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
+| 16 | 15万円 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
+
 
 ---
 
@@ -61,6 +64,8 @@
 | 12 | ¥300,000 | Present | Present | Y | Ensure numerical alignment |
 | 13 | 150,000 | Present | Present | Y | Ensure numerical alignment |
 | 14 | 300,000 | Present | Present | Y | Ensure numerical alignment |
+| 15 | 15만엔 | Present | Present | Y | Ensure numerical alignment |
+| 16 | 15万円 | Present | Present | Y | Ensure numerical alignment |
 
 ---
 

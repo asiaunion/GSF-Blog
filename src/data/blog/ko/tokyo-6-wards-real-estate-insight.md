@@ -2,7 +2,7 @@
 title: "도쿄 주요 6구 부동산 데이터 및 입지 인사이트 [2026]"
 description: "도쿄 주요 6구의 부동산 가격 동향과 인구 변화 데이터를 분석합니다. 최신 지표를 통해 도쿄 도심의 변화 양상을 확인해 보세요."
 pubDatetime: 2026-03-27T08:00:00Z
-modDatetime: 2026-06-15T22:42:21+09:00
+modDatetime: 2026-07-17T01:19:26+09:00
 author: "GSF"
 lang: ko
 category: investment
@@ -96,3 +96,8 @@ citeSources:
 - [ ] **선호**: 실거주 수요가 탄탄한 분쿄구나 세타가야구의 매물 유동성을 체크하세요.
 
 ---
+
+## 함께 보면 좋은 글
+
+- [신축 vs 구축 맨션, 무엇을 살 것인가 — 2026년 투자자 관점 완전 비교](/ko/posts/japan-shinchiku-vs-chuko-mansion-investor-guide/)
+- [도쿄 한인타운은 신오쿠보에만 있을까 — 변화하는 거점과 지역색](/ko/posts/tokyo-korean-community-beyond-shinokubo/)
