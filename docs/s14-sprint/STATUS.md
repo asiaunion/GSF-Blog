@@ -17,7 +17,7 @@
 
 ## Joseph 판단 필요
 
-- Tier 0: **없음** — R3 완료. 다음 = AG R4 (KO 반영)
+- Tier 0: **없음** — R3 완료. 다음 = Joseph merge / 배포 승인 (KO merged)
 
 ## 이번 배치 메모
 
