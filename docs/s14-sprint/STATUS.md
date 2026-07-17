@@ -7,9 +7,9 @@
 
 | slug | tier | 타깃 쿼리 | R1 | 초안 | Joseph | KO | EN | live | 네이버 URL | 원장 |
 |------|------|-----------|----|------|--------|----|----|------|------------|------|
-| tokyo-meguro-setagaya | G1 | 세타가야구 부촌 | done | done | **done** | merged | | | | merged |
-| tokyo-shinagawa-ota | G2 | 오타구 아파트 시세 | done | done | **done** | merged | | | | merged |
-| tokyo-ward-guide-series-prologue | G3 | 도쿄 23구 특징 비교 | done | done | **done** | merged | | | | merged |
+| tokyo-meguro-setagaya | G1 | 세타가야구 부촌 | done | done | **done** | merged | merged | | | merged |
+| tokyo-shinagawa-ota | G2 | 오타구 아파트 시세 | done | done | **done** | merged | merged | | | merged |
+| tokyo-ward-guide-series-prologue | G3 | 도쿄 23구 특징 비교 | done | done | **done** | merged | merged | | | merged |
 | japan-shinchiku-vs-chuko-mansion-investor-guide | #1 | (백로그) | | | | | | | | |
 | korea-japan-inheritance-gift-tax-cross-border-basics | #2 | | | | | | | | | |
 | tokyo-hachioji-hino-akishima | #3 | | | | | | | | | |
@@ -30,5 +30,8 @@
 tokyo-meguro-setagaya | q="세타가야구 부촌" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
 tokyo-shinagawa-ota | q="오타구 아파트 시세" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
 tokyo-ward-guide-series-prologue | q="도쿄 23구 특징 비교" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
+tokyo-meguro-setagaya (en) | q="Setagaya rich area" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
+tokyo-shinagawa-ota (en) | q="Ota Ward apartments" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
+tokyo-ward-guide-series-prologue (en) | q="Tokyo 23 Wards" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
 ```
 

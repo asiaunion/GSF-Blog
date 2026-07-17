@@ -15,3 +15,6 @@
 | 11 | weak-yen-korean-japan-asset-allocation-fx-scenarios | naver-drafts/weak-yen-korean-japan-asset-allocation-fx-scenarios-naver.txt | https://gsfark.com/ko/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios/ | 네이버 | 완료: https://blog.naver.com/gsfark/224342270828 |
 | 12 | why-i-chose-nihonbashi | naver-drafts/why-i-chose-nihonbashi-naver.txt | https://gsfark.com/ko/posts/why-i-chose-nihonbashi/ | 네이버 | 완료: https://blog.naver.com/gsfark/224341323356 |
 | 13 | why-warm-investing-holds | naver-drafts/why-warm-investing-holds-naver.txt | https://gsfark.com/ko/posts/why-warm-investing-holds/ | 네이버 | 완료: https://blog.naver.com/gsfark/224340898080 |
+
+* ALL v4 → html regen done · 2026-07-17
+
