@@ -83,6 +83,7 @@
 | R3 | H2 ≥1 질문형 · YMYL 단정 없음 | 권유 프레임 |
 | R4 | vNext spine 순서 · Joseph's View · Final insight echo | spine 누락 |
 | R5 | Voice: 데이터 주인공 · 사고 과정 공개 · 허구 현장 금지 · 1인칭 2~3회 | 「가보니」 |
+| R5b | **Reader First** ([`JOSEPH_AUTHENTIC_VOICE`](./JOSEPH_AUTHENTIC_VOICE.md) v1.2): 중학생 독해 · 은어 단독 금지 · 전문어 첫 등장 한글 정의 · 문장 짧고 그려짐 · 차분 톤 유지 | 「허브」「CAGR」「별 지도」「구 스톡」단독 · 개발자/애널리스트 은어 |
 | R6 | 수치마다 citeSources 대응 · manifest claim 정합 | 고아 숫자 |
 | R7 | 내부링크 ≥2 (tokyoLife + urbanInvestment 규칙) | 링크 0 |
 | R8 | HARD: slug·JA·범위 | 위반 즉시 Fail |

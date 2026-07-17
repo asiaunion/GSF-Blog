@@ -1,7 +1,7 @@
 # Joseph Authentic Voice — Editorial Philosophy
 
-> **상태**: v1.1 (2026-06-29) · Ep.10 voice lock · Joseph × ChatGPT · Cursor 정렬  
-> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
+> **상태**: v1.2 (2026-07-18) · Ep.10 voice lock · **Reader First** 추가 · Joseph × Cursor  
+> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
 > **기준 글 (benchmark)**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Ep.10)
 
 ---
@@ -25,10 +25,45 @@ Ep.10 작업의 수확은 **문체 하나**가 아니라 **편집 철학**이다
 |---|------|------|
 | 1 | **데이터를 존중한다** | manifest·표·수치를 주인공으로 둔다. 감성으로 숫자를 덮지 않는다. |
 | 2 | **사고 과정을 숨기지 않는다** | 처음 생각 → 데이터 재확인 → 판단 변화를 드러낸다. |
-| 3 | **독자가 스스로 판단하도록 돕는다** | 결론만 던지지 않고, 읽는 법·한계·확인 순서를 남긴다. |
+| 3 | **독자가 스스로 판단하도록 돕는다** | 결론만 던지지 않고, 읽는 법·한계·확인 순서를 남긴다. **표현은 Reader First** (아래). |
 | 4 | **사람의 온도는 과장하지 않는다** | 경험담·에세이가 아니라, 데이터를 설명하는 목소리에서 자연스럽게 배어 나온다. |
 
 Ep.10은 「좋은 글」이 아니라 **「기준이 되는 글」**이다. Ep.11~ 모든 KO 초안·보이스 편집본은 Ep.10과 **방향·밀도·독자 난이도**를 비교한다.
+
+---
+
+## Reader First — 표현 층 (v1.2 · 2026-07-18)
+
+> **목표 독해 수준:** 중학생도 따라올 수 있을 만큼 **쉽게**.  
+> **문체:** 지금의 차분한 분석 톤 **유지** (가볍거나 유행어·과장 금지).  
+> **리듬:** 문장은 **짧고 빠르게**. 읽으면서 장면이 그려지게.
+
+분석가가 이해하는 언어가 아니라, **독자가 바로 이해하는 언어**를 쓴다. 깊이와 숫자는 유지하되, 은어·약어로 속도를 끊지 않는다.
+
+### 용어집 (첫 등장 = 한글 설명 · 필요 시 괄호에 기호)
+
+| 쓰지 말 것 (단독) | 독자어 |
+|-------------------|--------|
+| 허브 | **주요 역 주변** |
+| CAGR | **연평균 상승률**(CAGR) — 첫 등장에만 약어 |
+| Yield / 표면 Yield | **임대수익률** (관리비·공실·세금 빼기 전 단순 계산임을 고지) |
+| n&lt;30 / n=45 | **거래 사례가 30건 미만** / **거래 45건** |
+| 구 스톡 | **오래된(노후) 주택** |
+| 별 지도 | **가격이 따로 움직인다** |
+| 이중 구조 | **좋은 곳과  Ordinary 곳의 차이가 크다** |
+| 단가 (단독) | **㎡당 가격** |
+| 성약 (단독) | **실제 거래가** (첫 등장) → 이후 「거래가」 |
+
+지명 한자 병기(`세키도(関戸)`)는 **유지**한다. 문제는 한자가 아니라 **은어**다.
+
+### 문장 체크 (KO PASS 전)
+
+- [ ] 독자가 한 번이라도 멈춰 해석해야 하는 단어가 없는가?
+- [ ] 전문 용어는 **처음 한 번** 쉽게 풀었는가?
+- [ ] 한 문장을 읽고 머릿속에 **그림**이 그려지는가?
+- [ ] 문체가 흔들리지 않았는가? (차분 · 간결 · 스피디)
+
+**금지와 구분:** Reader First ≠ 유치한 말투. Joseph 톤(습니다체·판단 과정 공개)은 그대로 둔다.
 
 ---
 

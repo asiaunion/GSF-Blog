@@ -4,6 +4,14 @@
 
 ---
 
+## [2026-07-18] Cursor — Reader First SSOT + Ep.12 KO 재작성 배포
+
+- Voice v1.2 Reader First + PART_N R5b 고정
+- Ep.12 KO: 중학생 독해·차분 톤·은어 제거 (허브→주요 역 등) · validate PASS
+- 다음: Joseph 라이브 재독 · 네이버 초안 동기화 여부
+
+---
+
 ## [2026-07-18] Cursor — Ep.12 validate·deploy 완료 (AG 토큰 대행)
 
 - **PASS:** `pnpm validate:post` · `verify:episode` · `verify:og-social`
