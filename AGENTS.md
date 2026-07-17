@@ -98,6 +98,14 @@ Joseph가 **`SNS 배포 시작`** / **`SNS 배포`** / **`소셜 배포`** 만 �
 - Voice v1.0 초안 6건 + `validate:sns-draft` exit 0 후 Joseph 승인 요청
 - Buffer·게시는 Joseph 승인 후만
 
+### 네이버 블로그 발행 동기화 (Joseph 한 줄 트리거)
+
+Joseph가 **`네이버 동기화`** / **`네이버 블로그 동기화`** / **`네이버 발행 갱신`** 만 말하면 → **`python3 scripts/sync_naver_published.py`** 즉시 실행.
+
+- 실행 후 `naver-log.json` 및 `naver_post_queue_2026-W29.md`가 업데이트되었는지 확인.
+- 업데이트가 감지되면 자동으로 `git add .` 및 커밋을 생성하고 `git push`하여 원격 저장소와 동기화.
+- 동기화 완료 후 `hub:log --author=AG` 및 GSF-OS sync까지 수행하여 대시보드 동기화 완료.
+
 ---
 
 ## Region Expansion (RE) — 마감·세션 부트 (2026-06-18+)
