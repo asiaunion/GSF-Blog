@@ -3,7 +3,12 @@
 > **Start here (trust · phases · CI):** [`BLOG_TRUST_AND_QUALITY_ROADMAP.md`](./BLOG_TRUST_AND_QUALITY_ROADMAP.md)  
 > **AG 컨텍스트:** 첫 세션 [`AG_CONTEXT_BOOTSTRAP_20260525.md`](./AG_CONTEXT_BOOTSTRAP_20260525.md) · 이후 [`AG_CONTEXT_BOOTSTRAP_SHORT.md`](./AG_CONTEXT_BOOTSTRAP_SHORT.md)
 
-> **원칙**: 글 **작성·초안**은 **Antigravity (AG)**. **발행 직전 검증**은 **Cursor**에서 통과한 뒤 repo에 반영·배포.  
+> **2026-07-17 — 신규 발행 역할 SSOT:** [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md)  
+> Mode **C**(지금): Cursor가 KO · AG는 데이터+Auth 후 파이프. Mode **B/V**: AG KO → Cursor 검증만(졸업=연속 2편 PASS).  
+> GPT 보이스는 **기본 경로 아님**(Joseph 선택). Cursor 토큰 고갈 시에만 Claude 대행.  
+> 아래 Quick reference의 「AG가 KO」는 **Mode B/V 또는 레거시** — Ep.12는 Mode C ([`AG_TASK_EP12_INSTRUCTION.md`](./AG_TASK_EP12_INSTRUCTION.md)).
+
+> **원칙**: 글 **작성·초안**은 모드에 따름(위 SSOT). **발행 직전 검증**은 **Cursor PASS** 필수.  
 > **코드·구현 레이어**: Claude는 기획·브리핑만 — **구현 확정은 Cursor와 티키타카** ([`GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md`](../../GSF-OS/Wiki/Claude_Cursor_Collaboration_Policy.md)).  
 > **요일 고정 없음** · **Telegram 불필요** — 포스트 1편마다 아래 순서만 지키면 됨.
 
@@ -38,7 +43,7 @@ src/data/blog/ja/<slug>.md
 **사고 흐름**: [`REASONING_OS.md`](./REASONING_OS.md) · Wiki [`Reasoning_OS.md`](../../GSF-OS/Wiki/Reasoning_OS.md)  
 **KO vNext (Ep.10+)**: [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · **편집 철학**: [`JOSEPH_AUTHENTIC_VOICE.md`](./JOSEPH_AUTHENTIC_VOICE.md)  
 **기준 글 (benchmark)**: Ep.10 `tokyo-kokubunji-kunitachi-fuchu-tachikawa` — Ep.11~는 구조·톤·난이도를 Ep.10과 비교  
-**파일럿 Ep.10~15**: KO 초안 Cursor → 보이스 편집 (ChatGPT) → Cursor 검증 · AG KO 일시 중단 · [`pilot/hypothesis-layer-pilot-log.md`](./pilot/hypothesis-layer-pilot-log.md)
+**파일럿 Ep.10~15**: KO 초안은 [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) Mode 표 따름 (Ep.12=Mode C Cursor KO). 보이스 GPT는 **선택**. · [`pilot/hypothesis-layer-pilot-log.md`](./pilot/hypothesis-layer-pilot-log.md)
 
 Joseph는 **Data-first Analyst**다. AG는 Research 요약이 아니라 **가설·증거·결론 편집**을 한다.
 

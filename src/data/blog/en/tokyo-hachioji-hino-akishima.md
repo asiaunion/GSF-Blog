@@ -307,7 +307,7 @@ Averages explain the city, but the actual market moves based on neighborhoods. S
 
 ## Coming Up Next
 
-In the next episode, I'll dissect the regions forming the major southern axis of Tama using data. (Ep.12 planned)
+**[Ep.12: Has Tama New Town Really Failed? Machida, Tama City & Inagi](/en/posts/tokyo-machida-tama-inagi/)**
 
 ---
 

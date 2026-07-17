@@ -3165,5 +3165,305 @@
     ],
     "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
     "fetched_at": "2026-07-09"
+  },
+  "町田市": {
+    "ward_avg": 46,
+    "total_count": 300,
+    "est_70sqm": 3220,
+    "stations": [
+      {
+        "station": "原町田",
+        "avg": 68.9,
+        "count": 45,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "小山ヶ丘",
+        "avg": 45.8,
+        "count": 30,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "鶴間",
+        "avg": 63,
+        "count": 27,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "南町田",
+        "avg": 53.5,
+        "count": 26,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "小川",
+        "avg": 53.7,
+        "count": 24,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "鶴川",
+        "avg": 14.8,
+        "count": 19,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "中町",
+        "avg": 64.8,
+        "count": 18,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "森野",
+        "avg": 46,
+        "count": 13,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "南大谷",
+        "avg": 34.1,
+        "count": 13,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "山崎町",
+        "avg": 18.8,
+        "count": 11,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "能ヶ谷",
+        "avg": 44.7,
+        "count": 10,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "三輪緑山",
+        "avg": 27.4,
+        "count": 9,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "忠生",
+        "avg": 26.6,
+        "count": 7,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "本町田",
+        "avg": 16.8,
+        "count": 7,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "藤の台",
+        "avg": 13.6,
+        "count": 6,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-07-17"
+  },
+  "多摩市": {
+    "ward_avg": 42.2,
+    "total_count": 325,
+    "est_70sqm": 2954,
+    "stations": [
+      {
+        "station": "関戸",
+        "avg": 65.1,
+        "count": 50,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "落合",
+        "avg": 41.8,
+        "count": 46,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "鶴牧",
+        "avg": 51.9,
+        "count": 45,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "豊ケ丘",
+        "avg": 20.5,
+        "count": 32,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "諏訪",
+        "avg": 53.5,
+        "count": 32,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "永山",
+        "avg": 33.4,
+        "count": 30,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "貝取",
+        "avg": 27.8,
+        "count": 22,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "連光寺",
+        "avg": 39,
+        "count": 16,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "愛宕",
+        "avg": 21,
+        "count": 14,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "聖ケ丘",
+        "avg": 23.4,
+        "count": 11,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "一ノ宮",
+        "avg": 45.2,
+        "count": 8,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "中沢",
+        "avg": 37.3,
+        "count": 5,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "馬引沢",
+        "avg": 33.8,
+        "count": 4,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "南野",
+        "avg": 25.3,
+        "count": 3,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "乞田",
+        "avg": 37.8,
+        "count": 2,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-07-17"
+  },
+  "稲城市": {
+    "ward_avg": 40.4,
+    "total_count": 106,
+    "est_70sqm": 2828,
+    "stations": [
+      {
+        "station": "向陽台",
+        "avg": 28.8,
+        "count": 23,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "若葉台",
+        "avg": 55,
+        "count": 23,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "東長沼",
+        "avg": 49.7,
+        "count": 18,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "大丸",
+        "avg": 38.8,
+        "count": 13,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "平尾",
+        "avg": 18.1,
+        "count": 12,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "矢野口",
+        "avg": 46.5,
+        "count": 7,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "百村",
+        "avg": 51.2,
+        "count": 6,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "長峰",
+        "avg": 26.2,
+        "count": 2,
+        "min": null,
+        "max": null
+      },
+      {
+        "station": "押立",
+        "avg": 23.9,
+        "count": 2,
+        "min": null,
+        "max": null
+      }
+    ],
+    "source": "MLIT XIT001 成約価格 API [1차 확인] A계층",
+    "fetched_at": "2026-07-17"
   }
 }

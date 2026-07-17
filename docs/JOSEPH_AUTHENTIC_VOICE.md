@@ -74,13 +74,16 @@ EEAT는 감정 서사가 아니라 **어느 층을 읽고 있는지 투명함**�
 
 | | ChatGPT | Cursor |
 |---|---------|--------|
-| 강점 | 구조·브랜드·Joseph 목소리 방향 | 증거·게이트·사실 정합 |
+| 강점 | 구조·브랜드·Joseph 목소리 방향 | 증거·게이트·사실 정합 · **Mode C KO** |
 | 위험 | 허구 1인칭 서사 유도 | 과도한 보수(톤 flat) |
 | 합의 | **판단 과정** 드러내기 | **사실·출처** 분리 유지 |
 
 Ep.10에서 채택: vNext spine + Joseph's View + **허구 현장 금지** + 사고 과정 드러내기.
 
-**워크플로 (KO)**: Cursor 데이터 초안 → ChatGPT 보이스 편집 → `validate:post` → Joseph 최종 OK.
+**워크플로 (KO · 2026-07-17~):** [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md)  
+- **기본 (Mode C):** Cursor가 Voice+§1–4를 KO에 내장 → Joseph Auth → AG 발행 세트.  
+- **GPT:** Joseph가 **명시할 때만** 1회 개선 (기본 경로 아님).  
+- **목표 (Mode V):** Cursor=검증만 · AG=전 과정 — 졸업=Mode B 연속 2편 PASS.
 
 ---
 

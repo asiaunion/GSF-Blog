@@ -4,6 +4,52 @@
 
 ---
 
+## [2026-07-18 00:46 JST] Cursor — Ep.12 EN 이어쓰기 완료 (AG 토큰 고갈 대행)
+
+- **원인:** AG EN 번역 중 토큰 부족 중단 → Cursor §3 예외(토큰 고갈)로 EN 완성·정합
+- **EN:** `src/data/blog/en/tokyo-machida-tama-inagi.md` (`draft: true`) · KO 최종본(도입 숫자·View 여운) 정합 · H2 17섹션 대응
+- **다음 AG:** hero 확인(이미 webp/og 존재) · `pnpm validate:post tokyo-machida-tama-inagi` · `verify:episode` · 프롤로그/Ep.11 링크 · Cursor PASS 요청 → draft:false · deploy · IndexNow · 네이버 · PKM
+- **JA:** 신규 동결 유지 (파일 없음)
+
+---
+
+## [2026-07-18 00:26 JST] Cursor — Ep.12 KO 확정 (Joseph Auth) · AG 인계
+
+- **slug:** `tokyo-machida-tama-inagi`
+- **KO:** `src/data/blog/ko/tokyo-machida-tama-inagi.md` · Joseph Authenticity **OK** (2026-07-18)
+- **Mode C:** Cursor KO 완료 → **AG** EN(직역 금지) · hero/og · validate:post · verify:episode · draft:false · deploy · IndexNow · 네이버 · PKM · 프롤로그/Ep.11 다음편 링크
+- **SSOT:** `docs/AG_TASK_EP12_INSTRUCTION.md` §4 · `docs/PART_N_STABLE_PIPELINE_2026-07.md`
+- **제약:** 稲城 町名 n<30 단가 미인용 · JA 신규 금지 · Cursor PASS 전 prod 금지(자기검증 후 Cursor에 검증 요청)
+
+---
+
+## [2026-07-17 23:30 JST] Cursor — GSC robots.txt /search/ 수정 (배포 대기)
+
+- 증상: GSC「색인이 생성되었으나 robots.txt에 의해 차단됨」1건 — `https://gsfark.com/search/`
+- 원인: HTML은 `noindex, follow`인데 robots `Disallow: /search/`로 크롤 차단 → Google이 noindex를 못 봄
+- 수정: `src/pages/robots.txt.ts`에서 `/search/`·`/tags/`·`/archives/`(locale 포함) Disallow 제거. admin/wp/downloads는 유지
+- **다음:** main merge·prod deploy 후 GSC「수정 결과 확인」클릭. (미커밋 — Joseph/AG 배포 배치에 포함)
+
+---
+
+## [2026-07-17 23:20 JST] Cursor — Part N Stable Pipeline 확정 · Ep.12 Mode C
+
+- SSOT: `docs/PART_N_STABLE_PIPELINE_2026-07.md` (Mode C/B/V · GPT 선택 · Claude=토큰고갈 예외 · 졸업=연속2편)
+- Ep.12 지시: `docs/AG_TASK_EP12_INSTRUCTION.md` · slug `tokyo-machida-tama-inagi`
+- 설계: `docs/superpowers/specs/2026-07-17-part-n-stable-pipeline-design.md`
+- **다음 AG:** Ep.12 Phase 0~2 (MLIT·manifest·Decision Log) → Joseph 승인 → Cursor §1–4·KO
+- **다음 Cursor:** AG 데이터 준비 후 N1/N2 → KO (Mode C)
+
+---
+
+## [2026-07-17 22:50 JST] Cursor — Tier0 네이버 P0(N1) 완료 반영
+
+- Joseph: G1→G2→G3 네이버 HTML 붙여넣기 완료
+- URL: G1 `224349752172` · G2 `224349753801` · G3 `224349747832` (`naver_post_queue_2026-W29.md` 동기)
+- OPEN_QUEUE N1 → done · STATUS Tier0 **done** · 다음 = Tier1 #1 §1–4
+
+---
+
 ## [2026-07-17 22:05 JST] Cursor — Open Queue 상기 체계 (Joseph 요청)
 
 - **요청:** Tier 1 #1–#10 등 후속 작업을 잊지 않게 Cursor가 관리·주지
@@ -765,5 +811,33 @@
   3. 추출한 CTA 링크의 슬러그와 로컬 `generated` 데이터의 슬러그를 매치시켜 100% 결정적(Deterministic)으로 매핑 완료 및 기록 갱신
 - 남은 네이버 포스트: 39개
 
+---
 
+## [2026-07-17 23:51 JST] AG — Ep.12 Phase 0 (데이터 착수) 완료
+
+- 작업 내용: Ep.12 tokyo-machida-tama-inagi MLIT 전체 파이프라인 실행 및 decision-log 작성
+- 파이프라인 결과:
+  - merge-mlit-price-to-pkm ✅ (캐시 히트)
+  - sync-mlit-pkm-to-ark ✅
+  - sync-mlit-to-benchmarks ✅
+  - sync-suumo-to-benchmarks ✅ (町田·多摩·稲城 3시 merge)
+  - mlit-price-series (2015–2025) ✅
+  - mlit-trade-price-series (2005–2025) ✅
+  - mlit-land-price-series (2005–2026) ✅
+  - ward 분석 스크립트 3시 실행 (Unknown ward 경고 — 다마 지역 공통, Ep.10·11과 동일)
+  - render-ward-dossier ✅ (PKM 町田市·多摩市·稲城市.md 저장)
+  - render-episode-research-pack ✅
+  - scaffold-episode-manifest ✅ (27 claims)
+- 산출물:
+  - research-pack: `docs/verification/research-packs/tokyo-machida-tama-inagi.md`
+  - manifest: `docs/verification/manifests/ep12-tokyo-machida-tama-inagi.manifest.json` (미승인)
+  - decision-log: `.blog-agent-stage/tokyo-machida-tama-inagi/decision-log.md`
+- 핵심 데이터:
+  - 町田市 46万/㎡ (n=300, CAGR 6%, 1R 8.9万, Yield ~3.3%)
+  - 多摩市 42.2万/㎡ (n=325, CAGR 6.2%, 1R 8.1万, Yield ~3.3%, 인구 -5.9%)
+  - 稲城市 40.4万/㎡ (n=106, CAGR 1.4%, 1R 7.9万, Yield ~3.4%, 인구 +6.2%)
+  - ⚠️ 稲城市 전 町名 n<30 — 수치 인용 금지
+- 다음: Cursor N1 SERP → Tiki-taka T1~T3 → Joseph 가설 승인 → KO 초안
+- Claude 부재 여부: 예 (AG 단독)
+- 특이사항: analyze:episode --write 직접 실행 시 5분+ hang (스크립트 순서 문제). 개별 스크립트 순차 실행으로 우회.
 

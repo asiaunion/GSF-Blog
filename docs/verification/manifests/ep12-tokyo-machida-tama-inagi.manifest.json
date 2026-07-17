@@ -1,0 +1,437 @@
+{
+  "episode": "ep12",
+  "slug": "tokyo-machida-tama-inagi",
+  "created_at": "2026-07-17",
+  "updated_at": "2026-07-17",
+  "gates": {
+    "c_tier_capture_requested": false,
+    "manifest_approved_by": "Joseph",
+    "manifest_approved_at": "2026-07-18",
+    "draft_started": true,
+    "cursor_audit_passed": true,
+    "cursor_audit_at": "2026-07-18",
+    "joseph_final_approved": true
+  },
+  "claims": [
+    {
+      "id": "MLIT-machida-70",
+      "label": "町田市 70㎡ 성약가",
+      "value": 3220,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "町田市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-machida-1R",
+      "label": "町田市 SUUMO 1R",
+      "value": 8.9,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_machida/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_machida-20260717.html",
+        "snippet": "8.9万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-machida-TOP",
+      "label": "町田市 최다 승하차 역 (町田)",
+      "value": 451092,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.町田市.top_passengers"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "POP-machida-2040",
+      "label": "町田市 인구 2020→2040 변화율",
+      "value": -2.8,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.町田市.change_pct",
+        "mesh_count": 1542,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-machida-CAGR",
+      "label": "町田市 맨션 成約 ㎡단가 CAGR",
+      "value": 6,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.町田市.cagr_full",
+        "count": 300,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-machida-CAGR10",
+      "label": "町田市 不動産取引価格 10년 CAGR (보조)",
+      "value": 5.1,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.町田市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-machida-CAGR10",
+      "label": "町田市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 3.4,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.町田市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-machida-1R",
+      "label": "町田市 세전 표면 yield proxy (1R)",
+      "value": 3.3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "user_capture",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit",
+        "capture_by": "user",
+        "note": "Surface yield from MLIT 70㎡ + SUUMO 1R snapshot; not primary narrative"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-machida-SUM",
+      "label": "町田市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.町田市"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-tama-70",
+      "label": "多摩市 70㎡ 성약가",
+      "value": 2954,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "多摩市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-tama-1R",
+      "label": "多摩市 SUUMO 1R",
+      "value": 8.1,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_tama/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_tama-20260717.html",
+        "snippet": "8.1万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-tama-TOP",
+      "label": "多摩市 최다 승하차 역 (京王多摩センター)",
+      "value": 77670,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.多摩市.top_passengers"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "POP-tama-2040",
+      "label": "多摩市 인구 2020→2040 변화율",
+      "value": -5.9,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.多摩市.change_pct",
+        "mesh_count": 421,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-tama-CAGR",
+      "label": "多摩市 맨션 成約 ㎡단가 CAGR",
+      "value": 6.2,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.多摩市.cagr_full",
+        "count": 325,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-tama-CAGR10",
+      "label": "多摩市 不動産取引価格 10년 CAGR (보조)",
+      "value": 7.9,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.多摩市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-tama-CAGR10",
+      "label": "多摩市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 3.1,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.多摩市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-tama-1R",
+      "label": "多摩市 세전 표면 yield proxy (1R)",
+      "value": 3.3,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "user_capture",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit",
+        "capture_by": "user",
+        "note": "Surface yield from MLIT 70㎡ + SUUMO 1R snapshot; not primary narrative"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-tama-SUM",
+      "label": "多摩市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.多摩市"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "MLIT-inagi-70",
+      "label": "稲城市 70㎡ 성약가",
+      "value": 2828,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "json_lookup",
+      "evidence": {
+        "json_path": "稲城市.est_70sqm"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-inagi-1R",
+      "label": "稲城市 SUUMO 1R",
+      "value": 7.9,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_inagi/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_inagi-20260717.html",
+        "snippet": "7.9万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-inagi-TOP",
+      "label": "稲城市 최다 승하차 역 (稲城)",
+      "value": 19086,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.稲城市.top_passengers"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "POP-inagi-2040",
+      "label": "稲城市 인구 2020→2040 변화율",
+      "value": 6.2,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.稲城市.change_pct",
+        "mesh_count": 392,
+        "mesh_coverage_warning": false
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TIMESERIES-inagi-CAGR",
+      "label": "稲城市 맨션 成約 ㎡단가 CAGR",
+      "value": 1.4,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_timeseries.wards.稲城市.cagr_full",
+        "count": 106,
+        "span_years": 4
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "TRADE-inagi-CAGR10",
+      "label": "稲城市 不動産取引価格 10년 CAGR (보조)",
+      "value": 3.9,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_trade_price_timeseries.wards.稲城市",
+        "note": "取引価格(01) — 成約価格과 혼용 금지"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "LANDTS-inagi-CAGR10",
+      "label": "稲城市 地価公示ポイント 10년 CAGR (보조)",
+      "value": 2.2,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "land_price_timeseries.wards.稲城市",
+        "note": "XPT002 타일 샘플 평균 (円/㎡)"
+      },
+      "footnote_required": true,
+      "used_in_draft": false
+    },
+    {
+      "id": "YIELD-inagi-1R",
+      "label": "稲城市 세전 표면 yield proxy (1R)",
+      "value": 3.4,
+      "unit": "%",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "user_capture",
+      "evidence": {
+        "benchmark": "derived:suumo+mlit",
+        "capture_by": "user",
+        "note": "Surface yield from MLIT 70㎡ + SUUMO 1R snapshot; not primary narrative"
+      },
+      "used_in_draft": false
+    },
+    {
+      "id": "DISASTER-inagi-SUM",
+      "label": "稲城市 MLIT 재해 타일 샘플",
+      "value": 1,
+      "unit": "flag",
+      "tier": "secondary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "disaster_risk.wards.稲城市"
+      },
+      "used_in_draft": false
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-machida-VS-CHUO",
+      "label": "町田市 vs 中央区 가격 비율",
+      "formula": "3220 / 12677 * 100",
+      "expected": 25.4,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-tama-VS-CHUO",
+      "label": "多摩市 vs 中央区 가격 비율",
+      "formula": "2954 / 12677 * 100",
+      "expected": 23.3,
+      "unit": "%",
+      "tolerance": 0.5
+    },
+    {
+      "id": "PCT-inagi-VS-CHUO",
+      "label": "稲城市 vs 中央区 가격 비율",
+      "formula": "2828 / 12677 * 100",
+      "expected": 22.3,
+      "unit": "%",
+      "tolerance": 0.5
+    }
+  ],
+  "c_tier_capture_requests": []
+}

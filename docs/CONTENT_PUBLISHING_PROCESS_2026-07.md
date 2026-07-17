@@ -5,6 +5,7 @@
 > **상태**: 🟢 **Cursor 확정** (2026-07-17) — Joseph 전달·검증 PASS · **§F.3** · **v2.2 잠금수정 반영**  
 > **SSOT 상위**: [`ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](./ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) · [`SEO_SPRINT_PROPOSAL_2026-07.md`](./SEO_SPRINT_PROPOSAL_2026-07.md) §10 · [`CONTENT_SEO_STRATEGY_2026-07.md`](./CONTENT_SEO_STRATEGY_2026-07.md) (§F.2) · Cursor §F/§F.2/§F.3  
 > **글쓰기 실행**: [`SEO_WRITING_GUIDE_2026-07.md`](./SEO_WRITING_GUIDE_2026-07.md)  
+> **신규 실행·역할·Mode C/B/V:** [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) ← Ep.12+ 운영 SSOT  
 > **관계**: 원고 품질 파이프라인(Phase 0–4A: 데이터→티키타카→가설→원고)은 [`JOSEPH_AUTHOR_OPS.md`](./JOSEPH_AUTHOR_OPS.md)가 계속 SSOT다. 본 문서는 그 **앞**(쿼리 층)과 **뒤**(발행 후 세트·채널·측정)를 붙이고, refresh 트랙을 병렬로 정의한다.
 
 ---
@@ -113,6 +114,9 @@
 ---
 
 ## Part N — 신규 포스트 파이프라인 (비중 방향 refresh>신규 · 편수 FLEX · KO+EN만)
+
+> **역할·Mode·루브릭 실행 SSOT (2026-07-17~):** [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md)  
+> 아래 N0–N7은 단계 정의. **누가 KO를 쓰는가**는 Stable Pipeline Mode 표를 따른다 (Ep.12=Mode C Cursor).
 
 ```
 N0 주간 쿼리 배치 → N1 SERP 정찰 → N2 쿼리·골격 확정 → N3 발행 게이트

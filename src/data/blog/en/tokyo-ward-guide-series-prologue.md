@@ -85,11 +85,12 @@ I'm also planning separate series using price-band and transit-line frameworks. 
 | **[Ep.8](/posts/tokyo-adachi-katsushika-edogawa/)** | East Side Story | Adachi · Katsushika · Edogawa |
 | **[Ep.9](/posts/tokyo-musashino-mitaka-chofu/)** | Tama Premium Cluster | Musashino · Mitaka · Chofu |
 | **[Ep.10](/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)** | Tama Education & Culture Belt | Kokubunji · Kunitachi · Fuchu · Tachikawa |
-| **Ep.11** | Tama Outer Value Zone *(upcoming)* | Hachioji · Machida · Tama · Inagi, etc. |
+| **[Ep.11](/posts/tokyo-hachioji-hino-akishima/)** | Western Tama — The Average Trap | Hachioji · Hino · Akishima |
+| **[Ep.12](/posts/tokyo-machida-tama-inagi/)** | Southern New Town Belt | Machida · Tama City · Inagi |
 
 </div>
 
-Ep.1–Ep.10 are published. Ep.11 will be linked here when it goes live.
+Ep.1–Ep.12 are published.
 
 ---
 
@@ -198,8 +199,16 @@ Kichijoji brand power with workable CBD commutes. Housing, schools, and price po
 
 University towns and Tachikawa redevelopment in one belt — including how prices per ㎡ diverge sharply by neighborhood within the same city.
 
-## ▶ Ep.11 — Tama Outer Value Zone *(upcoming)*
+## ▶ Ep.11 — Western Tama — The Average Trap
 
-Hachioji, Machida, Tama, Inagi, and the outer Tama fringe. Links will be added here and in the table above when published.
+**[The Real Housing Prices of Western Tama Hidden Behind Averages: Hachioji, Hino, and Akishima](/posts/tokyo-hachioji-hino-akishima/)** — Published
+
+City averages hide a dual structure of station-area premiums and outer neighborhoods — examined through Hachioji, Hino, and Akishima.
+
+## ▶ Ep.12 — Southern New Town Belt
+
+**[Has Tama New Town Really Failed? Machida, Tama City & Inagi](/posts/tokyo-machida-tama-inagi/)** — Published
+
+We test the uniform failure narrative against neighborhood-level transaction prices — hub premiums and dual location structures.
 
 ---
