@@ -1,6 +1,8 @@
 ---
+import { getEntry } from "astro:content";
 import { getUi, type UiLang } from "@/i18n/ui";
 import { getLangUrl } from "@/utils/getLangUrl";
+import { parseLocalizedPath, type AppLocale } from "@/utils/hreflang";
 
 type Props = { uiLang: UiLang; pathname: string; locale: string | undefined };
 const { uiLang, pathname, locale } = Astro.props as Props;
@@ -8,6 +10,26 @@ const L = getUi(uiLang);
 const currentLang = uiLang;
 
 const langUrl = (target: string) => getLangUrl(target, pathname, locale);
+
+const ALL_LANGS: AppLocale[] = ["en", "ko", "ja"];
+let availableLangs: AppLocale[] = ALL_LANGS;
+const { pathWithoutLocale } = parseLocalizedPath(pathname);
+const postMatch = pathWithoutLocale.match(/^\/posts\/([^/]+)\/?$/);
+if (postMatch) {
+  const slug = postMatch[1];
+  const found: AppLocale[] = [];
+  for (const loc of ALL_LANGS) {
+    const entry = await getEntry("blog", `${loc}/${slug}`);
+    if (entry && !entry.data.draft) found.push(loc);
+  }
+  if (found.length > 0) availableLangs = found;
+}
+
+const labels: Record<AppLocale, string> = {
+  en: L.langBannerEn,
+  ko: L.langBannerKo,
+  ja: L.langBannerJa,
+};
 ---
 
 <div
@@ -15,32 +37,20 @@ const langUrl = (target: string) => getLangUrl(target, pathname, locale);
   class="w-full border-b border-border bg-background py-1.5 text-sm"
 >
   <div class="app-layout flex items-center justify-end gap-1">
-    <a
-      href={langUrl("en")}
-      class:list={[
-        "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
-        currentLang === "en"
-          ? "font-bold text-accent border border-accent"
-          : "text-foreground/60",
-      ]}
-    >{L.langBannerEn}</a>
-    <a
-      href={langUrl("ko")}
-      class:list={[
-        "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
-        currentLang === "ko"
-          ? "font-bold text-accent border border-accent"
-          : "text-foreground/60",
-      ]}
-    >{L.langBannerKo}</a>
-    <a
-      href={langUrl("ja")}
-      class:list={[
-        "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
-        currentLang === "ja"
-          ? "font-bold text-accent border border-accent"
-          : "text-foreground/60",
-      ]}
-    >{L.langBannerJa}</a>
+    {
+      availableLangs.map(lang => (
+        <a
+          href={langUrl(lang)}
+          class:list={[
+            "px-2.5 py-1 rounded-sm transition-colors hover:text-accent text-xs font-medium",
+            currentLang === lang
+              ? "font-bold text-accent border border-accent"
+              : "text-foreground/60",
+          ]}
+        >
+          {labels[lang]}
+        </a>
+      ))
+    }
   </div>
 </div>
