@@ -14,16 +14,10 @@ Disallow: /wp-content/
 Disallow: /wp-json/
 Disallow: /wp-login.php
 
-# Thin / utility listings (noindex in HTML) — save crawl budget for posts & topics
-Disallow: /tags/
-Disallow: /ko/tags/
-Disallow: /ja/tags/
-Disallow: /archives/
-Disallow: /ko/archives/
-Disallow: /ja/archives/
-Disallow: /search/
-Disallow: /ko/search/
-Disallow: /ja/search/
+# Thin / utility pages (search, tags, archives) — DO NOT Disallow here.
+# They already send meta robots noindex. Blocking crawl caused GSC
+# "Indexed, though blocked by robots.txt" (/search/ 2026-07). Google must
+# be able to fetch the HTML to honor noindex and drop the URL from the index.
 
 # Newsletter download assets + raw source files — not search landing pages
 Disallow: /downloads/
