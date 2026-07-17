@@ -4,6 +4,17 @@
 
 ---
 
+## [2026-07-17 22:05 JST] Cursor — Open Queue 상기 체계 (Joseph 요청)
+
+- **요청:** Tier 1 #1–#10 등 후속 작업을 잊지 않게 Cursor가 관리·주지
+- **SSOT:** `docs/s14-sprint/OPEN_QUEUE.md` (P0 네이버 Tier0 · P1 Tier1 · P2 Gate A)
+- **규칙:** `.cursor/rules/gsf-ark-open-queue-remind.mdc` + workspace `gsf-ark-open-queue-remind.mdc` + ACTIVITY_LOG 부트 §6
+- **다음 1순위:** Tier 0 네이버 HTML (G1→G2→G3) 붙여넣기
+- **다음 2순위:** Tier 1 `#1` `japan-shinchiku-vs-chuko-mansion-investor-guide` §1–4
+- **캘린더:** Gate 표면 대량 동결 ≈ 2026-07-29 · Gate A 판정 ≈ 2026-08-12
+
+---
+
 ## [2026-07-06 15:24 JST] Cursor — textlint Wave 0–7 완료 · 백로그 저장 (Joseph 보류)
 - **완료:** JA textlint Wave 0–7 prod (`736685b`) — `lint:ja-textlint` 0 · build 1876 PASS
 - **일시 중단:** Joseph — 남은 과제 미결 백로그로 저장, 추후 재개
@@ -741,4 +752,24 @@
   - G1-G3 EN 저자명을 `Joseph KIM`으로 명시하여 EEAT 강화 완료.
   - 리포지토리 빌드 `pnpm build` 및 3개 포스트 검증 (`pnpm validate:post` PASS) 최종 검사 완료.
   - GSF-OS Wiki에 `GSF_Ark_EN_Translation_Style_Guide.md`를 추가 및 AI Boot Map에 등록하여 향후 번역에 상시 준수되도록 자산화(Commit & Push) 완료.
+
+## [2026-07-17 22:45 JST] AG 작업 완료 (네이버 블로그 발행완료 반영)
+- 작업 내용: Joseph님이 완료한 네이버 블로그 포스팅 11건 발행 반영
+- 관련 파일:
+  - `naver-drafts/naver-log.json` (published 목록 11건 등록 완료)
+  - `docs/gsc/naver_post_queue_2026-W29.md` (완료 상태 및 네이버 URL 매핑 반영)
+- 상세 목록:
+  1. 왜 저는 니혼바시를 선택했을까요 (224341323356)
+  2. 따뜻한 투자의 미학 (224340898080)
+  3. 역대급 엔저 시대, 한일 자산 배분 전략 (224342270828)
+  4. 도쿄의 아침을 여는 두 개의 심장: 쓰키지와 도요스 (224343346846)
+  5. 쓰키지, 도쿄의 마지막 공터가 바뀌고 있다 (224345500406)
+  6. 일본 교통 패스, 도쿄와 요코하마, 후지산까지 (224347306456)
+  7. 신축 vs 구축 맨션, 무엇을 살 것인가 (224349002310)
+  8. 한일 상속·증여세 무한책임의 함정 (224349006356)
+  9. 서명하기 전에: 도쿄 부동산 매수 체크리스트 (224349747832)
+  10. 일본에서 집을 사며 가장 놀랐던 것들 (224349752172)
+  11. 코레도 니혼바시·무로마치가 잇는 것 (224349753801)
+- 남은 네이버 포스트: 39개
+
 

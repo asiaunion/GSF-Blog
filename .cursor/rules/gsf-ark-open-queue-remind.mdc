@@ -1,0 +1,21 @@
+---
+description: GSF-Ark — Tier0 네이버·Tier1 #1–#10·Gate A 창을 세션마다 Joseph에게 상기
+alwaysApply: true
+---
+
+# GSF-Ark Open Queue reminders (Cursor)
+
+**SSOT:** `docs/s14-sprint/OPEN_QUEUE.md`  
+(AdSense **승인 후** 과제는 별도 `docs/DEFERRED_AFTER_ADSENSE.md`)
+
+## When to remind
+
+1. **부트** — GSF-Ark 관련 세션 시작 시 `OPEN_QUEUE.md`를 읽고, `status: open` 중 **P0 1줄 + P1 다음 slug 1건**을 Joseph에게 짧게 알린다.
+2. **질문** — Joseph가 「다음」「뭐하지」「백로그」「Tier 1」「네이버」「Gate」를 말하면 이 큐로 답한다.
+3. **종료** — `세션 종료` / `마무리` / `reflect` 등 종료 맥락이면 open 잔여를 **한 줄** 다시 상기한다.
+4. **완료 시** — 해당 ID/`#`를 `done`으로 바꾸고 `STATUS.md`·`hub:log --author=Cursor`까지.
+
+## Do not
+
+- 본문 전면 재작성 · slug 변경 · Gate 전 AdSense 재신청 · ~07-29 이후 **대량** 표면 변경을 큐 진행으로 정당화하지 말 것.
+- 채팅만으로 “나중에 할게요”로 끝내고 큐를 갱신하지 않은 채 넘기지 말 것.

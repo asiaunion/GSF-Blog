@@ -1,5 +1,94 @@
 {
-  "published": [],
+  "published": [
+    {
+      "slug": "why-warm-investing-holds",
+      "title": "따뜻한 투자의 미학: 숫자의 냉기와 사람의 온도가 만나는 지점",
+      "published_at": "2026-07-17T22:43:22.827504+09:00",
+      "html_file": "why-warm-investing-holds-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/why-warm-investing-holds/",
+      "naver_url": "https://blog.naver.com/gsfark/224340898080"
+    },
+    {
+      "slug": "why-i-chose-nihonbashi",
+      "title": "왜 저는 니혼바시를 선택했을까요",
+      "published_at": "2026-07-17T22:43:22.827667+09:00",
+      "html_file": "why-i-chose-nihonbashi-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/why-i-chose-nihonbashi/",
+      "naver_url": "https://blog.naver.com/gsfark/224341323356"
+    },
+    {
+      "slug": "weak-yen-korean-japan-asset-allocation-fx-scenarios",
+      "title": "역대급 엔저 시대, 한일 자산 배분 전략과 3가지 FX 시나리오 2026",
+      "published_at": "2026-07-17T22:43:22.827675+09:00",
+      "html_file": "weak-yen-korean-japan-asset-allocation-fx-scenarios-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/weak-yen-korean-japan-asset-allocation-fx-scenarios/",
+      "naver_url": "https://blog.naver.com/gsfark/224342270828"
+    },
+    {
+      "slug": "tsukiji-to-toyosu-morning-tokyo",
+      "title": "도쿄의 아침을 여는 두 개의 심장: 쓰키지와 도요스, 2026년의 변화",
+      "published_at": "2026-07-17T22:43:22.827679+09:00",
+      "html_file": "tsukiji-to-toyosu-morning-tokyo-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tsukiji-to-toyosu-morning-tokyo/",
+      "naver_url": "https://blog.naver.com/gsfark/224343346846"
+    },
+    {
+      "slug": "tsukiji-last-empty-lot-redevelopment",
+      "title": "쓰키지, 도쿄의 마지막 공터가 바뀌고 있다",
+      "published_at": "2026-07-17T22:43:22.827682+09:00",
+      "html_file": "tsukiji-last-empty-lot-redevelopment-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tsukiji-last-empty-lot-redevelopment/",
+      "naver_url": "https://blog.naver.com/gsfark/224345500406"
+    },
+    {
+      "slug": "tokyo-yokohama-fuji-transport-pass",
+      "title": "일본 교통 패스, 도쿄와 요코하마, 후지산까지 한번에",
+      "published_at": "2026-07-17T22:43:22.827686+09:00",
+      "html_file": "tokyo-yokohama-fuji-transport-pass-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-yokohama-fuji-transport-pass/",
+      "naver_url": "https://blog.naver.com/gsfark/224347306456"
+    },
+    {
+      "slug": "japan-shinchiku-vs-chuko-mansion-investor-guide",
+      "title": "신축 vs 구축 맨션, 무엇을 살 것인가 — 2026년 투자자 관점 완전 비교",
+      "published_at": "2026-07-17T22:43:22.827689+09:00",
+      "html_file": "japan-shinchiku-vs-chuko-mansion-investor-guide-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/japan-shinchiku-vs-chuko-mansion-investor-guide/",
+      "naver_url": "https://blog.naver.com/gsfark/224349002310"
+    },
+    {
+      "slug": "korea-japan-inheritance-gift-tax-cross-border-basics",
+      "title": "한일 상속·증여세 무한책임의 함정: 10년의 규칙과 절세 시나리오",
+      "published_at": "2026-07-17T22:43:22.827693+09:00",
+      "html_file": "korea-japan-inheritance-gift-tax-cross-border-basics-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/korea-japan-inheritance-gift-tax-cross-border-basics/",
+      "naver_url": "https://blog.naver.com/gsfark/224349006356"
+    },
+    {
+      "slug": "buying-property-japan-checklist-before-you-commit",
+      "title": "서명하기 전에: 도쿄 부동산 매수 체크리스트",
+      "published_at": "2026-07-17T22:43:22.827696+09:00",
+      "html_file": "buying-property-japan-checklist-before-you-commit-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/",
+      "naver_url": "https://blog.naver.com/gsfark/224349747832"
+    },
+    {
+      "slug": "buying-property-japan-surprises-foreign-investor",
+      "title": "일본에서 집을 사며 가장 놀랐던 것들",
+      "published_at": "2026-07-17T22:43:22.827699+09:00",
+      "html_file": "buying-property-japan-surprises-foreign-investor-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/buying-property-japan-surprises-foreign-investor/",
+      "naver_url": "https://blog.naver.com/gsfark/224349752172"
+    },
+    {
+      "slug": "coredo-nihonbashi-mitsui-redevelopment",
+      "title": "코레도 니혼바시·무로마치가 잇는 것: 미쓰이 그룹과 니혼바시 재생의 ‘다리’",
+      "published_at": "2026-07-17T22:43:22.827702+09:00",
+      "html_file": "coredo-nihonbashi-mitsui-redevelopment-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/coredo-nihonbashi-mitsui-redevelopment/",
+      "naver_url": "https://blog.naver.com/gsfark/224349753801"
+    }
+  ],
   "pending_slugs": [],
   "generated": [
     {

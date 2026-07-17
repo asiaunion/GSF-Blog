@@ -5,12 +5,14 @@ alwaysApply: true
 
 # GSF-Ark deferred backlog (Cursor)
 
-SSOT: `docs/DEFERRED_AFTER_ADSENSE.md`
+SSOT (AdSense **승인 후**): `docs/DEFERRED_AFTER_ADSENSE.md`  
+SSOT (Gate **전** §1–4 / 네이버 / Tier1): `docs/s14-sprint/OPEN_QUEUE.md`
 
 On GSF-Ark work:
 
-1. Read that file for `status: open` items.
-2. Do **not** start P0–P2 bulk content/schema work while AdSense review is pending, unless Joseph explicitly exempts.
-3. When Joseph mentions AdSense approval or “후속 과제”, propose work from that backlog in priority order (P0 → P1 → P2).
-4. On completing an item: set `status: done` in the file, append the completion log table, and `hub:log --author=Cursor`.
-5. Owner of the backlog is **Cursor** (not Claude/AG alone). AG tasks must cite backlog IDs (e.g. `A1`, `B1`).
+1. Always read **OPEN_QUEUE** for pre-Gate items; remind Joseph of open P0/P1 (see `gsf-ark-open-queue-remind.mdc`).
+2. Read **DEFERRED_AFTER_ADSENSE** for `status: open` post-approval items.
+3. Do **not** start P0–P2 bulk content/schema work in DEFERRED while AdSense review is pending, unless Joseph explicitly exempts.
+4. When Joseph mentions AdSense approval or “후속 과제”, propose work from DEFERRED in priority order (P0 → P1 → P2).
+5. On completing an item: set `status: done` in the owning file, append completion log if any, and `hub:log --author=Cursor`.
+6. Owner of both backlogs is **Cursor** (not Claude/AG alone). AG tasks must cite IDs (e.g. `A1`, `N1`, `#1`).
