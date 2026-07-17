@@ -87,6 +87,30 @@
       "html_file": "coredo-nihonbashi-mitsui-redevelopment-naver.html",
       "canonical": "https://gsfark.com/ko/posts/coredo-nihonbashi-mitsui-redevelopment/",
       "naver_url": "https://blog.naver.com/gsfark/224349753801"
+    },
+    {
+      "slug": "tokyo-shinagawa-ota",
+      "title": "오타구 아파트 시세는 저렴한가 — 시나가와와 가격 비교 [2026]",
+      "published_at": "2026-07-17T22:46:28.520140+09:00",
+      "html_file": "tokyo-shinagawa-ota-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-shinagawa-ota/",
+      "naver_url": "https://blog.naver.com/gsfark/224349753801"
+    },
+    {
+      "slug": "tokyo-meguro-setagaya",
+      "title": "세타가야구 부촌은 어디인가 — 세이조·메구로 집값과 주거 환경 비교 [2026]",
+      "published_at": "2026-07-17T22:46:28.520173+09:00",
+      "html_file": "tokyo-meguro-setagaya-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-meguro-setagaya/",
+      "naver_url": "https://blog.naver.com/gsfark/224349752172"
+    },
+    {
+      "slug": "tokyo-ward-guide-series-prologue",
+      "title": "도쿄 23구 특징 비교 — 구별 집값과 거주 환경 한눈에 [2026]",
+      "published_at": "2026-07-17T22:46:28.520189+09:00",
+      "html_file": "tokyo-ward-guide-series-prologue-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-ward-guide-series-prologue/",
+      "naver_url": "https://blog.naver.com/gsfark/224349747832"
     }
   ],
   "pending_slugs": [],
