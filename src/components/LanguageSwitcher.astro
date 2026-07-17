@@ -1,5 +1,7 @@
 ---
+import { getEntry } from "astro:content";
 import { getLangUrl as _getLangUrl } from "@/utils/getLangUrl";
+import { parseLocalizedPath, type AppLocale } from "@/utils/hreflang";
 import type { UiLang } from "@/i18n/ui";
 
 type Props = { uiLang?: UiLang; mobileId?: string };
@@ -15,8 +17,28 @@ const currentLang: UiLang =
 const getLangUrl = (targetLang: string) =>
   _getLangUrl(targetLang, pathname, locale);
 
-// id suffix: 모바일 인스턴스는 "-mobile", 데스크탑은 ""
 const suffix = mobileId ? `-${mobileId}` : "";
+
+/** On blog posts, only offer locales that have a published entry (avoids JA 404 on KO/EN-only posts). */
+const ALL_LANGS: AppLocale[] = ["en", "ko", "ja"];
+let availableLangs: AppLocale[] = ALL_LANGS;
+const { pathWithoutLocale } = parseLocalizedPath(pathname);
+const postMatch = pathWithoutLocale.match(/^\/posts\/([^/]+)\/?$/);
+if (postMatch) {
+  const slug = postMatch[1];
+  const found: AppLocale[] = [];
+  for (const loc of ALL_LANGS) {
+    const entry = await getEntry("blog", `${loc}/${slug}`);
+    if (entry && !entry.data.draft) found.push(loc);
+  }
+  if (found.length > 0) availableLangs = found;
+}
+
+const langMeta: Record<AppLocale, { flag: string; label: string }> = {
+  en: { flag: "🇺🇸", label: "EN" },
+  ko: { flag: "🇰🇷", label: "KO" },
+  ja: { flag: "🇯🇵", label: "JA" },
+};
 ---
 
 <div class="relative inline-block text-left ml-2 sm:ml-4">
@@ -27,13 +49,7 @@ const suffix = mobileId ? `-${mobileId}` : "";
     aria-expanded="false"
     aria-haspopup="true"
   >
-    <span>
-      {currentLang === "en"
-        ? "🇺🇸"
-        : currentLang === "ko"
-          ? "🇰🇷"
-          : "🇯🇵"}
-    </span>
+    <span>{langMeta[currentLang as AppLocale]?.flag ?? "🇺🇸"}</span>
     <span class="text-sm">{currentLang.toUpperCase()}</span>
     <svg
       class="h-4 w-4 opacity-70"
@@ -59,33 +75,25 @@ const suffix = mobileId ? `-${mobileId}` : "";
     tabindex="-1"
   >
     <div class="py-1" role="none">
-      <a
-        href={getLangUrl("en")}
-        class:list={[
-          "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
-          currentLang === "en" ? "font-bold text-accent" : "",
-        ]}
-        role="menuitem">🇺🇸 EN</a>
-      <a
-        href={getLangUrl("ko")}
-        class:list={[
-          "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
-          currentLang === "ko" ? "font-bold text-accent" : "",
-        ]}
-        role="menuitem">🇰🇷 KO</a>
-      <a
-        href={getLangUrl("ja")}
-        class:list={[
-          "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
-          currentLang === "ja" ? "font-bold text-accent" : "",
-        ]}
-        role="menuitem">🇯🇵 JA</a>
+      {
+        availableLangs.map(lang => (
+          <a
+            href={getLangUrl(lang)}
+            class:list={[
+              "block px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800",
+              currentLang === lang ? "font-bold text-accent" : "",
+            ]}
+            role="menuitem"
+          >
+            {langMeta[lang].flag} {langMeta[lang].label}
+          </a>
+        ))
+      }
     </div>
   </div>
 </div>
 
 <script>
-  // 외부 클릭 핸들러: 모듈 최상단 1회만 등록 (astro:after-swap에서 재등록 안 됨)
   document.addEventListener("click", () => {
     document.querySelectorAll("[id^='lang-dropdown']").forEach((dd) => {
       dd.classList.add("hidden");
@@ -101,7 +109,6 @@ const suffix = mobileId ? `-${mobileId}` : "";
       const dropdown = document.getElementById(`lang-dropdown${suffix}`);
       if (!dropdown) return;
 
-      // cloneNode로 기존 리스너 초기화 후 재등록
       const newBtn = oldBtn.cloneNode(true) as HTMLElement;
       oldBtn.replaceWith(newBtn);
 
