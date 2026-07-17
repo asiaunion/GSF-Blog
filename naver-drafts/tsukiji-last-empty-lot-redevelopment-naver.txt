@@ -8,7 +8,7 @@
 
 ## 붙여넣기 절차
 1. blog.naver.com/gsfark → 글쓰기
-2. 에디터 우측 상단 'HTML' 버튼 클릭
-3. tsukiji-last-empty-lot-redevelopment-naver.html 내용 전체 붙여넣기
+2. 크롬 등 브라우저에서 해당 html 파일을 열기
+3. 브라우저 화면에 보이는 내용 전체(Cmd+A)를 복사하여 네이버 에디터 본문에 붙여넣기
 4. 제목 입력: 쓰키지, 도쿄의 마지막 공터가 바뀌고 있다
 5. 카테고리 선택 후 발행
