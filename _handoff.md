@@ -731,9 +731,9 @@
 - 작업 내용: G1·G2·G3 EN R4 번역 가이드라인(v1.0 & Final Pass) 반영 완료 및 메인 브랜치 병합 배포
 - 커밋 해시: b363890 (main merge & push 완료)
 - 배포 URL:
-  - G1 EN: https://gsfark.com/en/posts/tokyo-meguro-setagaya/
-  - G2 EN: https://gsfark.com/en/posts/tokyo-shinagawa-ota/
-  - G3 EN: https://gsfark.com/en/posts/tokyo-ward-guide-series-prologue/
+  - G1 EN: https://gsfark.com/posts/tokyo-meguro-setagaya/
+  - G2 EN: https://gsfark.com/posts/tokyo-shinagawa-ota/
+  - G3 EN: https://gsfark.com/posts/tokyo-ward-guide-series-prologue/
 - Claude 부재 여부: 예
 - 특이사항:
   - G1 EN 도입부 구조 정합 완료 (세이조 부촌 직답 전방 배치 + 조셉 니혼바시 임장 경험은 2단락으로 이동).
