@@ -727,3 +727,18 @@
   - 네이버 포스트 큐(`docs/gsc/naver_post_queue_2026-W29.md`) 최상단 1~3위에 G1, G2, G3 배치 완료.
   - 네이버 포스트 초안 생성기(`scripts/naver_blog_gen.py`)로 G1, G2, G3 HTML/TXT 초안 파일 갱신 및 커밋 완료.
 
+## [2026-07-17 21:56 JST] AG 배포 완료 (R4 Tier 0 EN)
+- 작업 내용: G1·G2·G3 EN R4 번역 가이드라인(v1.0 & Final Pass) 반영 완료 및 메인 브랜치 병합 배포
+- 커밋 해시: b363890 (main merge & push 완료)
+- 배포 URL:
+  - G1 EN: https://gsfark.com/en/posts/tokyo-meguro-setagaya/
+  - G2 EN: https://gsfark.com/en/posts/tokyo-shinagawa-ota/
+  - G3 EN: https://gsfark.com/en/posts/tokyo-ward-guide-series-prologue/
+- Claude 부재 여부: 예
+- 특이사항:
+  - G1 EN 도입부 구조 정합 완료 (세이조 부촌 직답 전방 배치 + 조셉 니혼바시 임장 경험은 2단락으로 이동).
+  - G2 EN `aiModel: "Gemini 3.1 Pro"` 잔존 메타 삭제 완료.
+  - G1-G3 EN 저자명을 `Joseph KIM`으로 명시하여 EEAT 강화 완료.
+  - 리포지토리 빌드 `pnpm build` 및 3개 포스트 검증 (`pnpm validate:post` PASS) 최종 검사 완료.
+  - GSF-OS Wiki에 `GSF_Ark_EN_Translation_Style_Guide.md`를 추가 및 AI Boot Map에 등록하여 향후 번역에 상시 준수되도록 자산화(Commit & Push) 완료.
+
