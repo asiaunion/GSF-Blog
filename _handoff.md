@@ -4,6 +4,17 @@
 
 ---
 
+## [2026-07-18] Cursor — Ep.12 validate·deploy 완료 (AG 토큰 대행)
+
+- **PASS:** `pnpm validate:post` · `verify:episode` · `verify:og-social`
+- **Live 200:** `/ko|/en|/posts/tokyo-machida-tama-inagi/` + hero webp/og
+- **Deploy:** `42a34d9` → Vercel prod (`dpl_3Q5w9xwESsE4d2Ed1HAtTrqZoz4T`) · aliased gsfark.com
+- **IndexNow:** 200 (Ep.12 + prologue + Ep.11) · `docs/gsc/indexnow_ping_2026-07-18.md`
+- **잔여:** 네이버 초안/큐(Joseph 게시 클릭) · GSC 색인 요청 UI
+- **OPEN_QUEUE:** NP → done
+
+---
+
 ## [2026-07-18 00:46 JST] Cursor — Ep.12 EN 이어쓰기 완료 (AG 토큰 고갈 대행)
 
 - **원인:** AG EN 번역 중 토큰 부족 중단 → Cursor §3 예외(토큰 고갈)로 EN 완성·정합
