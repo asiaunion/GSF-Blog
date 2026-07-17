@@ -18,6 +18,7 @@
 | 14 | buying-property-japan-checklist-before-you-commit | naver-drafts/buying-property-japan-checklist-before-you-commit-naver.txt | https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/ | 네이버 | 완료: https://blog.naver.com/gsfark/224349747832 |
 | 15 | buying-property-japan-surprises-foreign-investor | naver-drafts/buying-property-japan-surprises-foreign-investor-naver.txt | https://gsfark.com/ko/posts/buying-property-japan-surprises-foreign-investor/ | 네이버 | 완료: https://blog.naver.com/gsfark/224349752172 |
 | 16 | coredo-nihonbashi-mitsui-redevelopment | naver-drafts/coredo-nihonbashi-mitsui-redevelopment-naver.txt | https://gsfark.com/ko/posts/coredo-nihonbashi-mitsui-redevelopment/ | 네이버 | 완료: https://blog.naver.com/gsfark/224349753801 |
+| 17 | tokyo-machida-tama-inagi | naver-drafts/tokyo-machida-tama-inagi-naver.txt | https://gsfark.com/ko/posts/tokyo-machida-tama-inagi/ | 네이버 | 대기 |
 
 * ALL v4 → html regen done · 2026-07-17
 
