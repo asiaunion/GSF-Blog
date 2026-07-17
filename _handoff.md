@@ -711,3 +711,19 @@
 - shinchiku validate exit 0 확인
 - week0 bands 채우기 완료
 - 커밋·배포: 대기 (진행하지 않음)
+
+## [2026-07-17 21:00] AG 배포 완료 (R4 Tier 0)
+- 작업 내용: G1·G2·G3 KO R3_LOCK 반영 완료 및 메인 브랜치 병합 배포
+- 커밋 해시: 2b9949e (main merge & push 완료)
+- 배포 URL:
+  - G1: https://gsfark.com/ko/posts/tokyo-meguro-setagaya/
+  - G2: https://gsfark.com/ko/posts/tokyo-shinagawa-ota/
+  - G3: https://gsfark.com/ko/posts/tokyo-ward-guide-series-prologue/
+- Claude 부재 여부: 예
+- 특이사항:
+  - G1/G2 TOC 테이블과 H2 헤더 싱크 정합 완료.
+  - G1/G2/G3 포스트 검증 완료 (`pnpm validate:post` PASS).
+  - IndexNow Ping 6개 URL(G1-G3 KO, EN) 전송 성공 (HTTP 200).
+  - 네이버 포스트 큐(`docs/gsc/naver_post_queue_2026-W29.md`) 최상단 1~3위에 G1, G2, G3 배치 완료.
+  - 네이버 포스트 초안 생성기(`scripts/naver_blog_gen.py`)로 G1, G2, G3 HTML/TXT 초안 파일 갱신 및 커밋 완료.
+
