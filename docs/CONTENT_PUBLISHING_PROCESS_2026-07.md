@@ -209,6 +209,25 @@ R0 월요일 선정 → R1 SERP 정찰 → R2 한 층 편집 → R3 EN 정합/JA
 | 4 | AUTHOR_OPS / Writing SOP / RUNBOOK amend | **비차단 백로그** — Cursor가 추후 포인터 1절만 (지금 필수 아님) |
 | 5 | 캘리브레이션 | W1-D **#1·#2 title**은 AG 단독 확정 금지 — GUIDE 대조 검수(Joseph/Claude) 후 3편째~ AG 자율 + Cursor 검증 |
 
+## Cursor §F.4 — 외부 검증·블라인드스팟 (2026-07-17)
+
+| # | 항목 | 결정 |
+|---|------|------|
+| 1 | WRITING_GUIDE §7 | **승인** (§1–§6 무수정). 네이버 실사진 추가 투자 **안 함**(§7.2-4). AI Overviews 수치는 Tier 2 |
+| 2 | 외부 검증 정책 | **D-004 잠금** · `GSF_EXTERNAL_VERIFICATION_POLICY.md` 운영. §F 잠금 시 외부 검증 4항 필수(면제 경계 유지) |
+| 3 | 네이버 UTM | **즉시** — txt CTA에도 `?utm_source=naver&utm_medium=blog&utm_campaign=blog-broadcast` 표준. 게이트 A 판정 시 **utm_source=naver + referral(naver) 합산** |
+| 4 | 네이버 저품질 가드 | HARD: 외부링크 **≤2** · CTA **1** · 키워드 과반복 금지 (현행 초안 1링크 ✅) |
+| 5 | 3언어 AdSense | **폐기 근거 없음**. JA 동결+T4 유지. Privacy KO/JA 라이브 OK |
+| 6 | cool-off ≥4주 · 노출 200 | **유지** (공식 최소치 없음 — 실무 합의) |
+| 7 | llms.txt | **기각** (검토 목록 제거). robots AI 전면 허용 유지 |
+| 8 | 저비용 3줄 | **승인** — 아래 §0.5 부록 |
+
+### §0.5 부록 — 저비용 규칙 (E)
+
+- 금 1분: [Google Search Status Dashboard](https://status.search.google.com/products/rGHU1u87FJnkP6W2GwMh/history) 확인 · **코어 업데이트 롤아웃 중 AdSense 재신청 회피**
+- refresh 시 히어로 `alt`에 타깃 쿼리 명사 반영
+- title에 `[2026]` 등 연도 있는 글은 refresh 때 **연도 유효성 자동 확인**
+
 ---
 
 *이 문서의 개별 규칙 출처: Sprint §2·§3·§10·§11 / CONTENT_SEO §A1–§B5·§F.2 / Playbook §3–§6 / AG_TASK W0–W2. 충돌 시 상위 문서 우선.*

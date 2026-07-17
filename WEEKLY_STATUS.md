@@ -10,7 +10,7 @@
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 AdSense 7/7 재보류 — **D-001 Cursor 확정**: 게이트A/B·네이버주력·JA신규동결·Phase A′. Playbook+SEO_SPRINT |
 | 목표 + 기한 | Phase A′ 4주(refresh70/네이버) → ~8/12 게이트A 판정 |
-| 이번 주 최우선 액션 | W2 재검증 대기 |
+| 이번 주 최우선 액션 | 네이버 UTM·게시 지속 · GSC/KPI · 게이트A(~8/12) — 재신청은 게이트 후 |
 | 다음 체크포인트 | 2026-08-12 게이트 A/B · JA soft sunset 여부 |
 | 블로커 | hreflang 방어 배포 전 KO+EN 전용 신규 금지 (방어 코드 착수됨) |
 
@@ -177,6 +177,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-17
+- Phase A' (W0+W1+W2) 배포 완료
 - Cursor 재반려 반영 완료 (#3, #6, week0 bands)
 ### 2026-07-10
 - 하단 풋터 Minimal Edition v2~v3 적용

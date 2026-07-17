@@ -1,8 +1,9 @@
 # GSF 외부 검증 원칙 — 전략 수립의 하드게이트 (2026-07)
 
-> **작성**: Claude (Chat) · 2026-07-17 — Joseph 지시로 성문화
-> **상태**: 🟡 Cursor 검증 대기 — 통과 시 **GSF-OS `STRATEGIC_DECISIONS.md` D-등재 요청** (GSF 전 프로젝트 공통 철학)
-> **적용 대상**: **Claude · Cursor · AG 공통.** GSFArk · TokyoKorean · GSF 전 프로젝트의 전략·정책·프로세스 수립/대개정.
+> **작성**: Claude (Chat) · 2026-07-17 — Joseph 지시로 성문화  
+> **상태**: 🟢 **Cursor 확정** (2026-07-17) — **D-004** · §F.4  
+> **적용 대상**: **Claude · Cursor · AG 공통.** GSFArk · TokyoKorean · GSF 전 프로젝트의 전략·정책·프로세스 수립/대개정.  
+> **SSOT**: `GSF-OS/STRATEGIC_DECISIONS.md` **D-004**
 
 ---
 

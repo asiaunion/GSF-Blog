@@ -367,3 +367,19 @@ Cursor는 다음을 확인한다. **통과 시에만** Joseph에게 커밋·배�
 ## 11. Joseph 한 줄 (AG에게)
 
 > `GSF-Ark docs/AG_TASK_2026-07-17_adsense-phase-a-week1.md` 전체 실행 (W0 GSC·네이버SA·Bing·게시 포함). 로그인 클릭만 내가 하고 나머지는 AG가 지시·문서화. 끝나면 Cursor 검증. 커밋·배포는 내가 지시할 때만.
+
+---
+
+## 12. 후속 — 네이버 CTA UTM 표준 (§F.4③ · 즉시)
+
+**문제**: `naver-drafts/*.html` CTA에는 `utm_source=naver&utm_medium=blog&utm_campaign=blog-broadcast`가 있으나, 다수 `*.txt` CTA·원문 URL에는 UTM 없음 → 인앱 브라우저 레퍼러 유실 시 게이트 A 과소측정.
+
+**AG 작업** (커밋은 Joseph 지시 후):
+
+1. 모든 `naver-drafts/*-naver.txt` 및 HTML CTA의 gsfark 포스트 URL에 동일 쿼리 부착:
+   `?utm_source=naver&utm_medium=blog&utm_campaign=blog-broadcast`
+2. HARD: 외부링크 ≤2 · CTA 1개 · 홈 링크 금지 · 정중체 유지
+3. 이미 게시된 글(예: shinchiku)은 **편집으로 UTM 보정** 가능하면 Joseph 붙여넣기 지시, 아니면 다음 게시분부터
+4. 보고: UTM 부착 txt N건 / html N건
+
+**게이트 A 판정 규칙 (문서)**: GA4에서 `sessionSource=naver` **또는** `utm_source=naver` 세션을 **합산**해 레퍼럴 연속 주 판정.
