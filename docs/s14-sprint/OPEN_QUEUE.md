@@ -27,7 +27,7 @@
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 
-**→ 다음 최우선:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier1 #7 `tokyo-moving-contracts-two-notes` SEO+FA 캘리브레이션 2 · Gate 레퍼럴 시계
+**→ 다음 최우선:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier1 #8 `korea-resident-japan-property-capital-gains-tax` 세무 준캘리브 · Gate 레퍼럴 시계
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -41,7 +41,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | 3 | **done** (2026-07-18 Cursor) | `tokyo-hachioji-hino-akishima` | KO·EN·JA title·도입·H2 + 한자 병기 + 아키시마 표 중복 수정 + 수익률 열 삭제 + 인과 완화 · validate 100/build/prod/IndexNow PASS |
 | 5 | **done** (2026-07-18 Cursor) | `buying-property-japan-checklist-before-you-commit` | SEO+FA 정식 캘리브레이션 1 · 직답 도입·질문형 H2 · 내진=건축확인일 · 죽은 MLIT URL/REINS 공개경로 교정 · validate PASS |
 | 6 | **done** (2026-07-18 Cursor) | `tokyo-korean-community-beyond-shinokubo` | KO·EN·JA title·도입·H2 + 공식 지원망 중심 재구성 + 근거 없는 인구·투자 주장 삭제 + 네이버 HTML 준비 · validate 100/build/prod/IndexNow PASS |
-| 7 | open | `tokyo-moving-contracts-two-notes` | SEO+FA 정식 캘리브레이션 2 · Voice Lite |
+| 7 | **done** (2026-07-18 Cursor backup) | `tokyo-moving-contracts-two-notes` | SEO+FA 정식 캘리브레이션 2 · 출처 분리·YMYL 단정 완화 · validate 100/prod |
 | 8 | open | `korea-resident-japan-property-capital-gains-tax` | 세무 YMYL 준캘리브 · #2 상호링크 |
 | 9 | open | `tokyo-office-vacancy-five-wards-2026` | SEO+FA · 수치=citeSources 원문만 |
 | 10 | open | `nihonbashi-hamacho-walking-guide` | SEO+FA · hub 내부링크 |
@@ -68,6 +68,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | T1-3 | 2026-07-18 | `tokyo-hachioji-hino-akishima` §1–4 + 한자 병기 + 데이터 정합 KO·EN·JA prod |
 | T1-6 | 2026-07-18 | `tokyo-korean-community-beyond-shinokubo` §1–4 + 위험 주장 정리 + 네이버 HTML 준비 KO·EN·JA prod |
 | T1-5 | 2026-07-18 | `buying-property-japan-checklist-before-you-commit` SEO+FA 캘리브레이션 1 KO·EN·JA prod |
+| T1-7 | 2026-07-18 | `tokyo-moving-contracts-two-notes` SEO+FA 캘리브레이션 2 (Cursor backup) KO·EN·JA prod |
 
 ---
 

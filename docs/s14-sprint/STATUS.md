@@ -16,12 +16,13 @@
 | tokyo-hachioji-hino-akishima | #3 | 하치오지 집값 | done | done | — | live | live | **live** | | **done** (§1–4·Cursor) |
 | tokyo-korean-community-beyond-shinokubo | #6 | 도쿄 한인타운 | done | done | — | live | live | **live** | 발행 대기 | **done** (§1–4·Cursor) |
 | buying-property-japan-checklist-before-you-commit | #5 | 일본 맨션 구매 주의사항 | done | done | — | live | live | **live** | 발행 대기 | **done** (SEO+FA·Cursor) |
+| tokyo-moving-contracts-two-notes | #7 | 일본 임대차 계약 | done | done | — | live | live | **live** | | **done** (SEO+FA·Cursor backup) |
 
 ## Joseph 판단 필요
 
 - Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 3URL.
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier 1 **#7** `tokyo-moving-contracts-two-notes` SEO+FA 캘리브레이션 2
+  - **지금:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier 1 **#8** `korea-resident-japan-property-capital-gains-tax` 세무 준캘리브
   - **병행:** N2(GSC 선택) · Gate A 레퍼럴 2주 (네이버 방금 발행으로 분자 시작)
 
 ## 이번 배치 메모
@@ -45,5 +46,6 @@ korea-japan-inheritance-gift-tax-cross-border-basics | q="한일 상속세 이�
 tokyo-hachioji-hino-akishima | q="하치오지 집값" | §1-4 2026-07-18 | 다음점검 +14d | diff=(Cursor)
 tokyo-korean-community-beyond-shinokubo | q="도쿄 한인타운" | §1-4 2026-07-18 | 다음점검 +14d | diff=(Cursor) · official support map vs unsupported residential claims
 buying-property-japan-checklist-before-you-commit | q="일본 맨션 구매 주의사항" | SEO+FA 2026-07-18 | 다음점검 +14d | diff=(Cursor) · confirmation-date seismic · live MLIT/RMI sources
+tokyo-moving-contracts-two-notes | q="일본 임대차 계약 주의사항" | SEO+FA 2026-07-18 | 다음점검 +14d | diff=(Cursor backup) · Tokyo/MLIT source split · YMYL soften
 ```
 

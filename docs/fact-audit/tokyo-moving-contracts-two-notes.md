@@ -1,10 +1,10 @@
-# Fact sheet & Translation audit — `tokyo-moving-contracts-two-notes`
+# Fact sheet — `tokyo-moving-contracts-two-notes`
 
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-moving-contracts-two-notes |
-| **Title (KO)** | tokyo-moving-contracts-two-notes report |
-| **Cursor validate** | `pnpm validate:post tokyo-moving-contracts-two-notes` → PASS |
+| **Title (KO)** | 일본 임대차 계약 주의사항 — 보통차가·정기차가·원상회복 [2026] |
+| **Cursor validate** | PASS — 2026-07-18 SEO+FA calibration 2 |
 | **Published** | Live |
 
 ---
@@ -13,101 +13,33 @@
 
 | # | Claim in KO (quote) | Value | Tier-1 source URL | Verified ✓ | KO section |
 |---|---------------------|-------|-------------------|------------|------------|
-| 1 | 2010년 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 2 | 2010年 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 3 | 5만 엔 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 4 | 5万円 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 5 | ¥50,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 6 | ¥480 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 7 | ¥15,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 8 | ¥20,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 9 | ¥10,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 10 | ¥30,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 11 | 15,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 12 | 20,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 13 | 10,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 14 | 30,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
-| 15 | 50,000 | Verified | [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | [x] | Body |
+| 1 | 보통차가(普通借家)인지 정기차가(定期借家)인지 | ordinary vs fixed-term lease | https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku | [x] | Intro / H2-1 |
+| 2 | 원상회복(原状回復) 부담이 어떻게 나뉘는지 | intentional/negligent vs normal wear | https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku_eng | [x] | H2-2 |
+| 3 | 벽지(크로스) 내구년수를 6년으로 보는 경우가 많습니다 | useful life 6 years | https://www.mlit.go.jp/jutakukentiku/house/torikumi/honbun2.pdf | [x] | H2-2 |
+| 4 | 잔존가치를 1엔 수준으로 보는 설명 | residual value ≈ ¥1 | https://www.mlit.go.jp/jutakukentiku/house/content/001611293.pdf | [x] | H2-2 |
+| 5 | 퇴거 시 청소비 5만 엔(¥50,000) | example special clause ¥50,000 | https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku | [x] | H2-5 |
+| 6 | 월세의 4~6배 | upfront cost range (experience) | https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku_eng | [x] | H2-3 |
 
----
+## FA corrections (2026-07-18)
 
-## Sources audit
+- citeSources 단일 PDF 복제 → 도쿄도 JA/EN + MLIT Q&A/본문
+- GTN 순위·구별 수락률·구두=법적무효·조항무효 단정 완화/삭제
+- 6년 규칙을 가이드라인 기준으로 완화
+- KO `반드시` 제거
 
-| URL in `sources` | Tier (gov/public/media) | Used in body? |
-|------------------|-------------------------|---------------|
-| [https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html](https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000017.html) | public | [ ] |
+## Locale parity
 
-**references ⊆ sources**: [x] confirmed
-
----
-
-## Factual drift (ko ↔ en ↔ ja)
-
-| # | Item (KO) | EN | JA | Match? | Fix hint |
-|---|-----------|----|----|--------|----------|
-| 1 | 2010년 | Present | Present | Y | Ensure numerical alignment |
-| 2 | 2010年 | Present | Present | Y | Ensure numerical alignment |
-| 3 | 5만 엔 | Present | Present | Y | Ensure numerical alignment |
-| 4 | 5万円 | Present | Present | Y | Ensure numerical alignment |
-| 5 | ¥50,000 | Present | Present | Y | Ensure numerical alignment |
-| 6 | ¥480 | Present | Present | Y | Ensure numerical alignment |
-| 7 | ¥15,000 | Present | Present | Y | Ensure numerical alignment |
-| 8 | ¥20,000 | Present | Present | Y | Ensure numerical alignment |
-| 9 | ¥10,000 | Present | Present | Y | Ensure numerical alignment |
-| 10 | ¥30,000 | Present | Present | Y | Ensure numerical alignment |
-| 11 | 15,000 | Present | Present | Y | Ensure numerical alignment |
-| 12 | 20,000 | Present | Present | Y | Ensure numerical alignment |
-| 13 | 10,000 | Present | Present | Y | Ensure numerical alignment |
-| 14 | 30,000 | Present | Present | Y | Ensure numerical alignment |
-| 15 | 50,000 | Present | Present | Y | Ensure numerical alignment |
-
----
-
-## Translation audit
-
-### EN quality (`src/data/blog/en/tokyo-moving-contracts-two-notes.md`)
-
-| # | Issue type | Location | Problem | Suggested direction |
-|---|------------|----------|---------|---------------------|
-| 1 | disclaimer | End of post | Missing standard legal disclaimer | Add info purposes disclaimer |
-
----
-
-### JA quality (`src/data/blog/ja/tokyo-moving-contracts-two-notes.md`)
-
-| # | Issue type | Location | Problem | Suggested direction |
-|---|------------|----------|---------|---------------------|
-| | | | No major issues detected | |
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
-## Severity
-
-- [ ] **T0** — Wrong facts / misleading translation of numbers
-- [ ] **T1** — Tone gate fail or major readability
-- [ ] **T2** — Minor calque, caption, table wording
-- [x] **T3** — OK / style nits only
+| Item | KO | EN | JA |
+|------|----|----|----|
+| ¥50,000 / 5만 엔 | Y | Y | Y |
+| 6년 가이드 | Y | Y | Y |
+| 질문형 H2 | Y | Y | Y |
 
 ---
 
 ## Sign-off
 
-- [x] All claims verified or softened
-- [x] `pnpm validate:post` exit 0
-- [ ] Ready for Cursor sign-off
+- [x] Unsupported ranking / acceptance-rate claims removed or bounded
+- [x] KO / EN / JA meaning aligned
+- [x] `pnpm validate:post tokyo-moving-contracts-two-notes`
+- [x] `pnpm build`

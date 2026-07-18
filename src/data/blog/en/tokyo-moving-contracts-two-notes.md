@@ -1,8 +1,8 @@
 ---
-title: "Finding a Home in Tokyo: 2 Keys to Lease Contracts That Protect Your Rights"
-description: "Rental contracts in Japan are very different from those in many other countries. From the distinction between 'Ordinary' and 'Fixed-term' leases to the strict rules on 'Restoration,' we provide a practical guide for foreign residents and investors."
+title: "Japan Rental Contracts: Ordinary vs Fixed-Term Leases & Restoration [2026]"
+description: "Before signing a Japan rental contract, check three things: ordinary vs fixed-term lease, restoration cost allocation, and upfront move-in costs — based on Tokyo and MLIT guidance."
 pubDatetime: 2026-04-25T10:00:00Z
-modDatetime: 2026-05-26T22:22:38+09:00
+modDatetime: 2026-07-18T19:00:00+09:00
 author: GSF
 lang: en
 category: life
@@ -16,27 +16,37 @@ tags:
 sources:
   - "https://www.juutakuseisaku.metro.tokyo.lg.jp/"
   - "https://www.mlit.go.jp/"
-  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
+  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku"
+  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku_eng"
+  - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000024.html"
+  - "https://www.mlit.go.jp/jutakukentiku/house/torikumi/honbun2.pdf"
+  - "https://www.mlit.go.jp/jutakukentiku/house/content/001611293.pdf"
 citeSources:
-  - label: "Tokyo Metropolitan Government Guideline for Ordinary and Fixed-Term Leases"
-    url: "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
+  - label: "Tokyo Metropolitan Government — rental dispute prevention guideline (JA)"
+    url: "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku"
     portal: "https://www.juutakuseisaku.metro.tokyo.lg.jp/"
-  - label: "Tokyo Metropolitan Government Guideline for Prevention of Residential Restoration Disputes"
-    url: "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
+  - label: "Tokyo Metropolitan Government — rental dispute prevention guideline (EN)"
+    url: "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku_eng"
     portal: "https://www.juutakuseisaku.metro.tokyo.lg.jp/"
-  - label: "Tokyo Metropolitan Government Rental Housing Guide for Tenants (Initial Costs)"
-    url: "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
-    portal: "https://www.juutakuseisaku.metro.tokyo.lg.jp/"
+  - label: "MLIT — restoration guideline Q&A"
+    url: "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000024.html"
+    portal: "https://www.mlit.go.jp/"
+  - label: "MLIT — restoration guideline (revised edition)"
+    url: "https://www.mlit.go.jp/jutakukentiku/house/torikumi/honbun2.pdf"
+    portal: "https://www.mlit.go.jp/"
 references:
-  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/juutaku_seisaku/tintai/pdf/310-6-jyuutaku_eng.pdf"
+  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku"
+  - "https://www.juutakuseisaku.metro.tokyo.lg.jp/documents/d/juutakuseisaku/310-6-jyuutaku_eng"
+  - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000024.html"
+  - "https://www.mlit.go.jp/jutakukentiku/house/torikumi/honbun2.pdf"
 ---
-Finding a home in Tokyo is an exciting milestone, but the terminology in a Japanese rental contract can be overwhelming. Japanese law strongly protects the tenant's right to remain in the property while imposing strict obligations regarding its 'restoration' upon move-out.
+Before signing a rental contract in Japan, check three things first: whether it is an ordinary lease or a fixed-term lease, how restoration costs are allocated at move-out, and what upfront costs sit on top of rent. Contract wording can feel unfamiliar in Tokyo, so this note keeps to those essentials using Tokyo Metropolitan Government and MLIT guidance.
 
-Today, we analyze two key points of a Tokyo rental contract that determine the beginning and end of your stay. Understanding these will help you identify hidden risks before you sign.
+This is not legal advice. Individual contracts and specialist review still come first.
 
 ---
 
-## 1. Ordinary Lease (Futsu) vs. Fixed-Term Lease (Teiki)
+## How do ordinary and fixed-term leases differ?
 
 The first thing to verify is the 'type' of contract.
 
@@ -47,69 +57,69 @@ The first thing to verify is the 'type' of contract.
 
 ---
 
-## 2. Restoration (Genjo Kaifuku): The Golden Rule for Move-Outs
+## Who pays for restoration at move-out?
 
 The biggest source of conflict in Japan is the refund of the security deposit (*Shikikin*).
 
 *   **Tenant's Responsibility**: Damage caused by negligence or intent (e.g., wallpaper stains from smoking, mold due to poor ventilation, or deep scratches from heavy furniture).<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 *   **Landlord's Responsibility**: Normal wear and tear or aging (e.g., faded wallpaper from sunlight, minor carpet indentations from furniture, or dust behind appliances).
-*   **The 6-Year Rule**: Items like wallpaper are considered to have a 'useful life' of 6 years. If you have lived there for 6 years or more, the value of the wallpaper is effectively zero. You should not be charged for its full replacement even if it's dirty.
+*   **The 6-year guideline**: MLIT guidance often treats wallpaper as having a useful life of about 6 years, with residual value discussed near ¥1 after that period. That does not mean every dirty wall after six years is free to replace; special clauses and the cause of damage still matter.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
 ---
 
-## 3. Guarantors and Services for Foreigners
+## How do guarantors work for foreign renters?
 
-A major hurdle for foreigners is the requirement for a 'Joint Guarantor.' Today, using a **Guarantor Company (Hoshō Gaisha)** is the standard.
+A common hurdle for foreigners is the requirement for a joint guarantor. Today, using a **guarantor company (Hoshō Gaisha)** is common.
 
-*   **GTN (Global Trust Networks)**: One of the most foreigner-friendly companies, offering multilingual support and high approval rates for international residents.
-*   **Initial Costs**: Beyond monthly rent, be prepared for upfront costs totaling **4 to 6 times** the monthly rent, including *Shikikin* (deposit), *Reikin* (gift money), agent fees, and insurance.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
+*   **Guarantor-company example**: GTN (Global Trust Networks) is one firm that offers multilingual support. Approval and terms vary by company, visa, and income, so no single firm is always better.
+*   **Initial Costs**: Beyond monthly rent, many people prepare **4 to 6 times** rent for *Shikikin*, *Reikin*, agent fees, insurance, and guarantor fees. Confirm the written estimate for each listing.<sup class="source-ref"><a href="#source-1" id="cite-1b">1</a></sup>
 
 ---
 
-## 4. Conclusion: "Documentation Saves You"
+## Why record the apartment on move-in day?
 
-The most important step on move-in day is to **take photos and videos of every scratch and mark in the apartment**. Emailing these to the management company creates a timestamped record that protects you from being wrongly charged for repairs when you leave. A smooth life in Tokyo starts with a meticulous contract review.
+The most helpful step on move-in day is to **photograph and video existing marks**. Emailing those files to the management company makes it easier to separate old wear from new damage at move-out.
 
 <!-- content-depth-v2 -->
 
-## 5. Negotiating the Contract: What Is Actually Flexible
+## What can you try to negotiate in the contract?
 
-Most first-timers in Tokyo assume rental contracts are non-negotiable. In reality, several terms can be softened—especially in slower rental seasons (January–February and July–August) or when a unit has been vacant for more than four weeks.
+Tokyo leases are not always immovable. In slower seasons (January–February and July–August), or when a unit has sat empty, some terms can be adjusted. This article does not claim ward-by-ward acceptance rates.
 
-### Terms That Are Often Negotiable
-- **Reikin (Key Money)**: This "gift money" of 1–2 months' rent to the landlord is increasingly uncommon in newer properties built recently. When it appears, it is worth asking directly through the agent whether the landlord will waive or halve it. Acceptance rates in outer wards like Suginami or Nerima run higher than Minato-ku.
-- **Free Rent Period**: For Teiki (fixed-term) leases on higher-priced units, a 2–4 week rent-free period upon move-in is sometimes granted in lieu of a price reduction. This is particularly common when a landlord is motivated to fill a unit before fiscal year-end (March 31).
-- **Special Restoration Clauses**: Contracts often contain rider clauses such as "room cleaning fee of ¥50,000 upon departure" or "full tatami replacement regardless of condition." These are legally enforceable if you sign them, but they are often removed when tenants push back politely and in writing before signing. Reference the Tokyo Metropolitan Government's tenant guidelines (issued in Japanese and English) as supporting documentation.
+### Terms you can ask about
+- **Reikin (Key Money)**: Gift money of about 1–2 months' rent. Some newer listings omit it. If it appears, ask through the agent whether a waiver or reduction is possible.
+- **Free Rent Period**: On some higher-priced fixed-term leases, a 2–4 week rent-free period is offered instead of a rent cut.
+- **Special Restoration Clauses**: Riders such as "¥50,000 cleaning on departure" or "full tatami replacement regardless of condition" are common. Ask about them in writing before signing, and compare with the Tokyo guidelines (Japanese and English).
 
-### What You Cannot Change
-Under the Borrower Protection Clause of Japan's Land and Building Lease Law, tenants always retain the right to withhold a renewal decision until the final notice period. Landlords cannot insert language stripping this right away. If a contract ever states that the landlord may terminate at will without cause, flag it immediately—such clauses are void under Japanese law.
+### Clauses that need careful review
+Renewal and termination language is central to ordinary leases. If a contract says the landlord may end the lease at will without cause, ask the agent and a specialist before signing. This article does not declare any clause void by itself.
 
 ---
 
-## 6. The Foreigner-Specific Checklist: Before You Sign
+## What should foreigners check before signing?
 
-Beyond the standard due diligence, foreign residents face an additional layer of risk due to language gaps, cultural assumptions, and the fact that many disputes only surface at move-out. Work through this list before signing any Tokyo lease.
+Foreign residents often need extra document checks because of language and paperwork. Review the list below before signing.
 
 **Document Verification**
-- [ ] Obtain the full lease document in both Japanese and English (or Korean/other language). If the agency cannot provide a bilingual version, request a professional translation before signing—never rely on machine translation for legal documents.
-- [ ] Verify the landlord's identity through the registered property deed (*Tōki Jikō Shōmeisho*), available at any Legal Affairs Bureau (*Hōmukyoku*) for ¥480 per document. This confirms the person you are contracting with actually owns the property.
+- [ ] Obtain the full lease in Japanese and English (or Korean). If there is no bilingual version, get a professional translation before signing.
+- [ ] If needed, check ownership with a registry extract. Fees can vary by counter or online method, so confirm the Legal Affairs Bureau guidance.
 
 **Financial Verification**
-- [ ] Calculate your total move-in cost in writing: Shikikin + Reikin + agent fee (1 month, including tax) + renters' insurance (typically ¥15,000–¥20,000/year) + lock replacement (¥10,000–¥30,000 optional) = typically **4.5–6.5 months of rent as upfront cash**.
-- [ ] Confirm whether the guarantor company (*Hoshō Gaisha*) requires a Japanese co-signer or accepts foreign residents independently. GTN, ORIX Rentec, and CASA are commonly foreigner-friendly. Avoid agencies that insist on a Japanese guarantor with no alternative.
+- [ ] Calculate total move-in cost in writing: Shikikin + Reikin + agent fee + insurance + guarantor fees. Some cases land around **4.5–6.5 months of rent**.
+- [ ] Confirm whether the guarantor company requires a Japanese co-signer. GTN, ORIX Rentec, and CASA are often mentioned, but this is not a recommendation of any firm.
 
 **Move-In Day Protocol**
-- [ ] Walk the entire apartment with the key handover form (*Kagi Uketori Shō*) and photograph every surface before unpacking. Include wide shots and close-ups. Send the files to your own email immediately to create a timestamped record.
-- [ ] Test all appliances (air conditioning, hot water, ventilation fans). If anything is defective, report it in writing to the management company *on the same day*. Verbal reports are not binding.
-- [ ] Confirm the trash collection points, rules (sorted recycling is mandatory), and your building's designated collection days. Violations can create friction with neighbors and, in rare cases, lead to property management complaints.
+- [ ] Photograph and video existing marks before unpacking, then email the files to yourself.
+- [ ] Test appliances. If something is wrong, report it in writing the same day. Verbal-only reports leave no record.
+- [ ] Confirm trash rules and collection points.
 
 ---
 
-## Investor Action: Session Summary & Check
+## One-line pre-signing check
 
-- [ ] **Contract Type**: Confirm if your lease is 'Ordinary' or 'Fixed-term' (Teiki) to understand the risk of non-renewal.
-- [ ] **Restoration**: Check if the Tokyo Metropolitan Government guidelines (6-year depreciation) are overridden by special clauses.
-- [ ] **Initial Cost**: Prioritize properties with zero 'Reikin' (Key money) to minimize upfront financial burden.
+- [ ] **Contract Type**: Confirm ordinary vs fixed-term, and read renewal/end terms.
+- [ ] **Restoration**: Compare special clauses with Tokyo and MLIT guidance.
+- [ ] **Initial Cost**: Confirm whether Reikin and guarantor fees appear on the estimate.
 
 ## Recommended Series
 
