@@ -70,3 +70,10 @@
 - HTTP 코드: 200 OK
 - 성공 기준 통과
 
+## [2026-07-18 19:45 JST] IndexNow Ping (Tier 1 #4b+#4 Wave A close)
+
+- 대상 슬러그: j-reit-five-things-to-know · tokyo-real-estate-investment-complete-guide
+- 요청 URL: 각 KO/EN/JA — 총 6개
+- HTTP 코드: 200 OK
+- 성공 기준 통과
+
