@@ -44,11 +44,27 @@
 
 ## Voice Full 상위 큐 (별도 계획)
 
+SSOT: [`VOICE_FULL_PLAN_2026-07.md`](./VOICE_FULL_PLAN_2026-07.md)
+
 FA 삭제로 글이 얇아졌거나 Reader First 전면 편집이 필요한 글만 올린다. 이번 SEO+FA 패스에서는 실행하지 않는다.
 
 | 우선 | slug | 등재 사유 | 상태 |
 |------|------|-----------|------|
 | 1 | `tokyo-korean-community-beyond-shinokubo` | 미검증 claim 다수 삭제로 구조·분량 재평가 필요 | queued |
+
+## Wave B — 에피소드 (§1–4 + FA, 동결 규칙 적용)
+
+~2026-07-29 이후: title/도입/H2 **대량** 중지. FA는 T0 + YMYL성 T1만 Joseph 승인 핫픽스. 그 전에는 가이던스 2–3/일.
+
+| 순서 | slug | 상태 | 비고 |
+|------|------|------|------|
+| B1 | `tokyo-ward-guide-series-prologue` | deferred | Tier0 이미 §1–4 live · 대량 재터치 금지 |
+| B2 | Ep.1–10 series posts | open queue | `scan:md` 반복 H3 신호 표 참고 · 사람 판정 후 |
+| B3 | Ep.11–12 | done surface | #3·Ep.12 이미 SEO/Voice 처리 |
+
+## Wave C — 백필
+
+Wave A/B 밖 잔여 슬러그. Gate A·동결 해제 후 §1–4+FA. 신규 JA 발행 없음.
 
 ## 운영 잠금
 
