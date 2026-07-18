@@ -2,7 +2,7 @@
 title: "Japan Rental Contracts: Ordinary vs Fixed-Term Leases & Restoration [2026]"
 description: "Before signing a Japan rental contract, check three things: ordinary vs fixed-term lease, restoration cost allocation, and upfront move-in costs — based on Tokyo and MLIT guidance."
 pubDatetime: 2026-04-25T10:00:00Z
-modDatetime: 2026-07-18T19:00:00+09:00
+modDatetime: 2026-07-18T19:10:00+09:00
 author: GSF
 lang: en
 category: life
@@ -106,7 +106,7 @@ Foreign residents often need extra document checks because of language and paper
 
 **Financial Verification**
 - [ ] Calculate total move-in cost in writing: Shikikin + Reikin + agent fee + insurance + guarantor fees. Some cases land around **4.5–6.5 months of rent**.
-- [ ] Confirm whether the guarantor company requires a Japanese co-signer. GTN, ORIX Rentec, and CASA are often mentioned, but this is not a recommendation of any firm.
+- [ ] Confirm whether the guarantor company requires a Japanese co-signer. GTN and CASA are often mentioned, but this is not a recommendation of any firm.
 
 **Move-In Day Protocol**
 - [ ] Photograph and video existing marks before unpacking, then email the files to yourself.
