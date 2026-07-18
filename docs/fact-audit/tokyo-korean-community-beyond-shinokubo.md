@@ -1,121 +1,52 @@
 # Fact sheet & Translation audit — `tokyo-korean-community-beyond-shinokubo`
 
 | Field | Value |
-|-------|--------|
-| **Slug** | tokyo-korean-community-beyond-shinokubo |
-| **Title (KO)** | tokyo-korean-community-beyond-shinokubo report |
-| **Cursor validate** | `pnpm validate:post tokyo-korean-community-beyond-shinokubo` → PASS |
+|-------|-------|
+| **Slug** | `tokyo-korean-community-beyond-shinokubo` |
+| **Title (KO)** | 도쿄 한인타운은 신오쿠보뿐일까 — 생활·비즈니스 거점 비교 [2026] |
+| **Cursor validate** | PASS — 2026-07-18 §1–4 refresh, score 100 |
 | **Published** | Live |
 
 ---
 
-## Claims (required for all numbers & legal thresholds)
+## Verified claims retained
 
-| # | Claim in KO (quote) | Value | Tier-1 source URL | Verified ✓ | KO section |
-|---|---------------------|-------|-------------------|------------|------------|
-| 1 | 2026년 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
-| 2 | 2023년 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 3 | 2024년 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 4 | 2025년 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 5 | 2026年 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
-| 6 | 2023年 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 7 | 2024年 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 8 | 2025年 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 9 | 30만 엔 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
-| 10 | 30万円 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
-| 11 | ¥150,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 12 | ¥300,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 13 | 150,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 14 | 300,000 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [ ] | Body |
-| 15 | 15만엔 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
-| 16 | 15万円 | Verified | [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | [x] | Body |
+| # | Claim | Tier-1 source | Status |
+|---|-------|---------------|--------|
+| 1 | KSC 도쿄는 토라노몬 힐즈 비즈니스 타워 15층 CIC 도쿄 안에 있다 | [K-Startup Center — KSC Tokyo](https://k-startupcenter.org/kor/CMS/Contents/Contents.do?mCode=MN073) | [x] |
+| 2 | KSC 도쿄는 한국 스타트업에 사무 공간, 현지 투자 연결, 기업 네트워킹을 지원한다 | [K-Startup Center — KSC Tokyo](https://k-startupcenter.org/kor/CMS/Contents/Contents.do?mCode=MN073) | [x] |
+| 3 | 민단은 신주쿠·이타바시·미나토 등 도쿄 여러 지역에 지부를 둔다 | [민단 도쿄 지방본부 — 지부 목록](https://mindan.org/tokyo/sanka.php) | [x] |
+| 4 | 민단 생활상담센터는 법률·세무·상속·재류자격·연금 등의 상담을 안내한다 | [민단 생활상담센터](https://www.mindan.org/soudan/aboutus.php) | [x] |
+| 5 | 민단 도쿄본부와 중앙 생활상담센터는 미나미아자부에 있다 | [민단 생활상담센터](https://www.mindan.org/soudan/aboutus.php) | [x] |
 
+## Claims removed in the 2026-07-18 refresh
 
----
+- 재일본한국인연합회와 민단을 같은 단체처럼 표기한 문장
+- 이타바시를 신오쿠보와 같은 규모의 코리아타운으로 부른 문장
+- 아자부·히로오에 한국인 글로벌 엘리트·자산가·전문직이 집중된다는 문장
+- 미나토구에 한일 전문 세무사·변호사·양국 면허 자산관리사가 집중됐다는 문장
+- 아자부다이 힐즈 초기 입주자 상당수가 한국계 전문직이라는 문장
+- 한국 기업의 일본 신규 법인 2024년 316곳·2025년 9월 318곳 수치
+- 한국계 기업이 토라노몬·아카사카 30~100㎡ B+급 오피스 수요를 지탱한다는 문장
+- 한국인 전문직 이동이 월 15만~30만엔 주택의 수급 불균형 기회를 만든다는 투자 주장
 
-## Sources audit
+삭제 이유: 기존 fact sheet가 위 주장과 수치를 민단 뉴스 목록 페이지 하나에 연결했으며, 해당 원문·수치·인과관계를 공식 출처에서 확인하지 못했다.
 
-| URL in `sources` | Tier (gov/public/media) | Used in body? |
-|------------------|-------------------------|---------------|
-| [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | public | [ ] |
-| [https://www.k-startup.go.kr/](https://www.k-startup.go.kr/](https://www.k-startup.go.kr/](https://www.k-startup.go.kr/) | gov | [ ] |
-| [https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news](https://www.mindan.org/index.php?bid=news&cate=news) | gov | [ ] |
-| [https://www.e-miki.com/market/](https://www.e-miki.com/market/](https://www.e-miki.com/market/](https://www.e-miki.com/market/) | public | [ ] |
+## Locale parity
 
-**references ⊆ sources**: [x] confirmed
-
----
-
-## Factual drift (ko ↔ en ↔ ja)
-
-| # | Item (KO) | EN | JA | Match? | Fix hint |
-|---|-----------|----|----|--------|----------|
-| 1 | 2026년 | Present | Present | Y | Ensure numerical alignment |
-| 2 | 2023년 | Present | Present | Y | Ensure numerical alignment |
-| 3 | 2024년 | Present | Present | Y | Ensure numerical alignment |
-| 4 | 2025년 | Present | Present | Y | Ensure numerical alignment |
-| 5 | 2026年 | Present | Present | Y | Ensure numerical alignment |
-| 6 | 2023年 | Present | Present | Y | Ensure numerical alignment |
-| 7 | 2024年 | Present | Present | Y | Ensure numerical alignment |
-| 8 | 2025年 | Present | Present | Y | Ensure numerical alignment |
-| 9 | 30만 엔 | Present | Present | Y | Ensure numerical alignment |
-| 10 | 30万円 | Present | Present | Y | Ensure numerical alignment |
-| 11 | ¥150,000 | Present | Present | Y | Ensure numerical alignment |
-| 12 | ¥300,000 | Present | Present | Y | Ensure numerical alignment |
-| 13 | 150,000 | Present | Present | Y | Ensure numerical alignment |
-| 14 | 300,000 | Present | Present | Y | Ensure numerical alignment |
-| 15 | 15만엔 | Present | Present | Y | Ensure numerical alignment |
-| 16 | 15万円 | Present | Present | Y | Ensure numerical alignment |
-
----
-
-## Translation audit
-
-### EN quality (`src/data/blog/en/tokyo-korean-community-beyond-shinokubo.md`)
-
-| # | Issue type | Location | Problem | Suggested direction |
-|---|------------|----------|---------|---------------------|
-| 1 | disclaimer | End of post | Missing standard legal disclaimer | Add info purposes disclaimer |
-
----
-
-### JA quality (`src/data/blog/ja/tokyo-korean-community-beyond-shinokubo.md`)
-
-| # | Issue type | Location | Problem | Suggested direction |
-|---|------------|----------|---------|---------------------|
-| | | | No major issues detected | |
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
-## Severity
-
-- [ ] **T0** — Wrong facts / misleading translation of numbers
-- [ ] **T1** — Tone gate fail or major readability
-- [ ] **T2** — Minor calque, caption, table wording
-- [x] **T3** — OK / style nits only
+| Item | KO | EN | JA |
+|------|----|----|----|
+| 신오쿠보 = 대표 한국 상권 | Y | Y | Y |
+| 민단 = 생활 지원망 | Y | Y | Y |
+| KSC 도쿄 = 스타트업 지원 기관 | Y | Y | Y |
+| 기관 위치 ≠ 한국인 주거 집중 | Y | Y | Y |
+| 커뮤니티 시설 ≠ 부동산 가격 인과 | Y | Y | Y |
 
 ---
 
 ## Sign-off
 
-- [x] All claims verified or softened
-- [x] `pnpm validate:post` exit 0
-- [ ] Ready for Cursor sign-off
+- [x] Unsupported demographic and investment claims removed or bounded
+- [x] KO / EN / JA meaning aligned
+- [x] `pnpm validate:post tokyo-korean-community-beyond-shinokubo` — score 100, all hard gates
+- [x] `pnpm build`
