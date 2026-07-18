@@ -860,3 +860,9 @@
 - Claude 부재 여부: 예 (AG 단독)
 - 특이사항: analyze:episode --write 직접 실행 시 5분+ hang (스크립트 순서 문제). 개별 스크립트 순차 실행으로 우회.
 
+
+## [2026-07-18 22:35 JST] AG Cursor 브랜치 대기 (Voice Full #6)
+- 작업 내용: Voice Full Pilot #6 (tokyo-korean-community-beyond-shinokubo) KO/EN/JA 반영
+- 상태: ag-applied (validate 100 PASS, naver-drafts 갱신)
+- 특이사항: Claude final 텍스트에서 JA lint(一つ->1つ) 2건 추가 수정
+- 다음: Cursor 최종 검증 후 배포

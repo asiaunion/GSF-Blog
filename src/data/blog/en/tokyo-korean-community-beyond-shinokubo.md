@@ -29,17 +29,19 @@ citeSources:
   - label: "K-Startup Global Expansion Program"
     url: "https://www.k-startup.go.kr/user/board/webGLOBAL_list_cmrczn_Tab9.do"
 ---
-Shin-Okubo remains Tokyo's clearest Korean shopping and dining district. It is the first place to look for Korean restaurants, groceries, beauty products, and pop-culture stores in one area.
+Shin-Okubo is still the clearest answer if you can only name one Korean district in Tokyo. It's the first place to look for Korean restaurants, groceries, beauty products, and pop-culture stores in one area.
 
-Resident support and business assistance are not concentrated there. Mindan operates branches across Tokyo, while K-Startup Center (KSC) Tokyo supports Korean startups from Toranomon.
+I expected the story to stop there. Then I checked the Mindan branch list and the location of K-Startup Center (KSC) Tokyo one by one, and one question stayed with me: **Is a Koreatown the same thing as a good place for Koreans to live?**
 
-This article does not claim that Koreans are concentrated in Azabu or Toranomon. It separates three different maps: **culture and shopping, resident support, and business support**.
+The picture looked a little different once I checked. Resident support and business assistance are not concentrated in Shin-Okubo. Mindan operates branches across Tokyo, while KSC Tokyo supports Korean startups from Toranomon.
+
+So this article does not claim that Koreans are concentrated in one place. It separates three different maps: **culture and shopping, resident support, and business support**.
 
 ---
 
 ## Why Is Shin-Okubo Still Tokyo's Main Koreatown?
 
-Shin-Okubo is Tokyo's most visible cluster of Korean restaurants, groceries, beauty shops, and cultural retail. That does not make it a map of where Koreans across Tokyo live.
+Let's answer the opening question first. Shin-Okubo is still Tokyo's most visible cluster of Korean restaurants, groceries, beauty shops, and cultural retail. That does not make it a map of where Koreans across Tokyo live.
 
 *   **Culture and shopping**: Korean food, beauty, and media are easy to find within a compact district.
 *   **Resident support**: For immigration, pensions, tax, inheritance, or legal questions, official services such as Mindan's consultation center and local branches are more relevant than the shopping district itself.
@@ -48,15 +50,17 @@ Shin-Okubo is Tokyo's most visible cluster of Korean restaurants, groceries, bea
 
 ## Are Azabu and Hiroo Korean Community Hubs?
 
-Azabu-Juban and Hiroo are international residential areas with embassies and international schools. They may suit residents who prioritize a multilingual environment and central access.
+So what about Azabu and Hiroo? With embassies and international schools nearby, I initially assumed wealthy Korean professionals were concentrated there too.
 
-Public data does not establish them as new Korean residential clusters or private investor networks. What can be verified is that Mindan's Tokyo headquarters and life consultation center are located in Minami-Azabu and offer guidance on matters such as residence status, tax, inheritance, and pensions.
+Azabu-Juban and Hiroo are certainly international residential areas with strong access to central Tokyo. But public data alone does not establish them as new Korean residential clusters or private investor networks.
+
+What can actually be verified is one thing: Mindan's Tokyo headquarters and life consultation center are located in Minami-Azabu, offering guidance on residence status, tax, inheritance, and pensions. My initial assumption and the verifiable facts turned out to be two different things.
 
 ---
 
 ## Why Do Korean Startups Look to Toranomon?
 
-Toranomon has an official support base for Korean startups entering Japan.
+On to the third map. Toranomon does have an official support base for Korean startups entering Japan.
 
 ![Tokyo Korean Community Map 2026](/assets/images/blog/diagrams/en-tokyo-korean-community-beyond-shinokubo.webp)
 
@@ -102,9 +106,11 @@ If your goal is expanding a Korean startup into Japan, **KSC Tokyo in Toranomon*
 
 The official sources reviewed here do not support that conclusion. KSC Tokyo confirms that Toranomon is a support location for Korean startups entering Japan. It does not prove that Korean residential demand has increased or raised nearby rents.
 
-Mindan branch locations also show a support network, not the size of the Korean population or housing demand in each ward. Property decisions require separate market evidence such as transaction records, asking rents, and vacancy rates.
+Mindan branch locations show the same pattern. They confirm a support network, not the size of the Korean population or housing demand in any ward. Property decisions require separate market evidence such as transaction records, asking rents, and vacancy rates.
 
-The key distinction is simple: **a shopping district, a resident-support institution, and a business-support institution are three different maps**. Treating them as one can exaggerate the scale of change.
+The question that stayed with me until the end of writing this was simple: can a shopping district and support institutions be read as one map? The answer was no — **they are three different maps: a shopping district, a resident-support institution, and a business-support institution.**
+
+Collapse them into one, and the change looks bigger than it is. I plan to keep reading these three maps separately going forward. The next time someone says a neighborhood is "full of Koreans," it's worth asking which of these three maps they actually mean.
 
 ---
 

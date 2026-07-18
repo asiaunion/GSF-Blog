@@ -18,7 +18,7 @@
 
 | 배치 | 순서 | slug | 상태 | 비고 |
 |------|------|------|------|------|
-| P0 | 1 | `tokyo-korean-community-beyond-shinokubo` | claude | #6 파일럿 · Joseph 승인 완료 |
+| P0 | 1 | `tokyo-korean-community-beyond-shinokubo` | live | #6 파일럿 · Cursor 검증(100/PASS·build ok·spine 동결)→prod |
 | B1 | 2 | `tokyo-core-3-wards-chiyoda-chuo-minato` | queued | Ep.1 · FA 영향 큼 |
 | B1 | 3 | `tokyo-shinjuku-shibuya-bunkyo` | queued | Ep.2 · FA 영향 큼 |
 | B1 | 4 | `tokyo-musashino-mitaka-chofu` | queued | Ep.9 · 구조 복구 후 읽기성 |
