@@ -22,7 +22,7 @@
 
 - Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 3URL.
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** #6 네이버 Joseph 발행 대기 · Ep.12 네이버(보류) · **Wave B Ep.1–10 닫힘** · Wave C는 Gate A·동결 해제 후 · Gate A 레퍼럴
+  - **지금:** **Voice Full #6 파일럿** Claude 주도 → GPT 완성도 리뷰 → AG 반영 → Cursor 최종 검증 · #6 네이버 Joseph 발행 대기 · Gate A 레퍼럴
   - **병행:** N2(GSC 선택) · Gate A 레퍼럴 2주 (네이버 방금 발행으로 분자 시작)
 
 ## 이번 배치 메모

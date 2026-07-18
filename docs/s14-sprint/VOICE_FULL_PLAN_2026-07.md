@@ -1,8 +1,18 @@
 # Voice Full — 후속 계획 (별도 트랙)
 
-> **상태:** 초안 · 2026-07-18  
+> **상태:** Joseph 실행 승인 · Wave A+B 전면 확장 · 2026-07-18  
 > **상위:** [`SEO_FATAL_AUDIT_WORK_INSTRUCTION_2026-07.md`](./SEO_FATAL_AUDIT_WORK_INSTRUCTION_2026-07.md) · [`JOSEPH_AUTHENTIC_VOICE.md`](../JOSEPH_AUTHENTIC_VOICE.md) v1.3  
 > **관계:** SEO+FA는 Voice Lite만. 본 문서는 본문 전면 Voice 개편용 **별도 계획**.
+
+## Joseph 잠금 (2026-07-18)
+
+- 범위: **Wave A + Wave B 합집합 전체**. Ep.12는 이미 Voice Full 기준 글이므로 재작성하지 않고 reference/최종 대조에 사용한다.
+- 주도: **Claude** — 사실층을 바꾸지 않는 Voice Full 편집 패키지 작성·통합.
+- 보조: **GPT** — Claude 패키지를 읽고 완성도·Reader First·리듬·공통장치 누락만 리뷰한다. 새 사실·새 수치·허구 경험은 제안하지 않는다.
+- 반영: **AG** — Cursor가 넘긴 승인 패키지의 KO/EN/JA·fact-audit·Naver 반영, 1차 validate와 수정 반복을 최대한 담당한다.
+- 최종: **Cursor** — diff·사실층 보존·로케일 의미 정합·hard gate·build/prod/IndexNow만 검증한다.
+- 페이싱: #6 파일럿 → Joseph 라이브 읽기 통과 → 2~3 slug/배치. 일일 상한은 없으나 수십 편 일괄 변경은 금지한다.
+- 기존 계획의 「나머지는 Gate A 이후」는 이번 Joseph 명시 승인으로 대체한다. title 대량 변경·AdSense 재신청 금지는 유지한다.
 
 ---
 
@@ -42,10 +52,28 @@ SEO+FA에서 아래가 발생하면 이 큐 **상위**에 올린다.
 
 ## 실행 순서 (제안)
 
-1. #6 Voice Full 파일럿 (Joseph 1줄 승인)
-2. FA thin-content 자동등재 slug
-3. Wave B 에피소드 중 읽기성 최하위 3편
-4. 나머지 백로그는 Gate A 이후
+1. #6 Voice Full 파일럿 (**Joseph 승인 완료**)  
+   Claude 초안 → GPT 완성도 리뷰 → Claude 최종 패키지 → AG 반영/1차 validate → Cursor 최종 검증 → Joseph 라이브 읽기.
+2. Wave B 읽기성·FA 영향 우선: Ep.1 · Ep.2 · Ep.9.
+3. Wave B 잔여: Ep.3–8 · Ep.10–11 · 프롤로그. Ep.12는 reference.
+4. Wave A 잔여를 YMYL/허브 위험도 기준으로 2~3편씩 진행.
+
+## 역할별 산출물
+
+| 단계 | 담당 | 산출물 | 금지 |
+|------|------|--------|------|
+| V1 | Claude | slug별 `claude-drops/YYYY-MM-DD_voice-full_{slug}.md` 최종 편집 패키지 | repo 직접 확정·deploy |
+| V2 | GPT | `gpt-reviews/YYYY-MM-DD_voice-full_{slug}.md` 완성도 리뷰 | 사실 추가·전면 대필 |
+| V3 | Claude | GPT 채택/기각표 + 최종 KO/EN/JA 의미 지시 | 출처 없는 새 claim |
+| V4 | AG | repo 반영 · fact-audit/Naver 정합 · 1차 validate | commit·prod |
+| V5 | Cursor | diff audit · 최종 validate/build · commit/prod/IndexNow | 문체 초안 재작성 |
+
+### Cursor 토큰 절약 HARD
+
+- Cursor는 원칙적으로 **초안 작성·번역·Naver 변환·반복 validate 수정**을 하지 않는다.
+- AG가 처리할 수 있는 파일 반영·로케일 동기화·검증 오류 수정은 AG로 돌린다.
+- Cursor는 문제가 있는 문장과 게이트만 반려하고, 수정 원문은 Claude/AG가 다시 낸다.
+- 예외: T0 사실 오류·작은 기계적 수정·AG 장애는 Cursor가 D5 백업한다.
 
 ## 성공 기준
 

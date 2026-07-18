@@ -52,7 +52,7 @@ FA 삭제로 글이 얇아졌거나 Reader First 전면 편집이 필요한 글�
 
 | 우선 | slug | 등재 사유 | 상태 |
 |------|------|-----------|------|
-| 1 | `tokyo-korean-community-beyond-shinokubo` | 미검증 claim 다수 삭제로 구조·분량 재평가 필요 | queued |
+| 1 | `tokyo-korean-community-beyond-shinokubo` | 미검증 claim 다수 삭제로 구조·분량 재평가 필요 | **claude pilot** (Joseph 승인 2026-07-18) |
 
 ## Wave B — 에피소드 (§1–4 + FA, 동결 규칙 적용)
 
