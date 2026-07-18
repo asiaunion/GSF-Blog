@@ -2,7 +2,7 @@
 title: "Has Tama New Town Really Failed? — Machida, Tama & Inagi Home Prices [Ep.12·2026]"
 description: "We re-read the Tama New Town 'failure' image through neighborhood-level transaction prices: the gap between station-adjacent areas and older housing stock, and Inagi's population growth against its small sample."
 pubDatetime: 2026-07-18T00:30:00+09:00
-modDatetime: 2026-07-18T12:05:00+09:00
+modDatetime: 2026-07-18T12:10:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -42,7 +42,7 @@ citeSources:
 
 Type the name into a search engine and the answer looks settled. An aging planned town, a shrinking population, rising vacancy. I started from roughly the same image.
 
-Then, going through the actual transaction records neighborhood by neighborhood, I found myself stopping more often than I expected. Within the same Tama, some neighborhoods sold at prices close to Tokyo's outer wards — and the next neighborhood over did not reach half of that.
+Then, as I worked through the transaction records one neighborhood at a time, I kept stopping. Within the same Tama, some neighborhoods sold at prices close to Tokyo's outer wards — and the next neighborhood over did not reach half of that.
 
 That is when the question shifted.
 
@@ -67,7 +67,7 @@ That is when the question shifted.
 
 At first I, too, expected the whole southern belt to be uniformly weak — aging stock, shrinking population.
 
-But going through the transactions one by one, city names started to matter less and less.
+But going through the transactions one by one, I realized city names mattered less and less.
 
 What people actually responded to was not the city, but the station.
 
@@ -79,7 +79,7 @@ This article records how my thinking changed through that process, leaning on th
 
 **Machida** sounds like one uniform city, but prices actually cluster around specific stations. Even within Machida, there is more than one market.
 
-**Tama** carries the "failed new town" image more than any other city. But the more transaction records I read, the more neighborhoods appeared that the one-line verdict could not explain. The places people still seek out and the places where prices stay pressed apart had already split within the same city.
+**Tama** carries the "failed new town" image more than any other city. But the more transactions I reviewed, the more neighborhoods appeared that the one-line verdict could not explain. The places people still seek out and the neighborhoods where prices remain subdued had already split within the same city.
 
 **Inagi** I treated carefully for a different reason. Not because it is a good city, but because the transactions have not yet accumulated. In thin markets, withholding judgment is often more accurate than confidence. So the neighborhood prices appear in the table below, but please treat them as reference only.
 
@@ -107,7 +107,7 @@ The city I spent the longest on in this article was Tama City. It diverged from 
 
 Its population is projected to decline. By common sense, prices should follow. Yet when I checked the actual transaction flow, prices had risen steadily over the past several years.
 
-So — if the population is shrinking, why did prices hold?
+So why have prices held up despite a shrinking population?
 
 | City | Population Outlook (2020→2040) | Price Trend, Last 4 Years (Annualized) |
 |------|-------------------------------:|---------------------------------------:|
@@ -133,7 +133,7 @@ Just because purchase prices split by city does not mean rents split by the same
 
 The purchase price spread is sizable, yet rents for new one-room units near stations stay in a narrow band. So the simple yield lands in nearly the same place everywhere.
 
-The yield shows that purchase prices and rents do not always move in the same direction. Which makes "where to live, where to buy" the more important question.
+The yield reflects the fact that purchase prices and rents do not always move together. Which makes "where to live, where to buy" the more important question.
 
 ---
 
@@ -141,7 +141,7 @@ The yield shows that purchase prices and rents do not always move in the same di
 
 **Q. Is the "Tama New Town has failed" image accurate?**
 
-A. It is hard to cover a whole city with one word. Population pressure and the low prices of older housing do show up in the data — but so do neighborhoods with high prices within the same city. Only after separating the neighborhoods can we say whether it is failure, or remaining opportunity.
+A. It is difficult to describe an entire city with a single label. Population pressure and the low prices of older housing do show up in the data — but so do neighborhoods with high prices within the same city. Only after separating the neighborhoods can we say whether it is failure, or remaining opportunity.
 
 **Q. Will prices rise again?**
 
@@ -153,7 +153,7 @@ A. The transit and accessibility image is real. But prices concentrate around sp
 
 **Q. How should I read Inagi?**
 
-A. The city average and the population direction are usable references. But with so few transactions, neighborhood prices are reference-level only. If a specific property interests you, check the individual transactions and the hazard maps separately.
+A. The city average and the population direction are usable references. But with so few transactions, neighborhood-level prices should be treated as indicative only. If a specific property interests you, check the individual transactions and the hazard maps separately.
 
 ---
 
@@ -165,7 +165,7 @@ Tama City's population outlook cannot be taken lightly. But the same city also c
 
 **"Prices are rising, so it has already recovered"** — the other view.
 
-The gains in some neighborhoods are real. But once you include the neighborhoods where prices stay pressed, and the places where judgment is on hold for lack of transactions, it is too early to say "it has all risen already." Prices also move with interest rates, policy, and the broader market — one table cannot settle the conclusion.
+The gains in some neighborhoods are real. But once you include the neighborhoods where prices remain subdued, and the places where judgment is on hold for lack of transactions, it is too early to say "it has all risen already." Prices also move with interest rates, policy, and the broader market — one table cannot settle the conclusion.
 
 ---
 
@@ -177,9 +177,9 @@ What changed most while preparing this article was not the data but the question
 
 At first I was asking, "has Tama New Town failed?"
 
-The numbers kept pointing at neighborhoods before city names. There were places where prices held even as population fell, and the neighborhoods people seek out and the ones left quiet were already on different paths.
+The numbers kept pointing at neighborhoods before city names. There were places where prices held even as population fell, while the neighborhoods people seek out and those they overlook were already following different paths.
 
-I now expect to ask **"where in Tama?"** before "should I live in Tama?"
+I now find myself asking **"Where in Tama?"** before asking **"Should I live in Tama?"**
 
 ---
 
