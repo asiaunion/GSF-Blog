@@ -45,13 +45,13 @@ citeSources:
     secondaryUrl: "https://www.city.tokyo-nakano.lg.jp/"
     portal: "https://www.city.suginami.tokyo.jp/"
 ---
-When the phrase "Hipster Inner Ring" comes up in conversations about Tokyo real estate, I tend to hear two reactions: "Isn't that just the cheaper part of town?" and "Isn't it too far from the Core 6 wards?" The data, at least, does not support either assumption.
+Say "hipster inner ring" about Tokyo, and most people picture cheap, or far from the core six wards. The data backs up only half of that. **Cheap, yes. Far, no.**
 
-Ikebukuro Station in Toshima Ward handles close to two million daily passengers — placing it alongside Shinjuku and Shibuya as one of Tokyo's three major sub-centers. Nakano Station connects to Shinjuku via JR Sobu Line in just two minutes. Koenji in Suginami Ward sits on the Marunouchi Line, bringing downtown within a 20-minute ride. "Far from the center" is not a fair description for any of these neighborhoods.
+Toshima Ward's Ikebukuro is one of Tokyo's three major subcenters, and Nakano Station is two minutes from Shinjuku. Suginami Ward's Koenji is within 20-odd minutes of the center too.
 
-In this installment, I take a data-first look at the three wards that our [Series Prologue](/posts/tokyo-ward-guide-series-prologue/) classified as Tokyo's Hipster Inner Ring.
+This installment dissects the three wards classified as the "hipster inner ring" in the [series prologue](/posts/tokyo-ward-guide-series-prologue/).
 
-> **Data reference period**: H1 2025–2026. Rental figures are based on new construction within a 5-minute walk of each station (SUUMO). Real estate prices fluctuate quarterly — please consult the cited sources for the latest figures.
+> **Data as of**: H1 2025–2026. Rental figures are based on new-build, within a 5-minute walk of the station (SUUMO); property prices shift quarterly. Check the source links for current figures.
 
 ---
 
@@ -260,7 +260,7 @@ Suginami Ward has **26,120 foreign residents**, approximately **4.5% of its popu
 
 ## 4. Three-Ward Comparison (Arithmetic Gate)
 
-Cross-referencing the data across all three wards surfaces some genuinely interesting patterns.
+So which ward suits which kind of person? Cross-analyzing the data for the three wards reveals an interesting pattern.
 
 **Income gap (subtraction check):**
 Suginami's per-capita income (¥2.805M) minus Nakano's (¥2.606M) = **¥199,000 difference**. (Arithmetic: 2.805 − 2.606 = 0.199M) Suginami has the strongest income base of the three, but all three wards are at or above the Tokyo metropolitan average (¥2.633M).
@@ -299,15 +299,15 @@ Condo prices show a **~19.6% gap** between Toshima (¥1.158M/㎡) and Suginami (
 
 ## 5. Investment & Residency Guide
 
-Here is where I land after working through all the data.
+Line the three wards up side by side, and each one draws the eye for a different reason.
 
-**On pure accessibility, Toshima Ward leads the three.** Ikebukuro Station is a genuine transport hub where JR, Tokyo Metro, Saikyo Line, and Fukutoshin Line all converge. From there, every major downtown destination is within 30 minutes. The 2043 redevelopment further reinforces the long-term positioning case. And for foreign relocators, the settlement infrastructure — Korean signage, community networks, multilingual retail — is unmatched among the three wards.
+**On accessibility alone, Toshima comes out ahead.** Ikebukuro Station is a transfer hub where JR, Tokyo Metro, the Saikyo Line, and the Fukutoshin Line all converge. Major central destinations are reachable within 30 minutes in any direction, and redevelopment momentum heading toward 2043 backs that up. Settlement convenience for foreign residents is also the strongest of the three.
 
-**That said, Nakano Ward is where I am personally paying closest attention.** Small ward means constrained supply. Two confirmed milestones — the new station building opening in December 2026 and San Plaza's 2034 rebuild — are already locked into the official city plan. Entering before those catalysts materialize may offer the most asymmetric risk-return profile of the three wards, though as always, the outcome depends on factors well beyond the redevelopment timeline itself.
+**That said, I'm watching Nakano most closely.** Being a small ward also means limited supply. The new station and Atre opening in December 2026, and the Nakano Sun Plaza rebuild completing in 2034, are already officially announced. Entering ahead of those two catalysts leaves the most room, I think, for potential returns to move relative to price among the three.
 
-**Suginami Ward is worth considering first for those who prioritize stability.** Lowest entry cost, strongest income base, and thick family-tenant demand. For investors seeking steady cash flow (Income Gain) over momentum plays, Suginami is a persuasive option.
+**Suginami is worth checking first if stability is your top priority.** The lowest entry cost of the three, the strongest income base, and deep family rental demand. If you want steady cash flow and lower risk over flashy upside, Suginami is where that leans.
 
-The real value of the Hipster Inner Ring is now visible in the numbers. Under half the price of the Core 6 wards, over 90% of their commute access, with cultural depth and redevelopment tailwinds to boot. These three wards are, in my reading, the most interesting corner of the Tokyo property map right now.
+Laying the three out this way, it strikes me that bundling them under one label — "hipster inner ring" — doesn't really hold. They read more like three separate markets. I plan to keep watching these three separately for now.
 
 ---
 

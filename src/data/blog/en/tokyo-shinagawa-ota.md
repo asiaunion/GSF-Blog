@@ -35,6 +35,8 @@ citeSources:
 
 There is a substantial price gap between the two wards: the average mansion price in Ota Ward is approximately 831,000 yen/㎡, while Shinagawa Ward stands at 1.388 million yen/㎡. However, because Ota Ward has large regional variations, the ward-wide average alone cannot fully describe the actual market prices or living environments. When I walked through Ota Ward, it felt like a quiet, typical residential neighborhood. Yet, when traveling from there, transit access to Shinagawa and key downtown areas proved to be surprisingly convenient. It left me with a very different impression from what the statistics suggested.
 
+**The price tag splits the two wards apart, but the commute timetable doesn't.**
+
 Continuing the series, in this article I compare Shinagawa and Ota—the two major districts of Tokyo's Southern Belt—using real-world market data.
 
 ---
@@ -141,7 +143,7 @@ Rents are noticeably cheaper compared to Shinagawa. Therefore, it is always a to
 
 ## How Large Is the Price Gap Between the Two Wards?
 
-Let's compare the statistics of the two wards driving the Southern Belt.
+So why did this price gap open up in the first place? Let's lay out the arithmetic contrast between the two wards driving Tokyo's southern belt.
 
 - **Income Density Fundamentals (Subtraction):**
   Subtracting Ota's 2.646M JPY from Shinagawa's 3.198M JPY per capita income reveals a gap of **552k JPY**. While Shinagawa shows overwhelming wealth density, Ota easily beats the Tokyo average, solidifying a strong downside floor.
@@ -169,13 +171,13 @@ When cross-analyzing this data, the most critical insight is that **"the gap in 
 
 ## What Should You Consider When Choosing a Residence?
 
-In my view, the conclusion is clear. Tokyo's Southern Belt is a "Global & Domestic Business Gateway" grasping both the massive land route of the Shinkansen and the sky route of Haneda Airport.
+Tokyo's southern belt holds both a Shinkansen artery and Haneda's air gateway. Within that belt, though, the choice still splits.
 
-From a renter's perspective, if a sophisticated urban lifestyle and commuting convenience are your absolute priorities, **Shinagawa (around Osaki/Gotanda)** is the answer, even if it means bearing higher rent. Conversely, if you want a comfortable 2LDK+ on a reasonable budget while enjoying the future upside of Kamata's redevelopment, **Ota** is the perfect alternative.
+For renters who prioritize an urban lifestyle and commute convenience, **Shinagawa Ward (around Osaki and Gotanda)** tips the scale even at a higher rent. For those who want more space — 2LDK and up — on a reasonable budget, and want to ride the upside of the Kamata redevelopment, **Ota Ward** becomes the alternative.
 
-The same applies to investors. If you have abundant capital and are confident in asset appreciation (Capital Gains), choose Shinagawa. If you want high-yield cash flow (Income Gains) in the rental market based on cost-effective purchase prices, choose Ota.
+The logic holds for investors too. Weight toward capital appreciation, and Shinagawa fits; weight toward rental yield on an accessible purchase price, and Ota fits.
 
-When infrastructure evolves, the tenant demographic shifts, and when the demographic shifts, asset values are completely re-evaluated. This harmonious blend of refined history and massive modernity is exactly why you must pay attention to the Tokyo 23 Wards Southern Belt.
+Comparing the data, the conclusion kept landing in the same place: it isn't "which one's the answer" but "which do you count as capital gain, and which as income gain." As infrastructure shifts, the demand base shifts with it, and once demand shifts, asset value gets rewritten. I plan to keep watching how that plays out in actual prices and demand going forward.
 
 ---
 

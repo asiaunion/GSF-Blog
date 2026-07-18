@@ -44,6 +44,7 @@ citeSources:
     portal: "https://www.reinfolib.mlit.go.jp/"
 ---
 The place most often cited as Setagaya’s traditional wealthy enclave is Seijo. Mansion prices there run about 800,000–1,200,000 yen/㎡, representing a premium price tier even within Setagaya. However, since Setagaya Ward covers a vast area, it is difficult to grasp these regional variations through ward-wide averages alone. Walking through Seijo, what stood out first was its hilly terrain, large detached houses, and high walls—it reminded me of Seongbuk-dong and Pyeongchang-dong in Seoul.
+**The same word — "upscale" — describes two areas with completely different characters once you set the data side by side.**
 
 Before buying our home in Nihonbashi, I spent nearly two years visiting neighborhoods across Tokyo, and Seijo was one of the places that stayed with me the longest. Building on the Series Prologue, in this article I compare **Meguro Ward and Setagaya Ward**—which sit directly west of the Core 6 Wards (Chiyoda, Chuo, Minato, Shinjuku, Shibuya, and Bunkyo) and are consistently ranked as the most desirable residential areas in Tokyo—using firsthand field data.
 
@@ -180,7 +181,7 @@ The number of registered foreign residents in Setagaya Ward is **31,177**, which
 
 ## How Do Meguro and Setagaya Differ in Data?
 
-Comparing the core statistics of Meguro and Setagaya wards reveals their distinct profiles with mathematical clarity.
+So how different are the two wards, numbers aside? Comparing the core statistics of Meguro and Setagaya — the two wards that split western Tokyo — shows a sharp arithmetic contrast in character.
 
 * **Taxable Income Gap (Subtraction Verification):**
   Subtracting Setagaya Ward's average taxable income of **6.812 million yen** from Meguro Ward's average taxable income of **7.695 million yen** yields an income gap of **0.883 million yen** (7.695 − 6.812 = 0.883 million yen).
@@ -209,11 +210,13 @@ Comparing the core statistics of Meguro and Setagaya wards reveals their distinc
 
 ## What Factors Should You Consider When Choosing a Place to Live?
 
-In my view, the conclusion is clear.
+It comes down to this: not which is better, Meguro or Setagaya, but which fits your investment horizon and lifestyle.
 
-If your primary goals are rapid tenant turnover and robust downside protection in a medium-term horizon, you should focus your portfolio on small properties (studios or 1LDKs) near stations along **Meguro Ward's Tokyu Toyoko Line (東急東横線)**.
+If fast rental turnover and price-downside protection matter most, the small units (studios to 1LDK) along **Meguro's Tokyu Toyoko Line** carry more weight.
 
-On the other hand, if you want a rock-solid, long-term asset backed by domestic family demand, or if you plan to move to a spacious, green neighborhood with superb amenities (parks and malls), I suggest prioritizing a 2LDK or 3LDK family apartment near express stops along **Setagaya Ward's Tokyu Den-en-toshi Line (東急田園都市線)** or Odakyu Line (小田急線).
+If you'd rather park capital in Tokyo's family-demand fundamentals for five-plus years, or want a nature-adjacent home near solid shopping and school infrastructure, family apartments (2LDK–3LDK) near express stops on **Setagaya's Tokyu Den-en-toshi Line** or the Odakyu Line fit better.
+
+What stood out as I put this piece together is that "upscale" carries a completely different logic depending on the ward. Rather than ranking the two, it made more sense to me to keep their strengths distinct.
 
 ---
 

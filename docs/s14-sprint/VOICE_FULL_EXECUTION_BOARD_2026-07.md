@@ -22,9 +22,9 @@
 | B1 | 2 | `tokyo-core-3-wards-chiyoda-chuo-minato` | live | Ep.1 · Cursor 검증(100/PASS·build ok·spine 동결·새사실0)→prod |
 | B1 | 3 | `tokyo-shinjuku-shibuya-bunkyo` | live | Ep.2 · Cursor 검증(100/PASS·build ok·spine 동결·새사실0)→prod |
 | B1 | 4 | `tokyo-musashino-mitaka-chofu` | live | Ep.9 · Cursor 검증(100/PASS·YMYL 단정형 완화·수치 보존)→prod |
-| B2 | 5 | `tokyo-meguro-setagaya` | claude-final | Ep.3 · Cursor 사전점검 PASS(새사실0·H2동결·금칙어0) |
-| B2 | 6 | `tokyo-shinagawa-ota` | claude-final | Ep.4 · Cursor 사전점검 PASS(리니어 헤지 유지·연도 재도입0) |
-| B2 | 7 | `tokyo-toshima-nakano-suginami` | claude-final | Ep.5 · Cursor 사전점검 PASS(YMYL 권유 회귀0·새사실0) |
+| B2 | 5 | `tokyo-meguro-setagaya` | live | Ep.3 · Cursor 검증(100/PASS·YMYL 완화·출처 동결)→prod |
+| B2 | 6 | `tokyo-shinagawa-ota` | live | Ep.4 · Cursor 검증(100/PASS·EN/JA 누락분 Cursor 보완·리니어 헤지 유지)→prod |
+| B2 | 7 | `tokyo-toshima-nakano-suginami` | live | Ep.5 · Cursor 검증(100/PASS·권유 어휘 완화·수치 보존)→prod |
 | B3 | 8 | `tokyo-taito-sumida-koto` | queued | Ep.6 |
 | B3 | 9 | `tokyo-kita-arakawa-itabashi-nerima` | queued | Ep.7 |
 | B3 | 10 | `tokyo-adachi-katsushika-edogawa` | queued | Ep.8 |
