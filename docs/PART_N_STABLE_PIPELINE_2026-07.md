@@ -83,7 +83,8 @@
 | R3 | H2 ≥1 질문형 · YMYL 단정 없음 | 권유 프레임 |
 | R4 | vNext spine 순서 · Joseph's View · Final insight echo | spine 누락 |
 | R5 | Voice: 데이터 주인공 · 사고 과정 공개 · 허구 현장 금지 · 1인칭 2~3회 | 「가보니」 |
-| R5b | **Reader First** ([`JOSEPH_AUTHENTIC_VOICE`](./JOSEPH_AUTHENTIC_VOICE.md) v1.2): 중학생 독해 · 은어 단독 금지 · 전문어 첫 등장 한글 정의 · 문장 짧고 그려짐 · 차분 톤 유지 | 「허브」「CAGR」「별 지도」「구 스톡」단독 · 개발자/애널리스트 은어 |
+| R5b | **Reader First** ([`JOSEPH_AUTHENTIC_VOICE`](./JOSEPH_AUTHENTIC_VOICE.md) v1.3): 중학생 독해 · 은어 단독 금지 · 전문어 첫 등장 한글 정의 · 문장 짧고 그려짐 · 차분 톤 유지 | 「허브」「CAGR」「별 지도」「구 스톡」단독 · 개발자/애널리스트 은어 |
+| R5c | **데이터 저널리즘 70/30** (v1.3): 본문 숫자 나열 최소화(핵심 수치는 표로) · 의미 먼저 · 문단당 1메시지 · 통념→나도→데이터→예상밖→증거→독자결론 흐름 · 허구 경험 금지 | 한 문단에 숫자 4개 · 표로 갈 수치를 본문에 나열 · 「따라서」로 결론 투척 |
 | R6 | 수치마다 citeSources 대응 · manifest claim 정합 | 고아 숫자 |
 | R7 | 내부링크 ≥2 (tokyoLife + urbanInvestment 규칙) | 링크 0 |
 | R8 | HARD: slug·JA·범위 | 위반 즉시 Fail |
@@ -134,3 +135,4 @@
 | 일자 | 내용 |
 |------|------|
 | 2026-07-17 | 초판 · Mode C/B/V · GPT 선택 · Claude 토큰예외 · Ep.12 캘리브레이션 |
+| 2026-07-18 | R5c 추가 — 데이터 저널리즘 70/30 (Voice v1.3). 90/10 → 70/30 조정, 지향 60/40. 숫자 두려운 독자 기준. |
