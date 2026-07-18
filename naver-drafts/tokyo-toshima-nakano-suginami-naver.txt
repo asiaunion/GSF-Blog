@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-toshima-nakano-suginami
+
+- 생성일시: 2026-07-19 00:35 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-toshima-nakano-suginami/
+- 제목: 도시마·나카노·스기나미 집값과 임대 시세 — 도쿄 이너링 [Ep.5·2026]
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #나카노구 #도시마구 #도쿄23구
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-toshima-nakano-suginami-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 도시마·나카노·스기나미 집값과 임대 시세 — 도쿄 이너링 [Ep.5·2026]
+5. 카테고리 선택 후 발행
