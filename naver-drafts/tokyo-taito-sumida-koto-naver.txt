@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-taito-sumida-koto
+
+- 생성일시: 2026-07-19 01:26 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-taito-sumida-koto/
+- 제목: 다이토·스미다·고토 집값과 임대 시세 — 도쿄 동부 3구 [Ep.6·2026]
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #다이토구 #도쿄23구 #부동산인사이트
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-taito-sumida-koto-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 다이토·스미다·고토 집값과 임대 시세 — 도쿄 동부 3구 [Ep.6·2026]
+5. 카테고리 선택 후 발행

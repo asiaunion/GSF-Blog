@@ -155,7 +155,7 @@ Katsushika-ku also carries flood and liquefaction risk of 'O' across tile sampli
 
 ## 3. Edogawa-ku
 
-江戸川区 (Edogawa-ku) sits at the far eastern edge of the 23 wards. The ward's eastern boundary is simultaneously the border with Chiba Prefecture, defined by the Edogawa River. Tokyo's easternmost ward — the framing of "outer edge" has stuck.
+Bring in Edogawa-ku last, and the differences among the three wards come into sharper focus. 江戸川区 (Edogawa-ku) sits at the far eastern edge of the 23 wards. The ward's eastern boundary is simultaneously the border with Chiba Prefecture, defined by the Edogawa River. Tokyo's easternmost ward — the framing of "outer edge" has stuck.
 
 Approached from a residential quality perspective, the picture shifts. The ward has an unusually high proportion of parks and riverside green space relative to its built area. There is a thick layer of family-oriented owner-occupier demand that keeps transaction activity steady.
 
@@ -264,13 +264,15 @@ Key checks before any purchase decision:
 2. Liquefaction prediction map
 3. Building completion date (post-1981 new seismic standards or not)
 
-Lower prices exist for structural reasons. Understanding those reasons before choosing is different from not understanding them.
+**There's a reason prices are low. Understanding that reason before you choose is different from not understanding it at all.**
 
 ### Who should consider which ward?
 
 - **Owner-occupiers prioritizing stability** → Adachi-ku: direct access to a top-tier transit hub, 2.5% population growth forecast, lowest absolute price of the three
 - **Capital appreciation focus** → Katsushika-ku: 7.3% CAGR, catch-up dynamic from a low base — though liquidity is thinner
 - **Quality of life first** → Edogawa-ku: highest 1R rents (9.1万円), abundant green space, but long-term population decline risk to monitor
+
+Comparing these three wards, one sentence is the one that stuck. **There's a reason prices are low.** Being cheap on its own didn't fully explain the differences I found. In the end, what mattered wasn't the price — it was the reason behind it.
 
 ---
 

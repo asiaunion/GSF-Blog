@@ -56,7 +56,7 @@ citeSources:
 
 In Tokyo real estate conversations, "the east side" carries two meanings. One is literal geography. The other is an unspoken shorthand for "the cheap side." I used to think the same way. East equals affordable. Far from the center. Weaker for investment compared to the west. I never really questioned that assumption.
 
-Then I actually went to Kinshicho (錦糸町) and took the train to Tokyo Station. It was far closer than I expected. Eight minutes. No transfer needed. Walking through the backstreets of Kuramae (蔵前), the border of Chiyoda-ku is right in front of you. Step out of Toyocho (東陽町) Station, and Otemachi is nine minutes away. There was a bigger gap than I anticipated between distances on a map and how the commute actually feels. That made me trace back where the "far" perception came from.
+Then I actually rode from Kinshicho (錦糸町) to Tokyo Station myself — much closer than I expected. Eight minutes by train, no transfer. Walk the back streets of Kuramae (蔵前) and the Chiyoda-ku border is right there. Step out of Toyocho (東陽町) Station and Otemachi is nine minutes away. **The gap between the map's distance and the felt distance was real.**
 
 That's when a question formed. Is this area genuinely cheap — or has its proximity to the center simply not been priced in yet? If you take the Imperial Palace (皇居) in Chiyoda-ku (千代田区) as Tokyo's physical center, the straight-line distance to Taito-ku (台東区) Ward Office is 3 km. To Sumida-ku (墨田区) Ward Office, 5 km. To Koto-ku (江東区) Ward Office, 6–7 km. Yet mansion transaction prices here sit around 60% of Chuo-ku (中央区) levels. I wanted to understand why. So I went through actual transaction prices and rental rates, one data point at a time.<sup class="source-ref"><a href="#source-1" id="cite-1a">1</a></sup>
 
@@ -103,7 +103,7 @@ In April 2026, Taito-ku officially released the "Asakusa Mirai Zuan (浅草未�
 
 Put the ward average of 7,762万円 alongside Chuo-ku at 1億2,680万円 or Minato-ku (港区) at 1億5,441万円, and it's hard not to feel that the "inner-city adjacency" hasn't been fully priced in yet.
 
-Yushima and Nezu are the exceptions. These western neighborhoods bordering Bunkyo-ku have already crossed **¥100 million**. The price gap within the ward is wide depending on where you are. Keep that in mind.
+Yushima and Nezu are the exceptions. These western neighborhoods bordering Bunkyo-ku have already crossed **one hundred million yen**. The price gap within the ward is wide depending on where you are. Keep that in mind.
 
 To my eyes, Taito-ku looks more like a "city living area" than a "tourist zone." The fact that Asakusa and Ueno come to mind first is one thing — actually living or investing there is a different question entirely.
 
@@ -183,7 +183,7 @@ Additionally, in March 2025, Sumida-ku established the "Kinshicho Machizukuri Vi
 
 ### A Ward of Two Faces
 
-Koto-ku (江東区) is not a ward you can explain with a single number. The overall ward average transaction price is 8,401万円 for 70㎡.<sup class="source-ref"><a href="#source-1">1</a></sup> But two entirely different markets coexist within that average.
+Having compared the first two wards, I found myself looking at Koto-ku with fresh eyes. Koto-ku (江東区) is a ward that no single number can describe. The overall ward average transaction price is 8,401万円 for 70㎡.<sup class="source-ref"><a href="#source-1">1</a></sup> But two entirely different markets coexist within that average.
 
 The southern zone — Toyosu (豊洲) and Ariake (有明) — is already a premium market. Near Ariake Station, transaction prices hit 198.6万円/㎡; Toyosu Station comes in at 168.7万円/㎡ (343 transactions). That approaches Minato-ku's average of 220.6万円/㎡. With the 2024 opening of Toyosu Senkyubanrai (豊洲千客万来) and the July 2025 opening of Toyosu Sail Park (豊洲セイルパーク), waterfront mixed-use development continues to pile on — pushing the development density in this zone ever higher.
 
@@ -273,6 +273,8 @@ Let me be clear about the risks, though. I recommend checking the hazard maps in
 Also note: the southern Toyosu-Ariake zone in Koto-ku already has its premium priced in. Expecting further upside there requires a different investment thesis. Kiyosumi-Shirakawa, Morishita, and Monzen-Nakacho in the inland areas are where you still find prices that look low relative to their accessibility.
 
 When Subway Line 8 (地下鉄8号線) extension opens — targeting the mid-2030s — neighborhoods currently underserved by transit could enter a new price discovery phase. Finding pockets where the market hasn't fully pre-priced that change is one of the strategic angles worth examining right now.
+
+Even now, having confirmed the gap between the map and the felt distance, the question I opened with is still there: is this area genuinely cheap, or is there something the price hasn't caught up to yet? I don't think the data so far is enough to settle it. I plan to keep checking how these redevelopments actually feed through to price, each time one of these milestones passes.
 
 ---
 

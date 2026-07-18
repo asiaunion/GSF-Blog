@@ -38,7 +38,7 @@ citeSources:
 
 When people hear "the north side is cheap," certain images tend to come to mind: poor transit, run-down neighborhoods, low investment value. Usually one of those three. I used to think the same thing.
 
-Then I actually rode the train from 西日暮里 (Nishi-Nippori) Station to Tokyo Station. It took 13 minutes. No transfers. Those 13 minutes completely changed the way I see 荒川区 (Arakawa-ku).<sup class="source-ref"><a href="#source-1" id="cite-1a">1</a></sup>
+Then I actually rode it myself — 西日暮里 (Nishi-Nippori) Station to Tokyo Station. Thirteen minutes. No transfer. **Those thirteen minutes made me look at Arakawa-ku differently.**<sup class="source-ref"><a href="#source-1" id="cite-1a">1</a></sup>
 
 > **Data reference period**: Mansion transaction prices are based on the Ministry of Land, Infrastructure, Transport and Tourism Real Estate Information Library, 2025 Q1–Q4. Rental rates are from SUUMO for new construction within a 5-minute walk of a station, and are subject to change. Please check the source links for the latest figures.
 
@@ -151,7 +151,7 @@ The 荒川 river — the ward's namesake — runs along the eastern boundary of 
 
 ## 3. 板橋区 (Itabashi-ku)
 
-板橋区 (Itabashi-ku) sits in the northwestern part of the 23 wards, a mix of industrial zones and residential neighborhoods with little tourist recognition. But it holds a clear distinction in this episode: it recorded the highest transaction volume of the four wards.
+Line the four wards up side by side, and Itabashi-ku starts to look like the natural baseline. 板橋区 (Itabashi-ku) sits in the northwestern part of the 23 wards, a mix of industrial zones and residential neighborhoods with little tourist recognition. But it holds a clear distinction in this episode: it recorded the highest transaction volume of the four wards.
 
 With **1,030 transactions** in 2025, 板橋区 offers a deep pool of price data. An active market means pricing is well-validated — not a guessing game.
 
@@ -287,6 +287,8 @@ Looking at these four wards through an investment lens, it's useful to split the
 **板橋区 and 練馬区** offer a clear price advantage. Landing at 36–38% of 千代田区's level is a favorable starting point from a rental yield perspective. The trade-off is that neither ward offers a direct line to Tokyo Station, which is a factor to weigh in any investment thesis. For owner-occupants or those prioritizing rental income, both are rational choices.
 
 On the risk side, all four wards show flood and liquefaction exposure in varying sub-areas. When evaluating low-lying or riverside properties, always consult the Tokyo Metropolitan Government hazard map. Building seismic rating and 築年数 (building age) should also be on your inspection checklist.
+
+Lining these four wards up side by side, "the north is cheap" turned out to be partly true. But only half of that cheapness came from data — the other half came from image. Once again, the data didn't fully overturn the cliché. What got clearer, though, is where the image ends and the data begins.
 
 ---
 
