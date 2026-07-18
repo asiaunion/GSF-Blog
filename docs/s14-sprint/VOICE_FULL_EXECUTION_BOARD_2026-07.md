@@ -19,9 +19,9 @@
 | 배치 | 순서 | slug | 상태 | 비고 |
 |------|------|------|------|------|
 | P0 | 1 | `tokyo-korean-community-beyond-shinokubo` | live | #6 파일럿 · Cursor 검증(100/PASS·build ok·spine 동결)→prod |
-| B1 | 2 | `tokyo-core-3-wards-chiyoda-chuo-minato` | claude-final | Ep.1 · Cursor 사전점검 PASS(새사실0·H2동결·금칙어0) |
-| B1 | 3 | `tokyo-shinjuku-shibuya-bunkyo` | claude-final | Ep.2 · Cursor 사전점검 PASS(새사실0·H2동결·금칙어0) |
-| B1 | 4 | `tokyo-musashino-mitaka-chofu` | claude-final | Ep.9 · Cursor 사전점검 PASS(새사실0·spine 복구본 동결) |
+| B1 | 2 | `tokyo-core-3-wards-chiyoda-chuo-minato` | live | Ep.1 · Cursor 검증(100/PASS·build ok·spine 동결·새사실0)→prod |
+| B1 | 3 | `tokyo-shinjuku-shibuya-bunkyo` | live | Ep.2 · Cursor 검증(100/PASS·build ok·spine 동결·새사실0)→prod |
+| B1 | 4 | `tokyo-musashino-mitaka-chofu` | live | Ep.9 · Cursor 검증(100/PASS·YMYL 단정형 완화·수치 보존)→prod |
 | B2 | 5 | `tokyo-meguro-setagaya` | queued | Ep.3 |
 | B2 | 6 | `tokyo-shinagawa-ota` | queued | Ep.4 |
 | B2 | 7 | `tokyo-toshima-nakano-suginami` | queued | Ep.5 |

@@ -62,7 +62,7 @@ This chapter follows the [Series Prologue](/posts/tokyo-ward-guide-series-prolog
 
 ### Brand Positioning
 
-Shinjuku is Tokyo's most layered ward. The world's busiest railway station — Shinjuku Station — sits at its center, splitting the ward into two radically different cities along an east-west axis.
+Step out of Shinjuku Station, and which exit you take leads to a completely different city. Shinjuku is Tokyo's most complex, most layered ward. Centered on Shinjuku Station — the world's busiest by daily foot traffic — two entirely different cities coexist side by side.
 
 The west side (Nishi-Shinjuku) is a CBD of government offices and corporate towers. The east side (Higashi-Shinjuku, Kabukicho) is a dense commercial zone of food, entertainment, and nightlife. Shin-Okubo sits between them — Tokyo's de facto Korean town, a dense cluster of Korean residents and businesses that is the most familiar neighborhood for Korean newcomers, with an atmosphere reminiscent of Seoul's Yeonnam-dong.
 
@@ -276,6 +276,8 @@ Bunkyo's foreign resident ratio is **approx. 6–7%**. UTokyo's international st
 | Foreign-resident livability | ★★★★★ | ★★★★ | ★★★☆ |
 
 > Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 — Shinjuku n=1,298 / Shibuya n=907 / Bunkyo n=808
+
+Comparing the three wards, what I kept confirming was one thing: can they be ranked on the same scale? The answer was no. Same price tier — but different standards make for a completely different choice.
 
 ---
 

@@ -71,7 +71,7 @@ Each ward has a distinct identity and demand base. The data tells the story clea
 
 ### Brand Positioning
 
-Chiyoda is Tokyo's most "authoritative" ward. The Imperial Palace (皇居), the National Diet Building, the Prime Minister's Official Residence, and the Supreme Court are all located here. Marunouchi and Otemachi form the city's financial and corporate hub — home to Japan's mega-corporations and megabanks. To the northeast, Akihabara is a globally recognized destination for electronics and subculture.
+Most people think of the Imperial Palace or government offices first when they think of Chiyoda. I started with roughly that same image myself. In fact, Chiyoda is Tokyo's most "authoritative" ward. The Imperial Palace, the National Diet, the Prime Minister's Residence, and the Supreme Court are all located here. Marunouchi and Otemachi form the city's financial and corporate hub — home to Japan's mega-corporations and megabanks. To the northeast, Akihabara is a globally recognized destination for electronics and subculture.
 
 As a residential ward, Chiyoda occupies a unique position. It has the **smallest resident population of all 23 wards** (approx. 67,000), yet daytime inflows of workers and visitors exceed 800,000. That scarcity of residential space keeps mansion prices at Tokyo's highest tier.
 
@@ -275,6 +275,8 @@ I get it — the numbers make Minato look like the obvious winner. But that's no
 | Cap Rate (reference) | 2–3% | 3–4% | 2.5–3.5% |
 | Core image | Authority / Admin / Finance | Commerce / Culture / Redevelopment | International / Luxury / Embassies |
 | Foreigner livability | ★★★☆ | ★★★★ | ★★★★★ |
+
+Putting the three wards side by side, one thing kept standing out: price is comparable, but purpose isn't — not on the same scale. In the end, the question isn't which ward is "better." It's what you weigh first.
 
 ---
 

@@ -2378,6 +2378,30 @@
       "html_file": "tokyo-ward-guide-series-prologue-naver.html",
       "canonical": "https://gsfark.com/ko/posts/tokyo-ward-guide-series-prologue/",
       "status": "draft"
+    },
+    {
+      "slug": "tokyo-core-3-wards-chiyoda-chuo-minato",
+      "generated_at": "2026-07-18T23:43:35.269014+09:00",
+      "title": "도쿄 도심 3구 집값 비교 — 치요다·주오·미나토 [Ep.1·2026]",
+      "html_file": "tokyo-core-3-wards-chiyoda-chuo-minato-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-core-3-wards-chiyoda-chuo-minato/",
+      "status": "draft"
+    },
+    {
+      "slug": "tokyo-shinjuku-shibuya-bunkyo",
+      "generated_at": "2026-07-18T23:45:30.669814+09:00",
+      "title": "신주쿠·시부야·분쿄 집값과 주거 특징 — 도쿄 핵심 3구 [Ep.2·2026]",
+      "html_file": "tokyo-shinjuku-shibuya-bunkyo-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-shinjuku-shibuya-bunkyo/",
+      "status": "draft"
+    },
+    {
+      "slug": "tokyo-musashino-mitaka-chofu",
+      "generated_at": "2026-07-18T23:48:59.932051+09:00",
+      "title": "무사시노·미타카·조후 집값 비교 — 도쿄 서부 교외 [Ep.9·2026]",
+      "html_file": "tokyo-musashino-mitaka-chofu-naver.html",
+      "canonical": "https://gsfark.com/ko/posts/tokyo-musashino-mitaka-chofu/",
+      "status": "draft"
     }
   ]
 }

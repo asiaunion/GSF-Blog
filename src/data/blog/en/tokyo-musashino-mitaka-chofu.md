@@ -26,9 +26,9 @@ citeSources:
     url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
 ---
 
-When considering Tokyo real estate investment, do you only insist on staying inside the "23 Wards"? My perspective is a bit different. If you understand Japan's dense and overwhelming railway network, hidden gems just outside the 23 Wards begin to emerge.
+Are you limiting your Tokyo property search to inside the 23 wards? I used to split it the same way myself — inside versus outside the 23 wards. But once I traced the rail network and looked at the data again, that split didn't always hold up. **The 23-ward boundary is an administrative line — price doesn't always follow it.**
 
-As a data analyst, looking at the western Tokyo market, there are areas just outside the border that offer Shinjuku and Tokyo Station accessibility on par with the 23 Wards. Today, we focus on **Musashino City, Mitaka City, and Chofu City**. 
+Just west of the city center are locations with access to Shinjuku and Tokyo Station that rivals many spots inside the 23 wards. Today's subjects are **Musashino City, Mitaka City, and Chofu City.**
 
 > **Data Reference**: Mansion transaction prices are based on the MLIT Real Estate Information Library (Q1-Q4 2025).
 
@@ -71,7 +71,7 @@ _※ All CAGR figures in this series are based on transaction prices from 2021 t
 
 ## 2. Mitaka City
 
-Mitaka City borders Musashino to the south—a quiet and pleasant residential area. Home to the Ghibli Museum and excellent schools like the International Christian University (ICU), it is highly popular among families who prioritize education and environment.
+Look at Mitaka, and it's easy to see why being a terminal station matters. Mitaka City sits just south of Musashino, offering a quiet, comfortable residential environment. Home to the Ghibli Museum and excellent schools like the International Christian University (ICU), it is highly popular among families who prioritize education and environment.
 
 Its biggest weapon is transport efficiency. Mitaka Station is the **starting station** for the JR Chuo and Tozai Lines, with **167,532** daily passengers. In a city notorious for morning rush-hour crowds, being able to sit down for a direct ride downtown is a premium hard to quantify.
 
@@ -146,18 +146,18 @@ It's impressive that Musashino and Mitaka, despite being outside the 23 Wards, m
 
 ### Living Perspective
 
-**Musashino City** is the ultimate choice for families in their 30s and 40s who want childcare support, commercial convenience, and nature. Having the dominant Kichijoji brand within walking distance provides a comfort that's hard to replace anywhere in Tokyo.
+**Musashino City** suits families in their 30s and 40s who want childcare access, shopping convenience, and green space together. Being able to walk to the Kichijoji retail district on foot is a rare combination in Tokyo.
 
-**Mitaka City** is highly recommended for professionals who want to minimize morning commute stress. The advantage of a starting station dramatically improves daily quality of life. You get the same lifestyle as Musashino at a lower price point.
+**Mitaka City** is worth a look for commuters who want to cut morning stress. Being a terminal station changes the daily commute experience noticeably. It's also priced a step below Musashino while sharing the same living area, which stands out on a cost basis.
 
-**Chofu City** is ideal for those with a limited budget seeking larger floor plans or prioritizing nature (like the Tama River). The 15-minute special express to Shinjuku ensures commuting is never a burden.
+**Chofu City** suits those on a tighter budget who want more floor space, or who prioritize natural surroundings like the Tama River. A 15-minute express ride to Shinjuku keeps the commute manageable.
 
 ### Investment Perspective
 
-Being outside the 23 Wards administratively does not diminish investment value. In the Japanese real estate market, railway lines and station access matter far more than ward borders.
+Being outside the 23 wards administratively doesn't diminish investment value. In Japan's property market, rail access matters far more than administrative boundaries.
 
-**Musashino and Mitaka** have already proven their upside potential with high 4-year CAGRs of 6.2% and 5.9%. With populations projected to grow by 4.5~5.3% through 2040, their demand base is solid. These are markets with proven price defense and long-term holding value.
+**Musashino and Mitaka** have posted 4-year CAGRs of 6.2% and 5.9% respectively — prices have climbed steadily. Both cities are projected to see population growth of about 4.5–5.3% through 2040, and so far the data points to a fairly stable trend.
 
-**Chofu City** offers an absolute price advantage (33% of Chiyoda), providing a favorable starting point for rental yield. It aligns better with steady cash flow and practical living rather than aggressive capital gains.
+**Chofu** offers a clear price advantage — about 33% of Chiyoda's level — which gives it a favorable starting point from a yield perspective. It suits stable cash flow and owner-occupancy more than capital gains.
 
-Ultimately, choosing any of these three areas based on your budget and lifestyle will be a smart investment—avoiding the downtown chaos while preserving excellent access and asset value.
+Once again, the rail line explained more than the administrative boundary did. If I were choosing among these three, I'd look at the line and the distance to the station first, and check the ward boundary after.

@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-shinjuku-shibuya-bunkyo
+
+- 생성일시: 2026-07-18 23:45 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-shinjuku-shibuya-bunkyo/
+- 제목: 신주쿠·시부야·분쿄 집값과 주거 특징 — 도쿄 핵심 3구 [Ep.2·2026]
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #도쿄 #맨션 #부동산
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-shinjuku-shibuya-bunkyo-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 신주쿠·시부야·분쿄 집값과 주거 특징 — 도쿄 핵심 3구 [Ep.2·2026]
+5. 카테고리 선택 후 발행
