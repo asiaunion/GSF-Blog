@@ -1,7 +1,8 @@
 ---
-title: "Japan Property Capital Gains Tax for Korean Residents — Pre-Sale Checklist"
-description: "A practical guide to Japanese capital gains tax, withholding tax exemptions, tax representative filing, and claiming the Korean foreign tax credit for non-resident investors."
+title: "Japan Property Capital Gains Tax for Korean Residents: Rates and Filing"
+description: "Japanese short- and long-term property gain rates, 10.21% withholding, Korean filing rules, and foreign tax relief for Korean residents."
 pubDatetime: 2026-07-04T16:30:00+09:00
+modDatetime: 2026-07-18T18:53:00+09:00
 author: Joseph KIM
 draft: false
 lang: en
@@ -19,10 +20,11 @@ sources:
   - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
   - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm"
   - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm"
-  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm"
-  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1932.htm"
   - "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308"
-  - "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C57%EC%A1%B0"
+  - "http://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=001565&lsJoLnkSeq=1000820843&print=print"
+  - "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=001565&lsJoLnkSeq=1000683933&print=print"
+  - "https://www.mofa.go.jp/files/000456967.pdf"
 citeSources:
   - label: "国税庁 タックスアンサー No.3202 土地や建物を売ったとき"
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3202.htm"
@@ -32,21 +34,19 @@ citeSources:
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3208.htm"
   - label: "国税庁 タックスアンサー No.2884 非居住者に対する源泉徴収"
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/gensen/2884.htm"
-  - label: "国税庁 タックスアンサー No.2024 確定申告を忘れたとき"
-    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2024.htm"
-  - label: "国税庁 タックスアンサー No.1923 海外勤務と納税管理人の選任又は解任"
-    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1923.htm"
+  - label: "国税庁 タックスアンサー No.1932 海外勤務中に不動産を売却した場合"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1932.htm"
   - label: "대한민국 국세청 양도소득세 개요"
     url: "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7707&mi=2308"
-  - label: "대한민국 소득세법 제57조 외국납부세액공제"
-    url: "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%86%8C%EB%93%9D%EC%84%B8%EB%B2%95/%EC%A0%9C57%EC%A1%B0"
+  - label: "대한민국 소득세법 제118조의2 국외자산 양도소득의 범위"
+    url: "http://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=001565&lsJoLnkSeq=1000820843&print=print"
+  - label: "대한민국 소득세법 제118조의6 국외자산 외국납부세액공제"
+    url: "https://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsId=001565&lsJoLnkSeq=1000683933&print=print"
+  - label: "Japan–Korea Tax Convention, Article 13"
+    url: "https://www.mofa.go.jp/files/000456967.pdf"
 ---
 
-Many investors carefully calculate acquisition and holding taxes when purchasing Japanese real estate, but the tax implications at the time of sale are often reviewed much later.
-
-For Korean residents selling property in Japan, both Japanese and Korean tax laws may apply simultaneously. Waiting until just before signing the sales contract can leave too little time to prepare.
-
-This article summarizes the key tax procedures and practical checkpoints Korean residents should review before selling Japanese real estate.
+A Korean resident selling Japanese property should first check Japan's non-resident capital gains rules and the general 10.21% withholding requirement. In Korea, foreign-asset capital gains rules can apply to a resident who has maintained an address or residence in Korea continuously for at least five years by the sale date. Eligible Japanese tax may be handled through a capped credit or a deductible-expense election. Confirm the holding period, buyer's use, and both filing calendars before signing.
 
 ---
 
@@ -73,7 +73,7 @@ Japanese Property Sale
 
 ---
 
-## 1. Japanese Individual Capital Gains Tax: Holding Period Rules for Short-Term and Long-Term Capital Gains
+## How Does Japan Classify Short- and Long-Term Property Gains?
 
 Under Japanese tax law, capital gains from individual real estate transfers are subject to classified taxation (分離課税), meaning they are calculated and taxed independently from other income. The primary factor in determining the tax rate is the holding period.
 
@@ -92,19 +92,19 @@ For example, if a property purchased on May 1, 2021 is sold on June 1, 2026, the
 >
 > In Japan, the threshold is not simply five years from the acquisition date — it is determined based on **January 1 of the year of sale**.
 >
-> Even a small adjustment to the sale schedule may change the applicable tax rate, so the transaction timeline should be reviewed together with the overall tax plan.
+> If the transfer date could fall on either side of year-end, the classification may change, so review the transaction timeline together with the tax plan.
 
-### Applicable Tax Rates for Non-Residents
-Non-residents who do not have registered addresses in Japan are exempt from local inhabitant tax, leaving only the national income tax rates:
+### National Tax Rates for Non-Residents
+The figures below are the Japanese national rates, including the special reconstruction income tax, for a seller treated as a non-resident. Any local inhabitant tax exposure depends on the seller's address, residence, and relevant assessment date and should be checked separately.
 
 - **Short-term Capital Gains (5 years or less as of Jan 1)**: Tax rate of **30.63%** applies <sup><a href="#source-2" id="cite-2">2</a></sup>
 - **Long-term Capital Gains (exceeding 5 years as of Jan 1)**: Tax rate of **15.315%** applies <sup><a href="#source-3" id="cite-3">3</a></sup>
 
-Because even a small difference in timing can significantly affect the applicable tax rate, the sale schedule should be considered as part of the overall tax planning process.
+Because the classification is tested on January 1 of the sale year, a transfer that moves into a new calendar year should be reviewed as part of the tax plan.
 
 ---
 
-## 2. Withholding Tax at Sale and Settlement via a Tax Representative
+## When Is 10.21% Withheld from the Sale Price?
 
 ![Japan Property Capital Gains Tax Flow Diagram](/assets/images/blog/diagrams/korea-resident-japan-property-capital-gains-tax-flow.webp)
 
@@ -122,47 +122,45 @@ The withholding tax obligation is waived if the transaction meets all three of t
 
 If the property is sold to a corporation or an investor who does not plan to reside there, the 10.21% withholding tax will apply.
 
-### Appointing a Tax Representative for the Tax Refund
+### Filing Through a Tax Representative
 The 10.21% withheld at closing is not the final tax amount. Non-resident sellers must file a Japanese income tax return (確定申告) between February 16 and March 15 of the year following the sale. <sup><a href="#source-5" id="cite-5">5</a></sup>
 
-By deducting the acquisition cost, capital improvements, and transaction expenses, the actual tax liability is calculated. If the withheld tax exceeds the actual tax due, the difference is refunded. Non-residents must appoint a local **Tax Representative (納税管理人)** to file the return and process the refund on their behalf. <sup><a href="#source-6" id="cite-6">6</a></sup>
+The final liability is calculated after allowable acquisition costs and transfer expenses. If withholding exceeds the final amount, the seller may claim a refund. A non-resident required to file must appoint a **Tax Representative (納税管理人)** and notify the competent tax office before submitting the return. <sup><a href="#source-5" id="cite-5">5</a></sup>
 
 ---
 
-## 3. Key Differences for Corporate Ownership
+## What Changes When a Corporation Owns the Property?
 
 If a property is owned under a corporate structure rather than individually, the tax rules at the exit phase are completely different.
 
-Corporate entities do not have holding period distinctions (short-term vs. long-term). Property capital gains are consolidated with the corporation's other business profits and rental income, and taxed at the standard corporate tax rates. For short-term exits or managing multiple properties, the choice of entity has a significant impact on net proceeds. For details, see the guide on [Japanese Property Corporate vs. Individual Post-Tax Yield Comparison](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/).
+Corporations do not use the individual's short- versus long-term capital gains classification. Sale gains and losses are calculated with other corporate income for the fiscal year, while applicable national and local rates vary by factors such as company size, location, and income. The after-tax result therefore requires entity-specific calculation. For comparison points, see [Japanese Property Corporate vs. Individual Post-Tax Yield Comparison](/en/posts/japan-corporate-vs-personal-rental-after-tax-sketch/).
 
 ---
 
-## 4. Korean Tax Obligations and the Foreign Tax Credit
+## Who Must File in Korea, and How Does Foreign Tax Relief Work?
 
-Under South Korean tax law, residents are required to report and pay capital gains tax to the National Tax Service (NTS) when selling foreign real estate. <sup><a href="#source-7" id="cite-7">7</a></sup> 
+Article 13 of the Japan–Korea Tax Convention permits Japan to tax gains from Japanese immovable property. <sup><a href="#source-9" id="cite-9">9</a></sup> Korea's foreign-asset rules cover a resident who, by the transfer date, has continuously maintained an address or residence in Korea for at least five years. <sup><a href="#source-7" id="cite-7">7</a></sup> Do not infer a Korean filing obligation from the label "Korean resident" alone; confirm this five-year condition and the individual's residence status.
 
 ### Reporting Schedule and Tax Rates in Korea
 - **Preliminary Return**: The taxpayer needs to file a preliminary return and pay the tax within 2 months from the end of the month in which the transfer date falls. <sup><a href="#source-7" id="cite-7">7</a></sup> Generally, if the taxpayer has only one foreign property transfer and files a preliminary return, the final consolidated return in May of the following year is waived. <sup><a href="#source-7" id="cite-7">7</a></sup>
-- **Tax Rate**: The tax is calculated using the same progressive tax rates applied to domestic real estate.
+- **Tax Rate**: The taxable amount and rate follow Korea's rules for foreign assets. Domestic-home exemptions or surcharge rules should not be copied across without checking their scope.
 
 ### Eliminating Double Taxation: The Foreign Tax Credit
-To prevent double taxation on the same gain, South Korean tax law provides a **Foreign Tax Credit (외국납부세액공제)**. <sup><a href="#source-8" id="cite-8">8</a></sup> The tax paid in Japan can be credited against the Korean tax liability.
+Where both countries tax the gain, Article 118-6 of Korea's Income Tax Act allows an election between a capped **Foreign Tax Credit (외국납부세액공제)** and treating eligible foreign tax as a deductible expense. The credit method reduces Korean capital gains tax only up to the statutory limit. <sup><a href="#source-8" id="cite-8">8</a></sup>
 
 > [!WARNING]
 > **Limits of the Foreign Tax Credit**
-> The foreign tax credit is capped at the portion of the Korean tax liability corresponding to the foreign-source income. If the tax paid in Japan exceeds this limit or if certain expenses are not recognized under Korean tax law, the excess amount cannot be credited, resulting in residual double taxation. A pre-sale cross-border tax simulation is recommended.
+> Under the credit method, eligible Japanese tax paid or payable is creditable only up to Korea's statutory limit. Amounts above the limit or outside the eligibility rules may not be fully offset. The deductible-expense election should be compared using the taxpayer's actual figures.
 
 > **GSF Note**
 >
-> When both Japan and Korea require separate filings, the order of reporting can matter as much as the tax amounts themselves.
->
-> Since the Japanese return must typically be completed before the Foreign Tax Credit can be claimed in Korea, planning the filing timeline in advance is the safer approach.
+> The Japanese and Korean filing deadlines may not align. If the Japanese amount is not final when the Korean return is due, confirm whether the case calls for an initial claim, supplemental evidence, or an amended claim with the competent office or an adviser.
 
 Furthermore, exit tax matters are linked to inheritance and gift tax planning. To understand the basics of cross-border asset transfers, refer to the [Korea-Japan Inheritance and Gift Tax Cross-Border Guide](/en/posts/korea-japan-inheritance-gift-tax-cross-border-basics/).
 
 ---
 
-## 5. Pre-Sale Tax & Administrative Checklist
+## What Should You Prepare Before the Sale?
 
 A step-by-step checklist from contract signing through Korean tax filing.
 
@@ -190,15 +188,15 @@ A step-by-step checklist from contract signing through Korean tax filing.
 
 - [ ] **File Preliminary Return and Pay Tax**: Submit to the competent tax office
 - [ ] **Claim Foreign Tax Credit**: Attach Japanese final tax payment receipt and file for double taxation relief
-- [ ] **Retain All Documents Permanently**: Archive contracts, tax receipts, and remittance records from both countries in a single location
+- [ ] **Retain Supporting Documents**: Keep contracts, tax receipts, and remittance records from both countries for the applicable statutory period
 
 ---
 
-## 6. Investment Checkpoints
+## Which Tax Variables Should Be Checked Before Signing?
 
 ### Review the Sale Timeline First
 
-If a property is near the 5-year threshold, adjusting the contract date by a few weeks can significantly change the applicable tax rate. Rather than relying on a simple calendar count, running a simulation with a tax advisor based on the January 1 rule is the safer approach.
+If a property is near the five-year threshold, moving the transfer across year-end can change its classification. Rather than relying on a simple day count, confirm the January 1 test with a tax adviser.
 
 ### Calculate the Actual Cash Flow at Closing First
 

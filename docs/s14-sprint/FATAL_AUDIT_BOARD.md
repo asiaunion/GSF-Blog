@@ -11,7 +11,7 @@
 |------|------|------|----------------|--------|-----------|-----------|--------|---------|------|
 | 1 | `buying-property-japan-checklist-before-you-commit` (#5) | done | 정식 1 | done | done | done | n/a(삭제0) | Cursor 반영 | live |
 | 2 | `tokyo-moving-contracts-two-notes` (#7) | done | 정식 2 | delayed→Cursor backup | delayed→Cursor backup | done | n/a | Cursor 반영 | live |
-| 3 | `korea-resident-japan-property-capital-gains-tax` (#8) | open | 준캘리브(YMYL) | pending | pending | pending | pending | pending | pending |
+| 3 | `korea-resident-japan-property-capital-gains-tax` (#8) | done | 준캘리브(YMYL) | Cursor backup | Cursor backup | done | n/a(삭제0) | Cursor 반영 | validate 100 |
 | 4 | `tokyo-office-vacancy-five-wards-2026` (#9) | open | — | pending | pending | pending | pending | pending | pending |
 | 5 | `nihonbashi-hamacho-walking-guide` (#10) | open | — | pending | pending | pending | pending | pending | pending |
 | 6 | `tokyo-real-estate-investment-complete-guide` (#4) | open | 허브 마지막 | pending | pending | pending | pending | pending | pending |
@@ -26,6 +26,7 @@
 | `tokyo-korean-community-beyond-shinokubo` (#6) | 2026-07-18 | 단체명·미검증 인구/수요·투자 기회 주장 |
 | `buying-property-japan-checklist-before-you-commit` (#5) | 2026-07-18 | 죽은 MLIT URL · 내진=건축확인일 · REINS 공개경로 · 중개업자 귀속 |
 | `tokyo-moving-contracts-two-notes` (#7) | 2026-07-18 | citeSources 복제·GTN 순위·수락률·6년 단정 · Cursor backup |
+| `korea-resident-japan-property-capital-gains-tax` (#8) | 2026-07-18 | 한국 계속 5년 요건 · 제118조의6 · 신고순서 단정 · 주민세·법인세율 완화 |
 
 ## Wave B preflight signals — 도쿄 시리즈
 
