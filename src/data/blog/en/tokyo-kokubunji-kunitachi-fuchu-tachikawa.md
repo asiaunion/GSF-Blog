@@ -277,7 +277,7 @@ It is easy to assume the highest-income city will also have the highest prices. 
 
 **Reflecting on this piece**
 
-The question I stayed with longest while preparing this was: "Is Tama really one market?" As I compared transaction records, my vague assumption that the four cities would be roughly similar started to break. **Kokubunji Honcho 126.5万** and the **3.6x gap within Tachikawa** do not fit the "affordable suburb" framing. The more I compared the data, the more my original assumption began to change — and in the end, neighborhood and living zone explained more than city name.
+The question that stayed with me until the comparisons were done was: "Is Tama really one market?" As I compared transaction records, my vague assumption that the four cities would be roughly similar started to break. **Kokubunji Honcho 126.5万** and the **3.6x gap within Tachikawa** do not fit the "affordable suburb" framing. The more I compared the data, the more my original assumption began to change — and in the end, neighborhood and living zone explained more than city name.
 
 **What I will keep reading this way**
 

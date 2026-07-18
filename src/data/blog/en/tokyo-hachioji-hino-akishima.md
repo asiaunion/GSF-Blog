@@ -38,7 +38,7 @@ citeSources:
 
 Is Hachioji really the cheapest city in Tokyo?
 
-Its 2025 transaction average was ¥37.9 (x10k)/sqm. Yet station areas reached the ¥60 (x10k) range, while the outskirts fell to around ¥30 (x10k). The city average hides a large gap.
+Its 2025 transaction average was ¥37.9 (x10k)/sqm. Yet station areas reached the ¥60 (x10k) range, while the outskirts fell to around ¥30 (x10k). **The city average hides a large gap.**
 
 In Ep.10, I explored the educational and cultural belt of Tama centered around Tachikawa. This time, I move a bit further west along the Chuo Line to cover three cities: **Hachioji, Hino, and Akishima**.
 
@@ -259,7 +259,7 @@ It's a fact that population forecasts point downward. However, instead of readin
 
 **Wrapping up this post**
 
-What I wanted to verify most from this data was, "Can I really evaluate these massive Tama cities using a single average price?" Hachioji's 379k-yen average seemed to reinforce the vague stereotype that "Tama offers great value." But splitting the transaction data neighborhood by neighborhood completely changed my perspective. The extreme dual structure—¥60 (x10k) for central stations and ¥30 (x10k) for outskirts—was merely masked by the average. The market is already ruthlessly pricing properties based on location. Akishima was also striking; despite being a small city, it sustains high prices thanks to its transit hub effect.
+The question that stayed with me while putting this together was one: can I really compare these cities using a single city average? **The average was one number, but the market wasn't one thing.** Hachioji's average of ¥379k reinforces the assumption that it's a bargain, but break it down by neighborhood and a dual structure — ¥600k-range station areas next to ¥300k-range outskirts — was hiding behind that average. The market is already ruthlessly pricing properties based on location. Akishima was also striking; despite being a small city, it sustains high prices thanks to its transit hub effect.
 
 **How I'll continue reading the market**
 
@@ -280,6 +280,8 @@ If you're interested in these areas, I recommend checking in this order:
 **In one sentence**
 
 Averages explain the city, but the actual market moves based on neighborhoods. Strip away the average's statistical illusion caused by massive land areas, and you'll find a clear **dual structure: ¥60 (x10k) station hubs alongside ¥30 (x10k) outskirts.**
+
+Having confirmed how much a city average can hide, I'll be looking next at why the same New Town produces such different results from one pocket to the next.
 
 ---
 

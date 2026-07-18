@@ -34,7 +34,13 @@ citeSources:
   - label: "SUUMO Tokyo Rental Market Price Data"
     url: "https://suumo.jp/chintai/tokyo/"
 ---
-Although they all share the name 'Tokyo,' the 23 special wards differ dramatically in their living environments, property prices, and daily neighborhood vibes. On our living room wall in Nihonbashi, we have a large map showing all 23 wards and the western Tama cities. Living right in the center of Tokyo, I felt it was essential to understand the city as a single cohesive flow, rather than looking at isolated districts. This guide grew out of that habit: understanding Tokyo through data rather than vague impressions.
+Although they all share the name "Tokyo," the 23 special wards differ dramatically in their living environments, property prices, and daily neighborhood vibes.
+
+On our living room wall in Nihonbashi, we have a large map showing all 23 wards and the western Tama cities.
+
+Living right in the center of Tokyo, I felt it was essential to understand the city as a single cohesive flow, rather than looking at isolated districts.
+
+**This guide grew out of that habit: understanding Tokyo through data rather than vague impressions.**
 
 This series was built to answer the questions I had when I first started exploring: not as a tourist, but from the perspective of someone looking to relocate or invest. Purchase prices, rental rates, income levels, livability for foreign residents, and each neighborhood's local identity — everything you need to make a decision, consolidated into one place per episode.
 

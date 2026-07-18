@@ -28,9 +28,9 @@
 | B3 | 8 | `tokyo-taito-sumida-koto` | live | Ep.6 · Cursor 검증(100/PASS·지진 헤지 유지·수치 보존)→prod |
 | B3 | 9 | `tokyo-kita-arakawa-itabashi-nerima` | live | Ep.7 · Cursor 검증(100/PASS·FA-zero 유지·spine 동결)→prod |
 | B3 | 10 | `tokyo-adachi-katsushika-edogawa` | live | Ep.8 · Cursor 검증(100/PASS·FA-zero 유지·권유0)→prod |
-| B4 | 11 | `tokyo-kokubunji-kunitachi-fuchu-tachikawa` | claude-final | Ep.10 · Cursor 사전점검 PASS(최소 개입 1건만·새사실0) |
-| B4 | 12 | `tokyo-hachioji-hino-akishima` | claude-final | Ep.11 · Cursor 사전점검 PASS(재진술만·새사실0) |
-| B4 | 13 | `tokyo-ward-guide-series-prologue` | claude-final | 프롤로그 · Cursor 사전점검 PASS(구조 동결·재배치만·EN 정정 기록) |
+| B4 | 11 | `tokyo-kokubunji-kunitachi-fuchu-tachikawa` | live | Ep.10 · Cursor 검증(100/PASS·최소 개입 1건 준수)→prod |
+| B4 | 12 | `tokyo-hachioji-hino-akishima` | live | Ep.11 · Cursor 검증(100/PASS·재진술만·naver 신규)→prod |
+| B4 | 13 | `tokyo-ward-guide-series-prologue` | live | 프롤로그 · Cursor 검증(100/PASS·구조 동결·재배치만)→prod |
 | REF | — | `tokyo-machida-tama-inagi` | reference | Ep.12 · 재작성 금지 · 최종 비교 |
 | A1 | 14 | `korea-japan-inheritance-gift-tax-cross-border-basics` | queued | YMYL · 사실 문장 의미 보존 |
 | A1 | 15 | `korea-resident-japan-property-capital-gains-tax` | queued | YMYL · 세법 의미 보존 |
