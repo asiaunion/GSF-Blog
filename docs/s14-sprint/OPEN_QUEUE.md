@@ -27,7 +27,7 @@
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 
-**→ 다음 최우선:** 이전 에피소드 네이버 선발행 → Ep.12 네이버(보류) · Tier1 #3 `tokyo-hachioji-hino-akishima` §1–4 refresh · Gate 레퍼럴 시계
+**→ 다음 최우선:** 이전 에피소드 네이버 선발행 → Ep.12 네이버(보류) · Tier1 #6 `tokyo-korean-community-beyond-shinokubo` §1–4 refresh(+네이버 동주) · Gate 레퍼럴 시계
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -38,7 +38,7 @@
 |---|--------|------|-------------------|
 | 1 | **done** (2026-07-18 Cursor) | `japan-shinchiku-vs-chuko-mansion-investor-guide` | KO·EN·JA title·도입·H2 + risky-claims 표/면책 · validate/build/prod/IndexNow PASS |
 | 2 | **done** (2026-07-18 Cursor) | `korea-japan-inheritance-gift-tax-cross-border-basics` | KO·EN·JA §1–4 + Voice v1.3 + 한자 병기 + 위험 사실 교정(10년·7년 합산·2028 개편·조약) · validate 100/build/prod/IndexNow PASS |
-| 3 | open | `tokyo-hachioji-hino-akishima` | title·도입·H2 |
+| 3 | **done** (2026-07-18 Cursor) | `tokyo-hachioji-hino-akishima` | KO·EN·JA title·도입·H2 + 한자 병기 + 아키시마 표 중복 수정 + 수익률 열 삭제 + 인과 완화 · validate 100/build/prod/IndexNow PASS |
 | 4 | open | `tokyo-real-estate-investment-complete-guide` (+절차/비용 의도 분리) | 허브 title/도입·내부링크 정합 (**본문 전면 금지**) |
 | 4b | open | `j-reit-five-things-to-know` | Week4 여유 · title·내부링크 |
 | 5 | open | `buying-property-japan-checklist-before-you-commit` | title·도입·질문형 H2 |
@@ -65,6 +65,7 @@
 | T0-EN | 2026-07-17 | G1–G3 EN §1–4 prod + IndexNow canonical |
 | N1 | 2026-07-17 | G1 [224349752172](https://blog.naver.com/gsfark/224349752172) · G2 [224349753801](https://blog.naver.com/gsfark/224349753801) · G3 [224349747832](https://blog.naver.com/gsfark/224349747832) |
 | T1-1 | 2026-07-18 | `japan-shinchiku-vs-chuko-mansion-investor-guide` §1–4 + risky-claims KO·EN·JA prod |
+| T1-3 | 2026-07-18 | `tokyo-hachioji-hino-akishima` §1–4 + 한자 병기 + 데이터 정합 KO·EN·JA prod |
 
 ---
 
