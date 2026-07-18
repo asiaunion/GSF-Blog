@@ -7,3 +7,10 @@
 - HTTP: see deploy session curl
 - 성공 기준: Bing IndexNow accepted
 
+## [2026-07-18 16:25 JST] IndexNow Ping (Tier 1 #2 refresh)
+
+- 대상 슬러그: korea-japan-inheritance-gift-tax-cross-border-basics
+- 요청 URL: KO `/ko/posts/` · EN `/posts/` · JA `/ja/posts/` — 총 3개
+- HTTP 코드: 200 OK
+- 성공 기준 통과
+

@@ -27,7 +27,7 @@
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 
-**→ 다음 최우선:** 이전 에피소드 네이버 선발행 → Ep.12 네이버(보류) · Tier1 #2 `korea-japan-inheritance-gift-tax-cross-border-basics` §1–4 refresh · Gate 레퍼럴 시계
+**→ 다음 최우선:** 이전 에피소드 네이버 선발행 → Ep.12 네이버(보류) · Tier1 #3 `tokyo-hachioji-hino-akishima` §1–4 refresh · Gate 레퍼럴 시계
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -37,7 +37,7 @@
 | # | status | slug | 주 액션(HARD=§1–4) |
 |---|--------|------|-------------------|
 | 1 | **done** (2026-07-18 Cursor) | `japan-shinchiku-vs-chuko-mansion-investor-guide` | KO·EN·JA title·도입·H2 + risky-claims 표/면책 · validate/build/prod/IndexNow PASS |
-| 2 | open | `korea-japan-inheritance-gift-tax-cross-border-basics` | title·도입·H2 · 색인 재요청 |
+| 2 | **done** (2026-07-18 Cursor) | `korea-japan-inheritance-gift-tax-cross-border-basics` | KO·EN·JA §1–4 + Voice v1.3 + 한자 병기 + 위험 사실 교정(10년·7년 합산·2028 개편·조약) · validate 100/build/prod/IndexNow PASS |
 | 3 | open | `tokyo-hachioji-hino-akishima` | title·도입·H2 |
 | 4 | open | `tokyo-real-estate-investment-complete-guide` (+절차/비용 의도 분리) | 허브 title/도입·내부링크 정합 (**본문 전면 금지**) |
 | 4b | open | `j-reit-five-things-to-know` | Week4 여유 · title·내부링크 |

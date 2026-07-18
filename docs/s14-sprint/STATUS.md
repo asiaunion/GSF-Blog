@@ -11,7 +11,7 @@
 | tokyo-shinagawa-ota | G2 | 오타구 아파트 시세 | done | done | **done** | live | live | **live** | [naver](https://blog.naver.com/gsfark/224349753801) | **done** |
 | tokyo-ward-guide-series-prologue | G3 | 도쿄 23구 특징 비교 | done | done | **done** | live | live | **live** | [naver](https://blog.naver.com/gsfark/224349747832) | **done** |
 | japan-shinchiku-vs-chuko-mansion-investor-guide | #1 | 일본 신축 중고 맨션 차이 | done | done | **done** | live | live | **live** | [naver](https://blog.naver.com/gsfark/224349002310) | **done** |
-| korea-japan-inheritance-gift-tax-cross-border-basics | #2 | | | | | | | | | |
+| korea-japan-inheritance-gift-tax-cross-border-basics | #2 | 한일 상속세 이중과세 | done | done | — | live | live | **live** | | **done** (§1–4·Cursor) |
 | tokyo-hachioji-hino-akishima | #3 | | | | | | | | | |
 | tokyo-korean-community-beyond-shinokubo | #6 | | | | | | | | | |
 
@@ -19,7 +19,7 @@
 
 - Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 3URL.
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** 이전 에피소드 네이버 선발행 → Ep.12 네이버(보류) · Tier 1 **#2** `korea-japan-inheritance-gift-tax-cross-border-basics` §1–4
+  - **지금:** 이전 에피소드 네이버 선발행 → Ep.12 네이버(보류) · Tier 1 **#3** `tokyo-hachioji-hino-akishima` §1–4
   - **병행:** N2(GSC 선택) · Gate A 레퍼럴 2주 (네이버 방금 발행으로 분자 시작)
 
 ## 이번 배치 메모
@@ -39,5 +39,6 @@ tokyo-meguro-setagaya (en) | q="Setagaya rich area" | §1-4 2026-07-17 | 다음�
 tokyo-shinagawa-ota (en) | q="Ota Ward apartments" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
 tokyo-ward-guide-series-prologue (en) | q="Tokyo 23 Wards" | §1-4 2026-07-17 | 다음점검 +14d | diff=(Joseph/AG)
 japan-shinchiku-vs-chuko-mansion-investor-guide | q="일본 신축 중고 맨션 차이" | §1-4 2026-07-18 | 다음점검 +14d | diff=(Cursor)
+korea-japan-inheritance-gift-tax-cross-border-basics | q="한일 상속세 이중과세" | §1-4 2026-07-18 | 다음점검 +14d | diff=(Cursor)
 ```
 
