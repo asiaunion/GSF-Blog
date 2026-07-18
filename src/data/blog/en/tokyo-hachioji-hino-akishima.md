@@ -1,8 +1,8 @@
 ---
-title: "Hachioji, Hino & Akishima Home Prices — Western Tama [Ep.11·2026]"
-description: "A deep dive into three cities in Western Tama using neighborhood-level transaction data. Stripping away the 'average trap' caused by massive land areas reveals a clear dual structure: vibrant ¥60 (x10k) station areas and ¥30 (x10k) outskirts."
+title: "Are Hachioji Home Prices Really Cheap? Hino & Akishima Compared [Ep.11·2026]"
+description: "Hachioji averaged ¥379,000/m² in 2025 transactions, but station areas reached about ¥600,000/m² while outskirts fell to ¥200,000–¥300,000/m². Here is how Hachioji, Hino, and Akishima differ."
 pubDatetime: 2026-07-09T00:05:00+09:00
-modDatetime: 2026-07-18T13:00:00+09:00
+modDatetime: 2026-07-18T16:40:00+09:00
 author: GSF
 draft: false
 gates:
@@ -38,9 +38,7 @@ citeSources:
 
 Is Hachioji really the cheapest city in Tokyo?
 
-If you only look at the city average, yes.
-
-But when I dive down into actual transaction data at the neighborhood level, a completely different market appears.
+Its 2025 transaction average was ¥37.9 (x10k)/sqm. Yet station areas reached the ¥60 (x10k) range, while the outskirts fell to around ¥30 (x10k). The city average hides a large gap.
 
 In Ep.10, I explored the educational and cultural belt of Tama centered around Tachikawa. This time, I move a bit further west along the Chuo Line to cover three cities: **Hachioji, Hino, and Akishima**.
 
@@ -50,9 +48,9 @@ These areas boast massive land sizes and are physically distant from central Tok
 
 ## Key Takeaways
 
-- **The Average Trap**: The low prices in Hachioji and Hino are a statistical illusion caused by area dilution. A distinct dual structure exists with ¥60 (x10k) station zones coexisting with ¥30 (x10k) outskirts.
-- **Akishima's Premium**: Despite its small size, Akishima experiences concentrated demand from the transit hub effect, holding a paradoxical premium.
-- **Decoupled Purchase and Rental Markets**: Regardless of purchase price gaps, new 1R (studio) rents around stations cluster tightly at 7.0 (x10k) to 8.0 (x10k) yen, entirely decoupling the rental yield map from the purchase price map.
+- **Station areas versus outskirts**: Hachioji and Hino contain station areas in the ¥60 (x10k) range and outskirts around ¥20–30 (x10k), so city averages do not describe the full market.
+- **Why Akishima looks more expensive**: Its smaller area limits dilution from outlying transactions. Activity may also be concentrated near stations such as Haijima, where several lines meet.
+- **Rents move in a narrower range**: Despite purchase-price gaps, new 1R rents near stations cluster around ¥7–8 (x10k) per month.
 - **Disaster Risks**: All three cities feature rivers, posing flood and liquefaction risks. Checking hazard maps is absolutely mandatory.
 
 ---
@@ -75,25 +73,9 @@ I initially assumed these three cities shared a flattened, low-cost baseline typ
 
 | What I Checked | What the Data Showed |
 |----------------|----------------------|
-| Hachioji's Yokamachi: **604k/sqm** | "Western Tama = Cheap" is an illusion. Central stations maintain rock-solid demand at ¥60 (x10k) levels. |
+| Hachioji's Yokamachi: **¥60.4 (x10k)/sqm** | "Western Tama = Cheap" is an illusion. Central station transactions remain in the ¥60 (x10k) range. |
 | Hino's Tamadaira vs. Misawa: **2.4x Gap** | An extreme dual structure within the same city, with the center and outskirts widening by over twofold. |
-| Akishima's average: **411k/sqm** | Eclipsing Hachioji (379k). A paradoxical premium for a small city, driven by transit hub concentration. |
-
----
-
-## Table of Contents
-
-1. [Hachioji — The Average Trap of Massive Land Area](#1-hachioji--the-average-trap-of-massive-land-area)
-2. [Hino — A Clear Divide Between Center and Outskirts](#2-hino--a-clear-divide-between-center-and-outskirts)
-3. [Akishima — A Small City's Paradoxical Premium](#3-akishima--a-small-citys-paradoxical-premium)
-4. [Home Prices and Rents Move on Different Logic](#4-home-prices-and-rents-move-on-different-logic)
-5. [Living Details: The Difference Between ¥60 (x10k) and ¥30 (x10k) Zones](#5-living-details-the-difference-between-60-x10k-and-30-x10k-zones)
-6. [Frequently Asked Questions (FAQ) about Hachioji, Hino, and Akishima](#6-frequently-asked-questions-faq-about-hachioji-hino-and-akishima)
-7. [Helpful Background Data](#7-helpful-background-data)
-8. [Three-City Comparison Summary](#8-three-city-comparison-summary)
-9. [Same Data, Different Interpretations](#9-same-data-different-interpretations)
-10. [Who This Is For / Not Recommended For](#10-who-this-is-for--not-recommended-for)
-11. [Joseph's View](#11-josephs-view)
+| Akishima's average: **¥41.1 (x10k)/sqm** | Above Hachioji (¥37.9 (x10k)), possibly reflecting its smaller area and transactions concentrated near major stations. |
 
 ---
 
@@ -109,7 +91,7 @@ Before diving in, here is the data that clearly shows the core message of this p
 
 ---
 
-## 1. Hachioji — The Average Trap of Massive Land Area
+## Are Hachioji Home Prices Really Cheap?
 
 The table below isn't here to show **"how cheap the city average is"**, but rather **"how massive the price gap is between neighborhoods."**
 
@@ -131,7 +113,7 @@ Hachioji is a hub city boasting the largest population in the Tama region (appro
 
 ---
 
-## 2. Hino — A Clear Divide Between Center and Outskirts
+## Where Is Hino Expensive—and Where Is It Cheaper?
 
 Hino City exhibits an extreme dual structure very similar to Hachioji. The city-wide average is **¥42.7 (x10k)/sqm**, or **about ¥2,989 (x10k)** for 70sqm.
 
@@ -148,9 +130,9 @@ Hino City exhibits an extreme dual structure very similar to Hachioji. The city-
 
 ---
 
-## 3. Akishima — A Small City's Paradoxical Premium
+## Why Are Akishima Home Prices Higher Than Hachioji's?
 
-With a population of around 110k, Akishima is a small city, yet it occupies a unique position in the railway network piercing through the Tama region. Its average price of **¥41.1 (x10k)/sqm**, or **about 28.77 million yen** for 70sqm, actually outpaces the massive city of Hachioji. Being the closest of the three to Tachikawa, what kind of market does Akishima form?
+With a population of around 110k, Akishima is a small city, yet it occupies a unique position in the railway network piercing through the Tama region. Its average price of **¥41.1 (x10k)/sqm**, or **about ¥2,877 (x10k)** for 70sqm, actually outpaces the massive city of Hachioji. Being the closest of the three to Tachikawa, what kind of market does Akishima form?
 
 | Neighborhood | Price/sqm (Actual) | 70sqm Eqv. | Count |
 |--------------|--------------------|------------|-------|
@@ -161,31 +143,27 @@ With a population of around 110k, Akishima is a small city, yet it occupies a un
 
 *Note: While Akishima has enough city-wide samples (131), individual neighborhoods have under 30. I read these for directional variance.*
 
-**Where the data shifted my impression:** I will pause here. Why does Akishima have a higher average unit price than Hachioji? Part of it is its smaller land area minimizing the dilution effect, but more importantly, the **Haijima transit hub** strongly vacuums up localized demand. 
+**Where the data shifted my impression:** I will pause here. Why does Akishima have a higher average unit price than Hachioji? Its smaller land area limits dilution from outlying transactions. Activity may also be concentrated near Haijima, where several railway lines meet.
 
-While the city is small, its living radius is by no means small. Because transactions are heavily concentrated in specific station areas, the average price naturally forms at a relatively higher level.
-
-The intersection of the JR Ome, Itsukaichi, and Hachiko lines, along with the Seibu Haijima line, creates a paradoxical premium for this small city.
+While the city is small, its living radius is by no means small. One plausible reading is that transactions around specific station areas have helped keep the city average relatively high.
 
 ---
 
-## 4. Home Prices and Rents Move on Different Logic
+## Do Higher Home Prices Mean Higher Rents?
 
-Even in Western Tama, the purchase price map and the rental price map paint **two entirely different pictures**.
+Even in Western Tama, purchase prices vary much more than rents near stations.
 
-| City | SUUMO 1R (10k yen/mo) | Avg Price/sqm | Gross Yield* |
-|------|-----------------------|---------------|--------------|
-| Hachioji | 7.0 | ¥37.9 (x10k) | ~3.2% |
-| Hino | 7.6 | ¥42.7 (x10k) | ~3.1% |
-| Akishima | 7.1 | ¥41.1 (x10k) | ~3.0% |
+| City | SUUMO 1R (10k yen/mo) | City Avg Price/sqm |
+|------|-----------------------|--------------------|
+| Hachioji | 7.0 | ¥37.9 (x10k) |
+| Hino | 7.6 | ¥42.7 (x10k) |
+| Akishima | 7.1 | ¥41.1 (x10k) |
 
-*\*Calculated on 70sqm avg prices; pre-tax, excluding fees/vacancy. For structural comparison, not investment advice.*
-
-Whether it's a ¥60 (x10k) station zone or a ¥30 (x10k) outskirt, new 1R (studio) rents generally form a tight band around **7.0 (x10k) to 8.0 (x10k) yen**. The rental market sometimes shows a trend detached from purchase price rankings—such as Hino boasting both the highest purchase price (427k) and the highest rent (7.6 (x10k)). Whether for living or investing, **pick the location first**, then approach rents with entirely separate logic.
+Whether the purchase market is in the ¥60 (x10k) range near a station or around ¥30 (x10k) in the outskirts, new 1R rents near stations cluster around **7.0 (x10k) to 8.0 (x10k) yen per month**. The rent gap is smaller than the purchase-price gap, so rental-market ordering can differ from purchase-price ordering.
 
 ---
 
-## 5. Living Details: The Difference Between ¥60 (x10k) and ¥30 (x10k) Zones
+## How Do Station Areas and Outskirts Differ for Residents?
 
 The dual structure hidden by the average is not just about numbers. Station areas with purchase prices in the ¥60 (x10k) range (like Yokamachi in Hachioji or Tamadaira in Hino) offer convenience rivaling the city center, packed with large commercial facilities, convenient transit lines, hospitals, and academies right in front of the station.
 
@@ -193,20 +171,20 @@ On the other hand, the ¥30 (x10k) outskirts (like the edges of Tama New Town or
 
 ---
 
-## 6. Frequently Asked Questions (FAQ) about Hachioji, Hino, and Akishima
+## Hachioji, Hino, and Akishima Home Price FAQ
 
 ### Is Hachioji really the cheapest city in Tokyo?
-Looking only at the city average (¥37.9 (x10k)/sqm), it appears cheap. However, it actually features a dual structure where central station areas (¥60 (x10k) level) and outskirts (¥30 (x10k) level) coexist.
+Looking only at the city average (¥37.9 (x10k)/sqm), it appears cheap. In practice, central station areas reach the ¥60 (x10k) range while outskirts sit near ¥30 (x10k).
 
 ### Why do housing prices in Akishima appear higher than Hachioji, the largest hub in Tama?
-Akishima has a smaller land area, which reduces the dilution effect from the outskirts. Additionally, strong localized demand is concentrated around its railway transit hubs like Haijima Station.
+Akishima has a smaller land area, which reduces dilution from outlying transactions. Activity may also be concentrated near stations such as Haijima, where several lines meet.
 
 ### Are purchase prices and rents directly proportional in the Western Tama region?
-No. Regardless of the gaps in purchase prices, new 1R rents near stations cluster around the 7.0 to 8.0 (x10k) yen level, resulting in varying rental yields across different areas.
+Not necessarily. Despite purchase-price gaps, new 1R rents near stations cluster around 7.0 (x10k) to 8.0 (x10k) yen per month in all three cities.
 
 ---
 
-## 7. Helpful Background Data
+## Helpful Background Data
 
 Population and income data don't solely explain price gaps, but they help me understand the sheer weight and long-term context of a region.
 
@@ -232,7 +210,7 @@ Income levels across all three fall short of the Tokyo municipal average (approx
 
 ---
 
-## 8. Three-City Comparison Summary
+## Three-City Comparison Summary
 
 Here's a summary table of everything I've covered so far.
 
@@ -245,28 +223,28 @@ Here's a summary table of everything I've covered so far.
 | Actual Price CAGR (21–25) | 6.1% | 6.1% | 5.2% |
 | Pop Δ 2040 | -4.3% | -0.9% | -3.1% |
 | Per Capita Inc. | 145.4k | **166.4k** | 148.8k |
-| SUUMO 1R | 7.0 (x10k) | **7.6 (x10k)** | 71k |
+| SUUMO 1R | 7.0 (x10k) | **7.6 (x10k)** | 7.1 (x10k) |
 
 While the city averages might look similar, the gaps between station hubs and outskirts filling those averages vary wildly by city.
 
 ---
 
-## 9. Same Data, Different Interpretations
+## Same Data, Different Interpretations
 
 Data is open to everyone. But depending on the question you ask, you can arrive at entirely different conclusions. Here is another way to read this.
 
 **"Western Tama is a declining suburb, so it's a long-term risk."**
 
-It's a fact that population forecasts point downward. However, instead of reading this data as a "collapse of the whole city," some view it as a "compaction into station areas." Even if outlying neighborhoods weaken, transit hubs intersecting railway lines in Western Tama (like central Hachioji or Haijima) are vacuuming up localized demand, securing strong downside support in the ¥60 (x10k) range.
+It's a fact that population forecasts point downward. However, instead of reading this data as a "collapse of the whole city," some view it as a "compaction into station areas." Under that interpretation, transactions have continued to cluster around places such as central Hachioji and Haijima, where several lines meet, helping those areas maintain higher price levels.
 
 ---
 
-## 10. Who This Is For / Not Recommended For
+## Who This Is For / Not Recommended For
 
 ### This might be helpful if you:
 - Want to find neighborhoods with **true station premiums** hidden by city averages.
 - Want access to **central commercial infrastructure** on a lower budget than the 23 Wards or Eastern Tama.
-- Take a conservative approach, separating purchase prices from **rental yields**.
+- Take a conservative approach, comparing purchase prices with **actual rents separately**.
 
 ### This might not be a fit if you:
 - Expect a city to **"definitely be cheap"** just by hearing its name.
@@ -275,7 +253,7 @@ It's a fact that population forecasts point downward. However, instead of readin
 
 ---
 
-## 11. Joseph's View
+## Joseph's View
 
 > This is a **judgment** drawn from reviewing the data. I have not included any fictional on-site anecdotes.
 
@@ -328,6 +306,6 @@ Averages explain the city, but the actual market moves based on neighborhoods. S
 | Per Capita Income | **Reiwa 6** Municipal Tax Base ÷ **May 2026** Tokyo Pop Est. |
 | SUUMO 1R | **2026-07-09** Snapshot (New, 1-5min walk) |
 
-<small>*This post is a personal analysis for informational purposes and does not solicit the buying or selling of specific real estate. Gross Yield is a simple comparison excluding management fees, vacancies, and taxes. Neighborhoods with under 30 transactions should be interpreted solely for directional trends.*</small>
+<small>*This post is a personal analysis for informational purposes and does not solicit the buying or selling of specific real estate. Neighborhoods with under 30 transactions should be interpreted solely for directional trends.*</small>
 <!-- verify-episode matches: **2,653** **151038** **-4.3** **6.1** **2,989** **71844** **-0.9** **6.1** **2,877** **88356** **-3.1** **5.2** -->
 

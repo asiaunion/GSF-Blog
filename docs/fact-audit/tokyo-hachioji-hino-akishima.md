@@ -3,10 +3,10 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | `tokyo-hachioji-hino-akishima` |
-| **Title (KO)** | 도쿄 어디에 살 것인가 — 23구 완전 가이드 [Ep.11] 평균이 숨긴 다마 서부의 실제 집값: 하치오지·히노·아키시마 |
+| **Title (KO)** | 하치오지는 정말 싼가 — 하치오지·히노·아키시마 실제 집값 비교 [Ep.11·2026] |
 | **Author / date** | GSF / 2026-07-09 |
-| **Cursor validate** | `pnpm validate:post tokyo-hachioji-hino-akishima` → passed |
-| **Published** | TBD (`draft: false`) |
+| **Cursor validate** | `pnpm validate:post tokyo-hachioji-hino-akishima` → passed (재검증 2026-07-18, §1–4 refresh) |
+| **Published** | 2026-07-09 (`draft: false`) |
 
 ---
 
@@ -44,9 +44,9 @@
 | 28 | 50.8만엔 | 50.8만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 29 | 208만엔 | 208만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 30 | 50만엔 | 50만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 31 | 3.2% | 3.2% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 32 | 3.1% | 3.1% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 33 | 3.0% | 3.0% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 31 | 3.2% | 3.2% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | (2026-07-18 본문에서 삭제 — 1R 월세÷70㎡ 매매가 기준 불일치로 표면 Yield 표기 제거) |
+| 32 | 3.1% | 3.1% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | (2026-07-18 본문에서 삭제 — 상동) |
+| 33 | 3.0% | 3.0% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | (2026-07-18 본문에서 삭제 — 상동) |
 | 34 | 0.9% | 0.9% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 35 | 4.3% | 4.3% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 36 | 6.1% | 6.1% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
