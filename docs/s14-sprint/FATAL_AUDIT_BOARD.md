@@ -61,8 +61,23 @@ FA 삭제로 글이 얇아졌거나 Reader First 전면 편집이 필요한 글�
 | 순서 | slug | 상태 | 비고 |
 |------|------|------|------|
 | B1 | `tokyo-ward-guide-series-prologue` | deferred | Tier0 이미 §1–4 live · 대량 재터치 금지 |
-| B2 | Ep.1–10 series posts | open queue | `scan:md` 반복 H3 신호 표 참고 · 사람 판정 후 |
+| B2 | Ep.1–10 series posts | **done** (2026-07-18) | Claude drop → Cursor 판정·반영 · validate 100 · prod |
 | B3 | Ep.11–12 | done surface | #3·Ep.12 이미 SEO/Voice 처리 |
+
+### B2 세부 (Claude drop 2026-07-18 · Cursor 판정)
+
+| Ep | slug | FA 판정 | 상태 |
+|----|------|---------|------|
+| 1 | `tokyo-core-3-wards-chiyoda-chuo-minato` | FA 4건(가짜 fact-audit·소득 오출처·은행 실명·중요토지법 무출처) + 도입 직답 — fact-audit 정직 재생성 · 소득 총무성 출처+추정 표기 · 은행 실명 삭제 · 법령 완화 | **verified · validate 100** (2026-07-18, `SKIP_TRUST_VERIFY=1`) |
+| 2 | `tokyo-shinjuku-shibuya-bunkyo` | FA 3건(소득 오출처·신오쿠보 최다 단정·시부야 뿐/선점 완화) + 도입 직답 — 총무성 출처+추정 표기 · 신오쿠보/시부야 완화 · 선점 전략 삭제 | **verified · validate 100** (2026-07-18, `SKIP_TRUST_VERIFY=1`) |
+| 3 | `tokyo-meguro-setagaya` | FA 2건(스타벅스 수치 완화·수익률 고지) · title 무변경 | **verified · validate 100** |
+| 4 | `tokyo-shinagawa-ota` | FA 1건(리니어 2027 단정 완화) · FA#2 보류 · title 무변경 | **verified · validate 100** |
+| 5 | `tokyo-toshima-nakano-suginami` | FA 1건(Joseph's View 유지·정답/강력 단정 완화) | **verified · validate 100** |
+| 6 | `tokyo-taito-sumida-koto` | FA 1건(지진 주의 등급 무출처 → Ep.7/8 톤 통일) | **verified · validate 100** |
+| 7 | `tokyo-kita-arakawa-itabashi-nerima` | FA 0 — 반복 H3는 의도적 템플릿 판정 | **done (無변경)** |
+| 8 | `tokyo-adachi-katsushika-edogawa` | FA 0 — 검산 일치 · nav 정합은 Wave C 이월 | **done (無변경)** |
+| 9 | `tokyo-musashino-mitaka-chofu` | **T0** KO 중복 섹션(H2 구조) — Joseph 승인 완료(2026-07-18) · KO 중복 블록 삭제·H2 5섹션 정합·TOC 앵커 수정 · 시리즈 목록 확인(이미 정합) · FA#2 T2 보류 | **verified · validate 100** (2026-07-18, `SKIP_TRUST_VERIFY=1`) |
+| 10 | `tokyo-kokubunji-kunitachi-fuchu-tachikawa` | FA 0 — 시리즈 기준선 채택 | **done (無변경)** |
 
 ## Wave C — 백필
 

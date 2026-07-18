@@ -3,8 +3,8 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-shinjuku-shibuya-bunkyo |
-| **Title (KO)** | tokyo-shinjuku-shibuya-bunkyo report |
-| **Cursor validate** | `pnpm validate:post tokyo-shinjuku-shibuya-bunkyo` → PASS |
+| **Title (KO)** | 신주쿠·시부야·분쿄 집값과 주거 특징 — 도쿄 핵심 3구 [Ep.2·2026] |
+| **Cursor validate** | PASS — 2026-07-18 Wave B (`SKIP_TRUST_VERIFY=1`, score 100 / hard gates PASS) |
 | **Published** | Live |
 
 ---
@@ -425,6 +425,24 @@
 ---
 
 ---
+
+---
+
+## 2026-07-18 Wave B FA update (Cursor)
+
+변경된 claim만 갱신한다. 위 자동 생성 표의 단일 URL 일괄 매핑은 참고용으로만 남긴다.
+
+| # | Claim (KO) | 변경 내용 | 근거 출처 | Status |
+|---|-----------|-----------|-----------|--------|
+| 1 | 납세자 평균 소득 — 신주쿠 약 610만 / 시부야 약 1,070만 / 분쿄 약 700만 엔 | 출처를 NTA 민간급여실태통계(전국 집계, 구 단위 미제공)에서 총무성 시정촌별 과세대상소득 통계로 교체. 원문 표 수치 직접 대조 전이므로 본문 3곳 + 비교표에 "공적 통계 기반 추정" 명기 | [총무성 시정촌세 과세상황 조사](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html) | softened |
+| 2 | "신오쿠보는 한국계 거주자가 가장 많이 사는 동네 … 유일한 곳" | 인구 순위 단정·유일성 삭제 → "한국계 주민과 상권이 밀집해 한국인 이주자에게 가장 익숙한 동네" (KO/EN/JA 정합) | 확인 불가 (통계 근거 없음) | softened |
+| 3 | 시부야 "이 세 가지가 동시에 작동하는 구는 도쿄 전체에서 시부야뿐입니다" | 절대 단정 완화 → "시부야가 가장 유력하다고 봅니다" (Joseph's View 표지 유지) | 예측 주장 — 확인 불가 | softened |
+| 4 | 시부야 투자자 bullet "재개발 수혜 지역 선점 전략 유효" | 투자 행동 직접 권유 문구 삭제 (KO/EN/JA) | YMYL 가드 | removed |
+| 5 | EN/JA §5 대출 — 은행 실명 (Mizuho/UFJ/Sumitomo · みずほ/UFJ/住友) | KO에는 실명이 없었음 — Ep.1 FA#3와 동일 기준으로 EN/JA에서 실명 삭제, "일부 대형 은행 … 은행·지점별 상이" 로 정합 | 확인 불가 (은행 정책 무출처) | removed |
+
+- citeSources: NTA 항목 → 총무성 令和7年度 市町村税課税状況等の調 第11表 (KO/EN/JA)
+- 도입 직답 1문장 추가 (신주쿠 135.9만·시부야 180.0만·분쿄 131.5만 ㎡당) — drop 안1 채택
+- modDatetime: 2026-07-18T21:30:00+09:00 (3개 로케일)
 
 ---
 

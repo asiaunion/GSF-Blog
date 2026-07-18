@@ -4,7 +4,7 @@
 |-------|--------|
 | **Slug** | tokyo-meguro-setagaya |
 | **Title (KO)** | 도쿄 서쪽 프리미엄 주거 벨트: 메구로·세타가야 — 이주·투자 데이터 가이드 [Ep.3] |
-| **Cursor validate** | `SKIP_TRUST_VERIFY=1 pnpm validate:post tokyo-meguro-setagaya` → PASS |
+| **Cursor validate** | `SKIP_TRUST_VERIFY=1 pnpm validate:post tokyo-meguro-setagaya` → score 100 / hard gates PASS (2026-07-18 Wave B) |
 | **Published** | Live (main) |
 
 ---
@@ -22,6 +22,15 @@
 | 7 | 메구로 구 평균 157만엔/㎡ | 157万/㎡ | [LIFULL HOME'S Tokyo used mansions](https://www.homes.co.jp/mansion/chuko/tokyo/) | [ ] | §1 매매 |
 | 8 | 세타가야 구 평균 115만엔/㎡ | 115万/㎡ | [LIFULL HOME'S Tokyo used mansions](https://www.homes.co.jp/mansion/chuko/tokyo/) | [ ] | §2 매매 |
 | 9 | 인구 비율 약 3.28배 | 3.28× | Meguro + Setagaya URLs (derived) | [x] | §3 비교 |
+
+---
+
+## FA corrections (2026-07-18 Wave B)
+
+| Claim | Cursor action | Locale parity | Status |
+|-------|---------------|---------------|--------|
+| 스타벅스 리저브 로스터리 5곳·시애틀 폐점일·아시아 2곳 | 무출처 개수·폐점일 삭제, 세계적으로 손꼽히는 특별 매장으로 완화 | KO / EN / JA | [x] |
+| 세타가야 임대 수익률 3.8~4.5% | 관리비·공실·세금 반영 전 단순 계산 고지 추가 | KO / EN / JA | [x] |
 
 ---
 

@@ -2,7 +2,7 @@
 title: "Shinjuku, Shibuya & Bunkyo Home Prices and Living Profiles [Ep.2·2026]"
 description: "Explore the characteristics of Shinjuku, Shibuya, and Bunkyo. Learn about Tokyo's commercial hubs, cultural centers, and educational districts."
 pubDatetime: 2026-05-19T12:00:00Z
-modDatetime: 2026-07-18T13:00:00+09:00
+modDatetime: 2026-07-18T21:30:00+09:00
 author: GSF
 draft: false
 lang: en
@@ -18,8 +18,9 @@ tags:
   - relocation
   - investment
 sources:
-  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-  - "https://www.nta.go.jp/"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+  - "https://www.soumu.go.jp/"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
   - "https://www.shinjuku.lg.jp/foreign/lang/english/index.html"
@@ -27,9 +28,9 @@ sources:
   - "https://www.kantei.ne.jp/wp-content/uploads/c2025.pdf"
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
 citeSources:
-  - label: "NTA Private Sector Wage Survey, 2023"
-    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-    portal: "https://www.nta.go.jp/"
+  - label: "MIC FY2025 municipal tax survey Table 11 (taxable income by municipality)"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+    portal: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
   - label: "Tokyo Metropolitan Population Estimates (Resident Registry), 2025"
     url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
     portal: "https://www.toukei.metro.tokyo.lg.jp/"
@@ -39,7 +40,7 @@ citeSources:
     url: "https://www.reinfolib.mlit.go.jp/"
     portal: "https://www.reinfolib.mlit.go.jp/"
 ---
-If Roppongi and Azabu are "expat Tokyo," Shinjuku and Shibuya are "Tokyo for Tokyoites." That's how I framed it the first time I compared the two. Same price tier. Completely different lives. Which one is right for you isn't a data question — it's a lifestyle question.
+Average condo prices run **¥1.359M per ㎡ in Shinjuku, ¥1.800M in Shibuya, and ¥1.315M in Bunkyo.** If Roppongi and Azabu are "expat Tokyo," Shinjuku and Shibuya are "Tokyo for Tokyoites." That's how I framed it the first time I compared the two. Same price tier. Completely different lives. Which one is right for you isn't a data question — it's a lifestyle question.
 
 This chapter follows the [Series Prologue](/posts/tokyo-ward-guide-series-prologue/) and Ep.1 (Chiyoda, Chuo, Minato) with a deep dive into **the remaining three of Tokyo's Core 6 Wards (都心6区) — Shinjuku, Shibuya, and Bunkyo**. They share a premium price bracket. But their character couldn't be more different: a commercial mega-hub, the birthplace of trends, and a quiet city of scholarship.
 
@@ -63,7 +64,7 @@ This chapter follows the [Series Prologue](/posts/tokyo-ward-guide-series-prolog
 
 Shinjuku is Tokyo's most layered ward. The world's busiest railway station — Shinjuku Station — sits at its center, splitting the ward into two radically different cities along an east-west axis.
 
-The west side (Nishi-Shinjuku) is a CBD of government offices and corporate towers. The east side (Higashi-Shinjuku, Kabukicho) is a dense commercial zone of food, entertainment, and nightlife. Shin-Okubo sits between them — Tokyo's de facto Korean town, the only neighborhood in the city that feels like Seoul's Yeonnam-dong transplanted to Japan.
+The west side (Nishi-Shinjuku) is a CBD of government offices and corporate towers. The east side (Higashi-Shinjuku, Kabukicho) is a dense commercial zone of food, entertainment, and nightlife. Shin-Okubo sits between them — Tokyo's de facto Korean town, a dense cluster of Korean residents and businesses that is the most familiar neighborhood for Korean newcomers, with an atmosphere reminiscent of Seoul's Yeonnam-dong.
 
 For Korean relocators, Shinjuku isn't just a neighborhood. It's a psychological lifeline. I remember walking through Shin-Okubo on my first week after moving. Korean signs, Korean grocers, Korean restaurants wall to wall. Having one place where the language just works — you don't understand what that means until you've lived without it.
 
@@ -95,7 +96,7 @@ Units within walking distance of Shinjuku Station start from ¥130K even for stu
 
 ### Average Household Income
 
-The average taxable income for Shinjuku residents is **approx. 6.1 million JPY (610만 JPY)/year** — the lowest among the Core 6 Wards. But the diversity of the tenant base (students, workers, foreign nationals) keeps vacancy risk exceptionally low.
+The average taxable income for Shinjuku residents is estimated at **approx. 6.1 million JPY (610만 JPY)/year** (editorial estimate based on MIC municipal taxable-income statistics)<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> — the lowest among the Core 6 Wards. But the diversity of the tenant base (students, workers, foreign nationals) keeps vacancy risk exceptionally low.
 
 ### Population
 
@@ -132,7 +133,7 @@ Shibuya is Tokyo's fastest-changing ward. Since the 2010s, Hikarie, Scramble Squ
 
 But Shibuya's real identity predates the cranes. The belt running through Omotesando (表参道), Daikanyama (代官山), and the edges of Nakameguro (中目黒) hosts the densest concentration of creative industry in Japan. Fashion, advertising, IT startups, media — these workers don't just work in Shibuya. They live here.
 
-My view is clear. Among the Core 6 Wards, Shibuya has the highest upside potential over the next decade. Redevelopment momentum, high-income millennial inflow, foreign corporate HQ concentration — all three are firing simultaneously. No other ward in Tokyo has that combination.
+My view is clear. Among the Core 6 Wards, Shibuya has the highest upside potential over the next decade. Redevelopment momentum, high-income millennial inflow, foreign corporate HQ concentration — I see Shibuya as the strongest candidate where all three work simultaneously.
 
 ### Average Mansion Prices
 
@@ -163,7 +164,7 @@ Omotesando and Aoyama are priced on par with Azabu in Minato Ward. Nakameguro ha
 
 ### Average Household Income
 
-Shibuya's average taxable income per resident is **approx. 10.7 million JPY (1,070만 JPY)/year** — the highest or second-highest in Tokyo's 23 wards depending on the year (Ministry of Internal Affairs taxation data, 2023).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> Creative industry executives and tech startup leadership drive the number.
+Shibuya's average taxable income per resident is estimated at **approx. 10.7 million JPY (1,070만 JPY)/year** — among the very top of Tokyo's 23 wards (editorial estimate based on MIC municipal taxable-income statistics).<sup class="source-ref"><a href="#source-1">1</a></sup> Creative industry executives and tech startup leadership drive the number.
 
 ### Population
 
@@ -180,7 +181,7 @@ Shibuya's foreign resident ratio is **approx. 5.5–6%** (2025, Shibuya City off
 ### Who Should Consider Shibuya
 
 - **Relocators**: The top choice for creative and tech professionals. Walkability to work and lifestyle quality coexist — rare in any city.
-- **Investors**: Highest long-term appreciation potential in the Core 6. Gross yield 3.5–5% on small-to-mid units. Redevelopment play still viable in several sub-areas.
+- **Investors**: Highest long-term appreciation potential in the Core 6. Gross yield 3.5–5% on small-to-mid units.
 - **Visitors**: Omotesando walk, Daikanyama Tsutaya Books, Yoyogi Park, Scramble Crossing at night.
 
 ### Key Landmarks
@@ -230,7 +231,7 @@ Stable demand from students, researchers, and faculty keeps the rental market co
 
 ### Average Household Income
 
-Bunkyo's average taxable income per resident is **approx. 7 million JPY (¥7.0M)/year**.<sup class="source-ref"><a href="#source-1">1</a></sup> University faculty, medical professionals, and researchers represent a large share — producing a stable, well-distributed income profile.
+Bunkyo's average taxable income per resident is estimated at **approx. 7 million JPY (¥7.0M)/year** (editorial estimate based on MIC municipal taxable-income statistics).<sup class="source-ref"><a href="#source-1">1</a></sup> University faculty, medical professionals, and researchers represent a large share — producing a stable, well-distributed income profile.
 
 ### Population
 
@@ -269,7 +270,7 @@ Bunkyo's foreign resident ratio is **approx. 6–7%**. UTokyo's international st
 | Population (Jan 2025) | ~353,000 | ~231,000 | ~235,000 |
 | Foreign resident ratio | ~12.6% | ~5.5–6% | ~6–7% |
 | Avg. mansion price/㎡ | ¥1.359M | ¥1.800M | ¥1.315M |
-| Avg. taxable income | ~6.1 million JPY (~¥6.1M) | ~10.7 million JPY (~¥10.7M) | ~7 million JPY (~¥7.0M) |
+| Avg. taxable income (est. from public statistics) | ~6.1 million JPY (~¥6.1M) | ~10.7 million JPY (~¥10.7M) | ~7 million JPY (~¥7.0M) |
 | Gross yield (reference) | 4–5% | 3.5–5% | 4.5–5.5% |
 | Core image | Multicultural · Community · Terminal | Trend · Creative · Redevelopment | Academic · Quiet · Family |
 | Foreign-resident livability | ★★★★★ | ★★★★ | ★★★☆ |
@@ -287,7 +288,7 @@ Japan imposes no legal restrictions on foreign nationals purchasing real estate.
 ### Mortgages
 
 - **Non-residents**: Japanese bank mortgages are effectively unavailable. Cash purchase or collateralization of home-country assets is the standard path.
-- **Residents (valid visa holders)**: Some banks (Mizuho, UFJ, Sumitomo) offer mortgages to foreign nationals. Required documents: Residence card, two years of withholding tax statements, employment contract.
+- **Residents (valid visa holders)**: Some major banks offer mortgages to foreign nationals, but terms vary by bank and branch — confirm directly with each lender. Typically required documents: Residence card, two years of withholding tax statements, employment contract.
 
 ### Management Fees & Repair Reserve Fund
 

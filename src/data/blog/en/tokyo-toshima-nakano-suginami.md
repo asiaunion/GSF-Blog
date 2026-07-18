@@ -2,7 +2,7 @@
 title: "Toshima, Nakano & Suginami Home Prices and Rents — Tokyo Inner Ring [Ep.5·2026]"
 description: "A data-driven breakdown of Tokyo's Hipster Inner Ring — the redevelopment momentum of Toshima (Ikebukuro), the hidden-gem appeal of Nakano, and the family-first stability of Suginami. Rental rates, condo prices, income levels, and foreign-resident ratios verified from primary sources."
 pubDatetime: 2026-06-04T06:35:00Z
-modDatetime: 2026-07-18T13:00:00+09:00
+modDatetime: 2026-07-18T21:11:00+09:00
 author: GSF
 draft: false
 lang: en
@@ -291,7 +291,7 @@ Toshima (13.2%) minus Suginami (4.5%) = **8.7 percentage points**. (Arithmetic: 
 
 The most striking finding in this dataset is that **1LDK rents converge to the ¥160,000s across all three wards**.
 
-Condo prices show a **~19.6% gap** between Toshima (¥1.158M/㎡) and Suginami (¥0.931M/㎡) (Arithmetic: 22.7 ÷ 115.8 ≒ 19.6%) — but 1LDK rents come in at ¥161,000 vs ¥162,000, virtually identical. This means **Suginami can be acquired at significantly lower capital outlay while delivering essentially the same income return as Toshima on a 1LDK basis**.
+Condo prices show a **~19.6% gap** between Toshima (¥1.158M/㎡) and Suginami (¥0.931M/㎡) (Arithmetic: 22.7 ÷ 115.8 ≒ 19.6%) — but 1LDK rents come in at ¥161,000 vs ¥162,000, virtually identical. This means **Suginami can be acquired at significantly lower capital outlay while delivering essentially the same income return as Toshima on a 1LDK basis**. In my view, this is the most persuasive reason to consider Suginami.
 
 > **[Primary Source]** Source: Ministry of Land, Infrastructure, Transport and Tourism (MLIT) — Real Estate Transaction Price Information, 2025 Q1-Q4 (https://www.reinfolib.mlit.go.jp/) — based on 744 Toshima, 619 Nakano, and 851 Suginami transactions.
 
@@ -305,7 +305,7 @@ Here is where I land after working through all the data.
 
 **That said, Nakano Ward is where I am personally paying closest attention.** Small ward means constrained supply. Two confirmed milestones — the new station building opening in December 2026 and San Plaza's 2034 rebuild — are already locked into the official city plan. Entering before those catalysts materialize may offer the most asymmetric risk-return profile of the three wards, though as always, the outcome depends on factors well beyond the redevelopment timeline itself.
 
-**Suginami Ward is the answer for those who prioritize stability.** Lowest entry cost, strongest income base, and thick family-tenant demand. For investors seeking steady cash flow (Income Gain) over momentum plays, Suginami is a clear fit.
+**Suginami Ward is worth considering first for those who prioritize stability.** Lowest entry cost, strongest income base, and thick family-tenant demand. For investors seeking steady cash flow (Income Gain) over momentum plays, Suginami is a persuasive option.
 
 The real value of the Hipster Inner Ring is now visible in the numbers. Under half the price of the Core 6 wards, over 90% of their commute access, with cultural depth and redevelopment tailwinds to boot. These three wards are, in my reading, the most interesting corner of the Tokyo property map right now.
 

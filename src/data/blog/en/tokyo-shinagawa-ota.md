@@ -2,7 +2,7 @@
 title: "Are Ota Ward Apartments Affordable? — Price Comparison with Shinagawa [Ep.4·2026]"
 description: "We compare the average mansion per-㎡ price between Ota and Shinagawa wards, highlighting the differences in living convenience and transit access in Tokyo's Southern Belt."
 pubDatetime: 2026-06-02T20:20:00Z
-modDatetime: 2026-07-18T13:00:00+09:00
+modDatetime: 2026-07-18T21:11:00+09:00
 author: Joseph KIM
 draft: false
 lang: en
@@ -54,7 +54,7 @@ Continuing the series, in this article I compare Shinagawa and Ota—the two maj
 
 ### Market Identity
 
-Shinagawa is the area most coveted by global business professionals and high-end investors. The Chuo Shinkansen (Maglev) — scheduled to open in 2027 — is elevating Shinagawa Station into the new "Gateway to Tokyo."
+Shinagawa is the area most coveted by global business professionals and high-end investors. The Chuo Shinkansen (Maglev) is planned to open, but the specific timing remains fluid. Once it opens, Shinagawa Station's role as a "Gateway to Tokyo" could grow further.
 
 Admittedly, the massive Takanawa Gateway zone itself technically belongs to Minato Ward. But this overwhelming commercial and business redevelopment triggers a powerful Spillover Effect across all of adjacent Shinagawa. High-income tenants who prioritize living close to work are being sucked into this area like a black hole.
 

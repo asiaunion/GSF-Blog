@@ -2,7 +2,7 @@
 title: "Tokyo Core 3 Ward Home Prices — Chiyoda, Chuo & Minato [Ep.1·2026]"
 description: "Vacancy rates, price trends, and developer pipelines across Tokyo's three premium central wards — the definitive data guide for cross-border property investors."
 pubDatetime: 2026-05-14T01:45:00Z
-modDatetime: 2026-07-18T13:00:00+09:00
+modDatetime: 2026-07-18T21:30:00+09:00
 author: GSF
 draft: false
 lang: en
@@ -23,8 +23,9 @@ sources:
   - "https://gsfark.com/assets/sources/kantei-2025-chukomansion.pdf"
   - "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
   - "https://gsfark.com/assets/sources/reins-202604-marketwatch.pdf"
-  - "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-  - "https://www.nta.go.jp/"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+  - "https://www.soumu.go.jp/"
   - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://www.toukei.metro.tokyo.lg.jp/"
   - "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
@@ -37,22 +38,22 @@ citeSources:
   - label: "REINS Metropolitan Market Watch, 2026-04"
     url: "https://www.reins.or.jp/pdf/trend/mw/mw_202604_summary.pdf"
     archive: "/assets/sources/reins-202604-marketwatch.pdf"
-  - label: "NTA Private Sector Wage Survey, 2023"
-    url: "https://www.nta.go.jp/publication/statistics/kokuzeicho/minkan2023/minkan.htm"
-    portal: "https://www.nta.go.jp/"
+  - label: "MIC FY2025 municipal tax survey Table 11 (taxable income by municipality)"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/xls/J51-25-b.xlsx"
+    portal: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_25.html"
   - label: "Tokyo Metropolitan Population Estimates (Resident Registry), 2025"
     url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
     portal: "https://www.toukei.metro.tokyo.lg.jp/"
   - label: "MLIT Survey on Foreign-Address Buyers of New Tokyo Condos, 2025-11"
     url: "https://www.mlit.go.jp/report/press/tochi_fudousan_kensetsugyo05_hh_000001_00237.html"
 ---
-"Aren't the three core wards basically the same?" — I get that question often. My answer is always the same: no. **Chiyoda, Chuo, and Minato are not interchangeable.** Under the same "central Tokyo" label, they carry completely different characters, different demand profiles, and different investment logic. Let me break them down ward by ward.
+Average condo prices per square meter in Tokyo's core three wards: **¥1.947M in Chiyoda, ¥1.811M in Chuo, and ¥2.206M in Minato.** "Aren't the three core wards basically the same?" — I get that question often. My answer is always the same: no. **Chiyoda, Chuo, and Minato are not interchangeable.** Under the same "central Tokyo" label, they carry completely different characters, different demand profiles, and different investment logic. Let me break them down ward by ward.
 
 This is **Ep.1** of the Tokyo 23 Wards Brand Guide series. Following the [Ep.0 Prologue](/posts/tokyo-ward-guide-series-prologue/), this first deep-dive covers the **Core 3 Wards (都心3区)** — Chiyoda (千代田区), Chuo (中央区), and Minato (港区).
 
 Each ward has a distinct identity and demand base. The data tells the story clearly — but only if you look at each ward on its own terms.
 
-> **Data reference period**: H1 2025–2026. Real estate prices fluctuate quarterly. Always verify with the source links provided.
+> **Data reference period**: H1 2025–2026. Ward-average prices per ㎡ are based on MLIT Real Estate Transaction Price Information; sub-area price ranges, rent ranges, and Cap Rates are editorial estimates based on market listings. Real estate prices fluctuate quarterly. Always verify with the source links provided.
 
 ---
 
@@ -99,13 +100,13 @@ The Bancho (番町) district is one of Tokyo's most storied upscale residential 
 
 ### Average Household Income
 
-Chiyoda's average declared income per taxpayer is approximately **¥9.5 million** — roughly double the Tokyo 23-ward average of ¥4.5M–5.0M.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup> Given that this is based on resident population, the actual income level of those who work here during the day is significantly higher.
+Chiyoda's average declared income per taxpayer is estimated at approximately **¥9.5 million** — roughly double the Tokyo 23-ward average of ¥4.5M–5.0M (editorial estimate based on MIC municipal taxable-income statistics).<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> Given that this is based on resident population, the actual income level of those who work here during the day is significantly higher.
 
 ### Population
 
 | Metric | Figure |
 |--------|--------|
-| Total population | approx. 67,000 (lowest of 23 wards)<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup> |
+| Total population | approx. 67,000 (lowest of 23 wards)<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> |
 | Population density | approx. 4,100/km² (among the lowest) |
 | Daytime population | 800,000+ |
 | Trend | Gradual population growth driven by new residential development |
@@ -164,7 +165,7 @@ High-floor tower units near Ginza and Tsukiji regularly exceed ¥1M/month.
 
 ### Average Household Income
 
-Chuo's average declared income per taxpayer is approximately **¥7.3 million** — well above the Tokyo average.<sup class="source-ref"><a href="#source-3">3</a></sup> The resident base skews toward Ginza and Nihonbashi commercial workers, and finance/trade sector assignees.
+Chuo's average declared income per taxpayer is estimated at approximately **¥7.3 million** — well above the Tokyo average (editorial estimate based on MIC municipal taxable-income statistics).<sup class="source-ref"><a href="#source-4">4</a></sup> The resident base skews toward Ginza and Nihonbashi commercial workers, and finance/trade sector assignees.
 
 ### Population
 
@@ -199,7 +200,7 @@ Chuo's foreign resident ratio is approximately **5.5%** — the highest among th
 
 Minato is the most "international" of the Core 3. Roppongi (六本木), Azabu (麻布), Akasaka (赤坂), Shiroganedai (白金台), Shibaura (芝浦) — names that conjure images of Seoul's Itaewon, Gangnam, and Seongsu-dong all rolled into one ward.
 
-Minato hosts 160+ foreign embassies and consulates. It has the highest foreign resident ratio of any ward in Tokyo. Roppongi Hills, Tokyo Midtown, and Azabudai Hills — Tokyo's defining mixed-use landmarks — are all concentrated here.
+Minato hosts numerous foreign embassies and consulates. It has the highest foreign resident ratio of any ward in Tokyo. Roppongi Hills, Tokyo Midtown, and Azabudai Hills — Tokyo's defining mixed-use landmarks — are all concentrated here.
 
 I remember walking through Hiroo's shopping street for the first time and noticing that signs were posted in English, Korean, and Chinese side by side. That's when it clicked: this is genuinely a ward built for non-Japanese residents. If I had to name one ward in Tokyo where you can settle without a language barrier, Minato is it — no contest.
 
@@ -231,7 +232,7 @@ Since the opening of Azabudai Hills (2023), prices in the surrounding luxury seg
 
 ### Average Household Income
 
-Minato's average declared income per taxpayer exceeds **¥12 million** — ranking #1 among all 23 wards.<sup class="source-ref"><a href="#source-3">3</a></sup> High-earning finance professionals, foreign corporate executives, and diplomatic staff make up a significant portion of the residential base.
+Minato's average declared income per taxpayer is estimated to exceed **¥12 million** — placing it at the very top of the 23 wards (editorial estimate based on MIC municipal taxable-income statistics).<sup class="source-ref"><a href="#source-4">4</a></sup> High-earning finance professionals, foreign corporate executives, and diplomatic staff make up a significant portion of the residential base.
 
 ### Population
 
@@ -243,7 +244,7 @@ Minato's average declared income per taxpayer exceeds **¥12 million** — ranki
 
 ### Foreign Resident Ratio
 
-Minato's foreign resident ratio is approximately **11–12%** — the highest in all 23 wards.<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> English and Chinese are widely usable for daily life. Foreigner-specialized real estate agencies are plentiful. The Korean community is centered around Akasaka and Roppongi.
+Minato's foreign resident ratio is approximately **11–12%** — the highest in all 23 wards.<sup class="source-ref"><a href="#source-5">5</a></sup> English and Chinese are widely usable for daily life. Foreigner-specialized real estate agencies are plentiful. The Korean community is centered around Akasaka and Roppongi.
 
 ### Who Should Consider Minato
 
@@ -270,7 +271,7 @@ I get it — the numbers make Minato look like the obvious winner. But that's no
 | Population | ~67,000 | ~191,000 | ~266,000 |
 | Foreign resident ratio | ~4.5% | ~5.5% | ~11% |
 | Avg. mansion price/㎡ | ¥1.947M | ¥1.811M | ¥2.206M |
-| Avg. taxpayer income | ~¥9.5M | ~¥7.3M | ~¥12M+ |
+| Avg. taxpayer income (est. from public statistics) | ~¥9.5M | ~¥7.3M | ~¥12M+ |
 | Cap Rate (reference) | 2–3% | 3–4% | 2.5–3.5% |
 | Core image | Authority / Admin / Finance | Commerce / Culture / Redevelopment | International / Luxury / Embassies |
 | Foreigner livability | ★★★☆ | ★★★★ | ★★★★★ |
@@ -281,12 +282,12 @@ I get it — the numbers make Minato look like the obvious winner. But that's no
 
 ### Legal Restrictions
 
-Japan places no legal restrictions on foreign ownership of real estate. However, **land purchases** in specific zones (near defense facilities, etc.) require advance notification. Standard apartment ownership (condominium) within the Core 3 wards does not apply.
+Japan places no legal restrictions on foreign ownership of real estate. However, laws related to land acquisition (such as the Important Land Survey Act) should be confirmed with a specialist before purchase.
 
 ### Mortgages
 
 - **Non-residents**: Borrowing from Japanese banks is effectively unavailable. Cash purchases or collateral against home-country assets are the practical routes.
-- **Residents (with valid visa status)**: Select banks (Mizuho, UFJ, Sumitomo) offer mortgage products for foreign nationals. Required documents: residence card, two years of withholding tax certificates, employment contract.
+- **Residents (with valid visa status)**: Some major banks offer mortgage products for foreign nationals, but terms vary by bank and branch — confirm directly with each lender. Typically required documents: residence card, two years of withholding tax certificates, employment contract.
 
 ### Management Fees and Repair Reserve Fund
 

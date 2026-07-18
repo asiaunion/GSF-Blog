@@ -2,7 +2,7 @@
 title: "Taito, Sumida & Koto Home Prices and Rents — Eastern Tokyo [Ep.6·2026]"
 description: "Just 3–7 km from the Imperial Palace in a straight line, Taito and Sumida are 8 minutes to Tokyo Station, and Koto is 9 minutes to Otemachi — yet prices run lower than the west. I break down mansion sale prices, rental rates, and redevelopment momentum in Taito-ku, Sumida-ku, and Koto-ku using primary-source data."
 pubDatetime: 2026-06-17T04:00:00Z
-modDatetime: 2026-07-18T13:00:00+09:00
+modDatetime: 2026-07-18T21:11:00+09:00
 author: GSF
 draft: false
 lang: en
@@ -268,7 +268,7 @@ The Greater Tokyo mansion market in Q1 2026 continued to see declining new-build
 
 Across all three wards, one thing stands out consistently: the gap between physical proximity to the center and what prices actually reflect. Whether that gap narrows — and how fast — depends on a complex of variables: interest rate environment, new supply volume, and the pace of redevelopment execution.
 
-Let me be clear about the risks, though. Parts of these wards appear in Tokyo's under-fault earthquake (直下地震) risk assessments at elevated caution levels. Coastal low-lying areas in particular require mandatory review of liquefaction — Ekijoka (液状化) — risk maps, where the ground can liquefy like a liquid during a seismic event. Building seismic rating and ground data should be on your checklist for any specific property.
+Let me be clear about the risks, though. I recommend checking the hazard maps in advance for low-lying areas and sections near the coast. Building seismic rating and ground data should also be on your checklist for any specific property.
 
 Also note: the southern Toyosu-Ariake zone in Koto-ku already has its premium priced in. Expecting further upside there requires a different investment thesis. Kiyosumi-Shirakawa, Morishita, and Monzen-Nakacho in the inland areas are where you still find prices that look low relative to their accessibility.
 

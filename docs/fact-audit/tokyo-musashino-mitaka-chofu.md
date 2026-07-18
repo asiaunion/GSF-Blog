@@ -5,7 +5,7 @@
 | **Slug** | `tokyo-musashino-mitaka-chofu` |
 | **Title (KO)** | 도쿄 어디에 살 것인가 — 23구 완전 가이드 [Ep.09] 서부 프리미엄 외곽: 무사시노·미타카·조후 |
 | **Author / date** | GSF / 2026-06-26 |
-| **Cursor validate** | `pnpm validate:post tokyo-musashino-mitaka-chofu` → pending |
+| **Cursor validate** | PASS — 2026-07-18 Wave B (`SKIP_TRUST_VERIFY=1`, score 100 / hard gates PASS) |
 | **Published** | TBD (draft/tokyo-musashino-mitaka-chofu) |
 
 ---
@@ -76,3 +76,12 @@
 | 60 | 3,000 | 3,000 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 61 | 8,881 | 8,881 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 62 | 6,272 | 6,272 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+
+---
+
+## 2026-07-18 Wave B 구조 수정 (Cursor)
+
+- **FA#1 (T0):** KO 본문의 미완성 중복 섹션(첫 번째 `三鷹市`·`調布市` 블록, 표 없음) 삭제. 남은 완전판 헤더를 `## 2. 三鷹市(미타카)` / `## 3. 調布市(조후)`로 정규화 — KO H2 5섹션 구조가 EN/JA와 일치. TOC 앵커를 slugger 실제 출력(`1-武蔵野市무사시노` 등)에 맞춰 수정.
+- **FA#2 (T2):** 본문 문구 미변경 — Voice Full 큐 보류.
+- **FA#3:** "이 시리즈 전체 보기" 목록은 이미 Ep.1–8 포함·자기 자신 제외로 정합 — 변경 없음.
+- Claim 수치 변경 없음(구조만 수정) — 위 Claims 표 유효.

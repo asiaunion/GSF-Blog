@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-taito-sumida-koto |
-| **Cursor validate** | PASS (2026-06-17) |
+| **Cursor validate** | PASS — 2026-07-18 Wave B (`SKIP_TRUST_VERIFY=1`, score 100 / hard gates PASS) |
 
 ---
 
@@ -113,6 +113,14 @@
 | 100 | 3,630 | 3,630 | [https://www.reinfolib.mlit.go.jp/](https://www.reinfolib.mlit.go.jp/) | [x] | Body |
 | 101 | 7,182 | 7,182 | [https://www.reinfolib.mlit.go.jp/](https://www.reinfolib.mlit.go.jp/) | [x] | Body |
 | 102 | 6,000 | 6,000 | [https://www.reinfolib.mlit.go.jp/](https://www.reinfolib.mlit.go.jp/) | [x] | Body |
+
+---
+
+## FA corrections (2026-07-18 Wave B)
+
+| Claim | Cursor action | Locale parity | Status |
+|-------|---------------|---------------|--------|
+| 도쿄 직하지진 위험도 일부 구간 주의 등급 | 무출처 등급 단정 삭제, 저지대·해안 인접 구간 하자드맵 사전 확인 권고로 완화 | KO / EN / JA | [x] |
 
 ---
 
