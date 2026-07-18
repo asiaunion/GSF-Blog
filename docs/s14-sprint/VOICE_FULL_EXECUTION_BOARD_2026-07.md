@@ -25,9 +25,9 @@
 | B2 | 5 | `tokyo-meguro-setagaya` | live | Ep.3 · Cursor 검증(100/PASS·YMYL 완화·출처 동결)→prod |
 | B2 | 6 | `tokyo-shinagawa-ota` | live | Ep.4 · Cursor 검증(100/PASS·EN/JA 누락분 Cursor 보완·리니어 헤지 유지)→prod |
 | B2 | 7 | `tokyo-toshima-nakano-suginami` | live | Ep.5 · Cursor 검증(100/PASS·권유 어휘 완화·수치 보존)→prod |
-| B3 | 8 | `tokyo-taito-sumida-koto` | queued | Ep.6 |
-| B3 | 9 | `tokyo-kita-arakawa-itabashi-nerima` | queued | Ep.7 |
-| B3 | 10 | `tokyo-adachi-katsushika-edogawa` | queued | Ep.8 |
+| B3 | 8 | `tokyo-taito-sumida-koto` | claude-final | Ep.6 · Cursor 사전점검 PASS(지진 헤지 유지·새사실0) |
+| B3 | 9 | `tokyo-kita-arakawa-itabashi-nerima` | claude-final | Ep.7 · Cursor 사전점검 PASS(FA-zero 유지·새사실0) |
+| B3 | 10 | `tokyo-adachi-katsushika-edogawa` | claude-final | Ep.8 · Cursor 사전점검 PASS(FA-zero 유지·권유0) |
 | B4 | 11 | `tokyo-kokubunji-kunitachi-fuchu-tachikawa` | queued | Ep.10 · Voice 기준선 |
 | B4 | 12 | `tokyo-hachioji-hino-akishima` | queued | Ep.11 |
 | B4 | 13 | `tokyo-ward-guide-series-prologue` | queued | 프롤로그 · title/H2 재터치 금지 |
