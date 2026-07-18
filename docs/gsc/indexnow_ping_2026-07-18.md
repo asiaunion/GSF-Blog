@@ -42,3 +42,10 @@
 - HTTP 코드: 200 OK
 - 성공 기준 통과
 
+## [2026-07-18 18:55 JST] IndexNow Ping (Tier 1 #7 FA residual — ORIX 제거)
+
+- 대상 슬러그: tokyo-moving-contracts-two-notes
+- 요청 URL: KO `/ko/posts/` · EN `/posts/` · JA `/ja/posts/` — 총 3개
+- HTTP 코드: 200 OK
+- 성공 기준 통과
+
