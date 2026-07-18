@@ -1,8 +1,8 @@
 ---
-title: "Japan-Korea Inheritance & Gift Tax: The '10-Year Rule' Trap"
-description: "With top tax rates of 50% (Korea) and 55% (Japan), cross-border asset transfers are a high-stakes game. I analyze the 'Unlimited Taxpayer' status, the 10-year rule, and the upcoming Korean tax reforms for 2025-2028."
+title: "Korea–Japan Inheritance Tax: Residency and Japan’s 10-Year Test [2026]"
+description: "Ten years in Japan does not automatically make every worldwide asset taxable. Start with both parties’ address, nationality, residence status and history, then map each asset."
 pubDatetime: 2026-04-15T09:00:00Z
-modDatetime: 2026-06-07T03:13:14+09:00
+modDatetime: 2026-07-18T14:50:00+09:00
 author: GSF
 lang: en
 category: investment
@@ -14,71 +14,97 @@ tags:
   - CrossBorder
   - TaxPlanning
 sources:
-  - "https://www.nta.go.jp/english/index.htm"
-  - "https://www.nts.go.kr/english/main.do"
-  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
-  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
+  - "https://www.nta.go.jp/english/taxes/others/02/15001.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4138.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4432.htm"
+  - "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4102.htm"
+  - "http://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900418020"
+  - "https://taxlaw.nts.go.kr/st/USESTC001M.do"
+  - "https://www.moleg.go.kr/lawinfo/makingInfo.mo?lawSeq=82156&lawType=TYPE5"
 citeSources:
-  - label: "National Tax Agency (NTA) Official English Page"
-    url: "https://www.nta.go.jp/english/index.htm"
-  - label: "National Tax Service of Korea (NTS) Official English Page"
-    url: "https://www.nts.go.kr/english/main.do"
-  - label: "NTA: Inheritance Tax Calculation (Unlimited Taxpayer)"
-    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4103.htm"
-  - label: "NTA: Gift Tax — Gifts Within 7 Years Added to Estate"
-    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4155.htm"
+  - label: "Japan NTA: Cases where inheritance tax is imposed"
+    url: "https://www.nta.go.jp/english/taxes/others/02/15001.htm"
+  - label: "Japan NTA: When an heir lives outside Japan"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4138.htm"
+  - label: "Japan NTA: When a gift recipient lives outside Japan"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/zoyo/4432.htm"
+  - label: "Japan NTA: When inheritance tax applies"
+    url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/sozoku/4102.htm"
+  - label: "Korea Law Information Center: foreign inheritance-tax credit rule"
+    url: "http://www.law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900418020"
+  - label: "Korea NTS: tax treaty country list"
+    url: "https://taxlaw.nts.go.kr/st/USESTC001M.do"
+  - label: "Korea Ministry of Government Legislation: inheritance-tax reform notice"
+    url: "https://www.moleg.go.kr/lawinfo/makingInfo.mo?lawSeq=82156&lawType=TYPE5"
 ---
-For [investors](/posts/tokyo-real-estate-investment-complete-guide/) holding assets in both Korea and Japan, the heaviest shadow is the **Inheritance and Gift Tax**. Both nations impose some of the highest rates globally (Korea: up to 50%, Japan: up to 55%).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup><sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> Without a strategic plan, more than half of your hard-earned wealth can disappear in a single generation.
+Living in Japan for ten years does not automatically make every worldwide asset subject to Japanese inheritance or gift tax. The scope can depend on both parties’ address, nationality, residence status and prior residence, as well as the location of each asset.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>
 
-The most critical—and often overlooked—element is Japan's **'10-Year Rule' (Unlimited Taxpayer Status)**, which allows the Japanese tax office to reach beyond its borders. Today, we break down the core risks and planning windows for cross-border families.
-
----
-
-## 1. Japan's 'Unlimited Taxpayer' and the 10-Year Rule
-
-Japan determines your tax liability based on your residency status.
-
-*   **Limited Taxpayer**: Foreigners who have lived in Japan for less than 10 years (out of the last 15) on a work-related visa are generally taxed only on their **Japan-based assets**.
-*   **Unlimited Taxpayer**: If you have lived in Japan for more than **10 years**, or if you hold a Permanent Resident/Spouse visa, you are subject to tax on your **worldwide assets**. This means an apartment in Seoul or a bank account in the US is taxable in Japan.<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
-*   **The 7-Year Clawback**: As of 2024, Japan has strengthened its rules to include gifts made within **7 years** prior to death back into the taxable estate (up from 3 years).<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
+The 10-year threshold is therefore not the answer. It is the point at which the classification table should be opened.
 
 ---
 
-## 2. South Korea's Tax Reform (2025\~2028)
+## 1. Does ten years in Japan automatically trigger worldwide taxation?
 
-South Korea is currently undergoing a massive shift in its inheritance tax philosophy.
+No. For these rules, a Japanese “temporary resident” generally means a person who holds a qualifying residence status at the relevant time and had an address in Japan for no more than ten years in total during the previous 15 years.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup><sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>
 
-*   **Shift to Recipient-Based Tax (By 2028)**: Korea is moving from an "Estate Tax" (taxed on the total estate) to a "Recipient-Based Tax" (taxed on the amount each heir receives), similar to the Japanese system.
-*   **Rate Reductions**: Proposas are on the table to lower the top rate from 50% to 40% and significantly increase deductions for children. This creates a "Timing Window" for families to re-evaluate their asset transfers.
+That definition does not guarantee Japan-only taxation. For an inheritance, the classification of the heir and the decedent must be read together. For a gift, the recipient and donor must be considered together.
 
----
+Worldwide scope may apply when the recipient or heir falls within an unlimited-taxpayer category. The result can also turn on nationality, residence status, prior Japanese residence and asset location—not a single stopwatch.
 
-## 3. Visualizing the Asset Nexus
+| Check first | Question |
+|---|---|
+| Recipient or heir | What are their address, nationality and residence status? |
+| Donor or decedent | What are their address, nationality and Japanese residence history? |
+| Time | How many years of Japanese address fall within the relevant lookback? |
+| Asset | Where is each property, account or security located for tax purposes? |
 
-![Japan Cross-Border Tax Liability Map](/assets/images/blog/diagrams/en-korea-japan-inheritance-gift-tax-cross-border-basics.webp)
-
----
-
-## 4. Three Key Strategies for Cross-Border Families
-
-1.  **Foreign Tax Credit Optimization**: Taxes paid in Japan can generally be credited against Korean tax liability (and vice versa). However, due to differing deduction limits and calculation methods, it is rarely a 100% offset. A "Tax Simulation" is mandatory before any major transfer.
-2.  **Corporate 'Vessel' Gifting**: Instead of gifting physical real estate, gifting shares of a Japanese holding company can provide more control over valuation and timing, especially for business succession.
-3.  **Residency Management**: Before applying for Japanese Permanent Residency or reaching the 10-year mark, evaluate the tax impact of your global portfolio. The "Exit Tax" and "Worldwide Coverage" rules make this a point of no return for many high-net-worth individuals.
+This is why “foreign national plus under ten years equals limited taxpayer” is unsafe as a general rule.
 
 ---
 
-## 5. Conclusion: Wealth Preservation is a Science
+## 2. When does Japan’s seven-year gift addback actually apply?
 
-At GSF, we believe that investment yield is only half of the equation; **Asset Preservation** is the other. In the Korea-Japan corridor, the tax authorities are highly integrated and share information actively. There are no "loopholes," only "structures." Building the right structure at the acquisition phase is the only way to protect your legacy.
+It did not switch immediately to seven years in 2024. For inheritances beginning on or before December 31, 2026, the previous three-year period applies.<sup class="source-ref"><a href="#source-1" id="cite-4">1</a></sup><sup class="source-ref"><a href="#source-4" id="cite-5">4</a></sup>
 
-<!-- content-depth-v2 -->
+For inheritances beginning from January 1, 2027 through December 31, 2030, the period runs from January 1, 2024 to the date of death. The full seven-year lookback applies to inheritances beginning on or after January 1, 2031.
 
-> **Data freshness (April 2026):** BOJ policy rate 0.75 %, 10-year JGB ≈ 2.43 %, TSE REIT Index ≈ 1,916, Tokyo 5-ward vacancy 2.22 % (Miki Shoji Q1 2026), Q1 2026 inbound tourists 10.68 M (JNTO). Verify the latest from linked sources before acting.
-## Investor Action: Session Summary & Check
+The gift date and the date the inheritance begins must therefore be tested together.
 
-- [ ] **Residency**: Check your physical stay duration to determine if you are taxed on 'world-wide income' in Korea or Japan.
-- [ ] **Exemptions**: Consult an expert on the gift tax exemption limits and the timing of aggregate taxation in both countries.
-- [ ] **Evidence**: Prepare source-of-funds documents required for overseas remittances and asset acquisitions to mitigate tax risks.
+---
+
+## 3. Is Korea’s recipient-based inheritance tax set for 2028?
+
+Not as enacted law. The Korean government published a legislative proposal to move from taxing the estate as a whole to taxing the property acquired by each heir.<sup class="source-ref"><a href="#source-7" id="cite-6">7</a></sup>
+
+Around 2028 has been described as a target subject to legislation and implementation work. Parliamentary review and later legislation can change both the content and timing.
+
+A separate proposal to cut the top rate was not part of this recipient-based reform plan. It should not be presented as a scheduled 2028 change.
+
+---
+
+## 4. Does the Korea–Japan tax treaty remove inheritance-tax overlap?
+
+Korea and Japan do not have a separate bilateral inheritance and gift tax treaty. The bilateral income tax treaty does not automatically settle inheritance or gift tax overlap.<sup class="source-ref"><a href="#source-6" id="cite-7">6</a></sup>
+
+Domestic foreign-tax-credit rules may reduce double taxation. Korea’s implementing rule, for example, provides a calculation and ceiling for crediting foreign inheritance tax.<sup class="source-ref"><a href="#source-5" id="cite-8">5</a></sup>
+
+Residual tax can remain because credit limits, valuation methods and filing dates differ. Tax paid in one country does not by itself prove that the liability in the other country is zero.
+
+![Korea–Japan cross-border inheritance tax map](/assets/images/blog/diagrams/en-korea-japan-inheritance-gift-tax-cross-border-basics.webp)
+
+---
+
+## 5. What is the practical order of checks?
+
+1. Classify the heir and decedent, or the recipient and donor, separately.
+2. Map the tax location of each property, account and security.
+3. Identify filing duties in Korea and Japan.
+4. Calculate each country’s tax under its own rules.
+5. Test the available foreign tax credits and any residual liability.
+
+This is a fact-finding sequence, not a tax-saving formula. Before filing, provide the same residence timeline and asset list to qualified Korean and Japanese tax professionals so the two calculations can be reconciled.
+
+The useful first question is not simply, “Has ten years passed?” It is: **How is each person classified, and where is each asset located?**
 
 ## Recommended Series
 
@@ -86,4 +112,4 @@ At GSF, we believe that investment yield is only half of the equation; **Asset P
 - [Japan Visa Routes: PR and Business Manager Fast-Tracks](/posts/japan-visa-paths-permanent-business-manager-asset-holders/)
 - [Tokyo Office Market 2026: Vacancy and Rent Trends](/posts/tokyo-office-vacancy-five-wards-2026/)
 
----
+<small>This article provides general information. The applicable scope and tax amount depend on the facts and the law in force at the relevant time.</small>
