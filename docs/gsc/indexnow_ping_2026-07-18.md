@@ -21,3 +21,10 @@
 - HTTP 코드: 200 OK
 - 성공 기준 통과
 
+## [2026-07-18 18:05 JST] IndexNow Ping (Tier 1 #6 refresh)
+
+- 대상 슬러그: tokyo-korean-community-beyond-shinokubo
+- 요청 URL: KO `/ko/posts/` · EN `/posts/` · JA `/ja/posts/` — 총 3개
+- HTTP 코드: 200 OK
+- 성공 기준 통과
+
