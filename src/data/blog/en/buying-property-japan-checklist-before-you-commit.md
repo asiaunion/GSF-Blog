@@ -1,8 +1,8 @@
 ---
-title: "Before You Commit: A Checklist for Buying Property in Tokyo"
+title: "Buying a Condo in Japan: 10 Things to Check Before You Sign [2026]"
 pubDatetime: 2026-06-24T01:14:00+09:00
-modDatetime: 2026-06-24T01:15:21+09:00
-description: "What I wish I had verified before signing anything — a practical checklist drawn from firsthand experience buying a condominium in Nihonbashi, Tokyo."
+modDatetime: 2026-07-18T18:45:00+09:00
+description: "10 checks before buying a condo in Japan: the June 1981 seismic standard (by building confirmation date), repair reserves, monthly carrying costs, the Important Matters explanation, and foreigner financing — from a Nihonbashi purchase."
 author: Joseph KIM
 lang: en
 draft: false
@@ -15,19 +15,16 @@ tags:
   - nihonbashi
   - investor-notes
 sources:
-  - "https://www.mlit.go.jp/totikensangyo/totikensangyo_fr2_000043.html"
-  - "https://www.reins.or.jp/"
+  - "https://www.mlit.go.jp/common/001204021.pdf"
+  - "https://www.mlit.go.jp/totikensangyo/totikensangyo_tk5_000069.html"
+  - "https://www.reinfolib.mlit.go.jp/"
+  - "http://www.contract.reins.or.jp/"
+  - "https://www.mlit.go.jp/jutakukentiku/house/content/001747009.pdf"
 ---
 
-Before I purchased my condominium in Nihonbashi, I spent close to two years watching Tokyo's market.
+Before buying a condominium in Japan, three checks matter most: whether the building received confirmation under the post–June 1981 seismic standard (**新耐震基準**), the repair-reserve balance and long-term repair plan, and the total monthly carrying cost including management fees. I spent close to two years watching Tokyo's market before buying in Nihonbashi, and I still missed checks I should have made before signing. This is the 10-item checklist that came out of that process.
 
 I read transaction records, tracked listings, and walked neighborhoods I could not yet afford. I compared wards, building ages, management fees, and station access. By the time I finally bought, I had already seen enough listings to know that there is no such thing as a perfect property — only a property whose compromises you understand well enough to accept.
-
-Even so, there were things I did not verify early enough.
-
-Questions I should have asked before the second viewing, not after submitting a letter of intent. Details I understood only because I had already spent too much time in the process to turn back casually.
-
-This essay is the checklist I wish I had carried to every property visit.
 
 It is not a legal guide, and it is not a complete manual for buying real estate in Japan. It is simply a record of what proved to matter most to me after going through the process myself.
 
@@ -35,13 +32,13 @@ The [surprises I encountered as a foreign buyer](/en/posts/buying-property-japan
 
 ---
 
-## Before the Visit
+## What to check before the visit — age, reserves, monthly costs
 
 ### 1) Know the building age — and what that age implies
 
 In Japan, one date matters immediately: **June 1981**.
 
-Buildings completed before that point were generally built under the old earthquake-resistance standard (**旧耐震基準**). Buildings completed after it follow the revised standard (**新耐震基準**). That distinction does not tell you everything about a building, but it changes the conversation at once. See the [MLIT overview of earthquake-resistant housing](https://www.mlit.go.jp/totikensangyo/totikensangyo_fr2_000043.html) for the official threshold.
+Buildings that received building confirmation before that point were generally built under the old earthquake-resistance standard (**旧耐震基準**). Buildings confirmed after it follow the revised standard (**新耐震基準**). The cutoff is the building-confirmation date, not the completion date. That distinction does not tell you everything about a building, but it changes the conversation at once. See the [MLIT reference on housing performance and the 1981 standard](https://www.mlit.go.jp/common/001204021.pdf) for the official threshold.
 
 It affects financing. It affects insurance. It affects the pool of future buyers. It affects how comfortable you need to be with structural and maintenance risk.
 
@@ -55,7 +52,7 @@ If the answer is no, you can save yourself a great deal of time.
 
 ### 2) Ask about the repair reserve fund before you become emotionally attached
 
-Every condominium building in Japan has a **修繕積立金** — a long-term repair reserve set aside for major maintenance.
+Virtually every condominium building in Japan has a **修繕積立金** — a long-term repair reserve set aside for major maintenance.
 
 This is one of the first things I would ask about now, because it tells you whether the building has been preparing responsibly for its own future.
 
@@ -87,7 +84,7 @@ A cheaper unit with heavy monthly obligations is often not cheaper in any meanin
 
 ---
 
-## At the Property
+## What to look at on site — common areas, light, and what photos miss
 
 ### 4) Read the common areas as carefully as you read the floor plan
 
@@ -145,7 +142,7 @@ A property is never just the floor plan. It is the route, the noise, the light, 
 
 ---
 
-## Before You Sign
+## What to confirm before you sign — prices, disclosure, financing
 
 ### 7) Verify the asking price against actual transaction data
 
@@ -153,13 +150,13 @@ One of the great advantages of buying in Japan is that the government makes a me
 
 Before you commit, use it.
 
-The Ministry of Land, Infrastructure, Transport and Tourism publishes actual real-estate transaction prices, and REINS data is also useful for understanding the surrounding market. These sources will not tell you everything about a unit, but they will help you answer the most basic question: **is the asking price broadly consistent with what similar properties have actually sold for?**
+The Ministry of Land, Infrastructure, Transport and Tourism publishes actual real-estate transaction prices through the [Real Estate Information Library](https://www.reinfolib.mlit.go.jp/), and public REINS Market Information is also useful for understanding the surrounding market. These sources will not tell you everything about a unit, but they will help you answer the most basic question: **is the asking price broadly consistent with what similar properties have actually sold for?**
 
 Do not rely only on the seller's narrative or the broker's urgency.
 
 Look up comparable units in the same area. If possible, look at the same building or similar building stock nearby. Pay attention to building age, floor level, size, and renovation status. No two units are identical, but a pricing range is still better than intuition alone.
 
-The data is available to everyone.
+Public transaction data is open to everyone.
 
 Most buyers still do not use it.
 
@@ -167,7 +164,7 @@ Most buyers still do not use it.
 
 ### 8) Do not sign the 重要事項説明書 unless you fully understand it
 
-Before the transaction is completed, the seller's agent is required to provide the **重要事項説明書** — the written disclosure document that sets out material facts about the property and the transaction.
+Before the transaction is completed, the brokerage is required to provide the **重要事項説明書** — the written disclosure document that sets out material facts about the property and the transaction.
 
 This is not a ceremonial formality.
 
@@ -205,7 +202,7 @@ That does not remove all uncertainty. But it keeps you from making commitments o
 
 ---
 
-## After the Checklist Is Complete
+## Once the checks are done, when should you decide?
 
 ### 10) Once the work is done, do not hesitate for too long
 

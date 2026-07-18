@@ -27,7 +27,7 @@
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 
-**→ 다음 최우선:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier1 #5 `buying-property-japan-checklist-before-you-commit` **SEO+FA 캘리브레이션** · Gate 레퍼럴 시계
+**→ 다음 최우선:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier1 #7 `tokyo-moving-contracts-two-notes` SEO+FA 캘리브레이션 2 · Gate 레퍼럴 시계
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -39,7 +39,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | 1 | **done** (2026-07-18 Cursor) | `japan-shinchiku-vs-chuko-mansion-investor-guide` | KO·EN·JA title·도입·H2 + risky-claims 표/면책 · validate/build/prod/IndexNow PASS |
 | 2 | **done** (2026-07-18 Cursor) | `korea-japan-inheritance-gift-tax-cross-border-basics` | KO·EN·JA §1–4 + Voice v1.3 + 한자 병기 + 위험 사실 교정(10년·7년 합산·2028 개편·조약) · validate 100/build/prod/IndexNow PASS |
 | 3 | **done** (2026-07-18 Cursor) | `tokyo-hachioji-hino-akishima` | KO·EN·JA title·도입·H2 + 한자 병기 + 아키시마 표 중복 수정 + 수익률 열 삭제 + 인과 완화 · validate 100/build/prod/IndexNow PASS |
-| 5 | open | `buying-property-japan-checklist-before-you-commit` | SEO+FA 정식 캘리브레이션 1 · Voice Lite |
+| 5 | **done** (2026-07-18 Cursor) | `buying-property-japan-checklist-before-you-commit` | SEO+FA 정식 캘리브레이션 1 · 직답 도입·질문형 H2 · 내진=건축확인일 · 죽은 MLIT URL/REINS 공개경로 교정 · validate PASS |
 | 6 | **done** (2026-07-18 Cursor) | `tokyo-korean-community-beyond-shinokubo` | KO·EN·JA title·도입·H2 + 공식 지원망 중심 재구성 + 근거 없는 인구·투자 주장 삭제 + 네이버 HTML 준비 · validate 100/build/prod/IndexNow PASS |
 | 7 | open | `tokyo-moving-contracts-two-notes` | SEO+FA 정식 캘리브레이션 2 · Voice Lite |
 | 8 | open | `korea-resident-japan-property-capital-gains-tax` | 세무 YMYL 준캘리브 · #2 상호링크 |
@@ -67,6 +67,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | T1-1 | 2026-07-18 | `japan-shinchiku-vs-chuko-mansion-investor-guide` §1–4 + risky-claims KO·EN·JA prod |
 | T1-3 | 2026-07-18 | `tokyo-hachioji-hino-akishima` §1–4 + 한자 병기 + 데이터 정합 KO·EN·JA prod |
 | T1-6 | 2026-07-18 | `tokyo-korean-community-beyond-shinokubo` §1–4 + 위험 주장 정리 + 네이버 HTML 준비 KO·EN·JA prod |
+| T1-5 | 2026-07-18 | `buying-property-japan-checklist-before-you-commit` SEO+FA 캘리브레이션 1 KO·EN·JA prod |
 
 ---
 
