@@ -3,9 +3,25 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | j-reit-five-things-to-know |
-| **Title (KO)** | j-reit-five-things-to-know report |
+| **Title (KO)** | 일본 리츠(J-REIT) 투자란 — 수익 구조와 위험 5가지 |
 | **Cursor validate** | `pnpm validate:post j-reit-five-things-to-know` → PASS |
 | **Published** | Live |
+
+---
+
+## 2026-07-18 SEO + FA refresh
+
+| 판정 | 위치 | 문제 | 조치 | 근거 |
+|---|---|---|---|---|
+| FA T0 | KO/EN/JA §1 | 2023년 상장 41개·아시아 1위·세계 2위 주장이 연결된 JPX 페이지와 불일치 | 고정 수치·순위 삭제, JPX 현행 상장 목록 확인으로 변경 | [JPX Listed Issues](https://www.jpx.co.jp/equities/products/reits/issues/index.html) |
+| FA T0 | KO/EN/JA §2 | BOJ가 J-REIT 매입을 계속 확대할 것이라는 서술 | 2024-03 신규 매입 중단으로 교정 | [BOJ Changes in the Monetary Policy Framework](https://www.boj.or.jp/en/mopo/mpmdeci/state_2024/k240319a.htm) |
+| FA T1 | KO/EN/JA §3–4 | 지수 추종·환차익 추천·분배금 안정성·수익률 압축 인과 단정 | 지수 구성 종목, 양방향 환율 위험, 변동 분배금, 복합 요인으로 완화 | JPX 월간 리포트·상장 종목 공시 |
+| FA T0 | KO/EN/JA §5 | 8953을 옛 명칭 Japan Retail Fund로 표기 | 현 명칭 Japan Metropolitan Fund / 日本都市ファンド로 교정 | [JPX Listed Issues](https://www.jpx.co.jp/equities/products/reits/issues/index.html) |
+| FA T1 | 결론·체크리스트 | 모든 종목=도쿄 상업빌딩, 안정성·안전마진 단정 | 자산 구성·차입 구조 확인으로 완화 | 각 투자법인 공시 |
+
+- 삭제 claim: 4건(41개·아시아 1위·세계 2위·주주우대 연계). 5건 미만이며 H2 구조 삭제 없음.
+- KO/EN/기존 JA 및 네이버 초안 정합 완료.
+- 아래 자동 추출 Claims 표의 기존 `Verified` 표기는 이번 refresh 판정보다 우선하지 않음.
 
 ---
 
@@ -165,8 +181,8 @@
 
 ## Severity
 
-- [ ] **T0** — Wrong facts / misleading translation of numbers
-- [ ] **T1** — Tone gate fail or major readability
+- [x] **T0** — Wrong facts / misleading translation of numbers (2026-07-18 fixed)
+- [x] **T1** — Tone gate fail or major readability (2026-07-18 fixed)
 - [ ] **T2** — Minor calque, caption, table wording
 - [x] **T3** — OK / style nits only
 
@@ -176,4 +192,4 @@
 
 - [x] All claims verified or softened
 - [x] `pnpm validate:post` exit 0
-- [ ] Ready for Cursor sign-off
+- [x] Ready for Cursor sign-off (2026-07-18 refresh)

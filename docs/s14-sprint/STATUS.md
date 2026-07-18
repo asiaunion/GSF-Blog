@@ -22,7 +22,7 @@
 
 - Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 3URL.
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier 1 **#4/#4b** 허브·J-REIT 정합
+  - **지금:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · **Wave A Tier1 SEO+FA 닫힘** · Gate A 레퍼럴
   - **병행:** N2(GSC 선택) · Gate A 레퍼럴 2주 (네이버 방금 발행으로 분자 시작)
 
 ## 이번 배치 메모
@@ -50,5 +50,7 @@ tokyo-moving-contracts-two-notes | q="일본 임대차 계약 주의사항" | SE
 korea-resident-japan-property-capital-gains-tax | q="일본 부동산 양도세 한국 거주자" | SEO+FA 준캘리브 2026-07-18 | 다음점검 +14d | diff=(Cursor) · 5년 요건·제118조의6·주민세 단정 교정
 tokyo-office-vacancy-five-wards-2026 | q="도쿄 오피스 공실률" | SEO+FA 2026-07-18 | 다음점검 +14d | diff=(Cursor) · 2.22%=3월 월간 · 모집임대료 범위
 nihonbashi-hamacho-walking-guide | q="니혼바시 하마초 산책" | SEO+FA 2026-07-18 | 다음점검 +14d | diff=(Cursor) · 개업일·출처·투자주장 완화
+j-reit-five-things-to-know | q="일본 리츠 투자" | SEO+FA 2026-07-18 | 다음점검 +14d | diff=(Cursor) · BOJ·종목수·수익률 단정 교정
+tokyo-real-estate-investment-complete-guide | q="도쿄 부동산 투자 시작" | SEO+FA 허브 2026-07-18 | 다음점검 +14d | diff=(Cursor) · 표면·링크 title 정합 · spine 유지
 ```
 

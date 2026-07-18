@@ -1,8 +1,8 @@
 ---
-title: "Tokyo Real Estate Investment: Complete Step-by-Step Guide [2026]"
-description: "Discover the step-by-step process of buying real estate in Tokyo. See 2026 data on market trends, taxes, and practical advice for global buyers."
+title: "How to Invest in Tokyo Real Estate — Steps, Costs and Taxes [2026]"
+description: "Start with area and budget, then review Tokyo's eight buying steps, transaction costs, taxes, yields, earthquake and FX risks, and rules for foreign buyers."
 pubDatetime: 2026-05-04T10:00:00Z
-modDatetime: 2026-06-15T22:42:21+09:00
+modDatetime: 2026-07-18T19:30:00+09:00
 author: GSF
 lang: en
 category: investment
@@ -96,13 +96,15 @@ citeSources:
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
     portal: "https://www.nta.go.jp/"
 ---
+Tokyo real estate investing starts with an area and budget, followed by property search, disclosure, contract, closing, and registration. Budget separately for transaction costs and taxes, then compare rental yield, vacancy, earthquake, FX, and interest-rate risks. Foreigners can own property, but ownership and visa status are separate, and non-residents should confirm documents and financing early.
+
 > **This is a pillar page.** Each chapter links to in-depth articles. Get the big picture first, then follow the links that matter most to you.
 
 ---
 
-## Why Tokyo, Why Now
+## What should you check first in Tokyo real estate?
 
-As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **92 million JPY (9,200만 JPY)** (92,000,000 JPY, ~1.4 million JPY/sqm or 140万 JPY/㎡).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed 9 million JPY (900만 JPY)**, with Akasaka breaking ¥10M/tsubo.<sup class="source-ref"><a href="#source-6">6</a></sup>
+As of April 2026, the median existing-condo price across Tokyo's 23 wards is roughly **92 million JPY (9,200 in ten-thousand-yen units)**, or about 1.4 million JPY/sqm (**140万円**).<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> In Minato, Chiyoda, and Shibuya, new-build tsubo prices have **surpassed 9 million JPY (900万円)**, with Akasaka breaking JPY 10 million (**1,000万円**) per tsubo.<sup class="source-ref"><a href="#source-6">6</a></sup>
 
 Three pillars support this rally:
 
@@ -114,14 +116,14 @@ Japan has **virtually no restrictions on foreign property ownership**. No visa, 
 
 ---
 
-## Chapter 1. Areas, Prices & Tsubo Benchmarks
+## Chapter 1. Which Tokyo areas and price bands should you compare?
 
 | Tier | Key Wards | Tsubo Range | Profile |
 |------|-----------|-------------|---------|
-| **Core 3** | Chiyoda, Chuo, Minato | ¥6M–10M+ | Appreciation |
-| **Sub-core 3** | Shinjuku, Shibuya, Bunkyo | ¥4.5M–7.5M | Balanced |
-| **Residential** | Setagaya, Suginami, Meguro | ¥3.5M–5M | Owner+invest |
-| **Outer** | Adachi, Edogawa, Katsushika | ¥2M–3.5M | High yield |
+| **Core 3** | Chiyoda, Chuo, Minato | JPY 6M–10M+ (up to 1,000万円+) | Appreciation |
+| **Sub-core 3** | Shinjuku, Shibuya, Bunkyo | JPY 4.5M–7.5M (up to 750万円) | Balanced |
+| **Residential** | Setagaya, Suginami, Meguro | JPY 3.5M–5M (up to 500万円) | Owner+invest |
+| **Outer** | Adachi, Edogawa, Katsushika | JPY 2M–3.5M (up to 350万円) | High yield |
 
 The key is the **tsubo × yield × liquidity** triangle.<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup> (Note: The tsubo price ranges represent a macroeconomic comparative framework built on 2025-2026 average transaction data.)
 
@@ -129,7 +131,7 @@ The key is the **tsubo × yield × liquidity** triangle.<sup class="source-ref">
 
 ---
 
-## Chapter 2. Buying Process — 8 Steps
+## Chapter 2. What are the eight steps to buy Tokyo property?
 
 | Step | Action | Key Point |
 |------|--------|-----------|
@@ -144,16 +146,16 @@ The key is the **tsubo × yield × liquidity** triangle.<sup class="source-ref">
 
 Non-residents: passport + notarized affidavit replaces *inkan*.<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup> No *jūminhyō* — use home-country notarized docs. Use escrow or scrivener trust accounts.
 
-> 📖 [Buying Process Deep-Dive: 8-Step Guide](/posts/tokyo-buying-process-step-by-step) | [3 Things About Japan RE](/posts/japan-real-estate-three-things) | [Contract Traps in Tokyo](/posts/tokyo-moving-contracts-two-notes)
+> 📖 [Buying Process Deep-Dive: 8-Step Guide](/posts/tokyo-buying-process-step-by-step) | [3 Things About Japan RE](/posts/japan-real-estate-three-things) | [Japan Rental Contracts: Ordinary vs Fixed-Term Leases & Restoration [2026]](/posts/tokyo-moving-contracts-two-notes)
 
 ---
 
-## Chapter 3. Yields & J-REITs
+## Chapter 3. How should you read yields and J-REIT returns?
 
 | Metric | Core 3 | Sub-core | Outer |
 |--------|--------|----------|-------|
 | Surface yield | 3.0–4.0% | 4.0–5.5% | 5.5–8.0% |
-| Mgmt fees | ¥20–50K/mo | ¥15–30K/mo | ¥10–20K/mo |
+| Mgmt fees | JPY 20–50K/mo | JPY 15–30K/mo | JPY 10–20K/mo |
 | Vacancy risk | Low | Moderate | High |
 
 Surface-yield bands are a **market framework** by ward and building age; verify each deal in the [yield deep-dive](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven).
@@ -162,17 +164,17 @@ Net yield = (Annual rent − Costs) ÷ (Price + Transaction costs) × 100
 
 Per JPX market data, **forecast annual distribution yields are roughly 4–5%** (varies by period and sector).<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup> Treat BOJ policy and FX separately.
 
-> 📖 [Yield vs Capital Gain Breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5 Things](/posts/j-reit-five-things-to-know) | [Hotel vs Office REITs](/posts/hotel-reit-vs-office-reit-post-covid) | [Rate Hikes & J-REIT](/posts/japan-rate-hike-cycle-j-reit-three-lessons)
+> 📖 [Yield vs Capital Gain Breakeven](/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [What Is J-REIT Investing? Five Return and Risk Checks](/posts/j-reit-five-things-to-know) | [Hotel vs Office REITs](/posts/hotel-reit-vs-office-reit-post-covid) | [Rate Hikes & J-REIT](/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
 ---
 
-## Chapter 4. Redevelopment
+## Chapter 4. How should you assess Tokyo redevelopment?
 
 Tokyo is mid-cycle in a "once-in-a-century" redevelopment wave. Nihonbashi, Yaesu, Toranomon, and Shibuya mega-projects complete 2028–2030. Adjacent value uplift has already started.<sup class="source-ref"><a href="#source-11" id="cite-11">11</a></sup>
 
 Principles: buy **before groundbreaking**, target **existing renovations within 5-min walk** from stations, understand rights-conversion structures.
 
-> 📖 [Coredo Nihonbashi Redevelopment](/posts/coredo-nihonbashi-mitsui-redevelopment) | [Mitsui Pipeline Pt.3](/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [Office Vacancy 2% — 5-Ward Map](/posts/tokyo-office-vacancy-five-wards-2026)
+> 📖 [Coredo Nihonbashi Redevelopment](/posts/coredo-nihonbashi-mitsui-redevelopment) | [Mitsui Pipeline Pt.3](/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [Tokyo Office Vacancy at 2.22%: Five-Ward Guide for 2026](/posts/tokyo-office-vacancy-five-wards-2026)
 
 ---
 
@@ -186,10 +188,11 @@ Principles: buy **before groundbreaking**, target **existing renovations within 
 | Light steel | 19–27 yrs |
 | RC / SRC | **47 yrs** |
 
-Straight-line only since 2016. Used buildings past statutory life: **life × 0.2** = shortened depreciation.<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
+Straight-line only since April 2016. Used buildings past statutory life: **life × 0.2** = shortened depreciation.<sup class="source-ref"><a href="#source-12" id="cite-12">12</a></sup>
 
 ### Holding phase
 
+- **Real estate acquisition tax**: land **1.5%** and buildings **3%** where the stated relief applies
 - **Fixed asset tax**: taxable base × **1.4%**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>
 - **City planning tax**: taxable base × **0.3%**<sup class="source-ref"><a href="#source-4">4</a></sup>
 
@@ -200,8 +203,9 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 | Tax rate | 5–45% | Effective 30–35%<sup class="source-ref"><a href="#source-17" id="cite-17">17</a></sup> |
 | NR withholding | 20.42% | Avoidable |
 | Inheritance | Up to 55% | Share transfer route |
+| Setup cost | Low | Around JPY 200K–300K (up to 30万円) |
 
-> 📖 [Corporate vs Personal Tax](/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [Inheritance Tax Trap](/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
+> 📖 [Corporate vs Personal Tax](/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [Korea–Japan Inheritance Tax: Residency and Japan’s 10-Year Test [2026]](/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
 
 ---
 
@@ -219,7 +223,7 @@ Straight-line only since 2016. Used buildings past statutory life: **life × 0.2
 
 No visa needed to *own*. To **live and manage** locally, you need a residence status.
 
-- **Business Manager Visa** — Post–Oct 2025 reform: roughly ¥30M capital plus language requirements<sup class="source-ref"><a href="#source-15" id="cite-15">15</a></sup>
+- **Business Manager Visa** — Post–October 2025 reform: roughly JPY 30M (**3,000万円**) capital plus language requirements<sup class="source-ref"><a href="#source-15" id="cite-15">15</a></sup>
 - **Highly Skilled Professional (HSP)** — **70+ points**: PR eligible after 3 years; **80+ points**: PR eligible after **1 year**<sup class="source-ref"><a href="#source-14" id="cite-14">14</a></sup>
 - **10-year continuous residence** — PR route with tax compliance
 

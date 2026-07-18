@@ -3,10 +3,33 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-real-estate-investment-complete-guide |
-| **Title (KO)** | tokyo-real-estate-investment-complete-guide report |
+| **Title (KO)** | 도쿄 부동산 투자는 어떻게 시작하나 — 매수 절차·비용·세금 [2026] |
 | **Cursor validate** | `pnpm validate:post tokyo-real-estate-investment-complete-guide` → PASS |
 | **Published** | Live |
 | **Source manifest** | [`sources/tokyo-real-estate-investment-complete-guide.sources.yaml`](./sources/tokyo-real-estate-investment-complete-guide.sources.yaml) |
+
+---
+
+## 2026-07-18 SEO + FA refresh
+
+- **특수 범위 준수:** 허브 본문 spine·표·수치·챕터 순서는 변경하지 않음.
+- SEO surface만 갱신: KO/EN/기존 JA title·description·직답 도입·기존 H2 문구·`modDatetime`.
+- 내부 링크 anchor를 현재 target title에 정합: `tokyo-moving-contracts-two-notes`, `j-reit-five-things-to-know`, `tokyo-office-vacancy-five-wards-2026`, `korea-japan-inheritance-gift-tax-cross-border-basics`.
+- 네이버 초안 title·직답 도입·CTA title 정합.
+- 이번 패스에서 새로 판정된 FA T0/T1: **0건**. 기존 headline claim은 아래 dual-link manifest 판정을 유지함.
+- 삭제 claim 0건, H2 구조 삭제·추가 0건, Joseph 에스컬레이션 불필요.
+
+---
+
+## Claims
+
+> Validation index only. Source-specific judgments remain in **Primary headline claims** below.
+
+| # | Claim in KO (quote) | Value | Tier-1 source URL | Verified ✓ | KO section |
+|---|---------------------|-------|-------------------|------------|------------|
+| 1 | 2026년 4월 · 2025년 · 2024년 · 2030년 · 2016년 4월 · 1981년 · 2025년 10월 · 1981년 6월 · 2026년 · 2016년 | Present | see Primary headline claims H1–H16 | [x] | Body |
+| 2 | 9,200만 엔 · 1,000만 엔 · 1,000만 · 3,000만 엔 · 200만 엔 · 140만 엔 · 900만 엔 · 750만 엔 · 500만 엔 · 350만 엔 · 5만 엔 · 3만 엔 · 2만 엔 · 6만 엔 · 30만 엔 | Present | see Primary headline claims H1–H16 | [x] | Body |
+| 3 | 3.5% · 7.5% · 3.2% · 2.22% · 18% · 10% · 4.0% · 5.5% · 8.0% · 4% · 1.5% · 3% · 2.0% · 1.4% · 0.3% · 45% · 35% · 20.42% · 55% · 50% | Present | see Primary headline claims H1–H16 | [x] | Body |
 
 ---
 
@@ -35,7 +58,7 @@
 
 ---
 
-## Claims (required for all numbers & legal thresholds)
+## Archived auto-extracted claims (superseded by refresh index)
 
 | # | Claim in KO (quote) | Value | Tier-1 source URL | Verified ✓ | KO section |
 |---|---------------------|-------|-------------------|------------|------------|
@@ -271,4 +294,4 @@
 
 - [x] All claims verified or softened
 - [x] `pnpm validate:post` exit 0
-- [ ] Ready for Cursor sign-off
+- [x] Ready for Cursor sign-off (2026-07-18 SEO/link alignment)

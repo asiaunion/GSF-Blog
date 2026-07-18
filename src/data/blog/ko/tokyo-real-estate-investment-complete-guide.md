@@ -1,8 +1,8 @@
 ---
-title: "도쿄 부동산 매수 A to Z: 단계별 완전 가이드 [2026]"
-description: "도쿄 부동산 매수를 위한 단계별 가이드. 2026년 최신 시장 데이터, 세금, 그리고 글로벌 매수자를 위한 실무 절차를 확인해 보세요."
+title: "도쿄 부동산 투자는 어떻게 시작하나 — 매수 절차·비용·세금 [2026]"
+description: "도쿄 부동산 투자 전 에리어와 예산을 정하고, 매수 8단계·부대비용·세금·수익률·지진·환율·비자 위험을 확인하는 순서를 정리합니다."
 pubDatetime: 2026-05-04T10:00:00Z
-modDatetime: 2026-06-15T22:42:21+09:00
+modDatetime: 2026-07-18T19:30:00+09:00
 author: GSF
 lang: ko
 category: investment
@@ -96,11 +96,13 @@ citeSources:
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
     portal: "https://www.nta.go.jp/"
 ---
-> **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 도쿄 부동산 투자의 모든 퍼즐이 맞춰집니다.
+도쿄(東京) 부동산 투자는 에리어와 예산을 정한 뒤, 물건 탐색·중요사항설명·계약·잔금·등기 순으로 진행합니다. 물건값 외에 부대비용과 세금을 따로 계산하고, 임대수익률·공실·지진·환율·금리 위험을 함께 비교해야 합니다. 외국인도 매수할 수 있지만 비자와 소유권은 별개이며, 비거주자는 서류와 금융 조건을 먼저 확인하는 편이 좋습니다.
+
+> **이 글은 '필라 페이지'입니다.** 각 챕터에서 다루는 주제별로 더 깊이 파고드는 개별 심층 아티클이 링크되어 있습니다. 전체 그림을 먼저 잡은 뒤, 관심 있는 챕터의 링크를 따라가면 됩니다.
 
 ---
 
-## 왜 지금 도쿄인가
+## 지금 도쿄 부동산을 볼 때 무엇부터 확인해야 하나
 
 2026년 4월 현재, 도쿄 23구 기존 맨션 중위 가격은 약 **9,200만 엔**(㎡당 약 140만 엔)을 기록하고 있습니다.<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 미나토·치요다·시부야 등 프라임 3구의 신축 坪단가는 **900만 엔을 돌파**했고, 아카사카 등 일부 초고급 입지에서는 坪당 1,000만 엔을 넘기는 사례도 등장했습니다.<sup class="source-ref"><a href="#source-6">6</a></sup>
 
@@ -114,7 +116,7 @@ citeSources:
 
 ---
 
-## Chapter 1. 에리어·가격·坪단가 — 어디를 사야 하나
+## Chapter 1. 도쿄에서 어느 에리어와 가격대를 봐야 하나
 
 도쿄 부동산의 첫 번째 관문은 **에리어 선정**입니다. 같은 23구 안에서도 치요다구의 坪단가와 에도가와구의 坪단가는 3배 이상 차이가 납니다.<sup class="source-ref"><a href="#source-6" id="cite-6">6</a></sup>
 
@@ -133,7 +135,7 @@ citeSources:
 
 ---
 
-## Chapter 2. 구매 절차 — 검색에서 등기까지 8단계
+## Chapter 2. 도쿄 부동산은 어떤 8단계로 매수하나
 
 일본 부동산 매매 절차는 외국인과 내국인이 동일합니다. 다만, 언어 장벽과 서류 준비에서 차이가 생깁니다.
 
@@ -156,11 +158,11 @@ citeSources:
 - **주민표 불가** → 본국 공증 서류로 대체
 - 은행 계좌 개설이 까다로우므로 **에스크로 또는 사법서사 예치금** 활용
 
-> 📖 **심층 읽기**: [구매 절차 완전 정복 — 8단계 실전 가이드](/ko/posts/tokyo-buying-process-step-by-step) | [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things) | [도쿄 이사·계약 시 주의할 2가지](/ko/posts/tokyo-moving-contracts-two-notes)
+> 📖 **심층 읽기**: [구매 절차 완전 정복 — 8단계 실전 가이드](/ko/posts/tokyo-buying-process-step-by-step) | [일본 부동산 투자 알아야 할 3가지](/ko/posts/japan-real-estate-three-things) | [일본 임대차 계약 주의사항 — 보통차가·정기차가·원상회복 [2026]](/ko/posts/tokyo-moving-contracts-two-notes)
 
 ---
 
-## Chapter 3. 수익률·J-REIT — 돈은 어떻게 버나
+## Chapter 3. 임대수익률과 J-REIT 수익은 어떻게 읽나
 
 도쿄 부동산 투자 수익은 크게 **임대수익(인컴 게인)**과 **시세차익(캐피털 게인)** 두 축입니다.
 
@@ -178,11 +180,11 @@ citeSources:
 
 직접 매입이 부담스럽다면 **J-REIT(일본 부동산투자신탁)**이 대안입니다. JPX 시장 통계 기준 **예상 연간 분배금 수익률은 약 4~5% 전후**(시기·섹터별 상이)입니다.<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup> BOJ 정책·환율은 별도 시나리오로 검토하세요.
 
-> 📖 **심층 읽기**: [임대수익률 vs 시세차익 — 도쿄 소형 물건 손익분기](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 투자 알아야 할 5가지](/ko/posts/j-reit-five-things-to-know) | [호텔 리츠 vs 오피스 리츠](/ko/posts/hotel-reit-vs-office-reit-post-covid) | [금리 인상 사이클과 J-REIT](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons)
+> 📖 **심층 읽기**: [임대수익률 vs 시세차익 — 도쿄 소형 물건 손익분기](/ko/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [일본 리츠(J-REIT) 투자란 — 수익 구조와 위험 5가지](/ko/posts/j-reit-five-things-to-know) | [호텔 리츠 vs 오피스 리츠](/ko/posts/hotel-reit-vs-office-reit-post-covid) | [금리 인상 사이클과 J-REIT](/ko/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
 ---
 
-## Chapter 4. 재개발 — 가치가 솟는 지점을 읽는 법
+## Chapter 4. 도쿄 재개발은 어떤 기준으로 확인하나
 
 도쿄는 현재 **100년에 한 번**이라 불리는 대규모 재개발 사이클 한가운데에 있습니다. 니혼바시·야에스·도라노몬·시부야역 주변의 메가 프로젝트가 2028~2030년 순차 완공을 앞두고 있으며, 이 프로젝트들의 영향권에 있는 기존 물건의 가치 상승이 이미 시작되었습니다.<sup class="source-ref"><a href="#source-11" id="cite-11">11</a></sup>
 
@@ -191,7 +193,7 @@ citeSources:
 - 역세권 도보 5분 이내의 **기존 맨션 리노베이션** 물건에 주목
 - 재개발 조합의 권리변환 구조 이해 필수
 
-> 📖 **심층 읽기**: [코레도 니혼바시·미쓰이 재개발](/ko/posts/coredo-nihonbashi-mitsui-redevelopment) | [니혼바시 미쓰이 재개발 파이프라인 3편](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [오피스 공실률 2%대 — 도심 5구 수급 지도](/ko/posts/tokyo-office-vacancy-five-wards-2026)
+> 📖 **심층 읽기**: [코레도 니혼바시·미쓰이 재개발](/ko/posts/coredo-nihonbashi-mitsui-redevelopment) | [니혼바시 미쓰이 재개발 파이프라인 3편](/ko/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [도쿄 오피스 공실률 2.22%: 도심 5구 2026 수급 해석](/ko/posts/tokyo-office-vacancy-five-wards-2026)
 
 ---
 
@@ -232,7 +234,7 @@ citeSources:
 | 상속·증여 | 최대 55% | 주식 양도로 회피 |
 | 초기 비용 | 낮음 | 설립비 20만~30만 엔 |
 
-> 📖 **심층 읽기**: [법인 vs 개인 명의 — 절세와 사후 관리](/ko/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [한일 상속·증여세 무한책임의 함정](/ko/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
+> 📖 **심층 읽기**: [법인 vs 개인 명의 — 절세와 사후 관리](/ko/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [한국·일본 상속세 이중과세 — 거주자 판정과 일본 10년 기준 [2026]](/ko/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
 
 ---
 

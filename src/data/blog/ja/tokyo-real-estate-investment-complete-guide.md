@@ -1,8 +1,8 @@
 ---
-title: "東京不動産購入の完全ガイド：ステップバイステップの手順 [2026]"
-description: "東京での不動産購入プロセスをステップバイステップで解説。2026年の市場データ、税金、グローバル購入者向けの実務手順をご確認ください。"
+title: "東京不動産投資の始め方 — 購入手続き・費用・税金【2026】"
+description: "エリアと予算の決め方から、購入8ステップ、諸費用、税金、利回り、地震・為替リスク、外国人購入者の確認事項まで整理します。"
 pubDatetime: 2026-05-04T10:00:00Z
-modDatetime: 2026-06-15T22:42:21+09:00
+modDatetime: 2026-07-18T19:30:00+09:00
 author: GSF
 lang: ja
 category: investment
@@ -96,11 +96,13 @@ citeSources:
     url: "https://www.nta.go.jp/taxes/shiraberu/taxanswer/joto/3211.htm"
     portal: "https://www.nta.go.jp/"
 ---
+東京不動産投資は、エリアと予算を決めた後、物件探し・重要事項説明・契約・決済・登記の順に進みます。物件価格とは別に諸費用と税金を計算し、賃貸利回り・空室・地震・為替・金利リスクを比較します。外国人も所有できますが、所有権と在留資格は別であり、非居住者は必要書類と融資条件を早めに確認する必要があります。
+
 > **本記事は「ピラーページ」です。** 各チャプターの末尾に、より詳細な個別記事へのリンクがあります。まず全体像を把握してから、興味のあるチャプターを深掘りしてください。
 
 ---
 
-## なぜ今、東京なのか
+## 東京不動産では最初に何を確認しますか？
 
 2026年4月現在、東京23区の既存マンション中位価格は約**9,200万円**（㎡あたり約140万円）です。<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup> 港区・千代田区・渋谷区のプライム3区では、新築坪単価が**900万円を突破**し、赤坂など一部の超高級立地では坪1,000万円を超える事例も出ています。<sup class="source-ref"><a href="#source-6">6</a></sup>
 
@@ -114,7 +116,7 @@ citeSources:
 
 ---
 
-## Chapter 1. エリア・価格・坪単価
+## Chapter 1. どのエリアと価格帯を比較しますか？
 
 | 区分 | 代表区 | 坪単価レンジ | 投資タイプ |
 |------|--------|-------------|-----------|
@@ -129,7 +131,7 @@ citeSources:
 
 ---
 
-## Chapter 2. 購入手続き — 8つのステップ
+## Chapter 2. 東京不動産はどの8段階で購入しますか？
 
 | Step | 内容 | ポイント |
 |------|------|---------|
@@ -144,11 +146,11 @@ citeSources:
 
 非居住者の方は、パスポート＋公証済みのAffidavit of Identityで印鑑証明を代替できます。<sup class="source-ref"><a href="#source-9" id="cite-9">9</a></sup>
 
-> 📖 [購入手続き完全攻略 — 8ステップ実践ガイド](/ja/posts/tokyo-buying-process-step-by-step) | [日本不動産 知っておくべき3つのこと](/ja/posts/japan-real-estate-three-things) | [東京の契約で注意すべき2点](/ja/posts/tokyo-moving-contracts-two-notes)
+> 📖 [購入手続き完全攻略 — 8ステップ実践ガイド](/ja/posts/tokyo-buying-process-step-by-step) | [日本不動産 知っておくべき3つのこと](/ja/posts/japan-real-estate-three-things) | [日本の賃貸契約で確認すべきこと — 普通借家・定期借家・原状回復【2026】](/ja/posts/tokyo-moving-contracts-two-notes)
 
 ---
 
-## Chapter 3. 利回りとJ-REIT
+## Chapter 3. 利回りとJ-REIT収益をどう読みますか？
 
 | 指標 | 都心3区 | 副都心 | 外周区 |
 |------|---------|--------|--------|
@@ -162,17 +164,17 @@ citeSources:
 
 J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね4〜5%前後**（時期・セクターで変動）です。<sup class="source-ref"><a href="#source-10" id="cite-10">10</a></sup> BOJ政策・為替は別シナリオで検討してください。
 
-> 📖 [利回り vs キャピタルゲイン](/ja/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT 5つのポイント](/ja/posts/j-reit-five-things-to-know) | [ホテルREIT vs オフィスREIT](/ja/posts/hotel-reit-vs-office-reit-post-covid) | [金利サイクルとJ-REIT](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons)
+> 📖 [利回り vs キャピタルゲイン](/ja/posts/tokyo-small-rental-yield-vs-capital-gain-breakeven) | [J-REIT投資とは？収益構造とリスクを確認する5項目](/ja/posts/j-reit-five-things-to-know) | [ホテルREIT vs オフィスREIT](/ja/posts/hotel-reit-vs-office-reit-post-covid) | [金利サイクルとJ-REIT](/ja/posts/japan-rate-hike-cycle-j-reit-three-lessons)
 
 ---
 
-## Chapter 4. 再開発
+## Chapter 4. 東京の再開発をどう確認しますか？
 
 東京は「100年に一度」と呼ばれる大規模再開発サイクルの真っ只中にあります。日本橋・八重洲・虎ノ門・渋谷駅周辺のメガプロジェクトが2028〜2030年に順次竣工予定です。<sup class="source-ref"><a href="#source-11" id="cite-11">11</a></sup>
 
 原則：**着工前〜工事中**に隣接物件を取得。駅徒歩5分以内の**既存マンションリノベーション**物件に注目してください。
 
-> 📖 [コレド日本橋・三井再開発](/ja/posts/coredo-nihonbashi-mitsui-redevelopment) | [三井パイプライン第3弾](/ja/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [オフィス空室率2%台 — 5区マップ](/ja/posts/tokyo-office-vacancy-five-wards-2026)
+> 📖 [コレド日本橋・三井再開発](/ja/posts/coredo-nihonbashi-mitsui-redevelopment) | [三井パイプライン第3弾](/ja/posts/nihonbashi-mitsui-redevelopment-pipeline-three) | [東京都心5区のオフィス空室率2.22%：2026年の読み方](/ja/posts/tokyo-office-vacancy-five-wards-2026)
 
 ---
 
@@ -201,7 +203,7 @@ J-REITはJPXの市場統計では**予想年間分配金利回りがおおむね
 | 非居住者源泉 | 20.42% | 回避可能 |
 | 相続・贈与 | 最大55% | 株式譲渡で回避 |
 
-> 📖 [法人 vs 個人の節税設計](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [日韓相続税の落とし穴](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
+> 📖 [法人 vs 個人の節税設計](/ja/posts/japan-corporate-vs-personal-rental-after-tax-sketch) | [日韓の相続税と二重課税 — 住所判定と日本の10年基準 [2026]](/ja/posts/korea-japan-inheritance-gift-tax-cross-border-basics)
 
 ---
 
