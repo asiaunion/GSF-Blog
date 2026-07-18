@@ -1,6 +1,7 @@
 # §1–4 스프린트 — 진행 상태
 
-> SSOT 지시서: [`SEO_S14_SPRINT_WORK_INSTRUCTION_2026-07.md`](../SEO_S14_SPRINT_WORK_INSTRUCTION_2026-07.md)  
+> SSOT 지시서: [`SEO_FATAL_AUDIT_WORK_INSTRUCTION_2026-07.md`](./SEO_FATAL_AUDIT_WORK_INSTRUCTION_2026-07.md) · [`SEO_S14_SPRINT_WORK_INSTRUCTION_2026-07.md`](../SEO_S14_SPRINT_WORK_INSTRUCTION_2026-07.md)
+> FA 보드: [`FATAL_AUDIT_BOARD.md`](./FATAL_AUDIT_BOARD.md)
 > **Tier 0 R3 확정:** [`R3_LOCK_TIER0_2026-07-17.md`](./R3_LOCK_TIER0_2026-07-17.md) ← **AG R4는 이 파일**
 
 **범례:** `pending` → `r1` → `draft` → `joseph` → `merged` → `live` → `naver` → `done`
@@ -19,7 +20,7 @@
 
 - Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 3URL.
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier 1 **#5** `buying-property-japan-checklist-before-you-commit` §1–4
+  - **지금:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier 1 **#5** `buying-property-japan-checklist-before-you-commit` SEO+FA 캘리브레이션
   - **병행:** N2(GSC 선택) · Gate A 레퍼럴 2주 (네이버 방금 발행으로 분자 시작)
 
 ## 이번 배치 메모

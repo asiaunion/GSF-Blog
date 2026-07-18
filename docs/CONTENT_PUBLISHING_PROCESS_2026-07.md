@@ -2,6 +2,7 @@
 
 > **작성**: Claude (Chat) · 2026-07-17 · **v2.1 개정 (같은 날)**: 과설계 방지 — §0.5 우선순위 티어(P0/P1/P2)·최소 생존 버전·Phase B 이월 목록 신설. Part N/R의 세부는 참조용 상세로 유지  
 > **v2.2 잠금수정 (2026-07-17 Cursor · Joseph)**: **HARD vs FLEX** 분리 — 주당 편수·작업 강도·시간표는 잠금 해제(여지). 엄격 룰은 범위·금지·재신청 창만 (§0.1)  
+> **v2.3 FA 레인 (2026-07-18 Cursor · Joseph)**: §1–4 refresh 중 **Fatal Audit(T0/T1)만** 본문 교정 허용 · Voice Lite/Full 분리 · 삭제 에스컬레이션 · Claude/GPT 블라인드 교차검증
 > **상태**: 🟢 **Cursor 확정** (2026-07-17) — Joseph 전달·검증 PASS · **§F.3** · **v2.2 잠금수정 반영**  
 > **SSOT 상위**: [`ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](./ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) · [`SEO_SPRINT_PROPOSAL_2026-07.md`](./SEO_SPRINT_PROPOSAL_2026-07.md) §10 · [`CONTENT_SEO_STRATEGY_2026-07.md`](./CONTENT_SEO_STRATEGY_2026-07.md) (§F.2) · Cursor §F/§F.2/§F.3  
 > **글쓰기 실행**: [`SEO_WRITING_GUIDE_2026-07.md`](./SEO_WRITING_GUIDE_2026-07.md)  
@@ -25,6 +26,8 @@
 | 5 | **slug/URL 변경 금지** · 허브·카테고리 재배정 금지 |
 | 6 | **JA 신규 발행 동결** · 게이트 A 전 AdSense 재신청 금지 · 헤드 키워드 전용글·니치 피벗 금지 |
 | 7 | **우선순위 원칙**: GSC 실측·백로그 순으로 §1–4를 먼저 — “아무 글이나 전량”이 아님 |
+| 8 | **Fatal Audit 예외 레인**: §1–4 중 발견한 틀린 사실·출처 불일치·깨진 표·법률/세무 오해·미검증 YMYL 단정(T0/T1)만 본문에서 삭제/완화 가능. **대체 서술 신설·spine 재작성 금지**. 삭제 claim ≥5건 또는 H2 구조 변경은 Joseph 사전 1줄 승인. 실행 SSOT: [`s14-sprint/SEO_FATAL_AUDIT_WORK_INSTRUCTION_2026-07.md`](./s14-sprint/SEO_FATAL_AUDIT_WORK_INSTRUCTION_2026-07.md) |
+| 9 | **동결기 FA**: 재신청 직전 ~2주에는 T0 + YMYL성 T1만 Joseph 승인 후 핫픽스. 나머지 T1은 동결 해제 후. 기존 JA live 정합은 허용, JA 신규 발행만 동결 |
 
 ### FLEX (열어 둠 — 잠금·상한·의무 아님)
 
@@ -36,6 +39,7 @@
 | refresh 70% / 신규 30% | **방향** (기존 자산 우선). 주간 슬롯 수를 고정하지 않음 |
 | 주간 캘린더·최소 루프 시간표 | **예시 루틴**. 바쁜 주는 생존 버전만 |
 | 대조군 D·코호트 편수 상한 | **권고** (측정에 도움). 케이던스 잠금으로 쓰지 않음 |
+| 일일 SEO+FA 처리량 | **2–3 slug/일 가이던스**, 상한 없음. HARD는 수십 편 일괄 수정 금지뿐 |
 
 > **문서 작성 규칙**: 이후 개정에서 “주 N편 상한·금지”를 HARD로 재삽입하지 말 것. 숫자는 FLEX 예시 또는 “권고”로만.
 
