@@ -22,9 +22,9 @@
 | B1 | 2 | `tokyo-core-3-wards-chiyoda-chuo-minato` | live | Ep.1 · Cursor 검증(100/PASS·build ok·spine 동결·새사실0)→prod |
 | B1 | 3 | `tokyo-shinjuku-shibuya-bunkyo` | live | Ep.2 · Cursor 검증(100/PASS·build ok·spine 동결·새사실0)→prod |
 | B1 | 4 | `tokyo-musashino-mitaka-chofu` | live | Ep.9 · Cursor 검증(100/PASS·YMYL 단정형 완화·수치 보존)→prod |
-| B2 | 5 | `tokyo-meguro-setagaya` | queued | Ep.3 |
-| B2 | 6 | `tokyo-shinagawa-ota` | queued | Ep.4 |
-| B2 | 7 | `tokyo-toshima-nakano-suginami` | queued | Ep.5 |
+| B2 | 5 | `tokyo-meguro-setagaya` | queued | Ep.3 · 출처 매핑 동결 · B2 해제·핸드오프 발행(07-18) |
+| B2 | 6 | `tokyo-shinagawa-ota` | queued | Ep.4 · 리니어 연도 단정 금지 · B2 해제·핸드오프 발행(07-18) |
+| B2 | 7 | `tokyo-toshima-nakano-suginami` | queued | Ep.5 · YMYL 권유 어휘 회귀 금지 · B2 해제·핸드오프 발행(07-18) |
 | B3 | 8 | `tokyo-taito-sumida-koto` | queued | Ep.6 |
 | B3 | 9 | `tokyo-kita-arakawa-itabashi-nerima` | queued | Ep.7 |
 | B3 | 10 | `tokyo-adachi-katsushika-edogawa` | queued | Ep.8 |
