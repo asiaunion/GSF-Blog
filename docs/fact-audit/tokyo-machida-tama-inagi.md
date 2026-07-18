@@ -57,6 +57,8 @@
 | 43 | 2,954 | 2,954 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 44 | 8.9만엔 | 8.9만엔 | [https://suumo.jp/chintai/soba/tokyo/sc_machida/](https://suumo.jp/chintai/soba/tokyo/sc_machida/) | [x] | Body |
 | 45 | 8.1만엔 | 8.1만엔 | [https://suumo.jp/chintai/soba/tokyo/sc_tama/](https://suumo.jp/chintai/soba/tokyo/sc_tama/) | [x] | Body |
+| 46 | 3,850만엔 (若葉台 55만/㎡ ×70, n=23 참고용) | 3,850만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 47 | 1,267만엔 (平尾 18.1만/㎡ ×70, n=12 참고용) | 1,267만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 
 ---
 
