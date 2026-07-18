@@ -27,7 +27,7 @@
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 
-**→ 다음 최우선:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier1 #10 `nihonbashi-hamacho-walking-guide` · Gate 레퍼럴 시계
+**→ 다음 최우선:** #6 네이버 HTML Joseph 발행 대기 · 이전 에피소드 선발행 → Ep.12 네이버(보류) · Tier1 #4/#4b 허브·J-REIT 정합 · Gate 레퍼럴 시계
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -44,7 +44,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | 7 | **done** (2026-07-18 Cursor backup) | `tokyo-moving-contracts-two-notes` | SEO+FA 정식 캘리브레이션 2 · 출처 분리·YMYL 단정 완화 · validate 100/prod |
 | 8 | **done** (2026-07-18 Cursor) | `korea-resident-japan-property-capital-gains-tax` | 세무 YMYL 준캘리브 · 5년 요건·제118조의6·주민세 단정 교정 · validate 100/prod |
 | 9 | **done** (2026-07-18 Cursor) | `tokyo-office-vacancy-five-wards-2026` | SEO+FA · 2.22%=3월 월간 · 모집임대료 범위 · 미출처 지표 삭제 · validate 100/prod |
-| 10 | open | `nihonbashi-hamacho-walking-guide` | SEO+FA · hub 내부링크 |
+| 10 | **done** (2026-07-18 Cursor) | `nihonbashi-hamacho-walking-guide` | SEO+FA · 개업일·출처·미지원 투자주장 교정 · validate 100/prod |
 | 4 | open | `tokyo-real-estate-investment-complete-guide` (+절차/비용 의도 분리) | 링크 대상 title 확정 후 허브 정합 (**본문 전면 금지**) |
 | 4b | open | `j-reit-five-things-to-know` | 링크 대상 title 확정 후 title·내부링크 |
 
@@ -71,6 +71,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | T1-7 | 2026-07-18 | `tokyo-moving-contracts-two-notes` SEO+FA 캘리브레이션 2 (Cursor backup) KO·EN·JA prod |
 | T1-8 | 2026-07-18 | `korea-resident-japan-property-capital-gains-tax` 세무 준캘리브 SEO+FA KO·EN·JA prod |
 | T1-9 | 2026-07-18 | `tokyo-office-vacancy-five-wards-2026` SEO+FA · 수치 원문 정합 KO·EN·JA prod |
+| T1-10 | 2026-07-18 | `nihonbashi-hamacho-walking-guide` SEO+FA KO·EN·JA prod |
 
 ---
 

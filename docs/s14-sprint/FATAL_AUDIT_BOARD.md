@@ -13,7 +13,7 @@
 | 2 | `tokyo-moving-contracts-two-notes` (#7) | done | 정식 2 | delayed→Cursor backup | delayed→Cursor backup | done | n/a | Cursor 반영 | live |
 | 3 | `korea-resident-japan-property-capital-gains-tax` (#8) | done | 준캘리브(YMYL) | Cursor backup | Cursor backup | done | n/a(삭제0) | Cursor 반영 | validate 100 |
 | 4 | `tokyo-office-vacancy-five-wards-2026` (#9) | verified | — | Cursor backup | Cursor backup | done (삭제4·에스컬레이션 불필요) | n/a | Cursor 반영 | validate 100 |
-| 5 | `nihonbashi-hamacho-walking-guide` (#10) | open | — | pending | pending | pending | pending | pending | pending |
+| 5 | `nihonbashi-hamacho-walking-guide` (#10) | verified | — | Cursor backup | Cursor backup | done (삭제3·에스컬레이션 불필요) | n/a | Cursor 반영 | validate 100 |
 | 6 | `tokyo-real-estate-investment-complete-guide` (#4) | open | 허브 마지막 | pending | pending | pending | pending | pending | pending |
 | 7 | `j-reit-five-things-to-know` (#4b) | open | 허브 마지막 | pending | pending | pending | pending | pending | pending |
 
