@@ -77,3 +77,10 @@
 - HTTP 코드: 200 OK
 - 성공 기준 통과
 
+## [2026-07-18 21:45 JST] IndexNow Ping (Wave B Ep.1–10 SEO+FA)
+
+- 대상: Ep.1·2·3·4·5·6·9 (본문 변경 7 slug × KO/EN/JA = 21 URL)
+- Ep.7·8·10: FA 0 · 무변경 · ping 생략
+- HTTP 코드: 200 OK
+- 성공 기준 통과
+
