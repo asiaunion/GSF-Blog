@@ -1,7 +1,8 @@
 ---
-title: "Where to Live in Tokyo — 23 Wards Guide [Ep.10] Tama Education & Culture Belt: Kokubunji, Kunitachi, Fuchu, Tachikawa"
+title: "Kokubunji, Kunitachi, Fuchu & Tachikawa Home Prices — Tama Culture Belt [Ep.10·2026]"
 description: "Four cities west of Tokyo's 23 wards, examined through neighborhood-level transaction data. Beyond the impression of 'affordable suburbs,' each city turns out to be a distinct market shaped by rail lines, redevelopment, and local character."
 pubDatetime: 2026-06-30T00:05:00+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: en

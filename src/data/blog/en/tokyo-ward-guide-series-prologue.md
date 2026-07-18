@@ -1,8 +1,8 @@
 ---
-title: "Comparing Tokyo 23 Wards: Property Prices & Living Guide [2026]"
+title: "Tokyo's 23 Wards Compared — Property Prices & Living Environments [2026]"
 description: "A complete guide comparing Tokyo's 23 wards, highlighting the property prices, demographics, and unique character of each area before diving into the 12-episode roadmap."
 pubDatetime: 2026-05-12T09:00:00Z
-modDatetime: 2026-07-18T01:15:00+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: Joseph KIM
 lang: en
 category: investment

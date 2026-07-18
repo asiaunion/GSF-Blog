@@ -18,7 +18,11 @@
 | 14 | buying-property-japan-checklist-before-you-commit | naver-drafts/buying-property-japan-checklist-before-you-commit-naver.txt | https://gsfark.com/ko/posts/buying-property-japan-checklist-before-you-commit/ | 네이버 | 완료: https://blog.naver.com/gsfark/224349747832 |
 | 15 | buying-property-japan-surprises-foreign-investor | naver-drafts/buying-property-japan-surprises-foreign-investor-naver.txt | https://gsfark.com/ko/posts/buying-property-japan-surprises-foreign-investor/ | 네이버 | 완료: https://blog.naver.com/gsfark/224349752172 |
 | 16 | coredo-nihonbashi-mitsui-redevelopment | naver-drafts/coredo-nihonbashi-mitsui-redevelopment-naver.txt | https://gsfark.com/ko/posts/coredo-nihonbashi-mitsui-redevelopment/ | 네이버 | 완료: https://blog.naver.com/gsfark/224349753801 |
-| 17 | tokyo-machida-tama-inagi | naver-drafts/tokyo-machida-tama-inagi-naver.txt | https://gsfark.com/ko/posts/tokyo-machida-tama-inagi/ | 네이버 | 대기 |
+| 17 | tokyo-machida-tama-inagi | naver-drafts/tokyo-machida-tama-inagi-naver.html | https://gsfark.com/ko/posts/tokyo-machida-tama-inagi/ | 네이버 | 발행 보류 — 이전 에피소드 선발행 후 (초안 HTML·txt 최종 KO v1.3 Cursor PASS · 2026-07-18) |
 
 * ALL v4 → html regen done · 2026-07-17
+
+> **공용 블로그 게시 우선순위 (Joseph 승인 · 2026-07-18):**
+> ① Ep.12 초안을 KO 최종본(v1.3) 기준으로 갱신·게시 → ② TokyoKorean 생활 실용 배치 1(5편, Cursor PASS 후) → ③ Joseph+GPT 검수 통과 Ark v4 → ④ TK 배치 2~4.
+> 게시 속도는 일 1편 내외. TK는 `utm_campaign=tk-broadcast` + 「도쿄 생활 가이드 · TokyoKorean」 라벨로 구분.
 

@@ -16,6 +16,13 @@
 - HTTP 코드: 200 OK
 - 성공 기준 통과
 
+## [2026-07-18 13:15 JST] IndexNow Ping (시리즈 title + Tier 1 #1)
+
+- 도쿄 거주 시리즈 Ep.0–12 기존 로케일: KO 13 · EN 13 · JA 12
+- Tier 1 #1 `japan-shinchiku-vs-chuko-mansion-investor-guide`: KO · EN · JA
+- 요청 URL: 총 41개
+- HTTP 코드: 200 OK
+- 성공 기준 통과
 ## [2026-07-17 21:00 JST] IndexNow Ping (R4 배포)
 
 - 대상 슬러그 (3개):

@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-07-17 |
+| 최종 업데이트 | 2026-07-18 |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 AdSense 7/7 재보류 — **D-001 Cursor 확정**: 게이트A/B·네이버주력·JA신규동결·Phase A′. Playbook+SEO_SPRINT |
 | 목표 + 기한 | Phase A′ 4주(refresh70/네이버) → ~8/12 게이트A 판정 |
@@ -176,7 +176,11 @@
 
 ## 📝 작업 로그
 
+### 2026-07-18
+- 시리즈 title·Tier1 #1 prod
+
 ### 2026-07-17
+- Ep.12 tokyo-machida-tama-inagi prod live
 - G1·G2·G3 KO R3_LOCK 배포 완료
 - G1·G2·G3 KO §1-4 (R4) 반영 및 validate 완료 (feat/r4-tier0-updates)
 - Phase A' (W0+W1+W2) 배포 완료

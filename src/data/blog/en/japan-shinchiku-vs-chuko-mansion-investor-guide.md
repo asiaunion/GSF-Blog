@@ -1,8 +1,8 @@
 ---
-title: "New vs. Pre-owned Mansions: The Complete 2026 Investor's Guide"
-description: "A Tokyo mansion investment guide from the perspective of a Nihonbashi resident. A deep dive comparing new and pre-owned mansions using 70% hard data from April 2026 and 30% real-life experience."
+title: "New vs. Pre-Owned Mansions in Japan — Prices, Depreciation & Repair Costs [2026]"
+description: "April 2026 Greater Tokyo data comparing new and pre-owned mansion prices, depreciation, repair reserves, and liquidity."
 pubDatetime: 2026-05-30T08:00:00Z
-modDatetime: 2026-06-07T03:13:14+09:00
+modDatetime: 2026-07-18T13:20:00+09:00
 author: GSF
 lang: en
 category: investment
@@ -52,25 +52,13 @@ citeSources:
     portal: "https://www.mlit.go.jp/"
 ---
 
-> **All market figures in this article are as of April 2026.** I provide 100% fact-based data (verified: true) cross-checked through original reports from the Real Estate Economic Institute, REINS, NTA, MLIT, and the BOJ, utilizing NotebookLM.
+In April 2026, the Greater Tokyo average was **87.36 million JPY** for a new mansion versus **53.21 million JPY** for a pre-owned one. New properties offer newer facilities and often lower-looking initial repair reserves, while pre-owned properties have a lower entry price and may qualify for a shorter depreciation period—but require closer checks of repair reserves and liquidity.
+
+I live in a pre-owned mansion in Nihonbashi, Tokyo, with four subway lines within a 10-minute walk. The comparison below uses the same April 2026 baseline for prices, depreciation, repair reserves, Core 3 Ward liquidity, and BOJ rates.
 
 ---
 
-## "Should I buy a new or pre-owned mansion?"
-
-This is the most common question I get during Japan real estate investment consultations.
-
-I currently live in a pre-owned mansion in Nihonbashi, Tokyo. It's a bit older, but I can freely use four different subway lines within a 10-minute walk. I also enjoy easy access to the local library, supermarkets, hospitals, and various government offices as part of my daily routine.
-
-The benefit that city dwellers are most enthusiastic about is *Shokuju Kinsetsu* (職住近接) — living close to your workplace. The commuting time saved is dramatically reduced and directly translates into 'real money' that enriches my personal and family life. Living right in the center of the city, I experience the powerful value of this infrastructure and time every single day.
-
-Knowing the intrinsic value of city living, my answer to the "what to buy" question is always the same: "It depends on your investment goals and how you value time. However, in **this current market**, you must coldly look at what the data is pointing to."
-
-Today, I want to blend the warm perspective of a resident waking up in Nihonbashi every morning (30%) with the sharp, data-driven eye of an investor analyzing the latest April 2026 market indicators (70%). I'll break this down across five pillars: price trends, depreciation, repair reserve funds, liquidity, and interest rate risks.
-
----
-
-## 1. Price Comparison: The Price Gradient from the Greater Tokyo Area to the Core 6 Wards
+## 1. How Large Is the Price Gap Between New and Pre-Owned Mansions?
 
 The foundation of real estate investment is location. To understand the Tokyo and Greater Tokyo market, a 'drill-down' approach—narrowing down from a broad area to the city core—is essential.
 
@@ -104,7 +92,7 @@ Here are the facts I can extract from the data:
 
 ---
 
-## 2. Depreciation: Where New and Pre-owned Diverge in Taxes
+## 2. How Does Depreciation Differ for New and Pre-Owned Mansions?
 
 Depreciation is the most crucial tax-saving tool in Japanese real estate investment. What investors must pay special attention to is the difference in how the 'useful life' (耐用年数) is calculated between new and pre-owned properties.
 
@@ -138,7 +126,7 @@ If your goal is to book massive depreciation expenses early on to shield your in
 
 ---
 
-## 3. Repair Reserve Funds: The 'Lump-Sum' Risk You Must Check Before Buying
+## 3. What Should You Check in the Repair Reserve Fund?
 
 Whether new or pre-owned, the Repair Reserve Fund (修繕積立金) is an expense that occurs throughout the holding period. It doesn't show up in the listing price, but it heavily dictates your return on investment.
 
@@ -161,7 +149,7 @@ Therefore, when buying a pre-owned mansion, you shouldn't just feel relieved tha
 
 ---
 
-## 4. Liquidity: Core 3 Wards Indicators and the 'Value of Time'
+## 4. How Liquid Are Pre-Owned Mansions in Tokyo's Core 3 Wards?
 
 The completion of a real estate investment is the exit strategy. Let's look at 'liquidity' indicators—the ability to sell at the price you want when you want—through the data of the Core 3 Wards (Chuo, Chiyoda, Minato).
 
@@ -186,7 +174,7 @@ However, from an investor's perspective, amidst rising inventory, the short-term
 
 ---
 
-## 5. BOJ Interest Rate Environment: Implications from Three Hawkish Board Members
+## 5. How Could BOJ Rates Affect a Mansion Investment?
 
 I cannot overlook the policy trends of the Bank of Japan (BOJ), which acts as a pillar supporting the Yield Gap in Japanese real estate investments.
 
@@ -200,11 +188,13 @@ Given the highly leveraged nature of real estate investment, if the interest rat
 
 ---
 
-## 6. Conclusion: A Cautious Short-Term Approach
+## 6. Which Option Fits Your Conditions?
 
 The Tokyo mansion market in the spring of 2026, as seen through various data today, makes it difficult to definitively say whether new or pre-owned is the absolute winner. A strategy tailored to the investor's situation is necessary.
 
-| Investment Goal | Recommendation | Strengths / Considerations |
+The table is an informational comparison, not a recommendation to buy a specific property or adopt a particular tax treatment. Check your circumstances with qualified tax, finance, and real estate professionals before deciding.
+
+| Investment Goal | Options to Review (Subject to Personal Advice) | Strengths / Considerations |
 |----------|------|------|
 | **Maximize Short-Term Tax Savings** | Pre-owned (Older) | Can heavily concentrate early depreciation expenses using the simplified method for shortened useful life. |
 | **Stable Rental Operations** | New or Under 10 Years Old | Predictability of repair costs is relatively high, and initial repair reserve burdens are low. |

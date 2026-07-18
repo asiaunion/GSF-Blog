@@ -1,8 +1,8 @@
 ---
-title: "Chuo, Chiyoda & Minato Ward Tokyo: Premium Core Investment Data [2026]"
+title: "Tokyo Core 3 Ward Home Prices — Chiyoda, Chuo & Minato [Ep.1·2026]"
 description: "Vacancy rates, price trends, and developer pipelines across Tokyo's three premium central wards — the definitive data guide for cross-border property investors."
 pubDatetime: 2026-05-14T01:45:00Z
-modDatetime: 2026-06-15T22:42:21+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: en

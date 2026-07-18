@@ -1,8 +1,8 @@
 ---
-title: "Where to Live in Tokyo — The Complete 23 Wards + Tama Guide [Ep.06] Taito, Sumida & Koto"
+title: "Taito, Sumida & Koto Home Prices and Rents — Eastern Tokyo [Ep.6·2026]"
 description: "Just 3–7 km from the Imperial Palace in a straight line, Taito and Sumida are 8 minutes to Tokyo Station, and Koto is 9 minutes to Otemachi — yet prices run lower than the west. I break down mansion sale prices, rental rates, and redevelopment momentum in Taito-ku, Sumida-ku, and Koto-ku using primary-source data."
 pubDatetime: 2026-06-17T04:00:00Z
-modDatetime: 2026-06-17T16:43:42+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: en

@@ -1,8 +1,8 @@
 ---
-title: "Where to Live in Tokyo — The 23 Wards Guide [Ep.11] The Real Housing Prices of Western Tama Hidden Behind Averages: Hachioji, Hino, and Akishima"
+title: "Hachioji, Hino & Akishima Home Prices — Western Tama [Ep.11·2026]"
 description: "A deep dive into three cities in Western Tama using neighborhood-level transaction data. Stripping away the 'average trap' caused by massive land areas reveals a clear dual structure: vibrant ¥60 (x10k) station areas and ¥30 (x10k) outskirts."
 pubDatetime: 2026-07-09T00:05:00+09:00
-modDatetime: 2026-07-17T11:15:00+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 gates:

@@ -1,8 +1,8 @@
 ---
-title: "Are Ota Ward Apartments Cheap? Price Comparison with Shinagawa [2026]"
+title: "Are Ota Ward Apartments Affordable? — Price Comparison with Shinagawa [Ep.4·2026]"
 description: "We compare the average mansion per-㎡ price between Ota and Shinagawa wards, highlighting the differences in living convenience and transit access in Tokyo's Southern Belt."
 pubDatetime: 2026-06-02T20:20:00Z
-modDatetime: 2026-07-17T21:46:00+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: Joseph KIM
 draft: false
 lang: en

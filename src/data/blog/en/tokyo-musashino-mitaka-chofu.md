@@ -1,7 +1,8 @@
 ---
-title: "Where to Live in Tokyo — 23 Wards Guide [Ep.09] Western Premium: Musashino, Mitaka, Chofu"
+title: "Musashino, Mitaka & Chofu Home Prices — Western Tokyo Suburbs [Ep.9·2026]"
 description: "Premium living beyond the 23 wards. We analyze the transaction prices and efficiency of Musashino, Mitaka, and Chofu—areas that offer direct Tokyo Station access and an exceptional living environment."
 pubDatetime: 2026-06-26T12:00:00Z
+modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: en

@@ -1,8 +1,8 @@
 ---
-title: "Where to Live in Tokyo — Complete 23-Ward + Tama Guide [Ep.05] Toshima · Nakano · Suginami"
+title: "Toshima, Nakano & Suginami Home Prices and Rents — Tokyo Inner Ring [Ep.5·2026]"
 description: "A data-driven breakdown of Tokyo's Hipster Inner Ring — the redevelopment momentum of Toshima (Ikebukuro), the hidden-gem appeal of Nakano, and the family-first stability of Suginami. Rental rates, condo prices, income levels, and foreign-resident ratios verified from primary sources."
 pubDatetime: 2026-06-04T06:35:00Z
-modDatetime: 2026-06-07T09:57:10+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: en

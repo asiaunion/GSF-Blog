@@ -1,8 +1,8 @@
 ---
-title: "Where Is Setagaya's Rich Area? Seijo vs Meguro Property Prices & Living Guide [2026]"
+title: "Where Are Setagaya's Affluent Areas? — Seijo & Meguro Property Prices [Ep.3·2026]"
 description: "We compare the property prices of Seijo, the premier wealthy enclave in Setagaya, with the living environments of Meguro and Setagaya using real data."
 pubDatetime: 2026-05-26T12:00:00Z
-modDatetime: 2026-07-17T21:46:00+09:00
+modDatetime: 2026-07-18T13:00:00+09:00
 author: Joseph KIM
 draft: false
 lang: en
