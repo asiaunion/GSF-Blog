@@ -62,25 +62,25 @@ frontmatter `sources`/`citeSources` (부동산경제연구소·REINS·BOJ·NTA·
 
 ### H2 "신축과 중고 맨션의 가격 차이는 얼마인가?" — **변경 없음** (표·수치·해석 3항 전부)
 
-### H2 "신축과 중고 맨션의 감가상각은 어떻게 다른가?" — **첫 문장 단정 표현 완화** (핸드오프 지정 완화)
+### H2 "신축과 중고 맨션의 감가상각은 어떻게 다른가?" — **첫 문장 단정 표현 완화** (핸드오프 지정 완화, GPT #1 반영으로 재조정)
 
 ```
-감가상각은 일본 부동산 투자에서 자주 거론되는 절세 수단입니다. 투자자분들이 특히 주목해야 할 부분은 신축과 중고의 내용연수(耐用年数) 산정 방식이 다르다는 점입니다.
+감가상각은 많은 투자자가 먼저 검토하는 절세 수단입니다. 투자자분들이 특히 주목해야 할 부분은 신축과 중고의 내용연수(耐用年数) 산정 방식이 다르다는 점입니다.
 ```
 
-이하(정액법·47년·간편법·계산식·비교 3항·"압도적으로 유리합니다"+세리사 상담 권장 헤지) **변경 없음**. *(변경 근거: "가장 중요한" → "자주 거론되는"으로 교체 — 절세수단이라는 사실은 유지하되 단일 최상급 단정만 제거. 핸드오프 §slug2 특이 주의 "Voice 장치로 강화하지 않는다"를 실행한 최소 완화. 47년/2.2%/132만/198만/672만 수치, 간편법 공식, 세리사 상담 권장 헤지 전부 그대로)*
+이하(정액법·47년·간편법·계산식·비교 3항·"압도적으로 유리합니다"+세리사 상담 권장 헤지) **변경 없음**. *(변경 근거: "가장 중요한" → "많은 투자자가 먼저 검토하는"으로 교체 — 절세수단이라는 사실은 유지하되 단일 최상급 단정만 제거. GPT가 "자주 거론되는"보다 더 안전하다고 제안한 표현 채택(투자자 행동 묘사로 프레이밍, 절세효과 자체를 단정하지 않음). 핸드오프 §slug2 특이 주의 "Voice 장치로 강화하지 않는다"를 실행한 최소 완화. 47년/2.2%/132만/198만/672만 수치, 간편법 공식, 세리사 상담 권장 헤지 전부 그대로)*
 
 ### H2 "수선적립금은 무엇을 확인해야 하나?" — **변경 없음**
 
 ### H2 "도심 중고 맨션의 유동성은 어떤가?" — **변경 없음** (기존 중간 질문 "이 묘한 엇갈림…" 이미 보존)
 
-### H2 "BOJ 금리는 맨션 투자에 어떤 영향을 주나?" — **마지막 문장 단정 표현 완화** (핸드오프 지정 완화)
+### H2 "BOJ 금리는 맨션 투자에 어떤 영향을 주나?" — **마지막 문장 단정 표현 완화** (핸드오프 지정 완화, GPT #2 반영으로 재조정)
 
 ```
-대출 의존도가 높은 부동산 투자 특성상, 금리가 1.0%를 거쳐 추가 상승하게 될 경우 임대수익률이 하락하거나 매수자의 대출 한도가 축소될 수 있습니다. 매수 전 금리 인상 스트레스 테스트(이자 상승 시 현금흐름 시뮬레이션)를 확인해 두는 투자자가 많아지는 시기입니다.
+대출 의존도가 높은 부동산 투자 특성상, 금리가 1.0%를 거쳐 추가 상승하게 될 경우 임대수익률이 하락하거나 매수자의 대출 한도가 축소될 수 있습니다. 매수 전 금리 인상 스트레스 테스트(이자 상승 시 현금흐름 시뮬레이션)는 이전보다 훨씬 중요해진 환경입니다.
 ```
 
-*(변경 근거: "…필수가 된 시대입니다" → "…확인해 두는 투자자가 많아지는 시기입니다"로 교체 — 스트레스 테스트를 하라는 지시형·단정형을 관찰형으로 완화. 0.75%/6:3/1.0%/위원 3인 실명 수치는 전부 그대로)*
+*(변경 근거: "…필수가 된 시대입니다" → "…이전보다 훨씬 중요해진 환경입니다"로 교체 — 지시형·단정형을 완화하되 GPT #2 제안대로 "많아지는 시기"보다 더 간결하고 관찰형에 가까운 표현으로 재조정. 0.75%/6:3/1.0%/위원 3인 실명 수치는 전부 그대로)*
 
 ### H2 "내 조건에는 신축과 중고 중 무엇이 맞을까?" — **도입에 노트 문장 삽입 + 말미에 대표 문장 콜백**
 
@@ -95,10 +95,10 @@ frontmatter `sources`/`citeSources` (부동산경제연구소·REINS·BOJ·NTA·
 
 수선일시금 이슈, 도심 3구의 재고 증가, 금리 인상 압박 등 단기적으로 볼 때 분명 보수적으로 짚고 넘어가야 할 지표들이 존재합니다. 따라서 매입 시점의 수익률과 출구 전략은 철저하게 계산하시는 것이 안전합니다.
 
-신축과 중고 중 어느 쪽이 유리한지는 결국 목적이 먼저입니다 — 오늘 살펴본 표들은 그 답을 대신 내려주지 않습니다.
+결국 신축과 중고 가운데 정답을 찾는 것이 아니라, 자신의 전략에 맞는 판단 기준을 만드는 과정이 더 중요하다고 생각합니다. 오늘 살펴본 표들은 그 답을 대신 내려주지 않습니다.
 ```
 
-*(변경 근거: 기존 문단·표·체크리스트 전부 그대로. 2번째 문단(노트 문장)은 §2에 이미 있는 132만/198만/672만 계산 결과를 회고하는 것으로 새 수치·새 claim 없음. 마지막 문장은 도입부 대표 문장의 콜백이자, "표가 결정을 대신하지 않는다"는 투자 비권유 원칙을 한 번 더 명시 — 확신형 결론 아님)*
+*(변경 근거: 기존 문단·표·체크리스트 전부 그대로. 2번째 문단(노트 문장)은 §2에 이미 있는 132만/198만/672만 계산 결과를 회고하는 것으로 새 수치·새 claim 없음. 마지막 두 문장은 GPT #3 반영 — "계산"으로 끝나던 결론을 "판단 기준을 만드는 과정"으로 재구성해 여운을 강화하고, 기존 "표가 결정을 대신하지 않는다"는 비권유 원칙 문장은 그대로 유지해 이어붙임 — 확신형 결론 아님)*
 
 ### "팩트체크 기준" 박스 — **변경 없음**
 ### "함께 보면 좋은 글" — **변경 없음**
@@ -120,18 +120,18 @@ I live in a pre-owned mansion in Nihonbashi, Tokyo, with four subway lines withi
 **Which one makes more sense — new or pre-owned — depends on your goal first.**
 ```
 
-**§2 첫 문장 단정 표현 완화**:
+**§2 첫 문장 단정 표현 완화** (GPT #1 반영):
 ```
-Depreciation is a tax-saving tool frequently discussed in Japanese real estate investment. What investors must pay special attention to is the difference in how the 'useful life' (耐用年数) is calculated between new and pre-owned properties.
+Depreciation is a tax-saving tool many investors look at first. What investors must pay special attention to is the difference in how the 'useful life' (耐用年数) is calculated between new and pre-owned properties.
 ```
 (이하 변경 없음)
 
-**§5 마지막 문장 단정 표현 완화**:
+**§5 마지막 문장 단정 표현 완화** (GPT #2 반영):
 ```
-Given the highly leveraged nature of real estate investment, if the interest rate climbs through 1.0% and higher, rental yields may fall, or buyers' borrowing limits could shrink. More investors are running an interest rate stress test (simulating cash flow under rising interest rates) before buying these days.
+Given the highly leveraged nature of real estate investment, if the interest rate climbs through 1.0% and higher, rental yields may fall, or buyers' borrowing limits could shrink. An interest rate stress test (simulating cash flow under rising interest rates) before buying matters more than it used to.
 ```
 
-**§6 도입 노트 문장 + 말미 대표 문장 콜백**:
+**§6 도입 노트 문장 + 말미 대표 문장 콜백** (GPT #3 반영):
 ```
 The Tokyo mansion market in the spring of 2026, as seen through various data today, makes it difficult to definitively say whether new or pre-owned is the absolute winner. A strategy tailored to the investor's situation is necessary.
 
@@ -143,7 +143,7 @@ The table is an informational comparison, not a recommendation to buy a specific
 
 There are definitely indicators I must view conservatively in the short term, such as the repair lump-sum issue, rising inventory in the Core 3 Wards, and pressure to raise interest rates. Therefore, it is safest to thoroughly calculate your yield at the time of purchase and your exit strategy.
 
-Which one works better — new or pre-owned — still comes down to your goal. The tables above don't decide that for you.
+In the end, this isn't about finding the right answer between new and pre-owned — it's about building a judgment standard that fits your own strategy. The tables above don't decide that for you.
 ```
 
 나머지 섹션 **변경 없음**.
@@ -159,18 +159,18 @@ Which one works better — new or pre-owned — still comes down to your goal. T
 **新築と中古のどちらが向いているかは、まず目的次第です。**
 ```
 
-**§2 첫 문장 단정 표현 완화**:
+**§2 첫 문장 단정 표현 완화** (GPT #1 반영):
 ```
-減価償却(Depreciation)は、日本の不動産投資でよく話題になる節税手段です。投資家の方々が特に注目すべき点は、新築と中古で耐用年数の算定方法が異なるということです。
+減価償却(Depreciation)は、多くの投資家がまず検討する節税手段です。投資家の方々が特に注目すべき点は、新築と中古で耐用年数の算定方法が異なるということです。
 ```
 (以下変更なし)
 
-**§5 마지막 문장 단정 표현 완화**:
+**§5 마지막 문장 단정 표현 완화** (GPT #2 반영):
 ```
-借入依存の高い不動産投資では、金利が1.0%超へさらに上昇すれば、賃貸利回りの低下と借入限度額の縮小を招きます。購入前の金利上昇ストレステスト（金利上昇時のキャッシュフローシミュレーション）を確認しておく投資家が増えている時期です。
+借入依存の高い不動産投資では、金利が1.0%超へさらに上昇すれば、賃貸利回りの低下と借入限度額の縮小を招きます。購入前の金利上昇ストレステスト（金利上昇時のキャッシュフローシミュレーション）は、以前よりずっと重要になった環境です。
 ```
 
-**§6 도입 노트 문장 + 말미 대표 문장 콜백**:
+**§6 도입 노트 문장 + 말미 대표 문장 콜백** (GPT #3 반영):
 ```
 本日複数のデータを通じて検証した2026年春の東京マンション市場は、新築と中古のどちらが絶対的に優位であると断定するのは困難です。投資家の状況に合わせた戦略が必要です。
 
@@ -182,7 +182,7 @@ Which one works better — new or pre-owned — still comes down to your goal. T
 
 修繕一時金の問題、都心3区の在庫増加、金利引き上げの圧力など、短期的には保守的に確認すべき指標が存在します。したがって、購入時点での利回りと出口戦略は徹底的に計算しておくのが最も安全です。
 
-新築と中古のどちらが向いているかは、結局のところ目的次第です。今日見てきた表は、その答えを代わりに出してはくれません。
+結局のところ、新築と中古のどちらが正解かを探すのではなく、自分の戦略に合った判断基準をつくる過程のほうが重要だと思います。今日見てきた表は、その答えを代わりに出してはくれません。
 ```
 
 나머지 섹션 **변경 없음**.
@@ -193,9 +193,14 @@ Which one works better — new or pre-owned — still comes down to your goal. T
 
 *(Claude initial drop 단계 — GPT 리뷰 전. Joseph이 GPT 리뷰를 넘기면 이 표를 채우고 `status: claude-final`로 갱신)*
 
+> GPT 종합 평가: 9.4/10. "실거주 경험+데이터+시장 분석이 잘 섞여 있다"고 평가, "몇 군데는 아직 정답을 말하는 느낌이 남는다"는 것이 핵심 지적 — 핸드오프가 지정한 완화 대상 2건에 대한 구체적 대안 제시.
+
 | # | GPT 제안 위치 | GPT 제안 요약 | 채택/기각 | 이유 |
 |---|--------------|--------------|-----------|------|
-| — | — | (리뷰 대기) | — | — |
+| 1 | §2 "가장 중요한" 완화 표현 | Claude initial의 "자주 거론되는" → "많은 투자자가 먼저 검토하는" 또는 "대표적인 절세 수단 가운데 하나" | **채택** ("많은 투자자가 먼저 검토하는") | 투자자 행동 묘사로 프레이밍해 절세효과 자체를 단정하지 않는 방식이 "자주 거론되는"보다 한 단계 더 안전. A1·A2 다른 편에서 이미 쓴 "많은 분들이/투자자가 ~" 패턴과도 문체 일관성 확보 |
+| 2 | §5 "필수가 된 시대" 완화 표현 | Claude initial의 "확인해 두는 투자자가 많아지는 시기" → "점점 더 중요해진 시대" 또는 "이전보다 훨씬 중요해진 환경" | **채택** ("이전보다 훨씬 중요해진 환경") | GPT 제안이 더 간결하고 관찰형에 가까움. 0.75%/6:3/1.0% 수치는 그대로 |
+| 3 | §6 마무리 | "…계산하시는 것이 안전합니다"로 끝나는 결론 뒤에 "계산"이 아닌 "판단"으로 마무리하는 문장 추가 — "결국 신축과 중고 가운데 정답을 찾는 것이 아니라, 자신의 전략에 맞는 판단 기준을 만드는 과정이 더 중요하다고 생각합니다" | **채택(결합)** | GPT 제안 문장을 그대로 채택하되, Claude initial의 "표가 결정을 대신하지 않는다"는 비권유 원칙 문장은 삭제하지 않고 뒤에 이어붙임 — 두 문장이 "판단 기준을 만드는 과정 + 표는 답을 대신 안 준다"로 상호 보강되어 투자 비권유 원칙이 오히려 더 명확해짐 |
+| 4 | 공통 — "정답을 말하는 느낌" | YMYL 투자 글 특유의 리스크(단정 톤) 지적 | **반영(위 1·2·3으로 충족)** | 완화 대상 2건 + 마무리 톤 전환으로 대응 완료 |
 
 ---
 
@@ -203,14 +208,14 @@ Which one works better — new or pre-owned — still comes down to your goal. T
 
 - [x] 사실 문장 의미 보존 — 8,736만/5,321만/12,498만/22,400만대·62.3%·137.46만·45,215·238/-9.2%·4,400/+43.0%·2016-04·47년·2.2%·132만/198만/672만·간편법 공식·0.75%/6:3/1.0%·위원 3인 실명 전부 원문 그대로
 - [x] SEO+FA 교정·헤지 회귀 없음 — 2026-07-18 Cursor refresh 반영본 그대로, 새 완화나 강화 없음(§2·§5 표현 교체는 핸드오프가 명시적으로 허용한 최소 완화)
-- [x] "감가상각=가장 중요한 절세수단", "스트레스 테스트 필수" 등 권유·단정 표현을 Voice 장치로 강화하지 않음 — 오히려 핸드오프 지시대로 최소 완화(사실 삭제 없이 표현만 교체)
+- [x] "감가상각=가장 중요한 절세수단", "스트레스 테스트 필수" 등 권유·단정 표현을 Voice 장치로 강화하지 않음 — 오히려 핸드오프 지시대로 최소 완화(사실 삭제 없이 표현만 교체), GPT 리뷰로 완화 표현을 한 단계 더 재조정(§E #1·#2)
 - [x] title/description/slug/H2 spine 6개 동결, 표 5개·계산식·체크리스트·팩트체크 박스 전부 그대로
 - [x] 데이터 70/판단 과정 30 — 이미 표+해석 구조로 확보, 노트 문장 1개로 판단 과정 비중 소폭 보강
 - [x] 대표 문장 1쌍 — 도입("신축과 중고 중 어느 쪽이 유리한지는…") ↔ §6 마지막("…목적이 먼저입니다") 콜백
 - [x] 중간 질문 1~2회 — §4에 이미 존재("이 묘한 엇갈림…어떻게 해석해야 할까요?") 그대로 유지, 추가 삽입 없음(과잉 삽입 방지)
 - [x] 모바일 3줄 문단 — 신규 삽입 문장 전부 1~2문장, 기존 리듬 유지
 - [x] 노트 문장 1회 — §6 도입에 감가상각 계산표 회고 1개 신규 삽입
-- [x] 여운 있는 끝 — §6 말미에 대표 문장 콜백 추가, "표가 결정을 대신하지 않는다"는 비권유 원칙 강조. Wave A 다른 2편·Wave B·#6·Ep.12와 표현 겹치지 않음
+- [x] 여운 있는 끝 — §6 말미를 "계산"에서 "판단 기준을 만드는 과정"으로 전환(GPT #3) + "표가 결정을 대신하지 않는다"는 비권유 원칙 유지. Wave A 다른 2편·Wave B·#6·Ep.12와 표현 겹치지 않음
 - [x] 허구 1인칭 없음 — 기존 니혼바시 거주 경험(이미 승인)에 새 경험 추가하지 않음
 - [x] 투자 권유·수익 보장 톤 없음, KO `반드시` / EN `guaranteed` / JA `絶対に` 없음
 - [x] 새 통계·새 인과·새 단체·새 출처 없음. fact-audit 자동 Claims 표(테스트 URL)를 근거로 사용하지 않음
@@ -222,7 +227,11 @@ Which one works better — new or pre-owned — still comes down to your goal. T
 - **새 사실/수치/인과/출처**: 0건
 - **삭제 claim 수**: 0건
 - **H2/H3 구조 변경 수**: 0건 (spine 6개 전부 동결)
-- **단정 표현 완화(핸드오프 지정, 사실 삭제 아님)**: 2건 — §2 "가장 중요한"→"자주 거론되는", §5 "필수가 된 시대"→"확인해 두는 투자자가 많아지는 시기"
+- **단정 표현 완화(핸드오프 지정, 사실 삭제 아님)**: 2건 — §2 "가장 중요한"→"많은 투자자가 먼저 검토하는"(GPT 재조정), §5 "필수가 된 시대"→"이전보다 훨씬 중요해진 환경"(GPT 재조정)
 - **Joseph 사전 승인 필요 여부**: 불필요 (삭제 0건, H2 변경 0건 — 단정 완화 2건은 핸드오프가 사전 승인한 범위)
-- **수정 범위**: 도입부 대표 문장 1문장, §2·§5 단정 표현 완화 각 1문장(신규 삽입 아닌 교체), §6 노트 문장 1문장 + 말미 콜백 1문장. 나머지(표 5개·계산식·중간질문·체크리스트·팩트체크 박스·시리즈 링크)는 전부 변경 없음
-- **GPT 리뷰**: 대기 중 (E 섹션 참고)
+- **수정 범위**: 도입부 대표 문장 1문장, §2·§5 단정 표현 완화 각 1문장(GPT 재조정 반영), §6 노트 문장 1문장 + 말미 콜백 2문장("판단 기준을 만드는 과정" 추가 + 기존 비권유 원칙 유지). 나머지(표 5개·계산식·중간질문·체크리스트·팩트체크 박스·시리즈 링크)는 전부 변경 없음
+- **GPT 리뷰**: 9.4/10, 제안 3건 전부 채택 — claude-final로 확정
+
+---
+
+status: claude-final

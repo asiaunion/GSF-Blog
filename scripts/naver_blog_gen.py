@@ -349,10 +349,13 @@ def body_to_naver_html(body: str, slug: str, meta: dict) -> str:
 
 def extract_discovery(body: str, sections: list) -> str:
     """발견: 숫자·배수·핵심 인사이트가 담긴 문장 1개"""
-    # 우선순위 1: 배수·비율 패턴이 있는 문장
+    # 우선순위 1: 배수·비율 패턴이 있는 문장 (리스트 항목 제외 — '1.' 같은 마커가 문장으로 잡히는 것 방지)
     ratio_pattern = re.compile(r'[0-9]+\.?[0-9]*\s*(배|×|%|倍|times|x\b)')
+    list_marker_p1 = re.compile(r'^\s*(\d+\.|\*|-|\+)\s+')
     for _, content in sections[:4]:
         for line in content.split('\n'):
+            if list_marker_p1.match(line):
+                continue
             s = clean_md_inline(line.strip())
             if not s or s.startswith('|') or s.startswith('!'):
                 continue

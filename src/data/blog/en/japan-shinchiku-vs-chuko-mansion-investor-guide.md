@@ -56,6 +56,8 @@ In April 2026, the Greater Tokyo average was **87.36 million JPY** for a new man
 
 I live in a pre-owned mansion in Nihonbashi, Tokyo, with four subway lines within a 10-minute walk. The comparison below uses the same April 2026 baseline for prices, depreciation, repair reserves, Core 3 Ward liquidity, and BOJ rates.
 
+**Which one makes more sense — new or pre-owned — depends on your goal first.**
+
 ---
 
 ## 1. How Large Is the Price Gap Between New and Pre-Owned Mansions?
@@ -94,7 +96,7 @@ Here are the facts I can extract from the data:
 
 ## 2. How Does Depreciation Differ for New and Pre-Owned Mansions?
 
-Depreciation is the most crucial tax-saving tool in Japanese real estate investment. What investors must pay special attention to is the difference in how the 'useful life' (耐用年数) is calculated between new and pre-owned properties.
+Depreciation is a tax-saving tool many investors look at first. What investors must pay special attention to is the difference in how the 'useful life' (耐用年数) is calculated between new and pre-owned properties.
 
 ### The Straight-Line Method (Current Standard)
 
@@ -184,13 +186,15 @@ On April 28, 2026, the BOJ Policy Board decided by a majority vote of **6 to 3**
 
 The decision was a 'freeze', but 3 out of the 9 members (Junko Nakagawa, Hajime Takata, and Naoki Tamura) strongly argued that rates should be **raised to 1.0%** immediately.<sup class="source-ref"><a href="#source-4">4</a></sup> They are on guard against the ripple effects of rising import prices.
 
-Given the highly leveraged nature of real estate investment, if the interest rate climbs through 1.0% and higher, rental yields may fall, or buyers' borrowing limits could shrink. I am in an era where an interest rate stress test (simulating cash flow under rising interest rates) before buying is absolutely mandatory.
+Given the highly leveraged nature of real estate investment, if the interest rate climbs through 1.0% and higher, rental yields may fall, or buyers' borrowing limits could shrink. An interest rate stress test (simulating cash flow under rising interest rates) before buying matters more than it used to.
 
 ---
 
 ## 6. Which Option Fits Your Conditions?
 
 The Tokyo mansion market in the spring of 2026, as seen through various data today, makes it difficult to definitively say whether new or pre-owned is the absolute winner. A strategy tailored to the investor's situation is necessary.
+
+The table I kept coming back to while writing this was the depreciation comparison. How much the deduction diverges by age, even for the same acquisition cost, turned out to be larger than I expected.
 
 The table is an informational comparison, not a recommendation to buy a specific property or adopt a particular tax treatment. Check your circumstances with qualified tax, finance, and real estate professionals before deciding.
 
@@ -211,6 +215,8 @@ Please make sure to go through the following checklist before making an investme
 - [ ] **BOJ Interest Rate Monitoring**: Track any shifts in opinion from the 3 dissenting (hawkish) members at the next policy meeting.
 
 There are definitely indicators I must view conservatively in the short term, such as the repair lump-sum issue, rising inventory in the Core 3 Wards, and pressure to raise interest rates. Therefore, it is safest to thoroughly calculate your yield at the time of purchase and your exit strategy.
+
+In the end, this isn't about finding the right answer between new and pre-owned — it's about building a judgment standard that fits your own strategy. The tables above don't decide that for you.
 
 ---
 

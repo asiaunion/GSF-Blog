@@ -40,7 +40,11 @@ references:
   - "https://www.mlit.go.jp/jutakukentiku/house/jutakukentiku_house_tk3_000024.html"
   - "https://www.mlit.go.jp/jutakukentiku/house/torikumi/honbun2.pdf"
 ---
+It's easy to assume that once you've read a rental contract once, you're done. In practice, what happens after move-in often matters more.
+
 Before signing a rental contract in Japan, check three things first: whether it is an ordinary lease or a fixed-term lease, how restoration costs are allocated at move-out, and what upfront costs sit on top of rent. Contract wording can feel unfamiliar in Tokyo, so this note keeps to those essentials using Tokyo Metropolitan Government and MLIT guidance.
+
+**What feels unfamiliar isn't the whole contract — it's these three points.**
 
 This is not legal advice. Individual contracts and specialist review still come first.
 
@@ -59,7 +63,7 @@ The first thing to verify is the 'type' of contract.
 
 ## Who pays for restoration at move-out?
 
-The biggest source of conflict in Japan is the refund of the security deposit (*Shikikin*).
+The biggest source of conflict in Japan is the refund of the security deposit (*Shikikin*). Many assume "any wear means paying for a full replacement," but the actual allocation depends on the cause.
 
 *   **Tenant's Responsibility**: Damage caused by negligence or intent (e.g., wallpaper stains from smoking, mold due to poor ventilation, or deep scratches from heavy furniture).<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup>
 *   **Landlord's Responsibility**: Normal wear and tear or aging (e.g., faded wallpaper from sunlight, minor carpet indentations from furniture, or dust behind appliances).
@@ -69,7 +73,7 @@ The biggest source of conflict in Japan is the refund of the security deposit (*
 
 ## How do guarantors work for foreign renters?
 
-A common hurdle for foreigners is the requirement for a joint guarantor. Today, using a **guarantor company (Hoshō Gaisha)** is common.
+A common hurdle for foreigners is the requirement for a joint guarantor. Today, using a guarantor company (Hoshō Gaisha) is common. Some expect upfront costs to run one or two months' rent, then find the actual estimate higher.
 
 *   **Guarantor-company example**: GTN (Global Trust Networks) is one firm that offers multilingual support. Approval and terms vary by company, visa, and income, so no single firm is always better.
 *   **Initial Costs**: Beyond monthly rent, many people prepare **4 to 6 times** rent for *Shikikin*, *Reikin*, agent fees, insurance, and guarantor fees. Confirm the written estimate for each listing.<sup class="source-ref"><a href="#source-1" id="cite-1b">1</a></sup>
@@ -78,7 +82,9 @@ A common hurdle for foreigners is the requirement for a joint guarantor. Today, 
 
 ## Why record the apartment on move-in day?
 
-The most helpful step on move-in day is to **photograph and video existing marks**. Emailing those files to the management company makes it easier to separate old wear from new damage at move-out.
+The most helpful step on move-in day is to photograph and video existing marks. Emailing those files to the management company makes it easier to separate old wear from new damage at move-out.
+
+At the time it felt like a tedious extra step. Later, it turned out to be the record that saved the most time.
 
 <!-- content-depth-v2 -->
 
@@ -120,6 +126,8 @@ Foreign residents often need extra document checks because of language and paper
 - [ ] **Contract Type**: Confirm ordinary vs fixed-term, and read renewal/end terms.
 - [ ] **Restoration**: Compare special clauses with Tokyo and MLIT guidance.
 - [ ] **Initial Cost**: Confirm whether Reikin and guarantor fees appear on the estimate.
+
+The contract ends with a signature. The living part starts after.
 
 ## Recommended Series
 

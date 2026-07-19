@@ -50,7 +50,11 @@ references:
   - "https://www.nli-research.co.jp/"
   - "https://www.jpx.co.jp/markets/indices/real-estate/index.html"
 ---
+A high distribution yield isn't always a good sign. With J-REITs, checking why it's high often comes first.
+
 J-REITs are exchange-listed real estate investment trusts that provide exposure to income and price movements from assets such as offices, logistics facilities, and housing without requiring direct property ownership. Their distributions are not fixed: interest rates, foreign exchange, asset prices, and borrowing terms all matter. Before investing, check the market structure, distributions, buying route, rate risk, and each vehicle's portfolio.
+
+**A distribution is a visible number — what moves that number is not.**
 
 ## 1. What is a J-REIT?
 
@@ -126,6 +130,8 @@ According to research conducted by the [Nissei Basic Research Institute](https:/
 
 > **Important context (2022–2025):** The 2021 figures reflect a period of near-zero interest rates and BOJ REIT purchases. Since then, BOJ rate normalization has materially changed the environment. In 2023–2024, J-REITs significantly underperformed TOPIX; the H1 2024 total return (dividends included) was approximately **−2.4%** amid rate-hike anxiety. As of April 2026, the TSE REIT Index stands at roughly **1,916 points**<sup class="source-ref"><a href="#source-4" id="cite-4">4</a></sup>, and the spread over the 10-year JGB (~2.43%)<sup class="source-ref"><a href="#source-5" id="cite-5">5</a></sup> has compressed to ~200–250 bps—below the historical average of 250–300 bps. For current index data, refer to [JPX J-REIT Index](https://www.jpx.co.jp/markets/indices/real-estate/index.html).
 
+Going back through the data, this was the assumption I revised the most. The same asset class produced very different outcomes once the rate environment shifted — something that didn't fully register until I laid the numbers side by side.
+
 Over the 5 years ending August 2021, the return was 43%—lower than TOPIX over that shorter horizon but supported by consistent dividend distributions. The key takeaway is that long-run J-REIT performance has historically been driven by income compounding rather than capital appreciation alone—a structural advantage that remains, but must now be weighed against a tighter financing environment.
 
 When reviewing J-REITs, compare the latest distribution yield with yen exposure, price volatility, and the borrowing structure. Historical returns and distributions do not determine future performance. Easier trading than direct property ownership comes with daily market-price risk.
@@ -200,7 +206,9 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
 
 ## Conclusion
 
-J-REITs offer listed exposure to multiple property types with less capital than direct ownership, but not every vehicle is concentrated in central Tokyo commercial buildings. Office, residential, logistics, and hotel portfolios carry different vacancy and financing risks. Check each REIT's asset mix, occupancy, debt maturities, and disclosed distribution outlook before relying on a broad market view.
+J-REITs offer exposure to multiple properties with less capital than direct ownership, but not every REIT holds only central Tokyo commercial buildings. Office, residential, logistics, and hotel exposure — and borrowing terms — differ by vehicle. Rather than a market view, check each REIT's asset mix, vacancy, debt maturity, and disclosed distribution outlook first.
+
+What matters in the end isn't how high the yield is, but how long it can hold.
 
 ## Further reading in this series
 
