@@ -27,7 +27,7 @@
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 
-**→ 다음 최우선:** **Voice Full A1+A2** (YMYL 6편 해제 · slug별 순차) Claude drop → GPT → AG → Cursor · A3는 잠금 유지 · Wave B 네이버 발행 대기 · Gate 레퍼럴 시계
+**→ 다음 최우선:** **Voice Full A1 live** (상속·양도세 prod · 체크리스트 no-op) · **A2** Claude→GPT→final 대기 · A3 잠금 · Gate 레퍼럴 시계
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
