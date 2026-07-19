@@ -110,7 +110,7 @@ Three pillars support this rally:
 
 1. **Rising overseas-address buyers** — According to Japan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT), overseas-based buyers accounted for **3.5% of new condos** in Tokyo's 23 wards (H1 2025), rising to **7.5% in the core 6 wards** — up from 3.2% in 2024.<sup class="source-ref"><a href="#source-2" id="cite-2">2</a></sup> The weak yen (KRW per 100 JPY, roughly 800–900) continues to funnel Korean, Taiwanese, and Singaporean capital.
 2. **Structural supply shortage** — new condo supply in central Tokyo is chronically tight.
-3. **Tight rental market** — Miki Shoji Q1 2026 data shows office vacancy in the 5 central wards at **2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>; residential compact units in Minato and Chiyoda exhibit similarly low churn given elite-demand clustering.
+3. **Tight rental market** — Miki Shoji March 2026 monthly data shows office vacancy in the 5 central wards at **2.22%**<sup class="source-ref"><a href="#source-3" id="cite-3">3</a></sup>; residential compact units in Minato and Chiyoda exhibit similarly low churn given elite-demand clustering.
 
 Japan has **virtually no restrictions on foreign property ownership**. No visa, no PR, no government approval. I wrote this guide to answer: "So how do I actually start?"
 
