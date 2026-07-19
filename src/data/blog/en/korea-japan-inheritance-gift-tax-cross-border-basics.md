@@ -64,7 +64,7 @@ This is why “foreign national plus under ten years equals limited taxpayer” 
 
 ## 2. When does Japan’s seven-year gift addback actually apply?
 
-It did not switch immediately to seven years in 2024. For inheritances beginning on or before December 31, 2026, the previous three-year period applies.<sup class="source-ref"><a href="#source-1" id="cite-4">1</a></sup><sup class="source-ref"><a href="#source-4" id="cite-5">4</a></sup>
+Many assume it already became seven years in 2024, but the rule actually phases in more gradually. For inheritances beginning on or before December 31, 2026, the previous three-year period applies.<sup class="source-ref"><a href="#source-1" id="cite-4">1</a></sup><sup class="source-ref"><a href="#source-4" id="cite-5">4</a></sup>
 
 For inheritances beginning from January 1, 2027 through December 31, 2030, the period runs from January 1, 2024 to the date of death. The full seven-year lookback applies to inheritances beginning on or after January 1, 2031.
 
@@ -74,7 +74,7 @@ The gift date and the date the inheritance begins must therefore be tested toget
 
 ## 3. Is Korea’s recipient-based inheritance tax set for 2028?
 
-Not as enacted law. The Korean government published a legislative proposal to move from taxing the estate as a whole to taxing the property acquired by each heir.<sup class="source-ref"><a href="#source-7" id="cite-6">7</a></sup>
+Some assume this timing is already fixed, but it is not yet enacted law. The Korean government published a legislative proposal to move from taxing the estate as a whole to taxing the property acquired by each heir.<sup class="source-ref"><a href="#source-7" id="cite-6">7</a></sup>
 
 Around 2028 has been described as a target subject to legislation and implementation work. Parliamentary review and later legislation can change both the content and timing.
 
@@ -86,7 +86,7 @@ A separate proposal to cut the top rate was not part of this recipient-based ref
 
 Korea and Japan do not have a separate bilateral inheritance and gift tax treaty. The bilateral income tax treaty does not automatically settle inheritance or gift tax overlap.<sup class="source-ref"><a href="#source-6" id="cite-7">6</a></sup>
 
-Domestic foreign-tax-credit rules may reduce double taxation. Korea’s implementing rule, for example, provides a calculation and ceiling for crediting foreign inheritance tax.<sup class="source-ref"><a href="#source-5" id="cite-8">5</a></sup>
+I initially assumed that without a treaty, there was no way to avoid double taxation. Domestic foreign-tax-credit rules may reduce double taxation, however. Korea’s implementing rule, for example, provides a calculation and ceiling for crediting foreign inheritance tax.<sup class="source-ref"><a href="#source-5" id="cite-8">5</a></sup>
 
 Residual tax can remain because credit limits, valuation methods and filing dates differ. Tax paid in one country does not by itself prove that the liability in the other country is zero.
 

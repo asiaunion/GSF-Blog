@@ -176,6 +176,12 @@
 
 ## 📝 작업 로그
 
+### 2026-07-19
+- Voice Full A1(Wave A YMYL 첫 배치 3편) Claude initial drop 완료 — 상속·증여, 양도세, 구매 체크리스트. 사실층 전부 동결, 체크리스트 편은 이미 Voice Full 기준 충족 확인(no-op 권고)
+- GPT 완성도 리뷰 반영 → claude-final 확정(3편 전부): YMYL 질문형보다 "오해→데이터" 구조가 GSF-Ark 톤에 적합하다는 지적 채택, 사실·수치·H2 변경 0건. 보드(A1 3행) claude-final 갱신. checklist 편은 Cursor가 no-op 확정(cursor-verified, 배포 스킵)
+- Voice Full A2(Wave A 둘째 배치 3편: 임대차 계약·신축vs중고·J-REIT) Claude initial drop 완료 — 오해→데이터 원칙 선반영, 사실층 전부 동결. j-reit 편에서 8953 이미지 alt 옛명칭 잔존 발견(비변경, Cursor 참고 기록)
+- 다음: Joseph → GPT 완성도 리뷰(A2 3편) → Claude claude-final → AG Launch → Cursor 검증/배포. A1은 AG Launch 대기, A2 live 후 A3 해제 여부 확인
+
 ### 2026-07-18
 - Voice Full Wave B 13편 전체 live (파일럿 #6 + B1~B4) — Claude 주도·GPT 리뷰·AG 반영·Cursor 검증/배포
 - 시리즈 title·Tier1 #1 prod

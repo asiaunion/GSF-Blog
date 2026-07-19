@@ -32,12 +32,12 @@
 | B4 | 12 | `tokyo-hachioji-hino-akishima` | live | Ep.11 · Cursor 검증(100/PASS·재진술만·naver 신규)→prod |
 | B4 | 13 | `tokyo-ward-guide-series-prologue` | live | 프롤로그 · Cursor 검증(100/PASS·구조 동결·재배치만)→prod |
 | REF | — | `tokyo-machida-tama-inagi` | reference | Ep.12 · 재작성 금지 · 최종 비교 |
-| A1 | 14 | `korea-japan-inheritance-gift-tax-cross-border-basics` | queued | YMYL · 사실 문장 의미 보존 |
-| A1 | 15 | `korea-resident-japan-property-capital-gains-tax` | queued | YMYL · 세법 의미 보존 |
-| A1 | 16 | `buying-property-japan-checklist-before-you-commit` | queued | 법률/거래 체크리스트 보존 |
-| A2 | 17 | `tokyo-moving-contracts-two-notes` | queued | 계약 YMYL |
-| A2 | 18 | `japan-shinchiku-vs-chuko-mansion-investor-guide` | queued | 내진 기준 의미 보존 |
-| A2 | 19 | `j-reit-five-things-to-know` | queued | 투자 권유 톤 금지 |
+| A1 | 14 | `korea-japan-inheritance-gift-tax-cross-border-basics` | live | YMYL · Cursor 검증(100/PASS·사실층 동결·오해→데이터 3건·naver Cursor 재생성)→prod |
+| A1 | 15 | `korea-resident-japan-property-capital-gains-tax` | live | YMYL · Cursor 검증(100/PASS·5년·제118조의6 보존·대표문장/노트/콜백)→prod |
+| A1 | 16 | `buying-property-japan-checklist-before-you-commit` | cursor-verified | no-op 확정(GPT A+ · Cursor 게이트 승인 2026-07-19) · 변경 0건이라 AG/배포 스킵 · 본문 현행 live 유지 |
+| A2 | 17 | `tokyo-moving-contracts-two-notes` | claude | Claude initial drop 완료(오해→데이터 2건·노트문장·대표문장) · GPT 리뷰 대기 |
+| A2 | 18 | `japan-shinchiku-vs-chuko-mansion-investor-guide` | claude | Claude initial drop 완료(단정표현 완화 2건·노트문장·대표문장, stale fact table 미사용) · GPT 리뷰 대기 |
+| A2 | 19 | `j-reit-five-things-to-know` | claude | Claude initial drop 완료(대표문장·노트문장, 시나리오/수치 불변) · 8953 이미지 alt 잔존 이슈 Cursor 참고 기록 · GPT 리뷰 대기 |
 | A3 | 20 | `tokyo-office-vacancy-five-wards-2026` | queued | 월간 2.22% 정의 보존 |
 | A3 | 21 | `tokyo-real-estate-investment-complete-guide` | queued | 허브 spine 전면 금지 |
 | A3 | 22 | `nihonbashi-hamacho-walking-guide` | queued | 장소 사실·개업일 보존 |

@@ -48,6 +48,8 @@ citeSources:
 
 A Korean resident selling Japanese property should first check Japan's non-resident capital gains rules and the general 10.21% withholding requirement. In Korea, foreign-asset capital gains rules can apply to a resident who has maintained an address or residence in Korea continuously for at least five years by the sale date. Eligible Japanese tax may be handled through a capped credit or a deductible-expense election. Confirm the holding period, buyer's use, and both filing calendars before signing.
 
+**Even for the same sale, Japan and Korea apply different tests.**
+
 ---
 
 ## At a Glance
@@ -78,6 +80,8 @@ Japanese Property Sale
 Under Japanese tax law, capital gains from individual real estate transfers are subject to classified taxation (分離課税), meaning they are calculated and taxed independently from other income. The primary factor in determining the tax rate is the holding period.
 
 Tax rates differ significantly depending on whether the property is held for 5 years or less (short-term) or more than 5 years (long-term). Simply calculating the calendar period between the acquisition date and the sale date can lead to costly tax mistakes.
+
+Most assume the five years run simply from the acquisition date. The actual test is a little different.
 
 ### The "January 1 Rule"
 According to National Tax Agency (NTA) regulations, the holding period is evaluated as of **January 1 of the year in which the sale occurs**, rather than the actual transaction date. <sup><a href="#source-1" id="cite-1">1</a></sup>
@@ -146,13 +150,15 @@ Article 13 of the Japan–Korea Tax Convention permits Japan to tax gains from J
 - **Tax Rate**: The taxable amount and rate follow Korea's rules for foreign assets. Domestic-home exemptions or surcharge rules should not be copied across without checking their scope.
 
 ### Eliminating Double Taxation: The Foreign Tax Credit
-Where both countries tax the gain, Article 118-6 of Korea's Income Tax Act allows an election between a capped **Foreign Tax Credit (외국납부세액공제)** and treating eligible foreign tax as a deductible expense. The credit method reduces Korean capital gains tax only up to the statutory limit. <sup><a href="#source-8" id="cite-8">8</a></sup>
+It's easy to assume that Japanese tax paid is simply recognized in Korea, but it is only creditable up to the statutory limit. Where both countries tax the gain, Article 118-6 of Korea's Income Tax Act allows an election between a capped **Foreign Tax Credit (외국납부세액공제)** and treating eligible foreign tax as a deductible expense. The credit method reduces Korean capital gains tax only up to the statutory limit. <sup><a href="#source-8" id="cite-8">8</a></sup>
 
 > [!WARNING]
 > **Limits of the Foreign Tax Credit**
 > Under the credit method, eligible Japanese tax paid or payable is creditable only up to Korea's statutory limit. Amounts above the limit or outside the eligibility rules may not be fully offset. The deductible-expense election should be compared using the taxpayer's actual figures.
 
 > **GSF Note**
+>
+> Comparing the two systems, the filing date mattered more than the filing order.
 >
 > The Japanese and Korean filing deadlines may not align. If the Japanese amount is not final when the Korean return is due, confirm whether the case calls for an initial claim, supplemental evidence, or an amended claim with the competent office or an adviser.
 
@@ -213,6 +219,8 @@ GSF-Ark treats Japanese real estate investment as more than a calculation of ren
 This article summarizes the key regulations and procedures Korean residents should be aware of when selling Japanese real estate.
 
 The actual tax liability may vary depending on acquisition cost, deductible expenses, capital expenditures, ownership structure, and how Korean tax law is applied.
+
+Coming back to the opening line, the order of checks stays the same. Confirm each country's own test date first, then calculate the rate and the credit. Reversing that order is where mistakes creep in.
 
 Before completing a transaction, reviewing your individual situation with a cross-border tax professional in both Japan and Korea is the recommended approach.
 
