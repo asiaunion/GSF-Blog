@@ -177,6 +177,7 @@
 ## 📝 작업 로그
 
 ### 2026-07-18
+- Voice Full Wave B 13편 전체 live (파일럿 #6 + B1~B4) — Claude 주도·GPT 리뷰·AG 반영·Cursor 검증/배포
 - 시리즈 title·Tier1 #1 prod
 - Ep.12 SNS 발신 초안(X/Threads/LinkedIn) 생성 및 백업 저장
 - Ep.12 X 히어로 이미지 캐시 문제 원인 분석 및 해결 안내
