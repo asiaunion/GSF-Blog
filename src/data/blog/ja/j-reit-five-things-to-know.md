@@ -180,9 +180,9 @@ J-REITを検討する際は、最新の分配金利回り、円相場、価格�
   <picture>
   <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
-  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Retail Fund（8953）の株価・情報画面" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="日本都市ファンド（旧Japan Retail Fund、8953）の株価・情報画面" loading="lazy" decoding="async" />
 </picture>
-  <figcaption class="text-center text-sm text-foreground/75 mt-2">Japan Retail Fund（8953）の株価・情報画面</figcaption>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">日本都市ファンド（旧Japan Retail Fund、8953）の株価・情報画面</figcaption>
 </figure>
 
 *出典: investing.com ティッカー8953の画面引用（参考）。*

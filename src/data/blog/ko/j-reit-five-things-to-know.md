@@ -178,9 +178,9 @@ _계산 메모: 위 막대값은 표기한 가정값의 단순 합이며, 수익
   <picture>
   <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
-  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Retail Fund(8953) 관련 시세·정보 화면" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Metropolitan Fund(구 Japan Retail Fund, 8953) 관련 시세·정보 화면" loading="lazy" decoding="async" />
 </picture>
-  <figcaption class="text-center text-sm text-foreground/75 mt-2">Japan Retail Fund(8953) 관련 시세·정보 화면</figcaption>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">Japan Metropolitan Fund(구 Japan Retail Fund, 8953) 관련 시세·정보 화면</figcaption>
 </figure>
 
 *출처: investing.com 티커(8953) 조회 화면 인용(참고).*

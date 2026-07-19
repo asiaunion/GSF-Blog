@@ -180,9 +180,9 @@ Several numeric examples in this article are historical snapshots (mainly 2023 r
   <picture>
   <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.avif 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.avif 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.avif 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/avif" />
   <source srcset="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen-768.webp 768w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen-1280.webp 1280w, /assets/images/legacy/j-reit-japan-retail-fund-8953-screen.webp 1600w" sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 840px" type="image/webp" />
-  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Retail Fund (8953) price and facts screenshot" loading="lazy" decoding="async" />
+  <img src="/assets/images/legacy/j-reit-japan-retail-fund-8953-screen.png" alt="Japan Metropolitan Fund (formerly Japan Retail Fund, 8953) price and facts screenshot" loading="lazy" decoding="async" />
 </picture>
-  <figcaption class="text-center text-sm text-foreground/75 mt-2">Japan Retail Fund (8953) price and facts screenshot</figcaption>
+  <figcaption class="text-center text-sm text-foreground/75 mt-2">Japan Metropolitan Fund (formerly Japan Retail Fund, 8953) price and facts screenshot</figcaption>
 </figure>
 
 *Source: investing.com ticker 8953 (reference screenshot).*
