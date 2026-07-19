@@ -24,3 +24,11 @@
 - HTTP 코드: 200 OK
 - Deploy: `gsf-blog-gi2pgmuci` READY — 3로케일 라벨(2026년 3월 월별/March 2026 monthly/2026年3月の月次) curl 확인 3/3
 - 성공 기준 통과
+
+## [2026-07-19 18:38 JST] IndexNow Ping (허브 #2 — EN/JA 마무리 섹션 추가)
+
+- 대상 슬러그: `tokyo-real-estate-investment-complete-guide` (Joseph (a) 승인 — 로케일 대칭 회복)
+- 요청 URL: EN `/posts/` · JA `/ja/posts/` — 총 2개 (KO 본문 무변경으로 제외)
+- HTTP 코드: 200 OK
+- Deploy: `gsf-blog-fnmrkytr1` READY — EN "How to Use This Guide" / JA "このガイドの使い方" curl 확인 2/2
+- 성공 기준 통과
