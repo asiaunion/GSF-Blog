@@ -32,3 +32,11 @@
 - HTTP 코드: 200 OK
 - Deploy: `gsf-blog-fnmrkytr1` READY — EN "How to Use This Guide" / JA "このガイドの使い方" curl 확인 2/2
 - 성공 기준 통과
+
+## [2026-07-19 19:10 JST] IndexNow Ping (Voice Full A3 live — 2편)
+
+- 대상 슬러그: `tokyo-office-vacancy-five-wards-2026` · `nihonbashi-hamacho-walking-guide`
+- 요청 URL: 각 KO `/ko/posts/` · EN `/posts/` · JA `/ja/posts/` — 총 6개
+- HTTP 코드: 200 OK
+- Deploy: `gsf-blog-kvwhly27g` READY — 신규 문장 prod 반영 curl 확인(office KO/EN·hamacho KO/JA)
+- 성공 기준 통과 · **이로써 Voice Full Wave A 9편 전체 종료**

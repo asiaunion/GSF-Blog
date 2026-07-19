@@ -28,7 +28,7 @@
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
 | F3 | open | 허브 FA 패스: "공급 부족 — 구조적 타이트"·"엘리트 수요 집중→공실 전환 느림" 인과 2건 출처 확보 또는 완화 (`tokyo-real-estate-investment-complete-guide` 도입부, Joseph 2026-07-19 승인) | 출처 추가 또는 헤지 문구로 완화 · 3로케일 · validate PASS |
 
-**→ 다음 최우선:** **Voice Full A3** AG Launch(공실률·하마초 2편, 사전게이트 PASS) · 허브는 no-op+FA fix로 종결(#2 마무리 섹션 EN/JA 추가 완료, #3=F3 별도 FA 패스) · Wave A 9편 전체 종료 · Gate 레퍼럴 시계
+**→ 다음 최우선:** **Voice Full Wave A 9편 전체 종료(2026-07-19)** — A1·A2·A3 6편 live + 허브 no-op(FA fix·#2 로케일 대칭 완료). 잔여 후속: **F3**(허브 공급부족/엘리트수요 인과 FA 패스) · Gate 레퍼럴 시계(G1~G4) · 이후 신규 Part N 재개
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
