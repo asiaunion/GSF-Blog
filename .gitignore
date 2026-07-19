@@ -68,3 +68,4 @@ docs/verification/data/*.zip
 /test-*.js
 /test-*.ts
 /*.xlsx
+__pycache__/
