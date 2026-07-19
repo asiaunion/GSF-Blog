@@ -6,7 +6,7 @@
 
 | 필드 | 값 |
 |------|-----|
-| 최종 업데이트 | 2026-07-18 |
+| 최종 업데이트 | 2026-07-19 |
 | 프로젝트명 | GSF-Ark |
 | 상태 | 🟢 AdSense 7/7 재보류 — **D-001 Cursor 확정**: 게이트A/B·네이버주력·JA신규동결·Phase A′. Playbook+SEO_SPRINT |
 | 목표 + 기한 | Phase A′ 4주(refresh70/네이버) → ~8/12 게이트A 판정 |
@@ -177,11 +177,15 @@
 ## 📝 작업 로그
 
 ### 2026-07-19
+- deploy
 - Voice Full A1(Wave A YMYL 첫 배치 3편) Claude initial drop 완료 — 상속·증여, 양도세, 구매 체크리스트. 사실층 전부 동결, 체크리스트 편은 이미 Voice Full 기준 충족 확인(no-op 권고)
 - GPT 완성도 리뷰 반영 → claude-final 확정(3편 전부): YMYL 질문형보다 "오해→데이터" 구조가 GSF-Ark 톤에 적합하다는 지적 채택, 사실·수치·H2 변경 0건. 보드(A1 3행) claude-final 갱신. checklist 편은 Cursor가 no-op 확정(cursor-verified, 배포 스킵)
 - Voice Full A2(Wave A 둘째 배치 3편: 임대차 계약·신축vs중고·J-REIT) Claude initial drop 완료 — 오해→데이터 원칙 선반영, 사실층 전부 동결. j-reit 편에서 8953 이미지 alt 옛명칭 잔존 발견(비변경, Cursor 참고 기록)
 - A2 GPT 리뷰 반영 → claude-final 확정(평균 9.5/10): 도입부 오해 제시 + 판단변화형 노트 + 도입-대표문장-결론 3단 콜백 패턴으로 통일. j-reit 도입 오해 제시는 GPT 원안("오히려 그 반대")이 새 인과 리스크라 기존 헤지 방향으로 재작성. 보드(A2 3행) claude-final 갱신
 - 다음: Joseph → AG Launch(A1+A2 6편) → Cursor 검증/배포. A2 live 후 A3(오피스공실·허브가이드·니혼바시걷기) 해제 여부 확인
+- (A1+A2 6편 이후 진행) A2 3편 AG 반영·Cursor 검증 → prod live 완료 확인(보드 갱신됨)
+- Voice Full A3(Wave A 마지막 배치 3편) Claude initial drop 완료 — 오피스공실은 대표문장·노트문장 최소 삽입. 허브는 **no-op 권고**(spine 무손상 우선) + 작업 중 발견한 FA 인접 이슈 3건(Q1→3월 라벨 잔존·마무리 섹션 로케일 비대칭·미검증 인과 가능성) 비수정 기록. 니혼바시걷기는 대표문장만 추가, 노트문장은 허구1인칭 금지로 의도적 스킵
+- 다음: Joseph → GPT 완성도 리뷰(A3 3편, 허브는 no-op 타당성 검토 위주) → Claude claude-final → AG Launch → Cursor 검증/배포. A3 완료 시 Voice Full Wave A 9편 전체 종료
 
 ### 2026-07-18
 - Voice Full Wave B 13편 전체 live (파일럿 #6 + B1~B4) — Claude 주도·GPT 리뷰·AG 반영·Cursor 검증/배포
