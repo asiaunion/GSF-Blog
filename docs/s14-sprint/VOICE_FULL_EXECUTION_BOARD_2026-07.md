@@ -39,7 +39,7 @@
 | A2 | 18 | `japan-shinchiku-vs-chuko-mansion-investor-guide` | live | GPT 9.4/10 · AG 반영 → Cursor 검증(100/PASS·단정표현 재조정 확인·naver 발견문장 버그 Cursor 수정)→prod (2026-07-19) |
 | A2 | 19 | `j-reit-five-things-to-know` | live | GPT 9.6/10 · AG 반영 → Cursor 검증(100/PASS·8953 alt 유지 확인)→prod (2026-07-19) |
 | A3 | 20 | `tokyo-office-vacancy-five-wards-2026` | claude-final | GPT 9.7/10, 3건 중 2채택+1부분채택(주거시장 확장 새인과라 기각, "이 표" 범위로 한정) · AG Launch 대기 |
-| A3 | 21 | `tokyo-real-estate-investment-complete-guide` | live(FA fix only) | Voice Full no-op(GPT 9.9 동의) 유지 · Cursor FA 게이트: #1 "Q1 2026"→"2026년 3월 월별" 3로케일 교정(citeSources·자매글과 정합, validation 우회하던 오표기)+fact-audit row1 날짜토큰 동기화(100/PASS)→prod · #2 마무리 섹션 KO 전용·#3 공급부족/엘리트수요 미검증 인과 = spine·의미 변경이라 **Joseph 결정 대기**(자동수정 보류) |
+| A3 | 21 | `tokyo-real-estate-investment-complete-guide` | live(FA fix only) | Voice Full no-op(GPT 9.9 동의) 유지 · Cursor FA 게이트: #1 "Q1 2026"→"2026년 3월 월별" 3로케일 교정(citeSources·자매글과 정합, validation 우회하던 오표기)+fact-audit row1 날짜토큰 동기화(100/PASS)→prod · #2 마무리 섹션 EN/JA 추가 완료(Joseph (a) 승인 2026-07-19, 로케일 대칭 회복)·#3 공급부족/엘리트수요 인과 = OPEN_QUEUE **F3** 별도 FA 패스 등록(Joseph 동의) |
 | A3 | 22 | `nihonbashi-hamacho-walking-guide` | claude-final | GPT 9.6/10, 제안 3건 전부 채택(대표문장 재조정·실전팁·마무리 보강, 전부 3인칭) · 노트문장 스킵 유지(GPT도 동일판단) · AG Launch 대기 |
 
 ## slug별 필수 산출물

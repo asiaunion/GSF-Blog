@@ -241,3 +241,9 @@ No visa needed to *own*. To **live and manage** locally, you need a residence st
 - [ ] Local team — broker, scrivener, tax accountant, manager
 - [ ] FX scenarios — entry rate vs. 3–5yr exit
 - [ ] Review repair reserves — request *chōki shūzen keikaku*
+
+---
+
+## How to Use This Guide
+
+This article is a **hub**. Once you have the full map, follow the "deep-dive" links at the end of each chapter for detailed, data- and case-driven analysis. Tokyo real estate investment is not a topic a single article can cover. Bookmark this cluster and return to the chapter you need at each stage of your investment journey.
