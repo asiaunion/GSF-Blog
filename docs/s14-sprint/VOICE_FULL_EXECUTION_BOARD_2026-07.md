@@ -39,7 +39,7 @@
 | A2 | 18 | `japan-shinchiku-vs-chuko-mansion-investor-guide` | live | GPT 9.4/10 · AG 반영 → Cursor 검증(100/PASS·단정표현 재조정 확인·naver 발견문장 버그 Cursor 수정)→prod (2026-07-19) |
 | A2 | 19 | `j-reit-five-things-to-know` | live | GPT 9.6/10 · AG 반영 → Cursor 검증(100/PASS·8953 alt 유지 확인)→prod (2026-07-19) |
 | A3 | 20 | `tokyo-office-vacancy-five-wards-2026` | live | GPT 9.7/10 · AG 반영 → Cursor 검증(100/PASS·새사실0·spine 동결·주거시장 기각안 미반영 확인)→prod (2026-07-19) |
-| A3 | 21 | `tokyo-real-estate-investment-complete-guide` | live(FA fix only) | Voice Full no-op(GPT 9.9 동의) 유지 · Cursor FA 게이트: #1 "Q1 2026"→"2026년 3월 월별" 3로케일 교정(citeSources·자매글과 정합, validation 우회하던 오표기)+fact-audit row1 날짜토큰 동기화(100/PASS)→prod · #2 마무리 섹션 EN/JA 추가 완료(Joseph (a) 승인 2026-07-19, 로케일 대칭 회복)·#3 공급부족/엘리트수요 인과 = OPEN_QUEUE **F3** 별도 FA 패스 등록(Joseph 동의) |
+| A3 | 21 | `tokyo-real-estate-investment-complete-guide` | live | Voice Full no-op 유지 · FA #1 Q1→3월 월별 · #2 EN/JA 마무리 섹션 · **F3 done**(2026-07-20): 공급→가격지지·오피스→주거/엘리트 인과 2건 헤지(출처 신설 없음·수치 0삭제·validate 100)→prod |
 | A3 | 22 | `nihonbashi-hamacho-walking-guide` | live | GPT 9.6/10 · AG 반영 → Cursor 검증(100/PASS·3인칭만·허구 1인칭 노트 스킵 유지 확인)→prod (2026-07-19) |
 
 ## slug별 필수 산출물

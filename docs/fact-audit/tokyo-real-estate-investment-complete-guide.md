@@ -295,3 +295,14 @@
 - [x] All claims verified or softened
 - [x] `pnpm validate:post` exit 0
 - [x] Ready for Cursor sign-off (2026-07-18 SEO/link alignment)
+
+## 2026-07-20 Cursor FA pass F3 (supply / elite-demand causation)
+
+| # | Grade | Location / claim | Evidence checked | Cursor judgment | Action |
+|---|-------|------------------|------------------|-----------------|--------|
+| F3-1 | T1 | “도심 신축 맨션 공급이 구조적으로 타이트하여, 가격 하방을 탄탄히 지지” | H1–H16에 공급량·가격지지 인과 대응 claim 없음 · citeSources에 신축 공급 시계열 없음 | **FA — unsupported causal claim.** 공급 타이트 인식과 가격 하방 지지를 단정 | KO/EN/JA: “공급 조건”으로 재명명 + 인과는 지역·시기별 별도 확인 헤지 |
+| F3-2 | T1 | 오피스 공실률 2.22% 인용 뒤 “미나토·치요다 소형 주거도 엘리트 수요로 공실 전환이 구조적으로 느림” | H3은 오피스 2.22%만 검증 · 자매글 `tokyo-office-vacancy-five-wards-2026` FA는 오피스→주거 확장을 기각 | **FA — source-scope leap.** 미키 상사 월별표는 오피스만 | KO/EN/JA: 오피스 수치 유지 + 주거 공실·회전은 별도 자료 확인 헤지 · “엘리트 수요” 인과 삭제 |
+
+- [x] 출처 신설 없음 (Joseph F3: 출처 확보 **또는** 완화 — 완화 선택)
+- [x] 수치 삭제 0건 (2.22%·H1–H16 보존)
+- [x] Naver 초안 재생성

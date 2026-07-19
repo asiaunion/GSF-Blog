@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-real-estate-investment-complete-guide
+
+- 생성일시: 2026-07-20 08:16 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-real-estate-investment-complete-guide/
+- 제목: 도쿄 부동산 투자는 어떻게 시작하나 — 매수 절차·비용·세금 [2026]
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #JREIT #리츠투자 #맨션
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-real-estate-investment-complete-guide-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 도쿄 부동산 투자는 어떻게 시작하나 — 매수 절차·비용·세금 [2026]
+5. 카테고리 선택 후 발행
