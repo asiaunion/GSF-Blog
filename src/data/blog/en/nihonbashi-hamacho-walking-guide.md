@@ -37,6 +37,8 @@ citeSources:
 ---
 The walk from Nihonbashi to Hamacho is about 2.5km and fits comfortably into half a day. Start at Mitsukoshimae Station, pass through Muromachi, Kabutocho, and Ningyocho, then finish at Hamacho Park. The route combines long-established shops, Tokyo's financial district, a traditional shopping street, and a Sumida River stop.
 
+**What this route offers isn't a quick tour of famous sights — it's a chance to see, on foot, how different eras connect within one city.**
+
 *Part of the Nihonbashi Series. This post is the **fieldwork piece** — a 2.5km walking route with prices, timetables, and per-sqm data you can verify on foot. For the historical and symbolic backstory, see [Nihonbashi: The Origin of Japan](/posts/nihonbashi-the-origin-of-japan/). For the investment pipeline framework, see [Nihonbashi Redevelopment Roadmap](/posts/nihonbashi-mitsui-redevelopment-pipeline-three/).*
 
 This guide follows that route in order, with stops, walking times, and a sample schedule.
@@ -124,9 +126,13 @@ Behind Nihonbashi's new skyline are long-established shops and the history of it
 
 For a first visit, start at Mitsukoshimae in the morning and aim to reach Hamacho Park around lunchtime.
 
+Nihonbashi and Hamacho are less about landmark buildings than about how a city accumulates over time. The slower the walk, the more connections come into view.
+
 <!-- content-depth-v2 -->
 
 ## Walking Action: Session Summary & Check
+
+Lingering longer in whichever district interests you, rather than following the schedule exactly, is the better way to enjoy this route.
 
 - [ ] **Tradition**: Find the 'Kilometre Zero' marker at the center of Nihonbashi Bridge, the starting point of all roads in Japan.
 - [ ] **Innovation**: See how market data is visualized by “The HEART” inside KABUTO ONE.

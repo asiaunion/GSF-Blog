@@ -29,15 +29,19 @@ citeSources:
 references:
   - "https://www.e-miki.com/rent/assets/market/tokyo.xlsx"
 ---
-In March 2026, the average office vacancy rate across Tokyo’s five central wards—Chiyoda, Chuo, Minato, Shinjuku, and Shibuya—was **2.22%**. That figure does not mean demand is equally strong in every building. This guide stays within what Miki Shoji’s monthly vacancy and asking-rent table supports, then sets out the checks needed for ward and building comparisons.
+In March 2026, the average office vacancy rate across Tokyo's five central wards—Chiyoda, Chuo, Minato, Shinjuku, and Shibuya—was **2.22%**. That figure does not mean demand is equally strong in every building. This guide stays within what Miki Shoji's monthly vacancy and asking-rent table supports, then sets out the checks needed for ward and building comparisons.
+
+**A vacancy rate isn't the market's verdict — it's the starting point. What matters is reading the structure that produced the number.**
 
 ---
 
 ## 1. What does Tokyo’s 2.22% office vacancy rate mean?
 
-The average vacancy rate was **2.22% in March 2026**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>. It is a monthly observation in Miki Shoji’s table, not a Q1 average.
+The average vacancy rate was **2.22% in March 2026**<sup class="source-ref"><a href="#source-1" id="cite-1">1</a></sup>. It is a monthly observation in Miki Shoji's table, not a Q1 average.
 
 I read the figure as a lagging signal rather than a verdict on the whole market. The source reports vacancy and average **asking rent**; it does not establish effective rent, rent-free periods, or landlord bargaining power. Building-grade demand should not be inferred from 2.22% alone.
+
+What I kept coming back to while writing this wasn't the vacancy number itself, but where the source data stops — and where the real questions start. The same headline vacancy rate can mean very different things depending on new supply, relocation demand, and lease structure underneath it.
 
 ![Tokyo 5 Central Wards Office Vacancy Trend (Miki Shoji, Jan 2023–Mar 2026)](/assets/images/blog/tokyo-office-vacancy-chart-en.webp)
 
@@ -79,7 +83,9 @@ I recommend the following routine for monitoring the Tokyo office market:
 2.  Do not use the previously linked REINS Market Watch as office-leasing evidence; it covers metropolitan-area used-home sales.
 3.  Check effective rent and the supply pipeline separately with lease-term data and project-specific development schedules.
 
-**In short, 2.22% is the March 2026 average for Tokyo’s five central wards.** Use it as a starting point, then verify building-level vacancy, asking rent, and lease terms separately.
+**In short, 2.22% is the March 2026 average for Tokyo's five central wards.** Use it as a starting point, then verify building-level vacancy, asking rent, and lease terms separately.
+
+Reading the structure before the number is the safer way to use this table.
 
 <!-- content-depth-v2 -->
 

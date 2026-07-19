@@ -1,0 +1,14 @@
+# 네이버 블로그 초안: tokyo-office-vacancy-five-wards-2026
+
+- 생성일시: 2026-07-19 18:45 JST
+- 원문: https://gsfark.com/ko/posts/tokyo-office-vacancy-five-wards-2026/
+- 제목: 도쿄 오피스 공실률 2.22%: 도심 5구 2026 수급 해석
+- 카테고리: investment
+- 해시태그: #일본부동산 #도쿄부동산 #GSFArk #5구 #공실률 #도쿄
+
+## 붙여넣기 절차
+1. blog.naver.com/gsfark → 글쓰기
+2. 에디터 우측 상단 'HTML' 버튼 클릭
+3. tokyo-office-vacancy-five-wards-2026-naver.html 내용 전체 붙여넣기
+4. 제목 입력: 도쿄 오피스 공실률 2.22%: 도심 5구 2026 수급 해석
+5. 카테고리 선택 후 발행
