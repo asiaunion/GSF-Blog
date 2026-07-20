@@ -188,6 +188,8 @@
 - Voice Full A3(Wave A 마지막 배치 3편) Claude initial drop 완료 — 오피스공실은 대표문장·노트문장 최소 삽입. 허브는 **no-op 권고**(spine 무손상 우선) + 작업 중 발견한 FA 인접 이슈 3건(Q1→3월 라벨 잔존·마무리 섹션 로케일 비대칭·미검증 인과 가능성) 비수정 기록. 니혼바시걷기는 대표문장만 추가, 노트문장은 허구1인칭 금지로 의도적 스킵
 - A3 GPT 리뷰 반영 → claude-final 확정(9.7/9.9/9.6): 오피스공실 편은 GPT의 "주거 시장 확장" 제안을 새 인과로 판단해 기각, "이 표" 범위로 한정해 채택. 허브는 GPT도 no-op 전적 동의. **Voice Full Wave A 9편 전체 종료**(A1+A2 6편 live, A3 3편 claude-final — 허브는 no-op이라 AG 반영 자체 불필요, 나머지 2편만 AG Launch 대기)
 - 다음: Joseph → AG Launch(A3 중 no-op 아닌 2편) → Cursor 검증/배포. 허브에서 발견한 FA 인접 이슈 3건은 Cursor 확인 요청 상태로 별도 유지
+- 허브 이슈 #2·#3에 Claude 의견 상신: #2(마무리 섹션 KO 전용) → EN/JA 추가 권장(순수 내비게이션, 번역 누락 보완 성격 — Joseph 승인 + Cursor 3로케일 검증 게이트 유지), #3(공급부족·엘리트수요 인과) → 손대지 않고 별도 FA 패스 큐 등재 동의(office-vacancy 아티클의 기존 FA T1 전례와 동일 프로세스)
+- 세션 종료 (2026-07-20 11:39 JST) — Joseph #2 승인 여부·#3 FA 큐 등재가 다음 세션 첫 확인 사항
 
 ### 2026-07-18
 - Voice Full Wave B 13편 전체 live (파일럿 #6 + B1~B4) — Claude 주도·GPT 리뷰·AG 반영·Cursor 검증/배포
