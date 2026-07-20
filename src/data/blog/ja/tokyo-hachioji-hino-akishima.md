@@ -8,7 +8,6 @@ draft: false
 gates:
   draft_started: true
 lang: ja
-aiModel: "AG + ChatGPT + Claude"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-hachioji-hino-akishima-hero-og.jpg"
 tags:

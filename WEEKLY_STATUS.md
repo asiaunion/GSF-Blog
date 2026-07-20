@@ -39,7 +39,7 @@
 
 | 기한 | 항목 | 상태 |
 |------|------|------|
-| 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) |
+| 6/19 | E-E-A-T 페이지 + About + Author Box + Essay 1 + 핫픽스 | ✅ 라이브 (`49648c9`) — [`SESSION_CLOSURE`](docs/archive/GSF_ARK_SESSION_CLOSURE_20260619.md) |
 | 6/23 | (원계획) E-E-A-T 배포 | ✅ 6/19 조기 완료 |
 | 7/2 | GSFArk AdSense 재제출 | ✅ 완료 — 검토 요청 제출 완료, 결과 대기 중 |
 | 7/10~15 | tokyokorean.net Plan B 런칭 + AdSense 신청 | ⏸ **보류** — D-001 게이트B(70%색인+유입2주) 전 신청 안 함 |
@@ -165,9 +165,9 @@
 |------|------|
 | `docs/AG_TASK_2026-06-15_adsense-sitemap-fix.md` | sitemap admin 제거 AG 지시서 |
 | `docs/AG_TASK_2026-06-15_planb-tokyokorean.md` | Plan B tokyokorean.net AG 지시서 |
-| `docs/AG_TASK_2026-06-19_adsense-pages.md` | E-E-A-T 페이지 추가 + About 수정 + Author Box AG 지시서 |
-| `docs/GSF_ARK_SESSION_CLOSURE_20260625.md` | **2026-06-25 세션 마감** — Essay 3 검증 + AdSense·Topic Hubs |
-| `docs/AG_TASK_2026-06-19_deploy-bundle.md` | E-E-A-T + essay 통합 배포 번들 |
+| `docs/archive/AG_TASK_2026-06-19_adsense-pages.md` | E-E-A-T 페이지 추가 + About 수정 + Author Box AG 지시서 (스냅샷) |
+| `docs/archive/GSF_ARK_SESSION_CLOSURE_20260625.md` | **2026-06-25 세션 마감** — Essay 3 검증 + AdSense·Topic Hubs (스냅샷) |
+| `docs/archive/AG_TASK_2026-06-19_deploy-bundle.md` | E-E-A-T + essay 통합 배포 번들 (스냅샷) |
 | `docs/kpi-archive/` | 주간 KPI 기록 (확정 후 운영) |
 | `docs/REGION_EXPANSION_PLAN.md` | RE 트랙 — 지역 SSOT 일반화·수도권 파일럿 AG 슬라이스 |
 | `docs/REGION_EXPANSION_AG_RUNBOOK.md` | RE AG 실행 runbook (단계별 §RE-N 착수) |
@@ -285,7 +285,7 @@
 - Zoho Mail JP Lite 도입 (Forever Free 일본 지원 종료 확인)
 - contact@gsfark.com 생성 및 수발신 검증
 - OnlyDomains DNS에 MX/SPF/DKIM/DMARC 레코드 설정 완료
-- **Cursor 검증 완료** — `validate:post` 100·`verify:og-social` PASS · EN/KO/JA URL 200 · Vercel Production Ready · [`SESSION_CLOSURE`](docs/GSF_ARK_SESSION_CLOSURE_20260625.md)
+- **Cursor 검증 완료** — `validate:post` 100·`verify:og-social` PASS · EN/KO/JA URL 200 · Vercel Production Ready · [`SESSION_CLOSURE`](docs/archive/GSF_ARK_SESSION_CLOSURE_20260625.md)
 - **홈·목록 노출** — `pubDatetime` 6/26 10:00 JST 스케줄 (직접 URL 접근 200, 목록·RSS는 6/26 이후)
 - Essay 3 (why-i-chose-nihonbashi) KO/EN/JA draft: false 변경 및 6/25 날짜 적용 완료
 - validate:post 검증 성공 (100점)
@@ -318,7 +318,7 @@
 | **About E-E-A-T** | 니혼바시·타임라인·pillar·출처 문단 | `e48b8c0` |
 | **Author Card** | 포스트 하단 4 CTA | `16c9155` |
 | **타임라인 링크** | accent + 분리 CTA 줄 | `cdd40bb`, `49648c9` |
-| **SSOT** | [`GSF_ARK_SESSION_CLOSURE_20260619.md`](docs/GSF_ARK_SESSION_CLOSURE_20260619.md) | `main` `49648c9` |
+| **SSOT** | [`GSF_ARK_SESSION_CLOSURE_20260619.md`](docs/archive/GSF_ARK_SESSION_CLOSURE_20260619.md) | `main` `49648c9` |
 | **다음** | Joseph 라이브 스팟 → 7월 초 AdSense 재제출 | |
 
 ### 2026-06-19 — AdSense E-E-A-T 작업 설계 + Essay 1 초안
@@ -326,7 +326,7 @@
 | 항목 | 내용 | 파일 |
 |------|------|------|
 | GPT 제안 검토 | mission·methodology·author·About·Essay 5편 항목별 검증 완료 | — |
-| AG 지시서 | E-E-A-T 페이지 4개 TASK 작성 | `docs/AG_TASK_2026-06-19_adsense-pages.md` |
+| AG 지시서 | E-E-A-T 페이지 4개 TASK 작성 | `docs/archive/AG_TASK_2026-06-19_adsense-pages.md` |
 | Essay 1 초안 | "What Surprised Me Most About Buying Property in Japan" (draft:true) | `src/data/blog/en/buying-property-japan-surprises-foreign-investor.md` |
 | About en.md 발견 | 2026 니혼바시 콘도 매입 경험 기재 확인 → Essay 소재 활용 | — |
 | 재제출 일정 | 6/29~30 → 7월 초로 조정 (E-E-A-T 작업 완료 후) | — |

@@ -1,6 +1,28 @@
 # GSF-Blog — Antigravity agent notes
 
-**Canonical path:** `/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog`
+**Canonical path:** `/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog`  
+*(작업 루트는 보통 `GSF-Ark` — 이 파일은 그 루트의 에이전트 부트.)*
+
+---
+
+## 세션 부트 — 문서 진입점 (= 현행 allowlist) (2026-07-20+)
+
+**상태(지금 어디까지)는 한곳만.** 아래 **나열된 문서와 그 직링크**만 “현행(SSOT)”이다.  
+진입점에 없는 문서(감사·AG_TASK·SESSION_CLOSURE·`docs/archive/` 등)는 **그 시점 스냅샷** — 현재 상태의 근거로 쓰지 말 것. 별도 allowlist 파일을 두지 않는다.
+
+세션 시작 시 이 순서만:
+
+1. **상태** — [`docs/s14-sprint/OPEN_QUEUE.md`](docs/s14-sprint/OPEN_QUEUE.md) (`status: open` · Gate G1–G4)
+2. **게이트·금지** — [`docs/ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](docs/ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) (D-001)
+3. **발행 HARD/FLEX** — [`docs/CONTENT_PUBLISHING_PROCESS_2026-07.md`](docs/CONTENT_PUBLISHING_PROCESS_2026-07.md)
+4. **글쓰기** — [`docs/SEO_WRITING_GUIDE_2026-07.md`](docs/SEO_WRITING_GUIDE_2026-07.md)
+5. **승인 후만** — [`docs/DEFERRED_AFTER_ADSENSE.md`](docs/DEFERRED_AFTER_ADSENSE.md)
+6. **TokyoKorean** — `../TokyoKorean/WEEKLY_STATUS.md` **[HUB]** (별도 리포 · 게이트 B)
+
+필요 시에만 위 문서의 직링크(예: `STATUS.md` · Sprint · CONTENT_SEO)를 탄다.  
+상태 문장을 쓸 때 `(YYYY-MM-DD 기준)`을 붙인다. 스냅샷 이동: `docs/archive/` (동결 창·배치).
+
+---
 
 ## Image work (auto — no extra user command)
 

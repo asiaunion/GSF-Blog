@@ -6,7 +6,6 @@ modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: ja
-aiModel: "Cursor + ChatGPT 5.5 (KO voice final)"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-kokubunji-kunitachi-fuchu-tachikawa-hero-og.jpg"
 tags:

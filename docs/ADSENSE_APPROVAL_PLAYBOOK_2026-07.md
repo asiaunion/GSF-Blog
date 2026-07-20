@@ -7,7 +7,7 @@
 > **발행 프로세스·글쓰기**: [`CONTENT_PUBLISHING_PROCESS_2026-07.md`](./CONTENT_PUBLISHING_PROCESS_2026-07.md) (**§0.1 HARD/FLEX**) · [`SEO_WRITING_GUIDE_2026-07.md`](./SEO_WRITING_GUIDE_2026-07.md) (§F.3–§F.4)  
 > **외부 검증 게이트**: [`GSF_EXTERNAL_VERIFICATION_POLICY.md`](./GSF_EXTERNAL_VERIFICATION_POLICY.md) · GSF-OS **D-004**  
 > **축적 루프 게이트**: [`GSF_COMPOUNDING_LOOP_POLICY.md`](./GSF_COMPOUNDING_LOOP_POLICY.md) · GSF-OS **D-005** · §F.5  
-> **선행 감사**: [`../adsense_audit_report_2026-07-15.md`](../adsense_audit_report_2026-07-15.md)
+> **선행 감사 (스냅샷 — 상태 근거 금지)**: [`archive/adsense_audit_report_2026-07-15.md`](./archive/adsense_audit_report_2026-07-15.md)
 
 ---
 
@@ -46,6 +46,24 @@ AdSense 보류의 핵은 **YMYL + 외부 이용 신호(트래픽) 부재**다.
 | 6 | Ark와 **동시 신규 신청 금지** |
 
 **경합**: 먼저 통과한 쪽이 신청 → 승인 후 타 사이트를 같은 pub에 추가.
+
+### 투입 배분 (승인 전 · 2026-07-20)
+
+| 축 | 비중 | 내용 |
+|----|------|------|
+| Plan A 분자 | ~70% | Ark 네이버 게시·레퍼럴 시계 · Gate A 잔여 |
+| Plan B 저비용 | ~15% | TK 색인 실측 → 재요청 · TK 네이버 시계 기산 |
+| 문서·표면 정리 | ~15% | 판정 문구·aiModel 등 (대량 표면 변경 아님) |
+
+### Week 4 사전 등록 트리거 (~8/12 · Plan B 비중)
+
+아래 **둘 다** 충족 시에만 B 비중 상향을 **자동 안건**으로 올린다. 미충족 시 **70/15/15 유지 · 재론 없음**.
+
+1. Gate A의 GSC 조건(노출 ≥200 **또는** 평균순위 ≤40 **또는** 순위+15pt·노출 2×) **미충족**
+2. TK 발행 포스트 색인 **≥70%** 확인
+
+**해제되지 않는 HARD**: Ark+TK 동시 신규 신청 금지. 트리거가 열려도 Ark 네이버 분자(Gate A-2)를 끄지 않음.  
+계정 승인 후 gsfark 추가는 **별도 사이트 심사** — 게이트 A 면제 아님.
 
 ---
 

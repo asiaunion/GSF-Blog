@@ -6,7 +6,6 @@ modDatetime: 2026-07-18T21:11:00+09:00
 author: GSF
 draft: false
 lang: en
-aiModel: "Gemini 2.5 Pro"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-toshima-nakano-suginami-hero-og.jpg"
 tags:

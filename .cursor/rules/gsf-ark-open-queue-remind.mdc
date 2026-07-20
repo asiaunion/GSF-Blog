@@ -5,7 +5,8 @@ alwaysApply: true
 
 # GSF-Ark Open Queue reminders (Cursor)
 
-**SSOT:** `docs/s14-sprint/OPEN_QUEUE.md`
+**SSOT:** `docs/s14-sprint/OPEN_QUEUE.md`  
+**문서 진입(=현행 allowlist):** 리포 `AGENTS.md` 「세션 부트」— 진입점에 없는 문서는 스냅샷(상태 근거 금지)  
 **신규 발행:** `docs/PART_N_STABLE_PIPELINE_2026-07.md` (Mode C/B/V · Ep.12=Mode C)
 (AdSense **승인 후** 과제는 별도 `docs/DEFERRED_AFTER_ADSENSE.md`)
 

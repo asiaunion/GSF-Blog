@@ -10,7 +10,6 @@ gates:
   cursor_passed: true
   cursor_passed_at: "2026-07-18"
 lang: ko
-aiModel: "Cursor Mode C · Data-journalism 70/30"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-machida-tama-inagi-hero-og.jpg"
 tags:

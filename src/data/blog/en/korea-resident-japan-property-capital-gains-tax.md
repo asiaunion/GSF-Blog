@@ -6,7 +6,6 @@ modDatetime: 2026-07-18T18:53:00+09:00
 author: Joseph KIM
 draft: false
 lang: en
-aiModel: "Gemini 3.1 Pro"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/korea-resident-japan-property-capital-gains-tax-hero-og.jpg"
 tags:

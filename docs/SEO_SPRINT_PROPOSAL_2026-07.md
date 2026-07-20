@@ -5,7 +5,7 @@
 > **콘텐츠 SEO 재가중·백필**: [`CONTENT_SEO_STRATEGY_2026-07.md`](./CONTENT_SEO_STRATEGY_2026-07.md) (Cursor §F.2)
 > **v2.2 (2026-07-17 Cursor)**: 주당 편수·강도 = FLEX. HARD = PROCESS §0.1 (§1–4 범위·재신청 전 2주 대량 금지 등).
 > **전제 (재논의 안 함)**: AdSense 핵 = YMYL + 트래픽 부재 · JA 신규 발행 동결 · 네이버→티스토리가 주 유입 · Google은 Body/롱테일만 · 게이트 A/B (Cursor 2026-07-16 확정안)
-> **refs**: `adsense_audit_report_2026-07-15.md` · `docs/EDITORIAL_TOPIC_POLICY.md` · `docs/SEO_JA_CLUSTER_FOCUS.md` · `TokyoKorean/docs/NAVER_DAUM_BACKLINK_STRATEGY.md` · `GSF-OS/STRATEGIC_DECISIONS.md` D-001
+> **refs**: `archive/adsense_audit_report_2026-07-15.md` (스냅샷) · `docs/EDITORIAL_TOPIC_POLICY.md` · `docs/SEO_JA_CLUSTER_FOCUS.md` · `TokyoKorean/docs/NAVER_DAUM_BACKLINK_STRATEGY.md` · `GSF-OS/STRATEGIC_DECISIONS.md` D-001
 
 **Cursor §F.1 반영 (백로그)**: `#4` = 구매절차 허브-상세 계층화 (`tokyo-real-estate-investment-complete-guide` 허브). 원안 `j-reit-five-things-to-know`는 Week 4 여유. `#10` 유지.
 
@@ -117,8 +117,13 @@
 ### 3.4 재측정
 
 - 갱신 후 **14일** 시점에 쿼리별 노출·순위 1차 비교, **28일** 롤링로 확정 판정
-- 판정 기록: `WEEKLY_KPI_REVIEW.md`의 `refreshed_slugs` + 결과 (개선/무반응/악화)
-- **악화 시 롤백 규칙**: title 갱신 후 28일 시점 클릭·순위 모두 악화면 이전 title로 복원 (frontmatter 이력은 git이 담당)
+- 판정 기록: `WEEKLY_KPI_REVIEW.md`의 `refreshed_slugs` + 결과 (개선/부분 성공/무반응/악화)
+- **판정 정의 (2026-07-20 Cursor — 제로클릭 보정)**:
+  - **개선**: 타깃 쿼리 순위 +10pt 이상 **또는** 페이지 노출 2× 이상 (기존 §11.2와 동일)
+  - **부분 성공**: 노출·순위가 개선됐으나 클릭이 평탄/감소 — **refresh 실패로 보지 않음** (AI Overviews·제로클릭 환경). 롤백 금지
+  - **무반응**: 노출·순위·클릭 모두 유의미 변화 없음
+  - **악화**: 클릭·순위 **모두** 악화
+- **악화 시 롤백 규칙**: title 갱신 후 28일 시점 **클릭·순위 모두 악화**면 이전 title로 복원 (frontmatter 이력은 git이 담당). 부분 성공·무반응은 롤백하지 않음
 - 같은 URL 재갱신은 최소 28일 간격
 
 ---

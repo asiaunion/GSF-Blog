@@ -14,16 +14,16 @@
 | japan-shinchiku-vs-chuko-mansion-investor-guide | #1 | 일본 신축 중고 맨션 차이 | done | done | **done** | live | live | **live** | [naver](https://blog.naver.com/gsfark/224349002310) | **done** |
 | korea-japan-inheritance-gift-tax-cross-border-basics | #2 | 한일 상속세 이중과세 | done | done | — | live | live | **live** | | **done** (§1–4·Cursor) |
 | tokyo-hachioji-hino-akishima | #3 | 하치오지 집값 | done | done | — | live | live | **live** | | **done** (§1–4·Cursor) |
-| tokyo-korean-community-beyond-shinokubo | #6 | 도쿄 한인타운 | done | done | — | live | live | **live** | 발행 대기 | **done** (§1–4·Cursor) |
-| buying-property-japan-checklist-before-you-commit | #5 | 일본 맨션 구매 주의사항 | done | done | — | live | live | **live** | 발행 대기 | **done** (SEO+FA·Cursor) |
+| tokyo-korean-community-beyond-shinokubo | #6 | 도쿄 한인타운 | done | done | — | live | live | **live** | [naver](https://blog.naver.com/gsfark/224352566459) | **done** (§1–4·Cursor) |
+| buying-property-japan-checklist-before-you-commit | #5 | 일본 맨션 구매 주의사항 | done | done | — | live | live | **live** | [naver](https://blog.naver.com/gsfark/224352568086) | **done** (SEO+FA·Cursor) |
 | tokyo-moving-contracts-two-notes | #7 | 일본 임대차 계약 | done | done | — | live | live | **live** | | **done** (SEO+FA·Cursor backup) |
 
 ## Joseph 판단 필요
 
-- Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 3URL.
+- Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 다수 URL (#6·#5 포함 2026-07-20).
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** **Voice Full #6 파일럿** Claude 주도 → GPT 완성도 리뷰 → AG 반영 → Cursor 최종 검증 · #6 네이버 Joseph 발행 대기 · Gate A 레퍼럴
-  - **병행:** N2(GSC 선택) · Gate A 레퍼럴 2주 (네이버 방금 발행으로 분자 시작)
+  - **지금:** Gate A **레퍼럴 2주** 감시 (네이버 #6·#5 발행으로 분자 유지) · TK는 색인 재요청(0%→≥70%)이 병목
+  - **병행:** N2(GSC 선택) · Week 4 B-비중 트리거(Playbook §2) · aiModel 제거 **Cursor PASS** (커밋 Joseph)
 
 ## 이번 배치 메모
 

@@ -1,9 +1,10 @@
 # AdSense 재승인 종합 분석 및 전략 결정 — 2026-07-15
 
+> **📸 스냅샷** (2026-07-15) — `docs/archive/` 이동 2026-07-20. **현재 상태·게이트 근거로 쓰지 말 것.** 현행: [`../ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](../ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) · [`../../AGENTS.md`](../../AGENTS.md) 부트.
 > **작성자**: Claude (Chat)
-> **Cursor 확정 Playbook (2026-07-17)**: [`docs/ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](docs/ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) · SEO: [`docs/SEO_SPRINT_PROPOSAL_2026-07.md`](docs/SEO_SPRINT_PROPOSAL_2026-07.md) · D-001 개정
-> **목적**: 7/14~7/15 세션에서 분석한 GSC 색인 데이터·기술 감사·근본원인 재진단·Plan A/B 전략 결정을 하나의 문서로 고정. **ACTIVITY_LOG 요약 3줄만 보고 이 문서를 못 찾는 일이 없도록, WEEKLY_STATUS·STRATEGIC_DECISIONS에서 이 파일을 직접 링크함.**
-> **선행 문서**: `adsense_audit_report_2026-06-13.md` (동일 폴더) — ads.txt/consent-gate 진단. 이 문서는 그 이후 진행분(6/13→7/15)을 다룸.
+> **Cursor 확정 Playbook (2026-07-17)**: [`../ADSENSE_APPROVAL_PLAYBOOK_2026-07.md`](../ADSENSE_APPROVAL_PLAYBOOK_2026-07.md) · SEO: [`../SEO_SPRINT_PROPOSAL_2026-07.md`](../SEO_SPRINT_PROPOSAL_2026-07.md) · D-001 개정
+> **목적**: 7/14~7/15 세션에서 분석한 GSC 색인 데이터·기술 감사·근본원인 재진단·Plan A/B 전략 결정을 하나의 문서로 고정.
+> **선행 문서**: `adsense_audit_report_2026-06-13.md` (당시 동일 폴더) — ads.txt/consent-gate 진단. 이 문서는 그 이후 진행분(6/13→7/15)을 다룸.
 
 ---
 

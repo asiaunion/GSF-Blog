@@ -6,7 +6,6 @@ modDatetime: 2026-07-18T13:00:00+09:00
 author: GSF
 draft: false
 lang: ja
-aiModel: "Claude Sonnet 4.6"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-adachi-katsushika-edogawa-hero-og.jpg"
 tags:

@@ -6,7 +6,6 @@ modDatetime: 2026-07-18T21:30:00+09:00
 author: GSF
 draft: false
 lang: ko
-aiModel: "Gemini 3.1 Pro"
 category: investment
 ogImage: "https://gsfark.com/assets/images/blog/tokyo-musashino-mitaka-chofu-hero-og.jpg"
 tags:

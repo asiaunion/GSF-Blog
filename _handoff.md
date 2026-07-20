@@ -871,3 +871,25 @@
 - 작업 내용: Voice Full A1 패키지 2편 KO/EN/JA 반영 완료 (korea-japan-inheritance-gift-tax-cross-border-basics, korea-resident-japan-property-capital-gains-tax)
 - 상태: ag-applied (validate 100 PASS, naver-drafts 갱신 완료)
 - 다음: Cursor 최종 검증 후 배포
+
+## [2026-07-20 20:28] Cursor 검증 대기
+- 작업 내용: Voice Full A3 Phase (KO/EN/JA 반영 + Naver 재생성 + validate PASS)
+- 대상 슬러그: tokyo-office-vacancy-five-wards-2026, nihonbashi-hamacho-walking-guide
+- 다음: Cursor 최종 검증(diff 확인 및 배포)
+- SSOT: docs/s14-sprint/VOICE_FULL_EXECUTION_BOARD_2026-07.md 동기화 완료
+
+## [2026-07-20 23:33 JST] AG 대기 — AdSense 시계 Week 완료 (Cursor 검증 대기)
+- 작업 내용: AdSense 시계 Week 완료
+- Wave A: #6 URL=https://blog.naver.com/gsfark/224352566459 / #5 URL=https://blog.naver.com/gsfark/224352568086
+- Wave B: aiModel 제거 31개 파일 · modDatetime 변경 0
+- Wave C: 색인 0/20 (0%) · 네이버 게시 3편 · 기산일=2026-07-20
+- Wave D: 리다이렉트 잔존 Y
+- refs: STATUS · TokyoKorean/WEEKLY · aiModel 제거 파일
+- 다음: Cursor 검증 및 hub:log 기록
+
+## [2026-07-20 23:40 JST] Cursor 검증 PASS — AdSense 시계 Week
+- Wave A: STATUS #6·#5 네이버 URL 정합 · HTTP 200 스팟체크 PASS
+- Wave B: `rg aiModel` = 0 · blog diff = 31 deletions only · modDatetime 변경 0 PASS (미커밋 — Joseph 지시 시 commit)
+- Wave C: TK 실측 0/20 포스트 · 핵심페이지 색인 · 레퍼럴 기산 2026-07-20 확인 · WEEKLY [HUB] Cursor가 병목(색인0%) 반영
+- Wave D: `/ja/mission` → 308 trailing slash · `/tags/fx/` → 200. GSC「리디렉션 오류」는 slash 이슈 가능 — **코드 변경 보류**, GSC 잔존만 재확인
+- 다음: Joseph (1) aiModel 커밋 여부 (2) TK 미색인 URL 재요청 (3) Ark/TK GA4 레퍼럴 감시
