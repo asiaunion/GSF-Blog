@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T08:35:00+09:00
+modDatetime: 2026-07-30T08:40:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -102,9 +102,7 @@ On the same basis (2025 transactions · per m² · 70 m² conversion):
 
 **Short answer.** Nishitokyo’s city average is about **¥173,000** per m² (**~24%**) below Nerima, and about **¥372,000** (**~40%**) below Suginami. Versus the 23-ward weighted average, it sits near **half**. Neighboring on the map does not make “priced like the 23 wards” a fair claim.
 
-Why no Nerima/Suginami neighborhood tables here? This section asks how close **city averages** are to those neighbors — and the table above answers that. Neighborhood detail comes next, inside Nishitokyo. (For Nerima and Suginami neighborhood reads, see [Ep.7](/posts/tokyo-kita-arakawa-itabashi-nerima/) and [Ep.5](/posts/tokyo-toshima-nakano-suginami/).)
-
-Split Nishitokyo by neighborhood name, and gaps the city average hides appear.
+Even inside Nishitokyo, the mood changes once you go down to neighborhoods.
 
 | Neighborhood (chō) | Deals | Price / m² | 70 m² equiv. |
 |--------------------|------:|-----------:|-------------:|
@@ -112,7 +110,13 @@ Split Nishitokyo by neighborhood name, and gaps the city average hides appear.
 | Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~**¥38.50 million** |
 | Tanashichō (田無町) | 33 | **¥537,000** | ~**¥37.59 million** |
 
-Among neighborhoods with 30+ deals, the spread is about **¥150,000** per m². Yatochō (**¥689,000**) sits much closer to Nerima’s city average (**¥732,000**); Tanashichō sits below Nishitokyo’s own average. One sentence — “next to the center” — cannot cover either table.
+Among neighborhoods with 30+ deals, the spread is already about **¥150,000** per m².
+
+Yatochō at **¥689,000** / m² sits close to Nerima’s city average (**¥732,000** / m²), while Tanashichō sits below Nishitokyo’s own average.
+
+In the end, **the name “Nishitokyo” alone cannot explain actual prices. Even inside one city, the market you feel changes a lot by neighborhood.**
+
+**“Next to the center” is too thin a label — the price gap inside Nishitokyo itself is larger than it looks.**
 
 ---
 
