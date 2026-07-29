@@ -114,7 +114,10 @@
       "tier": "primary",
       "layer": "A",
       "method": "district_price",
-      "evidence": { "count": 36, "name": "谷戸町" },
+      "evidence": {
+        "count": 36,
+        "name": "谷戸町"
+      },
       "footnote_required": true,
       "used_in_draft": true
     },
@@ -126,7 +129,10 @@
       "tier": "primary",
       "layer": "A",
       "method": "district_price",
-      "evidence": { "count": 32, "name": "ひばりが丘" },
+      "evidence": {
+        "count": 32,
+        "name": "ひばりが丘"
+      },
       "footnote_required": true,
       "used_in_draft": true
     },
@@ -138,7 +144,10 @@
       "tier": "primary",
       "layer": "A",
       "method": "district_price",
-      "evidence": { "count": 33, "name": "田無町" },
+      "evidence": {
+        "count": 33,
+        "name": "田無町"
+      },
       "footnote_required": true,
       "used_in_draft": true
     },
@@ -150,7 +159,10 @@
       "tier": "primary",
       "layer": "A",
       "method": "district_price",
-      "evidence": { "count": 51, "name": "花小金井南町" },
+      "evidence": {
+        "count": 51,
+        "name": "花小金井南町"
+      },
       "footnote_required": true,
       "used_in_draft": true
     },
@@ -162,7 +174,10 @@
       "tier": "primary",
       "layer": "A",
       "method": "district_price",
-      "evidence": { "count": 66, "name": "本町" },
+      "evidence": {
+        "count": 66,
+        "name": "本町"
+      },
       "footnote_required": true,
       "used_in_draft": true
     },
@@ -238,7 +253,7 @@
         "benchmark": "population_forecast.wards.西東京市.change_pct"
       },
       "footnote_required": false,
-      "used_in_draft": true
+      "used_in_draft": false
     },
     {
       "id": "POP-kodaira-2040",
@@ -252,7 +267,7 @@
         "benchmark": "population_forecast.wards.小平市.change_pct"
       },
       "footnote_required": false,
-      "used_in_draft": true
+      "used_in_draft": false
     },
     {
       "id": "POP-koganei-2040",
@@ -266,7 +281,7 @@
         "benchmark": "population_forecast.wards.小金井市.change_pct"
       },
       "footnote_required": false,
-      "used_in_draft": true
+      "used_in_draft": false
     }
   ],
   "arithmetic_checks": [

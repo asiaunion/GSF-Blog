@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T08:40:00+09:00
+modDatetime: 2026-07-30T08:50:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -25,7 +25,6 @@ tags:
   - "Chuo Line"
 sources:
   - "https://www.reinfolib.mlit.go.jp/ptk/"
-  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - "https://transit.yahoo.co.jp/"
   - "https://suumo.jp/"
   - "https://suumo.jp/chintai/soba/tokyo/sc_nishitokyo/"
@@ -35,8 +34,6 @@ sources:
 citeSources:
   - label: "MLIT Real Estate Information Library — Transaction Price Data (Q1–Q4 2025)"
     url: "https://www.reinfolib.mlit.go.jp/ptk/"
-  - label: "Tokyo Population Outlook Benchmark (2020→2040)"
-    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/js-index.htm"
   - label: "Yahoo! Transit — Commute times (2026-07-29 · weekday morning arrival reverse lookup)"
     url: "https://transit.yahoo.co.jp/"
   - label: "SUUMO Rent Market (Nishitokyo City 1R · snapshot)"
@@ -69,7 +66,6 @@ In this article we put **Nishitokyo, Kodaira, and Koganei** on the same scale: *
 - From Musashi-Koganei (Koganei, Chuo Line) to Shinjuku takes about **28 minutes with no transfer**. From Hibarigaoka (Nishitokyo) to the same destination: about **40 minutes with one transfer**.
 - In this sample, **the rail line** (direct access and transfer friction) explains the three-city price order better than map distance.
 - Even within Nishitokyo, neighborhood prices diverge — one city name is not enough.
-- Population outlook alone does not explain the price ranking among the three cities.
 
 ---
 
@@ -96,9 +92,7 @@ On the same basis (2025 transactions · per m² · 70 m² conversion):
 | Suginami (杉並区) | **¥931,000** | ~**¥65.17 million** | 854 |
 | Nerima (練馬区) | **¥732,000** | ~**¥51.24 million** | 895 |
 | Nishitokyo (西東京市) | **¥559,000** | ~**¥39.13 million** | 221 |
-| Note: 23-ward weighted avg | **~¥1.20 million** | ~**¥84.11 million** | 22,048 |
-
-<small>The 23-ward figure weights each ward’s per-m² average by its deal count. It is a comparison number from the same MLIT table — not an official “23-ward unit price” release.</small>
+| Note: 23-ward weighted avg<sup>1</sup> | **~¥1.20 million** | ~**¥84.11 million** | 22,048 |
 
 **Short answer.** Nishitokyo’s city average is about **¥173,000** per m² (**~24%**) below Nerima, and about **¥372,000** (**~40%**) below Suginami. Versus the 23-ward weighted average, it sits near **half**. Neighboring on the map does not make “priced like the 23 wards” a fair claim.
 
@@ -142,11 +136,9 @@ So why is Koganei higher? Distance on a map matters less than **where you arrive
 |-----------------------|---------:|------:|-----------|
 | Musashi-Koganei (Koganei) | **28 min** | **43 min** | **0** (direct) |
 | Hibarigaoka (Nishitokyo) | **40 min** | **52 min** | 1 / 2 |
-| Hana-Koganei (Kodaira) | **38–39 min** | **60 min** | 1 (or walk from Seibu-Shinjuku) / 2 |
+| Hana-Koganei (Kodaira) | **38–39 min** | **60 min** | 1 (or walk from Seibu-Shinjuku)<sup>2</sup> / 2 |
 
-<small>Yahoo! Transit · measured 2026-07-29 · reverse-engineered from weekday morning arrivals at Shinjuku and Tokyo. Hana-Koganei→Shinjuku includes both transfer paths and routes with a surface walk from Seibu-Shinjuku Station to JR Shinjuku Station.</small>
-
-How to read it: start with **zero transfers versus not**. Koganei (Chuo Line) reaches Shinjuku and Tokyo **without changing trains**. Nishitokyo and Kodaira (Seibu axis) add **a transfer or walking friction** to the same destinations. The price order (Koganei > Nishitokyo > Kodaira) tracks that pattern more closely.
+Start with **zero transfers versus not**. Koganei (Chuo Line) reaches Shinjuku and Tokyo **without changing trains**. Nishitokyo and Kodaira (Seibu axis) add **a transfer or walking friction** to the same destinations. The price order (Koganei > Nishitokyo > Kodaira) tracks that pattern more closely.
 
 The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “lines people want to live on” survey (**4th** · 410 points). That alone cannot explain prices, but steady line preference is worth noting beside the commute table. ([line ranking](https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/))
 
@@ -168,25 +160,9 @@ City averages alone do not show each city’s face. Neighborhoods with **30+ tra
 | Nishitokyo | Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~**¥38.50 million** | −¥9,000 |
 | Nishitokyo | Tanashichō (田無町) | 33 | **¥537,000** | ~**¥37.59 million** | −¥22,000 |
 
-<small>City averages: Koganei ¥756,000 · Nishitokyo ¥559,000 · Kodaira ¥511,000 per m². Neighborhoods under 30 deals are left out of the table.</small>
-
 In Koganei, Honchō lifts the average; in Kodaira, the south of Hana-Koganei does. Inside Nishitokyo, Yatochō and Tanashichō already sit far apart.
 
 The three cities are hard to treat as one market — after the city name, ask **which neighborhood**.
-
----
-
-## 4. Can Population or Income Explain Prices?
-
-| City | Population outlook (2020→2040) | City avg / m² |
-|------|-------------------------------:|-------------:|
-| Koganei | **+4.0%** | ¥756,000 |
-| Nishitokyo | **+3.2%** | ¥559,000 |
-| Kodaira | **+0.4%** | ¥511,000 |
-
-None of the three shows a sharp population collapse. Koganei leads on both population and price — but **“growing population means higher prices”** alone cannot explain the 9% Nishitokyo–Kodaira gap or Koganei’s 28-minute Chuo direct ride.
-
-Using income as the main driver of the price ranking would need more sources. This article stops at a clear point: **population is not enough**.
 
 ---
 
@@ -244,9 +220,11 @@ In this data, the character of the line into the center explained prices better 
 | Item | Benchmark |
 |------|-----------|
 | Condo transaction prices / m² | MLIT Real Estate Information Library **Q1–Q4 2025** |
-| Population outlook | Benchmark **2020→2040** |
-| Commute times | Yahoo! Transit **2026-07-29** (weekday morning arrival reverse lookup) |
+| Commute times | Yahoo! Transit **2026-07-29** (weekday morning Shinjuku/Tokyo arrival reverse lookup) |
 | SUUMO 1R | Nishitokyo City snapshot (same-condition three-city compare incomplete) |
 | “Towns People Want to Live In” ranking | Recruit SUUMO **2025 Greater Tokyo · by line** (JR Chuo Line **4th** · 410 pts · published 2025-03) |
+
+<sup>1</sup> 23-ward weighted average: each ward’s per-m² average weighted by deal count — a comparison figure from the same MLIT table, not an official “23-ward unit price.”  
+<sup>2</sup> Hana-Koganei→Shinjuku: includes transfer paths and a surface walk from Seibu-Shinjuku to JR Shinjuku.
 
 <small>※ This article is a personal analysis for informational purposes and does not constitute advice to buy or sell any specific property. Treat neighborhoods with fewer than 30 transactions as reference only. Commute times can shift by several minutes depending on query time and the timetable.</small>

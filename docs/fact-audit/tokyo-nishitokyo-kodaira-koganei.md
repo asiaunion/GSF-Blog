@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-nishitokyo-kodaira-koganei |
-| **Cursor validate** | PASS (2026-07-30 §1 neighbor answer) |
+| **Cursor validate** | PASS (2026-07-30 footnotes + drop §4) |
 
 ---
 
@@ -44,25 +44,22 @@
 | 31 | 40% | 40% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 32 | 35% | 35% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 33 | 9% | 9% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 34 | 4.0% | 4.0% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 35 | 3.2% | 3.2% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 36 | 0.4% | 0.4% | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 37 | 2026-07-29 | 2026-07-29 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 38 | 6,517 | 6,517 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 39 | 5,124 | 5,124 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 40 | 3,913 | 3,913 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 41 | 8,411 | 8,411 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 42 | 22,048 | 22,048 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 43 | 4,823 | 4,823 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 44 | 3,850 | 3,850 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 45 | 3,759 | 3,759 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 46 | 5,292 | 5,292 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 47 | 110,668 | 110,668 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 48 | 66,846 | 66,846 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 49 | 3,577 | 3,577 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 50 | 52,593 | 52,593 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 51 | 6,615 | 6,615 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
-| 52 | 4,480 | 4,480 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 34 | 2026-07-29 | 2026-07-29 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 35 | 6,517 | 6,517 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 36 | 5,124 | 5,124 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 37 | 3,913 | 3,913 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 38 | 8,411 | 8,411 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 39 | 22,048 | 22,048 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 40 | 4,823 | 4,823 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 41 | 3,850 | 3,850 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 42 | 3,759 | 3,759 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 43 | 5,292 | 5,292 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 44 | 110,668 | 110,668 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 45 | 66,846 | 66,846 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 46 | 3,577 | 3,577 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 47 | 52,593 | 52,593 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 48 | 6,615 | 6,615 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 49 | 4,480 | 4,480 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 
 ---
 
