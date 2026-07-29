@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0-tama",
-  "last_updated": "2026-06-26",
+  "last_updated": "2026-07-29",
   "description": "Region Expansion Wave 2 - Tokyo Tama priority 8 cities benchmarks.",
   "region": "tokyo_tama",
   "municipalities": [
@@ -92,8 +92,8 @@
         "tsunami": false,
         "landslide": true,
         "summary": "liquefaction, flood, landslide",
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       },
       "国分寺市": {
         "flood": true,
@@ -114,6 +114,26 @@
         "summary": "liquefaction, flood, landslide",
         "episode": "",
         "fetched_at": "2026-06-26"
+      },
+      "小平市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "flood": true,
+        "liquefaction": true,
+        "storm_surge": false,
+        "tsunami": false,
+        "landslide": true,
+        "summary": "liquefaction, flood, landslide",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -199,8 +219,9 @@
         "last_flood_year": 1982,
         "coverage_status": "surveyed",
         "coverage_warning": false,
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       },
       "国分寺市": {
         "has_history": true,
@@ -223,6 +244,28 @@
         "coverage_note": "이 구역에 등록된 재해 이력 없음 (또는 미조사).",
         "episode": "",
         "fetched_at": "2026-06-26"
+      },
+      "小平市": {
+        "has_history": true,
+        "total_events": 38,
+        "flood_events": 38,
+        "last_flood_year": 1982,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "has_history": true,
+        "total_events": 30,
+        "flood_events": 30,
+        "last_flood_year": 1976,
+        "coverage_status": "surveyed",
+        "coverage_warning": false,
+        "coverage_note": "타일 내 과거 재해 이력 데이터 조회됨.",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -361,8 +404,42 @@
         "sites_per_10k_people": 1.3,
         "population_used": 262213,
         "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小平市": {
+        "site_count": 35,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 1,
+          "earthquake": 35,
+          "tsunami": 0,
+          "landslide": 1,
+          "storm_surge": 0,
+          "large_fire": 35
+        },
+        "sites_per_10k_people": 1.2,
+        "population_used": 293759,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "site_count": 18,
+        "coverage_status": "surveyed",
+        "by_disaster_type": {
+          "flood": 0,
+          "earthquake": 15,
+          "tsunami": 0,
+          "landslide": 0,
+          "storm_surge": 0,
+          "large_fire": 3
+        },
+        "sites_per_10k_people": 1.3,
+        "population_used": 133743,
+        "capacity_note": "MLIT XGT001 API는 대피소 수용 인원(capacity) 정보를 제공하지 않으므로 1인당 수용 여유도 산출 불가.",
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -654,7 +731,7 @@
         "zoning_top3": [
           {
             "type": "第１種低層住居専用地域",
-            "pct": 39
+            "pct": 38.9
           },
           {
             "type": "第１種中高層住居専用地域",
@@ -665,8 +742,82 @@
             "pct": 2.7
           }
         ],
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小平市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 10,
+          "dominant_type": "준방화지역",
+          "feature_count": 12
+        },
+        "district_plan_zones": {
+          "feature_count": 7
+        },
+        "high_utilization_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 31.2
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 11.7
+          },
+          {
+            "type": "工業地域",
+            "pct": 2.4
+          }
+        ],
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "fire_prevention_zone": {
+          "coverage_pct": 13.4,
+          "dominant_type": "준방화지역",
+          "feature_count": 10
+        },
+        "district_plan_zones": {
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "high_utilization_zones": {
+          "feature_count": 3
+        },
+        "urban_road": {
+          "affected_pct": null,
+          "feature_count": 0,
+          "coverage_status": "no_data",
+          "coverage_note": "해당 구에 데이터 없음 (인접 구 bleed 제외)"
+        },
+        "zoning_top3": [
+          {
+            "type": "第１種低層住居専用地域",
+            "pct": 30.5
+          },
+          {
+            "type": "第１種中高層住居専用地域",
+            "pct": 15.5
+          },
+          {
+            "type": "第１種住居地域",
+            "pct": 5.1
+          }
+        ],
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -733,6 +884,20 @@
         "price_classification": "02",
         "tile_coverage_warning": false,
         "fetched_at": "2026-06-18"
+      },
+      "小平市": {
+        "geojson_path": "docs/verification/data/price-points/小平市-2025.geojson",
+        "count": 168,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "geojson_path": "docs/verification/data/price-points/小金井市-2025.geojson",
+        "count": 132,
+        "price_classification": "02",
+        "tile_coverage_warning": false,
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -788,10 +953,25 @@
         "fetched_at": "2026-06-18"
       },
       "西東京市": {
-        "ward_avg_sqm": 31,
-        "est_70sqm": 2170,
-        "count": 2,
-        "fetched_at": "2026-06-18"
+        "ward_avg_sqm": 55.9,
+        "est_70sqm": 3913,
+        "count": 221,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小平市": {
+        "ward_avg_sqm": 51.1,
+        "est_70sqm": 3577,
+        "count": 189,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "ward_avg_sqm": 75.6,
+        "est_70sqm": 5292,
+        "count": 136,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -861,8 +1041,8 @@
         "top_passengers": 66846,
         "total_daily": 225796,
         "station_count": 5,
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       },
       "国分寺市": {
         "top_station": "国分寺",
@@ -879,6 +1059,22 @@
         "station_count": 3,
         "episode": "",
         "fetched_at": "2026-06-26"
+      },
+      "小平市": {
+        "top_station": "花小金井",
+        "top_passengers": 52593,
+        "total_daily": 186079,
+        "station_count": 7,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "top_station": "武蔵小金井",
+        "top_passengers": 110668,
+        "total_daily": 172572,
+        "station_count": 3,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -939,8 +1135,22 @@
         "avg_yen_sqm": 347272.7,
         "avg_change_pct": null,
         "point_count": 56,
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小平市": {
+        "avg_yen_sqm": 268015.2,
+        "avg_change_pct": null,
+        "point_count": 66,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "avg_yen_sqm": 512466.7,
+        "avg_change_pct": null,
+        "point_count": 30,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -1026,8 +1236,8 @@
         "mesh_count": 315,
         "mesh_coverage_warning": false,
         "population_tile_preset": false,
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       },
       "国分寺市": {
         "pop_2020": 167916,
@@ -1048,6 +1258,26 @@
         "population_tile_preset": false,
         "episode": "",
         "fetched_at": "2026-06-26"
+      },
+      "小平市": {
+        "pop_2020": 293759,
+        "pop_2040": 294857,
+        "change_pct": "0.4%",
+        "mesh_count": 436,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "pop_2020": 133743,
+        "pop_2040": 139142,
+        "change_pct": "4%",
+        "mesh_count": 160,
+        "mesh_coverage_warning": false,
+        "population_tile_preset": false,
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -1515,14 +1745,194 @@
       "西東京市": {
         "top_districts": [
           {
-            "name": "秋川",
-            "count": 2,
-            "avg_sqm": 31,
+            "name": "谷戸町",
+            "count": 36,
+            "avg_sqm": 68.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "田無町",
+            "count": 33,
+            "avg_sqm": 53.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "ひばりが丘",
+            "count": 32,
+            "avg_sqm": 55,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "芝久保町",
+            "count": 19,
+            "avg_sqm": 50.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "柳沢",
+            "count": 15,
+            "avg_sqm": 47.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東町",
+            "count": 14,
+            "avg_sqm": 68.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "西原町",
+            "count": 12,
+            "avg_sqm": 33.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "向台町",
+            "count": 10,
+            "avg_sqm": 59.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "南町",
+            "count": 9,
+            "avg_sqm": 50,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "住吉町",
+            "count": 5,
+            "avg_sqm": 100.2,
             "aggregation": "DistrictName"
           }
         ],
-        "episode": "",
-        "fetched_at": "2026-06-18"
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小平市": {
+        "top_districts": [
+          {
+            "name": "花小金井南町",
+            "count": 51,
+            "avg_sqm": 64,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "鈴木町",
+            "count": 22,
+            "avg_sqm": 59.9,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "花小金井",
+            "count": 22,
+            "avg_sqm": 52.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "上水本町",
+            "count": 13,
+            "avg_sqm": 45.8,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "天神町",
+            "count": 12,
+            "avg_sqm": 29.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "学園西町",
+            "count": 10,
+            "avg_sqm": 44.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "小川東町",
+            "count": 9,
+            "avg_sqm": 34.1,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "学園東町",
+            "count": 8,
+            "avg_sqm": 56.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "美園町",
+            "count": 7,
+            "avg_sqm": 54,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "回田町",
+            "count": 7,
+            "avg_sqm": 37.7,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "top_districts": [
+          {
+            "name": "本町",
+            "count": 66,
+            "avg_sqm": 94.5,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "緑町",
+            "count": 19,
+            "avg_sqm": 67.4,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "中町",
+            "count": 14,
+            "avg_sqm": 60.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "前原町",
+            "count": 14,
+            "avg_sqm": 40.3,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "貫井南町",
+            "count": 13,
+            "avg_sqm": 62.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "桜町",
+            "count": 3,
+            "avg_sqm": 81.2,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "貫井北町",
+            "count": 3,
+            "avg_sqm": 34.7,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "梶野町",
+            "count": 3,
+            "avg_sqm": 51.6,
+            "aggregation": "DistrictName"
+          },
+          {
+            "name": "東町",
+            "count": 1,
+            "avg_sqm": 40,
+            "aggregation": "DistrictName"
+          }
+        ],
+        "episode": "Ep.13",
+        "fetched_at": "2026-07-29"
       }
     }
   },
@@ -1568,8 +1978,18 @@
       },
       "西東京市": {
         "json_path": ".cache/mlit/appraisal-merged-nishitokyo-2025.json",
-        "count": 76,
-        "fetched_at": "2026-06-18"
+        "count": 48,
+        "fetched_at": "2026-07-29"
+      },
+      "小平市": {
+        "json_path": ".cache/mlit/appraisal-merged-kodaira-2025.json",
+        "count": 86,
+        "fetched_at": "2026-07-29"
+      },
+      "小金井市": {
+        "json_path": ".cache/mlit/appraisal-merged-koganei-2025.json",
+        "count": 48,
+        "fetched_at": "2026-07-29"
       }
     }
   },

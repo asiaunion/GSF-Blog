@@ -148,6 +148,16 @@
         "稲城市"
       ],
       "theme_ko": "오다큐·게이오 남부 뉴타운 벨트"
+    },
+    {
+      "episode": "Ep.13",
+      "slug": "tokyo-nishitokyo-kodaira-koganei",
+      "wards": [
+        "西東京市",
+        "小平市",
+        "小金井市"
+      ],
+      "theme_ko": "23구 경계 통근권"
     }
   ]
 }

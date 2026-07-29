@@ -2,6 +2,106 @@
 > **AG 배포 완료** 또는 **Cursor 브랜치 대기** 시 append. Claude Ark 세션 §7A에서 읽음.
 > 규칙: `scratch/AGENTS.md` → 핸드오프 자동 기록 규칙 참조.
 
+## [2026-07-29 23:45] Cursor — Ep.13 출판 전 마지막 폴리싱 (GPT)
+
+- 도입: Ep.12 연결 → 「이번에도 동네 단위…」순서 조정
+- §2: 「인접인가, 노선인가」대표문장 1회 추가 (왜쓰는가·중간·View)
+- View 마무리: 였습니다 → 입니다 (현재형)
+- **다음:** Joseph Auth
+
+---
+
+## [2026-07-29 23:55] Cursor — Ep.13 KO 최종 폴리싱 (Claude B+C + GPT)
+
+- **R5c:** 도입 숫자 4개 제거 → 의미만 (Claude 대체문)
+- 범위가드 H2① 맨 앞 · 「인접인가」후렴 2회(왜쓰는가+View) · 중간은 연결만 · 임대 H2는 §2 보조단락으로 흡수
+- GPT: 대표문장 자연화 · View「환승 없는 28분」· 마무리 리듬 · 가격 순위 명확화
+- **manifest:** n=221/189/136·claims 동기화 (旧2170 폐기) · `manifest_approved_*`는 Joseph Auth 시 기입
+- **잔여 AG:** 小平·小金井 SUUMO 1R (c_tier_capture) · hero · EN
+- **다음:** Joseph Auth
+
+---
+
+## [2026-07-29 23:45] Cursor — Ep.13 KO GPT 개선 반영
+
+- 오프닝: 문제→결과 예고→방법 · 「인접인가, 노선인가」 반복 정리
+- 표 뒤 읽는 법 · 의미→숫자(35%) · SUUMO 4위 본문 1문장
+- **다음:** Claude 검수 → 최종 폴리싱
+
+---
+
+## [2026-07-29 23:17] Cursor — SUUMO 住みたい街2025 **소스 카드 + KO 보조블록**
+
+- **KO:** §2 통근표 뒤 선호 설문 1블록 추가 (인과 단정 금지 · 참고만)
+- **SSOT 카드:** `docs/verification/sources/suumo-sumitai-machi-ranking-2025-shutoken.md`
+- **PDF 아카이브:** `public/assets/sources/recruit-202503-suumo-sumitai-machi-ranking-2025-shutoken.pdf`
+- **URL:** Recruit 보도 · PDF · SUUMO 기사 (AG `[1차 확인]` 유지)
+- **다음:** Joseph Auth · AG는 Ep.13 manifest에 `SUUMO-ensen-rank-chuo-2025` claim 추가 권장
+
+---
+
+## [2026-07-29 23:30] Cursor — Ep.13 **KO 초안 완료** · Joseph Auth 대기
+
+- **slug:** `tokyo-nishitokyo-kodaira-koganei` · `draft: true`
+- **파일:** `src/data/blog/ko/tokyo-nishitokyo-kodaira-koganei.md`
+- **근거:** Claude `claude-verified` 통근실측 + N2 잠금(직답 우선·정중체 대표문장)
+- **가설 중심축:** 23구 인접 < 주오선 환승0 직통(武蔵小金井 신주쿠 28분) · 시평균 75.6 > 55.9 > 51.1
+- **verify:decision-log:** PASS
+- **잔여:** Joseph Auth → AG(EN·hero·SUUMO 3시 보강 선택·manifest 구claim 2170 정리 + 랭킹 claim) → Cursor validate/deploy
+- **주의:** manifest `MLIT-nishitokyo-70=2170`은 구 n=2 잔존 — KO는 benchmarks 3913 사용. AG가 claims 갱신할 것.
+- **SUUMO 랭킹:** 소스 카드 등록 후 KO 보조 반영 완료 (아래 23:17 항목)
+
+---
+
+## [2026-07-29 22:59] AG — Ep.13 노선축 통근시간 실측 완료
+- **slug:** `tokyo-nishitokyo-kodaira-koganei`
+- **통근시간 실측 완료 (Yahoo! 乗換案内 2026-07-29 실측 · 평일 08:30 도착):**
+  - **武蔵小金井 (小金井):** 신주쿠 **28분 (0회)** · 도쿄 **43분 (0회)** → 도심 2대 터미널 모두 **환승 0회 직통**
+  - **ひばりヶ丘 (西東京):** 신주쿠 40분 (1회) · 도쿄 52분 (2회)
+  - **花小金井 (小平):** 신주쿠 38~39분 (1회 또는 도보 9분) · 도쿄 60분 (2회) → 세이부신주쿠역↔JR신주쿠역 **지상 도보 9분 저항**
+- **가설 검증:** JR 주오선 축(武蔵小金井)의 도심 직통 28~43분 접근성 + 환승 저항 Zero가 시세 프리미엄(+35.2%)을 뒷받침함을 실측 수치로 입증.
+- **브랜드 출처 (`[1차 확인]`):** Recruit SUUMO 「SUUMO住みたい街ランキング2025 首都圏版 ～その他（住みたい沿線）～」 沿線 4위 `JR中央線` (410점)
+  - [공식 プレスリリース](https://www.recruit.co.jp/newsroom/pressrelease/2025/0306_15539.html)
+  - [상세 PDF (p.35 沿線別)](https://www.recruit.co.jp/wp-content/uploads/2025/07/20250306_housing_02.pdf)
+  - [SUUMO 2025 노선별 순위 해설기사](https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/)
+- **드롭 파일:** `claude-drops/2026-07-29_ep13-ag-request-commute-time.md` (AG 회신 기록 완료)
+- **stage 경로:** `.blog-agent-stage/tokyo-nishitokyo-kodaira-koganei/decision-log.md` (실측 통근표 추가)
+- **다음:** Claude 검증 & Joseph 가설 승인 대기 → **Cursor §1–4·KO 대기**
+
+---
+
+## [2026-07-29 22:27] Cursor — Ep.13 **AG Launch** (Phase 0–2)
+
+- **상태:** Joseph 「AG에 넘기자」 → **AG Launch**
+- **slug:** `tokyo-nishitokyo-kodaira-koganei` · N2 잠금 완료
+- **SSOT:** `docs/AG_TASK_EP13_INSTRUCTION.md` §2–3 · `claude-drops/2026-07-29_ep13-n2-review.md`
+- **AG 할 일 (Mode C Phase 0–2만):**
+  1. BL-1 sync: 小平市(13211) · 小金井市(13210) + 西東京市(13228) 갱신 — **이 3시만**
+  2. research-pack · `ep13-tokyo-nishitokyo-kodaira-koganei.manifest.json`
+  3. `.blog-agent-stage/tokyo-nishitokyo-kodaira-koganei/decision-log.md` (가설 초안 + Claude §E 티키타카 Q)
+  4. `_handoff`에 stage/manifest 경로 + sync 완료 여부 + 「Cursor §1–4·KO 대기」
+- **금지:** KO 본문 · 수치 창작 · 네리마/스기나미 町名 표 · JA · `draft:false` · prod deploy
+- **hub:log:** 2026-07-29 22:27 JST Cursor
+
+---
+
+## [2026-07-29] Cursor — Ep.13 N2 잠금 (Claude 리뷰 + Joseph 결정 2건)
+
+- **slug:** `tokyo-nishitokyo-kodaira-koganei` · N2 **잠금**
+- **근거:** `claude-drops/2026-07-29_ep13-n2-review.md` · Joseph: ①대표문장 정중체(흔들립니다) ②도입=직답 우선(Ep.13 한정, 전편 표준화 미확정)
+- **지시서:** `docs/AG_TASK_EP13_INSTRUCTION.md` §2 갱신
+- **다음 AG Phase 0–2:** BL-1 sync(小平·小金井)+西東京 갱신 · research-pack · manifest · Decision Log → Joseph 가설 승인 → Cursor KO
+- **금지:** KO 본문·수치 창작·네리마/스기나미 町名 표 · JA · deploy before Cursor PASS
+
+---
+
+## [2026-07-29] Cursor — Ep.13 Part N 착수 (클러스터 A)
+
+- **slug:** `tokyo-nishitokyo-kodaira-koganei` · 西東京 · 小平 · 小金井
+- **Mode C** · 지시: `docs/AG_TASK_EP13_INSTRUCTION.md`
+- **OPEN_QUEUE:** `NP13` open
+- **Gate A:** 대량 표면 동결 중 · 신규 1편 소량 허용 · gsfark AdSense 재신청 금지
+
 ---
 
 ## [2026-07-18] Cursor — Reader First SSOT + Ep.12 KO 재작성 배포

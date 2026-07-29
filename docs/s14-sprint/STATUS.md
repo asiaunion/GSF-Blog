@@ -22,8 +22,8 @@
 
 - Tier 0 (사이트 + 네이버): **닫힘** — KO/EN live + 네이버 다수 URL (#6·#5 포함 2026-07-20).
 - **열린 큐:** [`OPEN_QUEUE.md`](./OPEN_QUEUE.md)
-  - **지금:** Gate A **레퍼럴 2주** 감시 (네이버 #6·#5 발행으로 분자 유지) · TK는 색인 재요청(0%→≥70%)이 병목
-  - **병행:** N2(GSC 선택) · Week 4 B-비중 트리거(Playbook §2) · aiModel 제거 **Cursor PASS** (커밋 Joseph)
+  - **지금:** **Part N Ep.13 AG Launch** (`tokyo-nishitokyo-kodaira-koganei`) — Phase 0–2 진행 중 · N2 잠금 완료
+  - **병행:** Gate A 레퍼럴/GSC 감시 · TK AdSense 심사 대기 · Ark 재신청 보류(G4) · N2(GSC 선택)
 
 ## 이번 배치 메모
 

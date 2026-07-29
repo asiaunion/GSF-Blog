@@ -105,16 +105,16 @@
 
 ---
 
-## 7. Ep.12 포인터
+## 7. Ep 포인터
 
-| 항목 | 값 |
-|------|-----|
-| Mode | **C** |
-| slug | `tokyo-machida-tama-inagi` |
-| 대상 | 町田市 · 多摩市 · 稲城市 |
-| 벤치마크 | Ep.10 (+ Ep.11 완료본) |
-| 지시 | [`AG_TASK_EP12_INSTRUCTION.md`](./AG_TASK_EP12_INSTRUCTION.md) |
-| 큐 | [`s14-sprint/OPEN_QUEUE.md`](./s14-sprint/OPEN_QUEUE.md) ID `NP` / Ep.12 |
+| 항목 | Ep.12 (캘리브레이션 · done) | **Ep.13 (현재)** |
+|------|---------------------------|------------------|
+| Mode | C | **C** |
+| slug | `tokyo-machida-tama-inagi` | `tokyo-nishitokyo-kodaira-koganei` |
+| 대상 | 町田市 · 多摩市 · 稲城市 | 西東京市 · 小平市 · 小金井市 |
+| 벤치마크 | Ep.10 (+ Ep.11) | Ep.10 · Ep.12 |
+| 지시 | [`AG_TASK_EP12_INSTRUCTION.md`](./AG_TASK_EP12_INSTRUCTION.md) | [`AG_TASK_EP13_INSTRUCTION.md`](./AG_TASK_EP13_INSTRUCTION.md) |
+| 큐 | OPEN_QUEUE `NP` done | OPEN_QUEUE `NP13` open |
 
 ---
 
@@ -136,3 +136,4 @@
 |------|------|
 | 2026-07-17 | 초판 · Mode C/B/V · GPT 선택 · Claude 토큰예외 · Ep.12 캘리브레이션 |
 | 2026-07-18 | R5c 추가 — 데이터 저널리즘 70/30 (Voice v1.3). 90/10 → 70/30 조정, 지향 60/40. 숫자 두려운 독자 기준. |
+| 2026-07-29 | Ep.13 포인터 — `tokyo-nishitokyo-kodaira-koganei` · Joseph 클러스터 A · Mode C 유지 |

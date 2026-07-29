@@ -93,10 +93,11 @@ I'm also planning separate series using price-band and transit-line frameworks. 
 | **[Ep.10](/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)** | Tama Education & Culture Belt | Kokubunji · Kunitachi · Fuchu · Tachikawa |
 | **[Ep.11](/posts/tokyo-hachioji-hino-akishima/)** | Western Tama — The Average Trap | Hachioji · Hino · Akishima |
 | **[Ep.12](/posts/tokyo-machida-tama-inagi/)** | Southern New Town Belt | Machida · Tama City · Inagi |
+| **[Ep.13](/posts/tokyo-nishitokyo-kodaira-koganei/)** | 23-ward edge commute belt | Nishitokyo · Kodaira · Koganei |
 
 </div>
 
-Ep.1–Ep.12 are published.
+Ep.1–Ep.13 are published.
 
 ---
 
@@ -216,5 +217,11 @@ City averages hide a dual structure of station-area premiums and outer neighborh
 **[Has Tama New Town Really Failed? Machida, Tama City & Inagi](/posts/tokyo-machida-tama-inagi/)** — Published
 
 We test the uniform failure narrative against neighborhood-level transaction prices — hub premiums and dual location structures.
+
+## ▶ Ep.13 — 23-Ward Edge Commute Belt
+
+**[Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices](/posts/tokyo-nishitokyo-kodaira-koganei/)** — Published
+
+Adjacency versus the rail line (Chuo direct vs Seibu transfers): Nishitokyo, Kodaira, and Koganei compared at neighborhood level.
 
 ---

@@ -91,10 +91,11 @@ citeSources:
 | **[Ep.10](/ko/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)** | 다마 교육·문화 벨트 | 国分寺·国立·府中·立川 |
 | **[Ep.11](/ko/posts/tokyo-hachioji-hino-akishima/)** | 다마 서부 — 평균의 함정 | 八王子·日野·昭島 |
 | **[Ep.12](/ko/posts/tokyo-machida-tama-inagi/)** | 남부 뉴타운 벨트 | 町田·多摩·稲城 |
+| **[Ep.13](/ko/posts/tokyo-nishitokyo-kodaira-koganei/)** | 23구 경계 통근권 | 西東京·小平·小金井 |
 
 </div>
 
-Ep.1–Ep.12는 발행 완료입니다.
+Ep.1–Ep.13는 발행 완료입니다.
 
 ---
 
@@ -214,5 +215,11 @@ Ep.1–Ep.12는 발행 완료입니다.
 **[타마 뉴타운은 정말 실패작인가 — 마치다·타마·이나기 비교](/ko/posts/tokyo-machida-tama-inagi/)** — 발행됨
 
 실패·빈집 일률 서사를 町名 단위 성약가로 다시 읽고, 허브 프리미엄과 입지 이중 구조를 정리합니다.
+
+## ▶ Ep.13 — 23구 경계 통근권
+
+**[니시도쿄 집값은 23구에 가깝나 — 고다이라·고가네이 실제 거래가](/ko/posts/tokyo-nishitokyo-kodaira-koganei/)** — 발행됨
+
+도심 인접과 노선(주오 직통 vs 세이부 환승)이 시세 순서를 어떻게 다르게 설명하는지, 니시도쿄·고다이라·고가네이로 비교합니다.
 
 ---

@@ -26,9 +26,10 @@
 | N1 | **done** (2026-07-17 Joseph) | Tier 0 **네이버** HTML 붙여넣기 발행 (G1→G2→G3) | `STATUS.md` `네이버 URL` 3칸 채움 |
 | N2 | open | Tier 0 GSC URL 검사(선택) · IndexNow 후 색인 상태 확인 | GSC에서 3 slug EN/KO 상태 메모 |
 | NP | done | **Ep.12** live (`tokyo-machida-tama-inagi`) KO+EN · Cursor validate/deploy | 네이버 큐·PKM dossier 잔여 · Mode B 검토 |
+| NP13 | **done** | **Ep.13** live (`tokyo-nishitokyo-kodaira-koganei`) KO+EN · Cursor validate/deploy | 네이버 큐 · IndexNow · Mode B 검토 |
 | F3 | **done** (2026-07-20 Cursor) | 허브 FA 패스: "공급 부족 — 구조적 타이트"·"엘리트 수요 집중→공실 전환 느림" 인과 2건 출처 확보 또는 완화 (`tokyo-real-estate-investment-complete-guide` 도입부, Joseph 2026-07-19 승인) | 출처 추가 또는 헤지 문구로 완화 · 3로케일 · validate PASS |
 
-**→ 다음 최우선:** Gate A **레퍼럴 2주** 유지(#6·#5 네이버 live 2026-07-20). TK **색인 ≥95% (B-1 충족, 2026-07-21)** · 잔여=TK 레퍼럴~8/3 · N2 · G1–G4 · Part N(FLEX).
+**→ 다음 최우선:** **Part N Ep.13** (신규 1편 · Gate A 대량 동결 중 소량 허용) · TK AdSense 심사 대기 · Ark **재신청 보류**(G4). 잔여=N2 · G1–G3 · Gate A 감시.
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -56,7 +57,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | G1 | open | Gate A: 네이버/티스토리 **레퍼럴 2주 연속** (GA4) |
 | G2 | open | Gate A: GSC 28d 임계 · risky-claims · 리다이렉트 |
 | G3 | open | **~07-29 이후** title·표면 **대량** 변경 중지 (소규모 정합만) |
-| G4 | open | AdSense **재신청 금지** until Gate A 통과 + Joseph 명시 |
+| G4 | open | **gsfark 재신청 보류** (Joseph 2026-07-21) · **TK 8/3 우선** · Ark 신청 UI 금지 until Joseph 명시 해제 · HARD: Ark+TK 동시 신규 신청 금지 |
 
 ## Done (닫힘)
 

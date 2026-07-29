@@ -1,0 +1,300 @@
+{
+  "episode": "Ep.13",
+  "slug": "tokyo-nishitokyo-kodaira-koganei",
+  "created_at": "2026-07-29",
+  "updated_at": "2026-07-29",
+  "gates": {
+    "c_tier_capture_requested": true,
+    "manifest_approved_by": "Joseph",
+    "manifest_approved_at": "2026-07-29T23:44:00+09:00",
+    "draft_started": true,
+    "joseph_auth": true,
+    "joseph_auth_at": "2026-07-29T23:44:00+09:00",
+    "cursor_audit_passed": true,
+    "cursor_audit_at": "2026-07-29T23:52:00+09:00",
+    "joseph_final_approved": true
+  },
+  "notes": "Joseph Auth + Cursor PASS 2026-07-29. validate:post 100 · verify:episode ok. ward-series synced from tama-benchmarks.",
+  "claims": [
+    {
+      "id": "MLIT-nishitokyo-sqm",
+      "label": "西東京市 ㎡당 성약가",
+      "value": 55.9,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.西東京市.ward_avg_sqm",
+        "count": 221
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-nishitokyo-70",
+      "label": "西東京市 70㎡ 성약가",
+      "value": 3913,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.西東京市.est_70sqm",
+        "count": 221
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-kodaira-sqm",
+      "label": "小平市 ㎡당 성약가",
+      "value": 51.1,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.小平市.ward_avg_sqm",
+        "count": 189
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-kodaira-70",
+      "label": "小平市 70㎡ 성약가",
+      "value": 3577,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.小平市.est_70sqm",
+        "count": 189
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-koganei-sqm",
+      "label": "小金井市 ㎡당 성약가",
+      "value": 75.6,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.小金井市.ward_avg_sqm",
+        "count": 136
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-koganei-70",
+      "label": "小金井市 70㎡ 성약가",
+      "value": 5292,
+      "unit": "万円",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "mlit_mansion_2025_q1_q4.wards.小金井市.est_70sqm",
+        "count": 136
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-nishitokyo-yato",
+      "label": "西東京市 谷戸町 ㎡당",
+      "value": 68.9,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "district_price",
+      "evidence": { "count": 36, "name": "谷戸町" },
+      "footnote_required": true,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-nishitokyo-hibarigaoka",
+      "label": "西東京市 ひばりが丘 ㎡당",
+      "value": 55.0,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "district_price",
+      "evidence": { "count": 32, "name": "ひばりが丘" },
+      "footnote_required": true,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-nishitokyo-tanashi",
+      "label": "西東京市 田無町 ㎡당",
+      "value": 53.7,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "district_price",
+      "evidence": { "count": 33, "name": "田無町" },
+      "footnote_required": true,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-kodaira-hanaminami",
+      "label": "小平市 花小金井南町 ㎡당",
+      "value": 64.0,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "district_price",
+      "evidence": { "count": 51, "name": "花小金井南町" },
+      "footnote_required": true,
+      "used_in_draft": true
+    },
+    {
+      "id": "MLIT-koganei-honcho",
+      "label": "小金井市 本町 ㎡당",
+      "value": 94.5,
+      "unit": "万円/㎡",
+      "tier": "primary",
+      "layer": "A",
+      "method": "district_price",
+      "evidence": { "count": 66, "name": "本町" },
+      "footnote_required": true,
+      "used_in_draft": true
+    },
+    {
+      "id": "COMMUTE-musashikoganei-shinjuku",
+      "label": "武蔵小金井→新宿 소요·환승",
+      "value": 28,
+      "unit": "分",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "yahoo_transit_capture",
+      "evidence": {
+        "source": "Yahoo!乗換案内",
+        "captured_at": "2026-07-29",
+        "transfers": 0,
+        "verify": "claude-drops/2026-07-29_ep13-ag-request-commute-time.md"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-ensen-rank-chuo-2025",
+      "label": "SUUMO 住みたい街2025 首都圏 沿線 JR中央線 순위",
+      "value": 4,
+      "unit": "rank",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "official_press_pdf",
+      "evidence": {
+        "url": "https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/",
+        "score": 410,
+        "note": "沿線別 4位 — 価格因果に使わない · ekiページ禁止"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "SUUMO-nishitokyo-1R",
+      "label": "西東京市 SUUMO 1R",
+      "value": 8,
+      "unit": "万円",
+      "tier": "secondary",
+      "layer": "B",
+      "method": "suumo_snapshot",
+      "evidence": {
+        "url": "https://suumo.jp/chintai/soba/tokyo/sc_nishitokyo/",
+        "snapshot": "docs/verification/snapshots/suumo-sc_nishitokyo-20260709.html",
+        "snippet": "8.0万円（ワンルーム）"
+      },
+      "used_in_draft": true
+    },
+    {
+      "id": "STATION-nishitokyo-TOP",
+      "label": "西東京市 최다 승하차 역 (ひばりヶ丘)",
+      "value": 66846,
+      "unit": "人/日",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "station_passengers.wards.西東京市.top_passengers"
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-nishitokyo-2040",
+      "label": "西東京市 인구 2020→2040 변화율",
+      "value": 3.2,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.西東京市.change_pct"
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-kodaira-2040",
+      "label": "小平市 인구 2020→2040 변화율",
+      "value": 0.4,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.小平市.change_pct"
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    },
+    {
+      "id": "POP-koganei-2040",
+      "label": "小金井市 인구 2020→2040 변화율",
+      "value": 4.0,
+      "unit": "%",
+      "tier": "primary",
+      "layer": "A",
+      "method": "benchmark_lookup",
+      "evidence": {
+        "benchmark": "population_forecast.wards.小金井市.change_pct"
+      },
+      "footnote_required": false,
+      "used_in_draft": true
+    }
+  ],
+  "arithmetic_checks": [
+    {
+      "id": "PCT-koganei-vs-nishitokyo",
+      "label": "小金井 vs 西東京 ㎡단가 격차",
+      "formula": "(75.6 - 55.9) / 55.9 * 100",
+      "expected": 35.2,
+      "unit": "%",
+      "tolerance": 0.2
+    },
+    {
+      "id": "PCT-nishitokyo-vs-kodaira",
+      "label": "西東京 vs 小平 ㎡단가 격차",
+      "formula": "(55.9 - 51.1) / 51.1 * 100",
+      "expected": 9.4,
+      "unit": "%",
+      "tolerance": 0.2
+    }
+  ],
+  "c_tier_capture_requests": [
+    {
+      "id": "SUUMO-kodaira-1R",
+      "reason": "H2 매매vs임대 완결용 — 小平·小金井 동일조건 1R 스냅샷 필요"
+    },
+    {
+      "id": "SUUMO-koganei-1R",
+      "reason": "H2 매매vs임대 완결용 — 小平·小金井 동일조건 1R 스냅샷 필요"
+    }
+  ]
+}
