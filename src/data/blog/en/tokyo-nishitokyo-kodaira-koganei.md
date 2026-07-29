@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T00:05:00+09:00
+modDatetime: 2026-07-30T08:35:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -63,10 +63,11 @@ In this article we put **Nishitokyo, Kodaira, and Koganei** on the same scale: *
 
 ## Key Takeaways
 
-- Nishitokyo, the city closest to central Tokyo, is **not** the most expensive of the three.
+- Nishitokyo’s city average (**¥559,000** / m²) sits clearly below neighboring Nerima (**¥732,000**) and Suginami (**¥931,000**). Against a deal-weighted average of all 23 wards (**about ¥1.20 million**), the gap is wider still.
+- Nishitokyo, the city closest to central Tokyo, is **not** the most expensive of the three (Nishitokyo · Kodaira · Koganei).
 - City-average prices per m² run **Koganei ¥756,000 > Nishitokyo ¥559,000 > Kodaira ¥511,000**.
 - From Musashi-Koganei (Koganei, Chuo Line) to Shinjuku takes about **28 minutes with no transfer**. From Hibarigaoka (Nishitokyo) to the same destination: about **40 minutes with one transfer**.
-- In this sample, **the rail line** (direct access and transfer friction) explains the price order better than map distance.
+- In this sample, **the rail line** (direct access and transfer friction) explains the three-city price order better than map distance.
 - Even within Nishitokyo, neighborhood prices diverge — one city name is not enough.
 - Population outlook alone does not explain the price ranking among the three cities.
 
@@ -84,21 +85,34 @@ So this article asks whether **the line explains prices better than distance**. 
 
 ## 1. How Close Are Nishitokyo Prices to Nerima and Suginami?
 
-Think of Nerima and Suginami only as the neighboring wards next to Nishitokyo on the map. This article does not show their neighborhood price tables or figures. Every number below is from Nishitokyo, Kodaira, or Koganei.
+The article title asks about the 23 wards — so why name Nerima and Suginami? Because those are the western outer wards Nishitokyo actually touches on the map. Before talking about all 23 at once, it helps to put numbers next to **the nearest neighbors**.
 
-“Close” often mixes map distance with the feeling that prices sit near central-Tokyo levels. Those are not the same claim.
+“Close in price” here does not mean adjacent on a map. It means **how similar the average transaction price per m² is to those neighboring wards**.
 
-Nishitokyo borders Nerima and similar wards. Its city-average price is **¥559,000 per m²**, or about **¥39.13 million** at 70 m² (**221** transactions). Among the three cities, its “next to the center” image is the strongest.
+On the same basis (2025 transactions · per m² · 70 m² conversion):
 
-Split the same city by neighborhood name, and another picture appears.
+| Area | Price / m² | 70 m² equiv. | Deals |
+|------|-----------:|-------------:|------:|
+| Suginami (杉並区) | **¥931,000** | ~**¥65.17 million** | 854 |
+| Nerima (練馬区) | **¥732,000** | ~**¥51.24 million** | 895 |
+| Nishitokyo (西東京市) | **¥559,000** | ~**¥39.13 million** | 221 |
+| Note: 23-ward weighted avg | **~¥1.20 million** | ~**¥84.11 million** | 22,048 |
 
-| Neighborhood (chō) | Transactions | Price / m² | 70 m² equiv. |
-|--------------------|-------------:|-----------:|-------------:|
-| Yatochō (谷戸町) | 36 | **¥689,000** | ~¥48.23 million |
-| Tanashichō (田無町) | 33 | **¥537,000** | ~¥37.59 million |
-| Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~¥38.50 million |
+<small>The 23-ward figure weights each ward’s per-m² average by its deal count. It is a comparison number from the same MLIT table — not an official “23-ward unit price” release.</small>
 
-What matters more than absolute levels is the **gap inside one city**. Among neighborhoods with 30+ transactions, the spread is about **¥150,000 per m²**. One sentence — “next to the center” — cannot cover this table.
+**Short answer.** Nishitokyo’s city average is about **¥173,000** per m² (**~24%**) below Nerima, and about **¥372,000** (**~40%**) below Suginami. Versus the 23-ward weighted average, it sits near **half**. Neighboring on the map does not make “priced like the 23 wards” a fair claim.
+
+Why no Nerima/Suginami neighborhood tables here? This section asks how close **city averages** are to those neighbors — and the table above answers that. Neighborhood detail comes next, inside Nishitokyo. (For Nerima and Suginami neighborhood reads, see [Ep.7](/posts/tokyo-kita-arakawa-itabashi-nerima/) and [Ep.5](/posts/tokyo-toshima-nakano-suginami/).)
+
+Split Nishitokyo by neighborhood name, and gaps the city average hides appear.
+
+| Neighborhood (chō) | Deals | Price / m² | 70 m² equiv. |
+|--------------------|------:|-----------:|-------------:|
+| Yatochō (谷戸町) | 36 | **¥689,000** | ~**¥48.23 million** |
+| Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~**¥38.50 million** |
+| Tanashichō (田無町) | 33 | **¥537,000** | ~**¥37.59 million** |
+
+Among neighborhoods with 30+ deals, the spread is about **¥150,000** per m². Yatochō (**¥689,000**) sits much closer to Nerima’s city average (**¥732,000**); Tanashichō sits below Nishitokyo’s own average. One sentence — “next to the center” — cannot cover either table.
 
 ---
 
@@ -196,7 +210,7 @@ The Musashi-Koganei direct ride and the Honchō sample are strong. But Koganei a
 
 - Anyone deciding a specific station or neighborhood purchase from this article alone
 - Anyone reading sub-30-deal neighborhood figures as settled market prices
-- Anyone looking for Nerima or Suginami body prices here (not covered)
+- Anyone looking for Nerima/Suginami neighborhood-level prices here (city averages only)
 
 ---
 
