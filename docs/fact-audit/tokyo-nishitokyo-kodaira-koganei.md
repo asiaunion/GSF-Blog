@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-nishitokyo-kodaira-koganei |
-| **Cursor validate** | draft Auth (2026-07-29) · validate pending |
+| **Cursor validate** | PASS (2026-07-30 readability patch) |
 
 ---
 
@@ -45,6 +45,11 @@
 | 32 | 52,593 | 52,593 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 33 | 4,480 | 4,480 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 34 | 6,615 | 6,615 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 35 | 18.9만엔 | 18.9만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | §3 시평균差 |
+| 36 | 13.0만엔 | 13.0만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | §3 시평균差 |
+| 37 | 12.9만엔 | 12.9만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | §3 시평균差 |
+| 38 | 0.9만엔 | 0.9만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | §3 시평균差 |
+| 39 | 2.2만엔 | 2.2만엔 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | §3 시평균差 |
 
 ---
 

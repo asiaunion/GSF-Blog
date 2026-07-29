@@ -1,8 +1,8 @@
 ---
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
-description: "We compare Nishitokyo, Kodaira, and Koganei at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
+description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-29T23:52:00+09:00
+modDatetime: 2026-07-30T00:05:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -84,7 +84,7 @@ So this article asks whether **the line explains prices better than distance**. 
 
 ## 1. How Close Are Nishitokyo Prices to Nerima and Suginami?
 
-Neighborhood-level tables for Nerima and Suginami themselves are out of scope here. Those two ward names are **comparison anchors only**; every number in this article comes from Nishitokyo, Kodaira, or Koganei.
+Think of Nerima and Suginami only as the neighboring wards next to Nishitokyo on the map. This article does not show their neighborhood price tables or figures. Every number below is from Nishitokyo, Kodaira, or Koganei.
 
 “Close” often mixes map distance with the feeling that prices sit near central-Tokyo levels. Those are not the same claim.
 
@@ -134,21 +134,27 @@ The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “l
 
 **Back to the opening question. Adjacency, or the rail line? In this data, a little more weight falls on the line.**
 
-Whether purchase prices and rents tell the same story is a fair question — but the only same-condition rent snapshot we have this episode is Nishitokyo 1R around ¥80,000. Kodaira and Koganei rents need a fresh capture on the same date and terms before comparison. For now, conclusions stay within purchase prices and commuting.
+Rents for all three cities are not lined up on the same terms here. For reference, Nishitokyo 1R sits around ¥80,000 — but this article’s conclusions stay with purchase prices and commuting.
 
 ---
 
 ## 3. How Large Are Neighborhood Gaps Inside Each City?
 
-City averages are only a starting point. Focus on neighborhoods with 30+ transactions, and each city’s face appears.
+City averages alone do not show each city’s face. Neighborhoods with **30+ transactions** look like this:
 
-**Nishitokyo** — Yatochō already sits apart from Hibarigaoka and Tanashichō. Neighborhoods under 30 deals (e.g. Shibakubo-chō, Nishihara-chō) stay as reference only; we leave them out of the body numbers here.
+| City | Neighborhood (chō) | Deals | Price / m² | 70 m² equiv. | vs city avg |
+|------|--------------------|------:|-----------:|-------------:|------------:|
+| Koganei | Honchō (本町) | 66 | **¥945,000** | ~**¥66.15 million** | +¥189,000 |
+| Nishitokyo | Yatochō (谷戸町) | 36 | **¥689,000** | ~**¥48.23 million** | +¥130,000 |
+| Kodaira | Hana-Koganei-Minamichō (花小金井南町) | 51 | **¥640,000** | ~**¥44.80 million** | +¥129,000 |
+| Nishitokyo | Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~**¥38.50 million** | −¥9,000 |
+| Nishitokyo | Tanashichō (田無町) | 33 | **¥537,000** | ~**¥37.59 million** | −¥22,000 |
 
-**Kodaira** — Only **Hana-Koganei-Minamichō (花小金井南町)** clearly clears 30 deals (51 · **¥640,000** / m² · ~¥44.80 million at 70 m²). That is above the city average (¥511,000), with activity clustered south of Hana-Koganei. Elsewhere, counts are too thin to assert.
+<small>City averages: Koganei ¥756,000 · Nishitokyo ¥559,000 · Kodaira ¥511,000 per m². Neighborhoods under 30 deals are left out of the table.</small>
 
-**Koganei** — **Honchō (本町)** (66 · **¥945,000** / m² · ~¥66.15 million at 70 m²) anchors the sample and clearly lifts the ¥756,000 city average. Most other neighborhoods sit under 30 deals, so it is safer to look at the **Honchō–Musashi-Koganei axis** before “Koganei as a whole.”
+In Koganei, Honchō lifts the average; in Kodaira, the south of Hana-Koganei does. Inside Nishitokyo, Yatochō and Tanashichō already sit far apart.
 
-In short, the three cities are not one market. Even inside one city, **where deals cluster** builds the average. After the line, the next question is **which neighborhood**.
+The three cities are hard to treat as one market — after the city name, ask **which neighborhood**.
 
 ---
 
@@ -190,7 +196,7 @@ The Musashi-Koganei direct ride and the Honchō sample are strong. But Koganei a
 
 - Anyone deciding a specific station or neighborhood purchase from this article alone
 - Anyone reading sub-30-deal neighborhood figures as settled market prices
-- Anyone looking for Nerima or Suginami body prices here (out of scope)
+- Anyone looking for Nerima or Suginami body prices here (not covered)
 
 ---
 
