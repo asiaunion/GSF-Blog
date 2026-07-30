@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T08:50:00+09:00
+modDatetime: 2026-07-30T11:35:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -60,12 +60,9 @@ In this article we put **Nishitokyo, Kodaira, and Koganei** on the same scale: *
 
 ## Key Takeaways
 
-- Nishitokyo’s city average (**¥559,000** / m²) sits clearly below neighboring Nerima (**¥732,000**) and Suginami (**¥931,000**). Against a deal-weighted average of all 23 wards (**about ¥1.20 million**), the gap is wider still.
-- Nishitokyo, the city closest to central Tokyo, is **not** the most expensive of the three (Nishitokyo · Kodaira · Koganei).
-- City-average prices per m² run **Koganei ¥756,000 > Nishitokyo ¥559,000 > Kodaira ¥511,000**.
-- From Musashi-Koganei (Koganei, Chuo Line) to Shinjuku takes about **28 minutes with no transfer**. From Hibarigaoka (Nishitokyo) to the same destination: about **40 minutes with one transfer**.
-- In this sample, **the rail line** (direct access and transfer friction) explains the three-city price order better than map distance.
-- Even within Nishitokyo, neighborhood prices diverge — one city name is not enough.
+- City averages per m² run **Koganei ¥756,000 > Nishitokyo ¥559,000 > Kodaira ¥511,000** — well below the **23-ward average of about ¥1.20 million**.
+- What best explains the gap among the three cities is the rail line, not distance. **Direct service and transfer ease** matter more than how close each city sits to the center on a map.
+- In practice, Musashi-Koganei (Koganei) reaches Shinjuku in about **28 minutes with no transfer**; Hibarigaoka (Nishitokyo) takes about **40 minutes with one transfer**.
 
 ---
 
@@ -196,7 +193,7 @@ The Musashi-Koganei direct ride and the Honchō sample are strong. But Koganei a
 
 ## Joseph's View
 
-> This is a **judgment** formed while reviewing the data. It does not include on-site anecdotes or invented experience.
+> Even next to the 23 wards on the map, what sorted prices was the direct line — and the neighborhood.
 
 **Closing this piece** — the question I held onto was **adjacency, or the rail line?** **The number that stayed longest was Koganei’s “28 minutes with no transfer.”**
 
