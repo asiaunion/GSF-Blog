@@ -1,8 +1,8 @@
 # Joseph Authentic Voice — Editorial Philosophy
 
 > **상태**: v1.3 (2026-07-18) · Ep.10 voice lock · **Reader First** · **데이터 저널리즘 70/30** 추가 · Joseph × Cursor  
-> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
-> **기준 글 (benchmark)**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Ep.10)
+> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md) *(리듬·표·출처 — 하드게이트 아님)* · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
+> **기준 글 (benchmark)**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Ep.10) · 리듬 참조: Ep.13 `tokyo-nishitokyo-kodaira-koganei`
 
 ---
 
@@ -108,7 +108,7 @@ Ep.10은 「좋은 글」이 아니라 **「기준이 되는 글」**이다. Ep.
 
 - **대표 문장 1개**: 매 편 「타마의 어디를 말하는가」급 기억될 문장을 하나 만든다 (도입과 Joseph's View에서 반복).
 - **중간 질문**: 표 앞에 「그렇다면 …왜 …일까요?」형 질문을 1~2회 — 독자를 앞으로 끌어가는 장치.
-- **모바일 문단 규칙**: 3줄 안팎마다 끊는다. 설명 4문장 연속 금지.
+- **모바일 문단 규칙**: 문단은 **2~3문장** 단위로 묶는다(문장마다 개행하지 않음). 설명 한 문단에 메시지 1개. Joseph's View·Bullet은 짧은 줄 유지. → 상세 [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md)
 - **노트 문장**: 편당 1회 「이번 글에서 제가 가장 오래 들여다본 것은 …였습니다. 예상과 가장 달랐기 때문입니다」형 — 과장 없이 사고 변화를 드러냄.
 - **마무리 여운**: 결론 요약보다, 독자가 같은 질문을 하게 만드는 문장으로 끝맺는다.
 - **연결어·명사 리듬**: 「그런데」 반복 금지 — 「하지만·막상 들여다보니·실제로는·흥미로운 점은·예상과 달리」로 분산. 「자료」도 「실거래 기록·거래 흐름·숫자·데이터」로 번갈아 쓴다.

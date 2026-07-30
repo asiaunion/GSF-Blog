@@ -89,6 +89,8 @@
 | R7 | 내부링크 ≥2 (tokyoLife + urbanInvestment 규칙) | 링크 0 |
 | R8 | HARD: slug·JA·범위 | 위반 즉시 Fail |
 
+**Auth 전 soft-check (Fail 아님 · Ep.13 craft):** [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md) — 문단 2~3문장 · 표 병합 · SourcesList 단일 · EN proximity/rail connections. 라이브 가독성 패치 반복을 Auth 전으로 앞당기기 위함.
+
 기계: `pnpm validate:post <slug>` · `pnpm verify:episode --slug <slug>` exit 0 — **PASS의 필요조건, 충분조건 아님**.
 
 ---
@@ -107,10 +109,11 @@
 
 ## 7. Ep 포인터
 
-| 항목 | Ep.12 (캘리브레이션 · done) | **Ep.13 (현재)** |
+| 항목 | Ep.12 (캘리브레이션 · done) | **Ep.13 (done · craft 수확)** |
 |------|---------------------------|------------------|
 | Mode | C | **C** |
 | slug | `tokyo-machida-tama-inagi` | `tokyo-nishitokyo-kodaira-koganei` |
+| craft | Voice Full reference | [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md) — 리듬·표·출처 (soft) |
 | 대상 | 町田市 · 多摩市 · 稲城市 | 西東京市 · 小平市 · 小金井市 |
 | 벤치마크 | Ep.10 (+ Ep.11) | Ep.10 · Ep.12 |
 | 지시 | [`AG_TASK_EP12_INSTRUCTION.md`](./AG_TASK_EP12_INSTRUCTION.md) | [`AG_TASK_EP13_INSTRUCTION.md`](./AG_TASK_EP13_INSTRUCTION.md) |
