@@ -141,8 +141,6 @@ The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “l
 
 **Back to the opening question. Adjacency, or the rail line? In this data, a little more weight falls on the line.**
 
-Rents for all three cities are not lined up on the same terms here. For reference, Nishitokyo 1R sits around ¥80,000 — but this article’s conclusions stay with purchase prices and commuting.
-
 ---
 
 ## 3. How Large Are Neighborhood Gaps Inside Each City?
