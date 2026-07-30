@@ -179,16 +179,19 @@ function stats(arr) {
 /** XIT001: 맨션 성약가·취득가·거래가격 */
 async function collectPrice(wardName, year = 2025, quarter = null, noCache = false, priceClassification = "02") {
   const mun = getMunicipality({ name_ja: wardName });
-  const cityCode = mun?.code || WARD_CODE[wardName];
+  let cityCode = mun?.code || WARD_CODE[wardName];
   if (!cityCode) throw new Error(`알 수 없는 구: ${wardName}`);
 
   const q = quarter ? `_q${quarter}` : "";
   const cacheKey = `price-${priceClassification}-${wardName}-${year}${q}`;
 
+  // MLIT API legacy city code mapping (西東京市: 13228 → MLIT XIT001 API returns 13229)
+  const apiCityCode = (wardName === "西東京市" || cityCode === "13228") ? "13229" : cityCode;
+
   const params = new URLSearchParams({
     priceClassification,
     year: String(year),
-    city: cityCode,
+    city: apiCityCode,
     language: "ja",
   });
   if (quarter) params.set("quarter", String(quarter));

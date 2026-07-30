@@ -2,6 +2,15 @@
 > **AG 배포 완료** 또는 **Cursor 브랜치 대기** 시 append. Claude Ark 세션 §7A에서 읽음.
 > 규칙: `scratch/AGENTS.md` → 핸드오프 자동 기록 규칙 참조.
 
+## [2026-07-29 23:55] Cursor — Ep.13 **PUBLISH** (Mode C 완주)
+
+- Joseph Auth → EN · hero/og · validate:post **100** · verify:episode **ok**
+- ward-series SSOT sync (西東京 n=221 · 小平 189 · 小金井 136)
+- `draft:false` · push `519248d` → origin/main · OPEN_QUEUE NP13 **done**
+- **다음:** IndexNow · live 200 확인 · 네이버 큐(Joseph 클릭) · 小平·小金井 1R은 후속 refresh
+
+---
+
 ## [2026-07-29 23:45] Cursor — Ep.13 출판 전 마지막 폴리싱 (GPT)
 
 - 도입: Ep.12 연결 → 「이번에도 동네 단위…」순서 조정

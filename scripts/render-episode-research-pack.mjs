@@ -275,8 +275,22 @@ async function buildPack(meta, benchmarks, wards, args) {
 async function main() {
   await loadEnv();
   const args = parseArgs(process.argv);
+  const BENCHMARKS_TAMA = path.join(root, "docs/verification/tokyo-tama-benchmarks.json");
   const episodesDoc = JSON.parse(await readFile(EPISODES, "utf8"));
-  const benchmarks = JSON.parse(await readFile(BENCHMARKS, "utf8"));
+  const benchmarks23 = JSON.parse(await readFile(BENCHMARKS, "utf8"));
+  let benchmarksTama = {};
+  try {
+    benchmarksTama = JSON.parse(await readFile(BENCHMARKS_TAMA, "utf8"));
+  } catch {}
+
+  const benchmarks = { ...benchmarks23 };
+  for (const key of Object.keys(benchmarksTama)) {
+    if (typeof benchmarksTama[key] === "object" && benchmarksTama[key]?.wards) {
+      if (!benchmarks[key]) benchmarks[key] = { ...benchmarksTama[key], wards: {} };
+      if (!benchmarks[key].wards) benchmarks[key].wards = {};
+      Object.assign(benchmarks[key].wards, benchmarksTama[key].wards);
+    }
+  }
 
   let meta = null;
   let wards = [];
