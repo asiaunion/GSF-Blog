@@ -70,6 +70,19 @@ const blog = defineCollection({
           })
         )
         .optional(),
+      /** Optional methodology rows shown inside SourcesList (data basis table). */
+      dataBasis: z
+        .array(
+          z.object({
+            item: z.string(),
+            basis: z.string(),
+          })
+        )
+        .optional(),
+      /** Optional footnotes under dataBasis (e.g. weighted-average method). */
+      dataFootnotes: z.array(z.string()).optional(),
+      /** Optional footer note replacing the default SourcesList helper text. */
+      sourcesFooterNote: z.string().optional(),
     }).superRefine((data, ctx) => {
       if (data.citeSources?.length) {
         for (const url of urlsFromCiteSources(data.citeSources)) {

@@ -63,6 +63,9 @@ const {
   lang: postLang,
   sources,
   citeSources,
+  dataBasis,
+  dataFootnotes,
+  sourcesFooterNote,
 } = post.data;
 
 const postDisclaimerCategory = resolvePostDisclaimerCategory(category);
@@ -290,8 +293,15 @@ const nextPost =
       <Content />
     </article>
 
-    {sources && sources.length > 0 && (
-      <SourcesList sources={sources} citeSources={citeSources} lang={disclaimerLang} />
+    {(sources?.length > 0 || citeSources?.length || dataBasis?.length) && (
+      <SourcesList
+        sources={sources ?? []}
+        citeSources={citeSources}
+        dataBasis={dataBasis}
+        dataFootnotes={dataFootnotes}
+        sourcesFooterNote={sourcesFooterNote}
+        lang={disclaimerLang}
+      />
     )}
 
 

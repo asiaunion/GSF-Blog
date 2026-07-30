@@ -2,7 +2,7 @@
 title: "니시도쿄 집값은 23구에 가깝나 — 고다이라·고가네이 실제 거래가 [Ep.13·2026]"
 description: "도심 경계의 니시도쿄·고다이라·고가네이를 동네(町名) 단위 실거래로 비교합니다. 거리와 가격 순서가 어긋나는지, 노선이 더 잘 설명하는지 살펴봅니다."
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T11:45:00+09:00
+modDatetime: 2026-07-30T11:50:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -44,6 +44,19 @@ citeSources:
     url: "https://www.recruit.co.jp/wp-content/uploads/2025/07/20250306_housing_02.pdf"
   - label: "SUUMO 住みたい街ラン킹2025 首都圏 ～その他（住みたい沿線）～"
     url: "https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/"
+dataBasis:
+  - item: "맨션 ㎡당 실제 거래가"
+    basis: "국토교통성 부동산정보라이브러리 2025년 1~4분기"
+  - item: "통근시간"
+    basis: "Yahoo!乗換案内 2026-07-29 실측(평일 아침 신주쿠·도쿄 도착 역산)"
+  - item: "SUUMO 1R"
+    basis: "西東京市 스냅샷(세 시 동일 조건 비교는 미완)"
+  - item: "住みたい街 랭킹"
+    basis: "Recruit SUUMO 2025 首都圏 · 연선별（JR中央線 4위·410점 · 발표 2025-03）"
+dataFootnotes:
+  - "23구 가중 평균: 23개 구 각각의 ㎡당 평균을 거래 건수로 가중. 공식 ‘23구 단가’ 발표치가 아니라 같은 MLIT 표의 비교용 숫자입니다."
+  - "하나코가네이→신주쿠: 환승 경로와 세이부신주쿠역→JR신주쿠역 지상 도보를 포함한 경로가 함께 있습니다."
+sourcesFooterNote: "동네별 거래가 30건 미만인 구간은 참고용으로만 해석하세요. 통근시간은 조회 시점·열차 다이어에 따라 수 분 달라질 수 있습니다. 본문의 초록색 숫자 각주를 누르면 아래 출처 항목으로 이동합니다."
 ---
 
 23구 바로 옆이면 집값도 비슷할 것이라고 생각하기 쉽습니다.
@@ -207,40 +220,3 @@ citeSources:
 - [Ep.11: 하치오지·히노·아키시마 — 다마 서부](/ko/posts/tokyo-hachioji-hino-akishima/)
 - [Ep.10: 코쿠분지·쿠니타치·후추·타치카와](/ko/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)
 - [시리즈 프롤로그](/ko/posts/tokyo-ward-guide-series-prologue/)
-
----
-
-<div class="sources-panel not-prose mt-8 rounded-xl border border-border bg-card p-4 text-[11px] leading-relaxed text-foreground/65">
-<p class="m-0 mb-2 text-xs font-semibold tracking-wide text-foreground/75">출처 및 참고 자료</p>
-<table class="m-0 w-full border-collapse text-[11px] text-foreground/70">
-<thead>
-<tr class="border-b border-border/60 text-left text-foreground/55">
-<th class="py-1 pr-3 font-medium">항목</th>
-<th class="py-1 font-medium">기준</th>
-</tr>
-</thead>
-<tbody>
-<tr class="border-b border-border/40 align-top">
-<td class="py-1 pr-3 whitespace-nowrap">맨션 ㎡당 실제 거래가</td>
-<td class="py-1">국토교통성 부동산정보라이브러리 2025년 1~4분기</td>
-</tr>
-<tr class="border-b border-border/40 align-top">
-<td class="py-1 pr-3 whitespace-nowrap">통근시간</td>
-<td class="py-1">Yahoo!乗換案内 2026-07-29 실측(평일 아침 신주쿠·도쿄 도착 역산)</td>
-</tr>
-<tr class="border-b border-border/40 align-top">
-<td class="py-1 pr-3 whitespace-nowrap">SUUMO 1R</td>
-<td class="py-1">西東京市 스냅샷(세 시 동일 조건 비교는 미완)</td>
-</tr>
-<tr class="align-top">
-<td class="py-1 pr-3 whitespace-nowrap">住みたい街 랭킹</td>
-<td class="py-1">Recruit SUUMO 2025 首都圏 · 연선별（JR中央線 4위·410점 · 발표 2025-03）</td>
-</tr>
-</tbody>
-</table>
-<p class="m-0 mt-2.5 text-[10px] leading-snug text-foreground/55">
-<sup>1</sup> 23구 가중 평균: 23개 구 각각의 ㎡당 평균을 거래 건수로 가중. 공식 ‘23구 단가’ 발표치가 아니라 같은 MLIT 표의 비교용 숫자입니다.<br />
-<sup>2</sup> 하나코가네이→신주쿠: 환승 경로와 세이부신주쿠역→JR신주쿠역 지상 도보를 포함한 경로가 함께 있습니다.
-</p>
-<p class="m-0 mt-2 text-[10px] italic leading-snug text-foreground/45">※ 본 글은 정보 제공 목적의 개인적 분석이며, 특정 부동산의 매수·매도를 권유하지 않습니다. 동네별 거래가 30건 미만인 구간은 참고용으로만 해석하세요. 통근시간은 조회 시점·열차 다이어에 따라 수 분 달라질 수 있습니다.</p>
-</div>

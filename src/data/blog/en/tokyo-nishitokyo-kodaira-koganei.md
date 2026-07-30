@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T11:45:00+09:00
+modDatetime: 2026-07-30T11:50:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -44,6 +44,19 @@ citeSources:
     url: "https://www.recruit.co.jp/wp-content/uploads/2025/07/20250306_housing_02.pdf"
   - label: "SUUMO Ranking 2025 Greater Tokyo — Other (Lines People Want to Live On)"
     url: "https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/"
+dataBasis:
+  - item: "Condo price / m²"
+    basis: "MLIT Real Estate Information Library Q1–Q4 2025"
+  - item: "Commute times"
+    basis: "Yahoo! Transit 2026-07-29 (weekday morning Shinjuku/Tokyo arrival reverse lookup)"
+  - item: "SUUMO 1R"
+    basis: "Nishitokyo City snapshot (same-condition three-city compare incomplete)"
+  - item: "Town ranking"
+    basis: "Recruit SUUMO 2025 Greater Tokyo · by line (JR Chuo Line 4th · 410 pts · published 2025-03)"
+dataFootnotes:
+  - "23-ward weighted average: each ward’s per-m² average weighted by deal count — a comparison figure from the same MLIT table, not an official “23-ward unit price.”"
+  - "Hana-Koganei→Shinjuku: includes transfer paths and a surface walk from Seibu-Shinjuku to JR Shinjuku."
+sourcesFooterNote: "Treat neighborhoods with fewer than 30 transactions as reference only. Commute times can shift by several minutes depending on query time and the timetable. Green numbered markers in the body link to the source entries below."
 ---
 
 It is easy to assume that living right next to Tokyo's 23 wards means similar home prices.
@@ -207,40 +220,3 @@ In this data, the character of the line into the center explained prices better 
 - [Ep.11: Hachioji, Hino, and Akishima — Western Tama](/en/posts/tokyo-hachioji-hino-akishima/)
 - [Ep.10: Kokubunji, Kunitachi, Fuchu, and Tachikawa](/en/posts/tokyo-kokubunji-kunitachi-fuchu-tachikawa/)
 - [Series Prologue](/en/posts/tokyo-ward-guide-series-prologue/)
-
----
-
-<div class="sources-panel not-prose mt-8 rounded-xl border border-border bg-card p-4 text-[11px] leading-relaxed text-foreground/65">
-<p class="m-0 mb-2 text-xs font-semibold tracking-wide text-foreground/75">Sources &amp; References</p>
-<table class="m-0 w-full border-collapse text-[11px] text-foreground/70">
-<thead>
-<tr class="border-b border-border/60 text-left text-foreground/55">
-<th class="py-1 pr-3 font-medium">Item</th>
-<th class="py-1 font-medium">Benchmark</th>
-</tr>
-</thead>
-<tbody>
-<tr class="border-b border-border/40 align-top">
-<td class="py-1 pr-3 whitespace-nowrap">Condo price / m²</td>
-<td class="py-1">MLIT Real Estate Information Library Q1–Q4 2025</td>
-</tr>
-<tr class="border-b border-border/40 align-top">
-<td class="py-1 pr-3 whitespace-nowrap">Commute times</td>
-<td class="py-1">Yahoo! Transit 2026-07-29 (weekday morning Shinjuku/Tokyo arrival reverse lookup)</td>
-</tr>
-<tr class="border-b border-border/40 align-top">
-<td class="py-1 pr-3 whitespace-nowrap">SUUMO 1R</td>
-<td class="py-1">Nishitokyo City snapshot (same-condition three-city compare incomplete)</td>
-</tr>
-<tr class="align-top">
-<td class="py-1 pr-3 whitespace-nowrap">Town ranking</td>
-<td class="py-1">Recruit SUUMO 2025 Greater Tokyo · by line (JR Chuo Line 4th · 410 pts · published 2025-03)</td>
-</tr>
-</tbody>
-</table>
-<p class="m-0 mt-2.5 text-[10px] leading-snug text-foreground/55">
-<sup>1</sup> 23-ward weighted average: each ward’s per-m² average weighted by deal count — a comparison figure from the same MLIT table, not an official “23-ward unit price.”<br />
-<sup>2</sup> Hana-Koganei→Shinjuku: includes transfer paths and a surface walk from Seibu-Shinjuku to JR Shinjuku.
-</p>
-<p class="m-0 mt-2 text-[10px] italic leading-snug text-foreground/45">※ This article is a personal analysis for informational purposes and does not constitute advice to buy or sell any specific property. Treat neighborhoods with fewer than 30 transactions as reference only. Commute times can shift by several minutes depending on query time and the timetable.</p>
-</div>

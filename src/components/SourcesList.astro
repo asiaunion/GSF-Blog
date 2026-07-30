@@ -1,22 +1,44 @@
 ---
 /**
  * SourcesList — numbered sources with optional rich citations (label, archive, portal).
+ * Optional dataBasis/dataFootnotes merge methodology notes into the same panel.
  * Inline body uses <sup class="source-ref"><a href="#source-N">N</a></sup>.
  */
 import type { UiLang } from "@/i18n/ui";
 import type { CiteSource } from "@/lib/sourceCitations";
 
+type DataBasisRow = { item: string; basis: string };
+
 type Props = {
   sources: string[];
   citeSources?: CiteSource[];
+  dataBasis?: DataBasisRow[];
+  dataFootnotes?: string[];
+  sourcesFooterNote?: string;
   lang?: UiLang | string;
 };
 
-const { sources, citeSources = [], lang = "en" } = Astro.props;
+const {
+  sources,
+  citeSources = [],
+  dataBasis = [],
+  dataFootnotes = [],
+  sourcesFooterNote,
+  lang = "en",
+} = Astro.props;
 
 const labels: Record<
   string,
-  { title: string; note: string; official: string; archive: string; portal: string; pdf: string }
+  {
+    title: string;
+    note: string;
+    official: string;
+    archive: string;
+    portal: string;
+    pdf: string;
+    itemCol: string;
+    basisCol: string;
+  }
 > = {
   en: {
     title: "Sources & References",
@@ -25,6 +47,8 @@ const labels: Record<
     archive: "Archive",
     portal: "Portal",
     pdf: "PDF",
+    itemCol: "Item",
+    basisCol: "Benchmark",
   },
   ko: {
     title: "출처 및 참고 자료",
@@ -33,6 +57,8 @@ const labels: Record<
     archive: "보관",
     portal: "포털",
     pdf: "PDF",
+    itemCol: "항목",
+    basisCol: "기준",
   },
   ja: {
     title: "出典・参考資料",
@@ -41,6 +67,8 @@ const labels: Record<
     archive: "アーカイブ",
     portal: "ポータル",
     pdf: "PDF",
+    itemCol: "項目",
+    basisCol: "基準",
   },
 };
 
@@ -59,14 +87,59 @@ function toDomain(url: string): string {
 
 const useRich = citeSources.length > 0;
 const simpleOnly = !useRich && sources.length > 0;
+const hasBasis = dataBasis.length > 0;
+const show = useRich || simpleOnly || hasBasis;
+const footer = sourcesFooterNote ?? L.note;
 ---
 
 {
-  (useRich || simpleOnly) && (
-    <section class="sources-panel mt-6 rounded-xl border border-border bg-card p-5">
-      <h2 class="text-base font-semibold">{L.title}</h2>
+  show && (
+    <section class="sources-panel mt-6 rounded-xl border border-border bg-card p-4 text-[11px] leading-relaxed text-foreground/70">
+      <h2 class="!mt-0 !mb-0 text-xs font-semibold tracking-wide text-foreground/80">
+        {L.title}
+      </h2>
+
+      {hasBasis && (
+        <table class="mt-2.5 w-full border-collapse text-[11px] text-foreground/70">
+          <thead>
+            <tr class="border-b border-border/60 text-left text-foreground/55">
+              <th class="py-1 pr-3 font-medium">{L.itemCol}</th>
+              <th class="py-1 font-medium">{L.basisCol}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {dataBasis.map((row, i) => (
+              <tr
+                class:list={[
+                  "align-top",
+                  i < dataBasis.length - 1 && "border-b border-border/40",
+                ]}
+              >
+                <td class="py-1 pr-3 whitespace-nowrap">{row.item}</td>
+                <td class="py-1">{row.basis}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+
+      {dataFootnotes.length > 0 && (
+        <p class="mt-2 text-[10px] leading-snug text-foreground/55">
+          {dataFootnotes.map((note, i) => (
+            <span class="block">
+              <sup>{i + 1}</sup> {note}
+            </span>
+          ))}
+        </p>
+      )}
+
       {useRich ? (
-        <ol class="mt-3 list-none space-y-2 pl-0 text-sm leading-relaxed text-foreground/80">
+        <ol
+          class:list={[
+            "list-none space-y-1.5 pl-0 text-[11px] leading-relaxed text-foreground/75",
+            hasBasis ? "mt-3 border-t border-border/50 pt-2.5" : "mt-2.5",
+          ]}
+        >
           {citeSources.map((item, index) => {
             const n = index + 1;
             return (
@@ -75,7 +148,7 @@ const simpleOnly = !useRich && sources.length > 0;
                 class="source-line scroll-mt-24 flex flex-wrap items-baseline gap-x-1.5 gap-y-0.5"
               >
                 <span class="shrink-0 font-semibold text-accent">{n}.</span>
-                <span class="text-foreground">{item.label}</span>
+                <span class="text-foreground/85">{item.label}</span>
                 <span class="text-foreground/40" aria-hidden="true">
                   :
                 </span>
@@ -124,22 +197,30 @@ const simpleOnly = !useRich && sources.length > 0;
           })}
         </ol>
       ) : (
-        <ol class="mt-3 list-decimal space-y-1.5 pl-5 text-sm leading-relaxed text-foreground/75">
-          {sources.map(url => (
-            <li>
-              <a
-                href={url}
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="break-all underline decoration-foreground/25 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent"
-              >
-                {toDomain(url)}
-              </a>
-            </li>
-          ))}
-        </ol>
+        simpleOnly && (
+          <ol
+            class:list={[
+              "list-decimal space-y-1 pl-5 text-[11px] leading-relaxed text-foreground/75",
+              hasBasis ? "mt-3 border-t border-border/50 pt-2.5" : "mt-2.5",
+            ]}
+          >
+            {sources.map(url => (
+              <li>
+                <a
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                  class="break-all underline decoration-foreground/25 underline-offset-2 transition-colors hover:text-accent hover:decoration-accent"
+                >
+                  {toDomain(url)}
+                </a>
+              </li>
+            ))}
+          </ol>
+        )
       )}
-      <p class="mt-3 text-xs italic text-foreground/50">{L.note}</p>
+
+      <p class="mt-2.5 text-[10px] italic leading-snug text-foreground/45">{footer}</p>
     </section>
   )
 }
