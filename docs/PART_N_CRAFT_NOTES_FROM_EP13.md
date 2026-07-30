@@ -1,10 +1,12 @@
 # Part N Craft Notes — Ep.13에서 뽑은 참조 규칙
 
-> **상태:** draft · **하드게이트 아님** · Joseph × Cursor (2026-07-30)  
+> **상태:** Voice **v1.4 초안**의 craft 상세 · **하드게이트 아님** · Joseph × Cursor (2026-07-30)  
 > **출처 에피소드:** Ep.13 `tokyo-nishitokyo-kodaira-koganei` (라이브 폴리싱 다수 회차)  
-> **상위:** [`JOSEPH_AUTHENTIC_VOICE.md`](./JOSEPH_AUTHENTIC_VOICE.md) · [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md)  
+> **상위 SSOT:** [`JOSEPH_AUTHENTIC_VOICE.md`](./JOSEPH_AUTHENTIC_VOICE.md) **v1.4 초안** §리듬·레이아웃  
+> **관련:** [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md)  
 > **목적:** 다음 Part N(Ep.14~) KO/EN 초안·Auth 전 폴리싱에서 **같은 수정을 다시 하지 않도록** 참조한다.  
-> **비목적:** validate fail · Cursor PASS 차단 · AdSense/Gate A 잠금. 위반해도 발행 금지 사유가 **되지 않는다**.
+> **비목적:** validate fail · Cursor PASS 차단 · AdSense/Gate A 잠금. 위반해도 발행 금지 사유가 **되지 않는다**.  
+> **보이스 전략:** 포지셔닝·채널·장기 비율 등은 Voice v1.4에 잠그지 않음 — **추후 논의**.
 
 ---
 
@@ -28,9 +30,8 @@
 | **Joseph's View** | **한 문장 단위 줄바꿈 유지** | 분석 파트와 의견 파트의 시각 구분 |
 | **요약 Bullet / Who this helps** | Bullet 유지 | 본문 문단화와 섞지 않음 |
 
-**Voice v1.3과의 관계:**  
-「모바일 3줄마다 끊기」는 **문단 안 호흡**으로 읽되, **문장마다 `<p>`를 쪼개지 않는다**.  
-권장 형태:
+**Voice v1.4:**  
+본문 = 2~3문장 문단. Joseph's View·Bullet = 짧은 줄. 문장마다 `<p>`를 쪼개지 않는다.
 
 ```md
 문장. 문장.
@@ -121,17 +122,11 @@ Auth(⑥) **직전**, Cursor KO 셀프체크에 아래만 추가한다.
 
 ---
 
-## 8. 보이스 전략으로 이어갈 후보 (잠금 전 논의)
+## 8. 보이스 전략 (보류)
 
-Ep.13 폴리싱이 암시한 **다음 Voice 개정(가칭 v1.4) 후보** — Joseph 결정 전 초안:
-
-1. **리듬 이원화:** 본문 문단 밀도 ↑ / View 줄바꿈 유지 = 의도적 대비.  
-2. **표 = 서사의 뼈:** 본문은 의미, 표는 증거 — 「표 두 개를 설명하는 글」이 되지 않게.  
-3. **첫 화면 계약:** 독자는 결론 → 스크롤 → 근거. Takeaways 과적 금지.  
-4. **완성도 앞당김:** Reader First 폴리싱을 발행 후가 아니라 Auth 전에.  
-5. **EN은 번역물이 아니라 쌍둥이 리포트:** 같은 주장, 다른 관용구.
-
-→ 확정 시 `JOSEPH_AUTHENTIC_VOICE.md`에 「리듬·레이아웃 (가변)」 절을 추가하고, 본 문서를 벤치마크 링크로 둔다.
+Ep.13 craft가 암시한 후보(본문 밀도 vs View 대비 · 첫 화면 계약 · EN 쌍둥이 리포트 등)는  
+[`JOSEPH_AUTHENTIC_VOICE.md`](./JOSEPH_AUTHENTIC_VOICE.md) **v1.4 초안**에 리듬 층만 반영했다.  
+**포지셔닝·채널·장기 비율 등 전략 본론은 Joseph가 추후 논의**하기로 함 — 여기서 잠그지 않는다.
 
 ---
 

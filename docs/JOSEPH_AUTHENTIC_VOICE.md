@@ -1,8 +1,9 @@
 # Joseph Authentic Voice — Editorial Philosophy
 
-> **상태**: v1.3 (2026-07-18) · Ep.10 voice lock · **Reader First** · **데이터 저널리즘 70/30** 추가 · Joseph × Cursor  
-> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md) *(리듬·표·출처 — 하드게이트 아님)* · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
-> **기준 글 (benchmark)**: `src/data/blog/ko/tokyo-kokubunji-kunitachi-fuchu-tachikawa.md` (Ep.10) · 리듬 참조: Ep.13 `tokyo-nishitokyo-kodaira-koganei`
+> **상태**: **v1.4 초안** (2026-07-30) · Ep.13 craft 반영 · **하드 잠금 아님** · 보이스 전략 본론은 **추후 논의**  
+> **이전**: v1.3 (2026-07-18) Reader First · 데이터 저널리즘 70/30 · Ep.10 voice lock  
+> **관련**: [`REASONING_OS.md`](./REASONING_OS.md) · [`KO_VNEXT_WRITING.md`](./KO_VNEXT_WRITING.md) · [`GSF_ARK_SNS_VOICE_V1.md`](./GSF_ARK_SNS_VOICE_V1.md) · [`PART_N_STABLE_PIPELINE_2026-07.md`](./PART_N_STABLE_PIPELINE_2026-07.md) · [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md) · [`GSF-OS/Wiki/Joseph_Operating_Layer.md`](../../GSF-OS/Wiki/Joseph_Operating_Layer.md)  
+> **기준 글**: Ep.10 `tokyo-kokubunji-kunitachi-fuchu-tachikawa` (철학·밀도) · Ep.13 `tokyo-nishitokyo-kodaira-koganei` (리듬·표·출처)
 
 ---
 
@@ -32,7 +33,7 @@ Ep.10은 「좋은 글」이 아니라 **「기준이 되는 글」**이다. Ep.
 
 ---
 
-## Reader First — 표현 층 (v1.3 · 2026-07-18)
+## Reader First — 표현 층 (v1.3 → v1.4 유지)
 
 > **목표 독해 수준:** 중학생도 따라올 수 있을 만큼 **쉽게**.  
 > **문체:** 지금의 차분한 분석 톤 **유지** (가볍거나 유행어·과장 금지).  
@@ -108,10 +109,60 @@ Ep.10은 「좋은 글」이 아니라 **「기준이 되는 글」**이다. Ep.
 
 - **대표 문장 1개**: 매 편 「타마의 어디를 말하는가」급 기억될 문장을 하나 만든다 (도입과 Joseph's View에서 반복).
 - **중간 질문**: 표 앞에 「그렇다면 …왜 …일까요?」형 질문을 1~2회 — 독자를 앞으로 끌어가는 장치.
-- **모바일 문단 규칙**: 문단은 **2~3문장** 단위로 묶는다(문장마다 개행하지 않음). 설명 한 문단에 메시지 1개. Joseph's View·Bullet은 짧은 줄 유지. → 상세 [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md)
+- **문단 리듬 (v1.4)**: 아래 「리듬·레이아웃」 절.
 - **노트 문장**: 편당 1회 「이번 글에서 제가 가장 오래 들여다본 것은 …였습니다. 예상과 가장 달랐기 때문입니다」형 — 과장 없이 사고 변화를 드러냄.
 - **마무리 여운**: 결론 요약보다, 독자가 같은 질문을 하게 만드는 문장으로 끝맺는다.
 - **연결어·명사 리듬**: 「그런데」 반복 금지 — 「하지만·막상 들여다보니·실제로는·흥미로운 점은·예상과 달리」로 분산. 「자료」도 「실거래 기록·거래 흐름·숫자·데이터」로 번갈아 쓴다.
+
+---
+
+## 리듬·레이아웃 — Craft 층 (v1.4 초안 · Ep.13)
+
+> **성격:** 편집 철학(위 4원칙)은 고정. 본 절은 **제작 리듬**이다. validate Fail / Cursor PASS 차단 사유가 **아니다**.  
+> **상세 체크·표 경제·출처·EN:** [`PART_N_CRAFT_NOTES_FROM_EP13.md`](./PART_N_CRAFT_NOTES_FROM_EP13.md)  
+> **전략 본론:** 보이스 포지셔닝·채널·장기 비율 등은 **추후 Joseph × Cursor 논의** (본 초안에 잠그지 않음).
+
+### 왜 v1.4인가
+
+Ep.13에서 시간이 많이 든 이유는 사실층 오류가 아니라, 사실층 PASS 뒤 **라이브에서 리듬·표·출처·EN을 반복 수정**했기 때문이다.  
+→ 같은 다듬기를 **Auth 전**으로 앞당긴다.
+
+### 구간별 리듬
+
+| 구간 | v1.4 권장 |
+|------|-----------|
+| 분석 본문 | **2~3문장 = 1문단** (문장마다 개행하지 않음) |
+| 먼저 결론 / Key Takeaways | Bullet **3줄** — 핵심 숫자 · 해석 · 사례 |
+| 표 전후 | 본문과 **붙게** — 표는 설명 도구 |
+| Joseph's View | **한 문장 단위 줄바꿈 유지** (본문과 시각 대비) |
+| Who this helps 등 | Bullet 유지 |
+
+```md
+문장. 문장.
+
+문장. 문장. 문장.
+```
+
+### 표·출처 (요약)
+
+- 같은 키(도시·역)로 이어지는 표는 **합친다**. 뒤에서 다룰 동네 표는 앞에서 반복하지 않는다.
+- 출처 패널은 **하나** (`dataBasis` + `dataFootnotes` + `citeSources` → SourcesList). WIP 수치는 출처에도 올리지 않는다.
+- 보조지표(인구·소득 등)는 주 가설을 **대체하지 않는다**.
+
+### EN (요약)
+
+proximity · rail connections · transaction data · compare — 직역체(`inner-edge belt`, `we put`, `price order` 남발) 지양.  
+Key Takeaways는 KO와 같이 **3 bullet**.
+
+### Auth 전 soft-check (Fail 아님)
+
+```text
+[ ] 본문 2~3문장 문단 / View·Bullet 독립
+[ ] 먼저 결론 3줄
+[ ] 표 병합·중복·빈 H2 없음
+[ ] SourcesList 단일 · WIP 미포함
+[ ] EN 관용구 점검
+```
 
 ---
 
@@ -178,3 +229,12 @@ Ep.10에서 채택: vNext spine + Joseph's View + **허구 현장 금지** + 사
 ```
 
 이 반복이 GSF-Ark 브랜드다.
+
+---
+
+## 변경 이력
+
+| 버전 | 날짜 | 내용 |
+|------|------|------|
+| v1.3 | 2026-07-18 | Reader First · 데이터 저널리즘 70/30 · Ep.10 lock |
+| **v1.4 초안** | **2026-07-30** | Ep.13 craft: 문단 리듬 · 표/출처 · EN soft · Auth 전 체크. **보이스 전략 본론은 추후 논의** · 하드 잠금 아님 |
