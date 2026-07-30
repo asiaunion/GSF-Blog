@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does proximity to the 23 wards explain prices—or do rail connections matter more?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T12:15:00+09:00
+modDatetime: 2026-07-30T12:20:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -56,14 +56,14 @@ sourcesFooterNote: "Treat neighborhoods with fewer than 30 transactions as refer
 
 It is easy to assume that living right next to Tokyo's 23 wards means similar home prices. Actual transaction data tells a different story. The most expensive of the three cities is not the one closest to central Tokyo. Even inside Nishitokyo, prices vary significantly by neighborhood — and on city averages alone, Koganei sits above Nishitokyo (2025 transaction data).
 
-In this article we put **Nishitokyo, Kodaira, and Koganei** on the same scale: **price per m²**, converted to a standard **70 m²** (~753 sq ft) unit. [Ep.12](/en/posts/tokyo-machida-tama-inagi/) covered southern Tama — Machida, Tama City, and Inagi — and this time we shift to the **inner-edge belt**: **Nishitokyo (西東京), Kodaira (小平), and Koganei (小金井)**. **Once again, going down to the neighborhood level changes the story a little.**
+This article compares **Nishitokyo, Kodaira, and Koganei** on the same scale: **price per m²**, converted to a standard **70 m²** (~753 sq ft) unit. [Ep.12](/en/posts/tokyo-machida-tama-inagi/) covered southern Tama — Machida, Tama City, and Inagi — and this time we shift to **Tokyo's western urban fringe**: **Nishitokyo (西東京), Kodaira (小平), and Koganei (小金井)**. **Once again, going down to the neighborhood level changes the story a little.**
 
 ---
 
 ## Key Takeaways
 
 - Koganei: ¥756k/m² > Nishitokyo: ¥559k/m² > Kodaira: ¥511k/m²
-- Rail connections explain the pricing hierarchy better than simple distance.
+- Rail connections explain price differences better than simple proximity.
 - Musashi-Koganei reaches Shinjuku directly in about 28 minutes, while Hibarigaoka takes about 40 minutes with one transfer.
 
 ---
