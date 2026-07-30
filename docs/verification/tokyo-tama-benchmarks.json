@@ -1994,7 +1994,7 @@
     }
   },
   "income_density_per_capita": {
-    "source": "docs/verification/cache/tama-income-r6-ep10.json",
+    "source": "docs/verification/cache/tama-income-r6-ep13.json",
     "unit": "万円/人",
     "label": "인구 1인당 실질 소득 밀도（市町村民税 課税標準額 ÷ 都人口推計）",
     "fiscal_year": "R6",
@@ -2031,6 +2031,33 @@
         "population": 187190,
         "fetched_at": "2026-06-26",
         "episode": "Ep.10"
+      },
+      "小金井市": {
+        "rank": 1,
+        "value": 174.2,
+        "taxpayers": 64558,
+        "population": 129781,
+        "per_taxpayer_man_yen": 350.2,
+        "fetched_at": "2026-07-30",
+        "episode": "Ep.13"
+      },
+      "西東京市": {
+        "rank": 2,
+        "value": 148.4,
+        "taxpayers": 100978,
+        "population": 208502,
+        "per_taxpayer_man_yen": 306.5,
+        "fetched_at": "2026-07-30",
+        "episode": "Ep.13"
+      },
+      "小平市": {
+        "rank": 3,
+        "value": 143.5,
+        "taxpayers": 93935,
+        "population": 199626,
+        "per_taxpayer_man_yen": 305.0,
+        "fetched_at": "2026-07-30",
+        "episode": "Ep.13"
       }
     }
   }

@@ -3,7 +3,7 @@
 | Field | Value |
 |-------|--------|
 | **Slug** | tokyo-nishitokyo-kodaira-koganei |
-| **Cursor validate** | PASS (2026-07-30 footnotes + drop §4) |
+| **Cursor validate** | PASS (2026-07-30 merge tables + pop/income §3) |
 
 ---
 
@@ -60,6 +60,17 @@
 | 47 | 52,593 | 52,593 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 48 | 6,615 | 6,615 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
 | 49 | 4,480 | 4,480 | [https://www.reinfolib.mlit.go.jp/ptk/](https://www.reinfolib.mlit.go.jp/ptk/) | [x] | Body |
+| 50 | 174.2만엔 | 174.2만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 51 | 350.2만엔 | 350.2만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 52 | 148.4만엔 | 148.4만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 53 | 306.5만엔 | 306.5만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 54 | 143.5만엔 | 143.5만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 55 | 305.0만엔 | 305.0만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 56 | 207.7만엔 | 207.7만엔 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
+| 57 | 4.0% | 4.0% | MLIT XKT013 (`tokyo-tama-benchmarks.population_forecast`) | [x] | §3 |
+| 58 | 3.2% | 3.2% | MLIT XKT013 (`tokyo-tama-benchmarks.population_forecast`) | [x] | §3 |
+| 59 | 0.4% | 0.4% | MLIT XKT013 (`tokyo-tama-benchmarks.population_forecast`) | [x] | §3 |
+| 60 | 172.7 | 172.7 | [https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html](https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html) | [x] | §3 |
 
 ---
 

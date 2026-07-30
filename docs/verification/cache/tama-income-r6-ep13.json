@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "fetched_at": "2026-07-30",
+  "methodology": "PKM/Ep.10 동일: (市町村民税 課税標準額 千円 × 1,000) ÷ 都人口推計 総人口",
+  "sources": {
+    "tax_base": {
+      "label": "総務省 令和6年度 市町村税課税状況等の調 第11表 市町村別（所得割・課税標準額）",
+      "url": "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html",
+      "file": "xls/J51-24-b.xlsx",
+      "fiscal_year": "R6",
+      "survey_date": "2024-07-01"
+    },
+    "population": {
+      "label": "東京都の人口（推計）2026年5月",
+      "url": "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js265v0000_1.csv",
+      "as_of": "2026-05"
+    }
+  },
+  "reference": {
+    "tokyo_municipalities_avg_per_capita_man_yen": 207.7,
+    "tokyo_23ku_avg_per_capita_man_yen": 287.4
+  },
+  "municipalities": {
+    "西東京市": {
+      "code": "132292",
+      "tax_base_thousand_yen": 309497528,
+      "taxpayers": 100978,
+      "population": 208502,
+      "per_capita_man_yen": 148.4,
+      "per_taxpayer_man_yen": 306.5,
+      "episode": "Ep.13"
+    },
+    "小平市": {
+      "code": "132110",
+      "tax_base_thousand_yen": 286504400,
+      "taxpayers": 93935,
+      "population": 199626,
+      "per_capita_man_yen": 143.5,
+      "per_taxpayer_man_yen": 305.0,
+      "episode": "Ep.13"
+    },
+    "小金井市": {
+      "code": "132101",
+      "tax_base_thousand_yen": 226090789,
+      "taxpayers": 64558,
+      "population": 129781,
+      "per_capita_man_yen": 174.2,
+      "per_taxpayer_man_yen": 350.2,
+      "episode": "Ep.13"
+    }
+  }
+}

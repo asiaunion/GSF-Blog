@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does proximity to the 23 wards explain prices—or do rail connections matter more?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T12:20:00+09:00
+modDatetime: 2026-07-30T12:35:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -24,6 +24,8 @@ tags:
   - "Seibu Line"
   - "Chuo Line"
 sources:
+  - "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js265v0000_1.csv"
+  - "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html"
   - "https://www.reinfolib.mlit.go.jp/ptk/"
   - "https://transit.yahoo.co.jp/"
   - "https://suumo.jp/"
@@ -41,6 +43,10 @@ citeSources:
     url: "https://www.recruit.co.jp/wp-content/uploads/2025/07/20250306_housing_02.pdf"
   - label: "SUUMO Ranking 2025 Greater Tokyo — Other (Lines People Want to Live On)"
     url: "https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/"
+  - label: "MIC FY2024 Municipal Tax Survey Table 11 (taxable standard by municipality)"
+    url: "https://www.soumu.go.jp/main_sosiki/jichi_zeisei/czaisei/czaisei_seido/ichiran09_24.html"
+  - label: "Tokyo Metropolitan Government population estimate (May 2026)"
+    url: "https://www.toukei.metro.tokyo.lg.jp/jsuikei/2026/js265v0000_1.csv"
 dataBasis:
   - item: "Condo price / m²"
     basis: "MLIT Real Estate Information Library Q1–Q4 2025"
@@ -48,9 +54,14 @@ dataBasis:
     basis: "Yahoo! Transit 2026-07-29 (weekday morning Shinjuku/Tokyo arrival reverse lookup)"
   - item: "Town ranking"
     basis: "Recruit SUUMO 2025 Greater Tokyo · by line (JR Chuo Line 4th · 410 pts · published 2025-03)"
+  - item: "Population change (2020→2040)"
+    basis: "MLIT population mesh (XKT013) aggregated approximation"
+  - item: "Income density per capita"
+    basis: "MIC R6 taxable standard ÷ TMG population estimate (2026-05)"
 dataFootnotes:
   - "23-ward weighted average: each ward’s per-m² average weighted by deal count — a comparison figure from the same MLIT table, not an official “23-ward unit price.”"
   - "Hana-Koganei→Shinjuku: includes transfer paths and a surface walk from Seibu-Shinjuku to JR Shinjuku."
+  - "Income density: (municipal tax taxable standard in ¥1,000 × 1,000) ÷ total population. Same method as Ep.10 and the 23-ward posts. Tokyo municipalities avg ~¥2.077M/person; 23-ward avg ~¥2.874M/person (reference)."
 sourcesFooterNote: "Treat neighborhoods with fewer than 30 transactions as reference only. Commute times can shift by several minutes depending on query time and the timetable. Green numbered markers in the body link to the source entries below."
 ---
 
@@ -87,17 +98,7 @@ On the same basis (2025 transaction data · per m² · 70 m² conversion):
 | Nishitokyo (西東京市) | **¥559,000** | ~**¥39.13 million** | 221 |
 | Note: 23-ward weighted avg<sup>1</sup> | **~¥1.20 million** | ~**¥84.11 million** | 22,048 |
 
-**Short answer.** Nishitokyo’s city average is about **¥173,000** per m² (**~24%**) below Nerima, and about **¥372,000** (**~40%**) below Suginami. Versus the 23-ward weighted average, it sits near **half**. Neighboring on the map does not make “priced like the 23 wards” a fair claim.
-
-Even inside Nishitokyo, the mood changes once you go down to neighborhoods.
-
-| Neighborhood (chō) | Deals | Price / m² | 70 m² equiv. |
-|--------------------|------:|-----------:|-------------:|
-| Yatochō (谷戸町) | 36 | **¥689,000** | ~**¥48.23 million** |
-| Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~**¥38.50 million** |
-| Tanashichō (田無町) | 33 | **¥537,000** | ~**¥37.59 million** |
-
-Among neighborhoods with 30+ deals, the spread is already about **¥150,000** per m². Yatochō at **¥689,000** / m² sits close to Nerima’s city average (**¥732,000** / m²), while Tanashichō sits below Nishitokyo’s own average. **The name “Nishitokyo” alone cannot explain relative prices — and “next to the center” is too thin a label for the gap inside the city itself.**
+**Short answer.** Nishitokyo’s city average is about **¥173,000** per m² (**~24%**) below Nerima, and about **¥372,000** (**~40%**) below Suginami. Versus the 23-ward weighted average, it sits near **half**. Neighboring on the map does not make “priced like the 23 wards” a fair claim. Neighborhood gaps inside the city come later.
 
 ---
 
@@ -105,31 +106,37 @@ Among neighborhoods with 30+ deals, the spread is already about **¥150,000** pe
 
 ### Rail connections explained prices better than proximity
 
-By name alone, the three cities are easy to bundle into one belt. The data do not.
+By name alone, the three cities are easy to bundle into one belt. The data do not. City averages and the morning commute in one table:
 
-| City | City avg / m² | 70 m² equiv. | Transactions | Main station (daily passengers) |
-|------|-------------:|-------------:|-------------:|----------------------------------|
-| Koganei (小金井市) | **¥756,000** | **~¥52.92 million** | 136 | Musashi-Koganei 110,668 |
-| Nishitokyo (西東京市) | **¥559,000** | **~¥39.13 million** | 221 | Hibarigaoka 66,846 |
-| Kodaira (小平市) | **¥511,000** | **~¥35.77 million** | 189 | Hana-Koganei 52,593 |
+| City | ¥/m² | 70 m² equiv. | Deals | Main station | →Shinjuku | Transfers |
+|------|-----:|-------------:|------:|--------------|----------:|-----------|
+| Koganei (小金井市) | **¥756,000** | ~**¥52.92M** | 136 | Musashi-Koganei | **28 min** | **0** |
+| Nishitokyo (西東京市) | **¥559,000** | ~**¥39.13M** | 221 | Hibarigaoka | **40 min** | 1 |
+| Kodaira (小平市) | **¥511,000** | ~**¥35.77M** | 189 | Hana-Koganei | **38–39 min** | 1<sup>2</sup> |
 
-The first finding: map position and the **pricing hierarchy** do not match. The city with the strongest “edge of the center” image is not on top. They look like one living area; prices do not. Koganei runs about **35%** higher per m² than Nishitokyo; Nishitokyo about **9%** higher than Kodaira. Rank by proximity alone, and the city that should be first sits in the middle.
+The city with the strongest “edge of the center” image is not on top. Koganei runs about **35%** higher per m² than Nishitokyo; Nishitokyo about **9%** higher than Kodaira. Koganei (Chuo Line) reaches Shinjuku in about **28 minutes with no transfer**; Nishitokyo and Kodaira (Seibu axis) add **a transfer or walking friction**. Relative prices (Koganei > Nishitokyo > Kodaira) track that pattern more closely.
 
-So why is Koganei higher? Distance on a map matters less than **where you arrive in the morning, and how**.
-
-| Origin station (city) | Shinjuku | Tokyo | Transfers |
-|-----------------------|---------:|------:|-----------|
-| Musashi-Koganei (Koganei) | **28 min** | **43 min** | **0** (direct) |
-| Hibarigaoka (Nishitokyo) | **40 min** | **52 min** | 1 / 2 |
-| Hana-Koganei (Kodaira) | **38–39 min** | **60 min** | 1 (or walk from Seibu-Shinjuku)<sup>2</sup> / 2 |
-
-Start with **zero transfers versus not**. Koganei (Chuo Line) reaches Shinjuku and Tokyo **without changing trains**. Nishitokyo and Kodaira (Seibu axis) add **a transfer or walking friction** to the same destinations. Relative prices (Koganei > Nishitokyo > Kodaira) track that pattern more closely. The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “lines people want to live on” survey (**4th** · 410 points). That alone cannot explain prices, but steady line preference is worth noting beside the commute table. ([line ranking](https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/))
+The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “lines people want to live on” survey (**4th** · 410 points). That alone cannot explain prices, but steady line preference is worth noting. ([line ranking](https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/))
 
 **Back to the opening question. Proximity, or rail connections? In this data, a little more weight falls on the connections.**
 
 ---
 
-## 3. How Large Are Neighborhood Gaps Inside Each City?
+## 3. Do Population and Income Tell the Same Story as Prices?
+
+Population outlook and income density for the same three cities:<sup>3</sup>
+
+| City | Pop. change (2020→2040) | Income density / capita | Taxable standard / taxpayer |
+|------|------------------------:|------------------------:|----------------------------:|
+| Koganei | **+4.0%** | **¥1.742M** | **¥3.502M** |
+| Nishitokyo | **+3.2%** | **¥1.484M** | **¥3.065M** |
+| Kodaira | **+0.4%** | **¥1.435M** | **¥3.050M** |
+
+The rank order matches prices: Koganei leads on both population growth and income density; Kodaira sits lowest. Yet all three sit below the Tokyo-municipalities average (~**¥2.077M**/person), and Koganei’s income density (**¥1.742M**) is close to Nerima’s (~**¥1.727M**) even though Koganei’s city-average prices are lower. **Population and income do not contradict the price order — but they also do not prove “next to the center, so similar.”** Read them as supporting context beside the direct-service story above.
+
+---
+
+## 4. How Large Are Neighborhood Gaps Inside Each City?
 
 City averages alone do not show each city’s face. Neighborhoods with **30+ transactions** look like this:
 
