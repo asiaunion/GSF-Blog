@@ -129,8 +129,10 @@
       `block` + `overflow-x-auto` turns the table itself into the scroll container.
       Guarded by `scripts/lint-mobile-structure.mjs` — do not remove without replacing.
     */
+    /* Beat prose default ~2em table margins — sit closer to surrounding body copy. */
     table {
       @apply block max-w-full overflow-x-auto;
+      margin-block: 0.85em;
 
       th,
       td {
