@@ -1,8 +1,8 @@
 ---
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
-description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
+description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does proximity to the 23 wards explain prices—or do rail connections matter more?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T12:10:00+09:00
+modDatetime: 2026-07-30T12:15:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -54,7 +54,7 @@ dataFootnotes:
 sourcesFooterNote: "Treat neighborhoods with fewer than 30 transactions as reference only. Commute times can shift by several minutes depending on query time and the timetable. Green numbered markers in the body link to the source entries below."
 ---
 
-It is easy to assume that living right next to Tokyo's 23 wards means similar home prices. Look at actual transactions, though, and the most expensive of the three cities is not the one closest to central Tokyo. Even inside Nishitokyo, prices split by neighborhood — and on city averages alone, Koganei sits above Nishitokyo (2025 transactions).
+It is easy to assume that living right next to Tokyo's 23 wards means similar home prices. Actual transaction data tells a different story. The most expensive of the three cities is not the one closest to central Tokyo. Even inside Nishitokyo, prices vary significantly by neighborhood — and on city averages alone, Koganei sits above Nishitokyo (2025 transaction data).
 
 In this article we put **Nishitokyo, Kodaira, and Koganei** on the same scale: **price per m²**, converted to a standard **70 m²** (~753 sq ft) unit. [Ep.12](/en/posts/tokyo-machida-tama-inagi/) covered southern Tama — Machida, Tama City, and Inagi — and this time we shift to the **inner-edge belt**: **Nishitokyo (西東京), Kodaira (小平), and Koganei (小金井)**. **Once again, going down to the neighborhood level changes the story a little.**
 
@@ -62,15 +62,15 @@ In this article we put **Nishitokyo, Kodaira, and Koganei** on the same scale: *
 
 ## Key Takeaways
 
-- **Koganei ¥756k > Nishitokyo ¥559k > Kodaira ¥511k** per m² — well below the **23-ward average ~¥1.20M**
-- What best sorts the three cities is the rail line, not map distance — especially **direct service and transfers**
-- Example: Musashi-Koganei→Shinjuku **28 min · 0 transfers** / Hibarigaoka **~40 min · 1 transfer**
+- Koganei: ¥756k/m² > Nishitokyo: ¥559k/m² > Kodaira: ¥511k/m²
+- Rail connections explain the pricing hierarchy better than simple distance.
+- Musashi-Koganei reaches Shinjuku directly in about 28 minutes, while Hibarigaoka takes about 40 minutes with one transfer.
 
 ---
 
 ## Why Write This
 
-At first I, too, assumed Nishitokyo would be the most expensive — “it sits right against the city center.” Then I lined up the transactions. The order was different. So this article asks whether **the line explains prices better than distance**. **The question was one: adjacency, or the rail line?**
+At first I, too, assumed Nishitokyo would be the most expensive — “it sits right against the city center.” Then I lined up the transaction data. The order was different. So this article asks whether **rail connections explain prices better than distance**. **The question was one: proximity, or rail connections?**
 
 ---
 
@@ -78,7 +78,7 @@ At first I, too, assumed Nishitokyo would be the most expensive — “it sits r
 
 The article title asks about the 23 wards — so why name Nerima and Suginami? Because those are the western outer wards Nishitokyo actually touches on the map. Before talking about all 23 at once, it helps to put numbers next to **the nearest neighbors**. “Close in price” here does not mean adjacent on a map; it means **how similar the average transaction price per m² is to those neighboring wards**.
 
-On the same basis (2025 transactions · per m² · 70 m² conversion):
+On the same basis (2025 transaction data · per m² · 70 m² conversion):
 
 | Area | Price / m² | 70 m² equiv. | Deals |
 |------|-----------:|-------------:|------:|
@@ -97,13 +97,13 @@ Even inside Nishitokyo, the mood changes once you go down to neighborhoods.
 | Hibarigaoka (ひばりが丘) | 32 | **¥550,000** | ~**¥38.50 million** |
 | Tanashichō (田無町) | 33 | **¥537,000** | ~**¥37.59 million** |
 
-Among neighborhoods with 30+ deals, the spread is already about **¥150,000** per m². Yatochō at **¥689,000** / m² sits close to Nerima’s city average (**¥732,000** / m²), while Tanashichō sits below Nishitokyo’s own average. **The name “Nishitokyo” alone cannot explain actual prices — and “next to the center” is too thin a label for the gap inside the city itself.**
+Among neighborhoods with 30+ deals, the spread is already about **¥150,000** per m². Yatochō at **¥689,000** / m² sits close to Nerima’s city average (**¥732,000** / m²), while Tanashichō sits below Nishitokyo’s own average. **The name “Nishitokyo” alone cannot explain relative prices — and “next to the center” is too thin a label for the gap inside the city itself.**
 
 ---
 
 ## 2. Are Kodaira and Koganei the Same Commute Shed?
 
-### The line explained prices better than adjacency
+### Rail connections explained prices better than proximity
 
 By name alone, the three cities are easy to bundle into one belt. The data do not.
 
@@ -113,7 +113,7 @@ By name alone, the three cities are easy to bundle into one belt. The data do no
 | Nishitokyo (西東京市) | **¥559,000** | **~¥39.13 million** | 221 | Hibarigaoka 66,846 |
 | Kodaira (小平市) | **¥511,000** | **~¥35.77 million** | 189 | Hana-Koganei 52,593 |
 
-The first finding: map position and price **rank** do not match. The city with the strongest “edge of the center” image is not on top. They look like one living area; prices do not. Koganei runs about **35%** higher per m² than Nishitokyo; Nishitokyo about **9%** higher than Kodaira. Rank by adjacency alone, and the city that should be first sits in the middle.
+The first finding: map position and the **pricing hierarchy** do not match. The city with the strongest “edge of the center” image is not on top. They look like one living area; prices do not. Koganei runs about **35%** higher per m² than Nishitokyo; Nishitokyo about **9%** higher than Kodaira. Rank by proximity alone, and the city that should be first sits in the middle.
 
 So why is Koganei higher? Distance on a map matters less than **where you arrive in the morning, and how**.
 
@@ -123,9 +123,9 @@ So why is Koganei higher? Distance on a map matters less than **where you arrive
 | Hibarigaoka (Nishitokyo) | **40 min** | **52 min** | 1 / 2 |
 | Hana-Koganei (Kodaira) | **38–39 min** | **60 min** | 1 (or walk from Seibu-Shinjuku)<sup>2</sup> / 2 |
 
-Start with **zero transfers versus not**. Koganei (Chuo Line) reaches Shinjuku and Tokyo **without changing trains**. Nishitokyo and Kodaira (Seibu axis) add **a transfer or walking friction** to the same destinations. The price order (Koganei > Nishitokyo > Kodaira) tracks that pattern more closely. The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “lines people want to live on” survey (**4th** · 410 points). That alone cannot explain prices, but steady line preference is worth noting beside the commute table. ([line ranking](https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/))
+Start with **zero transfers versus not**. Koganei (Chuo Line) reaches Shinjuku and Tokyo **without changing trains**. Nishitokyo and Kodaira (Seibu axis) add **a transfer or walking friction** to the same destinations. Relative prices (Koganei > Nishitokyo > Kodaira) track that pattern more closely. The Chuo Line also stayed in the upper tier of SUUMO’s 2025 Greater Tokyo “lines people want to live on” survey (**4th** · 410 points). That alone cannot explain prices, but steady line preference is worth noting beside the commute table. ([line ranking](https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/))
 
-**Back to the opening question. Adjacency, or the rail line? In this data, a little more weight falls on the line.**
+**Back to the opening question. Proximity, or rail connections? In this data, a little more weight falls on the connections.**
 
 ---
 
@@ -149,7 +149,7 @@ In Koganei, Honchō lifts the average; in Kodaira, the south of Hana-Koganei doe
 
 **“It borders the center, so Nishitokyo is still the safest bet.”**
 
-Adjacency can be a real living-area advantage. On these transaction averages, though, **the top of the price ranking is Koganei**. Tie distance and market price into one phrase, and you leave the table behind.
+Proximity can be a real living-area advantage. On these transaction averages, though, **the top of the pricing hierarchy is Koganei**. Tie distance and market price into one phrase, and you leave the table behind.
 
 **"Chuo Line means expensive, always."**
 
@@ -162,7 +162,7 @@ The Musashi-Koganei direct ride and the Honchō sample are strong. But Koganei a
 **Who this helps**
 
 - Readers priced out of the 23 wards who are looking at the Tama edge of the city
-- Readers who want adjacency and direct service separated in a table
+- Readers who want proximity and direct service separated in a table
 - Readers ready to go one step past city averages into neighborhood and station
 
 **Who it does not**
@@ -175,13 +175,13 @@ The Musashi-Koganei direct ride and the Honchō sample are strong. But Koganei a
 
 ## Joseph's View
 
-> Even next to the 23 wards on the map, what sorted prices was the direct line — and the neighborhood.
+> Even next to the 23 wards on the map, what sorted relative prices was the direct rail connection — and the neighborhood.
 
-**Closing this piece** — the question I held onto was **adjacency, or the rail line?** **The number that stayed longest was Koganei’s “28 minutes with no transfer.”**
+**Closing this piece** — the question I held onto was **proximity, or rail connections?** **The number that stayed longest was Koganei’s “28 minutes with no transfer.”**
 
-In this data, the character of the line into the center explained prices better than distance to the center. I will stay inside that scope.
+In this data, the character of the rail connection into the center explained prices better than distance to the center. I will stay inside that scope.
 
-**A reading I intend to keep** — after the city name, ask **which station, how many transfers, which neighborhood’s deals**. **Adjacency is a fact on the map. But market prices are a story the line and the neighborhood write together.**
+**A reading I intend to keep** — after the city name, ask **which station, how many transfers, which neighborhood’s deals**. **Proximity is a fact on the map. But market prices are a story the rail connection and the neighborhood write together.**
 
 ---
 
