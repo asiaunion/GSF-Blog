@@ -2,7 +2,7 @@
 title: "니시도쿄 집값은 23구에 가깝나 — 고다이라·고가네이 실제 거래가 [Ep.13·2026]"
 description: "도심 경계의 니시도쿄·고다이라·고가네이를 동네(町名) 단위 실거래로 비교합니다. 거리와 가격 순서가 어긋나는지, 노선이 더 잘 설명하는지 살펴봅니다."
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T12:05:00+09:00
+modDatetime: 2026-07-30T12:10:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -28,7 +28,6 @@ sources:
   - "https://transit.yahoo.co.jp/"
   - "https://suumo.jp/"
   - "https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/"
-  - "https://suumo.jp/chintai/soba/tokyo/sc_nishitokyo/"
   - "https://www.recruit.co.jp/newsroom/pressrelease/2025/0306_15539.html"
   - "https://www.recruit.co.jp/wp-content/uploads/2025/07/20250306_housing_02.pdf"
 citeSources:
@@ -36,8 +35,6 @@ citeSources:
     url: "https://www.reinfolib.mlit.go.jp/ptk/"
   - label: "Yahoo!乗換案内 통근시간 실측（2026-07-29 · 평일 08:00~08:02 도착 역산）"
     url: "https://transit.yahoo.co.jp/"
-  - label: "SUUMO 임대료 시세（西東京市 1R · 스냅샷）"
-    url: "https://suumo.jp/chintai/soba/tokyo/sc_nishitokyo/"
   - label: "Recruit SUUMO 住みたい街ランキング2025 首都圏版（보도 · 2025-03-06）"
     url: "https://www.recruit.co.jp/newsroom/pressrelease/2025/0306_15539.html"
   - label: "Recruit SUUMO 住みたい街ラン킹2025 상세 PDF（沿線別 · JR中央線 4위·410점）"
@@ -49,8 +46,6 @@ dataBasis:
     basis: "국토교통성 부동산정보라이브러리 2025년 1~4분기"
   - item: "통근시간"
     basis: "Yahoo!乗換案内 2026-07-29 실측(평일 아침 신주쿠·도쿄 도착 역산)"
-  - item: "SUUMO 1R"
-    basis: "西東京市 스냅샷(세 시 동일 조건 비교는 미완)"
   - item: "住みたい街 랭킹"
     basis: "Recruit SUUMO 2025 首都圏 · 연선별（JR中央線 4위·410점 · 발표 2025-03）"
 dataFootnotes:

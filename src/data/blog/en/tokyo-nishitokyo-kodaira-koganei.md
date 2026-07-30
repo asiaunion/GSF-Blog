@@ -2,7 +2,7 @@
 title: "Is Nishitokyo Priced Like the 23 Wards? — Kodaira & Koganei Transaction Prices [Ep.13·2026]"
 description: "Nishitokyo, Kodaira, and Koganei compared at the neighborhood (chō) level. Does adjacency to the 23 wards set the price order — or does the rail line explain it better?"
 pubDatetime: 2026-07-29T23:30:00+09:00
-modDatetime: 2026-07-30T12:05:00+09:00
+modDatetime: 2026-07-30T12:10:00+09:00
 author: Joseph KIM
 draft: false
 gates:
@@ -27,7 +27,6 @@ sources:
   - "https://www.reinfolib.mlit.go.jp/ptk/"
   - "https://transit.yahoo.co.jp/"
   - "https://suumo.jp/"
-  - "https://suumo.jp/chintai/soba/tokyo/sc_nishitokyo/"
   - "https://www.recruit.co.jp/newsroom/pressrelease/2025/0306_15539.html"
   - "https://www.recruit.co.jp/wp-content/uploads/2025/07/20250306_housing_02.pdf"
   - "https://suumo.jp/article/oyakudachi/oyaku/sumai_nyumon/data/sumimachi2025syutoken_sonota/"
@@ -36,8 +35,6 @@ citeSources:
     url: "https://www.reinfolib.mlit.go.jp/ptk/"
   - label: "Yahoo! Transit — Commute times (2026-07-29 · weekday morning arrival reverse lookup)"
     url: "https://transit.yahoo.co.jp/"
-  - label: "SUUMO Rent Market (Nishitokyo City 1R · snapshot)"
-    url: "https://suumo.jp/chintai/soba/tokyo/sc_nishitokyo/"
   - label: "Recruit SUUMO 'Towns People Want to Live In' Ranking 2025 — Greater Tokyo (press · 2025-03-06)"
     url: "https://www.recruit.co.jp/newsroom/pressrelease/2025/0306_15539.html"
   - label: "Recruit SUUMO Ranking 2025 Detail PDF (by line · JR Chuo Line 4th · 410 pts)"
@@ -49,8 +46,6 @@ dataBasis:
     basis: "MLIT Real Estate Information Library Q1–Q4 2025"
   - item: "Commute times"
     basis: "Yahoo! Transit 2026-07-29 (weekday morning Shinjuku/Tokyo arrival reverse lookup)"
-  - item: "SUUMO 1R"
-    basis: "Nishitokyo City snapshot (same-condition three-city compare incomplete)"
   - item: "Town ranking"
     basis: "Recruit SUUMO 2025 Greater Tokyo · by line (JR Chuo Line 4th · 410 pts · published 2025-03)"
 dataFootnotes:
