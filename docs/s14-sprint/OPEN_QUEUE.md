@@ -29,7 +29,7 @@
 | NP13 | **done** | **Ep.13** live (`tokyo-nishitokyo-kodaira-koganei`) KO+EN · Cursor validate/deploy | 네이버 큐 · IndexNow · Mode B 검토 |
 | F3 | **done** (2026-07-20 Cursor) | 허브 FA 패스: "공급 부족 — 구조적 타이트"·"엘리트 수요 집중→공실 전환 느림" 인과 2건 출처 확보 또는 완화 (`tokyo-real-estate-investment-complete-guide` 도입부, Joseph 2026-07-19 승인) | 출처 추가 또는 헤지 문구로 완화 · 3로케일 · validate PASS |
 
-**→ 다음 최우선:** **Part N Ep.13** (신규 1편 · Gate A 대량 동결 중 소량 허용) · TK AdSense 심사 대기 · Ark **재신청 보류**(G4). 잔여=N2 · G1–G3 · Gate A 감시.
+**→ 다음 최우선:** Gate A 실측(G1/G2) · **TK 반려(8/4)·재창 ≥9/15** · Ark **재신청 보류**(G4). 잔여=N2 · G1–G3 · Week4 ~8/12.
 
 ## Next (P1 — Tier 1 백로그 #1–#10 · §1–4만)
 
@@ -57,7 +57,7 @@ Wave A 잠금: **#5 → #7 → #8(세무 준캘리브) → #9 → #10 → #4/#4b
 | G1 | open | Gate A: 네이버/티스토리 **레퍼럴 2주 연속** (GA4) |
 | G2 | open | Gate A: GSC 28d 임계 · risky-claims · 리다이렉트 |
 | G3 | open | **~07-29 이후** title·표면 **대량** 변경 중지 (소규모 정합만) |
-| G4 | open | **gsfark 재신청 보류** (Joseph 2026-07-21) · **TK 8/3 우선** · Ark 신청 UI 금지 until Joseph 명시 해제 · HARD: Ark+TK 동시 신규 신청 금지 |
+| G4 | open | **gsfark 재신청 보류** · **TK 반려(2026-08-04)** · 재창 ≥**2026-09-15** · Ark 신청 UI 금지 until Joseph 명시 해제 **+ Gate A 실측** · HARD: Ark+TK 동시 신규 신청 금지 · 「TK 슬롯 비움」≠ Ark GO |
 
 ## Done (닫힘)
 

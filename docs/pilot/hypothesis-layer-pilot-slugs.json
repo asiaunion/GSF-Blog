@@ -3,7 +3,9 @@
   "pilot_start": "2026-06-26",
   "slugs": [
     "tokyo-kokubunji-kunitachi-fuchu-tachikawa",
-    "tokyo-hachioji-hino-akishima"
+    "tokyo-hachioji-hino-akishima",
+    "tokyo-machida-tama-inagi",
+    "tokyo-nishitokyo-kodaira-koganei"
   ],
   "notes": "Append slugs Ep.11–15 as each episode starts. Legacy posts unaffected unless listed here."
 }

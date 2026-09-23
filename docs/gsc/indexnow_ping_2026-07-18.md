@@ -84,3 +84,15 @@
 - HTTP 코드: 200 OK
 - 성공 기준 통과
 
+
+## [2026-07-29 23:57 JST] IndexNow Ping (Ep.13 publish)
+
+- URLs: KO+EN `tokyo-nishitokyo-kodaira-koganei` + prologue
+- Bing IndexNow HTTP 200
+- commit: `519248d`
+
+## [2026-07-30 11:53 JST] IndexNow Ping (Ep.13 sources panel merge)
+
+- URLs: KO+EN `tokyo-nishitokyo-kodaira-koganei`
+- Bing IndexNow HTTP 200
+- commit: `4fa5b80`

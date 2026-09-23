@@ -43,6 +43,11 @@ Legacy dual-link pattern (cluster posts) is still valid:
 
 One YAML per high-trust slug: `docs/fact-audit/sources/<slug>.sources.yaml`.
 
+## Reusable source cards (설문·보도 등)
+
+장기 재인용용 카드는 `docs/verification/sources/`에 둔다.  
+예: [`suumo-sumitai-machi-ranking-2025-shutoken.md`](./verification/sources/suumo-sumitai-machi-ranking-2025-shutoken.md) — URL·보관 PDF·인용 규칙·금지 인과.
+
 ## Health check
 
 ```bash
