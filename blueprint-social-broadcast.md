@@ -262,7 +262,7 @@ X API 게시 실패 → 에러 로그 + 복사용 텍스트 폴백.
 
 ### Recommended Folder Structure
 ```text
-/Users/gsf/.gemini/antigravity/scratch/.agents/skills/
+/Users/gsf/GSF/.agents/skills/
   /social-broadcast
     SKILL.md                      # 메인 실행 지침
     /templates
@@ -317,7 +317,7 @@ X API 게시 실패 → 에러 로그 + 복사용 텍스트 폴백.
 - [ ] 중간 산출물은 대화 내 아티팩트로 처리 (물리적 파일 없음)
 - [ ] LLM vs code responsibilities are separated clearly
 - [ ] Human review points are explicit where needed (Step 04)
-- [ ] 스킬 경로: `/Users/gsf/.gemini/antigravity/scratch/.agents/skills/social-broadcast/`
+- [ ] 스킬 경로: `/Users/gsf/GSF/.agents/skills/social-broadcast/`
 - [ ] 서브에이전트 불필요 (justified)
 - [ ] 스킬 생성 시 deploy-blog SKILL.md를 레퍼런스로 참조
 

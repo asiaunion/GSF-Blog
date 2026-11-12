@@ -5,7 +5,7 @@ description: GSF-Ark SNS 초안 생성·검증. "SNS 배포 시작", "SNS 배포
 
 # social-broadcast (GSF-Ark SNS Voice v1.0)
 
-> **Repo**: `/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark`  
+> **Repo**: `/Users/gsf/GSF/projects/GSF-Ark`  
 > **Voice SSOT**: [`docs/GSF_ARK_SNS_VOICE_V1.md`](../../docs/GSF_ARK_SNS_VOICE_V1.md)  
 > **Task 템플릿**: [`docs/AG_SNS_DRAFT_PROMPT.md`](../../docs/AG_SNS_DRAFT_PROMPT.md)
 

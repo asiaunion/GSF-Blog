@@ -1,7 +1,7 @@
 import os, json, requests
 from dotenv import load_dotenv
 
-load_dotenv("/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Blog/.env")
+load_dotenv("/Users/gsf/GSF/projects/GSF-Blog/.env")
 
 token = os.getenv("BUFFER_ACCESS_TOKEN")
 linkedin_id = os.getenv("BUFFER_LINKEDIN_CHANNEL_ID")

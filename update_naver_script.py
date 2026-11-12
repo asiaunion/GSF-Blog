@@ -1,6 +1,6 @@
 import os
 
-file_path = '/Users/gsf/.gemini/antigravity/scratch/projects/GSF-Ark/scripts/naver_blog_gen.py'
+file_path = '/Users/gsf/GSF/projects/GSF-Ark/scripts/naver_blog_gen.py'
 
 with open(file_path, 'r', encoding='utf-8') as f:
     content = f.read()
