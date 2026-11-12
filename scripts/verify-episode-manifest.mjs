@@ -15,7 +15,7 @@ import { policyForCount } from "./lib/mlit-sample-policy.mjs";
 const root = process.cwd();
 const PKM_ROOT =
   process.env.PKM_ROOT ||
-  path.join(process.env.HOME || "", "GSF/projects/GSF-PKM");
+  path.join(process.env.HOME || "", "Workspace/projects/GSF-PKM");
 const BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmarks.json");
 const MLIT_FALLBACK = path.join(root, "docs/verification/data/tokyo_mansion_stats_2025.json");
 const MLIT_PKM = path.join(PKM_ROOT, "PKM/30 Resources/tokyo_mansion_stats_2025.json");

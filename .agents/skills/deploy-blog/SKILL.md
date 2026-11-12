@@ -5,9 +5,9 @@ description: GSFArk.com 블로그 포스트 작성·배포 파이프라인 (Wher
 
 # deploy-blog (GSF-Ark)
 
-> **Repo**: `/Users/gsf/GSF/projects/GSF-Ark`  
+> **Repo**: `/Users/gsf/Workspace/projects/GSF-Ark`  
 > **Site**: https://gsfark.com  
-> **PKM**: `/Users/gsf/GSF/projects/GSF-PKM`
+> **PKM**: `/Users/gsf/Workspace/projects/GSF-PKM`
 
 ## HARD-GATE (Ep.07+)
 

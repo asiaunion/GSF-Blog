@@ -2,7 +2,7 @@ import os
 import re
 import json
 
-base_dir = "/Users/gsf/GSF/projects/GSF-Blog/src/data/blog"
+base_dir = "/Users/gsf/Workspace/projects/GSF-Blog/src/data/blog"
 
 updates = {
     "tokyo-ward-guide-series-prologue": {

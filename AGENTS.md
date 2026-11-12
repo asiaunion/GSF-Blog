@@ -1,6 +1,6 @@
 # GSF-Blog — Antigravity agent notes
 
-**Canonical path:** `/Users/gsf/GSF/projects/GSF-Blog`  
+**Canonical path:** `/Users/gsf/Workspace/projects/GSF-Blog`  
 *(작업 루트는 보통 `GSF-Ark` — 이 파일은 그 루트의 에이전트 부트.)*
 
 ---

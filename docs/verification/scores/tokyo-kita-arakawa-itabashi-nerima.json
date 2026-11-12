@@ -2,7 +2,7 @@
   "ok": false,
   "slug": "tokyo-kita-arakawa-itabashi-nerima",
   "episode": "Ep.07",
-  "manifest": "/Users/gsf/GSF/projects/GSF-Ark/docs/verification/manifests/ep07-tokyo-kita-arakawa-itabashi-nerima.manifest.json",
+  "manifest": "/Users/gsf/Workspace/projects/GSF-Ark/docs/verification/manifests/ep07-tokyo-kita-arakawa-itabashi-nerima.manifest.json",
   "failed": 23,
   "passed": 29,
   "total": 52,

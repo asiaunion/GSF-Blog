@@ -11,7 +11,7 @@ import path from "node:path";
 const root = process.cwd();
 const PKM_ROOT =
   process.env.PKM_ROOT ||
-  path.join(process.env.HOME || "", "GSF/projects/GSF-PKM");
+  path.join(process.env.HOME || "", "Workspace/projects/GSF-PKM");
 const PKM_JSON = path.join(PKM_ROOT, "PKM/30 Resources/tokyo_mansion_stats_2025.json");
 const ARK_JSON = path.join(root, "docs/verification/data/tokyo_mansion_stats_2025.json");
 

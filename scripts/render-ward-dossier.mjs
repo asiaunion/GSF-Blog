@@ -21,7 +21,7 @@ import {
 const root = process.cwd();
 const PKM_ROOT =
   process.env.PKM_ROOT ||
-  path.join(process.env.HOME || "", "GSF/projects/GSF-PKM");
+  path.join(process.env.HOME || "", "Workspace/projects/GSF-PKM");
 const DOSSIER_DIR = path.join(PKM_ROOT, "PKM/30 Resources/RealEstate/Tokyo/wards");
 const BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmarks.json");
 const INCOME_CARD = "PKM/30 Resources/도쿄_23구_인당_실질소득_통계_2025.md";

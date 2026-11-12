@@ -2,7 +2,7 @@
   "ok": false,
   "slug": "tokyo-taito-sumida-koto",
   "episode": "Ep.06",
-  "manifest": "/Users/gsf/GSF/projects/GSF-Ark/docs/verification/manifests/ep06-tokyo-taito-sumida-koto.manifest.json",
+  "manifest": "/Users/gsf/Workspace/projects/GSF-Ark/docs/verification/manifests/ep06-tokyo-taito-sumida-koto.manifest.json",
   "failed": 1,
   "passed": 15,
   "total": 16,

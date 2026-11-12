@@ -16,7 +16,7 @@ const BENCHMARKS = path.join(root, "docs/verification/tokyo-ward-series-benchmar
 const SNAPSHOT_DIR = path.join(root, "docs/verification/snapshots");
 const PKM_ROOT =
   process.env.PKM_ROOT ||
-  path.join(process.env.HOME || "", "GSF/projects/GSF-PKM");
+  path.join(process.env.HOME || "", "Workspace/projects/GSF-PKM");
 const MLIT_FALLBACK = path.join(root, "docs/verification/data/tokyo_mansion_stats_2025.json");
 const MLIT_PKM = path.join(PKM_ROOT, "PKM/30 Resources/tokyo_mansion_stats_2025.json");
 
